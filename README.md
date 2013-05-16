@@ -3,7 +3,7 @@ Web Specifications Reference Server
 
 [![Build Status](https://travis-ci.org/tobie/specref.png?branch=master)](https://travis-ci.org/tobie/specref)
 
-[![Nodejitsu Deploy Status Badges](https://webhooks.nodejitsu.com/nodejitsu/handbook.png)](https://webops.nodejitsu.com#nodejitsu/webhooks)
+[![Nodejitsu Deploy Status](https://webhooks.nodejitsu.com/tobie/specref.png)](https://webops.nodejitsu.com#tobie/specref)
 
 ## API
 

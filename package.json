@@ -12,6 +12,11 @@
     "mocha": "*"
   },
   "scripts": {
-    "test": "mocha -u tdd ./test/*.js"
+    "test": "mocha -u tdd ./test/*.js",
+    "start": "node index.js"
+  },
+  "subdomain": "tobie-specref",
+  "engines": {
+    "node": "0.8.x"
   }
 }
