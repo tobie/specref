@@ -1,6 +1,12 @@
-[![Nodejitsu Deploy Status Badges](https://webhooks.nodejitsu.com/nodejitsu/handbook.png)](https://webops.nodejitsu.com#nodejitsu/webhooks) [![Build Status](https://travis-ci.org/tobie/specref.png?branch=master)](https://travis-ci.org/tobie/specref)
-
 # Web Specifications Reference Server
+
+## Test status
+
+[![Build Status](https://travis-ci.org/tobie/specref.png?branch=master)](https://travis-ci.org/tobie/specref)
+
+## deployment status
+
+[![Nodejitsu Deploy Status Badges](https://webhooks.nodejitsu.com/nodejitsu/handbook.png)](https://webops.nodejitsu.com#nodejitsu/webhooks)
 
 ## API
 
@@ -62,7 +68,14 @@ For the cross-references DB:
 
 For the bibliographical references DB: 
 
-*   Please avoid using the `html` key as much as you possibly can. Only use it when relying on the split-out fields will simply not get close to accomplishing the reference you need. 
-*   When you want to update an existing reference, if you see that it uses the `html` style, please convert it to the split out variant (and delete the `html`). 
-*   References in this database are expected to be to the “latest and greatest” version of a given specification. In some cases this may be the draft residing in the editor's repository, or it may be the latest snapshot as published by a Working Group into TR — this choice is left to your appreciation. If you really, *really* want to have a reference to a dated version, then use an ID matching `REFID-YYYYMMDD`. 
+*   Please use structured objects instead of raw strings as much as you possibly can.
+*   When you want to update an existing reference, if you see that it uses the old string style, please convert it to a structured object. 
+*   References in this database are expected to be to the “latest and greatest” version of a given specification. In some cases this may be the draft residing in the editor's repository, or it may be the latest snapshot as published by a Working Group into TR — this choice is left to your appreciation. If you really, *really* want to have a reference to a dated version, then use the `previousVersions` property like so:
+    REFID: {
+        "previousVersions": {
+            "YYYYMMDD": {
+                  "href": "http://..."
+            }
+        }
+    }
 *   Keep the entries in alphabetical order. Try to indent them in roughly the same manner that others are.
