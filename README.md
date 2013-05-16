@@ -1,10 +1,6 @@
 # Web Specifications Reference Server
 
-## Test status
-
 [![Build Status](https://travis-ci.org/tobie/specref.png?branch=master)](https://travis-ci.org/tobie/specref)
-
-## deployment status
 
 [![Nodejitsu Deploy Status Badges](https://webhooks.nodejitsu.com/nodejitsu/handbook.png)](https://webops.nodejitsu.com#nodejitsu/webhooks)
 
@@ -71,7 +67,8 @@ For the bibliographical references DB:
 * Please use structured objects instead of raw strings as much as you possibly can.
 * When you want to update an existing reference, if you see that it uses the old string style, please convert it to a structured object. 
 * References in this database are expected to be to the “latest and greatest” version of a given specification. In some cases this may be the draft residing in the editor's repository, or it may be the latest snapshot as published by a Working Group into TR — this choice is left to your appreciation. If you really, *really* want to have a reference to a dated version, then use the `previousVersions` property like so:
-```json
+
+```js
 {
     "REFID": {
         "previousVersions": {
