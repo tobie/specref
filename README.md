@@ -45,7 +45,7 @@ If you need to find a reference ID (for either bibliographic or cross-references
 
 ## Updating & Adding
 
-You can make modifications to the databases simply by editing either `bibrefs.json` or `xrefs.json` in the GitHub repository at , using the format described in the previous section. 
+You can make modifications to the databases simply by editing either `biblio.json` or `xrefs.json` in the GitHub repository at, using the format described in the previous section. 
 
 In order to do so you can fork the project and make a pull request to update it, or you can ask to be added as a project collaborator (we're pretty open about that) in which case you'll be able to push changes directly (if you promise to be careful about conflicts and double-checking your JSON syntax). 
 
