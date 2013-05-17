@@ -48,11 +48,11 @@ If you need to find a reference ID (for either bibliographic or cross-references
 
 ## Updating & Adding
 
-You can make modifications to the databases simply by editing either `biblio.json` or `xrefs.json` in the GitHub repository at, using the format described in the previous section. 
+You can make modifications to the databases simply by editing either `biblio.json` or `xrefs.json` in the [GitHub repository](https://github.com/tobie/specref). 
 
-In order to do so you can fork the project and make a pull request to update it, or you can ask to be added as a project collaborator (we're pretty open about that) in which case you'll be able to push changes directly (if you promise to be careful about conflicts and double-checking your JSON syntax). 
+In order to do so you can fork the project and make a pull request to update it, or you can ask to be added as a project collaborator (we're pretty open about that) in which case you'll be able to push changes directly.
 
-Whenever a change is pushed to that repository it automatically gets synchronised to the service's database within a few seconds. 
+In both cases, all changes are automatically tested using [travis](https://travis-ci.org/tobie/specref/). If all tests pass, the changes are immediately (and automaitcally) deployed.
 
 Some rules to observe when editing the databases follow. 
 
