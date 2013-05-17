@@ -1,4 +1,4 @@
-SpecRef API
+Specref API
 ===========
 
 [![Build Status](https://travis-ci.org/tobie/specref.png?branch=master)](https://travis-ci.org/tobie/specref)
