@@ -74,7 +74,7 @@ app.get('/bibrefs', function (req, res, next) {
         });
         res.jsonp(data);
     } else {
-        res.jsonp(400, {error: "Missing a refs query param."});
+        res.jsonp(BIBREF);
     }
 });
 
@@ -88,7 +88,7 @@ app.get('/xrefs', function (req, res, next) {
         });
         res.jsonp(data);
     } else {
-        res.jsonp(400, {error: "Missing a refs query param."});
+        res.jsonp(XREFS);
     }
     
 });
