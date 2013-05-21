@@ -2631,6 +2631,9 @@
     "ITUMNC": "<cite>Mobile Network Codes (MNC) for The International Identification Plan for Public Networks and Subscriptions.</cite> International Telecommunication Union. 2009. URL: <a href='http://www.itu.int/publ/T-SP-E.212B-2009/en'>http://www.itu.int/publ/T-SP-E.212B-2009/en</a>",
     "JAX-RS": "M. Hadley and P. Sandoz, Eds., JAX-RS: Java API for RESTful Web Services Version 1.0. Sun Microsystems Inc., 08-Sep-2008.<a href=\"http://download.oracle.com/otn-pub/jcp/jaxrs-1.0-fr-eval-oth-JSpec/jaxrs-1.0-final-spec.pdf\"><cite>JAX-RS: Java API for RESTful Web Services Version 1.0</cite></a>",
     "JIGSAW": "Jigsaw Team (Yves Lafon &amp; Benoit Mahe). <a href=\"http://www.w3.org/Jigsaw/Doc/Programmer/design.html\"><cite>Jigsaw 2.0 internal design.</cite></a> July 1999. URL: <a href=\"http://www.w3.org/Jigsaw/Doc/Programmer/design.html\">http://www.w3.org/Jigsaw/Doc/Programmer/design.html</a> ",
+    "JINGLE": {
+        "aliasOf": "XEP-0166"
+    },
     "JIS4051": "<cite>Formatting rules for Japanese documents (&#12302;&#26085;&#26412;&#35486;&#25991;&#26360;&#12398;&#32068;&#29256;&#26041;&#27861;&#12303;).</cite> Japanese Standards Association. 2004. JIS X 4051:2004. In Japanese",
     "JISX4051": "<cite>Line composition rules for Japanese documents.</cite> Japanese Standards Association. 1995. JIS X 4051-1995. In Japanese",
     "JLREQ": {
@@ -7286,6 +7289,15 @@
         "date": "18 July 2007",
         "status": "WD",
         "publisher": "W3C"
+    },
+    "XEP-0166": {
+      "authors": ["Scott Ludwig", "Joe Beda", "Peter Saint-Andre", "Robert McQueen", "Sean Egan", "Joe Hildebrand"],
+      "date": "23 December 2009",
+      "href": "http://xmpp.org/extensions/xep-0166.html",
+      "publisher": "XMPP Standards Foundation",
+      "status": "Draft Standard",
+      "title": "XEP-0166: Jingle",
+      "etAl": true
     },
     "XFORMS-11-REQ": {
         "authors": [
