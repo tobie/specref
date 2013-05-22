@@ -35,7 +35,6 @@ app.configure(function(){
     app.use(cors());
     app.use(express.bodyParser());
     app.use(app.router);
-    app.use(express["static"](__dirname + '/public'));
 });
 
 app.configure('development', function(){
@@ -44,20 +43,6 @@ app.configure('development', function(){
 
 app.configure('production', function(){
     app.use(express.errorHandler());
-});
-
-// helper
-function refsForSource (refs, source) {
-    var data = {};
-    refs.forEach(function(ref) {
-        if (source[ref]) data[ref] = source[ref];
-    });
-    return data;
-}
-
-// index
-app.get('/', function (req, res, next) {
-    res.redirect("/index.html");
 });
 
 // bibrefs
@@ -92,6 +77,7 @@ app.get('/xrefs', function (req, res, next) {
     }
     
 });
+
 var port = process.env.PORT || 5000;
 app.listen(port, function () {
     console.log("Express server listening on port %d in %s mode", port, app.settings.env);
