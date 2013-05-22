@@ -15,6 +15,7 @@ function copyProps(src, dest) {
 Object.keys(BIBREF).forEach(function(ref) {
     var previousVersions = BIBREF[ref].previousVersions
     if (previousVersions) {
+        delete BIBREF[ref].previousVersions;
         Object.keys(previousVersions).forEach(function(subRef) {
             var previousVersion = previousVersions[subRef];
             if (previousVersion.aliasOf) {
@@ -22,11 +23,10 @@ Object.keys(BIBREF).forEach(function(ref) {
             } else {
                 var obj = {};
                 copyProps(BIBREF[ref], obj);
-                copyProps(previousVersion[subRef], obj);
+                copyProps(previousVersions[subRef], obj);
                 BIBREF[ref + '-' + subRef] = obj;
             }
         });
-        delete BIBREF[ref].previousVersions;
     }
 });
 
