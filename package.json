@@ -9,7 +9,8 @@
     "connect-cors": "*"
   },
   "devDependencies": {
-    "mocha": "*"
+    "mocha": "*",
+    "ent": "*"
   },
   "scripts": {
     "test": "mocha -u tdd ./test/*.js",

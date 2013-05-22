@@ -126,7 +126,7 @@
             "Jutta Treviranus"
         ],
         "href": "http://www.w3.org/TR/2001/WD-ATAG-wombat-20011221",
-        "title": "Authoring Tool Accessibility Guidelines &quot;Wombat&quot;",
+        "title": "Authoring Tool Accessibility Guidelines \"Wombat\"",
         "date": "21 December 2001",
         "status": "WD",
         "publisher": "W3C"
@@ -226,7 +226,7 @@
     "C14N-ISSUES": {
         "authors": [
             "Konrad Lanz",
-            "Jos&#233",
+            "José",
             "Kahan"
         ],
         "href": "http://www.w3.org/TR/2006/NOTE-C14N-issues-20061220",
@@ -268,21 +268,23 @@
         "title": "HTML Canvas 2D Context",
         "date": "17 December 2012",
         "status": "CR",
-        "publisher": "W3C"
-    },
-    "CANVAS-2D-20121217": {
-        "authors": [
-            "Rik Cabanier",
-            "Eliot Graff",
-            "Jay Munro",
-            "Tom Wiltzius",
-            "Ian Hickson"
-        ],
-        "href": "http://www.w3.org/TR/2012/CR-2dcontext-20121217",
-        "title": "HTML Canvas 2D Context",
-        "date": "17 December 2012",
-        "status": "CR",
-        "publisher": "W3C"
+        "publisher": "W3C",
+        "previousVersions": {
+            "20121217": {
+                "authors": [
+                    "Rik Cabanier",
+                    "Eliot Graff",
+                    "Jay Munro",
+                    "Tom Wiltzius",
+                    "Ian Hickson"
+                ],
+                "href": "http://www.w3.org/TR/2012/CR-2dcontext-20121217",
+                "title": "HTML Canvas 2D Context",
+                "date": "17 December 2012",
+                "status": "CR",
+                "publisher": "W3C"
+            }
+        }
     },
     "CC-ABOUT": "<a href = 'http://creativecommons.org/about/licenses/'><cite>Creative Commons: About Licenses</cite></a> URL: http://creativecommons.org/about/licenses/ ",
     "CC-CHOOSE": "<a href = 'http://creativecommons.org/choose/'><cite>Creative Commons: License Your Work</cite></a> URL: http://creativecommons.org/choose/ ",
@@ -322,7 +324,7 @@
     },
     "CCPP-STRUCT-VOCAB2": {
         "authors": [
-            "C&#233;dric Kiss"
+            "Cédric Kiss"
         ],
         "href": "http://www.w3.org/TR/2007/WD-CCPP-struct-vocab2-20070430",
         "title": "Composite Capability/Preference Profiles (CC/PP): Structure and Vocabularies 2.0",
@@ -410,7 +412,7 @@
     },
     "CHARMOD": {
         "authors": [
-            "Martin J. D&#252;rst"
+            "Martin J. Dürst"
         ],
         "etAl": true,
         "href": "http://www.w3.org/TR/2005/REC-charmod-20050215",
@@ -421,7 +423,7 @@
     },
     "CHARMOD-NORM": {
         "authors": [
-            "Martin J. D&#252;rst"
+            "Martin J. Dürst"
         ],
         "etAl": true,
         "href": "http://www.w3.org/TR/2005/WD-charmod-norm-20051027",
@@ -432,7 +434,7 @@
     },
     "CHARMOD-RESID": {
         "authors": [
-            "Fran&#231;ois Yergeau"
+            "François Yergeau"
         ],
         "etAl": true,
         "href": "http://www.w3.org/TR/2004/CR-charmod-resid-20041122",
@@ -443,7 +445,7 @@
     },
     "CHARREQ": {
         "authors": [
-            "Martin J. D&#252;rst"
+            "Martin J. Dürst"
         ],
         "href": "http://www.w3.org/TR/1998/WD-charreq-19980710",
         "title": "Requirements for String Identity Matching and String Indexing",
@@ -549,7 +551,7 @@
             "Amy Yu"
         ],
         "href": "http://www.w3.org/TR/2003/WD-cpc-req-20030510",
-        "title": "Core Presentation Characteristics:&#160;Requirements and Use Cases",
+        "title": "Core Presentation Characteristics: Requirements and Use Cases",
         "date": "10 May 2003",
         "status": "WD",
         "publisher": "W3C"
@@ -667,7 +669,7 @@
     },
     "CSS1": {
         "authors": [
-            "H&#229;kon Wium Lie",
+            "Håkon Wium Lie",
             "Bert Bos"
         ],
         "href": "http://www.w3.org/TR/2008/REC-CSS1-20080411",
@@ -688,18 +690,20 @@
         "title": "Cascading Style Sheets, level 2 (CSS2) Specification",
         "date": "07 June 2011",
         "status": "REC",
-        "publisher": "W3C"
-    },
-    "CSS21-20110607": {
-        "authors": [
-            "Bert Bos"
-        ],
-        "etAl": true,
-        "href": "http://www.w3.org/TR/2011/REC-CSS2-20110607/",
-        "title": "Cascading Style Sheets, level 2 (CSS2) Specification",
-        "date": "07 June 2011",
-        "status": "REC",
-        "publisher": "W3C"
+        "publisher": "W3C",
+        "previousVersions": {
+            "20110607": {
+                "authors": [
+                    "Bert Bos"
+                ],
+                "etAl": true,
+                "href": "http://www.w3.org/TR/2011/REC-CSS2-20110607/",
+                "title": "Cascading Style Sheets, level 2 (CSS2) Specification",
+                "date": "07 June 2011",
+                "status": "REC",
+                "publisher": "W3C"
+            }
+        }
     },
     "CSS3-2D-TRANSFORMS": "Simon Fraser; Dean Jackson; David Hyatt; Chris Marrin; Edward O'Connor. <a href=\"http://www.w3.org/TR/css3-2d-transforms/\"><cite>CSS 2D Transforms Module Level 3.</cite></a> URL: <a href=\"http://www.w3.org/TR/css3-2d-transforms/\">http://www.w3.org/TR/css3-2d-transforms/</a> ",
     "CSS3-3D-TRANSFORMS": "Dean Jackson; David Hyatt; Chris Marrin. <a href=\"http://www.w3.org/TR/css3-3d-transforms/\"><cite>CSS 3D Transforms Module Level 3.</cite></a> URL: <a href=\"http://www.w3.org/TR/css3-3d-transforms/\">http://www.w3.org/TR/css3-3d-transforms</a> ",
@@ -715,21 +719,23 @@
         "title": "CSS Animations",
         "date": "03 April 2012",
         "status": "WD",
-        "publisher": "W3C"
-    },
-    "CSS3-ANIMATIONS-20130219": {
-        "authors": [
-            "Dean Jackson",
-            "David Hyatt",
-            "Chris Marrin",
-            "Sylvain Galineau",
-            "L. David Baron"
-        ],
-        "href": "http://www.w3.org/TR/2013/WD-css3-animations-20130219/",
-        "title": "CSS Animations",
-        "date": "19 February 2013",
-        "status": "WD",
-        "publisher": "W3C"
+        "publisher": "W3C",
+        "previousVersions": {
+            "20130219": {
+                "authors": [
+                    "Dean Jackson",
+                    "David Hyatt",
+                    "Chris Marrin",
+                    "Sylvain Galineau",
+                    "L. David Baron"
+                ],
+                "href": "http://www.w3.org/TR/2013/WD-css3-animations-20130219/",
+                "title": "CSS Animations",
+                "date": "19 February 2013",
+                "status": "WD",
+                "publisher": "W3C"
+            }
+        }
     },
     "CSS3-BG": {
         "authors": [
@@ -741,19 +747,21 @@
         "title": "CSS Backgrounds and Borders Module Level 3",
         "date": "24 July 2012",
         "status": "CR",
-        "publisher": "W3C"
-    },
-    "CSS3-BG-20120724": {
-        "authors": [
-            "Bert Bos",
-            "Elika J. Etemad",
-            "Brad Kemper"
-        ],
-        "href": "http://www.w3.org/TR/2012/CR-css3-background-20120724/",
-        "title": "CSS Backgrounds and Borders Module Level 3",
-        "date": "24 July 2012",
-        "status": "CR",
-        "publisher": "W3C"
+        "publisher": "W3C",
+        "previousVersions": {
+            "20120724": {
+                "authors": [
+                    "Bert Bos",
+                    "Elika J. Etemad",
+                    "Brad Kemper"
+                ],
+                "href": "http://www.w3.org/TR/2012/CR-css3-background-20120724/",
+                "title": "CSS Backgrounds and Borders Module Level 3",
+                "date": "24 July 2012",
+                "status": "CR",
+                "publisher": "W3C"
+            }
+        }
     },
     "CSS3-CONDITIONAL-20121213": {
         "authors": [
@@ -773,34 +781,36 @@
         "title": "CSS Fonts Module Level 3",
         "date": "11 December 2012",
         "status": "WD",
-        "publisher": "W3C"
-    },
-    "CSS3-FONTS-20020802": {
-        "authors": [
-            "Michel Suignard",
-            "Chris Lilley"
-        ],
-        "href": "http://www.w3.org/TR/2002/WD-css3-fonts-20020802",
-        "title": "CSS3 module: Fonts",
-        "date": "2 August 2002",
-        "status": "WD",
-        "publisher": "W3C"
-    },
-    "CSS3-FONTS-20130212": {
-        "authors": [
-            "John Daggett"
-        ],
-        "href": "http://www.w3.org/TR/2013/WD-css3-fonts-20130212/",
-        "title": "CSS Fonts Module Level 3",
-        "date": "12 February 2013",
-        "status": "WD",
-        "publisher": "W3C"
+        "publisher": "W3C",
+        "previousVersions": {
+            "20020802": {
+                "authors": [
+                    "Michel Suignard",
+                    "Chris Lilley"
+                ],
+                "href": "http://www.w3.org/TR/2002/WD-css3-fonts-20020802",
+                "title": "CSS3 module: Fonts",
+                "date": "2 August 2002",
+                "status": "WD",
+                "publisher": "W3C"
+            },
+            "20130212": {
+                "authors": [
+                    "John Daggett"
+                ],
+                "href": "http://www.w3.org/TR/2013/WD-css3-fonts-20130212/",
+                "title": "CSS Fonts Module Level 3",
+                "date": "12 February 2013",
+                "status": "WD",
+                "publisher": "W3C"
+            }
+        }
     },
     "CSS3-HYPERLINKS": {
         "authors": [
             "Daniel Glazman",
             "Bert Bos",
-            "Tantek &#199;elik"
+            "Tantek Çelik"
         ],
         "href": "http://www.w3.org/TR/2004/WD-css3-hyperlinks-20040224",
         "title": "CSS3 Hyperlink Presentation Module",
@@ -817,18 +827,20 @@
         "title": "CSS Image Values and Replaced Content",
         "date": "17 April 2012",
         "status": "CR",
-        "publisher": "W3C"
-    },
-    "CSS3-IMAGES-20120417": {
-        "authors": [
-            "Elika J. Etemad",
-            "Tab Atkins Jr."
-        ],
-        "href": "http://www.w3.org/TR/2012/CR-css3-images-20120417",
-        "title": "CSS Image Values and Replaced Content",
-        "date": "17 April 2012",
-        "status": "CR",
-        "publisher": "W3C"
+        "publisher": "W3C",
+        "previousVersions": {
+            "20120417": {
+                "authors": [
+                    "Elika J. Etemad",
+                    "Tab Atkins Jr."
+                ],
+                "href": "http://www.w3.org/TR/2012/CR-css3-images-20120417",
+                "title": "CSS Image Values and Replaced Content",
+                "date": "17 April 2012",
+                "status": "CR",
+                "publisher": "W3C"
+            }
+        }
     },
     "CSS3-MARQUEE": {
         "authors": [
@@ -842,8 +854,8 @@
     },
     "CSS3-MEDIAQUERIES": {
         "authors": [
-            "H&#229;kon Wium Lie",
-            "Tantek &#199;elik",
+            "Håkon Wium Lie",
+            "Tantek Çelik",
             "Daniel Glazman",
             "Anne van Kesteren"
         ],
@@ -851,25 +863,27 @@
         "title": "Media Queries",
         "date": "19 June 2012",
         "status": "REC",
-        "publisher": "W3C"
-    },
-    "CSS3-MEDIAQUERIES-20120619": {
-        "authors": [
-            "H&#229;kon Wium Lie",
-            "Tantek &#199;elik",
-            "Daniel Glazman",
-            "Anne van Kesteren"
-        ],
-        "href": "http://www.w3.org/TR/2012/REC-css3-mediaqueries-20120619/",
-        "title": "Media Queries",
-        "date": "19 June 2012",
-        "status": "REC",
-        "publisher": "W3C"
+        "publisher": "W3C",
+        "previousVersions": {
+            "20120619": {
+                "authors": [
+                    "Håkon Wium Lie",
+                    "Tantek Çelik",
+                    "Daniel Glazman",
+                    "Anne van Kesteren"
+                ],
+                "href": "http://www.w3.org/TR/2012/REC-css3-mediaqueries-20120619/",
+                "title": "Media Queries",
+                "date": "19 June 2012",
+                "status": "REC",
+                "publisher": "W3C"
+            }
+        }
     },
     "CSS3-PRESLEV": {
         "authors": [
             "Ian Hickson",
-            "H&#229;kon Wium Lie"
+            "Håkon Wium Lie"
         ],
         "href": "http://www.w3.org/TR/2003/WD-css3-preslev-20030813",
         "title": "CSS3 module: Presentation Levels",
@@ -901,23 +915,25 @@
         "title": "CSS Transforms",
         "date": "11 September 2012",
         "status": "WD",
-        "publisher": "W3C"
-    },
-    "CSS3-TRANSFORMS-20120911": {
-        "authors": [
-            "Simon Fraser",
-            "Dean Jackson",
-            "David Hyatt",
-            "Chris Marrin",
-            "Edward O'Connor",
-            "Dirk Schulze",
-            "Aryeh Gregor"
-        ],
-        "href": "http://www.w3.org/TR/2012/WD-css3-transforms-20120911",
-        "title": "CSS Transforms",
-        "date": "11 September 2012",
-        "status": "WD",
-        "publisher": "W3C"
+        "publisher": "W3C",
+        "previousVersions": {
+            "20120911": {
+                "authors": [
+                    "Simon Fraser",
+                    "Dean Jackson",
+                    "David Hyatt",
+                    "Chris Marrin",
+                    "Edward O'Connor",
+                    "Dirk Schulze",
+                    "Aryeh Gregor"
+                ],
+                "href": "http://www.w3.org/TR/2012/WD-css3-transforms-20120911",
+                "title": "CSS Transforms",
+                "date": "11 September 2012",
+                "status": "WD",
+                "publisher": "W3C"
+            }
+        }
     },
     "CSS3-TRANSITIONS": {
         "authors": [
@@ -930,20 +946,22 @@
         "title": "CSS Transitions",
         "date": "03 April 2012",
         "status": "WD",
-        "publisher": "W3C"
-    },
-    "CSS3-TRANSITIONS-20130212": {
-        "authors": [
-            "Dean Jackson",
-            "David Hyatt",
-            "Chris Marrin",
-            "L. David Baron"
-        ],
-        "href": "http://www.w3.org/TR/2013/WD-css3-transitions-20130212/",
-        "title": "CSS Transitions",
-        "date": "12 February 2013",
-        "status": "WD",
-        "publisher": "W3C"
+        "publisher": "W3C",
+        "previousVersions": {
+            "20130212": {
+                "authors": [
+                    "Dean Jackson",
+                    "David Hyatt",
+                    "Chris Marrin",
+                    "L. David Baron"
+                ],
+                "href": "http://www.w3.org/TR/2013/WD-css3-transitions-20130212/",
+                "title": "CSS Transitions",
+                "date": "12 February 2013",
+                "status": "WD",
+                "publisher": "W3C"
+            }
+        }
     },
     "CSS3-WEBFONTS": {
         "authors": [
@@ -978,7 +996,7 @@
     },
     "CSS3CASCADE": {
         "authors": [
-            "H&#229;kon Wium Lie"
+            "Håkon Wium Lie"
         ],
         "href": "http://www.w3.org/TR/2005/WD-css3-cascade-20051215",
         "title": "CSS3 module: Cascading and inheritance",
@@ -994,17 +1012,19 @@
         "title": "CSS3 module: Multi-column layout",
         "date": "12 April 2011",
         "status": "CR",
-        "publisher": "W3C"
-    },
-    "CSS3COL-20110412": {
-        "authors": [
-            "Håkon Wium Lie"
-        ],
-        "href": "http://www.w3.org/TR/2011/CR-css3-multicol-20110412/",
-        "title": "CSS3 module: Multi-column layout",
-        "date": "12 April 2011",
-        "status": "CR",
-        "publisher": "W3C"
+        "publisher": "W3C",
+        "previousVersions": {
+            "20110412": {
+                "authors": [
+                    "Håkon Wium Lie"
+                ],
+                "href": "http://www.w3.org/TR/2011/CR-css3-multicol-20110412/",
+                "title": "CSS3 module: Multi-column layout",
+                "date": "12 April 2011",
+                "status": "CR",
+                "publisher": "W3C"
+            }
+        }
     },
     "CSS3COLOR": {
         "authors": [
@@ -1016,23 +1036,25 @@
         "title": "CSS Color Module Level 3",
         "date": "07 June 2011",
         "status": "REC",
-        "publisher": "W3C"
-    },
-    "CSS3COLOR-20110607": {
-        "authors": [
-            "Tantek Çelik",
-            "Chris Lilley",
-            "L. David Baron"
-        ],
-        "href": "http://www.w3.org/TR/2011/REC-css3-color-20110607/",
-        "title": "CSS Color Module Level 3",
-        "date": "07 June 2011",
-        "status": "REC",
-        "publisher": "W3C"
+        "publisher": "W3C",
+        "previousVersions": {
+            "20110607": {
+                "authors": [
+                    "Tantek Çelik",
+                    "Chris Lilley",
+                    "L. David Baron"
+                ],
+                "href": "http://www.w3.org/TR/2011/REC-css3-color-20110607/",
+                "title": "CSS Color Module Level 3",
+                "date": "07 June 2011",
+                "status": "REC",
+                "publisher": "W3C"
+            }
+        }
     },
     "CSS3GCPM": {
         "authors": [
-            "H&#229;kon Wium Lie"
+            "Håkon Wium Lie"
         ],
         "href": "http://www.w3.org/TR/2007/WD-css3-gcpm-20070504",
         "title": "CSS3 module: Generated Content for Paged Media",
@@ -1096,7 +1118,7 @@
     "CSS3LIST": {
         "authors": [
             "Ian Hickson",
-            "Tantek &#199;elik"
+            "Tantek Çelik"
         ],
         "href": "http://www.w3.org/TR/2002/WD-css3-lists-20021107",
         "title": "CSS3 module: Lists",
@@ -1121,7 +1143,7 @@
     "CSS3PAGE": {
         "authors": [
             "Melinda Grant",
-            "H&#229;kon Wium Lie"
+            "Håkon Wium Lie"
         ],
         "href": "http://www.w3.org/TR/2006/WD-css3-page-20061010",
         "title": "CSS3 Module: Paged Media",
@@ -1172,18 +1194,20 @@
         "title": "CSS Text Module Level 3",
         "date": "13 November 2012",
         "status": "WD",
-        "publisher": "W3C"
-    },
-    "CSS3TEXT-20121113": {
-        "authors": [
-            "Elika J. Etemad",
-            "Koji Ishii"
-        ],
-        "href": "http://www.w3.org/TR/2012/WD-css3-text-20121113/",
-        "title": "CSS Text Module Level 3",
-        "date": "13 November 2012",
-        "status": "WD",
-        "publisher": "W3C"
+        "publisher": "W3C",
+        "previousVersions": {
+            "20121113": {
+                "authors": [
+                    "Elika J. Etemad",
+                    "Koji Ishii"
+                ],
+                "href": "http://www.w3.org/TR/2012/WD-css3-text-20121113/",
+                "title": "CSS Text Module Level 3",
+                "date": "13 November 2012",
+                "status": "WD",
+                "publisher": "W3C"
+            }
+        }
     },
     "CSS3TEXTLAYOUT": "Elika J. Etemad; Paul Nelson. <cite>CSS3 Text Layout Module.</cite> (forthcoming). W3C Working Draft. (Work in progress.)",
     "CSS3UI": {
@@ -1194,21 +1218,23 @@
         "title": "CSS3 Basic User Interface Module",
         "date": "17 January 2012",
         "status": "WD",
-        "publisher": "W3C"
-    },
-    "CSS3UI-20120117": {
-        "authors": [
-            "Tantek Çelik"
-        ],
-        "href": "http://www.w3.org/TR/2012/WD-css3-ui-20120117/",
-        "title": "CSS3 Basic User Interface Module",
-        "date": "17 January 2012",
-        "status": "WD",
-        "publisher": "W3C"
+        "publisher": "W3C",
+        "previousVersions": {
+            "20120117": {
+                "authors": [
+                    "Tantek Çelik"
+                ],
+                "href": "http://www.w3.org/TR/2012/WD-css3-ui-20120117/",
+                "title": "CSS3 Basic User Interface Module",
+                "date": "17 January 2012",
+                "status": "WD",
+                "publisher": "W3C"
+            }
+        }
     },
     "CSS3VAL": {
         "authors": [
-            "H&#229;kon Wium Lie",
+            "Håkon Wium Lie",
             "Tab Atkin",
             "Elika J. Etemad"
         ],
@@ -1265,10 +1291,10 @@
         "authors": [
             "Marc Attinasi",
             "Bert Bos",
-            "Tantek &#199;elik"
+            "Tantek Çelik"
         ],
         "href": "http://www.w3.org/TR/2002/WD-css-style-attr-20020515",
-        "title": "Syntax of CSS rules in HTML's &quot;style&quot; attribute",
+        "title": "Syntax of CSS rules in HTML's \"style\" attribute",
         "date": "15 May 2002",
         "status": "WD",
         "publisher": "W3C"
@@ -1300,7 +1326,7 @@
     "CVE-2009-0217": "<a href=\"http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-0217\"><cite>Common Vulnerabilities and Exposures List, CVE-2009-0217</cite></a> URL: <a href=\"http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-0217\"> http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-0217</a>",
     "CX": {
         "authors": [
-            "Philippe Le H&#233;garet"
+            "Philippe Le Hégaret"
         ],
         "etAl": true,
         "href": "http://www.w3.org/TR/2001/NOTE-CX-20011211",
@@ -1396,7 +1422,7 @@
     "DCAT-UCR": "R. Cyganiak; F. Maali. <a href=\"http://dvcs.w3.org/hg/gld/raw-file/default/dcat-ucr/index.html\"><cite>Use Cases and Requirements for the Data Catalog Vocabulary</cite></a> 16 December 2012. W3C Editor's Draft. URL: <a href=\"http://dvcs.w3.org/hg/gld/raw-file/default/dcat-ucr/index.html\">http://dvcs.w3.org/hg/gld/raw-file/default/dcat-ucr/index.html</a>.",
     "DCONTOLOGY": {
         "authors": [
-            "Jos&#233",
+            "José",
             "Manuel Cantera Fonseca",
             "Rhys Lewis"
         ],
@@ -1430,7 +1456,7 @@
     },
     "DD-STRUCTURES": {
         "authors": [
-            "Jos&#233",
+            "José",
             "Manuel Cantera Fonseca"
         ],
         "href": "http://www.w3.org/TR/2008/WD-dd-structures-20081205",
@@ -1464,7 +1490,7 @@
     },
     "DDR-SIMPLE-API": {
         "authors": [
-            "Jos&#233",
+            "José",
             "Manuel Cantera Fonseca"
         ],
         "etAl": true,
@@ -1631,7 +1657,7 @@
         "authors": [
             "Arnaud Le Hors",
             "Johnny Stenback",
-            "Philippe Le H&#233;garet"
+            "Philippe Le Hégaret"
         ],
         "href": "http://www.w3.org/TR/2003/REC-DOM-Level-2-HTML-20030109",
         "title": "Document Object Model (DOM) Level 2 HTML Specification",
@@ -1642,7 +1668,7 @@
     "DOM-LEVEL-2-STYLE": {
         "authors": [
             "Vidur Apparao",
-            "Philippe Le H&#233;garet",
+            "Philippe Le Hégaret",
             "Chris Wilson"
         ],
         "href": "http://www.w3.org/TR/2000/REC-DOM-Level-2-Style-20001113",
@@ -1700,30 +1726,32 @@
             "Travis Leithead",
             "Jacob Rossi",
             "Doug Schepers",
-            "Bj&#246;rn H&#246;hrmann",
-            "Philippe Le H&#233;garet",
+            "Björn Höhrmann",
+            "Philippe Le Hégaret",
             "Tom Pixley"
         ],
         "href": "http://www.w3.org/TR/2012/WD-DOM-Level-3-Events-20120906",
         "title": "Document Object Model (DOM) Level 3 Events Specification",
         "date": "06 September 2012",
         "status": "WD",
-        "publisher": "W3C"
-    },
-    "DOM-LEVEL-3-EVENTS-20120906": {
-        "authors": [
-            "Travis Leithead",
-            "Jacob Rossi",
-            "Doug Schepers",
-            "Bj&#246;rn H&#246;hrmann",
-            "Philippe Le H&#233;garet",
-            "Tom Pixley"
-        ],
-        "href": "http://www.w3.org/TR/2012/WD-DOM-Level-3-Events-20120906",
-        "title": "Document Object Model (DOM) Level 3 Events Specification",
-        "date": "06 September 2012",
-        "status": "WD",
-        "publisher": "W3C"
+        "publisher": "W3C",
+        "previousVersions": {
+            "20120906": {
+                "authors": [
+                    "Travis Leithead",
+                    "Jacob Rossi",
+                    "Doug Schepers",
+                    "Björn Höhrmann",
+                    "Philippe Le Hégaret",
+                    "Tom Pixley"
+                ],
+                "href": "http://www.w3.org/TR/2012/WD-DOM-Level-3-Events-20120906",
+                "title": "Document Object Model (DOM) Level 3 Events Specification",
+                "date": "06 September 2012",
+                "status": "WD",
+                "publisher": "W3C"
+            }
+        }
     },
     "DOM-LEVEL-3-LS": {
         "authors": [
@@ -1904,7 +1932,7 @@
     "EGOV-IMPROVING": {
         "authors": [
             "Kevin Novak",
-            "Jos&#233",
+            "José",
             "M. Alonso"
         ],
         "href": "http://www.w3.org/TR/2009/WD-egov-improving-20090310",
@@ -1938,7 +1966,7 @@
     },
     "EMMAREQS": {
         "authors": [
-            "St&#233;phane H. Maes",
+            "Stéphane H. Maes",
             "Stephen Potter"
         ],
         "href": "http://www.w3.org/TR/2003/NOTE-EMMAreqs-20030113",
@@ -2056,7 +2084,7 @@
     },
     "FILTER-EFFECTS": {
         "authors": [
-            "Erik Dahlstr&#246;m",
+            "Erik Dahlström",
             "Dean Jackson",
             "Dirk Schulze"
         ],
@@ -2081,19 +2109,21 @@
         "title": "CSS Flexible Box Layout Module",
         "date": "18 September 2012",
         "status": "CR",
-        "publisher": "W3C"
-    },
-    "FLEXBOX-20120918": {
-        "authors": [
-            "Tab Atkins Jr",
-            "Elika J. Etemad",
-            "Alex Mogilevsky"
-        ],
-        "href": "http://www.w3.org/TR/2012/CR-css3-flexbox-20120918/",
-        "title": "CSS Flexible Box Layout Module",
-        "date": "18 September 2012",
-        "status": "CR",
-        "publisher": "W3C"
+        "publisher": "W3C",
+        "previousVersions": {
+            "20120918": {
+                "authors": [
+                    "Tab Atkins Jr",
+                    "Elika J. Etemad",
+                    "Alex Mogilevsky"
+                ],
+                "href": "http://www.w3.org/TR/2012/CR-css3-flexbox-20120918/",
+                "title": "CSS Flexible Box Layout Module",
+                "date": "18 September 2012",
+                "status": "CR",
+                "publisher": "W3C"
+            }
+        }
     },
     "FOAF": "Dan Brickley, Libby Miller. <a href=\"http://xmlns.com/foaf/spec/\"><cite>FOAF Vocabulary Specification 0.98.</cite></a> 9 August 2010. URL: <a href=\"http://xmlns.com/foaf/spec/\">http://xmlns.com/foaf/spec/</a>",
     "FULLSCREEN": {
@@ -2352,29 +2382,31 @@
         "title": "HTML5",
         "date": "17 December 2012",
         "status": "CR",
-        "publisher": "W3C"
-    },
-    "HTML5-20121025": {
-        "authors": [
-            "Ian Hickson",
-            "David Hyatt"
-        ],
-        "href": "http://www.w3.org/TR/2012/WD-html5-20121025/",
-        "title": "HTML5",
-        "date": "25 October 2012",
-        "status": "WD",
-        "publisher": "W3C"
-    },
-    "HTML5-20121217": {
-        "authors": [
-            "Robin Berjon"
-        ],
-        "etAl": true,
-        "href": "http://www.w3.org/TR/2012/CR-html5-20121217/",
-        "title": "HTML5.",
-        "date": "17 December 2012",
-        "status": "CR",
-        "publisher": "W3C"
+        "publisher": "W3C",
+        "previousVersions": {
+            "20121025": {
+                "authors": [
+                    "Ian Hickson",
+                    "David Hyatt"
+                ],
+                "href": "http://www.w3.org/TR/2012/WD-html5-20121025/",
+                "title": "HTML5",
+                "date": "25 October 2012",
+                "status": "WD",
+                "publisher": "W3C"
+            },
+            "20121217": {
+                "authors": [
+                    "Robin Berjon"
+                ],
+                "etAl": true,
+                "href": "http://www.w3.org/TR/2012/CR-html5-20121217/",
+                "title": "HTML5.",
+                "date": "17 December 2012",
+                "status": "CR",
+                "publisher": "W3C"
+            }
+        }
     },
     "HTML5-DIFF": {
         "authors": [
@@ -2478,7 +2510,7 @@
             "Richard Ishida"
         ],
         "href": "http://www.w3.org/TR/2004/WD-i18n-html-tech-char-20040509",
-        "title": "Authoring Techniques for XHTML &amp; HTML Internationalization: Characters and Encodings 1.0",
+        "title": "Authoring Techniques for XHTML & HTML Internationalization: Characters and Encodings 1.0",
         "date": "9 May 2004",
         "status": "WD",
         "publisher": "W3C"
@@ -2488,7 +2520,7 @@
             "Richard Ishida"
         ],
         "href": "http://www.w3.org/TR/2007/NOTE-i18n-html-tech-lang-20070412",
-        "title": "Internationalization Best Practices: Specifying Language in XHTML &amp; HTML Content",
+        "title": "Internationalization Best Practices: Specifying Language in XHTML & HTML Content",
         "date": "12 April 2007",
         "status": "NOTE",
         "publisher": "W3C"
@@ -2991,7 +3023,7 @@
     },
     "MMI-REQS": {
         "authors": [
-            "St&#233;phane H. Maes",
+            "Stéphane H. Maes",
             "Vijay Saraswat"
         ],
         "href": "http://www.w3.org/TR/2003/NOTE-mmi-reqs-20030108",
@@ -3359,7 +3391,7 @@
         "authors": [
             "Masahiro Hori",
             "Peter F. Patel-Schneider",
-            "J&#233;r&#244;me Euzenat"
+            "Jérôme Euzenat"
         ],
         "href": "http://www.w3.org/TR/2003/NOTE-owl-xmlsyntax-20030611",
         "title": "OWL Web Ontology Language XML Presentation Syntax",
@@ -3426,7 +3458,7 @@
     "OWL2-PRIMER": {
         "authors": [
             "Pascal Hitzler",
-            "Markus Kr&#246;tzsch",
+            "Markus Krötzsch",
             "Bijan Parsia",
             "Peter F. Patel-Schneider",
             "Sebastian Rudolph"
@@ -3691,17 +3723,19 @@
         "title": "HTML5 Web Messaging",
         "date": " 01 May 2012",
         "status": "CR",
-        "publisher": "W3C"
-    },
-    "POSTMSG-20120501": {
-        "authors": [
-            "Ian Hickson"
-        ],
-        "href": "http://www.w3.org/TR/2012/CR-webmessaging-20120501",
-        "title": "HTML5 Web Messaging",
-        "date": " 01 May 2012",
-        "status": "CR",
-        "publisher": "W3C"
+        "publisher": "W3C",
+        "previousVersions": {
+            "20120501": {
+                "authors": [
+                    "Ian Hickson"
+                ],
+                "href": "http://www.w3.org/TR/2012/CR-webmessaging-20120501",
+                "title": "HTML5 Web Messaging",
+                "date": " 01 May 2012",
+                "status": "CR",
+                "publisher": "W3C"
+            }
+        }
     },
     "POWDER-DR": {
         "authors": [
@@ -3793,7 +3827,7 @@
     },
     "PRINT": {
         "authors": [
-            "H&#229;kon Wium Lie",
+            "Håkon Wium Lie",
             "Robert Stevahn",
             "Stephen Waters"
         ],
@@ -3863,7 +3897,7 @@
         ],
         "etAl": true,
         "href": "http://www.w3.org/TR/2002/NOTE-qaframe-ops-extech-20021202",
-        "title": "QA Framework: Operational Examples &amp; Techniques",
+        "title": "QA Framework: Operational Examples & Techniques",
         "date": "2 December 2002",
         "status": "NOTE",
         "publisher": "W3C"
@@ -4243,7 +4277,7 @@
             "L. Masinter"
         ],
         "href": "http://www.ietf.org/rfc/rfc2397.txt",
-        "title": "The &quot;data&quot; URL scheme (RFC 2397)",
+        "title": "The \"data\" URL scheme (RFC 2397)",
         "date": "August 1998",
         "status": "RFC",
         "publisher": "IETF"
@@ -4431,7 +4465,7 @@
     },
     "RFC3987": {
         "authors": [
-            "M. D&#252;rst",
+            "M. Dürst",
             "M. Suignard"
         ],
         "href": "http://www.ietf.org/rfc/rfc3987.txt",
@@ -4475,7 +4509,7 @@
             "P. Frojdh"
         ],
         "href": "http://www.ietf.org/rfc/rfc4281.txt",
-        "title": "The Codecs Parameter for &quot;Bucket&quot; Media Types (RFC 4281)",
+        "title": "The Codecs Parameter for \"Bucket\" Media Types (RFC 4281)",
         "date": "November 2005",
         "status": "RFC",
         "publisher": "IETF"
@@ -4788,7 +4822,7 @@
         ],
         "etAl": true,
         "href": "http://www.w3.org/TR/ruby-use-cases/",
-        "title": "Use Cases &amp; Exploratory Approaches for Ruby Markup",
+        "title": "Use Cases & Exploratory Approaches for Ruby Markup",
         "date": "10 July 2012",
         "status": "WD",
         "publisher": "W3C"
@@ -4821,7 +4855,7 @@
             "Brahmananda Sapkota"
         ],
         "href": "http://www.w3.org/TR/2007/NOTE-sawsdl-guide-20070828",
-        "title": "Semantic Annotations for WSDL and XML Schema &#8212; Usage Guide",
+        "title": "Semantic Annotations for WSDL and XML Schema — Usage Guide",
         "date": "28 August 2007",
         "status": "NOTE",
         "publisher": "W3C"
@@ -4833,7 +4867,7 @@
             "Henry S. Thompson"
         ],
         "href": "http://www.w3.org/TR/1999/NOTE-schema-arch-19991007",
-        "title": "The Cambridge Communiqu&#233;",
+        "title": "The Cambridge Communiqué",
         "date": "7 October 1999",
         "status": "NOTE",
         "publisher": "W3C"
@@ -4850,7 +4884,7 @@
     },
     "SCXML": {
         "authors": [
-            "Torbj&#246;rn Lage"
+            "Torbjörn Lage"
         ],
         "etAl": true,
         "href": "http://www.w3.org/TR/2008/WD-scxml-20080516",
@@ -5089,7 +5123,7 @@
     "SOAP12-AF": {
         "authors": [
             "Henrik Frystyk Nielsen",
-            "Herv&#233",
+            "Hervé",
             "Ruellan"
         ],
         "href": "http://www.w3.org/TR/2004/NOTE-soap12-af-20040608",
@@ -5252,7 +5286,7 @@
     },
     "SPEC-VARIABILITY": {
         "authors": [
-            "Dominique Haza&#235;l-Massieux",
+            "Dominique Hazaël-Massieux",
             "Lynne Rosenthal"
         ],
         "href": "http://www.w3.org/TR/2005/NOTE-spec-variability-20050831",
@@ -5286,7 +5320,7 @@
     },
     "SPEECH-SYNTHESIS11": {
         "authors": [
-            "Zhi Wei Shuang (&#21452;&#24535;&#20255;)",
+            "Zhi Wei Shuang (双志伟)",
             "Daniel C. Burnett"
         ],
         "href": "http://www.w3.org/TR/2008/CR-speech-synthesis11-20081107",
@@ -5316,17 +5350,19 @@
         "title": "Server-Sent Events",
         "date": "11 December 2012",
         "status": "CR",
-        "publisher": "W3C"
-    },
-    "SSE-20121211": {
-        "authors": [
-            "Ian Hickson"
-        ],
-        "href": "http://www.w3.org/TR/2012/CR-eventsource-20121211/",
-        "title": "Server-Sent Events",
-        "date": "11 December 2012",
-        "status": "CR",
-        "publisher": "W3C"
+        "publisher": "W3C",
+        "previousVersions": {
+            "20121211": {
+                "authors": [
+                    "Ian Hickson"
+                ],
+                "href": "http://www.w3.org/TR/2012/CR-eventsource-20121211/",
+                "title": "Server-Sent Events",
+                "date": "11 December 2012",
+                "status": "CR",
+                "publisher": "W3C"
+            }
+        }
     },
     "SSE-ed": {
         "authors": [
@@ -5410,7 +5446,7 @@
     },
     "SVG11": {
         "authors": [
-            "Erik Dahlstr&#246;m"
+            "Erik Dahlström"
         ],
         "etAl": true,
         "href": "http://www.w3.org/TR/2011/REC-SVG11-20110816/",
@@ -5437,7 +5473,7 @@
             "Tavmjong Bah",
             "Brian Birtles",
             "Cyril Concolato",
-            "Erik Dahlstr&#246;m",
+            "Erik Dahlström",
             "Chris Lilley",
             "Cameron McCormack",
             "Dirk Schulze",
@@ -5462,7 +5498,7 @@
     },
     "SVGFILTER12": {
         "authors": [
-            "Erik Dahlstr&#246;m"
+            "Erik Dahlström"
         ],
         "href": "http://www.w3.org/TR/2007/WD-SVGFilter12-20070501",
         "title": "SVG Filters 1.2, Part 2: Language",
@@ -5472,7 +5508,7 @@
     },
     "SVGFILTERPRIMER12": {
         "authors": [
-            "Erik Dahlstr&#246;m"
+            "Erik Dahlström"
         ],
         "href": "http://www.w3.org/TR/2007/WD-SVGFilterPrimer12-20070501",
         "title": "SVG Filters 1.2, Part 1: Primer",
@@ -5482,7 +5518,7 @@
     },
     "SVGFILTERREQS12": {
         "authors": [
-            "Erik Dahlstr&#246;m"
+            "Erik Dahlström"
         ],
         "href": "http://www.w3.org/TR/2007/WD-SVGFilterReqs12-20070501",
         "title": "SVG Filter Requirements",
@@ -5646,7 +5682,7 @@
             "Alan Rector"
         ],
         "href": "http://www.w3.org/TR/2005/NOTE-swbp-specified-values-20050517",
-        "title": "Representing Specified Values in OWL: &quot;value partitions&quot; and &quot;value sets&quot;",
+        "title": "Representing Specified Values in OWL: \"value partitions\" and \"value sets\"",
         "date": "17 May 2005",
         "status": "NOTE",
         "publisher": "W3C"
@@ -5775,7 +5811,7 @@
     },
     "TIMEZONE": {
         "authors": [
-            "Martin D&#252;rst"
+            "Martin Dürst"
         ],
         "etAl": true,
         "href": "http://www.w3.org/TR/2005/NOTE-timezone-20051013",
@@ -5838,7 +5874,7 @@
             "Glenn Adams"
         ],
         "href": "http://www.w3.org/TR/2006/CR-ttaf1-dfxp-20061116",
-        "title": "Timed Text (TT) Authoring Format 1.0&#160;&#8211; Distribution Format Exchange Profile (DFXP)",
+        "title": "Timed Text (TT) Authoring Format 1.0 – Distribution Format Exchange Profile (DFXP)",
         "date": "16 November 2006",
         "status": "CR",
         "publisher": "W3C"
@@ -6046,7 +6082,7 @@
     "UNICODE-XML": {
         "authors": [
             "Asmus Freytag",
-            "Martin D&#252;rst"
+            "Martin Dürst"
         ],
         "href": "http://www.w3.org/TR/2007/NOTE-unicode-xml-20070516",
         "title": "Unicode in XML and other Markup Languages",
@@ -6595,17 +6631,19 @@
         "title": "Web Storage",
         "date": "09 April 2013",
         "status": "PR",
-        "publisher": "W3C"
-    },
-    "WEBSTORAGE-20111208": {
-        "authors": [
-            "Ian Hickson"
-        ],
-        "href": "http://www.w3.org/TR/2011/CR-webstorage-20111208",
-        "title": "Web Storage",
-        "date": "08 December 2011",
-        "status": "CR",
-        "publisher": "W3C"
+        "publisher": "W3C",
+        "previousVersions": {
+            "20111208": {
+                "authors": [
+                    "Ian Hickson"
+                ],
+                "href": "http://www.w3.org/TR/2011/CR-webstorage-20111208",
+                "title": "Web Storage",
+                "date": "08 December 2011",
+                "status": "CR",
+                "publisher": "W3C"
+            }
+        }
     },
     "WEBVTT": {
         "authors": [
@@ -6625,17 +6663,19 @@
         "title": "Web Workers",
         "date": "01 May 2012",
         "status": "CR",
-        "publisher": "W3C"
-    },
-    "WEBWORKERS-20120501": {
-        "authors": [
-            "Ian Hickson"
-        ],
-        "href": "http://www.w3.org/TR/2012/CR-workers-20120501",
-        "title": "Web Workers",
-        "date": "01 May 2012",
-        "status": "CR",
-        "publisher": "W3C"
+        "publisher": "W3C",
+        "previousVersions": {
+            "20120501": {
+                "authors": [
+                    "Ian Hickson"
+                ],
+                "href": "http://www.w3.org/TR/2012/CR-workers-20120501",
+                "title": "Web Workers",
+                "date": "01 May 2012",
+                "status": "CR",
+                "publisher": "W3C"
+            }
+        }
     },
     "WICD": {
         "authors": [
@@ -6739,19 +6779,21 @@
         "title": "WOFF File Format 1.0",
         "date": "13 December 2012",
         "status": "REC",
-        "publisher": "W3C"
-    },
-    "WOFF-20121213": {
-        "authors": [
-            "Jonathan Kew",
-            "Tal Leming",
-            "Erik van Blokland"
-        ],
-        "href": "http://www.w3.org/TR/2012/REC-WOFF-20121213/",
-        "title": "WOFF File Format 1.0",
-        "date": "13 December 2012",
-        "status": "REC",
-        "publisher": "W3C"
+        "publisher": "W3C",
+        "previousVersions": {
+            "20121213": {
+                "authors": [
+                    "Jonathan Kew",
+                    "Tal Leming",
+                    "Erik van Blokland"
+                ],
+                "href": "http://www.w3.org/TR/2012/REC-WOFF-20121213/",
+                "title": "WOFF File Format 1.0",
+                "date": "13 December 2012",
+                "status": "REC",
+                "publisher": "W3C"
+            }
+        }
     },
     "WORDNET-RDF": {
         "authors": [
@@ -6979,7 +7021,7 @@
     },
     "WS-POLICY": {
         "authors": [
-            "&#220;mit Yal&#231;inalp"
+            "Ümit Yalçinalp"
         ],
         "etAl": true,
         "href": "http://www.w3.org/TR/2007/REC-ws-policy-20070904",
@@ -6990,7 +7032,7 @@
     },
     "WS-POLICY-ATTACH": {
         "authors": [
-            "&#220;mit Yal&#231;inalp"
+            "Ümit Yalçinalp"
         ],
         "etAl": true,
         "href": "http://www.w3.org/TR/2007/REC-ws-policy-attach-20070904",
@@ -7408,7 +7450,7 @@
         ],
         "etAl": true,
         "href": "http://www.w3.org/TR/2000/REC-xhtml-basic-20001219",
-        "title": "XHTML&#8482; Basic",
+        "title": "XHTML™ Basic",
         "date": "19 December 2000",
         "status": "REC",
         "publisher": "W3C"
@@ -7419,7 +7461,7 @@
         ],
         "etAl": true,
         "href": "http://www.w3.org/TR/2008/REC-xhtml-basic-20080729",
-        "title": "XHTML&#8482; Basic 1.1",
+        "title": "XHTML™ Basic 1.1",
         "date": "29 July 2008",
         "status": "REC",
         "publisher": "W3C"
@@ -7451,7 +7493,7 @@
         ],
         "etAl": true,
         "href": "http://www.w3.org/TR/2004/WD-xhtml-modularization-20040218",
-        "title": "Modularization of XHTML&#8482; 1.0 - Second Edition",
+        "title": "Modularization of XHTML™ 1.0 - Second Edition",
         "date": "18 February 2004",
         "status": "WD",
         "publisher": "W3C"
@@ -7462,7 +7504,7 @@
         ],
         "etAl": true,
         "href": "http://www.w3.org/TR/2008/REC-xhtml-modularization-20081008",
-        "title": "XHTML&#8482; Modularization 1.1",
+        "title": "XHTML™ Modularization 1.1",
         "date": "8 October 2008",
         "status": "REC",
         "publisher": "W3C"
@@ -7472,7 +7514,7 @@
             "Shane McCarron"
         ],
         "href": "http://www.w3.org/TR/2010/REC-xhtml-modularization-20100729",
-        "title": "XHTML&#8482; Modularization 1.1 Second Edition",
+        "title": "XHTML™ Modularization 1.1 Second Edition",
         "date": "29 July 2010",
         "status": "REC",
         "publisher": "W3C"
@@ -7495,7 +7537,7 @@
             "Peter Stark"
         ],
         "href": "http://www.w3.org/TR/1999/WD-xhtml-prof-req-19990906",
-        "title": "XHTML&#8482; Document Profile Requirements",
+        "title": "XHTML™ Document Profile Requirements",
         "date": "6 September 1999",
         "status": "WD",
         "publisher": "W3C"
@@ -7572,7 +7614,7 @@
             "Steven Pemberton"
         ],
         "href": "http://www.w3.org/TR/2002/REC-xhtml1-20020801/",
-        "title": "XHTML&#8482; 1.0 The Extensible HyperText Markup Language (Second Edition)",
+        "title": "XHTML™ 1.0 The Extensible HyperText Markup Language (Second Edition)",
         "date": "1 August 2002",
         "status": "REC",
         "publisher": "W3C"
@@ -7583,7 +7625,7 @@
             "Shane McCarron"
         ],
         "href": "http://www.w3.org/TR/2001/REC-xhtml11-20010531",
-        "title": "XHTML&#8482; 1.1 - Module-based XHTML",
+        "title": "XHTML™ 1.1 - Module-based XHTML",
         "date": "31 May 2001",
         "status": "REC",
         "publisher": "W3C"
@@ -7594,7 +7636,7 @@
             "Shane McCarron"
         ],
         "href": "http://www.w3.org/TR/2007/WD-xhtml11-20070216",
-        "title": "XHTML&#8482; 1.1 - Module-based XHTML - Second Edition",
+        "title": "XHTML™ 1.1 - Module-based XHTML - Second Edition",
         "date": "16 February 2007",
         "status": "WD",
         "publisher": "W3C"
@@ -7605,7 +7647,7 @@
         ],
         "etAl": true,
         "href": "http://www.w3.org/TR/2006/WD-xhtml2-20060726",
-        "title": "XHTML&#8482; 2.0",
+        "title": "XHTML™ 2.0",
         "date": "26 July 2006",
         "status": "WD",
         "publisher": "W3C"
@@ -7647,7 +7689,7 @@
     "XKMS-PGP": {
         "authors": [
             "Tommy Lindberg",
-            "Jos&#233",
+            "José",
             "Kahan"
         ],
         "href": "http://www.w3.org/TR/2005/NOTE-xkms-pgp-20051219",
@@ -7972,7 +8014,7 @@
     },
     "XML-MEDIA-TYPES": {
         "authors": [
-            "&#220;mit Yal&#231;&#305;nalp",
+            "Ümit Yalçınalp",
             "Anish Karmarkar"
         ],
         "href": "http://www.w3.org/TR/2005/NOTE-xml-media-types-20050504/",
@@ -8304,12 +8346,12 @@
         "href": "http://www.nds.ruhr-uni-bochum.de/research/publications/breaking-xml-encryption/",
         "title": "How to Break XML Encryption",
         "date": "17-21 October 2011",
-        "status": "CCS&#8217;11, ACM"
+        "status": "CCS’11, ACM"
     },
     "XMLENC-CBC-ATTACK-COUNTERMEASURES": {
         "authors": [
             "Juraj Somorovsky",
-            "J&ouml;rg Schwenk"
+            "Jörg Schwenk"
         ],
         "href": "http://www.w3.org/2008/xmlsec/papers/xmlEncCountermeasuresW3C.pdf",
         "title": "Technical Analysis of Countermeasures against Attack on XML Encryption - or - Just Another Motivation for Authenticated Encryption",
@@ -8389,7 +8431,7 @@
             "Juraj Somorovsky"
         ],
         "href": "http://www.nds.rub.de/research/publications/breaking-xml-encryption-pkcs15.pdf",
-        "title": "Bleichenbacher&quot;s Attack Strikes Again: Breaking PKCS#1.5 in XML Encryption",
+        "title": "Bleichenbacher\"s Attack Strikes Again: Breaking PKCS#1.5 in XML Encryption",
         "date": "2012",
         "publisher": "In Proceedings of the 17th European Symposium on Research in Computer Security (ESO RICS)"
     },
@@ -8594,7 +8636,7 @@
     },
     "XMLSEC-DERIVEDKEYS": {
         "authors": [
-            "Magnus Nystr&#246;m"
+            "Magnus Nyström"
         ],
         "href": "http://www.w3.org/TR/2009/WD-xmlsec-derivedkeys-20090226/",
         "title": "XML Security Derived Keys",
@@ -8604,7 +8646,7 @@
     },
     "XMLSEC-GHCIPHERS": {
         "authors": [
-            "Magnus Nystr&#246;m",
+            "Magnus Nyström",
             "Frederick Hirsch"
         ],
         "href": "http://www.w3.org/TR/2013/NOTE-xmlsec-generic-hybrid-20130411/",
@@ -8770,7 +8812,7 @@
     "XPATH20REQ": {
         "authors": [
             "K. Karun",
-            "Mary F. Fern&#225;ndez",
+            "Mary F. Fernández",
             "Mark Scardina"
         ],
         "href": "http://www.w3.org/TR/2005/WD-xpath20req-20050603",
