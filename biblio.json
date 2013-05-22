@@ -1322,9 +1322,7 @@
         "status": "Lazy Daft (Work for progress)",
         "href": "http://berjon.com/",
         "previousVersions": {
-            "TEST1": {
-                
-            },
+            "TEST1": {},
             "TEST2": {
                 "href": "http://test.com"
             },
@@ -1583,13 +1581,6 @@
         "status": "RFC 6763",
         "publisher": "IETF"
     },
-    "DTMF": {
-      "date": "1 November 1988",
-      "href": "http://www.itu.int/rec/T-REC-Q.23/en",
-      "publisher": "International Telecommunication Union",
-      "status": "In force",
-      "title": "Q.23 : Technical features of push-button telephone sets"
-    },
     "DOM-BINDINGS": {
         "aliasOf": "WEBIDL"
     },
@@ -1834,6 +1825,13 @@
         "publisher": "W3C"
     },
     "DSS": "<a href=\"http://csrc.nist.gov/publications/fips/fips186-3/fips_186-3.pdf\"><cite>FIPS PUB 186-3:  Digital Signature Standard (DSS)</cite></a>. June 2009. U.S. Department of Commerce/National Institute of Standards and Technology. URL: <a href=\"http://csrc.nist.gov/publications/fips/fips186-3/fips_186-3.pdf\">http://csrc.nist.gov/publications/fips/fips186-3/fips_186-3.pdf</a>",
+    "DTMF": {
+        "date": "1 November 1988",
+        "href": "http://www.itu.int/rec/T-REC-Q.23/en",
+        "publisher": "International Telecommunication Union",
+        "status": "In force",
+        "title": "Q.23 : Technical features of push-button telephone sets"
+    },
     "EARL10-REQUIREMENTS": {
         "authors": [
             "Michael Squillace",
@@ -7292,13 +7290,20 @@
         "publisher": "W3C"
     },
     "XEP-0166": {
-      "authors": ["Scott Ludwig", "Joe Beda", "Peter Saint-Andre", "Robert McQueen", "Sean Egan", "Joe Hildebrand"],
-      "date": "23 December 2009",
-      "href": "http://xmpp.org/extensions/xep-0166.html",
-      "publisher": "XMPP Standards Foundation",
-      "status": "Draft Standard",
-      "title": "XEP-0166: Jingle",
-      "etAl": true
+        "authors": [
+            "Scott Ludwig",
+            "Joe Beda",
+            "Peter Saint-Andre",
+            "Robert McQueen",
+            "Sean Egan",
+            "Joe Hildebrand"
+        ],
+        "date": "23 December 2009",
+        "href": "http://xmpp.org/extensions/xep-0166.html",
+        "publisher": "XMPP Standards Foundation",
+        "status": "Draft Standard",
+        "title": "XEP-0166: Jingle",
+        "etAl": true
     },
     "XFORMS-11-REQ": {
         "authors": [
