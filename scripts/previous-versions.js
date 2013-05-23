@@ -1,4 +1,4 @@
-module.exports = function(k, obj, input, output) {
+module.exports = function(k, obj, input, output, cb) {
     var parts = k.split('-'),
         key = parts.pop(),
         base = input[parts.join('-')];
@@ -9,5 +9,6 @@ module.exports = function(k, obj, input, output) {
     } else {
         output[k] = obj;
     }
+    cb(null);
 }
 

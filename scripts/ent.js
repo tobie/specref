@@ -1,6 +1,6 @@
 var ent = require('ent');
 
-module.exports = function(key, obj, input, output) {
+module.exports = function(key, obj, input, output, cb) {
     if (typeof obj == "object") {
         Object.keys(obj).forEach(function(k) {
             var v = obj[k];
@@ -14,5 +14,6 @@ module.exports = function(key, obj, input, output) {
         });
     }
     output[key] = obj;
+    cb(null);
 };
 
