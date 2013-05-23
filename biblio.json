@@ -85,7 +85,16 @@
         "date": "August 2009"
     },
     "AGBDL": "Charles Jacobs; et al. <a href=\"http://grail.cs.washington.edu/pub/papers/Jacobs2003.pdf\">&ldquo;Adaptive Grid Based Document Layout&rdquo;</a> in: <cite>ACM Transactions on Graphics.</cite> 22. 3. pp. 838&#8211;847. July 2003. URL: <a href=\"http://grail.cs.washington.edu/pub/papers/Jacobs2003.pdf\">http://grail.cs.washington.edu/pub/papers/Jacobs2003.pdf</a> ",
-    "ALT-TECHNIQUES": "Steve Faulkner <a href=\"http://www.w3.org/TR/html-alt-techniques/\"><cite>HTML5: Techniques for providing useful text alternatives</cite></a>. W3C Working Draft. (Work in progress.) URL: <a href=\"http://www.w3.org/TR/html-alt-techniques/\">http://www.w3.org/TR/html-alt-techniques/</a> ",
+    "ALT-TECHNIQUES": {
+        "authors": [
+            "Steve Faulkner"
+        ],
+        "href": "http://www.w3.org/TR/html-alt-techniques/",
+        "title": "HTML5: Techniques for providing useful text alternatives",
+        "date": "25 October 2012",
+        "status": "WD",
+        "publisher": "W3C"
+    },
     "ANIMATION-TIMING": {
         "authors": [
             "James Robinson",
@@ -454,7 +463,12 @@
         "publisher": "W3C"
     },
     "CHARSETS": "<a href=\"http://www.iana.org/assignments/character-sets\"><cite>Characters sets.</cite></a> These are the official names for character sets that may be used in the Internet and may be referred to in Internet documentation URL: <a href=\"http://www.iana.org/assignments/character-sets\">http://www.iana.org/assignments/character-sets</a> ",
-    "CLABS-HNAPI": "<a href=\"http://www.w3.org/2011/webtv/HNTF/CableLabs_Revised_API_20110727-2.pdf\"><cite>CableLabs Revised Home Networking API</cite></a>. 26 July 2011. Draft proposal. URL: <a href=\"http://www.w3.org/2011/webtv/HNTF/CableLabs_Revised_API_20110727-2.pdf\">http://www.w3.org/2011/webtv/HNTF/CableLabs_Revised_API_20110727-2.pdf</a>",
+    "CLABS-HNAPI": {
+        "href": "http://www.w3.org/2011/webtv/HNTF/CableLabs_Revised_API_20110727-2.pdf",
+        "title": "CableLabs Revised Home Networking API",
+        "date": "26 July 2011",
+        "status": "Draft proposal"
+    },
     "CLIPBOARD-APIS": {
         "authors": [
             "Doug Schepers",
@@ -499,8 +513,26 @@
         "publisher": "W3C"
     },
     "CONSENT-EU-WP187": "WP189, <a href=\"http://ec.europa.eu/justice/policies/privacy/docs/wpdocs/2011/wp187_en.pdf\"><cite>Opinion 15/2011 on the definition of consent</cite></a>. EU Article 29 Data Protection Working Party, 01197/11/EN WP187. 13 July 2011. URL: <a href=\"http://ec.europa.eu/justice/policies/privacy/docs/wpdocs/2011/wp187_en.pdf\">http://ec.europa.eu/justice/policies/privacy/docs/wpdocs/2011/wp187_en.pdf</a>",
-    "CONTACTS-API": "R. Tibbett. <a href=\"http://dev.w3.org/2009/dap/contacts/Overview.html\"><cite>Contacts API</cite></a>. 3rd August 2010. W3C Latest Editor's Draft. (Work in progress.) URL: <a href=\"http://dev.w3.org/2009/dap/contacts/Overview.html\">http://dev.w3.org/2009/dap/contacts/Overview.html</a> ",
-    "CONTACTS-WRITER-API": "R. Tibbett. <a href=\"http://dev.w3.org/2009/dap/contacts/Writer.html\"><cite>Contacts Writer API</cite></a>. 3rd August 2010. W3C Latest Editor's Draft. (Work in progress.) URL: <a href=\"http://dev.w3.org/2009/dap/contacts/Writer.html\">http://dev.w3.org/2009/dap/contacts/Writer.html</a> ",
+    "CONTACTS-API": {
+        "authors": [
+            "R. Tibbett"
+        ],
+        "href": "http://dev.w3.org/2009/dap/contacts/Overview.html",
+        "title": "Contacts API",
+        "date": "3rd August 2010",
+        "status": "ED",
+        "publisher": "W3C"
+    },
+    "CONTACTS-WRITER-API": {
+        "authors": [
+            "R. Tibbett"
+        ],
+        "href": "http://dev.w3.org/2009/dap/contacts/Writer.html",
+        "title": "Contacts Writer API",
+        "date": "3rd August 2010",
+        "status": "ED",
+        "publisher": "W3C"
+    },
     "CONTENT-IN-RDF": {
         "authors": [
             "Carlos A Velasco",
@@ -705,8 +737,32 @@
             }
         }
     },
-    "CSS3-2D-TRANSFORMS": "Simon Fraser; Dean Jackson; David Hyatt; Chris Marrin; Edward O'Connor. <a href=\"http://www.w3.org/TR/css3-2d-transforms/\"><cite>CSS 2D Transforms Module Level 3.</cite></a> URL: <a href=\"http://www.w3.org/TR/css3-2d-transforms/\">http://www.w3.org/TR/css3-2d-transforms/</a> ",
-    "CSS3-3D-TRANSFORMS": "Dean Jackson; David Hyatt; Chris Marrin. <a href=\"http://www.w3.org/TR/css3-3d-transforms/\"><cite>CSS 3D Transforms Module Level 3.</cite></a> URL: <a href=\"http://www.w3.org/TR/css3-3d-transforms/\">http://www.w3.org/TR/css3-3d-transforms</a> ",
+    "CSS3-2D-TRANSFORMS": {
+        "authors": [
+            "Simon Fraser",
+            "Dean Jackson",
+            "David Hyatt",
+            "Chris Marrin",
+            "Edward O'Connor"
+        ],
+        "href": "http://www.w3.org/TR/css3-2d-transforms/",
+        "title": "CSS 2D Transforms Module Level 3",
+        "date": "11 September 2012",
+        "status": "WD",
+        "publisher": "W3C"
+    },
+    "CSS3-3D-TRANSFORMS": {
+        "authors": [
+            "Dean Jackson",
+            "David Hyatt",
+            "Chris Marrin"
+        ],
+        "href": "http://www.w3.org/TR/css3-3d-transforms/",
+        "title": "CSS 3D Transforms Module Level 3",
+        "date": "11 September 2012",
+        "status": "WD",
+        "publisher": "W3C"
+    },
     "CSS3-ANIMATIONS": {
         "authors": [
             "Dean Jackson",
@@ -1151,7 +1207,16 @@
         "status": "WD",
         "publisher": "W3C"
     },
-    "CSS3POS": "Bert Bos. <cite>CSS3 Positioning Module.</cite> (forthcoming). W3C Working Draft. (Work in progress.)",
+    "CSS3POS": {
+        "authors": [
+            "Bert Bos"
+        ],
+        "href": "",
+        "title": "CSS3 Positioning Module",
+        "date": "",
+        "status": "WD",
+        "publisher": "W3C"
+    },
     "CSS3RUBY": {
         "authors": [
             "Michel Suignard"
@@ -1184,7 +1249,17 @@
         "status": "WD",
         "publisher": "W3C"
     },
-    "CSS3TBL": "Bert Bos; David Hyatt. <cite>CSS3 Tables Module.</cite> (forthcoming). W3C Working Draft. (Work in progress.)",
+    "CSS3TBL": {
+        "authors": [
+            "Bert Bos",
+            "David Hyatt"
+        ],
+        "href": "http://dev.w3.org/csswg/css3-tables/",
+        "title": "CSS3 Tables Module",
+        "date": "13 November 2012",
+        "status": "ED",
+        "publisher": "W3C"
+    },
     "CSS3TEXT": {
         "authors": [
             "Elika J. Etemad",
@@ -1209,7 +1284,16 @@
             }
         }
     },
-    "CSS3TEXTLAYOUT": "Elika J. Etemad; Paul Nelson. <cite>CSS3 Text Layout Module.</cite> (forthcoming). W3C Working Draft. (Work in progress.)",
+    "CSS3TEXTLAYOUT": {
+        "authors": [
+            "Elika J. Etemad",
+            "Paul Nelson"
+        ],
+        "href": "",
+        "title": "CSS3 Text Layout Module",
+        "status": "WD",
+        "publisher": "W3C"
+    },
     "CSS3UI": {
         "authors": [
             "Tantek Çelik"
@@ -1256,7 +1340,17 @@
         "status": "ED",
         "publisher": "W3C"
     },
-    "CSS4-IMAGES": "Elika J. Etemad, Tab Atkins Jr. <a href=\"http://www.w3.org/TR/css4-images/\"><cite>CSS Image Values and Replaced Content Module Level 4</cite></a>. W3C Working Draft. (Work in progress.) URL: <a href=\"http://www.w3.org/TR/css4-images/\">http://www.w3.org/TR/css4-images/</a> ",
+    "CSS4-IMAGES": {
+        "authors": [
+            "Elika J. Etemad",
+            "Tab Atkins Jr."
+        ],
+        "href": "http://www.w3.org/TR/css4-images/",
+        "title": "CSS Image Values and Replaced Content Module Level 4",
+        "date": "11 September 2012",
+        "status": "WD",
+        "publisher": "W3C"
+    },
     "CSSBEIJING": {
         "authors": [
             "Elika J. Etemad"
@@ -1372,9 +1466,44 @@
             }
         }
     },
-    "DAP-ACCESS-REQS": "L. Arribas, P. Byers, M. Hanclik, F Hirsch, D. Rogers. <a href=\"http://dev.w3.org/2009/dap/policy-reqs/\"><cite>Device API Access Control Requirements</cite></a> 17 June 2010. (Work in progress.) URL: <a href=\"http://dev.w3.org/2009/dap/policy-reqs/\">http://dev.w3.org/2009/dap/policy-reqs/</a> ",
-    "DAP-POLICY-FRAMEWORK": "L. Arribas, P. Byers, M. Hanclik, F Hirsch, D. Rogers. <a href=\"http://dev.w3.org/2009/dap/policy/Framework.html\"><cite>Device API Policy Framework.</cite></a> 17 June 2010. (Work in progress.) URL: <a href=\"http://dev.w3.org/2009/dap/policy/Framework.html\">http://dev.w3.org/2009/dap/policy/Framework.html</a> ",
-    "DAP-PRIVACY-POSITION": "Frederick Hirsch, Robin Berjon. <a href=\"http://www.w3.org/2010/policy-ws/papers/14-Hirsch-Berjon-DAP.html\"><cite>Position Paper: Privacy and Policy in the DAP WG - A DAP Perspective</cite></a>. 2 September 2010. URL: <a href=\"http://www.w3.org/2010/policy-ws/papers/14-Hirsch-Berjon-DAP.html\">http://www.w3.org/2010/policy-ws/papers/14-Hirsch-Berjon-DAP.html</a> (<a href=\"http://www.w3.org/2010/policy-ws/\">W3C Workshop on Privacy and Data Usage Control</a>.)",
+    "DAP-ACCESS-REQS": {
+        "authors": [
+            "L. Arribas",
+            "P. Byers",
+            "M. Hanclik",
+            "F. Hirsch",
+            "D. Rogers"
+        ],
+        "href": "http://dev.w3.org/2009/dap/policy-reqs/",
+        "title": "Device API Access Control Requirements",
+        "date": "17 June 2010",
+        "status": "ED",
+        "publisher": "W3C"
+    },
+    "DAP-POLICY-FRAMEWORK": {
+        "authors": [
+            "L. Arribas",
+            "P. Byers",
+            "M. Hanclik",
+            "F. Hirsch",
+            "D. Rogers"
+        ],
+        "href": "http://dev.w3.org/2009/dap/policy/Framework.html",
+        "title": "Device API Policy Framework",
+        "date": "17 June 2010",
+        "status": "ED",
+        "publisher": "W3C"
+    },
+    "DAP-PRIVACY-POSITION": {
+        "authors": [
+            "Frederick Hirsch",
+            "Robin Berjon"
+        ],
+        "href": "http://www.w3.org/2010/policy-ws/papers/14-Hirsch-Berjon-DAP.html",
+        "title": "Position Paper: Privacy and Policy in the DAP WG - A DAP Perspective",
+        "date": "2 September 2010",
+        "publisher": "W3C"
+    },
     "DAP-PRIVACY-REQS": {
         "authors": [
             "Alissa Cooper",
@@ -1397,7 +1526,20 @@
         "date": "15 October 2009",
         "status": "Working Group Note"
     },
-    "DAP-XACML-POLICY-PROFILE": "L. Arribas, P. Byers, M. Hanclik, F Hirsch, D. Rogers. <a href=\"http://dev.w3.org/2009/dap/policy/Profile.html\"><cite>XACML Policy Profile for Device APIs.</cite></a> 17 June 2010. (Work in progress.) URL: <a href=\"http://dev.w3.org/2009/dap/policy/Profile.html\">http://dev.w3.org/2009/dap/policy/Profile.html</a> ",
+    "DAP-XACML-POLICY-PROFILE": {
+        "authors": [
+            "L. Arribas",
+            "P. Byers",
+            "M. Hanclik",
+            "F Hirsch",
+            "D. Rogers"
+        ],
+        "href": "http://dev.w3.org/2009/dap/policy/Profile.html",
+        "title": "XACML Policy Profile for Device APIs",
+        "date": "17 June 2010",
+        "status": "ED",
+        "publisher": "W3C"
+    },
     "Davis": "<a href=\"http://www.usenix.org/publications/library/proceedings/usenix01/davis.html\"><cite>Defective Sign &amp; Encrypt in S/MIME, PKCS#7, MOSS, PEM, PGP, and XML.</cite></a> D. Davis. USENIX Annual Technical Conference. 2001. URL: <a href=\"http://www.usenix.org/publications/library/proceedings/usenix01/davis.html\">http://www.usenix.org/publications/library/proceedings/usenix01/davis.html</a>",
     "DC-RDF": {
         "authors": [
@@ -1419,7 +1561,17 @@
         "date": "July 1999",
         "status": "Dublin Core recommendation"
     },
-    "DCAT-UCR": "R. Cyganiak; F. Maali. <a href=\"http://dvcs.w3.org/hg/gld/raw-file/default/dcat-ucr/index.html\"><cite>Use Cases and Requirements for the Data Catalog Vocabulary</cite></a> 16 December 2012. W3C Editor's Draft. URL: <a href=\"http://dvcs.w3.org/hg/gld/raw-file/default/dcat-ucr/index.html\">http://dvcs.w3.org/hg/gld/raw-file/default/dcat-ucr/index.html</a>.",
+    "DCAT-UCR": {
+        "authors": [
+            "R. Cyganiak",
+            "F. Maali."
+        ],
+        "href": "http://dvcs.w3.org/hg/gld/raw-file/default/dcat-ucr/index.html",
+        "title": "Use Cases and Requirements for the Data Catalog Vocabulary",
+        "date": "16 December 2012",
+        "status": "ED",
+        "publisher": "W3C"
+    },
     "DCONTOLOGY": {
         "authors": [
             "José",
@@ -2146,7 +2298,14 @@
         "status": "PR",
         "publisher": "W3C"
     },
-    "GEOLOCATION-PRIVACY": "Marcos Cáceres <a href=\"http://www.w3.org/2010/api-privacy-ws/papers/privacy-ws-21.pdf\"><cite>Privacy of Geolocation Implementations</cite></a>, \"W3C Workshop on Privacy for Advanced Web APIs\" paper, 12/13 July 2010. URL: <a href=\"http://www.w3.org/2010/api-privacy-ws/papers/privacy-ws-21.pdf\">http://www.w3.org/2010/api-privacy-ws/papers/privacy-ws-21.pdf</a>",
+    "GEOLOCATION-PRIVACY": {
+        "authors": [
+            "Marcos Cáceres"
+        ],
+        "href": "http://www.w3.org/2010/api-privacy-ws/papers/privacy-ws-21.pdf",
+        "title": "Privacy of Geolocation Implementations",
+        "date": "12/13 July 2010"
+    },
     "GEOPRIV-ARCH": "Barnes, R. Lepinski, M. Cooper, A. Morris, J. Tschofenig, H. Schulzrinne, H. <a href = 'http://tools.ietf.org/html/draft-ietf-geopriv-arch-01'><cite>An Architecture for Location and Location Privacy in Internet Applications</cite></a> 29 October 2009. URL: <a href=\"http://tools.ietf.org/html/draft-ietf-geopriv-arch-01\">http://tools.ietf.org/html/draft-ietf-geopriv-arch-01</a>",
     "GETUSERMEDIA": {
         "authors": [
@@ -2250,7 +2409,16 @@
         "status": "NOTE",
         "publisher": "W3C"
     },
-    "HIGHRES-TIME": "Jatinder Mann. <a href=\"http://dvcs.w3.org/hg/webperf/raw-file/tip/specs/HighResolutionTime/Overview.html\"><cite>High Resolution Time Specification</cite> Editors Draft, Oct 18 2012. URL: <a href=\"http://dvcs.w3.org/hg/webperf/raw-file/tip/specs/HighResolutionTime/Overview.html\">http://dvcs.w3.org/hg/webperf/raw-file/tip/specs/HighResolutionTime/Overview.html</a>",
+    "HIGHRES-TIME": {
+        "authors": [
+            "Jatinder Mann"
+        ],
+        "href": "http://dvcs.w3.org/hg/webperf/raw-file/tip/specs/HighResolutionTime/Overview.html",
+        "title": "High Resolution Time Specification",
+        "date": "18 October 2012",
+        "status": "ED",
+        "publisher": "W3C"
+    },
     "HLINK": {
         "authors": [
             "Steven Pemberton",
@@ -2661,7 +2829,14 @@
     "ITUMCC": "<cite>List of Mobile Countries or Geographical Region Codes.</cite> International Telecommunication Union. 2007. URL: <a href='http://www.itu.int/publ/T-SP-E.212A-2007/en'>http://www.itu.int/publ/T-SP-E.212A-2007/en</a>",
     "ITUMNC": "<cite>Mobile Network Codes (MNC) for The International Identification Plan for Public Networks and Subscriptions.</cite> International Telecommunication Union. 2009. URL: <a href='http://www.itu.int/publ/T-SP-E.212B-2009/en'>http://www.itu.int/publ/T-SP-E.212B-2009/en</a>",
     "JAX-RS": "M. Hadley and P. Sandoz, Eds., JAX-RS: Java API for RESTful Web Services Version 1.0. Sun Microsystems Inc., 08-Sep-2008.<a href=\"http://download.oracle.com/otn-pub/jcp/jaxrs-1.0-fr-eval-oth-JSpec/jaxrs-1.0-final-spec.pdf\"><cite>JAX-RS: Java API for RESTful Web Services Version 1.0</cite></a>",
-    "JIGSAW": "Jigsaw Team (Yves Lafon &amp; Benoit Mahe). <a href=\"http://www.w3.org/Jigsaw/Doc/Programmer/design.html\"><cite>Jigsaw 2.0 internal design.</cite></a> July 1999. URL: <a href=\"http://www.w3.org/Jigsaw/Doc/Programmer/design.html\">http://www.w3.org/Jigsaw/Doc/Programmer/design.html</a> ",
+    "JIGSAW": {
+        "authors": [
+            "Jigsaw Team (Yves Lafon & Benoit Mahe)"
+        ],
+        "href": "http://www.w3.org/Jigsaw/Doc/Programmer/design.html",
+        "title": "Jigsaw 2.0 internal design",
+        "date": "July 1999"
+    },
     "JINGLE": {
         "aliasOf": "XEP-0166"
     },
@@ -2678,7 +2853,15 @@
         "status": "WD",
         "publisher": "W3C"
     },
-    "JPEG": "Hamilton, Eric. <a href=\"http://www.w3.org/Graphics/JPEG/jfif3.pdf\"><cite>JPEG File Interchange Format.</cite></a> Sep 1992. URL: <a href=\"http://www.w3.org/Graphics/JPEG/jfif3.pdf\">http://www.w3.org/Graphics/JPEG/jfif3.pdf</a> C-Cube Microsystems. Milpitas, CA, USA.",
+    "JPEG": {
+        "authors": [
+            "Eric Hamilton"
+        ],
+        "href": "http://www.w3.org/Graphics/JPEG/jfif3.pdf",
+        "title": "JPEG File Interchange Format",
+        "date": "Sep 1992",
+        "publisher": "C-Cube Microsystems. Milpitas, CA, USA."
+    },
     "JPEG2000": {
         "authors": [
             "Joint Photographers Expert Group (JPEG)"
@@ -2772,7 +2955,16 @@
         "status": "WD",
         "publisher": "W3C"
     },
-    "LIC-PRIV": "Robin Berjon. <a href='http://dev.w3.org/2009/dap/docs/privacy-license.html'><cite>License-based Privacy: Technical Aspects.</cite></a> 19 April 2010. W3C-Internal Document. URL: <a href='http://dev.w3.org/2009/dap/docs/privacy-license.html'>http://dev.w3.org/2009/dap/docs/privacy-license.html</a> ",
+    "LIC-PRIV": {
+        "authors": [
+            "Robin Berjon"
+        ],
+        "href": "http://dev.w3.org/2009/dap/docs/privacy-license.html",
+        "title": "License-based Privacy: Technical Aspects",
+        "date": "19 April 2010",
+        "status": "W3C-Internal Document",
+        "publisher": "W3C"
+    },
     "LINKED-DATA": {
         "authors": [
             "Tim Berners-Lee"
@@ -2906,7 +3098,19 @@
         "status": "RFC 6762",
         "publisher": "IETF"
     },
-    "MEDIA-ANNOT-REQS": "WonSuk Lee; Felix Sasaki; Tobias B&#252;rger; V&eacute;ronique Malais&eacute;. <a href=\"http://www.w3.org/TR/2010/WD-media-annot-reqs-20100121/\"><cite>Use Cases and Requirements for Ontology and API for Media Object 1.0.</cite></a>W3C Working Draft 21 January 2010. URL: <a href=\"http://www.w3.org/TR/2010/WD-media-annot-reqs-20100121/\">http://www.w3.org/TR/2010/WD-media-annot-reqs-20100121/</a> ",
+    "MEDIA-ANNOT-REQS": {
+        "authors": [
+            "WonSuk Lee",
+            "Felix Sasaki",
+            "Tobias Bürger",
+            "Véronique Malaisé"
+        ],
+        "href": "http://www.w3.org/TR/2010/WD-media-annot-reqs-20100121/",
+        "title": "Use Cases and Requirements for Ontology and API for Media Object 1.0",
+        "date": "21 January 2010",
+        "status": "WD",
+        "publisher": "W3C"
+    },
     "MEDIA-FRAGMENT": {
         "authors": [
             "R. Troncy",
@@ -2919,8 +3123,30 @@
         "status": "REC",
         "publisher": "W3C"
     },
-    "MEDIA-FRAGMENTS": "Raphael Troncy; Erik Mannens; Silvia Pfeiffer and Davy Van Deursen. <a href=\"http://www.w3.org/TR/2011/WD-media-frags-20110317/\"><cite>Media Fragments URI 1.0</a>. W3C Working Draft 17 March 2011.</cite> URL: <a href=\"http://www.w3.org/TR/2011/WD-media-frags-20110317/\">http://www.w3.org/TR/2011/WD-media-frags-20110317/</a> ",
-    "MEDIA-FRAGMENTS-REQS": "Raphael Troncy; Erik Mannens. <a href=\"http://www.w3.org/TR/2009/WD-media-frags-reqs-20091217\"><cite>Use cases and requirements for Media Fragments</a>. W3C Working Draft 17 December 2009.</cite> URL: <a href=\"http://www.w3.org/TR/2009/WD-media-frags-reqs-20091217\">http://www.w3.org/TR/2009/WD-media-frags-reqs-20091217</a> ",
+    "MEDIA-FRAGMENTS": {
+        "authors": [
+            "Raphael Troncy",
+            "Erik Mannens",
+            "Silvia Pfeiffer",
+            "Davy Van Deursen"
+        ],
+        "href": "http://www.w3.org/TR/2011/WD-media-frags-20110317/",
+        "title": "Media Fragments URI 1.0",
+        "date": "17 March 2011",
+        "status": "WD",
+        "publisher": "W3C"
+    },
+    "MEDIA-FRAGMENTS-REQS": {
+        "authors": [
+            "Raphael Troncy",
+            "Erik Mannens"
+        ],
+        "href": "http://www.w3.org/TR/2009/WD-media-frags-reqs-20091217",
+        "title": "Use cases and requirements for Media Fragments",
+        "date": "17 December 2009",
+        "status": "WD",
+        "publisher": "W3C"
+    },
     "MEDIA-FRAGS-20120925": {
         "authors": [
             "Raphaël Troncy"
@@ -2944,7 +3170,18 @@
         "status": "WD",
         "publisher": "W3C"
     },
-    "MEDIACAPTURE-API": "Dzung D Tran; Ilkka Oksanen; Ingmar Kliche. <a href='http://dev.w3.org/2009/dap/camera/Overview-API.html'><cite>The Media Capture API</cite></a> 3 September 2010. W3C Editors Draft. (Work in progress.) URL: <a href='http://dev.w3.org/2009/dap/camera/Overview-API.html'>http://dev.w3.org/2009/dap/camera/Overview-API.html</a> ",
+    "MEDIACAPTURE-API": {
+        "authors": [
+            "Dzung D Tran",
+            "Ilkka Oksanen",
+            "Ingmar Kliche"
+        ],
+        "href": "http://dev.w3.org/2009/dap/camera/Overview-API.html",
+        "title": "The Media Capture API",
+        "date": "3 September 2010",
+        "status": "ED",
+        "publisher": "W3C"
+    },
     "MEDIAONT": {
         "authors": [
             "WonSuk Lee",
@@ -2968,10 +3205,51 @@
         "status": "WD",
         "publisher": "W3C"
     },
-    "MEDIAQ": "Håkon Wium Lie; et al. <a href=\"http://www.w3.org/TR/2009/CR-css3-mediaqueries-20090915/\"><cite>Media Queries.</cite></a>. W3C Candidate Recommendation. (Work in progress.) URL: <a href=\"http://www.w3.org/TR/2009/CR-css3-mediaqueries-20090915/\">http://www.w3.org/TR/2009/CR-css3-mediaqueries-20090915/</a> ",
-    "MESSAGING-API": "Suresh Chitturi, Daniel Coloma, Max Froumentin, Maria Angeles Oteo, Niklas Widell. <a href='http://dev.w3.org/2009/dap/messaging/'><cite>The Messaging API.</cite></a> 23 August 2010. W3C Editors' Draft. (Work in progress.) URL: <a href='http://dev.w3.org/2009/dap/messaging/'>http://dev.w3.org/2009/dap/messaging/</a>",
-    "MICRODATA": "<cite><a href=\"http://www.w3.org/TR/2012/WD-microdata-20120329/\">HTML Microdata</a></cite> Ian Hickson Editor. W3C Working Draft. (Work in progress). 29 March 2012. This edition of the HTML Microdata specification is http://www.w3.org/TR/2012/WD-microdata-20120329/. The <a href=\"http://www.w3.org/TR/microdata/\">latest edition of HTML Microdata</a> is available at http://www.w3.org/TR/microdata/",
-    "MICRODATA-RDF": "<cite><a href=\"http://www.w3.org/TR/2012/NOTE-microdata-rdf-20120308/\">Microdata to RDF</a></cite> Gregg Kellogg Editor. W3C Note. 08 March 2012. This edition of the HTML Microdata specification is http://www.w3.org/TR/2012/NOTE-microdata-rdf-20120308/. The <a href=\"http://www.w3.org/TR/microdata-rdf/\">latest edition of HTML Microdata</a> is available at http://www.w3.org/TR/microdata-rdf/",
+    "MEDIAQ": {
+        "authors": [
+            "Håkon Wium Lie"
+        ],
+        "etAl": true,
+        "href": "http://www.w3.org/TR/2009/CR-css3-mediaqueries-20090915/",
+        "title": "Media Queries",
+        "date": "15 September 2009",
+        "status": "CR",
+        "publisher": "W3C"
+    },
+    "MESSAGING-API": {
+        "authors": [
+            "Suresh Chitturi",
+            "Daniel Coloma",
+            "Max Froumentin",
+            "Maria Angeles Oteo",
+            "Niklas Widell"
+        ],
+        "href": "http://dev.w3.org/2009/dap/messaging/",
+        "title": "The Messaging API",
+        "date": "23 August 2010",
+        "status": "ED",
+        "publisher": "W3C"
+    },
+    "MICRODATA": {
+        "authors": [
+            "Ian Hickson"
+        ],
+        "href": "http://www.w3.org/TR/2012/WD-microdata-20120329/",
+        "title": "HTML Microdata",
+        "date": "29 March 2012",
+        "status": "WD",
+        "publisher": "W3C"
+    },
+    "MICRODATA-RDF": {
+        "authors": [
+            "Gregg Kellogg"
+        ],
+        "href": "http://www.w3.org/TR/2012/NOTE-microdata-rdf-20120308/",
+        "title": "Microdata to RDF",
+        "date": "8 March 2012",
+        "status": "NOTE",
+        "publisher": "W3C"
+    },
     "MICROFORMATS": "<a href='http://microformats.org'><cite>Microformats</cite></a>. URL: <a href='http://microformats.org'>http://microformats.org</a> ",
     "MIDI": "<a href=\"http://www.midi.org/techspecs/index.php\"><cite>Musical Instrument Digital Interface (MIDI)</cite></a> November 2001. MIDI Manufacturers Association. Complete MIDI 1.0 Detailed Specification ISBN 0-9728831-0-X URL: <a href=\"http://www.midi.org/techspecs/index.php\">http://www.midi.org/techspecs/index.php</a>",
     "MIME-ENC": {
@@ -3399,7 +3677,19 @@
         "status": "NOTE",
         "publisher": "W3C"
     },
-    "OWL2-CONFORMANCE": "Michael Smith; Ian Horrocks; Markus Krötzsch; Birte Glimm. <a href=\"http://www.w3.org/TR/2009/REC-owl2-conformance-20091027/\"><cite>OWL 2 Web Ontology Language:Conformance.</cite></a> 27 October 2009. W3C Recommendation.  URL: <a href=\"http://www.w3.org/TR/2009/REC-owl2-conformance-20091027/\">http://www.w3.org/TR/2009/REC-owl2-conformance-20091027/</a> ",
+    "OWL2-CONFORMANCE": {
+        "authors": [
+            "Michael Smith",
+            "Ian Horrocks",
+            "Markus Krötzsch",
+            "Birte Glimm"
+        ],
+        "href": "http://www.w3.org/TR/2009/REC-owl2-conformance-20091027/",
+        "title": "OWL 2 Web Ontology Language:Conformance",
+        "date": "27 October 2009",
+        "status": "REC",
+        "publisher": "W3C"
+    },
     "OWL2-DIRECT-SEMANTICS": {
         "authors": [
             "Boris Motik",
@@ -3665,7 +3955,14 @@
         "publisher": "IETF"
     },
     "PKCS5Amd1": "<a href=\"ftp://ftp.rsasecurity.com/pub/pkcs/pkcs-5v2/pkcs-5v2-0a1.pdf\"><cite>PKCS #5 v2.0 Amendment 1: XML Schema for Password-Based Cryptography</cite></a> RSA Laboratories, March 2007. URL: <a href=\"ftp://ftp.rsasecurity.com/pub/pkcs/pkcs-5v2/pkcs-5v2-0a1.pdf\">ftp://ftp.rsasecurity.com/pub/pkcs/pkcs-5v2/pkcs-5v2-0a1.pdf</a>",
-    "PLING-WIKI": "Policy Languages Interest Group (PLING). <a href=\"http://www.w3.org/Policy/pling/\"><cite>PLING Wiki.</cite></a> URL: <a href=\"http://www.w3.org/Policy/pling/\">http://www.w3.org/Policy/pling/</a> ",
+    "PLING-WIKI": {
+        "authors": [
+            "Policy Languages Interest Group (PLING)"
+        ],
+        "href": "http://www.w3.org/Policy/pling/",
+        "title": "PLING Wiki",
+        "publisher": "W3C"
+    },
     "PNG2e": {
         "authors": [
             "David Duce"
@@ -3851,7 +4148,7 @@
     "PRIV-ICONSET": "Mehldau, M. <a href = 'http://asset.netzpolitik.org/wp-upload/data-privacy-icons-v01.pdf'><cite>Iconset for Data-Privacy Declarations v0.1</cite></a> URL: http://www.netzpolitik.org/wp-upload/data-privacy-icons-v01.pdf ",
     "PRIV-LABEL": "Kelley, P. Bresse, J. Cranor, L. Reeder, R. <a href ='http://cups.cs.cmu.edu/soups/2009/proceedings/a4-kelley.pdf'><cite>A 'Nutrition Label' for Privacy</cite></a> 10 November 2009. Carnegie Mellon University. URL: http://cups.cs.cmu.edu/soups/2009/proceedings/a4-kelley.pdf ",
     "PRIVACY-BY-DESIGN": "Ann Cavoukian, PhD. <a href='http://www.ipc.on.ca/images/Resources/7foundationalprinciples.pdf'><cite>Privacy By Design: The 7 Foundational Principles</cite></a>. August 2009, revised January 2011. URL: <a href='http://www.ipc.on.ca/images/Resources/7foundationalprinciples.pdf'>http://www.ipc.on.ca/images/Resources/7foundationalprinciples.pdf</a>",
-    "PRIVACY-ISSUES-GEO": "Doty, N. Mulligan, D. Wilde, E. <a href='http://escholarship.org/uc/item/0rp834wf'><cite>Privacy Issues of the W3C Geolocation API</cite></a>. UC Berkeley School of Information. 24 February 2010. URL: http://escholarship.org/uc/item/0rp834wf ",
+    "PRIVACY-ISSUES-GEO": "Doty, N. Mulligan, D. Wilde, E. <a href='http://escholarship.org/uc/item/0rp834wf'><cite>Privacy Issues of the W3C Geolocation API</cite></a>. UC Berkeley School of Information. 24 February 2010. URL: http://escholarship.org/uc/item/0rp834wf",
     "PRIVACY-TERMINOLOGY": "A. Pfitzmann, M. Hansen, H Tschofenig. <a href=\"http://tools.ietf.org/id/draft-hansen-privacy-terminology-00.html\"><cite>Terminology for Talking about Privacy by Data Minimization: Anonymity, Unlinkability, Undetectability, Unobservability, Pseudonymity, and Identity Management</cite></a> IETF Internet Draft. URL: <a hre\"http://tools.ietf.org/id/draft-hansen-privacy-terminology-00.html\">http://tools.ietf.org/id/draft-hansen-privacy-terminology-00.html</a>",
     "PROC-MODEL-REQ": {
         "authors": [
@@ -4951,8 +5248,27 @@
         "status": "PR",
         "publisher": "W3C"
     },
-    "SELECTORS-API2": "Lachlan Hunt. <a href=\"http://www.w3.org/TR/selectors-api2/\">Selectors API Level 2</a>. 19 January 2010. Working Draft. (Work in progress.) URL: <a href=\"http://www.w3.org/TR/selectors-api2/\">http://www.w3.org/TR/selectors-api2/</a>",
-    "SELECTORS-LEVEL-3": "Daniel Glazman; et al. <a href=\"http://www.w3.org/TR/2011/REC-css3-selectors-20110929\"><cite>Selectors Level 3.</cite></a> W3C Recommendation 29 September 2011 URL: <a href=\"http://www.w3.org/TR/2011/REC-css3-selectors-20110929\">http://www.w3.org/TR/2011/REC-css3-selectors-20110929</a> ",
+    "SELECTORS-API2": {
+        "authors": [
+            "Lachlan Hunt"
+        ],
+        "href": "http://www.w3.org/TR/selectors-api2/",
+        "title": "Selectors API Level 2",
+        "date": "19 January 2010",
+        "status": "WD",
+        "publisher": "W3C"
+    },
+    "SELECTORS-LEVEL-3": {
+        "authors": [
+            "Daniel Glazman"
+        ],
+        "etAl": true,
+        "href": "http://www.w3.org/TR/2011/REC-css3-selectors-20110929",
+        "title": "Selectors Level 3",
+        "date": "29 September 2011",
+        "status": "REC",
+        "publisher": "W3C"
+    },
     "SELECTORS-LEVEL-3-20110929": {
         "authors": [
             "Daniel Glazman"
@@ -5465,7 +5781,17 @@
         "status": "REC",
         "publisher": "W3C"
     },
-    "SVG112": "Erik Dahlstr&#246;m; et al. <a href=\"http://www.w3.org/TR/2010/WD-SVG11-20100622\"><cite>Scalable Vector Graphics (SVG) 1.1 (Second Edition).</cite></a> 22 June 2010. W3C Working Draft. (Work in progress). URL: <a href=\"http://www.w3.org/TR/2010/WD-SVG11-20100622\">http://www.w3.org/TR/2010/WD-SVG11-20100622</a> ",
+    "SVG112": {
+        "authors": [
+            "Erik Dahlström"
+        ],
+        "etAl": true,
+        "href": "http://www.w3.org/TR/2010/WD-SVG11-20100622",
+        "title": "Scalable Vector Graphics (SVG) 1.1 (Second Edition)",
+        "date": "22 June 2010",
+        "status": "WD",
+        "publisher": "W3C"
+    },
     "SVG12": {
         "authors": [
             "Craig Northway",
@@ -6511,7 +6837,16 @@
         "status": "WG-NOTE",
         "publisher": "W3C"
     },
-    "WEBAPP-PRIVACY-BESTPRACTICES": "Frederick Hirsch. <a href=\"http://www.w3.org/TR/app-privacy-bp/\"><cite>Web Application Privacy Best Practices</cite></a>. W3C Working Group Note. URL: <a href=\"http://www.w3.org/TR/app-privacy-bp/\">http://www.w3.org/TR/app-privacy-bp/</a> ",
+    "WEBAPP-PRIVACY-BESTPRACTICES": {
+        "authors": [
+            "Frederick Hirsch"
+        ],
+        "href": "http://www.w3.org/TR/app-privacy-bp/",
+        "title": "Web Application Privacy Best Practices",
+        "date": "03 July 2012",
+        "status": "WG-NOTE",
+        "publisher": "W3C"
+    },
     "WEBAPPS-MANIFEST-API": {
         "authors": [
             "Anant Narayanan"
@@ -6587,7 +6922,18 @@
         "status": "CR",
         "publisher": "W3C"
     },
-    "WEBINTENTS": "Greg Billock; James Hawkins; Paul Kinlan. <a href=\"http://dvcs.w3.org/hg/web-intents/raw-file/tip/spec/Overview.html\"><cite>Web Intents.</cite></a> Editors' Draft. (Work in progress.) URL: <a href=\"http://dvcs.w3.org/hg/web-intents/raw-file/tip/spec/Overview.html\">http://dvcs.w3.org/hg/web-intents/raw-file/tip/spec/Overview.html</a> ",
+    "WEBINTENTS": {
+        "authors": [
+            "Greg Billock",
+            "James Hawkins",
+            "Paul Kinlan"
+        ],
+        "href": "http://dvcs.w3.org/hg/web-intents/raw-file/tip/spec/Overview.html",
+        "title": "Web Intents",
+        "date": "",
+        "status": "ED",
+        "publisher": "W3C"
+    },
     "WEBONT-REQ": {
         "authors": [
             "Jeff Heflin"
@@ -6611,7 +6957,16 @@
         "status": "WD",
         "publisher": "W3C"
     },
-    "WEBSOCKETS-API": "I. Hickson. <a href=\"http://www.w3.org/TR/websockets/\"><cite>The WebSocket API.</cite></a> W3C Working Draft. (Work in progress.) URL: <a href=\"http://www.w3.org/TR/websockets/\">http://www.w3.org/TR/websockets/</a> ",
+    "WEBSOCKETS-API": {
+        "authors": [
+            "I. Hickson"
+        ],
+        "href": "http://www.w3.org/TR/websockets/",
+        "title": "The WebSocket API",
+        "date": "20 September 2012",
+        "status": "CR",
+        "publisher": "W3C"
+    },
     "WEBSOCKETS-API-20110929": {
         "authors": [
             "I. Hickson"
@@ -6730,7 +7085,16 @@
         "status": "REC",
         "publisher": "W3C"
     },
-    "WIDGETS-APIS": "Marcos Cáceres <a href=\"http://www.w3.org/TR/widgets-api/\"><cite>Widget Interface.</cite></a> W3C Proposed Recommendation. URL: <a href=\"http://www.w3.org/TR/widgets-api/\">http://www.w3.org/TR/widgets-api/</a> ",
+    "WIDGETS-APIS": {
+        "authors": [
+            "Marcos Cáceres"
+        ],
+        "href": "http://www.w3.org/TR/widgets-apis/",
+        "title": "Widget Interface",
+        "date": "22 May 2012",
+        "status": "PR",
+        "publisher": "W3C"
+    },
     "WIDGETS-DIGSIG": {
         "authors": [
             "M. Cáceres",
@@ -6754,9 +7118,30 @@
         "status": "WG-NOTE",
         "publisher": "W3C"
     },
-    "WIDGETS-PC-INTEROP": "Marcos Cáceres <a href=\"http://dev.w3.org/2006/waf/widgets/imp-report/\"><cite>Implementation Report for Widgets Packaging and XML Configuration.</cite></a>. URL: <a href=\"http://dev.w3.org/2006/waf/widgets/imp-report/\">http://dev.w3.org/2006/waf/widgets/imp-report/</a> ",
-    "WIDGETS-PC-TESTS": "Marcos Cáceres <a href=\"http://dev.w3.org/2006/waf/widgets/test-suite/\"><cite>Test Suite for Packaging and XML Configuration.</cite></a> W3C Test Suite. URL: <a href=\"http://dev.w3.org/2006/waf/widgets/test-suite/\">http://dev.w3.org/2006/waf/widgets/test-suite/</a> ",
-    "WIDGETS-REQS": "Marcos Cáceres. <a href=\"http://www.w3.org/TR/widgets-reqs/\"><cite> Requirements For Standardizing Widgets.</cite></a>. W3C Working Group Note. URL: <a href=\"http://www.w3.org/TR/widgets-reqs/\">http://www.w3.org/TR/widgets-reqs/</a> ",
+    "WIDGETS-PC-INTEROP": {
+        "authors": [
+            "Marcos Cáceres"
+        ],
+        "href": "http://dev.w3.org/2006/waf/widgets/imp-report/",
+        "title": "Implementation Report for Widgets Packaging and XML Configuration"
+    },
+    "WIDGETS-PC-TESTS": {
+        "authors": [
+            "Marcos Cáceres"
+        ],
+        "href": "Test Suite for Packaging and XML Configuration",
+        "title": "http://dev.w3.org/2006/waf/widgets/test-suite/"
+    },
+    "WIDGETS-REQS": {
+        "authors": [
+            "Marcos Cáceres"
+        ],
+        "href": "http://www.w3.org/TR/widgets-reqs/",
+        "title": "Requirements For Standardizing Widgets",
+        "date": "27 September 2011",
+        "status": "WG-NOTE",
+        "publisher": "W3C"
+    },
     "WIDGETS-UPDATES": {
         "authors": [
             "Marcos Cáceres"
@@ -6767,7 +7152,16 @@
         "status": "WD",
         "publisher": "W3C"
     },
-    "WIDGETS-URI": "Marcos Cáceres. <a href=\"http://www.w3.org/TR/2011/WD-widgets-uri-20110927\"><cite>Widget URI Scheme.</cite></a>. W3C Note. URL: <a href=\"http://www.w3.org/TR/2011/WD-widgets-uri-20110927\">http://www.w3.org/TR/2011/WD-widgets-uri-20110927</a> ",
+    "WIDGETS-URI": {
+        "authors": [
+            "Marcos Cáceres"
+        ],
+        "href": "http://www.w3.org/TR/2011/WD-widgets-uri-20110927",
+        "title": "Widget URI Scheme",
+        "date": "27 September 2011",
+        "status": "WD",
+        "publisher": "W3C"
+    },
     "WINDOW": {
         "authors": [
             "Ian Davis",
@@ -7431,7 +7825,16 @@
         "status": "NOTE",
         "publisher": "W3C"
     },
-    "XHR": "Anne van Kesteren. <a href='http://www.w3.org/TR/XMLHttpRequest/'>XMLHttpRequest</a>",
+    "XHR": {
+        "authors": [
+            "Anne van Kesteren"
+        ],
+        "href": "http://www.w3.org/TR/XMLHttpRequest/",
+        "title": "XMLHttpRequest",
+        "date": "6 December 2012",
+        "status": "WD",
+        "publisher": "W3C"
+    },
     "XHR-20121206": {
         "authors": [
             "Julian Aubourg"
@@ -7608,7 +8011,15 @@
         "status": "WD",
         "publisher": "W3C"
     },
-    "XHTML-VOCAB": "XHTML 2 Working Group. <a href=\"http://www.w3.org/1999/xhtml/vocab\"><cite>XHTML Vocabulary</cite></a>. URL: <a href='http://www.w3.org/1999/xhtml/vocab'>http://www.w3.org/1999/xhtml/vocab</a> ",
+    "XHTML-VOCAB": {
+        "authors": [
+            "XHTML 2 Working Group"
+        ],
+        "href": "http://www.w3.org/1999/xhtml/vocab",
+        "title": "XHTML Vocabulary",
+        "date": "27 October 2010",
+        "publisher": "W3C"
+    },
     "XHTML1-SCHEMA": {
         "authors": [
             "Masayasu Ishikawa"
