@@ -1,34 +1,9 @@
 var express = require("express"),
     cors = require("connect-cors"),
-    BIBREF = require('./biblio'),
+    BIBREF = require('./lib/bibref').bibref;
     XREFS = require('./xrefs');
 
 var app = module.exports = express();
-
-function copyProps(src, dest) {
-    for (var k in src) {
-        dest[k] = src[k];
-    }
-}
-
-// Handle previous versions.
-Object.keys(BIBREF).forEach(function(ref) {
-    var previousVersions = BIBREF[ref].previousVersions
-    if (previousVersions) {
-        delete BIBREF[ref].previousVersions;
-        Object.keys(previousVersions).forEach(function(subRef) {
-            var previousVersion = previousVersions[subRef];
-            if (previousVersion.aliasOf) {
-                BIBREF[ref + '-' + subRef] = previousVersion;
-            } else {
-                var obj = {};
-                copyProps(BIBREF[ref], obj);
-                copyProps(previousVersions[subRef], obj);
-                BIBREF[ref + '-' + subRef] = obj;
-            }
-        });
-    }
-});
 
 // Configuration
 app.configure(function(){
