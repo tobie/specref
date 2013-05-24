@@ -1,21 +1,6 @@
-var assert = require('assert'),
-    fs = require('fs');
+var assert = require('assert');
 
-suite('biblio.json', function() {
-  test('is valid JSON', function() {
-    var file = fs.readFileSync('./biblio.json');
-    assert.doesNotThrow(function() {
-        JSON.parse(file);
-    }, "biblio.json is well formatted JSON.");
-  });
-  
-  test('is an object', function() {
-      var file = fs.readFileSync('./biblio.json');
-      assert.ok(typeof JSON.parse(file) == 'object', "Parsing biblio.json yields an object.");
-  });
-});
-
-var json = require('../biblio');
+var json = require('../lib/bibref').bibref;
 
 function wrap(id) {
     return '[[' + id + ']]';
@@ -59,9 +44,9 @@ function testAuthorsArray(obj, key) {
 }
 
 function testAliasOfPointsToRealObj(obj, key) {
-    if ('authors' in obj) {
+    if ('aliasOf' in obj) {
         test('alias ' + wrap(obj.aliasOf) + ' of ' + wrap(key) + ' exists.', function() {
-            assert.ok(json[obj.aliasOf]);
+            assert.ok(obj.aliasOf in json);
         });
     }
 }
