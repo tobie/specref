@@ -2,7 +2,7 @@ var assert = require('assert'),
     fs = require('fs'),
     path = require('path');
     
-var current = Object.keys(require('../lib/bibref').bibref);
+var current = Object.keys(require('../lib/bibref').all);
 
 var previous = JSON.parse(fs.readFileSync(path.join(__dirname, 'ref-list.json'), 'utf8'));
 

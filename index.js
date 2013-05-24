@@ -1,6 +1,6 @@
 var express = require("express"),
     cors = require("connect-cors"),
-    BIBREF = require('./lib/bibref').bibref;
+    bibref = require('./lib/bibref');
     XREFS = require('./xrefs');
 
 var app = module.exports = express();
@@ -22,19 +22,12 @@ app.configure('production', function(){
 
 // bibrefs
 app.get('/bibrefs', function (req, res, next) {
-    var data = {};
     var refs = req.param("refs");
     if (refs) {
-        refs.split(",").forEach(function(ref) {
-            var obj;
-            do {
-                obj = BIBREF[ref];
-                if (obj && !data[ref]) data[ref] = obj;
-            } while (obj && (ref = obj.aliasOf))
-        });
-        res.jsonp(data);
+        refs = bibref.getRefs(refs.split(","));
+        res.jsonp(refs);
     } else {
-        res.jsonp(BIBREF);
+        res.jsonp(bibref.all);
     }
 });
 

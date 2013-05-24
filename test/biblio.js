@@ -1,6 +1,6 @@
 var assert = require('assert');
 
-var json = require('../lib/bibref').bibref;
+var json = require('../lib/bibref').all;
 
 function wrap(id) {
     return '[[' + id + ']]';
