@@ -1,7 +1,11 @@
 var fs = require('fs');
 var FILE = './biblio.json';
 var moduleName = process.argv[2];
-var fn = require(moduleName);
+var fn = moduleName ? require(moduleName) : noop;
+function noop(k, v, input, output, cb) {
+    output[k] = v;
+    cb(null);
+}
 
 console.log("Loadind and parsing " + FILE + "...");
 var input = fs.readFileSync(FILE, 'utf8');
@@ -26,9 +30,7 @@ function next() {
 function sortRefs(input) {
     console.log("Sorting references...");
     var output = {};
-    Object.keys(input).sort(function(a, b) {
-        return a.toLowerCase().localeCompare(b.toLowerCase());
-    }).forEach(function(k) {
+    Object.keys(input).sort().forEach(function(k) {
         output[k] = input[k];
     });
     return output;
@@ -39,5 +41,5 @@ function writeToFile(obj) {
     fs.writeFileSync(FILE, JSON.stringify(obj, null, 4), 'utf8');
 }
 
-console.log("Applying module", moduleName);
+if (moduleName) console.log("Applying module", moduleName);
 next();
