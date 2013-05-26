@@ -38,5 +38,3 @@ function parseURL(url) {
     }
     return output;
 }
-
-

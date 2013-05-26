@@ -1,12 +1,12 @@
 var assert = require('assert');
-
-var json = require('../lib/bibref').all;
+var bibref = require('../lib/bibref');
+var json = bibref.expandRefs(bibref.raw);
 
 function wrap(id) {
     return '[[' + id + ']]';
 }
 
-var PROPS = ["authors", "etAl", "href", "title", "date", "status", "publisher"];
+var PROPS = ["authors", "etAl", "href", "title", "date", "deliveredBy", "rawDate", "status", "publisher", "isRetired", "hasErrata", "isSuperseded", "source", "unorderedAuthors"];
 
 function testPropIsAString(obj, key, propName) {
     test(wrap(key) + ' has a ' + propName + ' which isn\'t an empty string.', function() {

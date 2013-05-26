@@ -1,6 +1,6 @@
 {
   "name": "specref",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A list of spec references and related API.",
   "main": "index.js",
   "dependencies": {
@@ -10,7 +10,9 @@
   },
   "devDependencies": {
     "mocha": "*",
-    "ent": "*"
+    "ent": "*",
+    "request": "*",
+    "xml2js": "*"
   },
   "scripts": {
     "test": "mocha -u tdd ./test/*.js",
