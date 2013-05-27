@@ -59,43 +59,40 @@ suite('Reference', function() {
                 testAliasOfPointsToRealObj(obj, key);
                 testObjOnlyContainsProps(obj, key, ['aliasOf']);
             } else {
-                ['href', 'title'].forEach(function(prop) {
-                    testPropIsAString(obj, key, prop);
-                });
-                
+                testPropIsAString(obj, key, 'href');
                 testAuthorsArray(obj, key);
                 testEtAlIsTrueWhenPresent(obj, key);
                 
-                ['date', 'status', 'publisher'].forEach(function(prop) {
+                ['date', 'status', 'publisher', 'title'].forEach(function(prop) {
                     if (prop in obj) {
                         testPropIsAString(obj, key, prop);
                     }
                 });
                 
-                testObjOnlyContainsProps(obj, key, PROPS.concat('previousVersions', 'aliases'));
+                testObjOnlyContainsProps(obj, key, PROPS.concat('versions', 'aliases'));
 
-                if ('previousVersions' in obj) {
-                    suite("previousVersions obj of " + wrap(key), function() {
-                        var previousVersions = obj.previousVersions;
+                if ('versions' in obj) {
+                    suite("versions obj of " + wrap(key), function() {
+                        var versions = obj.versions;
                         
-                        test(wrap(key) + ' has a previousVersions object', function() {
-                            assert.ok(typeof previousVersions == "object");
+                        test(wrap(key) + ' has a versions object', function() {
+                            assert.ok(typeof versions == "object");
                         });
                         
-                        Object.keys(previousVersions).forEach(function(k) {
-                            var previousVersion = previousVersions[k];
-                            if ('aliasOf' in previousVersion) {
-                                testAliasOfPointsToRealObj(previousVersion, k);
-                                testObjOnlyContainsProps(previousVersion, k, ['aliasOf']);
+                        Object.keys(versions).forEach(function(k) {
+                            var ver = versions[k];
+                            if ('aliasOf' in ver) {
+                                testAliasOfPointsToRealObj(ver, k);
+                                testObjOnlyContainsProps(ver, k, ['aliasOf']);
                             } else {
                                 ['href', 'title', 'date', 'status', 'publisher'].forEach(function(prop) {
-                                    if (prop in previousVersion) {
-                                        testPropIsAString(previousVersion, k, prop);
+                                    if (prop in ver) {
+                                        testPropIsAString(ver, k, prop);
                                     }
                                 });
-                                testAuthorsArray(previousVersion, k);
-                                testEtAlIsTrueWhenPresent(previousVersion, k);
-                                testObjOnlyContainsProps(previousVersion, k, PROPS);
+                                testAuthorsArray(ver, k);
+                                testEtAlIsTrueWhenPresent(ver, k);
+                                testObjOnlyContainsProps(ver, k, PROPS);
                             }
                         });
                     });

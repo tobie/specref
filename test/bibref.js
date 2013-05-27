@@ -5,7 +5,7 @@ suite('Test bibref api', function() {
     var obj = {
         FOO: {
             title: "FOO title",
-            previousVersions: {
+            versions: {
                 BAR: { title: "BAR title" },
                 BAZ: {}
             }
@@ -36,13 +36,13 @@ suite('Test bibref api', function() {
     test('bibref.cleanupRefs modifies the refs correctly', function() {
         var cleanedup = bibref.cleanupRefs({
             foo: {
-                previousVersions: {},
+                versions: {},
                 rawDate: "2012-1-1",
                 bar: 123
             }
         });
         var foo = cleanedup.foo;
-        assert.ok(!('previousVersions' in foo));
+        assert.ok(!('versions' in foo));
         assert.ok(!('rawDate' in foo));
         assert.ok('date' in foo);
         assert.ok(!('bar' in foo));
@@ -50,7 +50,7 @@ suite('Test bibref api', function() {
     
     test('bibref.findLatest finds the latest version of the ref', function() {
         var basic = {
-            previousVersions: {
+            versions: {
                 "20091010": { rawDate: "2009-10-10" },
                 "20100101": { rawDate: "2010-01-01" }
             }
@@ -58,7 +58,7 @@ suite('Test bibref api', function() {
         assert.equal("2010-01-01", bibref.findLatest(basic).rawDate);
         
         var complex = {
-            previousVersions: {
+            versions: {
                 "20091010": { rawDate: "2009-10-10" },
                 "20100101": { rawDate: "2010-01-01" },
                 "2e": { rawDate: "1998-02-02" },

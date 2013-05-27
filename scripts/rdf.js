@@ -69,10 +69,9 @@ request(RDF_FILE, function(err, response, body) {
         // Fill in missing previous versions
         output.forEach(function(ref) {
             var cur = current[ref.shortName];
-            
-            cur.previousVersions = cur.previousVersions || {};
+            cur.versions = cur.versions || {};
             var key = ref.rawDate.replace(/\-/g, '');
-            var prev = cur.previousVersions[key];
+            var prev = cur.versions[key];
             if (prev) {
                 prev.rawDate = ref.rawDate;
                 delete prev.date;
@@ -90,7 +89,7 @@ request(RDF_FILE, function(err, response, body) {
                 } else {
                     if (clone.authors.length > 1) clone.unorderedAuthors = true;
                 }
-                cur.previousVersions[key] = clone;
+                cur.versions[key] = clone;
             }
         });
         console.log("Sorting references...");

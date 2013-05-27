@@ -9,8 +9,8 @@ var output = [];
 keys.forEach(function(key) {
     output.push(key);
     var value = json[key];
-    if (typeof value == "object" && json.previousVersions) {
-        Object.keys(json.previousVersions).forEach(function(k) {
+    if (typeof value == "object" && json.versions) {
+        Object.keys(json.versions).forEach(function(k) {
             output.push(key + "-" + k);
         });
     }
