@@ -1,3 +1,5 @@
+var t0 = Date.now();
+
 var express = require("express"),
     cors = require("connect-cors"),
     bibref = require('./lib/bibref');
@@ -49,4 +51,5 @@ app.get('/xrefs', function (req, res, next) {
 var port = process.env.PORT || 5000;
 app.listen(port, function () {
     console.log("Express server listening on port %d in %s mode", port, app.settings.env);
+    console.log("App started in", (Date.now() - t0) + "ms.");
 });
