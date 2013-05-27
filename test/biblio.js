@@ -72,7 +72,7 @@ suite('Reference', function() {
                     }
                 });
                 
-                testObjOnlyContainsProps(obj, key, PROPS.concat('previousVersions'));
+                testObjOnlyContainsProps(obj, key, PROPS.concat('previousVersions', 'aliases'));
 
                 if ('previousVersions' in obj) {
                     suite("previousVersions obj of " + wrap(key), function() {

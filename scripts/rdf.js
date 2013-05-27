@@ -1,7 +1,6 @@
 var request = require('request'),
     xml2js = require('xml2js'),
-    runner = require('./run'),
-    formatDate = require('../lib/format-date');
+    runner = require('./run');
     
 var current = runner.readBiblio();
 
@@ -70,11 +69,13 @@ request(RDF_FILE, function(err, response, body) {
         // Fill in missing previous versions
         output.forEach(function(ref) {
             var cur = current[ref.shortName];
+            
             cur.previousVersions = cur.previousVersions || {};
             var key = ref.rawDate.replace(/\-/g, '');
             var prev = cur.previousVersions[key];
             if (prev) {
                 prev.rawDate = ref.rawDate;
+                delete prev.date;
                 prev.deliveredBy = ref.deliveredBy;
                 prev.hasErrata = ref.hasErrata;
             } else {
@@ -115,7 +116,6 @@ function makeCleaner(status, isRetired, isSuperseded) {
             authors:         authors,
             href:            walk(spec, "$", "rdf:about"),
             title:           walk(spec, "dc:title", 0),
-            date:            null,
             rawDate:         walk(spec, "dc:date", 0),
             status:          status,
             publisher:       "W3C",
@@ -128,7 +128,6 @@ function makeCleaner(status, isRetired, isSuperseded) {
         };
         obj.trURL = TR_URLS[obj.trURL] || obj.trURL;
         obj.shortName = getShortName(obj.trURL);
-        obj.date = formatDate(obj.rawDate);
         return obj;
     }
 }
