@@ -3,9 +3,9 @@ module.exports = function(k, obj, input, output, cb) {
         key = parts.pop(),
         base = input[parts.join('-')];
     if (typeof base === "object" && /^\d{8}$/.test(key)) {
-        base.previousVersions = base.previousVersions || {};
-        if (base.previousVersions[key]) throw "Duplicate key for " + k;
-        base.previousVersions[key] = obj;
+        base.versions = base.versions || {};
+        if (base.versions[key]) throw "Duplicate key for " + k;
+        base.versions[key] = obj;
     } else {
         output[k] = obj;
     }
