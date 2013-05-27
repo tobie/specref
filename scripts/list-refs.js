@@ -1,8 +1,5 @@
 var fs = require('fs');
-var FILE = './biblio.json';
-
-var json = fs.readFileSync(FILE, 'utf8');
-json = JSON.parse(json);
+var json = require('../lib/bibref').all;
 var keys = Object.keys(json);
 
 var output = [];
@@ -20,4 +17,6 @@ output.sort(function(a, b) {
     return a.toLowerCase().localeCompare(b.toLowerCase());
 });
 
-console.log(JSON.stringify(output, null, 4));
+var FILE = "./test/ref-list.json"
+console.log("Writing output to " + FILE + "...");
+require('fs').writeFileSync(FILE, JSON.stringify(output, null, 4), 'utf8');
