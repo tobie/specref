@@ -1,5 +1,6 @@
 var request = require('request'),
     xml2js = require('xml2js'),
+    bibref = require('../lib/bibref'),
     runner = require('./run');
     
 var current = runner.readBiblio();
@@ -97,12 +98,29 @@ request(RDF_FILE, function(err, response, body) {
             }
         });
         console.log("Sorting references...");
-        var sorted = {};
+        var sorted = {}, needUpdate = [];
         Object.keys(current).sort().forEach(function(k) {
+            var ref = current[k];
             sorted[k] = current[k];
-            delete sorted[k].shortName;
+            delete ref.shortName;
+            if (ref.source == RDF_FILE) {
+                needUpdate.push(ref)
+            }
         });
-        
+
+        console.log("updating existing refs.")
+        needUpdate.forEach(function(ref) {
+            var latest = bibref.findLatest(ref);
+            if (latest.rawDate !== ref.rawDate) {
+                ref.title = latest.title;
+                ref.rawDate = latest.rawDate;
+                ref.status = latest.status;
+                ref.publisher = latest.publisher;
+                ref.isRetired = latest.isRetired;
+                ref.isSuperseded = latest.isSuperseded;
+            }
+        });
+
         // Deal with CSS dups
         sorted.CSS2 = { aliasOf: "CSS21" };
         runner.writeBiblio(sorted);
