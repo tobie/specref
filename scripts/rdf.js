@@ -1,5 +1,6 @@
 var request = require('request'),
     xml2js = require('xml2js'),
+    bibref = require('../lib/bibref'),
     runner = require('./run');
     
 var current = runner.readBiblio();
@@ -54,8 +55,10 @@ request(RDF_FILE, function(err, response, body) {
         output.forEach(function(ref) {
             var k = ref.shortName;
             if (k in current) {
-                current[k].deliveredBy = ref.deliveredBy;
-                current[k].hasErrata = ref.hasErrata;
+                if (ref.source != RDF_FILE) {
+                    current[k].deliveredBy = ref.deliveredBy;
+                    current[k].hasErrata = ref.hasErrata;
+                }
             } else {
                 var clone = _cloneJSON(ref);
                 clone.href = clone.trURL;
@@ -73,10 +76,12 @@ request(RDF_FILE, function(err, response, body) {
             var key = ref.rawDate.replace(/\-/g, '');
             var prev = cur.versions[key];
             if (prev) {
-                prev.rawDate = ref.rawDate;
-                delete prev.date;
-                prev.deliveredBy = ref.deliveredBy;
-                prev.hasErrata = ref.hasErrata;
+                if (prev.source != RDF_FILE) {
+                    prev.rawDate = ref.rawDate;
+                    delete prev.date;
+                    prev.deliveredBy = ref.deliveredBy;
+                    prev.hasErrata = ref.hasErrata;
+                }
             } else {
                 var clone = _cloneJSON(ref);
                 delete clone.trURL;
@@ -93,12 +98,29 @@ request(RDF_FILE, function(err, response, body) {
             }
         });
         console.log("Sorting references...");
-        var sorted = {};
+        var sorted = {}, needUpdate = [];
         Object.keys(current).sort().forEach(function(k) {
+            var ref = current[k];
             sorted[k] = current[k];
-            delete sorted[k].shortName;
+            delete ref.shortName;
+            if (ref.source == RDF_FILE) {
+                needUpdate.push(ref)
+            }
         });
-        
+
+        console.log("updating existing refs.")
+        needUpdate.forEach(function(ref) {
+            var latest = bibref.findLatest(ref);
+            if (latest.rawDate !== ref.rawDate) {
+                ref.title = latest.title;
+                ref.rawDate = latest.rawDate;
+                ref.status = latest.status;
+                ref.publisher = latest.publisher;
+                ref.isRetired = latest.isRetired;
+                ref.isSuperseded = latest.isSuperseded;
+            }
+        });
+
         // Deal with CSS dups
         sorted.CSS2 = { aliasOf: "CSS21" };
         runner.writeBiblio(sorted);

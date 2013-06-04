@@ -41,7 +41,7 @@
         "href": "http://www.w3.org/TR/2dcontext2/",
         "title": "HTML Canvas 2D Context, Level 2",
         "date": "17 December 2012",
-        "rawDate": "2012-12-17",
+        "rawDate": "2013-05-28",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": "http://www.w3.org/html/wg/",
@@ -61,6 +61,23 @@
                 "publisher": "W3C",
                 "deliveredBy": "http://www.w3.org/html/wg/",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20130528": {
+                "authors": [
+                    "Rik Cabanier",
+                    "Eliot Graff",
+                    "Jay Munro",
+                    "Ian Hickson",
+                    "Tom Wiltzius"
+                ],
+                "href": "http://www.w3.org/TR/2013/WD-2dcontext2-20130528/",
+                "title": "HTML Canvas 2D Context, Level 2",
+                "rawDate": "2013-05-28",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": "http://www.w3.org/html/wg/",
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+                "unorderedAuthors": true
             }
         }
     },
@@ -814,7 +831,7 @@
         "href": "http://www.w3.org/TR/CSP11/",
         "title": "Content Security Policy 1.1",
         "date": "13 December 2012",
-        "rawDate": "2012-12-13",
+        "rawDate": "2013-06-04",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": "http://www.w3.org/2011/webappsec/",
@@ -829,6 +846,20 @@
                 "href": "http://www.w3.org/TR/2012/WD-CSP11-20121213/",
                 "title": "Content Security Policy 1.1",
                 "rawDate": "2012-12-13",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": "http://www.w3.org/2011/webappsec/",
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20130604": {
+                "authors": [
+                    "Adam Barth",
+                    "Dan Veditz",
+                    "Mike West"
+                ],
+                "href": "http://www.w3.org/TR/2013/WD-CSP11-20130604/",
+                "title": "Content Security Policy 1.1",
+                "rawDate": "2013-06-04",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": "http://www.w3.org/2011/webappsec/",
@@ -3139,7 +3170,7 @@
         "href": "http://www.w3.org/TR/IMPLEMENTING-UAAG20/",
         "title": "Implementing UAAG 2.0",
         "date": "4 October 2012",
-        "rawDate": "2012-10-04",
+        "rawDate": "2013-05-23",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": "http://www.w3.org/WAI/UA/",
@@ -10526,9 +10557,9 @@
             "Alan Stearns"
         ],
         "href": "http://www.w3.org/TR/css3-exclusions/",
-        "title": "CSS Exclusions and Shapes Module Level 3",
+        "title": "CSS Exclusions Module Level 1",
         "date": "3 May 2012",
-        "rawDate": "2012-05-03",
+        "rawDate": "2013-05-28",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": "http://www.w3.org/Style/CSS/members",
@@ -11070,9 +11101,9 @@
             "Alan Stearns"
         ],
         "href": "http://www.w3.org/TR/css3-regions/",
-        "title": "CSS Regions Module Level 3",
+        "title": "CSS Regions Module Level 1",
         "date": "23 August 2012",
-        "rawDate": "2012-08-23",
+        "rawDate": "2013-05-28",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": "http://www.w3.org/Style/CSS/members",
@@ -13580,8 +13611,8 @@
         "href": "http://www.w3.org/TR/html-main-element/",
         "title": "main element - an HTML5 extension specification",
         "date": "17 December 2012",
-        "rawDate": "2012-12-17",
-        "status": "WD",
+        "rawDate": "2013-05-28",
+        "status": "NOTE",
         "publisher": "W3C",
         "deliveredBy": "http://www.w3.org/html/wg/",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
@@ -13597,6 +13628,18 @@
                 "publisher": "W3C",
                 "deliveredBy": "http://www.w3.org/html/wg/",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20130528": {
+                "authors": [
+                    "Steve Faulkner"
+                ],
+                "href": "http://www.w3.org/TR/2013/NOTE-html-main-element-20130528/",
+                "title": "main element - an HTML5 extension specification",
+                "rawDate": "2013-05-28",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": "http://www.w3.org/html/wg/",
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
     },
@@ -13607,8 +13650,8 @@
         "href": "http://www.w3.org/TR/html-markup/",
         "title": "HTML: The Markup Language (an HTML language reference)",
         "date": "25 October 2012",
-        "rawDate": "2012-10-25",
-        "status": "WD",
+        "rawDate": "2013-05-28",
+        "status": "NOTE",
         "publisher": "W3C",
         "deliveredBy": "http://www.w3.org/html/wg/",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
@@ -13621,6 +13664,18 @@
                 "title": "HTML: The Markup Language (an HTML language reference)",
                 "rawDate": "2012-10-25",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": "http://www.w3.org/html/wg/",
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20130528": {
+                "authors": [
+                    "Michael Smith"
+                ],
+                "href": "http://www.w3.org/TR/2013/NOTE-html-markup-20130528/",
+                "title": "HTML: The Markup Language (an HTML language reference)",
+                "rawDate": "2013-05-28",
+                "status": "NOTE",
                 "publisher": "W3C",
                 "deliveredBy": "http://www.w3.org/html/wg/",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
@@ -13978,8 +14033,8 @@
         "href": "http://www.w3.org/TR/html5-author/",
         "title": "HTML5: Edition for Web Authors",
         "date": "25 October 2012",
-        "rawDate": "2012-10-25",
-        "status": "WD",
+        "rawDate": "2013-05-28",
+        "status": "NOTE",
         "publisher": "W3C",
         "deliveredBy": "http://www.w3.org/html/wg/",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
@@ -13996,6 +14051,22 @@
                 "title": "HTML5: Edition for Web Authors",
                 "rawDate": "2012-10-25",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": "http://www.w3.org/html/wg/",
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20130528": {
+                "authors": [
+                    "Robin Berjon",
+                    "Travis Leithead",
+                    "Silvia Pfeiffer",
+                    "Erika Doyle Navara",
+                    "Edward O'Connor"
+                ],
+                "href": "http://www.w3.org/TR/2013/NOTE-html5-author-20130528/",
+                "title": "HTML5: Edition for Web Authors",
+                "rawDate": "2013-05-28",
+                "status": "NOTE",
                 "publisher": "W3C",
                 "deliveredBy": "http://www.w3.org/html/wg/",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
@@ -14026,6 +14097,18 @@
                 "deliveredBy": "http://www.w3.org/html/wg/",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
                 "unorderedAuthors": true
+            },
+            "20130528": {
+                "authors": [
+                    "Simon Pieters"
+                ],
+                "href": "http://www.w3.org/TR/2013/WD-html5-diff-20130528/",
+                "title": "Differences from HTML4",
+                "rawDate": "2013-05-28",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": "http://www.w3.org/html/wg/",
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
     },
@@ -14065,7 +14148,7 @@
         "href": "http://www.w3.org/TR/html51/",
         "title": "HTML 5.1",
         "date": "17 December 2012",
-        "rawDate": "2012-12-17",
+        "rawDate": "2013-05-28",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": "http://www.w3.org/html/wg/",
@@ -14086,6 +14169,25 @@
                 "publisher": "W3C",
                 "deliveredBy": "http://www.w3.org/html/wg/",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20130528": {
+                "authors": [
+                    "Steve Faulkner",
+                    "Travis Leithead",
+                    "Silvia Pfeiffer",
+                    "Robin Berjon",
+                    "Ian Hickson",
+                    "Erika Doyle Navara",
+                    "Edward O'Connor"
+                ],
+                "href": "http://www.w3.org/TR/2013/WD-html51-20130528/",
+                "title": "HTML 5.1",
+                "rawDate": "2013-05-28",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": "http://www.w3.org/html/wg/",
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+                "unorderedAuthors": true
             }
         }
     },
@@ -22459,6 +22561,32 @@
             }
         }
     },
+    "urls-in-data": {
+        "authors": [
+            "Jeni Tennison"
+        ],
+        "href": "http://www.w3.org/TR/urls-in-data/",
+        "title": "URLs in Data Primer",
+        "rawDate": "2013-06-04",
+        "status": "WD",
+        "publisher": "W3C",
+        "deliveredBy": "http://www.w3.org/2001/tag/",
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20130604": {
+                "authors": [
+                    "Jeni Tennison"
+                ],
+                "href": "http://www.w3.org/TR/2013/WD-urls-in-data-20130604/",
+                "title": "URLs in Data Primer",
+                "rawDate": "2013-06-04",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": "http://www.w3.org/2001/tag/",
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
     "user-timing": {
         "authors": [
             "Jatinder Mann",
@@ -22551,8 +22679,8 @@
         "href": "http://www.w3.org/TR/vibration/",
         "title": "Vibration API",
         "date": "8 May 2012",
-        "rawDate": "2012-05-08",
-        "status": "CR",
+        "rawDate": "2013-05-23",
+        "status": "LCWD",
         "publisher": "W3C",
         "deliveredBy": "http://www.w3.org/2009/dap/",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
@@ -22765,8 +22893,8 @@
         "href": "http://www.w3.org/TR/vocab-regorg/",
         "title": "Registered Organization Vocabulary",
         "date": "8 January 2013",
-        "rawDate": "2013-01-08",
-        "status": "WD",
+        "rawDate": "2013-05-28",
+        "status": "NOTE",
         "publisher": "W3C",
         "deliveredBy": "http://www.w3.org/2011/gld/",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
@@ -23473,8 +23601,8 @@
         "href": "http://www.w3.org/TR/web-intents/",
         "title": "Web Intents",
         "date": "26 June 2012",
-        "rawDate": "2012-06-26",
-        "status": "WD",
+        "rawDate": "2013-05-23",
+        "status": "NOTE",
         "publisher": "W3C",
         "deliveredBy": "http://www.w3.org/2008/webapps/",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
