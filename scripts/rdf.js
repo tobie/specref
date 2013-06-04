@@ -31,31 +31,41 @@ request(RDF_FILE, function(err, response, body) {
         var output = [];
         
         Object.keys(STATUSES).forEach(function(k) {
-            var clean = makeCleaner(STATUSES[k]);
-            refs[k].forEach(function(ref) {
+            if (refs[k]) {
+                var clean = makeCleaner(STATUSES[k]);
+                refs[k].forEach(function(ref) {
+                    output.push(clean(ref));
+                });
+            }
+        });
+        
+        var clean;
+        if (refs.FirstEdition) {
+            clean = makeCleaner(void 0);
+            refs.FirstEdition.forEach(function(ref) {
                 output.push(clean(ref));
             });
-        });
-        var clean = makeCleaner(void 0);
-        refs.FirstEdition.forEach(function(ref) {
-            output.push(clean(ref));
-        });
-        
-        var clean = makeCleaner(void 0, true);
-        refs.Retired.forEach(function(ref) {
-            output.push(clean(ref));
-        });
-        
-        var clean = makeCleaner(void 0, void 0, true);
-        refs.Superseded.forEach(function(ref) {
-            output.push(clean(ref));
-        });
-        
+        }
+
+        if (refs.Retired) {
+            clean = makeCleaner(void 0, true);
+            refs.Retired.forEach(function(ref) {
+                output.push(clean(ref));
+            });
+        }
+
+        if (refs.Superseded) {
+            clean = makeCleaner(void 0, void 0, true);
+            refs.Superseded.forEach(function(ref) {
+                output.push(clean(ref));
+            });
+        }
+
         // Fill in missing specs
         output.forEach(function(ref) {
             var k = ref.shortName;
             if (k in current) {
-                if (ref.source != RDF_FILE) {
+                if (isGeneratedByThisScript(ref)) {
                     current[k].deliveredBy = ref.deliveredBy;
                     current[k].hasErrata = ref.hasErrata;
                 }
@@ -76,7 +86,7 @@ request(RDF_FILE, function(err, response, body) {
             var key = ref.rawDate.replace(/\-/g, '');
             var prev = cur.versions[key];
             if (prev) {
-                if (prev.source != RDF_FILE) {
+                if (isGeneratedByThisScript(prev)) {
                     prev.rawDate = ref.rawDate;
                     delete prev.date;
                     prev.deliveredBy = ref.deliveredBy;
@@ -103,7 +113,7 @@ request(RDF_FILE, function(err, response, body) {
             var ref = current[k];
             sorted[k] = current[k];
             delete ref.shortName;
-            if (ref.source == RDF_FILE) {
+            if (isGeneratedByThisScript(ref)) {
                 needUpdate.push(ref)
             }
         });
@@ -174,6 +184,9 @@ function areAuthorsEqual(a, b) {
     return _cloneJSON(a||[]).sort().join(',') === _cloneJSON(b||[]).sort().join(',')
 }
 
+function isGeneratedByThisScript(ref) {
+    return ref.source == "http://www.w3.org/2002/01/tr-automation/tr.rdf" || ref.source == RDF_FILE;
+}
 
 
 var TR_URLS = {
@@ -199,7 +212,8 @@ var SPECIAL_CASES = {
     'http://www.w3.org/TR/1998/NOTE-P3P10-Protocols': "P3P10-Protocols",
     'http://www.w3.org/1999/05/WCA-terms/': "WCA-terms",
     'http://www.w3.org/TR/1998/WD-HTTP-NG-goals': "HTTP-NG-goals",
-    'http://www.w3.org/TR/REC-html32': "HTML32"
+    'http://www.w3.org/TR/REC-html32': "HTML32",
+    'http://www.w3.org/TR/2001/WD-xhtml1-20011004/': 'xhtml1'
 };
 
 var SHORT_NAME_SPECIAL_CASES = {
@@ -246,3 +260,4 @@ function getShortName(url) {
     var part = parts[0]
     return SHORT_NAME_SPECIAL_CASES[part] || part;
 }
+
