@@ -3059,15 +3059,7 @@
         }
     },
     "HTTP11": {
-        "authors": [
-            "R. Fielding"
-        ],
-        "etAl": true,
-        "href": "http://www.ietf.org/rfc/rfc2616.txt",
-        "title": "Hypertext Transfer Protocol - HTTP/1.1",
-        "date": "June 1999",
-        "status": "RFC 2616",
-        "publisher": "IETF"
+        "aliasOf": "RFC2616"
     },
     "HunterZhan": "Hunter, Jane; Zhan, Zhimin. <a href=\"http://archive.dstc.edu.au/RDU/staff/jane-hunter/PNG/paper.html\">&ldquo;An Indexing and Querying System for Online Images Based on the PNG Format and Embedded Metadata&rdquo;</a> in: <cite>ARLIS/ANZ Conference.</cite> Sep 1999. Brisbane, Australia. URL: <a href=\"http://archive.dstc.edu.au/RDU/staff/jane-hunter/PNG/paper.html\">http://archive.dstc.edu.au/RDU/staff/jane-hunter/PNG/paper.html</a> ",
     "I18N-GUIDE-FRAMEWORK": {
@@ -4850,6 +4842,17 @@
         "publisher": "IETF",
         "status": "RFC",
         "title": "MIME Encapsulation of Aggregate Documents, such as HTML (MHTML)"
+    },
+    "RFC2616": {
+        "authors": [
+            "R. Fielding"
+        ],
+        "etAl": true,
+        "href": "http://www.ietf.org/rfc/rfc2616.txt",
+        "title": "Hypertext Transfer Protocol - HTTP/1.1",
+        "date": "June 1999",
+        "status": "RFC 2616",
+        "publisher": "IETF"
     },
     "RFC2854": {
         "authors": [
