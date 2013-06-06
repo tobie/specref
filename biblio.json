@@ -712,24 +712,24 @@
     "CHARSETS": "<a href=\"http://www.iana.org/assignments/character-sets\"><cite>Characters sets.</cite></a> These are the official names for character sets that may be used in the Internet and may be referred to in Internet documentation URL: <a href=\"http://www.iana.org/assignments/character-sets\">http://www.iana.org/assignments/character-sets</a> ",
     "CHIPS": {
         "authors": [
-	    "Olivier Théreaux"
-	],
-	"href": "http://www.w3.org/TR/chips",
-	"title": "Common HTTP Implementation Problems",
-	"date": "28 January 2003",
-	"status": "NOTE",
-	"publisher": "W3C",
-	"versions": {
-	    "20030128": {
-	        "authors": [
-	    	    "Olivier Théreaux"
-		],
-	    	"title": "Common HTTP Implementation Problems",
-		"rawDate": "2003-01-28",
-		"status": "NOTE",
-		"publisher": "W3C"
-	    }
-	}
+            "Olivier Théreaux"
+        ],
+        "href": "http://www.w3.org/TR/chips",
+        "title": "Common HTTP Implementation Problems",
+        "date": "28 January 2003",
+        "status": "NOTE",
+        "publisher": "W3C",
+        "versions": {
+            "20030128": {
+                "authors": [
+                    "Olivier Théreaux"
+                ],
+                "title": "Common HTTP Implementation Problems",
+                "rawDate": "2003-01-28",
+                "status": "NOTE",
+                "publisher": "W3C"
+            }
+        }
     },
     "CLABS-HNAPI": {
         "href": "http://www.w3.org/2011/webtv/HNTF/CableLabs_Revised_API_20110727-2.pdf",
@@ -741,7 +741,7 @@
         "aliasOf": "clipboard-apis"
     },
     "CMS-Algorithms": {
-    	"aliasOf": "RFC3370"
+        "aliasOf": "RFC3370"
     },
     "CMS-WRAP": {
         "aliasOf": "RFC3217"
@@ -1278,25 +1278,25 @@
     },
     "CUAP": {
         "authors": [
-	    "Karl Dubost"
-	],
-	"href": "http://www.w3.org/TR/cuap",
-	"title": "Common User Agent Problems",
-	"date": "28 January 2003",
-	"status": "NOTE",
-	"publisher": "W3C",
-	"versions": {
-	    "20030128": {
-	        "authors": [
-		    "Karl Dubost"
-		],
-		"href": "http://www.w3.org/TR/2003/NOTE-cuap-20030128",
-		"title": "Common User Agent Problems",
-		"rawDate": "2003-01-28",
-		"status": "NOTE",
-		"publisher": "W3C"
-	    }
-	}
+            "Karl Dubost"
+        ],
+        "href": "http://www.w3.org/TR/cuap",
+        "title": "Common User Agent Problems",
+        "date": "28 January 2003",
+        "status": "NOTE",
+        "publisher": "W3C",
+        "versions": {
+            "20030128": {
+                "authors": [
+                    "Karl Dubost"
+                ],
+                "href": "http://www.w3.org/TR/2003/NOTE-cuap-20030128",
+                "title": "Common User Agent Problems",
+                "rawDate": "2003-01-28",
+                "status": "NOTE",
+                "publisher": "W3C"
+            }
+        }
     },
     "CURIE": {
         "aliasOf": "RDFA-CORE"
@@ -4797,13 +4797,13 @@
     "RFC2119": "S. Bradner. <a href=\"http://www.ietf.org/rfc/rfc2119.txt\"><cite>Key words for use in RFCs to Indicate Requirement Levels.</cite></a> March 1997. Internet RFC 2119.  URL: <a href=\"http://www.ietf.org/rfc/rfc2119.txt\">http://www.ietf.org/rfc/rfc2119.txt</a> ",
     "RFC2141": {
         "authors": [
-	    "R. Moats"
-	],
-	"href": "http://www.ietf.org/rfc/rfc2141.txt",
-	"title": "URN Syntax",
-	"date": "May 1997",
-	"status": "RFC",
-	"publisher": "IETF"
+            "R. Moats"
+        ],
+        "href": "http://www.ietf.org/rfc/rfc2141.txt",
+        "title": "URN Syntax",
+        "date": "May 1997",
+        "status": "RFC",
+        "publisher": "IETF"
     },
     "RFC2231": {
         "authors": [
@@ -4830,15 +4830,15 @@
     },
     "RFC2326": {
         "authors": [
-	    "H. Schulzrinne",
-	    "A. Rao",
-	    "R. Lanphier"
-	],
-	"date": "April 1998",
-	"href": "http://www.ietf.org/rfc/rfc2326.txt",
-	"title": "Real Time Streaming Protocol (RTSP)",
-	"publisher": "IETF",
-	"status": "RFC"
+            "H. Schulzrinne",
+            "A. Rao",
+            "R. Lanphier"
+        ],
+        "date": "April 1998",
+        "href": "http://www.ietf.org/rfc/rfc2326.txt",
+        "title": "Real Time Streaming Protocol (RTSP)",
+        "publisher": "IETF",
+        "status": "RFC"
     },
     "RFC2397": {
         "authors": [
@@ -4909,27 +4909,27 @@
     },
     "RFC2717": {
         "authors": [
-	    "R. Petke",
-	    "I. King"
-	],
-	"title": "Registration Procedures for URL Scheme Names",
-	"href": "http://www.ietf.org/rfc/rfc2717.txt",
-	"date": "November 1999",
-	"status": "BCP",
-	"publisher": "IETF"
+            "R. Petke",
+            "I. King"
+        ],
+        "title": "Registration Procedures for URL Scheme Names",
+        "href": "http://www.ietf.org/rfc/rfc2717.txt",
+        "date": "November 1999",
+        "status": "BCP",
+        "publisher": "IETF"
     },
     "RFC2718": {
         "authors": [
-	    "L. Masinter",
-	    "H. Alvestrand",
-	    "D. Zigmond",
-	    "R. Petke"
-	],
-	"title": "Guidelines for new URL Schemes",
-	"href": "http://www.ietf.org/rfc/rfc2718.txt",
-	"date": "November 1999",
-	"status": "Informational",
-	"publisher": "IETF"
+            "L. Masinter",
+            "H. Alvestrand",
+            "D. Zigmond",
+            "R. Petke"
+        ],
+        "title": "Guidelines for new URL Schemes",
+        "href": "http://www.ietf.org/rfc/rfc2718.txt",
+        "date": "November 1999",
+        "status": "Informational",
+        "publisher": "IETF"
     },
     "RFC2854": {
         "authors": [
@@ -4986,7 +4986,7 @@
         "href": "http://www.ietf.org/rfc/rfc3217.txt",
         "title": "Triple-DES and R2 Key Wrapping",
         "status": "Informational",
-	"publisher": "IETF",
+        "publisher": "IETF",
         "date": "December 2001"
     },
     "RFC3218": {
@@ -5012,16 +5012,16 @@
     },
     "RFC3261": {
         "authors": [
-	    "J. Rosenberg",
-	    "H. Schulzrinne",
-	    "G. Camarillo"
-	],
-	"etAl": true,
-	"title": "SIP: Session Initiation Protocol",
-	"href": "http://www.ietf.org/rfc/rfc3261.txt",
-	"date": "June 2002",
-	"status": "RFC",
-	"publisher": "IETF"
+            "J. Rosenberg",
+            "H. Schulzrinne",
+            "G. Camarillo"
+        ],
+        "etAl": true,
+        "title": "SIP: Session Initiation Protocol",
+        "href": "http://www.ietf.org/rfc/rfc3261.txt",
+        "date": "June 2002",
+        "status": "RFC",
+        "publisher": "IETF"
     },
     "RFC3279": "W. Polk, R. Housley, L. Bassham. <a href=\"http://www.ietf.org/rfc/rfc3279.txt\"><cite>Algorithmupdates and Identifiers for the Internet X.509 Public Key Infrastructure Certificate and Certificate Revocation List (CRL) Profile</cite></a>. April 2002. Internet RFC 3279. URL: <a href=\"http://www.ietf.org/rfc/rfc3279.txt\">http://www.ietf.org/rfc/rfc3279.txt</a>",
     "RFC3339": "G. Klyne, C. Newman. <a href=\"http://www.ietf.org/rfc/rfc3339.txt\"><cite>Date and Time on the Internet: Timestamps</cite></a>. July 2002. Internet RFC 3339. URL: <a href=\"http://www.ietf.org/rfc/rfc3339.txt\">http://www.ietf.org/rfc/rfc3339.txt</a>",
@@ -5032,7 +5032,7 @@
         "href": "http://www.ietf.org/rfc/rfc3370.txt",
         "title": "Cryptographic Message Syntax (CMS) Algorithms",
         "status": "Informational",
-	"publisher": "IETF",
+        "publisher": "IETF",
         "date": "February 2002"
     },
     "RFC3406": "L. Daigle, D. van Gulik, R. Iannella, P. Faltstrom. <a href=\"http://www.ietf.org/rfc/rfc3406.txt\"><cite> URN Namespace Definition Mechanisms.</cite></a>. IETF RFC 3406 October 2002. URL: <a href=\"http://www.ietf.org/rfc/rfc3406.txt\"> http://www.ietf.org/rfc/rfc3406.txt</a>",
@@ -5079,13 +5079,13 @@
     },
     "RFC3920": {
         "authors": [
-	    "P. Saint-Andre, Ed."
-	],
-	"title": "Extensible Messaging and Presence Protocol (XMPP): Core",
-	"href": "http://www.ietf.org/rfc/rfc3920.txt",
-	"date": "October 2004",
-	"status": "RFC",
-	"publisher": "IETF"
+            "P. Saint-Andre, Ed."
+        ],
+        "title": "Extensible Messaging and Presence Protocol (XMPP): Core",
+        "href": "http://www.ietf.org/rfc/rfc3920.txt",
+        "date": "October 2004",
+        "status": "RFC",
+        "publisher": "IETF"
     },
     "RFC3966": {
         "authors": [
