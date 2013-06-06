@@ -721,6 +721,9 @@
 	"publisher": "W3C",
 	"versions": {
 	    "20030128": {
+	        "authors": [
+	    	    "Olivier Théreaux"
+		],
 	    	"title": "Common HTTP Implementation Problems",
 		"rawDate": "2003-01-28",
 		"status": "NOTE",
@@ -1277,11 +1280,23 @@
         "authors": [
 	    "Karl Dubost"
 	],
-	"href": "http://www.w3.org/TR/2003/NOTE-cuap-20030128",
+	"href": "http://www.w3.org/TR/cuap",
 	"title": "Common User Agent Problems",
 	"date": "28 January 2003",
 	"status": "NOTE",
-	"publisher": "W3C"
+	"publisher": "W3C",
+	"versions": {
+	    "20030128": {
+	        "authors": [
+		    "Karl Dubost"
+		],
+		"href": "http://www.w3.org/TR/2003/NOTE-cuap-20030128",
+		"title": "Common User Agent Problems",
+		"rawDate": "2003-01-28",
+		"status": "NOTE",
+		"publisher": "W3C"
+	    }
+	}
     },
     "CURIE": {
         "aliasOf": "RDFA-CORE"
