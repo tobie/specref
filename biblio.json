@@ -714,11 +714,19 @@
         "authors": [
 	    "Olivier Théreaux"
 	],
-	"href": "http://www.w3.org/TR/2003/NOTE-chips-20030128/",
+	"href": "http://www.w3.org/TR/chips",
 	"title": "Common HTTP Implementation Problems",
 	"date": "28 January 2003",
 	"status": "NOTE",
-	"publisher": "W3C"
+	"publisher": "W3C",
+	"versions": {
+	    "20030128": {
+	    	"title": "Common HTTP Implementation Problems",
+		"rawDate": "2003-01-28",
+		"status": "NOTE",
+		"publisher": "W3C"
+	    }
+	}
     },
     "CLABS-HNAPI": {
         "href": "http://www.w3.org/2011/webtv/HNTF/CableLabs_Revised_API_20110727-2.pdf",
