@@ -720,22 +720,10 @@
         "aliasOf": "clipboard-apis"
     },
     "CMS-Algorithms": {
-        "authors": [
-            "R. Housley"
-        ],
-        "href": "http://www.ietf.org/rfc/rfc3370.txt",
-        "title": "RFC3370: Cryptographic Message Syntax (CMS) Algorithms",
-        "status": "IETF Informational RFC",
-        "date": "February 2002"
+    	"aliasOf": "RFC3370"
     },
     "CMS-WRAP": {
-        "authors": [
-            "R. Housley"
-        ],
-        "href": "http://www.ietf.org/rfc/rfc3217.txt",
-        "title": "RFC3217: Triple-DES and R2 Key Wrapping",
-        "status": "IETF Informational RFC",
-        "date": "December 2001"
+        "aliasOf": "RFC3217"
     },
     "COAP": "E Shelby; et al. <a href=\"http://tools.ietf.org/html/draft-ietf-core-coap\"><cite>Constrained Application Protocol (CoAP)</cite></a>. IETF Internet Draft, December 2012. URL: <a href=\"http://tools.ietf.org/html/draft-ietf-core-coap\">http://tools.ietf.org/html/draft-ietf-core-coap</a>",
     "COLORIMETRY": "<cite>Colorimetry, Second Edition.</cite> CIE Publication 15.2-1986. ISBN 3-900-734-00-3",
@@ -4948,6 +4936,16 @@
         "publisher": "IETF"
     },
     "RFC3161-PKIX-UPDATE-9": "Stefan Santesson, Nick Pope. <a href=\"http://tools.ietf.org/id/draft-ietf-pkix-rfc3161-update-09.txt\"><cite> ESSCertIDv2 update for RFC 3161</cite></a> 29 April 2010, IETF Internet Draft. URL: <a href=\"http://tools.ietf.org/id/draft-ietf-pkix-rfc3161-update-09.txt\"> http://tools.ietf.org/id/draft-ietf-pkix-rfc3161-update-09.txt</a> ",
+    "RFC3217": {
+        "authors": [
+            "R. Housley"
+        ],
+        "href": "http://www.ietf.org/rfc/rfc3217.txt",
+        "title": "Triple-DES and R2 Key Wrapping",
+        "status": "Informational",
+	"publisher": "IETF",
+        "date": "December 2001"
+    },
     "RFC3218": {
         "authors": [
             "E. Rescorla"
@@ -4984,6 +4982,16 @@
     },
     "RFC3279": "W. Polk, R. Housley, L. Bassham. <a href=\"http://www.ietf.org/rfc/rfc3279.txt\"><cite>Algorithmupdates and Identifiers for the Internet X.509 Public Key Infrastructure Certificate and Certificate Revocation List (CRL) Profile</cite></a>. April 2002. Internet RFC 3279. URL: <a href=\"http://www.ietf.org/rfc/rfc3279.txt\">http://www.ietf.org/rfc/rfc3279.txt</a>",
     "RFC3339": "G. Klyne, C. Newman. <a href=\"http://www.ietf.org/rfc/rfc3339.txt\"><cite>Date and Time on the Internet: Timestamps</cite></a>. July 2002. Internet RFC 3339. URL: <a href=\"http://www.ietf.org/rfc/rfc3339.txt\">http://www.ietf.org/rfc/rfc3339.txt</a>",
+    "RFC3370": {
+        "authors": [
+            "R. Housley"
+        ],
+        "href": "http://www.ietf.org/rfc/rfc3370.txt",
+        "title": "Cryptographic Message Syntax (CMS) Algorithms",
+        "status": "Informational",
+	"publisher": "IETF",
+        "date": "February 2002"
+    },
     "RFC3406": "L. Daigle, D. van Gulik, R. Iannella, P. Faltstrom. <a href=\"http://www.ietf.org/rfc/rfc3406.txt\"><cite> URN Namespace Definition Mechanisms.</cite></a>. IETF RFC 3406 October 2002. URL: <a href=\"http://www.ietf.org/rfc/rfc3406.txt\"> http://www.ietf.org/rfc/rfc3406.txt</a>",
     "RFC3428": {
         "authors": [
