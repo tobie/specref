@@ -2526,9 +2526,7 @@
         "publisher": "IETF"
     },
     "ECMASCRIPT": {
-        "href": "http://people.mozilla.org/~jorendorff/es6-draft.html",
-        "title": "ECMA-262 ECMAScript Language Specification",
-        "publisher": "ECMA"
+        "aliasOf": "ECMA-262-6" 
     },
     "ECMASCRIPT-I18N":{
         "aliasOf": "ECMAS-402"
@@ -2537,13 +2535,17 @@
         "date": "June 2011",
         "href": "http://www.ecma-international.org/publications/standards/Ecma-262.htm",
         "publisher": "ECMA",
-        "title": "ECMAScript Language Specification, Edition 5.1"
-    },
-    "ECMA-262-51": {
-        "date": "June 2011",
-        "href": "http://www.ecma-international.org/publications/standards/Ecma-262.htm",
-        "publisher": "ECMA",
-        "title": "ECMAScript Language Specification, Edition 5.1"
+        "title": "ECMAScript Language Specification, Edition 5.1",
+        "versions":{
+            "51":{
+                "aliasOf": "ECMA-262"
+            },
+            "6":{
+                "href": "http://people.mozilla.org/~jorendorff/es6-draft.html",
+                "title": "ECMA-262 ECMAScript Language Specification, Edition 6",
+                "status": "Draft"      
+            }
+        }
     },
     "ECMAS-402": {
         "authors": [
