@@ -142,14 +142,7 @@
         "date": "November 2001"
     },
     "AES-WRAP": {
-        "authors": [
-            "J. Schaad",
-            "R. Housley"
-        ],
-        "href": "http://www.ietf.org/rfc/rfc3394.txt",
-        "title": "RFC3394: Advanced Encryption Standard (AES) Key Wrap Algorithm",
-        "status": "IETF Informational RFC",
-        "date": "September 2002"
+	"aliasOf": "RFC3394"
     },
     "AES-WRAP-PAD": {
         "authors": [
@@ -5027,6 +5020,17 @@
         "status": "Informational",
         "publisher": "IETF",
         "date": "February 2002"
+    },
+    "RFC3394": {
+	"authors": [
+            "J. Schaad",
+            "R. Housley"
+	],
+        "href": "http://www.ietf.org/rfc/rfc3394.txt",
+        "title": "Advanced Encryption Standard (AES) Key Wrap Algorithm",
+        "status": "Informational",
+        "date": "September 2002",
+	"publisher": "IETF"
     },
     "RFC3406": "L. Daigle, D. van Gulik, R. Iannella, P. Faltstrom. <a href=\"http://www.ietf.org/rfc/rfc3406.txt\"><cite> URN Namespace Definition Mechanisms.</cite></a>. IETF RFC 3406 October 2002. URL: <a href=\"http://www.ietf.org/rfc/rfc3406.txt\"> http://www.ietf.org/rfc/rfc3406.txt</a>",
     "RFC3428": {
