@@ -2558,7 +2558,9 @@
         }
     },
     "ERICSSON-WDC": "<a href=\"https://labs.ericsson.com/apis/web-device-connectivity/\"><cite>Web Device Connectivity</cite></a>. 18 October 2010. Ericsson Labs. URL: <a href=\"https://labs.ericsson.com/apis/web-device-connectivity/\"></a>",
-    "ESDH": "E. Rescorla. <a href=\"http://www.ietf.org/rfc/rfc2631.txt\"><cite> Diffie-Hellman Key Agreement Method.</cite></a>. IETF RFC 2631 Standards Track, 1999. URL: <a     href=\"http://www.ietf.org/rfc/rfc2631.txt\">http://www.ietf.org/rfc/rfc2631.txt</a>",
+    "ESDH": {
+	"aliasOf": "RFC2631"
+    },
     "EXI": {
         "aliasOf": "exi"
     },
@@ -4870,8 +4872,18 @@
         "href": "http://www.ietf.org/rfc/rfc2616.txt",
         "title": "Hypertext Transfer Protocol - HTTP/1.1",
         "date": "June 1999",
-        "status": "RFC 2616",
+        "status": "RFC",
         "publisher": "IETF"
+    },
+    "RFC2631": {
+	"authors": [
+	    "E. Rescorla"
+	],
+	"href": "http://www.ietf.org/rfc/rfc2631.txt",
+	"title": "Diffie-Hellman Key Agreement Method",
+	"date": "June 1999",
+	"status": "RFC",
+	"publisher": "IETF"
     },
     "RFC2717": {
         "authors": [
