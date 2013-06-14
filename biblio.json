@@ -3463,15 +3463,7 @@
     "MCINTOSH-WRAP": " Michael McIntosh; Paula Austel. <cite>XML signature element wrapping attacks and countermeasures.</cite> In Workshop on Secure Web Services, 2005",
     "MDN-SETCAPTURE": "Shepherd, Eric; et. al. <a href='https://developer.mozilla.org/en/DOM/element.setCapture'><cite>element.setCapture</cite></a> 12 Nov 2010. Mozilla Developer Network. URL: <a href='https://developer.mozilla.org/en/DOM/element.setCapture'>https://developer.mozilla.org/en/DOM/element.setCapture</a>",
     "MDNS": {
-        "authors": [
-            "S. Cheshire",
-            "M. Krochmal"
-        ],
-        "href": "http://tools.ietf.org/html/rfc6762",
-        "title": "Multicast DNS (RFC 6762)",
-        "date": "February 2013",
-        "status": "RFC 6762",
-        "publisher": "IETF"
+	"aliasOf": "RFC6762"
     },
     "MEDIA-ANNOT-REQS": {
         "aliasOf": "media-annot-reqs"
@@ -5440,6 +5432,18 @@
 	"obsoletes": [
 	    "RFC2965"
 	]
+    },
+    "RFC6762": {
+        "authors": [
+            "S. Cheshire",
+            "M. Krochmal"
+        ],
+        "href": "http://www.ietf.org/rfc/rfc6763.txt",
+        "title": "Multicast DNS",
+        "date": "February 2013",
+        "status": "RFC",
+        "publisher": "IETF",
+	"issn": "2070-1721"
     },
     "RFC6763": {
 	"authors": [
