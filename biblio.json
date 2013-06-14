@@ -2754,7 +2754,9 @@
         "status": "Internet Draft",
         "publisher": "IETF"
     },
-    "HMAC": "H. Krawczyk, M. Bellare, R. Canetti. <a href=\"http://www.ietf.org/rfc/rfc2104.txt\"><cite>HMAC: Keyed-Hashing for Message Authentication</cite></a>. February 1997. IETF RFC 2104.  URL: <a href=\"http://www.ietf.org/rfc/rfc2104.txt\">http://www.ietf.org/rfc/rfc2104.txt</a>",
+    "HMAC": {
+	"aliasOf": "RFC2104"
+    },
     "HMAC-Security": "C. Rechberger, V. Rijmen. <a href=\"http://www.jucs.org/jucs_14_3/new_results_on_nmac/jucs_14_3_0347_0376_rechberger.pdf\"><cite>New Results on NMAC/HMAC when Instantiated with Popular Hash Functions</cite></a>. 2 January 2008. Journal of Universal Computer Science, vol. 14, no. 3 (2008), 347-376.  URL: <a href=\"http://www.jucs.org/jucs_14_3/new_results_on_nmac/jucs_14_3_0347_0376_rechberger.pdf\">http://www.jucs.org/jucs_14_3/new_results_on_nmac/jucs_14_3_0347_0376_rechberger.pdf</a>",
     "HMRMC": "<a href=\"http://www.hmrc.gov.uk/softwaredevelopers/index.htm\"><cite>HM Revenue and customs</cite></a> Her Majesty's Revenue and Customs. URL: <a href=\"http://www.hmrc.gov.uk/softwaredevelopers/index.htm\">http://www.hmrc.gov.uk/softwaredevelopers/index.htm</a> <br> Sample response message with XML signature: <a href=\"http://www.hmrc.gov.uk/ebu/responsemessages.pdf\">http://www.hmrc.gov.uk/ebu/responsemessages.pdf</a>",
     "HSL": "Steven Pemberton. <a href=\"http://www.cwi.nl/~steven/css/hsl.html\"><cite>HSL: light vs saturation.</cite></a> 19 November 1998. URL: <a href=\"http://www.cwi.nl/~steven/css/hsl.html\">http://www.cwi.nl/~steven/css/hsl.html</a> ",
@@ -4761,6 +4763,18 @@
         "date": "November 1996",
         "status": "RFC",
         "publisher": "IETF"
+    },
+    "RFC2104": {
+	"authors": [
+	    "H. Krawczyk",
+	    "M. Bellare",
+	    "R. Canetti"
+	],
+	"href": "http://www.ietf.org/rfc/rfc2104.txt",
+	"title": "HMAC: Keyed-Hashing for Message Authentication",
+	"date": "February 1997",
+	"status": "RFC",
+	"publisher": "IETF"
     },
     "RFC2119": "S. Bradner. <a href=\"http://www.ietf.org/rfc/rfc2119.txt\"><cite>Key words for use in RFCs to Indicate Requirement Levels.</cite></a> March 1997. Internet RFC 2119.  URL: <a href=\"http://www.ietf.org/rfc/rfc2119.txt\">http://www.ietf.org/rfc/rfc2119.txt</a> ",
     "RFC2141": {
