@@ -5227,7 +5227,17 @@
 	"publisher": "IETF",
 	"obsoletes": "RFC2828"
     },
-    "RFC5023": "J. Gregorio, B. de hOra. <a href=\"http://www.ietf.org/rfc/rfc5023.txt\"><cite>Atom Publishing Protocol</cite></a>. IETF RFC 5023. October 2007. URL: <a href=\"http://www.ietf.org/rfc/rfc5023.txt\">http://www.ietf.org/rfc/rfc5023.txt</a>",
+    "RFC5023": {
+	"authors": [
+	    "J. Gregorio",
+	    "B. de hOra"
+	],
+	"title": "The Atom Publishing Protocol",
+	"href": "http://www.ietf.org/rfc/rfc5023.txt",
+	"date": "October 2007",
+	"status": "RFC",
+	"publisher": "IETF"
+    },
     "RFC5234": {
 	"authors": [
 	    "D. Crocker",
