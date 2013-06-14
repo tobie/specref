@@ -3920,7 +3920,9 @@
             }
         }
     },
-    "NTP": "D. Mills. <a href=\"http://www.ietf.org/rfc/rfc1305.txt\"><cite>Network Time Protocol (Version 3)</cite></a>. March 1992. IETF RFC 1305. URL: <a href=\"http://www.ietf.org/rfc/rfc1305.txt\">http://www.ietf.org/rfc/rfc1305.txt</a>",
+    "NTP": {
+	"aliasOf": "RFC1305"
+    },
     "OAEP-ATTACK": "Manger, James. <a href=\"http://archiv.infsec.ethz.ch/education/fs08/secsem/Manger01.pdf\"><cite> A Chosen Ciphertext Attack on RSA Optimal Asymmetric Encryption Padding (OAEP) as Standardized in PKCS #1 v2.0</cite></a>. URL: <a href=\"http://archiv.infsec.ethz.ch/education/fs08/secsem/Manger01.pdf\">http://archiv.infsec.ethz.ch/education/fs08/secsem/Manger01.pdf</a>",
     "OASIS-TAG": "Stephen D. Green, Dmitry Kostovarov. <a href=\"http://docs.oasis-open.org/tag/guidelines/v1.0/testassertionsguidelines.html\"><cite>Test Assertions Guidelines</cite></a>. OASIS Committee Draft (Work in progress) .URL: <a href=\"http://docs.oasis-open.org/tag/guidelines/v1.0/testassertionsguidelines.html\">http://docs.oasis-open.org/tag/guidelines/v1.0/testassertionsguidelines.html</a>",
     "OCSP": "M. Myers, R. Ankney, A. Malpani, S. Galperin. <a href=\"http://www.ietf.org/rfc/rfc2560.txt\"><cite>X.509 Internet Public Key Infrastructure Online Certificate Status Protocol - OCSP</cite></a>. June 1999. IETF RFC 2560. URL: <a href=\"http://www.ietf.org/rfc/rfc2560.txt\">http://www.ietf.org/rfc/rfc2560.txt</a>",
@@ -4703,6 +4705,21 @@
         "date": "November 1987",
         "status": "RFC",
         "publisher": "IETF"
+    },
+    "RFC1305": {
+	"authors": [
+	    "David L. Mills"
+	],
+	"href": "http://www.ietf.org/rfc/rfc1305.txt",
+	"title": "Network Time Protocol (Version 3) Specification, Implementation and Analysis",
+	"date": "March 1992",
+	"status": "RFC",
+	"publisher": "IETF",
+	"obsoletes": [
+	    "RFC958",
+	    "RFC1059",
+	    "RFC1119"
+	]
     },
     "RFC1738": {
         "authors": [
