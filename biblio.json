@@ -145,14 +145,7 @@
 	"aliasOf": "RFC3394"
     },
     "AES-WRAP-PAD": {
-        "authors": [
-            "R. Housley",
-            "M. Dworkin"
-        ],
-        "href": "http://www.ietf.org/rfc/rfc5649.txt",
-        "title": "RFC 5649: Advanced Encryption Standard (AES) Key Wrap with Padding Algorithm",
-        "status": "   IETF Informational RFC",
-        "date": "August 2009"
+	"aliasOf": "RFC5649"
     },
     "AGBDL": "Charles Jacobs; et al. <a href=\"http://grail.cs.washington.edu/pub/papers/Jacobs2003.pdf\">&ldquo;Adaptive Grid Based Document Layout&rdquo;</a> in: <cite>ACM Transactions on Graphics.</cite> 22. 3. pp. 838&#8211;847. July 2003. URL: <a href=\"http://grail.cs.washington.edu/pub/papers/Jacobs2003.pdf\">http://grail.cs.washington.edu/pub/papers/Jacobs2003.pdf</a> ",
     "ALT-TECHNIQUES": {
@@ -5301,6 +5294,17 @@
         "date": "September 2009",
         "status": "RFC",
         "publisher": "IETF"
+    },
+    "RFC5649": {
+	"authors": [
+            "R. Housley",
+            "M. Dworkin"
+        ],
+        "href": "http://www.ietf.org/rfc/rfc5649.txt",
+        "title": "Advanced Encryption Standard (AES) Key Wrap with Padding Algorithm",
+        "status": "Informational",
+	"publisher": "IETF",
+        "date": "August 2009"
     },
     "RFC5724": {
         "authors": [
