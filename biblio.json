@@ -3378,7 +3378,9 @@
     "LBASE": {
         "aliasOf": "lbase"
     },
-    "LDAP-DN": "K. Zeilenga. <a href=\"http://www.ietf.org/rfc/rfc4514.txt\"><cite>Lightweight Directory Access Protocol : String Representation of Distinguished Names</cite></a>. June 2006. IETF RFC 4514. URL: <a href=\"http://www.ietf.org/rfc/rfc4514.txt\">http://www.ietf.org/rfc/rfc4514.txt</a>",
+    "LDAP-DN": {
+	"aliasOf": "RFC4514"
+    },
     "LEIRI": {
         "aliasOf": "leiri"
     },
@@ -5184,6 +5186,19 @@
         "publisher": "IETF",
         "status": "Informational",
         "title": "Scripting Media Types"
+    },
+    "RFC4514": {
+	"authors": [
+	    "K. Zeilenga"
+	],
+	"href": "http://www.ietf.org/rfc/rfc4514.txt",
+	"date": "June 2006",
+	"publisher": "IETF",
+	"status": "RFC",
+	"title": "Lightweight Directory Access Protocol (LDAP): String Representation of Distinguished Names",
+	"obsoletes": [
+	    "RFC2253"
+	]
     },
     "RFC4572": {
         "authors": [
