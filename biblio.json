@@ -754,7 +754,9 @@
     "CONTENT-IN-RDF": {
         "aliasOf": "Content-in-RDF"
     },
-    "COOKIES": "Adam Barth. <cite><a href=\"http://www.rfc-editor.org/rfc/rfc6265.txt\">HTTP State Management Mechanism</a>.</cite> April 2011. Internet Proposed Standard RFC 6265. URL: <a href=\"http://www.rfc-editor.org/rfc/rfc6265.txt\">http://www.rfc-editor.org/rfc/rfc6265.txt</a> ",
+    "COOKIES": {
+	"aliasOf": "RFC6265"
+    }
     "COOLURIS": {
         "aliasOf": "cooluris"
     },
@@ -5360,6 +5362,18 @@
         "date": "October 2010",
         "status": "RFC",
         "publisher": "IETF"
+    },
+    "RFC6265": {
+	"authors": [
+	    "A. Barth"
+	],
+	"href": "http://www.ietf.org/rfc/rfc6265.txt",
+	"title": "HTTP State Management Mechanism",
+	"date": "April 2011",
+	"status": "RFC",
+	"publisher": "IETF",
+	"issn": "2070-1721",
+	"obsoletes": "RFC2965"
     },
     "RFC6838": {
         "authors": [
