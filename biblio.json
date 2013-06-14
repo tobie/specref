@@ -3529,7 +3529,9 @@
     "MIME-ENC": {
         "aliasOf": "RFC2557"
     },
-    "MIME-REG": "N. Freed, J. Klensin. <a href=\"http://www.ietf.org/rfc/rfc4289.txt\"><cite>RFC 4289: Multipurpose Internet Mail Extensions (MIME) Part Four: Registration Procedures</cite></a>. December 2005. Best Current Practice. URL: <a href=\"http://www.ietf.org/rfc/rfc4289.txt\">http://www.ietf.org/rfc/rfc4289.txt</a>",
+    "MIME-REG": {
+	"aliasOf": "RFC4289"
+    },
     "MMI-ARCH": {
         "aliasOf": "mmi-arch"
     },
@@ -5168,6 +5170,20 @@
         "date": "November 2005",
         "status": "RFC",
         "publisher": "IETF"
+    },
+    "RFC4289": {
+	"authors": [
+	    "N. Freed",
+	    "J. Klensin"
+	],
+	"date": "December 2005",
+	"href": "http://www.ietf.org/rfc/rfc4289.txt",
+	"title": "Multipurpose Internet Mail Extensions (MIME) Part Four: Registration Procedures",
+	"status": "BCP",
+	"publisher": "IETF",
+	"obsoletes": [
+	    "RFC2048"
+	]
     },
     "RFC4329": {
         "authors": [
