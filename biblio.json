@@ -315,6 +315,9 @@
     },
     "BBC-WP193": "J.P. Barrett; M.E. Hammond; S.J.E Jolly. <a href=\"http://www.bbc.co.uk/rd/publications/whitepaper193.shtml\"><cite>White Paper 193 : The Universal Control API version 0.6.0 - An Overview</cite></a>. June 2011. URL: <a href=\"http://www.bbc.co.uk/rd/publications/whitepaper193.shtml\">http://www.bbc.co.uk/rd/publications/whitepaper193.shtml</a>",
     "BBC-WP194": "J.P. Barrett; M.E. Hammond; S.J.E Jolly. <a href=\"http://www.bbc.co.uk/rd/publications/whitepaper194.shtml\"><cite>White Paper 194 : The Universal Control API v.0.6.0 - Specification for the behaviour of a universal control server running on a set-top box, and the clients that connect to it</cite></a>. June 2011. URL: <a href=\"http://www.bbc.co.uk/rd/publications/whitepaper194.shtml\">http://www.bbc.co.uk/rd/publications/whitepaper194.shtml</a>",
+    "BCP13": {
+        "aliasOf": "RFC4289"
+    },
     "BCP47": {
         "authors": [
             "A. Phillips",
@@ -2489,26 +2492,13 @@
     "ECC-ALGS": {
         "aliasOf": "RFC6090"
     },
-    "ECMASCRIPT": {
-        "href": "http://people.mozilla.org/~jorendorff/es6-draft.html",
-        "title": "ECMA-262 ECMAScript Language Specification, Edition 6",
-        "status": "Draft",
-        "versions":{
-            "5.1":{
-                "aliasOf": "ECMA-262"
-            }
-        }
-    },
-    "ECMASCRIPT-I18N":{
-        "aliasOf": "ECMAS-402"
-    },
     "ECMA-262": {
         "date": "June 2011",
         "href": "http://www.ecma-international.org/publications/standards/Ecma-262.htm",
         "publisher": "ECMA",
         "title": "ECMAScript Language Specification, Edition 5.1"
     },
-    "ECMA-262-51":{
+    "ECMA-262-51": {
         "aliasOf": "ECMA-262"
     },
     "ECMAS-402": {
@@ -2521,6 +2511,19 @@
         "status": "Standard ECMA-402",
         "title": "ECMAScript Internationalization API Specification"
     },
+    "ECMASCRIPT": {
+        "href": "http://people.mozilla.org/~jorendorff/es6-draft.html",
+        "title": "ECMA-262 ECMAScript Language Specification, Edition 6",
+        "status": "Draft",
+        "versions": {
+            "5.1": {
+                "aliasOf": "ECMA-262"
+            }
+        }
+    },
+    "ECMASCRIPT-I18N": {
+        "aliasOf": "ECMAS-402"
+    },
     "ECMAScript-MIME": {
         "aliasOf": "RFC4329"
     },
@@ -2531,7 +2534,7 @@
         "aliasOf": "ElementTraversal"
     },
     "ELEMTYPO": "Robert Bringhurst. <cite>The Elements of Typographic Style, Version 3.1.</cite> Hartley &amp; Marks. 2005. ISBN 0-88179-206-3.",
-    "EMAIL":  {
+    "EMAIL": {
         "aliasOf": "RFC5322"
     },
     "EMMA": {
@@ -3536,14 +3539,14 @@
     },
     "MICROFORMATS": "<a href='http://microformats.org'><cite>Microformats</cite></a>. URL: <a href='http://microformats.org'>http://microformats.org</a> ",
     "MIDI": "<a href=\"http://www.midi.org/techspecs/index.php\"><cite>Musical Instrument Digital Interface (MIDI)</cite></a> November 2001. MIDI Manufacturers Association. Complete MIDI 1.0 Detailed Specification ISBN 0-9728831-0-X URL: <a href=\"http://www.midi.org/techspecs/index.php\">http://www.midi.org/techspecs/index.php</a>",
-    "MIME-TYPES":{
-        "aliasOf": "RFC2046"
-    },
     "MIME-ENC": {
         "aliasOf": "RFC2557"
     },
     "MIME-REG": {
         "aliasOf": "RFC4289"
+    },
+    "MIME-TYPES": {
+        "aliasOf": "RFC2046"
     },
     "MMI-ARCH": {
         "aliasOf": "mmi-arch"
@@ -5059,7 +5062,7 @@
         ],
         "href": "http://www.ietf.org/rfc/rfc3339.txt",
         "title": "Date and Time on the Internet: Timestamps",
-        "date" : "July 2002",
+        "date": "July 2002",
         "publisher": "IETF",
         "status": "RFC"
     },
@@ -5223,9 +5226,6 @@
             "RFC2048"
         ]
     },
-    "BCP13": {
-        "aliasOf": "RFC4289"
-    },
     "RFC4329": {
         "authors": [
             "B. Hoehrmann"
@@ -5355,9 +5355,6 @@
         "obsoletes": [
             "RFC4234"
         ]
-    },
-    "STD68": {
-        "aliasOf": "RFC5234"
     },
     "RFC5245": {
         "authors": [
@@ -5952,6 +5949,9 @@
     },
     "SSML11REQS": {
         "aliasOf": "ssml11reqs"
+    },
+    "STD68": {
+        "aliasOf": "RFC5234"
     },
     "STREAMS-API": {
         "authors": [
@@ -7272,8 +7272,11 @@
         "publisher": "The Unicode Consortium",
         "title": "The Unicode Standard"
     },
-    "UNICODE-SECURITY":{
-        "authors": ["Mark Davis", "Michel Suignard"],
+    "UNICODE-SECURITY": {
+        "authors": [
+            "Mark Davis",
+            "Michel Suignard"
+        ],
         "href": "http://www.unicode.org/reports/tr36/",
         "title": "Unicode Security Considerations",
         "publisher": "Unicode Consortium"
