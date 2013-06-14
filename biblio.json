@@ -3958,14 +3958,7 @@
         "publisher": "OMA"
     },
     "ORIGIN": {
-        "authors": [
-            "A. Barth"
-        ],
-        "href": "http://tools.ietf.org/html/rfc6454",
-        "title": "The Web Origin Concept",
-        "date": "December 2011",
-        "status": "RFC 6454",
-        "publisher": "IETF"
+	"aliasOf": "RFC6454"
     },
     "OWL-FEATURES": {
         "aliasOf": "owl-features"
@@ -5481,6 +5474,17 @@
 	"obsoletes": [
 	    "RFC2965"
 	]
+    },
+    "RFC6454": {
+	"authors": [
+            "A. Barth"
+        ],
+        "href": "http://www.ietf.org/rfc/rfc6454.txt",
+        "title": "The Web Origin Concept",
+        "date": "December 2011",
+        "status": "RFC",
+        "publisher": "IETF",
+	"issn": "2070-1721"
     },
     "RFC6762": {
         "authors": [
