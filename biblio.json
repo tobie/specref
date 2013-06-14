@@ -2487,16 +2487,7 @@
         }
     },
     "ECC-ALGS": {
-        "authors": [
-            "D. McGrew",
-            "K. Igoe",
-            "M. Salter"
-        ],
-        "href": "http://www.rfc-editor.org/rfc/rfc6090.txt",
-        "title": "RFC 6090: Fundamental Elliptic Curve Cryptography Algorithms",
-        "date": "February 2011",
-        "status": "IETF Informational RFC",
-        "publisher": "IETF"
+	"aliasOf": "RFC6090"
     },
     "ECMA-262": {
         "date": "June 2011",
@@ -5354,6 +5345,19 @@
         "date": "October 2010",
         "status": "RFC",
         "publisher": "IETF"
+    },
+    "RFC6090": {
+	"authors": [
+            "D. McGrew",
+            "K. Igoe",
+            "M. Salter"
+        ],
+        "href": "http://www.ietf.org/rfc/rfc6090.txt",
+        "title": "Fundamental Elliptic Curve Cryptography Algorithms",
+        "date": "February 2011",
+        "status": "Informational",
+        "publisher": "IETF",
+	"issn": "2070-1721"
     },
     "RFC6265": {
 	"authors": [
