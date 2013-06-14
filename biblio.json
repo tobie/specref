@@ -3925,7 +3925,9 @@
     },
     "OAEP-ATTACK": "Manger, James. <a href=\"http://archiv.infsec.ethz.ch/education/fs08/secsem/Manger01.pdf\"><cite> A Chosen Ciphertext Attack on RSA Optimal Asymmetric Encryption Padding (OAEP) as Standardized in PKCS #1 v2.0</cite></a>. URL: <a href=\"http://archiv.infsec.ethz.ch/education/fs08/secsem/Manger01.pdf\">http://archiv.infsec.ethz.ch/education/fs08/secsem/Manger01.pdf</a>",
     "OASIS-TAG": "Stephen D. Green, Dmitry Kostovarov. <a href=\"http://docs.oasis-open.org/tag/guidelines/v1.0/testassertionsguidelines.html\"><cite>Test Assertions Guidelines</cite></a>. OASIS Committee Draft (Work in progress) .URL: <a href=\"http://docs.oasis-open.org/tag/guidelines/v1.0/testassertionsguidelines.html\">http://docs.oasis-open.org/tag/guidelines/v1.0/testassertionsguidelines.html</a>",
-    "OCSP": "M. Myers, R. Ankney, A. Malpani, S. Galperin. <a href=\"http://www.ietf.org/rfc/rfc2560.txt\"><cite>X.509 Internet Public Key Infrastructure Online Certificate Status Protocol - OCSP</cite></a>. June 1999. IETF RFC 2560. URL: <a href=\"http://www.ietf.org/rfc/rfc2560.txt\">http://www.ietf.org/rfc/rfc2560.txt</a>",
+    "OCSP": {
+	"aliasOf": "RFC2560"
+    },
     "ODRL11": {
         "authors": [
             "Renato Iannella"
@@ -4868,6 +4870,17 @@
         "publisher": "IETF",
         "status": "RFC",
         "title": "MIME Encapsulation of Aggregate Documents, such as HTML (MHTML)"
+    },
+    "RFC2560": {
+	"authors": [
+	    "M. Myers",
+	    "R. Ankney"
+	],
+	"etAl": true,
+	"href": "http://www.ietf.org/rfc/rfc2560.txt",
+	"title": "X.509 Internet Public Key Infrastructure Online Certificate Status Protocol - OCSP",
+	"publisher": "IETF",
+	"status": "RFC"
     },
     "RFC2616": {
         "authors": [
