@@ -5022,7 +5022,9 @@
 	"date": "April 2002",
 	"publisher": "IETF",
 	"status": "RFC",
-	"obsoletes": "RFC2528"
+	"obsoletes": [
+	    "RFC2528"
+	]
     },
     "RFC3339": {
 	"authors": [
@@ -5253,7 +5255,9 @@
 	"date": "August 2007",
 	"status": "FYI",
 	"publisher": "IETF",
-	"obsoletes": "RFC2828"
+	"obsoletes": [
+	    "RFC2828"
+	]
     },
     "RFC5023": {
 	"authors": [
@@ -5276,7 +5280,9 @@
         "date": "January 2008",
         "status": "STD",
 	"publisher": "IETF",
-	"obsoletes": "RFC4234"
+	"obsoletes": [
+	    "RFC4234"
+	]
     },
     "STD68": {
 	"aliasOf": "RFC5234"
@@ -5306,7 +5312,9 @@
 	"date": "October 2008",
 	"status": "RFC",
 	"publisher": "IETF",
-	"obsoletes": "RFC2822",
+	"obsoletes": [
+	    "RFC2822"
+	],
 	"updates": [
 	    "RFC4012"
 	]
@@ -5422,7 +5430,9 @@
 	"status": "RFC",
 	"publisher": "IETF",
 	"issn": "2070-1721",
-	"obsoletes": "RFC2965"
+	"obsoletes": [
+	    "RFC2965"
+	]
     },
     "RFC6763": {
 	"authors": [
