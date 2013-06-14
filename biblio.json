@@ -3007,14 +3007,7 @@
         }
     },
     "HTTP-TLS": {
-        "authors": [
-            "E. Rescorla"
-        ],
-        "href": "http://www.ietf.org/rfc/rfc2818.txt",
-        "title": "HTTP Over TLS",
-        "date": "May 2000",
-        "status": "RFC 2818",
-        "publisher": "IETF"
+	"aliasOf": "RFC2818"
     },
     "HTTP-in-RDF": {
         "authors": [
@@ -4921,6 +4914,16 @@
         "href": "http://www.ietf.org/rfc/rfc2718.txt",
         "date": "November 1999",
         "status": "Informational",
+        "publisher": "IETF"
+    },
+    "RFC2818": {
+	"authors": [
+            "E. Rescorla"
+        ],
+        "href": "http://www.ietf.org/rfc/rfc2818.txt",
+        "title": "HTTP Over TLS",
+        "date": "May 2000",
+        "status": "RFC",
         "publisher": "IETF"
     },
     "RFC2854": {
