@@ -2489,17 +2489,27 @@
     "ECC-ALGS": {
         "aliasOf": "RFC6090"
     },
+    "ECMASCRIPT": {
+        "href": "http://people.mozilla.org/~jorendorff/es6-draft.html",
+        "title": "ECMA-262 ECMAScript Language Specification, Edition 6",
+        "status": "Draft",
+        "versions":{
+            "5.1":{
+                "aliasOf": "ECMA-262"
+            }
+        }
+    },
+    "ECMASCRIPT-I18N":{
+        "aliasOf": "ECMAS-402"
+    },
     "ECMA-262": {
         "date": "June 2011",
         "href": "http://www.ecma-international.org/publications/standards/Ecma-262.htm",
         "publisher": "ECMA",
         "title": "ECMAScript Language Specification, Edition 5.1"
     },
-    "ECMA-262-51": {
-        "date": "June 2011",
-        "href": "http://www.ecma-international.org/publications/standards/Ecma-262.htm",
-        "publisher": "ECMA",
-        "title": "ECMAScript Language Specification, Edition 5.1"
+    "ECMA-262-51":{
+        "aliasOf": "ECMA-262"
     },
     "ECMAS-402": {
         "authors": [
@@ -3526,6 +3536,9 @@
     },
     "MICROFORMATS": "<a href='http://microformats.org'><cite>Microformats</cite></a>. URL: <a href='http://microformats.org'>http://microformats.org</a> ",
     "MIDI": "<a href=\"http://www.midi.org/techspecs/index.php\"><cite>Musical Instrument Digital Interface (MIDI)</cite></a> November 2001. MIDI Manufacturers Association. Complete MIDI 1.0 Detailed Specification ISBN 0-9728831-0-X URL: <a href=\"http://www.midi.org/techspecs/index.php\">http://www.midi.org/techspecs/index.php</a>",
+    "MIME-TYPES":{
+        "aliasOf": "RFC2046"
+    },
     "MIME-ENC": {
         "aliasOf": "RFC2557"
     },
@@ -7258,6 +7271,12 @@
         "href": "http://www.unicode.org/versions/latest/",
         "publisher": "The Unicode Consortium",
         "title": "The Unicode Standard"
+    },
+    "UNICODE-SECURITY":{
+        "authors": ["Mark Davis", "Michel Suignard"],
+        "href": "http://www.unicode.org/reports/tr36/",
+        "title": "Unicode Security Considerations",
+        "publisher": "Unicode Consortium"
     },
     "UNICODE-XML": {
         "aliasOf": "unicode-xml"
