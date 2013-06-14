@@ -5022,7 +5022,17 @@
 	"status": "RFC",
 	"obsoletes": "RFC2528"
     },
-    "RFC3339": "G. Klyne, C. Newman. <a href=\"http://www.ietf.org/rfc/rfc3339.txt\"><cite>Date and Time on the Internet: Timestamps</cite></a>. July 2002. Internet RFC 3339. URL: <a href=\"http://www.ietf.org/rfc/rfc3339.txt\">http://www.ietf.org/rfc/rfc3339.txt</a>",
+    "RFC3339": {
+	"authors": [
+	    "G. Klyne",
+	    "C. Newman"
+	],
+	"href": "http://www.ietf.org/rfc/rfc3339.txt",
+	"title": "Date and Time on the Internet: Timestamps",
+	"date" : "July 2002",
+	"publisher": "IETF",
+	"status": "RFC"
+    },
     "RFC3370": {
         "authors": [
             "R. Housley"
