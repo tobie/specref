@@ -4268,7 +4268,9 @@
         "status": "REC",
         "publisher": "W3C"
     },
-    "PGP": "J. Callas, L. Donnerhacke, H. Finney, D. Shaw, R. Thayer. <a href=\"http://www.ietf.org/rfc/rfc4880.txt\"><cite>OpenPGP Message Format</cite></a>. IETF RFC 4880. November 2007. URL: <a href=\"http://www.ietf.org/rfc/rfc4880.txt\">http://www.ietf.org/rfc/rfc4880.txt</a>",
+    "PGP": {
+	"aliasOf": "RFC4880"
+    }
     "PICS-LABELS": {
         "authors": [
             "Win Treese"
@@ -5286,6 +5288,22 @@
         "date": "May 2007",
         "status": "RFC",
         "publisher": "IETF"
+    },
+    "RFC4880": {
+	"authors": [
+	    "J. Callas",
+	    "L. Donnerhacke"
+	],
+	"etAl": true,
+	"href": "http://www.ietf.org/rfc/rfc4880.txt",
+	"title": "OpenPGP Message Format",
+	"date": "November 2007",
+	"status": "RFC",
+	"publisher": "IETF",
+	"obsoletes": [
+	    "RFC1991",
+	    "RFC2440"
+	]
     },
     "RFC4949": {
 	"authors": [
