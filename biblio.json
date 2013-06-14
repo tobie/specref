@@ -89,14 +89,7 @@
     },
     "ABC": "Leo Geurts; Lambert Meertens; Steven Pemberton. <a href=\"http://www.cwi.nl/~steven/abc\"><cite>The ABC Programmer's Handbook.</cite></a> Prentice-Hall. ISBN: 0-13-000027-2. URL: <a href=\"http://www.cwi.nl/~steven/abc\">http://www.cwi.nl/~steven/abc</a>",
     "ABNF": {
-        "authors": [
-            "D. Crocker",
-            "P. Overell"
-        ],
-        "href": "http://www.ietf.org/rfc/rfc5234.txt",
-        "title": "Augmented BNF for Syntax Specifications: ABNF",
-        "date": "January 2008",
-        "status": "Internet RFC 5234"
+        "aliasOf": "RFC5234"
     },
     "ACCESS-CONTROL": {
         "aliasOf": "access-control"
@@ -149,24 +142,10 @@
         "date": "November 2001"
     },
     "AES-WRAP": {
-        "authors": [
-            "J. Schaad",
-            "R. Housley"
-        ],
-        "href": "http://www.ietf.org/rfc/rfc3394.txt",
-        "title": "RFC3394: Advanced Encryption Standard (AES) Key Wrap Algorithm",
-        "status": "IETF Informational RFC",
-        "date": "September 2002"
+        "aliasOf": "RFC3394"
     },
     "AES-WRAP-PAD": {
-        "authors": [
-            "R. Housley",
-            "M. Dworkin"
-        ],
-        "href": "http://www.ietf.org/rfc/rfc5649.txt",
-        "title": "RFC 5649: Advanced Encryption Standard (AES) Key Wrap with Padding Algorithm",
-        "status": "   IETF Informational RFC",
-        "date": "August 2009"
+        "aliasOf": "RFC5649"
     },
     "AGBDL": "Charles Jacobs; et al. <a href=\"http://grail.cs.washington.edu/pub/papers/Jacobs2003.pdf\">&ldquo;Adaptive Grid Based Document Layout&rdquo;</a> in: <cite>ACM Transactions on Graphics.</cite> 22. 3. pp. 838&#8211;847. July 2003. URL: <a href=\"http://grail.cs.washington.edu/pub/papers/Jacobs2003.pdf\">http://grail.cs.washington.edu/pub/papers/Jacobs2003.pdf</a> ",
     "ALT-TECHNIQUES": {
@@ -775,7 +754,9 @@
     "CONTENT-IN-RDF": {
         "aliasOf": "Content-in-RDF"
     },
-    "COOKIES": "Adam Barth. <cite><a href=\"http://www.rfc-editor.org/rfc/rfc6265.txt\">HTTP State Management Mechanism</a>.</cite> April 2011. Internet Proposed Standard RFC 6265. URL: <a href=\"http://www.rfc-editor.org/rfc/rfc6265.txt\">http://www.rfc-editor.org/rfc/rfc6265.txt</a> ",
+    "COOKIES": {
+        "aliasOf": "RFC6265"
+    },
     "COOLURIS": {
         "aliasOf": "cooluris"
     },
@@ -1630,15 +1611,7 @@
     },
     "DISCO-PROP": "Rich Tibbett, Clarke Stevens. <a href=\"http://people.opera.com/richt/release/specs/discovery/Overview.html\"><cite>Networked Service Discovery and Messaging</cite></a>. 22 September 2011. Draft proposal (no official standing). URL: <a href=\"http://people.opera.com/richt/release/specs/discovery/Overview.html\">http://people.opera.com/richt/release/specs/discovery/Overview.html</a>",
     "DNS-SD": {
-        "authors": [
-            "S. Cheshire",
-            "M. Krochmal"
-        ],
-        "href": "http://tools.ietf.org/html/rfc6763",
-        "title": "DNS-Based Service Discovery (RFC 6763)",
-        "date": "February 2013",
-        "status": "RFC 6763",
-        "publisher": "IETF"
+        "aliasOf": "RFC6763"
     },
     "DOM-BINDINGS": {
         "aliasOf": "WEBIDL"
@@ -2514,16 +2487,7 @@
         }
     },
     "ECC-ALGS": {
-        "authors": [
-            "D. McGrew",
-            "K. Igoe",
-            "M. Salter"
-        ],
-        "href": "http://www.rfc-editor.org/rfc/rfc6090.txt",
-        "title": "RFC 6090: Fundamental Elliptic Curve Cryptography Algorithms",
-        "date": "February 2011",
-        "status": "IETF Informational RFC",
-        "publisher": "IETF"
+        "aliasOf": "RFC6090"
     },
     "ECMA-262": {
         "date": "June 2011",
@@ -2557,7 +2521,9 @@
         "aliasOf": "ElementTraversal"
     },
     "ELEMTYPO": "Robert Bringhurst. <cite>The Elements of Typographic Style, Version 3.1.</cite> Hartley &amp; Marks. 2005. ISBN 0-88179-206-3.",
-    "EMAIL": "P. Resnick. <a href='http://tools.ietf.org/html/rfc5322'><cite>RFC 5322: Internet Message Format</cite></a>. October 2008. IETF draft standard. URL: <a href='http://tools.ietf.org/html/rfc5322'>http://tools.ietf.org/html/rfc5322</a> ",
+    "EMAIL":  {
+        "aliasOf": "RFC5322"
+    },
     "EMMA": {
         "aliasOf": "emma"
     },
@@ -2592,7 +2558,9 @@
         }
     },
     "ERICSSON-WDC": "<a href=\"https://labs.ericsson.com/apis/web-device-connectivity/\"><cite>Web Device Connectivity</cite></a>. 18 October 2010. Ericsson Labs. URL: <a href=\"https://labs.ericsson.com/apis/web-device-connectivity/\"></a>",
-    "ESDH": "E. Rescorla. <a href=\"http://www.ietf.org/rfc/rfc2631.txt\"><cite> Diffie-Hellman Key Agreement Method.</cite></a>. IETF RFC 2631 Standards Track, 1999. URL: <a     href=\"http://www.ietf.org/rfc/rfc2631.txt\">http://www.ietf.org/rfc/rfc2631.txt</a>",
+    "ESDH": {
+        "aliasOf": "RFC2631"
+    },
     "EXI": {
         "aliasOf": "exi"
     },
@@ -2786,7 +2754,9 @@
         "status": "Internet Draft",
         "publisher": "IETF"
     },
-    "HMAC": "H. Krawczyk, M. Bellare, R. Canetti. <a href=\"http://www.ietf.org/rfc/rfc2104.txt\"><cite>HMAC: Keyed-Hashing for Message Authentication</cite></a>. February 1997. IETF RFC 2104.  URL: <a href=\"http://www.ietf.org/rfc/rfc2104.txt\">http://www.ietf.org/rfc/rfc2104.txt</a>",
+    "HMAC": {
+        "aliasOf": "RFC2104"
+    },
     "HMAC-Security": "C. Rechberger, V. Rijmen. <a href=\"http://www.jucs.org/jucs_14_3/new_results_on_nmac/jucs_14_3_0347_0376_rechberger.pdf\"><cite>New Results on NMAC/HMAC when Instantiated with Popular Hash Functions</cite></a>. 2 January 2008. Journal of Universal Computer Science, vol. 14, no. 3 (2008), 347-376.  URL: <a href=\"http://www.jucs.org/jucs_14_3/new_results_on_nmac/jucs_14_3_0347_0376_rechberger.pdf\">http://www.jucs.org/jucs_14_3/new_results_on_nmac/jucs_14_3_0347_0376_rechberger.pdf</a>",
     "HMRMC": "<a href=\"http://www.hmrc.gov.uk/softwaredevelopers/index.htm\"><cite>HM Revenue and customs</cite></a> Her Majesty's Revenue and Customs. URL: <a href=\"http://www.hmrc.gov.uk/softwaredevelopers/index.htm\">http://www.hmrc.gov.uk/softwaredevelopers/index.htm</a> <br> Sample response message with XML signature: <a href=\"http://www.hmrc.gov.uk/ebu/responsemessages.pdf\">http://www.hmrc.gov.uk/ebu/responsemessages.pdf</a>",
     "HSL": "Steven Pemberton. <a href=\"http://www.cwi.nl/~steven/css/hsl.html\"><cite>HSL: light vs saturation.</cite></a> 19 November 1998. URL: <a href=\"http://www.cwi.nl/~steven/css/hsl.html\">http://www.cwi.nl/~steven/css/hsl.html</a> ",
@@ -3037,14 +3007,7 @@
         }
     },
     "HTTP-TLS": {
-        "authors": [
-            "E. Rescorla"
-        ],
-        "href": "http://www.ietf.org/rfc/rfc2818.txt",
-        "title": "HTTP Over TLS",
-        "date": "May 2000",
-        "status": "RFC 2818",
-        "publisher": "IETF"
+        "aliasOf": "RFC2818"
     },
     "HTTP-in-RDF": {
         "authors": [
@@ -3118,14 +3081,7 @@
     "ICC32": "<a href=\"http://www.color.org/icc32.pdf\"><cite>ICC Profile Format Specification, version 3.2.</cite></a> 1995. URL: <a href=\"http://www.color.org/icc32.pdf\">http://www.color.org/icc32.pdf</a>",
     "ICC42": "<a href=\"http://color.org/ICC1v42_2006-05.pdf\"><cite>Image technology colour management &#8212; Architecture, profile format, and data structure.</cite></a> International Color Consortium. Specification ICC.1:2004-10 (Profile version 4.2.0.0) With errata incorporated, 5/22/2006. URL: <a href=\"http://color.org/ICC1v42_2006-05.pdf\">http://color.org/ICC1v42_2006-05.pdf</a> ",
     "ICE": {
-        "authors": [
-            "J. Rosenberg"
-        ],
-        "href": "http://tools.ietf.org/html/rfc5245",
-        "title": "Interactive Connectivity Establishment (ICE): A Protocol for Network Address Translator (NAT) Traversal for Offer/Answer Protocols",
-        "date": "April 2010",
-        "status": "RFC 5245",
-        "publisher": "IETF"
+        "aliasOf": "RFC5245"
     },
     "ID-MGM": "Rundle, M. <a href = 'http://identityproject.lse.ac.uk/mary.pdf'><cite>International Data Protection and Digitial Identity Management Tools</cite></a> Internet Governance Forum 2006 - Athens, Privacy Workshop I. 31 October 2006. URL: http://identityproject.lse.ac.uk/mary.pdf ",
     "IEEE1363": "<a href=\"http://grouper.ieee.org/groups/1363/\"><cite>IEEE 1363: Standard Specifications for Public Key Cryptography</cite></a>. August 2000.  URL: <a href=\"http://grouper.ieee.org/groups/1363/\">http://grouper.ieee.org/groups/1363/</a>",
@@ -3252,15 +3208,7 @@
         "aliasOf": "inkreqs"
     },
     "IRI": {
-        "authors": [
-            "M. Duerst",
-            "M. Suignard"
-        ],
-        "href": "http://www.ietf.org/rfc/rfc3987.txt",
-        "title": "Internationalized Resource Identifiers (IRI)",
-        "date": "January 2005",
-        "status": "RFC 3987",
-        "publisher": "IETF"
+        "aliasOf": "RFC3987"
     },
     "ISO10646": "<cite>Information Technology - Universal Multiple- Octet Coded CharacterSet (UCS) - Part 1: Architecture and Basic Multilingual Plane.</cite> ISO/IEC10646-1:1993. The current specification also takes into consideration the first five amendments to ISO/IEC 10646-1:1993. Useful &lt;a href=&quot;http://www.egt.ie/standards/iso10646/ucs-roadmap.html&quot;&gt;roadmaps&lt;/a&gt;show which scripts sit at which numeric ranges.",
     "ISO15924": "<cite>Code for the representation of names of scripts.</cite> International Organization for Standardization. 1998. ISO 15924:1998. Draft International Standard",
@@ -3430,7 +3378,9 @@
     "LBASE": {
         "aliasOf": "lbase"
     },
-    "LDAP-DN": "K. Zeilenga. <a href=\"http://www.ietf.org/rfc/rfc4514.txt\"><cite>Lightweight Directory Access Protocol : String Representation of Distinguished Names</cite></a>. June 2006. IETF RFC 4514. URL: <a href=\"http://www.ietf.org/rfc/rfc4514.txt\">http://www.ietf.org/rfc/rfc4514.txt</a>",
+    "LDAP-DN": {
+        "aliasOf": "RFC4514"
+    },
     "LEIRI": {
         "aliasOf": "leiri"
     },
@@ -3513,15 +3463,7 @@
     "MCINTOSH-WRAP": " Michael McIntosh; Paula Austel. <cite>XML signature element wrapping attacks and countermeasures.</cite> In Workshop on Secure Web Services, 2005",
     "MDN-SETCAPTURE": "Shepherd, Eric; et. al. <a href='https://developer.mozilla.org/en/DOM/element.setCapture'><cite>element.setCapture</cite></a> 12 Nov 2010. Mozilla Developer Network. URL: <a href='https://developer.mozilla.org/en/DOM/element.setCapture'>https://developer.mozilla.org/en/DOM/element.setCapture</a>",
     "MDNS": {
-        "authors": [
-            "S. Cheshire",
-            "M. Krochmal"
-        ],
-        "href": "http://tools.ietf.org/html/rfc6762",
-        "title": "Multicast DNS (RFC 6762)",
-        "date": "February 2013",
-        "status": "RFC 6762",
-        "publisher": "IETF"
+        "aliasOf": "RFC6762"
     },
     "MEDIA-ANNOT-REQS": {
         "aliasOf": "media-annot-reqs"
@@ -3587,7 +3529,9 @@
     "MIME-ENC": {
         "aliasOf": "RFC2557"
     },
-    "MIME-REG": "N. Freed, J. Klensin. <a href=\"http://www.ietf.org/rfc/rfc4289.txt\"><cite>RFC 4289: Multipurpose Internet Mail Extensions (MIME) Part Four: Registration Procedures</cite></a>. December 2005. Best Current Practice. URL: <a href=\"http://www.ietf.org/rfc/rfc4289.txt\">http://www.ietf.org/rfc/rfc4289.txt</a>",
+    "MIME-REG": {
+        "aliasOf": "RFC4289"
+    },
     "MMI-ARCH": {
         "aliasOf": "mmi-arch"
     },
@@ -3976,10 +3920,14 @@
             }
         }
     },
-    "NTP": "D. Mills. <a href=\"http://www.ietf.org/rfc/rfc1305.txt\"><cite>Network Time Protocol (Version 3)</cite></a>. March 1992. IETF RFC 1305. URL: <a href=\"http://www.ietf.org/rfc/rfc1305.txt\">http://www.ietf.org/rfc/rfc1305.txt</a>",
+    "NTP": {
+        "aliasOf": "RFC1305"
+    },
     "OAEP-ATTACK": "Manger, James. <a href=\"http://archiv.infsec.ethz.ch/education/fs08/secsem/Manger01.pdf\"><cite> A Chosen Ciphertext Attack on RSA Optimal Asymmetric Encryption Padding (OAEP) as Standardized in PKCS #1 v2.0</cite></a>. URL: <a href=\"http://archiv.infsec.ethz.ch/education/fs08/secsem/Manger01.pdf\">http://archiv.infsec.ethz.ch/education/fs08/secsem/Manger01.pdf</a>",
     "OASIS-TAG": "Stephen D. Green, Dmitry Kostovarov. <a href=\"http://docs.oasis-open.org/tag/guidelines/v1.0/testassertionsguidelines.html\"><cite>Test Assertions Guidelines</cite></a>. OASIS Committee Draft (Work in progress) .URL: <a href=\"http://docs.oasis-open.org/tag/guidelines/v1.0/testassertionsguidelines.html\">http://docs.oasis-open.org/tag/guidelines/v1.0/testassertionsguidelines.html</a>",
-    "OCSP": "M. Myers, R. Ankney, A. Malpani, S. Galperin. <a href=\"http://www.ietf.org/rfc/rfc2560.txt\"><cite>X.509 Internet Public Key Infrastructure Online Certificate Status Protocol - OCSP</cite></a>. June 1999. IETF RFC 2560. URL: <a href=\"http://www.ietf.org/rfc/rfc2560.txt\">http://www.ietf.org/rfc/rfc2560.txt</a>",
+    "OCSP": {
+        "aliasOf": "RFC2560"
+    },
     "ODRL11": {
         "authors": [
             "Renato Iannella"
@@ -4010,14 +3958,7 @@
         "publisher": "OMA"
     },
     "ORIGIN": {
-        "authors": [
-            "A. Barth"
-        ],
-        "href": "http://tools.ietf.org/html/rfc6454",
-        "title": "The Web Origin Concept",
-        "date": "December 2011",
-        "status": "RFC 6454",
-        "publisher": "IETF"
+        "aliasOf": "RFC6454"
     },
     "OWL-FEATURES": {
         "aliasOf": "owl-features"
@@ -4327,7 +4268,9 @@
         "status": "REC",
         "publisher": "W3C"
     },
-    "PGP": "J. Callas, L. Donnerhacke, H. Finney, D. Shaw, R. Thayer. <a href=\"http://www.ietf.org/rfc/rfc4880.txt\"><cite>OpenPGP Message Format</cite></a>. IETF RFC 4880. November 2007. URL: <a href=\"http://www.ietf.org/rfc/rfc4880.txt\">http://www.ietf.org/rfc/rfc4880.txt</a>",
+    "PGP": {
+        "aliasOf": "RFC4880"
+    },
     "PICS-LABELS": {
         "authors": [
             "Win Treese"
@@ -4760,6 +4703,21 @@
         "status": "RFC",
         "publisher": "IETF"
     },
+    "RFC1305": {
+        "authors": [
+            "David L. Mills"
+        ],
+        "href": "http://www.ietf.org/rfc/rfc1305.txt",
+        "title": "Network Time Protocol (Version 3) Specification, Implementation and Analysis",
+        "date": "March 1992",
+        "status": "RFC",
+        "publisher": "IETF",
+        "obsoletes": [
+            "RFC958",
+            "RFC1059",
+            "RFC1119"
+        ]
+    },
     "RFC1738": {
         "authors": [
             "T. Berners-Lee",
@@ -4791,6 +4749,18 @@
         "href": "http://www.ietf.org/rfc/rfc2046.txt",
         "title": "Multipurpose Internet Mail Extensions (MIME) Part Two: Media Types (RFC 2046)",
         "date": "November 1996",
+        "status": "RFC",
+        "publisher": "IETF"
+    },
+    "RFC2104": {
+        "authors": [
+            "H. Krawczyk",
+            "M. Bellare",
+            "R. Canetti"
+        ],
+        "href": "http://www.ietf.org/rfc/rfc2104.txt",
+        "title": "HMAC: Keyed-Hashing for Message Authentication",
+        "date": "February 1997",
         "status": "RFC",
         "publisher": "IETF"
     },
@@ -4896,6 +4866,17 @@
         "status": "RFC",
         "title": "MIME Encapsulation of Aggregate Documents, such as HTML (MHTML)"
     },
+    "RFC2560": {
+        "authors": [
+            "M. Myers",
+            "R. Ankney"
+        ],
+        "etAl": true,
+        "href": "http://www.ietf.org/rfc/rfc2560.txt",
+        "title": "X.509 Internet Public Key Infrastructure Online Certificate Status Protocol - OCSP",
+        "publisher": "IETF",
+        "status": "RFC"
+    },
     "RFC2616": {
         "authors": [
             "R. Fielding"
@@ -4904,7 +4885,17 @@
         "href": "http://www.ietf.org/rfc/rfc2616.txt",
         "title": "Hypertext Transfer Protocol - HTTP/1.1",
         "date": "June 1999",
-        "status": "RFC 2616",
+        "status": "RFC",
+        "publisher": "IETF"
+    },
+    "RFC2631": {
+        "authors": [
+            "E. Rescorla"
+        ],
+        "href": "http://www.ietf.org/rfc/rfc2631.txt",
+        "title": "Diffie-Hellman Key Agreement Method",
+        "date": "June 1999",
+        "status": "RFC",
         "publisher": "IETF"
     },
     "RFC2717": {
@@ -4929,6 +4920,16 @@
         "href": "http://www.ietf.org/rfc/rfc2718.txt",
         "date": "November 1999",
         "status": "Informational",
+        "publisher": "IETF"
+    },
+    "RFC2818": {
+        "authors": [
+            "E. Rescorla"
+        ],
+        "href": "http://www.ietf.org/rfc/rfc2818.txt",
+        "title": "HTTP Over TLS",
+        "date": "May 2000",
+        "status": "RFC",
         "publisher": "IETF"
     },
     "RFC2854": {
@@ -5023,8 +5024,32 @@
         "status": "RFC",
         "publisher": "IETF"
     },
-    "RFC3279": "W. Polk, R. Housley, L. Bassham. <a href=\"http://www.ietf.org/rfc/rfc3279.txt\"><cite>Algorithmupdates and Identifiers for the Internet X.509 Public Key Infrastructure Certificate and Certificate Revocation List (CRL) Profile</cite></a>. April 2002. Internet RFC 3279. URL: <a href=\"http://www.ietf.org/rfc/rfc3279.txt\">http://www.ietf.org/rfc/rfc3279.txt</a>",
-    "RFC3339": "G. Klyne, C. Newman. <a href=\"http://www.ietf.org/rfc/rfc3339.txt\"><cite>Date and Time on the Internet: Timestamps</cite></a>. July 2002. Internet RFC 3339. URL: <a href=\"http://www.ietf.org/rfc/rfc3339.txt\">http://www.ietf.org/rfc/rfc3339.txt</a>",
+    "RFC3279": {
+        "authors": [
+            "W. Polk",
+            "R. Housley",
+            "L. Bassham"
+        ],
+        "href": "http://www.ietf.org/rfc/rfc3279.txt",
+        "title": "Algorithms and Identifiers for the Internet X.509 Public Key Infrastructure Certificate and Certificate Revocation List (CRL) Profile",
+        "date": "April 2002",
+        "publisher": "IETF",
+        "status": "RFC",
+        "obsoletes": [
+            "RFC2528"
+        ]
+    },
+    "RFC3339": {
+        "authors": [
+            "G. Klyne",
+            "C. Newman"
+        ],
+        "href": "http://www.ietf.org/rfc/rfc3339.txt",
+        "title": "Date and Time on the Internet: Timestamps",
+        "date" : "July 2002",
+        "publisher": "IETF",
+        "status": "RFC"
+    },
     "RFC3370": {
         "authors": [
             "R. Housley"
@@ -5034,6 +5059,17 @@
         "status": "Informational",
         "publisher": "IETF",
         "date": "February 2002"
+    },
+    "RFC3394": {
+        "authors": [
+            "J. Schaad",
+            "R. Housley"
+        ],
+        "href": "http://www.ietf.org/rfc/rfc3394.txt",
+        "title": "Advanced Encryption Standard (AES) Key Wrap Algorithm",
+        "status": "Informational",
+        "date": "September 2002",
+        "publisher": "IETF"
     },
     "RFC3406": "L. Daigle, D. van Gulik, R. Iannella, P. Faltstrom. <a href=\"http://www.ietf.org/rfc/rfc3406.txt\"><cite> URN Namespace Definition Mechanisms.</cite></a>. IETF RFC 3406 October 2002. URL: <a href=\"http://www.ietf.org/rfc/rfc3406.txt\"> http://www.ietf.org/rfc/rfc3406.txt</a>",
     "RFC3428": {
@@ -5115,7 +5151,7 @@
             "M. Suignard"
         ],
         "href": "http://www.ietf.org/rfc/rfc3987.txt",
-        "title": "Internationalized Resource Identifiers (IRIs) (RFC 3987)",
+        "title": "Internationalized Resource Identifiers (IRIs)",
         "date": "January 2005",
         "status": "RFC",
         "publisher": "IETF"
@@ -5160,6 +5196,23 @@
         "status": "RFC",
         "publisher": "IETF"
     },
+    "RFC4289": {
+        "authors": [
+            "N. Freed",
+            "J. Klensin"
+        ],
+        "date": "December 2005",
+        "href": "http://www.ietf.org/rfc/rfc4289.txt",
+        "title": "Multipurpose Internet Mail Extensions (MIME) Part Four: Registration Procedures",
+        "status": "BCP",
+        "publisher": "IETF",
+        "obsoletes": [
+            "RFC2048"
+        ]
+    },
+    "BCP13": {
+        "aliasOf": "RFC4289"
+    },
     "RFC4329": {
         "authors": [
             "B. Hoehrmann"
@@ -5169,6 +5222,19 @@
         "publisher": "IETF",
         "status": "Informational",
         "title": "Scripting Media Types"
+    },
+    "RFC4514": {
+        "authors": [
+            "K. Zeilenga"
+        ],
+        "href": "http://www.ietf.org/rfc/rfc4514.txt",
+        "date": "June 2006",
+        "publisher": "IETF",
+        "status": "RFC",
+        "title": "Lightweight Directory Access Protocol (LDAP): String Representation of Distinguished Names",
+        "obsoletes": [
+            "RFC2253"
+        ]
     },
     "RFC4572": {
         "authors": [
@@ -5207,7 +5273,7 @@
             "J. Reschke"
         ],
         "href": "http://www.ietf.org/rfc/rfc4770.txt",
-        "title": "vCard Extensions for Instant Messaging (IM) (RFC 4770)",
+        "title": "vCard Extensions for Instant Messaging (IM)",
         "date": "January 2007",
         "status": "RFC",
         "publisher": "IETF"
@@ -5223,9 +5289,95 @@
         "status": "RFC",
         "publisher": "IETF"
     },
-    "RFC4949": "R. Shirey. <a href=\"http://www.ietf.org/rfc/rfc4949.txt\"><cite>Internet Security Glossary, Version 2.</cite></a>. IETF RFC 4949. August 2007. URL: <a href=\"http://www.ietf.org/rfc/rfc4949.txt\">http://www.ietf.org/rfc/rfc4949.txt</a>",
-    "RFC5023": "J. Gregorio, B. de hOra. <a href=\"http://www.ietf.org/rfc/rfc5023.txt\"><cite>Atom Publishing Protocol</cite></a>. IETF RFC 5023. October 2007. URL: <a href=\"http://www.ietf.org/rfc/rfc5023.txt\">http://www.ietf.org/rfc/rfc5023.txt</a>",
+    "RFC4880": {
+        "authors": [
+            "J. Callas",
+            "L. Donnerhacke"
+        ],
+        "etAl": true,
+        "href": "http://www.ietf.org/rfc/rfc4880.txt",
+        "title": "OpenPGP Message Format",
+        "date": "November 2007",
+        "status": "RFC",
+        "publisher": "IETF",
+        "obsoletes": [
+            "RFC1991",
+            "RFC2440"
+        ]
+    },
+    "RFC4949": {
+        "authors": [
+            "R. Shirey"
+        ],
+        "title": "Internet Security Glossary, Version 2",
+        "href": "http://www.ietf.org/rfc/rfc4949.txt",
+        "date": "August 2007",
+        "status": "FYI",
+        "publisher": "IETF",
+        "obsoletes": [
+            "RFC2828"
+        ]
+    },
+    "RFC5023": {
+        "authors": [
+            "J. Gregorio",
+            "B. de hOra"
+        ],
+        "title": "The Atom Publishing Protocol",
+        "href": "http://www.ietf.org/rfc/rfc5023.txt",
+        "date": "October 2007",
+        "status": "RFC",
+        "publisher": "IETF"
+    },
+    "RFC5234": {
+        "authors": [
+            "D. Crocker",
+            "P. Overell"
+        ],
+        "href": "http://www.ietf.org/rfc/rfc5234.txt",
+        "title": "Augmented BNF for Syntax Specifications: ABNF",
+        "date": "January 2008",
+        "status": "STD",
+        "publisher": "IETF",
+        "obsoletes": [
+            "RFC4234"
+        ]
+    },
+    "STD68": {
+        "aliasOf": "RFC5234"
+    },
+    "RFC5245": {
+        "authors": [
+            "J. Rosenberg"
+        ],
+        "href": "http://www.ietf.org/rfc/rfc5245.txt",
+        "title": "Interactive Connectivity Establishment (ICE): A Protocol for Network Address Translator (NAT) Traversal for Offer/Answer Protocols",
+        "date": "April 2010",
+        "status": "RFC",
+        "publisher": "IETF",
+        "obsoletes": [
+            "RFC4091",
+            "RFC4092"
+        ],
+        "issn": "2070-1721"
+    },
     "RFC5280": "D. Cooper, et. al. <a href=\"http://www.ietf.org/rfc/rfc5280.txt\"><cite> Internet X.509 Public Key Infrastructure Certificate and Certificate Revocation List (CRL) Profile. </cite></a>. IETF RFC 5280 May 2008. URL: <a href=\"http://www.ietf.org/rfc/rfc5280.txt\">http://www.ietf.org/rfc/rfc5280.txt</a>",
+    "RFC5322": {
+        "authors": [
+            "P. Resnick"
+        ],
+        "href": "http://www.ietf.org/rfc/rfc5322.txt",
+        "title": "Internet Message Format",
+        "date": "October 2008",
+        "status": "RFC",
+        "publisher": "IETF",
+        "obsoletes": [
+            "RFC2822"
+        ],
+        "updates": [
+            "RFC4012"
+        ]
+    },
     "RFC5480": "S. Turner, et. al. <a href=\"http://www.ietf.org/rfc/rfc5480.txt\"><cite> Elliptic Curve Cryptography Subject Public Key Information.</cite></a>. IETF RFC 5480 March 2009. URL: <a href=\"http://www.ietf.org/rfc/rfc5480.txt\">http://www.ietf.org/rfc/rfc5480.txt</a>",
     "RFC5545": {
         "authors": [
@@ -5247,6 +5399,17 @@
         "date": "September 2009",
         "status": "RFC",
         "publisher": "IETF"
+    },
+    "RFC5649": {
+        "authors": [
+            "R. Housley",
+            "M. Dworkin"
+        ],
+        "href": "http://www.ietf.org/rfc/rfc5649.txt",
+        "title": "Advanced Encryption Standard (AES) Key Wrap with Padding Algorithm",
+        "status": "Informational",
+        "publisher": "IETF",
+        "date": "August 2009"
     },
     "RFC5724": {
         "authors": [
@@ -5302,6 +5465,68 @@
         "date": "October 2010",
         "status": "RFC",
         "publisher": "IETF"
+    },
+    "RFC6090": {
+        "authors": [
+            "D. McGrew",
+            "K. Igoe",
+            "M. Salter"
+        ],
+        "href": "http://www.ietf.org/rfc/rfc6090.txt",
+        "title": "Fundamental Elliptic Curve Cryptography Algorithms",
+        "date": "February 2011",
+        "status": "Informational",
+        "publisher": "IETF",
+        "issn": "2070-1721"
+    },
+    "RFC6265": {
+        "authors": [
+            "A. Barth"
+        ],
+        "href": "http://www.ietf.org/rfc/rfc6265.txt",
+        "title": "HTTP State Management Mechanism",
+        "date": "April 2011",
+        "status": "RFC",
+        "publisher": "IETF",
+        "issn": "2070-1721",
+        "obsoletes": [
+            "RFC2965"
+        ]
+    },
+    "RFC6454": {
+        "authors": [
+            "A. Barth"
+        ],
+        "href": "http://www.ietf.org/rfc/rfc6454.txt",
+        "title": "The Web Origin Concept",
+        "date": "December 2011",
+        "status": "RFC",
+        "publisher": "IETF",
+        "issn": "2070-1721"
+    },
+    "RFC6762": {
+        "authors": [
+            "S. Cheshire",
+            "M. Krochmal"
+        ],
+        "href": "http://www.ietf.org/rfc/rfc6763.txt",
+        "title": "Multicast DNS",
+        "date": "February 2013",
+        "status": "RFC",
+        "publisher": "IETF",
+        "issn": "2070-1721"
+    },
+    "RFC6763": {
+        "authors": [
+            "S. Cheshire",
+            "M. Krochmal"
+        ],
+        "href": "http://www.ietf.org/rfc/rfc6763.txt",
+        "title": "DNS-Based Service Discovery",
+        "date": "February 2013",
+        "status": "RFC",
+        "publisher": "IETF",
+        "issn": "2070-1721"
     },
     "RFC6838": {
         "authors": [
