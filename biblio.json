@@ -5216,7 +5216,17 @@
         "status": "RFC",
         "publisher": "IETF"
     },
-    "RFC4949": "R. Shirey. <a href=\"http://www.ietf.org/rfc/rfc4949.txt\"><cite>Internet Security Glossary, Version 2.</cite></a>. IETF RFC 4949. August 2007. URL: <a href=\"http://www.ietf.org/rfc/rfc4949.txt\">http://www.ietf.org/rfc/rfc4949.txt</a>",
+    "RFC4949": {
+	"authors": [
+	    "R. Shirey"
+	],
+	"title": "Internet Security Glossary, Version 2",
+	"href": "http://www.ietf.org/rfc/rfc4949.txt",
+	"date": "August 2007",
+	"status": "FYI",
+	"publisher": "IETF",
+	"obsoletes": "RFC2828"
+    },
     "RFC5023": "J. Gregorio, B. de hOra. <a href=\"http://www.ietf.org/rfc/rfc5023.txt\"><cite>Atom Publishing Protocol</cite></a>. IETF RFC 5023. October 2007. URL: <a href=\"http://www.ietf.org/rfc/rfc5023.txt\">http://www.ietf.org/rfc/rfc5023.txt</a>",
     "RFC5234": {
 	"authors": [
@@ -5227,6 +5237,7 @@
         "title": "Augmented BNF for Syntax Specifications: ABNF",
         "date": "January 2008",
         "status": "STD",
+	"publisher": "IETF",
 	"obsoletes": "RFC4234"
     },
     "STD68": {
