@@ -102,7 +102,7 @@ request(RDF_FILE, function(err, response, body) {
                     clone.authors = _cloneJSON(cur.authors)
                     clone.etAl = cur.etAl;
                 } else {
-                    if (clone.authors.length > 1) clone.unorderedAuthors = true;
+                    if (clone.authors && clone.authors.length > 1) clone.unorderedAuthors = true;
                 }
                 cur.versions[key] = clone;
             }
@@ -191,6 +191,7 @@ function isGeneratedByThisScript(ref) {
 
 var TR_URLS = {
     "http://www.w3.org/TR/REC-CSS1": "http://www.w3.org/TR/CSS1/",
+    "http://www.w3.org/TR/REC-CSS2": "http://www.w3.org/TR/CSS2/",
     "http://www.w3.org/TR/REC-DOM-Level-1": "http://www.w3.org/TR/DOM-Level-1/",
     "http://www.w3.org/TR/REC-DSig-label/": "http://www.w3.org/TR/DSig-label/",
     "http://www.w3.org/TR/REC-MathML": "http://www.w3.org/TR/MathML/",
