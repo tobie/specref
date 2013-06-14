@@ -5009,7 +5009,19 @@
         "status": "RFC",
         "publisher": "IETF"
     },
-    "RFC3279": "W. Polk, R. Housley, L. Bassham. <a href=\"http://www.ietf.org/rfc/rfc3279.txt\"><cite>Algorithmupdates and Identifiers for the Internet X.509 Public Key Infrastructure Certificate and Certificate Revocation List (CRL) Profile</cite></a>. April 2002. Internet RFC 3279. URL: <a href=\"http://www.ietf.org/rfc/rfc3279.txt\">http://www.ietf.org/rfc/rfc3279.txt</a>",
+    "RFC3279": {
+	"authors": [
+	    "W. Polk",
+	    "R. Housley",
+	    "L. Bassham"
+	],
+	"href": "http://www.ietf.org/rfc/rfc3339.txt",
+	"title": "Algorithms and Identifiers for the Internet X.509 Public Key Infrastructure Certificate and Certificate Revocation List (CRL) Profile",
+	"date": "April 2002",
+	"publisher": "IETF",
+	"status": "RFC",
+	"obsoletes": "RFC2528"
+    },
     "RFC3339": "G. Klyne, C. Newman. <a href=\"http://www.ietf.org/rfc/rfc3339.txt\"><cite>Date and Time on the Internet: Timestamps</cite></a>. July 2002. Internet RFC 3339. URL: <a href=\"http://www.ietf.org/rfc/rfc3339.txt\">http://www.ietf.org/rfc/rfc3339.txt</a>",
     "RFC3370": {
         "authors": [
