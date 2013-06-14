@@ -3081,14 +3081,7 @@
     "ICC32": "<a href=\"http://www.color.org/icc32.pdf\"><cite>ICC Profile Format Specification, version 3.2.</cite></a> 1995. URL: <a href=\"http://www.color.org/icc32.pdf\">http://www.color.org/icc32.pdf</a>",
     "ICC42": "<a href=\"http://color.org/ICC1v42_2006-05.pdf\"><cite>Image technology colour management &#8212; Architecture, profile format, and data structure.</cite></a> International Color Consortium. Specification ICC.1:2004-10 (Profile version 4.2.0.0) With errata incorporated, 5/22/2006. URL: <a href=\"http://color.org/ICC1v42_2006-05.pdf\">http://color.org/ICC1v42_2006-05.pdf</a> ",
     "ICE": {
-        "authors": [
-            "J. Rosenberg"
-        ],
-        "href": "http://tools.ietf.org/html/rfc5245",
-        "title": "Interactive Connectivity Establishment (ICE): A Protocol for Network Address Translator (NAT) Traversal for Offer/Answer Protocols",
-        "date": "April 2010",
-        "status": "RFC 5245",
-        "publisher": "IETF"
+	"aliasOf": "RFC5245"
     },
     "ID-MGM": "Rundle, M. <a href = 'http://identityproject.lse.ac.uk/mary.pdf'><cite>International Data Protection and Digitial Identity Management Tools</cite></a> Internet Governance Forum 2006 - Athens, Privacy Workshop I. 31 October 2006. URL: http://identityproject.lse.ac.uk/mary.pdf ",
     "IEEE1363": "<a href=\"http://grouper.ieee.org/groups/1363/\"><cite>IEEE 1363: Standard Specifications for Public Key Cryptography</cite></a>. August 2000.  URL: <a href=\"http://grouper.ieee.org/groups/1363/\">http://grouper.ieee.org/groups/1363/</a>",
@@ -5287,6 +5280,21 @@
     },
     "STD68": {
 	"aliasOf": "RFC5234"
+    },
+    "RFC5245": {
+	"authors": [
+            "J. Rosenberg"
+        ],
+        "href": "http://www.ietf.org/rfc/rfc5245.txt",
+        "title": "Interactive Connectivity Establishment (ICE): A Protocol for Network Address Translator (NAT) Traversal for Offer/Answer Protocols",
+        "date": "April 2010",
+        "status": "RFC",
+        "publisher": "IETF"
+	"obsoletes": [
+	    "RFC4091",
+	    "RFC4092"
+	],
+	"issn": "2070-1721"
     },
     "RFC5280": "D. Cooper, et. al. <a href=\"http://www.ietf.org/rfc/rfc5280.txt\"><cite> Internet X.509 Public Key Infrastructure Certificate and Certificate Revocation List (CRL) Profile. </cite></a>. IETF RFC 5280 May 2008. URL: <a href=\"http://www.ietf.org/rfc/rfc5280.txt\">http://www.ietf.org/rfc/rfc5280.txt</a>",
     "RFC5322": {
