@@ -44,8 +44,7 @@ function next(keys, input, output) {
         writeBiblio(output)
     }
 }
-
-if (module.main === module) {
+if (require.main === module) {
     var input = readBiblio();
     if (moduleName) console.log("Applying module", moduleName);
     next(Object.keys(input), input, {});
