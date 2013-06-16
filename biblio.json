@@ -932,6 +932,20 @@
                 "hasErrata": "http://www.w3.org/Style/CSS/Errata/REC-CSS1-19990111-errata",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             },
+            "19990111": {
+                "authors": [
+                    "Håkon Wium Lie",
+                    "Bert Bos"
+                ],
+                "href": "http://www.w3.org/TR/1999/REC-CSS1-19990111",
+                "title": "Cascading Style Sheets (CSS1) Level 1 Specification",
+                "rawDate": "1999-01-11",
+                "status": "REC",
+                "publisher": "W3C",
+                "deliveredBy": "http://www.w3.org/Style/CSS/members",
+                "hasErrata": "http://www.w3.org/Style/CSS/Errata/REC-CSS1-19990111-errata",
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
             "20080411": {
                 "authors": [
                     "Håkon Wium Lie",
@@ -2269,7 +2283,6 @@
         "rawDate": "1997-06-10",
         "publisher": "W3C",
         "isRetired": true,
-        "deliveredBy": "http://www.w3.org/DSig/Group/",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
         "versions": {
             "19970610": {
@@ -2281,7 +2294,6 @@
                 "rawDate": "1997-06-10",
                 "publisher": "W3C",
                 "isRetired": true,
-                "deliveredBy": "http://www.w3.org/DSig/Group/",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
@@ -2298,6 +2310,21 @@
         "status": "REC",
         "publisher": "W3C",
         "versions": {
+            "19980527": {
+                "authors": [
+                    "Yanghua Chu",
+                    "Peter Lipp",
+                    "Brian LaMacchia",
+                    "Philip DesAutels"
+                ],
+                "href": "http://www.w3.org/TR/1998/REC-DSig-label-19980527",
+                "title": "PICS Signed Labels (DSig) 1.0 Specification",
+                "rawDate": "1998-05-27",
+                "status": "REC",
+                "publisher": "W3C",
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+                "unorderedAuthors": true
+            },
             "20091124": {
                 "authors": [
                     "Philip DesAutels",
@@ -2898,7 +2925,6 @@
         "rawDate": "1998-07-10",
         "publisher": "W3C",
         "isRetired": true,
-        "deliveredBy": "http://www.w3.org/Protocols/HTTP-NG/Group/PDG/",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
         "versions": {
             "19980710": {
@@ -2912,7 +2938,6 @@
                 "rawDate": "1998-07-10",
                 "publisher": "W3C",
                 "isRetired": true,
-                "deliveredBy": "http://www.w3.org/Protocols/HTTP-NG/Group/PDG/",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
@@ -3002,7 +3027,6 @@
         "rawDate": "1998-07-10",
         "publisher": "W3C",
         "isRetired": true,
-        "deliveredBy": "http://www.w3.org/Protocols/HTTP-NG/Group/PDG/",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
         "versions": {
             "19980710": {
@@ -3014,7 +3038,6 @@
                 "rawDate": "1998-07-10",
                 "publisher": "W3C",
                 "isRetired": true,
-                "deliveredBy": "http://www.w3.org/Protocols/HTTP-NG/Group/PDG/",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
@@ -3162,7 +3185,7 @@
         "href": "http://www.w3.org/TR/IMPLEMENTING-UAAG20/",
         "title": "Implementing UAAG 2.0",
         "date": "4 October 2012",
-        "rawDate": "2013-05-23",
+        "rawDate": "2013-06-06",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": "http://www.w3.org/WAI/UA/",
@@ -3198,6 +3221,22 @@
                 "publisher": "W3C",
                 "deliveredBy": "http://www.w3.org/WAI/UA/",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20130606": {
+                "authors": [
+                    "James Allan",
+                    "Kelly Ford",
+                    "Jeanne F Spellman",
+                    "Kimberly Patch"
+                ],
+                "href": "http://www.w3.org/TR/2013/WD-IMPLEMENTING-UAAG20-20130606/",
+                "title": "Implementing UAAG 2.0",
+                "rawDate": "2013-06-06",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": "http://www.w3.org/WAI/UA/",
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+                "unorderedAuthors": true
             }
         }
     },
@@ -3661,7 +3700,7 @@
         "status": "REC",
         "publisher": "W3C",
         "deliveredBy": "http://www.w3.org/Math/",
-        "hasErrata": "http://www.w3.org/2001/02/MathML2-errata",
+        "hasErrata": "http://www.w3.org/2003/06/mathml2e2-errata.html",
         "versions": {
             "20010221": {
                 "authors": [
@@ -3768,7 +3807,7 @@
         "rawDate": "1999-08-25",
         "publisher": "W3C",
         "isRetired": true,
-        "deliveredBy": "http://www.w3.org/ECommerce/Micropayments/Group/MarkupWG",
+        "deliveredBy": "http://www.w3.org/community/webpayments/",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
         "versions": {
             "19990825": {
@@ -3780,7 +3819,7 @@
                 "rawDate": "1999-08-25",
                 "publisher": "W3C",
                 "isRetired": true,
-                "deliveredBy": "http://www.w3.org/ECommerce/Micropayments/Group/MarkupWG",
+                "deliveredBy": "http://www.w3.org/community/webpayments/",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
@@ -4323,9 +4362,23 @@
         "rawDate": "2009-11-24",
         "status": "REC",
         "publisher": "W3C",
-        "deliveredBy": "http://www.w3.org/PICS/Group/",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
         "versions": {
+            "19961031": {
+                "authors": [
+                    "Jim Miller",
+                    "Pete Resnick",
+                    "Tim Krauskopf",
+                    "Win Treese"
+                ],
+                "href": "http://www.w3.org/TR/REC-PICS-labels-961031",
+                "title": "PICS 1.1 Label Distribution -- Label Syntax and Communication Protocols",
+                "rawDate": "1996-10-31",
+                "status": "REC",
+                "publisher": "W3C",
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+                "unorderedAuthors": true
+            },
             "20091124": {
                 "authors": [
                     "Jim Miller",
@@ -4338,7 +4391,6 @@
                 "rawDate": "2009-11-24",
                 "status": "REC",
                 "publisher": "W3C",
-                "deliveredBy": "http://www.w3.org/PICS/Group/",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
@@ -4355,9 +4407,22 @@
         "rawDate": "2009-11-24",
         "status": "REC",
         "publisher": "W3C",
-        "deliveredBy": "http://www.w3.org/PICS/Group/",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
         "versions": {
+            "19961031": {
+                "authors": [
+                    "Jim Miller",
+                    "Pete Resnick",
+                    "David Singer"
+                ],
+                "href": "http://www.w3.org/TR/REC-PICS-services-961031",
+                "title": "PICS 1.1 Rating Services and Rating Systems -- and Their Machine Readable Descriptions",
+                "rawDate": "1996-10-31",
+                "status": "REC",
+                "publisher": "W3C",
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+                "unorderedAuthors": true
+            },
             "20091124": {
                 "authors": [
                     "David Singer",
@@ -4369,7 +4434,6 @@
                 "rawDate": "2009-11-24",
                 "status": "REC",
                 "publisher": "W3C",
-                "deliveredBy": "http://www.w3.org/PICS/Group/",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
@@ -4399,9 +4463,31 @@
         "rawDate": "2009-11-24",
         "status": "REC",
         "publisher": "W3C",
-        "deliveredBy": "http://www.w3.org/PICS/Rules/Group/",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
         "versions": {
+            "19971222": {
+                "href": "http://www.w3.org/TR/REC-PICSRules-971222",
+                "title": "PICSRules 1.1 Specification",
+                "rawDate": "1997-12-22",
+                "status": "REC",
+                "publisher": "W3C",
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "19971229": {
+                "authors": [
+                    "Christopher Evans",
+                    "Martin PreslerMarshall",
+                    "Pete Resnick",
+                    "Alex Hopmann"
+                ],
+                "href": "http://www.w3.org/TR/REC-PICSRules-971229",
+                "title": "PICSRules 1.1 Specification",
+                "rawDate": "1997-12-29",
+                "status": "REC",
+                "publisher": "W3C",
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+                "unorderedAuthors": true
+            },
             "20091124": {
                 "authors": [
                     "Clive D.W. Feather",
@@ -4415,7 +4501,6 @@
                 "rawDate": "2009-11-24",
                 "status": "REC",
                 "publisher": "W3C",
-                "deliveredBy": "http://www.w3.org/PICS/Rules/Group/",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
@@ -5744,13 +5829,13 @@
             "Philipp Hoschka"
         ],
         "href": "http://www.w3.org/TR/SMIL/",
-        "title": "Synchronized Multimedia Integration Language (SMIL) 1.0 Specification",
+        "title": "Synchronized Multimedia Integration Language (SMIL 2.0) - [Second Edition]",
         "date": "15 June 1998",
-        "rawDate": "1998-06-15",
+        "rawDate": "2005-01-07",
         "status": "REC",
         "publisher": "W3C",
-        "deliveredBy": "http://www.w3.org/AudioVideo/Group/",
-        "hasErrata": "http://www.w3.org/AudioVideo/SMIL/errata",
+        "deliveredBy": "http://www.w3.org/AudioVideo/",
+        "hasErrata": "http://www.w3.org/2004/06/EditedREC-SMIL20-errata",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
         "versions": {
             "19980615": {
@@ -5762,9 +5847,24 @@
                 "rawDate": "1998-06-15",
                 "status": "REC",
                 "publisher": "W3C",
-                "deliveredBy": "http://www.w3.org/AudioVideo/Group/",
+                "deliveredBy": "http://www.w3.org/AudioVideo/",
                 "hasErrata": "http://www.w3.org/AudioVideo/SMIL/errata",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20050107": {
+                "authors": [
+                    "Thierry Michel",
+                    "Jeffrey Ayars"
+                ],
+                "href": "http://www.w3.org/TR/2005/REC-SMIL2-20050107/",
+                "title": "Synchronized Multimedia Integration Language (SMIL 2.0) - [Second Edition]",
+                "rawDate": "2005-01-07",
+                "status": "REC",
+                "publisher": "W3C",
+                "deliveredBy": "http://www.w3.org/AudioVideo/",
+                "hasErrata": "http://www.w3.org/2004/06/EditedREC-SMIL20-errata",
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+                "unorderedAuthors": true
             }
         }
     },
@@ -5784,7 +5884,7 @@
         "date": "13 December 2005",
         "status": "REC",
         "publisher": "W3C",
-        "deliveredBy": "http://www.w3.org/AudioVideo/Group/",
+        "deliveredBy": "http://www.w3.org/AudioVideo/",
         "versions": {
             "20051213": {
                 "authors": [
@@ -5802,7 +5902,7 @@
                 "rawDate": "2005-12-13",
                 "status": "REC",
                 "publisher": "W3C",
-                "deliveredBy": "http://www.w3.org/AudioVideo/Group/",
+                "deliveredBy": "http://www.w3.org/AudioVideo/",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
                 "unorderedAuthors": true
             }
@@ -6061,7 +6161,7 @@
         "status": "REC",
         "publisher": "W3C",
         "deliveredBy": "http://www.w3.org/Graphics/SVG/WG/",
-        "hasErrata": "http://www.w3.org/2003/01/REC-SVG11-20030114-errata",
+        "hasErrata": "http://www.w3.org/2011/08/REC-SVG11-20110816-errata",
         "versions": {
             "20030114": {
                 "authors": [
@@ -6767,7 +6867,7 @@
         "date": "23 February 1999",
         "status": "NOTE",
         "publisher": "W3C",
-        "deliveredBy": "http://www.w3.org/AudioVideo/Group/SymmIG/",
+        "deliveredBy": "http://www.w3.org/AudioVideo/",
         "versions": {
             "19990223": {
                 "authors": [
@@ -6780,7 +6880,7 @@
                 "rawDate": "1999-02-23",
                 "status": "NOTE",
                 "publisher": "W3C",
-                "deliveredBy": "http://www.w3.org/AudioVideo/Group/SymmIG/",
+                "deliveredBy": "http://www.w3.org/AudioVideo/",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
@@ -6917,7 +7017,6 @@
         "date": "21 October 1999",
         "status": "NOTE",
         "publisher": "W3C",
-        "deliveredBy": "http://www.w3.org/TV/TVWeb/",
         "versions": {
             "19991021": {
                 "authors": [
@@ -6930,7 +7029,6 @@
                 "rawDate": "1999-10-21",
                 "status": "NOTE",
                 "publisher": "W3C",
-                "deliveredBy": "http://www.w3.org/TV/TVWeb/",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
@@ -7485,7 +7583,6 @@
         "date": "19 March 1999",
         "status": "NOTE",
         "publisher": "W3C",
-        "deliveredBy": "http://www.w3.org/WCA/Group/",
         "versions": {
             "19990319": {
                 "authors": [
@@ -7498,7 +7595,6 @@
                 "rawDate": "1999-03-19",
                 "status": "NOTE",
                 "publisher": "W3C",
-                "deliveredBy": "http://www.w3.org/WCA/Group/",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
@@ -7514,7 +7610,6 @@
         "rawDate": "1999-05-24",
         "publisher": "W3C",
         "isRetired": true,
-        "deliveredBy": "http://www.w3.org/WCA/Group/",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
         "versions": {
             "19990524": {
@@ -7527,7 +7622,6 @@
                 "rawDate": "1999-05-24",
                 "publisher": "W3C",
                 "isRetired": true,
-                "deliveredBy": "http://www.w3.org/WCA/Group/",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
@@ -8570,7 +8664,7 @@
         "date": "31 January 2002",
         "status": "NOTE",
         "publisher": "W3C",
-        "deliveredBy": "http://www.w3.org/AudioVideo/Group/",
+        "deliveredBy": "http://www.w3.org/AudioVideo/",
         "versions": {
             "20020131": {
                 "authors": [
@@ -8583,7 +8677,7 @@
                 "rawDate": "2002-01-31",
                 "status": "NOTE",
                 "publisher": "W3C",
-                "deliveredBy": "http://www.w3.org/AudioVideo/Group/",
+                "deliveredBy": "http://www.w3.org/AudioVideo/",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
@@ -8660,7 +8754,6 @@
         "date": "23 November 1998",
         "status": "NOTE",
         "publisher": "W3C",
-        "deliveredBy": "http://www.w3.org/XML/Group/Fragments",
         "versions": {
             "19981123": {
                 "authors": [
@@ -8671,7 +8764,6 @@
                 "rawDate": "1998-11-23",
                 "status": "NOTE",
                 "publisher": "W3C",
-                "deliveredBy": "http://www.w3.org/XML/Group/Fragments",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
@@ -9974,7 +10066,7 @@
         "href": "http://www.w3.org/TR/components-intro/",
         "title": "Introduction to Web Components",
         "date": "22 May 2012",
-        "rawDate": "2012-05-22",
+        "rawDate": "2013-06-06",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": "http://www.w3.org/2008/webapps/",
@@ -9992,6 +10084,19 @@
                 "publisher": "W3C",
                 "deliveredBy": "http://www.w3.org/2008/webapps/",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20130606": {
+                "authors": [
+                    "Dominic Cooney",
+                    "Dimitri Glazkov"
+                ],
+                "href": "http://www.w3.org/TR/2013/WD-components-intro-20130606/",
+                "title": "Introduction to Web Components",
+                "rawDate": "2013-06-06",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": "http://www.w3.org/2008/webapps/",
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
     },
@@ -10005,7 +10110,7 @@
         "date": "16 August 2012",
         "status": "FPWD",
         "publisher": "W3C",
-        "deliveredBy": "http://www.w3.org/Style/CSS/members",
+        "deliveredBy": "http://www.w3.org/Graphics/SVG/WG/",
         "versions": {
             "20120816": {
                 "authors": [
@@ -10017,7 +10122,7 @@
                 "rawDate": "2012-08-16",
                 "status": "WD",
                 "publisher": "W3C",
-                "deliveredBy": "http://www.w3.org/Style/CSS/members",
+                "deliveredBy": "http://www.w3.org/Graphics/SVG/WG/",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
@@ -10092,7 +10197,7 @@
         "date": "3 December 2008",
         "status": "NOTE",
         "publisher": "W3C",
-        "deliveredBy": "http://www.w3.org/2006/07/SWD/",
+        "deliveredBy": "http://www.w3.org/2001/tag/",
         "versions": {
             "20081203": {
                 "authors": [
@@ -10104,7 +10209,7 @@
                 "rawDate": "2008-12-03",
                 "status": "NOTE",
                 "publisher": "W3C",
-                "deliveredBy": "http://www.w3.org/2006/07/SWD/",
+                "deliveredBy": "http://www.w3.org/2001/tag/",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
@@ -11737,7 +11842,7 @@
                 "deliveredBy": "http://www.w3.org/Style/CSS/members"
             }
         },
-        "deliveredBy": "http://www.w3.org/Style/CSS/members"
+        "deliveredBy": "http://www.w3.org/Graphics/SVG/WG/"
     },
     "css3-transitions": {
         "authors": [
@@ -11862,7 +11967,17 @@
         "title": "CSS3 module: Web Fonts",
         "date": "2 August 2002",
         "status": "WD",
-        "publisher": "W3C"
+        "publisher": "W3C",
+        "versions": {
+            "19980512": {
+                "href": "http://www.w3.org/TR/1998/REC-CSS2-19980512/fonts.html",
+                "title": "CSS3 module: Web Fonts",
+                "rawDate": "1998-05-12",
+                "status": "REC",
+                "publisher": "W3C",
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
     },
     "css3-writing-modes": {
         "authors": [
@@ -13077,7 +13192,7 @@
         "date": "25 October 2012",
         "status": "FPWD",
         "publisher": "W3C",
-        "deliveredBy": "http://www.w3.org/Style/CSS/members",
+        "deliveredBy": "http://www.w3.org/Graphics/SVG/WG/",
         "versions": {
             "20121025": {
                 "authors": [
@@ -13106,7 +13221,7 @@
                 "rawDate": "2013-05-23",
                 "status": "WD",
                 "publisher": "W3C",
-                "deliveredBy": "http://www.w3.org/Style/CSS/members",
+                "deliveredBy": "http://www.w3.org/Graphics/SVG/WG/",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
@@ -13217,7 +13332,7 @@
         "rawDate": "2012-07-03",
         "status": "WD",
         "publisher": "W3C",
-        "deliveredBy": "http://www.w3.org/2008/webapps/",
+        "deliveredBy": "http://www.w3.org/Style/CSS/members",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
         "versions": {
             "20120703": {
@@ -13230,7 +13345,7 @@
                 "rawDate": "2012-07-03",
                 "status": "WD",
                 "publisher": "W3C",
-                "deliveredBy": "http://www.w3.org/2008/webapps/",
+                "deliveredBy": "http://www.w3.org/Style/CSS/members",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
@@ -13853,7 +13968,6 @@
         "rawDate": "2012-03-08",
         "status": "NOTE",
         "publisher": "W3C",
-        "deliveredBy": "http://www.w3.org/2001/sw/interest/",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
         "versions": {
             "20120308": {
@@ -13865,7 +13979,6 @@
                 "rawDate": "2012-03-08",
                 "status": "NOTE",
                 "publisher": "W3C",
-                "deliveredBy": "http://www.w3.org/2001/sw/interest/",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
@@ -13952,9 +14065,9 @@
             "Charles McCathieNevile"
         ],
         "href": "http://www.w3.org/TR/html-longdesc/",
-        "title": "HTML Image Description Extension",
+        "title": "HTML5 Image Description Extension",
         "date": "12 March 2013",
-        "rawDate": "2013-03-12",
+        "rawDate": "2013-06-06",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": "http://www.w3.org/html/wg/",
@@ -13967,6 +14080,18 @@
                 "href": "http://www.w3.org/TR/2013/WD-html-longdesc-20130312/",
                 "title": "HTML Image Description Extension",
                 "rawDate": "2013-03-12",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": "http://www.w3.org/html/wg/",
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20130606": {
+                "authors": [
+                    "Charles McCathieNevile"
+                ],
+                "href": "http://www.w3.org/TR/2013/WD-html-longdesc-20130606/",
+                "title": "HTML5 Image Description Extension",
+                "rawDate": "2013-06-06",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": "http://www.w3.org/html/wg/",
@@ -14306,7 +14431,6 @@
         "date": "15 March 1999",
         "status": "NOTE",
         "publisher": "W3C",
-        "deliveredBy": "http://www.w3.org/Mobile/Group/IG/",
         "versions": {
             "19990315": {
                 "authors": [
@@ -14320,7 +14444,6 @@
                 "rawDate": "1999-03-15",
                 "status": "NOTE",
                 "publisher": "W3C",
-                "deliveredBy": "http://www.w3.org/Mobile/Group/IG/",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
                 "unorderedAuthors": true
             }
@@ -14967,7 +15090,7 @@
         "date": "15 October 2008",
         "status": "WD",
         "publisher": "W3C",
-        "deliveredBy": "http://www.w3.org/International/core/",
+        "deliveredBy": "http://www.w3.org/Style/XSL/",
         "versions": {
             "20120403": {
                 "authors": [
@@ -14996,7 +15119,7 @@
                 "rawDate": "2012-04-03",
                 "status": "NOTE",
                 "publisher": "W3C",
-                "deliveredBy": "http://www.w3.org/International/core/",
+                "deliveredBy": "http://www.w3.org/Style/XSL/",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
                 "unorderedAuthors": true
             }
@@ -15101,7 +15224,6 @@
         "date": "10 October 2003",
         "status": "NOTE",
         "publisher": "W3C",
-        "deliveredBy": "http://www.w3.org/2001/sw/RDFCore/",
         "versions": {
             "20031010": {
                 "authors": [
@@ -15113,7 +15235,6 @@
                 "rawDate": "2003-10-10",
                 "status": "NOTE",
                 "publisher": "W3C",
-                "deliveredBy": "http://www.w3.org/2001/sw/RDFCore/",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
@@ -15814,7 +15935,6 @@
         "date": "8 March 2012",
         "status": "NOTE",
         "publisher": "W3C",
-        "deliveredBy": "http://www.w3.org/2001/sw/interest/",
         "versions": {
             "20121009": {
                 "authors": [
@@ -15825,7 +15945,6 @@
                 "rawDate": "2012-10-09",
                 "status": "NOTE",
                 "publisher": "W3C",
-                "deliveredBy": "http://www.w3.org/2001/sw/interest/",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
@@ -16303,7 +16422,6 @@
         "rawDate": "1998-07-10",
         "publisher": "W3C",
         "isRetired": true,
-        "deliveredBy": "http://www.w3.org/Protocols/HTTP-NG/Group/PDG/",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
         "versions": {
             "19980710": {
@@ -16316,7 +16434,6 @@
                 "rawDate": "1998-07-10",
                 "publisher": "W3C",
                 "isRetired": true,
-                "deliveredBy": "http://www.w3.org/Protocols/HTTP-NG/Group/PDG/",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
@@ -18919,7 +19036,6 @@
         "date": "10 February 2004",
         "status": "REC",
         "publisher": "W3C",
-        "deliveredBy": "http://www.w3.org/2001/sw/RDFCore/",
         "hasErrata": "http://www.w3.org/2001/sw/RDFCore/errata#rdf-concepts",
         "versions": {
             "20040210": {
@@ -18932,7 +19048,6 @@
                 "rawDate": "2004-02-10",
                 "status": "REC",
                 "publisher": "W3C",
-                "deliveredBy": "http://www.w3.org/2001/sw/RDFCore/",
                 "hasErrata": "http://www.w3.org/2001/sw/RDFCore/errata#rdf-concepts",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
@@ -19003,7 +19118,6 @@
         "date": "10 February 2004",
         "status": "REC",
         "publisher": "W3C",
-        "deliveredBy": "http://www.w3.org/2001/sw/RDFCore/",
         "hasErrata": "http://www.w3.org/2001/sw/RDFCore/errata#rdf-mt",
         "versions": {
             "20040210": {
@@ -19015,7 +19129,6 @@
                 "rawDate": "2004-02-10",
                 "status": "REC",
                 "publisher": "W3C",
-                "deliveredBy": "http://www.w3.org/2001/sw/RDFCore/",
                 "hasErrata": "http://www.w3.org/2001/sw/RDFCore/errata#rdf-mt",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
@@ -19068,7 +19181,7 @@
                 "rawDate": "2012-12-11",
                 "status": "REC",
                 "publisher": "W3C",
-                "deliveredBy": "http://www.w3.org/2007/OWL/",
+                "deliveredBy": "http://www.w3.org/2005/rules/wg.html",
                 "hasErrata": "http://www.w3.org/2007/OWL/errata",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
@@ -19084,7 +19197,6 @@
         "date": "10 February 2004",
         "status": "REC",
         "publisher": "W3C",
-        "deliveredBy": "http://www.w3.org/2001/sw/RDFCore/",
         "hasErrata": "http://www.w3.org/2001/sw/RDFCore/errata#rdf-primer",
         "versions": {
             "20040210": {
@@ -19097,7 +19209,6 @@
                 "rawDate": "2004-02-10",
                 "status": "REC",
                 "publisher": "W3C",
-                "deliveredBy": "http://www.w3.org/2001/sw/RDFCore/",
                 "hasErrata": "http://www.w3.org/2001/sw/RDFCore/errata#rdf-primer",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
@@ -19113,7 +19224,6 @@
         "date": "10 February 2004",
         "status": "REC",
         "publisher": "W3C",
-        "deliveredBy": "http://www.w3.org/2001/sw/RDFCore/",
         "hasErrata": "http://www.w3.org/2001/sw/RDFCore/errata#rdf-schema",
         "versions": {
             "20040210": {
@@ -19126,7 +19236,6 @@
                 "rawDate": "2004-02-10",
                 "status": "REC",
                 "publisher": "W3C",
-                "deliveredBy": "http://www.w3.org/2001/sw/RDFCore/",
                 "hasErrata": "http://www.w3.org/2001/sw/RDFCore/errata#rdf-schema",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
@@ -19143,7 +19252,7 @@
         "status": "REC",
         "publisher": "W3C",
         "deliveredBy": "http://www.w3.org/2001/sw/DataAccess/",
-        "hasErrata": "http://www.w3.org/2001/sw/DataAccess/XML-errata",
+        "hasErrata": "http://www.w3.org/2013/sparql-errata#rdf-sparql-XMLres",
         "versions": {
             "20080115": {
                 "authors": [
@@ -19272,7 +19381,6 @@
         "date": "10 February 2004",
         "status": "REC",
         "publisher": "W3C",
-        "deliveredBy": "http://www.w3.org/2001/sw/RDFCore/",
         "hasErrata": "http://www.w3.org/2001/sw/RDFCore/errata#rdf-syntax-grammar",
         "versions": {
             "19990222": {
@@ -19285,7 +19393,6 @@
                 "rawDate": "1999-02-22",
                 "status": "REC",
                 "publisher": "W3C",
-                "deliveredBy": "http://www.w3.org/RDF/Group/Syntax/",
                 "hasErrata": "http://www.w3.org/TR/1999/REC-rdf-syntax-19990222/errata",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
                 "unorderedAuthors": true
@@ -19299,7 +19406,6 @@
                 "rawDate": "2004-02-10",
                 "status": "REC",
                 "publisher": "W3C",
-                "deliveredBy": "http://www.w3.org/2001/sw/RDFCore/",
                 "hasErrata": "http://www.w3.org/2001/sw/RDFCore/errata#rdf-syntax-grammar",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
@@ -19315,7 +19421,6 @@
         "date": "10 February 2004",
         "status": "REC",
         "publisher": "W3C",
-        "deliveredBy": "http://www.w3.org/2001/sw/RDFCore/",
         "hasErrata": "http://www.w3.org/2001/sw/RDFCore/errata#rdf-testcases",
         "versions": {
             "20040210": {
@@ -19328,7 +19433,6 @@
                 "rawDate": "2004-02-10",
                 "status": "REC",
                 "publisher": "W3C",
-                "deliveredBy": "http://www.w3.org/2001/sw/RDFCore/",
                 "hasErrata": "http://www.w3.org/2001/sw/RDFCore/errata#rdf-testcases",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
@@ -19587,7 +19691,6 @@
         "date": "29 September 2005",
         "status": "NOTE",
         "publisher": "W3C",
-        "deliveredBy": "http://www.w3.org/2001/sw/interest/",
         "versions": {
             "20050929": {
                 "authors": [
@@ -19599,7 +19702,6 @@
                 "rawDate": "2005-09-29",
                 "status": "NOTE",
                 "publisher": "W3C",
-                "deliveredBy": "http://www.w3.org/2001/sw/interest/",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
@@ -19731,7 +19833,7 @@
         "date": "13 October 2006",
         "status": "WD",
         "publisher": "W3C",
-        "deliveredBy": "http://www.w3.org/2006/webapi/",
+        "deliveredBy": "http://www.w3.org/Graphics/SVG/WG/",
         "versions": {
             "20061013": {
                 "authors": [
@@ -19742,7 +19844,7 @@
                 "rawDate": "2006-10-13",
                 "publisher": "W3C",
                 "isRetired": true,
-                "deliveredBy": "http://www.w3.org/2006/webapi/",
+                "deliveredBy": "http://www.w3.org/Graphics/SVG/WG/",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
@@ -20811,7 +20913,7 @@
         "rawDate": "2000-02-25",
         "publisher": "W3C",
         "isRetired": true,
-        "deliveredBy": "http://www.w3.org/AudioVideo/Group/",
+        "deliveredBy": "http://www.w3.org/AudioVideo/",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
         "versions": {
             "20000225": {
@@ -20824,7 +20926,7 @@
                 "rawDate": "2000-02-25",
                 "publisher": "W3C",
                 "isRetired": true,
-                "deliveredBy": "http://www.w3.org/AudioVideo/Group/",
+                "deliveredBy": "http://www.w3.org/AudioVideo/",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
@@ -20855,7 +20957,7 @@
         "date": "7 August 2001",
         "rawDate": "2001-08-07",
         "publisher": "W3C",
-        "deliveredBy": "http://www.w3.org/AudioVideo/Group/",
+        "deliveredBy": "http://www.w3.org/AudioVideo/",
         "hasErrata": "http://www.w3.org/2001/07/REC-SMIL20-20010731-errata",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
         "versions": {
@@ -20884,7 +20986,7 @@
                 "title": "Synchronized Multimedia Integration Language (SMIL 2.0) Specification",
                 "rawDate": "2001-08-07",
                 "publisher": "W3C",
-                "deliveredBy": "http://www.w3.org/AudioVideo/Group/",
+                "deliveredBy": "http://www.w3.org/AudioVideo/",
                 "hasErrata": "http://www.w3.org/2001/07/REC-SMIL20-20010731-errata",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
@@ -21221,7 +21323,7 @@
         "status": "REC",
         "publisher": "W3C",
         "deliveredBy": "http://www.w3.org/2000/xp/Group/",
-        "hasErrata": "http://www.w3.org/2003/06/REC-soap12-20030624-errata",
+        "hasErrata": "http://www.w3.org/2007/04/REC-soap12-part0-20070427-errata.html",
         "versions": {
             "20030624": {
                 "authors": [
@@ -21262,7 +21364,7 @@
         "status": "REC",
         "publisher": "W3C",
         "deliveredBy": "http://www.w3.org/2000/xp/Group/",
-        "hasErrata": "http://www.w3.org/2003/06/REC-soap12-20030624-errata",
+        "hasErrata": "http://www.w3.org/2007/04/REC-soap12-part1-20070427-errata.html",
         "versions": {
             "20030624": {
                 "authors": [
@@ -21314,7 +21416,7 @@
         "status": "REC",
         "publisher": "W3C",
         "deliveredBy": "http://www.w3.org/2000/xp/Group/",
-        "hasErrata": "http://www.w3.org/2003/06/REC-soap12-20030624-errata",
+        "hasErrata": "http://www.w3.org/2007/04/REC-soap12-part2-20070427-errata.html",
         "versions": {
             "20030624": {
                 "authors": [
@@ -21422,7 +21524,7 @@
         "status": "REC",
         "publisher": "W3C",
         "deliveredBy": "http://www.w3.org/2000/xp/Group/",
-        "hasErrata": "http://www.w3.org/2003/06/REC-soap12-20030624-errata.html",
+        "hasErrata": "http://www.w3.org/2007/04/REC-soap12-testcollection-20070427-errata.html",
         "versions": {
             "20030624": {
                 "authors": [
@@ -22239,7 +22341,7 @@
         "date": "12 April 2006",
         "status": "NOTE",
         "publisher": "W3C",
-        "deliveredBy": "http://www.w3.org/2001/sw/interest/",
+        "deliveredBy": "http://www.w3.org/2001/sw/BestPractices/",
         "versions": {
             "20060412": {
                 "authors": [
@@ -22251,7 +22353,7 @@
                 "rawDate": "2006-04-12",
                 "status": "NOTE",
                 "publisher": "W3C",
-                "deliveredBy": "http://www.w3.org/2001/sw/interest/",
+                "deliveredBy": "http://www.w3.org/2001/sw/BestPractices/",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
@@ -22397,7 +22499,7 @@
         "date": "14 March 2006",
         "status": "NOTE",
         "publisher": "W3C",
-        "deliveredBy": "http://www.w3.org/2001/sw/interest/",
+        "deliveredBy": "http://www.w3.org/2001/sw/BestPractices/",
         "versions": {
             "20060314": {
                 "authors": [
@@ -22409,7 +22511,7 @@
                 "rawDate": "2006-03-14",
                 "status": "NOTE",
                 "publisher": "W3C",
-                "deliveredBy": "http://www.w3.org/2001/sw/interest/",
+                "deliveredBy": "http://www.w3.org/2001/sw/BestPractices/",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
@@ -22886,7 +22988,7 @@
         "date": "21 September 2001",
         "status": "NOTE",
         "publisher": "W3C",
-        "deliveredBy": "http://www.w3.org/2000/10/URI/",
+        "deliveredBy": "http://www.w3.org/2001/12/URI/",
         "versions": {
             "20010921": {
                 "authors": [
@@ -22897,7 +22999,7 @@
                 "rawDate": "2001-09-21",
                 "status": "NOTE",
                 "publisher": "W3C",
-                "deliveredBy": "http://www.w3.org/2000/10/URI/",
+                "deliveredBy": "http://www.w3.org/2001/12/URI/",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
@@ -23024,7 +23126,6 @@
         "rawDate": "2013-05-02",
         "status": "WD",
         "publisher": "W3C",
-        "deliveredBy": "http://www.w3.org/2001/sw/interest/",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
         "versions": {
             "20130502": {
@@ -23037,7 +23138,6 @@
                 "rawDate": "2013-05-02",
                 "status": "WD",
                 "publisher": "W3C",
-                "deliveredBy": "http://www.w3.org/2001/sw/interest/",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
@@ -23607,7 +23707,6 @@
         "rawDate": "2011-03-03",
         "status": "NOTE",
         "publisher": "W3C",
-        "deliveredBy": "http://www.w3.org/2001/sw/interest/",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
         "versions": {
             "20110303": {
@@ -23622,7 +23721,6 @@
                 "rawDate": "2011-03-03",
                 "status": "NOTE",
                 "publisher": "W3C",
-                "deliveredBy": "http://www.w3.org/2001/sw/interest/",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
@@ -24679,6 +24777,20 @@
                 "title": "Widget Updates",
                 "rawDate": "2012-03-22",
                 "status": "LCWD",
+                "publisher": "W3C",
+                "deliveredBy": "http://www.w3.org/2008/webapps/",
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+                "unorderedAuthors": true
+            },
+            "20130606": {
+                "authors": [
+                    "Marcos Caceres",
+                    "Richard Tibbett"
+                ],
+                "href": "http://www.w3.org/TR/2013/NOTE-widgets-updates-20130606/",
+                "title": "Widget Updates",
+                "rawDate": "2013-06-06",
+                "status": "NOTE",
                 "publisher": "W3C",
                 "deliveredBy": "http://www.w3.org/2008/webapps/",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
@@ -26468,7 +26580,7 @@
         "status": "REC",
         "publisher": "W3C",
         "deliveredBy": "http://www.w3.org/MarkUp/",
-        "hasErrata": "http://www.w3.org/2008/07/REC-xhtml-basic-20080729-errata",
+        "hasErrata": "http://www.w3.org/MarkUp/2010/xhtml-basic-2nd-edition-errata.html",
         "versions": {
             "20001219": {
                 "authors": [
@@ -26617,6 +26729,25 @@
         "publisher": "W3C",
         "deliveredBy": "http://www.w3.org/MarkUp/",
         "versions": {
+            "20010410": {
+                "authors": [
+                    "Murray Altheim",
+                    "Frank Boumphrey",
+                    "Ted Wugofski",
+                    "Sam Dooley",
+                    "Shane McCarron",
+                    "Sebastian Schnitzenbaumer"
+                ],
+                "href": "http://www.w3.org/TR/2001/REC-xhtml-modularization-20010410/",
+                "title": "Modularization of XHTML™",
+                "rawDate": "2001-04-10",
+                "status": "REC",
+                "publisher": "W3C",
+                "deliveredBy": "http://www.w3.org/MarkUp/",
+                "hasErrata": "http://www.w3.org/2001/04/REC-xhtml-modularization-20010410-errata",
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+                "unorderedAuthors": true
+            },
             "20040218": {
                 "authors": [
                     "Shane McCarron",
@@ -26630,6 +26761,24 @@
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": "http://www.w3.org/MarkUp/",
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+                "unorderedAuthors": true
+            },
+            "20081008": {
+                "authors": [
+                    "Masayasu Ishikawa",
+                    "Shane McCarron",
+                    "Subramanian Peruvemba",
+                    "Mark Birbeck",
+                    "Daniel Austin"
+                ],
+                "href": "http://www.w3.org/TR/2008/REC-xhtml-modularization-20081008",
+                "title": "XHTML™ Modularization 1.1",
+                "rawDate": "2008-10-08",
+                "status": "REC",
+                "publisher": "W3C",
+                "deliveredBy": "http://www.w3.org/MarkUp/",
+                "hasErrata": "http://www.w3.org/MarkUp/2008/REC-xhtml-modularization-20081008-errata",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
                 "unorderedAuthors": true
             },
@@ -26662,6 +26811,20 @@
         "deliveredBy": "http://www.w3.org/MarkUp/",
         "hasErrata": "http://www.w3.org/MarkUp/2010/xhtml-print-2nd-edition-errata.html",
         "versions": {
+            "20060920": {
+                "authors": [
+                    "Jim Bigelow",
+                    "Melinda Grant"
+                ],
+                "href": "http://www.w3.org/TR/2006/REC-xhtml-print-20060920/",
+                "title": "XHTML-Print",
+                "rawDate": "2006-09-20",
+                "status": "REC",
+                "publisher": "W3C",
+                "deliveredBy": "http://www.w3.org/MarkUp/",
+                "hasErrata": "http://www.w3.org/2006/03/REC-xhtml-print-20060328-errata.html",
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
             "20101123": {
                 "authors": [
                     "Shane McCarron"
@@ -26838,7 +27001,7 @@
         "date": "7 April 2008",
         "status": "WD",
         "publisher": "W3C",
-        "deliveredBy": "http://www.w3.org/WAI/PF/",
+        "deliveredBy": "http://www.w3.org/MarkUp/",
         "versions": {
             "20101216": {
                 "authors": [
@@ -26853,7 +27016,7 @@
                 "rawDate": "2010-12-16",
                 "status": "NOTE",
                 "publisher": "W3C",
-                "deliveredBy": "http://www.w3.org/WAI/PF/",
+                "deliveredBy": "http://www.w3.org/MarkUp/",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
                 "unorderedAuthors": true
             }
@@ -26906,7 +27069,7 @@
                 "status": "REC",
                 "publisher": "W3C",
                 "deliveredBy": "http://www.w3.org/MarkUp/",
-                "hasErrata": "http://www.w3.org/2002/08/REC-xhtml1-20020801-errata/",
+                "hasErrata": "http://www.w3.org/2002/08/REC-xhtml1-20020801-errata",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
@@ -26957,7 +27120,7 @@
                 "rawDate": "2001-05-31",
                 "publisher": "W3C",
                 "deliveredBy": "http://www.w3.org/MarkUp/",
-                "hasErrata": "http://www.w3.org/2001/05/REC-xhtml11-20010531-errata",
+                "hasErrata": "http://www.w3.org/2001/04/REC-xhtml-modularization-20010410-errata",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             },
             "20101123": {
@@ -26999,7 +27162,7 @@
             }
         },
         "deliveredBy": "http://www.w3.org/MarkUp/",
-        "hasErrata": "http://www.w3.org/2001/05/REC-xhtml11-20010531-errata"
+        "hasErrata": "http://www.w3.org/MarkUp/2009/xhtml11-2nd-edition-errata.html"
     },
     "xhtml2": {
         "authors": [
@@ -27051,7 +27214,7 @@
         "status": "REC",
         "publisher": "W3C",
         "deliveredBy": "http://www.w3.org/XML/Core/",
-        "hasErrata": "http://www.w3.org/2004/12/xinclude-errata",
+        "hasErrata": "http://www.w3.org/XML/2006/11/xinclude-errata/",
         "versions": {
             "20041220": {
                 "authors": [
@@ -27155,7 +27318,6 @@
         "date": "19 December 2005",
         "status": "NOTE",
         "publisher": "W3C",
-        "deliveredBy": "http://www.w3.org/2001/XKMS/",
         "versions": {
             "20051219": {
                 "authors": [
@@ -27167,7 +27329,6 @@
                 "rawDate": "2005-12-19",
                 "status": "NOTE",
                 "publisher": "W3C",
-                "deliveredBy": "http://www.w3.org/2001/XKMS/",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
                 "unorderedAuthors": true
             }
@@ -27183,7 +27344,6 @@
         "date": "18 November 2005",
         "status": "NOTE",
         "publisher": "W3C",
-        "deliveredBy": "http://www.w3.org/2001/XKMS/",
         "versions": {
             "20051118": {
                 "authors": [
@@ -27195,7 +27355,6 @@
                 "rawDate": "2005-11-18",
                 "status": "NOTE",
                 "publisher": "W3C",
-                "deliveredBy": "http://www.w3.org/2001/XKMS/",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
@@ -27210,7 +27369,6 @@
         "date": "28 June 2005",
         "status": "REC",
         "publisher": "W3C",
-        "deliveredBy": "http://www.w3.org/2001/XKMS/",
         "hasErrata": "http://www.w3.org/2005/06/xkms2-errata.html",
         "versions": {
             "20050628": {
@@ -27223,7 +27381,6 @@
                 "rawDate": "2005-06-28",
                 "status": "REC",
                 "publisher": "W3C",
-                "deliveredBy": "http://www.w3.org/2001/XKMS/",
                 "hasErrata": "http://www.w3.org/2005/06/xkms2-errata.html",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
@@ -27239,7 +27396,6 @@
         "date": "28 June 2005",
         "status": "REC",
         "publisher": "W3C",
-        "deliveredBy": "http://www.w3.org/2001/XKMS/",
         "hasErrata": "http://www.w3.org/2005/06/xkms2-errata.html",
         "versions": {
             "20050628": {
@@ -27252,7 +27408,6 @@
                 "rawDate": "2005-06-28",
                 "status": "REC",
                 "publisher": "W3C",
-                "deliveredBy": "http://www.w3.org/2001/XKMS/",
                 "hasErrata": "http://www.w3.org/2005/06/xkms2-errata.html",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
@@ -27268,7 +27423,6 @@
         "date": "5 May 2003",
         "status": "NOTE",
         "publisher": "W3C",
-        "deliveredBy": "http://www.w3.org/2001/XKMS/",
         "versions": {
             "20030505": {
                 "authors": [
@@ -27280,7 +27434,6 @@
                 "rawDate": "2003-05-05",
                 "status": "NOTE",
                 "publisher": "W3C",
-                "deliveredBy": "http://www.w3.org/2001/XKMS/",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
@@ -27295,7 +27448,6 @@
         "rawDate": "2002-03-18",
         "publisher": "W3C",
         "isRetired": true,
-        "deliveredBy": "http://www.w3.org/2001/XKMS/",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
         "versions": {
             "20020318": {
@@ -27307,7 +27459,6 @@
                 "rawDate": "2002-03-18",
                 "publisher": "W3C",
                 "isRetired": true,
-                "deliveredBy": "http://www.w3.org/2001/XKMS/",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
@@ -27353,7 +27504,7 @@
         "date": "3 March 1998",
         "status": "NOTE",
         "publisher": "W3C",
-        "deliveredBy": "http://www.w3.org/XML/Group/Linking",
+        "deliveredBy": "http://www.w3.org/XML/Core/",
         "versions": {
             "19980303": {
                 "authors": [
@@ -27365,7 +27516,7 @@
                 "rawDate": "1998-03-03",
                 "status": "NOTE",
                 "publisher": "W3C",
-                "deliveredBy": "http://www.w3.org/XML/Group/Linking",
+                "deliveredBy": "http://www.w3.org/XML/Core/",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
@@ -27582,7 +27733,7 @@
             }
         },
         "deliveredBy": "http://www.w3.org/XML/Core/",
-        "hasErrata": "http://www.w3.org/XML/xml-V10-4e-errata"
+        "hasErrata": "http://www.w3.org/XML/xml-V10-5e-errata"
     },
     "xml-blueberry-req": {
         "authors": [
@@ -27618,7 +27769,7 @@
         "date": "15 March 2001",
         "status": "REC",
         "publisher": "W3C",
-        "deliveredBy": "http://www.w3.org/Signature/",
+        "deliveredBy": "http://www.w3.org/2008/xmlsec/",
         "hasErrata": "http://www.w3.org/2001/03/C14N-errata",
         "versions": {
             "20010315": {
@@ -27630,7 +27781,7 @@
                 "rawDate": "2001-03-15",
                 "status": "REC",
                 "publisher": "W3C",
-                "deliveredBy": "http://www.w3.org/Signature/",
+                "deliveredBy": "http://www.w3.org/2008/xmlsec/",
                 "hasErrata": "http://www.w3.org/2001/03/C14N-errata",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
@@ -27734,7 +27885,6 @@
         "date": "5 June 1999",
         "status": "NOTE",
         "publisher": "W3C",
-        "deliveredBy": "http://www.w3.org/XML/Group/Syntax",
         "versions": {
             "19990605": {
                 "authors": [
@@ -27746,7 +27896,6 @@
                 "rawDate": "1999-06-05",
                 "status": "NOTE",
                 "publisher": "W3C",
-                "deliveredBy": "http://www.w3.org/XML/Group/Syntax",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
@@ -27760,7 +27909,7 @@
         "date": "4 March 2002",
         "status": "NOTE",
         "publisher": "W3C",
-        "deliveredBy": "http://www.w3.org/Encryption/2001/",
+        "deliveredBy": "http://www.w3.org/2008/xmlsec/",
         "versions": {
             "20020304": {
                 "authors": [
@@ -27771,7 +27920,7 @@
                 "rawDate": "2002-03-04",
                 "status": "NOTE",
                 "publisher": "W3C",
-                "deliveredBy": "http://www.w3.org/Encryption/2001/",
+                "deliveredBy": "http://www.w3.org/2008/xmlsec/",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
@@ -27890,7 +28039,7 @@
         "date": "18 July 2002",
         "status": "REC",
         "publisher": "W3C",
-        "deliveredBy": "http://www.w3.org/Signature/",
+        "deliveredBy": "http://www.w3.org/2008/xmlsec/",
         "hasErrata": "http://www.w3.org/2002/07/xml-exc-c14n-errata",
         "versions": {
             "20020718": {
@@ -27904,7 +28053,7 @@
                 "rawDate": "2002-07-18",
                 "status": "REC",
                 "publisher": "W3C",
-                "deliveredBy": "http://www.w3.org/Signature/",
+                "deliveredBy": "http://www.w3.org/2008/xmlsec/",
                 "hasErrata": "http://www.w3.org/2002/07/xml-exc-c14n-errata",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
@@ -28121,7 +28270,6 @@
         "date": "18 February 1999",
         "status": "NOTE",
         "publisher": "W3C",
-        "deliveredBy": "http://www.w3.org/XML/Group/Infoset",
         "versions": {
             "19990218": {
                 "authors": [
@@ -28132,7 +28280,6 @@
                 "rawDate": "1999-02-18",
                 "status": "NOTE",
                 "publisher": "W3C",
-                "deliveredBy": "http://www.w3.org/XML/Group/Infoset",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
@@ -28228,7 +28375,7 @@
         "date": "8 December 2009",
         "status": "REC",
         "publisher": "W3C",
-        "hasErrata": "http://www.w3.org/XML/2006/xml-names-errata",
+        "hasErrata": "http://www.w3.org/XML/2009/xml-names-errata",
         "versions": {
             "19990114": {
                 "authors": [
@@ -28258,7 +28405,8 @@
                 "publisher": "W3C",
                 "hasErrata": "http://www.w3.org/XML/2006/xml-names-errata",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
-                "unorderedAuthors": true
+                "unorderedAuthors": true,
+                "deliveredBy": "http://www.w3.org/XML/Core/"
             },
             "20091208": {
                 "authors": [
@@ -28278,7 +28426,8 @@
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
                 "unorderedAuthors": true
             }
-        }
+        },
+        "deliveredBy": "http://www.w3.org/XML/Core/"
     },
     "xml-names11": {
         "authors": [
@@ -28291,7 +28440,7 @@
         "status": "REC",
         "publisher": "W3C",
         "deliveredBy": "http://www.w3.org/XML/Core/",
-        "hasErrata": "http://www.w3.org/XML/2004/xml-names11-errata",
+        "hasErrata": "http://www.w3.org/XML/2006/xml-names11-errata",
         "versions": {
             "20040204": {
                 "authors": [
@@ -28427,6 +28576,19 @@
         "hasErrata": "http://www.w3.org/1999/06/REC-xml-stylesheet-19990629/errata",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
         "versions": {
+            "19990629": {
+                "authors": [
+                    "James Clark"
+                ],
+                "href": "http://www.w3.org/1999/06/REC-xml-stylesheet-19990629",
+                "title": "Associating Style Sheets with XML documents",
+                "rawDate": "1999-06-29",
+                "status": "REC",
+                "publisher": "W3C",
+                "deliveredBy": "http://www.w3.org/XML/Core/",
+                "hasErrata": "http://www.w3.org/1999/06/REC-xml-stylesheet-19990629/errata",
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
             "20101028": {
                 "authors": [
                     "Simon Pieters",
@@ -28455,7 +28617,7 @@
         "status": "REC",
         "publisher": "W3C",
         "deliveredBy": "http://www.w3.org/XML/Core/",
-        "hasErrata": "http://www.w3.org/XML/xml-V11-1e-errata",
+        "hasErrata": "http://www.w3.org/XML/xml-V11-2e-errata",
         "versions": {
             "20040204": {
                 "authors": [
@@ -28531,8 +28693,8 @@
         "date": "28 January 2009",
         "status": "REC",
         "publisher": "W3C",
-        "deliveredBy": "http://www.w3.org/XML/Group/Linking",
-        "hasErrata": "http://www.w3.org/2001/06/xmlbase-errata",
+        "deliveredBy": "http://www.w3.org/XML/Core/",
+        "hasErrata": "http://www.w3.org/2009/01/xmlbase-errata",
         "versions": {
             "20010627": {
                 "authors": [
@@ -28599,8 +28761,8 @@
         "date": "10 June 2008",
         "status": "REC",
         "publisher": "W3C",
-        "deliveredBy": "http://www.w3.org/Signature/",
-        "hasErrata": "http://www.w3.org/2001/10/xmldsig-errata",
+        "deliveredBy": "http://www.w3.org/2007/xmlsec/",
+        "hasErrata": "http://www.w3.org/2008/06/xmldsigcore-errata.html",
         "versions": {
             "20020212": {
                 "authors": [
@@ -28612,7 +28774,7 @@
                 "title": "XML-Signature Syntax and Processing",
                 "rawDate": "2002-02-12",
                 "publisher": "W3C",
-                "deliveredBy": "http://www.w3.org/Signature/",
+                "deliveredBy": "http://www.w3.org/2008/xmlsec/",
                 "hasErrata": "http://www.w3.org/2001/10/xmldsig-errata",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
                 "unorderedAuthors": true
@@ -28630,7 +28792,7 @@
                 "rawDate": "2008-06-10",
                 "status": "REC",
                 "publisher": "W3C",
-                "deliveredBy": "http://www.w3.org/2008/xmlsec/",
+                "deliveredBy": "http://www.w3.org/2007/xmlsec/",
                 "hasErrata": "http://www.w3.org/2008/06/xmldsigcore-errata.html",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
                 "unorderedAuthors": true
@@ -28777,7 +28939,7 @@
         "date": "8 November 2002",
         "status": "REC",
         "publisher": "W3C",
-        "deliveredBy": "http://www.w3.org/Signature/",
+        "deliveredBy": "http://www.w3.org/2008/xmlsec/",
         "hasErrata": "http://www.w3.org/2002/11/xpath-filter2-errata.html",
         "versions": {
             "20021108": {
@@ -28791,7 +28953,7 @@
                 "rawDate": "2002-11-08",
                 "status": "REC",
                 "publisher": "W3C",
-                "deliveredBy": "http://www.w3.org/Signature/",
+                "deliveredBy": "http://www.w3.org/2008/xmlsec/",
                 "hasErrata": "http://www.w3.org/2002/11/xpath-filter2-errata.html",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
@@ -28831,7 +28993,7 @@
         "date": "14 October 1999",
         "status": "WD",
         "publisher": "W3C",
-        "deliveredBy": "http://www.w3.org/Signature/",
+        "deliveredBy": "http://www.w3.org/2008/xmlsec/",
         "versions": {
             "19991014": {
                 "authors": [
@@ -28842,7 +29004,7 @@
                 "rawDate": "1999-10-14",
                 "publisher": "W3C",
                 "isRetired": true,
-                "deliveredBy": "http://www.w3.org/Signature/",
+                "deliveredBy": "http://www.w3.org/2008/xmlsec/",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
@@ -28912,7 +29074,7 @@
         "date": "10 June 2008",
         "status": "NOTE",
         "publisher": "W3C",
-        "deliveredBy": "http://www.w3.org/2008/xmlsec/",
+        "deliveredBy": "http://www.w3.org/2007/xmlsec/",
         "versions": {
             "20080610": {
                 "authors": [
@@ -28925,7 +29087,7 @@
                 "rawDate": "2008-06-10",
                 "status": "NOTE",
                 "publisher": "W3C",
-                "deliveredBy": "http://www.w3.org/2008/xmlsec/",
+                "deliveredBy": "http://www.w3.org/2007/xmlsec/",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
@@ -28939,7 +29101,25 @@
         "title": "XML Encryption Syntax and Processing",
         "date": "10 December 2002",
         "status": "REC",
-        "publisher": "W3C"
+        "publisher": "W3C",
+        "deliveredBy": "http://www.w3.org/2008/xmlsec/",
+        "hasErrata": "http://www.w3.org/Encryption/2002/12-xmlenc-errata",
+        "versions": {
+            "20021210": {
+                "authors": [
+                    "Donald Eastlake",
+                    "Joseph Reagle"
+                ],
+                "href": "http://www.w3.org/TR/2002/REC-xmlenc-core-20021210/",
+                "title": "XML Encryption Syntax and Processing",
+                "rawDate": "2002-12-10",
+                "status": "REC",
+                "publisher": "W3C",
+                "deliveredBy": "http://www.w3.org/2008/xmlsec/",
+                "hasErrata": "http://www.w3.org/Encryption/2002/12-xmlenc-errata",
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
     },
     "xmlenc-core1": {
         "authors": [
@@ -29063,7 +29243,7 @@
         "date": "10 December 2002",
         "status": "REC",
         "publisher": "W3C",
-        "deliveredBy": "http://www.w3.org/Encryption/2001/",
+        "deliveredBy": "http://www.w3.org/2008/xmlsec/",
         "hasErrata": "http://www.w3.org/Encryption/2002/12-xmlenc-decrypt-errata",
         "versions": {
             "20021210": {
@@ -29077,7 +29257,7 @@
                 "rawDate": "2002-12-10",
                 "status": "REC",
                 "publisher": "W3C",
-                "deliveredBy": "http://www.w3.org/Encryption/2001/",
+                "deliveredBy": "http://www.w3.org/2008/xmlsec/",
                 "hasErrata": "http://www.w3.org/Encryption/2002/12-xmlenc-decrypt-errata",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
@@ -29217,7 +29397,7 @@
         "status": "REC",
         "publisher": "W3C",
         "deliveredBy": "http://www.w3.org/XML/Schema",
-        "hasErrata": "http://www.w3.org/2001/05/xmlschema-errata",
+        "hasErrata": "http://www.w3.org/2004/03/xmlschema-errata",
         "versions": {
             "20010502": {
                 "authors": [
@@ -29258,7 +29438,7 @@
         "status": "REC",
         "publisher": "W3C",
         "deliveredBy": "http://www.w3.org/XML/Schema",
-        "hasErrata": "http://www.w3.org/2001/05/xmlschema-errata",
+        "hasErrata": "http://www.w3.org/2004/03/xmlschema-errata",
         "versions": {
             "20010502": {
                 "authors": [
@@ -29335,7 +29515,7 @@
         "status": "REC",
         "publisher": "W3C",
         "deliveredBy": "http://www.w3.org/XML/Schema",
-        "hasErrata": "http://www.w3.org/2001/05/xmlschema-errata",
+        "hasErrata": "http://www.w3.org/2004/03/xmlschema-errata",
         "versions": {
             "20010502": {
                 "authors": [
@@ -29867,8 +30047,8 @@
         "date": "23 January 2007",
         "status": "REC",
         "publisher": "W3C",
-        "deliveredBy": "http://www.w3.org/Style/XSL/",
-        "hasErrata": "http://www.w3.org/XML/2007/qt-errata/xpath-datamodel-errata.html",
+        "deliveredBy": "http://www.w3.org/XML/Query/",
+        "hasErrata": "http://www.w3.org/XML/2010/qt-errata/xpath-datamodel-errata2e.html",
         "versions": {
             "20070123": {
                 "authors": [
@@ -29882,7 +30062,7 @@
                 "title": "XQuery 1.0 and XPath 2.0 Data Model (XDM)",
                 "rawDate": "2007-01-23",
                 "publisher": "W3C",
-                "deliveredBy": "http://www.w3.org/Style/XSL/",
+                "deliveredBy": "http://www.w3.org/XML/Query/",
                 "hasErrata": "http://www.w3.org/XML/2007/qt-errata/xpath-datamodel-errata.html",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
                 "unorderedAuthors": true
@@ -29901,7 +30081,7 @@
                 "rawDate": "2010-12-14",
                 "status": "REC",
                 "publisher": "W3C",
-                "deliveredBy": "http://www.w3.org/Style/XSL/",
+                "deliveredBy": "http://www.w3.org/XML/Query/",
                 "hasErrata": "http://www.w3.org/XML/2010/qt-errata/xpath-datamodel-errata2e.html",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
                 "unorderedAuthors": true
@@ -29949,7 +30129,7 @@
         "date": "16 May 2008",
         "status": "CR",
         "publisher": "W3C",
-        "deliveredBy": "http://www.w3.org/Style/XSL/",
+        "deliveredBy": "http://www.w3.org/XML/Query/",
         "hasErrata": "http://www.w3.org/XML/2012/qt-errata/xpath-full-text-10-errata.html",
         "versions": {
             "20110317": {
@@ -29970,7 +30150,7 @@
                 "rawDate": "2011-03-17",
                 "status": "REC",
                 "publisher": "W3C",
-                "deliveredBy": "http://www.w3.org/Style/XSL/",
+                "deliveredBy": "http://www.w3.org/XML/Query/",
                 "hasErrata": "http://www.w3.org/XML/2012/qt-errata/xpath-full-text-10-errata.html",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
                 "unorderedAuthors": true
@@ -29988,7 +30168,7 @@
         "date": "16 May 2008",
         "status": "WD",
         "publisher": "W3C",
-        "deliveredBy": "http://www.w3.org/Style/XSL/",
+        "deliveredBy": "http://www.w3.org/XML/Query/",
         "versions": {
             "20110125": {
                 "authors": [
@@ -30001,7 +30181,7 @@
                 "rawDate": "2011-01-25",
                 "status": "NOTE",
                 "publisher": "W3C",
-                "deliveredBy": "http://www.w3.org/Style/XSL/",
+                "deliveredBy": "http://www.w3.org/XML/Query/",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
@@ -30016,7 +30196,7 @@
         "date": "16 May 2008",
         "status": "WD",
         "publisher": "W3C",
-        "deliveredBy": "http://www.w3.org/Style/XSL/",
+        "deliveredBy": "http://www.w3.org/XML/Query/",
         "versions": {
             "20110125": {
                 "authors": [
@@ -30028,7 +30208,7 @@
                 "rawDate": "2011-01-25",
                 "status": "NOTE",
                 "publisher": "W3C",
-                "deliveredBy": "http://www.w3.org/Style/XSL/",
+                "deliveredBy": "http://www.w3.org/XML/Query/",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
@@ -30098,8 +30278,8 @@
         "date": "23 January 2007",
         "status": "REC",
         "publisher": "W3C",
-        "deliveredBy": "http://www.w3.org/Style/XSL/",
-        "hasErrata": "http://www.w3.org/XML/2007/qt-errata/xpath-functions-errata.html",
+        "deliveredBy": "http://www.w3.org/XML/Query/",
+        "hasErrata": "http://www.w3.org/XML/2010/qt-errata/xpath-functions-errata2e.html",
         "versions": {
             "20070123": {
                 "authors": [
@@ -30111,7 +30291,7 @@
                 "title": "XQuery 1.0 and XPath 2.0 Functions and Operators",
                 "rawDate": "2007-01-23",
                 "publisher": "W3C",
-                "deliveredBy": "http://www.w3.org/Style/XSL/",
+                "deliveredBy": "http://www.w3.org/XML/Query/",
                 "hasErrata": "http://www.w3.org/XML/2007/qt-errata/xpath-functions-errata.html",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             },
@@ -30127,7 +30307,7 @@
                 "rawDate": "2010-12-14",
                 "status": "REC",
                 "publisher": "W3C",
-                "deliveredBy": "http://www.w3.org/Style/XSL/",
+                "deliveredBy": "http://www.w3.org/XML/Query/",
                 "hasErrata": "http://www.w3.org/XML/2010/qt-errata/xpath-functions-errata2e.html",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
                 "unorderedAuthors": true
@@ -30171,8 +30351,8 @@
         "date": "23 January 2007",
         "status": "REC",
         "publisher": "W3C",
-        "deliveredBy": "http://www.w3.org/Style/XSL/",
-        "hasErrata": "http://www.w3.org/XML/2007/qt-errata/xpath20-errata.html",
+        "deliveredBy": "http://www.w3.org/XML/Query/",
+        "hasErrata": "http://www.w3.org/XML/2010/qt-errata/xpath20-errata2e.html",
         "versions": {
             "20070123": {
                 "authors": [
@@ -30188,7 +30368,7 @@
                 "title": "XML Path Language (XPath) 2.0",
                 "rawDate": "2007-01-23",
                 "publisher": "W3C",
-                "deliveredBy": "http://www.w3.org/Style/XSL/",
+                "deliveredBy": "http://www.w3.org/XML/Query/",
                 "hasErrata": "http://www.w3.org/XML/2007/qt-errata/xpath20-errata.html",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
                 "unorderedAuthors": true
@@ -30208,7 +30388,7 @@
                 "rawDate": "2010-12-14",
                 "status": "REC",
                 "publisher": "W3C",
-                "deliveredBy": "http://www.w3.org/Style/XSL/",
+                "deliveredBy": "http://www.w3.org/XML/Query/",
                 "hasErrata": "http://www.w3.org/XML/2010/qt-errata/xpath20-errata2e.html",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
                 "unorderedAuthors": true
@@ -30226,7 +30406,7 @@
         "date": "3 June 2005",
         "status": "WD",
         "publisher": "W3C",
-        "deliveredBy": "http://www.w3.org/Style/XSL/",
+        "deliveredBy": "http://www.w3.org/XML/Query/",
         "versions": {
             "20050603": {
                 "authors": [
@@ -30239,7 +30419,7 @@
                 "rawDate": "2005-06-03",
                 "publisher": "W3C",
                 "isRetired": true,
-                "deliveredBy": "http://www.w3.org/Style/XSL/",
+                "deliveredBy": "http://www.w3.org/XML/Query/",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
@@ -30543,7 +30723,7 @@
         "status": "REC",
         "publisher": "W3C",
         "deliveredBy": "http://www.w3.org/XML/Query/",
-        "hasErrata": "http://www.w3.org/XML/2007/qt-errata/xquery-errata.html",
+        "hasErrata": "http://www.w3.org/XML/2010/qt-errata/xquery-errata2e.html",
         "versions": {
             "20070123": {
                 "authors": [
@@ -30741,8 +30921,8 @@
         "date": "23 January 2007",
         "status": "REC",
         "publisher": "W3C",
-        "deliveredBy": "http://www.w3.org/Style/XSL/",
-        "hasErrata": "http://www.w3.org/XML/2007/qt-errata/xquery-semantics-errata.html",
+        "deliveredBy": "http://www.w3.org/XML/Query/",
+        "hasErrata": "http://www.w3.org/XML/2010/qt-errata/xquery-semantics-errata2e.html",
         "versions": {
             "20070123": {
                 "authors": [
@@ -30759,7 +30939,7 @@
                 "title": "XQuery 1.0 and XPath 2.0 Formal Semantics",
                 "rawDate": "2007-01-23",
                 "publisher": "W3C",
-                "deliveredBy": "http://www.w3.org/Style/XSL/",
+                "deliveredBy": "http://www.w3.org/XML/Query/",
                 "hasErrata": "http://www.w3.org/XML/2007/qt-errata/xquery-semantics-errata.html",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
                 "unorderedAuthors": true
@@ -30781,7 +30961,7 @@
                 "rawDate": "2010-12-14",
                 "status": "REC",
                 "publisher": "W3C",
-                "deliveredBy": "http://www.w3.org/Style/XSL/",
+                "deliveredBy": "http://www.w3.org/XML/Query/",
                 "hasErrata": "http://www.w3.org/XML/2010/qt-errata/xquery-semantics-errata2e.html",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
                 "unorderedAuthors": true
@@ -31086,7 +31266,7 @@
         "status": "REC",
         "publisher": "W3C",
         "deliveredBy": "http://www.w3.org/XML/Query/",
-        "hasErrata": "http://www.w3.org/XML/2007/qt-errata/xqueryx-errata.html",
+        "hasErrata": "http://www.w3.org/XML/2010/qt-errata/xqueryx-errata2e.html",
         "versions": {
             "20070123": {
                 "authors": [
@@ -31465,8 +31645,8 @@
         "date": "23 January 2007",
         "status": "REC",
         "publisher": "W3C",
-        "deliveredBy": "http://www.w3.org/Style/XSL/",
-        "hasErrata": "http://www.w3.org/XML/2007/qt-errata/xslt-xquery-serialization-errata.html",
+        "deliveredBy": "http://www.w3.org/XML/Query/",
+        "hasErrata": "http://www.w3.org/XML/2010/qt-errata/xslt-xquery-serialization-errata2e.html",
         "versions": {
             "20070123": {
                 "authors": [
@@ -31480,7 +31660,7 @@
                 "title": "XSLT 2.0 and XQuery 1.0 Serialization",
                 "rawDate": "2007-01-23",
                 "publisher": "W3C",
-                "deliveredBy": "http://www.w3.org/Style/XSL/",
+                "deliveredBy": "http://www.w3.org/XML/Query/",
                 "hasErrata": "http://www.w3.org/XML/2007/qt-errata/xslt-xquery-serialization-errata.html",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
                 "unorderedAuthors": true
@@ -31498,7 +31678,7 @@
                 "rawDate": "2010-12-14",
                 "status": "REC",
                 "publisher": "W3C",
-                "deliveredBy": "http://www.w3.org/Style/XSL/",
+                "deliveredBy": "http://www.w3.org/XML/Query/",
                 "hasErrata": "http://www.w3.org/XML/2010/qt-errata/xslt-xquery-serialization-errata2e.html",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
                 "unorderedAuthors": true
