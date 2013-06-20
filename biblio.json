@@ -6273,6 +6273,27 @@
                 "publisher": "W3C",
                 "deliveredBy": "http://www.w3.org/Graphics/SVG/WG/",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20130618": {
+                "authors": [
+                    "Nikos Andronikos",
+                    "Tavmjong Bah",
+                    "Brian Birtles",
+                    "Cyril Concolato",
+                    "Erik Dahlström",
+                    "Chris Lilley",
+                    "Cameron McCormack",
+                    "Dirk Schulze",
+                    "Richard Schwerdtfeger",
+                    "Jonathan Watt"
+                ],
+                "href": "http://www.w3.org/TR/2013/WD-SVG2-20130618/",
+                "title": "Scalable Vector Graphics (SVG) 2",
+                "rawDate": "2013-06-18",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": "http://www.w3.org/Graphics/SVG/WG/",
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
     },
@@ -10561,6 +10582,36 @@
             }
         }
     },
+    "css-shapes-1": {
+        "authors": [
+            "Vincent Hardy",
+            "Rossen Atanassov",
+            "Alan Stearns"
+        ],
+        "href": "http://www.w3.org/TR/css-shapes-1/",
+        "title": "CSS Shapes Module Level 1",
+        "rawDate": "2013-06-20",
+        "status": "WD",
+        "publisher": "W3C",
+        "deliveredBy": "http://www.w3.org/Style/CSS/members",
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20130620": {
+                "authors": [
+                    "Vincent Hardy",
+                    "Rossen Atanassov",
+                    "Alan Stearns"
+                ],
+                "href": "http://www.w3.org/TR/2013/WD-css-shapes-1-20130620/",
+                "title": "CSS Shapes Module Level 1",
+                "rawDate": "2013-06-20",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": "http://www.w3.org/Style/CSS/members",
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
     "css-style-attr": {
         "authors": [
             "Marc Attinasi",
@@ -10674,6 +10725,32 @@
                 "title": "CSS Custom Properties for Cascading Variables Module Level 1",
                 "rawDate": "2013-03-12",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": "http://www.w3.org/Style/CSS/members",
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
+    "css-variables-1": {
+        "authors": [
+            "Tab Atkins Jr."
+        ],
+        "href": "http://www.w3.org/TR/css-variables-1/",
+        "title": "CSS Custom Properties for Cascading Variables Module Level 1",
+        "rawDate": "2013-06-20",
+        "status": "LCWD",
+        "publisher": "W3C",
+        "deliveredBy": "http://www.w3.org/Style/CSS/members",
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20130620": {
+                "authors": [
+                    "Tab Atkins Jr."
+                ],
+                "href": "http://www.w3.org/TR/2013/WD-css-variables-1-20130620/",
+                "title": "CSS Custom Properties for Cascading Variables Module Level 1",
+                "rawDate": "2013-06-20",
+                "status": "LCWD",
                 "publisher": "W3C",
                 "deliveredBy": "http://www.w3.org/Style/CSS/members",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
@@ -22574,6 +22651,38 @@
             }
         }
     },
+    "telephony": {
+        "authors": [
+            "Marcos Caceres",
+            "Jose Manuel Cantera Fonseca",
+            "Eduardo Fullea",
+            "Zoltan Kis"
+        ],
+        "href": "http://www.w3.org/TR/telephony/",
+        "title": "Web Telephony API",
+        "rawDate": "2013-06-20",
+        "status": "WD",
+        "publisher": "W3C",
+        "deliveredBy": "http://www.w3.org/2012/sysapps/",
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20130620": {
+                "authors": [
+                    "Marcos Caceres",
+                    "Jose Manuel Cantera Fonseca",
+                    "Eduardo Fullea",
+                    "Zoltan Kis"
+                ],
+                "href": "http://www.w3.org/TR/2013/WD-telephony-20130620/",
+                "title": "Web Telephony API",
+                "rawDate": "2013-06-20",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": "http://www.w3.org/2012/sysapps/",
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
     "test-metadata": {
         "authors": [
             "Patrick Curran",
@@ -27868,6 +27977,19 @@
                 "href": "http://www.w3.org/TR/2013/NOTE-xml-c14n2-testcases-20130411/",
                 "title": "Test cases for Canonical XML 2.0",
                 "rawDate": "2013-04-11",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": "http://www.w3.org/2008/xmlsec/",
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20130618": {
+                "authors": [
+                    "Pratik Datta",
+                    "Frederick Hirsch"
+                ],
+                "href": "http://www.w3.org/TR/2013/NOTE-xml-c14n2-testcases-20130618/",
+                "title": "Test cases for Canonical XML 2.0",
+                "rawDate": "2013-06-18",
                 "status": "NOTE",
                 "publisher": "W3C",
                 "deliveredBy": "http://www.w3.org/2008/xmlsec/",
