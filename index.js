@@ -2,13 +2,14 @@ var t0 = Date.now();
 
 var express = require("express"),
     cors = require("connect-cors"),
-    bibref = require('./lib/bibref');
+    bibref = require('./lib/bibref'),
     XREFS = require('./xrefs');
 
 var app = module.exports = express();
 
 // Configuration
 app.configure(function(){
+    app.use(express.compress());
     app.use(cors());
     app.use(express.bodyParser());
     app.use(app.router);
