@@ -63,7 +63,7 @@ suite('Reference', function() {
                 testAuthorsArray(obj, key);
                 testEtAlIsTrueWhenPresent(obj, key);
                 
-                ['date', 'status', 'publisher', 'title'].forEach(function(prop) {
+                ['date', 'status', 'publisher', 'title', 'deliveredBy'].forEach(function(prop) {
                     if (prop in obj) {
                         testPropIsAString(obj, key, prop);
                     }
