@@ -1631,7 +1631,11 @@
         "aliasOf": "RFC6763"
     },
     "DOM": {
-        "authors": ["Anne van Kesteren", "Aryeh Gregor", "Ms2ger"],
+        "authors": [
+            "Anne van Kesteren",
+            "Aryeh Gregor",
+            "Ms2ger"
+        ],
         "href": "http://dom.spec.whatwg.org",
         "publisher": "WHATWG",
         "status": "Living Standard",
@@ -7061,7 +7065,9 @@
             }
         }
     },
-    "TYPED-ARRAYS": "David Herman, Kenneth Russell. <a href=\"https://www.khronos.org/registry/typedarray/specs/latest/\"><cite>Typed Arrays</cite></a> Khronos Working Draft. (Work in progress.) URL: <a href=\"https://www.khronos.org/registry/typedarray/specs/latest/\">https://www.khronos.org/registry/typedarray/specs/latest/</a> ",
+    "TYPED-ARRAYS": {
+        "aliasOf": "typedarray"
+    },
     "TZDB": "<a href='http://www.twinsun.com/tz/tz-link.htm'><cite>Time Zone Information Database.</cite></a> URL: <a href='http://www.twinsun.com/tz/tz-link.htm'>http://www.twinsun.com/tz/tz-link.htm</a>",
     "Tobin": "R. Tobin. <a href=\"http://lists.w3.org/Archives/Member/w3c-xml-core-wg/2000OctDec/0054\"><cite>Infoset for external entities.</cite></a> 2000. URL: <a href=\"http://lists.w3.org/Archives/Member/w3c-xml-core-wg/2000OctDec/0054\">http://lists.w3.org/Archives/Member/w3c-xml-core-wg/2000OctDec/0054</a> [XML Core mailing list, <a href=\"http://cgi.w3.org/MemberAccess/AccessRequest\">W3C Member Only</a>].",
     "UAAG10": {
@@ -8364,6 +8370,9 @@
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
+    },
+    "WebGL": {
+        "aliasOf": "WEBGL"
     },
     "WebIDL": {
         "authors": [
@@ -12801,6 +12810,9 @@
             }
         }
     },
+    "domxpath": {
+        "aliasOf": "DOM-Level-3-XPath"
+    },
     "egov-improving": {
         "authors": [
             "Kevin Novak",
@@ -13968,6 +13980,9 @@
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
+    },
+    "html": {
+        "aliasOf": "html5"
     },
     "html-aapi": {
         "authors": [
@@ -23081,6 +23096,17 @@
             }
         }
     },
+    "typedarray": {
+        "authors": [
+            "David Herman",
+            "Kenneth Russell"
+        ],
+        "href": "https://www.khronos.org/registry/typedarray/specs/latest/",
+        "title": "Typed Array Specification",
+        "rawDate": "2013-06-26",
+        "status": "Khronos Working Draft",
+        "publisher": "Khronos"
+    },
     "unicode-xml": {
         "authors": [
             "Asmus Freytag",
@@ -24486,6 +24512,9 @@
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
+    },
+    "webgl": {
+        "aliasOf": "WEBGL"
     },
     "webintents-local-services": {
         "authors": [
