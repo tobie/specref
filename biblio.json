@@ -8353,7 +8353,7 @@
         "href": "http://www.w3.org/TR/WebCryptoAPI/",
         "title": "Web Cryptography API",
         "date": "8 January 2013",
-        "rawDate": "2013-01-08",
+        "rawDate": "2013-06-25",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": "http://www.w3.org/2012/webcrypto/",
@@ -8367,6 +8367,19 @@
                 "href": "http://www.w3.org/TR/2013/WD-WebCryptoAPI-20130108/",
                 "title": "Web Cryptography API",
                 "rawDate": "2013-01-08",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": "http://www.w3.org/2012/webcrypto/",
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20130625": {
+                "authors": [
+                    "David Dahl",
+                    "Ryan Sleevi"
+                ],
+                "href": "http://www.w3.org/TR/2013/WD-WebCryptoAPI-20130625/",
+                "title": "Web Cryptography API",
+                "rawDate": "2013-06-25",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": "http://www.w3.org/2012/webcrypto/",
@@ -10160,6 +10173,32 @@
                 "href": "http://www.w3.org/TR/2012/WD-compositing-20120816/",
                 "title": "Compositing and Blending 1.0",
                 "rawDate": "2012-08-16",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": "http://www.w3.org/Graphics/SVG/WG/",
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
+    "compositing-1": {
+        "authors": [
+            "Nikos Andronikos"
+        ],
+        "href": "http://www.w3.org/TR/compositing-1/",
+        "title": "Compositing and Blending Level 1",
+        "rawDate": "2013-06-25",
+        "status": "WD",
+        "publisher": "W3C",
+        "deliveredBy": "http://www.w3.org/Graphics/SVG/WG/",
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20130625": {
+                "authors": [
+                    "Nikos Andronikos"
+                ],
+                "href": "http://www.w3.org/TR/2013/WD-compositing-1-20130625/",
+                "title": "Compositing and Blending Level 1",
+                "rawDate": "2013-06-25",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": "http://www.w3.org/Graphics/SVG/WG/",
@@ -12907,7 +12946,7 @@
         "href": "http://www.w3.org/TR/emma11/",
         "title": "EMMA: Extensible MultiModal Annotation markup language Version 1.1",
         "date": "9 February 2012",
-        "rawDate": "2012-02-09",
+        "rawDate": "2013-06-27",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": "http://www.w3.org/2002/mmi/",
@@ -12920,6 +12959,18 @@
                 "href": "http://www.w3.org/TR/2012/WD-emma11-20120209/",
                 "title": "EMMA: Extensible MultiModal Annotation markup language Version 1.1",
                 "rawDate": "2012-02-09",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": "http://www.w3.org/2002/mmi/",
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20130627": {
+                "authors": [
+                    "Michael Johnston"
+                ],
+                "href": "http://www.w3.org/TR/2013/WD-emma11-20130627/",
+                "title": "EMMA: Extensible MultiModal Annotation markup language Version 1.1",
+                "rawDate": "2013-06-27",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": "http://www.w3.org/2002/mmi/",
@@ -14387,8 +14438,8 @@
         "href": "http://www.w3.org/TR/html-rdfa/",
         "title": "HTML+RDFa 1.1",
         "date": "7 February 2013",
-        "rawDate": "2013-02-07",
-        "status": "LCWD",
+        "rawDate": "2013-06-25",
+        "status": "PR",
         "publisher": "W3C",
         "deliveredBy": "http://www.w3.org/2010/02/rdfa/",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
@@ -14401,6 +14452,18 @@
                 "title": "HTML+RDFa 1.1",
                 "rawDate": "2013-02-07",
                 "status": "LCWD",
+                "publisher": "W3C",
+                "deliveredBy": "http://www.w3.org/2010/02/rdfa/",
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20130625": {
+                "authors": [
+                    "Manu Sporny"
+                ],
+                "href": "http://www.w3.org/TR/2013/PR-html-rdfa-20130625/",
+                "title": "HTML+RDFa 1.1",
+                "rawDate": "2013-06-25",
+                "status": "PR",
                 "publisher": "W3C",
                 "deliveredBy": "http://www.w3.org/2010/02/rdfa/",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
@@ -15349,6 +15412,38 @@
                 "rawDate": "2003-10-10",
                 "status": "NOTE",
                 "publisher": "W3C",
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
+    "ld-glossary": {
+        "authors": [
+            "Bernadette Hyland",
+            "Ghislain Auguste Atemezing",
+            "Michael Pendleton",
+            "Biplav Srivastava"
+        ],
+        "href": "http://www.w3.org/TR/ld-glossary/",
+        "title": "Linked Data Glossary",
+        "rawDate": "2013-06-27",
+        "status": "NOTE",
+        "publisher": "W3C",
+        "deliveredBy": "http://www.w3.org/2011/gld/",
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20130627": {
+                "authors": [
+                    "Bernadette Hyland",
+                    "Ghislain Auguste Atemezing",
+                    "Michael Pendleton",
+                    "Biplav Srivastava"
+                ],
+                "href": "http://www.w3.org/TR/2013/NOTE-ld-glossary-20130627/",
+                "title": "Linked Data Glossary",
+                "rawDate": "2013-06-27",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": "http://www.w3.org/2011/gld/",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
@@ -19673,7 +19768,6 @@
         "status": "REC",
         "publisher": "W3C",
         "deliveredBy": "http://www.w3.org/2010/02/rdfa/",
-        "hasErrata": "http://www.w3.org/2010/02/rdfa/errata.html",
         "versions": {
             "20120607": {
                 "authors": [
@@ -19689,6 +19783,22 @@
                 "publisher": "W3C",
                 "deliveredBy": "http://www.w3.org/2010/02/rdfa/",
                 "hasErrata": "http://www.w3.org/2010/02/rdfa/errata.html",
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+                "unorderedAuthors": true
+            },
+            "20130625": {
+                "authors": [
+                    "Ben Adida",
+                    "Mark Birbeck",
+                    "Shane McCarron",
+                    "Ivan Herman"
+                ],
+                "href": "http://www.w3.org/TR/2013/PER-rdfa-core-20130625/",
+                "title": "RDFa Core 1.1 - Second Edition",
+                "rawDate": "2013-06-25",
+                "status": "PER",
+                "publisher": "W3C",
+                "deliveredBy": "http://www.w3.org/2010/02/rdfa/",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
                 "unorderedAuthors": true
             }
@@ -20915,9 +21025,11 @@
                 "status": "NOTE",
                 "publisher": "W3C",
                 "deliveredBy": "http://www.w3.org/2006/07/SWD/",
-                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+                "hasErrata": "http://www.w3.org/2006/07/SWD/SKOS/reference/20090811-errata"
             }
-        }
+        },
+        "hasErrata": "http://www.w3.org/2006/07/SWD/SKOS/reference/20090811-errata"
     },
     "skos-reference": {
         "authors": [
@@ -23406,8 +23518,8 @@
         "href": "http://www.w3.org/TR/vocab-data-cube/",
         "title": "The RDF Data Cube Vocabulary",
         "date": "12 March 2013",
-        "rawDate": "2013-03-12",
-        "status": "LCWD",
+        "rawDate": "2013-06-25",
+        "status": "CR",
         "publisher": "W3C",
         "deliveredBy": "http://www.w3.org/2011/gld/",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
@@ -23421,6 +23533,19 @@
                 "title": "The RDF Data Cube Vocabulary",
                 "rawDate": "2013-03-12",
                 "status": "LCWD",
+                "publisher": "W3C",
+                "deliveredBy": "http://www.w3.org/2011/gld/",
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20130625": {
+                "authors": [
+                    "Richard Cyganiak",
+                    "Dave Reynolds"
+                ],
+                "href": "http://www.w3.org/TR/2013/CR-vocab-data-cube-20130625/",
+                "title": "The RDF Data Cube Vocabulary",
+                "rawDate": "2013-06-25",
+                "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": "http://www.w3.org/2011/gld/",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
@@ -23463,10 +23588,10 @@
             "Dave Reynolds"
         ],
         "href": "http://www.w3.org/TR/vocab-org/",
-        "title": "An organization ontology",
+        "title": "The Organization Ontology",
         "date": "23 October 2012",
-        "rawDate": "2012-10-23",
-        "status": "LCWD",
+        "rawDate": "2013-06-25",
+        "status": "CR",
         "publisher": "W3C",
         "deliveredBy": "http://www.w3.org/2011/gld/",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
@@ -23479,6 +23604,18 @@
                 "title": "An organization ontology",
                 "rawDate": "2012-10-23",
                 "status": "LCWD",
+                "publisher": "W3C",
+                "deliveredBy": "http://www.w3.org/2011/gld/",
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20130625": {
+                "authors": [
+                    "Dave Reynolds"
+                ],
+                "href": "http://www.w3.org/TR/2013/CR-vocab-org-20130625/",
+                "title": "The Organization Ontology",
+                "rawDate": "2013-06-25",
+                "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": "http://www.w3.org/2011/gld/",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
@@ -24178,6 +24315,40 @@
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": "http://www.w3.org/2012/sysapps/",
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
+    "web-animations": {
+        "authors": [
+            "Brian Birtles",
+            "Shane Stephens",
+            "Alex Danilo",
+            "Dmitry Baranovskiy",
+            "Tab Atkins Jr."
+        ],
+        "href": "http://www.w3.org/TR/web-animations/",
+        "title": "Web Animations 1.0",
+        "rawDate": "2013-06-25",
+        "status": "WD",
+        "publisher": "W3C",
+        "deliveredBy": "http://www.w3.org/Graphics/SVG/WG/",
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20130625": {
+                "authors": [
+                    "Brian Birtles",
+                    "Shane Stephens",
+                    "Alex Danilo",
+                    "Dmitry Baranovskiy",
+                    "Tab Atkins Jr."
+                ],
+                "href": "http://www.w3.org/TR/2013/WD-web-animations-20130625/",
+                "title": "Web Animations 1.0",
+                "rawDate": "2013-06-25",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": "http://www.w3.org/Graphics/SVG/WG/",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
@@ -27067,7 +27238,6 @@
         "status": "REC",
         "publisher": "W3C",
         "deliveredBy": "http://www.w3.org/2010/02/rdfa/",
-        "hasErrata": "http://www.w3.org/2010/02/rdfa/errata.html",
         "versions": {
             "20120607": {
                 "authors": [
@@ -27080,6 +27250,18 @@
                 "publisher": "W3C",
                 "deliveredBy": "http://www.w3.org/2010/02/rdfa/",
                 "hasErrata": "http://www.w3.org/2010/02/rdfa/errata.html",
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20130625": {
+                "authors": [
+                    "Shane McCarron"
+                ],
+                "href": "http://www.w3.org/TR/2013/PER-xhtml-rdfa-20130625/",
+                "title": "XHTML+RDFa 1.1 - Second Edition",
+                "rawDate": "2013-06-25",
+                "status": "PER",
+                "publisher": "W3C",
+                "deliveredBy": "http://www.w3.org/2010/02/rdfa/",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
