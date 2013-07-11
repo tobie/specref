@@ -347,6 +347,14 @@
     "C14N-ISSUES": {
         "aliasOf": "C14N-issues"
     },
+    "BrowserID": {
+        "authors": ["Ben Adida", "Tim Kuijsten", "Axel Nennker", "Anant Narayanan"],
+        "href": "https://github.com/mozilla/id-specs/blob/prod/browserid/index.md",
+        "title": "BrowserID",
+        "date": "26 February 2013",
+        "status": "WD",
+        "publisher": "Mozilla"
+    },
     "C14N-issues": {
         "authors": [
             "Konrad Lanz",
@@ -3446,6 +3454,28 @@
         "date": "11 April 2013",
         "status": "ED",
         "publisher": "W3C"
+    },
+    "JWK": {
+        "authors": [
+        "Mike Jones"
+    ],
+    "date": "28 May 2013",
+    "href": "http://tools.ietf.org/html/draft-ietf-jose-json-web-key-11",
+    "publisher": "IETF",
+    "status": "Internet Draft",
+    "title": "JSON Web Key (JWK)"
+    },
+    "JWT": {
+        "authors": [
+        "M. Jones",
+        "J. Bradley",
+        "N. Sakimura"
+        ],
+    "date": "6 July 2012",
+    "href": "http://tools.ietf.org/html/draft-ietf-oauth-json-web-token-01",
+    "publisher": "IETF",
+    "status": "Internet Draft",
+    "title": "JSON Web Token (JWT)"
     },
     "KUIL": {
         "authors": [
