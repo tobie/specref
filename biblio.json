@@ -344,15 +344,20 @@
     },
     "BONDI-ARCH-SECURITY-11": "<a href=\"http://bondi.omtp.org/1.11/security/BONDI_Architecture_and_Security_v1.1.pdf\"><cite>BONDI Architecture &amp; Security Requirements v1.1</cite></a> 27 January 2010. URL: <a href=\"http://bondi.omtp.org/1.11/security/BONDI_Architecture_and_Security_v1.1.pdf\">http://bondi.omtp.org/1.11/security/BONDI_Architecture_and_Security_v1.1.pdf</a> ",
     "BONDI-FEATURES1-11": "<a href=\"http://bondi.omtp.org/1.11/apis/apifeatures.html\"><cite>BONDI API Features v1.11</cite></a> 2 June 2010. URL: <a href=\"http://bondi.omtp.org/1.11/apis/apifeatures.html\">http://bondi.omtp.org/1.11/apis/apifeatures.html</a> ",
-    "C14N-ISSUES": {
-        "aliasOf": "C14N-issues"
-    },
     "BrowserID": {
-        "authors": ["Ben Adida", "Tim Kuijsten", "Axel Nennker", "Anant Narayanan"],
+        "authors": [
+            "Ben Adida",
+            "Tim Kuijsten",
+            "Axel Nennker",
+            "Anant Narayanan"
+        ],
         "href": "https://github.com/mozilla/id-specs/blob/prod/browserid/index.md",
         "title": "BrowserID",
         "date": "26 February 2013",
         "publisher": "Mozilla"
+    },
+    "C14N-ISSUES": {
+        "aliasOf": "C14N-issues"
     },
     "C14N-issues": {
         "authors": [
@@ -2785,15 +2790,6 @@
         "date": "15 January 2011",
         "status": "Putative TAG Finding"
     },
-    "hCard": {
-        "authors": [
-            "Tantek Celik",
-            "Brian Suda"
-        ],
-        "href": "http://microformats.org/wiki/hcard",
-        "title": "hCard 1.0",
-        "date": "23 June 2013"
-    },
     "HCLS-KB": {
         "aliasOf": "hcls-kb"
     },
@@ -3465,25 +3461,25 @@
     },
     "JWK": {
         "authors": [
-        "Mike Jones"
-    ],
-    "date": "28 May 2013",
-    "href": "http://tools.ietf.org/html/draft-ietf-jose-json-web-key-11",
-    "publisher": "IETF",
-    "status": "Internet Draft",
-    "title": "JSON Web Key (JWK)"
+            "Mike Jones"
+        ],
+        "date": "28 May 2013",
+        "href": "http://tools.ietf.org/html/draft-ietf-jose-json-web-key-11",
+        "publisher": "IETF",
+        "status": "Internet Draft",
+        "title": "JSON Web Key (JWK)"
     },
     "JWT": {
         "authors": [
-        "M. Jones",
-        "J. Bradley",
-        "N. Sakimura"
+            "M. Jones",
+            "J. Bradley",
+            "N. Sakimura"
         ],
-    "date": "6 July 2012",
-    "href": "http://tools.ietf.org/html/draft-ietf-oauth-json-web-token-01",
-    "publisher": "IETF",
-    "status": "Internet Draft",
-    "title": "JSON Web Token (JWT)"
+        "date": "6 July 2012",
+        "href": "http://tools.ietf.org/html/draft-ietf-oauth-json-web-token-01",
+        "publisher": "IETF",
+        "status": "Internet Draft",
+        "title": "JSON Web Token (JWT)"
     },
     "KUIL": {
         "authors": [
@@ -10612,6 +10608,32 @@
             }
         }
     },
+    "css-fonts-3": {
+        "authors": [
+            "John Daggett"
+        ],
+        "href": "http://www.w3.org/TR/css-fonts-3/",
+        "title": "CSS Fonts Module Level 3",
+        "rawDate": "2013-07-11",
+        "status": "LCWD",
+        "publisher": "W3C",
+        "deliveredBy": "http://www.w3.org/Style/CSS/members",
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20130711": {
+                "authors": [
+                    "John Daggett"
+                ],
+                "href": "http://www.w3.org/TR/2013/WD-css-fonts-3-20130711/",
+                "title": "CSS Fonts Module Level 3",
+                "rawDate": "2013-07-11",
+                "status": "LCWD",
+                "publisher": "W3C",
+                "deliveredBy": "http://www.w3.org/Style/CSS/members",
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
     "css-masking": {
         "authors": [
             "Dirk Schulze",
@@ -13838,6 +13860,15 @@
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
+    },
+    "hCard": {
+        "authors": [
+            "Tantek Celik",
+            "Brian Suda"
+        ],
+        "href": "http://microformats.org/wiki/hcard",
+        "title": "hCard 1.0",
+        "date": "23 June 2013"
     },
     "hash-in-uri": {
         "authors": [
@@ -24387,9 +24418,9 @@
             "Andi Snow-Weaver"
         ],
         "href": "http://www.w3.org/TR/wcag2ict/",
-        "title": "Guidance on Applying WCAG 2.0 to Non-Web Information and Communications Technologies",
+        "title": "Guidance on Applying WCAG 2.0 to Non-Web Information and Communications Technologies (WCAG2ICT)",
         "date": "13 December 2012",
-        "rawDate": "2012-12-13",
+        "rawDate": "2013-07-11",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": "http://www.w3.org/WAI/GL/",
@@ -24407,6 +24438,21 @@
                 "publisher": "W3C",
                 "deliveredBy": "http://www.w3.org/WAI/GL/",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20130711": {
+                "authors": [
+                    "Michael Cooper",
+                    "Peter Korn",
+                    "Andi Snow-Weaver"
+                ],
+                "href": "http://www.w3.org/TR/2013/WD-wcag2ict-20130711/",
+                "title": "Guidance on Applying WCAG 2.0 to Non-Web Information and Communications Technologies (WCAG2ICT)",
+                "rawDate": "2013-07-11",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": "http://www.w3.org/WAI/GL/",
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+                "unorderedAuthors": true
             }
         }
     },
