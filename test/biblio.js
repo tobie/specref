@@ -43,6 +43,18 @@ function testAuthorsArray(obj, key) {
     }
 }
 
+function testDeliveredByArray(obj, key) {
+    if ('deliveredBy' in obj) {
+        test(wrap(key) + ' has a deliveredBy array', function() {
+            assert.ok(obj.deliveredBy instanceof Array);
+            assert.ok(obj.deliveredBy.length > 0);
+            obj.deliveredBy.forEach(function(url) {
+                assert.ok(typeof url == "string");
+            })
+        });
+    }
+}
+
 function testAliasOfPointsToRealObj(obj, key) {
     if ('aliasOf' in obj) {
         test('alias ' + wrap(obj.aliasOf) + ' of ' + wrap(key) + ' exists.', function() {
@@ -61,9 +73,10 @@ suite('Reference', function() {
             } else {
                 testPropIsAString(obj, key, 'href');
                 testAuthorsArray(obj, key);
+                testDeliveredByArray(obj, key);
                 testEtAlIsTrueWhenPresent(obj, key);
                 
-                ['date', 'status', 'publisher', 'title', 'deliveredBy'].forEach(function(prop) {
+                ['date', 'status', 'publisher', 'title'].forEach(function(prop) {
                     if (prop in obj) {
                         testPropIsAString(obj, key, prop);
                     }
@@ -91,6 +104,7 @@ suite('Reference', function() {
                                     }
                                 });
                                 testAuthorsArray(ver, k);
+                                testDeliveredByArray(ver, k);
                                 testEtAlIsTrueWhenPresent(ver, k);
                                 testObjOnlyContainsProps(ver, k, PROPS);
                             }
