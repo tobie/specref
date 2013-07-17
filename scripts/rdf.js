@@ -64,17 +64,20 @@ request(RDF_FILE, function(err, response, body) {
         // Fill in missing specs
         output.forEach(function(ref) {
             var k = ref.shortName;
-            if (k in current) {
-                if (isGeneratedByThisScript(ref)) {
-                    current[k].deliveredBy = ref.deliveredBy;
-                    current[k].hasErrata = ref.hasErrata;
+            var curr = current[k];
+            if (curr) {
+                for (var prop in ref) {
+                    if (typeof ref[prop] !== "undefined") curr[prop] = ref[prop];
                 }
+                curr.href = curr.trURL;
+                delete curr.date;
+                delete curr.trURL;
+                delete curr.shortName;
             } else {
                 var clone = _cloneJSON(ref);
                 clone.href = clone.trURL;
                 delete clone.trURL;
                 delete clone.shortName;
-                if (clone.authors > 1) clone.unorderedAuthors = true;
                 current[k] = clone;
             }
         });
@@ -86,24 +89,17 @@ request(RDF_FILE, function(err, response, body) {
             var key = ref.rawDate.replace(/\-/g, '');
             var prev = cur.versions[key];
             if (prev) {
-                if (isGeneratedByThisScript(prev)) {
-                    prev.rawDate = ref.rawDate;
-                    delete prev.date;
-                    prev.deliveredBy = ref.deliveredBy;
-                    prev.hasErrata = ref.hasErrata;
+                for (var prop in ref) {
+                    if (typeof ref[prop] !== "undefined") prev[prop] = ref[prop];
                 }
+                delete prev.date;
+                delete prev.trURL;
+                delete prev.shortName;
+                delete prev.unorderedAuthors
             } else {
                 var clone = _cloneJSON(ref);
                 delete clone.trURL;
-                clone.isRetired;
-                clone.isSuperseded;
                 delete clone.shortName;
-                if (areAuthorsEqual(ref.authors, cur.authors)) {
-                    clone.authors = _cloneJSON(cur.authors)
-                    clone.etAl = cur.etAl;
-                } else {
-                    if (clone.authors && clone.authors.length > 1) clone.unorderedAuthors = true;
-                }
                 cur.versions[key] = clone;
             }
         });
@@ -153,10 +149,11 @@ function makeCleaner(status, isRetired, isSuperseded) {
             isRetired:       isRetired,
             isSuperseded:    isSuperseded,
             trURL:           walk(spec, "doc:versionOf", 0, "$", "rdf:resource"),
-            deliveredBy:     walk(spec, "org:deliveredBy", 0, "contact:homePage", 0, "$", "rdf:resource"),
+            deliveredBy:     walk(spec, "org:deliveredBy"),
             hasErrata:       walk(spec, "mat:hasErrata", 0, "$", "rdf:resource"),
             source:          RDF_FILE
         };
+        obj.deliveredBy = obj.deliveredBy ? obj.deliveredBy.map(function(r) { return  walk(r, "contact:homePage", 0, "$", "rdf:resource"); }) : obj.deliveredBy;
         obj.trURL = TR_URLS[obj.trURL] || obj.trURL;
         obj.shortName = getShortName(obj.trURL);
         return obj;
@@ -180,10 +177,6 @@ function _cloneJSON(obj) {
     return JSON.parse(JSON.stringify(obj));
 }
 
-function areAuthorsEqual(a, b) {
-    return _cloneJSON(a||[]).sort().join(',') === _cloneJSON(b||[]).sort().join(',')
-}
-
 function isGeneratedByThisScript(ref) {
     return ref.source == "http://www.w3.org/2002/01/tr-automation/tr.rdf" || ref.source == RDF_FILE;
 }
@@ -203,7 +196,9 @@ var TR_URLS = {
     "http://www.w3.org/TR/REC-rdf-syntax": "http://www.w3.org/TR/rdf-syntax-grammar/",
     "http://www.w3.org/TR/REC-smil/": "http://www.w3.org/TR/SMIL/",
     "http://www.w3.org/TR/REC-xml-names": "http://www.w3.org/TR/xml-names/",
-    "http://www.w3.org/TR/REC-xml": "http://www.w3.org/TR/xml/"
+    "http://www.w3.org/TR/REC-xml": "http://www.w3.org/TR/xml/",
+    "http://www.w3.org/TR/xml-events": "http://www.w3.org/TR/xml-events2/",
+    "http://www.w3.org/TR/2001/WD-xhtml1-20011004/": "http://www.w3.org/TR/xhtml1/",
 };
 
 var TR_URL = "http://www.w3.org/TR/";
