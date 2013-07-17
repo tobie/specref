@@ -71,12 +71,11 @@ suite('Reference', function() {
                 testAliasOfPointsToRealObj(obj, key);
                 testObjOnlyContainsProps(obj, key, ['aliasOf']);
             } else {
-                testPropIsAString(obj, key, 'href');
                 testAuthorsArray(obj, key);
                 testDeliveredByArray(obj, key);
                 testEtAlIsTrueWhenPresent(obj, key);
                 
-                ['date', 'status', 'publisher', 'title'].forEach(function(prop) {
+                ['href', 'date', 'status', 'publisher', 'title'].forEach(function(prop) {
                     if (prop in obj) {
                         testPropIsAString(obj, key, prop);
                     }
