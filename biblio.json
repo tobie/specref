@@ -835,26 +835,26 @@
         "aliasOf": "RFC3217"
     },
     "COAP": "E Shelby; et al. <a href=\"http://tools.ietf.org/html/draft-ietf-core-coap\"><cite>Constrained Application Protocol (CoAP)</cite></a>. IETF Internet Draft, December 2012. URL: <a href=\"http://tools.ietf.org/html/draft-ietf-core-coap\">http://tools.ietf.org/html/draft-ietf-core-coap</a>",
+    "COCKBURN-2000": {
+        "authors": [
+            "Alistair Cockburn"
+        ],
+        "title": "Writing Effective Use Cases",
+        "date": "2000",
+        "publisher": "Addison Wesley Longman Publishing Co., Inc., Boston, MA, USA."
+    },
+    "COHN-2004": {
+        "authors": [
+            "Mike Cohn"
+        ],
+        "title": "User Stories Applied: For Agile Software Development",
+        "date": "2004",
+        "publisher": "Addison Wesley Longman Publishing Co., Inc., Redwood City, CA, USA."
+    },
     "COLORIMETRY": "<cite>Colorimetry, Second Edition.</cite> CIE Publication 15.2-1986. ISBN 3-900-734-00-3",
     "COMPOSITING": {
         "aliasOf": "compositing"
     },
-	"COCKBURN-2000": {
-		"authors": [
-			"Alistair Cockburn"
-		],
-		"title": "Writing Effective Use Cases",
-		"date": "2000",
-		"publisher": "Addison Wesley Longman Publishing Co., Inc., Boston, MA, USA."
-	},
-	"COHN-2004": {
-		"authors": [
-			"Mike Cohn"
-		],
-		"title": "User Stories Applied: For Agile Software Development",
-		"date": "2004",
-		"publisher": "Addison Wesley Longman Publishing Co., Inc., Redwood City, CA, USA."
-	},
     "CONSENT-EU-WP187": "WP189, <a href=\"http://ec.europa.eu/justice/policies/privacy/docs/wpdocs/2011/wp187_en.pdf\"><cite>Opinion 15/2011 on the definition of consent</cite></a>. EU Article 29 Data Protection Working Party, 01197/11/EN WP187. 13 July 2011. URL: <a href=\"http://ec.europa.eu/justice/policies/privacy/docs/wpdocs/2011/wp187_en.pdf\">http://ec.europa.eu/justice/policies/privacy/docs/wpdocs/2011/wp187_en.pdf</a>",
     "CONTACTS-API": {
         "authors": [
@@ -11407,8 +11407,8 @@
         ],
         "href": "http://www.w3.org/TR/css-counter-styles-3/",
         "title": "CSS Counter Styles Level 3",
-        "rawDate": "2013-02-21",
-        "status": "WD",
+        "rawDate": "2013-07-18",
+        "status": "LCWD",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/Style/CSS/members"
@@ -11423,6 +11423,20 @@
                 "title": "CSS Counter Styles Level 3",
                 "rawDate": "2013-02-21",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Style/CSS/members"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20130718": {
+                "authors": [
+                    "Tab Atkins Jr."
+                ],
+                "href": "http://www.w3.org/TR/2013/WD-css-counter-styles-3-20130718/",
+                "title": "CSS Counter Styles Level 3",
+                "rawDate": "2013-07-18",
+                "status": "LCWD",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/Style/CSS/members"
@@ -21938,8 +21952,8 @@
         ],
         "href": "http://www.w3.org/TR/rdf11-concepts/",
         "title": "RDF 1.1 Concepts and Abstract Syntax",
-        "rawDate": "2013-01-15",
-        "status": "WD",
+        "rawDate": "2013-07-23",
+        "status": "LCWD",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2011/rdf-wg/"
@@ -21960,6 +21974,21 @@
                     "http://www.w3.org/2011/rdf-wg/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20130723": {
+                "authors": [
+                    "Richard Cyganiak",
+                    "David Wood"
+                ],
+                "href": "http://www.w3.org/TR/2013/WD-rdf11-concepts-20130723/",
+                "title": "RDF 1.1 Concepts and Abstract Syntax",
+                "rawDate": "2013-07-23",
+                "status": "LCWD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2011/rdf-wg/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
     },
@@ -21970,8 +21999,8 @@
         ],
         "href": "http://www.w3.org/TR/rdf11-mt/",
         "title": "RDF 1.1 Semantics",
-        "rawDate": "2013-04-09",
-        "status": "WD",
+        "rawDate": "2013-07-23",
+        "status": "LCWD",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2011/rdf-wg/"
@@ -21987,6 +22016,21 @@
                 "title": "RDF 1.1 Semantics",
                 "rawDate": "2013-04-09",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2011/rdf-wg/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20130723": {
+                "authors": [
+                    "Patrick Hayes",
+                    "Peter Patel-Schneider"
+                ],
+                "href": "http://www.w3.org/TR/2013/WD-rdf11-mt-20130723/",
+                "title": "RDF 1.1 Semantics",
+                "rawDate": "2013-07-23",
+                "status": "LCWD",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/2011/rdf-wg/"
@@ -26284,8 +26328,8 @@
         ],
         "href": "http://www.w3.org/TR/vibration/",
         "title": "Vibration API",
-        "rawDate": "2013-05-23",
-        "status": "LCWD",
+        "rawDate": "2013-07-23",
+        "status": "CR",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2009/dap/"
@@ -26312,6 +26356,20 @@
                 "title": "Vibration API",
                 "rawDate": "2013-05-23",
                 "status": "LCWD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2009/dap/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20130723": {
+                "authors": [
+                    "Anssi Kostiainen"
+                ],
+                "href": "http://www.w3.org/TR/2013/CR-vibration-20130723/",
+                "title": "Vibration API",
+                "rawDate": "2013-07-23",
+                "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/2009/dap/"
@@ -35429,7 +35487,7 @@
         ],
         "href": "http://www.w3.org/TR/xquery-30/",
         "title": "XQuery 3.0: An XML Query Language",
-        "status": "CR",
+        "status": "LCWD",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/XML/Query/"
@@ -35451,9 +35509,26 @@
                     "http://www.w3.org/XML/Query/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20130723": {
+                "authors": [
+                    "Jonathan Robie",
+                    "Don Chamberlin",
+                    "Michael Dyck",
+                    "John Snelson"
+                ],
+                "href": "http://www.w3.org/TR/2013/WD-xquery-30-20130723/",
+                "title": "XQuery 3.0: An XML Query Language",
+                "rawDate": "2013-07-23",
+                "status": "LCWD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/XML/Query/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2013-01-08",
+        "rawDate": "2013-07-23",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
     "xquery-30-requirements": {
