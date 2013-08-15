@@ -3224,39 +3224,7 @@
         "aliasOf": "html401"
     },
     "HTML5": {
-        "authors": [
-            "Robin Berjon"
-        ],
-        "etAl": true,
-        "href": "http://www.w3.org/TR/html5/",
-        "title": "HTML5",
-        "date": "17 December 2012",
-        "status": "CR",
-        "publisher": "W3C",
-        "versions": {
-            "20121025": {
-                "authors": [
-                    "Ian Hickson",
-                    "David Hyatt"
-                ],
-                "href": "http://www.w3.org/TR/2012/WD-html5-20121025/",
-                "title": "HTML5",
-                "date": "25 October 2012",
-                "status": "WD",
-                "publisher": "W3C"
-            },
-            "20121217": {
-                "authors": [
-                    "Robin Berjon"
-                ],
-                "etAl": true,
-                "href": "http://www.w3.org/TR/2012/CR-html5-20121217/",
-                "title": "HTML5.",
-                "date": "17 December 2012",
-                "status": "CR",
-                "publisher": "W3C"
-            }
-        }
+        "aliasOf": "html5"
     },
     "HTML5-DIFF": {
         "aliasOf": "html5-diff"
@@ -16316,6 +16284,17 @@
         ],
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
         "versions": {
+            "20121025": {
+                "authors": [
+                    "Ian Hickson",
+                    "David Hyatt"
+                ],
+                "href": "http://www.w3.org/TR/2012/WD-html5-20121025/",
+                "title": "HTML5",
+                "rawDate": "2012-10-25",
+                "status": "WD",
+                "publisher": "W3C"
+            },
             "20121217": {
                 "authors": [
                     "Robin Berjon",
