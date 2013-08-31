@@ -16019,8 +16019,8 @@
         ],
         "href": "http://www.w3.org/TR/html-rdfa/",
         "title": "HTML+RDFa 1.1",
-        "rawDate": "2013-06-25",
-        "status": "PR",
+        "rawDate": "2013-08-22",
+        "status": "REC",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2010/02/rdfa/"
@@ -16046,6 +16046,20 @@
                 "title": "HTML+RDFa 1.1",
                 "rawDate": "2013-06-25",
                 "status": "PR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2010/02/rdfa/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20130822": {
+                "authors": [
+                    "Manu Sporny"
+                ],
+                "href": "http://www.w3.org/TR/2013/REC-html-rdfa-20130822/",
+                "title": "HTML+RDFa 1.1",
+                "rawDate": "2013-08-22",
+                "status": "REC",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/2010/02/rdfa/"
@@ -16887,6 +16901,8 @@
     },
     "its20": {
         "authors": [
+            "David Filip",
+            "Shaun McCance",
             "David Lewis",
             "Christian Lieske",
             "Arle Lommel",
@@ -16896,7 +16912,7 @@
         ],
         "href": "http://www.w3.org/TR/its20/",
         "title": "Internationalization Tag Set (ITS) Version 2.0",
-        "rawDate": "2013-05-21",
+        "rawDate": "2013-08-20",
         "status": "LCWD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -16916,6 +16932,27 @@
                 "href": "http://www.w3.org/TR/2013/WD-its20-20130521/",
                 "title": "Internationalization Tag Set (ITS) Version 2.0",
                 "rawDate": "2013-05-21",
+                "status": "LCWD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/International/multilingualweb/lt/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20130820": {
+                "authors": [
+                    "David Filip",
+                    "Shaun McCance",
+                    "David Lewis",
+                    "Christian Lieske",
+                    "Arle Lommel",
+                    "Jirka Kosek",
+                    "Felix Sasaki",
+                    "Yves Savourel"
+                ],
+                "href": "http://www.w3.org/TR/2013/WD-its20-20130820/",
+                "title": "Internationalization Tag Set (ITS) Version 2.0",
+                "rawDate": "2013-08-20",
                 "status": "LCWD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -22255,7 +22292,7 @@
         "etAl": true,
         "href": "http://www.w3.org/TR/rdfa-core/",
         "title": "RDFa Core 1.1 - Second Edition",
-        "status": "PER",
+        "status": "REC",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2010/02/rdfa/"
@@ -22295,9 +22332,26 @@
                     "http://www.w3.org/2010/02/rdfa/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20130822": {
+                "authors": [
+                    "Ben Adida",
+                    "Mark Birbeck",
+                    "Shane McCarron",
+                    "Ivan Herman"
+                ],
+                "href": "http://www.w3.org/TR/2013/REC-rdfa-core-20130822/",
+                "title": "RDFa Core 1.1 - Second Edition",
+                "rawDate": "2013-08-22",
+                "status": "REC",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2010/02/rdfa/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2013-06-25",
+        "rawDate": "2013-08-22",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
         "hasErrata": "http://www.w3.org/2010/02/rdfa/errata.html"
     },
@@ -22346,13 +22400,13 @@
     },
     "rdfa-primer": {
         "authors": [
-            "Ben Adida",
             "Ivan Herman",
+            "Ben Adida",
             "Manu Sporny",
             "Mark Birbeck"
         ],
         "href": "http://www.w3.org/TR/rdfa-primer/",
-        "title": "RDFa 1.1 Primer",
+        "title": "RDFa 1.1 Primer - Second Edition",
         "status": "NOTE",
         "publisher": "W3C",
         "deliveredBy": [
@@ -22375,9 +22429,26 @@
                     "http://www.w3.org/2010/02/rdfa/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20130822": {
+                "authors": [
+                    "Ivan Herman",
+                    "Ben Adida",
+                    "Manu Sporny",
+                    "Mark Birbeck"
+                ],
+                "href": "http://www.w3.org/TR/2013/NOTE-rdfa-primer-20130822/",
+                "title": "RDFa 1.1 Primer - Second Edition",
+                "rawDate": "2013-08-22",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2010/02/rdfa/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2012-06-07",
+        "rawDate": "2013-08-22",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
     "rdfa-syntax": {
@@ -28019,7 +28090,7 @@
         ],
         "href": "http://www.w3.org/TR/webcrypto-key-discovery/",
         "title": "WebCrypto Key Discovery",
-        "rawDate": "2013-01-08",
+        "rawDate": "2013-08-22",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -28034,6 +28105,20 @@
                 "href": "http://www.w3.org/TR/2013/WD-webcrypto-key-discovery-20130108/",
                 "title": "WebCrypto Key Discovery",
                 "rawDate": "2013-01-08",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2012/webcrypto/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20130822": {
+                "authors": [
+                    "Mark Watson"
+                ],
+                "href": "http://www.w3.org/TR/2013/WD-webcrypto-key-discovery-20130822/",
+                "title": "WebCrypto Key Discovery",
+                "rawDate": "2013-08-22",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -31136,7 +31221,7 @@
         ],
         "href": "http://www.w3.org/TR/xhtml-pubid/",
         "title": "Public Identifiers for entity resolution in XHTML",
-        "rawDate": "2013-02-28",
+        "rawDate": "2013-08-22",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -31157,6 +31242,20 @@
                     "http://www.w3.org/html/wg/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20130822": {
+                "authors": [
+                    "David Carlisle"
+                ],
+                "href": "http://www.w3.org/TR/2013/WD-xhtml-pubid-20130822/",
+                "title": "Public Identifiers for entity resolution in XHTML",
+                "rawDate": "2013-08-22",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/html/wg/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
     },
@@ -31166,7 +31265,7 @@
         ],
         "href": "http://www.w3.org/TR/xhtml-rdfa/",
         "title": "XHTML+RDFa 1.1 - Second Edition",
-        "status": "PER",
+        "status": "REC",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2010/02/rdfa/"
@@ -31200,9 +31299,23 @@
                     "http://www.w3.org/2010/02/rdfa/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20130822": {
+                "authors": [
+                    "Shane McCarron"
+                ],
+                "href": "http://www.w3.org/TR/2013/REC-xhtml-rdfa-20130822/",
+                "title": "XHTML+RDFa 1.1 - Second Edition",
+                "rawDate": "2013-08-22",
+                "status": "REC",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2010/02/rdfa/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2013-06-25",
+        "rawDate": "2013-08-22",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
         "hasErrata": "http://www.w3.org/2010/02/rdfa/errata.html"
     },
