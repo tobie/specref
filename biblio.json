@@ -3813,15 +3813,6 @@
     "LDP": {
         "aliasOf": "ldp"
     },
-    "LDP-BP": {
-        "aliasOf": "ldp-bp"
-    },
-    "LDP-PRIMER": {
-        "aliasOf": "ldp-primer"
-    },
-    "LDP-TESTS": {
-        "aliasOf": "ldp-tests"
-    },
     "LDP-UCR": {
         "aliasOf": "ldp-ucr"
     },    
@@ -17284,50 +17275,6 @@
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
-    },
-    "ldp-bp": {
-        "authors": [
-            "Cody Burleson",
-            "Nandana Mihindukulasooriya"
-        ],
-        "href": "https://dvcs.w3.org/hg/ldpwg/raw-file/tip/ldp-bp/ldp-bp.html",
-        "title": "LDP Best Practices and Guidelines",
-        "rawDate": "2013-08-27",
-        "status": "WD",
-        "publisher": "W3C",
-        "deliveredBy": [
-            "http://www.w3.org/2012/ldp/"
-        ],
-        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
-    },
-    "ldp-primer": {
-        "authors": [
-            "Nandana Mihindukulasooriya",
-            "Roger Menday"
-        ],
-        "href": "https://dvcs.w3.org/hg/ldpwg/raw-file/tip/ldp-primer/ldp-primer.html",
-        "title": "Linked Data Platform 1.0 Primer",
-        "rawDate": "2013-08-27",
-        "status": "WD",
-        "publisher": "W3C",
-        "deliveredBy": [
-            "http://www.w3.org/2012/ldp/"
-        ],
-        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
-    },
-    "ldp-tests": {
-        "authors": [
-            "Raúl García-Castro"
-        ],
-        "href": "https://dvcs.w3.org/hg/ldpwg/raw-file/tip/Test%20Cases/LDP%20Test%20Cases.html",
-        "title": "Linked Data Platform 1.0 Test Cases",
-        "rawDate": "2013-08-27",
-        "status": "WD",
-        "publisher": "W3C",
-        "deliveredBy": [
-            "http://www.w3.org/2012/ldp/"
-        ],
-        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
     "ldp-ucr": {
         "authors": [
