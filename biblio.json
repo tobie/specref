@@ -3810,6 +3810,12 @@
     "LDAP-DN": {
         "aliasOf": "RFC4514"
     },
+    "LDP": {
+        "aliasOf": "ldp"
+    },
+    "LDP-UCR": {
+        "aliasOf": "ldp-ucr"
+    },    
     "LEIRI": {
         "aliasOf": "leiri"
     },
@@ -3837,15 +3843,7 @@
         "publisher": "W3C"
     },
     "LINKED-DATA-PLATFORM": {
-        "authors": [
-            "Steve Speicher"
-        ],
-        "etAl": true,
-        "href": "http://www.w3.org/TR/ldp/",
-        "title": "Linked Data Platform 1.0",
-        "date": "25 October 2012",
-        "status": "WD",
-        "publisher": "W3C"
+        "aliasOf": "ldp"
     },
     "LLD-UC": {
         "authors": [
