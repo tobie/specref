@@ -13,9 +13,7 @@ keys.forEach(function(key) {
     }
 })
 
-output.sort(function(a, b) {
-    return a.toLowerCase().localeCompare(b.toLowerCase());
-});
+output.sort(function(a, b) { return a.localeCompare(b); });
 
 var FILE = "./test/ref-list.json"
 console.log("Writing output to " + FILE + "...");
