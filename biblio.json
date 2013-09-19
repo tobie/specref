@@ -346,9 +346,25 @@
                     "http://www.w3.org/WAI/AU/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20130910": {
+                "authors": [
+                    "Jan Richards",
+                    "Jeanne F Spellman",
+                    "Jutta Treviranus"
+                ],
+                "href": "http://www.w3.org/TR/2013/WD-ATAG20-20130910/",
+                "title": "Authoring Tool Accessibility Guidelines (ATAG) 2.0",
+                "rawDate": "2013-09-10",
+                "status": "LCWD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/WAI/AU/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2012-04-10",
+        "rawDate": "2013-09-10",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
     "ATAG20-TECHS": {
@@ -3040,7 +3056,7 @@
         ],
         "href": "http://www.w3.org/TR/FileAPI/",
         "title": "File API",
-        "status": "WD",
+        "status": "LCWD",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2008/webapps/"
@@ -3060,9 +3076,24 @@
                     "http://www.w3.org/2008/webapps/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20130912": {
+                "authors": [
+                    "Arun Ranganathan",
+                    "Jonas Sicking"
+                ],
+                "href": "http://www.w3.org/TR/2013/WD-FileAPI-20130912/",
+                "title": "File API",
+                "rawDate": "2013-09-12",
+                "status": "LCWD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2008/webapps/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2012-10-25",
+        "rawDate": "2013-09-12",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
     "GEOLOCATION-API": {
@@ -3473,13 +3504,13 @@
     },
     "IMPLEMENTING-ATAG20": {
         "authors": [
-            "Jutta Treviranus",
             "Jan Richards",
-            "Jeanne F Spellman"
+            "Jeanne F Spellman",
+            "Jutta Treviranus"
         ],
         "href": "http://www.w3.org/TR/IMPLEMENTING-ATAG20/",
         "title": "Implementing ATAG 2.0",
-        "rawDate": "2012-10-11",
+        "rawDate": "2013-09-10",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -3496,6 +3527,22 @@
                 "href": "http://www.w3.org/TR/2012/WD-IMPLEMENTING-ATAG20-20121011/",
                 "title": "Implementing ATAG 2.0",
                 "rawDate": "2012-10-11",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/WAI/AU/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20130910": {
+                "authors": [
+                    "Jan Richards",
+                    "Jeanne F Spellman",
+                    "Jutta Treviranus"
+                ],
+                "href": "http://www.w3.org/TR/2013/WD-IMPLEMENTING-ATAG20-20130910/",
+                "title": "Implementing ATAG 2.0",
+                "rawDate": "2013-09-10",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -7844,16 +7891,6 @@
         "date": "29 March 2005",
         "status": "Unicode Standard Annex #14"
     },
-    "UAX15": {
-        "authors": [
-            "Mark Davis",
-            "Ken Whistler"
-        ],
-        "href": "http://www.unicode.org/reports/tr15/",
-        "title": "Unicode Normalization Forms",
-        "date": "31 August 2012",
-        "status": "Unicode Standard Annex #15"
-    },
     "UAX21": {
         "authors": [
             "Mark Davis"
@@ -8017,6 +8054,8 @@
         "authors": [
             "Michael Cooper",
             "Loretta Guarino Reid",
+            "Andrew Kirkpatrick",
+            "Joshue O Connor",
             "Gregg Vanderheiden"
         ],
         "etAl": true,
@@ -8043,9 +8082,27 @@
                     "http://www.w3.org/WAI/GL/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20130905": {
+                "authors": [
+                    "Michael Cooper",
+                    "Loretta Guarino Reid",
+                    "Andrew Kirkpatrick",
+                    "Joshue O Connor",
+                    "Gregg Vanderheiden"
+                ],
+                "href": "http://www.w3.org/TR/2013/NOTE-UNDERSTANDING-WCAG20-20130905/",
+                "title": "Understanding WCAG 2.0",
+                "rawDate": "2013-09-05",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/WAI/GL/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2012-01-03",
+        "rawDate": "2013-09-05",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
     "UNICODE": {
@@ -8137,16 +8194,6 @@
         "title": "Script Names",
         "date": "27 September 2001",
         "status": "Unicode Technical Report #24"
-    },
-    "UTS22": {
-         "authors": [
-            "Mark Davis",
-            "Markus Scherer"
-         ],
-         "href":"http://www.unicode.org/reports/tr22/tr22-7.html",
-         "title": "Unicode Character Mapping Markup Language (CharMapML)",
-         "date": "09 September 2009",
-         "status": "Unicode Technical Standard #22"
     },
     "UWA-personalization-roadmap": {
         "authors": [
@@ -8561,6 +8608,8 @@
         "authors": [
             "Michael Cooper",
             "Loretta Guarino Reid",
+            "Andrew Kirkpatrick",
+            "Joshue O Connor",
             "Gregg Vanderheiden"
         ],
         "etAl": true,
@@ -8587,9 +8636,27 @@
                     "http://www.w3.org/WAI/GL/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20130905": {
+                "authors": [
+                    "Michael Cooper",
+                    "Loretta Guarino Reid",
+                    "Andrew Kirkpatrick",
+                    "Joshue O Connor",
+                    "Gregg Vanderheiden"
+                ],
+                "href": "http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/",
+                "title": "Techniques for WCAG 2.0",
+                "rawDate": "2013-09-05",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/WAI/GL/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2012-01-03",
+        "rawDate": "2013-09-05",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
     "WCSS11": "Open Mobile Alliance. <a href=\"http://www.openmobilealliance.org/technical/release_program/docs/Browsing/V2_3-20080331-A/OMA-WAP-WCSS-V1_1-20061020-A.pdf\"><cite>Wireless CSS Specification.</cite></a> October 2006. Approved Version 1.1. URL: <a href=\"http://www.openmobilealliance.org/technical/release_program/docs/Browsing/V2_3-20080331-A/OMA-WAP-WCSS-V1_1-20061020-A.pdf\">http://www.openmobilealliance.org/technical/release_program/docs/Browsing/V2_3-20080331-A/OMA-WAP-WCSS-V1_1-20061020-A.pdf</a> ",
@@ -12490,8 +12557,8 @@
             "Rossen Atanassov"
         ],
         "href": "http://www.w3.org/TR/css3-grid-layout/",
-        "title": "CSS Grid Layout",
-        "rawDate": "2013-04-02",
+        "title": "CSS Grid Layout Module Level 1",
+        "rawDate": "2013-09-10",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -12508,6 +12575,22 @@
                 "href": "http://www.w3.org/TR/2013/WD-css3-grid-layout-20130402/",
                 "title": "CSS Grid Layout",
                 "rawDate": "2013-04-02",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Style/CSS/members"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20130910": {
+                "authors": [
+                    "Tab Atkins Jr.",
+                    "Elika Etemad",
+                    "Rossen Atanassov"
+                ],
+                "href": "http://www.w3.org/TR/2013/WD-css3-grid-layout-20130910/",
+                "title": "CSS Grid Layout Module Level 1",
+                "rawDate": "2013-09-10",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -15615,11 +15698,12 @@
         "authors": [
             "Steve Faulkner",
             "Cynthia Shelly",
-            "Jason Kiss"
+            "Jason Kiss",
+            "Alexander Surkov"
         ],
         "href": "http://www.w3.org/TR/html-aapi/",
         "title": "HTML to Platform Accessibility APIs Implementation Guide",
-        "rawDate": "2012-10-25",
+        "rawDate": "2013-09-10",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -15636,6 +15720,23 @@
                 "href": "http://www.w3.org/TR/2012/WD-html-aapi-20121025/",
                 "title": "HTML to Platform Accessibility APIs Implementation Guide",
                 "rawDate": "2012-10-25",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/html/wg/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20130910": {
+                "authors": [
+                    "Steve Faulkner",
+                    "Cynthia Shelly",
+                    "Jason Kiss",
+                    "Alexander Surkov"
+                ],
+                "href": "http://www.w3.org/TR/2013/WD-html-aapi-20130910/",
+                "title": "HTML to Platform Accessibility APIs Implementation Guide",
+                "rawDate": "2013-09-10",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -17151,8 +17252,8 @@
         ],
         "href": "http://www.w3.org/TR/json-ld/",
         "title": "JSON-LD 1.0",
-        "rawDate": "2013-04-11",
-        "status": "LCWD",
+        "rawDate": "2013-09-10",
+        "status": "CR",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2011/rdf-wg/"
@@ -17174,6 +17275,22 @@
                     "http://www.w3.org/2011/rdf-wg/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20130910": {
+                "authors": [
+                    "Manu Sporny",
+                    "Gregg Kellogg",
+                    "Markus Lanthaler"
+                ],
+                "href": "http://www.w3.org/TR/2013/CR-json-ld-20130910/",
+                "title": "JSON-LD 1.0",
+                "rawDate": "2013-09-10",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2011/rdf-wg/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
     },
@@ -17185,8 +17302,8 @@
         ],
         "href": "http://www.w3.org/TR/json-ld-api/",
         "title": "JSON-LD 1.0 Processing Algorithms and API",
-        "rawDate": "2013-05-16",
-        "status": "LCWD",
+        "rawDate": "2013-09-10",
+        "status": "CR",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2011/rdf-wg/"
@@ -17203,6 +17320,22 @@
                 "title": "JSON-LD 1.0 Processing Algorithms and API",
                 "rawDate": "2013-05-16",
                 "status": "LCWD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2011/rdf-wg/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20130910": {
+                "authors": [
+                    "Markus Lanthaler",
+                    "Gregg Kellogg",
+                    "Manu Sporny"
+                ],
+                "href": "http://www.w3.org/TR/2013/CR-json-ld-api-20130910/",
+                "title": "JSON-LD 1.0 Processing Algorithms and API",
+                "rawDate": "2013-09-10",
+                "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/2011/rdf-wg/"
@@ -17836,7 +17969,7 @@
         ],
         "href": "http://www.w3.org/TR/media-source/",
         "title": "Media Source Extensions",
-        "status": "WD",
+        "status": "LCWD",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/html/wg/"
@@ -17857,9 +17990,25 @@
                     "http://www.w3.org/html/wg/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20130905": {
+                "authors": [
+                    "Aaron Colwell",
+                    "Adrian Bateman",
+                    "Mark Watson"
+                ],
+                "href": "http://www.w3.org/TR/2013/WD-media-source-20130905/",
+                "title": "Media Source Extensions",
+                "rawDate": "2013-09-05",
+                "status": "LCWD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/html/wg/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2013-04-15",
+        "rawDate": "2013-09-05",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
     "mediacapture-streams": {
@@ -18862,8 +19011,8 @@
         ],
         "href": "http://www.w3.org/TR/n-quads/",
         "title": "N-Quads",
-        "rawDate": "2013-04-09",
-        "status": "NOTE",
+        "rawDate": "2013-09-05",
+        "status": "LCWD",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2011/rdf-wg/"
@@ -18883,6 +19032,20 @@
                     "http://www.w3.org/2011/rdf-wg/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20130905": {
+                "authors": [
+                    "Gavin Carothers"
+                ],
+                "href": "http://www.w3.org/TR/2013/WD-n-quads-20130905/",
+                "title": "N-Quads",
+                "rawDate": "2013-09-05",
+                "status": "LCWD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2011/rdf-wg/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
     },
@@ -18892,8 +19055,8 @@
         ],
         "href": "http://www.w3.org/TR/n-triples/",
         "title": "N-Triples",
-        "rawDate": "2013-04-09",
-        "status": "NOTE",
+        "rawDate": "2013-09-05",
+        "status": "LCWD",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2011/rdf-wg/"
@@ -18908,6 +19071,20 @@
                 "title": "N-Triples",
                 "rawDate": "2013-04-09",
                 "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2011/rdf-wg/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20130905": {
+                "authors": [
+                    "Gavin Carothers"
+                ],
+                "href": "http://www.w3.org/TR/2013/WD-n-triples-20130905/",
+                "title": "N-Triples",
+                "rawDate": "2013-09-05",
+                "status": "LCWD",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/2011/rdf-wg/"
@@ -19106,13 +19283,13 @@
     },
     "notifications": {
         "authors": [
-            "Anne van Kesteren",
-            "John Gregg"
+            "John Gregg",
+            "Anne van Kesteren"
         ],
         "href": "http://www.w3.org/TR/notifications/",
         "title": "Web Notifications",
-        "rawDate": "2012-06-14",
-        "status": "WD",
+        "rawDate": "2013-09-12",
+        "status": "LCWD",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2010/web-notifications/"
@@ -19128,6 +19305,21 @@
                 "title": "Web Notifications",
                 "rawDate": "2012-06-14",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2010/web-notifications/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20130912": {
+                "authors": [
+                    "John Gregg",
+                    "Anne van Kesteren"
+                ],
+                "href": "http://www.w3.org/TR/2013/WD-notifications-20130912/",
+                "title": "Web Notifications",
+                "rawDate": "2013-09-12",
+                "status": "LCWD",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/2010/web-notifications/"
@@ -23408,8 +23600,8 @@
         ],
         "href": "http://www.w3.org/TR/ruby-use-cases/",
         "title": "Use Cases & Exploratory Approaches for Ruby Markup",
-        "rawDate": "2012-07-10",
-        "status": "WD",
+        "rawDate": "2013-09-10",
+        "status": "LCWD",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/International/core/"
@@ -23424,6 +23616,20 @@
                 "title": "Use Cases & Exploratory Approaches for Ruby Markup",
                 "rawDate": "2012-07-10",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/International/core/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20130910": {
+                "authors": [
+                    "Richard Ishida"
+                ],
+                "href": "http://www.w3.org/TR/2013/WD-ruby-use-cases-20130910/",
+                "title": "Use Cases & Exploratory Approaches for Ruby Markup",
+                "rawDate": "2013-09-10",
+                "status": "LCWD",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/International/core/"
@@ -26154,7 +26360,7 @@
         ],
         "href": "http://www.w3.org/TR/tracking-compliance/",
         "title": "Tracking Compliance and Scope",
-        "rawDate": "2013-04-30",
+        "rawDate": "2013-09-12",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -26178,6 +26384,23 @@
                     "http://www.w3.org/2011/tracking-protection/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20130912": {
+                "authors": [
+                    "Justin Brookman",
+                    "Heather West",
+                    "Sean Harvey",
+                    "Erica Newland"
+                ],
+                "href": "http://www.w3.org/TR/2013/WD-tracking-compliance-20130912/",
+                "title": "Tracking Compliance and Scope",
+                "rawDate": "2013-09-12",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2011/tracking-protection/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
     },
@@ -26188,7 +26411,7 @@
         ],
         "href": "http://www.w3.org/TR/tracking-dnt/",
         "title": "Tracking Preference Expression (DNT)",
-        "rawDate": "2013-04-30",
+        "rawDate": "2013-09-12",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -26204,6 +26427,21 @@
                 "href": "http://www.w3.org/TR/2013/WD-tracking-dnt-20130430/",
                 "title": "Tracking Preference Expression (DNT)",
                 "rawDate": "2013-04-30",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2011/tracking-protection/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20130912": {
+                "authors": [
+                    "Roy Fielding",
+                    "David Singer"
+                ],
+                "href": "http://www.w3.org/TR/2013/WD-tracking-dnt-20130912/",
+                "title": "Tracking Preference Expression (DNT)",
+                "rawDate": "2013-09-12",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -27768,12 +28006,13 @@
         "authors": [
             "Michael Cooper",
             "Peter Korn",
-            "Andi Snow-Weaver"
+            "Andi Snow-Weaver",
+            "Gregg Vanderheiden"
         ],
         "href": "http://www.w3.org/TR/wcag2ict/",
         "title": "Guidance on Applying WCAG 2.0 to Non-Web Information and Communications Technologies (WCAG2ICT)",
-        "rawDate": "2013-07-11",
-        "status": "WD",
+        "rawDate": "2013-09-05",
+        "status": "NOTE",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/WAI/GL/"
@@ -27802,6 +28041,23 @@
                 "title": "Guidance on Applying WCAG 2.0 to Non-Web Information and Communications Technologies (WCAG2ICT)",
                 "rawDate": "2013-07-11",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/WAI/GL/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20130905": {
+                "authors": [
+                    "Michael Cooper",
+                    "Peter Korn",
+                    "Andi Snow-Weaver",
+                    "Gregg Vanderheiden"
+                ],
+                "href": "http://www.w3.org/TR/2013/NOTE-wcag2ict-20130905/",
+                "title": "Guidance on Applying WCAG 2.0 to Non-Web Information and Communications Technologies (WCAG2ICT)",
+                "rawDate": "2013-09-05",
+                "status": "NOTE",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/WAI/GL/"
@@ -28189,8 +28445,8 @@
         ],
         "href": "http://www.w3.org/TR/webcrypto-usecases/",
         "title": "Web Cryptography API Use Cases",
-        "rawDate": "2013-01-08",
-        "status": "WD",
+        "rawDate": "2013-09-10",
+        "status": "NOTE",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2012/webcrypto/"
@@ -28205,6 +28461,20 @@
                 "title": "Web Cryptography API Use Cases",
                 "rawDate": "2013-01-08",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2012/webcrypto/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20130910": {
+                "authors": [
+                    "Arun Ranganathan"
+                ],
+                "href": "http://www.w3.org/TR/2013/NOTE-webcrypto-usecases-20130910/",
+                "title": "Web Cryptography API Use Cases",
+                "rawDate": "2013-09-10",
+                "status": "NOTE",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/2012/webcrypto/"
@@ -28438,9 +28708,26 @@
                     "http://www.w3.org/2011/04/webrtc/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20130910": {
+                "authors": [
+                    "Adam Bergkvist",
+                    "Daniel Burnett",
+                    "Cullen Jennings",
+                    "Anant Narayanan"
+                ],
+                "href": "http://www.w3.org/TR/2013/WD-webrtc-20130910/",
+                "title": "WebRTC 1.0: Real-time Communication Between Browsers",
+                "rawDate": "2013-09-10",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2011/04/webrtc/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2012-08-21",
+        "rawDate": "2013-09-10",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
     "websockets": {
