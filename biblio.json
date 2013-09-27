@@ -11814,6 +11814,38 @@
         "rawDate": "2010-10-12",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
+    "css-syntax-3": {
+        "authors": [
+            "Tab Atkins Jr.",
+            "Simon Sapin"
+        ],
+        "href": "http://www.w3.org/TR/css-syntax-3/",
+        "title": "CSS Syntax Module Level 3",
+        "rawDate": "2013-09-19",
+        "status": "WD",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "http://www.w3.org/Style/CSS/members"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20130919": {
+                "authors": [
+                    "Tab Atkins Jr.",
+                    "Simon Sapin"
+                ],
+                "href": "http://www.w3.org/TR/2013/WD-css-syntax-3-20130919/",
+                "title": "CSS Syntax Module Level 3",
+                "rawDate": "2013-09-19",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Style/CSS/members"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
     "css-text-decor-3": {
         "authors": [
             "Elika Etemad",
@@ -13077,10 +13109,12 @@
     },
     "css3-ruby": {
         "authors": [
+            "Elika Etemad",
+            "Koji Ishii",
             "Richard Ishida"
         ],
         "href": "http://www.w3.org/TR/css3-ruby/",
-        "title": "CSS3 Ruby Module",
+        "title": "CSS Ruby Module Level 1",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -13100,9 +13134,25 @@
                     "http://www.w3.org/Style/CSS/members"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20130919": {
+                "authors": [
+                    "Elika Etemad",
+                    "Koji Ishii",
+                    "Richard Ishida"
+                ],
+                "href": "http://www.w3.org/TR/2013/WD-css3-ruby-20130919/",
+                "title": "CSS Ruby Module Level 1",
+                "rawDate": "2013-09-19",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Style/CSS/members"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2011-06-30",
+        "rawDate": "2013-09-19",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
     "css3-selectors": {
@@ -14253,12 +14303,11 @@
     },
     "discovery-api": {
         "authors": [
-            "Rich Tibbett",
-            "Clarke Stevens"
+            "Rich Tibbett"
         ],
         "href": "http://www.w3.org/TR/discovery-api/",
         "title": "Network Service Discovery",
-        "rawDate": "2013-04-04",
+        "rawDate": "2013-09-24",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -14274,6 +14323,20 @@
                 "href": "http://www.w3.org/TR/2013/WD-discovery-api-20130404/",
                 "title": "Network Service Discovery",
                 "rawDate": "2013-04-04",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2009/dap/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20130924": {
+                "authors": [
+                    "Rich Tibbett"
+                ],
+                "href": "http://www.w3.org/TR/2013/WD-discovery-api-20130924/",
+                "title": "Network Service Discovery",
+                "rawDate": "2013-09-24",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -14652,6 +14715,38 @@
         },
         "rawDate": "2007-12-19",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+    },
+    "exi-c14n": {
+        "authors": [
+            "Sebastian Käbisch",
+            "Daniel Peintner"
+        ],
+        "href": "http://www.w3.org/TR/exi-c14n/",
+        "title": "Canonical EXI",
+        "rawDate": "2013-09-24",
+        "status": "WD",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "http://www.w3.org/XML/EXI/"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20130924": {
+                "authors": [
+                    "Sebastian Käbisch",
+                    "Daniel Peintner"
+                ],
+                "href": "http://www.w3.org/TR/2013/WD-exi-c14n-20130924/",
+                "title": "Canonical EXI",
+                "rawDate": "2013-09-24",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/XML/EXI/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
     },
     "exi-evaluation": {
         "authors": [
@@ -17031,8 +17126,8 @@
         ],
         "href": "http://www.w3.org/TR/its20/",
         "title": "Internationalization Tag Set (ITS) Version 2.0",
-        "rawDate": "2013-08-20",
-        "status": "LCWD",
+        "rawDate": "2013-09-24",
+        "status": "PR",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/International/multilingualweb/lt/"
@@ -17073,6 +17168,27 @@
                 "title": "Internationalization Tag Set (ITS) Version 2.0",
                 "rawDate": "2013-08-20",
                 "status": "LCWD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/International/multilingualweb/lt/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20130924": {
+                "authors": [
+                    "David Filip",
+                    "Shaun McCance",
+                    "David Lewis",
+                    "Christian Lieske",
+                    "Arle Lommel",
+                    "Jirka Kosek",
+                    "Felix Sasaki",
+                    "Yves Savourel"
+                ],
+                "href": "http://www.w3.org/TR/2013/PR-its20-20130924/",
+                "title": "Internationalization Tag Set (ITS) Version 2.0",
+                "rawDate": "2013-09-24",
+                "status": "PR",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/International/multilingualweb/lt/"
@@ -17733,6 +17849,40 @@
         },
         "rawDate": "2003-11-10",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+    },
+    "matrix": {
+        "authors": [
+            "Dirk Schulze",
+            "Rik Cabanier"
+        ],
+        "href": "http://www.w3.org/TR/matrix/",
+        "title": "DOMMatrix interface",
+        "rawDate": "2013-09-19",
+        "status": "WD",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "http://www.w3.org/Graphics/SVG/WG/",
+            "http://www.w3.org/Style/CSS/members"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20130919": {
+                "authors": [
+                    "Dirk Schulze",
+                    "Rik Cabanier"
+                ],
+                "href": "http://www.w3.org/TR/2013/WD-matrix-20130919/",
+                "title": "DOMMatrix interface",
+                "rawDate": "2013-09-19",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Graphics/SVG/WG/",
+                    "http://www.w3.org/Style/CSS/members"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
     },
     "media-accessibility-reqs": {
         "authors": [
@@ -26434,12 +26584,13 @@
     },
     "trig": {
         "authors": [
-            "Gavin Carothers"
+            "Gavin Carothers",
+            "Andy Seaborne"
         ],
         "href": "http://www.w3.org/TR/trig/",
         "title": "TriG",
-        "rawDate": "2013-04-09",
-        "status": "WD",
+        "rawDate": "2013-09-19",
+        "status": "LCWD",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2011/rdf-wg/"
@@ -26454,6 +26605,21 @@
                 "title": "TriG",
                 "rawDate": "2013-04-09",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2011/rdf-wg/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20130919": {
+                "authors": [
+                    "Gavin Carothers",
+                    "Andy Seaborne"
+                ],
+                "href": "http://www.w3.org/TR/2013/WD-trig-20130919/",
+                "title": "TriG",
+                "rawDate": "2013-09-19",
+                "status": "LCWD",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/2011/rdf-wg/"
@@ -26548,6 +26714,36 @@
         },
         "rawDate": "2006-04-27",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+    },
+    "ttml1": {
+        "authors": [
+            "Glenn Adams"
+        ],
+        "href": "http://www.w3.org/TR/ttml1/",
+        "title": "Timed Text Markup Language 1 (TTML1) (Second Edition)",
+        "rawDate": "2013-09-24",
+        "status": "REC",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "http://www.w3.org/AudioVideo/TT/"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20130924": {
+                "authors": [
+                    "Glenn Adams"
+                ],
+                "href": "http://www.w3.org/TR/2013/REC-ttml1-20130924/",
+                "title": "Timed Text Markup Language 1 (TTML1) (Second Edition)",
+                "rawDate": "2013-09-24",
+                "status": "REC",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/AudioVideo/TT/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
     },
     "ttml10-sdp-us": {
         "authors": [
@@ -26882,7 +27078,7 @@
         ],
         "href": "http://www.w3.org/TR/vcard-rdf/",
         "title": "vCard Ontology",
-        "rawDate": "2013-05-02",
+        "rawDate": "2013-09-24",
         "status": "WD",
         "publisher": "W3C",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
@@ -26898,8 +27094,26 @@
                 "status": "WD",
                 "publisher": "W3C",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20130924": {
+                "authors": [
+                    "Renato Iannella",
+                    "James McKinney"
+                ],
+                "href": "http://www.w3.org/TR/2013/WD-vcard-rdf-20130924/",
+                "title": "vCard Ontology",
+                "rawDate": "2013-09-24",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2001/sw/interest/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "deliveredBy": [
+            "http://www.w3.org/2001/sw/interest/"
+        ]
     },
     "vibration": {
         "authors": [
