@@ -2740,9 +2740,11 @@
                 "deliveredBy": [
                     "http://www.w3.org/2008/webapps/"
                 ],
-                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+                "status": "NOTE"
             }
-        }
+        },
+        "status": "NOTE"
     },
     "Davis": "<a href=\"http://www.usenix.org/publications/library/proceedings/usenix01/davis.html\"><cite>Defective Sign &amp; Encrypt in S/MIME, PKCS#7, MOSS, PEM, PGP, and XML.</cite></a> D. Davis. USENIX Annual Technical Conference. 2001. URL: <a href=\"http://www.usenix.org/publications/library/proceedings/usenix01/davis.html\">http://www.usenix.org/publications/library/proceedings/usenix01/davis.html</a>",
     "EARL10-Guide": {
@@ -8204,9 +8206,11 @@
                 "deliveredBy": [
                     "http://www.w3.org/2007/uwa/"
                 ],
-                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+                "status": "NOTE"
             }
-        }
+        },
+        "status": "NOTE"
     },
     "VBI-REQS": {
         "aliasOf": "vbi-reqs"
@@ -10353,12 +10357,13 @@
     },
     "ambient-light": {
         "authors": [
-            "Doug Turner"
+            "Doug Turner",
+            "Anssi Kostiainen"
         ],
         "href": "http://www.w3.org/TR/ambient-light/",
         "title": "Ambient Light Events",
-        "rawDate": "2012-12-13",
-        "status": "LCWD",
+        "rawDate": "2013-10-01",
+        "status": "CR",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2009/dap/"
@@ -10373,6 +10378,21 @@
                 "title": "Ambient Light Events",
                 "rawDate": "2012-12-13",
                 "status": "LCWD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2009/dap/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20131001": {
+                "authors": [
+                    "Doug Turner",
+                    "Anssi Kostiainen"
+                ],
+                "href": "http://www.w3.org/TR/2013/CR-ambient-light-20131001/",
+                "title": "Ambient Light Events",
+                "rawDate": "2013-10-01",
+                "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/2009/dap/"
@@ -10573,11 +10593,14 @@
     },
     "aria-in-html": {
         "authors": [
-            "Steve Faulkner"
+            "Steve Faulkner",
+            "Hans Hillen",
+            "Gez Lemon",
+            "David MacDonald"
         ],
         "href": "http://www.w3.org/TR/aria-in-html/",
         "title": "Using WAI-ARIA in HTML",
-        "rawDate": "2013-02-14",
+        "rawDate": "2013-10-03",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -10592,6 +10615,23 @@
                 "href": "http://www.w3.org/TR/2013/WD-aria-in-html-20130214/",
                 "title": "Using WAI-ARIA in HTML",
                 "rawDate": "2013-02-14",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/html/wg/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20131003": {
+                "authors": [
+                    "Steve Faulkner",
+                    "Hans Hillen",
+                    "Gez Lemon",
+                    "David MacDonald"
+                ],
+                "href": "http://www.w3.org/TR/2013/WD-aria-in-html-20131003/",
+                "title": "Using WAI-ARIA in HTML",
+                "rawDate": "2013-10-03",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -11117,15 +11157,15 @@
     },
     "compositing-1": {
         "authors": [
+            "Rik Cabanier",
             "Nikos Andronikos"
         ],
         "href": "http://www.w3.org/TR/compositing-1/",
         "title": "Compositing and Blending Level 1",
-        "rawDate": "2013-06-25",
-        "status": "WD",
+        "rawDate": "2013-10-10",
+        "status": "LCWD",
         "publisher": "W3C",
         "deliveredBy": [
-            "http://www.w3.org/Graphics/SVG/WG/",
             "http://www.w3.org/Style/CSS/members"
         ],
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
@@ -11141,6 +11181,21 @@
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/Graphics/SVG/WG/",
+                    "http://www.w3.org/Style/CSS/members"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20131010": {
+                "authors": [
+                    "Rik Cabanier",
+                    "Nikos Andronikos"
+                ],
+                "href": "http://www.w3.org/TR/2013/WD-compositing-1-20131010/",
+                "title": "Compositing and Blending Level 1",
+                "rawDate": "2013-10-10",
+                "status": "LCWD",
+                "publisher": "W3C",
+                "deliveredBy": [
                     "http://www.w3.org/Style/CSS/members"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
@@ -11320,7 +11375,7 @@
         ],
         "href": "http://www.w3.org/TR/cselection/",
         "title": "Content Selection for Device Independence (DISelect) 1.0",
-        "status": "CR",
+        "status": "NOTE",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2007/uwa/"
@@ -11340,7 +11395,8 @@
                 "deliveredBy": [
                     "http://www.w3.org/2007/uwa/"
                 ],
-                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+                "status": "NOTE"
             }
         },
         "rawDate": "2010-06-29",
@@ -11354,7 +11410,7 @@
         ],
         "href": "http://www.w3.org/TR/cselection-primer/",
         "title": "Content Selection Primer 1.0",
-        "status": "WD",
+        "status": "NOTE",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2007/uwa/"
@@ -11373,7 +11429,8 @@
                 "deliveredBy": [
                     "http://www.w3.org/2007/uwa/"
                 ],
-                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+                "status": "NOTE"
             }
         },
         "rawDate": "2010-06-29",
@@ -11387,7 +11444,7 @@
         ],
         "href": "http://www.w3.org/TR/cselection-xaf/",
         "title": "Delivery Context: XPath Access Functions 1.0",
-        "status": "CR",
+        "status": "NOTE",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2007/uwa/"
@@ -11406,7 +11463,8 @@
                 "deliveredBy": [
                     "http://www.w3.org/2007/uwa/"
                 ],
-                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+                "status": "NOTE"
             }
         },
         "rawDate": "2010-06-29",
@@ -11481,8 +11539,8 @@
         ],
         "href": "http://www.w3.org/TR/css-cascade-3/",
         "title": "CSS Cascading and Inheritance Level 3",
-        "rawDate": "2013-07-30",
-        "status": "LCWD",
+        "rawDate": "2013-10-03",
+        "status": "CR",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/Style/CSS/members"
@@ -11499,6 +11557,22 @@
                 "title": "CSS Cascading and Inheritance Level 3",
                 "rawDate": "2013-07-30",
                 "status": "LCWD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Style/CSS/members"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20131003": {
+                "authors": [
+                    "Håkon Wium Lie",
+                    "Elika Etemad",
+                    "Tab Atkins Jr."
+                ],
+                "href": "http://www.w3.org/TR/2013/CR-css-cascade-3-20131003/",
+                "title": "CSS Cascading and Inheritance Level 3",
+                "rawDate": "2013-10-03",
+                "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/Style/CSS/members"
@@ -11587,8 +11661,8 @@
         ],
         "href": "http://www.w3.org/TR/css-fonts-3/",
         "title": "CSS Fonts Module Level 3",
-        "rawDate": "2013-07-11",
-        "status": "LCWD",
+        "rawDate": "2013-10-03",
+        "status": "CR",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/Style/CSS/members"
@@ -11603,6 +11677,20 @@
                 "title": "CSS Fonts Module Level 3",
                 "rawDate": "2013-07-11",
                 "status": "LCWD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Style/CSS/members"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20131003": {
+                "authors": [
+                    "John Daggett"
+                ],
+                "href": "http://www.w3.org/TR/2013/CR-css-fonts-3-20131003/",
+                "title": "CSS Fonts Module Level 3",
+                "rawDate": "2013-10-03",
+                "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/Style/CSS/members"
@@ -11789,7 +11877,7 @@
         ],
         "href": "http://www.w3.org/TR/css-style-attr",
         "title": "CSS Style Attributes",
-        "status": "CR",
+        "status": "PR",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/Style/CSS/members"
@@ -11809,9 +11897,24 @@
                     "http://www.w3.org/Style/CSS/members"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20131003": {
+                "authors": [
+                    "Tantek Çelik",
+                    "Elika Etemad"
+                ],
+                "href": "http://www.w3.org/TR/2013/PR-css-style-attr-20131003/",
+                "title": "CSS Style Attributes",
+                "rawDate": "2013-10-03",
+                "status": "PR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Style/CSS/members"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2010-10-12",
+        "rawDate": "2013-10-03",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
     "css-syntax-3": {
@@ -11838,6 +11941,38 @@
                 "title": "CSS Syntax Module Level 3",
                 "rawDate": "2013-09-19",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Style/CSS/members"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
+    "css-text-3": {
+        "authors": [
+            "Elika Etemad",
+            "Koji Ishii"
+        ],
+        "href": "http://www.w3.org/TR/css-text-3/",
+        "title": "CSS Text Module Level 3",
+        "rawDate": "2013-10-10",
+        "status": "LCWD",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "http://www.w3.org/Style/CSS/members"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20131010": {
+                "authors": [
+                    "Elika Etemad",
+                    "Koji Ishii"
+                ],
+                "href": "http://www.w3.org/TR/2013/WD-css-text-3-20131010/",
+                "title": "CSS Text Module Level 3",
+                "rawDate": "2013-10-10",
+                "status": "LCWD",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/Style/CSS/members"
@@ -14245,7 +14380,7 @@
         ],
         "href": "http://www.w3.org/TR/dial/",
         "title": "Device Independent Authoring Language (DIAL)",
-        "status": "WD",
+        "status": "NOTE",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2007/uwa/"
@@ -14263,7 +14398,8 @@
                 "deliveredBy": [
                     "http://www.w3.org/2007/uwa/"
                 ],
-                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+                "status": "NOTE"
             }
         },
         "rawDate": "2010-06-29",
@@ -14276,7 +14412,7 @@
         ],
         "href": "http://www.w3.org/TR/dial-primer/",
         "title": "DIAL Part 0: Primer",
-        "status": "WD",
+        "status": "NOTE",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2007/uwa/"
@@ -14294,7 +14430,8 @@
                 "deliveredBy": [
                     "http://www.w3.org/2007/uwa/"
                 ],
-                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+                "status": "NOTE"
             }
         },
         "rawDate": "2010-06-29",
@@ -15779,7 +15916,7 @@
         ],
         "href": "http://www.w3.org/TR/html-aapi/",
         "title": "HTML to Platform Accessibility APIs Implementation Guide",
-        "rawDate": "2013-09-10",
+        "rawDate": "2013-10-01",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -15813,6 +15950,23 @@
                 "href": "http://www.w3.org/TR/2013/WD-html-aapi-20130910/",
                 "title": "HTML to Platform Accessibility APIs Implementation Guide",
                 "rawDate": "2013-09-10",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/html/wg/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20131001": {
+                "authors": [
+                    "Steve Faulkner",
+                    "Cynthia Shelly",
+                    "Jason Kiss",
+                    "Alexander Surkov"
+                ],
+                "href": "http://www.w3.org/TR/2013/WD-html-aapi-20131001/",
+                "title": "HTML to Platform Accessibility APIs Implementation Guide",
+                "rawDate": "2013-10-01",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -18260,7 +18414,7 @@
         ],
         "href": "http://www.w3.org/TR/mediaont-api-1.0/",
         "title": "API for Media Resources 1.0",
-        "status": "LCWD",
+        "status": "PR",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2008/WebVideo/Annotations/"
@@ -18283,9 +18437,27 @@
                     "http://www.w3.org/2008/WebVideo/Annotations/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20131015": {
+                "authors": [
+                    "Florian Stegmaier",
+                    "Werner Bailer",
+                    "Martin Höffernig",
+                    "WonSuk Lee",
+                    "Chris Poppe"
+                ],
+                "href": "http://www.w3.org/TR/2013/PR-mediaont-api-1.0-20131015/",
+                "title": "API for Media Resources 1.0",
+                "rawDate": "2013-10-15",
+                "status": "PR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2008/WebVideo/Annotations/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2013-04-11",
+        "rawDate": "2013-10-15",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
     "mediastream-recording": {
@@ -21542,8 +21714,8 @@
         ],
         "href": "http://www.w3.org/TR/proximity/",
         "title": "Proximity Events",
-        "rawDate": "2012-12-06",
-        "status": "LCWD",
+        "rawDate": "2013-10-01",
+        "status": "CR",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2009/dap/"
@@ -21559,6 +21731,21 @@
                 "title": "Proximity Events",
                 "rawDate": "2012-12-06",
                 "status": "LCWD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2009/dap/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20131001": {
+                "authors": [
+                    "Anssi Kostiainen",
+                    "Dzung Tran"
+                ],
+                "href": "http://www.w3.org/TR/2013/CR-proximity-20131001/",
+                "title": "Proximity Events",
+                "rawDate": "2013-10-01",
+                "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/2009/dap/"
@@ -23731,8 +23918,8 @@
         ],
         "href": "http://www.w3.org/TR/ruby-use-cases/",
         "title": "Use Cases & Exploratory Approaches for Ruby Markup",
-        "rawDate": "2013-09-10",
-        "status": "LCWD",
+        "rawDate": "2013-10-08",
+        "status": "NOTE",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/International/core/"
@@ -23761,6 +23948,20 @@
                 "title": "Use Cases & Exploratory Approaches for Ruby Markup",
                 "rawDate": "2013-09-10",
                 "status": "LCWD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/International/core/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20131008": {
+                "authors": [
+                    "Richard Ishida"
+                ],
+                "href": "http://www.w3.org/TR/2013/NOTE-ruby-use-cases-20131008/",
+                "title": "Use Cases & Exploratory Approaches for Ruby Markup",
+                "rawDate": "2013-10-08",
+                "status": "NOTE",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/International/core/"
@@ -26454,8 +26655,8 @@
             "Arthur Barstow"
         ],
         "href": "http://www.w3.org/TR/touch-events/",
-        "title": "Touch Events version 1",
-        "status": "PR",
+        "title": "Touch Events",
+        "status": "REC",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2010/webevents/"
@@ -26477,9 +26678,26 @@
                     "http://www.w3.org/2010/webevents/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20131010": {
+                "authors": [
+                    "Doug Schepers",
+                    "Sangwhan Moon",
+                    "Matt Brubeck",
+                    "Arthur Barstow"
+                ],
+                "href": "http://www.w3.org/TR/2013/REC-touch-events-20131010/",
+                "title": "Touch Events",
+                "rawDate": "2013-10-10",
+                "status": "REC",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2010/webevents/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2013-05-09",
+        "rawDate": "2013-10-10",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
     "tracking-compliance": {
@@ -28004,6 +28222,38 @@
         "rawDate": "2011-01-18",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
+    "wai-aria-1.1": {
+        "authors": [
+            "James Craig",
+            "Michael Cooper"
+        ],
+        "href": "http://www.w3.org/TR/wai-aria-1.1/",
+        "title": "Accessible Rich Internet Applications (WAI-ARIA) 1.1",
+        "rawDate": "2013-09-26",
+        "status": "WD",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "http://www.w3.org/WAI/PF/"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20130926": {
+                "authors": [
+                    "James Craig",
+                    "Michael Cooper"
+                ],
+                "href": "http://www.w3.org/TR/2013/WD-wai-aria-1.1-20130926/",
+                "title": "Accessible Rich Internet Applications (WAI-ARIA) 1.1",
+                "rawDate": "2013-09-26",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/WAI/PF/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
     "wai-aria-implementation": {
         "authors": [
             "Andi Snow-Weaver",
@@ -28464,7 +28714,7 @@
         ],
         "href": "http://www.w3.org/TR/webaudio/",
         "title": "Web Audio API",
-        "rawDate": "2012-12-13",
+        "rawDate": "2013-10-10",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -28479,6 +28729,20 @@
                 "href": "http://www.w3.org/TR/2012/WD-webaudio-20121213/",
                 "title": "Web Audio API",
                 "rawDate": "2012-12-13",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2011/audio/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20131010": {
+                "authors": [
+                    "Chris Rogers"
+                ],
+                "href": "http://www.w3.org/TR/2013/WD-webaudio-20131010/",
+                "title": "Web Audio API",
+                "rawDate": "2013-10-10",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -28684,7 +28948,7 @@
         ],
         "href": "http://www.w3.org/TR/webdatabase/",
         "title": "Web SQL Database",
-        "status": "WG-NOTE",
+        "status": "NOTE",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2008/webapps/"
@@ -28702,7 +28966,8 @@
                 "deliveredBy": [
                     "http://www.w3.org/2008/webapps/"
                 ],
-                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+                "status": "NOTE"
             }
         },
         "rawDate": "2010-11-18",
@@ -30289,7 +30554,7 @@
         "etAl": true,
         "href": "http://www.w3.org/TR/ws-resource-transfer",
         "title": "Web Services Resource Transfer (WS-RT)",
-        "status": "WD",
+        "status": "NOTE",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2002/ws/ra/"
@@ -30310,7 +30575,8 @@
                 "deliveredBy": [
                     "http://www.w3.org/2002/ws/ra/"
                 ],
-                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+                "status": "NOTE"
             }
         },
         "rawDate": "2010-07-13",
@@ -32249,8 +32515,8 @@
         ],
         "href": "http://www.w3.org/TR/xinclude-11/",
         "title": "XML Inclusions (XInclude) Version 1.1",
-        "rawDate": "2013-01-15",
-        "status": "LCWD",
+        "rawDate": "2013-10-08",
+        "status": "CR",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/XML/Core/"
@@ -32268,6 +32534,23 @@
                 "title": "XML Inclusions (XInclude) Version 1.1",
                 "rawDate": "2013-01-15",
                 "status": "LCWD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/XML/Core/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20131008": {
+                "authors": [
+                    "Jonathan Marsh",
+                    "David Orchard",
+                    "Daniel Veillard",
+                    "Norman Walsh"
+                ],
+                "href": "http://www.w3.org/TR/2013/CR-xinclude-11-20131008/",
+                "title": "XML Inclusions (XInclude) Version 1.1",
+                "rawDate": "2013-10-08",
+                "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/XML/Core/"
@@ -37096,8 +37379,8 @@
         ],
         "href": "http://www.w3.org/TR/xqueryx-30/",
         "title": "XQueryX 3.0",
-        "rawDate": "2013-01-08",
-        "status": "CR",
+        "rawDate": "2013-10-01",
+        "status": "LCWD",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/XML/Query/"
@@ -37112,6 +37395,20 @@
                 "title": "XQueryX 3.0",
                 "rawDate": "2013-01-08",
                 "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/XML/Query/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20131001": {
+                "authors": [
+                    "Jim Melton"
+                ],
+                "href": "http://www.w3.org/TR/2013/WD-xqueryx-30-20131001/",
+                "title": "XQueryX 3.0",
+                "rawDate": "2013-10-01",
+                "status": "LCWD",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/XML/Query/"
