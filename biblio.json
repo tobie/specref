@@ -4,7 +4,8 @@
             "Rik Cabanier",
             "Eliot Graff",
             "Jay Munro",
-            "Tom Wiltzius"
+            "Tom Wiltzius",
+            "Ian Hickson"
         ],
         "href": "http://www.w3.org/TR/2dcontext/",
         "title": "HTML Canvas 2D Context",
@@ -33,7 +34,8 @@
                     "Rik Cabanier",
                     "Eliot Graff",
                     "Jay Munro",
-                    "Tom Wiltzius"
+                    "Tom Wiltzius",
+                    "Ian Hickson"
                 ],
                 "href": "http://www.w3.org/TR/2013/CR-2dcontext-20130806/",
                 "title": "HTML Canvas 2D Context",
@@ -8136,14 +8138,14 @@
     },
     "UNICODE310": "The Unicode Consortium. <a href=\"http://www.unicode.org/unicode/standard/versions/enumeratedversions.html#Unicode_3_1_0\"><cite>The Unicode Standard: Version 3.1.0.</cite></a> Addison Wesley Longman. 2000. ISBN 0-201-61633-5. For more information, consult the Unicode Consortium's home page at &lt;a href=&quot;http://www.unicode.org/&quot;&gt;http://www.unicode.org/&lt;/a&gt; URL: <a href=\"http://www.unicode.org/unicode/standard/versions/enumeratedversions.html#Unicode_3_1_0\">http://www.unicode.org/unicode/standard/versions/enumeratedversions.html#Unicode_3_1_0</a> ",
     "UNICODE32": {
-         "authors": [
-             "The Unicode Consortium"
-         ],
-         "href": "http://www.unicode.org/versions/Unicode3.2.0/",
-         "title": "The Unicode Standard, Version 3.2.0",
-         "publisher": "Unicode Consortium",
-         "date": "27 March 2002"
-     },
+        "authors": [
+            "The Unicode Consortium"
+        ],
+        "href": "http://www.unicode.org/versions/Unicode3.2.0/",
+        "title": "The Unicode Standard, Version 3.2.0",
+        "publisher": "Unicode Consortium",
+        "date": "27 March 2002"
+    },
     "UNICODE4": "The Unicode Consortium. <a href=\"http://www.unicode.org/versions/Unicode4.1.0/\"><cite>The Unicode Standard, Version 4.1.0.</cite></a> Defined by: The Unicode Standard, Version 4.0 (Boston, MA, Addison-Wesley, 2003. ISBN 0-321-18578-1), as amended by Unicode 4.0.1 (http://www.unicode.org/versions/Unicode4.0.1) and by Unicode 4.1.0 (http://www.unicode.org/versions/Unicode4.1.0) URL: <a href=\"http://www.unicode.org/versions/Unicode4.1.0/\">http://www.unicode.org/versions/Unicode4.1.0/</a> ",
     "UNICODE5": "The Unicode Consortium. <a href=\"http://www.unicode.org/versions/Unicode5.1.0/\"><cite>The Unicode Standard, Version 5.1.0.</cite></a> Addison-Wesley. 2007. ISBN 0-321-48091-0. URL: <a href=\"http://www.unicode.org/versions/Unicode5.1.0/\">http://www.unicode.org/versions/Unicode5.1.0/</a> ",
     "UPNP-AVARCH2": "John Ritchie, Thomas Kuehnel, Wouter van der Beek, Jeffrey Kang. <a href=\"http://www.upnp.org/specs/av/UPnP-av-AVArchitecture-v2-20101231.pdf\"><cite>UPnP AV Architecture:2</cite></a>. 31 December 2010. UPnP Forum. Standardized DCP. For UPnP Version 1.0. PDF document. URL: <a href=\"http://www.upnp.org/specs/av/UPnP-av-AVArchitecture-v2-20101231.pdf\">http://www.upnp.org/specs/av/UPnP-av-AVArchitecture-v2-20101231.pdf</a>",
@@ -8198,6 +8200,15 @@
     "URN-OID": "M. Mealling. <a href=\"http://www.ietf.org/rfc/rfc3061.txt\"><cite>A URN Namespace of Object Identifiers. </cite></a>. IETF RFC 3061. February 2001. URL: <a href=\"http://www.ietf.org/rfc/rfc3061.txt\">http://www.ietf.org/rfc/rfc3061.txt</a>",
     "UTF-16": "P. Hoffman , F. Yergeau. <a href=\"http://www.ietf.org/rfc/rfc2781.txt\"><cite>UTF-16, an encoding of ISO 10646.</cite></a> IETF RFC 2781. February 2000.   URL: <a href=\"http://www.ietf.org/rfc/rfc2781.txt\">http://www.ietf.org/rfc/rfc2781.txt</a>",
     "UTF-8": "F. Yergeau. <a href=\"http://www.ietf.org/rfc/rfc3629.txt\"><cite>UTF-8, a transformation format of ISO 10646</cite></a>. IETF RFC 3629. November 2003. URL: <a href=\"http://www.ietf.org/rfc/rfc3629.txt\">http://www.ietf.org/rfc/rfc3629.txt</a>",
+    "UTR24": {
+        "authors": [
+            "Mark Davis"
+        ],
+        "href": "http://www.unicode.org/unicode/reports/tr24/tr24-3.html",
+        "title": "Script Names",
+        "date": "27 September 2001",
+        "status": "Unicode Technical Report #24"
+    },
     "UTS22": {
         "authors": [
             "Mark Davis",
@@ -8207,15 +8218,6 @@
         "title": "Unicode Character Mapping Markup Language (CharmapML)",
         "date": "09 September 2009",
         "status": "Unicode Technical Standard #22"
-    },
-    "UTR24": {
-        "authors": [
-            "Mark Davis"
-        ],
-        "href": "http://www.unicode.org/unicode/reports/tr24/tr24-3.html",
-        "title": "Script Names",
-        "date": "27 September 2001",
-        "status": "Unicode Technical Report #24"
     },
     "UWA-personalization-roadmap": {
         "authors": [
@@ -12163,6 +12165,38 @@
             }
         }
     },
+    "css-writing-modes-3": {
+        "authors": [
+            "Elika Etemad",
+            "Koji Ishii"
+        ],
+        "href": "http://www.w3.org/TR/css-writing-modes-3/",
+        "title": "CSS Writing Modes Level 3",
+        "rawDate": "2013-10-24",
+        "status": "WD",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "http://www.w3.org/Style/CSS/members"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20131024": {
+                "authors": [
+                    "Elika Etemad",
+                    "Koji Ishii"
+                ],
+                "href": "http://www.w3.org/TR/2013/WD-css-writing-modes-3-20131024/",
+                "title": "CSS Writing Modes Level 3",
+                "rawDate": "2013-10-24",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Style/CSS/members"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
     "css3-2d-transforms": {
         "authors": [
             "Simon Fraser",
@@ -13928,8 +13962,8 @@
         ],
         "href": "http://www.w3.org/TR/custom-elements/",
         "title": "Custom Elements",
-        "rawDate": "2013-05-14",
-        "status": "WD",
+        "rawDate": "2013-10-24",
+        "status": "LCWD",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2008/webapps/"
@@ -13944,6 +13978,20 @@
                 "title": "Custom Elements",
                 "rawDate": "2013-05-14",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2008/webapps/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20131024": {
+                "authors": [
+                    "Dimitri Glazkov"
+                ],
+                "href": "http://www.w3.org/TR/2013/WD-custom-elements-20131024/",
+                "title": "Custom Elements",
+                "rawDate": "2013-10-24",
+                "status": "LCWD",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/2008/webapps/"
@@ -14770,7 +14818,7 @@
         ],
         "href": "http://www.w3.org/TR/encrypted-media/",
         "title": "Encrypted Media Extensions",
-        "rawDate": "2013-05-10",
+        "rawDate": "2013-10-22",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -14787,6 +14835,22 @@
                 "href": "http://www.w3.org/TR/2013/WD-encrypted-media-20130510/",
                 "title": "Encrypted Media Extensions",
                 "rawDate": "2013-05-10",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/html/wg/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20131022": {
+                "authors": [
+                    "David Dorwin",
+                    "Adrian Bateman",
+                    "Mark Watson"
+                ],
+                "href": "http://www.w3.org/TR/2013/WD-encrypted-media-20131022/",
+                "title": "Encrypted Media Extensions",
+                "rawDate": "2013-10-22",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -14829,11 +14893,13 @@
     "exi": {
         "authors": [
             "John Schneider",
-            "Takuki Kamiya"
+            "Takuki Kamiya",
+            "Daniel Peintner",
+            "Rumen Kyusakov"
         ],
         "href": "http://www.w3.org/TR/exi/",
-        "title": "Efficient XML Interchange (EXI) Format 1.0",
-        "status": "REC",
+        "title": "Efficient XML Interchange (EXI) Format 1.0 (Second Edition)",
+        "status": "PER",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/XML/EXI/"
@@ -14855,9 +14921,26 @@
                 ],
                 "hasErrata": "http://www.w3.org/XML/EXI/exi-10-errata",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20131022": {
+                "authors": [
+                    "John Schneider",
+                    "Takuki Kamiya",
+                    "Daniel Peintner",
+                    "Rumen Kyusakov"
+                ],
+                "href": "http://www.w3.org/TR/2013/PER-exi-20131022/",
+                "title": "Efficient XML Interchange (EXI) Format 1.0 (Second Edition)",
+                "rawDate": "2013-10-22",
+                "status": "PER",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/XML/EXI/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2011-03-10",
+        "rawDate": "2013-10-22",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
     "exi-best-practices": {
@@ -15406,7 +15489,7 @@
         ],
         "href": "http://www.w3.org/TR/geolocation-API/",
         "title": "Geolocation API Specification",
-        "status": "PR",
+        "status": "REC",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2008/geolocation/"
@@ -15425,9 +15508,23 @@
                     "http://www.w3.org/2008/geolocation/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20131024": {
+                "authors": [
+                    "Andrei Popescu"
+                ],
+                "href": "http://www.w3.org/TR/2013/REC-geolocation-API-20131024/",
+                "title": "Geolocation API Specification",
+                "rawDate": "2013-10-24",
+                "status": "REC",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2008/geolocation/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2012-05-10",
+        "rawDate": "2013-10-24",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
     "geolocation-API-v2": {
@@ -16392,11 +16489,12 @@
     },
     "html-polyglot": {
         "authors": [
-            "Eliot Graff"
+            "Eliot Graff",
+            "Leif Halvard Silli"
         ],
         "href": "http://www.w3.org/TR/html-polyglot/",
-        "title": "Polyglot Markup: HTML-Compatible XHTML Documents",
-        "rawDate": "2012-10-25",
+        "title": "Polyglot Markup: A robust profile of the HTML5 vocabulary",
+        "rawDate": "2013-10-22",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -16411,6 +16509,21 @@
                 "href": "http://www.w3.org/TR/2012/WD-html-polyglot-20121025/",
                 "title": "Polyglot Markup: HTML-Compatible XHTML Documents",
                 "rawDate": "2012-10-25",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/html/wg/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20131022": {
+                "authors": [
+                    "Eliot Graff",
+                    "Leif Halvard Silli"
+                ],
+                "href": "http://www.w3.org/TR/2013/WD-html-polyglot-20131022/",
+                "title": "Polyglot Markup: A robust profile of the HTML5 vocabulary",
+                "rawDate": "2013-10-22",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -16470,6 +16583,36 @@
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/2010/02/rdfa/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
+    "html-ruby-extensions": {
+        "authors": [
+            "Robin Berjon"
+        ],
+        "href": "http://www.w3.org/TR/html-ruby-extensions/",
+        "title": "W3C HTML Ruby Markup Extensions",
+        "rawDate": "2013-10-22",
+        "status": "WD",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "http://www.w3.org/html/wg/"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20131022": {
+                "authors": [
+                    "Robin Berjon"
+                ],
+                "href": "http://www.w3.org/TR/2013/WD-html-ruby-extensions-20131022/",
+                "title": "W3C HTML Ruby Markup Extensions",
+                "rawDate": "2013-10-22",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/html/wg/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
@@ -24319,8 +24462,8 @@
         ],
         "href": "http://www.w3.org/TR/selectors-api2/",
         "title": "Selectors API Level 2",
-        "rawDate": "2012-06-28",
-        "status": "WD",
+        "rawDate": "2013-10-17",
+        "status": "NOTE",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2008/webapps/"
@@ -24335,6 +24478,20 @@
                 "title": "Selectors API Level 2",
                 "rawDate": "2012-06-28",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2008/webapps/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20131017": {
+                "authors": [
+                    "Lachlan Hunt"
+                ],
+                "href": "http://www.w3.org/TR/2013/NOTE-selectors-api2-20131017/",
+                "title": "Selectors API Level 2",
+                "rawDate": "2013-10-17",
+                "status": "NOTE",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/2008/webapps/"
@@ -35830,8 +35987,8 @@
         ],
         "href": "http://www.w3.org/TR/xpath-30/",
         "title": "XML Path Language (XPath) 3.0",
-        "rawDate": "2013-01-08",
-        "status": "CR",
+        "rawDate": "2013-10-22",
+        "status": "PR",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/XML/Query/",
@@ -35850,6 +36007,24 @@
                 "title": "XML Path Language (XPath) 3.0",
                 "rawDate": "2013-01-08",
                 "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/XML/Query/",
+                    "http://www.w3.org/Style/XSL/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20131022": {
+                "authors": [
+                    "Jonathan Robie",
+                    "Don Chamberlin",
+                    "Michael Dyck",
+                    "John Snelson"
+                ],
+                "href": "http://www.w3.org/TR/2013/PR-xpath-30-20131022/",
+                "title": "XML Path Language (XPath) 3.0",
+                "rawDate": "2013-10-22",
+                "status": "PR",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/XML/Query/",
@@ -35932,8 +36107,8 @@
         ],
         "href": "http://www.w3.org/TR/xpath-datamodel-30/",
         "title": "XQuery and XPath Data Model 3.0",
-        "rawDate": "2013-01-08",
-        "status": "CR",
+        "rawDate": "2013-10-22",
+        "status": "PR",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/XML/Query/",
@@ -35951,6 +36126,23 @@
                 "title": "XQuery and XPath Data Model 3.0",
                 "rawDate": "2013-01-08",
                 "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/XML/Query/",
+                    "http://www.w3.org/Style/XSL/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20131022": {
+                "authors": [
+                    "Norman Walsh",
+                    "Anders Berglund",
+                    "John Snelson"
+                ],
+                "href": "http://www.w3.org/TR/2013/PR-xpath-datamodel-30-20131022/",
+                "title": "XQuery and XPath Data Model 3.0",
+                "rawDate": "2013-10-22",
+                "status": "PR",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/XML/Query/",
@@ -36211,8 +36403,8 @@
         ],
         "href": "http://www.w3.org/TR/xpath-functions-30/",
         "title": "XPath and XQuery Functions and Operators 3.0",
-        "rawDate": "2013-05-21",
-        "status": "CR",
+        "rawDate": "2013-10-22",
+        "status": "PR",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/XML/Query/",
@@ -36228,6 +36420,21 @@
                 "title": "XPath and XQuery Functions and Operators 3.0",
                 "rawDate": "2013-05-21",
                 "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/XML/Query/",
+                    "http://www.w3.org/Style/XSL/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20131022": {
+                "authors": [
+                    "Michael Kay"
+                ],
+                "href": "http://www.w3.org/TR/2013/PR-xpath-functions-30-20131022/",
+                "title": "XPath and XQuery Functions and Operators 3.0",
+                "rawDate": "2013-10-22",
+                "status": "PR",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/XML/Query/",
@@ -36784,7 +36991,7 @@
         ],
         "href": "http://www.w3.org/TR/xquery-30/",
         "title": "XQuery 3.0: An XML Query Language",
-        "status": "LCWD",
+        "status": "PR",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/XML/Query/"
@@ -36823,9 +37030,26 @@
                     "http://www.w3.org/XML/Query/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20131022": {
+                "authors": [
+                    "Jonathan Robie",
+                    "Don Chamberlin",
+                    "Michael Dyck",
+                    "John Snelson"
+                ],
+                "href": "http://www.w3.org/TR/2013/PR-xquery-30-20131022/",
+                "title": "XQuery 3.0: An XML Query Language",
+                "rawDate": "2013-10-22",
+                "status": "PR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/XML/Query/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2013-07-23",
+        "rawDate": "2013-10-22",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
     "xquery-30-requirements": {
@@ -37872,12 +38096,14 @@
     },
     "xslt-xquery-serialization-30": {
         "authors": [
-            "Henry Zongaro"
+            "Henry Zongaro",
+            "Andrew Coleman",
+            "Michael Sperberg-McQueen"
         ],
         "href": "http://www.w3.org/TR/xslt-xquery-serialization-30/",
         "title": "XSLT and XQuery Serialization 3.0",
-        "rawDate": "2013-03-28",
-        "status": "CR",
+        "rawDate": "2013-10-22",
+        "status": "PR",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/XML/Query/",
@@ -37893,6 +38119,23 @@
                 "title": "XSLT and XQuery Serialization 3.0",
                 "rawDate": "2013-03-28",
                 "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/XML/Query/",
+                    "http://www.w3.org/Style/XSL/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20131022": {
+                "authors": [
+                    "Henry Zongaro",
+                    "Andrew Coleman",
+                    "Michael Sperberg-McQueen"
+                ],
+                "href": "http://www.w3.org/TR/2013/PR-xslt-xquery-serialization-30-20131022/",
+                "title": "XSLT and XQuery Serialization 3.0",
+                "rawDate": "2013-10-22",
+                "status": "PR",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/XML/Query/",
