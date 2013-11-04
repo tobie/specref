@@ -56,15 +56,15 @@
     },
     "2dcontext2": {
         "authors": [
-            "Ian Hickson",
             "Rik Cabanier",
             "Eliot Graff",
             "Jay Munro",
-            "Tom Wiltzius"
+            "Tom Wiltzius",
+            "Ian Hickson"
         ],
         "href": "http://www.w3.org/TR/2dcontext2/",
         "title": "HTML Canvas 2D Context, Level 2",
-        "rawDate": "2013-05-28",
+        "rawDate": "2013-10-29",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -97,6 +97,24 @@
                 "href": "http://www.w3.org/TR/2013/WD-2dcontext2-20130528/",
                 "title": "HTML Canvas 2D Context, Level 2",
                 "rawDate": "2013-05-28",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/html/wg/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20131029": {
+                "authors": [
+                    "Rik Cabanier",
+                    "Eliot Graff",
+                    "Jay Munro",
+                    "Tom Wiltzius",
+                    "Ian Hickson"
+                ],
+                "href": "http://www.w3.org/TR/2013/WD-2dcontext2-20131029/",
+                "title": "HTML Canvas 2D Context, Level 2",
+                "rawDate": "2013-10-29",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -10460,7 +10478,7 @@
         ],
         "href": "http://www.w3.org/TR/animation-timing/",
         "title": "Timing control for script-based animations",
-        "status": "LCWD",
+        "status": "CR",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2010/webperf/"
@@ -10480,9 +10498,24 @@
                     "http://www.w3.org/2010/webperf/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20131031": {
+                "authors": [
+                    "James Robinson",
+                    "Cameron McCormack"
+                ],
+                "href": "http://www.w3.org/TR/2013/CR-animation-timing-20131031/",
+                "title": "Timing control for script-based animations",
+                "rawDate": "2013-10-31",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2010/webperf/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2012-02-21",
+        "rawDate": "2013-10-31",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
     "api-design": {
@@ -10793,6 +10826,38 @@
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/2009/dap/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
+    "beacon": {
+        "authors": [
+            "Jatinder Mann",
+            "Alois Reitbauer"
+        ],
+        "href": "http://www.w3.org/TR/beacon/",
+        "title": "Beacon",
+        "rawDate": "2013-10-29",
+        "status": "WD",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "http://www.w3.org/2010/webperf/"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20131029": {
+                "authors": [
+                    "Jatinder Mann",
+                    "Alois Reitbauer"
+                ],
+                "href": "http://www.w3.org/TR/2013/WD-beacon-20131029/",
+                "title": "Beacon",
+                "rawDate": "2013-10-29",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2010/webperf/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
@@ -11209,8 +11274,8 @@
     },
     "compositing-1": {
         "authors": [
-            "Rik Cabanier",
-            "Nikos Andronikos"
+            "Nikos Andronikos",
+            "Rik Cabanier"
         ],
         "href": "http://www.w3.org/TR/compositing-1/",
         "title": "Compositing and Blending Level 1",
@@ -11218,6 +11283,7 @@
         "status": "LCWD",
         "publisher": "W3C",
         "deliveredBy": [
+            "http://www.w3.org/Graphics/SVG/WG/",
             "http://www.w3.org/Style/CSS/members"
         ],
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
@@ -11239,8 +11305,8 @@
             },
             "20131010": {
                 "authors": [
-                    "Rik Cabanier",
-                    "Nikos Andronikos"
+                    "Nikos Andronikos",
+                    "Rik Cabanier"
                 ],
                 "href": "http://www.w3.org/TR/2013/WD-compositing-1-20131010/",
                 "title": "Compositing and Blending Level 1",
@@ -11248,6 +11314,7 @@
                 "status": "LCWD",
                 "publisher": "W3C",
                 "deliveredBy": [
+                    "http://www.w3.org/Graphics/SVG/WG/",
                     "http://www.w3.org/Style/CSS/members"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
@@ -11795,6 +11862,42 @@
         },
         "rawDate": "2013-06-20",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+    },
+    "css-masking-1": {
+        "authors": [
+            "Dirk Schulze",
+            "Brian Birtles",
+            "Tab Atkins Jr."
+        ],
+        "href": "http://www.w3.org/TR/css-masking-1/",
+        "title": "CSS Masking Module Level 1",
+        "rawDate": "2013-10-29",
+        "status": "LCWD",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "http://www.w3.org/Graphics/SVG/WG/",
+            "http://www.w3.org/Style/CSS/members"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20131029": {
+                "authors": [
+                    "Dirk Schulze",
+                    "Brian Birtles",
+                    "Tab Atkins Jr."
+                ],
+                "href": "http://www.w3.org/TR/2013/WD-css-masking-1-20131029/",
+                "title": "CSS Masking Module Level 1",
+                "rawDate": "2013-10-29",
+                "status": "LCWD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Graphics/SVG/WG/",
+                    "http://www.w3.org/Style/CSS/members"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
     },
     "css-mobile": {
         "authors": [
@@ -17037,17 +17140,17 @@
     },
     "html51": {
         "authors": [
-            "Ian Hickson",
             "Robin Berjon",
             "Steve Faulkner",
             "Travis Leithead",
             "Erika Doyle Navara",
             "Edward O'Connor",
-            "Silvia Pfeiffer"
+            "Silvia Pfeiffer",
+            "Ian Hickson"
         ],
         "href": "http://www.w3.org/TR/html51/",
         "title": "HTML 5.1",
-        "rawDate": "2013-05-28",
+        "rawDate": "2013-10-29",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -17083,6 +17186,26 @@
                 "href": "http://www.w3.org/TR/2013/WD-html51-20130528/",
                 "title": "HTML 5.1",
                 "rawDate": "2013-05-28",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/html/wg/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20131029": {
+                "authors": [
+                    "Robin Berjon",
+                    "Steve Faulkner",
+                    "Travis Leithead",
+                    "Erika Doyle Navara",
+                    "Edward O'Connor",
+                    "Silvia Pfeiffer",
+                    "Ian Hickson"
+                ],
+                "href": "http://www.w3.org/TR/2013/WD-html51-20131029/",
+                "title": "HTML 5.1",
+                "rawDate": "2013-10-29",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -17473,8 +17596,8 @@
         ],
         "href": "http://www.w3.org/TR/its20/",
         "title": "Internationalization Tag Set (ITS) Version 2.0",
-        "rawDate": "2013-09-24",
-        "status": "PR",
+        "rawDate": "2013-10-29",
+        "status": "REC",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/International/multilingualweb/lt/"
@@ -17536,6 +17659,27 @@
                 "title": "Internationalization Tag Set (ITS) Version 2.0",
                 "rawDate": "2013-09-24",
                 "status": "PR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/International/multilingualweb/lt/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20131029": {
+                "authors": [
+                    "David Filip",
+                    "Shaun McCance",
+                    "David Lewis",
+                    "Christian Lieske",
+                    "Arle Lommel",
+                    "Jirka Kosek",
+                    "Felix Sasaki",
+                    "Yves Savourel"
+                ],
+                "href": "http://www.w3.org/TR/2013/REC-its20-20131029/",
+                "title": "Internationalization Tag Set (ITS) Version 2.0",
+                "rawDate": "2013-10-29",
+                "status": "REC",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/International/multilingualweb/lt/"
@@ -17936,7 +18080,7 @@
         ],
         "href": "http://www.w3.org/TR/ldp-ucr/",
         "title": "Linked Data Platform Use Cases and Requirements",
-        "rawDate": "2013-01-31",
+        "rawDate": "2013-10-31",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -17952,6 +18096,21 @@
                 "href": "http://www.w3.org/TR/2013/WD-ldp-ucr-20130131/",
                 "title": "Linked Data Platform Use Cases and Requirements",
                 "rawDate": "2013-01-31",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2012/ldp/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20131031": {
+                "authors": [
+                    "Steve Battle",
+                    "Steve Speicher"
+                ],
+                "href": "http://www.w3.org/TR/2013/WD-ldp-ucr-20131031/",
+                "title": "Linked Data Platform Use Cases and Requirements",
+                "rawDate": "2013-10-31",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -18763,7 +18922,7 @@
         ],
         "href": "http://www.w3.org/TR/microdata/",
         "title": "HTML Microdata",
-        "status": "WD",
+        "status": "NOTE",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/html/wg/"
@@ -18782,9 +18941,23 @@
                     "http://www.w3.org/html/wg/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20131029": {
+                "authors": [
+                    "Ian Hickson"
+                ],
+                "href": "http://www.w3.org/TR/2013/NOTE-microdata-20131029/",
+                "title": "HTML Microdata",
+                "rawDate": "2013-10-29",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/html/wg/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2012-10-25",
+        "rawDate": "2013-10-29",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
     "microdata-rdf": {
@@ -20868,8 +21041,8 @@
             "Arvind Jain"
         ],
         "href": "http://www.w3.org/TR/page-visibility/",
-        "title": "Page Visibility",
-        "rawDate": "2013-05-14",
+        "title": "Page Visibility (Second Edition)",
+        "rawDate": "2013-10-29",
         "status": "REC",
         "publisher": "W3C",
         "deliveredBy": [
@@ -20893,6 +21066,21 @@
                 ],
                 "hasErrata": "http://www.w3.org/2013/05/pv-errata.html",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20131029": {
+                "authors": [
+                    "Jatinder Mann",
+                    "Arvind Jain"
+                ],
+                "href": "http://www.w3.org/TR/2013/REC-page-visibility-20131029/",
+                "title": "Page Visibility (Second Edition)",
+                "rawDate": "2013-10-29",
+                "status": "REC",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2010/webperf/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
     },
@@ -20903,8 +21091,8 @@
         ],
         "href": "http://www.w3.org/TR/performance-timeline/",
         "title": "Performance Timeline",
-        "rawDate": "2012-07-26",
-        "status": "CR",
+        "rawDate": "2013-10-31",
+        "status": "PR",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2010/webperf/"
@@ -20920,6 +21108,21 @@
                 "title": "Performance Timeline",
                 "rawDate": "2012-07-26",
                 "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2010/webperf/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20131031": {
+                "authors": [
+                    "Jatinder Mann",
+                    "Zhiheng Wang"
+                ],
+                "href": "http://www.w3.org/TR/2013/PR-performance-timeline-20131031/",
+                "title": "Performance Timeline",
+                "rawDate": "2013-10-31",
+                "status": "PR",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/2010/webperf/"
@@ -20996,8 +21199,8 @@
         ],
         "href": "http://www.w3.org/TR/pointerlock/",
         "title": "Pointer Lock",
-        "rawDate": "2012-05-29",
-        "status": "WD",
+        "rawDate": "2013-10-31",
+        "status": "LCWD",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2008/webapps/"
@@ -21012,6 +21215,20 @@
                 "title": "Pointer Lock",
                 "rawDate": "2012-05-29",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2008/webapps/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20131031": {
+                "authors": [
+                    "Vincent Scheib"
+                ],
+                "href": "http://www.w3.org/TR/2013/WD-pointerlock-20131031/",
+                "title": "Pointer Lock",
+                "rawDate": "2013-10-31",
+                "status": "LCWD",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/2008/webapps/"
@@ -23314,6 +23531,38 @@
         },
         "rawDate": "2006-02-10",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+    },
+    "resource-priorities": {
+        "authors": [
+            "Jatinder Mann",
+            "James Simonsen"
+        ],
+        "href": "http://www.w3.org/TR/resource-priorities/",
+        "title": "Resource Priorities",
+        "rawDate": "2013-10-29",
+        "status": "WD",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "http://www.w3.org/2010/webperf/"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20131029": {
+                "authors": [
+                    "Jatinder Mann",
+                    "James Simonsen"
+                ],
+                "href": "http://www.w3.org/TR/2013/WD-resource-priorities-20131029/",
+                "title": "Resource Priorities",
+                "rawDate": "2013-10-29",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2010/webperf/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
     },
     "resource-timing": {
         "authors": [
@@ -26907,6 +27156,40 @@
         "rawDate": "2013-10-10",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
+    "touch-events-extensions": {
+        "authors": [
+            "Doug Schepers",
+            "Sangwhan Moon",
+            "Matt Brubeck"
+        ],
+        "href": "http://www.w3.org/TR/touch-events-extensions/",
+        "title": "Touch Events Extensions",
+        "rawDate": "2013-10-31",
+        "status": "NOTE",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "http://www.w3.org/2010/webevents/"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20131031": {
+                "authors": [
+                    "Doug Schepers",
+                    "Sangwhan Moon",
+                    "Matt Brubeck"
+                ],
+                "href": "http://www.w3.org/TR/2013/NOTE-touch-events-extensions-20131031/",
+                "title": "Touch Events Extensions",
+                "rawDate": "2013-10-31",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2010/webevents/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
     "tracking-compliance": {
         "authors": [
             "Justin Brookman",
@@ -27439,8 +27722,8 @@
         ],
         "href": "http://www.w3.org/TR/user-timing/",
         "title": "User Timing",
-        "rawDate": "2012-07-26",
-        "status": "CR",
+        "rawDate": "2013-10-31",
+        "status": "PR",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2010/webperf/"
@@ -27457,6 +27740,22 @@
                 "title": "User Timing",
                 "rawDate": "2012-07-26",
                 "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2010/webperf/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20131031": {
+                "authors": [
+                    "Jatinder Mann",
+                    "Zhiheng Wang",
+                    "Anderson Quach"
+                ],
+                "href": "http://www.w3.org/TR/2013/PR-user-timing-20131031/",
+                "title": "User Timing",
+                "rawDate": "2013-10-31",
+                "status": "PR",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/2010/webperf/"
@@ -29582,8 +29881,8 @@
         ],
         "href": "http://www.w3.org/TR/widgets-apis/",
         "title": "Widget Interface",
-        "rawDate": "2012-05-22",
-        "status": "PR",
+        "rawDate": "2013-10-31",
+        "status": "REC",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2008/webapps/"
@@ -29598,6 +29897,20 @@
                 "title": "Widget Interface",
                 "rawDate": "2012-05-22",
                 "status": "PR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2008/webapps/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20131031": {
+                "authors": [
+                    "Marcos Caceres"
+                ],
+                "href": "http://www.w3.org/TR/2013/REC-widgets-apis-20131031/",
+                "title": "Widget Interface",
+                "rawDate": "2013-10-31",
+                "status": "REC",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/2008/webapps/"
