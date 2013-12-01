@@ -345,7 +345,7 @@
         ],
         "href": "http://www.w3.org/TR/ATAG20/",
         "title": "Authoring Tool Accessibility Guidelines (ATAG) 2.0",
-        "status": "LCWD",
+        "status": "CR",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/WAI/AU/"
@@ -382,9 +382,25 @@
                     "http://www.w3.org/WAI/AU/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20131107": {
+                "authors": [
+                    "Jan Richards",
+                    "Jeanne F Spellman",
+                    "Jutta Treviranus"
+                ],
+                "href": "http://www.w3.org/TR/2013/CR-ATAG20-20131107/",
+                "title": "Authoring Tool Accessibility Guidelines (ATAG) 2.0",
+                "rawDate": "2013-11-07",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/WAI/AU/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2013-09-10",
+        "rawDate": "2013-11-07",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
     "ATAG20-TECHS": {
@@ -2318,15 +2334,17 @@
     },
     "DOM-Level-3-Events": {
         "authors": [
+            "Gary Kacmarcik",
             "Travis Leithead",
             "Jacob Rossi",
             "Doug Schepers",
             "Björn Höhrmann",
-            "Philippe Le Hégaret"
+            "Philippe Le Hégaret",
+            "Tom Pixley"
         ],
         "href": "http://www.w3.org/TR/DOM-Level-3-Events/",
         "title": "Document Object Model (DOM) Level 3 Events Specification",
-        "status": "LCWD",
+        "status": "WD",
         "publisher": "W3C",
         "versions": {
             "20120906": {
@@ -2346,12 +2364,32 @@
                     "http://www.w3.org/2008/webapps/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20131105": {
+                "authors": [
+                    "Gary Kacmarcik",
+                    "Travis Leithead",
+                    "Jacob Rossi",
+                    "Doug Schepers",
+                    "Björn Höhrmann",
+                    "Philippe Le Hégaret",
+                    "Tom Pixley"
+                ],
+                "href": "http://www.w3.org/TR/2013/WD-DOM-Level-3-Events-20131105/",
+                "title": "Document Object Model (DOM) Level 3 Events Specification",
+                "rawDate": "2013-11-05",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2008/webapps/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
         "deliveredBy": [
             "http://www.w3.org/2008/webapps/"
         ],
-        "rawDate": "2012-09-06",
+        "rawDate": "2013-11-05",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
     "DOM-Level-3-LS": {
@@ -2951,7 +2989,7 @@
     },
     "EMMAreqs": {
         "authors": [
-            "Stephane Maes",
+            "Stéphane Maes",
             "Stephen Potter"
         ],
         "href": "http://www.w3.org/TR/EMMAreqs",
@@ -2964,7 +3002,7 @@
         "versions": {
             "20030113": {
                 "authors": [
-                    "Stephane Maes",
+                    "Stéphane Maes",
                     "Stephen Potter"
                 ],
                 "href": "http://www.w3.org/TR/2003/NOTE-EMMAreqs-20030113",
@@ -3532,7 +3570,7 @@
         ],
         "href": "http://www.w3.org/TR/IMPLEMENTING-ATAG20/",
         "title": "Implementing ATAG 2.0",
-        "rawDate": "2013-09-10",
+        "rawDate": "2013-11-07",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -3571,6 +3609,22 @@
                     "http://www.w3.org/WAI/AU/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20131107": {
+                "authors": [
+                    "Jan Richards",
+                    "Jeanne F Spellman",
+                    "Jutta Treviranus"
+                ],
+                "href": "http://www.w3.org/TR/2013/WD-IMPLEMENTING-ATAG20-20131107/",
+                "title": "Implementing ATAG 2.0",
+                "rawDate": "2013-11-07",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/WAI/AU/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
     },
@@ -3583,7 +3637,7 @@
         ],
         "href": "http://www.w3.org/TR/IMPLEMENTING-UAAG20/",
         "title": "Implementing UAAG 2.0",
-        "rawDate": "2013-06-06",
+        "rawDate": "2013-11-07",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -3630,6 +3684,23 @@
                 "href": "http://www.w3.org/TR/2013/WD-IMPLEMENTING-UAAG20-20130606/",
                 "title": "Implementing UAAG 2.0",
                 "rawDate": "2013-06-06",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/WAI/UA/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20131107": {
+                "authors": [
+                    "James Allan",
+                    "Kelly Ford",
+                    "Kimberly Patch",
+                    "Jeanne F Spellman"
+                ],
+                "href": "http://www.w3.org/TR/2013/WD-IMPLEMENTING-UAAG20-20131107/",
+                "title": "Implementing UAAG 2.0",
+                "rawDate": "2013-11-07",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -7817,7 +7888,7 @@
         ],
         "href": "http://www.w3.org/TR/UAAG20/",
         "title": "User Agent Accessibility Guidelines (UAAG) 2.0",
-        "status": "WD",
+        "status": "LCWD",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/WAI/UA/"
@@ -7855,9 +7926,26 @@
                     "http://www.w3.org/WAI/UA/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20131107": {
+                "authors": [
+                    "James Allan",
+                    "Kelly Ford",
+                    "Kimberly Patch",
+                    "Jeanne F Spellman"
+                ],
+                "href": "http://www.w3.org/TR/2013/WD-UAAG20-20131107/",
+                "title": "User Agent Accessibility Guidelines (UAAG) 2.0",
+                "rawDate": "2013-11-07",
+                "status": "LCWD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/WAI/UA/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2013-05-23",
+        "rawDate": "2013-11-07",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
     "UAAG20-REQUIREMENTS": {
@@ -10319,6 +10407,36 @@
         "status": "Final",
         "title": ".ZIP File Format Specification"
     },
+    "abstract-ui": {
+        "authors": [
+            "Jean Vanderdonckt"
+        ],
+        "href": "http://www.w3.org/TR/abstract-ui/",
+        "title": "MBUI - Abstract User Interface Models",
+        "rawDate": "2013-11-05",
+        "status": "WD",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "http://www.w3.org/2011/mbui/"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20131105": {
+                "authors": [
+                    "Jean Vanderdonckt"
+                ],
+                "href": "http://www.w3.org/TR/2013/WD-abstract-ui-20131105/",
+                "title": "MBUI - Abstract User Interface Models",
+                "rawDate": "2013-11-05",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2011/mbui/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
     "access-control": {
         "authors": [
             "Anne van Kesteren"
@@ -10332,7 +10450,7 @@
     "accessibility-metrics-report": {
         "authors": [
             "Markel Vigo",
-            "giorgio brajnik",
+            "Giorgio Brajnik",
             "Joshue O Connor"
         ],
         "href": "http://www.w3.org/TR/accessibility-metrics-report/",
@@ -10348,7 +10466,7 @@
             "20120830": {
                 "authors": [
                     "Markel Vigo",
-                    "giorgio brajnik",
+                    "Giorgio Brajnik",
                     "Joshue O Connor"
                 ],
                 "href": "http://www.w3.org/TR/2012/WD-accessibility-metrics-report-20120830/",
@@ -10646,7 +10764,7 @@
     },
     "arabic-math": {
         "authors": [
-            "Azzeddine LAZREK",
+            "Azzeddine Lazrek",
             "Bruce Miller"
         ],
         "href": "http://www.w3.org/TR/arabic-math/",
@@ -10659,7 +10777,7 @@
         "versions": {
             "20060131": {
                 "authors": [
-                    "Azzeddine LAZREK",
+                    "Azzeddine Lazrek",
                     "Bruce Miller"
                 ],
                 "href": "http://www.w3.org/TR/2006/NOTE-arabic-math-20060131",
@@ -12032,7 +12150,7 @@
         ],
         "href": "http://www.w3.org/TR/css-style-attr",
         "title": "CSS Style Attributes",
-        "status": "PR",
+        "status": "REC",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/Style/CSS/members"
@@ -12067,9 +12185,24 @@
                     "http://www.w3.org/Style/CSS/members"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20131107": {
+                "authors": [
+                    "Tantek Çelik",
+                    "Elika Etemad"
+                ],
+                "href": "http://www.w3.org/TR/2013/REC-css-style-attr-20131107/",
+                "title": "CSS Style Attributes",
+                "rawDate": "2013-11-07",
+                "status": "REC",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Style/CSS/members"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2013-10-03",
+        "rawDate": "2013-11-07",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
     "css-syntax-3": {
@@ -12079,8 +12212,8 @@
         ],
         "href": "http://www.w3.org/TR/css-syntax-3/",
         "title": "CSS Syntax Module Level 3",
-        "rawDate": "2013-09-19",
-        "status": "WD",
+        "rawDate": "2013-11-05",
+        "status": "LCWD",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/Style/CSS/members"
@@ -12096,6 +12229,21 @@
                 "title": "CSS Syntax Module Level 3",
                 "rawDate": "2013-09-19",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Style/CSS/members"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20131105": {
+                "authors": [
+                    "Tab Atkins Jr.",
+                    "Simon Sapin"
+                ],
+                "href": "http://www.w3.org/TR/2013/WD-css-syntax-3-20131105/",
+                "title": "CSS Syntax Module Level 3",
+                "rawDate": "2013-11-05",
+                "status": "LCWD",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/Style/CSS/members"
@@ -12177,6 +12325,44 @@
                 "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
+                    "http://www.w3.org/Style/CSS/members"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
+    "css-transforms-1": {
+        "authors": [
+            "Simon Fraser",
+            "Dean Jackson",
+            "Edward O'Connor",
+            "Dirk Schulze"
+        ],
+        "href": "http://www.w3.org/TR/css-transforms-1/",
+        "title": "CSS Transforms Module Level 1",
+        "rawDate": "2013-11-26",
+        "status": "WD",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "http://www.w3.org/Graphics/SVG/WG/",
+            "http://www.w3.org/Style/CSS/members"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20131126": {
+                "authors": [
+                    "Simon Fraser",
+                    "Dean Jackson",
+                    "Edward O'Connor",
+                    "Dirk Schulze"
+                ],
+                "href": "http://www.w3.org/TR/2013/WD-css-transforms-1-20131126/",
+                "title": "CSS Transforms Module Level 1",
+                "rawDate": "2013-11-26",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Graphics/SVG/WG/",
                     "http://www.w3.org/Style/CSS/members"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
@@ -12286,8 +12472,8 @@
         ],
         "href": "http://www.w3.org/TR/css-writing-modes-3/",
         "title": "CSS Writing Modes Level 3",
-        "rawDate": "2013-10-24",
-        "status": "WD",
+        "rawDate": "2013-11-26",
+        "status": "LCWD",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/Style/CSS/members"
@@ -12303,6 +12489,21 @@
                 "title": "CSS Writing Modes Level 3",
                 "rawDate": "2013-10-24",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Style/CSS/members"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20131126": {
+                "authors": [
+                    "Elika Etemad",
+                    "Koji Ishii"
+                ],
+                "href": "http://www.w3.org/TR/2013/WD-css-writing-modes-3-20131126/",
+                "title": "CSS Writing Modes Level 3",
+                "rawDate": "2013-11-26",
+                "status": "LCWD",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/Style/CSS/members"
@@ -13712,12 +13913,29 @@
                     "http://www.w3.org/Style/CSS/members"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20131119": {
+                "authors": [
+                    "Dean Jackson",
+                    "David Hyatt",
+                    "Chris Marrin",
+                    "David Baron"
+                ],
+                "href": "http://www.w3.org/TR/2013/WD-css3-transitions-20131119/",
+                "title": "CSS Transitions",
+                "rawDate": "2013-11-19",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Style/CSS/members"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
         "deliveredBy": [
             "http://www.w3.org/Style/CSS/members"
         ],
-        "rawDate": "2013-02-12",
+        "rawDate": "2013-11-19",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
     "css3-ui": {
@@ -14688,15 +14906,16 @@
         "authors": [
             "Anne van Kesteren",
             "Aryeh Gregor",
-            "Lachlan Hunt",
-            "Ms2ger"
+            "Ms2ger",
+            "Alex Russell",
+            "Robin Berjon"
         ],
         "href": "http://www.w3.org/TR/dom/",
-        "title": "DOM4",
+        "title": "W3C DOM4",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
-            "http://www.w3.org/2008/webapps/"
+            "http://www.w3.org/html/wg/"
         ],
         "versions": {
             "20121206": {
@@ -14715,9 +14934,27 @@
                     "http://www.w3.org/2008/webapps/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20131107": {
+                "authors": [
+                    "Anne van Kesteren",
+                    "Aryeh Gregor",
+                    "Ms2ger",
+                    "Alex Russell",
+                    "Robin Berjon"
+                ],
+                "href": "http://www.w3.org/TR/2013/WD-dom-20131107/",
+                "title": "W3C DOM4",
+                "rawDate": "2013-11-07",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/html/wg/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2012-12-06",
+        "rawDate": "2013-11-07",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
     "domxpath": {
@@ -15402,6 +15639,42 @@
         },
         "rawDate": "2013-05-23",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+    },
+    "filter-effects-1": {
+        "authors": [
+            "Dean Jackson",
+            "Erik Dahlström",
+            "Dirk Schulze"
+        ],
+        "href": "http://www.w3.org/TR/filter-effects-1/",
+        "title": "Filter Effects Module Level 1",
+        "rawDate": "2013-11-26",
+        "status": "WD",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "http://www.w3.org/Graphics/SVG/WG/",
+            "http://www.w3.org/Style/CSS/members"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20131126": {
+                "authors": [
+                    "Dean Jackson",
+                    "Erik Dahlström",
+                    "Dirk Schulze"
+                ],
+                "href": "http://www.w3.org/TR/2013/WD-filter-effects-1-20131126/",
+                "title": "Filter Effects Module Level 1",
+                "rawDate": "2013-11-26",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Graphics/SVG/WG/",
+                    "http://www.w3.org/Style/CSS/members"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
     },
     "font": {
         "authors": [
@@ -17840,8 +18113,8 @@
         ],
         "href": "http://www.w3.org/TR/json-ld/",
         "title": "JSON-LD 1.0",
-        "rawDate": "2013-09-10",
-        "status": "CR",
+        "rawDate": "2013-11-05",
+        "status": "PR",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2011/rdf-wg/"
@@ -17879,6 +18152,22 @@
                     "http://www.w3.org/2011/rdf-wg/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20131105": {
+                "authors": [
+                    "Manu Sporny",
+                    "Gregg Kellogg",
+                    "Markus Lanthaler"
+                ],
+                "href": "http://www.w3.org/TR/2013/PR-json-ld-20131105/",
+                "title": "JSON-LD 1.0",
+                "rawDate": "2013-11-05",
+                "status": "PR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2011/rdf-wg/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
     },
@@ -17890,8 +18179,8 @@
         ],
         "href": "http://www.w3.org/TR/json-ld-api/",
         "title": "JSON-LD 1.0 Processing Algorithms and API",
-        "rawDate": "2013-09-10",
-        "status": "CR",
+        "rawDate": "2013-11-05",
+        "status": "PR",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2011/rdf-wg/"
@@ -17924,6 +18213,22 @@
                 "title": "JSON-LD 1.0 Processing Algorithms and API",
                 "rawDate": "2013-09-10",
                 "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2011/rdf-wg/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20131105": {
+                "authors": [
+                    "Markus Lanthaler",
+                    "Gregg Kellogg",
+                    "Manu Sporny"
+                ],
+                "href": "http://www.w3.org/TR/2013/PR-json-ld-api-20131105/",
+                "title": "JSON-LD 1.0 Processing Algorithms and API",
+                "rawDate": "2013-11-05",
+                "status": "PR",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/2011/rdf-wg/"
@@ -19237,7 +19542,7 @@
     },
     "mmi-reqs": {
         "authors": [
-            "Stephane Maes",
+            "Stéphane Maes",
             "Vijay Saraswat"
         ],
         "href": "http://www.w3.org/TR/mmi-reqs/",
@@ -19250,7 +19555,7 @@
         "versions": {
             "20030108": {
                 "authors": [
-                    "Stephane Maes",
+                    "Stéphane Maes",
                     "Vijay Saraswat"
                 ],
                 "href": "http://www.w3.org/TR/2003/NOTE-mmi-reqs-20030108/",
@@ -19679,9 +19984,9 @@
             "Gavin Carothers"
         ],
         "href": "http://www.w3.org/TR/n-quads/",
-        "title": "N-Quads",
-        "rawDate": "2013-09-05",
-        "status": "LCWD",
+        "title": "RDF 1.1 N-Quads",
+        "rawDate": "2013-11-05",
+        "status": "CR",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2011/rdf-wg/"
@@ -19715,6 +20020,20 @@
                     "http://www.w3.org/2011/rdf-wg/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20131105": {
+                "authors": [
+                    "Gavin Carothers"
+                ],
+                "href": "http://www.w3.org/TR/2013/CR-n-quads-20131105/",
+                "title": "RDF 1.1 N-Quads",
+                "rawDate": "2013-11-05",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2011/rdf-wg/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
     },
@@ -19723,9 +20042,9 @@
             "Gavin Carothers"
         ],
         "href": "http://www.w3.org/TR/n-triples/",
-        "title": "N-Triples",
-        "rawDate": "2013-09-05",
-        "status": "LCWD",
+        "title": "RDF 1.1 N-Triples",
+        "rawDate": "2013-11-05",
+        "status": "CR",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2011/rdf-wg/"
@@ -19754,6 +20073,20 @@
                 "title": "N-Triples",
                 "rawDate": "2013-09-05",
                 "status": "LCWD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2011/rdf-wg/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20131105": {
+                "authors": [
+                    "Gavin Carothers"
+                ],
+                "href": "http://www.w3.org/TR/2013/CR-n-triples-20131105/",
+                "title": "RDF 1.1 N-Triples",
+                "rawDate": "2013-11-05",
+                "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/2011/rdf-wg/"
@@ -22411,9 +22744,23 @@
                     "http://www.w3.org/2008/webapps/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20131105": {
+                "authors": [
+                    "Kinuko Yasuda"
+                ],
+                "href": "http://www.w3.org/TR/2013/WD-quota-api-20131105/",
+                "title": "Quota Management API",
+                "rawDate": "2013-11-05",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2008/webapps/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2012-07-03",
+        "rawDate": "2013-11-05",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
     "r2rml": {
@@ -22738,6 +23085,40 @@
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/2010/02/rdfa/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
+    "rdf-json": {
+        "authors": [
+            "Ian Davis",
+            "Thomas Steiner",
+            "Arnaud Le Hors"
+        ],
+        "href": "http://www.w3.org/TR/rdf-json/",
+        "title": "RDF 1.1 JSON Alternate Serialization (RDF/JSON)",
+        "rawDate": "2013-11-07",
+        "status": "NOTE",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "http://www.w3.org/2011/rdf-wg/"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20131107": {
+                "authors": [
+                    "Ian Davis",
+                    "Thomas Steiner",
+                    "Arnaud Le Hors"
+                ],
+                "href": "http://www.w3.org/TR/2013/NOTE-rdf-json-20131107/",
+                "title": "RDF 1.1 JSON Alternate Serialization (RDF/JSON)",
+                "rawDate": "2013-11-07",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2011/rdf-wg/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
@@ -23134,12 +23515,13 @@
     "rdf11-concepts": {
         "authors": [
             "Richard Cyganiak",
-            "David Wood"
+            "David Wood",
+            "Markus Lanthaler"
         ],
         "href": "http://www.w3.org/TR/rdf11-concepts/",
         "title": "RDF 1.1 Concepts and Abstract Syntax",
-        "rawDate": "2013-07-23",
-        "status": "LCWD",
+        "rawDate": "2013-11-05",
+        "status": "CR",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2011/rdf-wg/"
@@ -23175,6 +23557,22 @@
                     "http://www.w3.org/2011/rdf-wg/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20131105": {
+                "authors": [
+                    "Richard Cyganiak",
+                    "David Wood",
+                    "Markus Lanthaler"
+                ],
+                "href": "http://www.w3.org/TR/2013/CR-rdf11-concepts-20131105/",
+                "title": "RDF 1.1 Concepts and Abstract Syntax",
+                "rawDate": "2013-11-05",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2011/rdf-wg/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
     },
@@ -23185,8 +23583,8 @@
         ],
         "href": "http://www.w3.org/TR/rdf11-mt/",
         "title": "RDF 1.1 Semantics",
-        "rawDate": "2013-07-23",
-        "status": "LCWD",
+        "rawDate": "2013-11-05",
+        "status": "CR",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2011/rdf-wg/"
@@ -23217,6 +23615,21 @@
                 "title": "RDF 1.1 Semantics",
                 "rawDate": "2013-07-23",
                 "status": "LCWD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2011/rdf-wg/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20131105": {
+                "authors": [
+                    "Patrick Hayes",
+                    "Peter Patel-Schneider"
+                ],
+                "href": "http://www.w3.org/TR/2013/CR-rdf11-mt-20131105/",
+                "title": "RDF 1.1 Semantics",
+                "rawDate": "2013-11-05",
+                "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/2011/rdf-wg/"
@@ -23602,12 +24015,13 @@
         "authors": [
             "Marcos Caceres",
             "Mathew Marquis",
-            "Yoav Weiss"
+            "Yoav Weiss",
+            "David Newton"
         ],
         "href": "http://www.w3.org/TR/respimg-usecases/",
         "title": "Use Cases and Requirements for Standardizing Responsive Images",
-        "rawDate": "2013-02-26",
-        "status": "WD",
+        "rawDate": "2013-11-07",
+        "status": "NOTE",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/html/wg/"
@@ -23624,6 +24038,23 @@
                 "title": "Use Cases and Requirements for Standardizing Responsive Images",
                 "rawDate": "2013-02-26",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/html/wg/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20131107": {
+                "authors": [
+                    "Marcos Caceres",
+                    "Mathew Marquis",
+                    "Yoav Weiss",
+                    "David Newton"
+                ],
+                "href": "http://www.w3.org/TR/2013/NOTE-respimg-usecases-20131107/",
+                "title": "Use Cases and Requirements for Standardizing Responsive Images",
+                "rawDate": "2013-11-07",
+                "status": "NOTE",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/html/wg/"
@@ -26518,11 +26949,12 @@
     },
     "streams-api": {
         "authors": [
-            "Feras Moussa"
+            "Feras Moussa",
+            "Takeshi Yoshino"
         ],
         "href": "http://www.w3.org/TR/streams-api/",
         "title": "Streams API",
-        "rawDate": "2013-02-14",
+        "rawDate": "2013-11-05",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -26537,6 +26969,21 @@
                 "href": "http://www.w3.org/TR/2013/WD-streams-api-20130214/",
                 "title": "Streams API",
                 "rawDate": "2013-02-14",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2008/webapps/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20131105": {
+                "authors": [
+                    "Feras Moussa",
+                    "Takeshi Yoshino"
+                ],
+                "href": "http://www.w3.org/TR/2013/WD-streams-api-20131105/",
+                "title": "Streams API",
+                "rawDate": "2013-11-05",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -26913,7 +27360,7 @@
         ],
         "href": "http://www.w3.org/TR/task-models/",
         "title": "MBUI - Task Models",
-        "rawDate": "2012-08-02",
+        "rawDate": "2013-11-07",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -26929,6 +27376,21 @@
                 "href": "http://www.w3.org/TR/2012/WD-task-models-20120802/",
                 "title": "MBUI - Task Models",
                 "rawDate": "2012-08-02",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2011/mbui/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20131107": {
+                "authors": [
+                    "Fabio Paternò",
+                    "Dave Raggett"
+                ],
+                "href": "http://www.w3.org/TR/2013/WD-task-models-20131107/",
+                "title": "MBUI - Task Models",
+                "rawDate": "2013-11-07",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -27296,9 +27758,9 @@
             "Andy Seaborne"
         ],
         "href": "http://www.w3.org/TR/trig/",
-        "title": "TriG",
-        "rawDate": "2013-09-19",
-        "status": "LCWD",
+        "title": "RDF 1.1 TriG",
+        "rawDate": "2013-11-05",
+        "status": "CR",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2011/rdf-wg/"
@@ -27328,6 +27790,21 @@
                 "title": "TriG",
                 "rawDate": "2013-09-19",
                 "status": "LCWD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2011/rdf-wg/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20131105": {
+                "authors": [
+                    "Gavin Carothers",
+                    "Andy Seaborne"
+                ],
+                "href": "http://www.w3.org/TR/2013/CR-trig-20131105/",
+                "title": "RDF 1.1 TriG",
+                "rawDate": "2013-11-05",
+                "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/2011/rdf-wg/"
@@ -27562,12 +28039,12 @@
     },
     "uievents": {
         "authors": [
-            "Travis Leithead",
-            "Gary Kacmarcik"
+            "Gary Kacmarcik",
+            "Travis Leithead"
         ],
         "href": "http://www.w3.org/TR/uievents/",
         "title": "UI Events",
-        "rawDate": "2013-07-25",
+        "rawDate": "2013-11-05",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -27583,6 +28060,21 @@
                 "href": "http://www.w3.org/TR/2013/WD-uievents-20130725/",
                 "title": "UI Events",
                 "rawDate": "2013-07-25",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2008/webapps/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20131105": {
+                "authors": [
+                    "Gary Kacmarcik",
+                    "Travis Leithead"
+                ],
+                "href": "http://www.w3.org/TR/2013/WD-uievents-20131105/",
+                "title": "UI Events",
+                "rawDate": "2013-11-05",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -28059,8 +28551,8 @@
         ],
         "href": "http://www.w3.org/TR/vocab-dcat/",
         "title": "Data Catalog Vocabulary (DCAT)",
-        "rawDate": "2013-08-01",
-        "status": "LCWD",
+        "rawDate": "2013-11-05",
+        "status": "CR",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2011/gld/"
@@ -28092,6 +28584,21 @@
                 "title": "Data Catalog Vocabulary (DCAT)",
                 "rawDate": "2013-08-01",
                 "status": "LCWD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2011/gld/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20131105": {
+                "authors": [
+                    "Fadi Maali",
+                    "John Erickson"
+                ],
+                "href": "http://www.w3.org/TR/2013/CR-vocab-dcat-20131105/",
+                "title": "Data Catalog Vocabulary (DCAT)",
+                "rawDate": "2013-11-05",
+                "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/2011/gld/"
@@ -28762,12 +29269,12 @@
     },
     "wai-aria-implementation": {
         "authors": [
-            "Andi Snow-Weaver",
+            "Joseph Scheuhammer",
             "Michael Cooper"
         ],
         "href": "http://www.w3.org/TR/wai-aria-implementation/",
         "title": "WAI-ARIA 1.0 User Agent Implementation Guide",
-        "status": "WD",
+        "status": "LCWD",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/WAI/PF/"
@@ -28787,9 +29294,24 @@
                     "http://www.w3.org/WAI/PF/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20131105": {
+                "authors": [
+                    "Joseph Scheuhammer",
+                    "Michael Cooper"
+                ],
+                "href": "http://www.w3.org/TR/2013/WD-wai-aria-implementation-20131105/",
+                "title": "WAI-ARIA 1.0 User Agent Implementation Guide",
+                "rawDate": "2013-11-05",
+                "status": "LCWD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/WAI/PF/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2012-08-16",
+        "rawDate": "2013-11-05",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
     "wai-aria-practices": {
@@ -29590,7 +30112,7 @@
         ],
         "href": "http://www.w3.org/TR/webmidi/",
         "title": "Web MIDI API",
-        "rawDate": "2012-12-13",
+        "rawDate": "2013-11-26",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -29606,6 +30128,21 @@
                 "href": "http://www.w3.org/TR/2012/WD-webmidi-20121213/",
                 "title": "Web MIDI API",
                 "rawDate": "2012-12-13",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2011/audio/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20131126": {
+                "authors": [
+                    "Jussi Kalliokoski",
+                    "Chris Wilson"
+                ],
+                "href": "http://www.w3.org/TR/2013/WD-webmidi-20131126/",
+                "title": "Web MIDI API",
+                "rawDate": "2013-11-26",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -36960,6 +37497,40 @@
                 "title": "Document Templating Steps for XProc",
                 "rawDate": "2011-01-25",
                 "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/XML/Processing/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
+    "xproc-v2-req": {
+        "authors": [
+            "Alex Milowski",
+            "James Fuller",
+            "Norman Walsh"
+        ],
+        "href": "http://www.w3.org/TR/xproc-v2-req/",
+        "title": "XProc V2.0 Requirements",
+        "rawDate": "2013-11-05",
+        "status": "WD",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "http://www.w3.org/XML/Processing/"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20131105": {
+                "authors": [
+                    "Alex Milowski",
+                    "James Fuller",
+                    "Norman Walsh"
+                ],
+                "href": "http://www.w3.org/TR/2013/WD-xproc-v2-req-20131105/",
+                "title": "XProc V2.0 Requirements",
+                "rawDate": "2013-11-05",
+                "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/XML/Processing/"
