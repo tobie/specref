@@ -17518,6 +17518,39 @@
             }
         }
     },
+    "http-signatures": {
+        "authors": [
+            "Mark Cavage",
+            "Manu Sporny"
+        ],
+        "href": "http://tools.ietf.org/html/draft-cavage-http-signatures",
+        "title": "HTTP Signatures",
+        "status": "WD",
+        "publisher": "IETF",
+        "deliveredBy": [
+            "https://datatracker.ietf.org/wg/httpauth/"
+        ],
+        "versions": {
+            "20130504": {
+                "authors": [
+                    "Mark Cavage",
+                    "Manu Sporny"
+                ],
+                "href": "http://tools.ietf.org/html/draft-cavage-http-signatures-00",
+                "title": "HTTP Signatures",
+                "rawDate": "2013-05-04",
+                "publisher": "IETF",
+                "isRetired": true,
+                "deliveredBy": [
+                    "https://datatracker.ietf.org/wg/httpauth/"
+                ],
+                "source": "https://web-payments.org/specs/source/http-signatures/"
+            }
+        },
+        "rawDate": "2013-05-04",
+        "isRetired": true,
+        "source": "https://web-payments.org/specs/source/http-signatures/"
+    },
     "i18n-guide-framework": {
         "authors": [
             "Richard Ishida"
@@ -18234,6 +18267,38 @@
                     "http://www.w3.org/2011/rdf-wg/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
+    "json-patch": {
+        "authors": [
+            "Paul C. Bryan",
+            "Mark Nottingham"
+        ],
+        "href": "http://tools.ietf.org/html/rfc6902",
+        "title": "JavaScript Object Notation (JSON) Patch",
+        "rawDate": "2013-04-01",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "deliveredBy": [
+            "http://tools.ietf.org/wg/appsawg/"
+        ],
+        "source": "http://tools.ietf.org/html/draft-ietf-appsawg-json-patch",
+        "versions": {
+            "20130401": {
+                "authors": [
+                    "Paul C. Bryan",
+                    "Mark Nottingham"
+                ],
+                "href": "http://tools.ietf.org/html/rfc6902",
+                "title": "JavaScript Object Notation (JSON) Patch",
+                "rawDate": "2013-04-01",
+                "status": "Proposed Standard",
+                "publisher": "IETF",
+                "deliveredBy": [
+                    "http://tools.ietf.org/wg/appsawg/"
+                ],
+                "source": "http://tools.ietf.org/html/draft-ietf-appsawg-json-patch"
             }
         }
     },
