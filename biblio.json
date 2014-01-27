@@ -6280,7 +6280,16 @@
     "ROLE-ATTRIBUTE": {
         "aliasOf": "role-attribute"
     },
-    "RTCWEB-CONSTRAINTS": "D. Burnett. <a href=\"http://datatracker.ietf.org/doc/draft-burnett-rtcweb-constraints-registry/\"><cite>IANA Registry for RTCWeb Media Constraints.</cite></a> URL: <a href=\"http://datatracker.ietf.org/doc/draft-burnett-rtcweb-constraints-registry/\">http://datatracker.ietf.org/doc/draft-burnett-rtcweb-constraints-registry/</a> ",
+    "RTCWEB-CONSTRAINTS": {
+        "authors": [
+            "Dan Burnett"
+        ],
+        "date": "21 October 2013",
+        "href": "http://datatracker.ietf.org/doc/draft-burnett-rtcweb-constraints-registry/",
+        "publisher": "IETF",
+        "status": "Active Internet-Draft",
+        "title": "IANA Registry for RTCWeb Constrainable Properties"
+    },
     "RTCWEB-JSEP": "J. Uberti, C. Jennings. <a href=\"http://datatracker.ietf.org/doc/draft-ietf-rtcweb-jsep/\"><cite>Javascript Session Establishment Protocol.</cite></a> URL: <a href=\"http://datatracker.ietf.org/doc/draft-ietf-rtcweb-jsep/\">http://datatracker.ietf.org/doc/draft-ietf-rtcweb-jsep/</a> ",
     "RTCWEB-SECURITY": {
         "authors": [
