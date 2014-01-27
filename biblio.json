@@ -6290,7 +6290,17 @@
         "status": "Active Internet-Draft",
         "title": "IANA Registry for RTCWeb Constrainable Properties"
     },
-    "RTCWEB-JSEP": "J. Uberti, C. Jennings. <a href=\"http://datatracker.ietf.org/doc/draft-ietf-rtcweb-jsep/\"><cite>Javascript Session Establishment Protocol.</cite></a> URL: <a href=\"http://datatracker.ietf.org/doc/draft-ietf-rtcweb-jsep/\">http://datatracker.ietf.org/doc/draft-ietf-rtcweb-jsep/</a> ",
+    "RTCWEB-JSEP": {
+        "authors": [
+            "Justin Uberti",
+            "Cullen Jennings"
+        ],
+        "date": "22 October 2013",
+        "href": "http://http://datatracker.ietf.org/doc/draft-ietf-rtcweb-jsep/",
+        "publisher": "IETF",
+        "status": "Active Internet-Draft",
+        "title": "Javascript Session Establishment Protocol"
+    },
     "RTCWEB-SECURITY": {
         "authors": [
             "Eric Rescorla"
