@@ -5366,16 +5366,6 @@
     "REX-REQS": {
         "aliasOf": "rex-reqs"
     },
-    "RFC822": {
-        "authors": [
-            "David H. Crocker"
-        ],
-        "href": "http://www.ietf.org/rfc/rfc0822.txt",
-        "title": "STANDARD FOR THE FORMAT OF ARPA INTERNET TEXT MESSAGES (RFC 822)",
-        "date": "August 1982",
-        "status": "RFC",
-        "publisher": "IETF"
-    },
     "RFC1034": {
         "authors": [
             "P. Mockapetris"
@@ -5753,7 +5743,7 @@
         "status": "Informational",
         "publisher": "IETF",
         "date": "February 2002"
-    },   
+    },
     "RFC3388": {
         "authors": [
             "G. Camarillo",
@@ -6282,6 +6272,16 @@
         "href": "https://datatracker.ietf.org/doc/rfc6931/",
         "title": "Additional XML Security Uniform Resource Identifiers (URIs)",
         "status": "IETF RFC 6931. April 2013."
+    },
+    "RFC822": {
+        "authors": [
+            "David H. Crocker"
+        ],
+        "href": "http://www.ietf.org/rfc/rfc0822.txt",
+        "title": "STANDARD FOR THE FORMAT OF ARPA INTERNET TEXT MESSAGES (RFC 822)",
+        "date": "August 1982",
+        "status": "RFC",
+        "publisher": "IETF"
     },
     "RIF-BLD": {
         "aliasOf": "rif-bld"
@@ -9256,6 +9256,36 @@
         "rawDate": "2012-12-13",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
+    "WOFF20ER": {
+        "authors": [
+            "Chris Lilley"
+        ],
+        "href": "http://www.w3.org/TR/WOFF20ER/",
+        "title": "WOFF 2.0 Evaluation Report",
+        "rawDate": "2014-01-28",
+        "status": "WD",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "http://www.w3.org/Fonts/WG/"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20140128": {
+                "authors": [
+                    "Chris Lilley"
+                ],
+                "href": "http://www.w3.org/TR/2014/WD-WOFF20ER-20140128/",
+                "title": "WOFF 2.0 Evaluation Report",
+                "rawDate": "2014-01-28",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Fonts/WG/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
     "WORDNET-RDF": {
         "aliasOf": "wordnet-rdf"
     },
@@ -11206,8 +11236,8 @@
         ],
         "href": "http://www.w3.org/TR/calendar-api/",
         "title": "Calendar API",
-        "rawDate": "2011-04-19",
-        "status": "WD",
+        "rawDate": "2014-01-14",
+        "status": "NOTE",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2009/dap/"
@@ -11223,6 +11253,21 @@
                 "title": "Calendar API",
                 "rawDate": "2011-04-19",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2009/dap/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140114": {
+                "authors": [
+                    "Richard Tibbett",
+                    "Suresh Chitturi"
+                ],
+                "href": "http://www.w3.org/TR/2014/NOTE-calendar-api-20140114/",
+                "title": "Calendar API",
+                "rawDate": "2014-01-14",
+                "status": "NOTE",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/2009/dap/"
@@ -11646,12 +11691,13 @@
     "contacts-api": {
         "authors": [
             "Richard Tibbett",
-            "Robin Berjon"
+            "Robin Berjon",
+            "Jungkee Song"
         ],
         "href": "http://www.w3.org/TR/contacts-api/",
         "title": "Pick Contacts Intent",
-        "rawDate": "2012-07-12",
-        "status": "WD",
+        "rawDate": "2014-01-14",
+        "status": "NOTE",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2009/dap/"
@@ -11667,6 +11713,22 @@
                 "title": "Pick Contacts Intent",
                 "rawDate": "2012-07-12",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2009/dap/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140114": {
+                "authors": [
+                    "Richard Tibbett",
+                    "Robin Berjon",
+                    "Jungkee Song"
+                ],
+                "href": "http://www.w3.org/TR/2014/NOTE-contacts-api-20140114/",
+                "title": "Pick Contacts Intent",
+                "rawDate": "2014-01-14",
+                "status": "NOTE",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/2009/dap/"
@@ -11749,7 +11811,7 @@
         ],
         "href": "http://www.w3.org/TR/cors/",
         "title": "Cross-Origin Resource Sharing",
-        "status": "PR",
+        "status": "REC",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2008/webapps/",
@@ -11785,9 +11847,24 @@
                     "http://www.w3.org/2011/webappsec/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140116": {
+                "authors": [
+                    "Anne van Kesteren"
+                ],
+                "href": "http://www.w3.org/TR/2014/REC-cors-20140116/",
+                "title": "Cross-Origin Resource Sharing",
+                "rawDate": "2014-01-16",
+                "status": "REC",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2008/webapps/",
+                    "http://www.w3.org/2011/webappsec/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2013-12-05",
+        "rawDate": "2014-01-16",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
     "cpc-req": {
@@ -12147,6 +12224,40 @@
                 "title": "CSS Fonts Module Level 3",
                 "rawDate": "2013-10-03",
                 "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Style/CSS/members"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
+    "css-grid-1": {
+        "authors": [
+            "Tab Atkins Jr.",
+            "Elika Etemad",
+            "Rossen Atanassov"
+        ],
+        "href": "http://www.w3.org/TR/css-grid-1/",
+        "title": "CSS Grid Layout Module Level 1",
+        "rawDate": "2014-01-23",
+        "status": "WD",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "http://www.w3.org/Style/CSS/members"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20140123": {
+                "authors": [
+                    "Tab Atkins Jr.",
+                    "Elika Etemad",
+                    "Rossen Atanassov"
+                ],
+                "href": "http://www.w3.org/TR/2014/WD-css-grid-1-20140123/",
+                "title": "CSS Grid Layout Module Level 1",
+                "rawDate": "2014-01-23",
+                "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/Style/CSS/members"
@@ -12990,7 +13101,7 @@
         ],
         "href": "http://www.w3.org/TR/css3-break/",
         "title": "CSS Fragmentation Module Level 3",
-        "rawDate": "2012-08-23",
+        "rawDate": "2014-01-16",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -13006,6 +13117,21 @@
                 "href": "http://www.w3.org/TR/2012/WD-css3-break-20120823/",
                 "title": "CSS Fragmentation Module Level 3",
                 "rawDate": "2012-08-23",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Style/CSS/members"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140116": {
+                "authors": [
+                    "Rossen Atanassov",
+                    "Elika Etemad"
+                ],
+                "href": "http://www.w3.org/TR/2014/WD-css3-break-20140116/",
+                "title": "CSS Fragmentation Module Level 3",
+                "rawDate": "2014-01-16",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -15428,6 +15554,40 @@
             }
         }
     },
+    "encoding": {
+        "authors": [
+            "Anne van Kesteren",
+            "Joshua Bell",
+            "Addison Phillips"
+        ],
+        "href": "http://www.w3.org/TR/encoding/",
+        "title": "Encoding",
+        "rawDate": "2014-01-28",
+        "status": "WD",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "http://www.w3.org/International/core/"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20140128": {
+                "authors": [
+                    "Anne van Kesteren",
+                    "Joshua Bell",
+                    "Addison Phillips"
+                ],
+                "href": "http://www.w3.org/TR/2014/WD-encoding-20140128/",
+                "title": "Encoding",
+                "rawDate": "2014-01-28",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/International/core/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
     "encrypted-media": {
         "authors": [
             "David Dorwin",
@@ -16077,13 +16237,13 @@
     },
     "gallery": {
         "authors": [
-            "WonSuk Lee",
-            "Jungkee Song"
+            "Jungkee Song",
+            "WonSuk Lee"
         ],
         "href": "http://www.w3.org/TR/gallery/",
         "title": "Pick Media Intent",
-        "rawDate": "2012-07-12",
-        "status": "WD",
+        "rawDate": "2014-01-14",
+        "status": "NOTE",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2009/dap/"
@@ -16099,6 +16259,21 @@
                 "title": "Pick Media Intent",
                 "rawDate": "2012-07-12",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2009/dap/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140114": {
+                "authors": [
+                    "Jungkee Song",
+                    "WonSuk Lee"
+                ],
+                "href": "http://www.w3.org/TR/2014/NOTE-gallery-20140114/",
+                "title": "Pick Media Intent",
+                "rawDate": "2014-01-14",
+                "status": "NOTE",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/2009/dap/"
@@ -18462,8 +18637,8 @@
         ],
         "href": "http://www.w3.org/TR/json-ld/",
         "title": "JSON-LD 1.0",
-        "rawDate": "2013-11-05",
-        "status": "PR",
+        "rawDate": "2014-01-16",
+        "status": "REC",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2011/rdf-wg/"
@@ -18517,6 +18692,22 @@
                     "http://www.w3.org/2011/rdf-wg/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140116": {
+                "authors": [
+                    "Manu Sporny",
+                    "Gregg Kellogg",
+                    "Markus Lanthaler"
+                ],
+                "href": "http://www.w3.org/TR/2014/REC-json-ld-20140116/",
+                "title": "JSON-LD 1.0",
+                "rawDate": "2014-01-16",
+                "status": "REC",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2011/rdf-wg/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
     },
@@ -18528,8 +18719,8 @@
         ],
         "href": "http://www.w3.org/TR/json-ld-api/",
         "title": "JSON-LD 1.0 Processing Algorithms and API",
-        "rawDate": "2013-11-05",
-        "status": "PR",
+        "rawDate": "2014-01-16",
+        "status": "REC",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2011/rdf-wg/"
@@ -18578,6 +18769,22 @@
                 "title": "JSON-LD 1.0 Processing Algorithms and API",
                 "rawDate": "2013-11-05",
                 "status": "PR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2011/rdf-wg/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140116": {
+                "authors": [
+                    "Markus Lanthaler",
+                    "Gregg Kellogg",
+                    "Manu Sporny"
+                ],
+                "href": "http://www.w3.org/TR/2014/REC-json-ld-api-20140116/",
+                "title": "JSON-LD 1.0 Processing Algorithms and API",
+                "rawDate": "2014-01-16",
+                "status": "REC",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/2011/rdf-wg/"
@@ -19686,8 +19893,8 @@
         ],
         "href": "http://www.w3.org/TR/messaging-api/",
         "title": "The Messaging API",
-        "rawDate": "2011-04-14",
-        "status": "WD",
+        "rawDate": "2014-01-14",
+        "status": "NOTE",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2009/dap/"
@@ -19706,6 +19913,24 @@
                 "title": "The Messaging API",
                 "rawDate": "2011-04-14",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2009/dap/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140114": {
+                "authors": [
+                    "Dominique Hazaël-Massieux",
+                    "Suresh Chitturi",
+                    "Max Froumentin",
+                    "Maria Angeles Oteo",
+                    "Niklas Widell"
+                ],
+                "href": "http://www.w3.org/TR/2014/NOTE-messaging-api-20140114/",
+                "title": "The Messaging API",
+                "rawDate": "2014-01-14",
+                "status": "NOTE",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/2009/dap/"
@@ -20737,6 +20962,40 @@
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/2009/dap/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
+    "nfc": {
+        "authors": [
+            "Luc Yriarte",
+            "Samuel Ortiz",
+            "Don Coleman"
+        ],
+        "href": "http://www.w3.org/TR/nfc/",
+        "title": "Web NFC API",
+        "rawDate": "2014-01-14",
+        "status": "WD",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "http://www.w3.org/2012/nfc/"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20140114": {
+                "authors": [
+                    "Luc Yriarte",
+                    "Samuel Ortiz",
+                    "Don Coleman"
+                ],
+                "href": "http://www.w3.org/TR/2014/WD-nfc-20140114/",
+                "title": "Web NFC API",
+                "rawDate": "2014-01-14",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2012/nfc/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
@@ -28051,13 +28310,14 @@
     },
     "system-info-api": {
         "authors": [
+            "Max Froumentin",
             "Dzung Tran",
-            "Max Froumentin"
+            "Bryan Sullivan"
         ],
         "etAl": true,
         "href": "http://www.w3.org/TR/system-info-api/",
         "title": "The System Information API",
-        "status": "WD",
+        "status": "NOTE",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2009/dap/"
@@ -28078,9 +28338,25 @@
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
                 "etAl": true
+            },
+            "20140114": {
+                "authors": [
+                    "Max Froumentin",
+                    "Dzung Tran",
+                    "Bryan Sullivan"
+                ],
+                "href": "http://www.w3.org/TR/2014/NOTE-system-info-api-20140114/",
+                "title": "The System Information API",
+                "rawDate": "2014-01-14",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2009/dap/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2010-02-02",
+        "rawDate": "2014-01-14",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
     "task-models": {
@@ -28384,14 +28660,14 @@
     },
     "tracking-compliance": {
         "authors": [
-            "Justin Brookman",
             "Heather West",
+            "Justin Brookman",
             "Sean Harvey",
             "Erica Newland"
         ],
         "href": "http://www.w3.org/TR/tracking-compliance/",
         "title": "Tracking Compliance and Scope",
-        "rawDate": "2013-09-12",
+        "rawDate": "2014-01-28",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -28432,6 +28708,23 @@
                     "http://www.w3.org/2011/tracking-protection/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140128": {
+                "authors": [
+                    "Heather West",
+                    "Justin Brookman",
+                    "Sean Harvey",
+                    "Erica Newland"
+                ],
+                "href": "http://www.w3.org/TR/2014/WD-tracking-compliance-20140128/",
+                "title": "Tracking Compliance and Scope",
+                "rawDate": "2014-01-28",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2011/tracking-protection/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
     },
@@ -28442,7 +28735,7 @@
         ],
         "href": "http://www.w3.org/TR/tracking-dnt/",
         "title": "Tracking Preference Expression (DNT)",
-        "rawDate": "2013-09-12",
+        "rawDate": "2014-01-28",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -28473,6 +28766,21 @@
                 "href": "http://www.w3.org/TR/2013/WD-tracking-dnt-20130912/",
                 "title": "Tracking Preference Expression (DNT)",
                 "rawDate": "2013-09-12",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2011/tracking-protection/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140128": {
+                "authors": [
+                    "Roy Fielding",
+                    "David Singer"
+                ],
+                "href": "http://www.w3.org/TR/2014/WD-tracking-dnt-20140128/",
+                "title": "Tracking Preference Expression (DNT)",
+                "rawDate": "2014-01-28",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -29251,8 +29559,8 @@
         ],
         "href": "http://www.w3.org/TR/vocab-data-cube/",
         "title": "The RDF Data Cube Vocabulary",
-        "rawDate": "2013-12-17",
-        "status": "PR",
+        "rawDate": "2014-01-16",
+        "status": "REC",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2011/gld/"
@@ -29300,6 +29608,21 @@
                     "http://www.w3.org/2011/gld/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140116": {
+                "authors": [
+                    "Richard Cyganiak",
+                    "Dave Reynolds"
+                ],
+                "href": "http://www.w3.org/TR/2014/REC-vocab-data-cube-20140116/",
+                "title": "The RDF Data Cube Vocabulary",
+                "rawDate": "2014-01-16",
+                "status": "REC",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2011/gld/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
     },
@@ -29342,8 +29665,8 @@
         ],
         "href": "http://www.w3.org/TR/vocab-dcat/",
         "title": "Data Catalog Vocabulary (DCAT)",
-        "rawDate": "2013-12-17",
-        "status": "PR",
+        "rawDate": "2014-01-16",
+        "status": "REC",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2011/gld/"
@@ -29410,6 +29733,21 @@
                     "http://www.w3.org/2011/gld/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140116": {
+                "authors": [
+                    "Fadi Maali",
+                    "John Erickson"
+                ],
+                "href": "http://www.w3.org/TR/2014/REC-vocab-dcat-20140116/",
+                "title": "Data Catalog Vocabulary (DCAT)",
+                "rawDate": "2014-01-16",
+                "status": "REC",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2011/gld/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
     },
@@ -29419,8 +29757,8 @@
         ],
         "href": "http://www.w3.org/TR/vocab-org/",
         "title": "The Organization Ontology",
-        "rawDate": "2013-12-17",
-        "status": "PR",
+        "rawDate": "2014-01-16",
+        "status": "REC",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2011/gld/"
@@ -29460,6 +29798,20 @@
                 "title": "The Organization Ontology",
                 "rawDate": "2013-12-17",
                 "status": "PR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2011/gld/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140116": {
+                "authors": [
+                    "Dave Reynolds"
+                ],
+                "href": "http://www.w3.org/TR/2014/REC-vocab-org-20140116/",
+                "title": "The Organization Ontology",
+                "rawDate": "2014-01-16",
+                "status": "REC",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/2011/gld/"
@@ -30883,11 +31235,10 @@
         ],
         "href": "http://www.w3.org/TR/webintents-local-services/",
         "title": "Web Intents Addendum - Local Services",
-        "rawDate": "2012-10-04",
-        "status": "WD",
+        "rawDate": "2014-01-14",
+        "status": "NOTE",
         "publisher": "W3C",
         "deliveredBy": [
-            "http://www.w3.org/2008/webapps/",
             "http://www.w3.org/2009/dap/"
         ],
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
@@ -30904,6 +31255,21 @@
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/2008/webapps/",
+                    "http://www.w3.org/2009/dap/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140114": {
+                "authors": [
+                    "Claes Nilsson",
+                    "Norifumi Kikkawa"
+                ],
+                "href": "http://www.w3.org/TR/2014/NOTE-webintents-local-services-20140114/",
+                "title": "Web Intents Addendum - Local Services",
+                "rawDate": "2014-01-14",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
                     "http://www.w3.org/2009/dap/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
