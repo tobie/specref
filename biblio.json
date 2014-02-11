@@ -2968,6 +2968,14 @@
         "status": "Standard ECMA-402",
         "title": "ECMAScript Internationalization API Specification"
     },
+    "ECMA-404": {
+        "authors": [""],
+        "date": "1 October 2013",
+        "href": "http://www.ecma-international.org/publications/files/ECMA-ST/ECMA-404.pdf",
+        "publisher": "ECMA",
+        "status": "Standard",
+        "title": "The JSON Data Interchange Format"
+    },
     "ECMASCRIPT": {
         "href": "http://people.mozilla.org/~jorendorff/es6-draft.html",
         "title": "ECMA-262 ECMAScript Language Specification, Edition 6",
@@ -3087,6 +3095,13 @@
         },
         "rawDate": "2008-12-22",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+    },
+    "FETCH": {
+        "authors": ["Anne van Kesteren"],
+        "href": "http://fetch.spec.whatwg.org/",
+        "publisher": "WHATWG",
+        "status": "Living Standard",
+        "title": "Fetch Standard"
     },
     "FILE-API": {
         "aliasOf": "FileAPI"
