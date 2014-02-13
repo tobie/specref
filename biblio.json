@@ -1021,7 +1021,7 @@
         ],
         "href": "http://www.w3.org/TR/CSP11/",
         "title": "Content Security Policy 1.1",
-        "rawDate": "2013-06-04",
+        "rawDate": "2014-02-11",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -1051,6 +1051,22 @@
                 "href": "http://www.w3.org/TR/2013/WD-CSP11-20130604/",
                 "title": "Content Security Policy 1.1",
                 "rawDate": "2013-06-04",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2011/webappsec/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140211": {
+                "authors": [
+                    "Adam Barth",
+                    "Daniel Veditz",
+                    "Mike West"
+                ],
+                "href": "http://www.w3.org/TR/2014/WD-CSP11-20140211/",
+                "title": "Content Security Policy 1.1",
+                "rawDate": "2014-02-11",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -2958,6 +2974,16 @@
     "ECMA-262-51": {
         "aliasOf": "ECMA-262"
     },
+    "ECMA-404": {
+        "authors": [
+            ""
+        ],
+        "date": "1 October 2013",
+        "href": "http://www.ecma-international.org/publications/files/ECMA-ST/ECMA-404.pdf",
+        "publisher": "ECMA",
+        "status": "Standard",
+        "title": "The JSON Data Interchange Format"
+    },
     "ECMAS-402": {
         "authors": [
             "Norbert Lindenberg"
@@ -2967,14 +2993,6 @@
         "publisher": "ECMA",
         "status": "Standard ECMA-402",
         "title": "ECMAScript Internationalization API Specification"
-    },
-    "ECMA-404": {
-        "authors": [""],
-        "date": "1 October 2013",
-        "href": "http://www.ecma-international.org/publications/files/ECMA-ST/ECMA-404.pdf",
-        "publisher": "ECMA",
-        "status": "Standard",
-        "title": "The JSON Data Interchange Format"
     },
     "ECMASCRIPT": {
         "href": "http://people.mozilla.org/~jorendorff/es6-draft.html",
@@ -3097,7 +3115,9 @@
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
     "FETCH": {
-        "authors": ["Anne van Kesteren"],
+        "authors": [
+            "Anne van Kesteren"
+        ],
         "href": "http://fetch.spec.whatwg.org/",
         "publisher": "WHATWG",
         "status": "Living Standard",
@@ -4302,8 +4322,8 @@
             "Robert R Miner"
         ],
         "href": "http://www.w3.org/TR/MathML3/",
-        "title": "Mathematical Markup Language (MathML) Version 3.0",
-        "status": "REC",
+        "title": "Mathematical Markup Language (MathML) Version 3.0 2nd Edition",
+        "status": "PER",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/Math/"
@@ -4326,9 +4346,25 @@
                 ],
                 "hasErrata": "http://www.w3.org/Math/Documents/mathml3-errata.html",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140211": {
+                "authors": [
+                    "David Carlisle",
+                    "Patrick D F Ion",
+                    "Robert R Miner"
+                ],
+                "href": "http://www.w3.org/TR/2014/PER-MathML3-20140211/",
+                "title": "Mathematical Markup Language (MathML) Version 3.0 2nd Edition",
+                "rawDate": "2014-02-11",
+                "status": "PER",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Math/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2010-10-21",
+        "rawDate": "2014-02-11",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
     "MediaAccessEvents": {
@@ -7057,8 +7093,10 @@
             "Erik Dahlström",
             "Chris Lilley",
             "Cameron McCormack",
+            "Doug Schepers",
             "Dirk Schulze",
             "Richard Schwerdtfeger",
+            "Satoru Takagi",
             "Jonathan Watt"
         ],
         "href": "http://www.w3.org/TR/SVG2/",
@@ -7111,9 +7149,34 @@
                     "http://www.w3.org/Graphics/SVG/WG/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140211": {
+                "authors": [
+                    "Nikos Andronikos",
+                    "Tavmjong Bah",
+                    "Brian Birtles",
+                    "Cyril Concolato",
+                    "Erik Dahlström",
+                    "Chris Lilley",
+                    "Cameron McCormack",
+                    "Doug Schepers",
+                    "Dirk Schulze",
+                    "Richard Schwerdtfeger",
+                    "Satoru Takagi",
+                    "Jonathan Watt"
+                ],
+                "href": "http://www.w3.org/TR/2014/WD-SVG2-20140211/",
+                "title": "Scalable Vector Graphics (SVG) 2",
+                "rawDate": "2014-02-11",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Graphics/SVG/WG/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2013-06-18",
+        "rawDate": "2014-02-11",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
     "SVG2REQS": {
@@ -8697,7 +8760,7 @@
         ],
         "href": "http://www.w3.org/TR/WCAG-EM/",
         "title": "Website Accessibility Conformance Evaluation Methodology (WCAG-EM) 1.0",
-        "rawDate": "2013-02-26",
+        "rawDate": "2014-01-30",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -8714,6 +8777,22 @@
                 "href": "http://www.w3.org/TR/2013/WD-WCAG-EM-20130226/",
                 "title": "Website Accessibility Conformance Evaluation Methodology (WCAG-EM) 1.0",
                 "rawDate": "2013-02-26",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/WAI/ER/",
+                    "http://www.w3.org/WAI/GL/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140130": {
+                "authors": [
+                    "Eric Velleman",
+                    "Shadi Abou-Zahra"
+                ],
+                "href": "http://www.w3.org/TR/2014/WD-WCAG-EM-20140130/",
+                "title": "Website Accessibility Conformance Evaluation Methodology (WCAG-EM) 1.0",
+                "rawDate": "2014-01-30",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -10213,13 +10292,14 @@
     },
     "XMLHttpRequest": {
         "authors": [
+            "Anne van Kesteren",
             "Julian Aubourg",
             "Jungkee Song",
             "Hallvord Steen"
         ],
         "etAl": true,
         "href": "http://www.w3.org/TR/XMLHttpRequest/",
-        "title": "XMLHttpRequest",
+        "title": "XMLHttpRequest Level 1",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -10241,9 +10321,26 @@
                     "http://www.w3.org/2008/webapps/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140130": {
+                "authors": [
+                    "Anne van Kesteren",
+                    "Julian Aubourg",
+                    "Jungkee Song",
+                    "Hallvord Steen"
+                ],
+                "href": "http://www.w3.org/TR/2014/WD-XMLHttpRequest-20140130/",
+                "title": "XMLHttpRequest Level 1",
+                "rawDate": "2014-01-30",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2008/webapps/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2012-12-06",
+        "rawDate": "2014-01-30",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
     "XMLHttpRequest1": {
@@ -12334,8 +12431,8 @@
         ],
         "href": "http://www.w3.org/TR/css-masking-1/",
         "title": "CSS Masking Module Level 1",
-        "rawDate": "2013-10-29",
-        "status": "LCWD",
+        "rawDate": "2014-02-13",
+        "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/Graphics/SVG/WG/",
@@ -12353,6 +12450,23 @@
                 "title": "CSS Masking Module Level 1",
                 "rawDate": "2013-10-29",
                 "status": "LCWD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Graphics/SVG/WG/",
+                    "http://www.w3.org/Style/CSS/members"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140213": {
+                "authors": [
+                    "Dirk Schulze",
+                    "Brian Birtles",
+                    "Tab Atkins Jr."
+                ],
+                "href": "http://www.w3.org/TR/2014/WD-css-masking-1-20140213/",
+                "title": "CSS Masking Module Level 1",
+                "rawDate": "2014-02-13",
+                "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/Graphics/SVG/WG/",
@@ -12462,7 +12576,7 @@
         ],
         "href": "http://www.w3.org/TR/css-shapes-1/",
         "title": "CSS Shapes Module Level 1",
-        "rawDate": "2013-12-03",
+        "rawDate": "2014-02-11",
         "status": "LCWD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -12495,6 +12609,22 @@
                 "href": "http://www.w3.org/TR/2013/WD-css-shapes-1-20131203/",
                 "title": "CSS Shapes Module Level 1",
                 "rawDate": "2013-12-03",
+                "status": "LCWD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Style/CSS/members"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140211": {
+                "authors": [
+                    "Vincent Hardy",
+                    "Rossen Atanassov",
+                    "Alan Stearns"
+                ],
+                "href": "http://www.w3.org/TR/2014/WD-css-shapes-1-20140211/",
+                "title": "CSS Shapes Module Level 1",
+                "rawDate": "2014-02-11",
                 "status": "LCWD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -13023,7 +13153,7 @@
         ],
         "href": "http://www.w3.org/TR/css3-background/",
         "title": "CSS Backgrounds and Borders Module Level 3",
-        "status": "CR",
+        "status": "LCWD",
         "publisher": "W3C",
         "versions": {
             "20120724": {
@@ -13041,12 +13171,28 @@
                     "http://www.w3.org/Style/CSS/members"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140204": {
+                "authors": [
+                    "Bert Bos",
+                    "Elika Etemad",
+                    "Brad Kemper"
+                ],
+                "href": "http://www.w3.org/TR/2014/WD-css3-background-20140204/",
+                "title": "CSS Backgrounds and Borders Module Level 3",
+                "rawDate": "2014-02-04",
+                "status": "LCWD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Style/CSS/members"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
         "deliveredBy": [
             "http://www.w3.org/Style/CSS/members"
         ],
-        "rawDate": "2012-07-24",
+        "rawDate": "2014-02-04",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
     "css3-border": {
@@ -15320,7 +15466,7 @@
         ],
         "href": "http://www.w3.org/TR/dom/",
         "title": "W3C DOM4",
-        "status": "WD",
+        "status": "LCWD",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/html/wg/"
@@ -15360,9 +15506,27 @@
                     "http://www.w3.org/html/wg/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140204": {
+                "authors": [
+                    "Anne van Kesteren",
+                    "Aryeh Gregor",
+                    "Ms2ger",
+                    "Alex Russell",
+                    "Robin Berjon"
+                ],
+                "href": "http://www.w3.org/TR/2014/WD-dom-20140204/",
+                "title": "W3C DOM4",
+                "rawDate": "2014-02-04",
+                "status": "LCWD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/html/wg/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2013-11-07",
+        "rawDate": "2014-02-04",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
     "domxpath": {
@@ -15692,7 +15856,7 @@
         ],
         "href": "http://www.w3.org/TR/exi/",
         "title": "Efficient XML Interchange (EXI) Format 1.0 (Second Edition)",
-        "status": "PER",
+        "status": "REC",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/XML/EXI/"
@@ -15731,9 +15895,26 @@
                     "http://www.w3.org/XML/EXI/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140211": {
+                "authors": [
+                    "John Schneider",
+                    "Takuki Kamiya",
+                    "Daniel Peintner",
+                    "Rumen Kyusakov"
+                ],
+                "href": "http://www.w3.org/TR/2014/REC-exi-20140211/",
+                "title": "Efficient XML Interchange (EXI) Format 1.0 (Second Edition)",
+                "rawDate": "2014-02-11",
+                "status": "REC",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/XML/EXI/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2013-10-22",
+        "rawDate": "2014-02-11",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
     "exi-best-practices": {
@@ -17372,8 +17553,8 @@
         ],
         "href": "http://www.w3.org/TR/html-polyglot/",
         "title": "Polyglot Markup: A robust profile of the HTML5 vocabulary",
-        "rawDate": "2013-10-22",
-        "status": "WD",
+        "rawDate": "2014-02-04",
+        "status": "LCWD",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/html/wg/"
@@ -17403,6 +17584,21 @@
                 "title": "Polyglot Markup: A robust profile of the HTML5 vocabulary",
                 "rawDate": "2013-10-22",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/html/wg/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140204": {
+                "authors": [
+                    "Eliot Graff",
+                    "Leif Halvard Silli"
+                ],
+                "href": "http://www.w3.org/TR/2014/WD-html-polyglot-20140204/",
+                "title": "Polyglot Markup: A robust profile of the HTML5 vocabulary",
+                "rawDate": "2014-02-04",
+                "status": "LCWD",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/html/wg/"
@@ -17472,8 +17668,8 @@
         ],
         "href": "http://www.w3.org/TR/html-ruby-extensions/",
         "title": "W3C HTML Ruby Markup Extensions",
-        "rawDate": "2013-10-22",
-        "status": "WD",
+        "rawDate": "2014-02-04",
+        "status": "NOTE",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/html/wg/"
@@ -17488,6 +17684,20 @@
                 "title": "W3C HTML Ruby Markup Extensions",
                 "rawDate": "2013-10-22",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/html/wg/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140204": {
+                "authors": [
+                    "Robin Berjon"
+                ],
+                "href": "http://www.w3.org/TR/2014/NOTE-html-ruby-extensions-20140204/",
+                "title": "W3C HTML Ruby Markup Extensions",
+                "rawDate": "2014-02-04",
+                "status": "NOTE",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/html/wg/"
@@ -17718,7 +17928,7 @@
         ],
         "href": "http://www.w3.org/TR/html5/",
         "title": "HTML5",
-        "rawDate": "2013-08-06",
+        "rawDate": "2014-02-04",
         "status": "CR",
         "publisher": "W3C",
         "deliveredBy": [
@@ -17767,6 +17977,25 @@
                 "href": "http://www.w3.org/TR/2013/CR-html5-20130806/",
                 "title": "HTML5",
                 "rawDate": "2013-08-06",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/html/wg/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140204": {
+                "authors": [
+                    "Robin Berjon",
+                    "Steve Faulkner",
+                    "Travis Leithead",
+                    "Erika Doyle Navara",
+                    "Edward O'Connor",
+                    "Silvia Pfeiffer"
+                ],
+                "href": "http://www.w3.org/TR/2014/CR-html5-20140204/",
+                "title": "HTML5",
+                "rawDate": "2014-02-04",
                 "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -17909,12 +18138,11 @@
             "Travis Leithead",
             "Erika Doyle Navara",
             "Edward O'Connor",
-            "Silvia Pfeiffer",
-            "Ian Hickson"
+            "Silvia Pfeiffer"
         ],
         "href": "http://www.w3.org/TR/html51/",
         "title": "HTML 5.1",
-        "rawDate": "2013-10-29",
+        "rawDate": "2014-02-04",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -17970,6 +18198,25 @@
                 "href": "http://www.w3.org/TR/2013/WD-html51-20131029/",
                 "title": "HTML 5.1",
                 "rawDate": "2013-10-29",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/html/wg/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140204": {
+                "authors": [
+                    "Robin Berjon",
+                    "Steve Faulkner",
+                    "Travis Leithead",
+                    "Erika Doyle Navara",
+                    "Edward O'Connor",
+                    "Silvia Pfeiffer"
+                ],
+                "href": "http://www.w3.org/TR/2014/WD-html51-20140204/",
+                "title": "HTML 5.1",
+                "rawDate": "2014-02-04",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -20888,6 +21135,40 @@
         "rawDate": "2006-03-29",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
+    "navigation-error-logging": {
+        "authors": [
+            "Arvind Jain",
+            "Jatinder Mann",
+            "Alois Reitbauer"
+        ],
+        "href": "http://www.w3.org/TR/navigation-error-logging/",
+        "title": "Navigation Error Logging",
+        "rawDate": "2014-02-11",
+        "status": "WD",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "http://www.w3.org/2010/webperf/"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20140211": {
+                "authors": [
+                    "Arvind Jain",
+                    "Jatinder Mann",
+                    "Alois Reitbauer"
+                ],
+                "href": "http://www.w3.org/TR/2014/WD-navigation-error-logging-20140211/",
+                "title": "Navigation Error Logging",
+                "rawDate": "2014-02-11",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2010/webperf/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
     "navigation-timing": {
         "authors": [
             "Zhiheng Wang"
@@ -22792,7 +23073,7 @@
         ],
         "href": "http://www.w3.org/TR/progress-events/",
         "title": "Progress Events",
-        "status": "PR",
+        "status": "REC",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2008/webapps/"
@@ -22827,9 +23108,25 @@
                     "http://www.w3.org/2008/webapps/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140211": {
+                "authors": [
+                    "Anne van Kesteren",
+                    "Charles McCathie Nevile",
+                    "Jungkee Song"
+                ],
+                "href": "http://www.w3.org/TR/2014/REC-progress-events-20140211/",
+                "title": "Progress Events",
+                "rawDate": "2014-02-11",
+                "status": "REC",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2008/webapps/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2013-12-12",
+        "rawDate": "2014-02-11",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
     "pronunciation-lexicon": {
@@ -29436,8 +29733,8 @@
         ],
         "href": "http://www.w3.org/TR/vibration/",
         "title": "Vibration API",
-        "rawDate": "2013-07-23",
-        "status": "CR",
+        "rawDate": "2014-02-11",
+        "status": "LCWD",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2009/dap/"
@@ -29478,6 +29775,20 @@
                 "title": "Vibration API",
                 "rawDate": "2013-07-23",
                 "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2009/dap/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140211": {
+                "authors": [
+                    "Anssi Kostiainen"
+                ],
+                "href": "http://www.w3.org/TR/2014/WD-vibration-20140211/",
+                "title": "Vibration API",
+                "rawDate": "2014-02-11",
+                "status": "LCWD",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/2009/dap/"
@@ -30396,7 +30707,7 @@
         "etAl": true,
         "href": "http://www.w3.org/TR/wai-aria/",
         "title": "Accessible Rich Internet Applications (WAI-ARIA) 1.0",
-        "status": "CR",
+        "status": "PR",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/WAI/PF/"
@@ -30417,9 +30728,24 @@
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
                 "etAl": true
+            },
+            "20140206": {
+                "authors": [
+                    "James Craig",
+                    "Michael Cooper"
+                ],
+                "href": "http://www.w3.org/TR/2014/PR-wai-aria-20140206/",
+                "title": "Accessible Rich Internet Applications (WAI-ARIA) 1.0",
+                "rawDate": "2014-02-06",
+                "status": "PR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/WAI/PF/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2011-01-18",
+        "rawDate": "2014-02-06",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
     "wai-aria-1.1": {
@@ -30461,7 +30787,7 @@
         ],
         "href": "http://www.w3.org/TR/wai-aria-implementation/",
         "title": "WAI-ARIA 1.0 User Agent Implementation Guide",
-        "status": "CR",
+        "status": "PR",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/WAI/PF/"
@@ -30511,9 +30837,24 @@
                     "http://www.w3.org/WAI/PF/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140206": {
+                "authors": [
+                    "Joseph Scheuhammer",
+                    "Michael Cooper"
+                ],
+                "href": "http://www.w3.org/TR/2014/PR-wai-aria-implementation-20140206/",
+                "title": "WAI-ARIA 1.0 User Agent Implementation Guide",
+                "rawDate": "2014-02-06",
+                "status": "PR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/WAI/PF/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2013-12-17",
+        "rawDate": "2014-02-06",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
     "wai-aria-practices": {
@@ -35581,8 +35922,8 @@
             "Patrick D F Ion"
         ],
         "href": "http://www.w3.org/TR/xml-entity-names/",
-        "title": "XML Entity Definitions for Characters",
-        "status": "REC",
+        "title": "XML Entity Definitions for Characters (2nd Edition)",
+        "status": "PER",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/Math/"
@@ -35604,9 +35945,24 @@
                 ],
                 "hasErrata": "http://www.w3.org/2003/entities/2007xml/errata.html",
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140211": {
+                "authors": [
+                    "David Carlisle",
+                    "Patrick D F Ion"
+                ],
+                "href": "http://www.w3.org/TR/2014/PER-xml-entity-names-20140211/",
+                "title": "XML Entity Definitions for Characters (2nd Edition)",
+                "rawDate": "2014-02-11",
+                "status": "PER",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Math/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2010-04-01",
+        "rawDate": "2014-02-11",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
     "xml-events": {
@@ -36281,8 +36637,8 @@
         ],
         "href": "http://www.w3.org/TR/xml-proc-profiles/",
         "title": "XML processor profiles",
-        "rawDate": "2012-01-24",
-        "status": "LCWD",
+        "rawDate": "2014-02-06",
+        "status": "NOTE",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/XML/Processing/"
@@ -36299,6 +36655,22 @@
                 "title": "XML processor profiles",
                 "rawDate": "2012-01-24",
                 "status": "LCWD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/XML/Processing/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140206": {
+                "authors": [
+                    "Henry Thompson",
+                    "Norman Walsh",
+                    "James Fuller"
+                ],
+                "href": "http://www.w3.org/TR/2014/NOTE-xml-proc-profiles-20140206/",
+                "title": "XML processor profiles",
+                "rawDate": "2014-02-06",
+                "status": "NOTE",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/XML/Processing/"
@@ -39757,8 +40129,8 @@
         ],
         "href": "http://www.w3.org/TR/xqueryx-30/",
         "title": "XQueryX 3.0",
-        "rawDate": "2013-10-01",
-        "status": "LCWD",
+        "rawDate": "2014-01-30",
+        "status": "PR",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/XML/Query/"
@@ -39787,6 +40159,20 @@
                 "title": "XQueryX 3.0",
                 "rawDate": "2013-10-01",
                 "status": "LCWD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/XML/Query/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140130": {
+                "authors": [
+                    "Jim Melton"
+                ],
+                "href": "http://www.w3.org/TR/2014/PR-xqueryx-30-20140130/",
+                "title": "XQueryX 3.0",
+                "rawDate": "2014-01-30",
+                "status": "PR",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/XML/Query/"
