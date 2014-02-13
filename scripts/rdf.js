@@ -153,7 +153,7 @@ function makeCleaner(status, isRetired, isSuperseded) {
             hasErrata:       walk(spec, "mat:hasErrata", 0, "$", "rdf:resource"),
             source:          RDF_FILE
         };
-        obj.deliveredBy = obj.deliveredBy ? obj.deliveredBy.map(function(r) { return  walk(r, "contact:homePage", 0, "$", "rdf:resource"); }) : obj.deliveredBy;
+        obj.deliveredBy = obj.deliveredBy ? obj.deliveredBy.map(function(r) { var url = walk(r, "contact:homePage", 0, "$", "rdf:resource"); return {url: url, shortname: getWGShortNameFromURL(url) }; }) : obj.deliveredBy;
         obj.trURL = TR_URLS[obj.trURL] || obj.trURL;
         obj.shortName = getShortName(obj.trURL);
         return obj;
@@ -172,6 +172,28 @@ function walk(obj) {
     return obj;
 }
 
+function getWGShortNameFromURL(url) {
+    var shortname = url.toLowerCase()
+             // Die, date space die!
+             .replace(/\/([0-9]+\/)+/g, '/')
+             .replace(/-?wg/,'')
+             .replace(/group/,'')
+             .replace(/members/,'')
+             .replace(/\.html/,'')
+             .replace(/community/,'cg')
+             .replace(/international/,'i18n')
+             // base url
+             .replace("http://www.w3.org/", "")
+             .replace(/\/+/g, '/')
+             // Trailing slash
+             .replace(/\/$/, '')
+             // convert / into _
+             .replace(/\//g, "_") ;
+    if (WG_SHORTNAME_SPECIAL_CASES[shortname]) {
+	return WG_SHORTNAME_SPECIAL_CASES[shortname];
+    }
+    return shortname;
+}
 
 function _cloneJSON(obj) {
     return JSON.parse(JSON.stringify(obj));
@@ -248,6 +270,19 @@ var SHORT_NAME_SPECIAL_CASES = {
     "WD-positioning": "positioning",
     "WD-print": "print"
 }
+
+var WG_SHORTNAME_SPECIAL_CASES = {
+    'graphics_svg': 'svg',
+    'graphics_webcgm': 'webcgm',
+    'markup': 'html-old',
+    'markup_coord': 'hypertextcg',
+    'markup_forms': 'forms',
+    'mobile_ccpp': 'ccpp',
+    'p3p_specification': 'p3p',
+    'style_css': 'css',
+    'style_xsl': 'xsl',
+    'xp': 'xml_protocol'
+};
 
 function getShortName(url) {
     if (SPECIAL_CASES[url]) return SPECIAL_CASES[url];

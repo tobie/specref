@@ -48,8 +48,10 @@ function testDeliveredByArray(obj, key) {
         test(wrap(key) + ' has a deliveredBy array', function() {
             assert.ok(obj.deliveredBy instanceof Array);
             assert.ok(obj.deliveredBy.length > 0);
-            obj.deliveredBy.forEach(function(url) {
-                assert.ok(typeof url == "string");
+            obj.deliveredBy.forEach(function(wg) {
+                assert.ok(typeof wg == "object");
+                assert.ok(typeof wg.url == "string");
+                assert.ok(typeof wg.shortname == "string");
             })
         });
     }
