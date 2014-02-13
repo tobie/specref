@@ -110,8 +110,4 @@ suite('Test bibref api', function() {
         assert.ok('hello' in output, "Returns another ref.");
     });
 
-    test('bibref.get sets working group shortnames', function() {
-        var b = bibref.create(obj);
-    });
-
 });
