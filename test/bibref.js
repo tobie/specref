@@ -38,6 +38,7 @@ suite('Test bibref api', function() {
             foo: {
                 versions: {},
                 rawDate: "2012-1-1",
+		deliveredBy: [ "http://www.w3.org/html/wg/" ],
                 bar: 123
             }
         });
@@ -46,6 +47,9 @@ suite('Test bibref api', function() {
         assert.ok(!('rawDate' in foo));
         assert.ok('date' in foo);
         assert.ok(!('bar' in foo));
+	assert.ok(typeof foo.deliveredBy[0] == "object", "The deliveredBy property of ref is an array objects.");
+	assert.ok('shortname' in foo.deliveredBy[0], "The deliveredBy property of ref has a shortname property.");
+	assert.equal(foo.deliveredBy[0].shortname, 'html', "The url http://www.w3.org/html/wg/ gets properly turned into the html shortname.");
     });
     
     test('bibref.findLatest finds the latest version of the ref', function() {
@@ -105,4 +109,5 @@ suite('Test bibref api', function() {
         assert.ok('foo' in output, "Returns the ref itself.");
         assert.ok('hello' in output, "Returns another ref.");
     });
+
 });
