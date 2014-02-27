@@ -77,7 +77,7 @@ app.get('/search-refs', function (req, res, next) {
 		}
         res.jsonp(obj);
     } else {
-        res.jsonp({message: "Missing q parameter"}, 400);
+        res.jsonp(400, { message: "Missing q parameter" });
     }
 });
 
