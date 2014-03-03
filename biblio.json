@@ -5937,6 +5937,19 @@
     },
     "RFC4051": "D. Eastlake 3rd. <a href=\"http://www.ietf.org/rfc/rfc4051.txt\"><cite>Additional XML Security Uniform Resource Identifiers</cite></a>. RFC 4051 April 2005. URL: <a href=\"http://www.ietf.org/rfc/rfc4051.txt\">http://www.ietf.org/rfc/rfc4051.txt</a>",
     "RFC4055": "J. Schaad, B. Kaliski, R. Housley. <a href=\"http://www.ietf.org/rfc/rfc4055.txt\"><cite>Additional Algorithms and Identifiers for RSA Cryptography for use in the Internet X.509 Public Key Infrastructure Certificate and Certificate Revocation List (CRL) Profile</cite></a>. June 2005. IETF RFC 4055. URL: <a href=\"http://www.ietf.org/rfc/rfc4055.txt\">http://www.ietf.org/rfc/rfc4055.txt</a>",
+    "RFC4210": {
+        "authors": [
+            "C. Neuman",
+            "T. Yu",
+            "S. Hartman",
+            "K. Raeburn"
+        ],
+        "href": "http://www.ietf.org/rfc/rfc4120.txt",
+        "date": "July 2005",
+        "publisher": "IETF",
+        "status": "RFC",
+        "title": "The Kerberos Network Authentication Protcol (V5) (RFC 4120)"
+    },
     "RFC4122": {
         "authors": [
             "P. Leach",
@@ -6204,6 +6217,28 @@
         "status": "RFC",
         "publisher": "IETF"
     },
+    "RFC5849": {
+        "authors": [
+            "E. Hammer-Lahav"
+        ],
+        "href": "http://tools.ietf.org/html/rfc5849",
+        "title": "The OAuth 1.0 Protocol (RFC 5849)",
+        "date": "April 2010",
+        "status": "RFC",
+        "publisher": "IETF"
+    },
+    "RFC5929": {
+        "authors": [
+            "J. Altman",
+            "N. Williams",
+            "L. Zhu"
+        ],
+        "href": "http://tools.ietf.org/html/rfc5929",
+        "title": "Channel Bindings for TLS (RFC 5929)",
+        "date": "July 2010",
+        "status": "RFC",
+        "publisher": "IETF"
+    },
     "RFC5988": {
         "authors": [
             "Mark Nottingham"
@@ -6236,6 +6271,18 @@
         "title": "Fundamental Elliptic Curve Cryptography Algorithms",
         "date": "February 2011",
         "status": "Informational",
+        "publisher": "IETF",
+        "issn": "2070-1721"
+    },
+    "RFC6125": {
+        "authors": [
+            "P. Saint-Andre",
+            "J. Hodges"
+        ],
+        "href": "http://www.ietf.org/rfc/rfc6125.txt",
+        "title": "Representation and Verification of Domain-Based Application Service Identity within Internet Public Key Infrastructure Using X.509 (PKIX) Certificates in the Context of Transport Layer Security (TLS) (RFC 6125)",
+        "date": "March 2011",
+        "status": "RFC",
         "publisher": "IETF",
         "issn": "2070-1721"
     },
@@ -6276,13 +6323,24 @@
         "publisher": "IETF",
         "issn": "2070-1721"
     },
-    "RFC6762": {
+    "RFC6749": {
+        "authors": [
+            "D. Hardt"
+        ],
+        "href": "http://www.ietf.org/rfc/rfc6749.txt",
+        "title": "The OAuth 2.0 Authorization Framework (RFC 6749)",
+        "date": "October 2012",
+        "status": "RFC",
+        "publisher": "IETF",
+        "issn": "2070-1721"
+    },
+    "RFC6763": {
         "authors": [
             "S. Cheshire",
             "M. Krochmal"
         ],
         "href": "http://www.ietf.org/rfc/rfc6763.txt",
-        "title": "Multicast DNS",
+        "title": "DNS-Based Service Discovery",
         "date": "February 2013",
         "status": "RFC",
         "publisher": "IETF",
@@ -6837,6 +6895,7 @@
     "SP800-56A": "<a href=\"http://csrc.nist.gov/publications/nistpubs/800-56A/SP800-56A_Revision1_Mar08-2007.pdf\"><cite> NIST Special Publication 800-56A: Recommendation for Pair-Wise Key Establishment Schemes Using Discrete Logarithm Cryptography (Revised)</cite></a>. March 2007 URL: <a href=\"http://csrc.nist.gov/publications/nistpubs/800-56A/SP800-56A_Revision1_Mar08-2007.pdf\">http://csrc.nist.gov/publications/nistpubs/800-56A/SP800-56A_Revision1_Mar08-2007.pdf</a>",
     "SP800-57": "<a href=\"http://csrc.nist.gov/publications/nistpubs/800-57/sp800-57_part1_rev3_general.pdf\"><cite>Recommendation for Key Management &#8211; Part 1: General (Revision 3)</cite></a>. SP800-57. July 2012. U.S. Department of Commerce/National Institute of Standards and Technology. URL: <a href=\"http://csrc.nist.gov/publications/nistpubs/800-57/sp800-57_part1_rev3_general.pdf\">http://csrc.nist.gov/publications/nistpubs/800-57/sp800-57_part1_rev3_general.pdf</a>",
     "SP800-67": "<a href=\"http://csrc.nist.gov/publications/nistpubs/800-67-Rev1/SP-800-67-Rev1.pdf\"><cite> Recommendation for the Triple Data Encryption Algorithm (TDEA) Block Cipher, Revised January 2012.</cite></a> SP-800-67 Revision 1. U.S. Department of Commerce/National Institute of Standards and Technology. URL: <a href=\"http://csrc.nist.gov/publications/nistpubs/800-67-Rev1/SP-800-67-Rev1.pdf\">http://csrc.nist.gov/publications/nistpubs/800-67-Rev1/SP-800-67-Rev1.pdf</a>",
+    "SP800-131A": "<a href=\"http://csrc.nist.gov/publications/nistpubs/800-131A/sp800-131A.pdf\"><cite> Transitions: Recommendation for Transitioning the Use of Cryptographic Algorithms and Key Lengths, January 2011.</cite></a> SP-800-131A U.S. Department of Commerce/National Institute of Standards and Technology. URL: <a href=\"http://csrc.nist.gov/publications/nistpubs/800-131A/sp800-131A.pdf\">http://csrc.nist.gov/publications/nistpubs/800-131A/sp800-131A.pdf</a>",
     "SPARQL-QUERY": {
         "aliasOf": "rdf-sparql-query"
     },
