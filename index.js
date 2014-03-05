@@ -36,7 +36,7 @@ app.get('/bibrefs', function (req, res, next) {
 
 // search
 app.get('/search-refs', function (req, res, next) {
-    var q = req.param("q").toLowerCase();
+    var q = (req.param("q") || "").toLowerCase();
     if (q) {
 		var obj = {};
 		var current, shortname;
