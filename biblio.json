@@ -6859,6 +6859,42 @@
         "aliasOf": "sprot11"
     },
     "SRGB": "<a href=\"http://www.iec.ch/nr1899.htm\"><cite>Multimedia systems and equipment - Colour measurement and management - Part 2-1: Colour management - Default RGB colour space - sRGB.</cite></a> IEC 61966-2-1 (1999-10). ISBN: 2-8318-4989-6 - ICS codes: 33.160.60, 37.080 - TC 100 - 51 pp. URL: <a href=\"http://www.iec.ch/nr1899.htm\">http://www.iec.ch/nr1899.htm</a>",
+    "SRI": {
+        "authors": [
+            "Frederik Braun",
+            "Devdatta Akhawe",
+            "Joel Weinberger",
+            "Mike West"
+        ],
+        "href": "http://www.w3.org/TR/SRI/",
+        "title": "Subresource Integrity",
+        "rawDate": "2014-03-18",
+        "status": "WD",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "http://www.w3.org/2011/webappsec/"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20140318": {
+                "authors": [
+                    "Frederik Braun",
+                    "Devdatta Akhawe",
+                    "Joel Weinberger",
+                    "Mike West"
+                ],
+                "href": "http://www.w3.org/TR/2014/WD-SRI-20140318/",
+                "title": "Subresource Integrity",
+                "rawDate": "2014-03-18",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2011/webappsec/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
     "SSE": {
         "aliasOf": "eventsource"
     },
@@ -8349,8 +8385,8 @@
         ],
         "href": "http://www.w3.org/TR/UISecurity/",
         "title": "User Interface Security Directives for Content Security Policy",
-        "rawDate": "2013-05-23",
-        "status": "WD",
+        "rawDate": "2014-03-18",
+        "status": "LCWD",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2011/webappsec/"
@@ -8368,6 +8404,23 @@
                 "title": "User Interface Security Directives for Content Security Policy",
                 "rawDate": "2013-05-23",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2011/webappsec/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140318": {
+                "authors": [
+                    "Giorgio Maone",
+                    "David Huang",
+                    "Tobias Gondrom",
+                    "Brad Hill"
+                ],
+                "href": "http://www.w3.org/TR/2014/WD-UISecurity-20140318/",
+                "title": "User Interface Security Directives for Content Security Policy",
+                "rawDate": "2014-03-18",
+                "status": "LCWD",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/2011/webappsec/"
@@ -8411,10 +8464,8 @@
     "UNDERSTANDING-WCAG20": {
         "authors": [
             "Michael Cooper",
-            "Loretta Guarino Reid",
             "Andrew Kirkpatrick",
-            "Joshue O Connor",
-            "Gregg Vanderheiden"
+            "Joshue O Connor"
         ],
         "etAl": true,
         "href": "http://www.w3.org/TR/UNDERSTANDING-WCAG20/",
@@ -8458,9 +8509,25 @@
                     "http://www.w3.org/WAI/GL/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140311": {
+                "authors": [
+                    "Michael Cooper",
+                    "Andrew Kirkpatrick",
+                    "Joshue O Connor"
+                ],
+                "href": "http://www.w3.org/TR/2014/NOTE-UNDERSTANDING-WCAG20-20140311/",
+                "title": "Understanding WCAG 2.0",
+                "rawDate": "2014-03-11",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/WAI/GL/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2013-09-05",
+        "rawDate": "2014-03-11",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
     "UNICODE": {
@@ -8993,10 +9060,8 @@
     "WCAG20-TECHS": {
         "authors": [
             "Michael Cooper",
-            "Loretta Guarino Reid",
             "Andrew Kirkpatrick",
-            "Joshue O Connor",
-            "Gregg Vanderheiden"
+            "Joshue O Connor"
         ],
         "etAl": true,
         "href": "http://www.w3.org/TR/WCAG20-TECHS/",
@@ -9040,9 +9105,25 @@
                     "http://www.w3.org/WAI/GL/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140311": {
+                "authors": [
+                    "Michael Cooper",
+                    "Andrew Kirkpatrick",
+                    "Joshue O Connor"
+                ],
+                "href": "http://www.w3.org/TR/2014/NOTE-WCAG20-TECHS-20140311/",
+                "title": "Techniques for WCAG 2.0",
+                "rawDate": "2014-03-11",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/WAI/GL/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2013-09-05",
+        "rawDate": "2014-03-11",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
     "WCSS11": "Open Mobile Alliance. <a href=\"http://www.openmobilealliance.org/technical/release_program/docs/Browsing/V2_3-20080331-A/OMA-WAP-WCSS-V1_1-20061020-A.pdf\"><cite>Wireless CSS Specification.</cite></a> October 2006. Approved Version 1.1. URL: <a href=\"http://www.openmobilealliance.org/technical/release_program/docs/Browsing/V2_3-20080331-A/OMA-WAP-WCSS-V1_1-20061020-A.pdf\">http://www.openmobilealliance.org/technical/release_program/docs/Browsing/V2_3-20080331-A/OMA-WAP-WCSS-V1_1-20061020-A.pdf</a> ",
@@ -11425,6 +11506,36 @@
         "isRetired": true,
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
+    "capability-urls": {
+        "authors": [
+            "Jeni Tennison"
+        ],
+        "href": "http://www.w3.org/TR/capability-urls/",
+        "title": "Good Practices for Capability URLs",
+        "rawDate": "2014-02-18",
+        "status": "WD",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "http://www.w3.org/2001/tag/"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20140218": {
+                "authors": [
+                    "Jeni Tennison"
+                ],
+                "href": "http://www.w3.org/TR/2014/WD-capability-urls-20140218/",
+                "title": "Good Practices for Capability URLs",
+                "rawDate": "2014-02-18",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2001/tag/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
     "capture-scenarios": {
         "authors": [
             "Travis Leithead"
@@ -11667,9 +11778,23 @@
                     "http://www.w3.org/2008/webapps/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140313": {
+                "authors": [
+                    "Hallvord Steen"
+                ],
+                "href": "http://www.w3.org/TR/2014/WD-clipboard-apis-20140313/",
+                "title": "Clipboard API and events",
+                "rawDate": "2014-03-13",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2008/webapps/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2013-04-11",
+        "rawDate": "2014-03-13",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
     "components-intro": {
@@ -11748,8 +11873,8 @@
         ],
         "href": "http://www.w3.org/TR/compositing-1/",
         "title": "Compositing and Blending Level 1",
-        "rawDate": "2014-01-07",
-        "status": "LCWD",
+        "rawDate": "2014-02-20",
+        "status": "CR",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/Graphics/SVG/WG/",
@@ -11797,6 +11922,22 @@
                 "title": "Compositing and Blending Level 1",
                 "rawDate": "2014-01-07",
                 "status": "LCWD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Graphics/SVG/WG/",
+                    "http://www.w3.org/Style/CSS/members"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140220": {
+                "authors": [
+                    "Rik Cabanier",
+                    "Nikos Andronikos"
+                ],
+                "href": "http://www.w3.org/TR/2014/CR-compositing-1-20140220/",
+                "title": "Compositing and Blending Level 1",
+                "rawDate": "2014-02-20",
+                "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/Graphics/SVG/WG/",
@@ -12306,6 +12447,66 @@
         "rawDate": "2011-09-15",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
+    "css-display-3": {
+        "authors": [
+            "Tab Atkins Jr."
+        ],
+        "href": "http://www.w3.org/TR/css-display-3/",
+        "title": "CSS Display Module Level 3",
+        "rawDate": "2014-02-20",
+        "status": "WD",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "http://www.w3.org/Style/CSS/members"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20140220": {
+                "authors": [
+                    "Tab Atkins Jr."
+                ],
+                "href": "http://www.w3.org/TR/2014/WD-css-display-3-20140220/",
+                "title": "CSS Display Module Level 3",
+                "rawDate": "2014-02-20",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Style/CSS/members"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
+    "css-font-loading-3": {
+        "authors": [
+            "Tab Atkins Jr."
+        ],
+        "href": "http://www.w3.org/TR/css-font-loading-3/",
+        "title": "CSS Font Loading Module Level 3",
+        "rawDate": "2014-02-20",
+        "status": "WD",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "http://www.w3.org/Style/CSS/members"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20140220": {
+                "authors": [
+                    "Tab Atkins Jr."
+                ],
+                "href": "http://www.w3.org/TR/2014/WD-css-font-loading-3-20140220/",
+                "title": "CSS Font Loading Module Level 3",
+                "rawDate": "2014-02-20",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Style/CSS/members"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
     "css-fonts-3": {
         "authors": [
             "John Daggett"
@@ -12709,8 +12910,8 @@
         ],
         "href": "http://www.w3.org/TR/css-syntax-3/",
         "title": "CSS Syntax Module Level 3",
-        "rawDate": "2013-11-05",
-        "status": "LCWD",
+        "rawDate": "2014-02-20",
+        "status": "CR",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/Style/CSS/members"
@@ -12741,6 +12942,21 @@
                 "title": "CSS Syntax Module Level 3",
                 "rawDate": "2013-11-05",
                 "status": "LCWD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Style/CSS/members"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140220": {
+                "authors": [
+                    "Tab Atkins Jr.",
+                    "Simon Sapin"
+                ],
+                "href": "http://www.w3.org/TR/2014/CR-css-syntax-3-20140220/",
+                "title": "CSS Syntax Module Level 3",
+                "rawDate": "2014-02-20",
+                "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/Style/CSS/members"
@@ -14081,13 +14297,12 @@
     },
     "css3-regions": {
         "authors": [
-            "Vincent Hardy",
             "Rossen Atanassov",
             "Alan Stearns"
         ],
         "href": "http://www.w3.org/TR/css3-regions/",
         "title": "CSS Regions Module Level 1",
-        "rawDate": "2013-05-28",
+        "rawDate": "2014-02-18",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -14117,6 +14332,21 @@
                 "href": "http://www.w3.org/TR/2013/WD-css3-regions-20130528/",
                 "title": "CSS Regions Module Level 1",
                 "rawDate": "2013-05-28",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Style/CSS/members"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140218": {
+                "authors": [
+                    "Rossen Atanassov",
+                    "Alan Stearns"
+                ],
+                "href": "http://www.w3.org/TR/2014/WD-css3-regions-20140218/",
+                "title": "CSS Regions Module Level 1",
+                "rawDate": "2014-02-18",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -15423,7 +15653,7 @@
         ],
         "href": "http://www.w3.org/TR/discovery-api/",
         "title": "Network Service Discovery",
-        "rawDate": "2013-09-24",
+        "rawDate": "2014-02-20",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -15453,6 +15683,20 @@
                 "href": "http://www.w3.org/TR/2013/WD-discovery-api-20130924/",
                 "title": "Network Service Discovery",
                 "rawDate": "2013-09-24",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2009/dap/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140220": {
+                "authors": [
+                    "Rich Tibbett"
+                ],
+                "href": "http://www.w3.org/TR/2014/WD-discovery-api-20140220/",
+                "title": "Network Service Discovery",
+                "rawDate": "2014-02-20",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -15537,6 +15781,66 @@
     },
     "domxpath": {
         "aliasOf": "DOM-Level-3-XPath"
+    },
+    "dpub-annotation-uc": {
+        "authors": [
+            "Robert Sanderson"
+        ],
+        "href": "http://www.w3.org/TR/dpub-annotation-uc/",
+        "title": "Annotation Use Cases",
+        "rawDate": "2014-03-13",
+        "status": "WD",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "http://www.w3.org/dpub/IG/"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20140313": {
+                "authors": [
+                    "Robert Sanderson"
+                ],
+                "href": "http://www.w3.org/TR/2014/WD-dpub-annotation-uc-20140313/",
+                "title": "Annotation Use Cases",
+                "rawDate": "2014-03-13",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/dpub/IG/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
+    "dpub-latinreq": {
+        "authors": [
+            "Dave Cramer"
+        ],
+        "href": "http://www.w3.org/TR/dpub-latinreq/",
+        "title": "Requirements for Latin Text Layout and Pagination",
+        "rawDate": "2014-03-13",
+        "status": "WD",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "http://www.w3.org/dpub/IG/"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20140313": {
+                "authors": [
+                    "Dave Cramer"
+                ],
+                "href": "http://www.w3.org/TR/2014/WD-dpub-latinreq-20140313/",
+                "title": "Requirements for Latin Text Layout and Pagination",
+                "rawDate": "2014-03-13",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/dpub/IG/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
     },
     "egov-improving": {
         "authors": [
@@ -15781,7 +16085,7 @@
         ],
         "href": "http://www.w3.org/TR/encrypted-media/",
         "title": "Encrypted Media Extensions",
-        "rawDate": "2013-10-22",
+        "rawDate": "2014-02-18",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -15814,6 +16118,22 @@
                 "href": "http://www.w3.org/TR/2013/WD-encrypted-media-20131022/",
                 "title": "Encrypted Media Extensions",
                 "rawDate": "2013-10-22",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/html/wg/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140218": {
+                "authors": [
+                    "David Dorwin",
+                    "Adrian Bateman",
+                    "Mark Watson"
+                ],
+                "href": "http://www.w3.org/TR/2014/WD-encrypted-media-20140218/",
+                "title": "Encrypted Media Extensions",
+                "rawDate": "2014-02-18",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -16491,7 +16811,7 @@
         ],
         "href": "http://www.w3.org/TR/gamepad/",
         "title": "Gamepad",
-        "rawDate": "2012-05-29",
+        "rawDate": "2014-02-25",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -16507,6 +16827,21 @@
                 "href": "http://www.w3.org/TR/2012/WD-gamepad-20120529/",
                 "title": "Gamepad",
                 "rawDate": "2012-05-29",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2008/webapps/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140225": {
+                "authors": [
+                    "Scott Graham",
+                    "Theodore Mielczarek"
+                ],
+                "href": "http://www.w3.org/TR/2014/WD-gamepad-20140225/",
+                "title": "Gamepad",
+                "rawDate": "2014-02-25",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -17295,11 +17630,12 @@
     },
     "html-imports": {
         "authors": [
-            "Dimitri Glazkov"
+            "Dimitri Glazkov",
+            "Hajime Morita"
         ],
         "href": "http://www.w3.org/TR/html-imports/",
         "title": "HTML Imports",
-        "rawDate": "2013-05-14",
+        "rawDate": "2014-03-11",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -17314,6 +17650,21 @@
                 "href": "http://www.w3.org/TR/2013/WD-html-imports-20130514/",
                 "title": "HTML Imports",
                 "rawDate": "2013-05-14",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2008/webapps/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140311": {
+                "authors": [
+                    "Dimitri Glazkov",
+                    "Hajime Morita"
+                ],
+                "href": "http://www.w3.org/TR/2014/WD-html-imports-20140311/",
+                "title": "HTML Imports",
+                "rawDate": "2014-03-11",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -17750,8 +18101,8 @@
         ],
         "href": "http://www.w3.org/TR/html-templates/",
         "title": "HTML Templates",
-        "rawDate": "2013-02-14",
-        "status": "WD",
+        "rawDate": "2014-03-18",
+        "status": "NOTE",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2008/webapps/"
@@ -17768,6 +18119,22 @@
                 "title": "HTML Templates",
                 "rawDate": "2013-02-14",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2008/webapps/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140318": {
+                "authors": [
+                    "Dimitri Glazkov",
+                    "Rafael Weinstein",
+                    "Tony Ross"
+                ],
+                "href": "http://www.w3.org/TR/2014/NOTE-html-templates-20140318/",
+                "title": "HTML Templates",
+                "rawDate": "2014-03-18",
+                "status": "NOTE",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/2008/webapps/"
@@ -19227,7 +19594,7 @@
         ],
         "href": "http://www.w3.org/TR/ldp/",
         "title": "Linked Data Platform 1.0",
-        "rawDate": "2013-07-30",
+        "rawDate": "2014-03-11",
         "status": "LCWD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -19265,6 +19632,22 @@
                     "http://www.w3.org/2012/ldp/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140311": {
+                "authors": [
+                    "Steve Speicher",
+                    "John Arwe",
+                    "Ashok Malhotra"
+                ],
+                "href": "http://www.w3.org/TR/2014/WD-ldp-20140311/",
+                "title": "Linked Data Platform 1.0",
+                "rawDate": "2014-03-11",
+                "status": "LCWD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2012/ldp/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
     },
@@ -19275,8 +19658,8 @@
         ],
         "href": "http://www.w3.org/TR/ldp-ucr/",
         "title": "Linked Data Platform Use Cases and Requirements",
-        "rawDate": "2013-10-31",
-        "status": "WD",
+        "rawDate": "2014-03-13",
+        "status": "NOTE",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2012/ldp/"
@@ -19307,6 +19690,21 @@
                 "title": "Linked Data Platform Use Cases and Requirements",
                 "rawDate": "2013-10-31",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2012/ldp/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140313": {
+                "authors": [
+                    "Steve Battle",
+                    "Steve Speicher"
+                ],
+                "href": "http://www.w3.org/TR/2014/NOTE-ldp-ucr-20140313/",
+                "title": "Linked Data Platform Use Cases and Requirements",
+                "rawDate": "2014-03-13",
+                "status": "NOTE",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/2012/ldp/"
@@ -20038,8 +20436,8 @@
             "Chris Poppe"
         ],
         "href": "http://www.w3.org/TR/mediaont-api-1.0/",
-        "title": "API for Media Resources 1.0",
-        "status": "PR",
+        "title": "Metadata API for Media Resources 1.0",
+        "status": "REC",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2008/WebVideo/Annotations/"
@@ -20080,9 +20478,27 @@
                     "http://www.w3.org/2008/WebVideo/Annotations/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140313": {
+                "authors": [
+                    "Florian Stegmaier",
+                    "Werner Bailer",
+                    "Martin Höffernig",
+                    "WonSuk Lee",
+                    "Chris Poppe"
+                ],
+                "href": "http://www.w3.org/TR/2014/REC-mediaont-api-1.0-20140313/",
+                "title": "Metadata API for Media Resources 1.0",
+                "rawDate": "2014-03-13",
+                "status": "REC",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2008/WebVideo/Annotations/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2013-10-15",
+        "rawDate": "2014-03-13",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
     "mediastream-recording": {
@@ -20971,8 +21387,8 @@
         ],
         "href": "http://www.w3.org/TR/n-quads/",
         "title": "RDF 1.1 N-Quads",
-        "rawDate": "2014-01-09",
-        "status": "PR",
+        "rawDate": "2014-02-25",
+        "status": "REC",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2011/rdf-wg/"
@@ -21034,6 +21450,20 @@
                     "http://www.w3.org/2011/rdf-wg/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140225": {
+                "authors": [
+                    "Gavin Carothers"
+                ],
+                "href": "http://www.w3.org/TR/2014/REC-n-quads-20140225/",
+                "title": "RDF 1.1 N-Quads",
+                "rawDate": "2014-02-25",
+                "status": "REC",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2011/rdf-wg/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
     },
@@ -21044,8 +21474,8 @@
         ],
         "href": "http://www.w3.org/TR/n-triples/",
         "title": "RDF 1.1 N-Triples",
-        "rawDate": "2014-01-09",
-        "status": "PR",
+        "rawDate": "2014-02-25",
+        "status": "REC",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2011/rdf-wg/"
@@ -21103,6 +21533,21 @@
                 "title": "RDF 1.1 N-Triples",
                 "rawDate": "2014-01-09",
                 "status": "PR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2011/rdf-wg/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140225": {
+                "authors": [
+                    "Gavin Carothers",
+                    "Andy Seaborne"
+                ],
+                "href": "http://www.w3.org/TR/2014/REC-n-triples-20140225/",
+                "title": "RDF 1.1 N-Triples",
+                "rawDate": "2014-02-25",
+                "status": "REC",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/2011/rdf-wg/"
@@ -24394,7 +24839,7 @@
         ],
         "href": "http://www.w3.org/TR/rdf-schema/",
         "title": "RDF Schema 1.1",
-        "status": "PER",
+        "status": "REC",
         "publisher": "W3C",
         "hasErrata": "http://www.w3.org/2001/sw/RDFCore/errata#rdf-schema",
         "versions": {
@@ -24425,9 +24870,24 @@
                     "http://www.w3.org/2011/rdf-wg/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140225": {
+                "authors": [
+                    "Dan Brickley",
+                    "Ramanathan Guha"
+                ],
+                "href": "http://www.w3.org/TR/2014/REC-rdf-schema-20140225/",
+                "title": "RDF Schema 1.1",
+                "rawDate": "2014-02-25",
+                "status": "REC",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2011/rdf-wg/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2014-01-09",
+        "rawDate": "2014-02-25",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
         "deliveredBy": [
             "http://www.w3.org/2011/rdf-wg/"
@@ -24594,7 +25054,7 @@
         ],
         "href": "http://www.w3.org/TR/rdf-syntax-grammar/",
         "title": "RDF 1.1 XML Syntax",
-        "status": "PER",
+        "status": "REC",
         "publisher": "W3C",
         "hasErrata": "http://www.w3.org/2001/sw/RDFCore/errata#rdf-syntax-grammar",
         "versions": {
@@ -24636,9 +25096,24 @@
                     "http://www.w3.org/2011/rdf-wg/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140225": {
+                "authors": [
+                    "Fabien Gandon",
+                    "Guus Schreiber"
+                ],
+                "href": "http://www.w3.org/TR/2014/REC-rdf-syntax-grammar-20140225/",
+                "title": "RDF 1.1 XML Syntax",
+                "rawDate": "2014-02-25",
+                "status": "REC",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2011/rdf-wg/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2014-01-09",
+        "rawDate": "2014-02-25",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
         "deliveredBy": [
             "http://www.w3.org/2011/rdf-wg/"
@@ -24704,8 +25179,8 @@
         ],
         "href": "http://www.w3.org/TR/rdf11-concepts/",
         "title": "RDF 1.1 Concepts and Abstract Syntax",
-        "rawDate": "2014-01-09",
-        "status": "PR",
+        "rawDate": "2014-02-25",
+        "status": "REC",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2011/rdf-wg/"
@@ -24773,6 +25248,22 @@
                     "http://www.w3.org/2011/rdf-wg/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140225": {
+                "authors": [
+                    "Richard Cyganiak",
+                    "David Wood",
+                    "Markus Lanthaler"
+                ],
+                "href": "http://www.w3.org/TR/2014/REC-rdf11-concepts-20140225/",
+                "title": "RDF 1.1 Concepts and Abstract Syntax",
+                "rawDate": "2014-02-25",
+                "status": "REC",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2011/rdf-wg/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
     },
@@ -24782,8 +25273,8 @@
         ],
         "href": "http://www.w3.org/TR/rdf11-datasets/",
         "title": "RDF 1.1: On Semantics of RDF Datasets",
-        "rawDate": "2013-12-17",
-        "status": "WD",
+        "rawDate": "2014-02-25",
+        "status": "NOTE",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2011/rdf-wg/"
@@ -24803,6 +25294,20 @@
                     "http://www.w3.org/2011/rdf-wg/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140225": {
+                "authors": [
+                    "Antoine Zimmermann"
+                ],
+                "href": "http://www.w3.org/TR/2014/NOTE-rdf11-datasets-20140225/",
+                "title": "RDF 1.1: On Semantics of RDF Datasets",
+                "rawDate": "2014-02-25",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2011/rdf-wg/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
     },
@@ -24813,8 +25318,8 @@
         ],
         "href": "http://www.w3.org/TR/rdf11-mt/",
         "title": "RDF 1.1 Semantics",
-        "rawDate": "2014-01-09",
-        "status": "PR",
+        "rawDate": "2014-02-25",
+        "status": "REC",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2011/rdf-wg/"
@@ -24880,6 +25385,21 @@
                     "http://www.w3.org/2011/rdf-wg/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140225": {
+                "authors": [
+                    "Patrick Hayes",
+                    "Peter Patel-Schneider"
+                ],
+                "href": "http://www.w3.org/TR/2014/REC-rdf11-mt-20140225/",
+                "title": "RDF 1.1 Semantics",
+                "rawDate": "2014-02-25",
+                "status": "REC",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2011/rdf-wg/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
     },
@@ -24889,8 +25409,8 @@
         ],
         "href": "http://www.w3.org/TR/rdf11-new/",
         "title": "What’s New in RDF 1.1",
-        "rawDate": "2013-12-17",
-        "status": "WD",
+        "rawDate": "2014-02-25",
+        "status": "NOTE",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2011/rdf-wg/"
@@ -24910,6 +25430,20 @@
                     "http://www.w3.org/2011/rdf-wg/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140225": {
+                "authors": [
+                    "David Wood"
+                ],
+                "href": "http://www.w3.org/TR/2014/NOTE-rdf11-new-20140225/",
+                "title": "What’s New in RDF 1.1",
+                "rawDate": "2014-02-25",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2011/rdf-wg/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
     },
@@ -24920,8 +25454,8 @@
         ],
         "href": "http://www.w3.org/TR/rdf11-primer/",
         "title": "RDF 1.1 Primer",
-        "rawDate": "2013-12-17",
-        "status": "WD",
+        "rawDate": "2014-02-25",
+        "status": "NOTE",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2011/rdf-wg/"
@@ -24937,6 +25471,53 @@
                 "title": "RDF 1.1 Primer",
                 "rawDate": "2013-12-17",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2011/rdf-wg/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140225": {
+                "authors": [
+                    "Guus Schreiber",
+                    "Yves Raimond"
+                ],
+                "href": "http://www.w3.org/TR/2014/NOTE-rdf11-primer-20140225/",
+                "title": "RDF 1.1 Primer",
+                "rawDate": "2014-02-25",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2011/rdf-wg/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
+    "rdf11-testcases": {
+        "authors": [
+            "Gregg Kellogg",
+            "Markus Lanthaler"
+        ],
+        "href": "http://www.w3.org/TR/rdf11-testcases/",
+        "title": "RDF 1.1 Test Cases",
+        "rawDate": "2014-02-25",
+        "status": "NOTE",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "http://www.w3.org/2011/rdf-wg/"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20140225": {
+                "authors": [
+                    "Gregg Kellogg",
+                    "Markus Lanthaler"
+                ],
+                "href": "http://www.w3.org/TR/2014/NOTE-rdf11-testcases-20140225/",
+                "title": "RDF 1.1 Test Cases",
+                "rawDate": "2014-02-25",
+                "status": "NOTE",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/2011/rdf-wg/"
@@ -26332,9 +26913,23 @@
                     "http://www.w3.org/2008/webapps/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140220": {
+                "authors": [
+                    "Mounir Lamouri"
+                ],
+                "href": "http://www.w3.org/TR/2014/WD-screen-orientation-20140220/",
+                "title": "The Screen Orientation API",
+                "rawDate": "2014-02-20",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2008/webapps/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2012-12-06",
+        "rawDate": "2014-02-20",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
     "scxml": {
@@ -26357,7 +26952,7 @@
         "etAl": true,
         "href": "http://www.w3.org/TR/scxml/",
         "title": "State Chart XML (SCXML): State Machine Notation for Control Abstraction",
-        "status": "LCWD",
+        "status": "CR",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/Voice/"
@@ -26415,9 +27010,36 @@
                     "http://www.w3.org/Voice/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140313": {
+                "authors": [
+                    "James Barnett",
+                    "Rahul Akolkar",
+                    "RJ Auburn",
+                    "Michael Bodell",
+                    "Daniel Burnett",
+                    "Jerry Carter",
+                    "Scott McGlashan",
+                    "Torbjörn Lager",
+                    "Marc Helbing",
+                    "Rafah Hosn",
+                    "T.V. Raman",
+                    "Klaus Reifenrath",
+                    "Noam Rosenthal",
+                    "Johan Roxendal"
+                ],
+                "href": "http://www.w3.org/TR/2014/CR-scxml-20140313/",
+                "title": "State Chart XML (SCXML): State Machine Notation for Control Abstraction",
+                "rawDate": "2014-03-13",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Voice/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2013-08-01",
+        "rawDate": "2014-03-13",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
     "selectors-api": {
@@ -29115,8 +29737,8 @@
         ],
         "href": "http://www.w3.org/TR/trig/",
         "title": "RDF 1.1 TriG",
-        "rawDate": "2014-01-09",
-        "status": "PR",
+        "rawDate": "2014-02-25",
+        "status": "REC",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2011/rdf-wg/"
@@ -29176,6 +29798,21 @@
                 "title": "RDF 1.1 TriG",
                 "rawDate": "2014-01-09",
                 "status": "PR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2011/rdf-wg/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140225": {
+                "authors": [
+                    "Gavin Carothers",
+                    "Andy Seaborne"
+                ],
+                "href": "http://www.w3.org/TR/2014/REC-trig-20140225/",
+                "title": "RDF 1.1 TriG",
+                "rawDate": "2014-02-25",
+                "status": "REC",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/2011/rdf-wg/"
@@ -29372,8 +30009,8 @@
         ],
         "href": "http://www.w3.org/TR/turtle/",
         "title": "RDF 1.1 Turtle",
-        "rawDate": "2014-01-09",
-        "status": "PR",
+        "rawDate": "2014-02-25",
+        "status": "REC",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2011/rdf-wg/"
@@ -29404,6 +30041,21 @@
                 "title": "RDF 1.1 Turtle",
                 "rawDate": "2014-01-09",
                 "status": "PR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2011/rdf-wg/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140225": {
+                "authors": [
+                    "Eric Prud'hommeaux",
+                    "Gavin Carothers"
+                ],
+                "href": "http://www.w3.org/TR/2014/REC-turtle-20140225/",
+                "title": "RDF 1.1 Turtle",
+                "rawDate": "2014-02-25",
+                "status": "REC",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/2011/rdf-wg/"
