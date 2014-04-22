@@ -415,6 +415,21 @@
         "status": "WD",
         "publisher": "W3C"
     },
+    "ATK": {
+    	"href": "https://developer.gnome.org/atk/2.10/",
+    	"title": "Gnome Accessibility Toolkit 2.10",
+    	"publisher": "The GNOME Project"
+    },
+    "AT-SPI": {
+    	"href": "https://developer.gnome.org/libatspi/stable/",
+    	"title": "Assistive Technology Service Provider Interface",
+    	"publisher": "The GNOME Project"
+    },
+    "AXAPI": {
+    	"href": "https://developer.apple.com/library/mac/documentation/Cocoa/Reference/ApplicationKit/Protocols/NSAccessibility_Protocol/Reference/Reference.html",
+    	"title": "The Mac OS X Accessibility Protocol Mac OS 10.9",
+    	"publisher": "Apple, Inc."
+    }, 
     "BACKPLANE": {
         "aliasOf": "backplane"
     },
@@ -3576,6 +3591,11 @@
     "I18N-HTML-TECH-LANG": {
         "aliasOf": "i18n-html-tech-lang"
     },
+    "IAccessible2": {
+    	"href": "http://www.linuxfoundation.org/collaborate/workgroups/accessibility/iaccessible2",
+    	"title": "IAccessible2",
+    	"publisher": "Linux Foundation"
+    },
     "IANA-SRVPORT-REG": "<a href='http://www.iana.org/form/ports-services'>IANA Service Name and Transport Protocol Port Number Registry</a>. URL: <a href='http://www.iana.org/form/ports-services'>http://www.iana.org/form/ports-services</a>",
     "IANA-TSV": {
         "authors": [
@@ -3892,6 +3912,11 @@
         "rawDate": "2011-09-20",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
+    "JAPI": {
+    	"href": "http://www.oracle.com/technetwork/java/javase/tech/index-jsp-140174.html",
+    	"title": "Java Accessibility API",
+    	"publisher": "Oracle"
+    },
     "JAX-RS": "M. Hadley and P. Sandoz, Eds., JAX-RS: Java API for RESTful Web Services Version 1.0. Sun Microsystems Inc., 08-Sep-2008.<a href=\"http://download.oracle.com/otn-pub/jcp/jaxrs-1.0-fr-eval-oth-JSpec/jaxrs-1.0-final-spec.pdf\"><cite>JAX-RS: Java API for RESTful Web Services Version 1.0</cite></a>",
     "JIGSAW": {
         "authors": [
@@ -4202,6 +4227,11 @@
     "MOZ-ICONS": "Martin, J. Raskin, A. Gelman, L. Rood, D. Surman, M. Hadfield, G. Greant, Z. <a href = 'https://wiki.mozilla.org/Drumbeat/Challenges/Privacy_Icons'<cite>Privacy Icons</cite></a> 6 March 2010. Mozilla Wiki. URL: https://wiki.mozilla.org/Drumbeat/Challenges/Privacy_Icons ",
     "MPEGDASH": "<a href=\"http://standards.iso.org/ittf/PubliclyAvailableStandards/c057623_ISO_IEC_23009-1_2012.zip\"><cite>Information technology -- Dynamic adaptive streaming over HTTP (DASH) -- Part 1: Media presentation description and segment formats</cite></a> ISO/IEC 23009-1:2012. URL: <a href=\"http://standards.iso.org/ittf/PubliclyAvailableStandards/c057623_ISO_IEC_23009-1_2012.zip\">http://standards.iso.org/ittf/PubliclyAvailableStandards/c057623_ISO_IEC_23009-1_2012.zip</a> ",
     "MRCPv2": "Burnett, D. Shanmugham, S. <a href = 'http://tools.ietf.org/html/draft-ietf-speechsc-mrcpv2-27'><cite>Media Resource Control Protocol Version 2</cite></a> 15 November 2011. URL: <a href=\"http://tools.ietf.org/html/draft-ietf-speechsc-mrcpv2-27\">http://tools.ietf.org/html/draft-ietf-speechsc-mrcpv2-27</a>",
+    "MSAA": {
+    	"href": "http://msdn.microsoft.com/en-us/library/ms697707.aspx",
+    	"title": "Microsoft Active Accessibility (MSAA) 2.0",
+    	"publisher": "Microsoft Corporation"
+    }, 
     "MSE": {
         "aliasOf": "media-source"
     },
@@ -30066,6 +30096,11 @@
         "rawDate": "2013-06-26",
         "status": "Khronos Working Draft",
         "publisher": "Khronos"
+    },
+    "UI-AUTOMATION": {
+    	"href": "http://msdn.microsoft.com/en-us/library/ee684009%28v=vs.85%29.aspx",
+    	"title": "UI Automation",
+    	"publisher": "Microsoft Corporation"
     },
     "uievents": {
         "authors": [
