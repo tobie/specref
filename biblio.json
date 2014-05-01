@@ -5999,19 +5999,6 @@
     },
     "RFC4051": "D. Eastlake 3rd. <a href=\"http://www.ietf.org/rfc/rfc4051.txt\"><cite>Additional XML Security Uniform Resource Identifiers</cite></a>. RFC 4051 April 2005. URL: <a href=\"http://www.ietf.org/rfc/rfc4051.txt\">http://www.ietf.org/rfc/rfc4051.txt</a>",
     "RFC4055": "J. Schaad, B. Kaliski, R. Housley. <a href=\"http://www.ietf.org/rfc/rfc4055.txt\"><cite>Additional Algorithms and Identifiers for RSA Cryptography for use in the Internet X.509 Public Key Infrastructure Certificate and Certificate Revocation List (CRL) Profile</cite></a>. June 2005. IETF RFC 4055. URL: <a href=\"http://www.ietf.org/rfc/rfc4055.txt\">http://www.ietf.org/rfc/rfc4055.txt</a>",
-    "RFC4210": {
-        "authors": [
-            "C. Neuman",
-            "T. Yu",
-            "S. Hartman",
-            "K. Raeburn"
-        ],
-        "href": "http://www.ietf.org/rfc/rfc4120.txt",
-        "date": "July 2005",
-        "publisher": "IETF",
-        "status": "RFC",
-        "title": "The Kerberos Network Authentication Protcol (V5) (RFC 4120)"
-    },
     "RFC4122": {
         "authors": [
             "P. Leach",
@@ -6025,6 +6012,19 @@
         "publisher": "IETF"
     },
     "RFC4180": "Y. Shafranovich. <a href=\"http://www.ietf.org/rfc/rfc4180.txt\"> <cite>Common Format and MIME Type for Comma-Separated Values (CSV) Files</cite></a> October 2005. Internet RFC 3987. URL: <a href=\"http://www.ietf.org/rfc/rfc4180.txt\">http://www.ietf.org/rfc/rfc4180.txt</a>",
+    "RFC4210": {
+        "authors": [
+            "C. Neuman",
+            "T. Yu",
+            "S. Hartman",
+            "K. Raeburn"
+        ],
+        "href": "http://www.ietf.org/rfc/rfc4120.txt",
+        "date": "July 2005",
+        "publisher": "IETF",
+        "status": "RFC",
+        "title": "The Kerberos Network Authentication Protcol (V5) (RFC 4120)"
+    },
     "RFC4281": {
         "authors": [
             "R. Gellens",
@@ -6953,11 +6953,11 @@
     "SOAPJMS": {
         "aliasOf": "soapjms"
     },
+    "SP800-131A": "<a href=\"http://csrc.nist.gov/publications/nistpubs/800-131A/sp800-131A.pdf\"><cite> Transitions: Recommendation for Transitioning the Use of Cryptographic Algorithms and Key Lengths, January 2011.</cite></a> SP-800-131A U.S. Department of Commerce/National Institute of Standards and Technology. URL: <a href=\"http://csrc.nist.gov/publications/nistpubs/800-131A/sp800-131A.pdf\">http://csrc.nist.gov/publications/nistpubs/800-131A/sp800-131A.pdf</a>",
     "SP800-38D": "M. Dworkin. <a href=\"http://csrc.nist.gov/publications/nistpubs/800-38D/SP-800-38D.pdf\"><cite> NIST Special Publication 800-38D: Recommendation for Block Cipher Modes of Operation: Galois/Counter Mode (GCM) and GMAC</cite></a>. November 2007 URL: <a href=\"http://csrc.nist.gov/publications/nistpubs/800-38D/SP-800-38D.pdf\">http://csrc.nist.gov/publications/nistpubs/800-38D/SP-800-38D.pdf</a>",
     "SP800-56A": "<a href=\"http://csrc.nist.gov/publications/nistpubs/800-56A/SP800-56A_Revision1_Mar08-2007.pdf\"><cite> NIST Special Publication 800-56A: Recommendation for Pair-Wise Key Establishment Schemes Using Discrete Logarithm Cryptography (Revised)</cite></a>. March 2007 URL: <a href=\"http://csrc.nist.gov/publications/nistpubs/800-56A/SP800-56A_Revision1_Mar08-2007.pdf\">http://csrc.nist.gov/publications/nistpubs/800-56A/SP800-56A_Revision1_Mar08-2007.pdf</a>",
     "SP800-57": "<a href=\"http://csrc.nist.gov/publications/nistpubs/800-57/sp800-57_part1_rev3_general.pdf\"><cite>Recommendation for Key Management &#8211; Part 1: General (Revision 3)</cite></a>. SP800-57. July 2012. U.S. Department of Commerce/National Institute of Standards and Technology. URL: <a href=\"http://csrc.nist.gov/publications/nistpubs/800-57/sp800-57_part1_rev3_general.pdf\">http://csrc.nist.gov/publications/nistpubs/800-57/sp800-57_part1_rev3_general.pdf</a>",
     "SP800-67": "<a href=\"http://csrc.nist.gov/publications/nistpubs/800-67-Rev1/SP-800-67-Rev1.pdf\"><cite> Recommendation for the Triple Data Encryption Algorithm (TDEA) Block Cipher, Revised January 2012.</cite></a> SP-800-67 Revision 1. U.S. Department of Commerce/National Institute of Standards and Technology. URL: <a href=\"http://csrc.nist.gov/publications/nistpubs/800-67-Rev1/SP-800-67-Rev1.pdf\">http://csrc.nist.gov/publications/nistpubs/800-67-Rev1/SP-800-67-Rev1.pdf</a>",
-    "SP800-131A": "<a href=\"http://csrc.nist.gov/publications/nistpubs/800-131A/sp800-131A.pdf\"><cite> Transitions: Recommendation for Transitioning the Use of Cryptographic Algorithms and Key Lengths, January 2011.</cite></a> SP-800-131A U.S. Department of Commerce/National Institute of Standards and Technology. URL: <a href=\"http://csrc.nist.gov/publications/nistpubs/800-131A/sp800-131A.pdf\">http://csrc.nist.gov/publications/nistpubs/800-131A/sp800-131A.pdf</a>",
     "SPARQL-QUERY": {
         "aliasOf": "rdf-sparql-query"
     },
@@ -13543,6 +13543,36 @@
             }
         }
     },
+    "css-will-change-1": {
+        "authors": [
+            "Tab Atkins Jr."
+        ],
+        "href": "http://www.w3.org/TR/css-will-change-1/",
+        "title": "CSS Will Change Module Level 1",
+        "rawDate": "2014-04-29",
+        "status": "WD",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "http://www.w3.org/Style/CSS/members"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20140429": {
+                "authors": [
+                    "Tab Atkins Jr."
+                ],
+                "href": "http://www.w3.org/TR/2014/WD-css-will-change-1-20140429/",
+                "title": "CSS Will Change Module Level 1",
+                "rawDate": "2014-04-29",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Style/CSS/members"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
     "css-writing-modes-3": {
         "authors": [
             "Elika Etemad",
@@ -16862,9 +16892,24 @@
                     "http://www.w3.org/XML/EXI/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140424": {
+                "authors": [
+                    "Daniel Peintner",
+                    "Santiago Pericas-Geertsen"
+                ],
+                "href": "http://www.w3.org/TR/2014/WD-exi-primer-20140424/",
+                "title": "Efficient XML Interchange (EXI) Primer",
+                "rawDate": "2014-04-24",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/XML/EXI/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2009-12-08",
+        "rawDate": "2014-04-24",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
     "exi-profile": {
@@ -16905,7 +16950,7 @@
         ],
         "href": "http://www.w3.org/TR/file-system-api/",
         "title": "File API: Directories and System",
-        "status": "WD",
+        "status": "NOTE",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2008/webapps/"
@@ -16924,9 +16969,23 @@
                     "http://www.w3.org/2008/webapps/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140424": {
+                "authors": [
+                    "Eric Uhrhane"
+                ],
+                "href": "http://www.w3.org/TR/2014/NOTE-file-system-api-20140424/",
+                "title": "File API: Directories and System",
+                "rawDate": "2014-04-24",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2008/webapps/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2012-04-17",
+        "rawDate": "2014-04-24",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
     "file-upload": {
@@ -16945,7 +17004,7 @@
         ],
         "href": "http://www.w3.org/TR/file-writer-api/",
         "title": "File API: Writer",
-        "status": "WD",
+        "status": "NOTE",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2008/webapps/"
@@ -16964,9 +17023,23 @@
                     "http://www.w3.org/2008/webapps/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140424": {
+                "authors": [
+                    "Eric Uhrhane"
+                ],
+                "href": "http://www.w3.org/TR/2014/NOTE-file-writer-api-20140424/",
+                "title": "File API: Writer",
+                "rawDate": "2014-04-24",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2008/webapps/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2012-04-17",
+        "rawDate": "2014-04-24",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
     "filter-effects": {
@@ -18732,7 +18805,7 @@
         ],
         "href": "http://www.w3.org/TR/html5/",
         "title": "HTML5",
-        "rawDate": "2014-02-04",
+        "rawDate": "2014-04-29",
         "status": "CR",
         "publisher": "W3C",
         "deliveredBy": [
@@ -18800,6 +18873,25 @@
                 "href": "http://www.w3.org/TR/2014/CR-html5-20140204/",
                 "title": "HTML5",
                 "rawDate": "2014-02-04",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/html/wg/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140429": {
+                "authors": [
+                    "Robin Berjon",
+                    "Steve Faulkner",
+                    "Travis Leithead",
+                    "Erika Doyle Navara",
+                    "Edward O'Connor",
+                    "Silvia Pfeiffer"
+                ],
+                "href": "http://www.w3.org/TR/2014/CR-html5-20140429/",
+                "title": "HTML5",
+                "rawDate": "2014-04-29",
                 "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -30304,8 +30396,8 @@
         ],
         "href": "http://www.w3.org/TR/tracking-dnt/",
         "title": "Tracking Preference Expression (DNT)",
-        "rawDate": "2014-01-28",
-        "status": "WD",
+        "rawDate": "2014-04-24",
+        "status": "LCWD",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2011/tracking-protection/"
@@ -30351,6 +30443,21 @@
                 "title": "Tracking Preference Expression (DNT)",
                 "rawDate": "2014-01-28",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2011/tracking-protection/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140424": {
+                "authors": [
+                    "Roy Fielding",
+                    "David Singer"
+                ],
+                "href": "http://www.w3.org/TR/2014/WD-tracking-dnt-20140424/",
+                "title": "Tracking Preference Expression (DNT)",
+                "rawDate": "2014-04-24",
+                "status": "LCWD",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/2011/tracking-protection/"
@@ -39837,6 +39944,40 @@
             }
         }
     },
+    "xpath-31": {
+        "authors": [
+            "Jonathan Robie",
+            "Michael Dyck"
+        ],
+        "href": "http://www.w3.org/TR/xpath-31/",
+        "title": "XML Path Language (XPath) 3.1",
+        "rawDate": "2014-04-24",
+        "status": "WD",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "http://www.w3.org/XML/Query/",
+            "http://www.w3.org/Style/XSL/"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20140424": {
+                "authors": [
+                    "Jonathan Robie",
+                    "Michael Dyck"
+                ],
+                "href": "http://www.w3.org/TR/2014/WD-xpath-31-20140424/",
+                "title": "XML Path Language (XPath) 3.1",
+                "rawDate": "2014-04-24",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/XML/Query/",
+                    "http://www.w3.org/Style/XSL/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
     "xpath-datamodel": {
         "authors": [
             "Anders Berglund",
@@ -39963,6 +40104,40 @@
                 "title": "XQuery and XPath Data Model 3.0",
                 "rawDate": "2014-04-08",
                 "status": "REC",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/XML/Query/",
+                    "http://www.w3.org/Style/XSL/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
+    "xpath-datamodel-31": {
+        "authors": [
+            "Norman Walsh",
+            "John Snelson"
+        ],
+        "href": "http://www.w3.org/TR/xpath-datamodel-31/",
+        "title": "XQuery and XPath Data Model 3.1",
+        "rawDate": "2014-04-24",
+        "status": "WD",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "http://www.w3.org/XML/Query/",
+            "http://www.w3.org/Style/XSL/"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20140424": {
+                "authors": [
+                    "Norman Walsh",
+                    "John Snelson"
+                ],
+                "href": "http://www.w3.org/TR/2014/WD-xpath-datamodel-31-20140424/",
+                "title": "XQuery and XPath Data Model 3.1",
+                "rawDate": "2014-04-24",
+                "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/XML/Query/",
@@ -40270,6 +40445,38 @@
                 "title": "XPath and XQuery Functions and Operators 3.0",
                 "rawDate": "2014-04-08",
                 "status": "REC",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/XML/Query/",
+                    "http://www.w3.org/Style/XSL/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
+    "xpath-functions-31": {
+        "authors": [
+            "Michael Kay"
+        ],
+        "href": "http://www.w3.org/TR/xpath-functions-31/",
+        "title": "XPath and XQuery Functions and Operators 3.1",
+        "rawDate": "2014-04-24",
+        "status": "WD",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "http://www.w3.org/XML/Query/",
+            "http://www.w3.org/Style/XSL/"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20140424": {
+                "authors": [
+                    "Michael Kay"
+                ],
+                "href": "http://www.w3.org/TR/2014/WD-xpath-functions-31-20140424/",
+                "title": "XPath and XQuery Functions and Operators 3.1",
+                "rawDate": "2014-04-24",
+                "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/XML/Query/",
@@ -41032,6 +41239,68 @@
         "rawDate": "2014-04-08",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
+    "xquery-31": {
+        "authors": [
+            "Jonathan Robie",
+            "Michael Dyck"
+        ],
+        "href": "http://www.w3.org/TR/xquery-31/",
+        "title": "XQuery 3.1: An XML Query Language",
+        "rawDate": "2014-04-24",
+        "status": "WD",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "http://www.w3.org/XML/Query/"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20140424": {
+                "authors": [
+                    "Jonathan Robie",
+                    "Michael Dyck"
+                ],
+                "href": "http://www.w3.org/TR/2014/WD-xquery-31-20140424/",
+                "title": "XQuery 3.1: An XML Query Language",
+                "rawDate": "2014-04-24",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/XML/Query/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
+    "xquery-31-requirements": {
+        "authors": [
+            "Jonathan Robie"
+        ],
+        "href": "http://www.w3.org/TR/xquery-31-requirements/",
+        "title": "XQuery 3.1 Requirements and Use Cases",
+        "rawDate": "2014-04-24",
+        "status": "WD",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "http://www.w3.org/XML/Query/"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20140424": {
+                "authors": [
+                    "Jonathan Robie"
+                ],
+                "href": "http://www.w3.org/TR/2014/WD-xquery-31-requirements-20140424/",
+                "title": "XQuery 3.1 Requirements and Use Cases",
+                "rawDate": "2014-04-24",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/XML/Query/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
     "xquery-requirements": {
         "authors": [
             "Don Chamberlin",
@@ -41624,6 +41893,36 @@
             }
         }
     },
+    "xqueryx-31": {
+        "authors": [
+            "Jim Melton"
+        ],
+        "href": "http://www.w3.org/TR/xqueryx-31/",
+        "title": "XQueryX 3.1",
+        "rawDate": "2014-04-24",
+        "status": "WD",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "http://www.w3.org/XML/Query/"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20140424": {
+                "authors": [
+                    "Jim Melton"
+                ],
+                "href": "http://www.w3.org/TR/2014/WD-xqueryx-31-20140424/",
+                "title": "XQueryX 3.1",
+                "rawDate": "2014-04-24",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/XML/Query/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
     "xqupdateusecases": {
         "authors": [
             "Ioana Manolescu",
@@ -42111,6 +42410,40 @@
                 "title": "XSLT and XQuery Serialization 3.0",
                 "rawDate": "2014-04-08",
                 "status": "REC",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/XML/Query/",
+                    "http://www.w3.org/Style/XSL/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
+    "xslt-xquery-serialization-31": {
+        "authors": [
+            "Andrew Coleman",
+            "Michael Sperberg-McQueen"
+        ],
+        "href": "http://www.w3.org/TR/xslt-xquery-serialization-31/",
+        "title": "XSLT and XQuery Serialization 3.1",
+        "rawDate": "2014-04-24",
+        "status": "WD",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "http://www.w3.org/XML/Query/",
+            "http://www.w3.org/Style/XSL/"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20140424": {
+                "authors": [
+                    "Andrew Coleman",
+                    "Michael Sperberg-McQueen"
+                ],
+                "href": "http://www.w3.org/TR/2014/WD-xslt-xquery-serialization-31-20140424/",
+                "title": "XSLT and XQuery Serialization 3.1",
+                "rawDate": "2014-04-24",
+                "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/XML/Query/",
