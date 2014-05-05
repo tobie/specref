@@ -4225,6 +4225,14 @@
         "aliasOf": "modality-interface"
     },
     "MOZ-ICONS": "Martin, J. Raskin, A. Gelman, L. Rood, D. Surman, M. Hadfield, G. Greant, Z. <a href = 'https://wiki.mozilla.org/Drumbeat/Challenges/Privacy_Icons'<cite>Privacy Icons</cite></a> 6 March 2010. Mozilla Wiki. URL: https://wiki.mozilla.org/Drumbeat/Challenges/Privacy_Icons ",
+    "MPEG2TS": {
+        "href": "http://www.itu.int/rec/T-REC-H.222.0-201206-I",
+        "title": "Information technology -- Generic coding of moving pictures and associated audio information: Systems ITU-T Rec. H.222.0 / ISO/IEC 13818-1:2013",
+        "publisher": "ISO/IEC JTC 1/SC 29 Coding of audio, picture, multimedia and hypermedia information",
+        "deliveredBy": [
+            "http://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm?csnumber=62074"
+        ]
+    },
     "MPEGDASH": "<a href=\"http://standards.iso.org/ittf/PubliclyAvailableStandards/c057623_ISO_IEC_23009-1_2012.zip\"><cite>Information technology -- Dynamic adaptive streaming over HTTP (DASH) -- Part 1: Media presentation description and segment formats</cite></a> ISO/IEC 23009-1:2012. URL: <a href=\"http://standards.iso.org/ittf/PubliclyAvailableStandards/c057623_ISO_IEC_23009-1_2012.zip\">http://standards.iso.org/ittf/PubliclyAvailableStandards/c057623_ISO_IEC_23009-1_2012.zip</a> ",
     "MRCPv2": "Burnett, D. Shanmugham, S. <a href = 'http://tools.ietf.org/html/draft-ietf-speechsc-mrcpv2-27'><cite>Media Resource Control Protocol Version 2</cite></a> 15 November 2011. URL: <a href=\"http://tools.ietf.org/html/draft-ietf-speechsc-mrcpv2-27\">http://tools.ietf.org/html/draft-ietf-speechsc-mrcpv2-27</a>",
     "MSAA": {
@@ -4651,6 +4659,22 @@
     "OEB101": "<a href=\"http://www.openebook.org/oebps/oebps1.0.1/download/oeb101-xhtml.htm\"><cite>Open eBook(tm) Publication Structure 1.0.1.</cite></a> Open eBook Forum(tm). 02 July 2001. URL: <a href=\"http://www.openebook.org/oebps/oebps1.0.1/download/oeb101-xhtml.htm\">http://www.openebook.org/oebps/oebps1.0.1/download/oeb101-xhtml.htm</a> ",
     "OFFLINE-WEBAPPS": {
         "aliasOf": "offline-webapps"
+    },
+    "OGG": {
+        "authors": [
+            "S. Pfeiffer"
+        ],
+        "href": "http://www.ietf.org/rfc/rfc3533.txt",
+        "title": "The Ogg Encapsulation Format Version 0 (RFC 3533)",
+        "publisher": "IETF",
+        "date": "May 2003",
+        "status": "RFC"
+    },
+    "OGGSKELETON": {
+        "href": "http://wiki.xiph.org/SkeletonHeaders",
+        "title": "Ogg Skeleton 4 Message Headers",
+        "publisher": "Xiph.org Foundation",
+        "date": "17 March 2014"
     },
     "OGP": "<a href=\"http://ogp.me\"> <cite>The Open Graph Protocol</cite></a>.  December 2010. URL: <a href=\"http://ogp.me\">http://ogp.me</a>",
     "OIPF-ARCH-2": "Open IPTV Forum. Functional Architecture - V2.1”. URL:<a href='http://www.oipf.tv/docs/OIPF-T1-R2-Functional_Architecture-v2_1-2011-03-15.pdf'>http://www.oipf.tv/docs/OIPF-T1-R2-Functional_Architecture-v2_1-2011-03-15.pdf</a>",
@@ -9339,6 +9363,12 @@
         "title": "Web Intents",
         "status": "ED",
         "publisher": "W3C"
+    },
+    "WebM": {
+        "href": "http://www.webmproject.org/code/specs/container/",
+        "title": "WebM Container Guidelines",
+        "publisher": "The WebM Project",
+        "date": "28 April 2014"
     },
     "WEBONT-REQ": {
         "aliasOf": "webont-req"
