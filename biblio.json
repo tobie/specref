@@ -9626,6 +9626,38 @@
         "rawDate": "2012-12-13",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
+    "WOFF2": {
+        "authors": [
+            "Vladimir Levantovsky",
+            "Raph Levien"
+        ],
+        "href": "http://www.w3.org/TR/WOFF2/",
+        "title": "WOFF File Format 2.0",
+        "rawDate": "2014-05-08",
+        "status": "WD",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "http://www.w3.org/Fonts/WG/"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20140508": {
+                "authors": [
+                    "Vladimir Levantovsky",
+                    "Raph Levien"
+                ],
+                "href": "http://www.w3.org/TR/2014/WD-WOFF2-20140508/",
+                "title": "WOFF File Format 2.0",
+                "rawDate": "2014-05-08",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Fonts/WG/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
     "WOFF20ER": {
         "authors": [
             "Chris Lilley"
@@ -16218,7 +16250,7 @@
         ],
         "href": "http://www.w3.org/TR/dom/",
         "title": "W3C DOM4",
-        "status": "LCWD",
+        "status": "CR",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/html/wg/"
@@ -16276,9 +16308,27 @@
                     "http://www.w3.org/html/wg/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140508": {
+                "authors": [
+                    "Anne van Kesteren",
+                    "Aryeh Gregor",
+                    "Ms2ger",
+                    "Alex Russell",
+                    "Robin Berjon"
+                ],
+                "href": "http://www.w3.org/TR/2014/CR-dom-20140508/",
+                "title": "W3C DOM4",
+                "rawDate": "2014-05-08",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/html/wg/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2014-02-04",
+        "rawDate": "2014-05-08",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
     "domxpath": {
@@ -27895,6 +27945,38 @@
         "rawDate": "2007-04-05",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
+    "service-workers": {
+        "authors": [
+            "Alex Russell",
+            "Jungkee Song"
+        ],
+        "href": "http://www.w3.org/TR/service-workers/",
+        "title": "Service Workers",
+        "rawDate": "2014-05-08",
+        "status": "WD",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "http://www.w3.org/2008/webapps/"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20140508": {
+                "authors": [
+                    "Alex Russell",
+                    "Jungkee Song"
+                ],
+                "href": "http://www.w3.org/TR/2014/WD-service-workers-20140508/",
+                "title": "Service Workers",
+                "rawDate": "2014-05-08",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2008/webapps/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
     "shadow-dom": {
         "authors": [
             "Dimitri Glazkov"
@@ -30401,7 +30483,7 @@
         ],
         "href": "http://www.w3.org/TR/tracking-compliance/",
         "title": "Tracking Compliance and Scope",
-        "rawDate": "2014-01-28",
+        "rawDate": "2014-05-08",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -30453,6 +30535,23 @@
                 "href": "http://www.w3.org/TR/2014/WD-tracking-compliance-20140128/",
                 "title": "Tracking Compliance and Scope",
                 "rawDate": "2014-01-28",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2011/tracking-protection/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140508": {
+                "authors": [
+                    "Heather West",
+                    "Justin Brookman",
+                    "Sean Harvey",
+                    "Erica Newland"
+                ],
+                "href": "http://www.w3.org/TR/2014/WD-tracking-compliance-20140508/",
+                "title": "Tracking Compliance and Scope",
+                "rawDate": "2014-05-08",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
