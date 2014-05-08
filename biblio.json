@@ -2559,7 +2559,7 @@
         ],
         "href": "http://www.w3.org/TR/DOM-Parsing/",
         "title": "DOM Parsing and Serialization",
-        "rawDate": "2013-12-10",
+        "rawDate": "2014-05-01",
         "status": "LCWD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -2589,6 +2589,20 @@
                 "href": "http://www.w3.org/TR/2013/WD-DOM-Parsing-20131210/",
                 "title": "DOM Parsing and Serialization",
                 "rawDate": "2013-12-10",
+                "status": "LCWD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2008/webapps/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140501": {
+                "authors": [
+                    "Travis Leithead"
+                ],
+                "href": "http://www.w3.org/TR/2014/WD-DOM-Parsing-20140501/",
+                "title": "DOM Parsing and Serialization",
+                "rawDate": "2014-05-01",
                 "status": "LCWD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -9364,12 +9378,6 @@
         "status": "ED",
         "publisher": "W3C"
     },
-    "WebM": {
-        "href": "http://www.webmproject.org/code/specs/container/",
-        "title": "WebM Container Guidelines",
-        "publisher": "The WebM Project",
-        "date": "28 April 2014"
-    },
     "WEBONT-REQ": {
         "aliasOf": "webont-req"
     },
@@ -9938,6 +9946,12 @@
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
+    },
+    "WebM": {
+        "href": "http://www.webmproject.org/code/specs/container/",
+        "title": "WebM Container Guidelines",
+        "publisher": "The WebM Project",
+        "date": "28 April 2014"
     },
     "Window": {
         "authors": [
@@ -13549,7 +13563,7 @@
         ],
         "href": "http://www.w3.org/TR/css-variables-1/",
         "title": "CSS Custom Properties for Cascading Variables Module Level 1",
-        "rawDate": "2013-06-20",
+        "rawDate": "2014-05-06",
         "status": "LCWD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -13564,6 +13578,20 @@
                 "href": "http://www.w3.org/TR/2013/WD-css-variables-1-20130620/",
                 "title": "CSS Custom Properties for Cascading Variables Module Level 1",
                 "rawDate": "2013-06-20",
+                "status": "LCWD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Style/CSS/members"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140506": {
+                "authors": [
+                    "Tab Atkins Jr."
+                ],
+                "href": "http://www.w3.org/TR/2014/WD-css-variables-1-20140506/",
+                "title": "CSS Custom Properties for Cascading Variables Module Level 1",
+                "rawDate": "2014-05-06",
                 "status": "LCWD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -16948,9 +16976,9 @@
             "Daniel Peintner"
         ],
         "href": "http://www.w3.org/TR/exi-profile/",
-        "title": "Efficient XML Interchange (EXI) Profile",
-        "rawDate": "2013-04-16",
-        "status": "CR",
+        "title": "Efficient XML Interchange (EXI) Profile for limiting usage of dynamic memory",
+        "rawDate": "2014-05-06",
+        "status": "PR",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/XML/EXI/"
@@ -16966,6 +16994,21 @@
                 "title": "Efficient XML Interchange (EXI) Profile",
                 "rawDate": "2013-04-16",
                 "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/XML/EXI/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140506": {
+                "authors": [
+                    "Youenn Fablet",
+                    "Daniel Peintner"
+                ],
+                "href": "http://www.w3.org/TR/2014/PR-exi-profile-20140506/",
+                "title": "Efficient XML Interchange (EXI) Profile for limiting usage of dynamic memory",
+                "rawDate": "2014-05-06",
+                "status": "PR",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/XML/EXI/"
@@ -30673,6 +30716,36 @@
         },
         "rawDate": "2006-04-27",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+    },
+    "ttml-imsc1": {
+        "authors": [
+            "Pierre-Anthony Lemieux"
+        ],
+        "href": "http://www.w3.org/TR/ttml-imsc1/",
+        "title": "TTML Text and Image Profiles for Internet Media Subtitles and Captions 1.0",
+        "rawDate": "2014-05-01",
+        "status": "WD",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "http://www.w3.org/AudioVideo/TT/"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20140501": {
+                "authors": [
+                    "Pierre-Anthony Lemieux"
+                ],
+                "href": "http://www.w3.org/TR/2014/WD-ttml-imsc1-20140501/",
+                "title": "TTML Text and Image Profiles for Internet Media Subtitles and Captions 1.0",
+                "rawDate": "2014-05-01",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/AudioVideo/TT/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
     },
     "ttml1": {
         "authors": [
