@@ -9,7 +9,7 @@
         ],
         "href": "http://www.w3.org/TR/2dcontext/",
         "title": "HTML Canvas 2D Context",
-        "status": "CR",
+        "status": "LCWD",
         "publisher": "W3C",
         "versions": {
             "20121217": {
@@ -46,12 +46,30 @@
                     "http://www.w3.org/html/wg/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140520": {
+                "authors": [
+                    "Rik Cabanier",
+                    "Eliot Graff",
+                    "Jay Munro",
+                    "Tom Wiltzius",
+                    "Ian Hickson"
+                ],
+                "href": "http://www.w3.org/TR/2014/WD-2dcontext-20140520/",
+                "title": "HTML Canvas 2D Context",
+                "rawDate": "2014-05-20",
+                "status": "LCWD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/html/wg/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
         "deliveredBy": [
             "http://www.w3.org/html/wg/"
         ],
-        "rawDate": "2013-08-06",
+        "rawDate": "2014-05-20",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
     "2dcontext2": {
@@ -5948,7 +5966,7 @@
     "RFC3490": "P. Faltstrom; P. Hoffman; A. Costello. <a href='http://www.rfc-editor.org/rfc/rfc3490.txt'><cite>Internationalizing Domain Names in Applications (IDNA).</cite></a> March 2003. Internet RFC 3490. URL: <a href='http://www.rfc-editor.org/rfc/rfc3490.txt'>http://www.rfc-editor.org/rfc/rfc3490.txt</a>",
     "RFC3492": {
         "authors": [
-           "Adam M. Costello"
+            "Adam M. Costello"
         ],
         "href": "http://www.ietf.org/rfc/rfc3492.txt",
         "title": "Punycode: A Bootstring encoding of Unicode for Internationalized Domain Names in Applications (IDNA)",
@@ -12844,8 +12862,8 @@
         ],
         "href": "http://www.w3.org/TR/css-font-loading-3/",
         "title": "CSS Font Loading Module Level 3",
-        "rawDate": "2014-02-20",
-        "status": "WD",
+        "rawDate": "2014-05-22",
+        "status": "LCWD",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/Style/CSS/members"
@@ -12860,6 +12878,20 @@
                 "title": "CSS Font Loading Module Level 3",
                 "rawDate": "2014-02-20",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Style/CSS/members"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140522": {
+                "authors": [
+                    "Tab Atkins Jr."
+                ],
+                "href": "http://www.w3.org/TR/2014/WD-css-font-loading-3-20140522/",
+                "title": "CSS Font Loading Module Level 3",
+                "rawDate": "2014-05-22",
+                "status": "LCWD",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/Style/CSS/members"
@@ -13109,8 +13141,8 @@
         ],
         "href": "http://www.w3.org/TR/css-masking-1/",
         "title": "CSS Masking Module Level 1",
-        "rawDate": "2014-02-13",
-        "status": "WD",
+        "rawDate": "2014-05-22",
+        "status": "LCWD",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/Graphics/SVG/WG/",
@@ -13145,6 +13177,23 @@
                 "title": "CSS Masking Module Level 1",
                 "rawDate": "2014-02-13",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Graphics/SVG/WG/",
+                    "http://www.w3.org/Style/CSS/members"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140522": {
+                "authors": [
+                    "Dirk Schulze",
+                    "Brian Birtles",
+                    "Tab Atkins Jr."
+                ],
+                "href": "http://www.w3.org/TR/2014/WD-css-masking-1-20140522/",
+                "title": "CSS Masking Module Level 1",
+                "rawDate": "2014-05-22",
+                "status": "LCWD",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/Graphics/SVG/WG/",
@@ -16695,8 +16744,8 @@
         ],
         "href": "http://www.w3.org/TR/emotionml/",
         "title": "Emotion Markup Language (EmotionML) 1.0",
-        "rawDate": "2013-04-16",
-        "status": "PR",
+        "rawDate": "2014-05-22",
+        "status": "REC",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2002/mmi/"
@@ -16712,6 +16761,21 @@
                 "title": "Emotion Markup Language (EmotionML) 1.0",
                 "rawDate": "2013-04-16",
                 "status": "PR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2002/mmi/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140522": {
+                "authors": [
+                    "Felix Burkhardt",
+                    "Marc Schröder"
+                ],
+                "href": "http://www.w3.org/TR/2014/REC-emotionml-20140522/",
+                "title": "Emotion Markup Language (EmotionML) 1.0",
+                "rawDate": "2014-05-22",
+                "status": "REC",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/2002/mmi/"
@@ -17657,6 +17721,42 @@
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/2008/geolocation/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
+    "geometry-1": {
+        "authors": [
+            "Simon Pieters",
+            "Dirk Schulze",
+            "Rik Cabanier"
+        ],
+        "href": "http://www.w3.org/TR/geometry-1/",
+        "title": "Geometry Interfaces Module Level 1",
+        "rawDate": "2014-05-22",
+        "status": "WD",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "http://www.w3.org/Graphics/SVG/WG/",
+            "http://www.w3.org/Style/CSS/members"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20140522": {
+                "authors": [
+                    "Simon Pieters",
+                    "Dirk Schulze",
+                    "Rik Cabanier"
+                ],
+                "href": "http://www.w3.org/TR/2014/WD-geometry-1-20140522/",
+                "title": "Geometry Interfaces Module Level 1",
+                "rawDate": "2014-05-22",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Graphics/SVG/WG/",
+                    "http://www.w3.org/Style/CSS/members"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
@@ -31393,9 +31493,9 @@
             "James McKinney"
         ],
         "href": "http://www.w3.org/TR/vcard-rdf/",
-        "title": "vCard Ontology",
-        "rawDate": "2013-09-24",
-        "status": "WD",
+        "title": "vCard Ontology - for describing People and Organizations",
+        "rawDate": "2014-05-22",
+        "status": "NOTE",
         "publisher": "W3C",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
         "versions": {
@@ -31420,6 +31520,21 @@
                 "title": "vCard Ontology",
                 "rawDate": "2013-09-24",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2001/sw/interest/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140522": {
+                "authors": [
+                    "Renato Iannella",
+                    "James McKinney"
+                ],
+                "href": "http://www.w3.org/TR/2014/NOTE-vcard-rdf-20140522/",
+                "title": "vCard Ontology - for describing People and Organizations",
+                "rawDate": "2014-05-22",
+                "status": "NOTE",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/2001/sw/interest/"
