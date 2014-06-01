@@ -3,8 +3,6 @@ Specref API
 
 [![Build Status](https://travis-ci.org/tobie/specref.png?branch=master)](https://travis-ci.org/tobie/specref)
 
-[![Nodejitsu Deploy Status](https://webhooks.nodejitsu.com/tobie/specref.png)](https://webops.nodejitsu.com#tobie/specref)
-
 ## API
 
 The API to the service is very simple. It supports two operations, each of which takes the same two parameters. CORS is enabled for all origins. 
