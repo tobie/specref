@@ -876,6 +876,11 @@
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
     "CEA-2014": "<a href=\"http://www.ce.org/Standards/browseByCommittee_2757.asp\"><cite>Web-based Protocol and Framework for Remote User Interface on UPnP Networks and the Internet (Web4CE)</cite></a>. January 2011. ANSI/CEA Standard. URL: <a href=\"http://www.ce.org/Standards/browseByCommittee_2757.asp\">http://www.ce.org/Standards/browseByCommittee_2757.asp</a>",
+    "CEA708": {
+        "title": "Digital Television (DTV) Closed Captioning CEA-708-B",
+        "href": "http://www.ce.org/Standards/Standard-Listings/R4-3-Television-Data-Systems-Subcommittee/CEA-708-D.aspx",
+        "publisher": "CEA"
+    },
     "CGM": {
         "authors": [
             "Roy Platon",
@@ -27732,6 +27737,12 @@
             }
         }
     },
+    "SCTE27": {
+        "title": "Subtitling Methods For Broadcast Cable",
+        "href": "http://www.scte.org/documents/pdf/Standards/ANSI_SCTE_27_2011.pdf",
+        "publisher": "ANSI/SCTE"
+    },
+
     "sXBL": {
         "authors": [
             "Jon Ferraiolo",
@@ -31457,6 +31468,13 @@
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
+    },
+    "VTT708": {
+        "title": "Conversion of 608/708 captions to WebVTT",
+        "href": "https://dvcs.w3.org/hg/text-tracks/raw-file/default/608toVTT/608toVTT.html",
+        "authors": ["Silvia Pfeiffer"],
+        "status": "Draft Community Group Report",
+        "publisher": "W3C"
     },
     "vbi-reqs": {
         "authors": [
