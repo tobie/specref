@@ -42,6 +42,8 @@ function toObj(str) {
     output.rfcNumber = match[1];
     str = str.substr(match.index + match[0].length);
     
+    output.href = href(output.rfcNumber);
+    
     if (str == "Not Issued.") return null;
     
     match = TITLE.exec(str);
@@ -51,8 +53,8 @@ function toObj(str) {
     
     match = DATE.exec(str);
     if (!match) throw new Error("Missing date.");
-    output.rawDate = rawDate(match);
     output.authors = splitAuthorString(str.substr(0, match.index));
+    output.rawDate = rawDate(match);
     str = str.substr(match.index + match[0].length);
     
     match = STATUS.exec(str);
