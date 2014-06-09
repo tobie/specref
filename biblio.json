@@ -6783,6 +6783,11 @@
     "SCREEN-ORIENTATION": {
         "aliasOf": "screen-orientation"
     },
+    "SCTE27": {
+        "title": "Subtitling Methods For Broadcast Cable",
+        "href": "http://www.scte.org/documents/pdf/Standards/ANSI_SCTE_27_2011.pdf",
+        "publisher": "ANSI/SCTE"
+    },
     "SCXML": {
         "aliasOf": "scxml"
     },
@@ -8957,6 +8962,15 @@
     },
     "VOICEXML30": {
         "aliasOf": "voicexml30"
+    },
+    "VTT708": {
+        "title": "Conversion of 608/708 captions to WebVTT",
+        "href": "https://dvcs.w3.org/hg/text-tracks/raw-file/default/608toVTT/608toVTT.html",
+        "authors": [
+            "Silvia Pfeiffer"
+        ],
+        "status": "Draft Community Group Report",
+        "publisher": "W3C"
     },
     "VXML30REQS": {
         "aliasOf": "vxml30reqs"
@@ -11478,9 +11492,9 @@
             "Marcos Caceres"
         ],
         "href": "http://www.w3.org/TR/app-uri/",
-        "title": "The app: URI scheme",
-        "rawDate": "2013-05-16",
-        "status": "WD",
+        "title": "The app: URL Scheme",
+        "rawDate": "2014-05-29",
+        "status": "LCWD",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2012/sysapps/"
@@ -11495,6 +11509,20 @@
                 "title": "The app: URI scheme",
                 "rawDate": "2013-05-16",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2012/sysapps/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140529": {
+                "authors": [
+                    "Marcos Caceres"
+                ],
+                "href": "http://www.w3.org/TR/2014/WD-app-uri-20140529/",
+                "title": "The app: URL Scheme",
+                "rawDate": "2014-05-29",
+                "status": "LCWD",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/2012/sysapps/"
@@ -16564,6 +16592,38 @@
             }
         }
     },
+    "dwbp-ucr": {
+        "authors": [
+            "Deirdre Lee",
+            "Bernadette Farias Loscio"
+        ],
+        "href": "http://www.w3.org/TR/dwbp-ucr/",
+        "title": "Data on the Web Best Practices Use Cases &Requirements",
+        "rawDate": "2014-06-05",
+        "status": "WD",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "http://www.w3.org/2013/dwbp/"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20140605": {
+                "authors": [
+                    "Deirdre Lee",
+                    "Bernadette Farias Loscio"
+                ],
+                "href": "http://www.w3.org/TR/2014/WD-dwbp-ucr-20140605/",
+                "title": "Data on the Web Best Practices Use Cases &Requirements",
+                "rawDate": "2014-06-05",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2013/dwbp/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
     "egov-improving": {
         "authors": [
             "Suzanne Acar",
@@ -16805,8 +16865,8 @@
         ],
         "href": "http://www.w3.org/TR/encoding/",
         "title": "Encoding",
-        "rawDate": "2014-01-28",
-        "status": "WD",
+        "rawDate": "2014-06-03",
+        "status": "LCWD",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/International/core/"
@@ -16823,6 +16883,22 @@
                 "title": "Encoding",
                 "rawDate": "2014-01-28",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/International/core/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140603": {
+                "authors": [
+                    "Anne van Kesteren",
+                    "Joshua Bell",
+                    "Addison Phillips"
+                ],
+                "href": "http://www.w3.org/TR/2014/WD-encoding-20140603/",
+                "title": "Encoding",
+                "rawDate": "2014-06-03",
+                "status": "LCWD",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/International/core/"
@@ -17474,6 +17550,36 @@
             }
         },
         "status": "WD"
+    },
+    "form-http-extensions": {
+        "authors": [
+            "Cameron Jones"
+        ],
+        "href": "http://www.w3.org/TR/form-http-extensions/",
+        "title": "W3C HTML Form HTTP Extensions",
+        "rawDate": "2014-05-29",
+        "status": "WD",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "http://www.w3.org/html/wg/"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20140529": {
+                "authors": [
+                    "Cameron Jones"
+                ],
+                "href": "http://www.w3.org/TR/2014/WD-form-http-extensions-20140529/",
+                "title": "W3C HTML Form HTTP Extensions",
+                "rawDate": "2014-05-29",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/html/wg/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
     },
     "fragid-best-practices": {
         "authors": [
@@ -18517,6 +18623,36 @@
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/2008/webapps/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
+    "html-json-forms": {
+        "authors": [
+            "Robin Berjon"
+        ],
+        "href": "http://www.w3.org/TR/html-json-forms/",
+        "title": "W3C HTML JSON form submission",
+        "rawDate": "2014-05-29",
+        "status": "WD",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "http://www.w3.org/html/wg/"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20140529": {
+                "authors": [
+                    "Robin Berjon"
+                ],
+                "href": "http://www.w3.org/TR/2014/WD-html-json-forms-20140529/",
+                "title": "W3C HTML JSON form submission",
+                "rawDate": "2014-05-29",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/html/wg/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
@@ -19585,9 +19721,23 @@
                     "http://www.w3.org/International/core/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140603": {
+                "authors": [
+                    "Richard Ishida"
+                ],
+                "href": "http://www.w3.org/TR/2014/NOTE-i18n-html-tech-bidi-20140603/",
+                "title": "Authoring HTML: Handling Right-to-left Scripts",
+                "rawDate": "2014-06-03",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/International/core/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2009-09-08",
+        "rawDate": "2014-06-03",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
     "i18n-html-tech-char": {
@@ -19625,7 +19775,7 @@
             "Richard Ishida"
         ],
         "href": "http://www.w3.org/TR/i18n-html-tech-lang/",
-        "title": "Internationalization Best Practices: Specifying Language in XHTML & HTML Content",
+        "title": "Authoring HTML: Language declarations",
         "status": "NOTE",
         "publisher": "W3C",
         "deliveredBy": [
@@ -19645,9 +19795,23 @@
                     "http://www.w3.org/International/core/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140603": {
+                "authors": [
+                    "Richard Ishida"
+                ],
+                "href": "http://www.w3.org/TR/2014/NOTE-i18n-html-tech-lang-20140603/",
+                "title": "Authoring HTML: Language declarations",
+                "rawDate": "2014-06-03",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/International/core/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2007-04-12",
+        "rawDate": "2014-06-03",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
     "ilu-requestor": {
@@ -19776,7 +19940,7 @@
         ],
         "href": "http://www.w3.org/TR/indie-ui-events/",
         "title": "IndieUI: Events 1.0",
-        "rawDate": "2013-07-30",
+        "rawDate": "2014-05-29",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -19807,6 +19971,21 @@
                 "href": "http://www.w3.org/TR/2013/WD-indie-ui-events-20130730/",
                 "title": "IndieUI: Events 1.0",
                 "rawDate": "2013-07-30",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/WAI/IndieUI/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140529": {
+                "authors": [
+                    "James Craig",
+                    "Michael Cooper"
+                ],
+                "href": "http://www.w3.org/TR/2014/WD-indie-ui-events-20140529/",
+                "title": "IndieUI: Events 1.0",
+                "rawDate": "2014-05-29",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -21397,6 +21576,38 @@
         },
         "rawDate": "2014-03-13",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+    },
+    "mediaqueries-4": {
+        "authors": [
+            "Florian Rivoal",
+            "Tab Atkins Jr."
+        ],
+        "href": "http://www.w3.org/TR/mediaqueries-4/",
+        "title": "Media Queries Level 4",
+        "rawDate": "2014-06-05",
+        "status": "WD",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "http://www.w3.org/Style/CSS/members"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20140605": {
+                "authors": [
+                    "Florian Rivoal",
+                    "Tab Atkins Jr."
+                ],
+                "href": "http://www.w3.org/TR/2014/WD-mediaqueries-4-20140605/",
+                "title": "Media Queries Level 4",
+                "rawDate": "2014-06-05",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Style/CSS/members"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
     },
     "mediastream-recording": {
         "authors": [
@@ -27743,12 +27954,6 @@
             }
         }
     },
-    "SCTE27": {
-        "title": "Subtitling Methods For Broadcast Cable",
-        "href": "http://www.scte.org/documents/pdf/Standards/ANSI_SCTE_27_2011.pdf",
-        "publisher": "ANSI/SCTE"
-    },
-
     "sXBL": {
         "authors": [
             "Jon Ferraiolo",
@@ -27938,7 +28143,7 @@
         "etAl": true,
         "href": "http://www.w3.org/TR/scxml/",
         "title": "State Chart XML (SCXML): State Machine Notation for Control Abstraction",
-        "status": "CR",
+        "status": "LCWD",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/Voice/"
@@ -28023,9 +28228,36 @@
                     "http://www.w3.org/Voice/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140529": {
+                "authors": [
+                    "James Barnett",
+                    "Rahul Akolkar",
+                    "RJ Auburn",
+                    "Michael Bodell",
+                    "Daniel Burnett",
+                    "Jerry Carter",
+                    "Scott McGlashan",
+                    "Torbjörn Lager",
+                    "Marc Helbing",
+                    "Rafah Hosn",
+                    "T.V. Raman",
+                    "Klaus Reifenrath",
+                    "Noam Rosenthal",
+                    "Johan Roxendal"
+                ],
+                "href": "http://www.w3.org/TR/2014/WD-scxml-20140529/",
+                "title": "State Chart XML (SCXML): State Machine Notation for Control Abstraction",
+                "rawDate": "2014-05-29",
+                "status": "LCWD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Voice/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2014-03-13",
+        "rawDate": "2014-05-29",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
     "selectors-api": {
@@ -28101,6 +28333,38 @@
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/2008/webapps/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
+    "selectors-nonelement-1": {
+        "authors": [
+            "Jirka Kosek",
+            "Tab Atkins Jr."
+        ],
+        "href": "http://www.w3.org/TR/selectors-nonelement-1/",
+        "title": "Non-element Selectors Module Level 1",
+        "rawDate": "2014-06-03",
+        "status": "WD",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "http://www.w3.org/Style/CSS/members"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20140603": {
+                "authors": [
+                    "Jirka Kosek",
+                    "Tab Atkins Jr."
+                ],
+                "href": "http://www.w3.org/TR/2014/WD-selectors-nonelement-1-20140603/",
+                "title": "Non-element Selectors Module Level 1",
+                "rawDate": "2014-06-03",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Style/CSS/members"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
@@ -31475,13 +31739,6 @@
             }
         }
     },
-    "VTT708": {
-        "title": "Conversion of 608/708 captions to WebVTT",
-        "href": "https://dvcs.w3.org/hg/text-tracks/raw-file/default/608toVTT/608toVTT.html",
-        "authors": ["Silvia Pfeiffer"],
-        "status": "Draft Community Group Report",
-        "publisher": "W3C"
-    },
     "vbi-reqs": {
         "authors": [
             "Kenneth Rehor"
@@ -32997,7 +33254,7 @@
         ],
         "href": "http://www.w3.org/TR/web-animations/",
         "title": "Web Animations 1.0",
-        "rawDate": "2013-06-25",
+        "rawDate": "2014-06-05",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -33017,6 +33274,25 @@
                 "href": "http://www.w3.org/TR/2013/WD-web-animations-20130625/",
                 "title": "Web Animations 1.0",
                 "rawDate": "2013-06-25",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Graphics/SVG/WG/",
+                    "http://www.w3.org/Style/CSS/members"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140605": {
+                "authors": [
+                    "Brian Birtles",
+                    "Shane Stephens",
+                    "Alex Danilo",
+                    "Dmitry Baranovskiy",
+                    "Tab Atkins Jr."
+                ],
+                "href": "http://www.w3.org/TR/2014/WD-web-animations-20140605/",
+                "title": "Web Animations 1.0",
+                "rawDate": "2014-06-05",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
