@@ -6,7 +6,7 @@ function wrap(id) {
     return '[[' + id + ']]';
 }
 
-var PROPS = ["authors", "etAl", "href", "title", "date", "deliveredBy", "rawDate", "status", "publisher", "isRetired", "hasErrata", "isSuperseded", "source", "unorderedAuthors", "updates", "obsoletes", "issn", "updatedBy", "obsoletedBy", "rfcNumber"];
+var PROPS = ["authors", "etAl", "href", "title", "date", "deliveredBy", "rawDate", "status", "publisher", "isRetired", "hasErrata", "isSuperseded", "source", "unorderedAuthors", "updates", "obsoletes", "issn", "updatedBy", "obsoletedBy", "rfcNumber", "seeAlso"];
 
 function testPropIsAString(obj, key, propName) {
     test(wrap(key) + ' has a ' + propName + ' which isn\'t an empty string.', function() {
