@@ -37,7 +37,9 @@ function next(keys, input, output) {
         k = keys.shift();
         fn(k, input[k], input, output, function(err) {
             if (err) throw err;
-            next(keys, input, output);
+            setImmediate(function() {
+                next(keys, input, output);
+            });
         });
     } else {
         output = sortRefs(output);
