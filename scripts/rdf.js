@@ -95,6 +95,7 @@ request(RDF_FILE, function(err, response, body) {
                 delete prev.date;
                 delete prev.trURL;
                 delete prev.shortName;
+                delete prev.edDraft;
                 delete prev.unorderedAuthors
             } else {
                 var clone = _cloneJSON(ref);
@@ -149,6 +150,7 @@ function makeCleaner(status, isRetired, isSuperseded) {
             isRetired:       isRetired,
             isSuperseded:    isSuperseded,
             trURL:           walk(spec, "doc:versionOf", 0, "$", "rdf:resource"),
+            edDraft:         walk(spec, "ED", 0, "$", "rdf:resource"),
             deliveredBy:     walk(spec, "org:deliveredBy"),
             hasErrata:       walk(spec, "mat:hasErrata", 0, "$", "rdf:resource"),
             source:          RDF_FILE
