@@ -81,7 +81,7 @@ suite('Reference', function() {
                     }
                 });
                 
-                testObjOnlyContainsProps(obj, key, PROPS.concat('versions', 'aliases'));
+                testObjOnlyContainsProps(obj, key, PROPS.concat('versions', 'aliases', 'edDraft'));
 
                 if ('versions' in obj) {
                     suite("versions obj of " + wrap(key), function() {
