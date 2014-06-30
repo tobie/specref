@@ -101,6 +101,7 @@ request(RDF_FILE, function(err, response, body) {
                 var clone = _cloneJSON(ref);
                 delete clone.trURL;
                 delete clone.shortName;
+                delete clone.edDraft;
                 cur.versions[key] = clone;
             }
         });
