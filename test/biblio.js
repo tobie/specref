@@ -63,9 +63,29 @@ function testAliasOfPointsToRealObj(obj, key) {
     }
 }
 
+function testForDuplicates(obj, key, dups) {
+    test(wrap(key) + ' has no duplicate', function() {
+        var id = key.toUpperCase();
+            exists = id in dups;
+
+        if (exists) {
+            dups[id].push(key);
+        } else {
+            dups[id] = [ key ];
+        }
+
+        assert.ok(!exists, dups[id].join(', '));
+    });
+}
+
 suite('Reference', function() {
+    var dups = {};
+
     Object.keys(json).forEach(function(key) {
         var obj = json[key];
+
+        testForDuplicates(obj, key, dups);
+
         if (typeof obj == 'object') {
             if (obj.aliasOf) {
                 testAliasOfPointsToRealObj(obj, key);
@@ -74,23 +94,23 @@ suite('Reference', function() {
                 testAuthorsArray(obj, key);
                 testDeliveredByArray(obj, key);
                 testEtAlIsTrueWhenPresent(obj, key);
-                
+
                 ['href', 'date', 'status', 'publisher', 'title'].forEach(function(prop) {
                     if (prop in obj) {
                         testPropIsAString(obj, key, prop);
                     }
                 });
-                
+
                 testObjOnlyContainsProps(obj, key, PROPS.concat('versions', 'aliases', 'edDraft'));
 
                 if ('versions' in obj) {
                     suite("versions obj of " + wrap(key), function() {
                         var versions = obj.versions;
-                        
+
                         test(wrap(key) + ' has a versions object', function() {
                             assert.ok(typeof versions == "object");
                         });
-                        
+
                         Object.keys(versions).forEach(function(k) {
                             var ver = versions[k];
                             if ('aliasOf' in ver) {
