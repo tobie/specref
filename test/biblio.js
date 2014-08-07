@@ -9,14 +9,14 @@ function wrap(id) {
 var PROPS = ["authors", "etAl", "href", "title", "date", "deliveredBy", "rawDate", "status", "publisher", "isRetired", "hasErrata", "isSuperseded", "source", "unorderedAuthors", "updates", "obsoletes", "issn", "updatedBy", "obsoletedBy", "rfcNumber", "seeAlso"];
 
 function testPropIsAString(obj, key, propName) {
-    test(wrap(key) + ' has a ' + propName + ' which isn\'t an empty string.', function() {
+    test(wrap(key) + ' has a ' + propName + ' which isn\'t an empty string', function() {
         assert.ok(typeof obj[propName] == "string")
         assert.ok(obj[propName].length > 0, "is not the empty string")
     });
 }
 
 function testObjOnlyContainsProps(obj, key, props) {
-    test(wrap(key) + ' has no other properties.', function() {
+    test(wrap(key) + ' has no other properties', function() {
         Object.keys(obj).forEach(function(k) {
             assert.ok(props.indexOf(k) > -1, k + ' is a prop');
         })
@@ -57,7 +57,7 @@ function testDeliveredByArray(obj, key) {
 
 function testAliasOfPointsToRealObj(obj, key) {
     if ('aliasOf' in obj) {
-        test('alias ' + wrap(obj.aliasOf) + ' of ' + wrap(key) + ' exists.', function() {
+        test('alias ' + wrap(obj.aliasOf) + ' of ' + wrap(key) + ' exists', function() {
             assert.ok(obj.aliasOf in json);
         });
     }
