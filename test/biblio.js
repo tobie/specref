@@ -65,7 +65,7 @@ function testAliasOfPointsToRealObj(obj, key) {
 
 function testForDuplicates(obj, key, dups) {
     test(wrap(key) + ' has no duplicate', function() {
-        var id = key.toUpperCase();
+        var id = key.toUpperCase(),
             exists = id in dups;
 
         if (exists) {
