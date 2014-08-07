@@ -17,7 +17,7 @@ suite('Test bibref api', function() {
         var obj = {};
         assert.strictEqual(obj, bibref.create(obj).raw);
     });
-    
+
     test('bibref.all points to a clone of the object passed to the constructor', function() {
         var obj = {FOO: { title: "foo" }};
         assert.ok(typeof bibref.create(obj).all == "object");
@@ -25,14 +25,14 @@ suite('Test bibref api', function() {
         assert.notStrictEqual(obj.FOO, bibref.create(obj).all.FOO);
         assert.equal(obj.FOO.title, bibref.create(obj).all.FOO.title);
     });
-    
+
     test('bibref.expandRefs expands references correctly', function() {
         var expanded = bibref.expandRefs(obj);
         assert.equal("FOO title", expanded.FOO.title);
         assert.equal("BAR title", expanded["FOO-BAR"].title);
         assert.equal("FOO title", expanded["FOO-BAZ"].title);
     });
-    
+
     test('bibref.cleanupRefs modifies the refs correctly', function() {
         var cleanedup = bibref.cleanupRefs({
             foo: {
@@ -51,7 +51,7 @@ suite('Test bibref api', function() {
 	assert.ok('shortname' in foo.deliveredBy[0], "The deliveredBy property of ref has a shortname property.");
 	assert.equal(foo.deliveredBy[0].shortname, 'html', "The url http://www.w3.org/html/wg/ gets properly turned into the html shortname.");
     });
-    
+
     test('bibref.findLatest finds the latest version of the ref', function() {
         var basic = {
             versions: {
@@ -60,7 +60,7 @@ suite('Test bibref api', function() {
             }
         };
         assert.equal("2010-01-01", bibref.findLatest(basic).rawDate);
-        
+
         var complex = {
             versions: {
                 "20091010": { rawDate: "2009-10-10" },
@@ -70,9 +70,9 @@ suite('Test bibref api', function() {
             }
         };
         assert.equal("2010-01-01", bibref.findLatest(complex).rawDate);
-        
+
     });
-    
+
     test('bibref.get returns the proper ref', function() {
         var b = bibref.create(obj);
         assert.equal("object", typeof b.get("FOO"), "Returns an object.");
@@ -80,12 +80,12 @@ suite('Test bibref api', function() {
         assert.equal("object", typeof b.get("FOO").FOO, "Returns an object that has FOO prop which points to an object.");
         assert.equal("FOO title", b.get("FOO").FOO.title, "Returns an object that has FOO prop which points to an object that has the right title.");
     });
-    
-    test('bibref.get returns an empty object when it can\'t find the ref.', function() {
+
+    test('bibref.get returns an empty object when it can\'t find the ref', function() {
         var b = bibref.create(obj);
         assert.equal("object", typeof b.get("DOES-NOT-EXIST"), "Returns an object.");
     });
-    
+
     test('if passed an object bibref.get populates and returns it', function() {
         var b = bibref.create(obj);
         var output = {};
@@ -94,14 +94,30 @@ suite('Test bibref api', function() {
         b.get("FOO", output)
         assert.equal("FOO title", output.FOO.title);
     });
-    
+
     test('bibref.get treats aliases correctly', function() {
         var b = bibref.create(obj);
         assert.ok('FOO' in b.get("foo"), "Returns the aliased ref.");
         assert.ok('foo' in b.get("foo"), "Returns the ref itself.");
         assert.equal('FOO', b.get("foo").foo.aliasOf, "The ref has an aliasOf property which points to the alias.");
     });
-    
+
+    test('bibref.get is case-insensitive', function() {
+        var b = bibref.create(obj);
+        assert.ok('hello' in b.get('hello'), 'Returns the ref itself.');
+
+        assert.ok('HELLO' in b.get('HELLO'), 'Returns an alias if uppercase is used.');
+        assert.ok('hello' in b.get('HeLLo'), 'Returns the ref itself if uppercase is used.');
+        assert.equal('hello', b.get('HELLO').HELLO.aliasOf, 'The alias points to the ref itself if uppercase is used.');
+
+        assert.ok('HeLLo' in b.get('HeLLo'), 'Returns an alias if different casing is used.');
+        assert.ok('HELLO' in b.get('HeLLo'), 'Returns the uppercased alias if different casing is used.');
+        assert.ok('hello' in b.get('HeLLo'), 'Returns the ref itself if different casing is used.');
+
+        assert.equal('HELLO', b.get('HeLLo').HeLLo.aliasOf, 'The differently cased alias points to the uppercased alias.');
+        assert.equal('hello', b.get('HeLLo').HELLO.aliasOf, 'The uppercased  alias points to ref itself.');
+    });
+
     test('bibref.getRefs returns all required references', function() {
         var b = bibref.create(obj);
         var output = b.getRefs(["foo", "hello"]);
