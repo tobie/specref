@@ -57,8 +57,9 @@ function testDeliveredByArray(obj, key) {
 
 function testAliasOfPointsToRealObj(obj, key) {
     if ('aliasOf' in obj) {
-        test('alias ' + wrap(obj.aliasOf) + ' of ' + wrap(key) + ' exists', function() {
-            assert.ok(obj.aliasOf in json);
+        var alias = obj.aliasOf;
+        test('alias ' + wrap(alias) + ' of ' + wrap(key) + ' exists', function() {
+            assert.ok(bibref.get(alias)[alias]);
         });
     }
 }

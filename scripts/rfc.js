@@ -17,8 +17,7 @@ request(RFC_URL, function(err, response, body) {
     console.log("Parsing", RFC_URL + "...");
     parser.parseString(body, function (err, result) {
         result["rfc-index"]["rfc-entry"].map(formatData).forEach(function(obj) {
-            current[obj.rfcNumber] = obj;
-            current[obj.rfcNumber.toLowerCase()] = { aliasOf: obj.rfcNumber };
+            current[obj.rfcNumber.toLowerCase()] = obj;
         });
     });
     current = runner.sortRefs(current);
