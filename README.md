@@ -46,6 +46,24 @@ If you need to find a reference ID (for either bibliographic or cross-references
 
 ## Updating & Adding
 
+### Running the Auto-Updater
+
+There are scripts to pull fresh data from  IETF and W3C and update automatically `biblio.json`. To run those you need node.js and npm installed. Then, from the root directory of the repository, run:
+
+```bash
+$ npm install
+$ node scripts/list-refs.js # Updates the list of existing refs
+                            # for testing purposes.
+$ node scripts/run.js       # Reformats the existing JSON
+$ node scripts/rfc.js       # Merges IETF data
+$ node scripts/rdf.js       # Merges W3C data
+$ npm test                  # Runs the whole test suite
+```
+
+Commit and push those to your GitHub repository, then just make a pull request.
+
+### Manual Changes
+
 You can make modifications to the databases simply by editing either `biblio.json` or `xrefs.json` in the [GitHub repository](https://github.com/tobie/specref). 
 
 In order to do so you can fork the project and make a pull request to update it, or you can ask to be added as a project collaborator (we're pretty open about that) in which case you'll be able to push changes directly.
