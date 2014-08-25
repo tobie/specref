@@ -28,7 +28,7 @@ function sortRefs(input) {
 exports.writeBiblio = writeBiblio;
 function writeBiblio(obj) {
     console.log("Writing output to " + FILE + "...");
-    fs.writeFileSync(FILE, JSON.stringify(obj, null, 4), 'utf8');
+    fs.writeFileSync(FILE, JSON.stringify(obj, null, 4) + "\n", 'utf8');
 }
 
 function next(keys, input, output) {
