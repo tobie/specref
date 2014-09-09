@@ -1,7 +1,9 @@
+#!/usr/bin/env node
 var fs = require('fs');
 var json = require('../lib/bibref').all;
 var keys = Object.keys(json);
-var FILE = "./test/ref-list.json"
+var path = require('path');
+var FILE = path.join(__dirname, "..", "test", "ref-list.json");
 
 var output = JSON.parse(fs.readFileSync(FILE, 'utf8'));
 

@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 var request = require('request'),
     runner = require('./run'),
     xml2js = require('xml2js');
@@ -7,7 +8,8 @@ var current = runner.readBiblio();
 var RFC_URL = "http://www.ietf.org/rfc/rfc-index.xml";
 
 var parser = new xml2js.Parser();
-console.log("Fetching", RFC_URL + "...")
+console.log("Updating IETF references...");
+console.log("Fetching", RFC_URL + "...");
 request(RFC_URL, function(err, response, body) {
     if (err || response.statusCode !== 200) {
         console.log("Can't fetch", RFC_URL + ".");

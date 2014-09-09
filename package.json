@@ -12,7 +12,8 @@
     "mocha": "1.14.0",
     "ent": "*",
     "request": "*",
-    "xml2js": "*"
+    "xml2js": "*",
+    "async": "*"
   },
   "scripts": {
     "test": "mocha -u tdd ./test/*.js",

@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 var request = require('request'),
     xml2js = require('xml2js'),
     bibref = require('../lib/bibref'),
@@ -18,7 +19,7 @@ var STATUSES = {
 };
 
 var parser = new xml2js.Parser();
-
+console.log("Updating W3C references...");
 request(RDF_FILE, function(err, response, body) {
     if (err || response.statusCode !== 200) {
         console.log("Can't fetch", RDF_FILE + "...");

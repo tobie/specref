@@ -1,5 +1,7 @@
+#!/usr/bin/env node
 var fs = require('fs');
-var FILE = './biblio.json';
+var path = require('path');
+var FILE = path.join(__dirname, "..", "biblio.json");
 var moduleName = process.argv[2];
 var fn = moduleName ? require(moduleName) : noop;
 
