@@ -32,7 +32,7 @@ spawn("git", ["checkout", "-b", branch_name], function(err) {
         runScript.bind(null, "rfc.js"),
         runScript.bind(null, "rdf.js"),
         spawn.bind(null, "npm", ["test"]),
-        spawn.bind(null, "git", ["commit", "-a", "-m", JSON.stringify("Auto-update for " + today + ".")])
+        spawn.bind(null, "git", ["commit", "-a", "-m", today + " auto-update."])
     ], function(err) {
         if (err) {
             console.log("Auto-update failed. Attempting clean up.");
@@ -45,5 +45,5 @@ spawn("git", ["checkout", "-b", branch_name], function(err) {
         console.log("This looks good. You can now push it to your GitHub repository and send us a pull request!")
         process.exit(0);
     });
-})
+});
 
