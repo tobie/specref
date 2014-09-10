@@ -27,7 +27,7 @@ function spawn(cmd, args, callback) {
 spawn("git", ["checkout", "-b", branch_name], function(err) {
     if (err) return console.log(err);
     async.series([
-        runScript.bind(null, "list-refs.js"),
+        runScript.bind(null, "list-refs.js"), // make sure it's up to date before running the tests.
         runScript.bind(null, "run.js"),
         runScript.bind(null, "rfc.js"),
         runScript.bind(null, "rdf.js"),
@@ -36,6 +36,7 @@ spawn("git", ["checkout", "-b", branch_name], function(err) {
             done();
         },
         spawn.bind(null, "mocha", ["-u", "tdd", "-R", "min", "./test/*.js"]),
+        runScript.bind(null, "list-refs.js"),
         spawn.bind(null, "git", ["commit", "-a", "-m", today + " auto-update."])
     ], function(err) {
         if (err) {
