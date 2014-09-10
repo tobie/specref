@@ -36,8 +36,7 @@ spawn("git", ["checkout", "-b", branch_name], function(err) {
             done();
         },
         spawn.bind(null, "mocha", ["-u", "tdd", "-R", "min", "./test/*.js"]),
-        runScript.bind(null, "list-refs.js"),
-        spawn.bind(null, "git", ["commit", "-a", "-m", today + " auto-update."])
+        runScript.bind(null, "list-refs.js")
     ], function(err) {
         if (err) {
             console.log("Auto-update failed. Attempting clean up.");
@@ -47,8 +46,14 @@ spawn("git", ["checkout", "-b", branch_name], function(err) {
             ], function() { process.exit(1); });
             return;
         }
-        console.log("This looks good. You can now push it to your GitHub repository and send us a pull request!")
-        process.exit(0);
+        spawn("git", ["commit", "-a", "-m", today + " auto-update."], function(err) {
+            if (err) {
+                console.log("This looks good. You can now push it to your GitHub repository and send us a pull request!")
+            } else {
+                console.log("Looks like there weren't any changes. No need to update.")
+            }
+            process.exit(0);
+        });
     });
 });
 
