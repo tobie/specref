@@ -31,7 +31,11 @@ spawn("git", ["checkout", "-b", branch_name], function(err) {
         runScript.bind(null, "run.js"),
         runScript.bind(null, "rfc.js"),
         runScript.bind(null, "rdf.js"),
-        spawn.bind(null, "npm", ["test"]),
+        function(done) {
+            console.log("Running test suite... (This might take a while.)");
+            done();
+        },
+        spawn.bind(null, "mocha", ["-u", "tdd", "-R", "min", "./test/*.js"]),
         spawn.bind(null, "git", ["commit", "-a", "-m", today + " auto-update."])
     ], function(err) {
         if (err) {
