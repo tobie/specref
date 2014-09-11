@@ -51,10 +51,10 @@ spawn("git", ["checkout", "-b", branch_name], function(err) {
         spawn("git", ["commit", "-a", "-m", today + " auto-update."], function(err) {
             if (err) {
                 console.log("Looks like there weren't any changes. No need to update.")
-                process.exit(64); //custom exit code
+                process.exit(64); //custom exit code as per http://www.faqs.org/docs/abs/HTML/exitcodes.html
             } else {
                 console.log("This looks good. You can now push it to your GitHub repository and send us a pull request!")
-                process.exit(0); //custom exit code
+                process.exit(0);
             }
         });
     });
