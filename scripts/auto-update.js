@@ -18,7 +18,9 @@ function spawn(cmd, args, callback) {
     child.on('error', callback);
     child.on('close', function (code) {
         if (code != 0) {
-            callback(new Error("Spawn errno " + code));
+            var err = new Error();
+            err.errno = code;
+            callback(err);
         } else {
             callback(null);
         }
@@ -43,16 +45,17 @@ spawn("git", ["checkout", "-b", branch_name], function(err) {
             async.series([
                 spawn.bind(null, "git", ["checkout", "master"]),
                 spawn.bind(null, "git", ["branch", "-D", branch_name]),
-            ], function() { process.exit(1); });
+            ], function() { process.exit(err.errno || 1); });
             return;
         }
         spawn("git", ["commit", "-a", "-m", today + " auto-update."], function(err) {
             if (err) {
-                console.log("This looks good. You can now push it to your GitHub repository and send us a pull request!")
-            } else {
                 console.log("Looks like there weren't any changes. No need to update.")
+                process.exit(64); //custom exit code as per http://www.faqs.org/docs/abs/HTML/exitcodes.html
+            } else {
+                console.log("This looks good. You can now push it to your GitHub repository and send us a pull request!")
+                process.exit(0);
             }
-            process.exit(0);
         });
     });
 });
