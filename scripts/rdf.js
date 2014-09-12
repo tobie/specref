@@ -30,6 +30,7 @@ request(RDF_FILE, function(err, response, body) {
     parser.parseString(body, function (err, result) {
         var refs = result['rdf:RDF'];
         var output = [];
+        var aliases = {};
         
         Object.keys(STATUSES).forEach(function(k) {
             if (refs[k]) {
@@ -61,7 +62,49 @@ request(RDF_FILE, function(err, response, body) {
                 output.push(clean(ref));
             });
         }
-
+        
+        if (refs["rdf:Description"]) {
+            refs["rdf:Description"].forEach(function(ref) {
+                var former = walk(ref, "formerShortname");
+                var url = walk(ref, "$", "rdf:about");
+                var sn = getShortName(TR_URLS[url] || url);
+                if (former) {
+                    former.forEach(function(item) {
+                        if (item == sn) return;
+                        if (aliases[item] && aliases[item] !== sn) {
+                            console.log("Want to alias [" + item + "] to [" + sn + "] but it's already aliased to [" + aliases[item] + "]." )  ;
+                            return;
+                        }
+                        aliases[item] = sn;
+                    });
+                }
+            });
+        }
+        
+        function isCircular(k) {
+            var keys = { k: true };
+            while (k in aliases) {
+                if (k in keys) return true;
+                k = aliases[k];
+                keys[k] = true;
+            }
+            return false;
+        }
+        
+        var circular = [];
+        Object.keys(aliases).forEach(function(k) {
+            if (isCircular(k)) {
+                console.log(k, "=>", aliases[k]);
+                circular.push(k)
+            }
+        });
+        
+        Object.keys(aliases).forEach(function(k) {
+            if (circular.indexOf(k) >= 0 || circular.indexOf(aliases[k]) >= 0) {
+                delete aliases[k];
+            }
+        });
+        
         // Fill in missing specs
         output.forEach(function(ref) {
             var k = ref.shortName;
@@ -106,6 +149,27 @@ request(RDF_FILE, function(err, response, body) {
                 cur.versions[key] = clone;
             }
         });
+        
+        Object.keys(aliases).forEach(function(k) {
+            var aliasShortname = aliases[k];
+            var alias = current[aliasShortname];
+            if (!alias) throw new Error("Missing data for spec " + aliasShortname);
+            var obj = { aliasOf: aliasShortname };
+            while (alias.aliasOf) {
+                aliasShortname = alias.aliasOf;
+                alias = current[aliasShortname];
+            }
+            var old = current[k];
+            if (old && old.versions) {
+                alias.versions = alias.versions || {};
+                for (var prop in old.versions) {
+                    if (!alias.versions[prop]) {
+                        alias.versions[prop] = old.versions[prop];
+                    }
+                }
+            }
+            current[k] = { aliasOf: aliasShortname };
+        });
         console.log("Sorting references...");
         var sorted = {}, needUpdate = [];
         Object.keys(current).sort().forEach(function(k) {
@@ -129,9 +193,6 @@ request(RDF_FILE, function(err, response, body) {
                 ref.isSuperseded = latest.isSuperseded;
             }
         });
-
-        // Deal with CSS dups
-        sorted.CSS2 = { aliasOf: "CSS21" };
         runner.writeBiblio(sorted);
     });
 });
