@@ -19,7 +19,7 @@
     "async": "0.9.0"
   },
   "scripts": {
-    "test": "mocha -u tdd ./test/*.js",
+    "test": "mocha -u tdd -R min ./test/*.js",
     "start": "node index.js"
   },
   "subdomain": "specref",
