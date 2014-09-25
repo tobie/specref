@@ -13,10 +13,10 @@
   },
   "devDependencies": {
     "mocha": "1.14.0",
-    "ent": "*",
-    "request": "*",
-    "xml2js": "*",
-    "async": "*"
+    "ent": "2.0.0",
+    "request": "2.44.0",
+    "xml2js": "0.4.4",
+    "async": "0.9.0"
   },
   "scripts": {
     "test": "mocha -u tdd ./test/*.js",
