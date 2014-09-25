@@ -12,14 +12,14 @@
     "multer": "0.1.4"
   },
   "devDependencies": {
-    "mocha": "1.14.0",
-    "ent": "*",
-    "request": "*",
-    "xml2js": "*",
-    "async": "*"
+    "mocha": "1.21.4",
+    "ent": "2.0.0",
+    "request": "2.44.0",
+    "xml2js": "0.4.4",
+    "async": "0.9.0"
   },
   "scripts": {
-    "test": "mocha -u tdd ./test/*.js",
+    "test": "mocha -u tdd -R min ./test/*.js",
     "start": "node index.js"
   },
   "subdomain": "specref",
