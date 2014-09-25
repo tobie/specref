@@ -37,7 +37,7 @@ spawn("git", ["checkout", "-b", branch_name], function(err) {
             console.log("Running test suite... (This might take a while.)");
             done();
         },
-        spawn.bind(null, "mocha", ["-u", "tdd", "-R", "min", "./test/*.js"]),
+        spawn.bind(null, "npm", ["test"]),
         runScript.bind(null, "list-refs.js")
     ], function(err) {
         if (err) {

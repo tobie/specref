@@ -1,27 +1,21 @@
 var t0 = Date.now();
 
-var express = require("express"),
-    cors = require("connect-cors"),
-    bibref = require('./lib/bibref'),
+var bibref = require('./lib/bibref'),
     XREFS = require('./xrefs');
 
-var app = module.exports = express();
+var app = module.exports = require("express")();
 
-// Configuration
-app.configure(function(){
-    app.use(express.compress());
-    app.use(cors());
-    app.use(express.bodyParser());
-    app.use(app.router);
-});
+var errorhandlerOptions = {};
+if (process.env.NODE_ENV == "dev" || process.env.NODE_ENV == "development") {
+    errorhandlerOptions.dumpExceptions = true;
+    errorhandlerOptions.showStack = true;
+}
 
-app.configure('development', function(){
-    app.use(express.errorHandler({ dumpExceptions: true, showStack: true }));
-});
-
-app.configure('production', function(){
-    app.use(express.errorHandler());
-});
+app.use(require("compression")());
+app.use(require("cors")());
+app.use(require("body-parser").urlencoded({ extended: true }));
+app.use(require("multer")());
+app.use(require("errorhandler")(errorhandlerOptions));
 
 // bibrefs
 app.get('/bibrefs', function (req, res, next) {
