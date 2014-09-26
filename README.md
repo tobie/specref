@@ -46,17 +46,9 @@ If you need to find a reference ID (for either bibliographic or cross-references
 
 ## Updating & Adding
 
-### Running the Auto-Updater
+### Daily Auto-Updating
 
-There are scripts to pull fresh data from  IETF and W3C and update automatically `biblio.json`. To run those you need node.js and npm installed. Then, from the root directory of the repository, run:
-
-```bash
-$ git pull
-$ npm install
-$ node scripts/auto-update.js
-```
-
-Commit and push those to your GitHub repository, then just make a pull request.
+There are scripts that pull fresh data from IETF and W3C and update `biblio.json`. These have now run daily. Their outputed tested, comitted and deployed without human intervention. You should now always enjoy up to date content.
 
 ### Manual Changes
 
