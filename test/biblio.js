@@ -96,7 +96,7 @@ suite('Reference', function() {
                 testDeliveredByArray(obj, key);
                 testEtAlIsTrueWhenPresent(obj, key);
 
-                ['href', 'date', 'status', 'publisher', 'title'].forEach(function(prop) {
+                ['href', 'edDraft', 'date', 'status', 'publisher', 'title'].forEach(function(prop) {
                     if (prop in obj) {
                         testPropIsAString(obj, key, prop);
                     }
