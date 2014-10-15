@@ -48,7 +48,7 @@ If you need to find a reference ID (for either bibliographic or cross-references
 
 ### Daily Auto-Updating
 
-There are scripts that pull fresh data from IETF and W3C and update `biblio.json`. These have now run daily. Their outputed tested, comitted and deployed without human intervention. You should now always enjoy up to date content.
+There are scripts that pull fresh data from IETF and W3C and update `biblio.json`. These are now run daily. Their output is tested, comitted and deployed without human intervention. Content should now always be up to date.
 
 ### Manual Changes
 
