@@ -22,9 +22,9 @@ app.get('/bibrefs', function (req, res, next) {
     var refs = req.param("refs");
     if (refs) {
         refs = bibref.getRefs(refs.split(","));
-        res.jsonp(refs);
+        res.status(200).jsonp(refs);
     } else {
-        res.jsonp(bibref.all);
+        res.status(200).jsonp(bibref.all);
     }
 });
 
@@ -69,9 +69,9 @@ app.get('/search-refs', function (req, res, next) {
 				}
 			}
 		}
-        res.jsonp(obj);
+        res.status(200).jsonp(obj);
     } else {
-        res.jsonp(400, { message: "Missing q parameter" });
+        res.status(400).jsonp({ message: "Missing q parameter" });
     }
 });
 
@@ -83,9 +83,9 @@ app.get('/xrefs', function (req, res, next) {
         refs.split(",").forEach(function(ref) {
             if (XREFS[ref]) data[ref] = XREFS[ref];
         });
-        res.jsonp(data);
+        res.status(200).jsonp(data);
     } else {
-        res.jsonp(XREFS);
+        res.status(200).jsonp(XREFS);
     }
     
 });
