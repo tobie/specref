@@ -22,6 +22,10 @@
     "test": "mocha -u tdd -R min ./test/*.js",
     "start": "node index.js"
   },
+  "domains": [
+      "specref.org",
+      "www.specref.org"
+  ],
   "subdomain": "specref",
   "engines": {
     "node": "0.10.x"
