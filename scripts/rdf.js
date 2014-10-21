@@ -133,6 +133,9 @@ request(RDF_FILE, function(err, response, body) {
             var key = ref.rawDate.replace(/\-/g, '');
             var prev = cur.versions[key];
             if (prev) {
+                if (prev.aliasOf) {
+                    return;
+                }
                 for (var prop in ref) {
                     if (typeof ref[prop] !== "undefined") prev[prop] = ref[prop];
                 }
@@ -184,7 +187,7 @@ request(RDF_FILE, function(err, response, body) {
         console.log("updating existing refs.")
         needUpdate.forEach(function(ref) {
             var latest = bibref.findLatest(ref);
-            if (latest.rawDate !== ref.rawDate) {
+            if (!latest.aliasOf && latest.rawDate !== ref.rawDate) {
                 ref.title = latest.title;
                 ref.rawDate = latest.rawDate;
                 ref.status = latest.status;
