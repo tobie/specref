@@ -6,7 +6,7 @@ function wrap(id) {
     return '[[' + id + ']]';
 }
 
-var PROPS = ["authors", "etAl", "href", "title", "date", "deliveredBy", "rawDate", "status", "publisher", "isRetired", "hasErrata", "isSuperseded", "source", "unorderedAuthors", "updates", "obsoletes", "issn", "updatedBy", "obsoletedBy", "rfcNumber", "seeAlso"];
+var PROPS = ["authors", "etAl", "href", "title", "date", "deliveredBy", "rawDate", "status", "publisher", "isRetired", "hasErrata", "isSuperseded", "source", "unorderedAuthors", "updates", "obsoletes", "issn", "updatedBy", "obsoletedBy", "rfcNumber", "seeAlso", "id", "versionOf"];
 
 function testPropIsAString(obj, key, propName) {
     test(wrap(key) + ' has a ' + propName + ' which isn\'t an empty string', function() {
@@ -96,7 +96,7 @@ suite('Reference', function() {
                 testDeliveredByArray(obj, key);
                 testEtAlIsTrueWhenPresent(obj, key);
 
-                ['href', 'edDraft', 'date', 'status', 'publisher', 'title'].forEach(function(prop) {
+                ['href', 'edDraft', 'date', 'status', 'publisher', 'title', 'versionOf', 'id'].forEach(function(prop) {
                     if (prop in obj) {
                         testPropIsAString(obj, key, prop);
                     }
@@ -118,7 +118,7 @@ suite('Reference', function() {
                                 testAliasOfPointsToRealObj(ver, k);
                                 testObjOnlyContainsProps(ver, k, ['aliasOf']);
                             } else {
-                                ['href', 'title', 'date', 'status', 'publisher'].forEach(function(prop) {
+                                ['href', 'title', 'date', 'status', 'publisher', 'versionOf', 'id'].forEach(function(prop) {
                                     if (prop in ver) {
                                         testPropIsAString(ver, k, prop);
                                     }
