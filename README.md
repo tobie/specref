@@ -5,27 +5,62 @@ Specref API
 
 ## API
 
-The API to the service is very simple. It supports two operations, each of which takes the same two parameters. CORS is enabled for all origins. 
+The API to the service is very simple. It supports four operations which are: 
 
-The operations are: 
+1.  Get a set of bibliographic references:
+    
+        GET http://specref.jit.su/bibrefs?refs=comma,seperated,list,of,references
+    
+    parameters:
+    
+        refs=comma-separated,list,of,reference,IDs
+        callback=nameOfCallbackFunction
+    
+    returns: a JSON object indexed by IDs
 
-    GET http://specref.jit.su/bibrefs
+    
+2.  Search bibliographic references
 
-Used to get a set of bibliographic references. 
+        GET http://specref.jit.su/search-refs?q=search-term
+        
+    parameters:
+    
+        q=search%20term
+        callback=nameOfCallbackFunction
+    
+    returns: a JSON object indexed by IDs
+    
+    Used to get a set of bibliographic references that include the search term in any of their attributes. This is usefull to find specs related to a given area of study, specs by a given editor, etc.
+    
+3.  Reverse Lookup
 
-    GET http://specref.jit.su/xrefs
+        GET http://specref.jit.su/reverse-lookup?urls=ur
+    
+    parameters:
 
-Used to get a set of definition cross-references. 
+        urls=comma-separated,list,of,reference,URLs.
+        callback=nameOfCallbackFunction
+    
+    returns: a JSON object indexed by URLs
+    
+    This finds you the canonical version of a spec from it's URL.
+    
+4.  Get a set of definition cross-references [DEPRECATED]. 
 
-The parameters, to be used in the query string, are: 
+        GET http://specref.jit.su/xrefs?refs=comma,seperated,list,of,references
+    
+    parameters:
 
-    refs=comma-separated list of reference IDs
+        refs=comma-separated,list,of,reference,IDs
+        callback=nameOfCallbackFunction
 
-This is the desired list of reference IDs separated by commas (with no spaces). 
+    returns: a JSON object indexed by IDs
 
-    callback=name of the callback function
+## CORS
 
-By default the service returns JSON data, which is great but not convenient for browsers that do not support CORS yet. For those, simply adding the `callback` parameter with the name of the callback function you want will switch the response to JSON-P. 
+**CORS is enabled for all origins.** By default the service returns JSON data, which is great but not convenient for browsers that do not support CORS yet. For those, simply adding the `callback` parameter with the name of the callback function you want will switch the response to JSON-P.
+
+## Examples
 
 Some examples should help: 
 
@@ -41,7 +76,6 @@ Some examples should help:
     // the same as JSON-P
     GET http://specref.jit.su/xrefs?refs=cssom,fileapi&callback=yourFunctionName
             
-
 If you need to find a reference ID (for either bibliographic or cross-references) you need to either lift it from an existing specification, or to find it in the source database. Where to get the latter is explained below. Please note that the identifiers for bibliographic references are not the same as for definition cross-references, and that just because a specification is featured in one does not mean it is also in the other. (Historically, those were two separate databases that were merged. Or, if you really insist on accuracy, the CSS bibref DB was converted into the ReSpec JS DB; the latter was extensively extended and edited, forked into the Specifiction database which was edited, then into the ReSpec v3 database which was also edited, then much of those were merged; in a parallel universe the Anolis bibliographical and cross-reference databases were developed; then all of these were merged into this service. So stop whining and delight in the consistency that you do have.) 
 
 ## Updating & Adding
@@ -87,4 +121,3 @@ For the bibliographical references DB:
     }, //...
 }
 ```
-* Keep the entries in alphabetical order. Try to indent them in roughly the same manner that others are.
