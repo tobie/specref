@@ -144,5 +144,167 @@ suite('Test bibref api', function() {
         assert.ok('foo' in output, "Returns the ref itself.");
         assert.ok('hello' in output, "Returns another ref.");
     });
+});
 
+suite('Test bibref reverseLookup API', function() {
+    test('properly handles http protocols', function() {
+        var b = bibref.create({
+            foo: { href: "http://example.com/foo" },
+        });
+        var url = "http://example.com/foo";
+        assert(url in  b.reverseLookup([url]));
+    });
+    
+    test('properly handles https protocols', function() {
+        var b = bibref.create({
+            foo: { href: "https://example.com/foo" },
+        });
+        var url = "https://example.com/foo";
+        assert(url in  b.reverseLookup([url]));
+    });
+    
+    test('still finds http specs when looking them up with an https protocol', function() {
+        var b = bibref.create({
+            foo: { href: "http://example.com/foo" },
+        });
+        var url = "https://example.com/foo";
+        assert(url in  b.reverseLookup([url]));
+    });
+    
+    test('still finds https specs when looking them up with an http protocol', function() {
+        var b = bibref.create({
+            foo: { href: "https://example.com/foo" },
+        });
+        var url = "http://example.com/foo";
+        assert(url in  b.reverseLookup([url]));
+    });
+    
+    test('correctly handles urls with a trailing slash', function() {
+        var b = bibref.create({
+            foo: { href: "http://example.com/foo/" },
+        });
+        var url = "http://example.com/foo/";
+        assert(url in  b.reverseLookup([url]));
+    });
+    
+    test('adds a missing trailing slash when one is required', function() {
+        var b = bibref.create({
+            foo: { href: "http://example.com/foo/" },
+        });
+        var url = "http://example.com/foo";
+        assert(url in  b.reverseLookup([url]));
+    });
+    
+    test('correctly handles urls without trailing slashes', function() {
+        var b = bibref.create({
+            foo: { href: "http://example.com/foo" },
+        });
+        var url = "http://example.com/foo";
+        assert(url in  b.reverseLookup([url]));
+    });
+    
+    test('removes trailing slashes when required', function() {
+        var b = bibref.create({
+            foo: { href: "http://example.com/foo" },
+        });
+        var url = "http://example.com/foo/";
+        assert(url in  b.reverseLookup([url]));
+    });
+    
+    test('finds specs with any kind of subdomain', function() {
+        var b = bibref.create({
+            foo: { href: "http://foo.specs.example.com" },
+        });
+        var url = "http://foo.specs.example.com";
+        assert(url in  b.reverseLookup([url]));
+    });
+    
+    test('finds specs with a www subdomain', function() {
+        var b = bibref.create({
+            foo: { href: "http://www.example.com/foo" },
+        });
+        var url = "http://www.example.com/foo";
+        assert(url in  b.reverseLookup([url]));
+    });
+    
+    test('finds specs without a www subdomain', function() {
+        var b = bibref.create({
+            foo: { href: "http://example.com/foo" },
+        });
+        var url = "http://example.com/foo";
+        assert(url in  b.reverseLookup([url]));
+    });
+    
+    test('finds specs registered with a www subdomain without it', function() {
+        var b = bibref.create({
+            foo: { href: "http://www.example.com/foo" },
+        });
+        var url = "http://example.com/foo";
+        assert(url in  b.reverseLookup([url]));
+    });
+    
+    test('finds specs registered without a www subdomain with it', function() {
+        var b = bibref.create({
+            foo: { href: "http://example.com/foo" },
+        });
+        var url = "http://www.example.com/foo";
+        assert(url in  b.reverseLookup([url]));
+    });
+    
+    test('correctly handles missing protocols', function() {
+        var b = bibref.create({
+            foo: { href: "http://example.com/foo" },
+        });
+        var url = "example.com/foo";
+        assert(url in  b.reverseLookup([url]));
+    });
+    
+    test('handles mixed-case references', function() {
+        var b = bibref.create({
+            foo: { href: "http://EXAMPLE.COM/FOO" },
+        });
+        var url = "http://example.com/foo";
+        assert(url in  b.reverseLookup([url]));
+    });
+    
+    test('is case insensitive', function() {
+        var b = bibref.create({
+            foo: { href: "http://example.com/foo" },
+        });
+        var url = "http://ExamplE.coM/FOO";
+        assert(url in  b.reverseLookup([url]));
+    });
+    
+    test('handles multiple urls', function() {
+        var b = bibref.create({
+            foo: { href: "http://example.com/foo" },
+            bar: { href: "http://example.com/bar" },
+        });
+        var foo = "example.com/foo";
+        var bar = "example.com/bar";
+        var output = b.reverseLookup([foo, bar]);
+        assert.equal("foo", output[foo].id);
+        assert.equal("bar", output[bar].id);
+    });
+    
+    test('handles edDrafts', function() {
+        var edDraft = "http://example.com/foo";
+        var href = "http://example.com/bar";
+        var b = bibref.create({
+            foo: { edDraft: edDraft, href: href }
+        });
+        assert(href in b.reverseLookup([href]));
+        assert(edDraft in b.reverseLookup([edDraft]));
+    });
+    
+    test('handles versionOf', function() {
+        var edDraft = "http://example.com/foo";
+        var b = bibref.create({
+            foo: { edDraft: edDraft, versionOf: "bar" },
+            bar: { title: "Bar" }
+        });
+        var output = b.reverseLookup([edDraft]);
+        assert(edDraft in output);
+        assert.equal("Bar", output[edDraft].title);
+    });
 });

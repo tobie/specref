@@ -75,6 +75,18 @@ app.get('/search-refs', function (req, res, next) {
     }
 });
 
+// search by url
+app.get('/reverse-lookup', function (req, res, next) {
+    var refs,
+        urls = req.param("urls");
+    if (urls) {
+        refs = bibref.reverseLookup(urls.split(","));
+        res.status(200).jsonp(refs);
+    } else {
+        res.status(400).jsonp({ message: "Missing urls parameter" });
+    }
+});
+
 // xrefs
 app.get('/xrefs', function (req, res, next) {
     var data = {};
