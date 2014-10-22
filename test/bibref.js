@@ -123,6 +123,20 @@ suite('Test bibref api', function() {
         assert.equal('hello', b.get('HeLLo').HELLO.aliasOf, 'The uppercased  alias points to ref itself.');
     });
 
+    test('bibref.get also includes canonical reference of versioned specs', function() {
+        var b = bibref.create({
+            foo: {
+                versions: {
+                    "20000101": {}
+                }
+            }
+        });
+        var output = b.getRefs(["foo-20000101"]);
+        assert('foo-20000101' in output, "Returns the requested ref.");
+        assert('foo' in output, "Returns the canonical ref.");
+        assert.equal('foo', output["foo-20000101"].versionOf, "Has a versionOf attribute.");
+    });
+
     test('bibref.getRefs returns all required references', function() {
         var b = bibref.create(obj);
         var output = b.getRefs(["foo", "hello"]);
