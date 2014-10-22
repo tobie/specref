@@ -102,6 +102,11 @@ suite('Test bibref api', function() {
         assert.equal('FOO', b.get("foo").foo.aliasOf, "The ref has an aliasOf property which points to the alias.");
     });
 
+    test('bibref.get exposes an id attribute', function() {
+        var b = bibref.create(obj);
+        assert.equal('foo', b.get("foo").foo.id);
+    });
+
     test('bibref.get is case-insensitive', function() {
         var b = bibref.create(obj);
         assert.ok('hello' in b.get('hello'), 'Returns the ref itself.');
