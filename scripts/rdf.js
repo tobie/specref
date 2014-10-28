@@ -189,12 +189,12 @@ request(RDF_FILE, function(err, response, body) {
         needUpdate.forEach(function(ref) {
             var latest = bibref.findLatest(ref);
             if (!latest.aliasOf && latest.rawDate !== ref.rawDate) {
-                ref.title = latest.title;
-                ref.rawDate = latest.rawDate;
-                ref.status = latest.status;
-                ref.publisher = latest.publisher;
-                ref.isRetired = latest.isRetired;
-                ref.isSuperseded = latest.isSuperseded;
+                if (latest.title) ref.title = latest.title;
+                if (latest.rawDate) ref.rawDate = latest.rawDate;
+                if (latest.status) ref.status = latest.status;
+                if (latest.publisher) ref.publisher = latest.publisher;
+                if (latest.isRetired) ref.isRetired = latest.isRetired;
+                if (latest.isSuperseded) ref.isSuperseded = latest.isSuperseded;
             }
         });
         runner.writeBiblio(sorted);
