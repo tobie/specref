@@ -9,7 +9,7 @@ The API to the service is very simple. It supports four operations which are:
 
 1.  Get a set of bibliographic references:
     
-        GET http://specref.jit.su/bibrefs?refs=FileAPI,rfc2119
+    [`GET http://specref.jit.su/bibrefs?refs=FileAPI,rfc2119`](http://specref.jit.su/bibrefs?refs=FileAPI,rfc2119)
     
     parameters:
     
@@ -55,7 +55,7 @@ The API to the service is very simple. It supports four operations which are:
     
 2.  Search bibliographic references
 
-        GET http://specref.jit.su/search-refs?q=coffee
+    [`GET http://specref.jit.su/search-refs?q=coffee`](http://specref.jit.su/search-refs?q=coffee)
         
     parameters:
     
@@ -95,8 +95,7 @@ The API to the service is very simple. It supports four operations which are:
     
 3.  Reverse Lookup
 
-        GET http://specref.jit.su/reverse-lookup?
-            urls=http://www.w3.org/TR/2012/WD-FileAPI-20121025/
+    [`GET http://specref.jit.su/reverse-lookup?urls=http://www.w3.org/TR/2012/WD-FileAPI-20121025/`](http://specref.jit.su/reverse-lookup?urls=http://www.w3.org/TR/2012/WD-FileAPI-20121025/)
     
     parameters:
 
