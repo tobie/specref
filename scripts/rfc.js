@@ -28,7 +28,7 @@ request(RFC_URL, function(err, response, body) {
 });
 
 function href(index) {
-    return "http://www.ietf.org/rfc/" + index.toLowerCase() + ".txt"
+    return "https://tools.ietf.org/html/" + index.toLowerCase();
 }
 
 var MONTHS = [
