@@ -19,6 +19,30 @@ var STATUSES = {
     'PR': 'PR'
 };
 
+var TR_URLS = {
+    "http://www.w3.org/TR/REC-CSS1": "http://www.w3.org/TR/CSS1/",
+    "http://www.w3.org/TR/REC-CSS2": "http://www.w3.org/TR/CSS2/",
+    "http://www.w3.org/TR/REC-DOM-Level-1": "http://www.w3.org/TR/DOM-Level-1/",
+    "http://www.w3.org/TR/REC-DSig-label/": "http://www.w3.org/TR/DSig-label/",
+    "http://www.w3.org/TR/REC-MathML": "http://www.w3.org/TR/MathML/",
+    "http://www.w3.org/TR/REC-PICS-labels": "http://www.w3.org/TR/PICS-labels/",
+    "http://www.w3.org/TR/REC-PICS-services": "http://www.w3.org/TR/PICS-services/",
+    "http://www.w3.org/TR/REC-PICSRules": "http://www.w3.org/TR/PICSRules/",
+    "http://www.w3.org/TR/REC-WebCGM": "http://www.w3.org/TR/WebCGM/",
+    "http://www.w3.org/TR/REC-png": "http://www.w3.org/TR/PNG/",
+    "http://www.w3.org/TR/REC-rdf-syntax": "http://www.w3.org/TR/rdf-syntax-grammar/",
+    "http://www.w3.org/TR/REC-smil/": "http://www.w3.org/TR/SMIL/",
+    "http://www.w3.org/TR/REC-xml-names": "http://www.w3.org/TR/xml-names/",
+    "http://www.w3.org/TR/REC-xml": "http://www.w3.org/TR/xml/",
+    "http://www.w3.org/TR/xml-events": "http://www.w3.org/TR/xml-events2/",
+    "http://www.w3.org/TR/2001/WD-xhtml1-20011004/": "http://www.w3.org/TR/xhtml1/",
+};
+
+var ED_DRAFTS = {
+    "http://dev.w3.org/2006/webapi/WebIDL/": "http://heycam.github.io/webidl/"
+};
+
+
 var parser = new xml2js.Parser();
 console.log("Updating W3C references...");
 request(RDF_FILE, function(err, response, body) {
@@ -250,27 +274,3 @@ function _cloneJSON(obj) {
 function isGeneratedByThisScript(ref) {
     return ref.source == "http://www.w3.org/2002/01/tr-automation/tr.rdf" || ref.source == RDF_FILE;
 }
-
-
-var TR_URLS = {
-    "http://www.w3.org/TR/REC-CSS1": "http://www.w3.org/TR/CSS1/",
-    "http://www.w3.org/TR/REC-CSS2": "http://www.w3.org/TR/CSS2/",
-    "http://www.w3.org/TR/REC-DOM-Level-1": "http://www.w3.org/TR/DOM-Level-1/",
-    "http://www.w3.org/TR/REC-DSig-label/": "http://www.w3.org/TR/DSig-label/",
-    "http://www.w3.org/TR/REC-MathML": "http://www.w3.org/TR/MathML/",
-    "http://www.w3.org/TR/REC-PICS-labels": "http://www.w3.org/TR/PICS-labels/",
-    "http://www.w3.org/TR/REC-PICS-services": "http://www.w3.org/TR/PICS-services/",
-    "http://www.w3.org/TR/REC-PICSRules": "http://www.w3.org/TR/PICSRules/",
-    "http://www.w3.org/TR/REC-WebCGM": "http://www.w3.org/TR/WebCGM/",
-    "http://www.w3.org/TR/REC-png": "http://www.w3.org/TR/PNG/",
-    "http://www.w3.org/TR/REC-rdf-syntax": "http://www.w3.org/TR/rdf-syntax-grammar/",
-    "http://www.w3.org/TR/REC-smil/": "http://www.w3.org/TR/SMIL/",
-    "http://www.w3.org/TR/REC-xml-names": "http://www.w3.org/TR/xml-names/",
-    "http://www.w3.org/TR/REC-xml": "http://www.w3.org/TR/xml/",
-    "http://www.w3.org/TR/xml-events": "http://www.w3.org/TR/xml-events2/",
-    "http://www.w3.org/TR/2001/WD-xhtml1-20011004/": "http://www.w3.org/TR/xhtml1/",
-};
-
-var ED_DRAFTS = {
-    "http://dev.w3.org/2006/webapi/WebIDL/": "http://heycam.github.io/webidl/"
-};
