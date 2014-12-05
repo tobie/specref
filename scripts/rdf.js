@@ -224,6 +224,7 @@ function makeCleaner(status, isRetired, isSuperseded) {
         };
         obj.deliveredBy = obj.deliveredBy ? obj.deliveredBy.map(function(r) { return  walk(r, "contact:homePage", 0, "$", "rdf:resource"); }) : obj.deliveredBy;
         obj.trURL = TR_URLS[obj.trURL] || obj.trURL;
+        obj.edDraft = ED_DRAFTS[obj.edDraft] || obj.edDraft;
         obj.shortName = getShortName(obj.trURL);
         return obj;
     }
@@ -270,4 +271,6 @@ var TR_URLS = {
     "http://www.w3.org/TR/2001/WD-xhtml1-20011004/": "http://www.w3.org/TR/xhtml1/",
 };
 
-
+var ED_DRAFTS = {
+    "http://dev.w3.org/2006/webapi/WebIDL/": "http://heycam.github.io/webidl/"
+};
