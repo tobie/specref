@@ -33,6 +33,7 @@ spawn("git", ["checkout", "-b", branch_name], function(err) {
         runScript.bind(null, "run.js"),
         runScript.bind(null, "rfc.js"),
         runScript.bind(null, "rdf.js"),
+        runScript.bind(null, "csswg.js"),
         function(done) {
             console.log("Running test suite... (This might take a while.)");
             done();
