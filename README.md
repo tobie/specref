@@ -1,7 +1,7 @@
-Specref API
+Specref API [![Build Status](https://travis-ci.org/tobie/specref.png?branch=master)](https://travis-ci.org/tobie/specref)
 ===========
 
-[![Build Status](https://travis-ci.org/tobie/specref.png?branch=master)](https://travis-ci.org/tobie/specref)
+[Specref](http://www.specref.org/) is an open-source, community-maintained database of Web standards & related references.
 
 ## API
 
