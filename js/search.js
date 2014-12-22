@@ -153,7 +153,6 @@ function metadata(refcount, timeago) {
     
     $.getJSON("http://specref.jit.su/metadata").then(function(data) {
         refcount.html(formatRefCount(data.refCount));
-        var ago = formatTime(data.runningFor);
-        if (ago) timeago.html(" (last one " + ago + ")");
+        timeago.html(" (last one " + formatTime(data.runningFor) + ")");
     });
 }
