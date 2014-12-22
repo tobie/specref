@@ -128,4 +128,32 @@ function setup($root) {
     $search.focus();
 }
 
-
+function metadata(refcount, timeago) {
+    function formatRefCount(n) {
+        n = ""+n;
+        var l = n.length;
+        return n.substr(0, l - 3) +  "," + n.substr(l - 3, l);
+    }
+    
+    function formatTime(delta) {
+        delta = Math.floor(delta / 60000); // minutes
+        if (delta < 1) return "less than a minute ago";
+        if (delta == 1) return "a minutes ago";
+        if (delta < 60) return delta + " minutes ago";
+        delta = Math.floor(delta / 60); // hours
+        if (delta == 1) return "an hour ago";
+        if (delta < 24) return delta + " hours ago";
+        delta = Math.floor(delta / 24); // days
+        if (delta == 1) return "a day ago";
+        if (delta < 7) return delta + " days ago";
+        delta = Math.floor(delta / 7); // weeks
+        if (delta == 1) return "a week ago";
+        return delta + " weeks ago";
+    }
+    
+    $.getJSON("http://specref.jit.su/metadata").then(function(data) {
+        refcount.html(formatRefCount(data.refCount));
+        var ago = formatTime(data.runningFor);
+        if (ago) timeago.html(" (last one " + ago + ")");
+    });
+}
