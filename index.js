@@ -87,6 +87,28 @@ app.get('/reverse-lookup', function (req, res, next) {
     }
 });
 
+var metadata = (function(pkg) {
+    var all = bibref.all;
+    var ids = Object.keys(all);
+    var refCount = 0;
+    ids.forEach(function(id) {
+        var ref = all[id];
+        if (typeof ref == "string" || !("aliasOf" in ref)) refCount++;
+    });
+    return {
+        name: pkg.name,
+        version: pkg.version,
+        refCount: refCount,
+        aliasCount: ids.length - refCount,
+        startupTime: new Date()
+    };
+})(require("./package.json"));
+
+app.get('/metadata', function (req, res, next) {
+    metadata.runningFor = new Date() - metadata.startupTime;
+    res.status(200).jsonp(metadata);
+});
+
 // xrefs
 app.get('/xrefs', function (req, res, next) {
     var data = {};
