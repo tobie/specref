@@ -96,3 +96,35 @@ ul.features li:before {
     font-weight: bold;
     margin-right: 0.4em;
 }
+
+.icon {
+	display: inline-block;
+	color: #444444;
+	fill: currentColor;
+	background-color: ;
+}
+
+#icon-clipboard .path1 {
+	fill: currentcolor;
+}
+#icon-clipboard .path2 {
+	fill: rgb(70, 136, 71);
+}
+
+.icon-search,
+.icon-cloud-download,
+.icon-cogs,
+.icon-clipboard,
+.icon-github3 {
+	width: 16px;
+	height: 16px;
+}
+
+#search .icon-search {
+	color: #fff;
+	fill: currentColor;
+	width: 12px;
+	height: 12px;
+}
+
+
