@@ -69,7 +69,7 @@ function formatData(obj) {
     if (obj["date"][0].day) date.push(pad(obj["date"][0].day[0]));
     output.rawDate = date.join("-");
     output.status = obj["current-status"][0].split(" ").map(function(w) { return w[0] + w.substr(1).toLowerCase(); }).join(" ");
-    if (obj["updated-by"]) output.updatedBy = obj["updated-by"][0]["doc-id"];
+    if (obj["updated-by"]) output.updatedBy = unique(obj["updated-by"][0]["doc-id"]);
     if (obj["obsoleted-by"]) output.obsoletedBy = obj["obsoleted-by"][0]["doc-id"];
     if (obj["updates"]) output.updates = obj["updates"][0]["doc-id"];
     if (obj["obsoletes"]) output.obsoletes = obj["obsoletes"][0]["doc-id"];
@@ -83,4 +83,12 @@ function formatData(obj) {
 function pad(s) {
     s = s+"";
     return s.length === 2 ? s : "0" + s;
+}
+
+function unique(arr) {
+    var output = [];
+    arr.forEach(function(item) {
+        if (output.indexOf(item) < 0) output.push(item);
+    })
+    return output;
 }
