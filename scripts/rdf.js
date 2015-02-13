@@ -168,7 +168,6 @@ request(RDF_FILE, function(err, response, body) {
                 delete prev.trURL;
                 delete prev.shortName;
                 delete prev.edDraft;
-                delete prev.unorderedAuthors
             } else {
                 var clone = _cloneJSON(ref);
                 delete clone.trURL;
