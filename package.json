@@ -19,10 +19,11 @@
     "mocha": "1.21.4",
     "request": "2.44.0",
     "tv4": "1.1.9",
+    "tv4-formats": "1.0.0",
     "xml2js": "0.4.4"
   },
   "scripts": {
-    "test": "mocha -u tdd -R min --timeout 10000 ./test/*.js",
+    "test": "mocha -u tdd -R min --timeout 300000 ./test/*.js",
     "start": "node index.js"
   },
   "domains": [

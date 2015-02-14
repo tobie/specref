@@ -3,6 +3,7 @@ var bibref = require('../lib/bibref');
 var json = bibref.expandRefs(bibref.raw);
 var tv4 = require("tv4");
 var pointer = require("json-pointer");
+var formats = require('tv4-formats');
 
 function wrap(id) {
     return '[[' + id + ']]';
@@ -53,8 +54,12 @@ function testForDuplicates(obj, key, dups) {
 }
 
 suite('Validate References', function() {
-    var r = tv4.validateResult(json, require("../schemas/raw-reference.json"));
-    assert.ok(r.valid, schemaMsg(r.error, json));
+    test("Validate References with JSON schema.", function() {
+        var validator = tv4.freshApi();
+        validator.addFormat(formats);
+        var result = validator.validateResult(json, require("../schemas/raw-reference.json"));
+        assert(result.valid, schemaMsg(result.error, json));
+    });
 });
 
 suite('Verify aliases resolve', function() {

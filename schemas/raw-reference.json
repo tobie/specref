@@ -22,7 +22,7 @@
         "url": {
             "definition": "An URL string.",
             "type": "string",
-            "pattern": "^https?://[^/?#]*(?:\\?[^#]*)?(?:#.*)?"
+            "format": "uri"
         },
         "urlList": {
             "definition": "An array of unique URLs.",
@@ -76,7 +76,7 @@
                 "rawDate": {
                     "description": "A prefered, machine readable format (YYYY-MM-DD) to specify the date. Note month and day are optional.",
                     "type": "string",
-                    "pattern": "^\\d{4}(?:-\\d{2})?(?:-\\d{2})?$"
+                    "pattern": "^\\d{4}(?:-[01]\\d)?(?:-[0-3]\\d)?$"
                 },
                 "status": {
                     "description": "What state the spec is in. Is it a in progress, completed, etc.",
@@ -161,7 +161,7 @@
                 "rawDate": {
                     "description": "A prefered, machine readable format (YYYY-MM-DD) to specify the date. Note month and day are optional.",
                     "type": "string",
-                    "pattern": "^\\d{4}(?:-\\d{2})?(?:-\\d{2})?$"
+                    "pattern": "^\\d{4}(?:-[01]\\d)?(?:-[0-3]\\d)?$"
                 },
                 "status": {
                     "description": "What state a spec is in. Is it a work in progress, completed, etc.",
