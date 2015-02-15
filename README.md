@@ -9,7 +9,7 @@ The API to the service is very simple. It supports four operations which are:
 
 1.  Get a set of bibliographic references:
     
-    [`GET http://specref.jit.su/bibrefs?refs=FileAPI,rfc2119`](http://specref.jit.su/bibrefs?refs=FileAPI,rfc2119)
+    [`GET http://specref.heroku.com/bibrefs?refs=FileAPI,rfc2119`](http://specref.heroku.com/bibrefs?refs=FileAPI,rfc2119)
     
     parameters:
     
@@ -55,7 +55,7 @@ The API to the service is very simple. It supports four operations which are:
     
 2.  Search bibliographic references
 
-    [`GET http://specref.jit.su/search-refs?q=coffee`](http://specref.jit.su/search-refs?q=coffee)
+    [`GET http://specref.heroku.com/search-refs?q=coffee`](http://specref.heroku.com/search-refs?q=coffee)
         
     parameters:
     
@@ -95,7 +95,7 @@ The API to the service is very simple. It supports four operations which are:
     
 3.  Reverse Lookup
 
-    [`GET http://specref.jit.su/reverse-lookup?urls=http://www.w3.org/TR/2012/WD-FileAPI-20121025/`](http://specref.jit.su/reverse-lookup?urls=http://www.w3.org/TR/2012/WD-FileAPI-20121025/)
+    [`GET http://specref.heroku.com/reverse-lookup?urls=http://www.w3.org/TR/2012/WD-FileAPI-20121025/`](http://specref.heroku.com/reverse-lookup?urls=http://www.w3.org/TR/2012/WD-FileAPI-20121025/)
     
     parameters:
 
@@ -133,7 +133,7 @@ The API to the service is very simple. It supports four operations which are:
     
 4.  Get a set of definition cross-references [DEPRECATED]. 
 
-        GET http://specref.jit.su/xrefs?refs=comma,seperated,list,of,references
+        GET http://specref.heroku.com/xrefs?refs=comma,seperated,list,of,references
     
     parameters:
 
@@ -151,16 +151,16 @@ The API to the service is very simple. It supports four operations which are:
 Some examples should help: 
 
     // get references for SVG, REX, and DAHUT
-    GET http://specref.jit.su/bibrefs?refs=SVG,REX,DAHUT
+    GET http://specref.heroku.com/bibrefs?refs=SVG,REX,DAHUT
     
     // the same as JSON-P
-    GET http://specref.jit.su/bibrefs?refs=SVG,REX,DAHUT&callback=yourFunctionName
+    GET http://specref.heroku.com/bibrefs?refs=SVG,REX,DAHUT&callback=yourFunctionName
     
     // get cross-references for the CSS Object Model and File API specifications
-    GET http://specref.jit.su/xrefs?refs=cssom,fileapi
+    GET http://specref.heroku.com/xrefs?refs=cssom,fileapi
     
     // the same as JSON-P
-    GET http://specref.jit.su/xrefs?refs=cssom,fileapi&callback=yourFunctionName
+    GET http://specref.heroku.com/xrefs?refs=cssom,fileapi&callback=yourFunctionName
             
 If you need to find a reference ID (for either bibliographic or cross-references) you need to either lift it from an existing specification, or to find it in the source database. Where to get the latter is explained below. Please note that the identifiers for bibliographic references are not the same as for definition cross-references, and that just because a specification is featured in one does not mean it is also in the other. (Historically, those were two separate databases that were merged. Or, if you really insist on accuracy, the CSS bibref DB was converted into the ReSpec JS DB; the latter was extensively extended and edited, forked into the Specifiction database which was edited, then into the ReSpec v3 database which was also edited, then much of those were merged; in a parallel universe the Anolis bibliographical and cross-reference databases were developed; then all of these were merged into this service. So stop whining and delight in the consistency that you do have.) 
 
