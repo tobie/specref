@@ -153,6 +153,9 @@ function metadata(refcount, timeago) {
     
     $.getJSON("https://specref.herokuapp.com/metadata").then(function(data) {
         refcount.html(formatRefCount(data.refCount));
-        timeago.html(" (last one " + formatTime(data.runningFor) + ")");
+    });
+    
+    $.getJSON("https://api.github.com/repos/tobie/specref/commits?per_page=1").then(function(data) {
+        timeago.html(" (last one " + formatTime(new Date - Date.parse(data[0].commit.committer.date)) + ")");
     });
 }
