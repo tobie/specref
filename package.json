@@ -1,25 +1,37 @@
 {
   "name": "specref",
-  "version": "0.0.10",
+  "version": "0.2.0",
   "description": "A list of spec references and related API.",
   "main": "index.js",
   "dependencies": {
-    "express": "3.2.4",
-    "zlib": "*",
-    "connect-cors": "*"
+    "body-parser": "1.9.0",
+    "compression": "1.1.0",
+    "cors": "2.4.2",
+    "errorhandler": "1.2.0",
+    "express": "4.9.5",
+    "multer": "0.1.4"
   },
   "devDependencies": {
-    "mocha": "*",
-    "ent": "*",
-    "request": "*",
-    "xml2js": "*"
+    "async": "0.9.0",
+    "ent": "2.0.0",
+    "jsdom": "3.1.1",
+    "json-pointer": "0.2.2",
+    "mocha": "1.21.4",
+    "request": "2.44.0",
+    "tv4": "1.1.9",
+    "tv4-formats": "1.0.0",
+    "xml2js": "0.4.4"
   },
   "scripts": {
-    "test": "mocha -u tdd ./test/*.js",
+    "test": "mocha -u tdd -R min --timeout 300000 ./test/*.js",
     "start": "node index.js"
   },
+  "domains": [
+    "specref.org",
+    "www.specref.org"
+  ],
   "subdomain": "specref",
   "engines": {
-    "node": "0.8.x"
+    "node": "0.10.x"
   }
 }

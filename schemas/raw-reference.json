@@ -1,0 +1,246 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "title": "Specref",
+    "description": "A list of spec references.",
+    "patternProperties": {
+        "^[a-zA-Z0-9-_+\\.]+$": {
+            "oneOf": [
+                { "$ref": "#/definitions/alias" },
+                { "$ref": "#/definitions/legacyRef" },
+                { "$ref": "#/definitions/ref" }
+            ]
+        }
+    },
+    "additionalProperties": false,
+    "definitions": {
+        "nonEmptyString": {
+            "definition": "A non-empty string.",
+            "type": "string",
+            "minLength":1
+        },
+        "url": {
+            "definition": "An URL string.",
+            "type": "string",
+            "format": "uri"
+        },
+        "urlList": {
+            "definition": "An array of unique URLs.",
+            "type": "array",
+            "items": {
+                "$ref": "#/definitions/url"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        },
+        "id": {
+            "definition": "A reference ID (corresponds to RFCs or W3C shortnames).",
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9-_+\\.]+$"
+        },
+        "idList": {
+            "definition": "An array of unique reference IDs.",
+            "type": "array",
+            "items": {
+                "$ref": "#/definitions/id"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        },
+        "authors": {
+            "description": "Authors of the specification",
+            "type": "array",
+            "items": { "$ref": "#/definitions/nonEmptyString" },
+             "minItems": 1
+        },
+        "version": {
+            "type": "object",
+            "properties": {
+                "authors": { "$ref": "#/definitions/authors" },
+                "etAl": {
+                    "description": "Indicates extra, unlisted spec authors",
+                    "type": "boolean"
+                },
+                "href": {
+                    "description": "URL of the spec",
+                    "$ref": "#/definitions/url"
+                },
+                "title": {
+                    "description": "Title of the spec",
+                    "$ref": "#/definitions/nonEmptyString"
+                },
+                "deliveredBy": {
+                    "description": "An array of URLs pointing to the home page of the Working Groups working on the spec.",
+                    "$ref": "#/definitions/urlList"
+                },
+                "rawDate": {
+                    "description": "A prefered, machine readable format (YYYY-MM-DD) to specify the date. Note month and day are optional.",
+                    "type": "string",
+                    "pattern": "^\\d{4}(?:-[01]\\d)?(?:-[0-3]\\d)?$"
+                },
+                "status": {
+                    "description": "What state the spec is in. Is it a in progress, completed, etc.",
+                    "$ref": "#/definitions/nonEmptyString"
+                },
+                "publisher": {
+                    "description": "Name of the publisher, if any.",
+                    "$ref": "#/definitions/nonEmptyString"
+                },
+                "isRetired": {
+                    "description": "The spec has been retired.",
+                    "type": "boolean"
+                },
+                "hasErrata": {
+                    "description": "",
+                    "$ref": "#/definitions/url"
+                },
+                "isSuperseded": {
+                    "description": "",
+                    "type": "boolean"
+                },
+                "source": {
+                    "description": "",
+                    "$ref": "#/definitions/nonEmptyString"
+                },
+                "versionOf": {
+                    "description": "",
+                    "$ref": "#/definitions/id"
+                },
+                "aliases": {
+                    "description": "",
+                    "$ref": "#/definitions/idList"
+                }
+            },
+            "required": ["href", "rawDate"],
+            "additionalProperties": false
+        },
+        "legacyRef": {
+            "description": "Legacy, unstructured data. Please don't do this. Please help get it fixed: https://github.com/tobie/specref/issues/147",
+            "type": "string"
+        },
+        "alias": {
+            "type": "object",
+            "properties": {
+                "aliasOf": {
+                    "description": "ID of the aliased reference. Note aliasing can be recursive.",
+                    "$ref": "#/definitions/id"
+                }
+            },
+            "required": ["aliasOf"],
+            "additionalProperties": false
+        },
+        "ref": {
+            "type": "object",
+            "properties": {
+                "authors": {
+                    "description": "Authors of the specification",
+                    "type": "array",
+                    "items": { "$ref": "#/definitions/nonEmptyString" },
+                     "minItems": 1
+                },
+                "etAl": {
+                    "description": "Indicates extra, unlisted spec authors",
+                    "type": "boolean"
+                },
+                "href": {
+                    "description": "URL of the spec",
+                    "$ref": "#/definitions/url"
+                },
+                "title": {
+                    "description": "Title of the spec",
+                    "$ref": "#/definitions/nonEmptyString"
+                },
+                "date": {
+                    "description": "Date of publication in humand readable form, favor rawDate instead.",
+                    "$ref": "#/definitions/nonEmptyString"
+                },
+                "deliveredBy": {
+                    "description": "An array of URLs pointing to the home page of the Working Groups working on the spec.",
+                    "$ref": "#/definitions/urlList"
+                },
+                "rawDate": {
+                    "description": "A prefered, machine readable format (YYYY-MM-DD) to specify the date. Note month and day are optional.",
+                    "type": "string",
+                    "pattern": "^\\d{4}(?:-[01]\\d)?(?:-[0-3]\\d)?$"
+                },
+                "status": {
+                    "description": "What state a spec is in. Is it a work in progress, completed, etc.",
+                    "$ref": "#/definitions/nonEmptyString"
+                },
+                "publisher": {
+                    "description": "Name of the publisher if any.",
+                    "$ref": "#/definitions/nonEmptyString"
+                },
+                "isRetired": {
+                    "description": "",
+                    "type": "boolean"
+                },
+                "hasErrata": {
+                    "description": "",
+                    "$ref": "#/definitions/url"
+                },
+                "isSuperseded": {
+                    "description": "",
+                    "type": "boolean"
+                },
+                "source": {
+                    "description": "",
+                    "$ref": "#/definitions/nonEmptyString"
+                },
+                "updates": {
+                    "description": "",
+                    "$ref": "#/definitions/idList"
+                },
+                "obsoletes": {
+                    "description": "",
+                    "$ref": "#/definitions/idList"
+                },
+                "updatedBy": {
+                    "description": "",
+                    "$ref": "#/definitions/idList"
+                },
+                "obsoletedBy": {
+                    "description": "Array of identifiers of specs which have replaced this one",
+                    "$ref": "#/definitions/idList"
+                },
+                "rfcNumber": {
+                    "description": "",
+                    "type": "string",
+                    "pattern": "^RFC\\d{4}$"
+                },
+                "seeAlso": {
+                    "description": "",
+                    "$ref": "#/definitions/idList"
+                },
+                "versionOf": {
+                    "description": "",
+                    "$ref": "#/definitions/id"
+                },
+                "versions": {
+                    "description": "An object listing specific versions of that spec.",
+                    "type": "object",
+                    "patternProperties": {
+                        "^[a-zA-Z0-9-_+\\.]+$": {
+                            "oneOf": [
+                                { "$ref": "#/definitions/version" },
+                                { "$ref": "#/definitions/alias" }
+                            ]
+                        }
+                    },
+                    "additionalProperties": false
+                },
+                "aliases": {
+                    "description": "This is for in internal use only and shouldn't be manually set.",
+                    "$ref": "#/definitions/idList"
+                },
+                "edDraft": {
+                    "description": "URL of the editor's draft",
+                    "$ref": "#/definitions/url"
+                }
+            },
+            "required": ["title"],
+            "additionalProperties": false
+        }
+    }
+}
+

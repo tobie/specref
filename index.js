@@ -1,36 +1,30 @@
 var t0 = Date.now();
 
-var express = require("express"),
-    cors = require("connect-cors"),
-    bibref = require('./lib/bibref'),
+var bibref = require('./lib/bibref'),
     XREFS = require('./xrefs');
 
-var app = module.exports = express();
+var app = module.exports = require("express")();
 
-// Configuration
-app.configure(function(){
-    app.use(express.compress());
-    app.use(cors());
-    app.use(express.bodyParser());
-    app.use(app.router);
-});
+var errorhandlerOptions = {};
+if (process.env.NODE_ENV == "dev" || process.env.NODE_ENV == "development") {
+    errorhandlerOptions.dumpExceptions = true;
+    errorhandlerOptions.showStack = true;
+}
 
-app.configure('development', function(){
-    app.use(express.errorHandler({ dumpExceptions: true, showStack: true }));
-});
-
-app.configure('production', function(){
-    app.use(express.errorHandler());
-});
+app.use(require("compression")());
+app.use(require("cors")());
+app.use(require("body-parser").urlencoded({ extended: true }));
+app.use(require("multer")());
+app.use(require("errorhandler")(errorhandlerOptions));
 
 // bibrefs
 app.get('/bibrefs', function (req, res, next) {
     var refs = req.param("refs");
     if (refs) {
         refs = bibref.getRefs(refs.split(","));
-        res.jsonp(refs);
+        res.status(200).jsonp(refs);
     } else {
-        res.jsonp(bibref.all);
+        res.status(200).jsonp(bibref.all);
     }
 });
 
@@ -75,10 +69,44 @@ app.get('/search-refs', function (req, res, next) {
 				}
 			}
 		}
-        res.jsonp(obj);
+        res.status(200).jsonp(obj);
     } else {
-        res.jsonp(400, { message: "Missing q parameter" });
+        res.status(400).jsonp({ message: "Missing q parameter" });
     }
+});
+
+// search by url
+app.get('/reverse-lookup', function (req, res, next) {
+    var refs,
+        urls = req.param("urls");
+    if (urls) {
+        refs = bibref.reverseLookup(urls.split(","));
+        res.status(200).jsonp(refs);
+    } else {
+        res.status(400).jsonp({ message: "Missing urls parameter" });
+    }
+});
+
+var metadata = (function(pkg) {
+    var all = bibref.all;
+    var ids = Object.keys(all);
+    var refCount = 0;
+    ids.forEach(function(id) {
+        var ref = all[id];
+        if (typeof ref == "string" || !("aliasOf" in ref)) refCount++;
+    });
+    return {
+        name: pkg.name,
+        version: pkg.version,
+        refCount: refCount,
+        aliasCount: ids.length - refCount,
+        startupTime: new Date()
+    };
+})(require("./package.json"));
+
+app.get('/metadata', function (req, res, next) {
+    metadata.runningFor = new Date() - metadata.startupTime;
+    res.status(200).jsonp(metadata);
 });
 
 // xrefs
@@ -89,9 +117,9 @@ app.get('/xrefs', function (req, res, next) {
         refs.split(",").forEach(function(ref) {
             if (XREFS[ref]) data[ref] = XREFS[ref];
         });
-        res.jsonp(data);
+        res.status(200).jsonp(data);
     } else {
-        res.jsonp(XREFS);
+        res.status(200).jsonp(XREFS);
     }
     
 });

@@ -1,5 +1,7 @@
+#!/usr/bin/env node
 var fs = require('fs');
-var FILE = './biblio.json';
+var path = require('path');
+var FILE = path.join(__dirname, "..", "biblio.json");
 var moduleName = process.argv[2];
 var fn = moduleName ? require(moduleName) : noop;
 
@@ -28,7 +30,7 @@ function sortRefs(input) {
 exports.writeBiblio = writeBiblio;
 function writeBiblio(obj) {
     console.log("Writing output to " + FILE + "...");
-    fs.writeFileSync(FILE, JSON.stringify(obj, null, 4), 'utf8');
+    fs.writeFileSync(FILE, JSON.stringify(obj, null, 4) + "\n", 'utf8');
 }
 
 function next(keys, input, output) {
@@ -37,7 +39,9 @@ function next(keys, input, output) {
         k = keys.shift();
         fn(k, input[k], input, output, function(err) {
             if (err) throw err;
-            next(keys, input, output);
+            setImmediate(function() {
+                next(keys, input, output);
+            });
         });
     } else {
         output = sortRefs(output);

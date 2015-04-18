@@ -1,7 +1,9 @@
+#!/usr/bin/env node
 var request = require('request'),
     xml2js = require('xml2js'),
     bibref = require('../lib/bibref'),
-    runner = require('./run');
+    runner = require('./run'),
+    getShortName = require('./get-shortname');
     
 var current = runner.readBiblio();
 
@@ -17,8 +19,32 @@ var STATUSES = {
     'PR': 'PR'
 };
 
-var parser = new xml2js.Parser();
+var TR_URLS = {
+    "http://www.w3.org/TR/REC-CSS1": "http://www.w3.org/TR/CSS1/",
+    "http://www.w3.org/TR/REC-CSS2": "http://www.w3.org/TR/CSS2/",
+    "http://www.w3.org/TR/REC-DOM-Level-1": "http://www.w3.org/TR/DOM-Level-1/",
+    "http://www.w3.org/TR/REC-DSig-label/": "http://www.w3.org/TR/DSig-label/",
+    "http://www.w3.org/TR/REC-MathML": "http://www.w3.org/TR/MathML/",
+    "http://www.w3.org/TR/REC-PICS-labels": "http://www.w3.org/TR/PICS-labels/",
+    "http://www.w3.org/TR/REC-PICS-services": "http://www.w3.org/TR/PICS-services/",
+    "http://www.w3.org/TR/REC-PICSRules": "http://www.w3.org/TR/PICSRules/",
+    "http://www.w3.org/TR/REC-WebCGM": "http://www.w3.org/TR/WebCGM/",
+    "http://www.w3.org/TR/REC-png": "http://www.w3.org/TR/PNG/",
+    "http://www.w3.org/TR/REC-rdf-syntax": "http://www.w3.org/TR/rdf-syntax-grammar/",
+    "http://www.w3.org/TR/REC-smil/": "http://www.w3.org/TR/SMIL/",
+    "http://www.w3.org/TR/REC-xml-names": "http://www.w3.org/TR/xml-names/",
+    "http://www.w3.org/TR/REC-xml": "http://www.w3.org/TR/xml/",
+    "http://www.w3.org/TR/xml-events": "http://www.w3.org/TR/xml-events2/",
+    "http://www.w3.org/TR/2001/WD-xhtml1-20011004/": "http://www.w3.org/TR/xhtml1/",
+};
 
+var ED_DRAFTS = {
+    "http://dev.w3.org/2006/webapi/WebIDL/": "http://heycam.github.io/webidl/"
+};
+
+
+var parser = new xml2js.Parser();
+console.log("Updating W3C references...");
 request(RDF_FILE, function(err, response, body) {
     if (err || response.statusCode !== 200) {
         console.log("Can't fetch", RDF_FILE + "...");
@@ -29,6 +55,7 @@ request(RDF_FILE, function(err, response, body) {
     parser.parseString(body, function (err, result) {
         var refs = result['rdf:RDF'];
         var output = [];
+        var aliases = {};
         
         Object.keys(STATUSES).forEach(function(k) {
             if (refs[k]) {
@@ -60,7 +87,49 @@ request(RDF_FILE, function(err, response, body) {
                 output.push(clean(ref));
             });
         }
-
+        
+        if (refs["rdf:Description"]) {
+            refs["rdf:Description"].forEach(function(ref) {
+                var former = walk(ref, "formerShortname");
+                var url = walk(ref, "$", "rdf:about");
+                var sn = getShortName(TR_URLS[url] || url);
+                if (former) {
+                    former.forEach(function(item) {
+                        if (item == sn) return;
+                        if (aliases[item] && aliases[item] !== sn) {
+                            console.log("Want to alias [" + item + "] to [" + sn + "] but it's already aliased to [" + aliases[item] + "]." )  ;
+                            return;
+                        }
+                        aliases[item] = sn;
+                    });
+                }
+            });
+        }
+        
+        function isCircular(k) {
+            var keys = { k: true };
+            while (k in aliases) {
+                if (k in keys) return true;
+                k = aliases[k];
+                keys[k] = true;
+            }
+            return false;
+        }
+        
+        var circular = [];
+        Object.keys(aliases).forEach(function(k) {
+            if (isCircular(k)) {
+                console.log(k, "=>", aliases[k]);
+                circular.push(k)
+            }
+        });
+        
+        Object.keys(aliases).forEach(function(k) {
+            if (circular.indexOf(k) >= 0 || circular.indexOf(aliases[k]) >= 0) {
+                delete aliases[k];
+            }
+        });
+        
         // Fill in missing specs
         output.forEach(function(ref) {
             var k = ref.shortName;
@@ -89,19 +158,44 @@ request(RDF_FILE, function(err, response, body) {
             var key = ref.rawDate.replace(/\-/g, '');
             var prev = cur.versions[key];
             if (prev) {
+                if (prev.aliasOf) {
+                    return;
+                }
                 for (var prop in ref) {
                     if (typeof ref[prop] !== "undefined") prev[prop] = ref[prop];
                 }
                 delete prev.date;
                 delete prev.trURL;
                 delete prev.shortName;
-                delete prev.unorderedAuthors
+                delete prev.edDraft;
             } else {
                 var clone = _cloneJSON(ref);
                 delete clone.trURL;
                 delete clone.shortName;
+                delete clone.edDraft;
                 cur.versions[key] = clone;
             }
+        });
+        
+        Object.keys(aliases).forEach(function(k) {
+            var aliasShortname = aliases[k];
+            var alias = current[aliasShortname];
+            if (!alias) throw new Error("Missing data for spec " + aliasShortname);
+            var obj = { aliasOf: aliasShortname };
+            while (alias.aliasOf) {
+                aliasShortname = alias.aliasOf;
+                alias = current[aliasShortname];
+            }
+            var old = current[k];
+            if (old && old.versions) {
+                alias.versions = alias.versions || {};
+                for (var prop in old.versions) {
+                    if (!alias.versions[prop]) {
+                        alias.versions[prop] = old.versions[prop];
+                    }
+                }
+            }
+            current[k] = { aliasOf: aliasShortname };
         });
         console.log("Sorting references...");
         var sorted = {}, needUpdate = [];
@@ -117,18 +211,15 @@ request(RDF_FILE, function(err, response, body) {
         console.log("updating existing refs.")
         needUpdate.forEach(function(ref) {
             var latest = bibref.findLatest(ref);
-            if (latest.rawDate !== ref.rawDate) {
-                ref.title = latest.title;
-                ref.rawDate = latest.rawDate;
-                ref.status = latest.status;
-                ref.publisher = latest.publisher;
-                ref.isRetired = latest.isRetired;
-                ref.isSuperseded = latest.isSuperseded;
+            if (!latest.aliasOf && latest.rawDate !== ref.rawDate) {
+                if (latest.title) ref.title = latest.title;
+                if (latest.rawDate) ref.rawDate = latest.rawDate;
+                if (latest.status) ref.status = latest.status;
+                if (latest.publisher) ref.publisher = latest.publisher;
+                if (latest.isRetired) ref.isRetired = latest.isRetired;
+                if (latest.isSuperseded) ref.isSuperseded = latest.isSuperseded;
             }
         });
-
-        // Deal with CSS dups
-        sorted.CSS2 = { aliasOf: "CSS21" };
         runner.writeBiblio(sorted);
     });
 });
@@ -149,12 +240,14 @@ function makeCleaner(status, isRetired, isSuperseded) {
             isRetired:       isRetired,
             isSuperseded:    isSuperseded,
             trURL:           walk(spec, "doc:versionOf", 0, "$", "rdf:resource"),
+            edDraft:         walk(spec, "ED", 0, "$", "rdf:resource"),
             deliveredBy:     walk(spec, "org:deliveredBy"),
             hasErrata:       walk(spec, "mat:hasErrata", 0, "$", "rdf:resource"),
             source:          RDF_FILE
         };
         obj.deliveredBy = obj.deliveredBy ? obj.deliveredBy.map(function(r) { return  walk(r, "contact:homePage", 0, "$", "rdf:resource"); }) : obj.deliveredBy;
         obj.trURL = TR_URLS[obj.trURL] || obj.trURL;
+        obj.edDraft = ED_DRAFTS[obj.edDraft] || obj.edDraft;
         obj.shortName = getShortName(obj.trURL);
         return obj;
     }
@@ -180,80 +273,3 @@ function _cloneJSON(obj) {
 function isGeneratedByThisScript(ref) {
     return ref.source == "http://www.w3.org/2002/01/tr-automation/tr.rdf" || ref.source == RDF_FILE;
 }
-
-
-var TR_URLS = {
-    "http://www.w3.org/TR/REC-CSS1": "http://www.w3.org/TR/CSS1/",
-    "http://www.w3.org/TR/REC-CSS2": "http://www.w3.org/TR/CSS2/",
-    "http://www.w3.org/TR/REC-DOM-Level-1": "http://www.w3.org/TR/DOM-Level-1/",
-    "http://www.w3.org/TR/REC-DSig-label/": "http://www.w3.org/TR/DSig-label/",
-    "http://www.w3.org/TR/REC-MathML": "http://www.w3.org/TR/MathML/",
-    "http://www.w3.org/TR/REC-PICS-labels": "http://www.w3.org/TR/PICS-labels/",
-    "http://www.w3.org/TR/REC-PICS-services": "http://www.w3.org/TR/PICS-services/",
-    "http://www.w3.org/TR/REC-PICSRules": "http://www.w3.org/TR/PICSRules/",
-    "http://www.w3.org/TR/REC-WebCGM": "http://www.w3.org/TR/WebCGM/",
-    "http://www.w3.org/TR/REC-png": "http://www.w3.org/TR/PNG/",
-    "http://www.w3.org/TR/REC-rdf-syntax": "http://www.w3.org/TR/rdf-syntax-grammar/",
-    "http://www.w3.org/TR/REC-smil/": "http://www.w3.org/TR/SMIL/",
-    "http://www.w3.org/TR/REC-xml-names": "http://www.w3.org/TR/xml-names/",
-    "http://www.w3.org/TR/REC-xml": "http://www.w3.org/TR/xml/",
-    "http://www.w3.org/TR/xml-events": "http://www.w3.org/TR/xml-events2/",
-    "http://www.w3.org/TR/2001/WD-xhtml1-20011004/": "http://www.w3.org/TR/xhtml1/",
-};
-
-var TR_URL = "http://www.w3.org/TR/";
-
-var SPECIAL_CASES = {
-    'http://www.w3.org/Search/9605-Indexing-Workshop/ReportOutcomes/S6Group2': "S6Group2",
-    'http://www.w3.org/TR/1998/NOTE-P3P10-Protocols': "P3P10-Protocols",
-    'http://www.w3.org/1999/05/WCA-terms/': "WCA-terms",
-    'http://www.w3.org/TR/1998/WD-HTTP-NG-goals': "HTTP-NG-goals",
-    'http://www.w3.org/TR/REC-html32': "HTML32",
-    'http://www.w3.org/TR/2001/WD-xhtml1-20011004/': 'xhtml1'
-};
-
-var SHORT_NAME_SPECIAL_CASES = {
-    "NOTE-CSS-potential": "CSS-potential",
-    "NOTE-P3P10-principles": "P3P10-principles",
-    "NOTE-SYMM-modules": "SYMM-modules",
-    "NOTE-XML-FRAG-REQ": "XML-FRAG-REQ",
-    "NOTE-html-lan": "html-lan",
-    "NOTE-voice": "voice",
-    "NOTE-xh": "xh",
-    "NOTE-xlink-principles": "xlink-principles",
-    "NOTE-xml-canonical-req": "xml-canonical-req",
-    "NOTE-xml-infoset-req": "xml-infoset-req",
-    "NOTE-xml-schema-req": "xml-schema-req",
-    "NOTE-xptr-infoset-liaison": "xptr-infoset-liaison",
-    "NOTE-xptr-req": "xptr-req",
-    "NOTE-HTTP-NG-testbed": "HTTP-NG-testbed",
-    "NOTE-WCA": "WCA",
-    "NOTE-html40-mobile": "html40-mobile",
-    "NOTE-rdf-uml": "rdf-uml",
-    "NOTE-xlink-req": "xlink-req",
-    "WD-DSIG-label-arch": "DSIG-label-arch",
-    "WD-HTTP-NG-architecture": "HTTP-NG-architecture",
-    "WD-HTTP-NG-interfaces": "HTTP-NG-interfaces",
-    "WD-HTTP-NG-wire": "HTTP-NG-wire",
-    "WD-P3P-arch": "P3P-arch",
-    "WD-P3P-grammar": "P3P-grammar",
-    "WD-SVGReq": "SVGReq",
-    "WD-XSLReq": "XSLReq",
-    "WD-acss": "acss",
-    "WD-font": "font",
-    "WD-http-pep": "http-pep",
-    "WD-ilu-requestor": "ilu-requestor",
-    "WD-jepi-uppflow": "jepi-uppflow",
-    "WD-mux": "mux",
-    "WD-positioning": "positioning",
-    "WD-print": "print"
-}
-
-function getShortName(url) {
-    if (SPECIAL_CASES[url]) return SPECIAL_CASES[url];
-    var parts = url.replace(TR_URL, "").split("/").filter(function(p) { return p != "/" && p != ''; });
-    if (parts.length > 1) throw new Error("Can't identify shortName from url " + url);
-    var part = parts[0]
-    return SHORT_NAME_SPECIAL_CASES[part] || part;
-}
-

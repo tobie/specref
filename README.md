@@ -1,52 +1,176 @@
-Specref API
+Specref API [![Build Status](https://travis-ci.org/tobie/specref.png?branch=master)](https://travis-ci.org/tobie/specref)
 ===========
 
-[![Build Status](https://travis-ci.org/tobie/specref.png?branch=master)](https://travis-ci.org/tobie/specref)
-
-[![Nodejitsu Deploy Status](https://webhooks.nodejitsu.com/tobie/specref.png)](https://webops.nodejitsu.com#tobie/specref)
+[Specref](http://www.specref.org/) is an open-source, community-maintained database of Web standards & related references.
 
 ## API
 
-The API to the service is very simple. It supports two operations, each of which takes the same two parameters. CORS is enabled for all origins. 
+The API to the service is very simple. It supports four operations which are: 
 
-The operations are: 
+1.  Get a set of bibliographic references:
+    
+    [`GET https://specref.herokuapp.com/bibrefs?refs=FileAPI,rfc2119`](https://specref.herokuapp.com/bibrefs?refs=FileAPI,rfc2119)
+    
+    parameters:
+    
+        refs=comma-separated,list,of,reference,IDs
+        callback=nameOfCallbackFunction
+    
+    returns: a JSON object indexed by IDs
+    
+    ```json
+    {
+        "FileAPI": {
+            "authors": [
+                "Arun Ranganathan",
+                "Jonas Sicking"
+            ],
+            "date": "12 September 2013",
+            "deliveredBy": [
+                {
+                    "shortname": "webapps",
+                    "url": "http://www.w3.org/2008/webapps/"
+                }
+            ],
+            "edDraft": "http://dev.w3.org/2006/webapi/FileAPI/",
+            "href": "http://www.w3.org/TR/FileAPI/",
+            "id": "FileAPI",
+            "publisher": "W3C",
+            "status": "LCWD",
+            "title": "File API"
+        },
+        "rfc2119": {
+            "authors": [
+                "S. Bradner"
+            ],
+            "date": "March 1997",
+            "href": "http://www.ietf.org/rfc/rfc2119.txt",
+            "id": "rfc2119",
+            "publisher": "IETF",
+            "status": "Best Current Practice",
+            "title": "Key words for use in RFCs to Indicate Requirement Levels"
+        }
+    }
+    ```
+    
+2.  Search bibliographic references
 
-    GET http://specref.jit.su/bibrefs
+    [`GET https://specref.herokuapp.com/search-refs?q=coffee`](https://specref.herokuapp.com/search-refs?q=coffee)
+        
+    parameters:
+    
+        q=search%20term
+        callback=nameOfCallbackFunction
+    
+    returns: a JSON object indexed by IDs
+    
+    ```json
+    {
+        "rfc2324": {
+            "authors": [
+                "L. Masinter"
+            ],
+            "date": "1 April 1998",
+            "href": "http://www.ietf.org/rfc/rfc2324.txt",
+            "id": "rfc2324",
+            "publisher": "IETF",
+            "status": "Informational",
+            "title": "Hyper Text Coffee Pot Control Protocol (HTCPCP/1.0)"
+        },
+        "rfc7168": {
+            "authors": [
+                "I. Nazar"
+            ],
+            "date": "1 April 2014",
+            "href": "http://www.ietf.org/rfc/rfc7168.txt",
+            "id": "rfc7168",
+            "publisher": "IETF",
+            "status": "Informational",
+            "title": "The Hyper Text Coffee Pot Control Protocol for Tea Efflux Appliances (HTCPCP-TEA)"
+        }
+    }
+    ```
+    
+    Used to get a set of bibliographic references that include the search term in any of their attributes. This is usefull to find specs related to a given area of study, specs by a given editor, etc.
+    
+3.  Reverse Lookup
 
-Used to get a set of bibliographic references. 
+    [`GET https://specref.herokuapp.com/reverse-lookup?urls=http://www.w3.org/TR/2012/WD-FileAPI-20121025/`](https://specref.herokuapp.com/reverse-lookup?urls=http://www.w3.org/TR/2012/WD-FileAPI-20121025/)
+    
+    parameters:
 
-    GET http://specref.jit.su/xrefs
+        urls=comma-separated,list,of,reference,URLs.
+        callback=nameOfCallbackFunction
+    
+    returns: a JSON object indexed by URLs
+    
+    ```json
+    {
+        "http://www.w3.org/TR/2012/WD-FileAPI-20121025/": {
+            "authors": [
+                "Arun Ranganathan",
+                "Jonas Sicking"
+            ],
+            "date": "12 September 2013",
+            "deliveredBy": [
+                {
+                    "shortname": "webapps",
+                    "url": "http://www.w3.org/2008/webapps/"
+                }
+            ],
+            "edDraft": "http://dev.w3.org/2006/webapi/FileAPI/",
+            "href": "http://www.w3.org/TR/FileAPI/",
+            "id": "FileAPI",
+            "publisher": "W3C",
+            "status": "LCWD",
+            "title": "File API"
+        }
+    }
+    ```
+    
+    Notice this finds you the canonical version of a spec and not the precise version the URL points to.
+    This is by design.
+    
+4.  Get a set of definition cross-references [DEPRECATED]. 
 
-Used to get a set of definition cross-references. 
+        GET https://specref.herokuapp.com/xrefs?refs=comma,seperated,list,of,references
+    
+    parameters:
 
-The parameters, to be used in the query string, are: 
+        refs=comma-separated,list,of,reference,IDs
+        callback=nameOfCallbackFunction
 
-    refs=comma-separated list of reference IDs
+    returns: a JSON object indexed by IDs
 
-This is the desired list of reference IDs separated by commas (with no spaces). 
+## CORS
 
-    callback=name of the callback function
+**CORS is enabled for all origins.** By default the service returns JSON data, which is great but not convenient for browsers that do not support CORS yet. For those, simply adding the `callback` parameter with the name of the callback function you want will switch the response to JSON-P.
 
-By default the service returns JSON data, which is great but not convenient for browsers that do not support CORS yet. For those, simply adding the `callback` parameter with the name of the callback function you want will switch the response to JSON-P. 
+## Examples
 
 Some examples should help: 
 
     // get references for SVG, REX, and DAHUT
-    GET http://specref.jit.su/bibrefs?refs=SVG,REX,DAHUT
+    GET https://specref.herokuapp.com/bibrefs?refs=SVG,REX,DAHUT
     
     // the same as JSON-P
-    GET http://specref.jit.su/bibrefs?refs=SVG,REX,DAHUT&callback=yourFunctionName
+    GET https://specref.herokuapp.com/bibrefs?refs=SVG,REX,DAHUT&callback=yourFunctionName
     
     // get cross-references for the CSS Object Model and File API specifications
-    GET http://specref.jit.su/xrefs?refs=cssom,fileapi
+    GET https://specref.herokuapp.com/xrefs?refs=cssom,fileapi
     
     // the same as JSON-P
-    GET http://specref.jit.su/xrefs?refs=cssom,fileapi&callback=yourFunctionName
+    GET https://specref.herokuapp.com/xrefs?refs=cssom,fileapi&callback=yourFunctionName
             
-
 If you need to find a reference ID (for either bibliographic or cross-references) you need to either lift it from an existing specification, or to find it in the source database. Where to get the latter is explained below. Please note that the identifiers for bibliographic references are not the same as for definition cross-references, and that just because a specification is featured in one does not mean it is also in the other. (Historically, those were two separate databases that were merged. Or, if you really insist on accuracy, the CSS bibref DB was converted into the ReSpec JS DB; the latter was extensively extended and edited, forked into the Specifiction database which was edited, then into the ReSpec v3 database which was also edited, then much of those were merged; in a parallel universe the Anolis bibliographical and cross-reference databases were developed; then all of these were merged into this service. So stop whining and delight in the consistency that you do have.) 
 
 ## Updating & Adding
+
+### Daily Auto-Updating
+
+There are scripts that pull fresh data from IETF and W3C and update `biblio.json`. These are now run daily. Their output is tested, comitted and deployed without human intervention. Content should now always be up to date.
+
+### Manual Changes
 
 You can make modifications to the databases simply by editing either `biblio.json` or `xrefs.json` in the [GitHub repository](https://github.com/tobie/specref). 
 
@@ -83,4 +207,3 @@ For the bibliographical references DB:
     }, //...
 }
 ```
-* Keep the entries in alphabetical order. Try to indent them in roughly the same manner that others are.
