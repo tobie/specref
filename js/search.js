@@ -55,7 +55,7 @@ function msg(query, count) {
     if (count) {
         return 'We found ' + pluralize(count, 'result', 'results') + ' for your search for "' + query + '".';
     }
-    return 'Your search for "' + query + '" did not match any references in the Specref database.<br>Sorry. :\'(';
+    return 'Your search for "' + query + '" did not match any references in the Specref database.\nSorry. :\'(';
 }
 
 
@@ -85,7 +85,7 @@ function setup($root) {
     $root.find("form").on("submit", function() {
         var query = $search.val();
         if (query) {
-            $status.html("Searching…");
+            $status.text("Searching…");
             fetch(query, function(err, output) {
                 window.history && window.history.pushState(null, '', queryToUrl(query));
                 update(query, output);
@@ -96,7 +96,7 @@ function setup($root) {
     
     function update(query, output) {
         $results.html(highlight(output.html, query));
-        $status.html(msg(query, output.count));
+        $status.text(msg(query, output.count));
         $search.select();
     }
     
@@ -104,7 +104,7 @@ function setup($root) {
         query = queryFromLocation();
         if (!query) return;
         $search.val(query);
-        $status.html("Searching…");
+        $status.text("Searching…");
         fetch(query, function(err, output) {
             update(query, output);
         });
@@ -152,10 +152,10 @@ function metadata(refcount, timeago) {
     }
     
     $.getJSON("https://specref.herokuapp.com/metadata").then(function(data) {
-        refcount.html(formatRefCount(data.refCount));
+        refcount.text(formatRefCount(data.refCount));
     });
     
     $.getJSON("https://api.github.com/repos/tobie/specref/commits?per_page=1").then(function(data) {
-        timeago.html(" (last one " + formatTime(new Date - Date.parse(data[0].commit.committer.date)) + ")");
+        timeago.text(" (last one " + formatTime(new Date - Date.parse(data[0].commit.committer.date)) + ")");
     });
 }
