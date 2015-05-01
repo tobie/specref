@@ -42,6 +42,10 @@ var ED_DRAFTS = {
     "http://dev.w3.org/2006/webapi/WebIDL/": "http://heycam.github.io/webidl/"
 };
 
+function edDraft(url) {
+    url = ED_DRAFTS[url] || url;
+    return url ? url.replace(/http:\/\/([a-zA-Z0-9_-]+)\.github\.io/, "https://$1.github.io") : url;
+}
 
 var parser = new xml2js.Parser();
 console.log("Updating W3C references...");
@@ -247,7 +251,7 @@ function makeCleaner(status, isRetired, isSuperseded) {
         };
         obj.deliveredBy = obj.deliveredBy ? obj.deliveredBy.map(function(r) { return  walk(r, "contact:homePage", 0, "$", "rdf:resource"); }) : obj.deliveredBy;
         obj.trURL = TR_URLS[obj.trURL] || obj.trURL;
-        obj.edDraft = ED_DRAFTS[obj.edDraft] || obj.edDraft;
+        obj.edDraft = edDraft(obj.edDraft);
         obj.shortName = getShortName(obj.trURL);
         return obj;
     }
@@ -264,7 +268,6 @@ function walk(obj) {
     }
     return obj;
 }
-
 
 function _cloneJSON(obj) {
     return JSON.parse(JSON.stringify(obj));
