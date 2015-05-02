@@ -234,6 +234,7 @@ function makeCleaner(status, isRetired, isSuperseded) {
         authors = authors ? authors.map(function(e) {
             return walk(e, "contact:fullName", 0) || walk(e, "org:name", 0);
         }) : void 0;
+        var type = walk(spec, "rdf:type", 0, "$", "rdf:resource");
         var obj = {
             authors:         authors,
             href:            walk(spec, "$", "rdf:about"),
@@ -241,7 +242,7 @@ function makeCleaner(status, isRetired, isSuperseded) {
             rawDate:         walk(spec, "dc:date", 0),
             status:          status,
             publisher:       "W3C",
-            isRetired:       isRetired,
+            isRetired:       isRetired || (type == "http://www.w3.org/2001/02pd/rec54#Retired") || void 0,
             isSuperseded:    isSuperseded,
             trURL:           walk(spec, "doc:versionOf", 0, "$", "rdf:resource"),
             edDraft:         walk(spec, "ED", 0, "$", "rdf:resource"),
