@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 var fs = require('fs');
 var path = require('path');
-var FILE = path.join(__dirname, "..", "biblio.json");
+var DIR_PATH = path.join(__dirname, "..", "refs");
+var DEFAULT_FILE = "biblio.json";
 var moduleName = process.argv[2];
 var fn = moduleName ? require(moduleName) : noop;
 
@@ -11,9 +12,10 @@ function noop(k, v, input, output, cb) {
 }
 
 exports.readBiblio = readBiblio;
-function readBiblio() {
-    console.log("Loadind and parsing " + FILE + "...");
-    var input = fs.readFileSync(FILE, 'utf8');
+function readBiblio(f) {
+    var filepath = path.join(DIR_PATH, f || DEFAULT_FILE);
+    console.log("Loadind and parsing " + filepath + "...");
+    var input = fs.readFileSync(filepath, 'utf8');
     return JSON.parse(input);
 }
 
@@ -28,9 +30,14 @@ function sortRefs(input) {
 }
 
 exports.writeBiblio = writeBiblio;
-function writeBiblio(obj) {
-    console.log("Writing output to " + FILE + "...");
-    fs.writeFileSync(FILE, JSON.stringify(obj, null, 4) + "\n", 'utf8');
+function writeBiblio(f, obj) {
+    if (!obj) {
+        obj = f;
+        f = DEFAULT_FILE;
+    }
+    var filepath = path.join(DIR_PATH, f);
+    console.log("Writing output to " + filepath + "...");
+    fs.writeFileSync(filepath, JSON.stringify(obj, null, 4) + "\n", 'utf8');
 }
 
 function next(keys, input, output) {
