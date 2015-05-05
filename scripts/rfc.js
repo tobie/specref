@@ -2,10 +2,12 @@
 var request = require('request'),
     runner = require('./run'),
     xml2js = require('xml2js');
-    
-var current = runner.readBiblio();
 
 var RFC_URL = "http://www.ietf.org/rfc/rfc-index.xml";
+var FILE = "ietf.json";
+    
+var current = runner.readBiblio(FILE);
+var old = runner.readBiblio();
 
 var parser = new xml2js.Parser();
 console.log("Updating IETF references...");
@@ -20,11 +22,13 @@ request(RFC_URL, function(err, response, body) {
     parser.parseString(body, function (err, result) {
         result["rfc-index"]["rfc-entry"].map(formatData).forEach(function(obj) {
             current[obj.rfcNumber.toLowerCase()] = obj;
+            delete old[obj.rfcNumber.toLowerCase()];
         });
     });
     current = runner.sortRefs(current);
     console.log("updating existing refs.")
-    runner.writeBiblio(current);
+    runner.writeBiblio(FILE, current);
+    runner.writeBiblio(old);
 });
 
 function href(index) {
