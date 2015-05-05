@@ -729,14 +729,7 @@
         "title": "Unicode Bidirectional Algorithm"
     },
     "BLOB": {
-        "authors": [
-            "Arun Ranganathan"
-        ],
-        "href": "http://www.w3.org/TR/2009/WD-FileAPI-20091117/#dfn-Blob",
-        "title": "Blob",
-        "date": "17 November 2009",
-        "status": "WD",
-        "publisher": "W3C"
+        "aliasOf": "FileAPI"
     },
     "BONDI-ARCH-SECURITY-11": "<a href=\"http://bondi.omtp.org/1.11/security/BONDI_Architecture_and_Security_v1.1.pdf\"><cite>BONDI Architecture &amp; Security Requirements v1.1</cite></a> 27 January 2010. URL: <a href=\"http://bondi.omtp.org/1.11/security/BONDI_Architecture_and_Security_v1.1.pdf\">http://bondi.omtp.org/1.11/security/BONDI_Architecture_and_Security_v1.1.pdf</a> ",
     "BONDI-FEATURES1-11": "<a href=\"http://bondi.omtp.org/1.11/apis/apifeatures.html\"><cite>BONDI API Features v1.11</cite></a> 2 June 2010. URL: <a href=\"http://bondi.omtp.org/1.11/apis/apifeatures.html\">http://bondi.omtp.org/1.11/apis/apifeatures.html</a> ",
@@ -7259,14 +7252,7 @@
         "title": "Accessibility Features of SMIL"
     },
     "SMIL10": {
-        "authors": [
-            "Philipp Hoschka"
-        ],
-        "href": "http://www.w3.org/TR/smil/",
-        "title": "Synchronized Multimedia Integration Language (SMIL) 1.0 Specification",
-        "date": "15 June 1998",
-        "status": "REC",
-        "publisher": "W3C"
+        "aliasOf": "SMIL-19980615"
     },
     "SMIL2": {
         "authors": [
@@ -7585,14 +7571,7 @@
         "aliasOf": "eventsource"
     },
     "SSE-ed": {
-        "authors": [
-            "Ian Hickson"
-        ],
-        "href": "http://dev.w3.org/html5/eventsource/",
-        "title": "Server-Sent Events",
-        "date": "25 March 2013",
-        "status": "ED",
-        "publisher": "W3C"
+        "aliasOf": "eventsource"
     },
     "SSML": {
         "aliasOf": "speech-synthesis11"
@@ -10240,16 +10219,7 @@
         }
     },
     "WCAG": {
-        "authors": [
-            "Wendy Chisholm",
-            "Gregg Vanderheiden",
-            "Ian Jacobs"
-        ],
-        "href": "http://www.w3.org/TR/1999/WAI-WEBCONTENT-19990505",
-        "title": "Web Content Accessibility Guidelines 1.0",
-        "date": "5 May 1999",
-        "status": "REC",
-        "publisher": "W3C"
+        "aliasOf": "WAI-WEBCONTENT"
     },
     "WCAG-EM": {
         "authors": [
@@ -10856,16 +10826,7 @@
     },
     "WEBSOCKETS-PROTOCOL": "C. Holmberg, S. Hakansson, G. Eriksson. <a href=\"https://tools.ietf.org/id/draft-ietf-hybi-thewebsocketprotocol-09.txt\"><cite>The WebSocket protocol.</cite></a> URL: <a href=\"https://tools.ietf.org/id/draft-ietf-hybi-thewebsocketprotocol-09.txt\">https://tools.ietf.org/id/draft-ietf-hybi-thewebsocketprotocol-09.txt</a> ",
     "WEBVTT": {
-        "authors": [
-            "Silvia Pfeiffer",
-            "Philip Jägenstedt",
-            "Ian Hickson"
-        ],
-        "href": "http://dev.w3.org/html5/webvtt/",
-        "title": "WebVTT: The Web Video Text Tracks Format",
-        "date": "16 May 2014",
-        "status": "ED",
-        "publisher": "W3C"
+        "aliasOf": "webvtt1"
     },
     "WEBVTT-WEBM": {
         "authors": [
@@ -11682,15 +11643,7 @@
         "aliasOf": "XMLHttpRequest"
     },
     "XHTML-BASIC11": {
-        "authors": [
-            "Mark Baker"
-        ],
-        "etAl": true,
-        "href": "http://www.w3.org/TR/2008/REC-xhtml-basic-20080729/",
-        "title": "XHTML™ Basic 1.1",
-        "date": "29 July 2008",
-        "status": "REC",
-        "publisher": "W3C"
+        "aliasOf": "xhtml-basic-20080729"
     },
     "XHTML-MODULARIZATION11": {
         "aliasOf": "xhtml-modularization-20081008"
@@ -11935,14 +11888,7 @@
         "aliasOf": "xmlenc-core1-testcases"
     },
     "XMLHTTPREQUEST3": {
-        "authors": [
-            "Anne van Kesteren"
-        ],
-        "href": "http://www.w3.org/TR/2010/CR-XMLHttpRequest-20100803",
-        "title": "XMLHttpRequest",
-        "date": "3 August 2010",
-        "status": "CR",
-        "publisher": "W3C"
+        "aliasOf": "XMLHttpRequest"
     },
     "XMLHttpRequest": {
         "authors": [
