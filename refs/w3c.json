@@ -596,6 +596,9 @@
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
         "edDraft": "http://www.w3.org/WAI/AU/ATAG20/"
     },
+    "ATAG20-TECHS": {
+        "aliasOf": "IMPLEMENTING-ATAG20"
+    },
     "C14N-issues": {
         "authors": [
             "José Kahan",
@@ -1069,6 +1072,9 @@
         "rawDate": "2005-12-19",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
+    "CSP": {
+        "aliasOf": "CSP1"
+    },
     "CSP1": {
         "authors": [
             "Brandon Sterne",
@@ -1128,6 +1134,9 @@
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
+    },
+    "CSP11": {
+        "aliasOf": "CSP2"
     },
     "CSP2": {
         "authors": [
@@ -1573,6 +1582,9 @@
         "hasErrata": "http://www.w3.org/Style/css2-updates/REC-CSS2-20110607-errata.html",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
+    "CSS21": {
+        "aliasOf": "CSS2"
+    },
     "CX": {
         "authors": [
             "Angel Diaz",
@@ -1615,6 +1627,9 @@
         },
         "rawDate": "2001-12-11",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+    },
+    "Content-in-RDF": {
+        "aliasOf": "Content-in-RDF10"
     },
     "Content-in-RDF10": {
         "authors": [
@@ -1750,6 +1765,9 @@
         },
         "rawDate": "2007-12-17",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+    },
+    "DOM-Bindings": {
+        "aliasOf": "WebIDL"
     },
     "DOM-Level-1": {
         "authors": [
@@ -2392,6 +2410,9 @@
         },
         "rawDate": "2004-04-07",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+    },
+    "DOM-Level-3-Events": {
+        "aliasOf": "uievents"
     },
     "DOM-Level-3-Events-code": {
         "authors": [
@@ -3174,6 +3195,9 @@
         },
         "status": "NOTE"
     },
+    "EARL10": {
+        "aliasOf": "EARL10-Schema"
+    },
     "EARL10-Guide": {
         "authors": [
             "Carlos A. Velasco",
@@ -3757,6 +3781,9 @@
             }
         }
     },
+    "HTTP-in-RDF": {
+        "aliasOf": "HTTP-in-RDF10"
+    },
     "HTTP-in-RDF10": {
         "authors": [
             "Johannes Koch",
@@ -3935,6 +3962,9 @@
             }
         },
         "edDraft": "http://www.w3.org/WAI/AU/IMPLEMENTING-ATAG20/"
+    },
+    "IMPLEMENTING-UAAG20": {
+        "aliasOf": "UAAG20-Reference"
     },
     "IPWG-Practices": {
         "versions": {
@@ -5356,6 +5386,12 @@
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
         "hasErrata": "http://www.w3.org/2003/11/REC-PNG-20031110-errata"
     },
+    "PR-rdf-syntax": {
+        "aliasOf": "rdf-syntax-grammar"
+    },
+    "Pointers-in-RDF": {
+        "aliasOf": "Pointers-in-RDF10"
+    },
     "Pointers-in-RDF10": {
         "authors": [
             "Carlos Iglesias"
@@ -5397,6 +5433,15 @@
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
+    },
+    "REC-CSS2": {
+        "aliasOf": "CSS2"
+    },
+    "REC-xml": {
+        "aliasOf": "xml"
+    },
+    "REC-xml-names": {
+        "aliasOf": "xml-names"
     },
     "S6Group2": {
         "authors": [
@@ -6583,6 +6628,9 @@
         "rawDate": "2003-01-14",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
+    "SVGMobile12": {
+        "aliasOf": "SVGTiny12"
+    },
     "SVGMobileReqs": {
         "authors": [
             "Rick Graham",
@@ -6687,6 +6735,9 @@
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
+    },
+    "SVGPrint": {
+        "aliasOf": "SVGPrint12"
     },
     "SVGPrint12": {
         "authors": [
@@ -7565,6 +7616,9 @@
         "rawDate": "2007-10-31",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
+    "UISafety": {
+        "aliasOf": "UISecurity"
+    },
     "UISecurity": {
         "authors": [
             "Giorgio Maone",
@@ -8028,6 +8082,9 @@
         "rawDate": "1998-10-30",
         "title": "WAP Forum - W3C Cooperation White Paper"
     },
+    "WAPF-REQ": {
+        "aliasOf": "widgets-reqs"
+    },
     "WCA": {
         "authors": [
             "Johan Hjelm",
@@ -8421,6 +8478,9 @@
         "rawDate": "2008-12-11",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
+    "WCAG20-CSS-TECHS": {
+        "aliasOf": "WCAG20-TECHS"
+    },
     "WCAG20-GATEWAY": {
         "versions": {
             "20040730": {
@@ -8436,6 +8496,15 @@
         "status": "WD",
         "rawDate": "2004-07-30",
         "title": "Gateway to Techniques for WCAG 2.0"
+    },
+    "WCAG20-GENERAL": {
+        "aliasOf": "WCAG20-TECHS"
+    },
+    "WCAG20-HTML-TECHS": {
+        "aliasOf": "WCAG20-TECHS"
+    },
+    "WCAG20-SCRIPT-TECHS": {
+        "aliasOf": "WCAG20-TECHS"
     },
     "WCAG20-TECHS": {
         "authors": [
@@ -8625,6 +8694,9 @@
         },
         "rawDate": "2015-02-26",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+    },
+    "WD-charreq": {
+        "aliasOf": "charreq"
     },
     "WICD": {
         "authors": [
@@ -9247,6 +9319,9 @@
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
+    },
+    "WebSimpleDB": {
+        "aliasOf": "IndexedDB"
     },
     "Window": {
         "authors": [
@@ -10613,6 +10688,15 @@
         },
         "edDraft": "https://w3c.github.io/aria-in-html/"
     },
+    "aria-roadmap": {
+        "aliasOf": "wai-aria-roadmap"
+    },
+    "aria-role": {
+        "aliasOf": "wai-aria"
+    },
+    "aria-state": {
+        "aliasOf": "wai-aria"
+    },
     "audio-output": {
         "authors": [
             "Justin Uberti",
@@ -11041,6 +11125,9 @@
             }
         },
         "edDraft": "https://w3ctag.github.io/capability-urls/"
+    },
+    "capture-api": {
+        "aliasOf": "html-media-capture"
     },
     "capture-scenarios": {
         "authors": [
@@ -11624,6 +11711,9 @@
         },
         "edDraft": "https://w3c.github.io/webcomponents/explainer/",
         "isRetired": true
+    },
+    "compositing": {
+        "aliasOf": "compositing-1"
     },
     "compositing-1": {
         "authors": [
@@ -13287,6 +13377,9 @@
         },
         "edDraft": "http://dev.w3.org/csswg/css3-lists/"
     },
+    "css-masking": {
+        "aliasOf": "css-masking-1"
+    },
     "css-masking-1": {
         "authors": [
             "Dirk Schulze",
@@ -14599,6 +14692,9 @@
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
         "isRetired": true
     },
+    "css-variables": {
+        "aliasOf": "css-variables-1"
+    },
     "css-variables-1": {
         "authors": [
             "Tab Atkins Jr."
@@ -14891,6 +14987,9 @@
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
+    },
+    "css3-align": {
+        "aliasOf": "css-align-3"
     },
     "css3-animations": {
         "authors": [
@@ -15216,6 +15315,9 @@
         },
         "edDraft": "http://dev.w3.org/csswg/css3-break/"
     },
+    "css3-cascade": {
+        "aliasOf": "css-cascade-3"
+    },
     "css3-color": {
         "authors": [
             "Tantek Çelik",
@@ -15448,6 +15550,12 @@
         },
         "edDraft": "http://dev.w3.org/csswg/css-exclusions/"
     },
+    "css3-flexbox": {
+        "aliasOf": "css-flexbox-1"
+    },
+    "css3-gcpm": {
+        "aliasOf": "css-gcpm-3"
+    },
     "css3-grid": {
         "authors": [
             "Alex Mogilevsky",
@@ -15479,6 +15587,9 @@
         },
         "rawDate": "2007-09-05",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+    },
+    "css3-grid-layout": {
+        "aliasOf": "css-grid-1"
     },
     "css3-hyperlinks": {
         "authors": [
@@ -15527,6 +15638,9 @@
         "rawDate": "2014-10-14",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
         "isRetired": true
+    },
+    "css3-iccprof": {
+        "aliasOf": "css3-color"
     },
     "css3-images": {
         "authors": [
@@ -15596,6 +15710,9 @@
         "rawDate": "2012-04-17",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
+    "css3-layout": {
+        "aliasOf": "css-template-3"
+    },
     "css3-linebox": {
         "authors": [
             "Michel Suignard",
@@ -15627,6 +15744,9 @@
         },
         "rawDate": "2002-05-15",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+    },
+    "css3-lists": {
+        "aliasOf": "css-lists-3"
     },
     "css3-marquee": {
         "authors": [
@@ -16055,6 +16175,9 @@
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
         "isRetired": true
     },
+    "css3-regions": {
+        "aliasOf": "css-regions-1"
+    },
     "css3-roadmap": {
         "authors": [
             "Eric Meyer",
@@ -16104,6 +16227,9 @@
         },
         "rawDate": "2001-05-23",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+    },
+    "css3-ruby": {
+        "aliasOf": "css-ruby-1"
     },
     "css3-selectors": {
         "authors": [
@@ -16287,6 +16413,15 @@
         },
         "rawDate": "2012-03-20",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+    },
+    "css3-syntax": {
+        "aliasOf": "css-syntax-3"
+    },
+    "css3-text": {
+        "aliasOf": "css-text-3"
+    },
+    "css3-transforms": {
+        "aliasOf": "css-transforms-1"
     },
     "css3-transitions": {
         "authors": [
@@ -16573,6 +16708,9 @@
         "rawDate": "2013-07-30",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
         "edDraft": "http://dev.w3.org/csswg/css3-values/"
+    },
+    "css3-writing-modes": {
+        "aliasOf": "css-writing-modes-3"
     },
     "css4-images": {
         "authors": [
@@ -18087,6 +18225,9 @@
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
         "edDraft": "https://w3c.github.io/dom/"
     },
+    "domcore": {
+        "aliasOf": "dom"
+    },
     "dpub-annotation-uc": {
         "authors": [
             "Robert Sanderson"
@@ -19526,6 +19667,9 @@
         "edDraft": "http://dev.w3.org/2009/dap/file-system/file-dir-sys.html",
         "isRetired": true
     },
+    "file-upload": {
+        "aliasOf": "FileAPI"
+    },
     "file-writer-api": {
         "authors": [
             "Eric Uhrhane"
@@ -19590,6 +19734,9 @@
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
         "edDraft": "http://dev.w3.org/2009/dap/file-system/file-writer.html",
         "isRetired": true
+    },
+    "filter-effects": {
+        "aliasOf": "filter-effects-1"
     },
     "filter-effects-1": {
         "authors": [
@@ -23036,6 +23183,9 @@
         "isRetired": true,
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
+    "i18n-html-tech": {
+        "aliasOf": "i18n-html-tech-lang"
+    },
     "i18n-html-tech-bidi": {
         "authors": [
             "Richard Ishida"
@@ -24275,6 +24425,9 @@
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
+    },
+    "json-ld-syntax": {
+        "aliasOf": "json-ld"
     },
     "klreq": {
         "authors": [
@@ -27715,6 +27868,9 @@
         "rawDate": "2006-03-29",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
+    "navigation-error-logging": {
+        "aliasOf": "network-error-logging"
+    },
     "navigation-timing": {
         "authors": [
             "Zhiheng Wang"
@@ -28273,6 +28429,9 @@
         "rawDate": "2011-12-01",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
+    "owl-absyn": {
+        "aliasOf": "owl-semantics"
+    },
     "owl-features": {
         "authors": [
             "Deborah McGuinness",
@@ -28709,6 +28868,15 @@
         },
         "rawDate": "2003-06-11",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+    },
+    "owl11-mapping-to-rdf": {
+        "aliasOf": "owl2-mapping-to-rdf"
+    },
+    "owl11-semantics": {
+        "aliasOf": "owl2-direct-semantics"
+    },
+    "owl11-syntax": {
+        "aliasOf": "owl2-syntax"
     },
     "owl2-conformance": {
         "authors": [
@@ -29635,6 +29803,9 @@
         "rawDate": "2012-12-11",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
+    "owl2-semantics": {
+        "aliasOf": "owl2-direct-semantics"
+    },
     "owl2-syntax": {
         "authors": [
             "Boris Motik",
@@ -29735,6 +29906,9 @@
         },
         "rawDate": "2012-12-11",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+    },
+    "owl2-test": {
+        "aliasOf": "owl2-conformance"
     },
     "owl2-xml-serialization": {
         "authors": [
@@ -32109,6 +32283,12 @@
         "rawDate": "2005-09-06",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
+    "qaframe-intro": {
+        "aliasOf": "qa-handbook"
+    },
+    "qaframe-ops": {
+        "aliasOf": "qa-handbook"
+    },
     "qaframe-ops-extech": {
         "authors": [
             "Lofton Henderson",
@@ -32310,6 +32490,12 @@
         "isRetired": true,
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
+    "query-datamodel": {
+        "aliasOf": "xpath-datamodel"
+    },
+    "query-semantics": {
+        "aliasOf": "xquery-semantics"
+    },
     "quota-api": {
         "authors": [
             "Kinuko Yasuda"
@@ -32440,6 +32626,9 @@
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
+    },
+    "raw-sockets": {
+        "aliasOf": "tcp-udp-sockets"
     },
     "rdb-direct-mapping": {
         "authors": [
@@ -33779,6 +33968,9 @@
         "rawDate": "2004-02-10",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
+    "rdf-text": {
+        "aliasOf": "rdf-plain-literal"
+    },
     "rdf-uml": {
         "authors": [
             "Walter W. Chang"
@@ -34391,6 +34583,9 @@
         "rawDate": "2015-03-17",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
         "hasErrata": "http://www.w3.org/2010/02/rdfa/errata.html"
+    },
+    "rdfa-in-html": {
+        "aliasOf": "html-rdfa"
     },
     "rdfa-lite": {
         "authors": [
@@ -40630,6 +40825,9 @@
         "rawDate": "2006-03-14",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
+    "sysenv": {
+        "aliasOf": "DPF"
+    },
     "system-info-api": {
         "authors": [
             "Max Froumentin",
@@ -41659,6 +41857,9 @@
             }
         }
     },
+    "tt-af-1-0-req": {
+        "aliasOf": "ttaf1-req"
+    },
     "ttaf1-dfxp": {
         "authors": [
             "Glenn Adams"
@@ -42461,6 +42662,9 @@
         "status": "NOTE",
         "rawDate": "2001-02-15",
         "title": "URISpace"
+    },
+    "url": {
+        "aliasOf": "url-1"
     },
     "url-1": {
         "authors": [
@@ -44614,6 +44818,9 @@
         },
         "edDraft": "http://www.w3.org/WAI/GL/wcag2ict/"
     },
+    "web-alarms": {
+        "aliasOf": "task-scheduler"
+    },
     "web-animations": {
         "authors": [
             "Brian Birtles",
@@ -46536,6 +46743,9 @@
         "rawDate": "2012-03-13",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
+    "widgets-vmmf": {
+        "aliasOf": "view-mode"
+    },
     "widl": {
         "versions": {
             "19970922": {
@@ -46884,6 +47094,9 @@
         },
         "rawDate": "2006-05-09",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+    },
+    "ws-addr-wsdl": {
+        "aliasOf": "ws-addr-metadata"
     },
     "ws-arch": {
         "authors": [
@@ -48595,6 +48808,9 @@
         "rawDate": "2008-03-06",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
+    "wsc-xit": {
+        "aliasOf": "wsc-ui"
+    },
     "wsci": {
         "versions": {
             "20020808": {
@@ -48697,6 +48913,15 @@
         },
         "rawDate": "2007-07-20",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+    },
+    "wsdl12": {
+        "aliasOf": "wsdl20"
+    },
+    "wsdl12-bindings": {
+        "aliasOf": "wsdl20-adjuncts"
+    },
+    "wsdl12-patterns": {
+        "aliasOf": "wsdl20-adjuncts"
     },
     "wsdl20": {
         "authors": [
@@ -49003,6 +49228,15 @@
         },
         "rawDate": "2005-08-17",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+    },
+    "wsdl20-bindings": {
+        "aliasOf": "wsdl20-adjuncts"
+    },
+    "wsdl20-extensions": {
+        "aliasOf": "wsdl20-adjuncts"
+    },
+    "wsdl20-patterns": {
+        "aliasOf": "wsdl20-adjuncts"
     },
     "wsdl20-primer": {
         "authors": [
@@ -50311,6 +50545,9 @@
         "rawDate": "2001-04-04",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
+    "xhtml-m12n-schema": {
+        "aliasOf": "xhtml-modularization"
+    },
     "xhtml-media-types": {
         "authors": [
             "Shane McCarron"
@@ -50829,6 +51066,9 @@
         "rawDate": "2015-03-17",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
         "hasErrata": "http://www.w3.org/2010/02/rdfa/errata.html"
+    },
+    "xhtml-rdfa-primer": {
+        "aliasOf": "rdfa-primer"
     },
     "xhtml-rdfa-scenarios": {
         "authors": [
@@ -52655,6 +52895,9 @@
         },
         "rawDate": "2014-04-10",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+    },
+    "xml-events": {
+        "aliasOf": "xml-events2"
     },
     "xml-events2": {
         "authors": [
@@ -55313,6 +55556,18 @@
         "rawDate": "2003-07-30",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
+    "xmlquery-full-text-requirements": {
+        "aliasOf": "xpath-full-text-10-requirements"
+    },
+    "xmlquery-full-text-use-cases": {
+        "aliasOf": "xpath-full-text-10-use-cases"
+    },
+    "xmlquery-req": {
+        "aliasOf": "xquery-requirements"
+    },
+    "xmlquery-use-cases": {
+        "aliasOf": "xquery-use-cases"
+    },
     "xmlschema-0": {
         "authors": [
             "David Fallside",
@@ -56666,6 +56921,9 @@
         "rawDate": "1999-11-16",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
+    "xpath-21": {
+        "aliasOf": "xpath-30"
+    },
     "xpath-30": {
         "authors": [
             "Jonathan Robie",
@@ -57008,6 +57266,9 @@
         },
         "rawDate": "2010-12-14",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+    },
+    "xpath-datamodel-11": {
+        "aliasOf": "xpath-datamodel-30"
     },
     "xpath-datamodel-30": {
         "authors": [
@@ -57707,6 +57968,9 @@
         },
         "rawDate": "2010-12-14",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+    },
+    "xpath-functions-11": {
+        "aliasOf": "xpath-functions-30"
     },
     "xpath-functions-30": {
         "authors": [
@@ -58830,6 +59094,15 @@
         "rawDate": "2010-12-14",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
+    "xquery-11": {
+        "aliasOf": "xquery-30"
+    },
+    "xquery-11-requirements": {
+        "aliasOf": "xquery-30-requirements"
+    },
+    "xquery-11-use-cases": {
+        "aliasOf": "xquery-30-use-cases"
+    },
     "xquery-30": {
         "authors": [
             "Jonathan Robie",
@@ -59186,6 +59459,15 @@
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
+    },
+    "xquery-full-text": {
+        "aliasOf": "xpath-full-text-10"
+    },
+    "xquery-full-text-requirements": {
+        "aliasOf": "xpath-full-text-10-requirements"
+    },
+    "xquery-operators": {
+        "aliasOf": "xpath-functions"
     },
     "xquery-requirements": {
         "authors": [
@@ -59880,6 +60162,9 @@
             }
         }
     },
+    "xquery-update-requirements": {
+        "aliasOf": "xquery-update-10-requirements"
+    },
     "xquery-use-cases": {
         "authors": [
             "Don Chamberlin",
@@ -60134,6 +60419,9 @@
         "rawDate": "2010-12-14",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
+    "xqueryx-11": {
+        "aliasOf": "xqueryx-30"
+    },
     "xqueryx-30": {
         "authors": [
             "Jim Melton"
@@ -60293,6 +60581,12 @@
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
+    },
+    "xqupdate": {
+        "aliasOf": "xquery-update-10"
+    },
+    "xqupdateusecases": {
+        "aliasOf": "xquery-update-10-use-cases"
     },
     "xsd-precisionDecimal": {
         "authors": [
@@ -60678,6 +60972,9 @@
         "rawDate": "1999-11-16",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
+    "xslt-21": {
+        "aliasOf": "xslt-30"
+    },
     "xslt-21-requirements": {
         "authors": [
             "Petr Cimprich"
@@ -60900,6 +61197,9 @@
         },
         "rawDate": "2010-12-14",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+    },
+    "xslt-xquery-serialization-11": {
+        "aliasOf": "xslt-xquery-serialization-30"
     },
     "xslt-xquery-serialization-30": {
         "authors": [

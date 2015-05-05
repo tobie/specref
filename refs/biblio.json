@@ -64,9 +64,6 @@
         "title": "Assistive Technology Service Provider Interface",
         "publisher": "The GNOME Project"
     },
-    "ATAG20-TECHS": {
-        "aliasOf": "IMPLEMENTING-ATAG20"
-    },
     "ATK": {
         "href": "https://developer.gnome.org/atk/2.10/",
         "title": "Gnome Accessibility Toolkit 2.10",
@@ -249,12 +246,6 @@
         "status": "ED",
         "publisher": "W3C"
     },
-    "CSP": {
-        "aliasOf": "CSP1"
-    },
-    "CSP11": {
-        "aliasOf": "CSP2"
-    },
     "CSP3": {
         "authors": [
             "Mike West",
@@ -283,9 +274,6 @@
     },
     "CSS-SHAPES": {
         "aliasOf": "css-shapes-1"
-    },
-    "CSS21": {
-        "aliasOf": "CSS2"
     },
     "CSS3-BG": {
         "aliasOf": "css3-background"
@@ -474,9 +462,6 @@
     },
     "CVE-2009-0217": "<a href=\"http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-0217\"><cite>Common Vulnerabilities and Exposures List, CVE-2009-0217</cite></a> URL: <a href=\"http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-0217\"> http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-0217</a>",
     "Coloring-RDF": "Giorgos Flouris; Irini Fundulaki; Panagiotis Pediaditis; Yannis Theoharis; Vassilis Christophides. <a href=\"http://data.semanticweb.org/conference/iswc/2009/paper/research/165/html\"><cite>Coloring RDF Triples to Capture Provenance</cite></a> 2009. The Semantic Web - ISWC 2009, Washington DC, Springer-Verlag,. URL: <a href='http://data.semanticweb.org/conference/iswc/2009/paper/research/165/html'>http://data.semanticweb.org/conference/iswc/2009/paper/research/165/html</a> ",
-    "Content-in-RDF": {
-        "aliasOf": "Content-in-RDF10"
-    },
     "Context-SW": "R.M.R. Guha; R. Fikes. <cite>Contexts for the Semantic Web</cite>. 2005. The Semantic Web — ISWC2004. Yokohama, Japan: Springer-Verlag",
     "DAHU": {
         "aliasOf": "DAHUT"
@@ -641,12 +626,6 @@
     "DNS-SD": {
         "aliasOf": "RFC6763"
     },
-    "DOM-Bindings": {
-        "aliasOf": "WebIDL"
-    },
-    "DOM-Level-3-Events": {
-        "aliasOf": "uievents"
-    },
     "DOM4": {
         "aliasOf": "dom"
     },
@@ -706,9 +685,6 @@
         ]
     },
     "Davis": "<a href=\"http://www.usenix.org/publications/library/proceedings/usenix01/davis.html\"><cite>Defective Sign &amp; Encrypt in S/MIME, PKCS#7, MOSS, PEM, PGP, and XML.</cite></a> D. Davis. USENIX Annual Technical Conference. 2001. URL: <a href=\"http://www.usenix.org/publications/library/proceedings/usenix01/davis.html\">http://www.usenix.org/publications/library/proceedings/usenix01/davis.html</a>",
-    "EARL10": {
-        "aliasOf": "EARL10-Schema"
-    },
     "EBU-TT-D": {
         "title": "EBU TECH 3380: \"EBU-TT-D Subtitling Distribution Format\"",
         "href": "http://tech.ebu.ch/docs/tech/tech3380.pdf",
@@ -968,9 +944,6 @@
     "HTTP-TLS": {
         "aliasOf": "RFC2818"
     },
-    "HTTP-in-RDF": {
-        "aliasOf": "HTTP-in-RDF10"
-    },
     "HTTP11": {
         "aliasOf": "RFC7230"
     },
@@ -1002,9 +975,6 @@
     "IEEE802-3": "<cite>IEEE 802.3: Carrier sense multiple access with Collision Detection (CSMA/CD) Access Method and Physical Layer Specifications</cite>. December 2008.",
     "IMAGEMAP": {
         "aliasOf": "NOTE-imagemap"
-    },
-    "IMPLEMENTING-UAAG20": {
-        "aliasOf": "UAAG20-Reference"
     },
     "IMS": {
         "authors": [
@@ -1488,9 +1458,6 @@
     "POSTMSG": {
         "aliasOf": "webmessaging"
     },
-    "PR-rdf-syntax": {
-        "aliasOf": "rdf-syntax-grammar"
-    },
     "PRIV-ICONS": "Raskin, A. <a href ='http://www.azarask.in/blog/post/what-should-matter-in-privacy'><cite>The 7 Things that Mater Most in Privacy</cite></a> 31 March 2010. URL: http://www.azarask.in/blog/post/what-should-matter-in-privacy ",
     "PRIV-ICONSET": "Mehldau, M. <a href = 'http://asset.netzpolitik.org/wp-upload/data-privacy-icons-v01.pdf'><cite>Iconset for Data-Privacy Declarations v0.1</cite></a> URL: http://www.netzpolitik.org/wp-upload/data-privacy-icons-v01.pdf ",
     "PRIV-LABEL": "Kelley, P. Bresse, J. Cranor, L. Reeder, R. <a href ='http://cups.cs.cmu.edu/soups/2009/proceedings/a4-kelley.pdf'><cite>A 'Nutrition Label' for Privacy</cite></a> 10 November 2009. Carnegie Mellon University. URL: http://cups.cs.cmu.edu/soups/2009/proceedings/a4-kelley.pdf ",
@@ -1504,9 +1471,6 @@
     "PTECH-SCW": "J. C. Dufourd; C. Concolato; J. Le Feuvre. <a href=\"http://www.svgopen.org/2009/papers/28-SVG_Communicating_Widgets/\"><cite>SVG Communicating Widgets</cite></a>. October 2009. SVG Open, Mountain View, CA, USA. URL: <a href=\"http://www.svgopen.org/2009/papers/28-SVG_Communicating_Widgets/\">http://www.svgopen.org/2009/papers/28-SVG_Communicating_Widgets/</a>",
     "PTECH-WM": "J. Le Feuvre; C. Concolato; J. C. Dufourd. <a href=\"http://biblio.telecom-paristech.fr/cgi-bin/download.cgi?id=9919\"><cite>Widgets Mobility</cite></a>. September 2009. International Conference on Mobile Technology, Applications and Systems, Nice, France. PDF document. URL: <a href=\"http://biblio.telecom-paristech.fr/cgi-bin/download.cgi?id=9919\">http://biblio.telecom-paristech.fr/cgi-bin/download.cgi?id=9919</a>",
     "PWGMSN": "Ron Bergman; Tom Hastings. <a href=\"ftp://ftp.pwg.org/pub/pwg/candidates/cs-pwgmsn10-20020226-5101.1.pdf\"><cite>Media Standardized Names.</cite></a> 26 February 2002. IEEE ISTO Printer Working Group 5101.1-2002. URL: <a href=\"ftp://ftp.pwg.org/pub/pwg/candidates/cs-pwgmsn10-20020226-5101.1.pdf\">ftp://ftp.pwg.org/pub/pwg/candidates/cs-pwgmsn10-20020226-5101.1.pdf</a> ",
-    "Pointers-in-RDF": {
-        "aliasOf": "Pointers-in-RDF10"
-    },
     "QNAMES": {
         "authors": [
             "N. Walsh"
@@ -1536,15 +1500,6 @@
     },
     "RDF-SYNTAX": {
         "aliasOf": "rdf-concepts"
-    },
-    "REC-CSS2": {
-        "aliasOf": "CSS2"
-    },
-    "REC-xml": {
-        "aliasOf": "xml"
-    },
-    "REC-xml-names": {
-        "aliasOf": "xml-names"
     },
     "RELAXNG-SCHEMA": "<a href=\"http://standards.iso.org/ittf/PubliclyAvailableStandards/c052348_ISO_IEC_19757-2_2008(E).zip\"><cite>Information technology -- Document Schema Definition Language (DSDL) -- Part 2: Regular-grammar-based validation -- RELAX NG</cite></a>. ISO/IEC 19757-2:2008. URL: <a href=\"http://standards.iso.org/ittf/PubliclyAvailableStandards/c052348_ISO_IEC_19757-2_2008(E).zip\">http://standards.iso.org/ittf/PubliclyAvailableStandards/c052348_ISO_IEC_19757-2_2008(E).zip</a>",
     "RFC3161-PKIX-UPDATE-9": "Stefan Santesson, Nick Pope. <a href=\"https://tools.ietf.org/id/draft-ietf-pkix-rfc3161-update-09.txt\"><cite> ESSCertIDv2 update for RFC 3161</cite></a> 29 April 2010, IETF Internet Draft. URL: <a href=\"https://tools.ietf.org/id/draft-ietf-pkix-rfc3161-update-09.txt\"> https://tools.ietf.org/id/draft-ietf-pkix-rfc3161-update-09.txt</a> ",
@@ -1804,12 +1759,6 @@
     "SVG112": {
         "aliasOf": "SVG11"
     },
-    "SVGMobile12": {
-        "aliasOf": "SVGTiny12"
-    },
-    "SVGPrint": {
-        "aliasOf": "SVGPrint12"
-    },
     "SXSWGRIDS": {
         "authors": [
             "Khoi Vinh",
@@ -2000,9 +1949,6 @@
     "UI-EVENTS": {
         "aliasOf": "uievents"
     },
-    "UISafety": {
-        "aliasOf": "UISecurity"
-    },
     "UNICODE": {
         "href": "http://www.unicode.org/versions/latest/",
         "publisher": "The Unicode Consortium",
@@ -2136,29 +2082,11 @@
         "date": "July 2011",
         "status": "WAC Ipanema Editor's Draft"
     },
-    "WAPF-REQ": {
-        "aliasOf": "widgets-reqs"
-    },
     "WCAG": {
         "aliasOf": "WAI-WEBCONTENT"
     },
-    "WCAG20-CSS-TECHS": {
-        "aliasOf": "WCAG20-TECHS"
-    },
-    "WCAG20-GENERAL": {
-        "aliasOf": "WCAG20-TECHS"
-    },
-    "WCAG20-HTML-TECHS": {
-        "aliasOf": "WCAG20-TECHS"
-    },
-    "WCAG20-SCRIPT-TECHS": {
-        "aliasOf": "WCAG20-TECHS"
-    },
     "WCSS11": "Open Mobile Alliance. <a href=\"http://www.openmobilealliance.org/technical/release_program/docs/Browsing/V2_3-20080331-A/OMA-WAP-WCSS-V1_1-20061020-A.pdf\"><cite>Wireless CSS Specification.</cite></a> October 2006. Approved Version 1.1. URL: <a href=\"http://www.openmobilealliance.org/technical/release_program/docs/Browsing/V2_3-20080331-A/OMA-WAP-WCSS-V1_1-20061020-A.pdf\">http://www.openmobilealliance.org/technical/release_program/docs/Browsing/V2_3-20080331-A/OMA-WAP-WCSS-V1_1-20061020-A.pdf</a> ",
     "WCSS12": "Open Mobile Alliance. <a href=\"http://www.openmobilealliance.org/ftp/Public_documents/MCE/MAE/Permanent_documents/OMA-TS-WCSS-V1_2-20070921-D.zip\"><cite>Wireless CSS Specification Version 1.2.</cite></a> 21 September 2007. (Work in progress.) URL: <a href=\"http://www.openmobilealliance.org/ftp/Public_documents/MCE/MAE/Permanent_documents/OMA-TS-WCSS-V1_2-20070921-D.zip\">http://www.openmobilealliance.org/ftp/Public_documents/MCE/MAE/Permanent_documents/OMA-TS-WCSS-V1_2-20070921-D.zip</a> ",
-    "WD-charreq": {
-        "aliasOf": "charreq"
-    },
     "WEB-SQL": {
         "aliasOf": "webdatabase"
     },
@@ -2270,9 +2198,6 @@
         "title": "WebM Container Guidelines",
         "publisher": "The WebM Project",
         "date": "28 April 2014"
-    },
-    "WebSimpleDB": {
-        "aliasOf": "IndexedDB"
     },
     "X11COLORS": {
         "href": "https://en.wikipedia.org/wiki/X11_color_names",
@@ -2530,36 +2455,6 @@
         "status": "WD",
         "publisher": "W3C"
     },
-    "aria-roadmap": {
-        "aliasOf": "wai-aria-roadmap"
-    },
-    "aria-role": {
-        "aliasOf": "wai-aria"
-    },
-    "aria-state": {
-        "aliasOf": "wai-aria"
-    },
-    "capture-api": {
-        "aliasOf": "html-media-capture"
-    },
-    "compositing": {
-        "aliasOf": "compositing-1"
-    },
-    "css-masking": {
-        "aliasOf": "css-masking-1"
-    },
-    "css-variables": {
-        "aliasOf": "css-variables-1"
-    },
-    "css3-align": {
-        "aliasOf": "css-align-3"
-    },
-    "css3-cascade": {
-        "aliasOf": "css-cascade-3"
-    },
-    "css3-flexbox": {
-        "aliasOf": "css-flexbox-1"
-    },
     "css3-fonts": {
         "authors": [
             "John Daggett"
@@ -2578,38 +2473,8 @@
             }
         }
     },
-    "css3-gcpm": {
-        "aliasOf": "css-gcpm-3"
-    },
-    "css3-grid-layout": {
-        "aliasOf": "css-grid-1"
-    },
-    "css3-iccprof": {
-        "aliasOf": "css3-color"
-    },
-    "css3-layout": {
-        "aliasOf": "css-template-3"
-    },
-    "css3-lists": {
-        "aliasOf": "css-lists-3"
-    },
     "css3-namespace": {
         "aliasOf": "css-namespaces-3"
-    },
-    "css3-regions": {
-        "aliasOf": "css-regions-1"
-    },
-    "css3-ruby": {
-        "aliasOf": "css-ruby-1"
-    },
-    "css3-syntax": {
-        "aliasOf": "css-syntax-3"
-    },
-    "css3-text": {
-        "aliasOf": "css-text-3"
-    },
-    "css3-transforms": {
-        "aliasOf": "css-transforms-1"
     },
     "css3-webfonts": {
         "aliasOf": "css-fonts-3-19980512"
@@ -2617,20 +2482,8 @@
     "css3-webfonts-19980512": {
         "aliasOf": "css-fonts-3-19980512"
     },
-    "css3-writing-modes": {
-        "aliasOf": "css-writing-modes-3"
-    },
-    "domcore": {
-        "aliasOf": "dom"
-    },
     "domxpath": {
         "aliasOf": "DOM-Level-3-XPath"
-    },
-    "file-upload": {
-        "aliasOf": "FileAPI"
-    },
-    "filter-effects": {
-        "aliasOf": "filter-effects-1"
     },
     "gml": {
         "href": "http://www.opengeospatial.org/standards/gml",
@@ -2714,12 +2567,6 @@
         "isRetired": true,
         "source": "https://web-payments.org/specs/source/http-signatures/"
     },
-    "i18n-html-tech": {
-        "aliasOf": "i18n-html-tech-lang"
-    },
-    "json-ld-syntax": {
-        "aliasOf": "json-ld"
-    },
     "json-patch": {
         "aliasOf": "rfc6902"
     },
@@ -2731,9 +2578,6 @@
         "publisher": "WHATWG",
         "status": "Living Standard",
         "title": "The 'theme-color' meta extension"
-    },
-    "navigation-error-logging": {
-        "aliasOf": "network-error-logging"
     },
     "odrl": {
         "authors": [
@@ -2752,51 +2596,6 @@
         "rawDate": "2002-09-19",
         "title": "Open Digital Rights Language (ODRL) Version 1.1"
     },
-    "owl-absyn": {
-        "aliasOf": "owl-semantics"
-    },
-    "owl11-mapping-to-rdf": {
-        "aliasOf": "owl2-mapping-to-rdf"
-    },
-    "owl11-semantics": {
-        "aliasOf": "owl2-direct-semantics"
-    },
-    "owl11-syntax": {
-        "aliasOf": "owl2-syntax"
-    },
-    "owl2-semantics": {
-        "aliasOf": "owl2-direct-semantics"
-    },
-    "owl2-test": {
-        "aliasOf": "owl2-conformance"
-    },
-    "qaframe-intro": {
-        "aliasOf": "qa-handbook"
-    },
-    "qaframe-ops": {
-        "aliasOf": "qa-handbook"
-    },
-    "query-datamodel": {
-        "aliasOf": "xpath-datamodel"
-    },
-    "query-semantics": {
-        "aliasOf": "xquery-semantics"
-    },
-    "raw-sockets": {
-        "aliasOf": "tcp-udp-sockets"
-    },
-    "rdf-text": {
-        "aliasOf": "rdf-plain-literal"
-    },
-    "rdfa-in-html": {
-        "aliasOf": "html-rdfa"
-    },
-    "sysenv": {
-        "aliasOf": "DPF"
-    },
-    "tt-af-1-0-req": {
-        "aliasOf": "ttaf1-req"
-    },
     "typedarray": {
         "authors": [
             "David Herman",
@@ -2807,104 +2606,5 @@
         "rawDate": "2013-06-26",
         "status": "Khronos Working Draft",
         "publisher": "Khronos"
-    },
-    "url": {
-        "aliasOf": "url-1"
-    },
-    "web-alarms": {
-        "aliasOf": "task-scheduler"
-    },
-    "widgets-vmmf": {
-        "aliasOf": "view-mode"
-    },
-    "ws-addr-wsdl": {
-        "aliasOf": "ws-addr-metadata"
-    },
-    "wsc-xit": {
-        "aliasOf": "wsc-ui"
-    },
-    "wsdl12": {
-        "aliasOf": "wsdl20"
-    },
-    "wsdl12-bindings": {
-        "aliasOf": "wsdl20-adjuncts"
-    },
-    "wsdl12-patterns": {
-        "aliasOf": "wsdl20-adjuncts"
-    },
-    "wsdl20-bindings": {
-        "aliasOf": "wsdl20-adjuncts"
-    },
-    "wsdl20-extensions": {
-        "aliasOf": "wsdl20-adjuncts"
-    },
-    "wsdl20-patterns": {
-        "aliasOf": "wsdl20-adjuncts"
-    },
-    "xhtml-m12n-schema": {
-        "aliasOf": "xhtml-modularization"
-    },
-    "xhtml-rdfa-primer": {
-        "aliasOf": "rdfa-primer"
-    },
-    "xml-events": {
-        "aliasOf": "xml-events2"
-    },
-    "xmlquery-full-text-requirements": {
-        "aliasOf": "xpath-full-text-10-requirements"
-    },
-    "xmlquery-full-text-use-cases": {
-        "aliasOf": "xpath-full-text-10-use-cases"
-    },
-    "xmlquery-req": {
-        "aliasOf": "xquery-requirements"
-    },
-    "xmlquery-use-cases": {
-        "aliasOf": "xquery-use-cases"
-    },
-    "xpath-21": {
-        "aliasOf": "xpath-30"
-    },
-    "xpath-datamodel-11": {
-        "aliasOf": "xpath-datamodel-30"
-    },
-    "xpath-functions-11": {
-        "aliasOf": "xpath-functions-30"
-    },
-    "xquery-11": {
-        "aliasOf": "xquery-30"
-    },
-    "xquery-11-requirements": {
-        "aliasOf": "xquery-30-requirements"
-    },
-    "xquery-11-use-cases": {
-        "aliasOf": "xquery-30-use-cases"
-    },
-    "xquery-full-text": {
-        "aliasOf": "xpath-full-text-10"
-    },
-    "xquery-full-text-requirements": {
-        "aliasOf": "xpath-full-text-10-requirements"
-    },
-    "xquery-operators": {
-        "aliasOf": "xpath-functions"
-    },
-    "xquery-update-requirements": {
-        "aliasOf": "xquery-update-10-requirements"
-    },
-    "xqueryx-11": {
-        "aliasOf": "xqueryx-30"
-    },
-    "xqupdate": {
-        "aliasOf": "xquery-update-10"
-    },
-    "xqupdateusecases": {
-        "aliasOf": "xquery-update-10-use-cases"
-    },
-    "xslt-21": {
-        "aliasOf": "xslt-30"
-    },
-    "xslt-xquery-serialization-11": {
-        "aliasOf": "xslt-xquery-serialization-30"
     }
 }
