@@ -653,15 +653,6 @@
         "title": "Digital Audio Compression(AC-3, Enhanced AC-3) Standard v1.3.1",
         "href": "http://www.etsi.org/deliver/etsi_ts/102300_102399/102366/01.03.01_60/ts_102366v010301p.pdf"
     },
-    "FETCH": {
-        "authors": [
-            "Anne van Kesteren"
-        ],
-        "href": "https://fetch.spec.whatwg.org/",
-        "publisher": "WHATWG",
-        "status": "Living Standard",
-        "title": "Fetch Standard"
-    },
     "FILE-API": {
         "aliasOf": "FileAPI"
     },
@@ -804,15 +795,6 @@
     },
     "HMAC": {
         "aliasOf": "RFC2104"
-    },
-    "HTML": {
-        "authors": [
-            "Ian Hickson"
-        ],
-        "href": "https://html.spec.whatwg.org/multipage/",
-        "publisher": "WHATWG",
-        "status": "Living Standard",
-        "title": "HTML"
     },
     "HTML-DEVICE": {
         "authors": [
@@ -1478,15 +1460,6 @@
         "href": "https://www.smpte.org/sites/default/files/RP2052-11-2013.pdf",
         "publisher": "SMPTE"
     },
-    "SNIFF": {
-        "authors": [
-            "Gordon P. Hemsley"
-        ],
-        "href": "https://mimesniff.spec.whatwg.org/",
-        "publisher": "WHATWG",
-        "status": "Living Standard",
-        "title": "MIME Sniffing Standard"
-    },
     "SPARQL-QUERY": {
         "aliasOf": "rdf-sparql-query"
     },
@@ -1854,24 +1827,6 @@
     "WEBWORKERS": {
         "aliasOf": "workers"
     },
-    "WHATWG-URL": {
-        "authors": [
-            "Anne van Kesteren"
-        ],
-        "href": "https://url.spec.whatwg.org/",
-        "publisher": "WHATWG",
-        "status": "Living Standard",
-        "title": "URL Standard"
-    },
-    "WHATWG-fullscreen": {
-        "authors": [
-            "Anne van Kesteren"
-        ],
-        "href": "https://fullscreen.spec.whatwg.org/",
-        "title": "Fullscreen",
-        "publisher": "WHATWG",
-        "status": "Living Standard"
-    },
     "WICDMobile10": {
         "aliasOf": "WICDMobile"
     },
@@ -1918,15 +1873,6 @@
     },
     "XFORMS10": {
         "aliasOf": "xforms"
-    },
-    "XHR": {
-        "authors": [
-            "Anne van Kesteren"
-        ],
-        "href": "https://xhr.spec.whatwg.org/",
-        "title": "XMLHttpRequest",
-        "status": "Living Standard",
-        "publisher": "WHATWG"
     },
     "XHR-20121206": {
         "aliasOf": "XMLHttpRequest"
@@ -2259,12 +2205,6 @@
     },
     "json-patch-20130401": {
         "aliasOf": "rfc6902"
-    },
-    "meta-theme-color": {
-        "href": "https://github.com/whatwg/meta-theme-color",
-        "publisher": "WHATWG",
-        "status": "Living Standard",
-        "title": "The 'theme-color' meta extension"
     },
     "odrl": {
         "authors": [
