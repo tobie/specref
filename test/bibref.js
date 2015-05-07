@@ -13,9 +13,31 @@ suite('Test bibref api', function() {
         foo: { aliasOf: "FOO" },
         hello: { title: "HELLO" }
     };
-    test('bibref.raw points to the object passed to the constructor', function() {
-        var obj = {};
-        assert.strictEqual(obj, bibref.create(obj).raw);
+
+    test('bibref constructor handles a single reference obj', function() {
+        var obj = { foo: { title: "foo"} };
+        assert.equal("foo", bibref.create(obj).get("foo").foo.title);
+    });
+    
+    test('bibref constructor handles multiple reference objects', function() {
+        var obj1 = { foo: { title: "foo"} };
+        var obj2 = { bar: { title: "bar"} };
+        var b = bibref.create(obj1, obj2);
+        assert.equal("foo", b.get("foo").foo.title);
+        assert.equal("bar", b.get("bar").bar.title);
+    });
+    
+    test('bibref constructor throws when different reference objects share same identifiers', function() {
+        var obj1 = { foo: { title: "foo"} };
+        var obj2 = { foo: { title: "foo"} };
+        assert.throws(function() {
+            bibref.create(obj1, obj2);
+        });
+    });
+
+    test('bibref.raw holds a similar object as the one passed to the constructor', function() {
+        var obj = {foo: { title: "bar"}};
+        assert.deepEqual(obj, bibref.create(obj).raw);
     });
 
     test('bibref.all points to a clone of the object passed to the constructor', function() {

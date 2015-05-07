@@ -5,9 +5,9 @@ var request = require('request'),
     runner = require('./run'),
     getShortName = require('./get-shortname');
     
-var current = runner.readBiblio();
-
 var RDF_FILE = "http://www.w3.org/2002/01/tr-automation/tr.rdf";
+var FILENAME = "w3c.json";
+var current = runner.readBiblio(FILENAME);
 
 var STATUSES = {
     'NOTE': 'NOTE',
@@ -224,7 +224,7 @@ request(RDF_FILE, function(err, response, body) {
                 if (latest.isSuperseded) ref.isSuperseded = latest.isSuperseded;
             }
         });
-        runner.writeBiblio(sorted);
+        runner.writeBiblio(FILENAME, sorted);
     });
 });
 

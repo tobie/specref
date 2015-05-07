@@ -168,11 +168,11 @@ If you need to find a reference ID (for either bibliographic or cross-references
 
 ### Daily Auto-Updating
 
-There are scripts that pull fresh data from IETF and W3C and update `biblio.json`. These are now run daily. Their output is tested, comitted and deployed without human intervention. Content should now always be up to date.
+There are scripts that pull fresh data from IETF and W3C and update their relevant files in the `refs` directory. These are now run daily. Their output is tested, comitted and deployed without human intervention. Content should now always be up to date.
 
 ### Manual Changes
 
-You can make modifications to the databases simply by editing either `biblio.json` or `xrefs.json` in the [GitHub repository](https://github.com/tobie/specref). 
+You can make modifications to the databases simply by editing either `refs/biblio.json` or `xrefs.json` in the [GitHub repository](https://github.com/tobie/specref). 
 
 In order to do so you can fork the project and make a pull request to update it, or you can ask to be added as a project collaborator (we're pretty open about that) in which case you'll be able to push changes directly.
 

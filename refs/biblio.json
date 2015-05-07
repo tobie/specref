@@ -1,0 +1,2297 @@
+{
+    "3GPP-TT": {
+        "title": "Transparent end-to-end Packet switched Streaming Service (PSS) Timed text format (Release 12)",
+        "href": "http://www.3gpp.org/ftp/Specs/archive/26_series/26.245/26245-c00.zip",
+        "publisher": "3GPP"
+    },
+    "ABA-DSIG-GUIDELINES": {
+        "href": "http://www.signelec.com/content/download/digital_signature_guidelines.pdf",
+        "title": "Digital Signature Guidelines",
+        "date": "1 August 1996",
+        "status": "Information Security Committee, American Bar Association"
+    },
+    "ABNF": {
+        "aliasOf": "RFC5234"
+    },
+    "AES": {
+        "href": "http://csrc.nist.gov/publications/fips/fips197/fips-197.pdf",
+        "title": "NIST FIPS 197: Advanced Encryption Standard (AES)",
+        "date": "November 2001"
+    },
+    "AES-WRAP": {
+        "aliasOf": "RFC3394"
+    },
+    "AES-WRAP-PAD": {
+        "aliasOf": "RFC5649"
+    },
+    "ALT-TECHNIQUES": {
+        "aliasOf": "html-alt-techniques"
+    },
+    "AT-SPI": {
+        "href": "https://developer.gnome.org/libatspi/stable/",
+        "title": "Assistive Technology Service Provider Interface",
+        "publisher": "The GNOME Project"
+    },
+    "ATK": {
+        "href": "https://developer.gnome.org/atk/2.10/",
+        "title": "Gnome Accessibility Toolkit 2.10",
+        "publisher": "The GNOME Project"
+    },
+    "ATSC": {
+        "title": "Advanced Television Systems Committe",
+        "href": "http://www.atsc.org/"
+    },
+    "ATSC52": {
+        "title": "Digital Audio Compression (AC-3, E-AC-3)",
+        "date": "17 December 2012",
+        "href": "http://www.atsc.org/cms/standards/A52-2012(12-17).pdf",
+        "publisher": "ATSC"
+    },
+    "ATSC53-4": {
+        "title": "MPEG-2 Video System Characteristics",
+        "href": "http://www.atsc.org/cms/standards/a53/a_53-Part-4-2009.pdf",
+        "date": "7 August 2009"
+    },
+    "ATSC65": {
+        "title": "Program and System Information Protocol for Terrestrial Broadcast and Cable",
+        "date": "7 August 2013",
+        "href": "http://www.atsc.org/cms/standards/A65_2013.pdf",
+        "publisher": "ANSI"
+    },
+    "ATSC72-1": {
+        "title": "Video System Characteristics of AVC in the ATSC Digital Television System",
+        "href": "http://www.atsc.org/cms/standards/a72/A72-Part-1-2014.pdf",
+        "date": "18 February 2014"
+    },
+    "AXAPI": {
+        "href": "https://developer.apple.com/library/mac/documentation/Cocoa/Reference/ApplicationKit/Protocols/NSAccessibility_Protocol/index.html",
+        "title": "The Mac OS X Accessibility Protocol Mac OS 10.10",
+        "publisher": "Apple, Inc."
+    },
+    "BCP13": {
+        "aliasOf": "RFC4289"
+    },
+    "BCP47": {
+        "authors": [
+            "A. Phillips",
+            "M. Davis"
+        ],
+        "href": "https://tools.ietf.org/html/bcp47",
+        "title": "Tags for Identifying Languages",
+        "date": "September 2009",
+        "status": "IETF Best Current Practice",
+        "publisher": "IETF"
+    },
+    "BIDI": {
+        "authors": [
+            "Mark Davis",
+            "Aharon Lanin",
+            "Andrew Glass"
+        ],
+        "href": "http://www.unicode.org/reports/tr9/",
+        "publisher": "Unicode Consortium",
+        "rawDate": "2014-06-05",
+        "status": "Unicode Standard Annex #9",
+        "title": "Unicode Bidirectional Algorithm"
+    },
+    "BLOB": {
+        "aliasOf": "FileAPI"
+    },
+    "BrowserID": {
+        "authors": [
+            "Ben Adida",
+            "Tim Kuijsten",
+            "Axel Nennker",
+            "Anant Narayanan"
+        ],
+        "href": "https://github.com/mozilla/id-specs/blob/prod/browserid/index.md",
+        "title": "BrowserID",
+        "date": "26 February 2013",
+        "publisher": "Mozilla"
+    },
+    "C14N2-TestCases": {
+        "aliasOf": "xml-c14n2-testcases"
+    },
+    "CANVAS-2D": {
+        "aliasOf": "2dcontext"
+    },
+    "CCPP": {
+        "aliasOf": "CCPP-struct-vocab"
+    },
+    "CEA708": {
+        "title": "Digital Television (DTV) Closed Captioning CEA-708-B",
+        "href": "http://www.ce.org/Standards/Standard-Listings/R4-3-Television-Data-Systems-Subcommittee/CEA-708-D.aspx",
+        "publisher": "CEA"
+    },
+    "CGM": {
+        "aliasOf": "NOTE-cgm"
+    },
+    "CHIPS": {
+        "authors": [
+            "Olivier Théreaux"
+        ],
+        "href": "http://www.w3.org/TR/chips",
+        "title": "Common HTTP Implementation Problems",
+        "date": "28 January 2003",
+        "status": "NOTE",
+        "publisher": "W3C",
+        "versions": {
+            "20030128": {
+                "aliasOf": "CHIPS"
+            }
+        }
+    },
+    "CLABS-HNAPI": {
+        "href": "http://www.w3.org/2011/webtv/HNTF/CableLabs_Revised_API_20110727-2.pdf",
+        "title": "CableLabs Revised Home Networking API",
+        "date": "26 July 2011",
+        "status": "Draft proposal"
+    },
+    "CMS-Algorithms": {
+        "aliasOf": "RFC3370"
+    },
+    "CMS-WRAP": {
+        "aliasOf": "RFC3217"
+    },
+    "COCKBURN-2000": {
+        "authors": [
+            "Alistair Cockburn"
+        ],
+        "title": "Writing Effective Use Cases",
+        "date": "2000",
+        "publisher": "Addison Wesley Longman Publishing Co., Inc., Boston, MA, USA.",
+        "href": "http://alistair.cockburn.us/get/2465"
+    },
+    "COHN-2004": {
+        "authors": [
+            "Mike Cohn"
+        ],
+        "title": "User Stories Applied: For Agile Software Development",
+        "date": "2004",
+        "publisher": "Addison Wesley Longman Publishing Co., Inc., Redwood City, CA, USA.",
+        "href": "http://www.mountaingoatsoftware.com/books/user-stories-applied"
+    },
+    "CONTACTS-WRITER-API": {
+        "authors": [
+            "R. Tibbett"
+        ],
+        "href": "http://dev.w3.org/2009/dap/contacts/Writer.html",
+        "title": "Contacts Writer API",
+        "date": "3rd August 2010",
+        "status": "ED",
+        "publisher": "W3C"
+    },
+    "COOKIES": {
+        "aliasOf": "RFC6265"
+    },
+    "CORE-DEVICE": {
+        "authors": [
+            "Robin Berjon"
+        ],
+        "href": "http://dev.w3.org/2009/dap/device/",
+        "title": "Core Device Interfaces",
+        "date": "02 December 2009",
+        "status": "ED",
+        "publisher": "W3C"
+    },
+    "CSP3": {
+        "authors": [
+            "Mike West",
+            "Daniel Veditz"
+        ],
+        "href": "https://w3c.github.io/webappsec/specs/content-security-policy/",
+        "title": "Content Security Policy",
+        "status": "ED",
+        "publisher": "W3C"
+    },
+    "CSS-ADAPTATION": {
+        "aliasOf": "css-device-adapt"
+    },
+    "CSS-MIME": {
+        "aliasOf": "RFC2318"
+    },
+    "CSS-SHAPES": {
+        "aliasOf": "css-shapes-1"
+    },
+    "CSS3-BG": {
+        "aliasOf": "css3-background"
+    },
+    "CSS3-DISPLAY": {
+        "aliasOf": "css-display-3"
+    },
+    "CSS3-LINE-GRID": {
+        "aliasOf": "css-line-grid-1"
+    },
+    "CSS3-TEXT-DECOR": {
+        "aliasOf": "css-text-decor-3"
+    },
+    "CSS3BG": {
+        "aliasOf": "css3-background"
+    },
+    "CSS3BORDER": {
+        "aliasOf": "css3-border"
+    },
+    "CSS3BOX": {
+        "aliasOf": "css3-box"
+    },
+    "CSS3CASCADE": {
+        "aliasOf": "css3-cascade"
+    },
+    "CSS3COL": {
+        "aliasOf": "css3-multicol"
+    },
+    "CSS3COLOR": {
+        "aliasOf": "css3-color"
+    },
+    "CSS3GCPM": {
+        "aliasOf": "css3-gcpm"
+    },
+    "CSS3GENCON": {
+        "aliasOf": "css3-content"
+    },
+    "CSS3GRID": {
+        "aliasOf": "css3-grid"
+    },
+    "CSS3INTRO": {
+        "aliasOf": "css3-roadmap"
+    },
+    "CSS3LAYOUT": {
+        "aliasOf": "css3-layout"
+    },
+    "CSS3LINE": {
+        "aliasOf": "css3-linebox"
+    },
+    "CSS3LIST": {
+        "aliasOf": "css3-lists"
+    },
+    "CSS3MARQUEE": {
+        "aliasOf": "css3-marquee"
+    },
+    "CSS3NAMESPACE": {
+        "aliasOf": "css3-namespace"
+    },
+    "CSS3PAGE": {
+        "aliasOf": "css3-page"
+    },
+    "CSS3POS": {
+        "authors": [
+            "Bert Bos"
+        ],
+        "href": "https://www.w3.org/Style/Group/css3-src/css3-positioning/Overview.html",
+        "title": "CSS3 Positioning Module",
+        "status": "WD",
+        "publisher": "W3C"
+    },
+    "CSS3RUBY": {
+        "aliasOf": "css3-ruby"
+    },
+    "CSS3SPEECH": {
+        "aliasOf": "css3-speech"
+    },
+    "CSS3SYN": {
+        "aliasOf": "css3-syntax"
+    },
+    "CSS3TBL": {
+        "authors": [
+            "Bert Bos",
+            "David Hyatt"
+        ],
+        "href": "http://dev.w3.org/csswg/css3-tables/",
+        "title": "CSS3 Tables Module",
+        "date": "13 November 2012",
+        "status": "ED",
+        "publisher": "W3C"
+    },
+    "CSS3TEXT": {
+        "aliasOf": "css3-text"
+    },
+    "CSS3TEXTLAYOUT": {
+        "authors": [
+            "Elika J. Etemad",
+            "Paul Nelson"
+        ],
+        "href": "https://dvcs.w3.org/hg/csswg/raw-file/816f2655d759/css3-writing-modes/Overview.html",
+        "title": "CSS3 Text Layout Module",
+        "status": "WD",
+        "publisher": "W3C"
+    },
+    "CSS3UI": {
+        "aliasOf": "css3-ui"
+    },
+    "CSS3VAL": {
+        "aliasOf": "css3-values"
+    },
+    "CSS3WRITINGMODES": {
+        "authors": [
+            "Elika J. Etemad",
+            "Koji Ishii",
+            "Shinyu Murakami"
+        ],
+        "href": "http://dev.w3.org/csswg/css3-writing-modes",
+        "title": "CSS Writing Modes Module Level 3",
+        "date": "17 October 2010",
+        "status": "ED",
+        "publisher": "W3C"
+    },
+    "CSSBEIJING": {
+        "aliasOf": "css-beijing"
+    },
+    "CSSSTYLEATTR": {
+        "aliasOf": "css-style-attr"
+    },
+    "CSSUI": {
+        "aliasOf": "css3-userint"
+    },
+    "CUAP": {
+        "authors": [
+            "Karl Dubost"
+        ],
+        "href": "http://www.w3.org/TR/cuap",
+        "title": "Common User Agent Problems",
+        "date": "28 January 2003",
+        "status": "NOTE",
+        "publisher": "W3C",
+        "versions": {
+            "20010206": {
+                "status": "NOTE",
+                "rawDate": "2001-02-06",
+                "href": "http://www.w3.org/TR/2001/NOTE-cuap-20010206",
+                "source": "./data/w3c-specs.txt"
+            },
+            "20030128": {
+                "authors": [
+                    "Karl Dubost"
+                ],
+                "href": "http://www.w3.org/TR/2003/NOTE-cuap-20030128",
+                "title": "Common User Agent Problems",
+                "rawDate": "2003-01-28",
+                "status": "NOTE",
+                "publisher": "W3C"
+            }
+        }
+    },
+    "CURIE-20120607": {
+        "aliasOf": "rdfa-core-20120607"
+    },
+    "CURIE-20130625": {
+        "aliasOf": "rdfa-core-20130625"
+    },
+    "CURIE-20130822": {
+        "aliasOf": "rdfa-core-20130822"
+    },
+    "DAHU": {
+        "aliasOf": "DAHUT"
+    },
+    "DAHUT": {
+        "authors": [
+            "Robin Berjon"
+        ],
+        "etAl": true,
+        "title": "The Dahut Specification Example From the Higher Circle",
+        "date": "15 March 1977",
+        "status": "Lazy Daft (Work for progress)",
+        "href": "http://berjon.com/",
+        "versions": {
+            "TEST1": {
+                "rawDate": "2000-01-01",
+                "href": "http://test.com"
+            },
+            "TEST2": {
+                "rawDate": "2000-01-03",
+                "href": "http://test.com"
+            },
+            "TEST3": {
+                "rawDate": "2000-02-04",
+                "href": "http://test.com",
+                "etAl": true,
+                "title": "test title",
+                "status": "test status"
+            },
+            "TEST4": {
+                "rawDate": "2000-01-04",
+                "href": "http://test.com",
+                "authors": [
+                    "Test Author 1",
+                    "Test Author 2"
+                ]
+            },
+            "TEST5": {
+                "aliasOf": "DC11"
+            },
+            "TEST6": {
+                "aliasOf": "DAHU"
+            }
+        }
+    },
+    "DAP-ACCESS-REQS": {
+        "authors": [
+            "L. Arribas",
+            "P. Byers",
+            "M. Hanclik",
+            "F. Hirsch",
+            "D. Rogers"
+        ],
+        "href": "http://dev.w3.org/2009/dap/policy-reqs/",
+        "title": "Device API Access Control Requirements",
+        "date": "17 June 2010",
+        "status": "ED",
+        "publisher": "W3C"
+    },
+    "DAP-POLICY-FRAMEWORK": {
+        "authors": [
+            "L. Arribas",
+            "P. Byers",
+            "M. Hanclik",
+            "F. Hirsch",
+            "D. Rogers"
+        ],
+        "href": "http://dev.w3.org/2009/dap/policy/Framework.html",
+        "title": "Device API Policy Framework",
+        "date": "17 June 2010",
+        "status": "ED",
+        "publisher": "W3C"
+    },
+    "DAP-PRIVACY-POSITION": {
+        "authors": [
+            "Frederick Hirsch",
+            "Robin Berjon"
+        ],
+        "href": "http://www.w3.org/2010/policy-ws/papers/14-Hirsch-Berjon-DAP.html",
+        "title": "Position Paper: Privacy and Policy in the DAP WG - A DAP Perspective",
+        "date": "2 September 2010",
+        "publisher": "W3C"
+    },
+    "DAP-REQS": {
+        "aliasOf": "dap-api-reqs-20091015"
+    },
+    "DAP-XACML-POLICY-PROFILE": {
+        "authors": [
+            "L. Arribas",
+            "P. Byers",
+            "M. Hanclik",
+            "F Hirsch",
+            "D. Rogers"
+        ],
+        "href": "http://dev.w3.org/2009/dap/policy/Profile.html",
+        "title": "XACML Policy Profile for Device APIs",
+        "date": "17 June 2010",
+        "status": "ED",
+        "publisher": "W3C"
+    },
+    "DASHIFIOP": {
+        "href": "http://dashif.org/w/2015/04/DASH-IF-IOP-v3.0.pdf",
+        "title": "Guidelines for Implementation: DASH-IF Interoperability Points",
+        "date": "7 April 2015",
+        "status": "Version 3.0 (Final Version)",
+        "publisher": "DASH Industry Forum"
+    },
+    "DC-RDF": {
+        "authors": [
+            "M. Nilsson"
+        ],
+        "etAl": true,
+        "href": "http://dublincore.org/documents/dc-rdf/",
+        "title": "Expressing Dublin Core metadata using the Resource Description Framework (RDF)",
+        "date": "14 January 2008",
+        "status": "DCMI Recommendation"
+    },
+    "DC11": {
+        "authors": [
+            "Dublin Core metadata initiative"
+        ],
+        "href": "http://dublincore.org/documents/dcmi-terms/",
+        "title": "Dublin Core metadata element set, version 1.1",
+        "date": "July 1999",
+        "status": "Dublin Core recommendation"
+    },
+    "DCAT-UCR": {
+        "authors": [
+            "R. Cyganiak",
+            "F. Maali."
+        ],
+        "href": "http://dvcs.w3.org/hg/gld/raw-file/default/dcat-ucr/index.html",
+        "title": "Use Cases and Requirements for the Data Catalog Vocabulary",
+        "date": "16 December 2012",
+        "status": "ED",
+        "publisher": "W3C"
+    },
+    "DEVICE-ORIENTATION": {
+        "aliasOf": "orientation-event"
+    },
+    "DIG2000": {
+        "authors": [
+            "Digital Imaging Group"
+        ],
+        "href": "http://www.digitalimaging.org/pdf/wg1n1017.pdf",
+        "title": "DIG2000 file format proposal",
+        "date": "Oct 1998",
+        "status": "Report (draft) ISO/IEC JTC1/SG29/WG1 N1017"
+    },
+    "DNS-SD": {
+        "aliasOf": "RFC6763"
+    },
+    "DOM4": {
+        "aliasOf": "dom"
+    },
+    "DOMEvents": {
+        "aliasOf": "DOM-Level-3-Events"
+    },
+    "DTMF": {
+        "date": "1 November 1988",
+        "href": "http://www.itu.int/rec/T-REC-Q.23/en",
+        "publisher": "International Telecommunication Union",
+        "status": "In force",
+        "title": "Q.23 : Technical features of push-button telephone sets"
+    },
+    "DVB": {
+        "title": "Digital Video Broadcasting Project",
+        "href": "https://www.dvb.org/"
+    },
+    "DVB-DATA": {
+        "title": "ETSI EN 301 192: \"Digital Video Broadcasting (DVB); DVB specification for data broadcasting\"",
+        "href": "https://www.dvb.org/resources/public/standards/a027_data_broadcast_specification.pdf",
+        "publisher": "European Telecommunications Standards Insitute",
+        "deliveredBy": [
+            "https://www.dvb.org/"
+        ]
+    },
+    "DVB-SI": {
+        "title": "ETSI EN 300 468: \"Digital Video Broadcasting (DVB); Specification for Service Information (SI) in DVB systems\"",
+        "href": "http://www.etsi.org/deliver/etsi_en/300400_300499/300468/01.14.01_60/en_300468v011401p.pdf",
+        "publisher": "European Telecommunications Standards Insitute",
+        "deliveredBy": [
+            "https://www.dvb.org/"
+        ]
+    },
+    "DVB-SUB": {
+        "title": "ETSI EN 300 743: \"Digital Video Broadcasting (DVB); Subtitling systems\"",
+        "href": "http://www.etsi.org/deliver/etsi_en/300700_300799/300743/01.05.01_60/en_300743v010501p.pdf",
+        "publisher": "European Telecommunications Standards Insitute",
+        "deliveredBy": [
+            "https://www.dvb.org/"
+        ]
+    },
+    "DVB-TXT": {
+        "title": "ETSI EN 300 472: \"Digital Video Broadcasting (DVB); Specification for conveying ITU-R System B Teletext in DVB bitstreams\"",
+        "href": "http://www.etsi.org/deliver/etsi_en/300400_300499/300472/01.03.01_60/en_300472v010301p.pdf",
+        "publisher": "European Telecommunications Standards Insitute",
+        "deliveredBy": [
+            "https://www.dvb.org/"
+        ]
+    },
+    "DVB-VBI": {
+        "title": "ETSI EN 301 775: \"\"Digital Video Broadcasting (DVB); Specification for the carriage of Vertical Blanking Information (VBI) data in DVB bitstreams",
+        "href": "http://www.etsi.org/deliver/etsi_en/301700_301799/301775/01.02.01_60/en_301775v010201p.pdf",
+        "publisher": "European Telecommunications Standards Insitute",
+        "deliveredBy": [
+            "https://www.dvb.org/"
+        ]
+    },
+    "EBU-TT-D": {
+        "title": "EBU TECH 3380: \"EBU-TT-D Subtitling Distribution Format\"",
+        "href": "http://tech.ebu.ch/docs/tech/tech3380.pdf",
+        "publisher": "European Broadcasting Union"
+    },
+    "ECC-ALGS": {
+        "aliasOf": "RFC6090"
+    },
+    "ECMA-262": {
+        "date": "June 2011",
+        "href": "http://www.ecma-international.org/publications/standards/Ecma-262.htm",
+        "publisher": "ECMA",
+        "title": "ECMAScript Language Specification, Edition 5.1"
+    },
+    "ECMA-262-5.1": {
+        "aliasOf": "ECMA-262"
+    },
+    "ECMA-262-51": {
+        "aliasOf": "ECMA-262"
+    },
+    "ECMA-404": {
+        "date": "1 October 2013",
+        "href": "http://www.ecma-international.org/publications/files/ECMA-ST/ECMA-404.pdf",
+        "publisher": "ECMA",
+        "status": "Standard",
+        "title": "The JSON Data Interchange Format"
+    },
+    "ECMAS-402": {
+        "authors": [
+            "Norbert Lindenberg"
+        ],
+        "date": "1 December 2012",
+        "href": "http://www.ecma-international.org/ecma-402/1.0/",
+        "publisher": "ECMA",
+        "status": "Standard ECMA-402",
+        "title": "ECMAScript Internationalization API Specification"
+    },
+    "ECMASCRIPT": {
+        "authors": [
+            "Allen Wirfs-Brock"
+        ],
+        "href": "https://people.mozilla.org/~jorendorff/es6-draft.html",
+        "title": "ECMAScript 2015 Language Specification",
+        "status": "Draft",
+        "versions": {
+            "5.1": {
+                "aliasOf": "ECMA-262"
+            }
+        }
+    },
+    "ECMASCRIPT-I18N": {
+        "aliasOf": "ECMAS-402"
+    },
+    "ECMAScript-MIME": {
+        "aliasOf": "RFC4329"
+    },
+    "EMAIL": {
+        "aliasOf": "RFC5322"
+    },
+    "ESDH": {
+        "aliasOf": "RFC2631"
+    },
+    "ETSI102366": {
+        "title": "Digital Audio Compression(AC-3, Enhanced AC-3) Standard v1.3.1",
+        "href": "http://www.etsi.org/deliver/etsi_ts/102300_102399/102366/01.03.01_60/ts_102366v010301p.pdf"
+    },
+    "FETCH": {
+        "authors": [
+            "Anne van Kesteren"
+        ],
+        "href": "https://fetch.spec.whatwg.org/",
+        "publisher": "WHATWG",
+        "status": "Living Standard",
+        "title": "Fetch Standard"
+    },
+    "FILE-API": {
+        "aliasOf": "FileAPI"
+    },
+    "FILE-SYSTEM": {
+        "aliasOf": "file-system-api"
+    },
+    "FILE-WRITER": {
+        "aliasOf": "file-writer-api"
+    },
+    "FLEXBOX": {
+        "aliasOf": "css3-flexbox"
+    },
+    "FOAF": {
+        "authors": [
+            "Dan Brickley",
+            "Libby Miller"
+        ],
+        "href": "http://xmlns.com/foaf/spec",
+        "title": "FOAF Vocabulary Specification 0.99 (Paddington Edition)",
+        "rawDate": "2014-01-14",
+        "publisher": "FOAF project",
+        "versions": {
+            "20070524": {
+                "authors": [
+                    "Dan Brickley",
+                    "Libby Miller"
+                ],
+                "href": "http://xmlns.com/foaf/spec/20070524.html",
+                "title": "FOAF Vocabulary Specification 0.9 (Rehydrated Edition)",
+                "rawDate": "2007-05-24",
+                "publisher": "FOAF project"
+            },
+            "20071002": {
+                "authors": [
+                    "Dan Brickley",
+                    "Libby Miller"
+                ],
+                "href": "http://xmlns.com/foaf/spec/20071002.html",
+                "title": "FOAF Vocabulary Specification 0.91 (OpenID Edition)",
+                "rawDate": "2007-11-02",
+                "publisher": "FOAF project"
+            },
+            "20091215": {
+                "authors": [
+                    "Dan Brickley",
+                    "Libby Miller"
+                ],
+                "href": "http://xmlns.com/foaf/spec/20091215.html",
+                "title": "FOAF Vocabulary Specification 0.96 (Amsterdam Edition)",
+                "rawDate": "2009-12-15",
+                "publisher": "FOAF project"
+            },
+            "20100101": {
+                "authors": [
+                    "Dan Brickley",
+                    "Libby Miller"
+                ],
+                "href": "http://xmlns.com/foaf/spec/20100101.html",
+                "title": "FOAF Vocabulary Specification 0.97 (3D Edition)",
+                "rawDate": "2010-01-01",
+                "publisher": "FOAF project"
+            },
+            "20100809": {
+                "authors": [
+                    "Dan Brickley",
+                    "Libby Miller"
+                ],
+                "href": "http://xmlns.com/foaf/spec/20100809.html",
+                "title": "FOAF Vocabulary Specification 0.98 (Marco Polo Edition)",
+                "rawDate": "2010-08-09",
+                "publisher": "FOAF project"
+            },
+            "20140114": {
+                "authors": [
+                    "Dan Brickley",
+                    "Libby Miller"
+                ],
+                "href": "http://xmlns.com/foaf/spec/20140114.html",
+                "title": "FOAF Vocabulary Specification 0.99 (Paddington Edition)",
+                "rawDate": "2014-01-14",
+                "publisher": "FOAF project"
+            }
+        }
+    },
+    "GEOLOCATION-PRIVACY": {
+        "authors": [
+            "Marcos Cáceres"
+        ],
+        "href": "http://www.w3.org/2010/api-privacy-ws/papers/privacy-ws-21.pdf",
+        "title": "Privacy of Geolocation Implementations",
+        "date": "12/13 July 2010"
+    },
+    "GETUSERMEDIA": {
+        "aliasOf": "mediacapture-streams"
+    },
+    "GIF": {
+        "href": "http://www.w3.org/Graphics/GIF/spec-gif89a.txt",
+        "title": "Graphics Interchange Format",
+        "rawDate": "1990-07-31",
+        "publisher": "CompuServe Incorporated"
+    },
+    "GSM-CALL": {
+        "authors": [
+            "Bruno Landais"
+        ],
+        "date": "28 April 1999",
+        "href": "http://www.3gpp.org/ftp/Specs/html-info/23018.htm",
+        "publisher": "3GPP",
+        "status": "Technical realization",
+        "title": "GSM TS 23.018 Basic call handling"
+    },
+    "GSM-SMS": {
+        "authors": [
+            "Richard Burbidge"
+        ],
+        "href": "http://www.3gpp.org/ftp/Specs/html-info/23040.htm",
+        "title": "Technical realization of the Short Message Service (SMS)",
+        "publisher": "3GPP"
+    },
+    "HIGHRES-TIME": {
+        "authors": [
+            "Jatinder Mann"
+        ],
+        "href": "http://dvcs.w3.org/hg/webperf/raw-file/tip/specs/HighResolutionTime/Overview.html",
+        "title": "High Resolution Time Specification",
+        "date": "18 October 2012",
+        "status": "ED",
+        "publisher": "W3C"
+    },
+    "HLS": {
+        "authors": [
+            "R. Pantos",
+            "W. May"
+        ],
+        "href": "https://tools.ietf.org/html/draft-pantos-http-live-streaming",
+        "title": "HTTP Live Streaming (HLS)",
+        "date": "15 October 2012",
+        "status": "Internet Draft",
+        "publisher": "IETF"
+    },
+    "HMAC": {
+        "aliasOf": "RFC2104"
+    },
+    "HTML": {
+        "authors": [
+            "Ian Hickson"
+        ],
+        "href": "https://html.spec.whatwg.org/multipage/",
+        "publisher": "WHATWG",
+        "status": "Living Standard",
+        "title": "HTML"
+    },
+    "HTML-DEVICE": {
+        "authors": [
+            "Ian Hickson"
+        ],
+        "href": "http://dev.w3.org/html5/html-device/",
+        "title": "HTML Device",
+        "date": "9th September 2010",
+        "status": "ED",
+        "publisher": "W3C"
+    },
+    "HTMLMEDIACAPTURE": {
+        "aliasOf": "html-media-capture"
+    },
+    "HTTP-PEP-971121": {
+        "aliasOf": "http-pep"
+    },
+    "HTTP-TLS": {
+        "aliasOf": "RFC2818"
+    },
+    "HTTP11": {
+        "aliasOf": "RFC7230"
+    },
+    "IANA-TSV": {
+        "authors": [
+            "Paul Lindner"
+        ],
+        "href": "http://www.iana.org/assignments/media-types/text/tab-separated-values",
+        "title": "Definition of tab-separated-values (tsv)",
+        "date": "June 1993",
+        "status": "IANA Media Type Registration"
+    },
+    "IAccessible2": {
+        "href": "http://www.linuxfoundation.org/collaborate/workgroups/accessibility/iaccessible2",
+        "title": "IAccessible2",
+        "publisher": "Linux Foundation"
+    },
+    "ICE": {
+        "aliasOf": "RFC5245"
+    },
+    "IMAGEMAP": {
+        "aliasOf": "NOTE-imagemap"
+    },
+    "IMS": {
+        "authors": [
+            "Thomas Towle"
+        ],
+        "date": "14 March 2002",
+        "href": "http://www.3gpp.org/ftp/Specs/html-info/23228.htm",
+        "publisher": "3GPP",
+        "status": "Stage 2",
+        "title": "IP Multimedia Subsystem (IMS)"
+    },
+    "IRI": {
+        "aliasOf": "RFC3987"
+    },
+    "ISDB": {
+        "title": "Integrated Services Digital Broadcasting",
+        "href": "http://dibeg.org/"
+    },
+    "ISO14496-30": {
+        "title": "Information technology — Coding of audio-visual objects — Part 30: Timed text and other visual overlays in ISO base media file format",
+        "href": "http://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm?csnumber=63107",
+        "date": "11 March 2014",
+        "publisher": "ISO/IEC"
+    },
+    "JAPI": {
+        "href": "http://www.oracle.com/technetwork/java/javase/tech/index-jsp-140174.html",
+        "title": "Java Accessibility API",
+        "publisher": "Oracle"
+    },
+    "JIGSAW": {
+        "authors": [
+            "Jigsaw Team (Yves Lafon & Benoit Mahe)"
+        ],
+        "href": "http://www.w3.org/Jigsaw/Doc/Programmer/design.html",
+        "title": "Jigsaw 2.0 internal design",
+        "date": "July 1999"
+    },
+    "JINGLE": {
+        "aliasOf": "XEP-0166"
+    },
+    "JPEG": {
+        "authors": [
+            "Eric Hamilton"
+        ],
+        "href": "http://www.w3.org/Graphics/JPEG/jfif3.pdf",
+        "title": "JPEG File Interchange Format",
+        "date": "Sep 1992",
+        "publisher": "C-Cube Microsystems. Milpitas, CA, USA."
+    },
+    "JPEG2000": {
+        "authors": [
+            "Joint Photographers Expert Group (JPEG)"
+        ],
+        "href": "http://www.jpeg.org/cd15444-1.pdf",
+        "title": "Jpeg 2000 image coding system",
+        "date": "9 Dec 1999",
+        "status": "Report (draft) ISO/IEC CD15444-1:1999"
+    },
+    "JSON": {
+        "aliasOf": "RFC4627"
+    },
+    "JSON-LD-TESTS": {
+        "authors": [
+            "RDF Working Group"
+        ],
+        "href": "http://www.w3.org/2013/json-ld-tests/",
+        "title": "JSON-LD 1.0 Test Suite",
+        "date": "11 April 2013",
+        "status": "ED",
+        "publisher": "W3C"
+    },
+    "JWK": {
+        "authors": [
+            "Mike Jones"
+        ],
+        "date": "28 May 2013",
+        "href": "https://tools.ietf.org/html/draft-ietf-jose-json-web-key-11",
+        "publisher": "IETF",
+        "status": "Internet Draft",
+        "title": "JSON Web Key (JWK)"
+    },
+    "JWT": {
+        "authors": [
+            "M. Jones",
+            "J. Bradley",
+            "N. Sakimura"
+        ],
+        "date": "6 July 2012",
+        "href": "https://tools.ietf.org/html/draft-ietf-oauth-json-web-token-01",
+        "publisher": "IETF",
+        "status": "Internet Draft",
+        "title": "JSON Web Token (JWT)"
+    },
+    "KUIL": {
+        "authors": [
+            "Kormann",
+            "Thierry"
+        ],
+        "href": "http://www.inria.fr/koala/kuil/index.html",
+        "title": "KUIL, the Koala User Interface Language",
+        "date": "Sep 1999",
+        "status": "Software package"
+    },
+    "LDAP-DN": {
+        "aliasOf": "RFC4514"
+    },
+    "LIC-PRIV": {
+        "authors": [
+            "Robin Berjon"
+        ],
+        "href": "http://dev.w3.org/2009/dap/docs/privacy-license.html",
+        "title": "License-based Privacy: Technical Aspects",
+        "date": "19 April 2010",
+        "status": "W3C-Internal Document",
+        "publisher": "W3C"
+    },
+    "LINKED-DATA": {
+        "authors": [
+            "Tim Berners-Lee"
+        ],
+        "href": "http://www.w3.org/DesignIssues/LinkedData.html",
+        "title": "Linked Data Design Issues",
+        "date": "27 July 2006",
+        "status": "W3C-Internal Document",
+        "publisher": "W3C"
+    },
+    "LINKED-DATA-PLATFORM": {
+        "aliasOf": "ldp"
+    },
+    "LLD-UC": {
+        "authors": [
+            "D. Vila Suero"
+        ],
+        "href": "http://www.w3.org/2005/Incubator/lld/XGR-lld-usecase-20111025/",
+        "title": "Library Linked Data Incubartor Group: Use Cases",
+        "date": "25 October 2011",
+        "status": "W3C Incubator Group Report",
+        "publisher": "W3C"
+    },
+    "MDNS": {
+        "aliasOf": "RFC6762"
+    },
+    "MEDIA-FRAGMENT": {
+        "aliasOf": "media-frags"
+    },
+    "MEDIA-FRAGMENTS": {
+        "aliasOf": "media-frags"
+    },
+    "MEDIA-FRAGMENTS-REQS": {
+        "aliasOf": "media-frags-reqs"
+    },
+    "MEDIACAPTURE-API": {
+        "authors": [
+            "Dzung D Tran",
+            "Ilkka Oksanen",
+            "Ingmar Kliche"
+        ],
+        "href": "http://dev.w3.org/2009/dap/camera/Overview-API.html",
+        "title": "The Media Capture API",
+        "date": "3 September 2010",
+        "status": "ED",
+        "publisher": "W3C"
+    },
+    "MEDIAONT": {
+        "aliasOf": "mediaont-10"
+    },
+    "MEDIAONT-API": {
+        "aliasOf": "mediaont-api-1.0"
+    },
+    "MEDIAQ": {
+        "aliasOf": "css3-mediaqueries"
+    },
+    "MIME-ENC": {
+        "aliasOf": "RFC2557"
+    },
+    "MIME-REG": {
+        "aliasOf": "RFC4289"
+    },
+    "MIME-TYPES": {
+        "aliasOf": "RFC2046"
+    },
+    "MIX": {
+        "aliasOf": "mixed-content"
+    },
+    "MMS13": {
+        "date": "13 September 2011",
+        "href": "http://technical.openmobilealliance.org/Technical/release_program/mms_v1_3.aspx",
+        "publisher": "Open Mobile Alliance",
+        "status": "Approved Enabler Release",
+        "title": "Multimedia Messaging Service 1.3"
+    },
+    "MPEG2TS": {
+        "href": "http://www.itu.int/rec/T-REC-H.222.0-201206-I",
+        "title": "Information technology -- Generic coding of moving pictures and associated audio information: Systems ITU-T Rec. H.222.0 / ISO/IEC 13818-1:2013",
+        "publisher": "ISO/IEC JTC 1/SC 29 Coding of audio, picture, multimedia and hypermedia information",
+        "deliveredBy": [
+            "http://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm?csnumber=62074"
+        ]
+    },
+    "MPEGDASH": {
+        "href": "http://standards.iso.org/ittf/PubliclyAvailableStandards/c065274_ISO_IEC_23009-1_2014.zip",
+        "title": "ISO/IEC 23009-1:2014 Information technology -- Dynamic adaptive streaming over HTTP (DASH) -- Part 1: Media presentation description and segment formats"
+    },
+    "MSAA": {
+        "href": "http://msdn.microsoft.com/en-us/library/ms697707.aspx",
+        "title": "Microsoft Active Accessibility (MSAA) 2.0",
+        "publisher": "Microsoft Corporation"
+    },
+    "MSDN-SETCAPTURE": {
+        "href": "http://msdn.microsoft.com/en-us/library/ms536742.aspx",
+        "title": "setCapture method",
+        "publisher": "Microsoft Corporation"
+    },
+    "MSE": {
+        "aliasOf": "media-source"
+    },
+    "Matroska": {
+        "href": "http://matroska.org/technical/specs/index.html",
+        "title": "Matroska Specifications",
+        "publisher": "Matroska",
+        "date": "9 January 2014"
+    },
+    "N3": {
+        "authors": [
+            "Tim Berners-Lee",
+            "Dan Connolly"
+        ],
+        "href": "http://www.w3.org/TeamSubmission/2008/SUBM-n3-20080114/",
+        "title": "Notation3 (N3): A readable RDF syntax",
+        "date": "14 January 2008",
+        "status": "W3C Team Submission",
+        "publisher": "W3C"
+    },
+    "NAMES": {
+        "authors": [
+            "Lilley",
+            "Chris"
+        ],
+        "href": "http://lists.w3.org/Archives/Member/w3c-ui-tech/2001Mar/0002.html",
+        "title": "Restrictions on identifiers",
+        "date": "(forthcoming)",
+        "status": "NOTE",
+        "publisher": "W3C"
+    },
+    "NAVIGATOR": {
+        "authors": [
+            "Robin Berjon"
+        ],
+        "etAl": true,
+        "href": "http://www.w3.org/html/wg/drafts/html/master/webappapis.html#navigator",
+        "title": "Navigator interface in HTML5",
+        "status": "ED",
+        "publisher": "W3C"
+    },
+    "NTP": {
+        "aliasOf": "RFC1305"
+    },
+    "OA": {
+        "authors": [
+            "Robert Sanderson",
+            "Paolo Ciccarese",
+            "Herbert Van de Sompel"
+        ],
+        "href": "http://www.openannotation.org/spec/core/",
+        "title": "Open Annotation Data Model, Community Draft, 08 February 2013",
+        "rawDate": "2013-02-08",
+        "publisher": "Open Annotation Community Group",
+        "versions": {
+            "20120328": {
+                "authors": [
+                    "Robert Sanderson",
+                    "Paolo Ciccarese",
+                    "Herbert Van de Sompel"
+                ],
+                "href": "http://www.openannotation.org/spec/core/20120328.html",
+                "title": "Open Annotation Core Data Model, Community Draft, 28 March 2012",
+                "rawDate": "2012-03-28",
+                "publisher": "Open Annotation Community Group"
+            },
+            "20120405": {
+                "authors": [
+                    "Robert Sanderson",
+                    "Paolo Ciccarese",
+                    "Herbert Van de Sompel"
+                ],
+                "href": "http://www.openannotation.org/spec/core/20120405.html",
+                "title": "Open Annotation Core Data Model, Community Draft, 05 April 2012",
+                "rawDate": "2012-04-05",
+                "publisher": "Open Annotation Community Group"
+            },
+            "20120501": {
+                "authors": [
+                    "Robert Sanderson",
+                    "Paolo Ciccarese",
+                    "Herbert Van de Sompel",
+                    "Tim Clark",
+                    "Tim Cole",
+                    "Jane Hunter",
+                    "Neil Fraistat"
+                ],
+                "href": "http://www.openannotation.org/spec/core/20120501.html",
+                "title": "Open Annotation Core Data Model, Community Draft, 01 May 2012",
+                "rawDate": "2013-02-01",
+                "publisher": "Open Annotation Community Group"
+            },
+            "20120509": {
+                "authors": [
+                    "Robert Sanderson",
+                    "Paolo Ciccarese",
+                    "Herbert Van de Sompel",
+                    "Tim Clark",
+                    "Tim Cole",
+                    "Jane Hunter",
+                    "Neil Fraistat"
+                ],
+                "href": "http://www.openannotation.org/spec/core/20120509/index.html",
+                "title": "Open Annotation Core Data Model, Community Draft, 09 May 2012",
+                "rawDate": "2012-05-09",
+                "publisher": "Open Annotation Community Group"
+            },
+            "20130205": {
+                "authors": [
+                    "Robert Sanderson",
+                    "Paolo Ciccarese",
+                    "Herbert Van de Sompel"
+                ],
+                "href": "http://www.openannotation.org/spec/core/20130205/index.html",
+                "title": "Open Annotation Data Model, Community Draft, 05 February 2013",
+                "rawDate": "2013-02-05",
+                "publisher": "Open Annotation Community Group"
+            },
+            "20130208": {
+                "authors": [
+                    "Robert Sanderson",
+                    "Paolo Ciccarese",
+                    "Herbert Van de Sompel"
+                ],
+                "href": "http://www.openannotation.org/spec/core/20130208/index.html",
+                "title": "Open Annotation Data Model, Community Draft, 08 February 2013",
+                "rawDate": "2013-02-08",
+                "publisher": "Open Annotation Community Group"
+            }
+        }
+    },
+    "OCSP": {
+        "aliasOf": "RFC2560"
+    },
+    "ODRL11": {
+        "aliasOf": "odrl"
+    },
+    "OGG": {
+        "aliasOf": "rfc3533"
+    },
+    "OGGSKELETON": {
+        "href": "http://wiki.xiph.org/SkeletonHeaders",
+        "title": "Ogg Skeleton 4 Message Headers",
+        "publisher": "Xiph.org Foundation",
+        "date": "17 March 2014"
+    },
+    "OMA-URI-SCHEMES": {
+        "href": "http://www.openmobilealliance.org/Technical/release_program/docs/URI_Schemes/V1_0-20080626-A/OMA-TS-URI_Schemes-V1_0-20080626-A.pdf",
+        "title": "URI Schemes for the Mobile Applications Environment. Approved Version 1.0",
+        "date": "26 Jun 2008",
+        "publisher": "OMA"
+    },
+    "ORIGIN": {
+        "aliasOf": "RFC6454"
+    },
+    "OWL-RL-in-RIF": {
+        "aliasOf": "rif-owl-rl"
+    },
+    "P3P1.0": {
+        "aliasOf": "P3P"
+    },
+    "PGP": {
+        "aliasOf": "RFC4880"
+    },
+    "PKCS1": {
+        "aliasOf": "rfc3447"
+    },
+    "PKCS5": {
+        "aliasOf": "rfc2898"
+    },
+    "PLING-WIKI": {
+        "authors": [
+            "Policy Languages Interest Group (PLING)"
+        ],
+        "href": "http://www.w3.org/Policy/pling/",
+        "title": "PLING Wiki",
+        "publisher": "W3C"
+    },
+    "PNG2e": {
+        "aliasOf": "PNG"
+    },
+    "POINTER-EVENTS": {
+        "aliasOf": "pointerevents"
+    },
+    "POLICY-REQS": {
+        "authors": [
+            "Laura Arribas",
+            "Paddy Byers",
+            "Marcin Hanclik",
+            "Frederick Hirsch",
+            "David Rogers"
+        ],
+        "href": "http://dev.w3.org/2009/dap/policy-reqs",
+        "title": "Device API Policy Requirements",
+        "date": "13 April 2010",
+        "status": "ED",
+        "publisher": "W3C"
+    },
+    "POSTMSG": {
+        "aliasOf": "webmessaging"
+    },
+    "QNAMES": {
+        "authors": [
+            "N. Walsh"
+        ],
+        "href": "http://www.w3.org/2001/tag/doc/qnameids-2004-03-17",
+        "title": "Using Qualified Names (QNames) as Identifiers in XML Content",
+        "date": "17 March, 2004",
+        "status": "TAG Finding"
+    },
+    "RANDOM": {
+        "aliasOf": "rfc4086"
+    },
+    "RDB2RDF-UC": {
+        "aliasOf": "rdb2rdf-ucr"
+    },
+    "RDF-SPARQL-UPDATE": {
+        "aliasOf": "sparql11-update"
+    },
+    "RDF-SYNTAX": {
+        "aliasOf": "rdf-concepts"
+    },
+    "RFC822": {
+        "aliasOf": "rfc0822"
+    },
+    "RTCWEB-ALPN": {
+        "authors": [
+            "M. Thomson"
+        ],
+        "date": "23 July 2014",
+        "href": "http://datatracker.ietf.org/doc/draft-ietf-rtcweb-alpn/",
+        "publisher": "IETF",
+        "status": "Active Internet-Draft",
+        "title": "Application Layer Protocol Negotiation for Web Real-Time Communications"
+    },
+    "RTCWEB-AUDIO": {
+        "authors": [
+            "JM. Valin",
+            "C. Bran"
+        ],
+        "date": "27 January 2014",
+        "href": "http://datatracker.ietf.org/doc/draft-ietf-rtcweb-audio/",
+        "publisher": "IETF",
+        "status": "Active Internet-Draft",
+        "title": "WebRTC Audio Codec and Processing Requirements"
+    },
+    "RTCWEB-CONSTRAINTS": {
+        "authors": [
+            "Dan Burnett"
+        ],
+        "date": "4 July 2014",
+        "href": "https://datatracker.ietf.org/doc/draft-ietf-rtcweb-constraints-registry/",
+        "publisher": "IETF",
+        "status": "Internet Draft (work in progress)",
+        "title": "IANA Registry for RTCWeb Constrainable Properties"
+    },
+    "RTCWEB-DATA": {
+        "authors": [
+            "R. Jesup",
+            "S. Loreto",
+            "M. Tuexen"
+        ],
+        "date": "21 October 2013",
+        "href": "http://datatracker.ietf.org/doc/draft-ietf-rtcweb-data-channel/",
+        "publisher": "IETF",
+        "status": "Active Internet-Draft",
+        "title": "RTCWeb Data Channels"
+    },
+    "RTCWEB-DATA-PROTOCOL": {
+        "authors": [
+            "R. Jesup",
+            "S. Loreto",
+            "M. Tuexen"
+        ],
+        "date": "21 October 2013",
+        "href": "http://datatracker.ietf.org/doc/draft-ietf-rtcweb-data-protocol/",
+        "publisher": "IETF",
+        "status": "Active Internet-Draft",
+        "title": "RTCWeb Data Channel Protocol"
+    },
+    "RTCWEB-JSEP": {
+        "authors": [
+            "Justin Uberti",
+            "Cullen Jennings"
+        ],
+        "date": "22 October 2013",
+        "href": "http://datatracker.ietf.org/doc/draft-ietf-rtcweb-jsep/",
+        "publisher": "IETF",
+        "status": "Active Internet-Draft",
+        "title": "Javascript Session Establishment Protocol"
+    },
+    "RTCWEB-OVERVIEW": {
+        "authors": [
+            "H. Alvestrand"
+        ],
+        "date": "14 February 2014",
+        "href": "http://datatracker.ietf.org/doc/draft-ietf-rtcweb-overview/",
+        "publisher": "IETF",
+        "status": "Active Internet-Draft",
+        "title": "Overview: Real Time Protocols for Brower-based Applications"
+    },
+    "RTCWEB-RTP": {
+        "authors": [
+            "C. Perkins",
+            "M. Westerlund",
+            "J. Ott"
+        ],
+        "date": "16 December 2013",
+        "href": "http://datatracker.ietf.org/doc/draft-ietf-rtcweb-rtp-usage/",
+        "publisher": "IETF",
+        "status": "Active Internet-Draft",
+        "title": "Web Real-Time Communication (WebRTC): Media Transport and Use of RTP"
+    },
+    "RTCWEB-SECURITY": {
+        "authors": [
+            "Eric Rescorla"
+        ],
+        "date": "22 January 2014",
+        "href": "http://datatracker.ietf.org/doc/draft-ietf-rtcweb-security/",
+        "publisher": "IETF",
+        "status": "Active Internet-Draft",
+        "title": "Security Considerations for WebRTC"
+    },
+    "RTCWEB-SECURITY-ARCH": {
+        "authors": [
+            "Eric Rescorla"
+        ],
+        "date": "22 January 2014",
+        "href": "http://datatracker.ietf.org/doc/draft-ietf-rtcweb-security-arch/",
+        "publisher": "IETF",
+        "status": "Active Internet-Draft",
+        "title": "WebRTC Security Architecture"
+    },
+    "RTCWEB-TRANSPORT": {
+        "authors": [
+            "H. Alvestrand"
+        ],
+        "date": "22 January 2014",
+        "href": "http://datatracker.ietf.org/doc/draft-ietf-rtcweb-transports/",
+        "publisher": "IETF",
+        "status": "Active Internet-Draft",
+        "title": "Transports for RTCWEB"
+    },
+    "RTCWEB-USECAS": {
+        "authors": [
+            "Christer Holmberg",
+            "Stefan Hakansson",
+            "Goran AP Eriksson"
+        ],
+        "date": "14 October 2013",
+        "href": "http://datatracker.ietf.org/doc/draft-ietf-rtcweb-use-cases-and-requirements/",
+        "publisher": "IETF",
+        "status": "Active Internet-Draft",
+        "title": "Web Real-Time Communication Use-cases and Requirements"
+    },
+    "RUBY-UC": {
+        "aliasOf": "ruby-use-cases"
+    },
+    "SCTE128-1": {
+        "title": "ANSI/SCTE 128-1 2013 AVC Constraints for Cable Television Part 1- Coding",
+        "href": "http://www.scte.org/documents/pdf/Standards/ANSI_SCTE%20128-1%202013.pdf",
+        "publisher": "ANSI/SCTE"
+    },
+    "SCTE193-2": {
+        "title": "SCTE 193-2 2014 MPEG-4 AAC Family Audio System – Part 2 Constraints for Carriage over MPEG-2 Transport",
+        "href": "http://www.scte.org/documents/pdf/standards/SCTE%20193-2%202014.pdf",
+        "publisher": "ANSI/SCTE"
+    },
+    "SCTE27": {
+        "title": "Subtitling Methods For Broadcast Cable",
+        "href": "http://www.scte.org/documents/pdf/Standards/ANSI_SCTE_27_2011.pdf",
+        "publisher": "ANSI/SCTE"
+    },
+    "SDP": {
+        "aliasOf": "rfc3264"
+    },
+    "SDPLABEL": {
+        "aliasOf": "rfc4574"
+    },
+    "SELECT": {
+        "aliasOf": "css3-selectors"
+    },
+    "SELECTORS-LEVEL-3": {
+        "aliasOf": "css3-selectors"
+    },
+    "SGML-XML": {
+        "aliasOf": "NOTE-sgml-xml-19971215"
+    },
+    "SMIL10": {
+        "aliasOf": "SMIL-19980615"
+    },
+    "SMIL20-20050107": {
+        "aliasOf": "SMIL2-20050107"
+    },
+    "SMIL20-20051213": {
+        "aliasOf": "SMIL2-20050107"
+    },
+    "SMIME": {
+        "aliasOf": "rfc3851"
+    },
+    "SMPTE2052-1": {
+        "title": "SMPTE ST 2052-1:2010 \"Timed Text Format (SMPTE-TT)\"",
+        "href": "https://www.smpte.org/sites/default/files/st2052-1-2010.pdf",
+        "publisher": "Society of Motion Pictures and Television Engineers"
+    },
+    "SMPTE2052-11": {
+        "title": "Conversion from CEA-708 Caption Data to SMPTE-TT",
+        "href": "https://www.smpte.org/sites/default/files/RP2052-11-2013.pdf",
+        "publisher": "SMPTE"
+    },
+    "SNIFF": {
+        "authors": [
+            "Gordon P. Hemsley"
+        ],
+        "href": "https://mimesniff.spec.whatwg.org/",
+        "publisher": "WHATWG",
+        "status": "Living Standard",
+        "title": "MIME Sniffing Standard"
+    },
+    "SPARQL-QUERY": {
+        "aliasOf": "rdf-sparql-query"
+    },
+    "SPARQL-UPDATE": {
+        "aliasOf": "RDF-SPARQL-UPDATE"
+    },
+    "SSE": {
+        "aliasOf": "eventsource"
+    },
+    "SSE-ed": {
+        "aliasOf": "eventsource"
+    },
+    "SSML": {
+        "aliasOf": "speech-synthesis11"
+    },
+    "SSML10": {
+        "aliasOf": "speech-synthesis"
+    },
+    "STD68": {
+        "aliasOf": "RFC5234"
+    },
+    "STUN": {
+        "aliasOf": "rfc5389"
+    },
+    "STUN-URI": {
+        "authors": [
+            "S. Nandakumar",
+            "G. Salgueiro",
+            "P. Jones",
+            "and M. Petit-Huguenin"
+        ],
+        "href": "https://tools.ietf.org/html/draft-nandakumar-rtcweb-stun-uri",
+        "title": "URI Scheme for Session Traversal Utilities for NAT (STUN) Protocol",
+        "date": "12 March 2012",
+        "status": "Internet Draft (work in progress)",
+        "publisher": "IETF"
+    },
+    "SVG10": {
+        "aliasOf": "SVG"
+    },
+    "SVG112": {
+        "aliasOf": "SVG11"
+    },
+    "SXSWGRIDS": {
+        "authors": [
+            "Khoi Vinh",
+            "Mark Boulton"
+        ],
+        "href": "http://www.subtraction.com/pics/0703/grids_are_good.pdf",
+        "title": "Grids Are Good",
+        "date": "March 2007",
+        "status": "SXSW Interactive, Austin, TX"
+    },
+    "SYSAPPS-RUNTIME": {
+        "authors": [
+            "Mounir Lamouri",
+            "Ming Jin"
+        ],
+        "href": "http://runtime.sysapps.org/",
+        "publisher": "W3C",
+        "status": "ED",
+        "title": "Runtime and Security Model for Web Applications"
+    },
+    "SYSINFOAPI": {
+        "aliasOf": "system-info-api"
+    },
+    "TAGLINK20030116": {
+        "authors": [
+            "Ian Jacobs (Scribe)"
+        ],
+        "href": "http://www.w3.org/2003/01/16-tag-xlink",
+        "title": "Minutes of 16 Jan 2003 discussion on Linking in XML Documents",
+        "date": "2003",
+        "status": "W3C TAG archives",
+        "publisher": "W3C"
+    },
+    "TLS": {
+        "aliasOf": "rfc5246"
+    },
+    "TRAM-TURN-THIRD-PARTY-AUTHZ": {
+        "authors": [
+            "T. Reddy",
+            "P. Patil",
+            "R. Ravindranath",
+            "J. Uberti"
+        ],
+        "date": "25 February 2015",
+        "href": "https://datatracker.ietf.org/doc/draft-ietf-tram-turn-third-party-authz/",
+        "publisher": "IETF",
+        "status": "Internet Draft (work in progress)",
+        "title": "Session Traversal Utilities for NAT (STUN) Extension for Third Party Authorization"
+    },
+    "TRICKLE-ICE": {
+        "authors": [
+            "E. Ivov",
+            "E. Rescorla",
+            "J. Uberti"
+        ],
+        "date": "7 February 2014",
+        "href": "http://datatracker.ietf.org/doc/draft-ietf-mmusic-trickle-ice",
+        "publisher": "IETF",
+        "status": "Internet Draft (work in progress)",
+        "title": "Trickle ICE: Incremental Provisioning of Candidates for the Interactive Connectivity Establishment (ICE) Protocol"
+    },
+    "TURN": {
+        "aliasOf": "rfc5766"
+    },
+    "TURN-URI": {
+        "authors": [
+            "M. Petit-Huguenin",
+            "S. Nandakumar",
+            "G. Salgueiro",
+            "and  P. Jones"
+        ],
+        "href": "https://tools.ietf.org/html/draft-petithuguenin-behave-turn-uris",
+        "title": "Traversal Using Relays around NAT (TURN) Uniform Resource Identifiers",
+        "date": "12 March 2012",
+        "status": "Internet Draft (work in progress)",
+        "publisher": "IETF"
+    },
+    "TYPED-ARRAYS": {
+        "aliasOf": "typedarray"
+    },
+    "UAX11": {
+        "authors": [
+            "Asmus Freytag"
+        ],
+        "href": "http://www.unicode.org/unicode/reports/tr11/tr11-8.html",
+        "title": "East Asian Width",
+        "date": "23 March 2001",
+        "status": "Unicode Standard Annex #11",
+        "publisher": "Unicode Consortium"
+    },
+    "UAX14": {
+        "authors": [
+            "Asmus Freytag"
+        ],
+        "href": "http://www.unicode.org/unicode/reports/tr14/tr14-17.html",
+        "title": "Line Breaking Properties",
+        "date": "29 March 2005",
+        "status": "Unicode Standard Annex #14",
+        "publisher": "Unicode Consortium"
+    },
+    "UAX15": {
+        "authors": [
+            "Mark Davis",
+            "Ken Whistler"
+        ],
+        "href": "http://www.unicode.org/reports/tr15",
+        "title": "Unicode Normalization Forms",
+        "date": "31 August 2012",
+        "status": "Unicode Standard Annex #15",
+        "publisher": "Unicode Consortium"
+    },
+    "UAX21": {
+        "authors": [
+            "Mark Davis"
+        ],
+        "href": "http://www.unicode.org/reports/tr21/tr21-5.html",
+        "title": "Case Mappings",
+        "date": "26 March 2001",
+        "status": "Unicode Standard Annex #21",
+        "publisher": "Unicode Consortium"
+    },
+    "UAX24": {
+        "authors": [
+            "Mark Davis"
+        ],
+        "href": "http://www.unicode.org/unicode/reports/tr24/tr24-7.html",
+        "title": "Script Names",
+        "date": "28 March 2005",
+        "status": "Unicode Standard Annex #24",
+        "publisher": "Unicode Consortium"
+    },
+    "UAX27": {
+        "authors": [
+            "Mark Davis",
+            "Michael Everson"
+        ],
+        "etAl": true,
+        "href": "http://www.unicode.org/unicode/reports/tr27/tr27-4.html",
+        "title": "Unicode 3.1.0",
+        "date": "16 May 2001",
+        "status": "Unicode Standard Annex #27",
+        "publisher": "Unicode Consortium"
+    },
+    "UAX29": {
+        "authors": [
+            "Mark Davis"
+        ],
+        "href": "http://www.unicode.org/unicode/reports/tr29/tr29-9.html",
+        "title": "Text Boundaries",
+        "date": "25 March 2005",
+        "status": "Unicode Standard Annex #29",
+        "publisher": "Unicode Consortium"
+    },
+    "UAX35": {
+        "authors": [
+            "Mark Davis",
+            "CLDR committee members"
+        ],
+        "href": "http://www.unicode.org/reports/tr35/tr35-31/tr35.html",
+        "title": "Unicode Locale Data Markup Language (LDML)",
+        "date": "15 March 2013",
+        "status": "Unicode Standard Annex #35",
+        "publisher": "Unicode Consortium"
+    },
+    "UAX9": {
+        "aliasOf": "BIDI"
+    },
+    "UI-AUTOMATION": {
+        "href": "http://msdn.microsoft.com/en-us/library/ee684009%28v=vs.85%29.aspx",
+        "title": "UI Automation",
+        "publisher": "Microsoft Corporation"
+    },
+    "UI-EVENTS": {
+        "aliasOf": "uievents"
+    },
+    "UNICODE": {
+        "href": "http://www.unicode.org/versions/latest/",
+        "publisher": "The Unicode Consortium",
+        "title": "The Unicode Standard"
+    },
+    "UNICODE-SECURITY": {
+        "authors": [
+            "Mark Davis",
+            "Michel Suignard"
+        ],
+        "href": "http://www.unicode.org/reports/tr36/",
+        "title": "Unicode Security Considerations",
+        "publisher": "Unicode Consortium"
+    },
+    "UNICODE32": {
+        "authors": [
+            "The Unicode Consortium"
+        ],
+        "href": "http://www.unicode.org/versions/Unicode3.2.0/",
+        "title": "The Unicode Standard, Version 3.2.0",
+        "publisher": "Unicode Consortium",
+        "date": "27 March 2002"
+    },
+    "URI": {
+        "aliasOf": "rfc3986"
+    },
+    "URI-TEMPLATE": {
+        "aliasOf": "rfc6570"
+    },
+    "URN": {
+        "aliasOf": "rfc2141"
+    },
+    "URN-OID": {
+        "aliasOf": "rfc3061"
+    },
+    "UTF-16": {
+        "aliasOf": "rfc2781"
+    },
+    "UTF-8": {
+        "aliasOf": "rfc3629"
+    },
+    "UTR24": {
+        "authors": [
+            "Mark Davis"
+        ],
+        "href": "http://www.unicode.org/unicode/reports/tr24/tr24-3.html",
+        "title": "Script Names",
+        "date": "27 September 2001",
+        "status": "Unicode Technical Report #24",
+        "publisher": "Unicode Consortium"
+    },
+    "UTS10": {
+        "authors": [
+            "Mark Davis",
+            "Ken Whistler",
+            "Markus Scherer"
+        ],
+        "href": "http://www.unicode.org/reports/tr10/tr10-30.html",
+        "title": "Unicode Collation Algorithm",
+        "date": "09 June 2014",
+        "status": "Unicode Technical Standard #10",
+        "publisher": "Unicode Consortium"
+    },
+    "UTS22": {
+        "authors": [
+            "Mark Davis",
+            "Markus Scherer"
+        ],
+        "href": "http://www.unicode.org/reports/tr22",
+        "title": "Unicode Character Mapping Markup Language (CharmapML)",
+        "date": "09 September 2009",
+        "status": "Unicode Technical Standard #22",
+        "publisher": "Unicode Consortium"
+    },
+    "VTT708": {
+        "title": "Conversion of 608/708 captions to WebVTT",
+        "href": "https://dvcs.w3.org/hg/text-tracks/raw-file/default/608toVTT/608toVTT.html",
+        "authors": [
+            "Silvia Pfeiffer"
+        ],
+        "status": "Draft Community Group Report",
+        "publisher": "W3C"
+    },
+    "WAC-SENSOR-API": {
+        "authors": [
+            "WAC Application Services Ltd"
+        ],
+        "href": "http://specs.wacapps.net/2.0/jun2011/deviceapis/sensors.html",
+        "title": "Device APIs: The sensor module",
+        "date": "July 2011",
+        "status": "WAC Ipanema Editor's Draft"
+    },
+    "WCAG": {
+        "aliasOf": "WAI-WEBCONTENT"
+    },
+    "WEB-SQL": {
+        "aliasOf": "webdatabase"
+    },
+    "WEBAPP-PRIVACY-BESTPRACTICES": {
+        "aliasOf": "app-privacy-bp"
+    },
+    "WEBAPPS-MANIFEST-API": {
+        "aliasOf": "appmanifest"
+    },
+    "WEBCONTENT": {
+        "aliasOf": "WCAG"
+    },
+    "WEBGL": {
+        "authors": [
+            "Chris Marrin (Apple Inc.)"
+        ],
+        "href": "https://www.khronos.org/registry/webgl/specs/1.0/",
+        "title": "WebGL Specification, Version 1.0",
+        "date": "10 February 2011",
+        "publisher": "Khronos"
+    },
+    "WEBINTENTS": {
+        "authors": [
+            "Greg Billock",
+            "James Hawkins",
+            "Paul Kinlan"
+        ],
+        "href": "http://dvcs.w3.org/hg/web-intents/raw-file/tip/spec/Overview.html",
+        "title": "Web Intents",
+        "status": "ED",
+        "publisher": "W3C"
+    },
+    "WEBRTC10": {
+        "aliasOf": "webrtc"
+    },
+    "WEBSOCKETS-API": {
+        "aliasOf": "websockets"
+    },
+    "WEBVTT": {
+        "aliasOf": "webvtt1"
+    },
+    "WEBVTT-WEBM": {
+        "authors": [
+            "Matthew Heaney",
+            "Frank Galligan"
+        ],
+        "href": "http://wiki.webmproject.org/webm-metadata/temporal-metadata/webvtt-in-webm",
+        "title": "Embedding WebVTT in WebM",
+        "date": "1 February 2012",
+        "publisher": "The WebM Project"
+    },
+    "WEBWORKERS": {
+        "aliasOf": "workers"
+    },
+    "WHATWG-URL": {
+        "authors": [
+            "Anne van Kesteren"
+        ],
+        "href": "https://url.spec.whatwg.org/",
+        "publisher": "WHATWG",
+        "status": "Living Standard",
+        "title": "URL Standard"
+    },
+    "WHATWG-fullscreen": {
+        "authors": [
+            "Anne van Kesteren"
+        ],
+        "href": "https://fullscreen.spec.whatwg.org/",
+        "title": "Fullscreen",
+        "publisher": "WHATWG",
+        "status": "Living Standard"
+    },
+    "WICDMobile10": {
+        "aliasOf": "WICDMobile"
+    },
+    "WIDGETS-PC-INTEROP": {
+        "authors": [
+            "Marcos Cáceres"
+        ],
+        "href": "http://dev.w3.org/2006/waf/widgets/imp-report/",
+        "title": "Implementation Report for Widgets Packaging and XML Configuration"
+    },
+    "WIDGETS-PC-TESTS": {
+        "authors": [
+            "Marcos Cáceres"
+        ],
+        "title": "Test Suite for Packaging and XML Configuration",
+        "href": "http://dev.w3.org/2006/waf/widgets/test-suite/"
+    },
+    "WebM": {
+        "href": "http://www.webmproject.org/code/specs/container/",
+        "title": "WebM Container Guidelines",
+        "publisher": "The WebM Project",
+        "date": "28 April 2014"
+    },
+    "X11COLORS": {
+        "href": "https://en.wikipedia.org/wiki/X11_color_names",
+        "title": "X11 color names",
+        "publisher": "Wikipedia"
+    },
+    "XEP-0166": {
+        "authors": [
+            "Scott Ludwig",
+            "Joe Beda",
+            "Peter Saint-Andre",
+            "Robert McQueen",
+            "Sean Egan",
+            "Joe Hildebrand"
+        ],
+        "date": "23 December 2009",
+        "href": "http://xmpp.org/extensions/xep-0166.html",
+        "publisher": "XMPP Standards Foundation",
+        "status": "Draft Standard",
+        "title": "XEP-0166: Jingle",
+        "etAl": true
+    },
+    "XFORMS10": {
+        "aliasOf": "xforms"
+    },
+    "XHR": {
+        "authors": [
+            "Anne van Kesteren"
+        ],
+        "href": "https://xhr.spec.whatwg.org/",
+        "title": "XMLHttpRequest",
+        "status": "Living Standard",
+        "publisher": "WHATWG"
+    },
+    "XHR-20121206": {
+        "aliasOf": "XMLHttpRequest"
+    },
+    "XHTML-BASIC11": {
+        "aliasOf": "xhtml-basic-20080729"
+    },
+    "XHTML-MODULARIZATION11": {
+        "aliasOf": "xhtml-modularization-20081008"
+    },
+    "XHTML-MODULARIZATION11-2e": {
+        "aliasOf": "xhtml-modularization-20100729"
+    },
+    "XHTML-VOCAB": {
+        "authors": [
+            "XHTML 2 Working Group"
+        ],
+        "href": "http://www.w3.org/1999/xhtml/vocab",
+        "title": "XHTML Vocabulary",
+        "date": "27 October 2010",
+        "publisher": "W3C"
+    },
+    "XHTML10": {
+        "aliasOf": "xhtml1"
+    },
+    "XLINK10": {
+        "aliasOf": "xlink"
+    },
+    "XML-C14N20": {
+        "aliasOf": "xml-c14n2"
+    },
+    "XML-MT": {
+        "aliasOf": "rfc3023"
+    },
+    "XML10": {
+        "aliasOf": "xml"
+    },
+    "XMLDSIG-COMPLEXITY": {
+        "authors": [
+            "Brad Hill"
+        ],
+        "href": "http://www.w3.org/2007/xmlsec/ws/papers/04-hill-isecpartners/",
+        "title": "Complexity as the Enemy of Security: Position Paper for W3C Workshop on Next Steps for XML Signature and XML Encryption",
+        "date": "25-26 September",
+        "status": "WD",
+        "publisher": "W3C"
+    },
+    "XMLDSIG-CORE1-CHGS": {
+        "aliasOf": "xmldsig-core1-explain"
+    },
+    "XMLDSIG-CORE2002": {
+        "aliasOf": "xmldsig-core-20020212"
+    },
+    "XMLDSIG-GARCIA": {
+        "authors": [
+            "Raúl Benito García"
+        ],
+        "href": "http://www.w3.org/2008/xmlsec/papers/TFCFirmasdigitalesenXML-11-10-2007.pdf",
+        "title": "Verificación De Firmas Digitales En Documentos XML De  Tamaño Arbitrario",
+        "date": "December 2006",
+        "status": "WD",
+        "publisher": "W3C"
+    },
+    "XMLDSIG-SEMANTICS": {
+        "authors": [
+            "Sebastian Gajek",
+            "Lijun Liao",
+            "and Jörg Schwenk"
+        ],
+        "href": "http://www.w3.org/2007/xmlsec/ws/papers/07-gajek-rub/",
+        "title": " Towards a Semantic of XML Signature: Position Paper for W3C Workshop on Next Steps for XML Signature and XML Encryption ",
+        "date": "25-26 September 2007",
+        "status": "W3C Workshop",
+        "publisher": "W3C"
+    },
+    "XMLDSIG-THOMPSON": {
+        "authors": [
+            "Henry Thompson"
+        ],
+        "href": "http://www.w3.org/2007/xmlsec/ws/papers/20-thompson/",
+        "title": "Radical proposal for Vnext of XML Signature: Position Paper for W3C Workshop on Next Steps for XML Signature and XML Encryption",
+        "date": "26 September 2007",
+        "status": "W3C Workshop",
+        "publisher": "W3C"
+    },
+    "XMLDSIG-XPATH-FILTER2": {
+        "aliasOf": "xmldsig-filter2"
+    },
+    "XMLENC-BACKWARDS-COMP": {
+        "authors": [
+            "Tibor Jager",
+            "Kenneth G. Paterson",
+            "Juraj Somorovsky"
+        ],
+        "href": "http://www.nds.ruhr-uni-bochum.de/research/publications/backwards-compatibility/",
+        "title": "One Bad Apple: Backwards Compatibility Attacks on State-of-the-Art Cryptography",
+        "date": "2013",
+        "publisher": " In Proceedings of the Network and Distributed System Security Symposium (NDSS)"
+    },
+    "XMLENC-CBC-ATTACK": {
+        "authors": [
+            "Tibor Jager",
+            "Juraj Somorovsky"
+        ],
+        "href": "http://www.nds.ruhr-uni-bochum.de/research/publications/breaking-xml-encryption/",
+        "title": "How to Break XML Encryption",
+        "date": "17-21 October 2011",
+        "status": "CCS’11, ACM"
+    },
+    "XMLENC-CBC-ATTACK-COUNTERMEASURES": {
+        "authors": [
+            "Juraj Somorovsky",
+            "Jörg Schwenk"
+        ],
+        "href": "http://www.w3.org/2008/xmlsec/papers/xmlEncCountermeasuresW3C.pdf",
+        "title": "Technical Analysis of Countermeasures against Attack on XML Encryption - or - Just Another Motivation for Authenticated Encryption",
+        "date": "2011"
+    },
+    "XMLENC-CORE1-CHGS": {
+        "aliasOf": "xmlenc-core1-explain"
+    },
+    "XMLENC-CREF2": {
+        "aliasOf": "xmlenc-transform20"
+    },
+    "XMLENC-PKCS15-ATTACK": {
+        "authors": [
+            "Tibor Jager",
+            "Sebastian Schinzel",
+            "Juraj Somorovsky"
+        ],
+        "href": "http://www.nds.rub.de/research/publications/breaking-xml-encryption-pkcs15.pdf",
+        "title": "Bleichenbacher\"s Attack Strikes Again: Breaking PKCS#1.5 in XML Encryption",
+        "date": "2012",
+        "publisher": "In Proceedings of the 17th European Symposium on Research in Computer Security (ESO RICS)"
+    },
+    "XMLENC11-TESTCASES": {
+        "aliasOf": "xmlenc-core1-testcases"
+    },
+    "XMLHTTPREQUEST3": {
+        "aliasOf": "XMLHttpRequest"
+    },
+    "XMLSEC-GHCIPHERS": {
+        "aliasOf": "xmlsec-generic-hybrid"
+    },
+    "XMLSEC-NEXTSTEPS-2007": {
+        "authors": [
+            "Frederick Hirsch",
+            "Thomas Roessler"
+        ],
+        "href": "http://www.w3.org/2007/xmlsec/ws/report.html",
+        "title": "Workshop Report W3C Workshop on Next Steps for XML Signature and XML Encryption",
+        "date": "25-26 September 2007",
+        "status": "W3C Workshop Report",
+        "publisher": "W3C"
+    },
+    "XMLSEC-RELAXNG": {
+        "aliasOf": "xmlsec-rngschema"
+    },
+    "XMLSEC11-REQS": {
+        "aliasOf": "xmlsec-reqs"
+    },
+    "XMLSEC2-REQS": {
+        "aliasOf": "xmlsec-reqs2"
+    },
+    "XMLSTYLE": {
+        "aliasOf": "xml-stylesheet-19990629"
+    },
+    "XPTR-XPOINTER-CR2001": {
+        "aliasOf": "xptr"
+    },
+    "XSL10": {
+        "aliasOf": "xsl"
+    },
+    "XSLT21": {
+        "aliasOf": "xslt-21"
+    },
+    "YAML": {
+        "authors": [
+            "Oren Ben-Kiki",
+            "Clark Evans",
+            "Ingy döt Net"
+        ],
+        "href": "http://yaml.org/spec/1.2/spec.html",
+        "title": "YAML Ain’t Markup Language (YAML™) Version 1.2",
+        "rawDate": "2009-10-01",
+        "hasErrata": "http://yaml.org/spec/1.2/errata.html"
+    },
+    "ZEROCONF": {
+        "authors": [
+            "S. Cheshire",
+            "B. Aboba",
+            "E. Guttman"
+        ],
+        "href": "http://files.zeroconf.org/rfc3927.txt",
+        "title": "Dynamic Configuration of IPv4 Link-Local Addresses",
+        "date": "May 2005",
+        "status": "IETF Draft",
+        "publisher": "IETF"
+    },
+    "ZIP": {
+        "date": "1 September 2012",
+        "href": "http://www.pkware.com/documents/casestudies/APPNOTE.TXT",
+        "status": "Final",
+        "title": ".ZIP File Format Specification"
+    },
+    "access-control": {
+        "authors": [
+            "Anne van Kesteren"
+        ],
+        "href": "http://www.w3.org/TR/access-control/",
+        "title": "Access Control for Cross-Site Requests",
+        "date": "12 September 2008",
+        "status": "WD",
+        "publisher": "W3C"
+    },
+    "css3-fonts": {
+        "authors": [
+            "John Daggett"
+        ],
+        "href": "http://www.w3.org/TR/css3-fonts/",
+        "title": "CSS Fonts Module Level 3",
+        "date": "11 December 2012",
+        "status": "WD",
+        "publisher": "W3C",
+        "versions": {
+            "20020802": {
+                "aliasOf": "css-fonts-3-20020802"
+            },
+            "20130212": {
+                "aliasOf": "css-fonts-3-20130212"
+            }
+        }
+    },
+    "css3-namespace": {
+        "aliasOf": "css-namespaces-3"
+    },
+    "css3-webfonts": {
+        "aliasOf": "css-fonts-3-19980512"
+    },
+    "css3-webfonts-19980512": {
+        "aliasOf": "css-fonts-3-19980512"
+    },
+    "domxpath": {
+        "aliasOf": "DOM-Level-3-XPath"
+    },
+    "gml": {
+        "href": "http://www.opengeospatial.org/standards/gml",
+        "title": "Geography Markup Language (GML) Encoding Standard",
+        "publisher": "Open Geospatial Consortium Inc.",
+        "deliveredBy": [
+            "http://www.opengeospatial.org"
+        ],
+        "versions": {
+            "20070827": {
+                "authors": [
+                    "Clemens Portele"
+                ],
+                "href": "http://portal.opengeospatial.org/files/?artifact_id=20509",
+                "title": "Geography Markup Language (GML) Encoding Standard",
+                "rawDate": "2007-08-27",
+                "publisher": "Open Geospatial Consortium Inc.",
+                "deliveredBy": [
+                    "http://www.opengeospatial.org"
+                ]
+            }
+        }
+    },
+    "hCard": {
+        "authors": [
+            "Tantek Celik",
+            "Brian Suda"
+        ],
+        "href": "http://microformats.org/wiki/hcard",
+        "title": "hCard 1.0",
+        "date": "23 June 2013"
+    },
+    "html-20121025": {
+        "aliasOf": "html5-20121025"
+    },
+    "html-20121217": {
+        "aliasOf": "html5-20121217"
+    },
+    "html-20130806": {
+        "aliasOf": "html5-20130806"
+    },
+    "html-20140204": {
+        "aliasOf": "html5-20140204"
+    },
+    "html-20140429": {
+        "aliasOf": "html5-20140429"
+    },
+    "html-20140617": {
+        "aliasOf": "html5-20140617"
+    },
+    "http-signatures": {
+        "authors": [
+            "Mark Cavage",
+            "Manu Sporny"
+        ],
+        "href": "https://tools.ietf.org/html/draft-cavage-http-signatures",
+        "title": "HTTP Signatures",
+        "status": "WD",
+        "publisher": "IETF",
+        "deliveredBy": [
+            "https://datatracker.ietf.org/wg/httpauth/"
+        ],
+        "versions": {
+            "20130504": {
+                "authors": [
+                    "Mark Cavage",
+                    "Manu Sporny"
+                ],
+                "href": "https://tools.ietf.org/html/draft-cavage-http-signatures-00",
+                "title": "HTTP Signatures",
+                "rawDate": "2013-05-04",
+                "publisher": "IETF",
+                "isRetired": true,
+                "deliveredBy": [
+                    "https://datatracker.ietf.org/wg/httpauth/"
+                ],
+                "source": "https://web-payments.org/specs/source/http-signatures/"
+            }
+        },
+        "rawDate": "2013-05-04",
+        "isRetired": true,
+        "source": "https://web-payments.org/specs/source/http-signatures/"
+    },
+    "json-patch": {
+        "aliasOf": "rfc6902"
+    },
+    "json-patch-20130401": {
+        "aliasOf": "rfc6902"
+    },
+    "meta-theme-color": {
+        "href": "https://github.com/whatwg/meta-theme-color",
+        "publisher": "WHATWG",
+        "status": "Living Standard",
+        "title": "The 'theme-color' meta extension"
+    },
+    "odrl": {
+        "authors": [
+            "Renato Iannella"
+        ],
+        "versions": {
+            "20020919": {
+                "status": "NOTE",
+                "rawDate": "2002-09-19",
+                "href": "http://www.w3.org/TR/2002/NOTE-odrl-20020919/"
+            }
+        },
+        "href": "http://www.w3.org/TR/odrl",
+        "publisher": "W3C",
+        "status": "NOTE",
+        "rawDate": "2002-09-19",
+        "title": "Open Digital Rights Language (ODRL) Version 1.1"
+    },
+    "typedarray": {
+        "authors": [
+            "David Herman",
+            "Kenneth Russell"
+        ],
+        "href": "https://www.khronos.org/registry/typedarray/specs/latest/",
+        "title": "Typed Array Specification",
+        "rawDate": "2013-06-26",
+        "status": "Khronos Working Draft",
+        "publisher": "Khronos"
+    }
+}
