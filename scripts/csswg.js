@@ -5,7 +5,6 @@ var request = require('request'),
     
 var FILENAME = "csswg.json";
 var current = runner.readBiblio(FILENAME);
-var biblio = runner.readBiblio();
 
 var refs = bibref.expandRefs(bibref.raw);
 
@@ -60,14 +59,12 @@ request(REF_URL, function(err, response, body) {
         if (refs[id]) {
             if (refs[id].source == REF_URL) {
                 current[id] = o;
-                delete biblio[id];
             }
         } else if (o.href && urls[o.href]) {
             var id = urls[o.href];
             current[o.id] = {
                 aliasOf: id
             };
-            delete biblio[id];
         } else {
             current[o.id] = o;
         }
@@ -76,7 +73,6 @@ request(REF_URL, function(err, response, body) {
     current = runner.sortRefs(current);
     console.log("updating existing refs.")
     runner.writeBiblio(FILENAME, current);
-    runner.writeBiblio(biblio);
 });
 
 var MONTHS = [
