@@ -34,6 +34,7 @@ spawn("git", ["checkout", "-b", branch_name], function(err) {
         runScript.bind(null, "rfc.js"),
         runScript.bind(null, "rdf.js"),
         runScript.bind(null, "csswg.js"),
+        runScript.bind(null, "whatwg.js"),
         function(done) {
             console.log("Running test suite... (This might take a while.)");
             done();
