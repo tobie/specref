@@ -4,12 +4,6 @@
         "href": "http://www.3gpp.org/ftp/Specs/archive/26_series/26.245/26245-c00.zip",
         "publisher": "3GPP"
     },
-    "AAT-FEATURES": {
-        "source": "http://dev.w3.org/csswg/biblio.ref",
-        "title": "Apple Advanced Typography font feature registry",
-        "publisher": "Apple",
-        "href": "http://developer.apple.com/fonts/registry/"
-    },
     "ABA-DSIG-GUIDELINES": {
         "href": "http://www.signelec.com/content/download/digital_signature_guidelines.pdf",
         "title": "Digital Signature Guidelines",
@@ -18,27 +12,6 @@
     },
     "ABNF": {
         "aliasOf": "RFC5234"
-    },
-    "ACEBAL2010": {
-        "source": "http://dev.w3.org/csswg/biblio.ref",
-        "title": "ALMcss: Separación de estructura y presentación en la web mediante posicionamiento avanzado en CSS",
-        "authors": [
-            "César Fernández Acebal"
-        ],
-        "rawDate": "2010",
-        "href": "http://di002.edv.uniovi.es/~acebal/phd/dissertation.pdf"
-    },
-    "ACEBAL2012": {
-        "source": "http://dev.w3.org/csswg/biblio.ref",
-        "title": "ALMcss: a Javascript implementation of the CSS template layout module",
-        "authors": [
-            "César Acebal",
-            "Bert Bos",
-            "María Rodríguez",
-            "Juan Manuel Cueva"
-        ],
-        "rawDate": "2012-09",
-        "publisher": "ACM"
     },
     "AES": {
         "href": "http://csrc.nist.gov/publications/fips/fips197/fips-197.pdf",
@@ -168,15 +141,6 @@
             }
         }
     },
-    "CJKV-INFO-PROCESSING": {
-        "source": "http://dev.w3.org/csswg/biblio.ref",
-        "authors": [
-            "Ken Lunde"
-        ],
-        "title": "CJKV Information Processing, Second Edition",
-        "publisher": "O'Reilly Media, Inc.",
-        "rawDate": "2009"
-    },
     "CLABS-HNAPI": {
         "href": "http://www.w3.org/2011/webtv/HNTF/CableLabs_Revised_API_20110727-2.pdf",
         "title": "CableLabs Revised Home Networking API",
@@ -243,16 +207,6 @@
     "CSS-ADAPTATION": {
         "aliasOf": "css-device-adapt"
     },
-    "CSS-EXTENSIONS": {
-        "source": "http://dev.w3.org/csswg/biblio.ref",
-        "title": "CSS Extensions",
-        "authors": [
-            "Tab Atkins Jr."
-        ],
-        "status": "ED",
-        "publisher": "W3C",
-        "href": "http://dev.w3.org/csswg/css-extensions/"
-    },
     "CSS-MIME": {
         "aliasOf": "RFC2318"
     },
@@ -267,15 +221,6 @@
     },
     "CSS3-LINE-GRID": {
         "aliasOf": "css-line-grid-1"
-    },
-    "CSS3-PAGE-TEMPLATE": {
-        "source": "http://dev.w3.org/csswg/biblio.ref",
-        "title": "CSS Pagination Templates Module Level 3",
-        "authors": [
-            "Alan Stearns"
-        ],
-        "status": "Proposal for a CSS module",
-        "href": "http://dev.w3.org/csswg/css3-page-template/"
     },
     "CSS3-TEXT-DECOR": {
         "aliasOf": "css-text-decor-3"
@@ -387,16 +332,6 @@
         "date": "17 October 2010",
         "status": "ED",
         "publisher": "W3C"
-    },
-    "CSS4BACKGROUND": {
-        "source": "http://dev.w3.org/csswg/biblio.ref",
-        "title": "CSS Backgrounds and Borders Module Level 4",
-        "authors": [
-            "Elika J. Etemad",
-            "Håkon Wium Lie"
-        ],
-        "status": "Proposal for a CSS module",
-        "href": "http://dev.w3.org/csswg/css4-background/"
     },
     "CSSBEIJING": {
         "aliasOf": "css-beijing"
@@ -591,15 +526,6 @@
         "title": "DIG2000 file format proposal",
         "date": "Oct 1998",
         "status": "Report (draft) ISO/IEC JTC1/SG29/WG1 N1017"
-    },
-    "DIGITAL-TYPOGRAPHY": {
-        "source": "http://dev.w3.org/csswg/biblio.ref",
-        "authors": [
-            "Richard Rubinstein"
-        ],
-        "title": "Digital Typography, An Introduction to Type and Composition for Computer System Design",
-        "publisher": "Addison-Wesley",
-        "rawDate": "1988"
     },
     "DNS-SD": {
         "aliasOf": "RFC6763"
@@ -1294,30 +1220,6 @@
         "date": "26 Jun 2008",
         "publisher": "OMA"
     },
-    "OPEN-FONT-FORMAT": {
-        "source": "http://dev.w3.org/csswg/biblio.ref",
-        "title": "Information technology — Coding of audio-visual objects — Part 22: Open Font Format",
-        "publisher": "International Organization for Standardization.",
-        "href": "http://standards.iso.org/ittf/PubliclyAvailableStandards/c052136_ISO_IEC_14496-22_2009%28E%29.zip"
-    },
-    "OPENTYPE": {
-        "source": "http://dev.w3.org/csswg/biblio.ref",
-        "title": "OpenType specification",
-        "publisher": "Microsoft",
-        "href": "http://www.microsoft.com/typography/otspec/default.htm"
-    },
-    "OPENTYPE-FEATURES": {
-        "source": "http://dev.w3.org/csswg/biblio.ref",
-        "title": "OpenType feature registry",
-        "publisher": "Microsoft",
-        "href": "http://www.microsoft.com/typography/otspec/featurelist.htm"
-    },
-    "OPENTYPE-FONT-GUIDE": {
-        "source": "http://dev.w3.org/csswg/biblio.ref",
-        "title": "OpenType User Guide",
-        "publisher": "FontShop International",
-        "href": "https://www.fontfont.com/staticcontent/downloads/FF_OT_User_Guide.pdf"
-    },
     "ORIGIN": {
         "aliasOf": "RFC6454"
     },
@@ -1364,16 +1266,6 @@
         "status": "ED",
         "publisher": "W3C"
     },
-    "PORTERDUFF": {
-        "source": "http://dev.w3.org/csswg/biblio.ref",
-        "title": "Compositing digital images",
-        "authors": [
-            "Thomas Porter",
-            "Tom Duff"
-        ],
-        "publisher": "ACM",
-        "rawDate": "1984-07"
-    },
     "POSTMSG": {
         "aliasOf": "webmessaging"
     },
@@ -1388,15 +1280,6 @@
     },
     "RANDOM": {
         "aliasOf": "rfc4086"
-    },
-    "RASTER-TRAGEDY": {
-        "source": "http://dev.w3.org/csswg/biblio.ref",
-        "title": "The Raster Tragedy at Low-Resolution Revisited",
-        "authors": [
-            "Beat Stamm"
-        ],
-        "rawDate": "2011-12-07",
-        "href": "http://www.rastertragedy.com/"
     },
     "RDB2RDF-UC": {
         "aliasOf": "rdb2rdf-ucr"
@@ -1811,16 +1694,6 @@
         "status": "Unicode Standard Annex #35",
         "publisher": "Unicode Consortium"
     },
-    "UAX44": {
-        "source": "http://dev.w3.org/csswg/biblio.ref",
-        "authors": [
-            "Mark Davis",
-            "Ken Whistler"
-        ],
-        "title": "Unicode Character Database",
-        "rawDate": "2013-09-25",
-        "href": "http://www.unicode.org/reports/tr44/"
-    },
     "UAX9": {
         "aliasOf": "BIDI"
     },
@@ -1855,14 +1728,6 @@
         "publisher": "Unicode Consortium",
         "date": "27 March 2002"
     },
-    "UNICODE6": {
-        "source": "http://dev.w3.org/csswg/biblio.ref",
-        "authors": [
-            "The Unicode Consortium"
-        ],
-        "title": "The Unicode Standard, Version 6.2.0",
-        "href": "http://www.unicode.org/versions/Unicode6.2.0/"
-    },
     "URI": {
         "aliasOf": "rfc3986"
     },
@@ -1881,15 +1746,6 @@
     "UTF-8": {
         "aliasOf": "rfc3629"
     },
-    "UTN22": {
-        "source": "http://dev.w3.org/csswg/biblio.ref",
-        "authors": [
-            "Elika J. Etemad"
-        ],
-        "title": "Robust Vertical Text Layout",
-        "rawDate": "2005-04-25",
-        "href": "http://unicode.org/notes/tn22/"
-    },
     "UTR24": {
         "authors": [
             "Mark Davis"
@@ -1899,15 +1755,6 @@
         "date": "27 September 2001",
         "status": "Unicode Technical Report #24",
         "publisher": "Unicode Consortium"
-    },
-    "UTR50": {
-        "source": "http://dev.w3.org/csswg/biblio.ref",
-        "title": "Unicode Properties for Vertical Text Layout",
-        "authors": [
-            "Koji Ishii"
-        ],
-        "rawDate": "2013-08-31",
-        "href": "http://www.unicode.org/reports/tr50/"
     },
     "UTS10": {
         "authors": [
@@ -2041,15 +1888,6 @@
         ],
         "title": "Test Suite for Packaging and XML Configuration",
         "href": "http://dev.w3.org/2006/waf/widgets/test-suite/"
-    },
-    "WINDOWS-GLYPH-PROC": {
-        "source": "http://dev.w3.org/csswg/biblio.ref",
-        "title": "Windows Glyph Processing",
-        "authors": [
-            "John Hudson"
-        ],
-        "publisher": "Microsoft Typogrraphy",
-        "href": "http://www.microsoft.com/typography/developers/opentype/default.htm"
     },
     "WebM": {
         "href": "http://www.webmproject.org/code/specs/container/",

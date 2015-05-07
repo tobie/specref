@@ -1,23 +1,23 @@
 #!/usr/bin/env node
 var request = require('request'),
+    bibref = require('../lib/bibref'),
     runner = require('./run');
+    
+var FILENAME = "csswg.json";
+var current = runner.readBiblio(FILENAME);
+var biblio = runner.readBiblio();
 
-var current = runner.readBiblio();
+var refs = bibref.expandRefs(bibref.raw);
+
 var CURRENT = {}
-Object.keys(current).forEach(function(id) {
+
+Object.keys(refs).forEach(function(id) {
     CURRENT[id.toUpperCase()] = id;
-    if (current[id].versions) {
-        Object.keys(current[id].versions).forEach(function(vid) {
-            var k = id + "-" + vid;
-            CURRENT[k.toUpperCase()] = id;
-            CURRENT[k] = id;
-        });
-    }
 });
 
 var urls = {};
 
-Object.keys(current).forEach(function(id) {
+Object.keys(refs).forEach(function(id) {
     var obj = current[id];
     if (typeof obj != "object") return;
     var href = obj.href;
@@ -57,26 +57,26 @@ request(REF_URL, function(err, response, body) {
     parse(body).forEach(function(o) {
         var id = CURRENT[o.id] || o.id;
         if (!id || REJECT[id]) return;
-        if (current[id]) {
-            if (current[id].source == REF_URL) {
+        if (refs[id]) {
+            if (refs[id].source == REF_URL) {
                 current[id] = o;
-                delete o.id;
+                delete biblio[id];
             }
-            return;
-        };
-        if (o.href && urls[o.href]) {
+        } else if (o.href && urls[o.href]) {
             var id = urls[o.href];
             current[o.id] = {
                 aliasOf: id
             };
-            return
+            delete biblio[id];
+        } else {
+            current[o.id] = o;
         }
-        current[o.id] = o;
         delete o.id;
-    })
+    });
     current = runner.sortRefs(current);
     console.log("updating existing refs.")
-    runner.writeBiblio(current);
+    runner.writeBiblio(FILENAME, current);
+    runner.writeBiblio(biblio);
 });
 
 var MONTHS = [
