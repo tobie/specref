@@ -19,8 +19,8 @@ request(SOURCE, function(err, response, body) {
     
     console.log("Parsing", SOURCE + "...");
     var json = JSON.parse(body);
-    Object.keys(json).forEach(function(k) {
-        var ref = json[k];
+    Object.keys(json).forEach(function(id) {
+        var ref = json[id];
         ref = {
             authors: ref.authors,
             href: ref.href,
@@ -30,26 +30,28 @@ request(SOURCE, function(err, response, body) {
             status: "Living Standard",
             source: SOURCE
         };
-        var ucK = k.toUpperCase()
-        if (!(ucK in refs)) {
-            current[k] = ref;
-            current["WHATWG-" + k] = { aliasOf: k };
+        var uppercaseId = id.toUpperCase();
+        var prefixedId = "WHATWG-" + id;
+        if (!(uppercaseId in refs)) {
+            current[id] = ref;
+            current[prefixedId] = { aliasOf: id };
         } else {
-            var existingRef  = refs[ucK];
+            var existingRef = refs[uppercaseId];
             while (existingRef.aliasOf) { existingRef = refs[existingRef.aliasOf]; }
             if (existingRef.source == SOURCE ||
-                    bibref.normalizeUrl(ref.href) ==  bibref.normalizeUrl(existingRef.href)) {
-                current[k] = ref;
-                current["WHATWG-" + k] = { aliasOf: k };
+                    bibref.normalizeUrl(ref.href) == bibref.normalizeUrl(existingRef.href)) {
+                current[id] = ref;
+                current[prefixedId] = { aliasOf: id };
             } else {
-                current["WHATWG-" + k] = ref;
+                current[prefixedId] = ref;
             }
         }
         var rv = bibref.reverseLookup([ref.href])[ref.href];
-        if (rv && rv.id.toUpperCase() != ucK &&
+        if (rv && rv.id.toUpperCase() != uppercaseId &&
+                rv.id.toUpperCase() != prefixedId.toUpperCase() &&
                 // avoid inadvertently catching drafts.
                 bibref.normalizeUrl(rv.href) == bibref.normalizeUrl(ref.href)) {
-            current[rv.id] = { aliasOf: "WHATWG-" + k };
+            current[rv.id] = { aliasOf: prefixedId };
             delete biblio[rv.id];
         }
     });
