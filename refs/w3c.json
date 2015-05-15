@@ -8,7 +8,7 @@
         ],
         "href": "http://www.w3.org/TR/2dcontext/",
         "title": "HTML Canvas 2D Context",
-        "status": "CR",
+        "status": "LCWD",
         "publisher": "W3C",
         "versions": {
             "20100304": {
@@ -128,12 +128,29 @@
                     "http://www.w3.org/html/wg/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150514": {
+                "authors": [
+                    "Rik Cabanier",
+                    "Jatinder Mann",
+                    "Jay Munro",
+                    "Tom Wiltzius"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-2dcontext-20150514/",
+                "title": "HTML Canvas 2D Context",
+                "rawDate": "2015-05-14",
+                "status": "LCWD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/html/wg/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
         "deliveredBy": [
             "http://www.w3.org/html/wg/"
         ],
-        "rawDate": "2014-08-21",
+        "rawDate": "2015-05-14",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
         "edDraft": "http://www.w3.org/html/wg/drafts/2dcontext/html5_canvas_CR/"
     },
@@ -5788,7 +5805,7 @@
         ],
         "href": "http://www.w3.org/TR/SRI/",
         "title": "Subresource Integrity",
-        "rawDate": "2015-04-09",
+        "rawDate": "2015-05-05",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -5820,6 +5837,20 @@
                 "href": "http://www.w3.org/TR/2015/WD-SRI-20150409/",
                 "title": "Subresource Integrity",
                 "rawDate": "2015-04-09",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2011/webappsec/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150505": {
+                "authors": [
+                    "Frederik Braun"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-SRI-20150505/",
+                "title": "Subresource Integrity",
+                "rawDate": "2015-05-05",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -10427,7 +10458,7 @@
         ],
         "href": "http://www.w3.org/TR/appmanifest/",
         "title": "Manifest for a web application",
-        "rawDate": "2015-04-29",
+        "rawDate": "2015-05-13",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -10586,6 +10617,23 @@
                     "http://www.w3.org/2008/webapps/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150513": {
+                "authors": [
+                    "Marcos Caceres",
+                    "Kenneth Christiansen",
+                    "Mounir Lamouri",
+                    "Anssi Kostiainen"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-appmanifest-20150513/",
+                "title": "Manifest for a web application",
+                "rawDate": "2015-05-13",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2008/webapps/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
         "edDraft": "https://w3c.github.io/manifest/"
@@ -10629,8 +10677,8 @@
             "David MacDonald"
         ],
         "href": "http://www.w3.org/TR/aria-in-html/",
-        "title": "Using WAI-ARIA in HTML",
-        "rawDate": "2014-06-26",
+        "title": "Notes on Using ARIA in HTML",
+        "rawDate": "2015-05-14",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -10678,6 +10726,22 @@
                 "href": "http://www.w3.org/TR/2014/WD-aria-in-html-20140626/",
                 "title": "Using WAI-ARIA in HTML",
                 "rawDate": "2014-06-26",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/html/wg/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150514": {
+                "authors": [
+                    "Steve Faulkner",
+                    "Hans Hillen",
+                    "David MacDonald"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-aria-in-html-20150514/",
+                "title": "Notes on Using ARIA in HTML",
+                "rawDate": "2015-05-14",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -12001,7 +12065,7 @@
         ],
         "href": "http://www.w3.org/TR/core-aam-1.1/",
         "title": "Core Accessibility API Mappings 1.1",
-        "rawDate": "2014-12-11",
+        "rawDate": "2015-05-14",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -12036,6 +12100,23 @@
                 "href": "http://www.w3.org/TR/2014/WD-core-aam-1.1-20141211/",
                 "title": "Core Accessibility API Mappings 1.1",
                 "rawDate": "2014-12-11",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/WAI/PF/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150514": {
+                "authors": [
+                    "Joseph Scheuhammer",
+                    "Michael Cooper",
+                    "Andi Snow-Weaver",
+                    "Aaron Leventhal"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-core-aam-1.1-20150514/",
+                "title": "Core Accessibility API Mappings 1.1",
+                "rawDate": "2015-05-14",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -12807,7 +12888,7 @@
         ],
         "href": "http://www.w3.org/TR/css-flexbox-1/",
         "title": "CSS Flexible Box Layout Module Level 1",
-        "rawDate": "2014-09-25",
+        "rawDate": "2015-05-14",
         "status": "LCWD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -12886,6 +12967,22 @@
                 "href": "http://www.w3.org/TR/2014/WD-css-flexbox-1-20140925/",
                 "title": "CSS Flexible Box Layout Module Level 1",
                 "rawDate": "2014-09-25",
+                "status": "LCWD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Style/CSS/members"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150514": {
+                "authors": [
+                    "Tab Atkins Jr.",
+                    "Elika Etemad",
+                    "Rossen Atanassov"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-css-flexbox-1-20150514/",
+                "title": "CSS Flexible Box Layout Module Level 1",
+                "rawDate": "2015-05-14",
                 "status": "LCWD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -20666,6 +20763,40 @@
             }
         }
     },
+    "hcls-dataset": {
+        "authors": [
+            "Alasdair Gray",
+            "M. Scott Marshall",
+            "Michel Dumontier"
+        ],
+        "href": "http://www.w3.org/TR/hcls-dataset/",
+        "title": "Dataset Descriptions: HCLS Community Profile",
+        "rawDate": "2015-05-14",
+        "status": "NOTE",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "http://www.w3.org/2001/sw/hcls/"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20150514": {
+                "authors": [
+                    "Alasdair Gray",
+                    "M. Scott Marshall",
+                    "Michel Dumontier"
+                ],
+                "href": "http://www.w3.org/TR/2015/NOTE-hcls-dataset-20150514/",
+                "title": "Dataset Descriptions: HCLS Community Profile",
+                "rawDate": "2015-05-14",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2001/sw/hcls/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
     "hcls-kb": {
         "authors": [
             "M. Scott Marshall",
@@ -21233,7 +21364,7 @@
         ],
         "href": "http://www.w3.org/TR/html-aria/",
         "title": "ARIA in HTML",
-        "rawDate": "2015-04-14",
+        "rawDate": "2015-05-14",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -21254,8 +21385,23 @@
                     "http://www.w3.org/html/wg/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150514": {
+                "authors": [
+                    "Steve Faulkner"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-html-aria-20150514/",
+                "title": "ARIA in HTML",
+                "rawDate": "2015-05-14",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/html/wg/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "edDraft": "https://specs.webplatform.org/html-aria/webspecs/master/"
     },
     "html-bidi": {
         "authors": [
@@ -22930,7 +23076,7 @@
         ],
         "href": "http://www.w3.org/TR/html51/",
         "title": "HTML 5.1",
-        "rawDate": "2015-04-17",
+        "rawDate": "2015-05-06",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -23096,6 +23242,30 @@
                 "href": "http://www.w3.org/TR/2015/WD-html51-20150417/",
                 "title": "HTML 5.1",
                 "rawDate": "2015-04-17",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/html/wg/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150506": {
+                "authors": [
+                    "Ian Hickson",
+                    "Robin Berjon",
+                    "Steve Faulkner",
+                    "Travis Leithead",
+                    "Erika Doyle Navara",
+                    "Edward O'Connor",
+                    "Tab Atkins Jr.",
+                    "Simon Pieters",
+                    "Yoav Weiss",
+                    "Marcos Caceres",
+                    "Mathew Marquis"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-html51-20150506/",
+                "title": "HTML 5.1",
+                "rawDate": "2015-05-06",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -35093,7 +35263,7 @@
         ],
         "href": "http://www.w3.org/TR/resource-timing/",
         "title": "Resource Timing",
-        "rawDate": "2015-04-22",
+        "rawDate": "2015-05-06",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -35190,6 +35360,23 @@
                 "href": "http://www.w3.org/TR/2015/WD-resource-timing-20150422/",
                 "title": "Resource Timing",
                 "rawDate": "2015-04-22",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2010/webperf/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150506": {
+                "authors": [
+                    "Arvind Jain",
+                    "Jatinder Mann",
+                    "Zhiheng Wang",
+                    "Anderson Quach"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-resource-timing-20150506/",
+                "title": "Resource Timing",
+                "rawDate": "2015-05-06",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -44266,13 +44453,14 @@
     },
     "wai-aria-1.1": {
         "authors": [
+            "Joanmarie Diggs",
             "James Craig",
-            "Michael Cooper",
-            "Shane McCarron"
+            "Shane McCarron",
+            "Michael Cooper"
         ],
         "href": "http://www.w3.org/TR/wai-aria-1.1/",
         "title": "Accessible Rich Internet Applications (WAI-ARIA) 1.1",
-        "rawDate": "2014-12-11",
+        "rawDate": "2015-05-14",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -44320,6 +44508,23 @@
                 "href": "http://www.w3.org/TR/2014/WD-wai-aria-1.1-20141211/",
                 "title": "Accessible Rich Internet Applications (WAI-ARIA) 1.1",
                 "rawDate": "2014-12-11",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/WAI/PF/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150514": {
+                "authors": [
+                    "Joanmarie Diggs",
+                    "James Craig",
+                    "Shane McCarron",
+                    "Michael Cooper"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-wai-aria-1.1-20150514/",
+                "title": "Accessible Rich Internet Applications (WAI-ARIA) 1.1",
+                "rawDate": "2015-05-14",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -44501,6 +44706,47 @@
         },
         "rawDate": "2013-03-07",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+    },
+    "wai-aria-practices-1.1": {
+        "authors": [
+            "Matthew King",
+            "James Nurthen",
+            "Michael Cooper",
+            "Joseph Scheuhammer",
+            "Lisa Pappas",
+            "Richard Schwerdtfeger"
+        ],
+        "href": "http://www.w3.org/TR/wai-aria-practices-1.1/",
+        "title": "WAI-ARIA Authoring Practices 1.1",
+        "rawDate": "2015-05-14",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/aria/practices/aria-practices.html",
+        "deliveredBy": [
+            "http://www.w3.org/WAI/PF/"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20150514": {
+                "authors": [
+                    "Matthew King",
+                    "James Nurthen",
+                    "Michael Cooper",
+                    "Joseph Scheuhammer",
+                    "Lisa Pappas",
+                    "Richard Schwerdtfeger"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-wai-aria-practices-1.1-20150514/",
+                "title": "WAI-ARIA Authoring Practices 1.1",
+                "rawDate": "2015-05-14",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/WAI/PF/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
     },
     "wai-aria-primer": {
         "authors": [
