@@ -10458,7 +10458,7 @@
         ],
         "href": "http://www.w3.org/TR/appmanifest/",
         "title": "Manifest for a web application",
-        "rawDate": "2015-05-13",
+        "rawDate": "2015-05-19",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -10634,6 +10634,23 @@
                     "http://www.w3.org/2008/webapps/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150519": {
+                "authors": [
+                    "Marcos Caceres",
+                    "Kenneth Christiansen",
+                    "Mounir Lamouri",
+                    "Anssi Kostiainen"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-appmanifest-20150519/",
+                "title": "Manifest for a web application",
+                "rawDate": "2015-05-19",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2008/webapps/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
         "edDraft": "https://w3c.github.io/manifest/"
@@ -10678,7 +10695,7 @@
         ],
         "href": "http://www.w3.org/TR/aria-in-html/",
         "title": "Notes on Using ARIA in HTML",
-        "rawDate": "2015-05-14",
+        "rawDate": "2015-05-21",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -10742,6 +10759,22 @@
                 "href": "http://www.w3.org/TR/2015/WD-aria-in-html-20150514/",
                 "title": "Notes on Using ARIA in HTML",
                 "rawDate": "2015-05-14",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/html/wg/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150521": {
+                "authors": [
+                    "Steve Faulkner",
+                    "Hans Hillen",
+                    "David MacDonald"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-aria-in-html-20150521/",
+                "title": "Notes on Using ARIA in HTML",
+                "rawDate": "2015-05-21",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -16594,11 +16627,12 @@
     },
     "css3-ui": {
         "authors": [
-            "Tantek Çelik"
+            "Tantek Çelik",
+            "Florian Rivoal"
         ],
         "href": "http://www.w3.org/TR/css3-ui/",
         "title": "CSS Basic User Interface Module Level 3 (CSS3 UI)",
-        "rawDate": "2015-04-09",
+        "rawDate": "2015-05-19",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -16673,6 +16707,21 @@
                 "href": "http://www.w3.org/TR/2015/WD-css3-ui-20150409/",
                 "title": "CSS Basic User Interface Module Level 3 (CSS3 UI)",
                 "rawDate": "2015-04-09",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Style/CSS/members"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150519": {
+                "authors": [
+                    "Tantek Çelik",
+                    "Florian Rivoal"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-css3-ui-20150519/",
+                "title": "CSS Basic User Interface Module Level 3 (CSS3 UI)",
+                "rawDate": "2015-05-19",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -19407,8 +19456,8 @@
         ],
         "href": "http://www.w3.org/TR/exi-c14n/",
         "title": "Canonical EXI",
-        "rawDate": "2014-10-23",
-        "status": "WD",
+        "rawDate": "2015-05-21",
+        "status": "LCWD",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/XML/EXI/"
@@ -19439,6 +19488,21 @@
                 "title": "Canonical EXI",
                 "rawDate": "2014-10-23",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/XML/EXI/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150521": {
+                "authors": [
+                    "Sebastian Käbisch",
+                    "Daniel Peintner"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-exi-c14n-20150521/",
+                "title": "Canonical EXI",
+                "rawDate": "2015-05-21",
+                "status": "LCWD",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/XML/EXI/"
@@ -21279,12 +21343,14 @@
     },
     "html-alt-techniques": {
         "authors": [
+            "Shane McCarron",
+            "Liam Quin",
             "Steve Faulkner"
         ],
         "href": "http://www.w3.org/TR/html-alt-techniques/",
         "title": "HTML5: Techniques for providing useful text alternatives",
-        "rawDate": "2014-10-23",
-        "status": "WD",
+        "rawDate": "2015-05-21",
+        "status": "NOTE",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/html/wg/"
@@ -21349,6 +21415,22 @@
                 "title": "HTML5: Techniques for providing useful text alternatives",
                 "rawDate": "2014-10-23",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/html/wg/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150521": {
+                "authors": [
+                    "Shane McCarron",
+                    "Liam Quin",
+                    "Steve Faulkner"
+                ],
+                "href": "http://www.w3.org/TR/2015/NOTE-html-alt-techniques-20150521/",
+                "title": "HTML5: Techniques for providing useful text alternatives",
+                "rawDate": "2015-05-21",
+                "status": "NOTE",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/html/wg/"
@@ -28482,8 +28564,8 @@
         ],
         "href": "http://www.w3.org/TR/notifications/",
         "title": "Web Notifications",
-        "rawDate": "2013-09-12",
-        "status": "LCWD",
+        "rawDate": "2015-05-19",
+        "status": "CR",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2010/web-notifications/"
@@ -28520,6 +28602,21 @@
                 "title": "Web Notifications",
                 "rawDate": "2013-09-12",
                 "status": "LCWD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2010/web-notifications/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150519": {
+                "authors": [
+                    "John Gregg",
+                    "Anne van Kesteren"
+                ],
+                "href": "http://www.w3.org/TR/2015/CR-notifications-20150519/",
+                "title": "Web Notifications",
+                "rawDate": "2015-05-19",
+                "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/2010/web-notifications/"
@@ -42133,7 +42230,7 @@
         ],
         "href": "http://www.w3.org/TR/ttml-imsc1/",
         "title": "TTML Text and Image Profiles for Internet Media Subtitles and Captions 1.0",
-        "rawDate": "2014-12-09",
+        "rawDate": "2015-05-19",
         "status": "CR",
         "publisher": "W3C",
         "deliveredBy": [
@@ -42176,6 +42273,20 @@
                 "href": "http://www.w3.org/TR/2014/CR-ttml-imsc1-20141209/",
                 "title": "TTML Text and Image Profiles for Internet Media Subtitles and Captions 1.0",
                 "rawDate": "2014-12-09",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/AudioVideo/TT/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150519": {
+                "authors": [
+                    "Pierre-Anthony Lemieux"
+                ],
+                "href": "http://www.w3.org/TR/2015/CR-ttml-imsc1-20150519/",
+                "title": "TTML Text and Image Profiles for Internet Media Subtitles and Captions 1.0",
+                "rawDate": "2015-05-19",
                 "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -45844,7 +45955,7 @@
         ],
         "href": "http://www.w3.org/TR/webmessaging/",
         "title": "HTML5 Web Messaging",
-        "status": "PR",
+        "status": "REC",
         "publisher": "W3C",
         "versions": {
             "20101118": {
@@ -45898,14 +46009,30 @@
                     "http://www.w3.org/2008/webapps/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150519": {
+                "authors": [
+                    "Ian Hickson"
+                ],
+                "href": "http://www.w3.org/TR/2015/REC-webmessaging-20150519/",
+                "title": "HTML5 Web Messaging",
+                "rawDate": "2015-05-19",
+                "status": "REC",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2008/webapps/"
+                ],
+                "hasErrata": "https://www.w3.org/2008/webapps/wiki/Errata/WebMessaging",
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
         "deliveredBy": [
             "http://www.w3.org/2008/webapps/"
         ],
-        "rawDate": "2015-04-07",
+        "rawDate": "2015-05-19",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
-        "edDraft": "http://dev.w3.org/html5/postmsg/"
+        "edDraft": "http://dev.w3.org/html5/postmsg/",
+        "hasErrata": "https://www.w3.org/2008/webapps/wiki/Errata/WebMessaging"
     },
     "webmidi": {
         "authors": [
