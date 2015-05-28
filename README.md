@@ -142,6 +142,58 @@ The API to the service is very simple. It supports four operations which are:
 
     returns: a JSON object indexed by IDs
 
+### Aliases
+
+Because of legacy references, case sensivity issues and taste, many entries have multiple identifiers. Thus an aliasing system was put in place. It isn't _that_ complicated really: an identifier either points directly to the reference object or to another identifier (through the `aliasOf` property), recursively. All aliases are resolved (there are tests for that) and when you query the API for a reference you always get all the objects necessary to resolve it in the same response. So for example, https://specref.herokuapp.com/bibrefs?refs=rfc7230 responds with:
+
+```json
+{
+    "rfc7230": {
+        "authors": [
+            "R. Fielding, Ed.",
+            "J. Reschke, Ed."
+        ],
+        "date": "June 2014",
+        "href": "https://tools.ietf.org/html/rfc7230",
+        "id": "rfc7230",
+        "publisher": "IETF",
+        "status": "Proposed Standard",
+        "title": "Hypertext Transfer Protocol (HTTP/1.1): Message Syntax and Routing"
+    }
+}
+```
+
+while https://specref.herokuapp.com/bibrefs?refs=HTTP11 gives you:
+
+```json
+{
+    "HTTP11": {
+        "aliasOf": "RFC7230",
+        "id": "HTTP11"
+    },
+    "RFC7230": {
+        "aliasOf": "rfc7230",
+        "id": "RFC7230"
+    },
+    "rfc7230": {
+        "authors": [
+            "R. Fielding, Ed.",
+            "J. Reschke, Ed."
+        ],
+        "date": "June 2014",
+        "href": "https://tools.ietf.org/html/rfc7230",
+        "id": "rfc7230",
+        "publisher": "IETF",
+        "status": "Proposed Standard",
+        "title": "Hypertext Transfer Protocol (HTTP/1.1): Message Syntax and Routing"
+    }
+}
+```
+
+Which let's you get to the data by using a simple `while` loop over the response. The contract guaranteed by the API is to always let you resolve aliases.
+
+Now whether you decide to display the result as `[HTTP1]`, `[rfc7230]`, `[RFC7230]`, or even `[1]` is up to you. Of course, it's silly to reference both `[HTTP1]` and `[rfc7230]` in the same specification, but that's something for the editors and/or their tools to avoid.
+
 ## CORS
 
 **CORS is enabled for all origins.** By default the service returns JSON data, which is great but not convenient for browsers that do not support CORS yet. For those, simply adding the `callback` parameter with the name of the callback function you want will switch the response to JSON-P.
