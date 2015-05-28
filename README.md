@@ -194,11 +194,11 @@ Which let's you get to the data by using a simple `while` loop over the response
 
 Now whether you decide to display the result as `[HTTP1]`, `[rfc7230]`, `[RFC7230]`, or even `[1]` is up to you. Of course, it's silly to reference both `[HTTP1]` and `[rfc7230]` in the same specification, but that's something for the editors and/or their tools to avoid.
 
-## CORS
+### CORS
 
 **CORS is enabled for all origins.** By default the service returns JSON data, which is great but not convenient for browsers that do not support CORS yet. For those, simply adding the `callback` parameter with the name of the callback function you want will switch the response to JSON-P.
 
-## Examples
+### Examples
 
 Some examples should help: 
 
@@ -214,7 +214,7 @@ Some examples should help:
     // the same as JSON-P
     GET https://specref.herokuapp.com/xrefs?refs=cssom,fileapi&callback=yourFunctionName
             
-If you need to find a reference ID (for either bibliographic or cross-references) you need to either lift it from an existing specification, or to find it in the source database. Where to get the latter is explained below. Please note that the identifiers for bibliographic references are not the same as for definition cross-references, and that just because a specification is featured in one does not mean it is also in the other. (Historically, those were two separate databases that were merged. Or, if you really insist on accuracy, the CSS bibref DB was converted into the ReSpec JS DB; the latter was extensively extended and edited, forked into the Specifiction database which was edited, then into the ReSpec v3 database which was also edited, then much of those were merged; in a parallel universe the Anolis bibliographical and cross-reference databases were developed; then all of these were merged into this service. So stop whining and delight in the consistency that you do have.) 
+If you need to find a reference ID (for either bibliographic or cross-references) you need to look for it on [specref.org](http://specref.org). Please note that the identifiers for bibliographic references are not the same as for definition cross-references, and that just because a specification is featured in one does not mean it is also in the other. (Historically, those were two separate databases that were merged. Or, if you really insist on accuracy, the CSS bibref DB was converted into the ReSpec JS DB; the latter was extensively extended and edited, forked into the Specifiction database which was edited, then into the ReSpec v3 database which was also edited, then much of those were merged; in a parallel universe the Anolis bibliographical and cross-reference databases were developed; then all of these were merged into this service. So stop whining and delight in the consistency that you do have.) 
 
 ## Updating & Adding
 
