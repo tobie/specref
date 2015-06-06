@@ -71788,7 +71788,8 @@
             "RFC5942",
             "RFC6980",
             "RFC7048",
-            "RFC7527"
+            "RFC7527",
+            "RFC7559"
         ],
         "obsoletes": [
             "RFC2461"
@@ -74351,7 +74352,8 @@
         "updatedBy": [
             "RFC6720",
             "RFC6790",
-            "RFC7358"
+            "RFC7358",
+            "RFC7552"
         ],
         "obsoletes": [
             "RFC3036"
@@ -90398,7 +90400,8 @@
         "rawDate": "2011-04",
         "status": "Experimental",
         "updatedBy": [
-            "RFC7298"
+            "RFC7298",
+            "RFC7557"
         ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=6126",
         "publisher": "IETF",
@@ -92716,6 +92719,7 @@
         ],
         "rawDate": "2011-06",
         "status": "Informational",
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=6281",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -99118,6 +99122,9 @@
         ],
         "rawDate": "2012-08",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC7552"
+        ],
         "updates": [
             "RFC5036"
         ],
@@ -103710,6 +103717,7 @@
         ],
         "rawDate": "2013-10",
         "status": "Proposed Standard",
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=7030",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -107721,6 +107729,7 @@
         "obsoletes": [
             "RFC5996"
         ],
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=7296",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -108681,6 +108690,7 @@
         ],
         "rawDate": "2014-09",
         "status": "Proposed Standard",
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=7361",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -110887,6 +110897,21 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc7513": {
+        "rfcNumber": "RFC7513",
+        "href": "https://tools.ietf.org/html/rfc7513",
+        "title": "Source Address Validation Improvement (SAVI) Solution for DHCP",
+        "authors": [
+            "J. Bi",
+            "J. Wu",
+            "G. Yao",
+            "F. Baker"
+        ],
+        "rawDate": "2015-05",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc7514": {
         "rfcNumber": "RFC7514",
         "href": "https://tools.ietf.org/html/rfc7514",
@@ -111438,6 +111463,39 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc7552": {
+        "rfcNumber": "RFC7552",
+        "href": "https://tools.ietf.org/html/rfc7552",
+        "title": "Updates to LDP for IPv6",
+        "authors": [
+            "R. Asati",
+            "C. Pignataro",
+            "K. Raza",
+            "V. Manral",
+            "R. Papneja"
+        ],
+        "rawDate": "2015-06",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC5036",
+            "RFC6720"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7553": {
+        "rfcNumber": "RFC7553",
+        "href": "https://tools.ietf.org/html/rfc7553",
+        "title": "The Uniform Resource Identifier (URI) DNS Resource Record",
+        "authors": [
+            "P. Faltstrom",
+            "O. Kolkman"
+        ],
+        "rawDate": "2015-06",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc7554": {
         "rfcNumber": "RFC7554",
         "href": "https://tools.ietf.org/html/rfc7554",
@@ -111449,6 +111507,50 @@
         ],
         "rawDate": "2015-05",
         "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7556": {
+        "rfcNumber": "RFC7556",
+        "href": "https://tools.ietf.org/html/rfc7556",
+        "title": "Multiple Provisioning Domain Architecture",
+        "authors": [
+            "D. Anipko, Ed."
+        ],
+        "rawDate": "2015-06",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7557": {
+        "rfcNumber": "RFC7557",
+        "href": "https://tools.ietf.org/html/rfc7557",
+        "title": "Extension Mechanism for the Babel Routing Protocol",
+        "authors": [
+            "J. Chroboczek"
+        ],
+        "rawDate": "2015-05",
+        "status": "Experimental",
+        "updates": [
+            "RFC6126"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7559": {
+        "rfcNumber": "RFC7559",
+        "href": "https://tools.ietf.org/html/rfc7559",
+        "title": "Packet-Loss Resiliency for Router Solicitations",
+        "authors": [
+            "S. Krishnan",
+            "D. Anipko",
+            "D. Thaler"
+        ],
+        "rawDate": "2015-05",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC4861"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },

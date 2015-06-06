@@ -607,9 +607,25 @@
                     "http://www.w3.org/WAI/AU/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150604": {
+                "authors": [
+                    "Jan Richards",
+                    "Jeanne F Spellman",
+                    "Jutta Treviranus"
+                ],
+                "href": "http://www.w3.org/TR/2015/CR-ATAG20-20150604/",
+                "title": "Authoring Tool Accessibility Guidelines (ATAG) 2.0",
+                "rawDate": "2015-06-04",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/WAI/AU/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2013-11-07",
+        "rawDate": "2015-06-04",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
         "edDraft": "http://www.w3.org/WAI/AU/ATAG20/"
     },
@@ -3867,7 +3883,7 @@
         ],
         "href": "http://www.w3.org/TR/IMPLEMENTING-ATAG20/",
         "title": "Implementing ATAG 2.0",
-        "rawDate": "2013-11-07",
+        "rawDate": "2015-06-04",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -3970,6 +3986,22 @@
                 "href": "http://www.w3.org/TR/2013/WD-IMPLEMENTING-ATAG20-20131107/",
                 "title": "Implementing ATAG 2.0",
                 "rawDate": "2013-11-07",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/WAI/AU/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150604": {
+                "authors": [
+                    "Jan Richards",
+                    "Jeanne F Spellman",
+                    "Jutta Treviranus"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-IMPLEMENTING-ATAG20-20150604/",
+                "title": "Implementing ATAG 2.0",
+                "rawDate": "2015-06-04",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -10458,7 +10490,7 @@
         ],
         "href": "http://www.w3.org/TR/appmanifest/",
         "title": "Manifest for a web application",
-        "rawDate": "2015-05-19",
+        "rawDate": "2015-06-05",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -10645,6 +10677,23 @@
                 "href": "http://www.w3.org/TR/2015/WD-appmanifest-20150519/",
                 "title": "Manifest for a web application",
                 "rawDate": "2015-05-19",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2008/webapps/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150605": {
+                "authors": [
+                    "Marcos Caceres",
+                    "Kenneth Christiansen",
+                    "Mounir Lamouri",
+                    "Anssi Kostiainen"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-appmanifest-20150605/",
+                "title": "Manifest for a web application",
+                "rawDate": "2015-06-05",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -12011,8 +12060,8 @@
         ],
         "href": "http://www.w3.org/TR/contacts-manager-api/",
         "title": "Contacts Manager API",
-        "rawDate": "2013-03-07",
-        "status": "WD",
+        "rawDate": "2015-06-02",
+        "status": "NOTE",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2012/sysapps/"
@@ -12034,8 +12083,25 @@
                     "http://www.w3.org/2012/sysapps/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150602": {
+                "authors": [
+                    "Eduardo Fullea",
+                    "Jose Manuel Cantera Fonseca",
+                    "Christophe Dumez"
+                ],
+                "href": "http://www.w3.org/TR/2015/NOTE-contacts-manager-api-20150602/",
+                "title": "Contacts Manager API",
+                "rawDate": "2015-06-02",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2012/sysapps/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "edDraft": "http://www.w3.org/2012/sysapps/contacts-manager-api/"
     },
     "cooluris": {
         "authors": [
@@ -20390,13 +20456,44 @@
         "rawDate": "1997-09-01",
         "title": "Generic Diff Format Specification"
     },
+    "geofencing": {
+        "authors": [
+            "Marijn Kruisselbrink"
+        ],
+        "href": "http://www.w3.org/TR/geofencing/",
+        "title": "Geofencing API",
+        "rawDate": "2015-06-04",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/geofencing-api/",
+        "deliveredBy": [
+            "http://www.w3.org/2008/geolocation/"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20150604": {
+                "authors": [
+                    "Marijn Kruisselbrink"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-geofencing-20150604/",
+                "title": "Geofencing API",
+                "rawDate": "2015-06-04",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2008/geolocation/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
     "geolocation-API": {
         "authors": [
             "Andrei Popescu"
         ],
         "href": "http://www.w3.org/TR/geolocation-API/",
         "title": "Geolocation API Specification",
-        "status": "REC",
+        "status": "PER",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2008/geolocation/"
@@ -20447,9 +20544,23 @@
                     "http://www.w3.org/2008/geolocation/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150528": {
+                "authors": [
+                    "Andrei Popescu"
+                ],
+                "href": "http://www.w3.org/TR/2015/PER-geolocation-API-20150528/",
+                "title": "Geolocation API Specification",
+                "rawDate": "2015-05-28",
+                "status": "PER",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2008/geolocation/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2013-10-24",
+        "rawDate": "2015-05-28",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
         "edDraft": "http://dev.w3.org/geo/api/spec-source.html"
     },
@@ -23740,7 +23851,7 @@
         ],
         "href": "http://www.w3.org/TR/ime-api/",
         "title": "Input Method Editor API",
-        "rawDate": "2015-04-22",
+        "rawDate": "2015-05-26",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -23827,6 +23938,23 @@
                 "href": "http://www.w3.org/TR/2015/WD-ime-api-20150422/",
                 "title": "Input Method Editor API",
                 "rawDate": "2015-04-22",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2008/webapps/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150526": {
+                "authors": [
+                    "Travis Leithead",
+                    "Takayoshi Kochi",
+                    "Kenji Baheux",
+                    "Hironori Bono"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-ime-api-20150526/",
+                "title": "Input Method Editor API",
+                "rawDate": "2015-05-26",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -26560,8 +26688,8 @@
         ],
         "href": "http://www.w3.org/TR/messaging/",
         "title": "Messaging API",
-        "rawDate": "2013-05-16",
-        "status": "WD",
+        "rawDate": "2015-06-02",
+        "status": "NOTE",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2012/sysapps/"
@@ -26583,8 +26711,25 @@
                     "http://www.w3.org/2012/sysapps/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150602": {
+                "authors": [
+                    "Eduardo Fullea",
+                    "Jose Manuel Cantera Fonseca",
+                    "Zoltan Kis"
+                ],
+                "href": "http://www.w3.org/TR/2015/NOTE-messaging-20150602/",
+                "title": "Messaging API",
+                "rawDate": "2015-06-02",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2012/sysapps/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "edDraft": "http://www.w3.org/2012/sysapps/messaging/"
     },
     "messaging-api": {
         "authors": [
@@ -28211,7 +28356,7 @@
         ],
         "href": "http://www.w3.org/TR/navigation-timing-2/",
         "title": "Navigation Timing 2",
-        "rawDate": "2015-04-22",
+        "rawDate": "2015-06-04",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -28275,6 +28420,22 @@
                 "href": "http://www.w3.org/TR/2015/WD-navigation-timing-2-20150422/",
                 "title": "Navigation Timing 2",
                 "rawDate": "2015-04-22",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2010/webperf/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150604": {
+                "authors": [
+                    "Tobin Titus",
+                    "Jatinder Mann",
+                    "Arvind Jain"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-navigation-timing-2-20150604/",
+                "title": "Navigation Timing 2",
+                "rawDate": "2015-06-04",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -35354,13 +35515,14 @@
     "resource-timing": {
         "authors": [
             "Arvind Jain",
+            "Todd Reifsteck",
             "Jatinder Mann",
             "Zhiheng Wang",
             "Anderson Quach"
         ],
         "href": "http://www.w3.org/TR/resource-timing/",
         "title": "Resource Timing",
-        "rawDate": "2015-05-06",
+        "rawDate": "2015-06-04",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -35474,6 +35636,24 @@
                 "href": "http://www.w3.org/TR/2015/WD-resource-timing-20150506/",
                 "title": "Resource Timing",
                 "rawDate": "2015-05-06",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2010/webperf/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150604": {
+                "authors": [
+                    "Arvind Jain",
+                    "Todd Reifsteck",
+                    "Jatinder Mann",
+                    "Zhiheng Wang",
+                    "Anderson Quach"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-resource-timing-20150604/",
+                "title": "Resource Timing",
+                "rawDate": "2015-06-04",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -41467,12 +41647,13 @@
             "Marcos Caceres",
             "Jose Manuel Cantera Fonseca",
             "Eduardo Fullea",
-            "Zoltan Kis"
+            "Zoltan Kis",
+            "John Lyle"
         ],
         "href": "http://www.w3.org/TR/telephony/",
         "title": "Web Telephony API",
-        "rawDate": "2013-06-20",
-        "status": "WD",
+        "rawDate": "2015-06-02",
+        "status": "NOTE",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2012/sysapps/"
@@ -41490,6 +41671,24 @@
                 "title": "Web Telephony API",
                 "rawDate": "2013-06-20",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2012/sysapps/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150602": {
+                "authors": [
+                    "Marcos Caceres",
+                    "Jose Manuel Cantera Fonseca",
+                    "Eduardo Fullea",
+                    "Zoltan Kis",
+                    "John Lyle"
+                ],
+                "href": "http://www.w3.org/TR/2015/NOTE-telephony-20150602/",
+                "title": "Web Telephony API",
+                "rawDate": "2015-06-02",
+                "status": "NOTE",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/2012/sysapps/"
@@ -51579,8 +51778,7 @@
     },
     "xhtml1": {
         "authors": [
-            "Murray Altheim",
-            "Shane McCarron"
+            "Steven Pemberton"
         ],
         "href": "http://www.w3.org/TR/xhtml1",
         "title": "XHTML™ 1.0 The Extensible HyperText Markup Language (Second Edition)",
