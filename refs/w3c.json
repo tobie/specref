@@ -19216,6 +19216,39 @@
         },
         "edDraft": "https://w3c.github.io/encrypted-media/"
     },
+    "epr": {
+        "authors": [
+            "David Ross",
+            "Mike West"
+        ],
+        "href": "http://www.w3.org/TR/epr/",
+        "title": "Entry Point Regulation",
+        "rawDate": "2015-06-09",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/webappsec/specs/epr/",
+        "deliveredBy": [
+            "http://www.w3.org/2011/webappsec/"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20150609": {
+                "authors": [
+                    "David Ross",
+                    "Mike West"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-epr-20150609/",
+                "title": "Entry Point Regulation",
+                "rawDate": "2015-06-09",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2011/webappsec/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
     "esi-invp": {
         "versions": {
             "20010804": {
@@ -28631,7 +28664,7 @@
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
-            "http://www.w3.org/2012/09/nfc-wg-charter.html"
+            "http://www.w3.org/2012/nfc/"
         ],
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
         "versions": {
@@ -28647,7 +28680,7 @@
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
-                    "http://www.w3.org/2012/09/nfc-wg-charter.html"
+                    "http://www.w3.org/2012/nfc/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
@@ -46588,8 +46621,8 @@
             "Ian Hickson"
         ],
         "href": "http://www.w3.org/TR/webstorage/",
-        "title": "Web Storage",
-        "status": "REC",
+        "title": "Web Storage (Second Edition)",
+        "status": "CR",
         "publisher": "W3C",
         "versions": {
             "20090423": {
@@ -46671,14 +46704,28 @@
                     "http://www.w3.org/2008/webapps/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150609": {
+                "authors": [
+                    "Ian Hickson"
+                ],
+                "href": "http://www.w3.org/TR/2015/CR-webstorage-20150609/",
+                "title": "Web Storage (Second Edition)",
+                "rawDate": "2015-06-09",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2008/webapps/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
         "deliveredBy": [
             "http://www.w3.org/2008/webapps/"
         ],
-        "rawDate": "2013-07-30",
+        "rawDate": "2015-06-09",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
-        "edDraft": "http://dev.w3.org/html5/webstorage/"
+        "edDraft": "https://w3c.github.io/webstorage/"
     },
     "webvtt1": {
         "authors": [
