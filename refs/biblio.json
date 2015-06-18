@@ -596,11 +596,7 @@
         "aliasOf": "RFC6090"
     },
     "ECMA-262": {
-        "title": "ECMA-262 6th Edition, The ECMAScript 2015 Language Specification",
-        "date": "June 2015",
-        "href": "http://www.ecma-international.org/ecma-262/6.0/index.html",
-        "status": "Standard",
-        "publisher": "ECMA"
+        "aliasOf": "ECMASCRIPT"
     },
     "ECMA-262-6.0": {
         "aliasOf": "ECMA-262"
@@ -611,7 +607,8 @@
     "ECMA-262-5.1": {
         "date": "June 2011",
         "href": "http://www.ecma-international.org/publications/standards/Ecma-262.htm",
-        "publisher": "ECMA",
+        "publisher": "Ecma International",
+        "status": "Standard",
         "title": "ECMAScript Language Specification, Edition 5.1"
     },
     "ECMA-262-51": {
@@ -620,7 +617,7 @@
     "ECMA-404": {
         "date": "1 October 2013",
         "href": "http://www.ecma-international.org/publications/files/ECMA-ST/ECMA-404.pdf",
-        "publisher": "ECMA",
+        "publisher": "Ecma International",
         "status": "Standard",
         "title": "The JSON Data Interchange Format"
     },
@@ -630,21 +627,21 @@
         ],
         "date": "1 December 2012",
         "href": "http://www.ecma-international.org/ecma-402/1.0/",
-        "publisher": "ECMA",
+        "publisher": "Ecma International",
         "status": "Standard ECMA-402",
         "title": "ECMAScript Internationalization API Specification"
     },
     "ECMASCRIPT": {
+        "title": "ECMA-262 6th Edition, The ECMAScript 2015 Language Specification",
+        "date": "June 2015",
+        "href": "http://www.ecma-international.org/ecma-262/6.0/index.html",
+        "status": "Standard",
+        "publisher": "Ecma International",
         "authors": [
             "Allen Wirfs-Brock"
         ],
-        "href": "https://people.mozilla.org/~jorendorff/es6-draft.html",
-        "title": "ECMAScript 2015 Language Specification",
-        "status": "Draft",
+        "edDraft": "https://people.mozilla.org/~jorendorff/es6-draft.html",
         "versions": {
-            "6.0": {
-                "aliasOf": "ECMA-262"
-            },
             "5.1": {
                 "aliasOf": "ECMA-262-5.1"
             }
