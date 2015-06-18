@@ -10490,7 +10490,7 @@
         ],
         "href": "http://www.w3.org/TR/appmanifest/",
         "title": "Manifest for a web application",
-        "rawDate": "2015-06-05",
+        "rawDate": "2015-06-17",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -10694,6 +10694,23 @@
                 "href": "http://www.w3.org/TR/2015/WD-appmanifest-20150605/",
                 "title": "Manifest for a web application",
                 "rawDate": "2015-06-05",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2008/webapps/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150617": {
+                "authors": [
+                    "Marcos Caceres",
+                    "Kenneth Christiansen",
+                    "Mounir Lamouri",
+                    "Anssi Kostiainen"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-appmanifest-20150617/",
+                "title": "Manifest for a web application",
+                "rawDate": "2015-06-17",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -12829,7 +12846,7 @@
         ],
         "href": "http://www.w3.org/TR/css-counter-styles-3/",
         "title": "CSS Counter Styles Level 3",
-        "rawDate": "2015-02-03",
+        "rawDate": "2015-06-11",
         "status": "CR",
         "publisher": "W3C",
         "deliveredBy": [
@@ -12892,6 +12909,20 @@
                 "href": "http://www.w3.org/TR/2015/CR-css-counter-styles-3-20150203/",
                 "title": "CSS Counter Styles Level 3",
                 "rawDate": "2015-02-03",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Style/CSS/members"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150611": {
+                "authors": [
+                    "Tab Atkins Jr."
+                ],
+                "href": "http://www.w3.org/TR/2015/CR-css-counter-styles-3-20150611/",
+                "title": "CSS Counter Styles Level 3",
+                "rawDate": "2015-06-11",
                 "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -14888,6 +14919,107 @@
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
         "isRetired": true
     },
+    "css-values": {
+        "authors": [
+            "Tab Atkins Jr.",
+            "Elika Etemad"
+        ],
+        "href": "http://www.w3.org/TR/css-values/",
+        "title": "CSS Values and Units Module Level 3",
+        "rawDate": "2015-06-11",
+        "status": "CR",
+        "publisher": "W3C",
+        "edDraft": "http://dev.w3.org/csswg/css-values/",
+        "deliveredBy": [
+            "http://www.w3.org/Style/CSS/members"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20010713": {
+                "status": "WD",
+                "rawDate": "2001-07-13",
+                "href": "http://www.w3.org/TR/2001/WD-css3-values-20010713/",
+                "source": "./data/w3c-specs.txt"
+            },
+            "20050726": {
+                "status": "WD",
+                "rawDate": "2005-07-26",
+                "href": "http://www.w3.org/TR/2005/WD-css3-values-20050726",
+                "source": "./data/w3c-specs.txt"
+            },
+            "20060919": {
+                "status": "WD",
+                "rawDate": "2006-09-19",
+                "href": "http://www.w3.org/TR/2006/WD-css3-values-20060919",
+                "source": "./data/w3c-specs.txt"
+            },
+            "20110906": {
+                "status": "WD",
+                "rawDate": "2011-09-06",
+                "href": "http://www.w3.org/TR/2011/WD-css3-values-20110906/",
+                "source": "./data/w3c-specs.txt"
+            },
+            "20120308": {
+                "status": "WD",
+                "rawDate": "2012-03-08",
+                "href": "http://www.w3.org/TR/2012/WD-css3-values-20120308/",
+                "source": "./data/w3c-specs.txt"
+            },
+            "20120828": {
+                "status": "CR",
+                "rawDate": "2012-08-28",
+                "href": "http://www.w3.org/TR/2012/CR-css3-values-20120828/",
+                "source": "./data/w3c-specs.txt"
+            },
+            "20130404": {
+                "authors": [
+                    "Håkon Wium Lie",
+                    "Tab Atkins Jr.",
+                    "Elika Etemad"
+                ],
+                "href": "http://www.w3.org/TR/2013/CR-css3-values-20130404/",
+                "title": "CSS Values and Units Module Level 3",
+                "rawDate": "2013-04-04",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Style/CSS/members"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20130730": {
+                "authors": [
+                    "Håkon Wium Lie",
+                    "Tab Atkins Jr.",
+                    "Elika Etemad"
+                ],
+                "href": "http://www.w3.org/TR/2013/CR-css3-values-20130730/",
+                "title": "CSS Values and Units Module Level 3",
+                "rawDate": "2013-07-30",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Style/CSS/members"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150611": {
+                "authors": [
+                    "Tab Atkins Jr.",
+                    "Elika Etemad"
+                ],
+                "href": "http://www.w3.org/TR/2015/CR-css-values-3-20150611/",
+                "title": "CSS Values and Units Module Level 3",
+                "rawDate": "2015-06-11",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Style/CSS/members"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
     "css-variables": {
         "aliasOf": "css-variables-1"
     },
@@ -16835,91 +16967,7 @@
         }
     },
     "css3-values": {
-        "authors": [
-            "Håkon Wium Lie",
-            "Tab Atkins Jr.",
-            "Elika Etemad"
-        ],
-        "href": "http://www.w3.org/TR/css3-values/",
-        "title": "CSS Values and Units Module Level 3",
-        "status": "CR",
-        "publisher": "W3C",
-        "deliveredBy": [
-            "http://www.w3.org/Style/CSS/members"
-        ],
-        "versions": {
-            "20010713": {
-                "status": "WD",
-                "rawDate": "2001-07-13",
-                "href": "http://www.w3.org/TR/2001/WD-css3-values-20010713/",
-                "source": "./data/w3c-specs.txt"
-            },
-            "20050726": {
-                "status": "WD",
-                "rawDate": "2005-07-26",
-                "href": "http://www.w3.org/TR/2005/WD-css3-values-20050726",
-                "source": "./data/w3c-specs.txt"
-            },
-            "20060919": {
-                "status": "WD",
-                "rawDate": "2006-09-19",
-                "href": "http://www.w3.org/TR/2006/WD-css3-values-20060919",
-                "source": "./data/w3c-specs.txt"
-            },
-            "20110906": {
-                "status": "WD",
-                "rawDate": "2011-09-06",
-                "href": "http://www.w3.org/TR/2011/WD-css3-values-20110906/",
-                "source": "./data/w3c-specs.txt"
-            },
-            "20120308": {
-                "status": "WD",
-                "rawDate": "2012-03-08",
-                "href": "http://www.w3.org/TR/2012/WD-css3-values-20120308/",
-                "source": "./data/w3c-specs.txt"
-            },
-            "20120828": {
-                "status": "CR",
-                "rawDate": "2012-08-28",
-                "href": "http://www.w3.org/TR/2012/CR-css3-values-20120828/",
-                "source": "./data/w3c-specs.txt"
-            },
-            "20130404": {
-                "authors": [
-                    "Håkon Wium Lie",
-                    "Tab Atkins Jr.",
-                    "Elika Etemad"
-                ],
-                "href": "http://www.w3.org/TR/2013/CR-css3-values-20130404/",
-                "title": "CSS Values and Units Module Level 3",
-                "rawDate": "2013-04-04",
-                "status": "CR",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "http://www.w3.org/Style/CSS/members"
-                ],
-                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
-            },
-            "20130730": {
-                "authors": [
-                    "Håkon Wium Lie",
-                    "Tab Atkins Jr.",
-                    "Elika Etemad"
-                ],
-                "href": "http://www.w3.org/TR/2013/CR-css3-values-20130730/",
-                "title": "CSS Values and Units Module Level 3",
-                "rawDate": "2013-07-30",
-                "status": "CR",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "http://www.w3.org/Style/CSS/members"
-                ],
-                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
-            }
-        },
-        "rawDate": "2013-07-30",
-        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
-        "edDraft": "http://dev.w3.org/csswg/css3-values/"
+        "aliasOf": "css-values"
     },
     "css3-writing-modes": {
         "aliasOf": "css-writing-modes-3"
@@ -21327,13 +21375,13 @@
     },
     "hr-time-2": {
         "authors": [
-            "Jatinder Mann",
-            "James Simonsen"
+            "James Simonsen",
+            "Jatinder Mann"
         ],
         "href": "http://www.w3.org/TR/hr-time-2/",
         "title": "High Resolution Time Level 2",
-        "rawDate": "2013-12-03",
-        "status": "LCWD",
+        "rawDate": "2015-06-17",
+        "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2010/webperf/"
@@ -21354,9 +21402,24 @@
                     "http://www.w3.org/2010/webperf/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150617": {
+                "authors": [
+                    "James Simonsen",
+                    "Jatinder Mann"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-hr-time-2-20150617/",
+                "title": "High Resolution Time Level 2",
+                "rawDate": "2015-06-17",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2010/webperf/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "http://dvcs.w3.org/hg/webperf/raw-file/tip/specs/HighResolutionTime2/Overview.html"
+        "edDraft": "https://w3c.github.io/hr-time/"
     },
     "html-aam-1.0": {
         "authors": [
@@ -27338,6 +27401,36 @@
             }
         }
     },
+    "mmi-mc-discovery": {
+        "authors": [
+            "B Helena RODRIGUEZ"
+        ],
+        "href": "http://www.w3.org/TR/mmi-mc-discovery/",
+        "title": "Discovery & Registration of Multimodal Modality Components: State Handling",
+        "rawDate": "2015-06-11",
+        "status": "WD",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "http://www.w3.org/2002/mmi/"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20150611": {
+                "authors": [
+                    "B Helena RODRIGUEZ"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-mmi-mc-discovery-20150611/",
+                "title": "Discovery & Registration of Multimodal Modality Components: State Handling",
+                "rawDate": "2015-06-11",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2002/mmi/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
     "mmi-mcbp": {
         "authors": [
             "Ingmar Kliche"
@@ -28660,8 +28753,8 @@
         ],
         "href": "http://www.w3.org/TR/nfc/",
         "title": "Web NFC API",
-        "rawDate": "2014-01-14",
-        "status": "WD",
+        "rawDate": "2015-06-16",
+        "status": "NOTE",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2012/nfc/"
@@ -28678,6 +28771,22 @@
                 "title": "Web NFC API",
                 "rawDate": "2014-01-14",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2012/nfc/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150616": {
+                "authors": [
+                    "Luc Yriarte",
+                    "Samuel Ortiz",
+                    "Don Coleman"
+                ],
+                "href": "http://www.w3.org/TR/2015/NOTE-nfc-20150616/",
+                "title": "Web NFC API",
+                "rawDate": "2015-06-16",
+                "status": "NOTE",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/2012/nfc/"
@@ -43453,6 +43562,88 @@
         "deliveredBy": [
             "http://www.w3.org/2001/sw/interest/"
         ]
+    },
+    "vehicle-data": {
+        "authors": [
+            "WonSuk Lee",
+            "Qing An",
+            "Adam Crofts",
+            "Kevin Gavigan",
+            "Justin(JongSeon) Park",
+            "Kevron Rees"
+        ],
+        "href": "http://www.w3.org/TR/vehicle-data/",
+        "title": "Vehicle Data",
+        "rawDate": "2015-06-16",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "http://rawgit.com/w3c/automotive/master/vehicle_data/data_spec.html",
+        "deliveredBy": [
+            "http://www.w3.org/auto/wg/"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20150616": {
+                "authors": [
+                    "WonSuk Lee",
+                    "Qing An",
+                    "Adam Crofts",
+                    "Kevin Gavigan",
+                    "Justin(JongSeon) Park",
+                    "Kevron Rees"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-vehicle-data-20150616/",
+                "title": "Vehicle Data",
+                "rawDate": "2015-06-16",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/auto/wg/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
+    "vehicle-information-api": {
+        "authors": [
+            "WonSuk Lee",
+            "Qing An",
+            "Adam Crofts",
+            "Kevin Gavigan",
+            "Justin(JongSeon) Park",
+            "Kevron Rees"
+        ],
+        "href": "http://www.w3.org/TR/vehicle-information-api/",
+        "title": "Vehicle Information Access API",
+        "rawDate": "2015-06-16",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "http://rawgit.com/w3c/automotive/master/vehicle_data/vehicle_spec.html",
+        "deliveredBy": [
+            "http://www.w3.org/auto/wg/"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20150616": {
+                "authors": [
+                    "WonSuk Lee",
+                    "Qing An",
+                    "Adam Crofts",
+                    "Kevin Gavigan",
+                    "Justin(JongSeon) Park",
+                    "Kevron Rees"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-vehicle-information-api-20150616/",
+                "title": "Vehicle Information Access API",
+                "rawDate": "2015-06-16",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/auto/wg/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
     },
     "vibration": {
         "authors": [
