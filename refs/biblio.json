@@ -596,16 +596,32 @@
         "aliasOf": "RFC6090"
     },
     "ECMA-262": {
+        "title": "ECMA-262 6th Edition, The ECMAScript 2015 Language Specification",
+        "date": "June 2015",
+        "href": "http://www.ecma-international.org/ecma-262/6.0/index.html",
+        "status": "Standard",
+        "publisher": "ECMA",
+        "deliveredBy": [
+            "http://www.ecma-international.org/"
+        ]
+    },
+    "ECMA-262-6.0": {
+        "aliasOf": "ECMA-262"
+    },
+    "ECMA-262-2015": {
+        "aliasOf": "ECMA-262"
+    },
+    "ECMA-262-5.1": {
         "date": "June 2011",
         "href": "http://www.ecma-international.org/publications/standards/Ecma-262.htm",
         "publisher": "ECMA",
-        "title": "ECMAScript Language Specification, Edition 5.1"
-    },
-    "ECMA-262-5.1": {
-        "aliasOf": "ECMA-262"
+        "title": "ECMAScript Language Specification, Edition 5.1",
+        "deliveredBy": [
+            "http://www.ecma-international.org/"
+        ]
     },
     "ECMA-262-51": {
-        "aliasOf": "ECMA-262"
+        "aliasOf": "ECMA-262-5.1"
     },
     "ECMA-404": {
         "date": "1 October 2013",
@@ -632,8 +648,11 @@
         "title": "ECMAScript 2015 Language Specification",
         "status": "Draft",
         "versions": {
-            "5.1": {
+            "6.0": {
                 "aliasOf": "ECMA-262"
+            },
+            "5.1": {
+                "aliasOf": "ECMA-262-5.1"
             }
         }
     },
