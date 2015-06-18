@@ -598,22 +598,6 @@
     "ECMA-262": {
         "aliasOf": "ECMASCRIPT"
     },
-    "ECMA-262-6.0": {
-        "aliasOf": "ECMA-262"
-    },
-    "ECMA-262-2015": {
-        "aliasOf": "ECMA-262"
-    },
-    "ECMA-262-5.1": {
-        "date": "June 2011",
-        "href": "http://www.ecma-international.org/publications/standards/Ecma-262.htm",
-        "publisher": "Ecma International",
-        "status": "Standard",
-        "title": "ECMAScript Language Specification, Edition 5.1"
-    },
-    "ECMA-262-51": {
-        "aliasOf": "ECMA-262-5.1"
-    },
     "ECMA-404": {
         "date": "1 October 2013",
         "href": "http://www.ecma-international.org/publications/files/ECMA-ST/ECMA-404.pdf",
@@ -633,8 +617,8 @@
     },
     "ECMASCRIPT": {
         "title": "ECMA-262 6th Edition, The ECMAScript 2015 Language Specification",
-        "date": "June 2015",
-        "href": "http://www.ecma-international.org/ecma-262/6.0/index.html",
+        "rawDate": "2015-06",
+        "href": "http://www.ecma-international.org/ecma-262/6.0/",
         "status": "Standard",
         "publisher": "Ecma International",
         "authors": [
@@ -642,8 +626,31 @@
         ],
         "edDraft": "https://people.mozilla.org/~jorendorff/es6-draft.html",
         "versions": {
+            "6.0": {
+                "title": "ECMA-262 6th Edition, The ECMAScript 2015 Language Specification",
+                "rawDate": "2015-06",
+                "href": "http://www.ecma-international.org/ecma-262/6.0/index.html",
+                "status": "Standard",
+                "publisher": "Ecma International",
+                "authors": [
+                    "Allen Wirfs-Brock"
+                ]
+            },
+            "60": {
+                "aliasOf": "ECMASCRIPT-6.0"
+            },
+            "2015": {
+                "aliasOf": "ECMASCRIPT-6.0"
+            },
             "5.1": {
-                "aliasOf": "ECMA-262-5.1"
+                "rawDate": "2011-06",
+                "href": "http://www.ecma-international.org/publications/standards/Ecma-262.htm",
+                "publisher": "Ecma International",
+                "status": "Standard",
+                "title": "ECMAScript Language Specification, Edition 5.1"
+            },
+            "51": {
+                "aliasOf": "ECMASCRIPT-5.1"
             }
         }
     },
