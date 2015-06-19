@@ -626,6 +626,15 @@
         ],
         "edDraft": "https://people.mozilla.org/~jorendorff/es6-draft.html",
         "versions": {
+            "51": {
+                "aliasOf": "ECMASCRIPT-5.1"
+            },
+            "60": {
+                "aliasOf": "ECMASCRIPT-6.0"
+            },
+            "2015": {
+                "aliasOf": "ECMASCRIPT-6.0"
+            },
             "6.0": {
                 "title": "ECMA-262 6th Edition, The ECMAScript 2015 Language Specification",
                 "rawDate": "2015-06",
@@ -636,21 +645,12 @@
                     "Allen Wirfs-Brock"
                 ]
             },
-            "60": {
-                "aliasOf": "ECMASCRIPT-6.0"
-            },
-            "2015": {
-                "aliasOf": "ECMASCRIPT-6.0"
-            },
             "5.1": {
                 "rawDate": "2011-06",
                 "href": "http://www.ecma-international.org/publications/standards/Ecma-262.htm",
                 "publisher": "Ecma International",
                 "status": "Standard",
                 "title": "ECMAScript Language Specification, Edition 5.1"
-            },
-            "51": {
-                "aliasOf": "ECMASCRIPT-5.1"
             }
         }
     },
