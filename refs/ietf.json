@@ -64970,6 +64970,9 @@
         ],
         "rawDate": "2006-02",
         "status": "Best Current Practice",
+        "obsoletedBy": [
+            "RFC7595"
+        ],
         "obsoletes": [
             "RFC2717",
             "RFC2718"
@@ -99679,6 +99682,9 @@
         ],
         "rawDate": "2012-10",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC7563"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -111586,6 +111592,25 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc7563": {
+        "rfcNumber": "RFC7563",
+        "href": "https://tools.ietf.org/html/rfc7563",
+        "title": "Extensions to the Proxy Mobile IPv6 (PMIPv6) Access Network Identifier Option",
+        "authors": [
+            "R. Pazhyannur",
+            "S. Speicher",
+            "S. Gundavelli",
+            "J. Korhonen",
+            "J. Kaippallimalil"
+        ],
+        "rawDate": "2015-06",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC6757"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc7564": {
         "rfcNumber": "RFC7564",
         "href": "https://tools.ietf.org/html/rfc7564",
@@ -111670,6 +111695,23 @@
         ],
         "rawDate": "2015-06",
         "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7595": {
+        "rfcNumber": "RFC7595",
+        "href": "https://tools.ietf.org/html/rfc7595",
+        "title": "Guidelines and Registration Procedures for URI Schemes",
+        "authors": [
+            "D. Thaler, Ed.",
+            "T. Hansen",
+            "T. Hardie"
+        ],
+        "rawDate": "2015-06",
+        "status": "Best Current Practice",
+        "obsoletes": [
+            "RFC4395"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     }
