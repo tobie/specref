@@ -3,8 +3,8 @@ var cp = require("child_process");
 var path = require("path");
 var async = require("async");
 
-var today = new Date().toISOString().split("T")[0];
-var branch_name = today + "-update";
+var now = new Date().toISOString().replace(":", "h").split(":")[0];
+var branch_name = now + "-update";
 
 function runScript(script, callback) {
     spawn("node", [path.join(__dirname, script)], callback);
@@ -50,7 +50,7 @@ spawn("git", ["checkout", "-b", branch_name], function(err) {
             ], function() { process.exit(err.errno || 1); });
             return;
         }
-        spawn("git", ["commit", "-a", "-m", today + " auto-update."], function(err) {
+        spawn("git", ["commit", "-a", "-m", now + " auto-update."], function(err) {
             if (err) {
                 console.log("Looks like there weren't any changes. No need to update.")
                 process.exit(64); //custom exit code as per http://www.faqs.org/docs/abs/HTML/exitcodes.html
