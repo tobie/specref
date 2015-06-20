@@ -81789,6 +81789,9 @@
         ],
         "rawDate": "2009-05",
         "status": "Proposed Standard",
+        "obsoletedBy": [
+            "RFC7589"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -90315,6 +90318,9 @@
         ],
         "rawDate": "2011-03",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC7590"
+        ],
         "obsoletes": [
             "RFC3920"
         ],
@@ -111695,6 +111701,39 @@
         ],
         "rawDate": "2015-06",
         "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7589": {
+        "rfcNumber": "RFC7589",
+        "href": "https://tools.ietf.org/html/rfc7589",
+        "title": "Using the NETCONF Protocol over Transport Layer Security (TLS) with Mutual X.509 Authentication",
+        "authors": [
+            "M. Badra",
+            "A. Luchuk",
+            "J. Schoenwaelder"
+        ],
+        "rawDate": "2015-06",
+        "status": "Proposed Standard",
+        "obsoletes": [
+            "RFC5539"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7590": {
+        "rfcNumber": "RFC7590",
+        "href": "https://tools.ietf.org/html/rfc7590",
+        "title": "Use of Transport Layer Security (TLS) in the Extensible Messaging and Presence Protocol (XMPP)",
+        "authors": [
+            "P. Saint-Andre",
+            "T. Alkemade"
+        ],
+        "rawDate": "2015-06",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC6120"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
