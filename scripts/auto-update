@@ -1,0 +1,63 @@
+#!/bin/bash
+now=`date -u "+%Y-%m-%dT%H%M" `;
+branch_name="${now}-update";
+dir="./scripts";
+
+function clean_up()
+{
+    echo "Auto-update failed. Attempting clean up.";
+    git checkout master;
+    git branch -D $branch_name;
+    exit 1;
+}
+
+function update()
+{
+    git checkout -b $branch_name &&
+    node "${dir}/list-refs.js" &&
+    node "${dir}/run.js" && 
+    node "${dir}/rfc.js" &&
+    node "${dir}/rdf.js" &&
+    node "${dir}/csswg.js" &&
+    node "${dir}/whatwg.js";
+}
+
+function run_test_suite()
+{
+    echo "Running test suite... (This might take a while.)";
+    npm test;
+    ret=$?;
+    node ./list-refs.js;
+    if [ $ret -ne 0 ] ; then
+        exit $ret;
+    fi
+}
+
+if [[ -n `git status -s` ]] ; then
+    echo "Working directory isn't clean. Cannot run the update."
+    exit 1;
+fi
+
+update || clean_up;
+
+if [ $? -ne 0 ] ; then
+    exit $?
+fi
+
+if [[ -z `git status -s` ]] ; then
+    echo "Looks like there weren't any changes. No need to update."
+    # custom exit code as per http://www.faqs.org/docs/abs/HTML/exitcodes.html
+    exit 64;
+fi
+
+run_test_suite || clean_up;
+
+if [ $? -ne 0 ] ; then
+    exit $?
+fi
+
+msg = `date -u "+%Y-%m-%dT%T auto update"`;
+git commit -a -m "$msg";
+echo "This looks good. You can now push it to your GitHub repository and send us a pull request!";
+
+
