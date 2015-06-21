@@ -27,7 +27,7 @@ function run_test_suite()
     echo "Running test suite... (This might take a while.)";
     npm test;
     ret=$?;
-    node ./list-refs.js;
+    node "${dir}/list-refs.js";
     if [ $ret -ne 0 ] ; then
         exit $ret;
     fi
