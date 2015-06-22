@@ -19,7 +19,7 @@ function pull_repo()
 {
     git init || exit 1;
     git config user.email $GITHUB_EMAIL;
-    git config user.username $GITHUB_NAME;
+    git config user.name $GITHUB_NAME;
     # Avoid leaking <GITHUB_TOKEN>.
     str=`git pull $url 2>&1`;
     ret=$?;
