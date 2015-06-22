@@ -10,7 +10,6 @@ function setup_cwd()
 
 function cleanup()
 {
-    echo "Auto-update failed. Attempting clean up.";
     cd $TMPDIR;
     rm -rf $WORKING_DIR;
 }
