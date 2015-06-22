@@ -1,0 +1,110 @@
+#!/bin/bash
+
+function setup_cwd()
+{
+    cd $TMPDIR;
+    rm -rf $WORKING_DIR;
+    mkdir $WORKING_DIR;
+    cd $WORKING_DIR;
+}
+
+function cleanup()
+{
+    echo "Auto-update failed. Attempting clean up.";
+    cd $TMPDIR;
+    rm -rf $WORKING_DIR;
+}
+
+function pull_repo()
+{
+    git init || exit 1;
+    git config user.email $GITHUB_EMAIL;
+    git config user.username $GITHUB_NAME;
+    # Avoid leaking <GITHUB_TOKEN>.
+    str=`git pull $url 2>&1`;
+    ret=$?;
+    echo "${str//$GITHUB_TOKEN/<GITHUB_TOKEN>}"
+    if [ $ret -ne 0 ] ; then
+        exit $ret;
+    fi
+}
+
+function setup()
+{
+    git checkout -b $branch_name &&
+    npm install;
+}
+
+function run()
+{
+    node "./scripts/list-refs.js" &&
+    node "./scripts/run.js" && 
+    node "./scripts/rfc.js" &&
+    node "./scripts/rdf.js" &&
+    node "./scripts/csswg.js" &&
+    node "./scripts/whatwg.js";
+}
+
+function run_test_suite()
+{
+    echo "Running test suite... (This might take a while.)";
+    npm test;
+    ret=$?;
+    node "./scripts/list-refs.js";
+    if [ $ret -ne 0 ] ; then
+        exit $ret;
+    fi
+}
+
+function update_repo()
+{
+    echo "This looks good. About to update.";
+    msg=`date -u "+%Y-%m-%dT%T auto update"`;
+    git commit -a -m "$msg";
+    # Avoid leaking <GITHUB_TOKEN>.
+    str=`git push $url HEAD:$TARGET_BRANCH 2>&1`;
+    ret=$?;
+    echo "${str//$GITHUB_TOKEN/<GITHUB_TOKEN>}"
+    if [ $ret -ne 0 ] ; then
+        exit $ret;
+    fi
+}
+
+# SET DEFAULTS
+: ${TARGET_BRANCH:=master}
+: ${WORKING_DIR:=specref}
+
+# REQUIRED
+: ${GITHUB_EMAIL:?"ENV VAR GITHUB_EMAIL is not set."}
+: ${GITHUB_NAME:?"ENV VAR GITHUB_NAME is not set."}
+: ${GITHUB_REPO:?"ENV VAR GITHUB_REPO is not set."}
+: ${GITHUB_TOKEN:?"ENV VAR GITHUB_TOKEN is not set."}
+
+url=${GITHUB_REPO/https:\/\//https:\/\/$GITHUB_TOKEN:x-oauth-basic@};
+now=`date -u "+%Y-%m-%dT%H%M"`;
+branch_name="${now}-update";
+
+setup_cwd && pull_repo && setup && run;
+
+if [ $? -ne 0 ] ; then
+    ret=$?;
+    cleanup;
+    exit $ret;
+fi
+
+if [[ -z `git status -s` ]] ; then
+    echo "Looks like there weren't any changes. No need to update."
+    exit 0;
+fi
+
+run_test_suite && update_repo
+ret=$?;
+cleanup;
+
+if [ $? -ne 0 ] ; then
+    exit $?;
+else
+    exit=$ret;
+fi
+
+
