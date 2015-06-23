@@ -228,7 +228,7 @@ You can make modifications to the databases simply by editing either `refs/bibli
 
 In order to do so you can fork the project and make a pull request to update it, or you can ask to be added as a project collaborator (we're pretty open about that) in which case you'll be able to push changes directly.
 
-In both cases, all changes are automatically tested using [travis](https://travis-ci.org/tobie/specref/). If all tests pass, the changes are immediately (and automaitcally) deployed.
+In both cases, all changes are automatically tested using [travis](https://travis-ci.org/tobie/specref/). If all tests pass, the changes are immediately (and automatically) deployed.
 
 Some rules to observe when editing the databases follow. 
 
