@@ -155,7 +155,7 @@ function metadata(refcount, timeago) {
         refcount.text(formatRefCount(data.refCount));
     });
     
-    $.getJSON("https://api.github.com/repos/tobie/specref/commits?per_page=1").then(function(data) {
-        timeago.text(" (last one " + formatTime(new Date - Date.parse(data[0].commit.committer.date)) + ")");
+    $.getJSON("https://api.github.com/repos/tobie/specref/commits?path=refs&per_page=1").then(function(data) {
+        timeago.html(" (last one <a href=\"" + data[0].html_url + "\">" + formatTime(new Date - Date.parse(data[0].commit.committer.date)) + "</a>)");
     });
 }
