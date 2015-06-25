@@ -18687,7 +18687,7 @@
         ],
         "href": "http://www.w3.org/TR/dwbp/",
         "title": "Data on the Web Best Practices",
-        "rawDate": "2015-02-24",
+        "rawDate": "2015-06-25",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/dwbp/bp.html",
@@ -18705,6 +18705,22 @@
                 "href": "http://www.w3.org/TR/2015/WD-dwbp-20150224/",
                 "title": "Data on the Web Best Practices",
                 "rawDate": "2015-02-24",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2013/dwbp/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150625": {
+                "authors": [
+                    "Bernadette Farias Loscio",
+                    "Caroline Burle",
+                    "Newton Calegari"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-dwbp-20150625/",
+                "title": "Data on the Web Best Practices",
+                "rawDate": "2015-06-25",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -38077,7 +38093,7 @@
         ],
         "href": "http://www.w3.org/TR/service-workers/",
         "title": "Service Workers",
-        "rawDate": "2015-02-05",
+        "rawDate": "2015-06-25",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -38124,6 +38140,22 @@
                 "href": "http://www.w3.org/TR/2015/WD-service-workers-20150205/",
                 "title": "Service Workers",
                 "rawDate": "2015-02-05",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2008/webapps/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150625": {
+                "authors": [
+                    "Alex Russell",
+                    "Jungkee Song",
+                    "Jake Archibald"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-service-workers-20150625/",
+                "title": "Service Workers",
+                "rawDate": "2015-06-25",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -44143,6 +44175,76 @@
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/2011/gld/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
+    "vocab-dqv": {
+        "authors": [
+            "Riccardo Albertoni",
+            "Christophe Gueret",
+            "Antoine Isaac"
+        ],
+        "href": "http://www.w3.org/TR/vocab-dqv/",
+        "title": "Data Quality Vocabulary",
+        "rawDate": "2015-06-25",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/dwbp/vocab-dqg.html",
+        "deliveredBy": [
+            "http://www.w3.org/2013/dwbp/"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20150625": {
+                "authors": [
+                    "Riccardo Albertoni",
+                    "Christophe Gueret",
+                    "Antoine Isaac"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-vocab-dqv-20150625/",
+                "title": "Data Quality Vocabulary",
+                "rawDate": "2015-06-25",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2013/dwbp/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
+    "vocab-duv": {
+        "authors": [
+            "Bernadette Farias Loscio",
+            "Eric Stephan",
+            "Sumit Purohit"
+        ],
+        "href": "http://www.w3.org/TR/vocab-duv/",
+        "title": "Dataset Usage Vocabulary",
+        "rawDate": "2015-06-25",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/dwbp/vocab-du.html",
+        "deliveredBy": [
+            "http://www.w3.org/2013/dwbp/"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20150625": {
+                "authors": [
+                    "Bernadette Farias Loscio",
+                    "Eric Stephan",
+                    "Sumit Purohit"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-vocab-duv-20150625/",
+                "title": "Dataset Usage Vocabulary",
+                "rawDate": "2015-06-25",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2013/dwbp/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
