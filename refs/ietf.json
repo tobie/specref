@@ -25947,6 +25947,9 @@
         ],
         "rawDate": "1995-09",
         "status": "Experimental",
+        "updatedBy": [
+            "RFC7504"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -54875,6 +54878,9 @@
         ],
         "rawDate": "2004-02",
         "status": "Informational",
+        "obsoletedBy": [
+            "RFC7612"
+        ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=3712",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -78548,6 +78554,9 @@
         ],
         "rawDate": "2008-10",
         "status": "Draft Standard",
+        "updatedBy": [
+            "RFC7504"
+        ],
         "updates": [
             "RFC1123"
         ],
@@ -110812,6 +110821,35 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc7504": {
+        "rfcNumber": "RFC7504",
+        "href": "https://tools.ietf.org/html/rfc7504",
+        "title": "SMTP 521 and 556 Reply Codes",
+        "authors": [
+            "J. Klensin"
+        ],
+        "rawDate": "2015-06",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC1846",
+            "RFC5321"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7505": {
+        "rfcNumber": "RFC7505",
+        "href": "https://tools.ietf.org/html/rfc7505",
+        "title": "A \"Null MX\" No Service Resource Record for Domains That Accept No Mail",
+        "authors": [
+            "J. Levine",
+            "M. Delany"
+        ],
+        "rawDate": "2015-06",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc7506": {
         "rfcNumber": "RFC7506",
         "href": "https://tools.ietf.org/html/rfc7506",
@@ -111805,6 +111843,20 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc7587": {
+        "rfcNumber": "RFC7587",
+        "href": "https://tools.ietf.org/html/rfc7587",
+        "title": "RTP Payload Format for the Opus Speech and Audio Codec",
+        "authors": [
+            "J. Spittka",
+            "K. Vos",
+            "JM. Valin"
+        ],
+        "rawDate": "2015-06",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc7589": {
         "rfcNumber": "RFC7589",
         "href": "https://tools.ietf.org/html/rfc7589",
@@ -111851,6 +111903,22 @@
         "status": "Best Current Practice",
         "obsoletes": [
             "RFC4395"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7612": {
+        "rfcNumber": "RFC7612",
+        "href": "https://tools.ietf.org/html/rfc7612",
+        "title": "Lightweight Directory Access Protocol (LDAP): Schema for Printer Services",
+        "authors": [
+            "P. Fleming",
+            "I. McDonald"
+        ],
+        "rawDate": "2015-06",
+        "status": "Informational",
+        "obsoletes": [
+            "RFC3712"
         ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
