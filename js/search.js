@@ -24,7 +24,7 @@ function highlight(txt, searchString) {
 }
 
 function stringifyRef(ref) {
-    if (typeof ref === "string") return ref;
+    if (typeof ref === "string") return "<div>" + ref + "</div>";
     var output = "";
     if (ref.authors && ref.authors.length) {
         output += ref.authors.join("; ");
@@ -37,7 +37,7 @@ function stringifyRef(ref) {
     if (ref.status) output += (REF_STATUSES[ref.status] || ref.status) + ". ";
     if (ref.href) output += 'URL:&nbsp;<a href="' + ref.href + '">' + ref.href + "</a>";
     if (ref.edDraft) output += ' ED:&nbsp;<a href="' + ref.edDraft + '">' + ref.edDraft + "</a>";
-    return output;
+    return "<div>" + output + "</div>";
 };
 
 function pluralize (count, sing, plur) {
@@ -49,10 +49,17 @@ function buildResults(json) {
         var obj = json[k];
         if (!obj.aliasOf) {
             count++;
-            html += "<dt>[<a href=\"#\">" + (obj.id || k) + "</a>]</dt><dd><div>" + stringifyRef(obj) + "</div>" +  prettifyApiOutput(obj) + "</dd>";
+            html += "<dt>[<a href=\"#\">" + (obj.id || k) + "</a>]" + warnings(obj) + "</dt><dd>" + stringifyRef(obj) + prettifyApiOutput(obj) + "</dd>";
         }
     }
     return { html: html, count: count };
+}
+
+function warnings(obj) {
+    if (obj.obsoletedBy) {
+        return " <span class=\"label label-warning\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"Obsoleted by " + obj.obsoletedBy.map(function(k) { return "[" + k + "]"; }).join(", ") + ".\">Obsolete</span>";
+    }
+    return "";
 }
 
 function prettifyApiOutput(obj) {
@@ -106,6 +113,7 @@ function setup($root) {
         $results.html(highlight(output.html, query));
         $status.text(msg(query, output.count));
         $search.select();
+        $('[data-toggle="tooltip"]').tooltip();
     }
     
     function search() {
