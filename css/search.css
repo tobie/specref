@@ -73,13 +73,18 @@ strong.highlight {
     white-space: pre-wrap;
 }
 
-h1 a {
+h1 a,
+#search dt a {
    color: rgb(51, 51, 51); 
+}
+
+h1 a:hover,
+#search dt a {
+    color: rgb(80, 80, 80); 
 }
 
 h1 a:hover {
     text-decoration: none;
-    color: rgb(80, 80, 80); 
 }
 
 ul.features {
