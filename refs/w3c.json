@@ -1630,7 +1630,10 @@
             "http://www.w3.org/Style/CSS/members"
         ],
         "hasErrata": "http://www.w3.org/Style/css2-updates/REC-CSS2-20110607-errata.html",
-        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "obsoletes": [
+            "font"
+        ]
     },
     "CSS21": {
         "aliasOf": "CSS2"
@@ -2294,7 +2297,10 @@
             }
         },
         "rawDate": "2002-07-25",
-        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "obsoletes": [
+            "DOM-Level-3-ASLS"
+        ]
     },
     "DOM-Level-3-ASLS": {
         "authors": [
@@ -2348,7 +2354,10 @@
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "obsoletedBy": [
+            "DOM-Level-3-AS"
+        ]
     },
     "DOM-Level-3-Core": {
         "authors": [
@@ -5710,7 +5719,10 @@
         },
         "rawDate": "2005-12-13",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
-        "hasErrata": "http://www.w3.org/2004/06/EditedREC-SMIL20-errata"
+        "hasErrata": "http://www.w3.org/2004/06/EditedREC-SMIL20-errata",
+        "obsoletes": [
+            "smil20"
+        ]
     },
     "SMIL2-AuthExt": {
         "versions": {
@@ -6058,7 +6070,10 @@
             }
         },
         "rawDate": "2001-09-04",
-        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "obsoletedBy": [
+            "SVG11"
+        ]
     },
     "SVG-Transforms": {
         "authors": [
@@ -6222,7 +6237,10 @@
             }
         },
         "rawDate": "2011-08-16",
-        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "obsoletes": [
+            "SVG"
+        ]
     },
     "SVG12": {
         "authors": [
@@ -6568,7 +6586,10 @@
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "obsoletedBy": [
+            "compositing-1"
+        ]
     },
     "SVGFilter12": {
         "authors": [
@@ -9448,7 +9469,10 @@
             }
         },
         "rawDate": "2006-04-07",
-        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "obsoletedBy": [
+            "html5"
+        ]
     },
     "XFDL": {
         "versions": {
@@ -9723,7 +9747,11 @@
         },
         "rawDate": "2014-01-30",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
-        "edDraft": "http://dvcs.w3.org/hg/xhr/xhr-1/raw-file/tip/Overview.html"
+        "edDraft": "http://dvcs.w3.org/hg/xhr/xhr-1/raw-file/tip/Overview.html",
+        "obsoletes": [
+            "XMLHttpRequest2",
+            "XMLHttpRequest1"
+        ]
     },
     "XMLHttpRequest1": {
         "authors": [
@@ -9755,7 +9783,10 @@
                 "isRetired": true
             }
         },
-        "isRetired": true
+        "isRetired": true,
+        "obsoletedBy": [
+            "XMLHttpRequest"
+        ]
     },
     "XMLHttpRequest2": {
         "authors": [
@@ -9831,7 +9862,10 @@
         },
         "rawDate": "2014-11-18",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
-        "isRetired": true
+        "isRetired": true,
+        "obsoletedBy": [
+            "XMLHttpRequest"
+        ]
     },
     "XSL-and-CSS": {
         "versions": {
@@ -12082,7 +12116,10 @@
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "http://dev.w3.org/fxtf/compositing-1/"
+        "edDraft": "http://dev.w3.org/fxtf/compositing-1/",
+        "obsoletes": [
+            "SVGCompositing"
+        ]
     },
     "contacts-api": {
         "authors": [
@@ -12802,7 +12839,10 @@
             }
         },
         "rawDate": "2011-05-12",
-        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "obsoletes": [
+            "css3-roadmap"
+        ]
     },
     "css-cascade-3": {
         "authors": [
@@ -14939,7 +14979,11 @@
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "http://dev.w3.org/csswg/css-transforms/"
+        "edDraft": "http://dev.w3.org/csswg/css-transforms/",
+        "obsoletes": [
+            "css3-2d-transforms",
+            "css3-3d-transforms"
+        ]
     },
     "css-tv": {
         "authors": [
@@ -15376,7 +15420,10 @@
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "obsoletedBy": [
+            "css-transforms-1"
+        ]
     },
     "css3-3d-transforms": {
         "authors": [
@@ -15410,7 +15457,10 @@
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "obsoletedBy": [
+            "css-transforms-1"
+        ]
     },
     "css3-align": {
         "aliasOf": "css-align-3"
@@ -15596,7 +15646,10 @@
         ],
         "rawDate": "2014-09-09",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
-        "edDraft": "http://dev.w3.org/csswg/css3-background/"
+        "edDraft": "http://dev.w3.org/csswg/css3-background/",
+        "obsoletes": [
+            "css3-border"
+        ]
     },
     "css3-border": {
         "authors": [
@@ -15626,7 +15679,10 @@
             }
         },
         "rawDate": "2002-11-07",
-        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "obsoletedBy": [
+            "css3-background"
+        ]
     },
     "css3-box": {
         "authors": [
@@ -16650,7 +16706,10 @@
             }
         },
         "rawDate": "2001-05-23",
-        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "obsoletedBy": [
+            "css-beijing"
+        ]
     },
     "css3-ruby": {
         "aliasOf": "css-ruby-1"
@@ -17024,7 +17083,10 @@
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "http://dev.w3.org/csswg/css-ui/"
+        "edDraft": "http://dev.w3.org/csswg/css-ui/",
+        "obsoletes": [
+            "css3-userint"
+        ]
     },
     "css3-userint": {
         "authors": [
@@ -17060,7 +17122,10 @@
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "obsoletedBy": [
+            "css3-ui"
+        ]
     },
     "css3-values": {
         "aliasOf": "css-values"
@@ -20303,7 +20368,10 @@
                 "status": "WD"
             }
         },
-        "status": "WD"
+        "status": "WD",
+        "obsoletedBy": [
+            "CSS2"
+        ]
     },
     "form-http-extensions": {
         "authors": [
@@ -22923,7 +22991,10 @@
         },
         "rawDate": "1998-04-24",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
-        "hasErrata": "http://www.w3.org/MarkUp/html40-updates/REC-html40-19980424-errata.html"
+        "hasErrata": "http://www.w3.org/MarkUp/html40-updates/REC-html40-19980424-errata.html",
+        "obsoletedBy": [
+            "html401"
+        ]
     },
     "html40-mobile": {
         "authors": [
@@ -22994,7 +23065,10 @@
             }
         },
         "rawDate": "1999-12-24",
-        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "obsoletes": [
+            "html40"
+        ]
     },
     "html5": {
         "authors": [
@@ -23252,7 +23326,11 @@
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "http://www.w3.org/html/wg/drafts/html/master/"
+        "edDraft": "http://www.w3.org/html/wg/drafts/html/master/",
+        "obsoletes": [
+            "Window",
+            "web-forms-2"
+        ]
     },
     "html5-author": {
         "authors": [
@@ -33675,7 +33753,10 @@
             }
         },
         "rawDate": "2004-02-10",
-        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "obsoletes": [
+            "rdf-syntax-grammar"
+        ]
     },
     "rdf-dawg-uc": {
         "authors": [
@@ -33874,7 +33955,10 @@
             }
         },
         "rawDate": "2004-02-10",
-        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "obsoletes": [
+            "rdf-syntax-grammar"
+        ]
     },
     "rdf-pics": {
         "versions": {
@@ -34052,7 +34136,10 @@
             }
         },
         "rawDate": "2004-02-10",
-        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "obsoletes": [
+            "rdf-syntax-grammar"
+        ]
     },
     "rdf-schema": {
         "authors": [
@@ -34179,6 +34266,9 @@
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
         "deliveredBy": [
             "http://www.w3.org/2011/rdf-wg/"
+        ],
+        "obsoletes": [
+            "rdf-syntax-grammar"
         ]
     },
     "rdf-simple-intro": {
@@ -34667,6 +34757,12 @@
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
         "deliveredBy": [
             "http://www.w3.org/2011/rdf-wg/"
+        ],
+        "obsoletedBy": [
+            "rdf-primer"
+        ],
+        "obsoletes": [
+            "rdf-syntax-grammar"
         ]
     },
     "rdf-testcases": {
@@ -34743,7 +34839,10 @@
             }
         },
         "rawDate": "2004-02-10",
-        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "obsoletes": [
+            "rdf-syntax-grammar"
+        ]
     },
     "rdf-text": {
         "aliasOf": "rdf-plain-literal"
@@ -35359,7 +35458,10 @@
         },
         "rawDate": "2015-03-17",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
-        "hasErrata": "http://www.w3.org/2010/02/rdfa/errata.html"
+        "hasErrata": "http://www.w3.org/2010/02/rdfa/errata.html",
+        "obsoletes": [
+            "rdfa-syntax"
+        ]
     },
     "rdfa-in-html": {
         "aliasOf": "html-rdfa"
@@ -35642,7 +35744,10 @@
             }
         },
         "rawDate": "2008-10-14",
-        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "obsoletedBy": [
+            "rdfa-core"
+        ]
     },
     "rdfarch": {
         "versions": {
@@ -38520,7 +38625,10 @@
         },
         "hasErrata": "http://www.w3.org/2006/07/SWD/SKOS/reference/20090811-errata",
         "rawDate": "2009-08-18",
-        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "obsoletes": [
+            "swbp-skos-core-guide"
+        ]
     },
     "skos-reference": {
         "authors": [
@@ -38584,7 +38692,10 @@
             }
         },
         "rawDate": "2009-08-18",
-        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "obsoletes": [
+            "swbp-skos-core-spec"
+        ]
     },
     "skos-ucr": {
         "authors": [
@@ -38826,7 +38937,10 @@
                 "status": "REC"
             }
         },
-        "status": "REC"
+        "status": "REC",
+        "obsoletedBy": [
+            "SMIL2"
+        ]
     },
     "sml": {
         "authors": [
@@ -41458,7 +41572,10 @@
             }
         },
         "rawDate": "2005-11-02",
-        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "obsoletedBy": [
+            "skos-primer"
+        ]
     },
     "swbp-skos-core-spec": {
         "authors": [
@@ -41497,7 +41614,10 @@
             }
         },
         "rawDate": "2005-11-02",
-        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "obsoletedBy": [
+            "skos-reference"
+        ]
     },
     "swbp-specified-values": {
         "authors": [
@@ -45993,6 +46113,9 @@
         "status": "WD",
         "deliveredBy": [
             "http://www.w3.org/2006/appformats/"
+        ],
+        "obsoletedBy": [
+            "html5"
         ]
     },
     "web-intents": {
@@ -51073,7 +51196,10 @@
         },
         "rawDate": "2007-10-29",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
-        "status": "REC"
+        "status": "REC",
+        "obsoletedBy": [
+            "xforms11"
+        ]
     },
     "xforms-11-req": {
         "authors": [
@@ -51261,7 +51387,10 @@
             }
         },
         "rawDate": "2009-10-20",
-        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "obsoletes": [
+            "xforms"
+        ]
     },
     "xforms20": {
         "authors": [
@@ -59756,7 +59885,10 @@
         },
         "rawDate": "2002-08-16",
         "isRetired": true,
-        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "obsoletedBy": [
+            "xptr-xpointer"
+        ]
     },
     "xptr-element": {
         "authors": [
@@ -59837,7 +59969,10 @@
             }
         },
         "rawDate": "2003-03-25",
-        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "obsoletes": [
+            "xptr"
+        ]
     },
     "xptr-framework": {
         "authors": [
@@ -59888,7 +60023,10 @@
             }
         },
         "rawDate": "2003-03-25",
-        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "obsoletes": [
+            "xptr"
+        ]
     },
     "xptr-infoset-liaison": {
         "authors": [
@@ -59999,7 +60137,10 @@
             }
         },
         "rawDate": "2003-03-25",
-        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "obsoletes": [
+            "xptr"
+        ]
     },
     "xptr-xpointer": {
         "authors": [
@@ -60040,7 +60181,10 @@
         },
         "rawDate": "2002-12-19",
         "isRetired": true,
-        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "obsoletes": [
+            "xptr"
+        ]
     },
     "xquery": {
         "authors": [

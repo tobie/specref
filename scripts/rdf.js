@@ -60,6 +60,7 @@ request(RDF_FILE, function(err, response, body) {
         var refs = result['rdf:RDF'];
         var output = [];
         var aliases = {};
+        var superseders = {};
         
         Object.keys(STATUSES).forEach(function(k) {
             if (refs[k]) {
@@ -94,10 +95,13 @@ request(RDF_FILE, function(err, response, body) {
         
         if (refs["rdf:Description"]) {
             refs["rdf:Description"].forEach(function(ref) {
-                var former = walk(ref, "formerShortname");
                 var url = walk(ref, "$", "rdf:about");
                 var sn = getShortName(TR_URLS[url] || url);
+                
+                var former = walk(ref, "formerShortname");
                 if (former) {
+                    url = walk(ref, "$", "rdf:about");
+                    sn = getShortName(TR_URLS[url] || url);
                     former.forEach(function(item) {
                         if (item == sn) return;
                         if (aliases[item] && aliases[item] !== sn) {
@@ -105,6 +109,16 @@ request(RDF_FILE, function(err, response, body) {
                             return;
                         }
                         aliases[item] = sn;
+                    });
+                    return;
+                }
+                var supersedes = walk(ref, "supersedes");
+                if (supersedes) {
+                    url = walk(ref, "$", "rdf:about");
+                    sn = getShortName(TR_URLS[url] || url);
+                    superseders[sn] = supersedes.map(function(item) {
+                        var url = walk(item, "$", "rdf:resource");
+                        return getShortName(TR_URLS[url] || url);
                     });
                 }
             });
@@ -201,6 +215,20 @@ request(RDF_FILE, function(err, response, body) {
             }
             current[k] = { aliasOf: aliasShortname };
         });
+        
+        Object.keys(superseders).forEach(function(id) {
+            var obsoletes = superseders[id].filter(function(k) {
+                return current[k];
+            });
+            if (!obsoletes.length) return;
+            current[id].obsoletes = obsoletes;
+            current[id].obsoletes.forEach(function(k) {
+                if (typeof current[k] == "object") {
+                    current[k].obsoletedBy = [id];
+                }
+            });
+        });
+
         console.log("Sorting references...");
         var sorted = {}, needUpdate = [];
         Object.keys(current).sort().forEach(function(k) {
