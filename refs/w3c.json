@@ -15059,6 +15059,131 @@
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
         "isRetired": true
     },
+    "css-ui-3": {
+        "authors": [
+            "Tantek Çelik",
+            "Florian Rivoal"
+        ],
+        "href": "http://www.w3.org/TR/css-ui-3/",
+        "title": "CSS Basic User Interface Module Level 3 (CSS3 UI)",
+        "rawDate": "2015-07-07",
+        "status": "CR",
+        "publisher": "W3C",
+        "edDraft": "http://dev.w3.org/csswg/css-ui/",
+        "deliveredBy": [
+            "http://www.w3.org/Style/CSS/members"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20020802": {
+                "status": "WD",
+                "rawDate": "2002-08-02",
+                "href": "http://www.w3.org/TR/2002/WD-css3-ui-20020802",
+                "source": "./data/w3c-specs.txt"
+            },
+            "20030703": {
+                "status": "WD",
+                "rawDate": "2003-07-03",
+                "href": "http://www.w3.org/TR/2003/WD-css3-ui-20030703",
+                "source": "./data/w3c-specs.txt"
+            },
+            "20040511": {
+                "status": "CR",
+                "rawDate": "2004-05-11",
+                "href": "http://www.w3.org/TR/2004/CR-css3-ui-20040511",
+                "source": "./data/w3c-specs.txt"
+            },
+            "20120117": {
+                "authors": [
+                    "Tantek Çelik"
+                ],
+                "href": "http://www.w3.org/TR/2012/WD-css3-ui-20120117/",
+                "title": "CSS Basic User Interface Module Level 3 (CSS3 UI)",
+                "rawDate": "2012-01-17",
+                "status": "LCWD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Style/CSS/members"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150224": {
+                "authors": [
+                    "Tantek Çelik"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-css3-ui-20150224/",
+                "title": "CSS Basic User Interface Module Level 3 (CSS3 UI)",
+                "rawDate": "2015-02-24",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Style/CSS/members"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150310": {
+                "authors": [
+                    "Tantek Çelik"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-css3-ui-20150310/",
+                "title": "CSS Basic User Interface Module Level 3 (CSS3 UI)",
+                "rawDate": "2015-03-10",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Style/CSS/members"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150409": {
+                "authors": [
+                    "Tantek Çelik"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-css3-ui-20150409/",
+                "title": "CSS Basic User Interface Module Level 3 (CSS3 UI)",
+                "rawDate": "2015-04-09",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Style/CSS/members"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150519": {
+                "authors": [
+                    "Tantek Çelik",
+                    "Florian Rivoal"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-css3-ui-20150519/",
+                "title": "CSS Basic User Interface Module Level 3 (CSS3 UI)",
+                "rawDate": "2015-05-19",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Style/CSS/members"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150707": {
+                "authors": [
+                    "Tantek Çelik",
+                    "Florian Rivoal"
+                ],
+                "href": "http://www.w3.org/TR/2015/CR-css-ui-3-20150707/",
+                "title": "CSS Basic User Interface Module Level 3 (CSS3 UI)",
+                "rawDate": "2015-07-07",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Style/CSS/members"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        },
+        "obsoletes": [
+            "css3-userint"
+        ]
+    },
     "css-values": {
         "authors": [
             "Tab Atkins Jr.",
@@ -16979,114 +17104,7 @@
         "edDraft": "http://dev.w3.org/csswg/css-transitions/"
     },
     "css3-ui": {
-        "authors": [
-            "Tantek Çelik",
-            "Florian Rivoal"
-        ],
-        "href": "http://www.w3.org/TR/css3-ui/",
-        "title": "CSS Basic User Interface Module Level 3 (CSS3 UI)",
-        "rawDate": "2015-05-19",
-        "status": "WD",
-        "publisher": "W3C",
-        "deliveredBy": [
-            "http://www.w3.org/Style/CSS/members"
-        ],
-        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
-        "versions": {
-            "20020802": {
-                "status": "WD",
-                "rawDate": "2002-08-02",
-                "href": "http://www.w3.org/TR/2002/WD-css3-ui-20020802",
-                "source": "./data/w3c-specs.txt"
-            },
-            "20030703": {
-                "status": "WD",
-                "rawDate": "2003-07-03",
-                "href": "http://www.w3.org/TR/2003/WD-css3-ui-20030703",
-                "source": "./data/w3c-specs.txt"
-            },
-            "20040511": {
-                "status": "CR",
-                "rawDate": "2004-05-11",
-                "href": "http://www.w3.org/TR/2004/CR-css3-ui-20040511",
-                "source": "./data/w3c-specs.txt"
-            },
-            "20120117": {
-                "authors": [
-                    "Tantek Çelik"
-                ],
-                "href": "http://www.w3.org/TR/2012/WD-css3-ui-20120117/",
-                "title": "CSS Basic User Interface Module Level 3 (CSS3 UI)",
-                "rawDate": "2012-01-17",
-                "status": "LCWD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "http://www.w3.org/Style/CSS/members"
-                ],
-                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
-            },
-            "20150224": {
-                "authors": [
-                    "Tantek Çelik"
-                ],
-                "href": "http://www.w3.org/TR/2015/WD-css3-ui-20150224/",
-                "title": "CSS Basic User Interface Module Level 3 (CSS3 UI)",
-                "rawDate": "2015-02-24",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "http://www.w3.org/Style/CSS/members"
-                ],
-                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
-            },
-            "20150310": {
-                "authors": [
-                    "Tantek Çelik"
-                ],
-                "href": "http://www.w3.org/TR/2015/WD-css3-ui-20150310/",
-                "title": "CSS Basic User Interface Module Level 3 (CSS3 UI)",
-                "rawDate": "2015-03-10",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "http://www.w3.org/Style/CSS/members"
-                ],
-                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
-            },
-            "20150409": {
-                "authors": [
-                    "Tantek Çelik"
-                ],
-                "href": "http://www.w3.org/TR/2015/WD-css3-ui-20150409/",
-                "title": "CSS Basic User Interface Module Level 3 (CSS3 UI)",
-                "rawDate": "2015-04-09",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "http://www.w3.org/Style/CSS/members"
-                ],
-                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
-            },
-            "20150519": {
-                "authors": [
-                    "Tantek Çelik",
-                    "Florian Rivoal"
-                ],
-                "href": "http://www.w3.org/TR/2015/WD-css3-ui-20150519/",
-                "title": "CSS Basic User Interface Module Level 3 (CSS3 UI)",
-                "rawDate": "2015-05-19",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "http://www.w3.org/Style/CSS/members"
-                ],
-                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
-            }
-        },
-        "edDraft": "http://dev.w3.org/csswg/css-ui/",
-        "obsoletes": [
-            "css3-userint"
-        ]
+        "aliasOf": "css-ui-3"
     },
     "css3-userint": {
         "authors": [
@@ -17124,7 +17142,7 @@
             }
         },
         "obsoletedBy": [
-            "css3-ui"
+            "css-ui-3"
         ]
     },
     "css3-values": {
@@ -18711,6 +18729,43 @@
             }
         },
         "edDraft": "https://w3c.github.io/dpub-annotation/"
+    },
+    "dpub-aria-1.0": {
+        "authors": [
+            "Matt Garrish",
+            "Tzviya Siegman",
+            "Markus Gylling",
+            "Shane McCarron"
+        ],
+        "href": "http://www.w3.org/TR/dpub-aria-1.0/",
+        "title": "Digital Publishing WAI-ARIA Module 1.0",
+        "rawDate": "2015-07-07",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/aria/aria/dpub.html",
+        "deliveredBy": [
+            "http://www.w3.org/WAI/PF/"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20150707": {
+                "authors": [
+                    "Matt Garrish",
+                    "Tzviya Siegman",
+                    "Markus Gylling",
+                    "Shane McCarron"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-dpub-aria-1.0-20150707/",
+                "title": "Digital Publishing WAI-ARIA Module 1.0",
+                "rawDate": "2015-07-07",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/WAI/PF/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
     },
     "dpub-latinreq": {
         "authors": [
@@ -46015,17 +46070,21 @@
         "aliasOf": "task-scheduler"
     },
     "web-animations": {
+        "aliasOf": "web-animations-1"
+    },
+    "web-animations-1": {
         "authors": [
             "Brian Birtles",
             "Shane Stephens",
             "Alex Danilo",
             "Tab Atkins Jr."
         ],
-        "href": "http://www.w3.org/TR/web-animations/",
-        "title": "Web Animations 1.0",
-        "rawDate": "2014-06-05",
+        "href": "http://www.w3.org/TR/web-animations-1/",
+        "title": "Web Animations",
+        "rawDate": "2015-07-07",
         "status": "WD",
         "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/web-animations/",
         "deliveredBy": [
             "http://www.w3.org/Graphics/SVG/WG/",
             "http://www.w3.org/Style/CSS/members"
@@ -46068,9 +46127,26 @@
                     "http://www.w3.org/Style/CSS/members"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150707": {
+                "authors": [
+                    "Brian Birtles",
+                    "Shane Stephens",
+                    "Alex Danilo",
+                    "Tab Atkins Jr."
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-web-animations-1-20150707/",
+                "title": "Web Animations",
+                "rawDate": "2015-07-07",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Graphics/SVG/WG/",
+                    "http://www.w3.org/Style/CSS/members"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        },
-        "edDraft": "http://dev.w3.org/fxtf/web-animations/"
+        }
     },
     "web-forms-2": {
         "authors": [
