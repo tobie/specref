@@ -13,8 +13,12 @@ var REF_STATUSES = {
 
 function highlight(txt, searchString) {
     var regexp = new RegExp("(<[^>]+>)|(" + searchString + ")", "gi");
+    var flag = false;
     return (txt || "").replace(regexp, function wrap(_, tag, txt) {
+        if (tag == "<code>") flag = true;
+        if (tag == "</code>") flag = false;
         if (tag) return tag;
+        if (flag) return txt;
         return "<strong class='highlight'>" + txt + "</strong>";
     });
 }
@@ -45,10 +49,14 @@ function buildResults(json) {
         var obj = json[k];
         if (!obj.aliasOf) {
             count++;
-            html += "<dt>[" + (obj.id || k) + "]</dt><dd>" + stringifyRef(obj) + "</dd>";
+            html += "<dt>[<a href=\"#\">" + (obj.id || k) + "</a>]</dt><dd><div>" + stringifyRef(obj) + "</div>" +  prettifyApiOutput(obj) + "</dd>";
         }
     }
     return { html: html, count: count };
+}
+
+function prettifyApiOutput(obj) {
+    return  "<pre style=\"display:none\"><code>" + JSON.stringify(obj, null, 4) + "</code></pre>";
 }
 
 function msg(query, count) {
