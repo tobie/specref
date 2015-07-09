@@ -6326,9 +6326,11 @@
     "SVG2": {
         "authors": [
             "Nikos Andronikos",
+            "Rossen Atanassov",
             "Tavmjong Bah",
             "Amelia Bellamy-Royds",
             "Brian Birtles",
+            "Bogdan Brinza",
             "Cyril Concolato",
             "Erik Dahlström",
             "Chris Lilley",
@@ -6446,9 +6448,37 @@
                     "http://www.w3.org/Graphics/SVG/WG/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150709": {
+                "authors": [
+                    "Nikos Andronikos",
+                    "Rossen Atanassov",
+                    "Tavmjong Bah",
+                    "Amelia Bellamy-Royds",
+                    "Brian Birtles",
+                    "Bogdan Brinza",
+                    "Cyril Concolato",
+                    "Erik Dahlström",
+                    "Chris Lilley",
+                    "Cameron McCormack",
+                    "Doug Schepers",
+                    "Dirk Schulze",
+                    "Richard Schwerdtfeger",
+                    "Satoru Takagi",
+                    "Jonathan Watt"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-SVG2-20150709/",
+                "title": "Scalable Vector Graphics (SVG) 2",
+                "rawDate": "2015-07-09",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Graphics/SVG/WG/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2015-04-09",
+        "rawDate": "2015-07-09",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
         "edDraft": "https://svgwg.org/svg2-draft/"
     },
@@ -41442,6 +41472,41 @@
                 "href": "http://www.w3.org/TR/2015/WD-svg-markers-20150409/",
                 "title": "SVG Markers",
                 "rawDate": "2015-04-09",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Graphics/SVG/WG/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
+    "svg-paths": {
+        "authors": [
+            "Cyril Concolato",
+            "Cameron McCormack",
+            "Doug Schepers"
+        ],
+        "href": "http://www.w3.org/TR/svg-paths/",
+        "title": "SVG Paths",
+        "rawDate": "2015-07-09",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://svgwg.org/specs/paths/",
+        "deliveredBy": [
+            "http://www.w3.org/Graphics/SVG/WG/"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20150709": {
+                "authors": [
+                    "Cyril Concolato",
+                    "Cameron McCormack",
+                    "Doug Schepers"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-svg-paths-20150709/",
+                "title": "SVG Paths",
+                "rawDate": "2015-07-09",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
