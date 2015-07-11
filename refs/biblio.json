@@ -33,9 +33,15 @@
         "publisher": "The GNOME Project"
     },
     "ATK": {
-        "href": "https://developer.gnome.org/atk/2.10/",
-        "title": "Gnome Accessibility Toolkit 2.10",
-        "publisher": "The GNOME Project"
+        "href": "https://developer.gnome.org/atk/stable/",
+        "title": "ATK - Accessibility Toolkit",
+        "publisher": "The GNOME Project",
+        "versions": {
+            "2.10": {
+                "href": "https://developer.gnome.org/atk/2.10/",
+                "title": "ATK - Accessibility Toolkit 2.10"
+            }
+        }
     },
     "ATSC": {
         "title": "Advanced Television Systems Committe",
@@ -663,6 +669,11 @@
     "EMAIL": {
         "aliasOf": "RFC5322"
     },
+    "EPUB-SSV": {
+        "href": "http://www.idpf.org/epub/vocab/structure/",
+        "title": "EPUB Structural Semantics Vocabulary",
+        "publisher": "IDPF"
+    },
     "ESDH": {
         "aliasOf": "RFC2631"
     },
@@ -788,6 +799,11 @@
         "href": "http://www.3gpp.org/ftp/Specs/html-info/23040.htm",
         "title": "Technical realization of the Short Message Service (SMS)",
         "publisher": "3GPP"
+    },
+    "GTK": {
+        "href": "https://developer.gnome.org/gtk3/stable/",
+        "title": "GTK+ 3 Reference Manual",
+        "publisher": "The GNOME Project"
     },
     "HIGHRES-TIME": {
         "authors": [
@@ -1708,6 +1724,11 @@
     },
     "UI-EVENTS": {
         "aliasOf": "uievents"
+    },
+    "UIA-EXPRESS": {
+        "href": "https://msdn.microsoft.com/en-us/library/windows/desktop/dd561898%28v=vs.85%29.aspx",
+        "title": "The IAccessibleEx Interface",
+        "publisher": "Microsoft Corporation"
     },
     "UNICODE": {
         "href": "http://www.unicode.org/versions/latest/",
