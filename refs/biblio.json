@@ -13,6 +13,9 @@
     "ABNF": {
         "aliasOf": "RFC5234"
     },
+    "ACCNAME-AAM": {
+        "aliasOf": "accname-aam-1.1"
+    },
     "AES": {
         "href": "http://csrc.nist.gov/publications/fips/fips197/fips-197.pdf",
         "title": "NIST FIPS 197: Advanced Encryption Standard (AES)",
@@ -26,6 +29,9 @@
     },
     "ALT-TECHNIQUES": {
         "aliasOf": "html-alt-techniques"
+    },
+    "ARIA-PRACTICES": {
+        "aliasOf": "wai-aria-practices-1.1"
     },
     "AT-SPI": {
         "href": "https://developer.gnome.org/libatspi/stable/",
@@ -189,6 +195,9 @@
     },
     "COOKIES": {
         "aliasOf": "RFC6265"
+    },
+    "CORE-AAM": {
+        "aliasOf": "core-aam-1.1"
     },
     "CORE-DEVICE": {
         "authors": [
@@ -828,6 +837,9 @@
     },
     "HMAC": {
         "aliasOf": "RFC2104"
+    },
+    "HTML-AAM": {
+        "aliasOf": "html-aam-1.0"
     },
     "HTML-DEVICE": {
         "authors": [
@@ -1529,6 +1541,9 @@
         "date": "12 March 2012",
         "status": "Internet Draft (work in progress)",
         "publisher": "IETF"
+    },
+    "SVG-AAM": {
+        "aliasOf": "svg-aam-1.1"
     },
     "SVG10": {
         "aliasOf": "SVG"
