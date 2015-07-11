@@ -111,7 +111,7 @@
                     "$ref": "#/definitions/idList"
                 }
             },
-            "required": ["href", "rawDate"],
+            "required": ["href"],
             "additionalProperties": false
         },
         "legacyRef": {
