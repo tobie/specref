@@ -224,28 +224,19 @@ There are scripts that pull fresh data from IETF and W3C and update their releva
 
 ### Manual Changes
 
-You can make modifications to the databases simply by editing either `refs/biblio.json` or `xrefs.json` in the [GitHub repository](https://github.com/tobie/specref). 
+You can make modifications to the databases simply by editing either `refs/biblio.json` in the [GitHub repository](https://github.com/tobie/specref). 
 
 In order to do so you can fork the project and make a pull request to update it, or you can ask to be added as a project collaborator (we're pretty open about that) in which case you'll be able to push changes directly.
 
 In both cases, all changes are automatically tested using [travis](https://travis-ci.org/tobie/specref/). If all tests pass, the changes are immediately (and automatically) deployed.
 
-Some rules to observe when editing the databases follow. 
+Some rules to observe when editing the database files: 
 
-For both DBs: 
-
-*   Before committing, make sure that your JSON is well-formed. Syntax-check it with a tool or some such. Broken JSON means it stops being synchronised to the DB, thereby annoying everyone, and it can even cause the service to stop functioning. Remember: we know unsavoury characters world-wide, and we can find out where you live. 
-*   Don't remove entries unless you are 100% certain that no one is using it. Typically that only applies to cases in which you have just added a reference and want to remove it. This applies even if you find a duplicate entry — there are a few, such is life. 
-*   Don't duplicate entries. Make treble-sure that what you want to add is not in the DB. Certainly don't add a duplicate entry just because you don't like the reference short name. 
-
-For the cross-references DB: 
-
-*   Entries in this database are typically automatically generated from a specification. If you find yourself hand-editing something here it is quite possible that you may be doing something wrong. Get in touch and we'll figure it out. 
-
-For the bibliographical references DB: 
-
-* Please use structured objects instead of raw strings as much as you possibly can.
-* When you want to update an existing reference, if you see that it uses the old string style, please convert it to a structured object. 
+*   If you have commit rights, don't commit to master directly. Commit to a seperate branch (preferably to your fork) and send a pull request. Only merge the pull request to master once travis is green.
+*   Don't remove entries unless you are 100% certain that no one is using it. Typically that only applies to cases in which you have just added a reference and want to remove it.
+*   Don't duplicate entries. Make sure that what you want to add is not in the DB. If it is, add an alias.
+*   Please use structured objects instead of raw strings as much as you possibly can.
+*   When you want to update an existing reference, if you see that it uses the old string style, please convert it to a structured object. 
 * References in this database are expected to be to the “latest and greatest” version of a given specification. In some cases this may be the draft residing in the editor's repository, or it may be the latest snapshot as published by a Working Group into TR — this choice is left to your appreciation. If you really, *really* want to have a reference to a dated version, then use the `versions` property like so:
 
 ```js
