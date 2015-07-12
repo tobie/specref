@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 var request = require('request'),
+    userAgent =require("./user-agent"),
     runner = require('./run'),
     xml2js = require('xml2js');
 
@@ -11,7 +12,12 @@ var current = runner.readBiblio(FILE);
 var parser = new xml2js.Parser();
 console.log("Updating IETF references...");
 console.log("Fetching", RFC_URL + "...");
-request(RFC_URL, function(err, response, body) {
+request({
+    url: RFC_URL,
+    headers: {
+        'User-Agent': userAgent()
+    }
+}, function(err, response, body) {
     if (err || response.statusCode !== 200) {
         console.log("Can't fetch", RFC_URL + ".");
         return;

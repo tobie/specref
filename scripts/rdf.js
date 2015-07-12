@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 var request = require('request'),
+    userAgent =require("./user-agent"),
     xml2js = require('xml2js'),
     bibref = require('../lib/bibref'),
     runner = require('./run'),
@@ -49,7 +50,12 @@ function edDraft(url) {
 
 var parser = new xml2js.Parser();
 console.log("Updating W3C references...");
-request(RDF_FILE, function(err, response, body) {
+request({
+    url: RDF_FILE,
+    headers: {
+        'User-Agent': userAgent()
+    }
+}, function(err, response, body) {
     if (err || response.statusCode !== 200) {
         console.log("Can't fetch", RDF_FILE + "...");
         return;

@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 var request = require('request'),
+    userAgent =require("./user-agent"),
     runner = require('./run'),
     bibref = require('../lib/bibref');
 
@@ -11,7 +12,12 @@ var current = runner.readBiblio(FILENAME);
 var refs = bibref.createUppercaseRefs(bibref.expandRefs(bibref.raw));
 console.log("Updating WHATWG references...");
 console.log("Fetching", SOURCE + "...");
-request(SOURCE, function(err, response, body) {
+request({
+    url: SOURCE,
+    headers: {
+        'User-Agent': userAgent()
+    }
+}, function(err, response, body) {
     if (err || response.statusCode !== 200) {
         console.log("Can't fetch", SOURCE + ".");
         return;
