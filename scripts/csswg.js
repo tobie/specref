@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 var request = require('request'),
+    userAgent =require("./user-agent"),
     bibref = require('../lib/bibref'),
     runner = require('./run');
     
@@ -46,7 +47,12 @@ var REF_URL = "http://dev.w3.org/csswg/biblio.ref";
 
 console.log("Updating CSS WG refs...");
 console.log("Fetching", REF_URL + "...");
-request(REF_URL, function(err, response, body) {
+request({
+    url: REF_URL,
+    headers: {
+        'User-Agent': userAgent()
+    }
+}, function(err, response, body) {
     if (err || response.statusCode !== 200) {
         console.log("Can't fetch", REF_URL + ".");
         return;
