@@ -3,6 +3,9 @@ var assert = require('assert'),
     format = require('../lib/format-date');
 
 suite('Test format-date api', function() {
+    test('only years', function() {
+        assert.equal("2013", format("2013"));
+    });
 
     test('short dates', function() {
         assert.equal("January 2013", format("2013-01"));
