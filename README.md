@@ -214,13 +214,13 @@ Some examples should help:
     // the same as JSON-P
     GET https://specref.herokuapp.com/xrefs?refs=cssom,fileapi&callback=yourFunctionName
             
-If you need to find a reference ID (for either bibliographic or cross-references) you need to look for it on [specref.org](http://specref.org). Please note that the identifiers for bibliographic references are not the same as for definition cross-references, and that just because a specification is featured in one does not mean it is also in the other. (Historically, those were two separate databases that were merged. Or, if you really insist on accuracy, the CSS bibref DB was converted into the ReSpec JS DB; the latter was extensively extended and edited, forked into the Specifiction database which was edited, then into the ReSpec v3 database which was also edited, then much of those were merged; in a parallel universe the Anolis bibliographical and cross-reference databases were developed; then all of these were merged into this service. So stop whining and delight in the consistency that you do have.) 
+If you need to find a reference ID (for either bibliographic or cross-references) you need to look for it on [specref.org](http://specref.org).
 
 ## Updating & Adding
 
 ### Daily Auto-Updating
 
-There are scripts that pull fresh data from IETF and W3C and update their relevant files in the `refs` directory. These are now run daily. Their output is tested, comitted and deployed without human intervention. Content should now always be up to date.
+There are scripts that pull fresh data from IETF, W3C, and WHATWG, and update their relevant files in the `refs` directory. These are now run daily. Their output is tested, comitted and deployed without human intervention. Content should now always be up to date.
 
 ### Manual Changes
 
