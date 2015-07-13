@@ -48,9 +48,16 @@ app.get('/search-refs', function (req, res, next) {
 			current = all[shortname];
 			if (match(shortname)) {
 				add();
+				if ("aliasOf" in current) {
+					var k = current.aliasOf;
+					while (k) {
+						obj[k] = all[k];
+						k = obj[k].aliasOf;
+					}
+				}
 			} else if (typeof current == "string") { // legacy
 				if (match(current)) { add(); }
-			} else {
+			} else if (!("aliasOf" in current)) {
 				for (var key in current) {
 					var value = current[key];
 					if (typeof value == "string") {
