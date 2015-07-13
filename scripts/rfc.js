@@ -26,7 +26,12 @@ request({
     console.log("Parsing", RFC_URL + "...");
     parser.parseString(body, function (err, result) {
         result["rfc-index"]["rfc-entry"].map(formatData).forEach(function(obj) {
-            current[obj.rfcNumber.toLowerCase()] = obj;
+            var id = obj.rfcNumber.toLowerCase();
+            var unpadded = unpad(id);
+            current[id] = obj;
+            if (unpadded !== id) {
+                current[unpadded] = { aliasOf: id };
+            }
         });
     });
     current = runner.sortRefs(current);
@@ -35,7 +40,11 @@ request({
 });
 
 function href(index) {
-    return "https://tools.ietf.org/html/" + index.toLowerCase();
+    return "https://tools.ietf.org/html/" + unpad(index.toLowerCase());
+}
+
+function unpad(index) {
+    return index.replace(/(rfc)0*(\d+)/i, "$1$2");
 }
 
 var MONTHS = [
