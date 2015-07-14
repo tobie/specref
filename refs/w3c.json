@@ -9777,7 +9777,7 @@
         },
         "rawDate": "2014-01-30",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
-        "edDraft": "http://dvcs.w3.org/hg/xhr/xhr-1/raw-file/tip/Overview.html",
+        "edDraft": "http://dvcs.w3.org/hg/xhr/raw-file/default/xhr-1/Overview.html",
         "obsoletes": [
             "XMLHttpRequest2",
             "XMLHttpRequest1"
@@ -10040,7 +10040,7 @@
         ],
         "href": "http://www.w3.org/TR/accname-aam-1.1/",
         "title": "Accessible Name and Description: Computation and API Mappings 1.1",
-        "rawDate": "2014-12-11",
+        "rawDate": "2015-07-14",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/aria/accname-aam/accname-aam.html",
@@ -10059,6 +10059,23 @@
                 "href": "http://www.w3.org/TR/2014/WD-accname-aam-1.1-20141211/",
                 "title": "Accessible Name and Description: Computation and API Mappings 1.1",
                 "rawDate": "2014-12-11",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/WAI/PF/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150714": {
+                "authors": [
+                    "Joseph Scheuhammer",
+                    "James Craig",
+                    "Andi Snow-Weaver",
+                    "Aaron Leventhal"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-accname-aam-1.1-20150714/",
+                "title": "Accessible Name and Description: Computation and API Mappings 1.1",
+                "rawDate": "2015-07-14",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -10500,8 +10517,8 @@
         ],
         "href": "http://www.w3.org/TR/api-perms/",
         "title": "Permissions for Device API Access",
-        "rawDate": "2010-10-05",
-        "status": "WD",
+        "rawDate": "2015-07-14",
+        "status": "NOTE",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2009/dap/"
@@ -10523,8 +10540,25 @@
                     "http://www.w3.org/2009/dap/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150714": {
+                "authors": [
+                    "Paddy Byers",
+                    "Frederick Hirsch",
+                    "Dominique Hazaël-Massieux"
+                ],
+                "href": "http://www.w3.org/TR/2015/NOTE-api-perms-20150714/",
+                "title": "Permissions for Device API Access",
+                "rawDate": "2015-07-14",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2009/dap/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "edDraft": "http://dev.w3.org/2009/dap/api-perms/"
     },
     "app-privacy-bp": {
         "authors": [
@@ -12412,7 +12446,7 @@
         ],
         "href": "http://www.w3.org/TR/core-aam-1.1/",
         "title": "Core Accessibility API Mappings 1.1",
-        "rawDate": "2015-05-14",
+        "rawDate": "2015-07-14",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -12464,6 +12498,23 @@
                 "href": "http://www.w3.org/TR/2015/WD-core-aam-1.1-20150514/",
                 "title": "Core Accessibility API Mappings 1.1",
                 "rawDate": "2015-05-14",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/WAI/PF/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150714": {
+                "authors": [
+                    "Joseph Scheuhammer",
+                    "Michael Cooper",
+                    "Andi Snow-Weaver",
+                    "Aaron Leventhal"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-core-aam-1.1-20150714/",
+                "title": "Core Accessibility API Mappings 1.1",
+                "rawDate": "2015-07-14",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -21741,12 +21792,13 @@
     },
     "hr-time-2": {
         "authors": [
+            "Ilya Grigorik",
             "James Simonsen",
             "Jatinder Mann"
         ],
         "href": "http://www.w3.org/TR/hr-time-2/",
         "title": "High Resolution Time Level 2",
-        "rawDate": "2015-06-17",
+        "rawDate": "2015-07-14",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -21777,6 +21829,22 @@
                 "href": "http://www.w3.org/TR/2015/WD-hr-time-2-20150617/",
                 "title": "High Resolution Time Level 2",
                 "rawDate": "2015-06-17",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2010/webperf/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150714": {
+                "authors": [
+                    "Ilya Grigorik",
+                    "James Simonsen",
+                    "Jatinder Mann"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-hr-time-2-20150714/",
+                "title": "High Resolution Time Level 2",
+                "rawDate": "2015-07-14",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -42699,8 +42767,8 @@
         ],
         "href": "http://www.w3.org/TR/tracking-compliance/",
         "title": "Tracking Compliance and Scope",
-        "rawDate": "2015-03-31",
-        "status": "WD",
+        "rawDate": "2015-07-14",
+        "status": "LCWD",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2011/tracking-protection/"
@@ -42841,6 +42909,24 @@
                 "title": "Tracking Compliance and Scope",
                 "rawDate": "2015-03-31",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2011/tracking-protection/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150714": {
+                "authors": [
+                    "Nick Doty",
+                    "Heather West",
+                    "Justin Brookman",
+                    "Sean Harvey",
+                    "Erica Newland"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-tracking-compliance-20150714/",
+                "title": "Tracking Compliance and Scope",
+                "rawDate": "2015-07-14",
+                "status": "LCWD",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/2011/tracking-protection/"
@@ -45619,7 +45705,7 @@
         ],
         "href": "http://www.w3.org/TR/wai-aria-1.1/",
         "title": "Accessible Rich Internet Applications (WAI-ARIA) 1.1",
-        "rawDate": "2015-05-14",
+        "rawDate": "2015-07-14",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -45684,6 +45770,23 @@
                 "href": "http://www.w3.org/TR/2015/WD-wai-aria-1.1-20150514/",
                 "title": "Accessible Rich Internet Applications (WAI-ARIA) 1.1",
                 "rawDate": "2015-05-14",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/WAI/PF/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150714": {
+                "authors": [
+                    "Joanmarie Diggs",
+                    "James Craig",
+                    "Shane McCarron",
+                    "Michael Cooper"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-wai-aria-1.1-20150714/",
+                "title": "Accessible Rich Internet Applications (WAI-ARIA) 1.1",
+                "rawDate": "2015-07-14",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
