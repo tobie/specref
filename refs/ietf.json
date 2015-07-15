@@ -34804,6 +34804,9 @@
         ],
         "rawDate": "1998-08",
         "status": "Proposed Standard",
+        "obsoletedBy": [
+            "RFC7578"
+        ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=2388",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -97863,6 +97866,9 @@
         ],
         "rawDate": "2012-02",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC7582"
+        ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=6513",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -97883,7 +97889,8 @@
             "RFC6515",
             "RFC6625",
             "RFC7385",
-            "RFC7441"
+            "RFC7441",
+            "RFC7582"
         ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=6514",
         "publisher": "IETF",
@@ -99522,6 +99529,9 @@
         ],
         "rawDate": "2012-05",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC7582"
+        ],
         "updates": [
             "RFC6514"
         ],
@@ -113612,6 +113622,21 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc7558": {
+        "rfcNumber": "RFC7558",
+        "href": "https://tools.ietf.org/html/rfc7558",
+        "title": "Requirements for Scalable DNS-Based Service Discovery (DNS-SD) / Multicast DNS (mDNS) Extensions",
+        "authors": [
+            "K. Lynn",
+            "S. Cheshire",
+            "M. Blanchet",
+            "D. Migault"
+        ],
+        "rawDate": "2015-07",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc7559": {
         "rfcNumber": "RFC7559",
         "href": "https://tools.ietf.org/html/rfc7559",
@@ -113752,6 +113777,20 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc7569": {
+        "rfcNumber": "RFC7569",
+        "href": "https://tools.ietf.org/html/rfc7569",
+        "title": "Registry Specification for Mandatory Access Control (MAC) Security Label Formats",
+        "authors": [
+            "D. Quigley",
+            "J. Lu",
+            "T. Haynes"
+        ],
+        "rawDate": "2015-07",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc757": {
         "aliasOf": "rfc0757"
     },
@@ -113858,6 +113897,21 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc7578": {
+        "rfcNumber": "RFC7578",
+        "href": "https://tools.ietf.org/html/rfc7578",
+        "title": "Returning Values from Forms: multipart/form-data",
+        "authors": [
+            "L. Masinter"
+        ],
+        "rawDate": "2015-07",
+        "status": "Proposed Standard",
+        "obsoletes": [
+            "RFC2388"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc7579": {
         "rfcNumber": "RFC7579",
         "href": "https://tools.ietf.org/html/rfc7579",
@@ -113909,6 +113963,26 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc7582": {
+        "rfcNumber": "RFC7582",
+        "href": "https://tools.ietf.org/html/rfc7582",
+        "title": "Multicast Virtual Private Network (MVPN): Using Bidirectional P-Tunnels",
+        "authors": [
+            "E. Rosen",
+            "IJ. Wijnands",
+            "Y. Cai",
+            "A. Boers"
+        ],
+        "rawDate": "2015-07",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC6513",
+            "RFC6514",
+            "RFC6625"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc7584": {
         "rfcNumber": "RFC7584",
         "href": "https://tools.ietf.org/html/rfc7584",
@@ -113950,6 +114024,20 @@
         ],
         "rawDate": "2015-06",
         "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7588": {
+        "rfcNumber": "RFC7588",
+        "href": "https://tools.ietf.org/html/rfc7588",
+        "title": "A Widely Deployed Solution to the Generic Routing Encapsulation (GRE) Fragmentation Problem",
+        "authors": [
+            "R. Bonica",
+            "C. Pignataro",
+            "J. Touch"
+        ],
+        "rawDate": "2015-07",
+        "status": "Informational",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
