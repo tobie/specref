@@ -690,6 +690,13 @@
     "FILE-WRITER": {
         "aliasOf": "file-writer-api"
     },
+    "FIRESHEEP": {
+        "authors": [
+            "Eric Butler"
+        ],
+        "href": "http://codebutler.com/firesheep/",
+        "title": "Firesheep"
+    },
     "FLEXBOX": {
         "aliasOf": "css3-flexbox"
     },
@@ -974,6 +981,28 @@
         "status": "Internet Draft",
         "title": "JSON Web Token (JWT)"
     },
+    "KEYS": {
+        "authors": [
+            "Harold Abelson",
+            "Ross Anderson",
+            "Steven M. Bellovin",
+            "Josh Benaloh",
+            "Matthew Blaze",
+            "Whitfield Diffie",
+            "John Gilmore",
+            "Matthew Green",
+            "Peter G. Neumann",
+            "Susan Landau",
+            "Ronald L. Rivest",
+            "Jeffrey I. Schiller",
+            "Bruce Schneier",
+            "Michael Specter",
+            "Daniel J. Weitzner"
+        ],
+        "href": "https://www.cl.cam.ac.uk/~rja14/Papers/doormats.pdf",
+        "title": "Keys Under Doormats: mandating insecurity by requiring government access to all data and communications",
+        "publisher": "MIT CSAIL Technical Reports"
+    },
     "KUIL": {
         "authors": [
             "Kormann",
@@ -1254,6 +1283,14 @@
     "P3P1.0": {
         "aliasOf": "P3P"
     },
+    "PERMACOOKIE": {
+        "authors": [
+            "Robert McMillan"
+        ],
+        "href": "http://www.wired.com/2014/10/verizons-perma-cookie/",
+        "title": "Verizon's 'Perma-Cookie' Is a Privacy-Killing Machine",
+        "publisher": "Wired"
+    },
     "PGP": {
         "aliasOf": "RFC4880"
     },
@@ -1468,6 +1505,15 @@
     },
     "SDPLABEL": {
         "aliasOf": "rfc4574"
+    },
+    "SECURING-WEB": {
+        "authors": [
+            "Mark Nottingham"
+        ],
+        "href": "http://www.w3.org/2001/tag/doc/web-https",
+        "title": "Securing the Web",
+        "status": "Finding",
+        "publisher": "W3C"
     },
     "SELECT": {
         "aliasOf": "css3-selectors"
