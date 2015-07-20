@@ -16307,6 +16307,9 @@
     "css3-flexbox": {
         "aliasOf": "css-flexbox-1"
     },
+    "css3-fonts": {
+        "aliasOf": "css-fonts-3"
+    },
     "css3-gcpm": {
         "aliasOf": "css-gcpm-3"
     },
@@ -16712,6 +16715,9 @@
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
+    },
+    "css3-namespace": {
+        "aliasOf": "css-namespaces-3"
     },
     "css3-page": {
         "authors": [
@@ -17297,6 +17303,9 @@
     "css3-values": {
         "aliasOf": "css-values"
     },
+    "css3-webfonts": {
+        "aliasOf": "css-fonts-3"
+    },
     "css3-writing-modes": {
         "aliasOf": "css-writing-modes-3"
     },
@@ -17445,8 +17454,8 @@
         ],
         "href": "http://www.w3.org/TR/csv2json/",
         "title": "Generating JSON from Tabular Data on the Web",
-        "rawDate": "2015-04-16",
-        "status": "WD",
+        "rawDate": "2015-07-16",
+        "status": "CR",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/csvw/csv2json/",
         "deliveredBy": [
@@ -17483,6 +17492,21 @@
                     "http://www.w3.org/2013/csvw/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150716": {
+                "authors": [
+                    "Jeremy Tandy",
+                    "Ivan Herman"
+                ],
+                "href": "http://www.w3.org/TR/2015/CR-csv2json-20150716/",
+                "title": "Generating JSON from Tabular Data on the Web",
+                "rawDate": "2015-07-16",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2013/csvw/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
     },
@@ -17494,8 +17518,8 @@
         ],
         "href": "http://www.w3.org/TR/csv2rdf/",
         "title": "Generating RDF from Tabular Data on the Web",
-        "rawDate": "2015-04-16",
-        "status": "WD",
+        "rawDate": "2015-07-16",
+        "status": "CR",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/csvw/csv2rdf/",
         "deliveredBy": [
@@ -17528,6 +17552,22 @@
                 "title": "Generating RDF from Tabular Data on the Web",
                 "rawDate": "2015-04-16",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2013/csvw/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150716": {
+                "authors": [
+                    "Jeremy Tandy",
+                    "Ivan Herman",
+                    "Gregg Kellogg"
+                ],
+                "href": "http://www.w3.org/TR/2015/CR-csv2rdf-20150716/",
+                "title": "Generating RDF from Tabular Data on the Web",
+                "rawDate": "2015-07-16",
+                "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/2013/csvw/"
@@ -20651,7 +20691,7 @@
         ],
         "href": "http://www.w3.org/TR/frame-timing/",
         "title": "Frame Timing",
-        "rawDate": "2015-06-24",
+        "rawDate": "2015-07-17",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/frame-timing/",
@@ -20698,6 +20738,21 @@
                 "href": "http://www.w3.org/TR/2015/WD-frame-timing-20150624/",
                 "title": "Frame Timing",
                 "rawDate": "2015-06-24",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2010/webperf/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150717": {
+                "authors": [
+                    "Michael Blain",
+                    "Ilya Grigorik"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-frame-timing-20150717/",
+                "title": "Frame Timing",
+                "rawDate": "2015-07-17",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -21798,7 +21853,7 @@
         ],
         "href": "http://www.w3.org/TR/hr-time-2/",
         "title": "High Resolution Time Level 2",
-        "rawDate": "2015-07-14",
+        "rawDate": "2015-07-18",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -21845,6 +21900,22 @@
                 "href": "http://www.w3.org/TR/2015/WD-hr-time-2-20150714/",
                 "title": "High Resolution Time Level 2",
                 "rawDate": "2015-07-14",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2010/webperf/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150718": {
+                "authors": [
+                    "Ilya Grigorik",
+                    "James Simonsen",
+                    "Jatinder Mann"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-hr-time-2-20150718/",
+                "title": "High Resolution Time Level 2",
+                "rawDate": "2015-07-18",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -28979,8 +29050,8 @@
             "Arvind Jain"
         ],
         "href": "http://www.w3.org/TR/navigation-timing-2/",
-        "title": "Navigation Timing 2",
-        "rawDate": "2015-06-26",
+        "title": "Navigation Timing Level 2",
+        "rawDate": "2015-07-18",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -29076,6 +29147,22 @@
                 "href": "http://www.w3.org/TR/2015/WD-navigation-timing-2-20150626/",
                 "title": "Navigation Timing 2",
                 "rawDate": "2015-06-26",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2010/webperf/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150718": {
+                "authors": [
+                    "Tobin Titus",
+                    "Jatinder Mann",
+                    "Arvind Jain"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-navigation-timing-2-20150718/",
+                "title": "Navigation Timing Level 2",
+                "rawDate": "2015-07-18",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -31308,6 +31395,37 @@
                 "title": "Performance Timeline",
                 "rawDate": "2013-12-12",
                 "status": "REC",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2010/webperf/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
+    "performance-timeline-2": {
+        "authors": [
+            "Ilya Grigorik"
+        ],
+        "href": "http://www.w3.org/TR/performance-timeline-2/",
+        "title": "Performance Timeline Level 2",
+        "rawDate": "2015-07-17",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/performance-timeline/",
+        "deliveredBy": [
+            "http://www.w3.org/2010/webperf/"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20150717": {
+                "authors": [
+                    "Ilya Grigorik"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-performance-timeline-2-20150717/",
+                "title": "Performance Timeline Level 2",
+                "rawDate": "2015-07-17",
+                "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/2010/webperf/"
@@ -36120,7 +36238,7 @@
         ],
         "href": "http://www.w3.org/TR/resource-hints/",
         "title": "Resource Hints",
-        "rawDate": "2015-04-23",
+        "rawDate": "2015-07-17",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/resource-hints/",
@@ -36150,6 +36268,20 @@
                 "href": "http://www.w3.org/TR/2015/WD-resource-hints-20150423/",
                 "title": "Resource Hints",
                 "rawDate": "2015-04-23",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2010/webperf/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150717": {
+                "authors": [
+                    "Ilya Grigorik"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-resource-hints-20150717/",
+                "title": "Resource Hints",
+                "rawDate": "2015-07-17",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -38554,7 +38686,7 @@
         ],
         "href": "http://www.w3.org/TR/server-timing/",
         "title": "Server Timing",
-        "rawDate": "2015-04-28",
+        "rawDate": "2015-07-17",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/server-timing/",
@@ -38584,6 +38716,20 @@
                 "href": "http://www.w3.org/TR/2015/WD-server-timing-20150428/",
                 "title": "Server Timing",
                 "rawDate": "2015-04-28",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2010/webperf/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150717": {
+                "authors": [
+                    "Ilya Grigorik"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-server-timing-20150717/",
+                "title": "Server Timing",
+                "rawDate": "2015-07-17",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -42117,8 +42263,8 @@
         ],
         "href": "http://www.w3.org/TR/tabular-data-model/",
         "title": "Model for Tabular Data and Metadata on the Web",
-        "rawDate": "2015-04-16",
-        "status": "WD",
+        "rawDate": "2015-07-16",
+        "status": "CR",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2013/csvw/"
@@ -42184,6 +42330,21 @@
                     "http://www.w3.org/2013/csvw/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150716": {
+                "authors": [
+                    "Jeni Tennison",
+                    "Gregg Kellogg"
+                ],
+                "href": "http://www.w3.org/TR/2015/CR-tabular-data-model-20150716/",
+                "title": "Model for Tabular Data and Metadata on the Web",
+                "rawDate": "2015-07-16",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2013/csvw/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
         "edDraft": "https://w3c.github.io/csvw/syntax/"
@@ -42195,8 +42356,8 @@
         ],
         "href": "http://www.w3.org/TR/tabular-metadata/",
         "title": "Metadata Vocabulary for Tabular Data",
-        "rawDate": "2015-04-16",
-        "status": "WD",
+        "rawDate": "2015-07-16",
+        "status": "CR",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/csvw/metadata/",
         "deliveredBy": [
@@ -42243,6 +42404,21 @@
                 "title": "Metadata Vocabulary for Tabular Data",
                 "rawDate": "2015-04-16",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2013/csvw/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150716": {
+                "authors": [
+                    "Jeni Tennison",
+                    "Gregg Kellogg"
+                ],
+                "href": "http://www.w3.org/TR/2015/CR-tabular-metadata-20150716/",
+                "title": "Metadata Vocabulary for Tabular Data",
+                "rawDate": "2015-07-16",
+                "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/2013/csvw/"
