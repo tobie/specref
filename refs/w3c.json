@@ -493,7 +493,7 @@
         ],
         "href": "http://www.w3.org/TR/ATAG20/",
         "title": "Authoring Tool Accessibility Guidelines (ATAG) 2.0",
-        "status": "CR",
+        "status": "PR",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/WAI/AU/"
@@ -640,9 +640,25 @@
                     "http://www.w3.org/WAI/AU/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150721": {
+                "authors": [
+                    "Jan Richards",
+                    "Jeanne F Spellman",
+                    "Jutta Treviranus"
+                ],
+                "href": "http://www.w3.org/TR/2015/PR-ATAG20-20150721/",
+                "title": "Authoring Tool Accessibility Guidelines (ATAG) 2.0",
+                "rawDate": "2015-07-21",
+                "status": "PR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/WAI/AU/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2015-06-04",
+        "rawDate": "2015-07-21",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
         "edDraft": "http://www.w3.org/WAI/AU/ATAG20/"
     },
@@ -1196,7 +1212,7 @@
         ],
         "href": "http://www.w3.org/TR/CSP2/",
         "title": "Content Security Policy Level 2",
-        "rawDate": "2015-02-19",
+        "rawDate": "2015-07-21",
         "status": "CR",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/webappsec/specs/CSP2/",
@@ -1275,6 +1291,22 @@
                 "href": "http://www.w3.org/TR/2015/CR-CSP2-20150219/",
                 "title": "Content Security Policy Level 2",
                 "rawDate": "2015-02-19",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2011/webappsec/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150721": {
+                "authors": [
+                    "Mike West",
+                    "Adam Barth",
+                    "Daniel Veditz"
+                ],
+                "href": "http://www.w3.org/TR/2015/CR-CSP2-20150721/",
+                "title": "Content Security Policy Level 2",
+                "rawDate": "2015-07-21",
                 "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -3909,7 +3941,7 @@
         ],
         "href": "http://www.w3.org/TR/IMPLEMENTING-ATAG20/",
         "title": "Implementing ATAG 2.0",
-        "rawDate": "2015-06-04",
+        "rawDate": "2015-07-21",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -4028,6 +4060,22 @@
                 "href": "http://www.w3.org/TR/2015/WD-IMPLEMENTING-ATAG20-20150604/",
                 "title": "Implementing ATAG 2.0",
                 "rawDate": "2015-06-04",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/WAI/AU/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150721": {
+                "authors": [
+                    "Jan Richards",
+                    "Jeanne F Spellman",
+                    "Jutta Treviranus"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-IMPLEMENTING-ATAG20-20150721/",
+                "title": "Implementing ATAG 2.0",
+                "rawDate": "2015-07-21",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -11854,11 +11902,25 @@
                     "http://www.w3.org/International/core/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150721": {
+                "authors": [
+                    "Addison Phillips"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-charmod-norm-20150721/",
+                "title": "Character Model for the World Wide Web: String Matching and Searching",
+                "rawDate": "2015-07-21",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/International/core/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2014-07-15",
+        "rawDate": "2015-07-21",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
-        "edDraft": "http://www.w3.org/International/docs/charmod-norm/"
+        "edDraft": "https://w3c.github.io/charmod-norm/"
     },
     "charmod-resid": {
         "authors": [
@@ -13255,7 +13317,7 @@
         ],
         "href": "http://www.w3.org/TR/css-display-3/",
         "title": "CSS Display Module Level 3",
-        "rawDate": "2014-09-11",
+        "rawDate": "2015-07-21",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -13285,6 +13347,21 @@
                 "href": "http://www.w3.org/TR/2014/WD-css-display-3-20140911/",
                 "title": "CSS Display Module Level 3",
                 "rawDate": "2014-09-11",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Style/CSS/members"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150721": {
+                "authors": [
+                    "Tab Atkins Jr.",
+                    "Elika Etemad"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-css-display-3-20150721/",
+                "title": "CSS Display Module Level 3",
+                "rawDate": "2015-07-21",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -21853,7 +21930,7 @@
         ],
         "href": "http://www.w3.org/TR/hr-time-2/",
         "title": "High Resolution Time Level 2",
-        "rawDate": "2015-07-18",
+        "rawDate": "2015-07-21",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -21916,6 +21993,22 @@
                 "href": "http://www.w3.org/TR/2015/WD-hr-time-2-20150718/",
                 "title": "High Resolution Time Level 2",
                 "rawDate": "2015-07-18",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2010/webperf/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150721": {
+                "authors": [
+                    "Ilya Grigorik",
+                    "James Simonsen",
+                    "Jatinder Mann"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-hr-time-2-20150721/",
+                "title": "High Resolution Time Level 2",
+                "rawDate": "2015-07-21",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -22199,12 +22292,13 @@
     },
     "html-bidi": {
         "authors": [
-            "Aharon Lanin"
+            "Aharon Lanin",
+            "Richard Ishida"
         ],
         "href": "http://www.w3.org/TR/html-bidi/",
-        "title": "Additional Requirements for Bidi in HTML",
-        "rawDate": "2010-03-04",
-        "status": "WD",
+        "title": "Additional Requirements for Bidi in HTML & CSS",
+        "rawDate": "2015-07-21",
+        "status": "NOTE",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/International/core/"
@@ -22219,6 +22313,21 @@
                 "title": "Additional Requirements for Bidi in HTML",
                 "rawDate": "2010-03-04",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/International/core/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150721": {
+                "authors": [
+                    "Aharon Lanin",
+                    "Richard Ishida"
+                ],
+                "href": "http://www.w3.org/TR/2015/NOTE-html-bidi-20150721/",
+                "title": "Additional Requirements for Bidi in HTML & CSS",
+                "rawDate": "2015-07-21",
+                "status": "NOTE",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/International/core/"
@@ -24376,10 +24485,10 @@
         ],
         "href": "http://www.w3.org/TR/ilreq/",
         "title": "Indic Layout Requirements",
-        "rawDate": "2014-12-16",
+        "rawDate": "2015-07-21",
         "status": "WD",
         "publisher": "W3C",
-        "edDraft": "http://www.w3.org/International/docs/indic-layout/",
+        "edDraft": "https://w3c.github.io/ilreq/",
         "deliveredBy": [
             "http://www.w3.org/International/core/"
         ],
@@ -24394,6 +24503,22 @@
                 "href": "http://www.w3.org/TR/2014/WD-ilreq-20141216/",
                 "title": "Indic Layout Requirements",
                 "rawDate": "2014-12-16",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/International/core/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150721": {
+                "authors": [
+                    "Swaran Lata",
+                    "Somnath Chandra",
+                    "Prashant Verma Prashant"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-ilreq-20150721/",
+                "title": "Indic Layout Requirements",
+                "rawDate": "2015-07-21",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -32285,6 +32410,37 @@
             }
         },
         "edDraft": "http://www.w3.org/International/docs/counter-styles/"
+    },
+    "preload": {
+        "authors": [
+            "Ilya Grigorik"
+        ],
+        "href": "http://www.w3.org/TR/preload/",
+        "title": "Preload",
+        "rawDate": "2015-07-21",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/preload/",
+        "deliveredBy": [
+            "http://www.w3.org/2010/webperf/"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20150721": {
+                "authors": [
+                    "Ilya Grigorik"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-preload-20150721/",
+                "title": "Preload",
+                "rawDate": "2015-07-21",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2010/webperf/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
     },
     "presentation-api": {
         "authors": [
