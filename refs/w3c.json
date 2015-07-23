@@ -10678,8 +10678,8 @@
         ],
         "href": "http://www.w3.org/TR/app-uri/",
         "title": "The app: URL Scheme",
-        "rawDate": "2014-05-29",
-        "status": "LCWD",
+        "rawDate": "2015-07-23",
+        "status": "NOTE",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2012/sysapps/"
@@ -10708,6 +10708,20 @@
                 "title": "The app: URL Scheme",
                 "rawDate": "2014-05-29",
                 "status": "LCWD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2012/sysapps/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150723": {
+                "authors": [
+                    "Marcos Caceres"
+                ],
+                "href": "http://www.w3.org/TR/2015/NOTE-app-uri-20150723/",
+                "title": "The app: URL Scheme",
+                "rawDate": "2015-07-23",
+                "status": "NOTE",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/2012/sysapps/"
@@ -12129,6 +12143,49 @@
         "rawDate": "2015-04-21",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
         "edDraft": "https://w3c.github.io/clipboard-apis/"
+    },
+    "clreq": {
+        "authors": [
+            "Bobby Tung",
+            "Yijun Chen",
+            "Hai Liang",
+            "Eric Q LIU",
+            "Xiaoqian Wu",
+            "An Qi Li",
+            "Richard Ishida"
+        ],
+        "href": "http://www.w3.org/TR/clreq/",
+        "title": "Requirements for Chinese Text Layout 中文排版需求",
+        "rawDate": "2015-07-23",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/clreq/",
+        "deliveredBy": [
+            "http://www.w3.org/International/core/"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20150723": {
+                "authors": [
+                    "Bobby Tung",
+                    "Yijun Chen",
+                    "Hai Liang",
+                    "Eric Q LIU",
+                    "Xiaoqian Wu",
+                    "An Qi Li",
+                    "Richard Ishida"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-clreq-20150723/",
+                "title": "Requirements for Chinese Text Layout 中文排版需求",
+                "rawDate": "2015-07-23",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/International/core/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
     },
     "coga-user-research": {
         "authors": [
@@ -25602,8 +25659,8 @@
             "Richard Ishida"
         ],
         "href": "http://www.w3.org/TR/klreq/",
-        "title": "Requirements for Hangul Text Layout and Typography",
-        "rawDate": "2015-06-30",
+        "title": "Requirements for Hangul Text Layout and Typography 한국어 텍스트 레이아웃 및 타이포그래피를 위한 요구사항",
+        "rawDate": "2015-07-23",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -25646,6 +25703,20 @@
                 "href": "http://www.w3.org/TR/2015/WD-klreq-20150630/",
                 "title": "Requirements for Hangul Text Layout and Typography",
                 "rawDate": "2015-06-30",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/International/core/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150723": {
+                "authors": [
+                    "Richard Ishida"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-klreq-20150723/",
+                "title": "Requirements for Hangul Text Layout and Typography 한국어 텍스트 레이아웃 및 타이포그래피를 위한 요구사항",
+                "rawDate": "2015-07-23",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -38587,6 +38658,39 @@
         "rawDate": "2015-04-30",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
+    "sdw-ucr": {
+        "authors": [
+            "Frans Knibbe",
+            "Alejandro Llaves"
+        ],
+        "href": "http://www.w3.org/TR/sdw-ucr/",
+        "title": "Spatial Data on the Web Use Cases & Requirements",
+        "rawDate": "2015-07-23",
+        "status": "NOTE",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/sdw/UseCases/SDWUseCasesAndRequirements.html",
+        "deliveredBy": [
+            "http://www.w3.org/2015/spatial/"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20150723": {
+                "authors": [
+                    "Frans Knibbe",
+                    "Alejandro Llaves"
+                ],
+                "href": "http://www.w3.org/TR/2015/NOTE-sdw-ucr-20150723/",
+                "title": "Spatial Data on the Web Use Cases & Requirements",
+                "rawDate": "2015-07-23",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2015/spatial/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
     "selection-api": {
         "authors": [
             "Ryosuke Niwa"
@@ -42717,8 +42821,8 @@
         ],
         "href": "http://www.w3.org/TR/task-scheduler/",
         "title": "Task Scheduler API Specification",
-        "rawDate": "2014-12-02",
-        "status": "WD",
+        "rawDate": "2015-07-23",
+        "status": "NOTE",
         "publisher": "W3C",
         "edDraft": "http://www.w3.org/2012/sysapps/web-alarms/",
         "deliveredBy": [
@@ -42753,6 +42857,20 @@
                     "http://www.w3.org/2012/sysapps/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150723": {
+                "authors": [
+                    "Mahesh Kulkarni"
+                ],
+                "href": "http://www.w3.org/TR/2015/NOTE-task-scheduler-20150723/",
+                "title": "Task Scheduler API Specification",
+                "rawDate": "2015-07-23",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2012/sysapps/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
     },
@@ -42762,8 +42880,8 @@
         ],
         "href": "http://www.w3.org/TR/tcp-udp-sockets/",
         "title": "TCP and UDP Socket API",
-        "rawDate": "2014-12-02",
-        "status": "WD",
+        "rawDate": "2015-07-23",
+        "status": "NOTE",
         "publisher": "W3C",
         "edDraft": "http://www.w3.org/2012/sysapps/tcp-udp-sockets/",
         "deliveredBy": [
@@ -42793,6 +42911,20 @@
                 "title": "TCP and UDP Socket API",
                 "rawDate": "2014-12-02",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2012/sysapps/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150723": {
+                "authors": [
+                    "Claes Nilsson"
+                ],
+                "href": "http://www.w3.org/TR/2015/NOTE-tcp-udp-sockets-20150723/",
+                "title": "TCP and UDP Socket API",
+                "rawDate": "2015-07-23",
+                "status": "NOTE",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/2012/sysapps/"
@@ -56675,10 +56807,32 @@
                     "http://www.w3.org/2008/xmlsec/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150723": {
+                "authors": [
+                    "Donald Eastlake",
+                    "Joseph Reagle",
+                    "David Solo",
+                    "Frederick Hirsch",
+                    "Thomas Roessler",
+                    "Kelvin Yiu",
+                    "Pratik Datta",
+                    "Scott Cantor"
+                ],
+                "href": "http://www.w3.org/TR/2015/NOTE-xmldsig-core2-20150723/",
+                "title": "XML Signature Syntax and Processing Version 2.0",
+                "rawDate": "2015-07-23",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2008/xmlsec/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2013-04-11",
-        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+        "rawDate": "2015-07-23",
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "edDraft": "http://www.w3.org/2008/xmlsec/Drafts/xmldsig-core-20/"
     },
     "xmldsig-filter2": {
         "authors": [
