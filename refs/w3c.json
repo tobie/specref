@@ -12167,6 +12167,7 @@
             "Yijun Chen",
             "Hai Liang",
             "Eric Q LIU",
+            "Aijie Zhang",
             "Xiaoqian Wu",
             "An Qi Li",
             "Richard Ishida"
@@ -12208,6 +12209,7 @@
                     "Yijun Chen",
                     "Hai Liang",
                     "Eric Q LIU",
+                    "Aijie Zhang",
                     "Xiaoqian Wu",
                     "An Qi Li",
                     "Richard Ishida"
@@ -47663,7 +47665,7 @@
         ],
         "href": "http://www.w3.org/TR/webdriver/",
         "title": "WebDriver",
-        "rawDate": "2013-03-12",
+        "rawDate": "2015-08-03",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -47697,8 +47699,24 @@
                     "http://www.w3.org/testing/browser/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150803": {
+                "authors": [
+                    "Simon Stewart",
+                    "David Burns"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-webdriver-20150803/",
+                "title": "WebDriver",
+                "rawDate": "2015-08-03",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/testing/browser/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "edDraft": "https://w3c.github.io/webdriver/webdriver-spec.html"
     },
     "webintents-local-services": {
         "authors": [
