@@ -34761,6 +34761,7 @@
         "obsoletedBy": [
             "RFC5925"
         ],
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=2385",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -64079,7 +64080,8 @@
         "updatedBy": [
             "RFC6286",
             "RFC6608",
-            "RFC6793"
+            "RFC6793",
+            "RFC7607"
         ],
         "obsoletes": [
             "RFC1771"
@@ -114270,6 +114272,24 @@
         ],
         "rawDate": "2015-07",
         "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7607": {
+        "rfcNumber": "RFC7607",
+        "href": "https://tools.ietf.org/html/rfc7607",
+        "title": "Codification of AS 0 Processing",
+        "authors": [
+            "W. Kumari",
+            "R. Bush",
+            "H. Schiller",
+            "K. Patel"
+        ],
+        "rawDate": "2015-08",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC4271"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
