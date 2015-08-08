@@ -90782,6 +90782,9 @@
         ],
         "rawDate": "2010-10",
         "status": "Informational",
+        "obsoletedBy": [
+            "RFC7544"
+        ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=6044",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -113448,6 +113451,21 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc7544": {
+        "rfcNumber": "RFC7544",
+        "href": "https://tools.ietf.org/html/rfc7544",
+        "title": "Mapping and Interworking of Diversion Information between Diversion and \r\nHistory-Info Header Fields in the Session Initiation Protocol (SIP)",
+        "authors": [
+            "M. Mohali"
+        ],
+        "rawDate": "2015-08",
+        "status": "Informational",
+        "obsoletes": [
+            "RFC6044"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc7545": {
         "rfcNumber": "RFC7545",
         "href": "https://tools.ietf.org/html/rfc7545",
@@ -114272,6 +114290,18 @@
         ],
         "rawDate": "2015-07",
         "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7605": {
+        "rfcNumber": "RFC7605",
+        "href": "https://tools.ietf.org/html/rfc7605",
+        "title": "Recommendations on Using Assigned Transport Port Numbers",
+        "authors": [
+            "J. Touch"
+        ],
+        "rawDate": "2015-08",
+        "status": "Best Current Practice",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
