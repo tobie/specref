@@ -60226,6 +60226,9 @@
         ],
         "rawDate": "2005-02",
         "status": "Proposed Standard",
+        "obsoletedBy": [
+            "RFC7613"
+        ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=4013",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -98605,6 +98608,7 @@
         ],
         "rawDate": "2012-03",
         "status": "Informational",
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=6561",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -100121,6 +100125,9 @@
         ],
         "rawDate": "2012-07",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC7621"
+        ],
         "updates": [
             "RFC3261",
             "RFC4660"
@@ -109840,6 +109847,7 @@
         ],
         "rawDate": "2014-06",
         "status": "Proposed Standard",
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=7306",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -114302,6 +114310,7 @@
         ],
         "rawDate": "2015-08",
         "status": "Best Current Practice",
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=7605",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -114337,6 +114346,20 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc7609": {
+        "rfcNumber": "RFC7609",
+        "href": "https://tools.ietf.org/html/rfc7609",
+        "title": "IBM's Shared Memory Communications over RDMA (SMC-R) Protocol",
+        "authors": [
+            "M. Fox",
+            "C. Kassimis",
+            "J. Stevens"
+        ],
+        "rawDate": "2015-08",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc761": {
         "aliasOf": "rfc0761"
     },
@@ -114356,8 +114379,72 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc7613": {
+        "rfcNumber": "RFC7613",
+        "href": "https://tools.ietf.org/html/rfc7613",
+        "title": "Preparation, Enforcement, and Comparison of Internationalized Strings Representing Usernames and Passwords",
+        "authors": [
+            "P. Saint-Andre",
+            "A. Melnikov"
+        ],
+        "rawDate": "2015-08",
+        "status": "Proposed Standard",
+        "obsoletes": [
+            "RFC4013"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7618": {
+        "rfcNumber": "RFC7618",
+        "href": "https://tools.ietf.org/html/rfc7618",
+        "title": "Dynamic Allocation of Shared IPv4 Addresses",
+        "authors": [
+            "Y. Cui",
+            "Q. Sun",
+            "I. Farrer",
+            "Y. Lee",
+            "Q. Sun",
+            "M. Boucadair"
+        ],
+        "rawDate": "2015-08",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc762": {
         "aliasOf": "rfc0762"
+    },
+    "rfc7620": {
+        "rfcNumber": "RFC7620",
+        "href": "https://tools.ietf.org/html/rfc7620",
+        "title": "Scenarios with Host Identification Complications",
+        "authors": [
+            "M. Boucadair, Ed.",
+            "B. Chatras",
+            "T. Reddy",
+            "B. Williams",
+            "B. Sarikaya"
+        ],
+        "rawDate": "2015-08",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7621": {
+        "rfcNumber": "RFC7621",
+        "href": "https://tools.ietf.org/html/rfc7621",
+        "title": "A Clarification on the Use of Globally Routable User Agent URIs (GRUUs) in the SIP Event Notification Framework",
+        "authors": [
+            "A.B. Roach"
+        ],
+        "rawDate": "2015-08",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC6665"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc763": {
         "aliasOf": "rfc0763"

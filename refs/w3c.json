@@ -1852,7 +1852,7 @@
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
     "DOM-Bindings": {
-        "aliasOf": "WebIDL"
+        "aliasOf": "WebIDL-1"
     },
     "DOM-Level-1": {
         "authors": [
@@ -9399,16 +9399,23 @@
         "edDraft": "https://dvcs.w3.org/hg/webcrypto-api/raw-file/tip/spec/Overview.html"
     },
     "WebIDL": {
+        "aliasOf": "WebIDL-1"
+    },
+    "WebIDL-1": {
         "authors": [
-            "Cameron McCormack"
+            "Cameron McCormack",
+            "Boris Zbarsky"
         ],
-        "href": "http://www.w3.org/TR/WebIDL/",
-        "title": "Web IDL",
-        "status": "CR",
+        "href": "http://www.w3.org/TR/WebIDL-1/",
+        "title": "WebIDL Level 1",
+        "rawDate": "2015-08-04",
+        "status": "WD",
         "publisher": "W3C",
+        "edDraft": "https://heycam.github.io/webidl/",
         "deliveredBy": [
             "http://www.w3.org/2008/webapps/"
         ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
         "versions": {
             "20071017": {
                 "status": "WD",
@@ -9471,11 +9478,23 @@
                     "http://www.w3.org/2008/webapps/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150804": {
+                "authors": [
+                    "Cameron McCormack",
+                    "Boris Zbarsky"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-WebIDL-1-20150804/",
+                "title": "WebIDL Level 1",
+                "rawDate": "2015-08-04",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2008/webapps/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        },
-        "rawDate": "2012-04-19",
-        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
-        "edDraft": "https://heycam.github.io/webidl/"
+        }
     },
     "WebIDL-Java": {
         "authors": [
@@ -10740,7 +10759,7 @@
         ],
         "href": "http://www.w3.org/TR/appmanifest/",
         "title": "Manifest for a web application",
-        "rawDate": "2015-07-31",
+        "rawDate": "2015-08-15",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -11080,6 +11099,23 @@
                 "href": "http://www.w3.org/TR/2015/WD-appmanifest-20150731/",
                 "title": "Manifest for a web application",
                 "rawDate": "2015-07-31",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2008/webapps/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150815": {
+                "authors": [
+                    "Marcos Caceres",
+                    "Kenneth Christiansen",
+                    "Mounir Lamouri",
+                    "Anssi Kostiainen"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-appmanifest-20150815/",
+                "title": "Manifest for a web application",
+                "rawDate": "2015-08-15",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -11975,9 +12011,23 @@
                     "http://www.w3.org/International/core/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150813": {
+                "authors": [
+                    "Addison Phillips"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-charmod-norm-20150813/",
+                "title": "Character Model for the World Wide Web: String Matching and Searching",
+                "rawDate": "2015-08-13",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/International/core/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2015-07-21",
+        "rawDate": "2015-08-13",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
         "edDraft": "https://w3c.github.io/charmod-norm/"
     },
@@ -12055,6 +12105,37 @@
         },
         "rawDate": "2009-09-15",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+    },
+    "clear-site-data": {
+        "authors": [
+            "Mike West"
+        ],
+        "href": "http://www.w3.org/TR/clear-site-data/",
+        "title": "Clear Site Data",
+        "rawDate": "2015-08-04",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/webappsec/specs/clear-site-data/",
+        "deliveredBy": [
+            "http://www.w3.org/2011/webappsec/"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20150804": {
+                "authors": [
+                    "Mike West"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-clear-site-data-20150804/",
+                "title": "Clear Site Data",
+                "rawDate": "2015-08-04",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2011/webappsec/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
     },
     "clipboard-apis": {
         "authors": [
@@ -13838,7 +13919,7 @@
         ],
         "href": "http://www.w3.org/TR/css-grid-1/",
         "title": "CSS Grid Layout Module Level 1",
-        "rawDate": "2015-03-17",
+        "rawDate": "2015-08-06",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -13937,6 +14018,22 @@
                 "href": "http://www.w3.org/TR/2015/WD-css-grid-1-20150317/",
                 "title": "CSS Grid Layout Module Level 1",
                 "rawDate": "2015-03-17",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Style/CSS/members"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150806": {
+                "authors": [
+                    "Tab Atkins Jr.",
+                    "Elika Etemad",
+                    "Rossen Atanassov"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-css-grid-1-20150806/",
+                "title": "CSS Grid Layout Module Level 1",
+                "rawDate": "2015-08-06",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -19071,6 +19168,9 @@
         "rawDate": "2015-06-18",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
         "edDraft": "https://w3c.github.io/dom/"
+    },
+    "dom-iop": {
+        "aliasOf": "scxml-dom-iop"
     },
     "domcore": {
         "aliasOf": "dom"
@@ -38180,8 +38280,8 @@
         ],
         "href": "http://www.w3.org/TR/runtime/",
         "title": "Runtime and Security Model for Web Applications",
-        "rawDate": "2013-03-21",
-        "status": "WD",
+        "rawDate": "2015-08-06",
+        "status": "NOTE",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2012/sysapps/"
@@ -38197,6 +38297,21 @@
                 "title": "Runtime and Security Model for Web Applications",
                 "rawDate": "2013-03-21",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2012/sysapps/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150806": {
+                "authors": [
+                    "Mounir Lamouri",
+                    "MING JIN"
+                ],
+                "href": "http://www.w3.org/TR/2015/NOTE-runtime-20150806/",
+                "title": "Runtime and Security Model for Web Applications",
+                "rawDate": "2015-08-06",
+                "status": "NOTE",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/2012/sysapps/"
@@ -38740,6 +38855,118 @@
         },
         "rawDate": "2015-04-30",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+    },
+    "scxml-dom-iop": {
+        "authors": [
+            "James Barnett",
+            "Rahul Akolkar",
+            "RJ Auburn",
+            "Michael Bodell",
+            "Daniel Burnett",
+            "Jerry Carter",
+            "Scott McGlashan",
+            "Torbjörn Lager",
+            "Marc Helbing",
+            "Rafah Hosn",
+            "T V Raman",
+            "Klaus Reifenrath",
+            "Noam Rosenthal",
+            "Johan Roxendal"
+        ],
+        "href": "http://www.w3.org/TR/scxml-dom-iop/",
+        "title": "DOM Event I/O Processor for SCXML",
+        "rawDate": "2015-08-11",
+        "status": "NOTE",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "http://www.w3.org/Voice/"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20150811": {
+                "authors": [
+                    "James Barnett",
+                    "Rahul Akolkar",
+                    "RJ Auburn",
+                    "Michael Bodell",
+                    "Daniel Burnett",
+                    "Jerry Carter",
+                    "Scott McGlashan",
+                    "Torbjörn Lager",
+                    "Marc Helbing",
+                    "Rafah Hosn",
+                    "T V Raman",
+                    "Klaus Reifenrath",
+                    "Noam Rosenthal",
+                    "Johan Roxendal"
+                ],
+                "href": "http://www.w3.org/TR/2015/NOTE-scxml-dom-iop-20150811/",
+                "title": "DOM Event I/O Processor for SCXML",
+                "rawDate": "2015-08-11",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Voice/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
+    "scxml-xpath-dm": {
+        "authors": [
+            "James Barnett",
+            "Rahul Akolkar",
+            "RJ Auburn",
+            "Michael Bodell",
+            "Daniel Burnett",
+            "Jerry Carter",
+            "Scott McGlashan",
+            "Torbjörn Lager",
+            "Marc Helbing",
+            "Rafah Hosn",
+            "T V Raman",
+            "Klaus Reifenrath",
+            "Noam Rosenthal",
+            "Johan Roxendal"
+        ],
+        "href": "http://www.w3.org/TR/scxml-xpath-dm/",
+        "title": "XPath Data Model for SCXML",
+        "rawDate": "2015-08-11",
+        "status": "NOTE",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "http://www.w3.org/Voice/"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20150811": {
+                "authors": [
+                    "James Barnett",
+                    "Rahul Akolkar",
+                    "RJ Auburn",
+                    "Michael Bodell",
+                    "Daniel Burnett",
+                    "Jerry Carter",
+                    "Scott McGlashan",
+                    "Torbjörn Lager",
+                    "Marc Helbing",
+                    "Rafah Hosn",
+                    "T V Raman",
+                    "Klaus Reifenrath",
+                    "Noam Rosenthal",
+                    "Johan Roxendal"
+                ],
+                "href": "http://www.w3.org/TR/2015/NOTE-scxml-xpath-dm-20150811/",
+                "title": "XPath Data Model for SCXML",
+                "rawDate": "2015-08-11",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Voice/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
     },
     "sdw-ucr": {
         "authors": [
@@ -44829,7 +45056,7 @@
         "publisher": "W3C",
         "edDraft": "http://rawgit.com/w3c/automotive/master/vehicle_data/data_spec.html",
         "deliveredBy": [
-            "http://www.w3.org/auto/wg/"
+            "https://www.w3.org/2014/automotive/"
         ],
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
         "versions": {
@@ -44848,7 +45075,7 @@
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
-                    "http://www.w3.org/auto/wg/"
+                    "https://www.w3.org/2014/automotive/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
@@ -44870,7 +45097,7 @@
         "publisher": "W3C",
         "edDraft": "http://rawgit.com/w3c/automotive/master/vehicle_data/vehicle_spec.html",
         "deliveredBy": [
-            "http://www.w3.org/auto/wg/"
+            "https://www.w3.org/2014/automotive/"
         ],
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
         "versions": {
@@ -44889,7 +45116,7 @@
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
-                    "http://www.w3.org/auto/wg/"
+                    "https://www.w3.org/2014/automotive/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
@@ -47665,7 +47892,7 @@
         ],
         "href": "http://www.w3.org/TR/webdriver/",
         "title": "WebDriver",
-        "rawDate": "2015-08-03",
+        "rawDate": "2015-08-08",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -47708,6 +47935,21 @@
                 "href": "http://www.w3.org/TR/2015/WD-webdriver-20150803/",
                 "title": "WebDriver",
                 "rawDate": "2015-08-03",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/testing/browser/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150808": {
+                "authors": [
+                    "Simon Stewart",
+                    "David Burns"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-webdriver-20150808/",
+                "title": "WebDriver",
+                "rawDate": "2015-08-08",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -59680,6 +59922,9 @@
             }
         }
     },
+    "xpath-dm": {
+        "aliasOf": "scxml-xpath-dm"
+    },
     "xpath-full-text-10": {
         "authors": [
             "Pat Case",
@@ -59954,8 +60199,8 @@
         ],
         "href": "http://www.w3.org/TR/xpath-full-text-30/",
         "title": "XQuery and XPath Full Text 3.0",
-        "rawDate": "2015-03-12",
-        "status": "CR",
+        "rawDate": "2015-08-06",
+        "status": "PR",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/Style/XSL/",
@@ -60009,6 +60254,22 @@
                 "title": "XQuery and XPath Full Text 3.0",
                 "rawDate": "2015-03-12",
                 "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Style/XSL/",
+                    "http://www.w3.org/XML/Query/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150806": {
+                "authors": [
+                    "Mary Holstege",
+                    "Jim Melton"
+                ],
+                "href": "http://www.w3.org/TR/2015/PR-xpath-full-text-30-20150806/",
+                "title": "XQuery and XPath Full Text 3.0",
+                "rawDate": "2015-08-06",
+                "status": "PR",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/Style/XSL/",
@@ -61701,8 +61962,8 @@
         ],
         "href": "http://www.w3.org/TR/xquery-31-requirements/",
         "title": "XQuery 3.1 Requirements and Use Cases",
-        "rawDate": "2014-04-24",
-        "status": "WD",
+        "rawDate": "2015-08-11",
+        "status": "NOTE",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/XML/Query/"
@@ -61717,6 +61978,20 @@
                 "title": "XQuery 3.1 Requirements and Use Cases",
                 "rawDate": "2014-04-24",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/XML/Query/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150811": {
+                "authors": [
+                    "Jonathan Robie"
+                ],
+                "href": "http://www.w3.org/TR/2015/NOTE-xquery-31-requirements-20150811/",
+                "title": "XQuery 3.1 Requirements and Use Cases",
+                "rawDate": "2015-08-11",
+                "status": "NOTE",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/XML/Query/"
