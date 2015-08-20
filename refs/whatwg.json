@@ -9,6 +9,16 @@
         "status": "Living Standard",
         "source": "https://resources.whatwg.org/biblio.json"
     },
+    "COMPAT": {
+        "authors": [
+            "Mike Taylor"
+        ],
+        "href": "https://compat.spec.whatwg.org/",
+        "title": "Compatibility Standard",
+        "publisher": "WHATWG",
+        "status": "Living Standard",
+        "source": "https://resources.whatwg.org/biblio.json"
+    },
     "DIFFERENCES": {
         "authors": [
             "Simon Pieters"
@@ -109,6 +119,16 @@
     "SNIFF": {
         "aliasOf": "WHATWG-MIMESNIFF"
     },
+    "STORAGE": {
+        "authors": [
+            "Anne van Kesteren"
+        ],
+        "href": "https://storage.spec.whatwg.org/",
+        "title": "Storage Standard",
+        "publisher": "WHATWG",
+        "status": "Living Standard",
+        "source": "https://resources.whatwg.org/biblio.json"
+    },
     "STREAMS": {
         "authors": [
             "Domenic Denicola"
@@ -121,6 +141,9 @@
     },
     "WHATWG-BOOKS": {
         "aliasOf": "BOOKS"
+    },
+    "WHATWG-COMPAT": {
+        "aliasOf": "COMPAT"
     },
     "WHATWG-DIFFERENCES": {
         "aliasOf": "DIFFERENCES"
@@ -191,6 +214,9 @@
     },
     "WHATWG-QUIRKS": {
         "aliasOf": "QUIRKS"
+    },
+    "WHATWG-STORAGE": {
+        "aliasOf": "STORAGE"
     },
     "WHATWG-STREAMS": {
         "aliasOf": "STREAMS"
