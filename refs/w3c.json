@@ -19257,6 +19257,37 @@
             }
         }
     },
+    "dpub-css-priorities": {
+        "authors": [
+            "Dave Cramer"
+        ],
+        "href": "http://www.w3.org/TR/dpub-css-priorities/",
+        "title": "Priorities for CSS from the Digital Publishing Interest Group",
+        "rawDate": "2015-08-20",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/dpub-pagination/priorities.html",
+        "deliveredBy": [
+            "http://www.w3.org/dpub/IG/"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20150820": {
+                "authors": [
+                    "Dave Cramer"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-dpub-css-priorities-20150820/",
+                "title": "Priorities for CSS from the Digital Publishing Interest Group",
+                "rawDate": "2015-08-20",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/dpub/IG/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
     "dpub-latinreq": {
         "authors": [
             "Dave Cramer"
@@ -43779,8 +43810,8 @@
         ],
         "href": "http://www.w3.org/TR/tracking-dnt/",
         "title": "Tracking Preference Expression (DNT)",
-        "rawDate": "2014-04-24",
-        "status": "LCWD",
+        "rawDate": "2015-08-20",
+        "status": "CR",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2011/tracking-protection/"
@@ -43859,6 +43890,21 @@
                 "title": "Tracking Preference Expression (DNT)",
                 "rawDate": "2014-04-24",
                 "status": "LCWD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2011/tracking-protection/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150820": {
+                "authors": [
+                    "Roy Fielding",
+                    "David Singer"
+                ],
+                "href": "http://www.w3.org/TR/2015/CR-tracking-dnt-20150820/",
+                "title": "Tracking Preference Expression (DNT)",
+                "rawDate": "2015-08-20",
+                "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/2011/tracking-protection/"
