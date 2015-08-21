@@ -105159,6 +105159,9 @@
         "updatedBy": [
             "RFC7410"
         ],
+        "obsoletedBy": [
+            "RFC7601"
+        ],
         "obsoletes": [
             "RFC5451",
             "RFC6577"
@@ -111424,6 +111427,9 @@
         ],
         "rawDate": "2014-12",
         "status": "Proposed Standard",
+        "obsoletedBy": [
+            "RFC7601"
+        ],
         "updates": [
             "RFC7001"
         ],
@@ -111745,6 +111751,21 @@
             "C. Raiciu"
         ],
         "rawDate": "2015-07",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7431": {
+        "rfcNumber": "RFC7431",
+        "href": "https://tools.ietf.org/html/rfc7431",
+        "title": "Multicast-Only Fast Reroute",
+        "authors": [
+            "A. Karan",
+            "C. Filsfils",
+            "IJ. Wijnands, Ed.",
+            "B. Decraene"
+        ],
+        "rawDate": "2015-08",
         "status": "Informational",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -114288,6 +114309,22 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc7601": {
+        "rfcNumber": "RFC7601",
+        "href": "https://tools.ietf.org/html/rfc7601",
+        "title": "Message Header Field for Indicating Message Authentication Status",
+        "authors": [
+            "M. Kucherawy"
+        ],
+        "rawDate": "2015-08",
+        "status": "Proposed Standard",
+        "obsoletes": [
+            "RFC7001",
+            "RFC7410"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc7602": {
         "rfcNumber": "RFC7602",
         "href": "https://tools.ietf.org/html/rfc7602",
@@ -114364,6 +114401,20 @@
     },
     "rfc761": {
         "aliasOf": "rfc0761"
+    },
+    "rfc7610": {
+        "rfcNumber": "RFC7610",
+        "href": "https://tools.ietf.org/html/rfc7610",
+        "title": "DHCPv6-Shield: Protecting against Rogue DHCPv6 Servers",
+        "authors": [
+            "F. Gont",
+            "W. Liu",
+            "G. Van de Velde"
+        ],
+        "rawDate": "2015-08",
+        "status": "Best Current Practice",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc7612": {
         "rfcNumber": "RFC7612",
@@ -114448,8 +114499,38 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc7624": {
+        "rfcNumber": "RFC7624",
+        "href": "https://tools.ietf.org/html/rfc7624",
+        "title": "Confidentiality in the Face of Pervasive Surveillance: A Threat Model and Problem Statement",
+        "authors": [
+            "R. Barnes",
+            "B. Schneier",
+            "C. Jennings",
+            "T. Hardie",
+            "B. Trammell",
+            "C. Huitema",
+            "D. Borkmann"
+        ],
+        "rawDate": "2015-08",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc763": {
         "aliasOf": "rfc0763"
+    },
+    "rfc7634": {
+        "rfcNumber": "RFC7634",
+        "href": "https://tools.ietf.org/html/rfc7634",
+        "title": "ChaCha20, Poly1305, and Their Use in the Internet Key Exchange Protocol (IKE) and IPsec",
+        "authors": [
+            "Y. Nir"
+        ],
+        "rawDate": "2015-08",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc764": {
         "aliasOf": "rfc0764"
