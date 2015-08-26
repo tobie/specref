@@ -28569,6 +28569,9 @@
         ],
         "rawDate": "1996-08",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC7606"
+        ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=1997",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -64084,6 +64087,7 @@
             "RFC6286",
             "RFC6608",
             "RFC6793",
+            "RFC7606",
             "RFC7607"
         ],
         "obsoletes": [
@@ -65478,7 +65482,8 @@
         "rawDate": "2006-02",
         "status": "Proposed Standard",
         "updatedBy": [
-            "RFC7153"
+            "RFC7153",
+            "RFC7606"
         ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=4360",
         "publisher": "IETF",
@@ -66949,6 +66954,9 @@
         ],
         "rawDate": "2006-04",
         "status": "Draft Standard",
+        "updatedBy": [
+            "RFC7606"
+        ],
         "obsoletes": [
             "RFC2796",
             "RFC1966"
@@ -71505,6 +71513,9 @@
         ],
         "rawDate": "2007-01",
         "status": "Draft Standard",
+        "updatedBy": [
+            "RFC7606"
+        ],
         "obsoletes": [
             "RFC2858"
         ],
@@ -83270,6 +83281,9 @@
         ],
         "rawDate": "2009-05",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC7606"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -85619,7 +85633,8 @@
         "rawDate": "2009-11",
         "status": "Proposed Standard",
         "updatedBy": [
-            "RFC7153"
+            "RFC7153",
+            "RFC7606"
         ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -95726,6 +95741,9 @@
         ],
         "rawDate": "2011-09",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC7606"
+        ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=6368",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -114354,6 +114372,31 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc7606": {
+        "rfcNumber": "RFC7606",
+        "href": "https://tools.ietf.org/html/rfc7606",
+        "title": "Revised Error Handling for BGP UPDATE Messages",
+        "authors": [
+            "E. Chen, Ed.",
+            "J. Scudder, Ed.",
+            "P. Mohapatra",
+            "K. Patel"
+        ],
+        "rawDate": "2015-08",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC1997",
+            "RFC4271",
+            "RFC4360",
+            "RFC4456",
+            "RFC4760",
+            "RFC5543",
+            "RFC5701",
+            "RFC6368"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc7607": {
         "rfcNumber": "RFC7607",
         "href": "https://tools.ietf.org/html/rfc7607",
@@ -114369,6 +114412,7 @@
         "updates": [
             "RFC4271"
         ],
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=7607",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -114446,6 +114490,18 @@
         "obsoletes": [
             "RFC4013"
         ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7614": {
+        "rfcNumber": "RFC7614",
+        "href": "https://tools.ietf.org/html/rfc7614",
+        "title": "Explicit Subscriptions for the REFER Method",
+        "authors": [
+            "R. Sparks"
+        ],
+        "rawDate": "2015-08",
+        "status": "Proposed Standard",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
