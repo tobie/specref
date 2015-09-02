@@ -22500,7 +22500,7 @@
         ],
         "href": "http://www.w3.org/TR/html-aria/",
         "title": "ARIA in HTML",
-        "rawDate": "2015-05-14",
+        "rawDate": "2015-09-02",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -22535,9 +22535,23 @@
                     "http://www.w3.org/html/wg/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150902": {
+                "authors": [
+                    "Steve Faulkner"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-html-aria-20150902/",
+                "title": "ARIA in HTML",
+                "rawDate": "2015-09-02",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/html/wg/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "https://specs.webplatform.org/html-aria/webspecs/master/"
+        "edDraft": "https://w3c.github.io/html-aria/"
     },
     "html-bidi": {
         "authors": [
@@ -48060,7 +48074,7 @@
         ],
         "href": "http://www.w3.org/TR/webdriver/",
         "title": "WebDriver",
-        "rawDate": "2015-08-27",
+        "rawDate": "2015-09-02",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -48133,6 +48147,21 @@
                 "href": "http://www.w3.org/TR/2015/WD-webdriver-20150827/",
                 "title": "WebDriver",
                 "rawDate": "2015-08-27",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/testing/browser/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150902": {
+                "authors": [
+                    "Simon Stewart",
+                    "David Burns"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-webdriver-20150902/",
+                "title": "WebDriver",
+                "rawDate": "2015-09-02",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
