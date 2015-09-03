@@ -10371,8 +10371,8 @@
         ],
         "href": "http://www.w3.org/TR/ambient-light/",
         "title": "Ambient Light Events",
-        "rawDate": "2014-06-19",
-        "status": "LCWD",
+        "rawDate": "2015-09-03",
+        "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2009/dap/"
@@ -10428,9 +10428,24 @@
                     "http://www.w3.org/2009/dap/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150903": {
+                "authors": [
+                    "Doug Turner",
+                    "Anssi Kostiainen"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-ambient-light-20150903/",
+                "title": "Ambient Light Events",
+                "rawDate": "2015-09-03",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2009/dap/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "http://dvcs.w3.org/hg/dap/raw-file/default/light/Overview.html"
+        "edDraft": "https://w3c.github.io/ambient-light/"
     },
     "animation-timing": {
         "authors": [
@@ -33825,8 +33840,8 @@
         ],
         "href": "http://www.w3.org/TR/proximity/",
         "title": "Proximity Events",
-        "rawDate": "2013-10-01",
-        "status": "CR",
+        "rawDate": "2015-09-03",
+        "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2009/dap/"
@@ -33868,9 +33883,24 @@
                     "http://www.w3.org/2009/dap/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150903": {
+                "authors": [
+                    "Anssi Kostiainen",
+                    "Dzung Tran"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-proximity-20150903/",
+                "title": "Proximity Events",
+                "rawDate": "2015-09-03",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2009/dap/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "http://dvcs.w3.org/hg/dap/raw-file/default/proximity/Overview.html"
+        "edDraft": "https://w3c.github.io/proximity/"
     },
     "proxy": {
         "versions": {
