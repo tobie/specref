@@ -13379,7 +13379,7 @@
         ],
         "href": "http://www.w3.org/TR/css-cascade-4/",
         "title": "CSS Cascading and Inheritance Level 4",
-        "rawDate": "2015-04-21",
+        "rawDate": "2015-09-08",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "http://dev.w3.org/csswg/css-cascade/",
@@ -13396,6 +13396,21 @@
                 "href": "http://www.w3.org/TR/2015/WD-css-cascade-4-20150421/",
                 "title": "CSS Cascading and Inheritance Level 4",
                 "rawDate": "2015-04-21",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Style/CSS/members"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150908": {
+                "authors": [
+                    "Elika Etemad",
+                    "Tab Atkins Jr."
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-css-cascade-4-20150908/",
+                "title": "CSS Cascading and Inheritance Level 4",
+                "rawDate": "2015-09-08",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -19744,6 +19759,37 @@
                 "href": "http://www.w3.org/TR/2013/WD-emma11-20130627/",
                 "title": "EMMA: Extensible MultiModal Annotation markup language Version 1.1",
                 "rawDate": "2013-06-27",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2002/mmi/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
+    "emma20": {
+        "authors": [
+            "Michael Johnston"
+        ],
+        "href": "http://www.w3.org/TR/emma20/",
+        "title": "EMMA: Extensible MultiModal Annotation markup language Version 2.0",
+        "rawDate": "2015-09-08",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/emma/emma2_0/emma_2_0_editor_draft.html",
+        "deliveredBy": [
+            "http://www.w3.org/2002/mmi/"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20150908": {
+                "authors": [
+                    "Michael Johnston"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-emma20-20150908/",
+                "title": "EMMA: Extensible MultiModal Annotation markup language Version 2.0",
+                "rawDate": "2015-09-08",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -27806,12 +27852,12 @@
     },
     "mediastream-recording": {
         "authors": [
-            "Travis Leithead",
-            "James Barnett"
+            "James Barnett",
+            "Travis Leithead"
         ],
         "href": "http://www.w3.org/TR/mediastream-recording/",
         "title": "MediaStream Recording",
-        "rawDate": "2015-01-27",
+        "rawDate": "2015-09-08",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -27843,6 +27889,22 @@
                 "href": "http://www.w3.org/TR/2015/WD-mediastream-recording-20150127/",
                 "title": "MediaStream Recording",
                 "rawDate": "2015-01-27",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2009/dap/",
+                    "http://www.w3.org/2011/04/webrtc/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150908": {
+                "authors": [
+                    "James Barnett",
+                    "Travis Leithead"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-mediastream-recording-20150908/",
+                "title": "MediaStream Recording",
+                "rawDate": "2015-09-08",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
