@@ -81811,6 +81811,9 @@
         ],
         "rawDate": "2009-02",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC7631"
+        ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=5444",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -91976,6 +91979,9 @@
         ],
         "rawDate": "2011-03",
         "status": "Proposed Standard",
+        "obsoletedBy": [
+            "RFC7622"
+        ],
         "updates": [
             "RFC3920"
         ],
@@ -114619,6 +114625,21 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc7622": {
+        "rfcNumber": "RFC7622",
+        "href": "https://tools.ietf.org/html/rfc7622",
+        "title": "Extensible Messaging and Presence Protocol (XMPP): Address Format",
+        "authors": [
+            "P. Saint-Andre"
+        ],
+        "rawDate": "2015-09",
+        "status": "Proposed Standard",
+        "obsoletes": [
+            "RFC6122"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc7624": {
         "rfcNumber": "RFC7624",
         "href": "https://tools.ietf.org/html/rfc7624",
@@ -114697,6 +114718,35 @@
     "rfc763": {
         "aliasOf": "rfc0763"
     },
+    "rfc7631": {
+        "rfcNumber": "RFC7631",
+        "href": "https://tools.ietf.org/html/rfc7631",
+        "title": "TLV Naming in the Mobile Ad Hoc Network (MANET) Generalized Packet/Message Format",
+        "authors": [
+            "C. Dearlove",
+            "T. Clausen"
+        ],
+        "rawDate": "2015-09",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC5444"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7632": {
+        "rfcNumber": "RFC7632",
+        "href": "https://tools.ietf.org/html/rfc7632",
+        "title": "Endpoint Security Posture Assessment: Enterprise Use Cases",
+        "authors": [
+            "D. Waltermire",
+            "D. Harrington"
+        ],
+        "rawDate": "2015-09",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc7634": {
         "rfcNumber": "RFC7634",
         "href": "https://tools.ietf.org/html/rfc7634",
@@ -114720,6 +114770,19 @@
             "J. Uberti"
         ],
         "rawDate": "2015-08",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7638": {
+        "rfcNumber": "RFC7638",
+        "href": "https://tools.ietf.org/html/rfc7638",
+        "title": "JSON Web Key (JWK) Thumbprint",
+        "authors": [
+            "M. Jones",
+            "N. Sakimura"
+        ],
+        "rawDate": "2015-09",
         "status": "Proposed Standard",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
