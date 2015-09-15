@@ -6518,9 +6518,37 @@
                     "http://www.w3.org/Graphics/SVG/WG/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150915": {
+                "authors": [
+                    "Nikos Andronikos",
+                    "Rossen Atanassov",
+                    "Tavmjong Bah",
+                    "Amelia Bellamy-Royds",
+                    "Brian Birtles",
+                    "Bogdan Brinza",
+                    "Cyril Concolato",
+                    "Erik Dahlström",
+                    "Chris Lilley",
+                    "Cameron McCormack",
+                    "Doug Schepers",
+                    "Dirk Schulze",
+                    "Richard Schwerdtfeger",
+                    "Satoru Takagi",
+                    "Jonathan Watt"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-SVG2-20150915/",
+                "title": "Scalable Vector Graphics (SVG) 2",
+                "rawDate": "2015-09-15",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Graphics/SVG/WG/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2015-07-09",
+        "rawDate": "2015-09-15",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
         "edDraft": "https://svgwg.org/svg2-draft/"
     },
@@ -7536,7 +7564,6 @@
     "UAAG20": {
         "authors": [
             "James Allan",
-            "Kelly Ford",
             "Kimberly Patch",
             "Jeanne F Spellman"
         ],
@@ -7648,22 +7675,37 @@
                     "http://www.w3.org/WAI/UA/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150915": {
+                "authors": [
+                    "James Allan",
+                    "Kimberly Patch",
+                    "Jeanne F Spellman"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-UAAG20-20150915/",
+                "title": "User Agent Accessibility Guidelines (UAAG) 2.0",
+                "rawDate": "2015-09-15",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/WAI/UA/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2014-09-25",
+        "rawDate": "2015-09-15",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
         "edDraft": "http://www.w3.org/WAI/UA/UAAG20/"
     },
     "UAAG20-Reference": {
         "authors": [
             "James Allan",
-            "Kelly Ford",
             "Kimberly Patch",
             "Jeanne F Spellman"
         ],
         "href": "http://www.w3.org/TR/UAAG20-Reference/",
         "title": "UAAG 2.0 Reference: Explanations, Examples, and Resources for User Agent Accessibility Guidelines 2.0",
-        "rawDate": "2014-09-25",
+        "rawDate": "2015-09-15",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "http://www.w3.org/WAI/UA/UAAG20-Reference/",
@@ -7762,6 +7804,22 @@
                 "href": "http://www.w3.org/TR/2014/WD-UAAG20-Reference-20140925/",
                 "title": "UAAG 2.0 Reference: Explanations, Examples, and Resources for User Agent Accessibility Guidelines 2.0",
                 "rawDate": "2014-09-25",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/WAI/UA/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150915": {
+                "authors": [
+                    "James Allan",
+                    "Kimberly Patch",
+                    "Jeanne F Spellman"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-UAAG20-Reference-20150915/",
+                "title": "UAAG 2.0 Reference: Explanations, Examples, and Resources for User Agent Accessibility Guidelines 2.0",
+                "rawDate": "2015-09-15",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -14521,6 +14579,37 @@
                 "href": "http://www.w3.org/TR/2013/WD-css-overflow-3-20130418/",
                 "title": "CSS Overflow Module Level 3",
                 "rawDate": "2013-04-18",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Style/CSS/members"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
+    "css-page-floats-3": {
+        "authors": [
+            "Johannes Wilm"
+        ],
+        "href": "http://www.w3.org/TR/css-page-floats-3/",
+        "title": "CSS Page Floats",
+        "rawDate": "2015-09-15",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "http://dev.w3.org/csswg/css-page-floats/",
+        "deliveredBy": [
+            "http://www.w3.org/Style/CSS/members"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20150915": {
+                "authors": [
+                    "Johannes Wilm"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-css-page-floats-3-20150915/",
+                "title": "CSS Page Floats",
+                "rawDate": "2015-09-15",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
