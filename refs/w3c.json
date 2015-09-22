@@ -10526,7 +10526,7 @@
         ],
         "href": "http://www.w3.org/TR/animation-timing/",
         "title": "Timing control for script-based animations",
-        "status": "CR",
+        "status": "NOTE",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2010/webperf/"
@@ -10567,11 +10567,28 @@
                     "http://www.w3.org/2010/webperf/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150922": {
+                "authors": [
+                    "James Robinson",
+                    "Cameron McCormack"
+                ],
+                "href": "http://www.w3.org/TR/2015/NOTE-animation-timing-20150922/",
+                "title": "Timing control for script-based animations",
+                "rawDate": "2015-09-22",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "isRetired": true,
+                "deliveredBy": [
+                    "http://www.w3.org/2010/webperf/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2013-10-31",
+        "rawDate": "2015-09-22",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
-        "edDraft": "http://dvcs.w3.org/hg/webperf/raw-file/tip/specs/RequestAnimationFrame/Overview.html"
+        "edDraft": "https://w3c.github.io/animation-timing/",
+        "isRetired": true
     },
     "annot": {
         "versions": {
@@ -11595,13 +11612,15 @@
     },
     "beacon": {
         "authors": [
+            "Ilya Grigorik",
+            "Alois Reitbauer",
             "Arvind Jain",
             "Jatinder Mann"
         ],
         "href": "http://www.w3.org/TR/beacon/",
         "title": "Beacon",
-        "rawDate": "2014-06-24",
-        "status": "LCWD",
+        "rawDate": "2015-09-22",
+        "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2010/webperf/"
@@ -11637,9 +11656,26 @@
                     "http://www.w3.org/2010/webperf/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150922": {
+                "authors": [
+                    "Ilya Grigorik",
+                    "Alois Reitbauer",
+                    "Arvind Jain",
+                    "Jatinder Mann"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-beacon-20150922/",
+                "title": "Beacon",
+                "rawDate": "2015-09-22",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2010/webperf/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "https://w3c.github.io/web-performance/specs/Beacon/Overview.html"
+        "edDraft": "https://w3c.github.io/beacon/"
     },
     "becss": {
         "authors": [
@@ -14888,6 +14924,39 @@
             }
         }
     },
+    "css-round-display-1": {
+        "authors": [
+            "Hyojin Song",
+            "Jihye Hong"
+        ],
+        "href": "http://www.w3.org/TR/css-round-display-1/",
+        "title": "CSS Round Display Level 1",
+        "rawDate": "2015-09-22",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://drafts.csswg.org/css-round-display/",
+        "deliveredBy": [
+            "http://www.w3.org/Style/CSS/members"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20150922": {
+                "authors": [
+                    "Hyojin Song",
+                    "Jihye Hong"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-css-round-display-1-20150922/",
+                "title": "CSS Round Display Level 1",
+                "rawDate": "2015-09-22",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Style/CSS/members"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
     "css-ruby-1": {
         "authors": [
             "Elika Etemad",
@@ -15504,6 +15573,41 @@
         },
         "edDraft": "http://dev.w3.org/csswg/css-text-3/"
     },
+    "css-text-4": {
+        "authors": [
+            "Elika Etemad",
+            "Koji Ishii",
+            "Alan Stearns"
+        ],
+        "href": "http://www.w3.org/TR/css-text-4/",
+        "title": "CSS Text Module Level 4",
+        "rawDate": "2015-09-22",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "http://dev.w3.org/csswg/css-text-4/",
+        "deliveredBy": [
+            "http://www.w3.org/Style/CSS/members"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20150922": {
+                "authors": [
+                    "Elika Etemad",
+                    "Koji Ishii",
+                    "Alan Stearns"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-css-text-4-20150922/",
+                "title": "CSS Text Module Level 4",
+                "rawDate": "2015-09-22",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Style/CSS/members"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
     "css-text-decor-3": {
         "authors": [
             "Elika Etemad",
@@ -15830,6 +15934,37 @@
         "obsoletes": [
             "css3-userint"
         ]
+    },
+    "css-ui-4": {
+        "authors": [
+            "Florian Rivoal"
+        ],
+        "href": "http://www.w3.org/TR/css-ui-4/",
+        "title": "CSS Basic User Interface Module Level 4",
+        "rawDate": "2015-09-22",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "http://dev.w3.org/csswg/css-ui-4/",
+        "deliveredBy": [
+            "http://www.w3.org/Style/CSS/members"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20150922": {
+                "authors": [
+                    "Florian Rivoal"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-css-ui-4-20150922/",
+                "title": "CSS Basic User Interface Module Level 4",
+                "rawDate": "2015-09-22",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Style/CSS/members"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
     },
     "css-values": {
         "authors": [
