@@ -198,8 +198,8 @@
         ],
         "href": "http://www.w3.org/TR/2dcontext2/",
         "title": "HTML Canvas 2D Context, Level 2",
-        "rawDate": "2014-08-28",
-        "status": "WD",
+        "rawDate": "2015-09-29",
+        "status": "NOTE",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/html/wg/"
@@ -273,9 +273,29 @@
                     "http://www.w3.org/html/wg/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150929": {
+                "authors": [
+                    "Rik Cabanier",
+                    "Jatinder Mann",
+                    "Jay Munro",
+                    "Tom Wiltzius",
+                    "Ian Hickson"
+                ],
+                "href": "http://www.w3.org/TR/2015/NOTE-2dcontext2-20150929/",
+                "title": "HTML Canvas 2D Context, Level 2",
+                "rawDate": "2015-09-29",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "isRetired": true,
+                "deliveredBy": [
+                    "http://www.w3.org/html/wg/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "http://www.w3.org/html/wg/drafts/2dcontext/master/"
+        "edDraft": "http://www.w3.org/html/wg/drafts/2dcontext/master/",
+        "isRetired": true
     },
     "AERT": {
         "authors": [
@@ -21409,8 +21429,8 @@
         ],
         "href": "http://www.w3.org/TR/form-http-extensions/",
         "title": "W3C HTML Form HTTP Extensions",
-        "rawDate": "2014-05-29",
-        "status": "WD",
+        "rawDate": "2015-09-29",
+        "status": "NOTE",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/html/wg/"
@@ -21430,9 +21450,25 @@
                     "http://www.w3.org/html/wg/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150929": {
+                "authors": [
+                    "Cameron Jones"
+                ],
+                "href": "http://www.w3.org/TR/2015/NOTE-form-http-extensions-20150929/",
+                "title": "W3C HTML Form HTTP Extensions",
+                "rawDate": "2015-09-29",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "isRetired": true,
+                "deliveredBy": [
+                    "http://www.w3.org/html/wg/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "http://cameronjones.github.com/form-http-extensions/index.html"
+        "edDraft": "http://cameronjones.github.com/form-http-extensions/index.html",
+        "isRetired": true
     },
     "fragid-best-practices": {
         "authors": [
@@ -22914,8 +22950,8 @@
         ],
         "href": "http://www.w3.org/TR/html-aapi/",
         "title": "HTML to Platform Accessibility APIs Implementation Guide",
-        "rawDate": "2013-10-01",
-        "status": "WD",
+        "rawDate": "2015-09-29",
+        "status": "NOTE",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/html/wg/"
@@ -22989,9 +23025,28 @@
                     "http://www.w3.org/html/wg/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150929": {
+                "authors": [
+                    "Steve Faulkner",
+                    "Cynthia Shelly",
+                    "Jason Kiss",
+                    "Alexander Surkov"
+                ],
+                "href": "http://www.w3.org/TR/2015/NOTE-html-aapi-20150929/",
+                "title": "HTML to Platform Accessibility APIs Implementation Guide",
+                "rawDate": "2015-09-29",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "isRetired": true,
+                "deliveredBy": [
+                    "http://www.w3.org/html/wg/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "http://rawgithub.com/w3c/html-api-map/master/index.html"
+        "edDraft": "http://rawgithub.com/w3c/html-api-map/master/index.html",
+        "isRetired": true
     },
     "html-alt-techniques": {
         "authors": [
@@ -23311,8 +23366,8 @@
         ],
         "href": "http://www.w3.org/TR/html-json-forms/",
         "title": "W3C HTML JSON form submission",
-        "rawDate": "2014-05-29",
-        "status": "WD",
+        "rawDate": "2015-09-29",
+        "status": "NOTE",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/html/wg/"
@@ -23332,9 +23387,25 @@
                     "http://www.w3.org/html/wg/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150929": {
+                "authors": [
+                    "Robin Berjon"
+                ],
+                "href": "http://www.w3.org/TR/2015/NOTE-html-json-forms-20150929/",
+                "title": "W3C HTML JSON form submission",
+                "rawDate": "2015-09-29",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "isRetired": true,
+                "deliveredBy": [
+                    "http://www.w3.org/html/wg/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "http://darobin.github.com/formic/specs/json/"
+        "edDraft": "http://darobin.github.com/formic/specs/json/",
+        "isRetired": true
     },
     "html-lan": {
         "authors": [
@@ -23764,8 +23835,8 @@
         ],
         "href": "http://www.w3.org/TR/html-polyglot/",
         "title": "Polyglot Markup: A robust profile of the HTML5 vocabulary",
-        "rawDate": "2014-07-17",
-        "status": "CR",
+        "rawDate": "2015-09-29",
+        "status": "NOTE",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/html/wg/"
@@ -23866,9 +23937,26 @@
                     "http://www.w3.org/html/wg/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150929": {
+                "authors": [
+                    "Eliot Graff",
+                    "Leif Halvard Silli"
+                ],
+                "href": "http://www.w3.org/TR/2015/NOTE-html-polyglot-20150929/",
+                "title": "Polyglot Markup: A robust profile of the HTML5 vocabulary",
+                "rawDate": "2015-09-29",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "isRetired": true,
+                "deliveredBy": [
+                    "http://www.w3.org/html/wg/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "http://dev.w3.org/html5/html-polyglot/html-polyglot.html"
+        "edDraft": "http://dev.w3.org/html5/html-polyglot/html-polyglot.html",
+        "isRetired": true
     },
     "html-rdfa": {
         "authors": [
