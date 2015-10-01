@@ -38545,8 +38545,11 @@
         ],
         "rawDate": "1999-06",
         "status": "Draft Standard",
-        "updatedBy": [
-            "RFC7235"
+        "obsoletedBy": [
+            "RFC7235",
+            "RFC7615",
+            "RFC7616",
+            "RFC7617"
         ],
         "obsoletes": [
             "RFC2069"
@@ -103505,7 +103508,8 @@
         "rawDate": "2013-04",
         "status": "Proposed Standard",
         "updatedBy": [
-            "RFC7488"
+            "RFC7488",
+            "RFC7652"
         ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=6887",
         "publisher": "IETF",
@@ -108791,11 +108795,9 @@
         ],
         "rawDate": "2014-06",
         "status": "Proposed Standard",
-        "updates": [
-            "RFC2617"
-        ],
         "obsoletes": [
-            "RFC2616"
+            "RFC2616",
+            "RFC2617"
         ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -114609,6 +114611,53 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc7615": {
+        "rfcNumber": "RFC7615",
+        "href": "https://tools.ietf.org/html/rfc7615",
+        "title": "HTTP Authentication-Info and Proxy-Authentication-Info Response Header Fields",
+        "authors": [
+            "J. Reschke"
+        ],
+        "rawDate": "2015-09",
+        "status": "Proposed Standard",
+        "obsoletes": [
+            "RFC2617"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7616": {
+        "rfcNumber": "RFC7616",
+        "href": "https://tools.ietf.org/html/rfc7616",
+        "title": "HTTP Digest Access Authentication",
+        "authors": [
+            "R. Shekh-Yusef, Ed.",
+            "D. Ahrens",
+            "S. Bremer"
+        ],
+        "rawDate": "2015-09",
+        "status": "Proposed Standard",
+        "obsoletes": [
+            "RFC2617"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7617": {
+        "rfcNumber": "RFC7617",
+        "href": "https://tools.ietf.org/html/rfc7617",
+        "title": "The 'Basic' HTTP Authentication Scheme",
+        "authors": [
+            "J. Reschke"
+        ],
+        "rawDate": "2015-09",
+        "status": "Proposed Standard",
+        "obsoletes": [
+            "RFC2617"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc7618": {
         "rfcNumber": "RFC7618",
         "href": "https://tools.ietf.org/html/rfc7618",
@@ -114931,6 +114980,18 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc7641": {
+        "rfcNumber": "RFC7641",
+        "href": "https://tools.ietf.org/html/rfc7641",
+        "title": "Observing Resources in the Constrained Application Protocol (CoAP)",
+        "authors": [
+            "K. Hartke"
+        ],
+        "rawDate": "2015-09",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc7642": {
         "rfcNumber": "RFC7642",
         "href": "https://tools.ietf.org/html/rfc7642",
@@ -115084,6 +115145,24 @@
         ],
         "rawDate": "2015-09",
         "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7652": {
+        "rfcNumber": "RFC7652",
+        "href": "https://tools.ietf.org/html/rfc7652",
+        "title": "Port Control Protocol (PCP) Authentication Mechanism",
+        "authors": [
+            "M. Cullen",
+            "S. Hartman",
+            "D. Zhang",
+            "T. Reddy"
+        ],
+        "rawDate": "2015-09",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC6887"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
