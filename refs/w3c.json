@@ -19446,7 +19446,7 @@
         ],
         "href": "http://www.w3.org/TR/dom/",
         "title": "W3C DOM4",
-        "status": "LCWD",
+        "status": "PR",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/html/wg/"
@@ -19606,9 +19606,27 @@
                     "http://www.w3.org/html/wg/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20151006": {
+                "authors": [
+                    "Anne van Kesteren",
+                    "Aryeh Gregor",
+                    "Ms2ger",
+                    "Alex Russell",
+                    "Robin Berjon"
+                ],
+                "href": "http://www.w3.org/TR/2015/PR-dom-20151006/",
+                "title": "W3C DOM4",
+                "rawDate": "2015-10-06",
+                "status": "PR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/html/wg/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2015-06-18",
+        "rawDate": "2015-10-06",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
         "edDraft": "https://w3c.github.io/dom/"
     },
@@ -41232,9 +41250,24 @@
                     "http://www.w3.org/2008/webapps/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20151006": {
+                "authors": [
+                    "Dimitri Glazkov",
+                    "Hayato Ito"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-shadow-dom-20151006/",
+                "title": "Shadow DOM",
+                "rawDate": "2015-10-06",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2008/webapps/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2014-06-17",
+        "rawDate": "2015-10-06",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
         "edDraft": "https://w3c.github.io/webcomponents/spec/shadow/"
     },
