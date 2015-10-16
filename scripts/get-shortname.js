@@ -1,4 +1,4 @@
-var TR_URL = "http://www.w3.org/TR/";
+var TR_URL = /https?:\/\/www\.w3\.org\/TR\//;
 
 var SPECIAL_CASES = {
     'http://www.w3.org/Search/9605-Indexing-Workshop/ReportOutcomes/S6Group2': "S6Group2",
