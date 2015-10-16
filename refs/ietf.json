@@ -82072,6 +82072,9 @@
         ],
         "rawDate": "2009-02",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC7653"
+        ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=5460",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -83793,6 +83796,9 @@
         ],
         "rawDate": "2009-08",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC7674"
+        ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=5575",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -100661,7 +100667,8 @@
         "rawDate": "2012-08",
         "status": "Proposed Standard",
         "updatedBy": [
-            "RFC7218"
+            "RFC7218",
+            "RFC7671"
         ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=6698",
         "publisher": "IETF",
@@ -112608,6 +112615,7 @@
         ],
         "rawDate": "2015-03",
         "status": "Proposed Standard",
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=7483",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -114138,6 +114146,19 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc7585": {
+        "rfcNumber": "RFC7585",
+        "href": "https://tools.ietf.org/html/rfc7585",
+        "title": "Dynamic Peer Discovery for RADIUS/TLS and RADIUS/DTLS Based on the Network Access Identifier (NAI)",
+        "authors": [
+            "S. Winter",
+            "M. McCauley"
+        ],
+        "rawDate": "2015-10",
+        "status": "Experimental",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc7586": {
         "rfcNumber": "RFC7586",
         "href": "https://tools.ietf.org/html/rfc7586",
@@ -114856,6 +114877,19 @@
     "rfc763": {
         "aliasOf": "rfc0763"
     },
+    "rfc7630": {
+        "rfcNumber": "RFC7630",
+        "href": "https://tools.ietf.org/html/rfc7630",
+        "title": "HMAC-SHA-2 Authentication Protocols in the User-based Security Model (USM) for SNMPv3",
+        "authors": [
+            "J. Merkle, Ed.",
+            "M. Lochter"
+        ],
+        "rawDate": "2015-10",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc7631": {
         "rfcNumber": "RFC7631",
         "href": "https://tools.ietf.org/html/rfc7631",
@@ -114882,6 +114916,18 @@
         ],
         "rawDate": "2015-09",
         "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7633": {
+        "rfcNumber": "RFC7633",
+        "href": "https://tools.ietf.org/html/rfc7633",
+        "title": "X.509v3 Transport Layer Security (TLS) Feature Extension",
+        "authors": [
+            "P. Hallam-Baker"
+        ],
+        "rawDate": "2015-10",
+        "status": "Proposed Standard",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -115168,11 +115214,100 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc7653": {
+        "rfcNumber": "RFC7653",
+        "href": "https://tools.ietf.org/html/rfc7653",
+        "title": "DHCPv6 Active Leasequery",
+        "authors": [
+            "D. Raghuvanshi",
+            "K. Kinnear",
+            "D. Kukrety"
+        ],
+        "rawDate": "2015-10",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC5460"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc766": {
         "aliasOf": "rfc0766"
     },
+    "rfc7660": {
+        "rfcNumber": "RFC7660",
+        "href": "https://tools.ietf.org/html/rfc7660",
+        "title": "Diameter Congestion and Filter Attributes",
+        "authors": [
+            "L. Bertz",
+            "S. Manning",
+            "B. Hirschman"
+        ],
+        "rawDate": "2015-10",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc767": {
         "aliasOf": "rfc0767"
+    },
+    "rfc7671": {
+        "rfcNumber": "RFC7671",
+        "href": "https://tools.ietf.org/html/rfc7671",
+        "title": "The DNS-Based Authentication of Named Entities (DANE) Protocol: Updates and Operational Guidance",
+        "authors": [
+            "V. Dukhovni",
+            "W. Hardaker"
+        ],
+        "rawDate": "2015-10",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC6698"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7672": {
+        "rfcNumber": "RFC7672",
+        "href": "https://tools.ietf.org/html/rfc7672",
+        "title": "SMTP Security via Opportunistic DNS-Based Authentication of Named Entities (DANE) Transport Layer Security (TLS)",
+        "authors": [
+            "V. Dukhovni",
+            "W. Hardaker"
+        ],
+        "rawDate": "2015-10",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7673": {
+        "rfcNumber": "RFC7673",
+        "href": "https://tools.ietf.org/html/rfc7673",
+        "title": "Using DNS-Based Authentication of Named Entities (DANE) TLSA Records with SRV Records",
+        "authors": [
+            "T. Finch",
+            "M. Miller",
+            "P. Saint-Andre"
+        ],
+        "rawDate": "2015-10",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7674": {
+        "rfcNumber": "RFC7674",
+        "href": "https://tools.ietf.org/html/rfc7674",
+        "title": "Clarification of the Flowspec Redirect Extended Community",
+        "authors": [
+            "J. Haas, Ed."
+        ],
+        "rawDate": "2015-10",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC5575"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc768": {
         "aliasOf": "rfc0768"
