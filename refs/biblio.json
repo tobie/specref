@@ -611,26 +611,15 @@
         "status": "Standard",
         "title": "The JSON Data Interchange Format"
     },
-    "ECMAS-402": {
-        "authors": [
-            "Norbert Lindenberg"
-        ],
-        "date": "1 December 2012",
-        "href": "http://www.ecma-international.org/ecma-402/1.0/",
+    "ECMA-402": {
+        "href": "https://tc39.github.io/ecma402/",
         "publisher": "Ecma International",
-        "status": "Standard ECMA-402",
         "title": "ECMAScript Internationalization API Specification"
     },
     "ECMASCRIPT": {
-        "title": "ECMA-262 6th Edition, The ECMAScript 2015 Language Specification",
-        "rawDate": "2015-06",
-        "href": "http://www.ecma-international.org/ecma-262/6.0/",
-        "status": "Standard",
+        "title": "ECMAScript Language Specification",
+        "href": "https://tc39.github.io/ecma262/",
         "publisher": "Ecma International",
-        "authors": [
-            "Allen Wirfs-Brock"
-        ],
-        "edDraft": "https://people.mozilla.org/~jorendorff/es6-draft.html",
         "versions": {
             "51": {
                 "aliasOf": "ECMASCRIPT-5.1"
@@ -661,7 +650,10 @@
         }
     },
     "ECMASCRIPT-I18N": {
-        "aliasOf": "ECMAS-402"
+        "aliasOf": "ECMA-402"
+    },
+    "ECMAS-402": {
+        "aliasOf": "ECMA-402"
     },
     "ECMAScript-MIME": {
         "aliasOf": "RFC4329"
