@@ -604,6 +604,11 @@
     "ECMA-262": {
         "aliasOf": "ECMASCRIPT"
     },
+    "ECMA-402": {
+        "href": "https://tc39.github.io/ecma402/",
+        "publisher": "Ecma International",
+        "title": "ECMAScript Internationalization API Specification"
+    },
     "ECMA-404": {
         "date": "1 October 2013",
         "href": "http://www.ecma-international.org/publications/files/ECMA-ST/ECMA-404.pdf",
@@ -611,10 +616,8 @@
         "status": "Standard",
         "title": "The JSON Data Interchange Format"
     },
-    "ECMA-402": {
-        "href": "https://tc39.github.io/ecma402/",
-        "publisher": "Ecma International",
-        "title": "ECMAScript Internationalization API Specification"
+    "ECMAS-402": {
+        "aliasOf": "ECMA-402"
     },
     "ECMASCRIPT": {
         "title": "ECMAScript Language Specification",
@@ -650,9 +653,6 @@
         }
     },
     "ECMASCRIPT-I18N": {
-        "aliasOf": "ECMA-402"
-    },
-    "ECMAS-402": {
         "aliasOf": "ECMA-402"
     },
     "ECMAScript-MIME": {
