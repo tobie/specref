@@ -20506,7 +20506,7 @@
         ],
         "href": "http://www.w3.org/TR/encoding/",
         "title": "Encoding",
-        "rawDate": "2014-09-16",
+        "rawDate": "2015-10-20",
         "status": "CR",
         "publisher": "W3C",
         "deliveredBy": [
@@ -20555,6 +20555,22 @@
                 "href": "http://www.w3.org/TR/2014/CR-encoding-20140916/",
                 "title": "Encoding",
                 "rawDate": "2014-09-16",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/International/core/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20151020": {
+                "authors": [
+                    "Anne van Kesteren",
+                    "Joshua Bell",
+                    "Addison Phillips"
+                ],
+                "href": "http://www.w3.org/TR/2015/CR-encoding-20151020/",
+                "title": "Encoding",
+                "rawDate": "2015-10-20",
                 "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -26543,6 +26559,37 @@
         },
         "rawDate": "2003-01-22",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+    },
+    "international-specs": {
+        "authors": [
+            "Richard Ishida"
+        ],
+        "href": "http://www.w3.org/TR/international-specs/",
+        "title": "Internationalization Best Practices for Spec Developers",
+        "rawDate": "2015-10-20",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/bp-i18n-specdev/",
+        "deliveredBy": [
+            "http://www.w3.org/International/core/"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20151020": {
+                "authors": [
+                    "Richard Ishida"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-international-specs-20151020/",
+                "title": "Internationalization Best Practices for Spec Developers",
+                "rawDate": "2015-10-20",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/International/core/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
     },
     "its": {
         "authors": [
