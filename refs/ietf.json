@@ -42380,7 +42380,10 @@
             "S. Floyd"
         ],
         "rawDate": "2000-06",
-        "status": "Experimental",
+        "status": "Historic",
+        "obsoletedBy": [
+            "RFC7661"
+        ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=2861",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -60154,6 +60157,9 @@
         ],
         "rawDate": "2005-03",
         "status": "Proposed Standard",
+        "obsoletedBy": [
+            "RFC7658"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -115249,6 +115255,54 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc7654": {
+        "rfcNumber": "RFC7654",
+        "href": "https://tools.ietf.org/html/rfc7654",
+        "title": "Benchmarking Methodology for In-Service Software Upgrade (ISSU)",
+        "authors": [
+            "S. Banks",
+            "F. Calabria",
+            "G. Czirjak",
+            "R. Machat"
+        ],
+        "rawDate": "2015-10",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7658": {
+        "rfcNumber": "RFC7658",
+        "href": "https://tools.ietf.org/html/rfc7658",
+        "title": "Deprecation of MIB Module NAT-MIB: Managed Objects for Network Address Translators (NATs)",
+        "authors": [
+            "S. Perreault",
+            "T. Tsou",
+            "S. Sivakumar",
+            "T. Taylor"
+        ],
+        "rawDate": "2015-10",
+        "status": "Proposed Standard",
+        "obsoletes": [
+            "RFC4008"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7659": {
+        "rfcNumber": "RFC7659",
+        "href": "https://tools.ietf.org/html/rfc7659",
+        "title": "Definitions of Managed Objects for Network Address Translators (NATs)",
+        "authors": [
+            "S. Perreault",
+            "T. Tsou",
+            "S. Sivakumar",
+            "T. Taylor"
+        ],
+        "rawDate": "2015-10",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc766": {
         "aliasOf": "rfc0766"
     },
@@ -115263,6 +115317,23 @@
         ],
         "rawDate": "2015-10",
         "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7661": {
+        "rfcNumber": "RFC7661",
+        "href": "https://tools.ietf.org/html/rfc7661",
+        "title": "Updating TCP to Support Rate-Limited Traffic",
+        "authors": [
+            "G. Fairhurst",
+            "A. Sathiaseelan",
+            "R. Secchi"
+        ],
+        "rawDate": "2015-10",
+        "status": "Experimental",
+        "obsoletes": [
+            "RFC2861"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -115314,6 +115385,23 @@
             "J. Schoenwaelder",
             "K. Shima",
             "T. Tsou"
+        ],
+        "rawDate": "2015-10",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7668": {
+        "rfcNumber": "RFC7668",
+        "href": "https://tools.ietf.org/html/rfc7668",
+        "title": "IPv6 over BLUETOOTH(R) Low Energy",
+        "authors": [
+            "J. Nieminen",
+            "T. Savolainen",
+            "M. Isomaki",
+            "B. Patil",
+            "Z. Shelby",
+            "C. Gomez"
         ],
         "rawDate": "2015-10",
         "status": "Proposed Standard",
@@ -115450,6 +115538,21 @@
         ],
         "rawDate": "2015-10",
         "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7683": {
+        "rfcNumber": "RFC7683",
+        "href": "https://tools.ietf.org/html/rfc7683",
+        "title": "Diameter Overload Indication Conveyance",
+        "authors": [
+            "J. Korhonen, Ed.",
+            "S. Donovan, Ed.",
+            "B. Campbell",
+            "L. Morand"
+        ],
+        "rawDate": "2015-10",
+        "status": "Proposed Standard",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
