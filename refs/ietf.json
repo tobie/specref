@@ -41812,6 +41812,7 @@
         ],
         "rawDate": "2000-05",
         "status": "Informational",
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=2826",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -61177,7 +61178,8 @@
         "rawDate": "2005-04",
         "status": "Best Current Practice",
         "updatedBy": [
-            "RFC4371"
+            "RFC4371",
+            "RFC7691"
         ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -87253,6 +87255,9 @@
         ],
         "rawDate": "2010-07",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC7677"
+        ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=5802",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -102505,6 +102510,7 @@
         ],
         "rawDate": "2012-12",
         "status": "Proposed Standard",
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=6822",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -108317,6 +108323,7 @@
         ],
         "rawDate": "2014-04",
         "status": "Proposed Standard",
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=7203",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -115235,6 +115242,7 @@
         "updates": [
             "RFC6887"
         ],
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=7652",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -115267,6 +115275,22 @@
         ],
         "rawDate": "2015-10",
         "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7655": {
+        "rfcNumber": "RFC7655",
+        "href": "https://tools.ietf.org/html/rfc7655",
+        "title": "RTP Payload Format for G.711.0",
+        "authors": [
+            "M. Ramalho, Ed.",
+            "P. Jones",
+            "N. Harada",
+            "M. Perumal",
+            "L. Miao"
+        ],
+        "rawDate": "2015-11",
+        "status": "Proposed Standard",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -115511,6 +115535,21 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc7677": {
+        "rfcNumber": "RFC7677",
+        "href": "https://tools.ietf.org/html/rfc7677",
+        "title": "SCRAM-SHA-256 and SCRAM-SHA-256-PLUS Simple Authentication and Security Layer (SASL) Mechanisms",
+        "authors": [
+            "T. Hansen"
+        ],
+        "rawDate": "2015-11",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC5802"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc7678": {
         "rfcNumber": "RFC7678",
         "href": "https://tools.ietf.org/html/rfc7678",
@@ -115586,6 +115625,46 @@
     },
     "rfc769": {
         "aliasOf": "rfc0769"
+    },
+    "rfc7691": {
+        "rfcNumber": "RFC7691",
+        "href": "https://tools.ietf.org/html/rfc7691",
+        "title": "Updating the Term Dates of IETF Administrative Oversight Committee (IAOC) Members",
+        "authors": [
+            "S. Bradner, Ed."
+        ],
+        "rawDate": "2015-11",
+        "status": "Best Current Practice",
+        "updates": [
+            "RFC4071"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7693": {
+        "rfcNumber": "RFC7693",
+        "href": "https://tools.ietf.org/html/rfc7693",
+        "title": "The BLAKE2 Cryptographic Hash and Message Authentication Code (MAC)",
+        "authors": [
+            "M-J. Saarinen, Ed.",
+            "J-P. Aumasson"
+        ],
+        "rawDate": "2015-11",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7694": {
+        "rfcNumber": "RFC7694",
+        "href": "https://tools.ietf.org/html/rfc7694",
+        "title": "Hypertext Transfer Protocol (HTTP) Client-Initiated Content-Encoding",
+        "authors": [
+            "J. Reschke"
+        ],
+        "rawDate": "2015-11",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc77": {
         "aliasOf": "rfc0077"
