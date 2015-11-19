@@ -76906,6 +76906,9 @@
         ],
         "rawDate": "2008-01",
         "status": "Informational",
+        "obsoletedBy": [
+            "RFC7667"
+        ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=5117",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -81345,6 +81348,7 @@
         ],
         "rawDate": "2010-02",
         "status": "Historic",
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=5412",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -88907,6 +88911,7 @@
         ],
         "rawDate": "2010-06",
         "status": "Informational",
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=5917",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -101609,6 +101614,7 @@
         ],
         "rawDate": "2013-02",
         "status": "Proposed Standard",
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=6762",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -112850,6 +112856,7 @@
         ],
         "rawDate": "2015-04",
         "status": "Informational",
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=7498",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -113494,6 +113501,7 @@
         ],
         "rawDate": "2015-05",
         "status": "Proposed Standard",
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=7540",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -115294,6 +115302,35 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc7656": {
+        "rfcNumber": "RFC7656",
+        "href": "https://tools.ietf.org/html/rfc7656",
+        "title": "A Taxonomy of Semantics and Mechanisms for Real-Time Transport Protocol (RTP) Sources",
+        "authors": [
+            "J. Lennox",
+            "K. Gross",
+            "S. Nandakumar",
+            "G. Salgueiro",
+            "B. Burman, Ed."
+        ],
+        "rawDate": "2015-11",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7657": {
+        "rfcNumber": "RFC7657",
+        "href": "https://tools.ietf.org/html/rfc7657",
+        "title": "Differentiated Services (Diffserv) and Real-Time Communication",
+        "authors": [
+            "D. Black, Ed.",
+            "P. Jones"
+        ],
+        "rawDate": "2015-11",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc7658": {
         "rfcNumber": "RFC7658",
         "href": "https://tools.ietf.org/html/rfc7658",
@@ -115386,6 +115423,18 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc7664": {
+        "rfcNumber": "RFC7664",
+        "href": "https://tools.ietf.org/html/rfc7664",
+        "title": "Dragonfly Key Exchange",
+        "authors": [
+            "D. Harkins, Ed."
+        ],
+        "rawDate": "2015-11",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc7665": {
         "rfcNumber": "RFC7665",
         "href": "https://tools.ietf.org/html/rfc7665",
@@ -115396,6 +115445,7 @@
         ],
         "rawDate": "2015-10",
         "status": "Informational",
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=7665",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -115412,6 +115462,22 @@
         ],
         "rawDate": "2015-10",
         "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7667": {
+        "rfcNumber": "RFC7667",
+        "href": "https://tools.ietf.org/html/rfc7667",
+        "title": "RTP Topologies",
+        "authors": [
+            "M. Westerlund",
+            "S. Wenger"
+        ],
+        "rawDate": "2015-11",
+        "status": "Informational",
+        "obsoletes": [
+            "RFC5117"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -115623,6 +115689,35 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc7688": {
+        "rfcNumber": "RFC7688",
+        "href": "https://tools.ietf.org/html/rfc7688",
+        "title": "GMPLS OSPF Enhancement for Signal and Network Element Compatibility for Wavelength Switched Optical Networks",
+        "authors": [
+            "Y. Lee, Ed.",
+            "G. Bernstein, Ed."
+        ],
+        "rawDate": "2015-11",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7689": {
+        "rfcNumber": "RFC7689",
+        "href": "https://tools.ietf.org/html/rfc7689",
+        "title": "Signaling Extensions for Wavelength Switched Optical Networks",
+        "authors": [
+            "G. Bernstein, Ed.",
+            "S. Xu",
+            "Y. Lee, Ed.",
+            "G. Martinelli",
+            "H. Harai"
+        ],
+        "rawDate": "2015-11",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc769": {
         "aliasOf": "rfc0769"
     },
@@ -115666,11 +115761,52 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc7696": {
+        "rfcNumber": "RFC7696",
+        "href": "https://tools.ietf.org/html/rfc7696",
+        "title": "Guidelines for Cryptographic Algorithm Agility and Selecting Mandatory-to-Implement Algorithms",
+        "authors": [
+            "R. Housley"
+        ],
+        "rawDate": "2015-11",
+        "status": "Best Current Practice",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc77": {
         "aliasOf": "rfc0077"
     },
     "rfc770": {
         "aliasOf": "rfc0770"
+    },
+    "rfc7703": {
+        "rfcNumber": "RFC7703",
+        "href": "https://tools.ietf.org/html/rfc7703",
+        "title": "Experience with Testing of Mapping of Address and Port Using Translation (MAP-T)",
+        "authors": [
+            "E. Cordeiro",
+            "R. Carnier",
+            "A. Moreiras"
+        ],
+        "rawDate": "2015-11",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7709": {
+        "rfcNumber": "RFC7709",
+        "href": "https://tools.ietf.org/html/rfc7709",
+        "title": "Requirements for Very Fast Setup of GMPLS Label Switched Paths (LSPs)",
+        "authors": [
+            "A. Malis, Ed.",
+            "B. Wilson",
+            "G. Clapp",
+            "V. Shukla"
+        ],
+        "rawDate": "2015-11",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc771": {
         "aliasOf": "rfc0771"
