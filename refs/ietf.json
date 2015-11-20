@@ -33352,6 +33352,7 @@
         ],
         "rawDate": "1998-03",
         "status": "Experimental",
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=2296",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -52036,7 +52037,8 @@
             "RFC6002",
             "RFC6003",
             "RFC6205",
-            "RFC7074"
+            "RFC7074",
+            "RFC7699"
         ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=3471",
         "publisher": "IETF",
@@ -93268,6 +93270,9 @@
         ],
         "rawDate": "2011-03",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC7699"
+        ],
         "updates": [
             "RFC3471"
         ],
@@ -102111,6 +102116,7 @@
         "obsoletes": [
             "RFC4893"
         ],
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=6793",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -115770,6 +115776,42 @@
         ],
         "rawDate": "2015-11",
         "status": "Best Current Practice",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7698": {
+        "rfcNumber": "RFC7698",
+        "href": "https://tools.ietf.org/html/rfc7698",
+        "title": "Framework and Requirements for GMPLS-Based Control of Flexi-Grid Dense Wavelength Division Multiplexing (DWDM) Networks",
+        "authors": [
+            "O. Gonzalez de Dios, Ed.",
+            "R. Casellas, Ed.",
+            "F. Zhang",
+            "X. Fu",
+            "D. Ceccarelli",
+            "I. Hussain"
+        ],
+        "rawDate": "2015-11",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7699": {
+        "rfcNumber": "RFC7699",
+        "href": "https://tools.ietf.org/html/rfc7699",
+        "title": "Generalized Labels for the Flexi-Grid in Lambda Switch Capable (LSC) Label Switching Routers",
+        "authors": [
+            "A. Farrel",
+            "D. King",
+            "Y. Li",
+            "F. Zhang"
+        ],
+        "rawDate": "2015-11",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC3471",
+            "RFC6205"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
