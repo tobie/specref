@@ -11075,12 +11075,12 @@
             "Anssi Kostiainen"
         ],
         "href": "http://www.w3.org/TR/appmanifest/",
-        "title": "Manifest for a web application",
-        "rawDate": "2015-09-21",
+        "title": "Web App Manifest",
+        "rawDate": "2015-11-24",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
-            "http://www.w3.org/2008/webapps/"
+            "http://www.w3.org/WebPlatform/WG/"
         ],
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
         "versions": {
@@ -11471,6 +11471,23 @@
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/2008/webapps/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20151124": {
+                "authors": [
+                    "Marcos Caceres",
+                    "Kenneth Christiansen",
+                    "Mounir Lamouri",
+                    "Anssi Kostiainen"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-appmanifest-20151124/",
+                "title": "Web App Manifest",
+                "rawDate": "2015-11-24",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/WebPlatform/WG/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
@@ -41745,12 +41762,12 @@
         ],
         "href": "http://www.w3.org/TR/selection-api/",
         "title": "Selection API",
-        "rawDate": "2015-10-08",
+        "rawDate": "2015-11-24",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/selection-api/",
         "deliveredBy": [
-            "http://www.w3.org/2008/webapps/"
+            "http://www.w3.org/WebPlatform/WG/"
         ],
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
         "versions": {
@@ -41779,6 +41796,20 @@
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/2008/webapps/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20151124": {
+                "authors": [
+                    "Ryosuke Niwa"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-selection-api-20151124/",
+                "title": "Selection API",
+                "rawDate": "2015-11-24",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/WebPlatform/WG/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
@@ -63285,8 +63316,8 @@
         ],
         "href": "http://www.w3.org/TR/xpath-full-text-30/",
         "title": "XQuery and XPath Full Text 3.0",
-        "rawDate": "2015-08-06",
-        "status": "PR",
+        "rawDate": "2015-11-24",
+        "status": "REC",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/Style/XSL/",
@@ -63356,6 +63387,22 @@
                 "title": "XQuery and XPath Full Text 3.0",
                 "rawDate": "2015-08-06",
                 "status": "PR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Style/XSL/",
+                    "http://www.w3.org/XML/Query/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20151124": {
+                "authors": [
+                    "Mary Holstege",
+                    "Jim Melton"
+                ],
+                "href": "http://www.w3.org/TR/2015/REC-xpath-full-text-30-20151124/",
+                "title": "XQuery and XPath Full Text 3.0",
+                "rawDate": "2015-11-24",
+                "status": "REC",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/Style/XSL/",
