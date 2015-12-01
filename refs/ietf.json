@@ -10565,7 +10565,7 @@
     "rfc0819": {
         "rfcNumber": "RFC0819",
         "href": "https://tools.ietf.org/html/rfc819",
-        "title": "Domain naming convention for Internet user applications",
+        "title": "The Domain Naming Convention for Internet User Applications",
         "authors": [
             "Z. Su",
             "J. Postel"
@@ -64106,7 +64106,8 @@
             "RFC6608",
             "RFC6793",
             "RFC7606",
-            "RFC7607"
+            "RFC7607",
+            "RFC7705"
         ],
         "obsoletes": [
             "RFC1771"
@@ -115863,6 +115864,35 @@
         ],
         "rawDate": "2015-11",
         "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7704": {
+        "rfcNumber": "RFC7704",
+        "href": "https://tools.ietf.org/html/rfc7704",
+        "title": "An IETF with Much Diversity and Professional Conduct",
+        "authors": [
+            "D. Crocker",
+            "N. Clark"
+        ],
+        "rawDate": "2015-11",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7705": {
+        "rfcNumber": "RFC7705",
+        "href": "https://tools.ietf.org/html/rfc7705",
+        "title": "Autonomous System Migration Mechanisms and Their Effects on the BGP AS_PATH Attribute",
+        "authors": [
+            "W. George",
+            "S. Amante"
+        ],
+        "rawDate": "2015-11",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC4271"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
