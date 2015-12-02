@@ -3,6 +3,10 @@
   "version": "0.2.0",
   "description": "A list of spec references and related API.",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tobie/specref"
+  },
   "dependencies": {
     "body-parser": "^1.14.1",
     "compression": "^1.6.0",
