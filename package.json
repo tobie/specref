@@ -3,27 +3,31 @@
   "version": "0.2.0",
   "description": "A list of spec references and related API.",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tobie/specref"
+  },
   "dependencies": {
-    "body-parser": "1.9.0",
-    "compression": "1.1.0",
-    "cors": "2.4.2",
-    "errorhandler": "1.2.0",
-    "express": "4.9.5",
-    "multer": "0.1.4"
+    "body-parser": "^1.14.1",
+    "compression": "^1.6.0",
+    "cors": "^2.7.1",
+    "errorhandler": "^1.4.2",
+    "express": "^4.13.3",
+    "multer": "^1.1.0"
   },
   "devDependencies": {
-    "async": "0.9.0",
-    "ent": "2.0.0",
-    "jsdom": "3.1.1",
-    "json-pointer": "0.2.2",
-    "mocha": "1.21.4",
-    "request": "2.44.0",
-    "tv4": "1.1.9",
-    "tv4-formats": "1.0.0",
-    "xml2js": "0.4.4"
+    "async": "^1.5.0",
+    "ent": "^2.2.0",
+    "jsdom": "^7.1.0",
+    "json-pointer": "^0.3.0",
+    "mocha": "^2.3.4",
+    "request": "^2.67.0",
+    "tv4": "^1.2.7",
+    "tv4-formats": "^1.0.2",
+    "xml2js": "^0.4.15"
   },
   "scripts": {
-    "test": "mocha -u tdd -R min --timeout 300000 ./test/*.js",
+    "test": "mocha -c -G -u tdd -R min --timeout 300000 ./test/*.js",
     "start": "node index.js"
   },
   "domains": [
