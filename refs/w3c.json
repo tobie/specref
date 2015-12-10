@@ -24091,11 +24091,11 @@
         ],
         "href": "http://www.w3.org/TR/html-aria/",
         "title": "ARIA in HTML",
-        "rawDate": "2015-10-10",
+        "rawDate": "2015-12-10",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
-            "http://www.w3.org/html/wg/"
+            "http://www.w3.org/WebPlatform/WG/"
         ],
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
         "versions": {
@@ -24152,6 +24152,20 @@
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/html/wg/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20151210": {
+                "authors": [
+                    "Steve Faulkner"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-html-aria-20151210/",
+                "title": "ARIA in HTML",
+                "rawDate": "2015-12-10",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/WebPlatform/WG/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
@@ -42219,6 +42233,37 @@
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/2015/spatial/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
+    "security-privacy-questionnaire": {
+        "authors": [
+            "Mike West"
+        ],
+        "href": "http://www.w3.org/TR/security-privacy-questionnaire/",
+        "title": "Self-Review Questionnaire: Security and Privacy",
+        "rawDate": "2015-12-10",
+        "status": "NOTE",
+        "publisher": "W3C",
+        "edDraft": "https://w3ctag.github.io/security-questionnaire/",
+        "deliveredBy": [
+            "http://www.w3.org/2001/tag/"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20151210": {
+                "authors": [
+                    "Mike West"
+                ],
+                "href": "http://www.w3.org/TR/2015/NOTE-security-privacy-questionnaire-20151210/",
+                "title": "Self-Review Questionnaire: Security and Privacy",
+                "rawDate": "2015-12-10",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2001/tag/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
@@ -63956,8 +64001,8 @@
         ],
         "href": "http://www.w3.org/TR/xpath-full-text-30-requirements-use-cases/",
         "title": "XQuery and XPath Full Text 3.0 Requirements and Use Cases",
-        "rawDate": "2015-03-12",
-        "status": "WD",
+        "rawDate": "2015-12-10",
+        "status": "NOTE",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/Style/XSL/",
@@ -63988,6 +64033,21 @@
                 "title": "XQuery and XPath Full Text 3.0 Requirements and Use Cases",
                 "rawDate": "2015-03-12",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Style/XSL/",
+                    "http://www.w3.org/XML/Query/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20151210": {
+                "authors": [
+                    "Pat Case"
+                ],
+                "href": "http://www.w3.org/TR/2015/NOTE-xpath-full-text-30-requirements-use-cases-20151210/",
+                "title": "XQuery and XPath Full Text 3.0 Requirements and Use Cases",
+                "rawDate": "2015-12-10",
+                "status": "NOTE",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/Style/XSL/",
