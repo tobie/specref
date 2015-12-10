@@ -42553,6 +42553,9 @@
         ],
         "rawDate": "2000-06",
         "status": "Best Current Practice",
+        "obsoletedBy": [
+            "RFC7720"
+        ],
         "obsoletes": [
             "RFC2010"
         ],
@@ -116013,6 +116016,22 @@
     },
     "rfc772": {
         "aliasOf": "rfc0772"
+    },
+    "rfc7720": {
+        "rfcNumber": "RFC7720",
+        "href": "https://tools.ietf.org/html/rfc7720",
+        "title": "DNS Root Name Service Protocol and Deployment Requirements",
+        "authors": [
+            "M. Blanchet",
+            "L-J. Liman"
+        ],
+        "rawDate": "2015-12",
+        "status": "Best Current Practice",
+        "obsoletes": [
+            "RFC2870"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc773": {
         "aliasOf": "rfc0773"
