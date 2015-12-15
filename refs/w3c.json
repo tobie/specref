@@ -7643,12 +7643,13 @@
     "UAAG20": {
         "authors": [
             "James Allan",
+            "Greg Lowney",
             "Kimberly Patch",
             "Jeanne F Spellman"
         ],
         "href": "http://www.w3.org/TR/UAAG20/",
         "title": "User Agent Accessibility Guidelines (UAAG) 2.0",
-        "status": "WD",
+        "status": "NOTE",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/WAI/UA/"
@@ -7770,22 +7771,40 @@
                     "http://www.w3.org/WAI/UA/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20151215": {
+                "authors": [
+                    "James Allan",
+                    "Greg Lowney",
+                    "Kimberly Patch",
+                    "Jeanne F Spellman"
+                ],
+                "href": "http://www.w3.org/TR/2015/NOTE-UAAG20-20151215/",
+                "title": "User Agent Accessibility Guidelines (UAAG) 2.0",
+                "rawDate": "2015-12-15",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/WAI/UA/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2015-09-15",
+        "rawDate": "2015-12-15",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
-        "edDraft": "http://www.w3.org/WAI/UA/UAAG20/"
+        "edDraft": "http://www.w3.org/TR/2015/NOTE-UAAG20-20151215/"
     },
     "UAAG20-Reference": {
         "authors": [
             "James Allan",
+            "Greg Lowney",
             "Kimberly Patch",
             "Jeanne F Spellman"
         ],
         "href": "http://www.w3.org/TR/UAAG20-Reference/",
         "title": "UAAG 2.0 Reference: Explanations, Examples, and Resources for User Agent Accessibility Guidelines 2.0",
-        "rawDate": "2015-09-15",
-        "status": "WD",
+        "rawDate": "2015-12-15",
+        "status": "NOTE",
         "publisher": "W3C",
         "edDraft": "http://www.w3.org/WAI/UA/UAAG20-Reference/",
         "deliveredBy": [
@@ -7900,6 +7919,23 @@
                 "title": "UAAG 2.0 Reference: Explanations, Examples, and Resources for User Agent Accessibility Guidelines 2.0",
                 "rawDate": "2015-09-15",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/WAI/UA/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20151215": {
+                "authors": [
+                    "James Allan",
+                    "Greg Lowney",
+                    "Kimberly Patch",
+                    "Jeanne F Spellman"
+                ],
+                "href": "http://www.w3.org/TR/2015/NOTE-UAAG20-Reference-20151215/",
+                "title": "UAAG 2.0 Reference: Explanations, Examples, and Resources for User Agent Accessibility Guidelines 2.0",
+                "rawDate": "2015-12-15",
+                "status": "NOTE",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/WAI/UA/"
