@@ -2611,100 +2611,10 @@
         "aliasOf": "uievents"
     },
     "DOM-Level-3-Events-code": {
-        "authors": [
-            "Gary Kacmarcik",
-            "Travis Leithead"
-        ],
-        "href": "http://www.w3.org/TR/DOM-Level-3-Events-code/",
-        "title": "DOM Level 3 KeyboardEvent code Values",
-        "rawDate": "2015-04-28",
-        "status": "WD",
-        "publisher": "W3C",
-        "deliveredBy": [
-            "http://www.w3.org/2008/webapps/"
-        ],
-        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
-        "versions": {
-            "20140612": {
-                "authors": [
-                    "Gary Kacmarcik",
-                    "Travis Leithead"
-                ],
-                "href": "http://www.w3.org/TR/2014/WD-DOM-Level-3-Events-code-20140612/",
-                "title": "DOM Level 3 KeyboardEvent code Values",
-                "rawDate": "2014-06-12",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "http://www.w3.org/2008/webapps/"
-                ],
-                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
-            },
-            "20150428": {
-                "authors": [
-                    "Gary Kacmarcik",
-                    "Travis Leithead"
-                ],
-                "href": "http://www.w3.org/TR/2015/WD-DOM-Level-3-Events-code-20150428/",
-                "title": "DOM Level 3 KeyboardEvent code Values",
-                "rawDate": "2015-04-28",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "http://www.w3.org/2008/webapps/"
-                ],
-                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
-            }
-        },
-        "edDraft": "https://w3c.github.io/DOM-Level-3-Events-code/"
+        "aliasOf": "uievents-code"
     },
     "DOM-Level-3-Events-key": {
-        "authors": [
-            "Gary Kacmarcik",
-            "Travis Leithead"
-        ],
-        "href": "http://www.w3.org/TR/DOM-Level-3-Events-key/",
-        "title": "DOM Level 3 KeyboardEvent key Values",
-        "rawDate": "2015-04-27",
-        "status": "WD",
-        "publisher": "W3C",
-        "deliveredBy": [
-            "http://www.w3.org/2008/webapps/"
-        ],
-        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
-        "versions": {
-            "20140612": {
-                "authors": [
-                    "Gary Kacmarcik",
-                    "Travis Leithead"
-                ],
-                "href": "http://www.w3.org/TR/2014/WD-DOM-Level-3-Events-key-20140612/",
-                "title": "DOM Level 3 KeyboardEvent key Values",
-                "rawDate": "2014-06-12",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "http://www.w3.org/2008/webapps/"
-                ],
-                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
-            },
-            "20150427": {
-                "authors": [
-                    "Gary Kacmarcik",
-                    "Travis Leithead"
-                ],
-                "href": "http://www.w3.org/TR/2015/WD-DOM-Level-3-Events-key-20150427/",
-                "title": "DOM Level 3 KeyboardEvent key Values",
-                "rawDate": "2015-04-27",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "http://www.w3.org/2008/webapps/"
-                ],
-                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
-            }
-        },
-        "edDraft": "https://w3c.github.io/DOM-Level-3-Events-key/"
+        "aliasOf": "uievents-key"
     },
     "DOM-Level-3-LS": {
         "authors": [
@@ -12700,7 +12610,7 @@
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
-            "http://www.w3.org/2008/webapps/"
+            "http://www.w3.org/WebPlatform/WG/"
         ],
         "versions": {
             "20061115": {
@@ -12790,9 +12700,23 @@
                     "http://www.w3.org/2008/webapps/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20151215": {
+                "authors": [
+                    "Hallvord Steen"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-clipboard-apis-20151215/",
+                "title": "Clipboard API and events",
+                "rawDate": "2015-12-15",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/WebPlatform/WG/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2015-04-21",
+        "rawDate": "2015-12-15",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
         "edDraft": "https://w3c.github.io/clipboard-apis/"
     },
@@ -22650,11 +22574,11 @@
         ],
         "href": "http://www.w3.org/TR/gamepad/",
         "title": "Gamepad",
-        "rawDate": "2015-04-29",
+        "rawDate": "2015-12-15",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
-            "http://www.w3.org/2008/webapps/"
+            "http://www.w3.org/WebPlatform/WG/"
         ],
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
         "versions": {
@@ -22715,6 +22639,21 @@
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/2008/webapps/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20151215": {
+                "authors": [
+                    "Scott Graham",
+                    "Theodore Mielczarek"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-gamepad-20151215/",
+                "title": "Gamepad",
+                "rawDate": "2015-12-15",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/WebPlatform/WG/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
@@ -26878,11 +26817,11 @@
         ],
         "href": "http://www.w3.org/TR/ime-api/",
         "title": "Input Method Editor API",
-        "rawDate": "2015-05-26",
+        "rawDate": "2015-12-15",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
-            "http://www.w3.org/2008/webapps/"
+            "http://www.w3.org/WebPlatform/WG/"
         ],
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
         "versions": {
@@ -26986,6 +26925,23 @@
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/2008/webapps/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20151215": {
+                "authors": [
+                    "Travis Leithead",
+                    "Takayoshi Kochi",
+                    "Kenji Baheux",
+                    "Hironori Bono"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-ime-api-20151215/",
+                "title": "Input Method Editor API",
+                "rawDate": "2015-12-15",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/WebPlatform/WG/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
@@ -36441,17 +36397,18 @@
     },
     "push-api": {
         "authors": [
+            "Michael van Ouwerkerk",
+            "Martin Thomson",
             "Bryan Sullivan",
-            "Eduardo Fullea",
-            "Michael van Ouwerkerk"
+            "Eduardo Fullea"
         ],
         "href": "http://www.w3.org/TR/push-api/",
         "title": "Push API",
-        "rawDate": "2015-04-27",
+        "rawDate": "2015-12-15",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
-            "http://www.w3.org/2008/webapps/"
+            "http://www.w3.org/WebPlatform/WG/"
         ],
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
         "versions": {
@@ -36514,6 +36471,23 @@
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/2008/webapps/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20151215": {
+                "authors": [
+                    "Michael van Ouwerkerk",
+                    "Martin Thomson",
+                    "Bryan Sullivan",
+                    "Eduardo Fullea"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-push-api-20151215/",
+                "title": "Push API",
+                "rawDate": "2015-12-15",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/WebPlatform/WG/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
@@ -36877,7 +36851,7 @@
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
-            "http://www.w3.org/2008/webapps/"
+            "http://www.w3.org/WebPlatform/WG/"
         ],
         "versions": {
             "20120703": {
@@ -36921,11 +36895,25 @@
                     "http://www.w3.org/2008/webapps/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20151215": {
+                "authors": [
+                    "Kinuko Yasuda"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-quota-api-20151215/",
+                "title": "Quota Management API",
+                "rawDate": "2015-12-15",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/WebPlatform/WG/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2015-04-09",
+        "rawDate": "2015-12-15",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
-        "edDraft": "https://w3c.github.io/quota-api/index.html"
+        "edDraft": "https://w3c.github.io/quota-api/"
     },
     "r2rml": {
         "authors": [
@@ -41784,7 +41772,7 @@
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
-            "http://www.w3.org/2008/webapps/"
+            "http://www.w3.org/WebPlatform/WG/"
         ],
         "versions": {
             "20120522": {
@@ -41850,9 +41838,24 @@
                     "http://www.w3.org/2008/webapps/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20151215": {
+                "authors": [
+                    "Mounir Lamouri",
+                    "Marcos Caceres"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-screen-orientation-20151215/",
+                "title": "The Screen Orientation API",
+                "rawDate": "2015-12-15",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/WebPlatform/WG/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2015-04-28",
+        "rawDate": "2015-12-15",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
         "edDraft": "https://w3c.github.io/screen-orientation/"
     },
@@ -42913,7 +42916,7 @@
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
-            "http://www.w3.org/2008/webapps/"
+            "http://www.w3.org/WebPlatform/WG/"
         ],
         "versions": {
             "20120522": {
@@ -42971,9 +42974,24 @@
                     "http://www.w3.org/2008/webapps/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20151215": {
+                "authors": [
+                    "Dimitri Glazkov",
+                    "Hayato Ito"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-shadow-dom-20151215/",
+                "title": "Shadow DOM",
+                "rawDate": "2015-12-15",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/WebPlatform/WG/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2015-10-06",
+        "rawDate": "2015-12-15",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
         "edDraft": "https://w3c.github.io/webcomponents/spec/shadow/"
     },
@@ -47898,12 +47916,12 @@
             "Travis Leithead"
         ],
         "href": "http://www.w3.org/TR/uievents/",
-        "title": "UI Events (formerly DOM Level 3 Events)",
-        "rawDate": "2015-04-28",
+        "title": "UI Events Specification",
+        "rawDate": "2015-12-15",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
-            "http://www.w3.org/2008/webapps/"
+            "http://www.w3.org/WebPlatform/WG/"
         ],
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
         "versions": {
@@ -48104,10 +48122,151 @@
                     "http://www.w3.org/2008/webapps/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20151215": {
+                "authors": [
+                    "Gary Kacmarcik",
+                    "Travis Leithead"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-uievents-20151215/",
+                "title": "UI Events Specification",
+                "rawDate": "2015-12-15",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/WebPlatform/WG/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
         "edDraft": "https://w3c.github.io/uievents/",
         "isRetired": true
+    },
+    "uievents-code": {
+        "authors": [
+            "Gary Kacmarcik",
+            "Travis Leithead"
+        ],
+        "href": "http://www.w3.org/TR/uievents-code/",
+        "title": "UI Events KeyboardEvent code Values",
+        "rawDate": "2015-12-15",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/uievents-code/",
+        "deliveredBy": [
+            "http://www.w3.org/WebPlatform/WG/"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20140612": {
+                "authors": [
+                    "Gary Kacmarcik",
+                    "Travis Leithead"
+                ],
+                "href": "http://www.w3.org/TR/2014/WD-DOM-Level-3-Events-code-20140612/",
+                "title": "DOM Level 3 KeyboardEvent code Values",
+                "rawDate": "2014-06-12",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2008/webapps/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150428": {
+                "authors": [
+                    "Gary Kacmarcik",
+                    "Travis Leithead"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-DOM-Level-3-Events-code-20150428/",
+                "title": "DOM Level 3 KeyboardEvent code Values",
+                "rawDate": "2015-04-28",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2008/webapps/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20151215": {
+                "authors": [
+                    "Gary Kacmarcik",
+                    "Travis Leithead"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-uievents-code-20151215/",
+                "title": "UI Events KeyboardEvent code Values",
+                "rawDate": "2015-12-15",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/WebPlatform/WG/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
+    "uievents-key": {
+        "authors": [
+            "Gary Kacmarcik",
+            "Travis Leithead"
+        ],
+        "href": "http://www.w3.org/TR/uievents-key/",
+        "title": "UI Events KeyboardEvent key Values",
+        "rawDate": "2015-12-15",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/uievents-key/",
+        "deliveredBy": [
+            "http://www.w3.org/WebPlatform/WG/"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20140612": {
+                "authors": [
+                    "Gary Kacmarcik",
+                    "Travis Leithead"
+                ],
+                "href": "http://www.w3.org/TR/2014/WD-DOM-Level-3-Events-key-20140612/",
+                "title": "DOM Level 3 KeyboardEvent key Values",
+                "rawDate": "2014-06-12",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2008/webapps/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150427": {
+                "authors": [
+                    "Gary Kacmarcik",
+                    "Travis Leithead"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-DOM-Level-3-Events-key-20150427/",
+                "title": "DOM Level 3 KeyboardEvent key Values",
+                "rawDate": "2015-04-27",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2008/webapps/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20151215": {
+                "authors": [
+                    "Gary Kacmarcik",
+                    "Travis Leithead"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-uievents-key-20151215/",
+                "title": "UI Events KeyboardEvent key Values",
+                "rawDate": "2015-12-15",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/WebPlatform/WG/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
     },
     "unicode-xml": {
         "authors": [
