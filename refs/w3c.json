@@ -13585,6 +13585,68 @@
         "isRetired": true,
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
+    "csp-cookies": {
+        "authors": [
+            "Mike West"
+        ],
+        "href": "http://www.w3.org/TR/csp-cookies/",
+        "title": "Content Security Policy: Cookie Controls",
+        "rawDate": "2015-12-15",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/webappsec-csp/cookies/",
+        "deliveredBy": [
+            "http://www.w3.org/2011/webappsec/"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20151215": {
+                "authors": [
+                    "Mike West"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-csp-cookies-20151215/",
+                "title": "Content Security Policy: Cookie Controls",
+                "rawDate": "2015-12-15",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2011/webappsec/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
+    "csp-embedded-enforcement": {
+        "authors": [
+            "Mike West"
+        ],
+        "href": "http://www.w3.org/TR/csp-embedded-enforcement/",
+        "title": "Content Security Policy: Embedded Enforcement",
+        "rawDate": "2015-12-15",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/webappsec-csp/embedded/",
+        "deliveredBy": [
+            "http://www.w3.org/2011/webappsec/"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20151215": {
+                "authors": [
+                    "Mike West"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-csp-embedded-enforcement-20151215/",
+                "title": "Content Security Policy: Embedded Enforcement",
+                "rawDate": "2015-12-15",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2011/webappsec/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
     "csp-pinning": {
         "authors": [
             "Mike West"
@@ -16614,7 +16676,7 @@
         ],
         "href": "http://www.w3.org/TR/css-writing-modes-3/",
         "title": "CSS Writing Modes Level 3",
-        "rawDate": "2014-03-20",
+        "rawDate": "2015-12-15",
         "status": "CR",
         "publisher": "W3C",
         "deliveredBy": [
@@ -16711,6 +16773,21 @@
                 "href": "http://www.w3.org/TR/2014/CR-css-writing-modes-3-20140320/",
                 "title": "CSS Writing Modes Level 3",
                 "rawDate": "2014-03-20",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Style/CSS/members"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20151215": {
+                "authors": [
+                    "Elika Etemad",
+                    "Koji Ishii"
+                ],
+                "href": "http://www.w3.org/TR/2015/CR-css-writing-modes-3-20151215/",
+                "title": "CSS Writing Modes Level 3",
+                "rawDate": "2015-12-15",
                 "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
