@@ -20481,7 +20481,7 @@
         ],
         "href": "http://www.w3.org/TR/dwbp/",
         "title": "Data on the Web Best Practices",
-        "rawDate": "2015-06-25",
+        "rawDate": "2015-12-17",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/dwbp/bp.html",
@@ -20515,6 +20515,22 @@
                 "href": "http://www.w3.org/TR/2015/WD-dwbp-20150625/",
                 "title": "Data on the Web Best Practices",
                 "rawDate": "2015-06-25",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2013/dwbp/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20151217": {
+                "authors": [
+                    "Bernadette Farias Loscio",
+                    "Caroline Burle",
+                    "Newton Calegari"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-dwbp-20151217/",
+                "title": "Data on the Web Best Practices",
+                "rawDate": "2015-12-17",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -49427,12 +49443,12 @@
     "vocab-dqv": {
         "authors": [
             "Riccardo Albertoni",
-            "Christophe Gueret",
-            "Antoine Isaac"
+            "Antoine Isaac",
+            "Christophe Gueret"
         ],
         "href": "http://www.w3.org/TR/vocab-dqv/",
-        "title": "Data Quality Vocabulary",
-        "rawDate": "2015-06-25",
+        "title": "Data on the Web Best Practices: Data Quality Vocabulary",
+        "rawDate": "2015-12-17",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/dwbp/vocab-dqg.html",
@@ -49450,6 +49466,22 @@
                 "href": "http://www.w3.org/TR/2015/WD-vocab-dqv-20150625/",
                 "title": "Data Quality Vocabulary",
                 "rawDate": "2015-06-25",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2013/dwbp/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20151217": {
+                "authors": [
+                    "Riccardo Albertoni",
+                    "Antoine Isaac",
+                    "Christophe Gueret"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-vocab-dqv-20151217/",
+                "title": "Data on the Web Best Practices: Data Quality Vocabulary",
+                "rawDate": "2015-12-17",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -63580,11 +63612,12 @@
     "xpath-31": {
         "authors": [
             "Jonathan Robie",
-            "Michael Dyck"
+            "Michael Dyck",
+            "Josh Spiegel"
         ],
         "href": "http://www.w3.org/TR/xpath-31/",
         "title": "XML Path Language (XPath) 3.1",
-        "rawDate": "2014-12-18",
+        "rawDate": "2015-12-17",
         "status": "CR",
         "publisher": "W3C",
         "deliveredBy": [
@@ -63633,6 +63666,23 @@
                 "href": "http://www.w3.org/TR/2014/CR-xpath-31-20141218/",
                 "title": "XML Path Language (XPath) 3.1",
                 "rawDate": "2014-12-18",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Style/XSL/",
+                    "http://www.w3.org/XML/Query/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20151217": {
+                "authors": [
+                    "Jonathan Robie",
+                    "Michael Dyck",
+                    "Josh Spiegel"
+                ],
+                "href": "http://www.w3.org/TR/2015/CR-xpath-31-20151217/",
+                "title": "XML Path Language (XPath) 3.1",
+                "rawDate": "2015-12-17",
                 "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -65991,11 +66041,12 @@
     "xquery-31": {
         "authors": [
             "Jonathan Robie",
-            "Michael Dyck"
+            "Michael Dyck",
+            "Josh Spiegel"
         ],
         "href": "http://www.w3.org/TR/xquery-31/",
         "title": "XQuery 3.1: An XML Query Language",
-        "rawDate": "2014-12-18",
+        "rawDate": "2015-12-17",
         "status": "CR",
         "publisher": "W3C",
         "deliveredBy": [
@@ -66041,6 +66092,22 @@
                 "href": "http://www.w3.org/TR/2014/CR-xquery-31-20141218/",
                 "title": "XQuery 3.1: An XML Query Language",
                 "rawDate": "2014-12-18",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/XML/Query/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20151217": {
+                "authors": [
+                    "Jonathan Robie",
+                    "Michael Dyck",
+                    "Josh Spiegel"
+                ],
+                "href": "http://www.w3.org/TR/2015/CR-xquery-31-20151217/",
+                "title": "XQuery 3.1: An XML Query Language",
+                "rawDate": "2015-12-17",
                 "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -67954,7 +68021,7 @@
         ],
         "href": "http://www.w3.org/TR/xslt-xquery-serialization-31/",
         "title": "XSLT and XQuery Serialization 3.1",
-        "rawDate": "2015-02-19",
+        "rawDate": "2015-12-17",
         "status": "CR",
         "publisher": "W3C",
         "deliveredBy": [
@@ -68003,6 +68070,22 @@
                 "href": "http://www.w3.org/TR/2015/CR-xslt-xquery-serialization-31-20150219/",
                 "title": "XSLT and XQuery Serialization 3.1",
                 "rawDate": "2015-02-19",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Style/XSL/",
+                    "http://www.w3.org/XML/Query/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20151217": {
+                "authors": [
+                    "Andrew Coleman",
+                    "Michael Sperberg-McQueen"
+                ],
+                "href": "http://www.w3.org/TR/2015/CR-xslt-xquery-serialization-31-20151217/",
+                "title": "XSLT and XQuery Serialization 3.1",
+                "rawDate": "2015-12-17",
                 "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
