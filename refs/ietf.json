@@ -70003,6 +70003,10 @@
         ],
         "rawDate": "2006-09",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC7717",
+            "RFC7718"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -80561,7 +80565,8 @@
         "updatedBy": [
             "RFC5618",
             "RFC5938",
-            "RFC6038"
+            "RFC6038",
+            "RFC7717"
         ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=5357",
         "publisher": "IETF",
@@ -104134,6 +104139,9 @@
         ],
         "rawDate": "2013-04",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC7724"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -116103,6 +116111,39 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc7717": {
+        "rfcNumber": "RFC7717",
+        "href": "https://tools.ietf.org/html/rfc7717",
+        "title": "IKEv2-Derived Shared Secret Key for the One-Way Active Measurement Protocol (OWAMP) and Two-Way Active Measurement Protocol (TWAMP)",
+        "authors": [
+            "K. Pentikousis, Ed.",
+            "E. Zhang",
+            "Y. Cui"
+        ],
+        "rawDate": "2015-12",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC4656",
+            "RFC5337"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7718": {
+        "rfcNumber": "RFC7718",
+        "href": "https://tools.ietf.org/html/rfc7718",
+        "title": "Registries for the One-Way Active Measurement Protocol (OWAMP)",
+        "authors": [
+            "A. Morton"
+        ],
+        "rawDate": "2015-12",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC4656"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc7719": {
         "rfcNumber": "RFC7719",
         "href": "https://tools.ietf.org/html/rfc7719",
@@ -116132,6 +116173,24 @@
         "status": "Best Current Practice",
         "obsoletes": [
             "RFC2870"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7724": {
+        "rfcNumber": "RFC7724",
+        "href": "https://tools.ietf.org/html/rfc7724",
+        "title": "Active DHCPv4 Lease Query",
+        "authors": [
+            "K. Kinnear",
+            "M. Stapp",
+            "B. Volz",
+            "N. Russell"
+        ],
+        "rawDate": "2015-12",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC6926"
         ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
