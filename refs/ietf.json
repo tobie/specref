@@ -108132,6 +108132,9 @@
         ],
         "rawDate": "2014-04",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC7722"
+        ],
         "updates": [
             "RFC6130",
             "RFC7181"
@@ -114962,6 +114965,9 @@
         ],
         "rawDate": "2015-09",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC7722"
+        ],
         "updates": [
             "RFC5444"
         ],
@@ -116086,6 +116092,19 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc7713": {
+        "rfcNumber": "RFC7713",
+        "href": "https://tools.ietf.org/html/rfc7713",
+        "title": "Congestion Exposure (ConEx) Concepts, Abstract Mechanism, and Requirements",
+        "authors": [
+            "M. Mathis",
+            "B. Briscoe"
+        ],
+        "rawDate": "2015-12",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc7714": {
         "rfcNumber": "RFC7714",
         "href": "https://tools.ietf.org/html/rfc7714",
@@ -116177,6 +116196,23 @@
         "status": "Best Current Practice",
         "obsoletes": [
             "RFC2870"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7722": {
+        "rfcNumber": "RFC7722",
+        "href": "https://tools.ietf.org/html/rfc7722",
+        "title": "Multi-Topology Extension for the Optimized Link State Routing Protocol Version 2 (OLSRv2)",
+        "authors": [
+            "C. Dearlove",
+            "T. Clausen"
+        ],
+        "rawDate": "2015-12",
+        "status": "Experimental",
+        "updates": [
+            "RFC7188",
+            "RFC7631"
         ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
