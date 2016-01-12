@@ -20512,7 +20512,7 @@
         ],
         "href": "http://www.w3.org/TR/dwbp/",
         "title": "Data on the Web Best Practices",
-        "rawDate": "2015-12-17",
+        "rawDate": "2016-01-12",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/dwbp/bp.html",
@@ -20562,6 +20562,22 @@
                 "href": "http://www.w3.org/TR/2015/WD-dwbp-20151217/",
                 "title": "Data on the Web Best Practices",
                 "rawDate": "2015-12-17",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2013/dwbp/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20160112": {
+                "authors": [
+                    "Bernadette Farias Loscio",
+                    "Caroline Burle",
+                    "Newton Calegari"
+                ],
+                "href": "http://www.w3.org/TR/2016/WD-dwbp-20160112/",
+                "title": "Data on the Web Best Practices",
+                "rawDate": "2016-01-12",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -44724,6 +44740,37 @@
         "rawDate": "2012-02-16",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
+    "social-web-protocols": {
+        "authors": [
+            "Amy Guy"
+        ],
+        "href": "http://www.w3.org/TR/social-web-protocols/",
+        "title": "Social Web Protocols",
+        "rawDate": "2016-01-12",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c-social.github.io/social-web-protocols/ed",
+        "deliveredBy": [
+            "http://www.w3.org/Social/WG"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20160112": {
+                "authors": [
+                    "Amy Guy"
+                ],
+                "href": "http://www.w3.org/TR/2016/WD-social-web-protocols-20160112/",
+                "title": "Social Web Protocols",
+                "rawDate": "2016-01-12",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Social/WG"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
     "sparql-features": {
         "authors": [
             "Kjetil Kjernsmo",
@@ -52208,6 +52255,37 @@
             }
         },
         "isRetired": true
+    },
+    "webmention": {
+        "authors": [
+            "Aaron Parecki"
+        ],
+        "href": "http://www.w3.org/TR/webmention/",
+        "title": "Webmention",
+        "rawDate": "2016-01-12",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "http://webmention.net/draft/",
+        "deliveredBy": [
+            "http://www.w3.org/Social/WG"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20160112": {
+                "authors": [
+                    "Aaron Parecki"
+                ],
+                "href": "http://www.w3.org/TR/2016/WD-webmention-20160112/",
+                "title": "Webmention",
+                "rawDate": "2016-01-12",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Social/WG"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
     },
     "webmessaging": {
         "authors": [
