@@ -97635,6 +97635,9 @@
         ],
         "rawDate": "2012-02",
         "status": "Proposed Standard",
+        "obsoletedBy": [
+            "RFC7730"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -116288,6 +116291,24 @@
     },
     "rfc773": {
         "aliasOf": "rfc0773"
+    },
+    "rfc7730": {
+        "rfcNumber": "RFC7730",
+        "href": "https://tools.ietf.org/html/rfc7730",
+        "title": "Resource Public Key Infrastructure (RPKI) Trust Anchor Locator",
+        "authors": [
+            "G. Huston",
+            "S. Weiler",
+            "G. Michaelson",
+            "S. Kent"
+        ],
+        "rawDate": "2016-01",
+        "status": "Proposed Standard",
+        "obsoletes": [
+            "RFC6490"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc7736": {
         "rfcNumber": "RFC7736",
