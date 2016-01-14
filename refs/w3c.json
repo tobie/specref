@@ -13939,6 +13939,90 @@
             "css3-roadmap"
         ]
     },
+    "css-break-3": {
+        "authors": [
+            "Rossen Atanassov",
+            "Elika Etemad"
+        ],
+        "href": "http://www.w3.org/TR/css-break-3/",
+        "title": "CSS Fragmentation Module Level 3",
+        "rawDate": "2016-01-14",
+        "status": "CR",
+        "publisher": "W3C",
+        "edDraft": "http://dev.w3.org/csswg/css-break/",
+        "deliveredBy": [
+            "http://www.w3.org/Style/CSS/members"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20120228": {
+                "status": "WD",
+                "rawDate": "2012-02-28",
+                "href": "http://www.w3.org/TR/2012/WD-css3-break-20120228/",
+                "source": "./data/w3c-specs.txt"
+            },
+            "20120823": {
+                "authors": [
+                    "Rossen Atanassov",
+                    "Elika Etemad"
+                ],
+                "href": "http://www.w3.org/TR/2012/WD-css3-break-20120823/",
+                "title": "CSS Fragmentation Module Level 3",
+                "rawDate": "2012-08-23",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Style/CSS/members"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140116": {
+                "authors": [
+                    "Rossen Atanassov",
+                    "Elika Etemad"
+                ],
+                "href": "http://www.w3.org/TR/2014/WD-css3-break-20140116/",
+                "title": "CSS Fragmentation Module Level 3",
+                "rawDate": "2014-01-16",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Style/CSS/members"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150129": {
+                "authors": [
+                    "Rossen Atanassov",
+                    "Elika Etemad"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-css3-break-20150129/",
+                "title": "CSS Fragmentation Module Level 3",
+                "rawDate": "2015-01-29",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Style/CSS/members"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20160114": {
+                "authors": [
+                    "Rossen Atanassov",
+                    "Elika Etemad"
+                ],
+                "href": "http://www.w3.org/TR/2016/CR-css-break-3-20160114/",
+                "title": "CSS Fragmentation Module Level 3",
+                "rawDate": "2016-01-14",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Style/CSS/members"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
     "css-cascade-3": {
         "authors": [
             "Elika Etemad",
@@ -17238,73 +17322,7 @@
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
     "css3-break": {
-        "authors": [
-            "Rossen Atanassov",
-            "Elika Etemad"
-        ],
-        "href": "http://www.w3.org/TR/css3-break/",
-        "title": "CSS Fragmentation Module Level 3",
-        "rawDate": "2015-01-29",
-        "status": "WD",
-        "publisher": "W3C",
-        "deliveredBy": [
-            "http://www.w3.org/Style/CSS/members"
-        ],
-        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
-        "versions": {
-            "20120228": {
-                "status": "WD",
-                "rawDate": "2012-02-28",
-                "href": "http://www.w3.org/TR/2012/WD-css3-break-20120228/",
-                "source": "./data/w3c-specs.txt"
-            },
-            "20120823": {
-                "authors": [
-                    "Rossen Atanassov",
-                    "Elika Etemad"
-                ],
-                "href": "http://www.w3.org/TR/2012/WD-css3-break-20120823/",
-                "title": "CSS Fragmentation Module Level 3",
-                "rawDate": "2012-08-23",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "http://www.w3.org/Style/CSS/members"
-                ],
-                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
-            },
-            "20140116": {
-                "authors": [
-                    "Rossen Atanassov",
-                    "Elika Etemad"
-                ],
-                "href": "http://www.w3.org/TR/2014/WD-css3-break-20140116/",
-                "title": "CSS Fragmentation Module Level 3",
-                "rawDate": "2014-01-16",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "http://www.w3.org/Style/CSS/members"
-                ],
-                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
-            },
-            "20150129": {
-                "authors": [
-                    "Rossen Atanassov",
-                    "Elika Etemad"
-                ],
-                "href": "http://www.w3.org/TR/2015/WD-css3-break-20150129/",
-                "title": "CSS Fragmentation Module Level 3",
-                "rawDate": "2015-01-29",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "http://www.w3.org/Style/CSS/members"
-                ],
-                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
-            }
-        },
-        "edDraft": "http://dev.w3.org/csswg/css3-break/"
+        "aliasOf": "css-break-3"
     },
     "css3-cascade": {
         "aliasOf": "css-cascade-3"
