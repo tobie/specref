@@ -65830,7 +65830,8 @@
             "RFC6426",
             "RFC6829",
             "RFC7506",
-            "RFC7537"
+            "RFC7537",
+            "RFC7743"
         ],
         "updates": [
             "RFC1122"
@@ -109786,7 +109787,8 @@
         "rawDate": "2014-10",
         "status": "Internet Standard",
         "updatedBy": [
-            "RFC7427"
+            "RFC7427",
+            "RFC7670"
         ],
         "obsoletes": [
             "RFC5996"
@@ -115550,6 +115552,23 @@
     "rfc767": {
         "aliasOf": "rfc0767"
     },
+    "rfc7670": {
+        "rfcNumber": "RFC7670",
+        "href": "https://tools.ietf.org/html/rfc7670",
+        "title": "Generic Raw Public-Key Support for IKEv2",
+        "authors": [
+            "T. Kivinen",
+            "P. Wouters",
+            "H. Tschofenig"
+        ],
+        "rawDate": "2016-01",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC7296"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc7671": {
         "rfcNumber": "RFC7671",
         "href": "https://tools.ietf.org/html/rfc7671",
@@ -116336,14 +116355,70 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc7738": {
+        "rfcNumber": "RFC7738",
+        "href": "https://tools.ietf.org/html/rfc7738",
+        "title": "A Uniform Resource Name (URN) Namespace for the Consultative Committee for Space Data Systems (CCSDS)",
+        "authors": [
+            "M. Blanchet",
+            "A. Schiltknecht",
+            "P. Shames"
+        ],
+        "rawDate": "2016-01",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc774": {
         "aliasOf": "rfc0774"
+    },
+    "rfc7743": {
+        "rfcNumber": "RFC7743",
+        "href": "https://tools.ietf.org/html/rfc7743",
+        "title": "Relayed Echo Reply Mechanism for Label Switched Path (LSP) Ping",
+        "authors": [
+            "J. Luo, Ed.",
+            "L. Jin, Ed.",
+            "T. Nadeau, Ed.",
+            "G. Swallow, Ed."
+        ],
+        "rawDate": "2016-01",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC4379"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7745": {
+        "rfcNumber": "RFC7745",
+        "href": "https://tools.ietf.org/html/rfc7745",
+        "title": "XML Schemas for Reverse DNS Management",
+        "authors": [
+            "T. Manderson"
+        ],
+        "rawDate": "2016-01",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc775": {
         "aliasOf": "rfc0775"
     },
     "rfc776": {
         "aliasOf": "rfc0776"
+    },
+    "rfc7760": {
+        "rfcNumber": "RFC7760",
+        "href": "https://tools.ietf.org/html/rfc7760",
+        "title": "Statement of Work for Extensions to the IETF Datatracker for Author Statistics",
+        "authors": [
+            "R. Housley"
+        ],
+        "rawDate": "2016-01",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc777": {
         "aliasOf": "rfc0777"
