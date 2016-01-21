@@ -19,6 +19,17 @@
         "status": "Living Standard",
         "source": "https://resources.whatwg.org/biblio.json"
     },
+    "CONSOLE": {
+        "authors": [
+            "Terin Stock",
+            "Robert Kowalski"
+        ],
+        "href": "https://console.spec.whatwg.org/",
+        "title": "Console Standard",
+        "publisher": "WHATWG",
+        "status": "Living Standard",
+        "source": "https://resources.whatwg.org/biblio.json"
+    },
     "DIFFERENCES": {
         "authors": [
             "Simon Pieters"
@@ -144,6 +155,9 @@
     },
     "WHATWG-COMPAT": {
         "aliasOf": "COMPAT"
+    },
+    "WHATWG-CONSOLE": {
+        "aliasOf": "CONSOLE"
     },
     "WHATWG-DIFFERENCES": {
         "aliasOf": "DIFFERENCES"
