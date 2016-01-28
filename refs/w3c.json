@@ -10435,6 +10435,40 @@
             }
         }
     },
+    "activitypub": {
+        "authors": [
+            "Christopher Webber",
+            "Jessica Tallon",
+            "Owen Shepherd"
+        ],
+        "href": "http://www.w3.org/TR/activitypub/",
+        "title": "ActivityPub",
+        "rawDate": "2016-01-28",
+        "status": "WD",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "http://www.w3.org/Social/WG"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20160128": {
+                "authors": [
+                    "Christopher Webber",
+                    "Jessica Tallon",
+                    "Owen Shepherd"
+                ],
+                "href": "http://www.w3.org/TR/2016/WD-activitypub-20160128/",
+                "title": "ActivityPub",
+                "rawDate": "2016-01-28",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Social/WG"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
     "activitystreams-core": {
         "authors": [
             "James Snell",
@@ -21897,6 +21931,38 @@
         "rawDate": "2009-04-07",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
+    "exi-for-json": {
+        "authors": [
+            "Daniel Peintner",
+            "Don Brutzman"
+        ],
+        "href": "http://www.w3.org/TR/exi-for-json/",
+        "title": "Efficient XML Interchange (EXI) for JSON",
+        "rawDate": "2016-01-28",
+        "status": "WD",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "http://www.w3.org/XML/EXI/"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20160128": {
+                "authors": [
+                    "Daniel Peintner",
+                    "Don Brutzman"
+                ],
+                "href": "http://www.w3.org/TR/2016/WD-exi-for-json-20160128/",
+                "title": "Efficient XML Interchange (EXI) for JSON",
+                "rawDate": "2016-01-28",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/XML/EXI/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
     "exi-impacts": {
         "authors": [
             "Jaakko Kangasharju"
@@ -30538,6 +30604,37 @@
         "deliveredBy": [
             "http://www.w3.org/2001/sw/interest/"
         ]
+    },
+    "micropub": {
+        "authors": [
+            "Aaron Parecki"
+        ],
+        "href": "http://www.w3.org/TR/micropub/",
+        "title": "Micropub",
+        "rawDate": "2016-01-28",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "http://micropub.net/draft/",
+        "deliveredBy": [
+            "http://www.w3.org/Social/WG"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20160128": {
+                "authors": [
+                    "Aaron Parecki"
+                ],
+                "href": "http://www.w3.org/TR/2016/WD-micropub-20160128/",
+                "title": "Micropub",
+                "rawDate": "2016-01-28",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Social/WG"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
     },
     "mixed-content": {
         "href": "http://www.w3.org/TR/mixed-content/",
@@ -48223,8 +48320,8 @@
             "Pierre-Anthony Lemieux"
         ],
         "href": "http://www.w3.org/TR/ttml-imsc1/",
-        "title": "TTML Text and Image Profiles for Internet Media Subtitles and Captions 1.0",
-        "rawDate": "2015-05-19",
+        "title": "TTML Profiles for Internet Media Subtitles and Captions 1.0 (IMSC1)",
+        "rawDate": "2016-01-28",
         "status": "CR",
         "publisher": "W3C",
         "deliveredBy": [
@@ -48287,9 +48384,23 @@
                     "http://www.w3.org/AudioVideo/TT/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20160128": {
+                "authors": [
+                    "Pierre-Anthony Lemieux"
+                ],
+                "href": "http://www.w3.org/TR/2016/CR-ttml-imsc1-20160128/",
+                "title": "TTML Profiles for Internet Media Subtitles and Captions 1.0 (IMSC1)",
+                "rawDate": "2016-01-28",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/AudioVideo/TT/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "https://dvcs.w3.org/hg/ttml/raw-file/tip/ttml-ww-profiles/ttml-ww-profiles.html"
+        "edDraft": "https://rawgit.com/w3c/imsc1/master/spec/ttml-ww-profiles.html"
     },
     "ttml1": {
         "authors": [
@@ -50019,8 +50130,8 @@
             "Sumit Purohit"
         ],
         "href": "http://www.w3.org/TR/vocab-duv/",
-        "title": "Dataset Usage Vocabulary",
-        "rawDate": "2015-06-25",
+        "title": "Data on the Web Best Practices: Dataset Usage Vocabulary",
+        "rawDate": "2016-01-28",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/dwbp/vocab-du.html",
@@ -50038,6 +50149,22 @@
                 "href": "http://www.w3.org/TR/2015/WD-vocab-duv-20150625/",
                 "title": "Dataset Usage Vocabulary",
                 "rawDate": "2015-06-25",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2013/dwbp/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20160128": {
+                "authors": [
+                    "Bernadette Farias Loscio",
+                    "Eric Stephan",
+                    "Sumit Purohit"
+                ],
+                "href": "http://www.w3.org/TR/2016/WD-vocab-duv-20160128/",
+                "title": "Data on the Web Best Practices: Dataset Usage Vocabulary",
+                "rawDate": "2016-01-28",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
