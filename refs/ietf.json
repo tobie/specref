@@ -39515,6 +39515,9 @@
         ],
         "rawDate": "1999-09",
         "status": "Proposed Standard",
+        "obsoletedBy": [
+            "RFC7679"
+        ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=2679",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -39533,6 +39536,9 @@
         ],
         "rawDate": "1999-09",
         "status": "Proposed Standard",
+        "obsoletedBy": [
+            "RFC7680"
+        ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=2680",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -88458,6 +88464,9 @@
         ],
         "rawDate": "2010-06",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC7726"
+        ],
         "updates": [
             "RFC1122"
         ],
@@ -103300,6 +103309,9 @@
         ],
         "rawDate": "2013-02",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC7771"
+        ],
         "updates": [
             "RFC4447"
         ],
@@ -115691,8 +115703,44 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc7679": {
+        "rfcNumber": "RFC7679",
+        "href": "https://tools.ietf.org/html/rfc7679",
+        "title": "A One-Way Delay Metric for IP Performance Metrics (IPPM)",
+        "authors": [
+            "G. Almes",
+            "S. Kalidindi",
+            "M. Zekauskas",
+            "A. Morton, Ed."
+        ],
+        "rawDate": "2016-01",
+        "status": "Internet Standard",
+        "obsoletes": [
+            "RFC2679"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc768": {
         "aliasOf": "rfc0768"
+    },
+    "rfc7680": {
+        "rfcNumber": "RFC7680",
+        "href": "https://tools.ietf.org/html/rfc7680",
+        "title": "A One-Way Loss Metric for IP Performance Metrics (IPPM)",
+        "authors": [
+            "G. Almes",
+            "S. Kalidindi",
+            "M. Zekauskas",
+            "A. Morton, Ed."
+        ],
+        "rawDate": "2016-01",
+        "status": "Internet Standard",
+        "obsoletes": [
+            "RFC2680"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc7681": {
         "rfcNumber": "RFC7681",
@@ -116326,6 +116374,25 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc7726": {
+        "rfcNumber": "RFC7726",
+        "href": "https://tools.ietf.org/html/rfc7726",
+        "title": "Clarifying Procedures for Establishing BFD Sessions for MPLS Label Switched Paths (LSPs)",
+        "authors": [
+            "V. Govindan",
+            "K. Rajaraman",
+            "G. Mirsky",
+            "N. Akiya",
+            "S. Aldrin"
+        ],
+        "rawDate": "2016-01",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC5884"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc7727": {
         "rfcNumber": "RFC7727",
         "href": "https://tools.ietf.org/html/rfc7727",
@@ -116483,6 +116550,22 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc7744": {
+        "rfcNumber": "RFC7744",
+        "href": "https://tools.ietf.org/html/rfc7744",
+        "title": "Use Cases for Authentication and Authorization in Constrained Environments",
+        "authors": [
+            "L. Seitz, Ed.",
+            "S. Gerdes, Ed.",
+            "G. Selander",
+            "M. Mani",
+            "S. Kumar"
+        ],
+        "rawDate": "2016-01",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc7745": {
         "rfcNumber": "RFC7745",
         "href": "https://tools.ietf.org/html/rfc7745",
@@ -116555,8 +116638,43 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc7768": {
+        "rfcNumber": "RFC7768",
+        "href": "https://tools.ietf.org/html/rfc7768",
+        "title": "Port Management to Reduce Logging in Large-Scale NATs",
+        "authors": [
+            "T. Tsou",
+            "W. Li",
+            "T. Taylor",
+            "J. Huang"
+        ],
+        "rawDate": "2016-01",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc777": {
         "aliasOf": "rfc0777"
+    },
+    "rfc7771": {
+        "rfcNumber": "RFC7771",
+        "href": "https://tools.ietf.org/html/rfc7771",
+        "title": "Switching Provider Edge (S-PE) Protection for MPLS and MPLS Transport Profile (MPLS-TP) Static Multi-Segment Pseudowires",
+        "authors": [
+            "A. Malis, Ed.",
+            "L. Andersson",
+            "H. van Helvoort",
+            "J. Shin",
+            "L. Wang",
+            "A. D'Alessandro"
+        ],
+        "rawDate": "2016-01",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC6870"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc778": {
         "aliasOf": "rfc0778"
