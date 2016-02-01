@@ -132,7 +132,6 @@
         "obsoletes": [
             "RFC0003"
         ],
-        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=10",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -74716,6 +74715,9 @@
         ],
         "rawDate": "2007-07",
         "status": "Proposed Standard",
+        "obsoletedBy": [
+            "RFC7770"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -116656,6 +116658,25 @@
     },
     "rfc777": {
         "aliasOf": "rfc0777"
+    },
+    "rfc7770": {
+        "rfcNumber": "RFC7770",
+        "href": "https://tools.ietf.org/html/rfc7770",
+        "title": "Extensions to OSPF for Advertising Optional Router Capabilities",
+        "authors": [
+            "A. Lindem, Ed.",
+            "N. Shen",
+            "JP. Vasseur",
+            "R. Aggarwal",
+            "S. Shaffer"
+        ],
+        "rawDate": "2016-02",
+        "status": "Proposed Standard",
+        "obsoletes": [
+            "RFC4970"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc7771": {
         "rfcNumber": "RFC7771",
