@@ -38739,6 +38739,9 @@
         ],
         "rawDate": "1999-06",
         "status": "Informational",
+        "obsoletedBy": [
+            "RFC7749"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -80579,7 +80582,8 @@
             "RFC5618",
             "RFC5938",
             "RFC6038",
-            "RFC7717"
+            "RFC7717",
+            "RFC7750"
         ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=5357",
         "publisher": "IETF",
@@ -95584,6 +95588,7 @@
         "updatedBy": [
             "RFC6764"
         ],
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=6352",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -116307,6 +116312,7 @@
         ],
         "rawDate": "2015-12",
         "status": "Informational",
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=7719",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -116518,6 +116524,18 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc7739": {
+        "rfcNumber": "RFC7739",
+        "href": "https://tools.ietf.org/html/rfc7739",
+        "title": "Security Implications of Predictable Fragment Identification Values",
+        "authors": [
+            "F. Gont"
+        ],
+        "rawDate": "2016-02",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc774": {
         "aliasOf": "rfc0774"
     },
@@ -116611,8 +116629,53 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc7749": {
+        "rfcNumber": "RFC7749",
+        "href": "https://tools.ietf.org/html/rfc7749",
+        "title": "The \"xml2rfc\" Version 2 Vocabulary",
+        "authors": [
+            "J. Reschke"
+        ],
+        "rawDate": "2016-02",
+        "status": "Informational",
+        "obsoletes": [
+            "RFC2629"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc775": {
         "aliasOf": "rfc0775"
+    },
+    "rfc7750": {
+        "rfcNumber": "RFC7750",
+        "href": "https://tools.ietf.org/html/rfc7750",
+        "title": "Differentiated Service Code Point and Explicit Congestion Notification Monitoring in the Two-Way Active Measurement Protocol (TWAMP)",
+        "authors": [
+            "J. Hedin",
+            "G. Mirsky",
+            "S. Baillargeon"
+        ],
+        "rawDate": "2016-02",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC5357"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7758": {
+        "rfcNumber": "RFC7758",
+        "href": "https://tools.ietf.org/html/rfc7758",
+        "title": "Time Capability in NETCONF",
+        "authors": [
+            "T. Mizrahi",
+            "Y. Moses"
+        ],
+        "rawDate": "2016-02",
+        "status": "Experimental",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc776": {
         "aliasOf": "rfc0776"
