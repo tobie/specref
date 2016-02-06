@@ -76765,6 +76765,9 @@
         ],
         "rawDate": "2008-02",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC7728"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -116418,6 +116421,24 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc7728": {
+        "rfcNumber": "RFC7728",
+        "href": "https://tools.ietf.org/html/rfc7728",
+        "title": "RTP Stream Pause and Resume",
+        "authors": [
+            "B. Burman",
+            "A. Akram",
+            "R. Even",
+            "M. Westerlund"
+        ],
+        "rawDate": "2016-02",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC5104"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc7729": {
         "rfcNumber": "RFC7729",
         "href": "https://tools.ietf.org/html/rfc7729",
@@ -116643,6 +116664,7 @@
         "obsoletes": [
             "RFC2629"
         ],
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=7749",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
