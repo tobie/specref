@@ -55470,6 +55470,7 @@
             "RFC6280",
             "RFC7459"
         ],
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=3693",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -92397,7 +92398,8 @@
         "rawDate": "2011-04",
         "status": "Proposed Standard",
         "updatedBy": [
-            "RFC6791"
+            "RFC6791",
+            "RFC7757"
         ],
         "obsoletes": [
             "RFC2765"
@@ -116708,6 +116710,47 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc7755": {
+        "rfcNumber": "RFC7755",
+        "href": "https://tools.ietf.org/html/rfc7755",
+        "title": "SIIT-DC: Stateless IP/ICMP Translation for IPv6 Data Center Environments",
+        "authors": [
+            "T. Anderson"
+        ],
+        "rawDate": "2016-02",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7756": {
+        "rfcNumber": "RFC7756",
+        "href": "https://tools.ietf.org/html/rfc7756",
+        "title": "Stateless IP/ICMP Translation for IPv6 Internet Data Center Environments (SIIT-DC): Dual Translation Mode",
+        "authors": [
+            "T. Anderson",
+            "S. Steffann"
+        ],
+        "rawDate": "2016-02",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7757": {
+        "rfcNumber": "RFC7757",
+        "href": "https://tools.ietf.org/html/rfc7757",
+        "title": "Explicit Address Mappings for Stateless IP/ICMP Translation",
+        "authors": [
+            "T. Anderson",
+            "A. Leiva Popper"
+        ],
+        "rawDate": "2016-02",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC6145"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc7758": {
         "rfcNumber": "RFC7758",
         "href": "https://tools.ietf.org/html/rfc7758",
@@ -116718,6 +116761,23 @@
         ],
         "rawDate": "2016-02",
         "status": "Experimental",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7759": {
+        "rfcNumber": "RFC7759",
+        "href": "https://tools.ietf.org/html/rfc7759",
+        "title": "Configuration of Proactive Operations, Administration, and Maintenance (OAM) Functions for MPLS-Based Transport Networks Using Label Switched Path (LSP) Ping",
+        "authors": [
+            "E. Bellagamba",
+            "G. Mirsky",
+            "L. Andersson",
+            "P. Skoldstrom",
+            "D. Ward",
+            "J. Drake"
+        ],
+        "rawDate": "2016-02",
+        "status": "Proposed Standard",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
