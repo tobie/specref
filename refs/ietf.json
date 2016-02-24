@@ -93875,6 +93875,9 @@
         ],
         "rawDate": "2011-06",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC7803"
+        ],
         "obsoletes": [
             "RFC4741"
         ],
@@ -116974,6 +116977,21 @@
     },
     "rfc780": {
         "aliasOf": "rfc0780"
+    },
+    "rfc7803": {
+        "rfcNumber": "RFC7803",
+        "href": "https://tools.ietf.org/html/rfc7803",
+        "title": "Changing the Registration Policy for the NETCONF Capability URNs Registry",
+        "authors": [
+            "B. Leiba"
+        ],
+        "rawDate": "2016-02",
+        "status": "Best Current Practice",
+        "updates": [
+            "RFC6241"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc781": {
         "aliasOf": "rfc0781"
