@@ -19112,6 +19112,37 @@
             }
         }
     },
+    "csvw-html": {
+        "authors": [
+            "Gregg Kellogg"
+        ],
+        "href": "http://www.w3.org/TR/csvw-html/",
+        "title": "Embedding Tabular Metadata in HTML",
+        "rawDate": "2016-02-25",
+        "status": "NOTE",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/csvw/html-note/",
+        "deliveredBy": [
+            "http://www.w3.org/2013/csvw/"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20160225": {
+                "authors": [
+                    "Gregg Kellogg"
+                ],
+                "href": "http://www.w3.org/TR/2016/NOTE-csvw-html-20160225/",
+                "title": "Embedding Tabular Metadata in HTML",
+                "rawDate": "2016-02-25",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2013/csvw/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
     "csvw-ucr": {
         "authors": [
             "Jeremy Tandy",
@@ -19120,8 +19151,8 @@
         ],
         "href": "http://www.w3.org/TR/csvw-ucr/",
         "title": "CSV on the Web: Use Cases and Requirements",
-        "rawDate": "2014-07-01",
-        "status": "WD",
+        "rawDate": "2016-02-25",
+        "status": "NOTE",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2013/csvw/"
@@ -19154,6 +19185,22 @@
                 "title": "CSV on the Web: Use Cases and Requirements",
                 "rawDate": "2014-07-01",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2013/csvw/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20160225": {
+                "authors": [
+                    "Jeremy Tandy",
+                    "Davide Ceolin",
+                    "Eric Stephan"
+                ],
+                "href": "http://www.w3.org/TR/2016/NOTE-csvw-ucr-20160225/",
+                "title": "CSV on the Web: Use Cases and Requirements",
+                "rawDate": "2016-02-25",
+                "status": "NOTE",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/2013/csvw/"
@@ -24976,11 +25023,11 @@
         ],
         "href": "http://www.w3.org/TR/html-imports/",
         "title": "HTML Imports",
-        "rawDate": "2014-03-11",
+        "rawDate": "2016-02-25",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
-            "http://www.w3.org/2008/webapps/"
+            "http://www.w3.org/WebPlatform/WG/"
         ],
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
         "versions": {
@@ -25012,8 +25059,24 @@
                     "http://www.w3.org/2008/webapps/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20160225": {
+                "authors": [
+                    "Dimitri Glazkov",
+                    "Hajime Morita"
+                ],
+                "href": "http://www.w3.org/TR/2016/WD-html-imports-20160225/",
+                "title": "HTML Imports",
+                "rawDate": "2016-02-25",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/WebPlatform/WG/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "edDraft": "https://w3c.github.io/webcomponents/spec/imports/"
     },
     "html-json-forms": {
         "authors": [
@@ -47732,6 +47795,37 @@
             }
         },
         "edDraft": "https://w3c.github.io/csvw/syntax/"
+    },
+    "tabular-data-primer": {
+        "authors": [
+            "Jeni Tennison"
+        ],
+        "href": "http://www.w3.org/TR/tabular-data-primer/",
+        "title": "CSV on the Web: A Primer",
+        "rawDate": "2016-02-25",
+        "status": "NOTE",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/csvw/primer/",
+        "deliveredBy": [
+            "http://www.w3.org/2013/csvw/"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20160225": {
+                "authors": [
+                    "Jeni Tennison"
+                ],
+                "href": "http://www.w3.org/TR/2016/NOTE-tabular-data-primer-20160225/",
+                "title": "CSV on the Web: A Primer",
+                "rawDate": "2016-02-25",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2013/csvw/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
     },
     "tabular-metadata": {
         "authors": [
