@@ -95156,7 +95156,9 @@
             "RFC7357",
             "RFC7179",
             "RFC7180",
-            "RFC7455"
+            "RFC7455",
+            "RFC7780",
+            "RFC7783"
         ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=6325",
         "publisher": "IETF",
@@ -107981,6 +107983,9 @@
         ],
         "rawDate": "2014-05",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC7780"
+        ],
         "updates": [
             "RFC6325"
         ],
@@ -108019,6 +108024,9 @@
         ],
         "rawDate": "2014-05",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC7780"
+        ],
         "updates": [
             "RFC6325"
         ],
@@ -108041,6 +108049,9 @@
         ],
         "rawDate": "2014-05",
         "status": "Proposed Standard",
+        "obsoletedBy": [
+            "RFC7780"
+        ],
         "updates": [
             "RFC6325",
             "RFC6327",
@@ -113237,6 +113248,9 @@
         ],
         "rawDate": "2015-05",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC7797"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -116898,6 +116912,22 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc7769": {
+        "rfcNumber": "RFC7769",
+        "href": "https://tools.ietf.org/html/rfc7769",
+        "title": "Media Access Control (MAC) Address Withdrawal over Static Pseudowire",
+        "authors": [
+            "S. Sivabalan",
+            "S. Boutros",
+            "H. Shah",
+            "S. Aldrin",
+            "M. Venkatesan"
+        ],
+        "rawDate": "2016-02",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc777": {
         "aliasOf": "rfc0777"
     },
@@ -116956,6 +116986,80 @@
     "rfc778": {
         "aliasOf": "rfc0778"
     },
+    "rfc7780": {
+        "rfcNumber": "RFC7780",
+        "href": "https://tools.ietf.org/html/rfc7780",
+        "title": "Transparent Interconnection of Lots of Links (TRILL): Clarifications, Corrections, and Updates",
+        "authors": [
+            "D. Eastlake 3rd",
+            "M. Zhang",
+            "R. Perlman",
+            "A. Banerjee",
+            "A. Ghanwani",
+            "S. Gupta"
+        ],
+        "rawDate": "2016-02",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC6325",
+            "RFC7177",
+            "RFC7179"
+        ],
+        "obsoletes": [
+            "RFC7180"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7781": {
+        "rfcNumber": "RFC7781",
+        "href": "https://tools.ietf.org/html/rfc7781",
+        "title": "Transparent Interconnection of Lots of Links (TRILL): Pseudo-Nickname for Active-Active Access",
+        "authors": [
+            "H. Zhai",
+            "T. Senevirathne",
+            "R. Perlman",
+            "M. Zhang",
+            "Y. Li"
+        ],
+        "rawDate": "2016-02",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7782": {
+        "rfcNumber": "RFC7782",
+        "href": "https://tools.ietf.org/html/rfc7782",
+        "title": "Transparent Interconnection of Lots of Links (TRILL) Active-Active Edge Using Multiple MAC Attachments",
+        "authors": [
+            "M. Zhang",
+            "R. Perlman",
+            "H. Zhai",
+            "M. Durrani",
+            "S. Gupta"
+        ],
+        "rawDate": "2016-02",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7783": {
+        "rfcNumber": "RFC7783",
+        "href": "https://tools.ietf.org/html/rfc7783",
+        "title": "Coordinated Multicast Trees (CMT) for Transparent Interconnection of Lots of Links (TRILL)",
+        "authors": [
+            "T. Senevirathne",
+            "J. Pathangi",
+            "J. Hudson"
+        ],
+        "rawDate": "2016-02",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC6325"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc7785": {
         "rfcNumber": "RFC7785",
         "href": "https://tools.ietf.org/html/rfc7785",
@@ -116971,6 +117075,21 @@
     },
     "rfc779": {
         "aliasOf": "rfc0779"
+    },
+    "rfc7797": {
+        "rfcNumber": "RFC7797",
+        "href": "https://tools.ietf.org/html/rfc7797",
+        "title": "JSON Web Signature (JWS) Unencoded Payload Option",
+        "authors": [
+            "M. Jones"
+        ],
+        "rawDate": "2016-02",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC7519"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc78": {
         "aliasOf": "rfc0078"
