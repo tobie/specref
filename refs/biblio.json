@@ -33,6 +33,12 @@
         "date": "2005",
         "publisher": "ANSI"
     },
+    "API-DESIGN-PRINCIPLES": {
+        "title": "API Design Principles",
+        "href": "https://w3ctag.github.io/design-principles/",
+        "authors": [ "Domenic Denicola" ],
+        "rawDate": "2015-12-29"
+    },
     "AT-SPI": {
         "href": "https://developer.gnome.org/libatspi/stable/",
         "title": "Assistive Technology Service Provider Interface",
@@ -1362,6 +1368,17 @@
         "title": "Using Qualified Names (QNames) as Identifiers in XML Content",
         "date": "17 March 2004",
         "status": "TAG Finding"
+    },
+    "QUDT": {
+        "href": "http://www.qudt.org/",
+        "title": "QUDT - Quantities, Units, Dimensions and Data Types Ontologies",
+        "authors": [
+          "Ralph Hodgson",
+          "Paul J. Keller",
+          "Jack Hodges",
+          "Jack Spivak"
+        ],
+        "rawDate": "2014-03-18"
     },
     "RANDOM": {
         "aliasOf": "rfc4086"
