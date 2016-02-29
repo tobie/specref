@@ -236,6 +236,7 @@ Some rules to observe when editing the database files:
 *   Don't remove entries unless you are 100% certain that no one is using it. Typically that only applies to cases in which you have just added a reference and want to remove it.
 *   Don't duplicate entries. Make sure that what you want to add is not in the DB. If it is, add an alias.
 *   Please use structured objects instead of raw strings as much as you possibly can.
+*   The format for structured objects is [described in JSON-schema](./schemas/raw-reference.json). The schema is used to test new entries, so you better abide by it. :)  _(Note I'm still looking for a tool to turn the JSON schema into something more easily consumed by human beings. Let me know if you have an idea, or better yet, send a pull request.)_
 *   When you want to update an existing reference, if you see that it uses the old string style, please convert it to a structured object. 
 * References in this database are expected to be to the “latest and greatest” version of a given specification. In some cases this may be the draft residing in the editor's repository, or it may be the latest snapshot as published by a Working Group into TR — this choice is left to your appreciation. If you really, *really* want to have a reference to a dated version, then use the `versions` property like so:
 
