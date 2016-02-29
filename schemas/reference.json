@@ -4,7 +4,7 @@
     "title": "Specref",
     "description": "A list of spec references.",
     "patternProperties": {
-        "^[a-zA-Z0-9-_+\\.]+$": {
+        "^[a-zA-Z0-9\\-_+\\.]+$": {
             "oneOf": [
                 { "$ref": "#/definitions/alias" },
                 { "$ref": "#/definitions/legacyRef" },
@@ -36,7 +36,7 @@
         "id": {
             "definition": "A reference ID (corresponds to RFCs or W3C shortnames).",
             "type": "string",
-            "pattern": "^[a-zA-Z0-9-_+\\.]+$"
+            "pattern": "^[a-zA-Z0-9\\-_+\\.]+$"
         },
         "idList": {
             "definition": "An array of unique reference IDs.",
