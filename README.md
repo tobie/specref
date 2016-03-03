@@ -130,17 +130,6 @@ The API to the service is very simple. It supports four operations which are:
     
     Notice this finds you the canonical version of a spec and not the precise version the URL points to.
     This is by design.
-    
-4.  Get a set of definition cross-references [DEPRECATED]. 
-
-        GET https://specref.herokuapp.com/xrefs?refs=comma,seperated,list,of,references
-    
-    parameters:
-
-        refs=comma-separated,list,of,reference,IDs
-        callback=nameOfCallbackFunction
-
-    returns: a JSON object indexed by IDs
 
 ### Aliases
 
@@ -207,13 +196,7 @@ Some examples should help:
     
     // the same as JSON-P
     GET https://specref.herokuapp.com/bibrefs?refs=SVG,REX,DAHUT&callback=yourFunctionName
-    
-    // get cross-references for the CSS Object Model and File API specifications
-    GET https://specref.herokuapp.com/xrefs?refs=cssom,fileapi
-    
-    // the same as JSON-P
-    GET https://specref.herokuapp.com/xrefs?refs=cssom,fileapi&callback=yourFunctionName
-            
+
 If you need to find a reference ID (for either bibliographic or cross-references) you need to look for it on [specref.org](http://specref.org).
 
 ## Updating & Adding
