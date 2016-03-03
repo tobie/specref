@@ -118,17 +118,7 @@ app.get('/metadata', function (req, res, next) {
 
 // xrefs
 app.get('/xrefs', function (req, res, next) {
-    var data = {};
-    var refs = req.param("refs");
-    if (refs) {
-        refs.split(",").forEach(function(ref) {
-            if (XREFS[ref]) data[ref] = XREFS[ref];
-        });
-        res.status(200).jsonp(data);
-    } else {
-        res.status(200).jsonp(XREFS);
-    }
-    
+    res.status(410).jsonp({ message: "xrefs are no longer supported." });
 });
 
 var port = process.env.PORT || 5000;
