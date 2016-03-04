@@ -1,5 +1,5 @@
 var t0 = Date.now();
-
+require("newrelic");
 var bibref = require('./lib/bibref');
 
 var app = module.exports = require("express")();
