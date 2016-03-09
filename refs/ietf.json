@@ -77560,6 +77560,9 @@
         ],
         "rawDate": "2008-03",
         "status": "Informational",
+        "obsoletedBy": [
+            "RFC7707"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -116181,6 +116184,22 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc7707": {
+        "rfcNumber": "RFC7707",
+        "href": "https://tools.ietf.org/html/rfc7707",
+        "title": "Network Reconnaissance in IPv6 Networks",
+        "authors": [
+            "F. Gont",
+            "T. Chown"
+        ],
+        "rawDate": "2016-03",
+        "status": "Informational",
+        "obsoletes": [
+            "RFC5157"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc7708": {
         "rfcNumber": "RFC7708",
         "href": "https://tools.ietf.org/html/rfc7708",
@@ -116377,6 +116396,20 @@
         "obsoletes": [
             "RFC2870"
         ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7721": {
+        "rfcNumber": "RFC7721",
+        "href": "https://tools.ietf.org/html/rfc7721",
+        "title": "Security and Privacy Considerations for IPv6 Address Generation Mechanisms",
+        "authors": [
+            "A. Cooper",
+            "F. Gont",
+            "D. Thaler"
+        ],
+        "rawDate": "2016-03",
+        "status": "Informational",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
