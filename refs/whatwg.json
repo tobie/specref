@@ -40,16 +40,6 @@
         "status": "Living Standard",
         "source": "https://resources.whatwg.org/biblio.json"
     },
-    "DOM": {
-        "authors": [
-            "Anne van Kesteren"
-        ],
-        "href": "https://dom.spec.whatwg.org/",
-        "title": "DOM Standard",
-        "publisher": "WHATWG",
-        "status": "Living Standard",
-        "source": "https://resources.whatwg.org/biblio.json"
-    },
     "DOMPARSING": {
         "authors": [
             "Ms2ger"
@@ -173,7 +163,14 @@
         "aliasOf": "DIFFERENCES"
     },
     "WHATWG-DOM": {
-        "aliasOf": "DOM"
+        "authors": [
+            "Anne van Kesteren"
+        ],
+        "href": "https://dom.spec.whatwg.org/",
+        "title": "DOM Standard",
+        "publisher": "WHATWG",
+        "status": "Living Standard",
+        "source": "https://resources.whatwg.org/biblio.json"
     },
     "WHATWG-DOMPARSING": {
         "aliasOf": "DOMPARSING"
