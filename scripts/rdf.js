@@ -166,13 +166,17 @@ request({
                 delete curr.date;
                 delete curr.trURL;
                 delete curr.shortName;
-            } else {
+            } else if (!bibref.get(k)[k]) {
                 var clone = _cloneJSON(ref);
                 clone.href = clone.trURL;
                 delete clone.trURL;
                 delete clone.shortName;
                 current[k] = clone;
             }
+        });
+        
+        output = output.filter(function(ref) {
+            return current[ref.shortName];
         });
         
         // Fill in missing previous versions
@@ -204,7 +208,10 @@ request({
         Object.keys(aliases).forEach(function(k) {
             var aliasShortname = aliases[k];
             var alias = current[aliasShortname];
-            if (!alias) throw new Error("Missing data for spec " + aliasShortname);
+            if (!alias) {
+                if (bibref.get(aliasShortname)[aliasShortname]) return;
+                else throw new Error("Missing data for spec " + aliasShortname);
+            }
             var obj = { aliasOf: aliasShortname };
             while (alias.aliasOf) {
                 aliasShortname = alias.aliasOf;
