@@ -20417,7 +20417,95 @@
         },
         "edDraft": "http://dvcs.w3.org/hg/dap/raw-file/tip/discovery-api/Overview.html"
     },
-    "dom": {
+    "dom-20101007": {
+        "authors": [
+            "Anne van Kesteren"
+        ],
+        "title": "Web DOM Core",
+        "status": "WD",
+        "publisher": "W3C",
+        "rawDate": "2010-10-07",
+        "href": "http://www.w3.org/TR/2010/WD-domcore-20101007/",
+        "deliveredBy": [
+            "http://www.w3.org/2008/webapps/"
+        ]
+    },
+    "dom-20110531": {
+        "authors": [
+            "Anne van Kesteren",
+            "Ms2ger"
+        ],
+        "title": "DOM Core",
+        "status": "WD",
+        "publisher": "W3C",
+        "rawDate": "2011-05-31",
+        "href": "http://www.w3.org/TR/2011/WD-domcore-20110531/",
+        "deliveredBy": [
+            "http://www.w3.org/2008/webapps/"
+        ]
+    },
+    "dom-20110915": {
+        "authors": [
+            "Anne van Kesteren",
+            "Aryeh Gregor",
+            "Ms2ger"
+        ],
+        "title": "DOM4",
+        "status": "WD",
+        "publisher": "W3C",
+        "rawDate": "2011-09-15",
+        "href": "http://www.w3.org/TR/2011/WD-dom-20110915/",
+        "deliveredBy": [
+            "http://www.w3.org/2008/webapps/"
+        ]
+    },
+    "dom-20120105": {
+        "authors": [
+            "Anne van Kesteren",
+            "Aryeh Gregor",
+            "Ms2ger"
+        ],
+        "title": "DOM4",
+        "status": "WD",
+        "publisher": "W3C",
+        "rawDate": "2012-01-05",
+        "href": "http://www.w3.org/TR/2012/WD-dom-20120105/",
+        "deliveredBy": [
+            "http://www.w3.org/2008/webapps/"
+        ]
+    },
+    "dom-20120405": {
+        "authors": [
+            "Anne van Kesteren",
+            "Aryeh Gregor",
+            "Ms2ger"
+        ],
+        "title": "DOM4",
+        "status": "WD",
+        "publisher": "W3C",
+        "rawDate": "2012-04-05",
+        "href": "http://www.w3.org/TR/2012/WD-dom-20120405/",
+        "deliveredBy": [
+            "http://www.w3.org/2008/webapps/"
+        ]
+    },
+    "dom-20121206": {
+        "authors": [
+            "Anne van Kesteren",
+            "Aryeh Gregor",
+            "Lachlan Hunt",
+            "Ms2ger"
+        ],
+        "href": "http://www.w3.org/TR/2012/WD-dom-20121206/",
+        "title": "DOM4",
+        "rawDate": "2012-12-06",
+        "status": "WD",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "http://www.w3.org/2008/webapps/"
+        ]
+    },
+    "dom-20131107": {
         "authors": [
             "Anne van Kesteren",
             "Aryeh Gregor",
@@ -20425,215 +20513,181 @@
             "Alex Russell",
             "Robin Berjon"
         ],
-        "href": "http://www.w3.org/TR/dom/",
+        "href": "http://www.w3.org/TR/2013/WD-dom-20131107/",
         "title": "W3C DOM4",
+        "rawDate": "2013-11-07",
+        "status": "WD",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "http://www.w3.org/html/wg/"
+        ]
+    },
+    "dom-20140204": {
+        "authors": [
+            "Anne van Kesteren",
+            "Aryeh Gregor",
+            "Ms2ger",
+            "Alex Russell",
+            "Robin Berjon"
+        ],
+        "href": "http://www.w3.org/TR/2014/WD-dom-20140204/",
+        "title": "W3C DOM4",
+        "rawDate": "2014-02-04",
+        "status": "LCWD",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "http://www.w3.org/html/wg/"
+        ]
+    },
+    "dom-20140508": {
+        "authors": [
+            "Anne van Kesteren",
+            "Aryeh Gregor",
+            "Ms2ger",
+            "Alex Russell",
+            "Robin Berjon"
+        ],
+        "href": "http://www.w3.org/TR/2014/CR-dom-20140508/",
+        "title": "W3C DOM4",
+        "rawDate": "2014-05-08",
+        "status": "CR",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "http://www.w3.org/html/wg/"
+        ]
+    },
+    "dom-20140710": {
+        "authors": [
+            "Anne van Kesteren",
+            "Aryeh Gregor",
+            "Ms2ger",
+            "Alex Russell",
+            "Robin Berjon"
+        ],
+        "href": "http://www.w3.org/TR/2014/WD-dom-20140710/",
+        "title": "W3C DOM4",
+        "rawDate": "2014-07-10",
+        "status": "LCWD",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "http://www.w3.org/html/wg/"
+        ]
+    },
+    "dom-20150428": {
+        "authors": [
+            "Anne van Kesteren",
+            "Aryeh Gregor",
+            "Ms2ger",
+            "Alex Russell",
+            "Robin Berjon"
+        ],
+        "href": "http://www.w3.org/TR/2015/WD-dom-20150428/",
+        "title": "W3C DOM4",
+        "rawDate": "2015-04-28",
+        "status": "LCWD",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "http://www.w3.org/html/wg/"
+        ]
+    },
+    "dom-20150618": {
+        "authors": [
+            "Anne van Kesteren",
+            "Aryeh Gregor",
+            "Ms2ger",
+            "Alex Russell",
+            "Robin Berjon"
+        ],
+        "href": "http://www.w3.org/TR/2015/WD-dom-20150618/",
+        "title": "W3C DOM4",
+        "rawDate": "2015-06-18",
+        "status": "LCWD",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "http://www.w3.org/html/wg/"
+        ]
+    },
+    "dom-20151006": {
+        "authors": [
+            "Anne van Kesteren",
+            "Aryeh Gregor",
+            "Ms2ger",
+            "Alex Russell",
+            "Robin Berjon"
+        ],
+        "href": "http://www.w3.org/TR/2015/PR-dom-20151006/",
+        "title": "W3C DOM4",
+        "rawDate": "2015-10-06",
+        "status": "PR",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "http://www.w3.org/html/wg/"
+        ]
+    },
+    "dom-20151119": {
+        "authors": [
+            "Anne van Kesteren",
+            "Aryeh Gregor",
+            "Ms2ger",
+            "Alex Russell",
+            "Robin Berjon"
+        ],
+        "href": "http://www.w3.org/TR/2015/REC-dom-20151119/",
+        "title": "W3C DOM4",
+        "rawDate": "2015-11-19",
         "status": "REC",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/html/wg/"
-        ],
-        "versions": {
-            "20101007": {
-                "status": "WD",
-                "rawDate": "2010-10-07",
-                "href": "http://www.w3.org/TR/2010/WD-domcore-20101007/",
-                "source": "./data/w3c-specs.txt"
-            },
-            "20110531": {
-                "status": "WD",
-                "rawDate": "2011-05-31",
-                "href": "http://www.w3.org/TR/2011/WD-domcore-20110531/",
-                "source": "./data/w3c-specs.txt"
-            },
-            "20110915": {
-                "status": "WD",
-                "rawDate": "2011-09-15",
-                "href": "http://www.w3.org/TR/2011/WD-dom-20110915/",
-                "source": "./data/w3c-specs.txt"
-            },
-            "20120105": {
-                "status": "WD",
-                "rawDate": "2012-01-05",
-                "href": "http://www.w3.org/TR/2012/WD-dom-20120105/",
-                "source": "./data/w3c-specs.txt"
-            },
-            "20120405": {
-                "status": "WD",
-                "rawDate": "2012-04-05",
-                "href": "http://www.w3.org/TR/2012/WD-dom-20120405/",
-                "source": "./data/w3c-specs.txt"
-            },
-            "20121206": {
-                "authors": [
-                    "Anne van Kesteren",
-                    "Aryeh Gregor",
-                    "Lachlan Hunt",
-                    "Ms2ger"
-                ],
-                "href": "http://www.w3.org/TR/2012/WD-dom-20121206/",
-                "title": "DOM4",
-                "rawDate": "2012-12-06",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "http://www.w3.org/2008/webapps/"
-                ],
-                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
-            },
-            "20131107": {
-                "authors": [
-                    "Anne van Kesteren",
-                    "Aryeh Gregor",
-                    "Ms2ger",
-                    "Alex Russell",
-                    "Robin Berjon"
-                ],
-                "href": "http://www.w3.org/TR/2013/WD-dom-20131107/",
-                "title": "W3C DOM4",
-                "rawDate": "2013-11-07",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "http://www.w3.org/html/wg/"
-                ],
-                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
-            },
-            "20140204": {
-                "authors": [
-                    "Anne van Kesteren",
-                    "Aryeh Gregor",
-                    "Ms2ger",
-                    "Alex Russell",
-                    "Robin Berjon"
-                ],
-                "href": "http://www.w3.org/TR/2014/WD-dom-20140204/",
-                "title": "W3C DOM4",
-                "rawDate": "2014-02-04",
-                "status": "LCWD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "http://www.w3.org/html/wg/"
-                ],
-                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
-            },
-            "20140508": {
-                "authors": [
-                    "Anne van Kesteren",
-                    "Aryeh Gregor",
-                    "Ms2ger",
-                    "Alex Russell",
-                    "Robin Berjon"
-                ],
-                "href": "http://www.w3.org/TR/2014/CR-dom-20140508/",
-                "title": "W3C DOM4",
-                "rawDate": "2014-05-08",
-                "status": "CR",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "http://www.w3.org/html/wg/"
-                ],
-                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
-            },
-            "20140710": {
-                "authors": [
-                    "Anne van Kesteren",
-                    "Aryeh Gregor",
-                    "Ms2ger",
-                    "Alex Russell",
-                    "Robin Berjon"
-                ],
-                "href": "http://www.w3.org/TR/2014/WD-dom-20140710/",
-                "title": "W3C DOM4",
-                "rawDate": "2014-07-10",
-                "status": "LCWD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "http://www.w3.org/html/wg/"
-                ],
-                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
-            },
-            "20150428": {
-                "authors": [
-                    "Anne van Kesteren",
-                    "Aryeh Gregor",
-                    "Ms2ger",
-                    "Alex Russell",
-                    "Robin Berjon"
-                ],
-                "href": "http://www.w3.org/TR/2015/WD-dom-20150428/",
-                "title": "W3C DOM4",
-                "rawDate": "2015-04-28",
-                "status": "LCWD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "http://www.w3.org/html/wg/"
-                ],
-                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
-            },
-            "20150618": {
-                "authors": [
-                    "Anne van Kesteren",
-                    "Aryeh Gregor",
-                    "Ms2ger",
-                    "Alex Russell",
-                    "Robin Berjon"
-                ],
-                "href": "http://www.w3.org/TR/2015/WD-dom-20150618/",
-                "title": "W3C DOM4",
-                "rawDate": "2015-06-18",
-                "status": "LCWD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "http://www.w3.org/html/wg/"
-                ],
-                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
-            },
-            "20151006": {
-                "authors": [
-                    "Anne van Kesteren",
-                    "Aryeh Gregor",
-                    "Ms2ger",
-                    "Alex Russell",
-                    "Robin Berjon"
-                ],
-                "href": "http://www.w3.org/TR/2015/PR-dom-20151006/",
-                "title": "W3C DOM4",
-                "rawDate": "2015-10-06",
-                "status": "PR",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "http://www.w3.org/html/wg/"
-                ],
-                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
-            },
-            "20151119": {
-                "authors": [
-                    "Anne van Kesteren",
-                    "Aryeh Gregor",
-                    "Ms2ger",
-                    "Alex Russell",
-                    "Robin Berjon"
-                ],
-                "href": "http://www.w3.org/TR/2015/REC-dom-20151119/",
-                "title": "W3C DOM4",
-                "rawDate": "2015-11-19",
-                "status": "REC",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "http://www.w3.org/html/wg/"
-                ],
-                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
-            }
-        },
-        "rawDate": "2015-11-19",
-        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
-        "edDraft": "https://w3c.github.io/dom/"
+        ]
     },
     "dom-iop": {
         "aliasOf": "scxml-dom-iop"
     },
     "domcore": {
         "aliasOf": "dom"
+    },
+    "domcore-20101007": {
+        "aliasOf": "dom-20101007"
+    },
+    "domcore-20110531": {
+        "aliasOf": "dom-20110531"
+    },
+    "domcore-20110915": {
+        "aliasOf": "dom-20110915"
+    },
+    "domcore-20120105": {
+        "aliasOf": "dom-20120105"
+    },
+    "domcore-20120405": {
+        "aliasOf": "dom-20120405"
+    },
+    "domcore-20121206": {
+        "aliasOf": "dom-20121206"
+    },
+    "domcore-20131107": {
+        "aliasOf": "dom-20131107"
+    },
+    "domcore-20140204": {
+        "aliasOf": "dom-20140204"
+    },
+    "domcore-20140508": {
+        "aliasOf": "dom-20140508"
+    },
+    "domcore-20140710": {
+        "aliasOf": "dom-20140710"
+    },
+    "domcore-20150428": {
+        "aliasOf": "dom-20150428"
+    },
+    "domcore-20150618": {
+        "aliasOf": "dom-20150618"
+    },
+    "domcore-20151006": {
+        "aliasOf": "dom-20151006"
+    },
+    "domcore-20151119": {
+        "aliasOf": "dom-20151119"
     },
     "dpub-aam-1.0": {
         "authors": [
