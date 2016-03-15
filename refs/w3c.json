@@ -9369,8 +9369,8 @@
         ],
         "href": "http://www.w3.org/TR/WOFF2/",
         "title": "WOFF File Format 2.0",
-        "rawDate": "2015-04-14",
-        "status": "WD",
+        "rawDate": "2016-03-15",
+        "status": "CR",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/Fonts/WG/"
@@ -9406,9 +9406,24 @@
                     "http://www.w3.org/Fonts/WG/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20160315": {
+                "authors": [
+                    "Vladimir Levantovsky",
+                    "Raph Levien"
+                ],
+                "href": "http://www.w3.org/TR/2016/CR-WOFF2-20160315/",
+                "title": "WOFF File Format 2.0",
+                "rawDate": "2016-03-15",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Fonts/WG/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "http://dev.w3.org/webfonts/WOFF2/spec/"
+        "edDraft": "https://dev.w3.org/webfonts/WOFF2/spec/"
     },
     "WOFF20ER": {
         "authors": [
@@ -9416,8 +9431,8 @@
         ],
         "href": "http://www.w3.org/TR/WOFF20ER/",
         "title": "WOFF 2.0 Evaluation Report",
-        "rawDate": "2015-04-14",
-        "status": "WD",
+        "rawDate": "2016-03-15",
+        "status": "NOTE",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/Fonts/WG/"
@@ -9446,6 +9461,20 @@
                 "title": "WOFF 2.0 Evaluation Report",
                 "rawDate": "2015-04-14",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Fonts/WG/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20160315": {
+                "authors": [
+                    "Chris Lilley"
+                ],
+                "href": "http://www.w3.org/TR/2016/NOTE-WOFF20ER-20160315/",
+                "title": "WOFF 2.0 Evaluation Report",
+                "rawDate": "2016-03-15",
+                "status": "NOTE",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/Fonts/WG/"
