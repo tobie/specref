@@ -8287,9 +8287,25 @@
                     "http://www.w3.org/WAI/GL/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20160317": {
+                "authors": [
+                    "Michael Cooper",
+                    "Andrew Kirkpatrick",
+                    "Joshue O Connor"
+                ],
+                "href": "http://www.w3.org/TR/2016/NOTE-UNDERSTANDING-WCAG20-20160317/",
+                "title": "Understanding WCAG 2.0",
+                "rawDate": "2016-03-17",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/WAI/GL/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2015-02-26",
+        "rawDate": "2016-03-17",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
     "UWA-personalization-roadmap": {
@@ -9081,9 +9097,25 @@
                     "http://www.w3.org/WAI/GL/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20160317": {
+                "authors": [
+                    "Michael Cooper",
+                    "Andrew Kirkpatrick",
+                    "Joshue O Connor"
+                ],
+                "href": "http://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20160317/",
+                "title": "Techniques for WCAG 2.0",
+                "rawDate": "2016-03-17",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/WAI/GL/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2015-02-26",
+        "rawDate": "2016-03-17",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
     "WD-charreq": {
@@ -10349,7 +10381,7 @@
         ],
         "href": "http://www.w3.org/TR/accname-aam-1.1/",
         "title": "Accessible Name and Description: Computation and API Mappings 1.1",
-        "rawDate": "2015-11-19",
+        "rawDate": "2016-03-17",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/aria/accname-aam/accname-aam.html",
@@ -10402,6 +10434,23 @@
                 "href": "http://www.w3.org/TR/2015/WD-accname-aam-1.1-20151119/",
                 "title": "Accessible Name and Description: Computation and API Mappings 1.1",
                 "rawDate": "2015-11-19",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/WAI/ARIA/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20160317": {
+                "authors": [
+                    "Joseph Scheuhammer",
+                    "James Craig",
+                    "Andi Snow-Weaver",
+                    "Aaron Leventhal"
+                ],
+                "href": "http://www.w3.org/TR/2016/WD-accname-aam-1.1-20160317/",
+                "title": "Accessible Name and Description: Computation and API Mappings 1.1",
+                "rawDate": "2016-03-17",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -13588,7 +13637,7 @@
         ],
         "href": "http://www.w3.org/TR/core-aam-1.1/",
         "title": "Core Accessibility API Mappings 1.1",
-        "rawDate": "2015-11-19",
+        "rawDate": "2016-03-17",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -13674,6 +13723,23 @@
                 "href": "http://www.w3.org/TR/2015/WD-core-aam-1.1-20151119/",
                 "title": "Core Accessibility API Mappings 1.1",
                 "rawDate": "2015-11-19",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/WAI/ARIA/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20160317": {
+                "authors": [
+                    "Joseph Scheuhammer",
+                    "Michael Cooper",
+                    "Andi Snow-Weaver",
+                    "Aaron Leventhal"
+                ],
+                "href": "http://www.w3.org/TR/2016/WD-core-aam-1.1-20160317/",
+                "title": "Core Accessibility API Mappings 1.1",
+                "rawDate": "2016-03-17",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -18956,17 +19022,23 @@
         }
     },
     "cssom": {
+        "aliasOf": "cssom-1"
+    },
+    "cssom-1": {
         "authors": [
             "Simon Pieters",
             "Glenn Adams"
         ],
-        "href": "http://www.w3.org/TR/cssom/",
+        "href": "http://www.w3.org/TR/cssom-1/",
         "title": "CSS Object Model (CSSOM)",
+        "rawDate": "2016-03-17",
         "status": "WD",
         "publisher": "W3C",
+        "edDraft": "https://drafts.csswg.org/cssom/",
         "deliveredBy": [
             "http://www.w3.org/Style/CSS/members"
         ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
         "versions": {
             "20110712": {
                 "authors": [
@@ -18996,24 +19068,41 @@
                     "http://www.w3.org/Style/CSS/members"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20160317": {
+                "authors": [
+                    "Simon Pieters",
+                    "Glenn Adams"
+                ],
+                "href": "http://www.w3.org/TR/2016/WD-cssom-1-20160317/",
+                "title": "CSS Object Model (CSSOM)",
+                "rawDate": "2016-03-17",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Style/CSS/members"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        },
-        "rawDate": "2013-12-05",
-        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
-        "edDraft": "http://dev.w3.org/csswg/cssom/"
+        }
     },
     "cssom-view": {
+        "aliasOf": "cssom-view-1"
+    },
+    "cssom-view-1": {
         "authors": [
-            "Simon Pieters",
-            "Glenn Adams"
+            "Simon Pieters"
         ],
-        "href": "http://www.w3.org/TR/cssom-view/",
+        "href": "http://www.w3.org/TR/cssom-view-1/",
         "title": "CSSOM View Module",
+        "rawDate": "2016-03-17",
         "status": "WD",
         "publisher": "W3C",
+        "edDraft": "https://drafts.csswg.org/cssom-view/",
         "deliveredBy": [
             "http://www.w3.org/Style/CSS/members"
         ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
         "versions": {
             "20080222": {
                 "status": "WD",
@@ -19055,11 +19144,22 @@
                     "http://www.w3.org/Style/CSS/members"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20160317": {
+                "authors": [
+                    "Simon Pieters"
+                ],
+                "href": "http://www.w3.org/TR/2016/WD-cssom-view-1-20160317/",
+                "title": "CSSOM View Module",
+                "rawDate": "2016-03-17",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Style/CSS/members"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        },
-        "rawDate": "2013-12-17",
-        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
-        "edDraft": "http://dev.w3.org/csswg/cssom-view/"
+        }
     },
     "csv2json": {
         "authors": [
@@ -20670,7 +20770,7 @@
         ],
         "href": "http://www.w3.org/TR/dpub-aam-1.0/",
         "title": "Digital Publishing Accessibility API Mappings",
-        "rawDate": "2015-12-03",
+        "rawDate": "2016-03-17",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/aria/dpub-aam/dpub-aam.html",
@@ -20686,6 +20786,20 @@
                 "href": "http://www.w3.org/TR/2015/WD-dpub-aam-1.0-20151203/",
                 "title": "Digital Publishing Accessibility API Mappings",
                 "rawDate": "2015-12-03",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/WAI/ARIA/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20160317": {
+                "authors": [
+                    "Richard Schwerdtfeger"
+                ],
+                "href": "http://www.w3.org/TR/2016/WD-dpub-aam-1.0-20160317/",
+                "title": "Digital Publishing Accessibility API Mappings",
+                "rawDate": "2016-03-17",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -20749,7 +20863,7 @@
         ],
         "href": "http://www.w3.org/TR/dpub-aria-1.0/",
         "title": "Digital Publishing WAI-ARIA Module 1.0",
-        "rawDate": "2015-11-19",
+        "rawDate": "2016-03-17",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/aria/aria/dpub.html",
@@ -20785,6 +20899,23 @@
                 "href": "http://www.w3.org/TR/2015/WD-dpub-aria-1.0-20151119/",
                 "title": "Digital Publishing WAI-ARIA Module 1.0",
                 "rawDate": "2015-11-19",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/WAI/ARIA/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20160317": {
+                "authors": [
+                    "Matt Garrish",
+                    "Tzviya Siegman",
+                    "Markus Gylling",
+                    "Shane McCarron"
+                ],
+                "href": "http://www.w3.org/TR/2016/WD-dpub-aria-1.0-20160317/",
+                "title": "Digital Publishing WAI-ARIA Module 1.0",
+                "rawDate": "2016-03-17",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -52186,7 +52317,7 @@
         ],
         "href": "http://www.w3.org/TR/wai-aria-1.1/",
         "title": "Accessible Rich Internet Applications (WAI-ARIA) 1.1",
-        "rawDate": "2015-11-19",
+        "rawDate": "2016-03-17",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -52291,9 +52422,26 @@
                     "http://www.w3.org/WAI/ARIA/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20160317": {
+                "authors": [
+                    "Joanmarie Diggs",
+                    "James Craig",
+                    "Shane McCarron",
+                    "Michael Cooper"
+                ],
+                "href": "http://www.w3.org/TR/2016/WD-wai-aria-1.1-20160317/",
+                "title": "Accessible Rich Internet Applications (WAI-ARIA) 1.1",
+                "rawDate": "2016-03-17",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/WAI/ARIA/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "https://w3c.github.io/aria/aria/aria.html"
+        "edDraft": "https://rawgit.com/w3c/aria/master/aria/aria.html"
     },
     "wai-aria-implementation": {
         "authors": [
@@ -52472,13 +52620,14 @@
             "Matthew King",
             "James Nurthen",
             "Michael Cooper",
+            "Michiel Bijl",
             "Joseph Scheuhammer",
             "Lisa Pappas",
             "Richard Schwerdtfeger"
         ],
         "href": "http://www.w3.org/TR/wai-aria-practices-1.1/",
         "title": "WAI-ARIA Authoring Practices 1.1",
-        "rawDate": "2015-11-19",
+        "rawDate": "2016-03-17",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/aria/practices/aria-practices.html",
@@ -52518,6 +52667,26 @@
                 "href": "http://www.w3.org/TR/2015/WD-wai-aria-practices-1.1-20151119/",
                 "title": "WAI-ARIA Authoring Practices 1.1",
                 "rawDate": "2015-11-19",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/WAI/ARIA/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20160317": {
+                "authors": [
+                    "Matthew King",
+                    "James Nurthen",
+                    "Michael Cooper",
+                    "Michiel Bijl",
+                    "Joseph Scheuhammer",
+                    "Lisa Pappas",
+                    "Richard Schwerdtfeger"
+                ],
+                "href": "http://www.w3.org/TR/2016/WD-wai-aria-practices-1.1-20160317/",
+                "title": "WAI-ARIA Authoring Practices 1.1",
+                "rawDate": "2016-03-17",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
