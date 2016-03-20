@@ -156,7 +156,8 @@
                 },
                 "isbn": {
                     "description": "International Standard Book Number",
-                    "type": "string"
+                    "type": "string",
+                    "pattern": "^[0-9\\-]+X?$"
                 }
             },
             "required": ["title"],
