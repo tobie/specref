@@ -236,6 +236,10 @@
                 "edDraft": {
                     "description": "URL of the editor's draft",
                     "$ref": "#/definitions/url"
+                },
+                "isbn": {
+                    "description": "International Standard Book Number",
+                    "type": "string"
                 }
             },
             "required": ["title"],
