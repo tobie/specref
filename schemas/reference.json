@@ -158,6 +158,11 @@
                     "description": "International Standard Book Number",
                     "type": "string",
                     "pattern": "^[0-9\\-]+X?$"
+                },
+                "pages": {
+                    "description": "Page number(s) where the reference is inside the titled document",
+                    "type": "string",
+                    "pattern": "^[0-9\\-,]+$"
                 }
             },
             "required": ["title"],
