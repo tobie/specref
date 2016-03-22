@@ -42,8 +42,24 @@
     "AES-WRAP-PAD": {
         "aliasOf": "RFC5649"
     },
+    "AGBDL": {
+        "authors": [
+            "Charles Jacobs"
+        ],
+        "etAl": true,
+        "href": "http://grail.cs.washington.edu/pub/papers/Jacobs2003.pdf",
+        "title": "Adaptive Grid Based Document Layout in ACM Transactions on Graphics",
+        "date": "July 2003",
+        "pages": "838-847"
+    },
     "ALT-TECHNIQUES": {
         "aliasOf": "html-alt-techniques"
+    },
+    "ANSI-X9-44": {
+        "href": "http://webstore.ansi.org/RecordDetail.aspx?sku=ANSI+X9.44%3a2007",
+        "title": "Key Establishment Using Integer Factorization Cryptography",
+        "date": "2007",
+        "publisher": "ANSI"
     },
     "ANSI-X9-62": {
         "href": "http://webstore.ansi.org/RecordDetail.aspx?sku=ANSI+X9.62%3a2005",
@@ -58,6 +74,25 @@
             "Domenic Denicola"
         ],
         "rawDate": "2015-12-29"
+    },
+    "APNG": {
+        "authors": [
+            "S. Parmenter",
+            "V. Vukicevic",
+            "A. Smith"
+        ],
+        "href": "https://wiki.mozilla.org/APNG_Specification",
+        "title": "APNG Specification",
+        "publisher": "Mozilla"
+    },
+    "ARABIC-TYPO": {
+        "authors": [
+            "Huda Smitshuijzen AbiFares"
+        ],
+        "title": "Arabic Typography: A Comprehensive Sourcebook",
+        "date": "2001",
+        "publisher": "Saqi Books",
+        "isbn": "0-86356-347-3"
     },
     "AT-SPI": {
         "href": "https://developer.gnome.org/libatspi/stable/",
@@ -1187,8 +1222,7 @@
     },
     "NAMES": {
         "authors": [
-            "Lilley",
-            "Chris"
+            "Chris Lilley"
         ],
         "href": "http://lists.w3.org/Archives/Member/w3c-ui-tech/2001Mar/0002.html",
         "title": "Restrictions on identifiers",
