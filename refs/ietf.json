@@ -38191,7 +38191,8 @@
         "rawDate": "1999-06",
         "status": "Proposed Standard",
         "updatedBy": [
-            "RFC4616"
+            "RFC4616",
+            "RFC7817"
         ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=2595",
         "publisher": "IETF",
@@ -47812,6 +47813,9 @@
         ],
         "rawDate": "2002-02",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC7817"
+        ],
         "obsoletes": [
             "RFC2487"
         ],
@@ -52537,7 +52541,8 @@
             "RFC5182",
             "RFC5738",
             "RFC6186",
-            "RFC6858"
+            "RFC6858",
+            "RFC7817"
         ],
         "obsoletes": [
             "RFC2060"
@@ -87344,6 +87349,9 @@
         ],
         "rawDate": "2010-07",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC7817"
+        ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=5804",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -117593,6 +117601,24 @@
         "rawDate": "2016-03",
         "status": "Experimental",
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=7816",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7817": {
+        "rfcNumber": "RFC7817",
+        "href": "https://tools.ietf.org/html/rfc7817",
+        "title": "Updated Transport Layer Security (TLS) Server Identity Check Procedure for Email-Related Protocols",
+        "authors": [
+            "A. Melnikov"
+        ],
+        "rawDate": "2016-03",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC2595",
+            "RFC3207",
+            "RFC3501",
+            "RFC5804"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
