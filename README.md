@@ -234,3 +234,8 @@ Some rules to observe when editing the database files:
     }, //...
 }
 ```
+
+## Licenses
+
+* Specref Reference Database (all files in [refs/](./refs/)): <span xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/" about="http://www.specref.org/"><a rel="license" href="http://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal</a></span>
+* Code (all other files): [Apache License Version 2.0](./LICENSE)
