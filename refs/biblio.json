@@ -497,14 +497,29 @@
         "date": "14 January 2008",
         "status": "DCMI Recommendation"
     },
-    "DC11": {
+    "DCTERMS" : {
         "authors": [
             "Dublin Core metadata initiative"
         ],
         "href": "http://dublincore.org/documents/dcmi-terms/",
-        "title": "Dublin Core metadata element set, version 1.1",
-        "date": "July 1999",
-        "status": "Dublin Core recommendation"
+        "title": "DCMI Metadata Terms",
+        "date": "14 June 2012",
+        "status": "DCMI Recommendation"
+    },
+    "dcterms": {
+        "aliasOf": "DCTERMS"
+    },
+    "DC11": {
+        "authors": [
+            "Dublin Core metadata initiative"
+        ],
+        "href": "http://dublincore.org/documents/2012/06/14/dces/",
+        "title": "Dublin Core Metadata Element Set, Version 1.1",
+        "date": "14 June 2012",
+        "status": "DCMI recommendation"
+    },
+    "dc11": {
+        "aliasOf": "DC11"
     },
     "DCAT-UCR": {
         "authors": [
