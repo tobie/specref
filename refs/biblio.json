@@ -602,15 +602,6 @@
         "date": "14 January 2008",
         "status": "DCMI Recommendation"
     },
-    "DCTERMS" : {
-        "authors": [
-            "Dublin Core metadata initiative"
-        ],
-        "href": "http://dublincore.org/documents/dcmi-terms/",
-        "title": "DCMI Metadata Terms",
-        "date": "14 June 2012",
-        "status": "DCMI Recommendation"
-    },
     "DC11": {
         "authors": [
             "Dublin Core metadata initiative"
@@ -630,6 +621,15 @@
         "date": "16 December 2012",
         "status": "ED",
         "publisher": "W3C"
+    },
+    "DCTERMS": {
+        "authors": [
+            "Dublin Core metadata initiative"
+        ],
+        "href": "http://dublincore.org/documents/dcmi-terms/",
+        "title": "DCMI Metadata Terms",
+        "date": "14 June 2012",
+        "status": "DCMI Recommendation"
     },
     "DEVICE-ORIENTATION": {
         "aliasOf": "orientation-event"
