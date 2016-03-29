@@ -12053,8 +12053,8 @@
         ],
         "href": "http://www.w3.org/TR/battery-status/",
         "title": "Battery Status API",
-        "rawDate": "2014-12-09",
-        "status": "CR",
+        "rawDate": "2016-03-29",
+        "status": "PR",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2009/dap/"
@@ -12129,9 +12129,24 @@
                     "http://www.w3.org/2009/dap/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20160329": {
+                "authors": [
+                    "Anssi Kostiainen",
+                    "Mounir Lamouri"
+                ],
+                "href": "http://www.w3.org/TR/2016/PR-battery-status-20160329/",
+                "title": "Battery Status API",
+                "rawDate": "2016-03-29",
+                "status": "PR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2009/dap/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "http://dvcs.w3.org/hg/dap/raw-file/default/battery/Overview.html"
+        "edDraft": "https://w3c.github.io/battery/"
     },
     "beacon": {
         "authors": [
@@ -14232,7 +14247,7 @@
             "Elika Etemad",
             "Florian Rivoal"
         ],
-        "href": "https://www.w3.org/TR/css-2015/",
+        "href": "http://www.w3.org/TR/css-2015/",
         "title": "CSS Snapshot 2015",
         "rawDate": "2015-10-13",
         "status": "NOTE",
@@ -14716,7 +14731,7 @@
         ],
         "href": "http://www.w3.org/TR/css-device-adapt-1/",
         "title": "CSS Device Adaptation Module Level 1",
-        "rawDate": "2015-11-26",
+        "rawDate": "2016-03-29",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://drafts.csswg.org/css-device-adapt/",
@@ -14748,6 +14763,22 @@
                 "href": "http://www.w3.org/TR/2015/WD-css-device-adapt-1-20151126/",
                 "title": "CSS Device Adaptation Module Level 1",
                 "rawDate": "2015-11-26",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Style/CSS/members"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20160329": {
+                "authors": [
+                    "Rune Lillesveen",
+                    "Florian Rivoal",
+                    "Matt Rakow"
+                ],
+                "href": "http://www.w3.org/TR/2016/WD-css-device-adapt-1-20160329/",
+                "title": "CSS Device Adaptation Module Level 1",
+                "rawDate": "2016-03-29",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -16279,10 +16310,10 @@
         ],
         "href": "http://www.w3.org/TR/css-snappoints-1/",
         "title": "CSS Scroll Snap Points Module Level 1",
-        "rawDate": "2015-03-26",
+        "rawDate": "2016-03-29",
         "status": "WD",
         "publisher": "W3C",
-        "edDraft": "http://dev.w3.org/csswg/css-snappoints/",
+        "edDraft": "https://drafts.csswg.org/css-snappoints/",
         "deliveredBy": [
             "http://www.w3.org/Style/CSS/members"
         ],
@@ -16296,6 +16327,21 @@
                 "href": "http://www.w3.org/TR/2015/WD-css-snappoints-1-20150326/",
                 "title": "CSS Scroll Snap Points Module Level 1",
                 "rawDate": "2015-03-26",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Style/CSS/members"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20160329": {
+                "authors": [
+                    "Matt Rakow",
+                    "Jacob Rossi"
+                ],
+                "href": "http://www.w3.org/TR/2016/WD-css-snappoints-1-20160329/",
+                "title": "CSS Scroll Snap Points Module Level 1",
+                "rawDate": "2016-03-29",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -53864,8 +53910,8 @@
         ],
         "href": "http://www.w3.org/TR/webcrypto-key-discovery/",
         "title": "WebCrypto Key Discovery",
-        "rawDate": "2013-08-22",
-        "status": "WD",
+        "rawDate": "2016-03-29",
+        "status": "NOTE",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2012/webcrypto/"
@@ -53894,6 +53940,20 @@
                 "title": "WebCrypto Key Discovery",
                 "rawDate": "2013-08-22",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2012/webcrypto/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20160329": {
+                "authors": [
+                    "Mark Watson"
+                ],
+                "href": "http://www.w3.org/TR/2016/NOTE-webcrypto-key-discovery-20160329/",
+                "title": "WebCrypto Key Discovery",
+                "rawDate": "2016-03-29",
+                "status": "NOTE",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/2012/webcrypto/"
