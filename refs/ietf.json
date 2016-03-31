@@ -52750,6 +52750,7 @@
         "updatedBy": [
             "RFC7647"
         ],
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=3515",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -88798,6 +88799,9 @@
         ],
         "rawDate": "2010-06",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC7822"
+        ],
         "obsoletes": [
             "RFC1305",
             "RFC4330"
@@ -117582,6 +117586,22 @@
     "rfc781": {
         "aliasOf": "rfc0781"
     },
+    "rfc7814": {
+        "rfcNumber": "RFC7814",
+        "href": "https://tools.ietf.org/html/rfc7814",
+        "title": "Virtual Subnet: A BGP/MPLS IP VPN-Based Subnet Extension Solution",
+        "authors": [
+            "X. Xu",
+            "C. Jacquenet",
+            "R. Raszuk",
+            "T. Boyes",
+            "B. Fee"
+        ],
+        "rawDate": "2016-03",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc7815": {
         "rfcNumber": "RFC7815",
         "href": "https://tools.ietf.org/html/rfc7815",
@@ -117625,8 +117645,60 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc7818": {
+        "rfcNumber": "RFC7818",
+        "href": "https://tools.ietf.org/html/rfc7818",
+        "title": "URN Namespace for MEF Documents",
+        "authors": [
+            "M. Jethanandani"
+        ],
+        "rawDate": "2016-03",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc782": {
         "aliasOf": "rfc0782"
+    },
+    "rfc7820": {
+        "rfcNumber": "RFC7820",
+        "href": "https://tools.ietf.org/html/rfc7820",
+        "title": "UDP Checksum Complement in the One-Way Active Measurement Protocol (OWAMP) and Two-Way Active Measurement Protocol (TWAMP)",
+        "authors": [
+            "T. Mizrahi"
+        ],
+        "rawDate": "2016-03",
+        "status": "Experimental",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7821": {
+        "rfcNumber": "RFC7821",
+        "href": "https://tools.ietf.org/html/rfc7821",
+        "title": "UDP Checksum Complement in the Network Time Protocol (NTP)",
+        "authors": [
+            "T. Mizrahi"
+        ],
+        "rawDate": "2016-03",
+        "status": "Experimental",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7822": {
+        "rfcNumber": "RFC7822",
+        "href": "https://tools.ietf.org/html/rfc7822",
+        "title": "Network Time Protocol Version 4 (NTPv4) Extension Fields",
+        "authors": [
+            "T. Mizrahi",
+            "D. Mayer"
+        ],
+        "rawDate": "2016-03",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC5905"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc783": {
         "aliasOf": "rfc0783"
