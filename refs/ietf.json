@@ -72056,7 +72056,8 @@
         "updatedBy": [
             "RFC5689",
             "RFC6638",
-            "RFC6764"
+            "RFC6764",
+            "RFC7809"
         ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=4791",
         "publisher": "IETF",
@@ -117584,6 +117585,47 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc7807": {
+        "rfcNumber": "RFC7807",
+        "href": "https://tools.ietf.org/html/rfc7807",
+        "title": "Problem Details for HTTP APIs",
+        "authors": [
+            "M. Nottingham",
+            "E. Wilde"
+        ],
+        "rawDate": "2016-03",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7808": {
+        "rfcNumber": "RFC7808",
+        "href": "https://tools.ietf.org/html/rfc7808",
+        "title": "Time Zone Data Distribution Service",
+        "authors": [
+            "M. Douglass",
+            "C. Daboo"
+        ],
+        "rawDate": "2016-03",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7809": {
+        "rfcNumber": "RFC7809",
+        "href": "https://tools.ietf.org/html/rfc7809",
+        "title": "Calendaring Extensions to WebDAV (CalDAV): Time Zones by Reference",
+        "authors": [
+            "C. Daboo"
+        ],
+        "rawDate": "2016-03",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC4791"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc781": {
         "aliasOf": "rfc0781"
     },
@@ -117715,6 +117757,24 @@
     },
     "rfc783": {
         "aliasOf": "rfc0783"
+    },
+    "rfc7836": {
+        "rfcNumber": "RFC7836",
+        "href": "https://tools.ietf.org/html/rfc7836",
+        "title": "Guidelines on the Cryptographic Algorithms to Accompany the Usage of Standards GOST R 34.10-2012 and GOST R 34.11-2012",
+        "authors": [
+            "S. Smyshlyaev, Ed.",
+            "E. Alekseev",
+            "I. Oshkin",
+            "V. Popov",
+            "S. Leontiev",
+            "V. Podobaev",
+            "D. Belyavsky"
+        ],
+        "rawDate": "2016-03",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc784": {
         "aliasOf": "rfc0784"
