@@ -8665,7 +8665,10 @@
             "C. Sunshine"
         ],
         "rawDate": "1974-12",
-        "status": "Unknown",
+        "status": "Historic",
+        "obsoletedBy": [
+            "RFC7805"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -8967,7 +8970,7 @@
             "R.S. Tomlinson"
         ],
         "rawDate": "1974-08",
-        "status": "Unknown",
+        "status": "Informational",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -9187,7 +9190,10 @@
             "L.L. Garlick"
         ],
         "rawDate": "1976-09",
-        "status": "Unknown",
+        "status": "Historic",
+        "obsoletedBy": [
+            "RFC7805"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -9732,9 +9738,10 @@
             "J. Postel"
         ],
         "rawDate": "1980-01",
-        "status": "Unknown",
+        "status": "Historic",
         "obsoletedBy": [
-            "RFC0793"
+            "RFC0793",
+            "RFC7805"
         ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -10237,7 +10244,7 @@
             "V.G. Cerf"
         ],
         "rawDate": "1981-09",
-        "status": "Unknown",
+        "status": "Informational",
         "updates": [
             "IEN125"
         ],
@@ -10500,7 +10507,10 @@
             "D.D. Clark"
         ],
         "rawDate": "1982-07",
-        "status": "Unknown",
+        "status": "Historic",
+        "obsoletedBy": [
+            "RFC7805"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -10512,7 +10522,7 @@
             "D.D. Clark"
         ],
         "rawDate": "1982-07",
-        "status": "Unknown",
+        "status": "Informational",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -10536,7 +10546,10 @@
             "D.D. Clark"
         ],
         "rawDate": "1982-07",
-        "status": "Unknown",
+        "status": "Historic",
+        "obsoletedBy": [
+            "RFC7805"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -10548,7 +10561,7 @@
             "D.D. Clark"
         ],
         "rawDate": "1982-07",
-        "status": "Unknown",
+        "status": "Informational",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -11381,7 +11394,7 @@
             "M.A. Padlipsky"
         ],
         "rawDate": "1982-09",
-        "status": "Unknown",
+        "status": "Informational",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -11471,9 +11484,12 @@
             "J. Postel"
         ],
         "rawDate": "1983-11",
-        "status": "Unknown",
+        "status": "Historic",
         "updatedBy": [
             "RFC6691"
+        ],
+        "obsoletedBy": [
+            "RFC7805"
         ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=879",
         "publisher": "IETF",
@@ -11627,7 +11643,7 @@
             "D.L. Mills"
         ],
         "rawDate": "1983-12",
-        "status": "Unknown",
+        "status": "Informational",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -11716,7 +11732,10 @@
             "J. Nagle"
         ],
         "rawDate": "1984-01",
-        "status": "Unknown",
+        "status": "Historic",
+        "obsoletedBy": [
+            "RFC7805"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -12722,7 +12741,7 @@
             "T. Blumer"
         ],
         "rawDate": "1985-11",
-        "status": "Unknown",
+        "status": "Informational",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -14400,7 +14419,7 @@
             "C. Partridge"
         ],
         "rawDate": "1988-09",
-        "status": "Unknown",
+        "status": "Informational",
         "updatedBy": [
             "RFC1141"
         ],
@@ -14500,7 +14519,10 @@
             "M. Lottor"
         ],
         "rawDate": "1988-11",
-        "status": "Unknown",
+        "status": "Historic",
+        "obsoletedBy": [
+            "RFC7805"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -90461,7 +90483,10 @@
             "W. Simpson"
         ],
         "rawDate": "2011-01",
-        "status": "Experimental",
+        "status": "Historic",
+        "obsoletedBy": [
+            "RFC7805"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -111680,6 +111705,9 @@
         ],
         "rawDate": "2015-02",
         "status": "Informational",
+        "updatedBy": [
+            "RFC7805"
+        ],
         "obsoletes": [
             "RFC4614"
         ],
@@ -117613,6 +117641,34 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc7805": {
+        "rfcNumber": "RFC7805",
+        "href": "https://tools.ietf.org/html/rfc7805",
+        "title": "Moving Outdated TCP Extensions and TCP-Related Documents to Historic or Informational Status",
+        "authors": [
+            "A. Zimmermann",
+            "W. Eddy",
+            "L. Eggert"
+        ],
+        "rawDate": "2016-04",
+        "status": "Informational",
+        "updates": [
+            "RFC7414"
+        ],
+        "obsoletes": [
+            "RFC0675",
+            "RFC0721",
+            "RFC0761",
+            "RFC0813",
+            "RFC0816",
+            "RFC0879",
+            "RFC0896",
+            "RFC1078",
+            "RFC6013"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc7807": {
         "rfcNumber": "RFC7807",
         "href": "https://tools.ietf.org/html/rfc7807",
@@ -117816,6 +117872,20 @@
         ],
         "rawDate": "2016-03",
         "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7838": {
+        "rfcNumber": "RFC7838",
+        "href": "https://tools.ietf.org/html/rfc7838",
+        "title": "HTTP Alternative Services",
+        "authors": [
+            "M. Nottingham",
+            "P. McManus",
+            "J. Reschke"
+        ],
+        "rawDate": "2016-04",
+        "status": "Proposed Standard",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
