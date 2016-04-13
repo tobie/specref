@@ -2482,6 +2482,85 @@
         "rawDate": "2002-09-19",
         "title": "Open Digital Rights Language (ODRL) Version 1.1"
     },
+    "odrl21-model": {
+        "authors": [
+            "Renato Iannella",
+			"Susanne Guth",
+			"Daniel Paehler",
+			"Andreas Kasten"
+        ],
+        "href": "http://www.w3.org/community/odrl/model/2.1/",
+        "publisher": "W3C",
+        "status": "W3C Community Group Final Specification",
+        "rawDate": "2015-03-05",
+        "title": "ODRL Version 2.1 Core Model"
+    },
+    "odrl21-vocab": {
+        "authors": [
+            "Renato Iannella",
+			"Michael Steidl",
+			"Susanne Guth"
+        ],
+        "href": "http://www.w3.org/community/odrl/vocab/2.1/",
+        "publisher": "W3C",
+        "status": "W3C Community Group Final Specification",
+        "rawDate": "2015-03-05",
+        "title": "ODRL Version 2.1 Common Vocabulary"
+    },
+    "odrl21-xml": {
+        "authors": [
+            "Renato Iannella"
+        ],
+        "href": "http://www.w3.org/community/odrl/xml/2.1/",
+        "publisher": "W3C",
+        "status": "W3C Community Group Final Specification",
+        "rawDate": "2015-03-05",
+        "title": "ODRL Version 2.1 XML Encoding"
+    },
+    "odrl21-onto": {
+        "authors": [
+            "Mo McRoberts",
+			"Víctor Rodríguez Doncel"
+        ],
+        "href": "http://www.w3.org/ns/odrl/2/ODRL21",
+        "publisher": "W3C",
+        "status": "W3C Community Group Final Specification",
+        "rawDate": "2015-03-05",
+        "title": "ODRL Version 2.1 Ontology"
+    },
+    "odrl21-json": {
+        "authors": [
+            "Jonas Öberg",
+			"Stuart Myles",
+			"Lu Ai"
+        ],
+        "href": "http://www.w3.org/community/odrl/json/2.1/",
+        "publisher": "W3C",
+        "status": "W3C Community Group Final Specification",
+        "rawDate": "2015-03-05",
+        "title": "ODRL Version 2.1 JSON Encoding"
+    },
+    "odrl2-req": {
+        "authors": [
+            "Susanne Guth",
+			"Renato Iannella"
+        ],
+        "href": "http://www.w3.org/2012/09/odrl/archive/odrl.net/2.0/v2req.html",
+        "publisher": "ODRL Initiative",
+        "status": "Working Draft",
+        "rawDate": "2005-02-13",
+        "title": "ODRL Version 2 Requirements"
+    },
+    "uml": {
+        "authors": [
+            "Open Management Group"
+        ],
+        "href": "http://www.omg.org/spec/UML/",
+        "publisher": "OMG",
+        "status": "Normative",
+        "rawDate": "2015-03-01",
+        "title": "OMG Unified Modeling Language"
+    },
     "promises-guide": {
         "href": "https://www.w3.org/2001/tag/doc/promises-guide",
         "title": "Writing Promise-Using Specifications",
