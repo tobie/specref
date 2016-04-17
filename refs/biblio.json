@@ -232,6 +232,14 @@
     "CANVAS-2D": {
         "aliasOf": "2dcontext"
     },
+    "CC-ABOUT":{
+        "href": "http://creativecommons.org/about/licenses/",
+        "title": "Creative Commons: About Licenses"
+    },
+    "CC-CHOOSE":{
+        "href": "http://creativecommons.org/choose/",
+        "title": "Creative Commons: License Your Work"
+    },
     "CCPP": {
         "aliasOf": "CCPP-struct-vocab"
     },
@@ -240,8 +248,26 @@
         "href": "http://www.ce.org/Standards/Standard-Listings/R4-3-Television-Data-Systems-Subcommittee/CEA-708-D.aspx",
         "publisher": "CEA"
     },
+    "CEA-2014":{
+        "href": "http://www.ce.org/Standards/browseByCommittee_2757.asp",
+        "title": "Web-based Protocol and Framework for Remote User Interface on UPnP Networks and the Internet (Web4CE)",
+        "date": "January 2011",
+        "publisher": "CEA"
+    },
+    "CESU8":{
+        "authors": [
+            "T. Phipps"
+        ],
+        "href": "http://www.unicode.org/reports/tr26/",
+        "title": "UTR #26: Compatibility Encoding Scheme For UTF-16: 8-BIT (CESU-8)",
+        "publisher": "Unicode Consortium"
+    },
     "CGM": {
         "aliasOf": "NOTE-cgm"
+    },
+    "CHARSETS": {
+        "href": "http://www.iana.org/assignments/character-sets",
+        "title": "Characters sets"
     },
     "CHIPS": {
         "authors": [
@@ -264,11 +290,27 @@
         "date": "26 July 2011",
         "status": "Draft proposal"
     },
+    "CLDR": {
+        "href": "http://cldr.unicode.org/",
+        "title": "Unicode Common Locale Data Repository",
+        "publisher": "Unicode Consortium"
+    },
     "CMS-Algorithms": {
         "aliasOf": "RFC3370"
     },
     "CMS-WRAP": {
         "aliasOf": "RFC3217"
+    },
+    "COAP": {
+        "authors": [
+            "E Shelby"
+        ],
+        "etAl": true,
+        "href": "https://tools.ietf.org/html/draft-ietf-core-coap",
+        "title": "Constrained Application Protocol (CoAP)",
+        "date": "December 2012",
+        "status": "Internet Draft",
+        "publisher": "IETF"
     },
     "COCKBURN-2000": {
         "authors": [
@@ -288,6 +330,41 @@
         "publisher": "Addison Wesley Longman Publishing Co., Inc., Redwood City, CA, USA.",
         "href": "http://www.mountaingoatsoftware.com/books/user-stories-applied"
     },
+    "COLORIMETRY": {
+        "title": "Colorimetry, Second Edition",
+        "date": "15 February 1986",
+        "isbn": "3-900-734-00-3",
+        "publisher": "CIE"
+    },
+    "Coloring-RDF":{
+        "authors": [
+            "Giorgos Flouris",
+            "Irini Fundulaki",
+            "Panagiotis Pediaditis",
+            "Yannis Theoharis",
+            "Vassilis Christophides"
+        ],
+        "href": "http://data.semanticweb.org/conference/iswc/2009/paper/research/165/html",
+        "title": "Coloring RDF Triples to Capture Provenance",
+        "date": "2009",
+        "publisher": "The Semantic Web - ISWC"
+    },
+    "COMPUTABLE": {
+        "authors":[
+            "A. Turing"
+        ],
+        "href": "http://www.turingarchive.org/browse.php/B/12",
+        "title": "On computable numbers, with an application to the Entscheidungsproblem, Proceedings of the London Mathematical Society, series 2, volume 42,",
+        "date": "1937",
+        "publisher": "London Mathematical Society",
+        "pages": "230-265"
+    },
+    "CONSENT-EU-WP187": {
+        "href": "http://ec.europa.eu/justice/policies/privacy/docs/wpdocs/2011/wp187_en.pdf",
+        "title": "Opinion 15/2011 on the definition of consent",
+        "date": "13 July 2011",
+        "publisher": "EU Article 29 Data Protection Working Party"
+    },
     "CONTACTS-WRITER-API": {
         "authors": [
             "R. Tibbett"
@@ -297,6 +374,15 @@
         "date": "3 August 2010",
         "status": "ED",
         "publisher": "W3C"
+    },
+    "Context-SW": {
+        "authors": [
+            "R.M.R. Guha",
+            "R. Fikes"
+        ],
+        "title": "Contexts for the Semantic Web",
+        "date": "2005",
+        "publisher": "The Semantic Web - ISWC"
     },
     "COOKIES": {
         "aliasOf": "RFC6265"
@@ -310,6 +396,14 @@
         "date": "2 December 2009",
         "status": "ED",
         "publisher": "W3C"
+    },
+    "CP50220": {
+        "authors": [
+            "Y. Naruse"
+        ],
+        "href": "http://www.iana.org/assignments/charset-reg/CP50220",
+        "title": "CP50220",
+        "publisher": "IANA"
     },
     "CSS-ADAPTATION": {
         "aliasOf": "css-device-adapt"
@@ -485,6 +579,10 @@
     },
     "CURIE-20130822": {
         "aliasOf": "rdfa-core-20130822"
+    },
+    "CVE-2009-0217": {
+        "href": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-0217",
+        "title": "Common Vulnerabilities and Exposures List, CVE-2009-0217"
     },
     "DAHU": {
         "aliasOf": "DAHUT"
