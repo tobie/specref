@@ -232,29 +232,29 @@
     "CANVAS-2D": {
         "aliasOf": "2dcontext"
     },
-    "CC-ABOUT":{
+    "CC-ABOUT": {
         "href": "http://creativecommons.org/about/licenses/",
         "title": "Creative Commons: About Licenses"
     },
-    "CC-CHOOSE":{
+    "CC-CHOOSE": {
         "href": "http://creativecommons.org/choose/",
         "title": "Creative Commons: License Your Work"
     },
     "CCPP": {
         "aliasOf": "CCPP-struct-vocab"
     },
-    "CEA708": {
-        "title": "Digital Television (DTV) Closed Captioning CEA-708-B",
-        "href": "http://www.ce.org/Standards/Standard-Listings/R4-3-Television-Data-Systems-Subcommittee/CEA-708-D.aspx",
-        "publisher": "CEA"
-    },
-    "CEA-2014":{
+    "CEA-2014": {
         "href": "http://www.ce.org/Standards/browseByCommittee_2757.asp",
         "title": "Web-based Protocol and Framework for Remote User Interface on UPnP Networks and the Internet (Web4CE)",
         "date": "January 2011",
         "publisher": "CEA"
     },
-    "CESU8":{
+    "CEA708": {
+        "title": "Digital Television (DTV) Closed Captioning CEA-708-B",
+        "href": "http://www.ce.org/Standards/Standard-Listings/R4-3-Television-Data-Systems-Subcommittee/CEA-708-D.aspx",
+        "publisher": "CEA"
+    },
+    "CESU8": {
         "authors": [
             "T. Phipps"
         ],
@@ -336,21 +336,8 @@
         "isbn": "3-900-734-00-3",
         "publisher": "CIE"
     },
-    "Coloring-RDF":{
-        "authors": [
-            "Giorgos Flouris",
-            "Irini Fundulaki",
-            "Panagiotis Pediaditis",
-            "Yannis Theoharis",
-            "Vassilis Christophides"
-        ],
-        "href": "http://data.semanticweb.org/conference/iswc/2009/paper/research/165/html",
-        "title": "Coloring RDF Triples to Capture Provenance",
-        "date": "2009",
-        "publisher": "The Semantic Web - ISWC"
-    },
     "COMPUTABLE": {
-        "authors":[
+        "authors": [
             "A. Turing"
         ],
         "href": "http://www.turingarchive.org/browse.php/B/12",
@@ -374,15 +361,6 @@
         "date": "3 August 2010",
         "status": "ED",
         "publisher": "W3C"
-    },
-    "Context-SW": {
-        "authors": [
-            "R.M.R. Guha",
-            "R. Fikes"
-        ],
-        "title": "Contexts for the Semantic Web",
-        "date": "2005",
-        "publisher": "The Semantic Web - ISWC"
     },
     "COOKIES": {
         "aliasOf": "RFC6265"
@@ -583,6 +561,28 @@
     "CVE-2009-0217": {
         "href": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-0217",
         "title": "Common Vulnerabilities and Exposures List, CVE-2009-0217"
+    },
+    "Coloring-RDF": {
+        "authors": [
+            "Giorgos Flouris",
+            "Irini Fundulaki",
+            "Panagiotis Pediaditis",
+            "Yannis Theoharis",
+            "Vassilis Christophides"
+        ],
+        "href": "http://data.semanticweb.org/conference/iswc/2009/paper/research/165/html",
+        "title": "Coloring RDF Triples to Capture Provenance",
+        "date": "2009",
+        "publisher": "The Semantic Web - ISWC"
+    },
+    "Context-SW": {
+        "authors": [
+            "R.M.R. Guha",
+            "R. Fikes"
+        ],
+        "title": "Contexts for the Semantic Web",
+        "date": "2005",
+        "publisher": "The Semantic Web - ISWC"
     },
     "DAHU": {
         "aliasOf": "DAHUT"
