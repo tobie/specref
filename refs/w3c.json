@@ -31042,7 +31042,7 @@
         ],
         "href": "http://www.w3.org/TR/mediacapture-depth/",
         "title": "Media Capture Depth Stream Extensions",
-        "rawDate": "2016-04-18",
+        "rawDate": "2016-04-19",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/mediacapture-depth/",
@@ -31163,6 +31163,23 @@
                 "href": "http://www.w3.org/TR/2016/WD-mediacapture-depth-20160418/",
                 "title": "Media Capture Depth Stream Extensions",
                 "rawDate": "2016-04-18",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2011/04/webrtc/",
+                    "http://www.w3.org/2009/dap/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20160419": {
+                "authors": [
+                    "Anssi Kostiainen",
+                    "Ningxin Hu",
+                    "Rob Manson"
+                ],
+                "href": "http://www.w3.org/TR/2016/WD-mediacapture-depth-20160419/",
+                "title": "Media Capture Depth Stream Extensions",
+                "rawDate": "2016-04-19",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -55260,7 +55277,7 @@
         ],
         "href": "http://www.w3.org/TR/webstorage/",
         "title": "Web Storage (Second Edition)",
-        "status": "PR",
+        "status": "REC",
         "publisher": "W3C",
         "versions": {
             "20090423": {
@@ -55370,12 +55387,26 @@
                     "http://www.w3.org/WebPlatform/WG/"
                 ],
                 "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20160419": {
+                "authors": [
+                    "Ian Hickson"
+                ],
+                "href": "http://www.w3.org/TR/2016/REC-webstorage-20160419/",
+                "title": "Web Storage (Second Edition)",
+                "rawDate": "2016-04-19",
+                "status": "REC",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/WebPlatform/WG/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
         "deliveredBy": [
             "http://www.w3.org/WebPlatform/WG/"
         ],
-        "rawDate": "2015-11-26",
+        "rawDate": "2016-04-19",
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
         "edDraft": "https://w3c.github.io/webstorage/"
     },
