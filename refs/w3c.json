@@ -36082,6 +36082,117 @@
         "rawDate": "2002-01-24",
         "title": "Current Patent Practice"
     },
+    "payment-method-basic-card": {
+        "authors": [
+            "Adrian Bateman",
+            "Zach Koch",
+            "Richard Barnes",
+            "Roy McElmurry"
+        ],
+        "href": "http://www.w3.org/TR/payment-method-basic-card/",
+        "title": "Basic Card Payment",
+        "rawDate": "2016-04-21",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/browser-payment-api/specs/basic-card-payment.html",
+        "deliveredBy": [
+            "https://www.w3.org/Payments/WG/"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20160421": {
+                "authors": [
+                    "Adrian Bateman",
+                    "Zach Koch",
+                    "Richard Barnes",
+                    "Roy McElmurry"
+                ],
+                "href": "http://www.w3.org/TR/2016/WD-payment-method-basic-card-20160421/",
+                "title": "Basic Card Payment",
+                "rawDate": "2016-04-21",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Payments/WG/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
+    "payment-method-id": {
+        "authors": [
+            "Adrian Bateman",
+            "Zach Koch",
+            "Richard Barnes",
+            "Roy McElmurry"
+        ],
+        "href": "http://www.w3.org/TR/payment-method-id/",
+        "title": "Payment Method Identifiers",
+        "rawDate": "2016-04-21",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/browser-payment-api/specs/method-identifiers.html",
+        "deliveredBy": [
+            "https://www.w3.org/Payments/WG/"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20160421": {
+                "authors": [
+                    "Adrian Bateman",
+                    "Zach Koch",
+                    "Richard Barnes",
+                    "Roy McElmurry"
+                ],
+                "href": "http://www.w3.org/TR/2016/WD-payment-method-id-20160421/",
+                "title": "Payment Method Identifiers",
+                "rawDate": "2016-04-21",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Payments/WG/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
+    "payment-request": {
+        "authors": [
+            "Adrian Bateman",
+            "Zach Koch",
+            "Richard Barnes",
+            "Roy McElmurry"
+        ],
+        "href": "http://www.w3.org/TR/payment-request/",
+        "title": "Payment Request API",
+        "rawDate": "2016-04-21",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/browser-payment-api/specs/paymentrequest.html",
+        "deliveredBy": [
+            "https://www.w3.org/Payments/WG/"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20160421": {
+                "authors": [
+                    "Adrian Bateman",
+                    "Zach Koch",
+                    "Richard Barnes",
+                    "Roy McElmurry"
+                ],
+                "href": "http://www.w3.org/TR/2016/WD-payment-request-20160421/",
+                "title": "Payment Request API",
+                "rawDate": "2016-04-21",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Payments/WG/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
     "performance-timeline": {
         "authors": [
             "Jatinder Mann",
@@ -50215,8 +50326,8 @@
         ],
         "href": "http://www.w3.org/TR/ttml-imsc1/",
         "title": "TTML Profiles for Internet Media Subtitles and Captions 1.0 (IMSC1)",
-        "rawDate": "2016-03-08",
-        "status": "PR",
+        "rawDate": "2016-04-21",
+        "status": "REC",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/AudioVideo/TT/"
@@ -50301,6 +50412,20 @@
                 "title": "TTML Profiles for Internet Media Subtitles and Captions 1.0 (IMSC1)",
                 "rawDate": "2016-03-08",
                 "status": "PR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/AudioVideo/TT/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20160421": {
+                "authors": [
+                    "Pierre-Anthony Lemieux"
+                ],
+                "href": "http://www.w3.org/TR/2016/REC-ttml-imsc1-20160421/",
+                "title": "TTML Profiles for Internet Media Subtitles and Captions 1.0 (IMSC1)",
+                "rawDate": "2016-04-21",
+                "status": "REC",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/AudioVideo/TT/"
