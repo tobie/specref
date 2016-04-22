@@ -29,11 +29,11 @@ The API to the service is very simple. It supports four operations which are:
             "deliveredBy": [
                 {
                     "shortname": "webapps",
-                    "url": "http://www.w3.org/2008/webapps/"
+                    "url": "https://www.w3.org/2008/webapps/"
                 }
             ],
             "edDraft": "http://dev.w3.org/2006/webapi/FileAPI/",
-            "href": "http://www.w3.org/TR/FileAPI/",
+            "href": "https://www.w3.org/TR/FileAPI/",
             "id": "FileAPI",
             "publisher": "W3C",
             "status": "LCWD",
@@ -95,7 +95,7 @@ The API to the service is very simple. It supports four operations which are:
     
 3.  Reverse Lookup
 
-    [`GET https://specref.herokuapp.com/reverse-lookup?urls=http://www.w3.org/TR/2012/WD-FileAPI-20121025/`](https://specref.herokuapp.com/reverse-lookup?urls=http://www.w3.org/TR/2012/WD-FileAPI-20121025/)
+    [`GET https://specref.herokuapp.com/reverse-lookup?urls=https://www.w3.org/TR/2012/WD-FileAPI-20121025/`](https://specref.herokuapp.com/reverse-lookup?urls=https://www.w3.org/TR/2012/WD-FileAPI-20121025/)
     
     parameters:
 
@@ -106,7 +106,7 @@ The API to the service is very simple. It supports four operations which are:
     
     ```json
     {
-        "http://www.w3.org/TR/2012/WD-FileAPI-20121025/": {
+        "https://www.w3.org/TR/2012/WD-FileAPI-20121025/": {
             "authors": [
                 "Arun Ranganathan",
                 "Jonas Sicking"
@@ -115,11 +115,11 @@ The API to the service is very simple. It supports four operations which are:
             "deliveredBy": [
                 {
                     "shortname": "webapps",
-                    "url": "http://www.w3.org/2008/webapps/"
+                    "url": "https://www.w3.org/2008/webapps/"
                 }
             ],
             "edDraft": "http://dev.w3.org/2006/webapi/FileAPI/",
-            "href": "http://www.w3.org/TR/FileAPI/",
+            "href": "https://www.w3.org/TR/FileAPI/",
             "id": "FileAPI",
             "publisher": "W3C",
             "status": "LCWD",

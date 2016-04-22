@@ -6,7 +6,7 @@ var request = require('request'),
     runner = require('./run'),
     getShortName = require('./get-shortname');
     
-var RDF_FILE = "http://www.w3.org/2002/01/tr-automation/tr.rdf";
+var RDF_FILE = "https://www.w3.org/2002/01/tr-automation/tr.rdf";
 var FILENAME = "w3c.json";
 var current = runner.readBiblio(FILENAME);
 
@@ -21,22 +21,22 @@ var STATUSES = {
 };
 
 var TR_URLS = {
-    "http://www.w3.org/TR/REC-CSS1": "http://www.w3.org/TR/CSS1/",
-    "http://www.w3.org/TR/REC-CSS2": "http://www.w3.org/TR/CSS2/",
-    "http://www.w3.org/TR/REC-DOM-Level-1": "http://www.w3.org/TR/DOM-Level-1/",
-    "http://www.w3.org/TR/REC-DSig-label/": "http://www.w3.org/TR/DSig-label/",
-    "http://www.w3.org/TR/REC-MathML": "http://www.w3.org/TR/MathML/",
-    "http://www.w3.org/TR/REC-PICS-labels": "http://www.w3.org/TR/PICS-labels/",
-    "http://www.w3.org/TR/REC-PICS-services": "http://www.w3.org/TR/PICS-services/",
-    "http://www.w3.org/TR/REC-PICSRules": "http://www.w3.org/TR/PICSRules/",
-    "http://www.w3.org/TR/REC-WebCGM": "http://www.w3.org/TR/WebCGM/",
-    "http://www.w3.org/TR/REC-png": "http://www.w3.org/TR/PNG/",
-    "http://www.w3.org/TR/REC-rdf-syntax": "http://www.w3.org/TR/rdf-syntax-grammar/",
-    "http://www.w3.org/TR/REC-smil/": "http://www.w3.org/TR/SMIL/",
-    "http://www.w3.org/TR/REC-xml-names": "http://www.w3.org/TR/xml-names/",
-    "http://www.w3.org/TR/REC-xml": "http://www.w3.org/TR/xml/",
-    "http://www.w3.org/TR/xml-events": "http://www.w3.org/TR/xml-events2/",
-    "http://www.w3.org/TR/2001/WD-xhtml1-20011004/": "http://www.w3.org/TR/xhtml1/",
+    "https://www.w3.org/TR/REC-CSS1": "https://www.w3.org/TR/CSS1/",
+    "https://www.w3.org/TR/REC-CSS2": "https://www.w3.org/TR/CSS2/",
+    "https://www.w3.org/TR/REC-DOM-Level-1": "https://www.w3.org/TR/DOM-Level-1/",
+    "https://www.w3.org/TR/REC-DSig-label/": "https://www.w3.org/TR/DSig-label/",
+    "https://www.w3.org/TR/REC-MathML": "https://www.w3.org/TR/MathML/",
+    "https://www.w3.org/TR/REC-PICS-labels": "https://www.w3.org/TR/PICS-labels/",
+    "https://www.w3.org/TR/REC-PICS-services": "https://www.w3.org/TR/PICS-services/",
+    "https://www.w3.org/TR/REC-PICSRules": "https://www.w3.org/TR/PICSRules/",
+    "https://www.w3.org/TR/REC-WebCGM": "https://www.w3.org/TR/WebCGM/",
+    "https://www.w3.org/TR/REC-png": "https://www.w3.org/TR/PNG/",
+    "https://www.w3.org/TR/REC-rdf-syntax": "https://www.w3.org/TR/rdf-syntax-grammar/",
+    "https://www.w3.org/TR/REC-smil/": "https://www.w3.org/TR/SMIL/",
+    "https://www.w3.org/TR/REC-xml-names": "https://www.w3.org/TR/xml-names/",
+    "https://www.w3.org/TR/REC-xml": "https://www.w3.org/TR/xml/",
+    "https://www.w3.org/TR/xml-events": "https://www.w3.org/TR/xml-events2/",
+    "https://www.w3.org/TR/2001/WD-xhtml1-20011004/": "https://www.w3.org/TR/xhtml1/",
 };
 
 var ED_DRAFTS = {
@@ -276,7 +276,7 @@ function makeCleaner(status, isRetired, isSuperseded) {
             rawDate:         walk(spec, "dc:date", 0),
             status:          status,
             publisher:       "W3C",
-            isRetired:       isRetired || (type == "http://www.w3.org/2001/02pd/rec54#Retired") || void 0,
+            isRetired:       isRetired || (type == "https://www.w3.org/2001/02pd/rec54#Retired") || void 0,
             isSuperseded:    isSuperseded,
             trURL:           walk(spec, "doc:versionOf", 0, "$", "rdf:resource"),
             edDraft:         walk(spec, "ED", 0, "$", "rdf:resource"),
@@ -309,5 +309,5 @@ function _cloneJSON(obj) {
 }
 
 function isGeneratedByThisScript(ref) {
-    return ref.source == "http://www.w3.org/2002/01/tr-automation/tr.rdf" || ref.source == RDF_FILE;
+    return ref.source == "https://www.w3.org/2002/01/tr-automation/tr.rdf" || ref.source == RDF_FILE;
 }
