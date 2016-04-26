@@ -11337,7 +11337,7 @@
         ],
         "href": "http://www.w3.org/TR/appmanifest/",
         "title": "Web App Manifest",
-        "rawDate": "2016-04-22",
+        "rawDate": "2016-04-26",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -12017,6 +12017,23 @@
                 "href": "http://www.w3.org/TR/2016/WD-appmanifest-20160422/",
                 "title": "Web App Manifest",
                 "rawDate": "2016-04-22",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/WebPlatform/WG/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20160426": {
+                "authors": [
+                    "Marcos Caceres",
+                    "Kenneth Christiansen",
+                    "Mounir Lamouri",
+                    "Anssi Kostiainen"
+                ],
+                "href": "http://www.w3.org/TR/2016/WD-appmanifest-20160426/",
+                "title": "Web App Manifest",
+                "rawDate": "2016-04-26",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -22072,7 +22089,7 @@
         ],
         "href": "http://www.w3.org/TR/encrypted-media/",
         "title": "Encrypted Media Extensions",
-        "rawDate": "2016-04-21",
+        "rawDate": "2016-04-26",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -22580,6 +22597,23 @@
                 "href": "http://www.w3.org/TR/2016/WD-encrypted-media-20160421/",
                 "title": "Encrypted Media Extensions",
                 "rawDate": "2016-04-21",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/html/wg/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20160426": {
+                "authors": [
+                    "David Dorwin",
+                    "Jerry Smith",
+                    "Mark Watson",
+                    "Adrian Bateman"
+                ],
+                "href": "http://www.w3.org/TR/2016/WD-encrypted-media-20160426/",
+                "title": "Encrypted Media Extensions",
+                "rawDate": "2016-04-26",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -37294,64 +37328,7 @@
         "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
     "powerful-features": {
-        "authors": [
-            "Mike West"
-        ],
-        "href": "http://www.w3.org/TR/powerful-features/",
-        "title": "Secure Contexts",
-        "rawDate": "2016-04-13",
-        "status": "WD",
-        "publisher": "W3C",
-        "edDraft": "https://w3c.github.io/webappsec/specs/powerfulfeatures/",
-        "deliveredBy": [
-            "http://www.w3.org/2011/webappsec/"
-        ],
-        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
-        "versions": {
-            "20141204": {
-                "authors": [
-                    "Mike West"
-                ],
-                "href": "http://www.w3.org/TR/2014/WD-powerful-features-20141204/",
-                "title": "Requirements for Powerful Features",
-                "rawDate": "2014-12-04",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "http://www.w3.org/2011/webappsec/"
-                ],
-                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
-            },
-            "20150424": {
-                "authors": [
-                    "Mike West",
-                    "Yan Zhu"
-                ],
-                "href": "http://www.w3.org/TR/2015/WD-powerful-features-20150424/",
-                "title": "Privileged Contexts",
-                "rawDate": "2015-04-24",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "http://www.w3.org/2011/webappsec/"
-                ],
-                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
-            },
-            "20160413": {
-                "authors": [
-                    "Mike West"
-                ],
-                "href": "http://www.w3.org/TR/2016/WD-powerful-features-20160413/",
-                "title": "Secure Contexts",
-                "rawDate": "2016-04-13",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "http://www.w3.org/2011/webappsec/"
-                ],
-                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
-            }
-        }
+        "aliasOf": "secure-contexts"
     },
     "predefined-counter-styles": {
         "authors": [
@@ -44975,6 +44952,80 @@
             }
         }
     },
+    "secure-contexts": {
+        "authors": [
+            "Mike West"
+        ],
+        "href": "http://www.w3.org/TR/secure-contexts/",
+        "title": "Secure Contexts",
+        "rawDate": "2016-04-26",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/webappsec-secure-contexts/",
+        "deliveredBy": [
+            "http://www.w3.org/2011/webappsec/"
+        ],
+        "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20141204": {
+                "authors": [
+                    "Mike West"
+                ],
+                "href": "http://www.w3.org/TR/2014/WD-powerful-features-20141204/",
+                "title": "Requirements for Powerful Features",
+                "rawDate": "2014-12-04",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2011/webappsec/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150424": {
+                "authors": [
+                    "Mike West",
+                    "Yan Zhu"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-powerful-features-20150424/",
+                "title": "Privileged Contexts",
+                "rawDate": "2015-04-24",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2011/webappsec/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20160413": {
+                "authors": [
+                    "Mike West"
+                ],
+                "href": "http://www.w3.org/TR/2016/WD-powerful-features-20160413/",
+                "title": "Secure Contexts",
+                "rawDate": "2016-04-13",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2011/webappsec/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20160426": {
+                "authors": [
+                    "Mike West"
+                ],
+                "href": "http://www.w3.org/TR/2016/WD-secure-contexts-20160426/",
+                "title": "Secure Contexts",
+                "rawDate": "2016-04-26",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2011/webappsec/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
     "security-privacy-questionnaire": {
         "authors": [
             "Mike West"
@@ -49959,8 +50010,8 @@
         ],
         "href": "http://www.w3.org/TR/tracking-compliance/",
         "title": "Tracking Compliance and Scope",
-        "rawDate": "2015-07-14",
-        "status": "LCWD",
+        "rawDate": "2016-04-26",
+        "status": "CR",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2011/tracking-protection/"
@@ -50119,6 +50170,24 @@
                 "title": "Tracking Compliance and Scope",
                 "rawDate": "2015-07-14",
                 "status": "LCWD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2011/tracking-protection/"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20160426": {
+                "authors": [
+                    "Nick Doty",
+                    "Heather West",
+                    "Justin Brookman",
+                    "Sean Harvey",
+                    "Erica Newland"
+                ],
+                "href": "http://www.w3.org/TR/2016/CR-tracking-compliance-20160426/",
+                "title": "Tracking Compliance and Scope",
+                "rawDate": "2016-04-26",
+                "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/2011/tracking-protection/"
