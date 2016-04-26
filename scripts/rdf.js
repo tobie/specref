@@ -40,7 +40,8 @@ var TR_URLS = {
 };
 
 var ED_DRAFTS = {
-    "http://dev.w3.org/2006/webapi/WebIDL/": "http://heycam.github.io/webidl/"
+    "http://dev.w3.org/2006/webapi/WebIDL/": "http://heycam.github.io/webidl/",
+    "http://dev.w3.org/2009/dap/vibration/": "https://w3c.github.io/vibration/"
 };
 
 function edDraft(url) {
