@@ -6,7 +6,7 @@ var request = require('request'),
     runner = require('./run'),
     getShortName = require('./get-shortname');
     
-var RDF_FILE = "http://www.w3.org/2002/01/tr-automation/tr.rdf";
+var RDF_FILE = "https://www.w3.org/2002/01/tr-automation/tr.rdf";
 var FILENAME = "w3c.json";
 var current = runner.readBiblio(FILENAME);
 
@@ -310,5 +310,5 @@ function _cloneJSON(obj) {
 }
 
 function isGeneratedByThisScript(ref) {
-    return ref.source == "http://www.w3.org/2002/01/tr-automation/tr.rdf" || ref.source == RDF_FILE;
+    return ref.source == "https://www.w3.org/2002/01/tr-automation/tr.rdf" || "http://www.w3.org/2002/01/tr-automation/tr.rdf" || ref.source == RDF_FILE;
 }
