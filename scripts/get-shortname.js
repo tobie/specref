@@ -113,7 +113,7 @@ var SHORT_NAME_SPECIAL_CASES = {
     "WD-session-id": "session-id",
     "WD-sgml-lex": "sgml-lex",
     "WD-wwwicn": "wwwicn"
-}
+};
 
 function getShortName(url) {
     if (SPECIAL_CASES[url]) return SPECIAL_CASES[url];
