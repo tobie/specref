@@ -72003,7 +72003,8 @@
         "rawDate": "2007-01",
         "status": "Best Current Practice",
         "updatedBy": [
-            "RFC6888"
+            "RFC6888",
+            "RFC7857"
         ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -81010,6 +81011,9 @@
         ],
         "rawDate": "2008-10",
         "status": "Best Current Practice",
+        "updatedBy": [
+            "RFC7857"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -82902,6 +82906,9 @@
         ],
         "rawDate": "2009-04",
         "status": "Best Current Practice",
+        "updatedBy": [
+            "RFC7857"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -117997,6 +118004,27 @@
     },
     "rfc785": {
         "aliasOf": "rfc0785"
+    },
+    "rfc7857": {
+        "rfcNumber": "RFC7857",
+        "href": "https://tools.ietf.org/html/rfc7857",
+        "title": "Updates to Network Address Translation (NAT) Behavioral Requirements",
+        "authors": [
+            "R. Penno",
+            "S. Perreault",
+            "M. Boucadair, Ed.",
+            "S. Sivakumar",
+            "K. Naito"
+        ],
+        "rawDate": "2016-04",
+        "status": "Best Current Practice",
+        "updates": [
+            "RFC4787",
+            "RFC5382",
+            "RFC5508"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc786": {
         "aliasOf": "rfc0786"
