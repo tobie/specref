@@ -80245,6 +80245,9 @@
         ],
         "rawDate": "2008-09",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC7845"
+        ],
         "obsoletes": [
             "RFC3534"
         ],
@@ -115090,6 +115093,9 @@
         ],
         "rawDate": "2015-10",
         "status": "Proposed Standard",
+        "obsoletedBy": [
+            "RFC7860"
+        ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=7630",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -117866,6 +117872,20 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc7819": {
+        "rfcNumber": "RFC7819",
+        "href": "https://tools.ietf.org/html/rfc7819",
+        "title": "Privacy Considerations for DHCP",
+        "authors": [
+            "S. Jiang",
+            "S. Krishnan",
+            "T. Mrugalski"
+        ],
+        "rawDate": "2016-04",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc782": {
         "aliasOf": "rfc0782"
     },
@@ -117955,6 +117975,35 @@
     "rfc783": {
         "aliasOf": "rfc0783"
     },
+    "rfc7834": {
+        "rfcNumber": "RFC7834",
+        "href": "https://tools.ietf.org/html/rfc7834",
+        "title": "Locator/ID Separation Protocol (LISP) Impact",
+        "authors": [
+            "D. Saucez",
+            "L. Iannone",
+            "A. Cabellos",
+            "F. Coras"
+        ],
+        "rawDate": "2016-04",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7835": {
+        "rfcNumber": "RFC7835",
+        "href": "https://tools.ietf.org/html/rfc7835",
+        "title": "Locator/ID Separation Protocol (LISP) Threat Analysis",
+        "authors": [
+            "D. Saucez",
+            "L. Iannone",
+            "O. Bonaventure"
+        ],
+        "rawDate": "2016-04",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc7836": {
         "rfcNumber": "RFC7836",
         "href": "https://tools.ietf.org/html/rfc7836",
@@ -118002,8 +118051,37 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc7845": {
+        "rfcNumber": "RFC7845",
+        "href": "https://tools.ietf.org/html/rfc7845",
+        "title": "Ogg Encapsulation for the Opus Audio Codec",
+        "authors": [
+            "T. Terriberry",
+            "R. Lee",
+            "R. Giles"
+        ],
+        "rawDate": "2016-04",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC5334"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc785": {
         "aliasOf": "rfc0785"
+    },
+    "rfc7850": {
+        "rfcNumber": "RFC7850",
+        "href": "https://tools.ietf.org/html/rfc7850",
+        "title": "Registering Values of the SDP 'proto' Field for Transporting RTP Media over TCP under Various RTP Profiles",
+        "authors": [
+            "S. Nandakumar"
+        ],
+        "rawDate": "2016-04",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc7857": {
         "rfcNumber": "RFC7857",
@@ -118028,6 +118106,22 @@
     },
     "rfc786": {
         "aliasOf": "rfc0786"
+    },
+    "rfc7860": {
+        "rfcNumber": "RFC7860",
+        "href": "https://tools.ietf.org/html/rfc7860",
+        "title": "HMAC-SHA-2 Authentication Protocols in User-Based Security Model (USM) for SNMPv3",
+        "authors": [
+            "J. Merkle, Ed.",
+            "M. Lochter"
+        ],
+        "rawDate": "2016-04",
+        "status": "Proposed Standard",
+        "obsoletes": [
+            "RFC7630"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc787": {
         "aliasOf": "rfc0787"
