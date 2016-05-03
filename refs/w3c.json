@@ -21209,6 +21209,39 @@
             }
         }
     },
+    "dpub-accessibility": {
+        "authors": [
+            "Deborah Kaplan",
+            "Charles LaPierre"
+        ],
+        "href": "http://www.w3.org/TR/dpub-accessibility/",
+        "title": "Digital Publishing and Accessibility in W3C Documents",
+        "rawDate": "2016-05-03",
+        "status": "NOTE",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/dpub-accessibility/",
+        "deliveredBy": [
+            "http://www.w3.org/dpub/IG/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20160503": {
+                "authors": [
+                    "Deborah Kaplan",
+                    "Charles LaPierre"
+                ],
+                "href": "http://www.w3.org/TR/2016/NOTE-dpub-accessibility-20160503/",
+                "title": "Digital Publishing and Accessibility in W3C Documents",
+                "rawDate": "2016-05-03",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/dpub/IG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
     "dpub-annotation-uc": {
         "authors": [
             "Robert Sanderson"
@@ -27657,7 +27690,7 @@
         ],
         "href": "http://www.w3.org/TR/html51/",
         "title": "HTML 5.1",
-        "rawDate": "2016-04-12",
+        "rawDate": "2016-05-03",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -28220,6 +28253,23 @@
                 "href": "http://www.w3.org/TR/2016/WD-html51-20160412/",
                 "title": "HTML 5.1",
                 "rawDate": "2016-04-12",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/WebPlatform/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20160503": {
+                "authors": [
+                    "Steve Faulkner",
+                    "Arron Eicholz",
+                    "Travis Leithead",
+                    "Alex Danilo"
+                ],
+                "href": "http://www.w3.org/TR/2016/WD-html51-20160503/",
+                "title": "HTML 5.1",
+                "rawDate": "2016-05-03",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -31175,9 +31225,27 @@
                     "http://www.w3.org/html/wg/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20160503": {
+                "authors": [
+                    "Matthew Wolenetz",
+                    "Jerry Smith",
+                    "Mark Watson",
+                    "Aaron Colwell",
+                    "Adrian Bateman"
+                ],
+                "href": "http://www.w3.org/TR/2016/CR-media-source-20160503/",
+                "title": "Media Source Extensions",
+                "rawDate": "2016-05-03",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/html/wg/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2015-11-12",
+        "rawDate": "2016-05-03",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
         "edDraft": "https://w3c.github.io/media-source/"
     },
@@ -51428,7 +51496,7 @@
     },
     "unicode-xml": {
         "authors": [
-            "Richard Ishida"
+            "Martin Dürst"
         ],
         "href": "http://www.w3.org/TR/unicode-xml/",
         "title": "Unicode in XML and other Markup Languages",
@@ -51469,10 +51537,25 @@
                     "http://www.w3.org/International/core/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20160503": {
+                "authors": [
+                    "Martin Dürst"
+                ],
+                "href": "http://www.w3.org/TR/2016/NOTE-unicode-xml-20160503/",
+                "title": "Unicode in XML and other Markup Languages",
+                "rawDate": "2016-05-03",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/International/core/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2013-01-24",
-        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+        "rawDate": "2016-05-03",
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "edDraft": "https://w3c.github.io/unicode-xml/"
     },
     "upgrade-insecure-requests": {
         "authors": [
