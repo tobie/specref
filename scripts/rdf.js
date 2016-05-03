@@ -310,5 +310,5 @@ function _cloneJSON(obj) {
 }
 
 function isGeneratedByThisScript(ref) {
-    return ref.source == "https://www.w3.org/2002/01/tr-automation/tr.rdf" || "http://www.w3.org/2002/01/tr-automation/tr.rdf" || ref.source == RDF_FILE;
+    return ref.source == "https://www.w3.org/2002/01/tr-automation/tr.rdf" || ref.source == "http://www.w3.org/2002/01/tr-automation/tr.rdf" || ref.source == RDF_FILE;
 }
