@@ -78416,7 +78416,8 @@
         "rawDate": "2008-08",
         "status": "Proposed Standard",
         "updatedBy": [
-            "RFC6543"
+            "RFC6543",
+            "RFC7864"
         ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=5213",
         "publisher": "IETF",
@@ -90072,6 +90073,9 @@
         ],
         "rawDate": "2010-09",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC7840"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -103583,6 +103587,9 @@
         ],
         "rawDate": "2013-03",
         "status": "Best Current Practice",
+        "updatedBy": [
+            "RFC7840"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -117804,6 +117811,22 @@
     "rfc781": {
         "aliasOf": "rfc0781"
     },
+    "rfc7810": {
+        "rfcNumber": "RFC7810",
+        "href": "https://tools.ietf.org/html/rfc7810",
+        "title": "IS-IS Traffic Engineering (TE) Metric Extensions",
+        "authors": [
+            "S. Previdi, Ed.",
+            "S. Giacalone",
+            "D. Ward",
+            "J. Drake",
+            "Q. Wu"
+        ],
+        "rawDate": "2016-05",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc7814": {
         "rfcNumber": "RFC7814",
         "href": "https://tools.ietf.org/html/rfc7814",
@@ -117932,6 +117955,21 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc7823": {
+        "rfcNumber": "RFC7823",
+        "href": "https://tools.ietf.org/html/rfc7823",
+        "title": "Performance-Based Path Selection for Explicitly Routed Label Switched Paths (LSPs) Using TE Metric Extensions",
+        "authors": [
+            "A. Atlas",
+            "J. Drake",
+            "S. Giacalone",
+            "S. Previdi"
+        ],
+        "rawDate": "2016-05",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc7827": {
         "rfcNumber": "RFC7827",
         "href": "https://tools.ietf.org/html/rfc7827",
@@ -118042,6 +118080,24 @@
     "rfc784": {
         "aliasOf": "rfc0784"
     },
+    "rfc7840": {
+        "rfcNumber": "RFC7840",
+        "href": "https://tools.ietf.org/html/rfc7840",
+        "title": "A Routing Request Extension for the HTTP-Enabled Location Delivery (HELD) Protocol",
+        "authors": [
+            "J. Winterbottom",
+            "H. Tschofenig",
+            "L. Liess"
+        ],
+        "rawDate": "2016-05",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC5985",
+            "RFC6881"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc7842": {
         "rfcNumber": "RFC7842",
         "href": "https://tools.ietf.org/html/rfc7842",
@@ -118071,6 +118127,19 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc7847": {
+        "rfcNumber": "RFC7847",
+        "href": "https://tools.ietf.org/html/rfc7847",
+        "title": "Logical-Interface Support for IP Hosts with Multi-Access Support",
+        "authors": [
+            "T. Melia, Ed.",
+            "S. Gundavelli, Ed."
+        ],
+        "rawDate": "2016-05",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc785": {
         "aliasOf": "rfc0785"
     },
@@ -118082,6 +118151,22 @@
             "S. Nandakumar"
         ],
         "rawDate": "2016-04",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7851": {
+        "rfcNumber": "RFC7851",
+        "href": "https://tools.ietf.org/html/rfc7851",
+        "title": "Peer-to-Peer (P2P) Overlay Diagnostics",
+        "authors": [
+            "H. Song",
+            "X. Jiang",
+            "R. Even",
+            "D. Bryan",
+            "Y. Sun"
+        ],
+        "rawDate": "2016-05",
         "status": "Proposed Standard",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -118122,6 +118207,21 @@
         "status": "Proposed Standard",
         "obsoletes": [
             "RFC7630"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7864": {
+        "rfcNumber": "RFC7864",
+        "href": "https://tools.ietf.org/html/rfc7864",
+        "title": "Proxy Mobile IPv6 Extensions to Support Flow Mobility",
+        "authors": [
+            "CJ. Bernardos, Ed."
+        ],
+        "rawDate": "2016-05",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC5213"
         ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
