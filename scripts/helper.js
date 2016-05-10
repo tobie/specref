@@ -1,5 +1,6 @@
 var request = require('request');
-var TR_URL = "http://www.w3.org/TR/";
+var TR_URL = "https://www.w3.org/TR/";
+var TR_URL_HTTP = "http://www.w3.org/TR/";
 
 exports.getURL = getURL;
 function getURL(shortName, options, cb) {
@@ -26,7 +27,7 @@ exports.parseURL = parseURL;
 function parseURL(url) {
     var output = null;
     url = url || '';
-    if (url.indexOf(TR_URL) === 0 && url != "http://www.w3.org/TR/1999/WAI-WEBCONTENT-19990505") {
+    if (((url.indexOf(TR_URL) === 0) && (url != "https://www.w3.org/TR/1999/WAI-WEBCONTENT-19990505")) || ((url.indexOf(TR_URL_HTTP) === 0) && (url != "http://www.w3.org/TR/1999/WAI-WEBCONTENT-19990505"))) {
         var items = url.replace(TR_URL, "").split("/");
         if (/^\d{4}$/.test(items[0])) {
             output = {};

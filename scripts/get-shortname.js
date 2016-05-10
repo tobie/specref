@@ -6,7 +6,13 @@ var SPECIAL_CASES = {
     'http://www.w3.org/1999/05/WCA-terms/': "WCA-terms",
     'http://www.w3.org/TR/1998/WD-HTTP-NG-goals': "HTTP-NG-goals",
     'http://www.w3.org/TR/REC-html32': "HTML32",
-    'http://www.w3.org/TR/2001/WD-xhtml1-20011004/': 'xhtml1'
+    'http://www.w3.org/TR/2001/WD-xhtml1-20011004/': 'xhtml1',
+    'https://www.w3.org/Search/9605-Indexing-Workshop/ReportOutcomes/S6Group2': "S6Group2",
+    'https://www.w3.org/TR/1998/NOTE-P3P10-Protocols': "P3P10-Protocols",
+    'https://www.w3.org/1999/05/WCA-terms/': "WCA-terms",
+    'https://www.w3.org/TR/1998/WD-HTTP-NG-goals': "HTTP-NG-goals",
+    'https://www.w3.org/TR/REC-html32': "HTML32",
+    'https://www.w3.org/TR/2001/WD-xhtml1-20011004/': 'xhtml1'
 };
 
 var SHORT_NAME_SPECIAL_CASES = {
@@ -107,7 +113,7 @@ var SHORT_NAME_SPECIAL_CASES = {
     "WD-session-id": "session-id",
     "WD-sgml-lex": "sgml-lex",
     "WD-wwwicn": "wwwicn"
-}
+};
 
 function getShortName(url) {
     if (SPECIAL_CASES[url]) return SPECIAL_CASES[url];
