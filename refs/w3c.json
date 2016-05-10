@@ -6018,8 +6018,8 @@
         ],
         "href": "http://www.w3.org/TR/SRI/",
         "title": "Subresource Integrity",
-        "rawDate": "2015-11-12",
-        "status": "CR",
+        "rawDate": "2016-05-10",
+        "status": "PR",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2011/webappsec/"
@@ -6124,6 +6124,23 @@
                 "title": "Subresource Integrity",
                 "rawDate": "2015-11-12",
                 "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2011/webappsec/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20160510": {
+                "authors": [
+                    "Devdatta Akhawe",
+                    "Frederik Braun",
+                    "Francois Marier",
+                    "Joel Weinberger"
+                ],
+                "href": "http://www.w3.org/TR/2016/PR-SRI-20160510/",
+                "title": "Subresource Integrity",
+                "rawDate": "2016-05-10",
+                "status": "PR",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/2011/webappsec/"
@@ -16606,6 +16623,54 @@
         },
         "edDraft": "http://dev.w3.org/csswg/css-shapes/"
     },
+    "css-sizing-3": {
+        "authors": [
+            "Tab Atkins Jr.",
+            "Elika Etemad"
+        ],
+        "href": "http://www.w3.org/TR/css-sizing-3/",
+        "title": "CSS Intrinsic & Extrinsic Sizing Module Level 3",
+        "rawDate": "2016-05-10",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://drafts.csswg.org/css-sizing/",
+        "deliveredBy": [
+            "http://www.w3.org/Style/CSS/members"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20120927": {
+                "authors": [
+                    "Tab Atkins Jr.",
+                    "Elika Etemad"
+                ],
+                "href": "http://www.w3.org/TR/2012/WD-css3-sizing-20120927/",
+                "title": "CSS Intrinsic & Extrinsic Sizing Module Level 3",
+                "rawDate": "2012-09-27",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Style/CSS/members"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20160510": {
+                "authors": [
+                    "Tab Atkins Jr.",
+                    "Elika Etemad"
+                ],
+                "href": "http://www.w3.org/TR/2016/WD-css-sizing-3-20160510/",
+                "title": "CSS Intrinsic & Extrinsic Sizing Module Level 3",
+                "rawDate": "2016-05-10",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Style/CSS/members"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
     "css-snappoints-1": {
         "authors": [
             "Matt Rakow",
@@ -19166,36 +19231,7 @@
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
     "css3-sizing": {
-        "authors": [
-            "Tab Atkins Jr.",
-            "Elika Etemad"
-        ],
-        "href": "http://www.w3.org/TR/css3-sizing/",
-        "title": "CSS Intrinsic & Extrinsic Sizing Module Level 3",
-        "rawDate": "2012-09-27",
-        "status": "WD",
-        "publisher": "W3C",
-        "deliveredBy": [
-            "http://www.w3.org/Style/CSS/members"
-        ],
-        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
-        "versions": {
-            "20120927": {
-                "authors": [
-                    "Tab Atkins Jr.",
-                    "Elika Etemad"
-                ],
-                "href": "http://www.w3.org/TR/2012/WD-css3-sizing-20120927/",
-                "title": "CSS Intrinsic & Extrinsic Sizing Module Level 3",
-                "rawDate": "2012-09-27",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "http://www.w3.org/Style/CSS/members"
-                ],
-                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
-            }
-        }
+        "aliasOf": "css-sizing-3"
     },
     "css3-speech": {
         "authors": [
@@ -21721,6 +21757,255 @@
         },
         "rawDate": "2009-05-12",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+    },
+    "eme-initdata-cenc": {
+        "authors": [
+            "David Dorwin",
+            "Adrian Bateman",
+            "Mark Watson",
+            "Jerry Smith"
+        ],
+        "href": "http://www.w3.org/TR/eme-initdata-cenc/",
+        "title": "\"cenc\" Initialization Data Format",
+        "rawDate": "2016-05-10",
+        "status": "NOTE",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/encrypted-media/format-registry/initdata/cenc.html",
+        "deliveredBy": [
+            "http://www.w3.org/html/wg/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20160510": {
+                "authors": [
+                    "David Dorwin",
+                    "Adrian Bateman",
+                    "Mark Watson",
+                    "Jerry Smith"
+                ],
+                "href": "http://www.w3.org/TR/2016/NOTE-eme-initdata-cenc-20160510/",
+                "title": "\"cenc\" Initialization Data Format",
+                "rawDate": "2016-05-10",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/html/wg/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
+    "eme-initdata-keyids": {
+        "authors": [
+            "David Dorwin",
+            "Adrian Bateman",
+            "Mark Watson"
+        ],
+        "href": "http://www.w3.org/TR/eme-initdata-keyids/",
+        "title": "\"keyids\" Initialization Data Format",
+        "rawDate": "2016-05-10",
+        "status": "NOTE",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/encrypted-media/format-registry/initdata/keyids.html",
+        "deliveredBy": [
+            "http://www.w3.org/html/wg/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20160510": {
+                "authors": [
+                    "David Dorwin",
+                    "Adrian Bateman",
+                    "Mark Watson"
+                ],
+                "href": "http://www.w3.org/TR/2016/NOTE-eme-initdata-keyids-20160510/",
+                "title": "\"keyids\" Initialization Data Format",
+                "rawDate": "2016-05-10",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/html/wg/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
+    "eme-initdata-registry": {
+        "authors": [
+            "David Dorwin",
+            "Adrian Bateman",
+            "Mark Watson"
+        ],
+        "href": "http://www.w3.org/TR/eme-initdata-registry/",
+        "title": "Encrypted Media Extensions Initialization Data Format Registry",
+        "rawDate": "2016-05-10",
+        "status": "NOTE",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/encrypted-media/format-registry/initdata/",
+        "deliveredBy": [
+            "http://www.w3.org/html/wg/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20160510": {
+                "authors": [
+                    "David Dorwin",
+                    "Adrian Bateman",
+                    "Mark Watson"
+                ],
+                "href": "http://www.w3.org/TR/2016/NOTE-eme-initdata-registry-20160510/",
+                "title": "Encrypted Media Extensions Initialization Data Format Registry",
+                "rawDate": "2016-05-10",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/html/wg/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
+    "eme-initdata-webm": {
+        "authors": [
+            "David Dorwin",
+            "Adrian Bateman",
+            "Mark Watson"
+        ],
+        "href": "http://www.w3.org/TR/eme-initdata-webm/",
+        "title": "\"webm\" Initialization Data Format",
+        "rawDate": "2016-05-10",
+        "status": "NOTE",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/encrypted-media/format-registry/initdata/webm.html",
+        "deliveredBy": [
+            "http://www.w3.org/html/wg/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20160510": {
+                "authors": [
+                    "David Dorwin",
+                    "Adrian Bateman",
+                    "Mark Watson"
+                ],
+                "href": "http://www.w3.org/TR/2016/NOTE-eme-initdata-webm-20160510/",
+                "title": "\"webm\" Initialization Data Format",
+                "rawDate": "2016-05-10",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/html/wg/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
+    "eme-stream-mp4": {
+        "authors": [
+            "David Dorwin",
+            "Adrian Bateman",
+            "Mark Watson",
+            "Jerry Smith"
+        ],
+        "href": "http://www.w3.org/TR/eme-stream-mp4/",
+        "title": "ISO Common Encryption ('cenc') Protection Scheme for ISO Base Media File Format Stream Format",
+        "rawDate": "2016-05-10",
+        "status": "NOTE",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/encrypted-media/format-registry/stream/mp4.html",
+        "deliveredBy": [
+            "http://www.w3.org/html/wg/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20160510": {
+                "authors": [
+                    "David Dorwin",
+                    "Adrian Bateman",
+                    "Mark Watson",
+                    "Jerry Smith"
+                ],
+                "href": "http://www.w3.org/TR/2016/NOTE-eme-stream-mp4-20160510/",
+                "title": "ISO Common Encryption ('cenc') Protection Scheme for ISO Base Media File Format Stream Format",
+                "rawDate": "2016-05-10",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/html/wg/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
+    "eme-stream-registry": {
+        "authors": [
+            "David Dorwin",
+            "Adrian Bateman",
+            "Mark Watson"
+        ],
+        "href": "http://www.w3.org/TR/eme-stream-registry/",
+        "title": "Encrypted Media Extensions Stream Format Registry",
+        "rawDate": "2016-05-10",
+        "status": "NOTE",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/encrypted-media/format-registry/stream/",
+        "deliveredBy": [
+            "http://www.w3.org/html/wg/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20160510": {
+                "authors": [
+                    "David Dorwin",
+                    "Adrian Bateman",
+                    "Mark Watson"
+                ],
+                "href": "http://www.w3.org/TR/2016/NOTE-eme-stream-registry-20160510/",
+                "title": "Encrypted Media Extensions Stream Format Registry",
+                "rawDate": "2016-05-10",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/html/wg/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
+    "eme-stream-webm": {
+        "authors": [
+            "David Dorwin",
+            "Adrian Bateman",
+            "Mark Watson"
+        ],
+        "href": "http://www.w3.org/TR/eme-stream-webm/",
+        "title": "WebM Stream Format",
+        "rawDate": "2016-05-10",
+        "status": "NOTE",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/encrypted-media/format-registry/stream/webm.html",
+        "deliveredBy": [
+            "http://www.w3.org/html/wg/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20160510": {
+                "authors": [
+                    "David Dorwin",
+                    "Adrian Bateman",
+                    "Mark Watson"
+                ],
+                "href": "http://www.w3.org/TR/2016/NOTE-eme-stream-webm-20160510/",
+                "title": "WebM Stream Format",
+                "rawDate": "2016-05-10",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/html/wg/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
     },
     "emma": {
         "authors": [
@@ -50790,6 +51075,39 @@
             }
         },
         "edDraft": "https://rawgit.com/w3c/imsc1/master/spec/ttml-ww-profiles.html"
+    },
+    "ttml-profile-registry": {
+        "authors": [
+            "Mike Dolan",
+            "Andreas Tai"
+        ],
+        "href": "http://www.w3.org/TR/ttml-profile-registry/",
+        "title": "TTML Media Type Definition and Profile Registry",
+        "rawDate": "2016-05-10",
+        "status": "NOTE",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/tt-profile-registry/",
+        "deliveredBy": [
+            "http://www.w3.org/AudioVideo/TT/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20160510": {
+                "authors": [
+                    "Mike Dolan",
+                    "Andreas Tai"
+                ],
+                "href": "http://www.w3.org/TR/2016/NOTE-ttml-profile-registry-20160510/",
+                "title": "TTML Media Type Definition and Profile Registry",
+                "rawDate": "2016-05-10",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/AudioVideo/TT/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
     },
     "ttml1": {
         "authors": [
