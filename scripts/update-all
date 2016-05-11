@@ -41,7 +41,8 @@ function run()
     node "./scripts/rfc.js" &&
     node "./scripts/rdf.js" &&
     node "./scripts/csswg.js" &&
-    node "./scripts/whatwg.js";
+    node "./scripts/whatwg.js" &&
+    node "./scripts/wicg.js";
 }
 
 function run_test_suite()
