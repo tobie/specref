@@ -1,4 +1,9 @@
+var fs = require('fs');
+var path = require('path');
 var request = require('request');
+
+var DIR_PATH = path.join(__dirname, "..", "refs");
+var DEFAULT_FILE = "biblio.json";
 var TR_URL = "http://www.w3.org/TR/";
 
 exports.getURL = getURL;
@@ -37,4 +42,33 @@ function parseURL(url) {
         }
     }
     return output;
+}
+
+exports.readBiblio = readBiblio;
+function readBiblio(f) {
+    var filepath = path.join(DIR_PATH, f || DEFAULT_FILE);
+    console.log("Loadind and parsing " + filepath + "...");
+    var input = fs.readFileSync(filepath, 'utf8');
+    return JSON.parse(input);
+}
+
+exports.sortRefs = sortRefs;
+function sortRefs(input) {
+    console.log("Sorting references...");
+    var output = {};
+    Object.keys(input).sort().forEach(function(k) {
+        output[k] = input[k];
+    });
+    return output;
+}
+
+exports.writeBiblio = writeBiblio;
+function writeBiblio(f, obj) {
+    if (!obj) {
+        obj = f;
+        f = DEFAULT_FILE;
+    }
+    var filepath = path.join(DIR_PATH, f);
+    console.log("Writing output to " + filepath + "...");
+    fs.writeFileSync(filepath, JSON.stringify(obj, null, 4) + "\n", 'utf8');
 }

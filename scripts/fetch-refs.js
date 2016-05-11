@@ -1,16 +1,22 @@
 #!/usr/bin/env node
 var request = require('request'),
-    userAgent =require("./user-agent"),
-    runner = require('./run'),
+    userAgent = require("./user-agent"),
+    helper = require('./helper'),
     bibref = require('../lib/bibref');
 
-var SOURCE = "https://resources.whatwg.org/biblio.json";
-var FILENAME = "whatwg.json";
+if (process.argv.length != 5) {
+  console.log("Usage: fetch-refs.js URL PUBLISHER OUTPUT_FILENAME");
+  process.exit(1);
+}
 
-var biblio = runner.readBiblio();
-var current = runner.readBiblio(FILENAME);
+var SOURCE = process.argv[2];
+var PUBLISHER = process.argv[3];
+var FILENAME = process.argv[4];
+
+var biblio = helper.readBiblio();
+var current = helper.readBiblio(FILENAME);
 var refs = bibref.createUppercaseRefs(bibref.expandRefs(bibref.raw));
-console.log("Updating WHATWG references...");
+console.log("Updating WICG references...");
 console.log("Fetching", SOURCE + "...");
 request({
     url: SOURCE,
@@ -22,7 +28,7 @@ request({
         console.log("Can't fetch", SOURCE + ".");
         return;
     }
-    
+
     console.log("Parsing", SOURCE + "...");
     var json = JSON.parse(body);
     Object.keys(json).forEach(function(id) {
@@ -32,12 +38,12 @@ request({
             href: ref.href,
             title: ref.title,
             obsoletedBy: ref.obsoletedBy,
-            publisher: "WHATWG",
+            publisher: PUBLISHER,
             status: "Living Standard",
             source: SOURCE
         };
         var uppercaseId = id.toUpperCase();
-        var prefixedId = "WHATWG-" + id;
+        var prefixedId = PUBLISHER + "-" + id;
         if (!(uppercaseId in refs)) {
             current[id] = ref;
             current[prefixedId] = { aliasOf: id };
@@ -61,8 +67,8 @@ request({
             delete biblio[rv.id];
         }
     });
-    current = runner.sortRefs(current);
+    current = helper.sortRefs(current);
     console.log("updating existing refs.")
-    runner.writeBiblio(FILENAME, current);
-    runner.writeBiblio(biblio);
+    helper.writeBiblio(FILENAME, current);
+    helper.writeBiblio(biblio);
 });
