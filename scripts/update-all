@@ -42,9 +42,9 @@ function run()
     node "./scripts/rdf.js" &&
     node "./scripts/csswg.js" &&
     node "./scripts/fetch-refs.js" "https://resources.whatwg.org/biblio.json" \
-        "WHATWG" "whatwg.json" &&
+        "WHATWG" &&
     node "./scripts/fetch-refs.js" "https://wicg.github.io/admin/biblio.json" \
-        "WICG" "wicg.json";
+        "WICG";
 }
 
 function run_test_suite()

@@ -4,14 +4,14 @@ var request = require('request'),
     helper = require('./helper'),
     bibref = require('../lib/bibref');
 
-if (process.argv.length != 5) {
-  console.log("Usage: fetch-refs.js URL PUBLISHER OUTPUT_FILENAME");
+if (process.argv.length != 4) {
+  console.log("Usage: fetch-refs.js [url] [publisher]");
   process.exit(1);
 }
 
 var SOURCE = process.argv[2];
 var PUBLISHER = process.argv[3];
-var FILENAME = process.argv[4];
+var FILENAME = PUBLISHER.toLowerCase() + ".json";
 
 var biblio = helper.readBiblio();
 var current = helper.readBiblio(FILENAME);
