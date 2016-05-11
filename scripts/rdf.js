@@ -3,12 +3,12 @@ var request = require('request'),
     userAgent =require("./user-agent"),
     xml2js = require('xml2js'),
     bibref = require('../lib/bibref'),
-    runner = require('./run'),
+    helper = require('./helper'),
     getShortName = require('./get-shortname');
-    
+
 var RDF_FILE = "https://www.w3.org/2002/01/tr-automation/tr.rdf";
 var FILENAME = "w3c.json";
-var current = runner.readBiblio(FILENAME);
+var current = helper.readBiblio(FILENAME);
 
 var STATUSES = {
     'NOTE': 'NOTE',
@@ -259,7 +259,7 @@ request({
                 if (latest.isSuperseded) ref.isSuperseded = latest.isSuperseded;
             }
         });
-        runner.writeBiblio(FILENAME, sorted);
+        helper.writeBiblio(FILENAME, sorted);
     });
 });
 

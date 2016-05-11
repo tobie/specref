@@ -2,10 +2,10 @@
 var request = require('request'),
     userAgent =require("./user-agent"),
     bibref = require('../lib/bibref'),
-    runner = require('./run');
-    
+    helper = require('./helper');
+
 var FILENAME = "csswg.json";
-var current = runner.readBiblio(FILENAME);
+var current = helper.readBiblio(FILENAME);
 
 var refs = bibref.expandRefs(bibref.raw);
 
@@ -76,9 +76,9 @@ request({
         }
         delete o.id;
     });
-    current = runner.sortRefs(current);
+    current = helper.sortRefs(current);
     console.log("updating existing refs.")
-    runner.writeBiblio(FILENAME, current);
+    helper.writeBiblio(FILENAME, current);
 });
 
 var MONTHS = [

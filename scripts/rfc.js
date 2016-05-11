@@ -1,13 +1,13 @@
 #!/usr/bin/env node
 var request = require('request'),
     userAgent =require("./user-agent"),
-    runner = require('./run'),
+    helper = require('./helper'),
     xml2js = require('xml2js');
 
 var RFC_URL = "http://www.ietf.org/rfc/rfc-index.xml";
 var FILE = "ietf.json";
 
-var current = runner.readBiblio(FILE);
+var current = helper.readBiblio(FILE);
 
 var parser = new xml2js.Parser();
 console.log("Updating IETF references...");
@@ -34,9 +34,9 @@ request({
             }
         });
     });
-    current = runner.sortRefs(current);
+    current = helper.sortRefs(current);
     console.log("updating existing refs.")
-    runner.writeBiblio(FILE, current);
+    helper.writeBiblio(FILE, current);
 });
 
 function href(index) {
