@@ -16,7 +16,7 @@ var FILENAME = PUBLISHER.toLowerCase() + ".json";
 var biblio = helper.readBiblio();
 var current = helper.readBiblio(FILENAME);
 var refs = bibref.createUppercaseRefs(bibref.expandRefs(bibref.raw));
-console.log("Updating WICG references...");
+console.log("Updating", PUBLISHER, "references...");
 console.log("Fetching", SOURCE + "...");
 request({
     url: SOURCE,
