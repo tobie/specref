@@ -2960,11 +2960,11 @@
         ],
         "href": "http://www.w3.org/TR/DOM-Parsing/",
         "title": "DOM Parsing and Serialization",
-        "rawDate": "2014-06-17",
-        "status": "CR",
+        "rawDate": "2016-05-17",
+        "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
-            "http://www.w3.org/2008/webapps/"
+            "http://www.w3.org/WebPlatform/WG/"
         ],
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
         "versions": {
@@ -3024,9 +3024,23 @@
                     "http://www.w3.org/2008/webapps/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20160517": {
+                "authors": [
+                    "Travis Leithead"
+                ],
+                "href": "http://www.w3.org/TR/2016/WD-DOM-Parsing-20160517/",
+                "title": "DOM Parsing and Serialization",
+                "rawDate": "2016-05-17",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/WebPlatform/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "https://dvcs.w3.org/hg/innerhtml/raw-file/tip/index.html"
+        "edDraft": "https://w3c.github.io/DOM-Parsing/"
     },
     "DOM-Requirements": {
         "authors": [
@@ -16192,6 +16206,68 @@
             }
         }
     },
+    "css-position-3": {
+        "authors": [
+            "Rossen Atanassov",
+            "Arron Eicholz"
+        ],
+        "href": "http://www.w3.org/TR/css-position-3/",
+        "title": "CSS Positioned Layout Module Level 3",
+        "rawDate": "2016-05-17",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://drafts.csswg.org/css-position/",
+        "deliveredBy": [
+            "http://www.w3.org/Style/CSS/members"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20120207": {
+                "authors": [
+                    "Arron Eicholz"
+                ],
+                "href": "http://www.w3.org/TR/2012/WD-css3-positioning-20120207/",
+                "title": "CSS Positioned Layout Module Level 3",
+                "rawDate": "2012-02-07",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Style/CSS/members"
+                ],
+                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150203": {
+                "authors": [
+                    "Rossen Atanassov",
+                    "Arron Eicholz"
+                ],
+                "href": "http://www.w3.org/TR/2015/WD-css3-positioning-20150203/",
+                "title": "CSS Positioned Layout Module Level 3",
+                "rawDate": "2015-02-03",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Style/CSS/members"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20160517": {
+                "authors": [
+                    "Rossen Atanassov",
+                    "Arron Eicholz"
+                ],
+                "href": "http://www.w3.org/TR/2016/WD-css-position-3-20160517/",
+                "title": "CSS Positioned Layout Module Level 3",
+                "rawDate": "2016-05-17",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Style/CSS/members"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
     "css-print": {
         "authors": [
             "Elika Etemad",
@@ -18952,51 +19028,7 @@
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
     "css3-positioning": {
-        "authors": [
-            "Rossen Atanassov",
-            "Arron Eicholz"
-        ],
-        "href": "http://www.w3.org/TR/css3-positioning/",
-        "title": "CSS Positioned Layout Module Level 3",
-        "rawDate": "2015-02-03",
-        "status": "WD",
-        "publisher": "W3C",
-        "deliveredBy": [
-            "http://www.w3.org/Style/CSS/members"
-        ],
-        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
-        "versions": {
-            "20120207": {
-                "authors": [
-                    "Arron Eicholz"
-                ],
-                "href": "http://www.w3.org/TR/2012/WD-css3-positioning-20120207/",
-                "title": "CSS Positioned Layout Module Level 3",
-                "rawDate": "2012-02-07",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "http://www.w3.org/Style/CSS/members"
-                ],
-                "source": "http://www.w3.org/2002/01/tr-automation/tr.rdf"
-            },
-            "20150203": {
-                "authors": [
-                    "Rossen Atanassov",
-                    "Arron Eicholz"
-                ],
-                "href": "http://www.w3.org/TR/2015/WD-css3-positioning-20150203/",
-                "title": "CSS Positioned Layout Module Level 3",
-                "rawDate": "2015-02-03",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "http://www.w3.org/Style/CSS/members"
-                ],
-                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
-            }
-        },
-        "edDraft": "http://dev.w3.org/csswg/css-position/"
+        "aliasOf": "css-position-3"
     },
     "css3-preslev": {
         "authors": [
