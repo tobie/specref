@@ -42437,11 +42437,12 @@
     },
     "requestidlecallback": {
         "authors": [
-            "Ross McIlroy"
+            "Ross McIlroy",
+            "Ilya Grigorik"
         ],
         "href": "http://www.w3.org/TR/requestidlecallback/",
         "title": "Cooperative Scheduling of Background Tasks",
-        "rawDate": "2016-04-28",
+        "rawDate": "2016-05-17",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/requestidlecallback/",
@@ -42583,6 +42584,21 @@
                 "href": "http://www.w3.org/TR/2016/WD-requestidlecallback-20160428/",
                 "title": "Cooperative Scheduling of Background Tasks",
                 "rawDate": "2016-04-28",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2010/webperf/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20160517": {
+                "authors": [
+                    "Ross McIlroy",
+                    "Ilya Grigorik"
+                ],
+                "href": "http://www.w3.org/TR/2016/WD-requestidlecallback-20160517/",
+                "title": "Cooperative Scheduling of Background Tasks",
+                "rawDate": "2016-05-17",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
