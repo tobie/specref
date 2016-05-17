@@ -30042,6 +30042,9 @@
         "updatedBy": [
             "RFC4466"
         ],
+        "obsoletedBy": [
+            "RFC7888"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -88646,6 +88649,7 @@
         "obsoletes": [
             "RFC3490"
         ],
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=5890",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -117998,6 +118002,20 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc7824": {
+        "rfcNumber": "RFC7824",
+        "href": "https://tools.ietf.org/html/rfc7824",
+        "title": "Privacy Considerations for DHCPv6",
+        "authors": [
+            "S. Krishnan",
+            "T. Mrugalski",
+            "S. Jiang"
+        ],
+        "rawDate": "2016-05",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc7827": {
         "rfcNumber": "RFC7827",
         "href": "https://tools.ietf.org/html/rfc7827",
@@ -118225,6 +118243,20 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc7844": {
+        "rfcNumber": "RFC7844",
+        "href": "https://tools.ietf.org/html/rfc7844",
+        "title": "Anonymity Profiles for DHCP Clients",
+        "authors": [
+            "C. Huitema",
+            "T. Mrugalski",
+            "S. Krishnan"
+        ],
+        "rawDate": "2016-05",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc7845": {
         "rfcNumber": "RFC7845",
         "href": "https://tools.ietf.org/html/rfc7845",
@@ -118307,6 +118339,23 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc7858": {
+        "rfcNumber": "RFC7858",
+        "href": "https://tools.ietf.org/html/rfc7858",
+        "title": "Specification for DNS over Transport Layer Security (TLS)",
+        "authors": [
+            "Z. Hu",
+            "L. Zhu",
+            "J. Heidemann",
+            "A. Mankin",
+            "D. Wessels",
+            "P. Hoffman"
+        ],
+        "rawDate": "2016-05",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc786": {
         "aliasOf": "rfc0786"
     },
@@ -118346,6 +118395,34 @@
     },
     "rfc788": {
         "aliasOf": "rfc0788"
+    },
+    "rfc7888": {
+        "rfcNumber": "RFC7888",
+        "href": "https://tools.ietf.org/html/rfc7888",
+        "title": "IMAP4 Non-synchronizing Literals",
+        "authors": [
+            "A. Melnikov, Ed."
+        ],
+        "rawDate": "2016-05",
+        "status": "Proposed Standard",
+        "obsoletes": [
+            "RFC2088"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7889": {
+        "rfcNumber": "RFC7889",
+        "href": "https://tools.ietf.org/html/rfc7889",
+        "title": "The IMAP APPENDLIMIT Extension",
+        "authors": [
+            "J. SrimushnamBoovaraghamoorthy",
+            "N. Bisht"
+        ],
+        "rawDate": "2016-05",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc789": {
         "aliasOf": "rfc0789"
