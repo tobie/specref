@@ -24314,8 +24314,8 @@
         ],
         "href": "http://www.w3.org/TR/frame-timing/",
         "title": "Frame Timing",
-        "rawDate": "2016-02-25",
-        "status": "WD",
+        "rawDate": "2016-05-23",
+        "status": "NOTE",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/frame-timing/",
         "deliveredBy": [
@@ -24572,6 +24572,21 @@
                 "title": "Frame Timing",
                 "rawDate": "2016-02-25",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2010/webperf/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20160523": {
+                "authors": [
+                    "Michael Blain",
+                    "Ilya Grigorik"
+                ],
+                "href": "http://www.w3.org/TR/2016/NOTE-frame-timing-20160523/",
+                "title": "Frame Timing",
+                "rawDate": "2016-05-23",
+                "status": "NOTE",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/2010/webperf/"
@@ -40066,9 +40081,23 @@
                     "http://www.w3.org/WebPlatform/WG/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20160523": {
+                "authors": [
+                    "Kinuko Yasuda"
+                ],
+                "href": "http://www.w3.org/TR/2016/NOTE-quota-api-20160523/",
+                "title": "Quota Management API",
+                "rawDate": "2016-05-23",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/WebPlatform/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2016-05-15",
+        "rawDate": "2016-05-23",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
         "edDraft": "https://w3c.github.io/quota-api/"
     },
@@ -46294,8 +46323,8 @@
         ],
         "href": "http://www.w3.org/TR/server-timing/",
         "title": "Server Timing",
-        "rawDate": "2015-07-17",
-        "status": "WD",
+        "rawDate": "2016-05-23",
+        "status": "NOTE",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/server-timing/",
         "deliveredBy": [
@@ -46339,6 +46368,20 @@
                 "title": "Server Timing",
                 "rawDate": "2015-07-17",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2010/webperf/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20160523": {
+                "authors": [
+                    "Ilya Grigorik"
+                ],
+                "href": "http://www.w3.org/TR/2016/NOTE-server-timing-20160523/",
+                "title": "Server Timing",
+                "rawDate": "2016-05-23",
+                "status": "NOTE",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/2010/webperf/"
