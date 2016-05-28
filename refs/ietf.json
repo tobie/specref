@@ -107443,6 +107443,9 @@
         ],
         "rawDate": "2014-03",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC7892"
+        ],
         "updates": [
             "RFC4328"
         ],
@@ -118551,6 +118554,19 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc7873": {
+        "rfcNumber": "RFC7873",
+        "href": "https://tools.ietf.org/html/rfc7873",
+        "title": "Domain Name System (DNS) Cookies",
+        "authors": [
+            "D. Eastlake 3rd",
+            "M. Andrews"
+        ],
+        "rawDate": "2016-05",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc7874": {
         "rfcNumber": "RFC7874",
         "href": "https://tools.ietf.org/html/rfc7874",
@@ -118609,6 +118625,24 @@
     },
     "rfc789": {
         "aliasOf": "rfc0789"
+    },
+    "rfc7892": {
+        "rfcNumber": "RFC7892",
+        "href": "https://tools.ietf.org/html/rfc7892",
+        "title": "IANA Allocation Procedures for the GMPLS OTN Signal Type Registry",
+        "authors": [
+            "Z. Ali",
+            "A. Bonfanti",
+            "M. Hartley",
+            "F. Zhang"
+        ],
+        "rawDate": "2016-05",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC7139"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc79": {
         "aliasOf": "rfc0079"
