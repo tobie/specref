@@ -690,6 +690,21 @@
         "status": "Version 3.0 (Final Version)",
         "publisher": "DASH Industry Forum"
     },
+    "DAVIS": {
+        "authors": [
+            "D. Davis"
+        ],
+        "href": "http://www.usenix.org/publications/library/proceedings/usenix01/davis.html",
+        "title": "Defective Sign &amp; Encrypt in S/MIME, PKCS#7, MOSS, PEM, PGP, and XML",
+        "publisher": "USENIX Annual Technical Conference",
+        "date": "2001"
+    },
+    "DC-TERMS":{
+        "href": "http://dublincore.org/documents/2010/10/11/dcmi-terms/",
+        "title": "Dublin Core Metadata Initiative Terms, version 1.1",
+        "date": "11 October 2010",
+        "status": "DCMI Recommendation"
+    },
     "DC-RDF": {
         "authors": [
             "M. Nilsson"
@@ -729,6 +744,11 @@
         "date": "14 June 2012",
         "status": "DCMI Recommendation"
     },
+    "DES": {
+        "href": "http://csrc.nist.gov/publications/fips/fips46-3/fips46-3.pdf",
+        "title": "NIST FIPS 46-3: Data Encryption Standard (DES)",
+        "date": "October 1999"
+    },
     "DEVICE-ORIENTATION": {
         "aliasOf": "orientation-event"
     },
@@ -741,6 +761,16 @@
         "date": "October 1998",
         "status": "Report (draft) ISO/IEC JTC1/SG29/WG1 N1017"
     },
+    "DISCO-PROP": {
+        "authors": [
+            "Rich Tibbett",
+            "Clarke Stevens"
+        ],
+        "href": "http://people.opera.com/richt/release/specs/discovery/Overview.html",
+        "title": "Networked Service Discovery and Messaging",
+        "date": "22 September 2011",
+        "status": "Draft proposal (no official standing)"
+    },
     "DNS-SD": {
         "aliasOf": "RFC6763"
     },
@@ -749,6 +779,17 @@
     },
     "DOMEvents": {
         "aliasOf": "DOM-Level-3-Events"
+    },
+    "DOT": {
+        "href": "http://www.graphviz.org/content/dot-language",
+        "title": "The DOT Language",
+        "publisher": "Graphviz"
+    },
+    "DSS": {
+        "href": "http://csrc.nist.gov/publications/fips/fips186-3/fips_186-3.pdf",
+        "title": "FIPS PUB 186-3:  Digital Signature Standard (DSS)",
+        "date": "June 2009",
+        "publisher": "U.S. Department of Commerce/National Institute of Standards and Technology"
     },
     "DTMF": {
         "date": "1 November 1988",
@@ -805,6 +846,16 @@
         "title": "EBU TECH 3380: \"EBU-TT-D Subtitling Distribution Format\"",
         "href": "http://tech.ebu.ch/docs/tech/tech3380.pdf",
         "publisher": "European Broadcasting Union"
+    },
+    "EBXML-MSG": {
+        "authors": [
+            "Ian Jones",
+            "Brian Gibb",
+            "David Fischer"
+        ],
+        "href": "https://www.oasis-open.org/committees/download.php/272/ebMS_v2_0.pdf",
+        "title": "OASIS ebXML Message Service Specification",
+        "date": "1 April 2002"
     },
     "ECC-ALGS": {
         "aliasOf": "RFC6090"
@@ -866,6 +917,23 @@
     "ECMAScript-MIME": {
         "aliasOf": "RFC4329"
     },
+    "EDITING": {
+        "authors": [
+            "A. Gregor"
+        ],
+        "href": "https://dvcs.w3.org/hg/editing/raw-file/tip/editing.html",
+        "title": "HTML Editing APIs",
+        "publisher": "W3C"
+    },
+    "ELEMTYPO": {
+        "authors": [
+            "Robert Bringhurst"
+        ],
+        "title": "The Elements of Typographic Style, Version 3.1",
+        "publisher": "Hartley &amp; Marks",
+        "date": "2005",
+        "isbn": "0-88179-206-3"
+    },
     "EMAIL": {
         "aliasOf": "RFC5322"
     },
@@ -873,6 +941,12 @@
         "href": "http://www.idpf.org/epub/vocab/structure/",
         "title": "EPUB Structural Semantics Vocabulary",
         "publisher": "IDPF"
+    },
+    "ERICSSON-WDC": {
+        "href": "https://labs.ericsson.com/apis/web-device-connectivity/",
+        "title": "Web Device Connectivity",
+        "date": "18 October 2010",
+        "publisher": "Ericsson Labs"
     },
     "ESDH": {
         "aliasOf": "RFC2631"
