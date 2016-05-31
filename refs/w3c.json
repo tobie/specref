@@ -16259,11 +16259,12 @@
     },
     "css-overflow-3": {
         "authors": [
-            "David Baron"
+            "David Baron",
+            "Florian Rivoal"
         ],
         "href": "http://www.w3.org/TR/css-overflow-3/",
         "title": "CSS Overflow Module Level 3",
-        "rawDate": "2013-04-18",
+        "rawDate": "2016-05-31",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -16284,8 +16285,24 @@
                     "http://www.w3.org/Style/CSS/members"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20160531": {
+                "authors": [
+                    "David Baron",
+                    "Florian Rivoal"
+                ],
+                "href": "http://www.w3.org/TR/2016/WD-css-overflow-3-20160531/",
+                "title": "CSS Overflow Module Level 3",
+                "rawDate": "2016-05-31",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Style/CSS/members"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "edDraft": "http://drafts.csswg.org/css-overflow/"
     },
     "css-page-floats-3": {
         "authors": [
@@ -55686,6 +55703,51 @@
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/2011/audio/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
+    "webauthn": {
+        "authors": [
+            "Vijay Bharadwaj",
+            "Hubert Le Van Gong",
+            "Dirk Balfanz",
+            "Alexei Czeskis",
+            "Arnar Birgisson",
+            "Jeff Hodges",
+            "Michael Jones",
+            "Rolf Lindemann"
+        ],
+        "href": "http://www.w3.org/TR/webauthn/",
+        "title": "Web Authentication: A Web API for accessing scoped credentials",
+        "rawDate": "2016-05-31",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/webauthn/",
+        "deliveredBy": [
+            "https://www.w3.org/webauthn/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20160531": {
+                "authors": [
+                    "Vijay Bharadwaj",
+                    "Hubert Le Van Gong",
+                    "Dirk Balfanz",
+                    "Alexei Czeskis",
+                    "Arnar Birgisson",
+                    "Jeff Hodges",
+                    "Michael Jones",
+                    "Rolf Lindemann"
+                ],
+                "href": "http://www.w3.org/TR/2016/WD-webauthn-20160531/",
+                "title": "Web Authentication: A Web API for accessing scoped credentials",
+                "rawDate": "2016-05-31",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/webauthn/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
