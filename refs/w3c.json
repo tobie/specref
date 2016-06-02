@@ -15059,6 +15059,53 @@
             }
         }
     },
+    "css-content-3": {
+        "authors": [
+            "Elika Etemad",
+            "Dave Cramer"
+        ],
+        "href": "http://www.w3.org/TR/css-content-3/",
+        "title": "CSS Generated Content Module Level 3",
+        "rawDate": "2016-06-02",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://drafts.csswg.org/css-content/",
+        "deliveredBy": [
+            "http://www.w3.org/Style/CSS/members"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20030514": {
+                "authors": [
+                    "Ian Hickson"
+                ],
+                "href": "http://www.w3.org/TR/2003/WD-css3-content-20030514",
+                "title": "CSS3 Generated and Replaced Content Module",
+                "rawDate": "2003-05-14",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Style/CSS/members"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20160602": {
+                "authors": [
+                    "Elika Etemad",
+                    "Dave Cramer"
+                ],
+                "href": "http://www.w3.org/TR/2016/WD-css-content-3-20160602/",
+                "title": "CSS Generated Content Module Level 3",
+                "rawDate": "2016-06-02",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Style/CSS/members"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
     "css-counter-styles-3": {
         "authors": [
             "Tab Atkins Jr."
@@ -18601,34 +18648,7 @@
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
     "css3-content": {
-        "authors": [
-            "Ian Hickson"
-        ],
-        "href": "http://www.w3.org/TR/css3-content",
-        "title": "CSS3 Generated and Replaced Content Module",
-        "status": "WD",
-        "publisher": "W3C",
-        "deliveredBy": [
-            "http://www.w3.org/Style/CSS/members"
-        ],
-        "versions": {
-            "20030514": {
-                "authors": [
-                    "Ian Hickson"
-                ],
-                "href": "http://www.w3.org/TR/2003/WD-css3-content-20030514",
-                "title": "CSS3 Generated and Replaced Content Module",
-                "rawDate": "2003-05-14",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "http://www.w3.org/Style/CSS/members"
-                ],
-                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
-            }
-        },
-        "rawDate": "2003-05-14",
-        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+        "aliasOf": "css-content-3"
     },
     "css3-exclusions": {
         "authors": [
@@ -28379,7 +28399,7 @@
         ],
         "href": "http://www.w3.org/TR/html51/",
         "title": "HTML 5.1",
-        "rawDate": "2016-05-03",
+        "rawDate": "2016-06-02",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -28959,6 +28979,23 @@
                 "href": "http://www.w3.org/TR/2016/WD-html51-20160503/",
                 "title": "HTML 5.1",
                 "rawDate": "2016-05-03",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/WebPlatform/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20160602": {
+                "authors": [
+                    "Steve Faulkner",
+                    "Arron Eicholz",
+                    "Travis Leithead",
+                    "Alex Danilo"
+                ],
+                "href": "http://www.w3.org/TR/2016/WD-html51-20160602/",
+                "title": "HTML 5.1",
+                "rawDate": "2016-06-02",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
