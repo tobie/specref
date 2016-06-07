@@ -8088,15 +8088,12 @@
     },
     "UISecurity": {
         "authors": [
-            "Giorgio Maone",
-            "David Huang",
-            "Tobias Gondrom",
             "Brad Hill"
         ],
         "href": "http://www.w3.org/TR/UISecurity/",
-        "title": "User Interface Security Directives for Content Security Policy",
-        "rawDate": "2014-03-18",
-        "status": "LCWD",
+        "title": "User Interface Security and the Visibility API",
+        "rawDate": "2016-06-07",
+        "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
             "http://www.w3.org/2011/webappsec/"
@@ -8150,9 +8147,23 @@
                     "http://www.w3.org/2011/webappsec/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20160607": {
+                "authors": [
+                    "Brad Hill"
+                ],
+                "href": "http://www.w3.org/TR/2016/WD-UISecurity-20160607/",
+                "title": "User Interface Security and the Visibility API",
+                "rawDate": "2016-06-07",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2011/webappsec/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "http://dvcs.w3.org/hg/user-interface-safety/raw-file/tip/user-interface-safety.html"
+        "edDraft": "https://w3c.github.io/webappsec-uisecurity/index.html"
     },
     "UMP": {
         "authors": [
@@ -16416,6 +16427,43 @@
             }
         }
     },
+    "css-paint-api-1": {
+        "authors": [
+            "Shane Stephens",
+            "Ian Kilpatrick",
+            "Dean Jackson"
+        ],
+        "href": "http://www.w3.org/TR/css-paint-api-1/",
+        "title": "CSS Painting API Level 1",
+        "rawDate": "2016-06-07",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://drafts.css-houdini.org/css-paint-api-1/",
+        "deliveredBy": [
+            "http://www.w3.org/Style/CSS/members",
+            "http://www.w3.org/2001/tag/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20160607": {
+                "authors": [
+                    "Shane Stephens",
+                    "Ian Kilpatrick",
+                    "Dean Jackson"
+                ],
+                "href": "http://www.w3.org/TR/2016/WD-css-paint-api-1-20160607/",
+                "title": "CSS Painting API Level 1",
+                "rawDate": "2016-06-07",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Style/CSS/members",
+                    "http://www.w3.org/2001/tag/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
     "css-position-3": {
         "authors": [
             "Rossen Atanassov",
@@ -16534,6 +16582,49 @@
         "rawDate": "2013-03-14",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
+    "css-properties-values-api-1": {
+        "authors": [
+            "Tab Atkins Jr.",
+            "Shane Stephens",
+            "Daniel Glazman",
+            "Alan Stearns",
+            "Elliott Sprehn",
+            "Greg Whitworth"
+        ],
+        "href": "http://www.w3.org/TR/css-properties-values-api-1/",
+        "title": "CSS Properties and Values API Level 1",
+        "rawDate": "2016-06-07",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://drafts.css-houdini.org/css-properties-values-api-1/",
+        "deliveredBy": [
+            "http://www.w3.org/Style/CSS/members",
+            "http://www.w3.org/2001/tag/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20160607": {
+                "authors": [
+                    "Tab Atkins Jr.",
+                    "Shane Stephens",
+                    "Daniel Glazman",
+                    "Alan Stearns",
+                    "Elliott Sprehn",
+                    "Greg Whitworth"
+                ],
+                "href": "http://www.w3.org/TR/2016/WD-css-properties-values-api-1-20160607/",
+                "title": "CSS Properties and Values API Level 1",
+                "rawDate": "2016-06-07",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Style/CSS/members",
+                    "http://www.w3.org/2001/tag/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
     "css-pseudo-4": {
         "authors": [
             "Daniel Glazman",
@@ -16542,10 +16633,10 @@
         ],
         "href": "http://www.w3.org/TR/css-pseudo-4/",
         "title": "CSS Pseudo-Elements Module Level 4",
-        "rawDate": "2015-01-15",
+        "rawDate": "2016-06-07",
         "status": "WD",
         "publisher": "W3C",
-        "edDraft": "http://dev.w3.org/csswg/css-pseudo-4/",
+        "edDraft": "https://drafts.csswg.org/css-pseudo-4/",
         "deliveredBy": [
             "http://www.w3.org/Style/CSS/members"
         ],
@@ -16560,6 +16651,22 @@
                 "href": "http://www.w3.org/TR/2015/WD-css-pseudo-4-20150115/",
                 "title": "CSS Pseudo-Elements Module Level 4",
                 "rawDate": "2015-01-15",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Style/CSS/members"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20160607": {
+                "authors": [
+                    "Daniel Glazman",
+                    "Elika Etemad",
+                    "Alan Stearns"
+                ],
+                "href": "http://www.w3.org/TR/2016/WD-css-pseudo-4-20160607/",
+                "title": "CSS Pseudo-Elements Module Level 4",
+                "rawDate": "2016-06-07",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -17642,6 +17749,39 @@
         "rawDate": "2014-10-14",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
         "isRetired": true
+    },
+    "css-typed-om-1": {
+        "authors": [
+            "Shane Stephens"
+        ],
+        "href": "http://www.w3.org/TR/css-typed-om-1/",
+        "title": "CSS Typed OM Level 1",
+        "rawDate": "2016-06-07",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://drafts.css-houdini.org/css-typed-om-1/",
+        "deliveredBy": [
+            "http://www.w3.org/Style/CSS/members",
+            "http://www.w3.org/2001/tag/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20160607": {
+                "authors": [
+                    "Shane Stephens"
+                ],
+                "href": "http://www.w3.org/TR/2016/WD-css-typed-om-1-20160607/",
+                "title": "CSS Typed OM Level 1",
+                "rawDate": "2016-06-07",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Style/CSS/members",
+                    "http://www.w3.org/2001/tag/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
     },
     "css-ui-3": {
         "authors": [
@@ -42880,8 +43020,8 @@
         ],
         "href": "http://www.w3.org/TR/reporting-1/",
         "title": "Reporting API 1",
-        "rawDate": "2016-04-07",
-        "status": "WD",
+        "rawDate": "2016-06-07",
+        "status": "NOTE",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/reporting/",
         "deliveredBy": [
@@ -42898,6 +43038,21 @@
                 "title": "Reporting API 1",
                 "rawDate": "2016-04-07",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/2010/webperf/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20160607": {
+                "authors": [
+                    "Ilya Grigorik",
+                    "Mike West"
+                ],
+                "href": "http://www.w3.org/TR/2016/NOTE-reporting-1-20160607/",
+                "title": "Reporting API 1",
+                "rawDate": "2016-06-07",
+                "status": "NOTE",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "http://www.w3.org/2010/webperf/"
@@ -58097,6 +58252,39 @@
         "rawDate": "2015-09-24",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
         "edDraft": "https://html.spec.whatwg.org/multipage/workers.html"
+    },
+    "worklets-1": {
+        "authors": [
+            "Ian Kilpatrick"
+        ],
+        "href": "http://www.w3.org/TR/worklets-1/",
+        "title": "Worklets Level 1",
+        "rawDate": "2016-06-07",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://drafts.css-houdini.org/worklets/",
+        "deliveredBy": [
+            "http://www.w3.org/Style/CSS/members",
+            "http://www.w3.org/2001/tag/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20160607": {
+                "authors": [
+                    "Ian Kilpatrick"
+                ],
+                "href": "http://www.w3.org/TR/2016/WD-worklets-1-20160607/",
+                "title": "Worklets Level 1",
+                "rawDate": "2016-06-07",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "http://www.w3.org/Style/CSS/members",
+                    "http://www.w3.org/2001/tag/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
     },
     "ws-addr-core": {
         "authors": [
