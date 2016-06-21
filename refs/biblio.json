@@ -2655,6 +2655,16 @@
     "json-patch-20130401": {
         "aliasOf": "rfc6902"
     },
+    "news-ml": {
+        "authors": [
+            "International Press Telecommunications Council"
+        ],
+        "href": "https://www.iptc.org/std/NewsML-G2/2.22/documentation/NewsML-G2-Implementation_Guide_8.0.pdf",
+        "publisher": "IPTC",
+        "status": "Public Release",
+        "rawDate": "2015",
+        "title": "NewsML-G2 Implementation Guide"
+    },
     "odrl": {
         "authors": [
             "Renato Iannella"
@@ -2671,6 +2681,17 @@
         "status": "NOTE",
         "rawDate": "2002-09-19",
         "title": "Open Digital Rights Language (ODRL) Version 1.1"
+    },
+    "odrl-w3c-model": {
+        "authors": [
+            "Renato Iannella",
+            "Serena Villata"
+        ],
+        "href": "http://w3c.github.io/poe/model/WD/",
+        "publisher": "W3C",
+        "status": "W3C Editors Draft",
+        "rawDate": "2016-06-20",
+        "title": "ODRL Information Model"
     },
     "odrl2-req": {
         "authors": [
@@ -2740,27 +2761,6 @@
         "status": "W3C Community Group Final Specification",
         "rawDate": "2015-03-05",
         "title": "ODRL Version 2.1 XML Encoding"
-    },
-        "odrl-w3c-model": {
-        "authors": [
-            "Renato Iannella",
-            "Serena Villata"
-        ],
-        "href": "http://w3c.github.io/poe/model/WD/",
-        "publisher": "W3C",
-        "status": "W3C Editors Draft",
-        "rawDate": "2016-06-20",
-        "title": "ODRL Information Model"
-    },
-     "news-ml": {
-        "authors": [
-            "International Press Telecommunications Council"
-        ],
-        "href": "https://www.iptc.org/std/NewsML-G2/2.22/documentation/NewsML-G2-Implementation_Guide_8.0.pdf",
-        "publisher": "IPTC",
-        "status": "Public Release",
-        "rawDate": "2015",
-        "title": "NewsML-G2 Implementation Guide"
     },
     "promises-guide": {
         "href": "https://www.w3.org/2001/tag/doc/promises-guide",
