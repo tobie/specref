@@ -98087,7 +98087,8 @@
         "rawDate": "2012-02",
         "status": "Proposed Standard",
         "updatedBy": [
-            "RFC7582"
+            "RFC7582",
+            "RFC7900"
         ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=6513",
         "publisher": "IETF",
@@ -98111,6 +98112,7 @@
             "RFC7385",
             "RFC7441",
             "RFC7582",
+            "RFC7900",
             "RFC7902"
         ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=6514",
@@ -99753,7 +99755,8 @@
         "rawDate": "2012-05",
         "status": "Proposed Standard",
         "updatedBy": [
-            "RFC7582"
+            "RFC7582",
+            "RFC7900"
         ],
         "updates": [
             "RFC6514"
@@ -118717,6 +118720,21 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc7872": {
+        "rfcNumber": "RFC7872",
+        "href": "https://tools.ietf.org/html/rfc7872",
+        "title": "Observations on the Dropping of Packets with IPv6 Extension Headers in the Real World",
+        "authors": [
+            "F. Gont",
+            "J. Linkova",
+            "T. Chown",
+            "W. Liu"
+        ],
+        "rawDate": "2016-06",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc7873": {
         "rfcNumber": "RFC7873",
         "href": "https://tools.ietf.org/html/rfc7873",
@@ -118919,6 +118937,39 @@
     "rfc790": {
         "aliasOf": "rfc0790"
     },
+    "rfc7900": {
+        "rfcNumber": "RFC7900",
+        "href": "https://tools.ietf.org/html/rfc7900",
+        "title": "Extranet Multicast in BGP/IP MPLS VPNs",
+        "authors": [
+            "Y. Rekhter, Ed.",
+            "E. Rosen, Ed.",
+            "R. Aggarwal",
+            "Y. Cai",
+            "T. Morin"
+        ],
+        "rawDate": "2016-06",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC6513",
+            "RFC6514",
+            "RFC6625"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7901": {
+        "rfcNumber": "RFC7901",
+        "href": "https://tools.ietf.org/html/rfc7901",
+        "title": "CHAIN Query Requests in DNS",
+        "authors": [
+            "P. Wouters"
+        ],
+        "rawDate": "2016-06",
+        "status": "Experimental",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc7902": {
         "rfcNumber": "RFC7902",
         "href": "https://tools.ietf.org/html/rfc7902",
@@ -118935,6 +118986,22 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc7908": {
+        "rfcNumber": "RFC7908",
+        "href": "https://tools.ietf.org/html/rfc7908",
+        "title": "Problem Definition and Classification of BGP Route Leaks",
+        "authors": [
+            "K. Sriram",
+            "D. Montgomery",
+            "D. McPherson",
+            "E. Osterweil",
+            "B. Dickson"
+        ],
+        "rawDate": "2016-06",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc791": {
         "aliasOf": "rfc0791"
     },
@@ -118944,6 +119011,18 @@
         "title": "Interoperability between the Virtual Router Redundancy Protocol and PIM",
         "authors": [
             "W. Zhou"
+        ],
+        "rawDate": "2016-06",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7912": {
+        "rfcNumber": "RFC7912",
+        "href": "https://tools.ietf.org/html/rfc7912",
+        "title": "Message Authorizing Email Header Field and Its Use for the Draft and Release Procedure",
+        "authors": [
+            "A. Melnikov"
         ],
         "rawDate": "2016-06",
         "status": "Informational",
