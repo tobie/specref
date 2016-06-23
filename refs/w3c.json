@@ -6043,8 +6043,8 @@
         ],
         "href": "https://www.w3.org/TR/SRI/",
         "title": "Subresource Integrity",
-        "rawDate": "2016-05-10",
-        "status": "PR",
+        "rawDate": "2016-06-23",
+        "status": "REC",
         "publisher": "W3C",
         "deliveredBy": [
             "https://www.w3.org/2011/webappsec/"
@@ -6171,9 +6171,28 @@
                     "https://www.w3.org/2011/webappsec/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20160623": {
+                "authors": [
+                    "Devdatta Akhawe",
+                    "Frederik Braun",
+                    "Francois Marier",
+                    "Joel Weinberger"
+                ],
+                "href": "https://www.w3.org/TR/2016/REC-SRI-20160623/",
+                "title": "Subresource Integrity",
+                "rawDate": "2016-06-23",
+                "status": "REC",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2011/webappsec/"
+                ],
+                "hasErrata": "https://www.w3.org/2016/SRI-errata.html",
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "https://w3c.github.io/webappsec-subresource-integrity/"
+        "edDraft": "https://w3c.github.io/webappsec-subresource-integrity/",
+        "hasErrata": "https://www.w3.org/2016/SRI-errata.html"
     },
     "SRML": {
         "versions": {
@@ -37412,6 +37431,41 @@
                 "title": "Page Visibility (Second Edition)",
                 "rawDate": "2013-10-29",
                 "status": "REC",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2010/webperf/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
+    "page-visibility-2": {
+        "authors": [
+            "Ilya Grigorik",
+            "Arvind Jain",
+            "Jatinder Mann"
+        ],
+        "href": "https://www.w3.org/TR/page-visibility-2/",
+        "title": "Page Visibility 2",
+        "rawDate": "2016-06-23",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/page-visibility/",
+        "deliveredBy": [
+            "https://www.w3.org/2010/webperf/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20160623": {
+                "authors": [
+                    "Ilya Grigorik",
+                    "Arvind Jain",
+                    "Jatinder Mann"
+                ],
+                "href": "https://www.w3.org/TR/2016/WD-page-visibility-2-20160623/",
+                "title": "Page Visibility 2",
+                "rawDate": "2016-06-23",
+                "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/2010/webperf/"
