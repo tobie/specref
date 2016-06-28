@@ -92497,6 +92497,9 @@
             "RFC6791",
             "RFC7757"
         ],
+        "obsoletedBy": [
+            "RFC7915"
+        ],
         "obsoletes": [
             "RFC2765"
         ],
@@ -98114,6 +98117,7 @@
             "RFC7385",
             "RFC7441",
             "RFC7582",
+            "RFC7899",
             "RFC7900",
             "RFC7902"
         ],
@@ -118512,6 +118516,7 @@
         ],
         "rawDate": "2016-06",
         "status": "Proposed Standard",
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=7854",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -118952,6 +118957,26 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc7899": {
+        "rfcNumber": "RFC7899",
+        "href": "https://tools.ietf.org/html/rfc7899",
+        "title": "Multicast VPN State Damping",
+        "authors": [
+            "T. Morin, Ed.",
+            "S. Litkowski",
+            "K. Patel",
+            "Z. Zhang",
+            "R. Kebler",
+            "J. Haas"
+        ],
+        "rawDate": "2016-06",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC6514"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc79": {
         "aliasOf": "rfc0079"
     },
@@ -119027,6 +119052,20 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc7906": {
+        "rfcNumber": "RFC7906",
+        "href": "https://tools.ietf.org/html/rfc7906",
+        "title": "NSA's Cryptographic Message Syntax (CMS) Key Management Attributes",
+        "authors": [
+            "P. Timmel",
+            "R. Housley",
+            "S. Turner"
+        ],
+        "rawDate": "2016-06",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc7908": {
         "rfcNumber": "RFC7908",
         "href": "https://tools.ietf.org/html/rfc7908",
@@ -119081,6 +119120,25 @@
         "status": "Informational",
         "updates": [
             "RFC7315"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7915": {
+        "rfcNumber": "RFC7915",
+        "href": "https://tools.ietf.org/html/rfc7915",
+        "title": "IP/ICMP Translation Algorithm",
+        "authors": [
+            "C. Bao",
+            "X. Li",
+            "F. Baker",
+            "T. Anderson",
+            "F. Gont"
+        ],
+        "rawDate": "2016-06",
+        "status": "Proposed Standard",
+        "obsoletes": [
+            "RFC6145"
         ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
