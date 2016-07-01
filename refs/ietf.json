@@ -38675,7 +38675,8 @@
         "rawDate": "1999-06",
         "status": "Proposed Standard",
         "updatedBy": [
-            "RFC4012"
+            "RFC4012",
+            "RFC7909"
         ],
         "obsoletes": [
             "RFC2280"
@@ -60284,6 +60285,9 @@
         ],
         "rawDate": "2005-03",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC7909"
+        ],
         "updates": [
             "RFC2725",
             "RFC2622"
@@ -119107,6 +119111,23 @@
         ],
         "rawDate": "2016-06",
         "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7909": {
+        "rfcNumber": "RFC7909",
+        "href": "https://tools.ietf.org/html/rfc7909",
+        "title": "Securing Routing Policy Specification Language (RPSL) Objects with Resource Public Key Infrastructure (RPKI) Signatures",
+        "authors": [
+            "R. Kisteleki",
+            "B. Haberman"
+        ],
+        "rawDate": "2016-06",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC2622",
+            "RFC4012"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
