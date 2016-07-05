@@ -11116,8 +11116,8 @@
         ],
         "href": "https://www.w3.org/TR/annotation-model/",
         "title": "Web Annotation Data Model",
-        "rawDate": "2016-03-31",
-        "status": "WD",
+        "rawDate": "2016-07-05",
+        "status": "CR",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/web-annotation/",
         "deliveredBy": [
@@ -11166,6 +11166,22 @@
                 "title": "Web Annotation Data Model",
                 "rawDate": "2016-03-31",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/annotation/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20160705": {
+                "authors": [
+                    "Robert Sanderson",
+                    "Paolo Ciccarese",
+                    "Benjamin Young"
+                ],
+                "href": "https://www.w3.org/TR/2016/CR-annotation-model-20160705/",
+                "title": "Web Annotation Data Model",
+                "rawDate": "2016-07-05",
+                "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/annotation/"
@@ -11227,8 +11243,8 @@
         ],
         "href": "https://www.w3.org/TR/annotation-vocab/",
         "title": "Web Annotation Vocabulary",
-        "rawDate": "2016-03-31",
-        "status": "WD",
+        "rawDate": "2016-07-05",
+        "status": "CR",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/web-annotation/",
         "deliveredBy": [
@@ -11246,6 +11262,22 @@
                 "title": "Web Annotation Vocabulary",
                 "rawDate": "2016-03-31",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/annotation/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20160705": {
+                "authors": [
+                    "Robert Sanderson",
+                    "Paolo Ciccarese",
+                    "Benjamin Young"
+                ],
+                "href": "https://www.w3.org/TR/2016/CR-annotation-vocab-20160705/",
+                "title": "Web Annotation Vocabulary",
+                "rawDate": "2016-07-05",
+                "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/annotation/"
@@ -22953,8 +22985,8 @@
         ],
         "href": "https://www.w3.org/TR/encrypted-media/",
         "title": "Encrypted Media Extensions",
-        "rawDate": "2016-06-10",
-        "status": "WD",
+        "rawDate": "2016-07-05",
+        "status": "CR",
         "publisher": "W3C",
         "deliveredBy": [
             "https://www.w3.org/html/wg/"
@@ -23664,6 +23696,23 @@
                 "title": "Encrypted Media Extensions",
                 "rawDate": "2016-06-10",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/html/wg/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20160705": {
+                "authors": [
+                    "David Dorwin",
+                    "Jerry Smith",
+                    "Mark Watson",
+                    "Adrian Bateman"
+                ],
+                "href": "https://www.w3.org/TR/2016/CR-encrypted-media-20160705/",
+                "title": "Encrypted Media Extensions",
+                "rawDate": "2016-07-05",
+                "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/html/wg/"
@@ -32354,9 +32403,27 @@
                     "https://www.w3.org/html/wg/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20160705": {
+                "authors": [
+                    "Matthew Wolenetz",
+                    "Jerry Smith",
+                    "Mark Watson",
+                    "Aaron Colwell",
+                    "Adrian Bateman"
+                ],
+                "href": "https://www.w3.org/TR/2016/CR-media-source-20160705/",
+                "title": "Media Source Extensions",
+                "rawDate": "2016-07-05",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/html/wg/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2016-05-03",
+        "rawDate": "2016-07-05",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
         "edDraft": "https://w3c.github.io/media-source/"
     },
@@ -38151,11 +38218,11 @@
         ],
         "href": "https://www.w3.org/TR/pointerlock/",
         "title": "Pointer Lock",
-        "rawDate": "2013-12-17",
+        "rawDate": "2016-07-05",
         "status": "CR",
         "publisher": "W3C",
         "deliveredBy": [
-            "https://www.w3.org/2008/webapps/"
+            "https://www.w3.org/WebPlatform/WG/"
         ],
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
         "versions": {
@@ -38200,9 +38267,23 @@
                     "https://www.w3.org/2008/webapps/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20160705": {
+                "authors": [
+                    "Vincent Scheib"
+                ],
+                "href": "https://www.w3.org/TR/2016/CR-pointerlock-20160705/",
+                "title": "Pointer Lock",
+                "rawDate": "2016-07-05",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WebPlatform/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "http://dvcs.w3.org/hg/pointerlock/raw-file/default/index.html"
+        "edDraft": "https://w3c.github.io/pointerlock/"
     },
     "poix": {
         "versions": {
