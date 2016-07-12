@@ -38388,7 +38388,6 @@
         "updatedBy": [
             "RFC6761"
         ],
-        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=2606",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -105146,6 +105145,9 @@
         ],
         "rawDate": "2013-07",
         "status": "Experimental",
+        "obsoletedBy": [
+            "RFC7942"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -119153,6 +119155,21 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc7911": {
+        "rfcNumber": "RFC7911",
+        "href": "https://tools.ietf.org/html/rfc7911",
+        "title": "Advertisement of Multiple Paths in BGP",
+        "authors": [
+            "D. Walton",
+            "A. Retana",
+            "E. Chen",
+            "J. Scudder"
+        ],
+        "rawDate": "2016-07",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc7912": {
         "rfcNumber": "RFC7912",
         "href": "https://tools.ietf.org/html/rfc7912",
@@ -119196,6 +119213,39 @@
         "obsoletes": [
             "RFC6145"
         ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7916": {
+        "rfcNumber": "RFC7916",
+        "href": "https://tools.ietf.org/html/rfc7916",
+        "title": "Operational Management of Loop-Free Alternates",
+        "authors": [
+            "S. Litkowski, Ed.",
+            "B. Decraene",
+            "C. Filsfils",
+            "K. Raza",
+            "M. Horneffer",
+            "P. Sarkar"
+        ],
+        "rawDate": "2016-07",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7917": {
+        "rfcNumber": "RFC7917",
+        "href": "https://tools.ietf.org/html/rfc7917",
+        "title": "Advertising Node Administrative Tags in IS-IS",
+        "authors": [
+            "P. Sarkar, Ed.",
+            "H. Gredler",
+            "S. Hegde",
+            "S. Litkowski",
+            "B. Decraene"
+        ],
+        "rawDate": "2016-07",
+        "status": "Proposed Standard",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -119265,6 +119315,22 @@
     },
     "rfc794": {
         "aliasOf": "rfc0794"
+    },
+    "rfc7942": {
+        "rfcNumber": "RFC7942",
+        "href": "https://tools.ietf.org/html/rfc7942",
+        "title": "Improving Awareness of Running Code: The Implementation Status Section",
+        "authors": [
+            "Y. Sheffer",
+            "A. Farrel"
+        ],
+        "rawDate": "2016-07",
+        "status": "Best Current Practice",
+        "obsoletes": [
+            "RFC6982"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc795": {
         "aliasOf": "rfc0795"
