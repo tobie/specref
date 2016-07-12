@@ -36323,15 +36323,15 @@
     },
     "owl-time": {
         "authors": [
-            "Jerry Hobbs",
-            "Feng Pan"
+            "Simon Cox",
+            "Chris Little"
         ],
-        "href": "https://www.w3.org/TR/owl-time",
+        "href": "https://www.w3.org/TR/owl-time/",
         "title": "Time Ontology in OWL",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
-            "https://www.w3.org/2001/sw/BestPractices/"
+            "https://www.w3.org/2015/spatial/"
         ],
         "versions": {
             "20060927": {
@@ -36348,11 +36348,27 @@
                     "https://www.w3.org/2001/sw/BestPractices/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20160712": {
+                "authors": [
+                    "Simon Cox",
+                    "Chris Little"
+                ],
+                "href": "https://www.w3.org/TR/2016/WD-owl-time-20160712/",
+                "title": "Time Ontology in OWL",
+                "rawDate": "2016-07-12",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2015/spatial/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2006-09-27",
+        "rawDate": "2016-07-12",
         "isRetired": true,
-        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "edDraft": "https://w3c.github.io/sdw/time/"
     },
     "owl-xmlsyntax": {
         "authors": [
