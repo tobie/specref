@@ -88511,7 +88511,8 @@
         "rawDate": "2010-06",
         "status": "Proposed Standard",
         "updatedBy": [
-            "RFC7419"
+            "RFC7419",
+            "RFC7880"
         ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=5880",
         "publisher": "IETF",
@@ -88589,7 +88590,8 @@
         "rawDate": "2010-06",
         "status": "Proposed Standard",
         "updatedBy": [
-            "RFC6478"
+            "RFC6478",
+            "RFC7885"
         ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -118814,6 +118816,112 @@
     },
     "rfc788": {
         "aliasOf": "rfc0788"
+    },
+    "rfc7880": {
+        "rfcNumber": "RFC7880",
+        "href": "https://tools.ietf.org/html/rfc7880",
+        "title": "Seamless Bidirectional Forwarding Detection (S-BFD)",
+        "authors": [
+            "C. Pignataro",
+            "D. Ward",
+            "N. Akiya",
+            "M. Bhatia",
+            "S. Pallagatti"
+        ],
+        "rawDate": "2016-07",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC5880"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7881": {
+        "rfcNumber": "RFC7881",
+        "href": "https://tools.ietf.org/html/rfc7881",
+        "title": "Seamless Bidirectional Forwarding Detection (S-BFD) for IPv4, IPv6, and MPLS",
+        "authors": [
+            "C. Pignataro",
+            "D. Ward",
+            "N. Akiya"
+        ],
+        "rawDate": "2016-07",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7882": {
+        "rfcNumber": "RFC7882",
+        "href": "https://tools.ietf.org/html/rfc7882",
+        "title": "Seamless Bidirectional Forwarding Detection (S-BFD) Use Cases",
+        "authors": [
+            "S. Aldrin",
+            "C. Pignataro",
+            "G. Mirsky",
+            "N. Kumar"
+        ],
+        "rawDate": "2016-07",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7883": {
+        "rfcNumber": "RFC7883",
+        "href": "https://tools.ietf.org/html/rfc7883",
+        "title": "Advertising Seamless Bidirectional Forwarding Detection (S-BFD) Discriminators in IS-IS",
+        "authors": [
+            "L. Ginsberg",
+            "N. Akiya",
+            "M. Chen"
+        ],
+        "rawDate": "2016-07",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7884": {
+        "rfcNumber": "RFC7884",
+        "href": "https://tools.ietf.org/html/rfc7884",
+        "title": "OSPF Extensions to Advertise Seamless Bidirectional Forwarding Detection (S-BFD) Target Discriminators",
+        "authors": [
+            "C. Pignataro",
+            "M. Bhatia",
+            "S. Aldrin",
+            "T. Ranganath"
+        ],
+        "rawDate": "2016-07",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7885": {
+        "rfcNumber": "RFC7885",
+        "href": "https://tools.ietf.org/html/rfc7885",
+        "title": "Seamless Bidirectional Forwarding Detection (S-BFD) for Virtual Circuit Connectivity Verification (VCCV)",
+        "authors": [
+            "V. Govindan",
+            "C. Pignataro"
+        ],
+        "rawDate": "2016-07",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC5885"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7886": {
+        "rfcNumber": "RFC7886",
+        "href": "https://tools.ietf.org/html/rfc7886",
+        "title": "Advertising Seamless Bidirectional Forwarding Detection (S-BFD) Discriminators in the Layer Two Tunneling Protocol Version 3 (L2TPv3)",
+        "authors": [
+            "V. Govindan",
+            "C. Pignataro"
+        ],
+        "rawDate": "2016-07",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc7887": {
         "rfcNumber": "RFC7887",
