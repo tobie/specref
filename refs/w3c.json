@@ -39417,8 +39417,8 @@
         ],
         "href": "https://www.w3.org/TR/presentation-api/",
         "title": "Presentation API",
-        "rawDate": "2016-05-10",
-        "status": "WD",
+        "rawDate": "2016-07-14",
+        "status": "CR",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/presentation-api/",
         "deliveredBy": [
@@ -39509,6 +39509,21 @@
                 "title": "Presentation API",
                 "rawDate": "2016-05-10",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2014/secondscreen/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20160714": {
+                "authors": [
+                    "Mark Foltz",
+                    "Dominik Röttsches"
+                ],
+                "href": "https://www.w3.org/TR/2016/CR-presentation-api-20160714/",
+                "title": "Presentation API",
+                "rawDate": "2016-07-14",
+                "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/2014/secondscreen/"
@@ -43585,6 +43600,39 @@
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/2011/webappsec/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
+    "remote-playback": {
+        "authors": [
+            "Anton Vayvod",
+            "Mounir Lamouri"
+        ],
+        "href": "https://www.w3.org/TR/remote-playback/",
+        "title": "Remote Playback API",
+        "rawDate": "2016-07-14",
+        "status": "CR",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/remote-playback/",
+        "deliveredBy": [
+            "https://www.w3.org/2014/secondscreen/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20160714": {
+                "authors": [
+                    "Anton Vayvod",
+                    "Mounir Lamouri"
+                ],
+                "href": "https://www.w3.org/TR/2016/WD-remote-playback-20160714/",
+                "title": "Remote Playback API",
+                "rawDate": "2016-07-14",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2014/secondscreen/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
@@ -55715,7 +55763,7 @@
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
-            "https://www.w3.org/WAI/PF/"
+            "https://www.w3.org/WAI/ARIA/"
         ],
         "versions": {
             "20080204": {
@@ -55756,10 +55804,26 @@
                     "https://www.w3.org/WAI/PF/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20160714": {
+                "authors": [
+                    "Joseph Scheuhammer",
+                    "Michael Cooper"
+                ],
+                "href": "https://www.w3.org/TR/2016/WD-wai-aria-practices-20160714/",
+                "title": "WAI-ARIA 1.0 Authoring Practices",
+                "rawDate": "2016-07-14",
+                "publisher": "W3C",
+                "isRetired": true,
+                "deliveredBy": [
+                    "https://www.w3.org/WAI/ARIA/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2013-03-07",
-        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+        "rawDate": "2016-07-14",
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "isRetired": true
     },
     "wai-aria-practices-1.1": {
         "authors": [
@@ -55853,7 +55917,7 @@
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
-            "https://www.w3.org/WAI/PF/"
+            "https://www.w3.org/WAI/ARIA/"
         ],
         "versions": {
             "20080204": {
@@ -55877,10 +55941,27 @@
                     "https://www.w3.org/WAI/PF/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20160714": {
+                "authors": [
+                    "Lisa Pappas",
+                    "Richard Schwerdtfeger",
+                    "Michael Cooper"
+                ],
+                "href": "https://www.w3.org/TR/2016/WD-wai-aria-primer-20160714/",
+                "title": "WAI-ARIA 1.0 Primer",
+                "rawDate": "2016-07-14",
+                "publisher": "W3C",
+                "isRetired": true,
+                "deliveredBy": [
+                    "https://www.w3.org/WAI/ARIA/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2010-09-16",
-        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+        "rawDate": "2016-07-14",
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "isRetired": true
     },
     "wai-aria-roadmap": {
         "authors": [
