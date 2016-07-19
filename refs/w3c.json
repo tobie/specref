@@ -38448,6 +38448,43 @@
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
         "edDraft": "https://dvcs.w3.org/hg/pointerevents/raw-file/tip/pointerEvents.html"
     },
+    "pointerevents2": {
+        "authors": [
+            "Jacob Rossi",
+            "Matt Brubeck",
+            "Rick Byers",
+            "Patrick Lauke"
+        ],
+        "href": "https://www.w3.org/TR/pointerevents2/",
+        "title": "Pointer Events - Level 2",
+        "rawDate": "2016-07-19",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/pointerevents/",
+        "deliveredBy": [
+            "https://www.w3.org/2012/pointerevents/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20160719": {
+                "authors": [
+                    "Jacob Rossi",
+                    "Matt Brubeck",
+                    "Rick Byers",
+                    "Patrick Lauke"
+                ],
+                "href": "https://www.w3.org/TR/2016/WD-pointerevents2-20160719/",
+                "title": "Pointer Events - Level 2",
+                "rawDate": "2016-07-19",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2012/pointerevents/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
     "pointerlock": {
         "authors": [
             "Vincent Scheib"
@@ -40444,11 +40481,11 @@
     "proximity": {
         "authors": [
             "Anssi Kostiainen",
-            "Dzung Tran"
+            "Rijubrata Bhaumik"
         ],
         "href": "https://www.w3.org/TR/proximity/",
-        "title": "Proximity Events",
-        "rawDate": "2015-09-03",
+        "title": "Proximity Sensor",
+        "rawDate": "2016-07-19",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -40500,6 +40537,21 @@
                 "href": "https://www.w3.org/TR/2015/WD-proximity-20150903/",
                 "title": "Proximity Events",
                 "rawDate": "2015-09-03",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2009/dap/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20160719": {
+                "authors": [
+                    "Anssi Kostiainen",
+                    "Rijubrata Bhaumik"
+                ],
+                "href": "https://www.w3.org/TR/2016/WD-proximity-20160719/",
+                "title": "Proximity Sensor",
+                "rawDate": "2016-07-19",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -43637,7 +43689,7 @@
         "href": "https://www.w3.org/TR/remote-playback/",
         "title": "Remote Playback API",
         "rawDate": "2016-07-14",
-        "status": "CR",
+        "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/remote-playback/",
         "deliveredBy": [
@@ -43653,7 +43705,7 @@
                 "href": "https://www.w3.org/TR/2016/WD-remote-playback-20160714/",
                 "title": "Remote Playback API",
                 "rawDate": "2016-07-14",
-                "status": "CR",
+                "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/2014/secondscreen/"
