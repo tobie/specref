@@ -97273,6 +97273,9 @@
         ],
         "rawDate": "2011-12",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC7936"
+        ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=6455",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -119418,8 +119421,49 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc7924": {
+        "rfcNumber": "RFC7924",
+        "href": "https://tools.ietf.org/html/rfc7924",
+        "title": "Transport Layer Security (TLS) Cached Information Extension",
+        "authors": [
+            "S. Santesson",
+            "H. Tschofenig"
+        ],
+        "rawDate": "2016-07",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7925": {
+        "rfcNumber": "RFC7925",
+        "href": "https://tools.ietf.org/html/rfc7925",
+        "title": "Transport Layer Security (TLS) / Datagram Transport Layer Security (DTLS) Profiles for the Internet of Things",
+        "authors": [
+            "H. Tschofenig, Ed.",
+            "T. Fossati"
+        ],
+        "rawDate": "2016-07",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc793": {
         "aliasOf": "rfc0793"
+    },
+    "rfc7936": {
+        "rfcNumber": "RFC7936",
+        "href": "https://tools.ietf.org/html/rfc7936",
+        "title": "Clarifying Registry Procedures for the WebSocket Subprotocol Name Registry",
+        "authors": [
+            "T. Hardie"
+        ],
+        "rawDate": "2016-07",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC6455"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc794": {
         "aliasOf": "rfc0794"
