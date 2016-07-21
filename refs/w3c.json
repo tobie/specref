@@ -36013,6 +36013,39 @@
         },
         "edDraft": "http://dvcs.w3.org/hg/notifications/raw-file/tip/Overview.html"
     },
+    "odrl-model": {
+        "authors": [
+            "Renato Iannella",
+            "Serena Villata"
+        ],
+        "href": "https://www.w3.org/TR/odrl-model/",
+        "title": "ODRL Information Model",
+        "rawDate": "2016-07-21",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/poe/model/",
+        "deliveredBy": [
+            "https://www.w3.org/2016/poe/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20160721": {
+                "authors": [
+                    "Renato Iannella",
+                    "Serena Villata"
+                ],
+                "href": "https://www.w3.org/TR/2016/WD-odrl-model-20160721/",
+                "title": "ODRL Information Model",
+                "rawDate": "2016-07-21",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2016/poe/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
     "offline-webapps": {
         "authors": [
             "Anne van Kesteren",
@@ -38365,6 +38398,41 @@
         "status": "NOTE",
         "rawDate": "1997-05-14",
         "title": "PICS-NG Metadata Model and Label Syntax"
+    },
+    "poe-ucr": {
+        "authors": [
+            "Michael Steidl",
+            "Simon Steyskal",
+            "Benedict Whittam Smith"
+        ],
+        "href": "https://www.w3.org/TR/poe-ucr/",
+        "title": "POE Use Cases and Requirements",
+        "rawDate": "2016-07-21",
+        "status": "NOTE",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/poe/ucr/",
+        "deliveredBy": [
+            "https://www.w3.org/2016/poe/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20160721": {
+                "authors": [
+                    "Michael Steidl",
+                    "Simon Steyskal",
+                    "Benedict Whittam Smith"
+                ],
+                "href": "https://www.w3.org/TR/2016/NOTE-poe-ucr-20160721/",
+                "title": "POE Use Cases and Requirements",
+                "rawDate": "2016-07-21",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2016/poe/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
     },
     "poi-core": {
         "authors": [
@@ -54781,6 +54849,47 @@
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/2013/dwbp/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
+    "vocab-odrl": {
+        "authors": [
+            "Renato Iannella",
+            "Michael Steidl",
+            "Mo McRoberts",
+            "Stuart Myles",
+            "James Birmingham",
+            "Víctor Rodríguez-Doncel"
+        ],
+        "href": "https://www.w3.org/TR/vocab-odrl/",
+        "title": "ODRL Vocabulary & Expression",
+        "rawDate": "2016-07-21",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/poe/vocab/",
+        "deliveredBy": [
+            "https://www.w3.org/2016/poe/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20160721": {
+                "authors": [
+                    "Renato Iannella",
+                    "Michael Steidl",
+                    "Mo McRoberts",
+                    "Stuart Myles",
+                    "James Birmingham",
+                    "Víctor Rodríguez-Doncel"
+                ],
+                "href": "https://www.w3.org/TR/2016/WD-vocab-odrl-20160721/",
+                "title": "ODRL Vocabulary & Expression",
+                "rawDate": "2016-07-21",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2016/poe/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
