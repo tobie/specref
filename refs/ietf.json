@@ -71517,6 +71517,7 @@
         ],
         "rawDate": "2007-01",
         "status": "Proposed Standard",
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=4754",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -113566,6 +113567,9 @@
         ],
         "rawDate": "2015-03",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC7931"
+        ],
         "obsoletes": [
             "RFC3530"
         ],
@@ -118801,6 +118805,20 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc7876": {
+        "rfcNumber": "RFC7876",
+        "href": "https://tools.ietf.org/html/rfc7876",
+        "title": "UDP Return Path for Packet Loss and Delay Measurement for MPLS Networks",
+        "authors": [
+            "S. Bryant",
+            "S. Sivabalan",
+            "S. Soni"
+        ],
+        "rawDate": "2016-07",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc7879": {
         "rfcNumber": "RFC7879",
         "href": "https://tools.ietf.org/html/rfc7879",
@@ -119447,8 +119465,62 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc7926": {
+        "rfcNumber": "RFC7926",
+        "href": "https://tools.ietf.org/html/rfc7926",
+        "title": "Problem Statement and Architecture for Information Exchange between Interconnected Traffic-Engineered Networks",
+        "authors": [
+            "A. Farrel, Ed.",
+            "J. Drake",
+            "N. Bitar",
+            "G. Swallow",
+            "D. Ceccarelli",
+            "X. Zhang"
+        ],
+        "rawDate": "2016-07",
+        "status": "Best Current Practice",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7927": {
+        "rfcNumber": "RFC7927",
+        "href": "https://tools.ietf.org/html/rfc7927",
+        "title": "Information-Centric Networking (ICN) Research Challenges",
+        "authors": [
+            "D. Kutscher, Ed.",
+            "S. Eum",
+            "K. Pentikousis",
+            "I. Psaras",
+            "D. Corujo",
+            "D. Saucez",
+            "T. Schmidt",
+            "M. Waehlisch"
+        ],
+        "rawDate": "2016-07",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc793": {
         "aliasOf": "rfc0793"
+    },
+    "rfc7931": {
+        "rfcNumber": "RFC7931",
+        "href": "https://tools.ietf.org/html/rfc7931",
+        "title": "NFSv4.0 Migration: Specification Update",
+        "authors": [
+            "D. Noveck, Ed.",
+            "P. Shivam",
+            "C. Lever",
+            "B. Baker"
+        ],
+        "rawDate": "2016-07",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC7530"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc7934": {
         "rfcNumber": "RFC7934",
