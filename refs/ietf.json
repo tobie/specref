@@ -97109,6 +97109,9 @@
         ],
         "rawDate": "2011-12",
         "status": "Informational",
+        "updatedBy": [
+            "RFC7852"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -103628,7 +103631,8 @@
         "rawDate": "2013-03",
         "status": "Best Current Practice",
         "updatedBy": [
-            "RFC7840"
+            "RFC7840",
+            "RFC7852"
         ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -118510,6 +118514,26 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc7852": {
+        "rfcNumber": "RFC7852",
+        "href": "https://tools.ietf.org/html/rfc7852",
+        "title": "Additional Data Related to an Emergency Call",
+        "authors": [
+            "R. Gellens",
+            "B. Rosen",
+            "H. Tschofenig",
+            "R. Marshall",
+            "J. Winterbottom"
+        ],
+        "rawDate": "2016-07",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC6443",
+            "RFC6881"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc7853": {
         "rfcNumber": "RFC7853",
         "href": "https://tools.ietf.org/html/rfc7853",
@@ -118683,6 +118707,18 @@
             "A. Hutton"
         ],
         "rawDate": "2016-05",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7867": {
+        "rfcNumber": "RFC7867",
+        "href": "https://tools.ietf.org/html/rfc7867",
+        "title": "RTP Control Protocol (RTCP) Extended Report (XR) Block for Loss Concealment Metrics for Video Applications",
+        "authors": [
+            "R. Huang"
+        ],
+        "rawDate": "2016-07",
         "status": "Proposed Standard",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -119501,6 +119537,21 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc7928": {
+        "rfcNumber": "RFC7928",
+        "href": "https://tools.ietf.org/html/rfc7928",
+        "title": "Characterization Guidelines for Active Queue Management (AQM)",
+        "authors": [
+            "N. Kuhn, Ed.",
+            "P. Natarajan, Ed.",
+            "N. Khademi, Ed.",
+            "D. Ros"
+        ],
+        "rawDate": "2016-07",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc793": {
         "aliasOf": "rfc0793"
     },
@@ -119519,6 +119570,19 @@
         "updates": [
             "RFC7530"
         ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7932": {
+        "rfcNumber": "RFC7932",
+        "href": "https://tools.ietf.org/html/rfc7932",
+        "title": "Brotli Compressed Data Format",
+        "authors": [
+            "J. Alakuijala",
+            "Z. Szabadka"
+        ],
+        "rawDate": "2016-07",
+        "status": "Informational",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
