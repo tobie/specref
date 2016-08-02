@@ -12,6 +12,7 @@ if (process.argv.length != 4) {
 var SOURCE = process.argv[2];
 var PUBLISHER = process.argv[3];
 var FILENAME = PUBLISHER.toLowerCase() + ".json";
+var HELPER = "./fetch-helpers/" + PUBLISHER.toLowerCase();
 
 var biblio = helper.readBiblio();
 var current = helper.readBiblio(FILENAME);
@@ -33,15 +34,9 @@ request({
     var json = JSON.parse(body);
     Object.keys(json).forEach(function(id) {
         var ref = json[id];
-        ref = {
-            authors: ref.authors,
-            href: ref.href,
-            title: ref.title,
-            obsoletedBy: ref.obsoletedBy,
-            publisher: PUBLISHER,
-            status: "Living Standard",
-            source: SOURCE
-        };
+        ref = require(HELPER)(ref);
+        ref.publisher = PUBLISHER;
+        ref.source = SOURCE;
         var uppercaseId = id.toUpperCase();
         var prefixedId = PUBLISHER + "-" + id;
         if (!(uppercaseId in refs)) {
