@@ -330,3 +330,24 @@ suite('Test bibref reverseLookup API', function() {
         assert.equal("Bar", output[edDraft].title);
     });
 });
+
+suite('Test bibref normalizeUrl API', function() {
+    test('removes protocol', function() {
+        assert.equal("example.com", bibref.normalizeUrl("http://example.com"));
+        assert.equal("example.com", bibref.normalizeUrl("https://example.com"));
+    });
+    
+    test('removes www. subdomains', function() {
+        assert.equal("example.com", bibref.normalizeUrl("http://www.example.com"));
+    });
+    
+    test('keeps hashes around', function() {
+        assert.equal("example.com#foo", bibref.normalizeUrl("http://www.example.com#foo"));
+    });
+    
+    test('removes trailing slashes', function() {
+        assert.equal("example.com", bibref.normalizeUrl("http://www.example.com/"));
+        assert.equal("example.com/foo", bibref.normalizeUrl("http://www.example.com/foo/"));
+        assert.equal("example.com/foo/index.html", bibref.normalizeUrl("http://www.example.com/foo/index.html"));
+    });
+});
