@@ -23434,7 +23434,15 @@
         "source": "https://wg21.link/index.json"
     },
     "CWG952": {
-        "aliasOf": "WG21-CWG2186"
+        "title": "Insufficient description of “naming class”",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/cwg_active.html#952",
+        "status": "drafting",
+        "authors": [
+            "James Widman"
+        ],
+        "date": "7 August 2009",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
     },
     "CWG953": {
         "title": "Rvalue references and function viability",
@@ -23448,15 +23456,7 @@
         "source": "https://wg21.link/index.json"
     },
     "CWG954": {
-        "title": "Overload resolution of conversion operator templates with built-in types",
-        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/cwg_active.html#954",
-        "status": "open",
-        "authors": [
-            "Steve Clamage"
-        ],
-        "date": "19 August 2009",
-        "publisher": "WG21",
-        "source": "https://wg21.link/index.json"
+        "aliasOf": "WG21-CWG2186"
     },
     "CWG955": {
         "title": "Can a closure type's operator() be virtual?",
@@ -23910,7 +23910,15 @@
         "source": "https://wg21.link/index.json"
     },
     "CWG992": {
-        "aliasOf": "WG21-CWG2161"
+        "title": "Inheriting explicitness",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/cwg_closed.html#992",
+        "status": "NAD",
+        "authors": [
+            "Lawrence Crowl"
+        ],
+        "date": "24 October 2009",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
     },
     "CWG993": {
         "title": "Freedom to perform instantiation at the end of the translation unit",
@@ -23957,29 +23965,21 @@
         "source": "https://wg21.link/index.json"
     },
     "CWG997": {
-        "aliasOf": "WG21-CWG2120"
-    },
-    "CWG998": {
-        "title": "Function parameter transformations and template functions",
-        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/cwg_closed.html#998",
-        "status": "dup",
-        "authors": [
-            "Jason Merrill"
-        ],
-        "date": "8 November 2009",
-        "publisher": "WG21",
-        "source": "https://wg21.link/index.json"
-    },
-    "CWG999": {
-        "title": "“Implicit” or “implied” object argument/parameter?",
-        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/cwg_defects.html#999",
-        "status": "CD2",
+        "title": "Argument-dependent lookup and dependent function template parameter types",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/cwg_defects.html#997",
+        "status": "C++11",
         "authors": [
             "James Widman"
         ],
-        "date": "20 November 2009",
+        "date": "6 November 2009",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
+    },
+    "CWG998": {
+        "aliasOf": "WG21-CWG2161"
+    },
+    "CWG999": {
+        "aliasOf": "WG21-CWG2120"
     },
     "EWG1": {
         "title": "N3638, N3582, N3386 Return type deduction for normal functions",
@@ -25662,7 +25662,14 @@
         "source": "https://wg21.link/index.json"
     },
     "EWG80": {
-        "aliasOf": "WG21-EWG161"
+        "title": "N3846 Extending static_assert",
+        "href": "http://cplusplus.github.io/EWG/ewg-complete.html#80",
+        "status": "WP",
+        "authors": [
+            "Walter E. Brown"
+        ],
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
     },
     "EWG81": {
         "title": "N3994, N3853 Range-Based For-Loops: The Next Generation",
@@ -25675,14 +25682,7 @@
         "source": "https://wg21.link/index.json"
     },
     "EWG82": {
-        "title": "N4180 SG5 Transactional Memory Support for C++ Update, N3919, N3859, N3718 Transactional Memory Support for C++",
-        "href": "http://cplusplus.github.io/EWG/ewg-complete.html#82",
-        "status": "WP",
-        "authors": [
-            "M. Wong, V. Luchangco, J. Maurer, M. Moir, et al."
-        ],
-        "publisher": "WG21",
-        "source": "https://wg21.link/index.json"
+        "aliasOf": "WG21-EWG161"
     },
     "EWG83": {
         "title": "N3863 Private Extension Methods",
@@ -25825,30 +25825,30 @@
         "source": "https://wg21.link/index.json"
     },
     "EWG96": {
-        "aliasOf": "WG21-EWG189"
-    },
-    "EWG97": {
-        "aliasOf": "WG21-EWG186"
-    },
-    "EWG98": {
-        "title": "[tiny] Core issue 1008, Querying the alignment of an object",
-        "href": "http://cplusplus.github.io/EWG/ewg-active.html#98",
+        "title": "[tiny] Core issue 914, Value-initialization of array types, Core issue 1300, T() for array types, Core issue 1326, Deducing an array bound from an initializer-list",
+        "href": "http://cplusplus.github.io/EWG/ewg-active.html#96",
         "status": "Open",
         "authors": [
-            "Steve Clamage"
+            "Gabriel Dos Reis"
         ],
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
-    "EWG99": {
-        "title": "[tiny] Core issue 1259, Deleting a POD via a pointer to base",
-        "href": "http://cplusplus.github.io/EWG/ewg-closed.html#99",
+    "EWG97": {
+        "title": "[tiny] Core issue 947, Deducing type template arguments from default function arguments",
+        "href": "http://cplusplus.github.io/EWG/ewg-closed.html#97",
         "status": "NAD",
         "authors": [
-            "Herb Sutter"
+            "Dave Abrahams"
         ],
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
+    },
+    "EWG98": {
+        "aliasOf": "WG21-EWG189"
+    },
+    "EWG99": {
+        "aliasOf": "WG21-EWG186"
     },
     "FS1": {
         "title": "[PDTS] Make namespaces consistent with Library TS policy",
@@ -50086,7 +50086,14 @@
         "source": "https://wg21.link/index.json"
     },
     "LWG936": {
-        "aliasOf": "WG21-LWG2743"
+        "title": "Mutex type overspecified",
+        "href": "http://cplusplus.github.io/LWG/lwg-active.html#936",
+        "status": "LEWG",
+        "authors": [
+            "Pete Becker"
+        ],
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
     },
     "LWG937": {
         "title": "Atomics for standard typedef types",
@@ -50359,14 +50366,7 @@
         "source": "https://wg21.link/index.json"
     },
     "LWG961": {
-        "title": "Various threading bugs #11",
-        "href": "http://cplusplus.github.io/LWG/lwg-active.html#961",
-        "status": "LEWG",
-        "authors": [
-            "Pete Becker"
-        ],
-        "publisher": "WG21",
-        "source": "https://wg21.link/index.json"
+        "aliasOf": "WG21-LWG2743"
     },
     "LWG962": {
         "title": "Various threading bugs #12",
@@ -50729,17 +50729,17 @@
         "source": "https://wg21.link/index.json"
     },
     "LWG995": {
-        "aliasOf": "WG21-LWG2700"
-    },
-    "LWG996": {
-        "title": "Move operation not well specified",
-        "href": "http://cplusplus.github.io/LWG/lwg-closed.html#996",
+        "title": "Operational Semantics Unclear",
+        "href": "http://cplusplus.github.io/LWG/lwg-closed.html#995",
         "status": "NAD",
         "authors": [
             "David Abrahams"
         ],
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
+    },
+    "LWG996": {
+        "aliasOf": "WG21-LWG2700"
     },
     "LWG997": {
         "title": "\"Effects: Equivalent to\" is underspecified",
@@ -50752,17 +50752,17 @@
         "source": "https://wg21.link/index.json"
     },
     "LWG998": {
-        "aliasOf": "WG21-LWG2728"
-    },
-    "LWG999": {
-        "title": "Taking the address of a function",
-        "href": "http://cplusplus.github.io/LWG/lwg-defects.html#999",
+        "title": "Smart pointer referencing its owner",
+        "href": "http://cplusplus.github.io/LWG/lwg-defects.html#998",
         "status": "C++11",
         "authors": [
-            "Peter Dimov"
+            "Pavel Minaev"
         ],
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
+    },
+    "LWG999": {
+        "aliasOf": "WG21-LWG2728"
     },
     "N1344": {
         "title": "Namespaces and Library Versioning",
