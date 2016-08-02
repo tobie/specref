@@ -1,4 +1,4 @@
-module.exports = function(ref) {
+module.exports = function(id, ref) {
     return {
         authors: ref.authors,
         href: ref.href,

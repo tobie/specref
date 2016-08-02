@@ -34,7 +34,7 @@ request({
     var json = JSON.parse(body);
     Object.keys(json).forEach(function(id) {
         var ref = json[id];
-        ref = require(HELPER)(ref);
+        ref = require(HELPER)(id, ref);
         ref.publisher = PUBLISHER;
         ref.source = SOURCE;
         var uppercaseId = id.toUpperCase();
