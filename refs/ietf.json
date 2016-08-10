@@ -87877,7 +87877,8 @@
         "rawDate": "2010-04",
         "status": "Proposed Standard",
         "updatedBy": [
-            "RFC6969"
+            "RFC6969",
+            "RFC7949"
         ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -109925,6 +109926,7 @@
         ],
         "rawDate": "2014-07",
         "status": "Proposed Standard",
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=7293",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -119633,8 +119635,35 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc7938": {
+        "rfcNumber": "RFC7938",
+        "href": "https://tools.ietf.org/html/rfc7938",
+        "title": "Use of BGP for Routing in Large-Scale Data Centers",
+        "authors": [
+            "P. Lapukhov",
+            "A. Premji",
+            "J. Mitchell, Ed."
+        ],
+        "rawDate": "2016-08",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc794": {
         "aliasOf": "rfc0794"
+    },
+    "rfc7940": {
+        "rfcNumber": "RFC7940",
+        "href": "https://tools.ietf.org/html/rfc7940",
+        "title": "Representing Label Generation Rulesets Using XML",
+        "authors": [
+            "K. Davies",
+            "A. Freytag"
+        ],
+        "rawDate": "2016-08",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc7942": {
         "rfcNumber": "RFC7942",
@@ -119661,6 +119690,23 @@
         ],
         "rawDate": "2016-08",
         "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7949": {
+        "rfcNumber": "RFC7949",
+        "href": "https://tools.ietf.org/html/rfc7949",
+        "title": "OSPFv3 over IPv4 for IPv6 Transition",
+        "authors": [
+            "I. Chen",
+            "A. Lindem",
+            "R. Atkinson"
+        ],
+        "rawDate": "2016-08",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC5838"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
