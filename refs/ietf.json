@@ -32506,7 +32506,8 @@
             "RFC5746",
             "RFC6176",
             "RFC7465",
-            "RFC7507"
+            "RFC7507",
+            "RFC7919"
         ],
         "obsoletedBy": [
             "RFC4346"
@@ -65348,7 +65349,8 @@
             "RFC5746",
             "RFC6176",
             "RFC7465",
-            "RFC7507"
+            "RFC7507",
+            "RFC7919"
         ],
         "obsoletedBy": [
             "RFC5246"
@@ -67593,7 +67595,8 @@
         "status": "Informational",
         "updatedBy": [
             "RFC5246",
-            "RFC7027"
+            "RFC7027",
+            "RFC7919"
         ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=4492",
         "publisher": "IETF",
@@ -78956,7 +78959,8 @@
             "RFC7568",
             "RFC7627",
             "RFC7685",
-            "RFC7905"
+            "RFC7905",
+            "RFC7919"
         ],
         "updates": [
             "RFC4492"
@@ -89742,6 +89746,7 @@
         ],
         "rawDate": "2010-08",
         "status": "Proposed Standard",
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=5961",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -109926,7 +109931,6 @@
         ],
         "rawDate": "2014-07",
         "status": "Proposed Standard",
-        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=7293",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -119417,6 +119421,38 @@
         ],
         "rawDate": "2016-07",
         "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7918": {
+        "rfcNumber": "RFC7918",
+        "href": "https://tools.ietf.org/html/rfc7918",
+        "title": "Transport Layer Security (TLS) False Start",
+        "authors": [
+            "A. Langley",
+            "N. Modadugu",
+            "B. Moeller"
+        ],
+        "rawDate": "2016-08",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7919": {
+        "rfcNumber": "RFC7919",
+        "href": "https://tools.ietf.org/html/rfc7919",
+        "title": "Negotiated Finite Field Diffie-Hellman Ephemeral Parameters for Transport Layer Security (TLS)",
+        "authors": [
+            "D. Gillmor"
+        ],
+        "rawDate": "2016-08",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC2246",
+            "RFC4346",
+            "RFC4492",
+            "RFC5246"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
