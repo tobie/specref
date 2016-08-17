@@ -72094,7 +72094,8 @@
             "RFC5689",
             "RFC6638",
             "RFC6764",
-            "RFC7809"
+            "RFC7809",
+            "RFC7953"
         ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=4791",
         "publisher": "IETF",
@@ -83470,7 +83471,8 @@
         "updatedBy": [
             "RFC5546",
             "RFC6868",
-            "RFC7529"
+            "RFC7529",
+            "RFC7953"
         ],
         "obsoletes": [
             "RFC2445"
@@ -99606,6 +99608,9 @@
         ],
         "rawDate": "2012-05",
         "status": "Experimental",
+        "updatedBy": [
+            "RFC7930"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -99972,6 +99977,9 @@
         ],
         "rawDate": "2012-06",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC7953"
+        ],
         "updates": [
             "RFC4791",
             "RFC5546"
@@ -118868,6 +118876,36 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc7877": {
+        "rfcNumber": "RFC7877",
+        "href": "https://tools.ietf.org/html/rfc7877",
+        "title": "Session Peering Provisioning Framework (SPPF)",
+        "authors": [
+            "K. Cartwright",
+            "V. Bhatia",
+            "S. Ali",
+            "D. Schwartz"
+        ],
+        "rawDate": "2016-08",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7878": {
+        "rfcNumber": "RFC7878",
+        "href": "https://tools.ietf.org/html/rfc7878",
+        "title": "Session Peering Provisioning (SPP) Protocol over SOAP",
+        "authors": [
+            "K. Cartwright",
+            "V. Bhatia",
+            "J-F. Mule",
+            "A. Mayrhofer"
+        ],
+        "rawDate": "2016-08",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc7879": {
         "rfcNumber": "RFC7879",
         "href": "https://tools.ietf.org/html/rfc7879",
@@ -119375,6 +119413,19 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc7914": {
+        "rfcNumber": "RFC7914",
+        "href": "https://tools.ietf.org/html/rfc7914",
+        "title": "The scrypt Password-Based Key Derivation Function",
+        "authors": [
+            "C. Percival",
+            "S. Josefsson"
+        ],
+        "rawDate": "2016-08",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc7915": {
         "rfcNumber": "RFC7915",
         "href": "https://tools.ietf.org/html/rfc7915",
@@ -119613,6 +119664,21 @@
     "rfc793": {
         "aliasOf": "rfc0793"
     },
+    "rfc7930": {
+        "rfcNumber": "RFC7930",
+        "href": "https://tools.ietf.org/html/rfc7930",
+        "title": "Larger Packets for RADIUS over TCP",
+        "authors": [
+            "S. Hartman"
+        ],
+        "rawDate": "2016-08",
+        "status": "Experimental",
+        "updates": [
+            "RFC6613"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc7931": {
         "rfcNumber": "RFC7931",
         "href": "https://tools.ietf.org/html/rfc7931",
@@ -119768,6 +119834,24 @@
     },
     "rfc795": {
         "aliasOf": "rfc0795"
+    },
+    "rfc7953": {
+        "rfcNumber": "RFC7953",
+        "href": "https://tools.ietf.org/html/rfc7953",
+        "title": "Calendar Availability",
+        "authors": [
+            "C. Daboo",
+            "M. Douglass"
+        ],
+        "rawDate": "2016-08",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC4791",
+            "RFC5545",
+            "RFC6638"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc796": {
         "aliasOf": "rfc0796"
