@@ -1,0 +1,136 @@
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.featurette,
+#search,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.featurette {
+}
+.featurette p + h4 {
+  margin-top: 28px;
+}
+
+.footer {
+  padding-top: 19px;
+  color: #777;
+  font-size: smaller;
+  border-top: 1px solid #e5e5e5;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .featurette,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+
+#search dd {
+  margin-left: 40px;
+}
+
+#search dl {
+    text-align: left;
+    background-color: #fff;
+}
+
+strong.highlight {
+  font-weight: inherit;
+  background-color: yellow;
+}
+
+#status {
+    margin-top: 10px;
+    color: #777;
+    font-size: smaller;
+    white-space: pre-wrap;
+}
+
+h1 a,
+#search dt a {
+   color: rgb(51, 51, 51); 
+}
+
+h1 a:hover,
+#search dt a {
+    color: rgb(80, 80, 80); 
+}
+
+h1 a:hover {
+    text-decoration: none;
+}
+
+ul.features {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+ul.features li {
+}
+
+ul.features li:before {
+    content:"\2713\0020";
+    color: rgb(70, 136, 71);
+    font-weight: bold;
+    margin-right: 0.4em;
+}
+
+.icon {
+	display: inline-block;
+	color: #444444;
+	fill: currentColor;
+	background-color: ;
+}
+
+#icon-clipboard .path1 {
+	fill: currentcolor;
+}
+#icon-clipboard .path2 {
+	fill: rgb(70, 136, 71);
+}
+
+.icon-search,
+.icon-cloud-download,
+.icon-cogs,
+.icon-clipboard,
+.icon-github3 {
+	width: 16px;
+	height: 16px;
+}
+
+#search .icon-search {
+	color: #fff;
+	fill: currentColor;
+	width: 12px;
+	height: 12px;
+}
+
+
