@@ -4379,6 +4379,39 @@
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
         "edDraft": "http://dvcs.w3.org/hg/IndexedDB/raw-file/tip/Overview.html"
     },
+    "IndexedDB-2": {
+        "authors": [
+            "Ali Alabbas",
+            "Joshua Bell"
+        ],
+        "href": "https://www.w3.org/TR/IndexedDB-2/",
+        "title": "Indexed Database API 2.0",
+        "rawDate": "2016-08-18",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/IndexedDB/",
+        "deliveredBy": [
+            "https://www.w3.org/WebPlatform/WG/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20160818": {
+                "authors": [
+                    "Ali Alabbas",
+                    "Joshua Bell"
+                ],
+                "href": "https://www.w3.org/TR/2016/WD-IndexedDB-2-20160818/",
+                "title": "Indexed Database API 2.0",
+                "rawDate": "2016-08-18",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WebPlatform/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
     "InkML": {
         "authors": [
             "Stephen Watt",
@@ -29618,6 +29651,43 @@
         },
         "edDraft": "https://w3c.github.io/html/"
     },
+    "html52": {
+        "authors": [
+            "Steve Faulkner",
+            "Arron Eicholz",
+            "Travis Leithead",
+            "Alex Danilo"
+        ],
+        "href": "https://www.w3.org/TR/html52/",
+        "title": "HTML 5.2",
+        "rawDate": "2016-08-18",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/html/",
+        "deliveredBy": [
+            "https://www.w3.org/WebPlatform/WG/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20160818": {
+                "authors": [
+                    "Steve Faulkner",
+                    "Arron Eicholz",
+                    "Travis Leithead",
+                    "Alex Danilo"
+                ],
+                "href": "https://www.w3.org/TR/2016/WD-html52-20160818/",
+                "title": "HTML 5.2",
+                "rawDate": "2016-08-18",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WebPlatform/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
     "http-edit-dist-scenarios": {
         "versions": {
             "19961213": {
@@ -36336,12 +36406,14 @@
     },
     "orientation-event": {
         "authors": [
+            "Rich Tibbett",
+            "Tim Volodine",
             "Stephen Block",
             "Andrei Popescu"
         ],
         "href": "https://www.w3.org/TR/orientation-event/",
         "title": "DeviceOrientation Event Specification",
-        "status": "LCWD",
+        "status": "CR",
         "publisher": "W3C",
         "deliveredBy": [
             "https://www.w3.org/2008/geolocation/"
@@ -36367,10 +36439,28 @@
                     "https://www.w3.org/2008/geolocation/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20160818": {
+                "authors": [
+                    "Rich Tibbett",
+                    "Tim Volodine",
+                    "Stephen Block",
+                    "Andrei Popescu"
+                ],
+                "href": "https://www.w3.org/TR/2016/CR-orientation-event-20160818/",
+                "title": "DeviceOrientation Event Specification",
+                "rawDate": "2016-08-18",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2008/geolocation/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2011-12-01",
-        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+        "rawDate": "2016-08-18",
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "edDraft": "https://w3c.github.io/deviceorientation/spec-source-orientation.html"
     },
     "owl-absyn": {
         "aliasOf": "owl-semantics"
@@ -54582,8 +54672,8 @@
         ],
         "href": "https://www.w3.org/TR/vibration/",
         "title": "Vibration API",
-        "rawDate": "2015-02-10",
-        "status": "REC",
+        "rawDate": "2016-08-18",
+        "status": "PER",
         "publisher": "W3C",
         "deliveredBy": [
             "https://www.w3.org/2009/dap/"
@@ -54705,6 +54795,20 @@
                 "title": "Vibration API",
                 "rawDate": "2015-02-10",
                 "status": "REC",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2009/dap/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20160818": {
+                "authors": [
+                    "Anssi Kostiainen"
+                ],
+                "href": "https://www.w3.org/TR/2016/PER-vibration-20160818/",
+                "title": "Vibration API",
+                "rawDate": "2016-08-18",
+                "status": "PER",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/2009/dap/"
