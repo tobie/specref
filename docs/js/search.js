@@ -19,7 +19,7 @@ function highlight(txt, searchString) {
         if (tag == "</code>") flag = false;
         if (tag) return tag;
         if (flag) return txt;
-        return "<strong class='highlight'>" + txt + "</strong>";
+        return "<mark>" + txt + "</mark>";
     });
 }
 
