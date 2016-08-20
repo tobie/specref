@@ -268,10 +268,15 @@ request({
 });
 
 function makeCleaner(status, isRetired, isSuperseded) {
+    var AUTHORS_DICTIONARY = {
+        "Edward O'Connor": "Theresa O'Connor"
+    }
     return function(spec) {
         var authors = walk(spec, "editor");
         authors = authors ? authors.map(function(e) {
             return walk(e, "contact:fullName", 0) || walk(e, "org:name", 0);
+        }).map(function(a) {
+            return AUTHORS_DICTIONARY[a] || a;
         }) : void 0;
         var type = walk(spec, "rdf:type", 0, "$", "rdf:resource");
         var obj = {
