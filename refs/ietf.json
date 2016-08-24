@@ -29048,8 +29048,8 @@
             "RFC3667",
             "RFC3668",
             "RFC3932",
-            "RFC3979",
             "RFC3978",
+            "RFC3979",
             "RFC5378",
             "RFC5657",
             "RFC5742",
@@ -86184,6 +86184,9 @@
         ],
         "rawDate": "2010-03",
         "status": "Best Current Practice",
+        "updatedBy": [
+            "RFC7957"
+        ],
         "updates": [
             "RFC3265",
             "RFC3969"
@@ -100051,6 +100054,7 @@
         ],
         "rawDate": "2012-07",
         "status": "Proposed Standard",
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=6643",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -119854,8 +119858,38 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc7957": {
+        "rfcNumber": "RFC7957",
+        "href": "https://tools.ietf.org/html/rfc7957",
+        "title": "DISPATCH-Style Working Groups and the SIP Change Process",
+        "authors": [
+            "B. Campbell, Ed.",
+            "A. Cooper",
+            "B. Leiba"
+        ],
+        "rawDate": "2016-08",
+        "status": "Best Current Practice",
+        "updates": [
+            "RFC5727"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc796": {
         "aliasOf": "rfc0796"
+    },
+    "rfc7961": {
+        "rfcNumber": "RFC7961",
+        "href": "https://tools.ietf.org/html/rfc7961",
+        "title": "Transparent Interconnection of Lots of Links (TRILL): Interface Addresses APPsub-TLV",
+        "authors": [
+            "D. Eastlake 3rd",
+            "L. Yizhou"
+        ],
+        "rawDate": "2016-08",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc797": {
         "aliasOf": "rfc0797"
