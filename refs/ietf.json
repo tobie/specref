@@ -109313,6 +109313,9 @@
         ],
         "rawDate": "2014-06",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC7959"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -119715,6 +119718,29 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc7933": {
+        "rfcNumber": "RFC7933",
+        "href": "https://tools.ietf.org/html/rfc7933",
+        "title": "Adaptive Video Streaming over Information-Centric Networking (ICN)",
+        "authors": [
+            "C. Westphal, Ed.",
+            "S. Lederer",
+            "D. Posch",
+            "C. Timmerer",
+            "A. Azgin",
+            "W. Liu",
+            "C. Mueller",
+            "A. Detti",
+            "D. Corujo",
+            "J. Wang",
+            "M. Montpetit",
+            "N. Murray"
+        ],
+        "rawDate": "2016-08",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc7934": {
         "rfcNumber": "RFC7934",
         "href": "https://tools.ietf.org/html/rfc7934",
@@ -119875,6 +119901,22 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc7959": {
+        "rfcNumber": "RFC7959",
+        "href": "https://tools.ietf.org/html/rfc7959",
+        "title": "Block-Wise Transfers in the Constrained Application Protocol (CoAP)",
+        "authors": [
+            "C. Bormann",
+            "Z. Shelby, Ed."
+        ],
+        "rawDate": "2016-08",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC7252"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc796": {
         "aliasOf": "rfc0796"
     },
@@ -119888,6 +119930,21 @@
         ],
         "rawDate": "2016-08",
         "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7963": {
+        "rfcNumber": "RFC7963",
+        "href": "https://tools.ietf.org/html/rfc7963",
+        "title": "RSVP-TE Extension for Additional Signal Types in G.709 Optical Transport Networks (OTNs)",
+        "authors": [
+            "Z. Ali",
+            "A. Bonfanti",
+            "M. Hartley",
+            "F. Zhang"
+        ],
+        "rawDate": "2016-08",
+        "status": "Informational",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
