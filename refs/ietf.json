@@ -91967,6 +91967,9 @@
         ],
         "rawDate": "2011-02",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC7952"
+        ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=6110",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -97724,6 +97727,9 @@
         ],
         "rawDate": "2012-02",
         "status": "Proposed Standard",
+        "obsoletedBy": [
+            "RFC7935"
+        ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=6485",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -102075,6 +102081,9 @@
         ],
         "rawDate": "2012-10",
         "status": "Proposed Standard",
+        "obsoletedBy": [
+            "RFC7939"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -119756,6 +119765,22 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc7935": {
+        "rfcNumber": "RFC7935",
+        "href": "https://tools.ietf.org/html/rfc7935",
+        "title": "The Profile for Algorithms and Key Sizes for Use in the Resource Public Key Infrastructure",
+        "authors": [
+            "G. Huston",
+            "G. Michaelson, Ed."
+        ],
+        "rawDate": "2016-08",
+        "status": "Proposed Standard",
+        "obsoletes": [
+            "RFC6485"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc7936": {
         "rfcNumber": "RFC7936",
         "href": "https://tools.ietf.org/html/rfc7936",
@@ -119800,6 +119825,24 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc7939": {
+        "rfcNumber": "RFC7939",
+        "href": "https://tools.ietf.org/html/rfc7939",
+        "title": "Definition of Managed Objects for the Neighborhood Discovery Protocol",
+        "authors": [
+            "U. Herberg",
+            "R. Cole",
+            "I. Chakeres",
+            "T. Clausen"
+        ],
+        "rawDate": "2016-08",
+        "status": "Proposed Standard",
+        "obsoletes": [
+            "RFC6779"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc794": {
         "aliasOf": "rfc0794"
     },
@@ -119810,6 +119853,21 @@
         "authors": [
             "K. Davies",
             "A. Freytag"
+        ],
+        "rawDate": "2016-08",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7941": {
+        "rfcNumber": "RFC7941",
+        "href": "https://tools.ietf.org/html/rfc7941",
+        "title": "RTP Header Extension for the RTP Control Protocol (RTCP) Source Description Items",
+        "authors": [
+            "M. Westerlund",
+            "B. Burman",
+            "R. Even",
+            "M. Zanaty"
         ],
         "rawDate": "2016-08",
         "status": "Proposed Standard",
@@ -119881,6 +119939,45 @@
     "rfc795": {
         "aliasOf": "rfc0795"
     },
+    "rfc7950": {
+        "rfcNumber": "RFC7950",
+        "href": "https://tools.ietf.org/html/rfc7950",
+        "title": "The YANG 1.1 Data Modeling Language",
+        "authors": [
+            "M. Bjorklund, Ed."
+        ],
+        "rawDate": "2016-08",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7951": {
+        "rfcNumber": "RFC7951",
+        "href": "https://tools.ietf.org/html/rfc7951",
+        "title": "JSON Encoding of Data Modeled with YANG",
+        "authors": [
+            "L. Lhotka"
+        ],
+        "rawDate": "2016-08",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7952": {
+        "rfcNumber": "RFC7952",
+        "href": "https://tools.ietf.org/html/rfc7952",
+        "title": "Defining and Using Metadata with YANG",
+        "authors": [
+            "L. Lhotka"
+        ],
+        "rawDate": "2016-08",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC6110"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc7953": {
         "rfcNumber": "RFC7953",
         "href": "https://tools.ietf.org/html/rfc7953",
@@ -119913,6 +120010,21 @@
         "updates": [
             "RFC5727"
         ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7958": {
+        "rfcNumber": "RFC7958",
+        "href": "https://tools.ietf.org/html/rfc7958",
+        "title": "DNSSEC Trust Anchor Publication for the Root Zone",
+        "authors": [
+            "J. Abley",
+            "J. Schlyter",
+            "G. Bailey",
+            "P. Hoffman"
+        ],
+        "rawDate": "2016-08",
+        "status": "Informational",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -119980,6 +120092,21 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc7965": {
+        "rfcNumber": "RFC7965",
+        "href": "https://tools.ietf.org/html/rfc7965",
+        "title": "LDP Extensions for Pseudowire Binding to Label Switched Path (LSP) Tunnels",
+        "authors": [
+            "M. Chen",
+            "W. Cao",
+            "A. Takacs",
+            "P. Pan"
+        ],
+        "rawDate": "2016-08",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc7967": {
         "rfcNumber": "RFC7967",
         "href": "https://tools.ietf.org/html/rfc7967",
@@ -119992,6 +120119,22 @@
         ],
         "rawDate": "2016-08",
         "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7968": {
+        "rfcNumber": "RFC7968",
+        "href": "https://tools.ietf.org/html/rfc7968",
+        "title": "Transparent Interconnection of Lots of Links (TRILL): Using Data Labels for Tree Selection for Multi-Destination Data",
+        "authors": [
+            "Y. Li",
+            "D. Eastlake 3rd",
+            "W. Hao",
+            "H. Chen",
+            "S. Chatterjee"
+        ],
+        "rawDate": "2016-08",
+        "status": "Proposed Standard",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
