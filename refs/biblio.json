@@ -2704,30 +2704,7 @@
         "title": "Open Digital Rights Language (ODRL) Version 1.1"
     },
     "odrl-w3c-model": {
-        "authors": [
-            "Renato Iannella",
-            "Serena Villata"
-        ],
-        "href": "http://www.w3.org/TR/odrl-model/",
-        "publisher": "W3C",
-        "status": "W3C First Public Working Draft",
-        "rawDate": "2016-07-21",
-        "title": "ODRL Information Model"
-    },
-    "odrl-w3c-vocab": {
-        "authors": [
-            "Renato Iannella",
-            "Michael Steidl",
-            "Mo McRoberts",
-            "Stuart Myles",
-            "James Birmingham",
-            "Víctor Rodríguez-Doncel"
-        ],
-        "href": "http://www.w3.org/TR/vocab-odrl/",
-        "publisher": "W3C",
-        "status": "W3C First Public Working Draft",
-        "rawDate": "2016-07-21",
-        "title": "ODRL Vocabulary & Expression"
+        "aliasOf": "odrl-model"
     },
     "odrl2-req": {
         "authors": [
