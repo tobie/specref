@@ -110103,6 +110103,9 @@
         ],
         "rawDate": "2014-07",
         "status": "Informational",
+        "obsoletedBy": [
+            "RFC7972"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -120189,6 +120192,21 @@
     },
     "rfc797": {
         "aliasOf": "rfc0797"
+    },
+    "rfc7972": {
+        "rfcNumber": "RFC7972",
+        "href": "https://tools.ietf.org/html/rfc7972",
+        "title": "Entertainment Identifier Registry (EIDR) URN Namespace Definition",
+        "authors": [
+            "P. Lemieux"
+        ],
+        "rawDate": "2016-09",
+        "status": "Informational",
+        "obsoletes": [
+            "RFC7302"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc7979": {
         "rfcNumber": "RFC7979",
