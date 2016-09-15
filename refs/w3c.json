@@ -6678,7 +6678,7 @@
         ],
         "href": "https://www.w3.org/TR/SVG2/",
         "title": "Scalable Vector Graphics (SVG) 2",
-        "status": "WD",
+        "status": "CR",
         "publisher": "W3C",
         "deliveredBy": [
             "https://www.w3.org/Graphics/SVG/WG/"
@@ -6839,9 +6839,37 @@
                     "https://www.w3.org/Graphics/SVG/WG/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20160915": {
+                "authors": [
+                    "Nikos Andronikos",
+                    "Rossen Atanassov",
+                    "Tavmjong Bah",
+                    "Amelia Bellamy-Royds",
+                    "Brian Birtles",
+                    "Bogdan Brinza",
+                    "Cyril Concolato",
+                    "Erik Dahlström",
+                    "Chris Lilley",
+                    "Cameron McCormack",
+                    "Doug Schepers",
+                    "Dirk Schulze",
+                    "Richard Schwerdtfeger",
+                    "Satoru Takagi",
+                    "Jonathan Watt"
+                ],
+                "href": "https://www.w3.org/TR/2016/CR-SVG2-20160915/",
+                "title": "Scalable Vector Graphics (SVG) 2",
+                "rawDate": "2016-09-15",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Graphics/SVG/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2015-09-15",
+        "rawDate": "2016-09-15",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
         "edDraft": "https://svgwg.org/svg2-draft/"
     },
@@ -29640,8 +29668,8 @@
         ],
         "href": "https://www.w3.org/TR/html51/",
         "title": "HTML 5.1",
-        "rawDate": "2016-06-21",
-        "status": "CR",
+        "rawDate": "2016-09-15",
+        "status": "PR",
         "publisher": "W3C",
         "deliveredBy": [
             "https://www.w3.org/WebPlatform/WG/"
@@ -30255,6 +30283,23 @@
                 "title": "HTML 5.1",
                 "rawDate": "2016-06-21",
                 "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WebPlatform/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20160915": {
+                "authors": [
+                    "Steve Faulkner",
+                    "Arron Eicholz",
+                    "Travis Leithead",
+                    "Alex Danilo"
+                ],
+                "href": "https://www.w3.org/TR/2016/PR-html51-20160915/",
+                "title": "HTML 5.1",
+                "rawDate": "2016-09-15",
+                "status": "PR",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/WebPlatform/WG/"
@@ -48419,8 +48464,8 @@
         ],
         "href": "https://www.w3.org/TR/secure-contexts/",
         "title": "Secure Contexts",
-        "rawDate": "2016-07-19",
-        "status": "WD",
+        "rawDate": "2016-09-15",
+        "status": "CR",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/webappsec-secure-contexts/",
         "deliveredBy": [
@@ -48512,6 +48557,20 @@
                 "title": "Secure Contexts",
                 "rawDate": "2016-07-19",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2011/webappsec/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20160915": {
+                "authors": [
+                    "Mike West"
+                ],
+                "href": "https://www.w3.org/TR/2016/CR-secure-contexts-20160915/",
+                "title": "Secure Contexts",
+                "rawDate": "2016-09-15",
+                "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/2011/webappsec/"
@@ -54597,6 +54656,39 @@
             }
         }
     },
+    "tvcontrol-api": {
+        "authors": [
+            "Sung Hei Kim",
+            "Alexander Futász"
+        ],
+        "href": "https://www.w3.org/TR/tvcontrol-api/",
+        "title": "TV Control API Specification",
+        "rawDate": "2016-09-15",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/tvcontrol-api/",
+        "deliveredBy": [
+            "https://www.w3.org/2016/tvcontrol/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20160915": {
+                "authors": [
+                    "Sung Hei Kim",
+                    "Alexander Futász"
+                ],
+                "href": "https://www.w3.org/TR/2016/WD-tvcontrol-api-20160915/",
+                "title": "TV Control API Specification",
+                "rawDate": "2016-09-15",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2016/tvcontrol/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
     "uclp": {
         "versions": {
             "19990120": {
@@ -59560,6 +59652,72 @@
         },
         "rawDate": "2004-02-10",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+    },
+    "webpayments-http-api": {
+        "authors": [
+            "Manu Sporny",
+            "Dave Longley"
+        ],
+        "href": "https://www.w3.org/TR/webpayments-http-api/",
+        "title": "Web Payments HTTP API 1.0",
+        "rawDate": "2016-09-15",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/webpayments-http-api/",
+        "deliveredBy": [
+            "https://www.w3.org/Payments/WG/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20160915": {
+                "authors": [
+                    "Manu Sporny",
+                    "Dave Longley"
+                ],
+                "href": "https://www.w3.org/TR/2016/WD-webpayments-http-api-20160915/",
+                "title": "Web Payments HTTP API 1.0",
+                "rawDate": "2016-09-15",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Payments/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
+    "webpayments-http-messages": {
+        "authors": [
+            "Manu Sporny",
+            "Dave Longley"
+        ],
+        "href": "https://www.w3.org/TR/webpayments-http-messages/",
+        "title": "Web Payments HTTP Messages 1.0",
+        "rawDate": "2016-09-15",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/webpayments-http-messages/",
+        "deliveredBy": [
+            "https://www.w3.org/Payments/WG/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20160915": {
+                "authors": [
+                    "Manu Sporny",
+                    "Dave Longley"
+                ],
+                "href": "https://www.w3.org/TR/2016/WD-webpayments-http-messages-20160915/",
+                "title": "Web Payments HTTP Messages 1.0",
+                "rawDate": "2016-09-15",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Payments/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
     },
     "webrtc": {
         "authors": [
