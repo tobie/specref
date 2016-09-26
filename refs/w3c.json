@@ -1244,7 +1244,19 @@
         }
     },
     "CSP": {
-        "aliasOf": "CSP1"
+        "aliasOf": "CSP3"
+    },
+    "CSP-20111129": {
+        "aliasOf": "CSP1-20111129"
+    },
+    "CSP-20120710": {
+        "aliasOf": "CSP1-20120710"
+    },
+    "CSP-20121115": {
+        "aliasOf": "CSP1-20121115"
+    },
+    "CSP-20150219": {
+        "aliasOf": "CSP1-20150219"
     },
     "CSP1": {
         "authors": [
@@ -22936,7 +22948,7 @@
         ],
         "href": "https://www.w3.org/TR/eme-initdata-cenc/",
         "title": "\"cenc\" Initialization Data Format",
-        "rawDate": "2016-09-07",
+        "rawDate": "2016-09-15",
         "status": "NOTE",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/encrypted-media/format-registry/initdata/cenc.html",
@@ -22983,6 +22995,17 @@
                     "https://www.w3.org/html/wg/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20160915": {
+                "href": "https://www.w3.org/TR/2016/NOTE-eme-initdata-cenc-20160915/",
+                "title": "\"cenc\" Initialization Data Format",
+                "rawDate": "2016-09-15",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/html/wg/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
     },
@@ -22994,7 +23017,7 @@
         ],
         "href": "https://www.w3.org/TR/eme-initdata-keyids/",
         "title": "\"keyids\" Initialization Data Format",
-        "rawDate": "2016-09-07",
+        "rawDate": "2016-09-15",
         "status": "NOTE",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/encrypted-media/format-registry/initdata/keyids.html",
@@ -23040,6 +23063,17 @@
                     "https://www.w3.org/html/wg/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20160915": {
+                "href": "https://www.w3.org/TR/2016/NOTE-eme-initdata-keyids-20160915/",
+                "title": "\"keyids\" Initialization Data Format",
+                "rawDate": "2016-09-15",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/html/wg/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
     },
@@ -23051,7 +23085,7 @@
         ],
         "href": "https://www.w3.org/TR/eme-initdata-registry/",
         "title": "Encrypted Media Extensions Initialization Data Format Registry",
-        "rawDate": "2016-09-07",
+        "rawDate": "2016-09-15",
         "status": "NOTE",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/encrypted-media/format-registry/initdata/",
@@ -23097,6 +23131,17 @@
                     "https://www.w3.org/html/wg/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20160915": {
+                "href": "https://www.w3.org/TR/2016/NOTE-eme-initdata-registry-20160915/",
+                "title": "Encrypted Media Extensions Initialization Data Format Registry",
+                "rawDate": "2016-09-15",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/html/wg/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
     },
@@ -23108,7 +23153,7 @@
         ],
         "href": "https://www.w3.org/TR/eme-initdata-webm/",
         "title": "\"webm\" Initialization Data Format",
-        "rawDate": "2016-09-07",
+        "rawDate": "2016-09-15",
         "status": "NOTE",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/encrypted-media/format-registry/initdata/webm.html",
@@ -23154,6 +23199,17 @@
                     "https://www.w3.org/html/wg/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20160915": {
+                "href": "https://www.w3.org/TR/2016/NOTE-eme-initdata-webm-20160915/",
+                "title": "\"webm\" Initialization Data Format",
+                "rawDate": "2016-09-15",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/html/wg/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
     },
@@ -23166,7 +23222,7 @@
         ],
         "href": "https://www.w3.org/TR/eme-stream-mp4/",
         "title": "ISO Common Encryption ('cenc') Protection Scheme for ISO Base Media File Format Stream Format",
-        "rawDate": "2016-09-07",
+        "rawDate": "2016-09-15",
         "status": "NOTE",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/encrypted-media/format-registry/stream/mp4.html",
@@ -23213,6 +23269,17 @@
                     "https://www.w3.org/html/wg/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20160915": {
+                "href": "https://www.w3.org/TR/2016/NOTE-eme-stream-mp4-20160915/",
+                "title": "ISO Common Encryption ('cenc') Protection Scheme for ISO Base Media File Format Stream Format",
+                "rawDate": "2016-09-15",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/html/wg/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
     },
@@ -23224,7 +23291,7 @@
         ],
         "href": "https://www.w3.org/TR/eme-stream-registry/",
         "title": "Encrypted Media Extensions Stream Format Registry",
-        "rawDate": "2016-09-07",
+        "rawDate": "2016-09-15",
         "status": "NOTE",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/encrypted-media/format-registry/stream/",
@@ -23270,6 +23337,17 @@
                     "https://www.w3.org/html/wg/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20160915": {
+                "href": "https://www.w3.org/TR/2016/NOTE-eme-stream-registry-20160915/",
+                "title": "Encrypted Media Extensions Stream Format Registry",
+                "rawDate": "2016-09-15",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/html/wg/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
     },
@@ -23281,7 +23359,7 @@
         ],
         "href": "https://www.w3.org/TR/eme-stream-webm/",
         "title": "WebM Stream Format",
-        "rawDate": "2016-09-07",
+        "rawDate": "2016-09-15",
         "status": "NOTE",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/encrypted-media/format-registry/stream/webm.html",
@@ -23321,6 +23399,17 @@
                 "href": "https://www.w3.org/TR/2016/NOTE-eme-stream-webm-20160907/",
                 "title": "WebM Stream Format",
                 "rawDate": "2016-09-07",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/html/wg/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20160915": {
+                "href": "https://www.w3.org/TR/2016/NOTE-eme-stream-webm-20160915/",
+                "title": "WebM Stream Format",
+                "rawDate": "2016-09-15",
                 "status": "NOTE",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -26049,7 +26138,7 @@
         ],
         "href": "https://www.w3.org/TR/gamepad/",
         "title": "Gamepad",
-        "rawDate": "2016-02-20",
+        "rawDate": "2016-09-20",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -26155,6 +26244,17 @@
                 "href": "https://www.w3.org/TR/2016/WD-gamepad-20160220/",
                 "title": "Gamepad",
                 "rawDate": "2016-02-20",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WebPlatform/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20160920": {
+                "href": "https://www.w3.org/TR/2016/WD-gamepad-20160920/",
+                "title": "Gamepad",
+                "rawDate": "2016-09-20",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -27735,7 +27835,7 @@
         ],
         "href": "https://www.w3.org/TR/html-aria/",
         "title": "ARIA in HTML",
-        "rawDate": "2016-09-02",
+        "rawDate": "2016-09-19",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -27901,6 +28001,17 @@
                 "href": "https://www.w3.org/TR/2016/WD-html-aria-20160902/",
                 "title": "ARIA in HTML",
                 "rawDate": "2016-09-02",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WebPlatform/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20160919": {
+                "href": "https://www.w3.org/TR/2016/WD-html-aria-20160919/",
+                "title": "ARIA in HTML",
+                "rawDate": "2016-09-19",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -30708,7 +30819,7 @@
         ],
         "href": "https://www.w3.org/TR/image-capture/",
         "title": "MediaStream Image Capture",
-        "rawDate": "2016-09-14",
+        "rawDate": "2016-09-21",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -30883,6 +30994,18 @@
                 "href": "https://www.w3.org/TR/2016/WD-image-capture-20160914/",
                 "title": "MediaStream Image Capture",
                 "rawDate": "2016-09-14",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2011/04/webrtc/",
+                    "https://www.w3.org/2009/dap/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20160921": {
+                "href": "https://www.w3.org/TR/2016/WD-image-capture-20160921/",
+                "title": "MediaStream Image Capture",
+                "rawDate": "2016-09-21",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -31272,7 +31395,7 @@
         ],
         "href": "https://www.w3.org/TR/input-events/",
         "title": "Input Events",
-        "rawDate": "2016-08-30",
+        "rawDate": "2016-09-22",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/input-events/index.html",
@@ -31289,6 +31412,17 @@
                 "href": "https://www.w3.org/TR/2016/WD-input-events-20160830/",
                 "title": "Input Events",
                 "rawDate": "2016-08-30",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WebPlatform/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20160922": {
+                "href": "https://www.w3.org/TR/2016/WD-input-events-20160922/",
+                "title": "Input Events",
+                "rawDate": "2016-09-22",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -48631,7 +48765,7 @@
         ],
         "href": "https://www.w3.org/TR/selection-api/",
         "title": "Selection API",
-        "rawDate": "2016-04-21",
+        "rawDate": "2016-09-21",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/selection-api/",
@@ -48745,6 +48879,17 @@
                 "href": "https://www.w3.org/TR/2016/WD-selection-api-20160421/",
                 "title": "Selection API",
                 "rawDate": "2016-04-21",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WebPlatform/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20160921": {
+                "href": "https://www.w3.org/TR/2016/WD-selection-api-20160921/",
+                "title": "Selection API",
+                "rawDate": "2016-09-21",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -59876,7 +60021,7 @@
         ],
         "href": "https://www.w3.org/TR/webrtc-stats/",
         "title": "Identifiers for WebRTC's Statistics API",
-        "rawDate": "2016-05-27",
+        "rawDate": "2016-09-21",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/webrtc-stats/",
@@ -59938,6 +60083,17 @@
                 "href": "https://www.w3.org/TR/2016/WD-webrtc-stats-20160527/",
                 "title": "Identifiers for WebRTC's Statistics API",
                 "rawDate": "2016-05-27",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2011/04/webrtc/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20160921": {
+                "href": "https://www.w3.org/TR/2016/WD-webrtc-stats-20160921/",
+                "title": "Identifiers for WebRTC's Statistics API",
+                "rawDate": "2016-09-21",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
