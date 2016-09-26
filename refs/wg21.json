@@ -28663,7 +28663,7 @@
     "LWG1041": {
         "title": "Add associative/unordered container functions that allow to extract elements",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#1041",
-        "status": "LEWG",
+        "status": "Tentatively Resolved",
         "authors": [
             "Alisdair Meredith"
         ],
@@ -35233,7 +35233,7 @@
     "LWG2062": {
         "title": "Effect contradictions w/o no-throw guarantee of std::function swaps",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2062",
-        "status": "Open",
+        "status": "Tentatively Ready",
         "authors": [
             "Daniel Krügler"
         ],
@@ -35485,7 +35485,7 @@
         "href": "http://cplusplus.github.io/LWG/lwg-defects.html#2085",
         "status": "C++14",
         "authors": [
-            "Krzysztof Zelechowski"
+            "Krzysztof Żelechowski"
         ],
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
@@ -35593,7 +35593,7 @@
     "LWG2095": {
         "title": "promise and packaged_task missing constructors needed for uses-allocator construction",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2095",
-        "status": "Open",
+        "status": "LEWG",
         "authors": [
             "Jonathan Wakely"
         ],
@@ -36233,7 +36233,7 @@
     "LWG2152": {
         "title": "Instances of standard container types are not swappable",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2152",
-        "status": "Open",
+        "status": "LEWG",
         "authors": [
             "Robert Shearer"
         ],
@@ -36243,7 +36243,7 @@
     "LWG2153": {
         "title": "Narrowing of the non-member swap contract",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2153",
-        "status": "Open",
+        "status": "LEWG",
         "authors": [
             "Robert Shearer"
         ],
@@ -36293,7 +36293,7 @@
     "LWG2158": {
         "title": "Conditional copy/move in std::vector",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2158",
-        "status": "New",
+        "status": "Open",
         "authors": [
             "Nikolay Ivchenkov"
         ],
@@ -36332,8 +36332,8 @@
     },
     "LWG2161": {
         "title": "const equivalence of std::map",
-        "href": "http://cplusplus.github.io/LWG/lwg-active.html#2161",
-        "status": "New",
+        "href": "http://cplusplus.github.io/LWG/lwg-closed.html#2161",
+        "status": "NAD",
         "authors": [
             "Bjarne Stroustrup"
         ],
@@ -36383,7 +36383,7 @@
     "LWG2166": {
         "title": "Heap property underspecified?",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2166",
-        "status": "New",
+        "status": "Tentatively Ready",
         "authors": [
             "Peter Sommerlad"
         ],
@@ -37003,7 +37003,7 @@
     "LWG2221": {
         "title": "No formatted output operator for nullptr",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2221",
-        "status": "New",
+        "status": "Tentatively Ready",
         "authors": [
             "Matt Austern"
         ],
@@ -37023,7 +37023,7 @@
     "LWG2223": {
         "title": "shrink_to_fit effect on iterator validity",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2223",
-        "status": "Open",
+        "status": "Tentatively Ready",
         "authors": [
             "Juan Soulie"
         ],
@@ -37233,7 +37233,7 @@
     "LWG2242": {
         "title": "[uninitialized_]copy_n() defect",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2242",
-        "status": "New",
+        "status": "LEWG",
         "authors": [
             "Sean Parent"
         ],
@@ -37263,7 +37263,7 @@
     "LWG2245": {
         "title": "packaged_task::reset() memory allocation",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2245",
-        "status": "Open",
+        "status": "Tentatively Ready",
         "authors": [
             "Jonathan Wakely"
         ],
@@ -37443,7 +37443,7 @@
     "LWG2261": {
         "title": "Are containers required to use their 'pointer' type internally?",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2261",
-        "status": "New",
+        "status": "Tentatively Ready",
         "authors": [
             "Jonathan Wakely"
         ],
@@ -37803,7 +37803,7 @@
     "LWG2294": {
         "title": "<cstdlib> should declare abs(double)",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2294",
-        "status": "Open",
+        "status": "Tentatively Resolved",
         "authors": [
             "Pete Becker"
         ],
@@ -38353,7 +38353,7 @@
     "LWG2343": {
         "title": "Is the value of the ECMA-262 RegExp object's multiline property really false?",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2343",
-        "status": "New",
+        "status": "Tentatively Resolved",
         "authors": [
             "Nayuta Taga"
         ],
@@ -38513,7 +38513,7 @@
     "LWG2358": {
         "title": "Apparently-bogus definition of is_empty type trait",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2358",
-        "status": "New",
+        "status": "Tentatively Ready",
         "authors": [
             "Richard Smith"
         ],
@@ -38653,7 +38653,7 @@
     "LWG2370": {
         "title": "Operations involving type-erased allocators should not be noexcept in std::function",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2370",
-        "status": "Open",
+        "status": "Tentatively Resolved",
         "authors": [
             "Pablo Halpern"
         ],
@@ -38773,7 +38773,7 @@
     "LWG2381": {
         "title": "Inconsistency in parsing floating point numbers",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2381",
-        "status": "New",
+        "status": "Open",
         "authors": [
             "Marshall Clow"
         ],
@@ -38913,7 +38913,7 @@
     "LWG2394": {
         "title": "locale::name specification unclear — what is implementation-defined?",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2394",
-        "status": "New",
+        "status": "Tentatively Ready",
         "authors": [
             "Richard Smith"
         ],
@@ -39253,7 +39253,7 @@
     "LWG2424": {
         "title": "29.5 should state that atomic types are not trivially copyable",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2424",
-        "status": "Open",
+        "status": "Tentatively Resolved",
         "authors": [
             "Jens Maurer"
         ],
@@ -39463,7 +39463,7 @@
     "LWG2443": {
         "title": "std::array member functions should be constexpr",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2443",
-        "status": "LEWG",
+        "status": "Tentatively Resolved",
         "authors": [
             "Peter Sommerlad"
         ],
@@ -39653,7 +39653,7 @@
     "LWG2460": {
         "title": "LWG issue 2408 and value categories",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2460",
-        "status": "New",
+        "status": "Tentatively Ready",
         "authors": [
             "Richard Smith"
         ],
@@ -39703,7 +39703,7 @@
     "LWG2465": {
         "title": "SFINAE-friendly common_type is nearly impossible to specialize correctly and regresses key functionality",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2465",
-        "status": "New",
+        "status": "Open",
         "authors": [
             "Eric Niebler"
         ],
@@ -39733,7 +39733,7 @@
     "LWG2468": {
         "title": "Self-move-assignment of library types",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2468",
-        "status": "Open",
+        "status": "Tentatively Ready",
         "authors": [
             "Matt Austern"
         ],
@@ -39773,7 +39773,7 @@
     "LWG2471": {
         "title": "copy_n's number of InputIterator increments unspecified",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2471",
-        "status": "New",
+        "status": "LEWG",
         "authors": [
             "Jonathan Wakely"
         ],
@@ -39813,7 +39813,7 @@
     "LWG2475": {
         "title": "Allow overwriting of std::basic_string terminator with charT() to allow cleaner interoperation with legacy APIs",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2475",
-        "status": "New",
+        "status": "Tentatively Ready",
         "authors": [
             "Matt Weber"
         ],
@@ -40113,7 +40113,7 @@
     "LWG2501": {
         "title": "std::function requires POCMA/POCCA",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2501",
-        "status": "New",
+        "status": "Tentatively Resolved",
         "authors": [
             "David Krauss"
         ],
@@ -40123,7 +40123,7 @@
     "LWG2502": {
         "title": "std::function does not use allocator::construct",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2502",
-        "status": "New",
+        "status": "Tentatively Resolved",
         "authors": [
             "David Krauss"
         ],
@@ -40133,7 +40133,7 @@
     "LWG2503": {
         "title": "multiline option should be added to syntax_option_type",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2503",
-        "status": "New",
+        "status": "Tentatively Ready",
         "authors": [
             "Nozomu Katō"
         ],
@@ -40153,7 +40153,7 @@
     "LWG2505": {
         "title": "auto_ptr_ref creation requirements underspecified",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2505",
-        "status": "Open",
+        "status": "Tentatively Resolved",
         "authors": [
             "Hubert Tong"
         ],
@@ -40213,7 +40213,7 @@
     "LWG2510": {
         "title": "Tag types should not be DefaultConstructible",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2510",
-        "status": "Open",
+        "status": "Tentatively Ready",
         "authors": [
             "Ville Voutilainen"
         ],
@@ -40233,7 +40233,7 @@
     "LWG2512": {
         "title": "Y2K bites; what is an \"unambiguous year identifier\"?",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2512",
-        "status": "New",
+        "status": "Open",
         "authors": [
             "Hubert Tong"
         ],
@@ -40253,7 +40253,7 @@
     "LWG2514": {
         "title": "Type traits must not be final",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2514",
-        "status": "New",
+        "status": "Tentatively Ready",
         "authors": [
             "Jonathan Wakely"
         ],
@@ -40303,7 +40303,7 @@
     "LWG2519": {
         "title": "Iterator operator-= has gratuitous undefined behaviour",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2519",
-        "status": "New",
+        "status": "Tentatively Ready",
         "authors": [
             "Hubert Tong"
         ],
@@ -40433,7 +40433,7 @@
     "LWG2530": {
         "title": "Clarify observable side effects of releasing a shared state",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2530",
-        "status": "New",
+        "status": "Open",
         "authors": [
             "Agustín K-ballo Bergé"
         ],
@@ -40443,7 +40443,7 @@
     "LWG2531": {
         "title": "future::get should explicitly state that the shared state is released",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2531",
-        "status": "New",
+        "status": "Tentatively Ready",
         "authors": [
             "Agustín K-ballo Bergé"
         ],
@@ -40453,7 +40453,7 @@
     "LWG2532": {
         "title": "Satisfying a promise at thread exit",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2532",
-        "status": "New",
+        "status": "Open",
         "authors": [
             "Agustín K-ballo Bergé"
         ],
@@ -40473,7 +40473,7 @@
     "LWG2534": {
         "title": "Constrain rvalue stream operators",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2534",
-        "status": "New",
+        "status": "Tentatively Ready",
         "authors": [
             "Robert Haberlach"
         ],
@@ -40482,8 +40482,8 @@
     },
     "LWG2535": {
         "title": "Inconsistency between ostream::write and ostream::operator<<",
-        "href": "http://cplusplus.github.io/LWG/lwg-active.html#2535",
-        "status": "New",
+        "href": "http://cplusplus.github.io/LWG/lwg-closed.html#2535",
+        "status": "NAD",
         "authors": [
             "Marshall Clow"
         ],
@@ -40493,7 +40493,7 @@
     "LWG2536": {
         "title": "What should <complex.h> do?",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2536",
-        "status": "New",
+        "status": "Tentatively Ready",
         "authors": [
             "Richard Smith"
         ],
@@ -40543,7 +40543,7 @@
     "LWG2540": {
         "title": "unordered_multimap::insert hint iterator",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2540",
-        "status": "New",
+        "status": "Tentatively Ready",
         "authors": [
             "Isaac Hier"
         ],
@@ -40573,7 +40573,7 @@
     "LWG2543": {
         "title": "LWG 2148 (hash support for enum types) seems under-specified",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2543",
-        "status": "Open",
+        "status": "Tentatively Ready",
         "authors": [
             "Ville Voutilainen"
         ],
@@ -40583,7 +40583,7 @@
     "LWG2544": {
         "title": "istreambuf_iterator(basic_streambuf<charT, traits>* s) effects unclear when s is 0",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2544",
-        "status": "New",
+        "status": "Tentatively Ready",
         "authors": [
             "S. B. Tam"
         ],
@@ -40623,7 +40623,7 @@
     "LWG2548": {
         "title": "Missing vfscanf from <cstdio>",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2548",
-        "status": "New",
+        "status": "Tentatively Resolved",
         "authors": [
             "Richard Smith"
         ],
@@ -40713,7 +40713,7 @@
     "LWG2556": {
         "title": "Wide contract for future::share()",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2556",
-        "status": "New",
+        "status": "Tentatively Ready",
         "authors": [
             "Agustín K-ballo Bergé"
         ],
@@ -40783,7 +40783,7 @@
     "LWG2562": {
         "title": "Consistent total ordering of pointers by comparison functors",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2562",
-        "status": "New",
+        "status": "Tentatively Ready",
         "authors": [
             "Casey Carter"
         ],
@@ -40833,7 +40833,7 @@
     "LWG2567": {
         "title": "Specification of logical operator traits uses BaseCharacteristic, which is defined only for UnaryTypeTraits and BinaryTypeTraits",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2567",
-        "status": "New",
+        "status": "Tentatively Ready",
         "authors": [
             "Tim Song"
         ],
@@ -40843,7 +40843,7 @@
     "LWG2568": {
         "title": "[fund.ts.v2] Specification of logical operator traits uses BaseCharacteristic, which is defined only for UnaryTypeTraits and BinaryTypeTraits",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2568",
-        "status": "New",
+        "status": "Open",
         "authors": [
             "Tim Song"
         ],
@@ -40853,7 +40853,7 @@
     "LWG2569": {
         "title": "conjunction and disjunction requirements are too strict",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2569",
-        "status": "New",
+        "status": "Tentatively Ready",
         "authors": [
             "Tim Song"
         ],
@@ -40873,7 +40873,7 @@
     "LWG2570": {
         "title": "[fund.ts.v2] conjunction and disjunction requirements are too strict",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2570",
-        "status": "New",
+        "status": "Tentatively Ready",
         "authors": [
             "Tim Song"
         ],
@@ -40953,7 +40953,7 @@
     "LWG2578": {
         "title": "Iterator requirements should reference iterator traits",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2578",
-        "status": "New",
+        "status": "Tentatively Ready",
         "authors": [
             "Ville Voutilainen"
         ],
@@ -41023,7 +41023,7 @@
     "LWG2584": {
         "title": "<regex> ECMAScript IdentityEscape is ambiguous",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2584",
-        "status": "New",
+        "status": "Tentatively Ready",
         "authors": [
             "Billy O'Neal III"
         ],
@@ -41053,7 +41053,7 @@
     "LWG2587": {
         "title": "\"Convertible to bool\" requirement in conjunction and disjunction",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2587",
-        "status": "New",
+        "status": "Open",
         "authors": [
             "Tim Song"
         ],
@@ -41063,7 +41063,7 @@
     "LWG2588": {
         "title": "[fund.ts.v2] \"Convertible to bool\" requirement in conjunction and disjunction",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2588",
-        "status": "New",
+        "status": "Open",
         "authors": [
             "Tim Song"
         ],
@@ -41073,7 +41073,7 @@
     "LWG2589": {
         "title": "match_results can't satisfy the requirements of a container",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2589",
-        "status": "New",
+        "status": "Tentatively Ready",
         "authors": [
             "S. B. Tam"
         ],
@@ -41103,7 +41103,7 @@
     "LWG2591": {
         "title": "std::function's member template target() should not lead to undefined behaviour",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2591",
-        "status": "New",
+        "status": "Tentatively Ready",
         "authors": [
             "Daniel Krügler"
         ],
@@ -41123,7 +41123,7 @@
     "LWG2593": {
         "title": "Moved-from state of Allocators",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2593",
-        "status": "New",
+        "status": "LEWG",
         "authors": [
             "David Krauss"
         ],
@@ -41173,7 +41173,7 @@
     "LWG2598": {
         "title": "addressof works on temporaries",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2598",
-        "status": "New",
+        "status": "Tentatively Ready",
         "authors": [
             "Brent Friedman"
         ],
@@ -41893,7 +41893,7 @@
     "LWG2663": {
         "title": "Enable efficient retrieval of file size from directory_entry",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2663",
-        "status": "New",
+        "status": "Tentatively Resolved",
         "authors": [
             "Gor Nishanov"
         ],
@@ -41903,7 +41903,7 @@
     "LWG2664": {
         "title": "operator/ (and other append) semantics not useful if argument has root",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2664",
-        "status": "New",
+        "status": "Tentatively Ready",
         "authors": [
             "Peter Dimov"
         ],
@@ -41913,7 +41913,7 @@
     "LWG2665": {
         "title": "remove_filename() post condition is incorrect",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2665",
-        "status": "New",
+        "status": "Tentatively Ready",
         "authors": [
             "Eric Fiselier"
         ],
@@ -41993,7 +41993,7 @@
     "LWG2672": {
         "title": "Should is_empty use error_code in its specification?",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2672",
-        "status": "New",
+        "status": "Tentatively Ready",
         "authors": [
             "Jonathan Wakely"
         ],
@@ -42033,7 +42033,7 @@
     "LWG2676": {
         "title": "Provide filesystem::path overloads for File-based streams",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2676",
-        "status": "New",
+        "status": "Review",
         "authors": [
             "Beman Dawes"
         ],
@@ -42043,7 +42043,7 @@
     "LWG2677": {
         "title": "directory_entry::status is not allowed to be cached as a quality-of-implementation issue",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2677",
-        "status": "New",
+        "status": "Tentatively Resolved",
         "authors": [
             "Billy O'Neal"
         ],
@@ -42053,7 +42053,7 @@
     "LWG2678": {
         "title": "std::filesystem enum classes overspecified",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2678",
-        "status": "New",
+        "status": "Tentatively Ready",
         "authors": [
             "Richard Smith"
         ],
@@ -42063,7 +42063,7 @@
     "LWG2679": {
         "title": "Inconsistent Use of Effects and Equivalent To",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2679",
-        "status": "New",
+        "status": "Tentatively Ready",
         "authors": [
             "Dawn Perchik"
         ],
@@ -42083,7 +42083,7 @@
     "LWG2680": {
         "title": "Add \"Equivalent to\" to filesystem",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2680",
-        "status": "New",
+        "status": "Tentatively Ready",
         "authors": [
             "Beman Dawes"
         ],
@@ -42093,7 +42093,7 @@
     "LWG2681": {
         "title": "filesystem::copy() cannot copy symlinks",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2681",
-        "status": "New",
+        "status": "Tentatively Ready",
         "authors": [
             "Jonathan Wakely"
         ],
@@ -42103,7 +42103,7 @@
     "LWG2682": {
         "title": "filesystem::copy() won't create a symlink to a directory",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2682",
-        "status": "New",
+        "status": "Tentatively Ready",
         "authors": [
             "Jonathan Wakely"
         ],
@@ -42143,7 +42143,7 @@
     "LWG2686": {
         "title": "Why is std::hash specialized for error_code, but not error_condition?",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2686",
-        "status": "New",
+        "status": "Tentatively Ready",
         "authors": [
             "Tim Song"
         ],
@@ -42233,7 +42233,7 @@
     "LWG2694": {
         "title": "Application of LWG 436 accidentally deleted definition of \"facet\"",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2694",
-        "status": "New",
+        "status": "Tentatively Ready",
         "authors": [
             "Tim Song"
         ],
@@ -42253,7 +42253,7 @@
     "LWG2696": {
         "title": "Interaction between make_shared and enable_shared_from_this is underspecified",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2696",
-        "status": "New",
+        "status": "Tentatively Ready",
         "authors": [
             "Joe Gottman"
         ],
@@ -42283,7 +42283,7 @@
     "LWG2699": {
         "title": "Missing restriction in [numeric.requirements]",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2699",
-        "status": "New",
+        "status": "Tentatively Ready",
         "authors": [
             "Hubert Tong"
         ],
@@ -42321,9 +42321,9 @@
         "source": "https://wg21.link/index.json"
     },
     "LWG2701": {
-        "title": "Unclear requirement in [memory.resource.prot]",
-        "href": "http://cplusplus.github.io/LWG/lwg-active.html#2701",
-        "status": "New",
+        "title": "Unclear requirement in [memory.resource.private]",
+        "href": "http://cplusplus.github.io/LWG/lwg-closed.html#2701",
+        "status": "NAD Editorial",
         "authors": [
             "Jonathan Wakely"
         ],
@@ -42393,7 +42393,7 @@
     "LWG2708": {
         "title": "recursive_directory_iterator::recursion_pending() is incorrectly specified",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2708",
-        "status": "New",
+        "status": "Open",
         "authors": [
             "Eric Fiselier"
         ],
@@ -42443,7 +42443,7 @@
     "LWG2712": {
         "title": "copy_file(from, to, ...) has a number of unspecified error conditions",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2712",
-        "status": "New",
+        "status": "Tentatively Ready",
         "authors": [
             "Eric Fiselier"
         ],
@@ -42553,7 +42553,7 @@
     "LWG2722": {
         "title": "equivalent incorrectly specifies throws clause",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2722",
-        "status": "New",
+        "status": "Tentatively Ready",
         "authors": [
             "Eric Fiselier"
         ],
@@ -42623,7 +42623,7 @@
     "LWG2729": {
         "title": "Missing SFINAE on std::pair::operator=",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2729",
-        "status": "New",
+        "status": "Tentatively Ready",
         "authors": [
             "Richard Smith"
         ],
@@ -42663,7 +42663,7 @@
     "LWG2732": {
         "title": "Questionable specification of path::operator/= and path::append",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2732",
-        "status": "New",
+        "status": "Tentatively Ready",
         "authors": [
             "Tim Song"
         ],
@@ -42673,7 +42673,7 @@
     "LWG2733": {
         "title": "[fund.ts.v2] gcd / lcm and bool",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2733",
-        "status": "New",
+        "status": "Tentatively Ready",
         "authors": [
             "Richard Smith"
         ],
@@ -42693,7 +42693,7 @@
     "LWG2735": {
         "title": "std::abs(short), std::abs(signed char) and others should return int instead of double in order to be compatible with C++98 and C",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2735",
-        "status": "New",
+        "status": "Tentatively Ready",
         "authors": [
             "Jörn Heusipp"
         ],
@@ -42703,7 +42703,7 @@
     "LWG2736": {
         "title": "nullopt_t insufficiently constrained",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2736",
-        "status": "New",
+        "status": "Tentatively Ready",
         "authors": [
             "Tim Song"
         ],
@@ -42723,7 +42723,7 @@
     "LWG2738": {
         "title": "is_constructible with void types",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2738",
-        "status": "New",
+        "status": "Tentatively Ready",
         "authors": [
             "S. B. Tam"
         ],
@@ -42733,7 +42733,7 @@
     "LWG2739": {
         "title": "Issue with time_point non-member subtraction with an unsigned duration",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2739",
-        "status": "New",
+        "status": "Tentatively Ready",
         "authors": [
             "Michael Winterberg"
         ],
@@ -42753,7 +42753,7 @@
     "LWG2740": {
         "title": "constexpr optional<T>::operator->",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2740",
-        "status": "New",
+        "status": "Tentatively Ready",
         "authors": [
             "Agustín K-ballo Bergé"
         ],
@@ -42773,7 +42773,7 @@
     "LWG2742": {
         "title": "Inconsistent string interface taking string_view",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2742",
-        "status": "New",
+        "status": "Tentatively Ready",
         "authors": [
             "Richard Smith"
         ],
@@ -42790,12 +42790,172 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "LWG2744": {
+        "title": "any's in_place constructors",
+        "href": "http://cplusplus.github.io/LWG/lwg-active.html#2744",
+        "status": "Tentatively Ready",
+        "authors": [
+            "Ville Voutilainen"
+        ],
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "LWG2745": {
+        "title": "[fund.ts.v2] Implementability of LWG 2451",
+        "href": "http://cplusplus.github.io/LWG/lwg-active.html#2745",
+        "status": "Tentatively Ready",
+        "authors": [
+            "Casey Carter"
+        ],
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "LWG2746": {
+        "title": "Inconsistency between requirements for emplace between optional and variant",
+        "href": "http://cplusplus.github.io/LWG/lwg-active.html#2746",
+        "status": "New",
+        "authors": [
+            "Richard Smith"
+        ],
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "LWG2747": {
+        "title": "Possibly redundant std::move in [alg.foreach]",
+        "href": "http://cplusplus.github.io/LWG/lwg-active.html#2747",
+        "status": "Tentatively Ready",
+        "authors": [
+            "Jonathan Wakely"
+        ],
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "LWG2748": {
+        "title": "swappable traits for optionals",
+        "href": "http://cplusplus.github.io/LWG/lwg-active.html#2748",
+        "status": "Tentatively Ready",
+        "authors": [
+            "Agustín K-ballo Bergé"
+        ],
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "LWG2749": {
+        "title": "swappable traits for variants",
+        "href": "http://cplusplus.github.io/LWG/lwg-active.html#2749",
+        "status": "Tentatively Ready",
+        "authors": [
+            "Agustín K-ballo Bergé"
+        ],
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "LWG275": {
         "title": "Wrong type in num_get::get() overloads",
         "href": "http://cplusplus.github.io/LWG/lwg-defects.html#275",
         "status": "CD1",
         "authors": [
             "Matt Austern"
+        ],
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "LWG2750": {
+        "title": "[fund.ts.v2] LWG 2451 conversion constructor constraint",
+        "href": "http://cplusplus.github.io/LWG/lwg-active.html#2750",
+        "status": "Tentatively Ready",
+        "authors": [
+            "Casey Carter"
+        ],
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "LWG2751": {
+        "title": "shared_ptr deleter not specified to observe expired weak_ptr instances",
+        "href": "http://cplusplus.github.io/LWG/lwg-active.html#2751",
+        "status": "New",
+        "authors": [
+            "Aaron Jacobs"
+        ],
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "LWG2752": {
+        "title": "\"Throws:\" clauses of async and packaged_task are unimplementable",
+        "href": "http://cplusplus.github.io/LWG/lwg-active.html#2752",
+        "status": "Tentatively Ready",
+        "authors": [
+            "Billy Robert O'Neal III"
+        ],
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "LWG2753": {
+        "title": "Optional's constructors and assignments need constraints",
+        "href": "http://cplusplus.github.io/LWG/lwg-active.html#2753",
+        "status": "Tentatively Ready",
+        "authors": [
+            "Casey Carter"
+        ],
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "LWG2754": {
+        "title": "The in_place constructors and emplace functions added by P0032R3 don't require CopyConstructible",
+        "href": "http://cplusplus.github.io/LWG/lwg-active.html#2754",
+        "status": "Tentatively Ready",
+        "authors": [
+            "Ville Voutilainen"
+        ],
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "LWG2755": {
+        "title": "§[string.view.io] uses non-existent basic_string_view::to_string function",
+        "href": "http://cplusplus.github.io/LWG/lwg-active.html#2755",
+        "status": "Tentatively Ready",
+        "authors": [
+            "Billy Baker"
+        ],
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "LWG2756": {
+        "title": "C++ WP optional<T> should 'forward' T's implicit conversions",
+        "href": "http://cplusplus.github.io/LWG/lwg-active.html#2756",
+        "status": "Tentatively Ready",
+        "authors": [
+            "Casey Carter"
+        ],
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "LWG2757": {
+        "title": "std::string{}.insert(3, \"ABCDE\", 0, 1) is ambiguous",
+        "href": "http://cplusplus.github.io/LWG/lwg-active.html#2757",
+        "status": "Open",
+        "authors": [
+            "Marshall Clow"
+        ],
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "LWG2758": {
+        "title": "std::string{}.assign(\"ABCDE\", 0, 1) is ambiguous",
+        "href": "http://cplusplus.github.io/LWG/lwg-active.html#2758",
+        "status": "Open",
+        "authors": [
+            "Marshall Clow"
+        ],
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "LWG2759": {
+        "title": "gcd / lcm and bool for the WP",
+        "href": "http://cplusplus.github.io/LWG/lwg-active.html#2759",
+        "status": "Tentatively Ready",
+        "authors": [
+            "Walter Brown"
         ],
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
@@ -42810,12 +42970,142 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "LWG2760": {
+        "title": "non-const basic_string::data should not invalidate iterators",
+        "href": "http://cplusplus.github.io/LWG/lwg-active.html#2760",
+        "status": "Tentatively Ready",
+        "authors": [
+            "Billy Baker"
+        ],
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "LWG2761": {
+        "title": "directory_entry comparisons are members",
+        "href": "http://cplusplus.github.io/LWG/lwg-active.html#2761",
+        "status": "New",
+        "authors": [
+            "Ville Voutilainen"
+        ],
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "LWG2762": {
+        "title": "unique_ptr operator*() should be noexcept",
+        "href": "http://cplusplus.github.io/LWG/lwg-active.html#2762",
+        "status": "LEWG",
+        "authors": [
+            "Ville Voutilainen"
+        ],
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "LWG2763": {
+        "title": "common_type_t<void, void> is undefined",
+        "href": "http://cplusplus.github.io/LWG/lwg-active.html#2763",
+        "status": "New",
+        "authors": [
+            "Tim Song"
+        ],
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "LWG2764": {
+        "title": "Are <cstddint> macros optional?",
+        "href": "http://cplusplus.github.io/LWG/lwg-active.html#2764",
+        "status": "New",
+        "authors": [
+            "Thomas Koeppe"
+        ],
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "LWG2765": {
+        "title": "Did LWG 1123 go too far?",
+        "href": "http://cplusplus.github.io/LWG/lwg-active.html#2765",
+        "status": "Tentatively Ready",
+        "authors": [
+            "Richard Smith"
+        ],
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "LWG2766": {
+        "title": "Swapping non-swappable types",
+        "href": "http://cplusplus.github.io/LWG/lwg-active.html#2766",
+        "status": "New",
+        "authors": [
+            "Agustín K-ballo Bergé"
+        ],
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "LWG2767": {
+        "title": "not_fn call_wrapper can form invalid types",
+        "href": "http://cplusplus.github.io/LWG/lwg-active.html#2767",
+        "status": "Tentatively Ready",
+        "authors": [
+            "Jonathan Wakely"
+        ],
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "LWG2768": {
+        "title": "any_cast and move semantics",
+        "href": "http://cplusplus.github.io/LWG/lwg-active.html#2768",
+        "status": "Tentatively Ready",
+        "authors": [
+            "Casey Carter"
+        ],
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "LWG2769": {
+        "title": "Redundant const in the return type of any_cast(const any&)",
+        "href": "http://cplusplus.github.io/LWG/lwg-active.html#2769",
+        "status": "Tentatively Ready",
+        "authors": [
+            "Casey Carter"
+        ],
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "LWG277": {
         "title": "Normative encouragement in allocator requirements unclear",
         "href": "http://cplusplus.github.io/LWG/lwg-closed.html#277",
         "status": "NAD",
         "authors": [
             "Matt Austern"
+        ],
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "LWG2770": {
+        "title": "tuple_size<const T> specialization is not SFINAE compatible and breaks decomposition declarations",
+        "href": "http://cplusplus.github.io/LWG/lwg-active.html#2770",
+        "status": "New",
+        "authors": [
+            "Richard Smith"
+        ],
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "LWG2771": {
+        "title": "Broken Effects of some basic_string::compare functions in terms of basic_string_view",
+        "href": "http://cplusplus.github.io/LWG/lwg-active.html#2771",
+        "status": "New",
+        "authors": [
+            "Daniel Krügler"
+        ],
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "LWG2772": {
+        "title": "Inconsistency in the insert(node) interface",
+        "href": "http://cplusplus.github.io/LWG/lwg-active.html#2772",
+        "status": "New",
+        "authors": [
+            "Tomasz Kamiński"
         ],
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
@@ -44171,7 +44461,7 @@
         "source": "https://wg21.link/index.json"
     },
     "LWG4": {
-        "title": "Basic_string size_type and difference_type should be implementation defined",
+        "title": "basic_string size_type and difference_type should be implementation defined",
         "href": "http://cplusplus.github.io/LWG/lwg-closed.html#4",
         "status": "NAD",
         "authors": [
@@ -49053,7 +49343,7 @@
     "LWG839": {
         "title": "Maps and sets missing splice operation",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#839",
-        "status": "LEWG",
+        "status": "Tentatively Resolved",
         "authors": [
             "Alan Talbot"
         ],
@@ -72020,7 +72310,6 @@
         "authors": [
             "M. Wong, R. Silvera, R. Mak, C. Cambly, et al."
         ],
-        "rawDate": "2013-04-29",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -73822,7 +74111,6 @@
         "authors": [
             "Alasdair Mackintosh"
         ],
-        "rawDate": "2013-10-11",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -99587,14 +99875,101 @@
     "WG21-LWG2743": {
         "aliasOf": "LWG2743"
     },
+    "WG21-LWG2744": {
+        "aliasOf": "LWG2744"
+    },
+    "WG21-LWG2745": {
+        "aliasOf": "LWG2745"
+    },
+    "WG21-LWG2746": {
+        "aliasOf": "LWG2746"
+    },
+    "WG21-LWG2747": {
+        "aliasOf": "LWG2747"
+    },
+    "WG21-LWG2748": {
+        "aliasOf": "LWG2748"
+    },
+    "WG21-LWG2749": {
+        "aliasOf": "LWG2749"
+    },
     "WG21-LWG275": {
         "aliasOf": "LWG275"
+    },
+    "WG21-LWG2750": {
+        "aliasOf": "LWG2750"
+    },
+    "WG21-LWG2751": {
+        "aliasOf": "LWG2751"
+    },
+    "WG21-LWG2752": {
+        "aliasOf": "LWG2752"
+    },
+    "WG21-LWG2753": {
+        "aliasOf": "LWG2753"
+    },
+    "WG21-LWG2754": {
+        "aliasOf": "LWG2754"
+    },
+    "WG21-LWG2755": {
+        "aliasOf": "LWG2755"
+    },
+    "WG21-LWG2756": {
+        "aliasOf": "LWG2756"
+    },
+    "WG21-LWG2757": {
+        "aliasOf": "LWG2757"
+    },
+    "WG21-LWG2758": {
+        "aliasOf": "LWG2758"
+    },
+    "WG21-LWG2759": {
+        "aliasOf": "LWG2759"
     },
     "WG21-LWG276": {
         "aliasOf": "LWG276"
     },
+    "WG21-LWG2760": {
+        "aliasOf": "LWG2760"
+    },
+    "WG21-LWG2761": {
+        "aliasOf": "LWG2761"
+    },
+    "WG21-LWG2762": {
+        "aliasOf": "LWG2762"
+    },
+    "WG21-LWG2763": {
+        "aliasOf": "LWG2763"
+    },
+    "WG21-LWG2764": {
+        "aliasOf": "LWG2764"
+    },
+    "WG21-LWG2765": {
+        "aliasOf": "LWG2765"
+    },
+    "WG21-LWG2766": {
+        "aliasOf": "LWG2766"
+    },
+    "WG21-LWG2767": {
+        "aliasOf": "LWG2767"
+    },
+    "WG21-LWG2768": {
+        "aliasOf": "LWG2768"
+    },
+    "WG21-LWG2769": {
+        "aliasOf": "LWG2769"
+    },
     "WG21-LWG277": {
         "aliasOf": "LWG277"
+    },
+    "WG21-LWG2770": {
+        "aliasOf": "LWG2770"
+    },
+    "WG21-LWG2771": {
+        "aliasOf": "LWG2771"
+    },
+    "WG21-LWG2772": {
+        "aliasOf": "LWG2772"
     },
     "WG21-LWG278": {
         "aliasOf": "LWG278"

@@ -17308,9 +17308,6 @@
         ],
         "rawDate": "1991-09",
         "status": "Proposed Standard",
-        "seeAlso": [
-            "RFC0792"
-        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -37730,6 +37727,7 @@
         "obsoletedBy": [
             "RFC2910"
         ],
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=2565",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -74863,6 +74861,9 @@
         ],
         "rawDate": "2007-09",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC7977"
+        ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=4975",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -74878,6 +74879,9 @@
         ],
         "rawDate": "2007-09",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC7977"
+        ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=4976",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -110305,7 +110309,8 @@
         "rawDate": "2014-07",
         "status": "Informational",
         "updatedBy": [
-            "RFC7913"
+            "RFC7913",
+            "RFC7976"
         ],
         "obsoletes": [
             "RFC3455"
@@ -119769,6 +119774,7 @@
         ],
         "rawDate": "2016-07",
         "status": "Best Current Practice",
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=7934",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -119897,6 +119903,19 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc7943": {
+        "rfcNumber": "RFC7943",
+        "href": "https://tools.ietf.org/html/rfc7943",
+        "title": "A Method for Generating Semantically Opaque Interface Identifiers (IIDs) with the Dynamic Host Configuration Protocol for IPv6 (DHCPv6)",
+        "authors": [
+            "F. Gont",
+            "W. Liu"
+        ],
+        "rawDate": "2016-09",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc7944": {
         "rfcNumber": "RFC7944",
         "href": "https://tools.ietf.org/html/rfc7944",
@@ -119906,6 +119925,22 @@
         ],
         "rawDate": "2016-08",
         "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7945": {
+        "rfcNumber": "RFC7945",
+        "href": "https://tools.ietf.org/html/rfc7945",
+        "title": "Information-Centric Networking: Evaluation and Security Considerations",
+        "authors": [
+            "K. Pentikousis, Ed.",
+            "B. Ohlman",
+            "E. Davies",
+            "S. Spirou",
+            "G. Boggia"
+        ],
+        "rawDate": "2016-09",
+        "status": "Informational",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -120031,6 +120066,36 @@
             "RFC5545",
             "RFC6638"
         ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7954": {
+        "rfcNumber": "RFC7954",
+        "href": "https://tools.ietf.org/html/rfc7954",
+        "title": "Locator/ID Separation Protocol (LISP) Endpoint Identifier (EID) Block",
+        "authors": [
+            "L. Iannone",
+            "D. Lewis",
+            "D. Meyer",
+            "V. Fuller"
+        ],
+        "rawDate": "2016-09",
+        "status": "Experimental",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7955": {
+        "rfcNumber": "RFC7955",
+        "href": "https://tools.ietf.org/html/rfc7955",
+        "title": "Management Guidelines for the Locator/ID Separation Protocol (LISP) Endpoint Identifier (EID) Block",
+        "authors": [
+            "L. Iannone",
+            "R. Jorgensen",
+            "D. Conrad",
+            "G. Huston"
+        ],
+        "rawDate": "2016-09",
+        "status": "Informational",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -120161,6 +120226,21 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc7966": {
+        "rfcNumber": "RFC7966",
+        "href": "https://tools.ietf.org/html/rfc7966",
+        "title": "Security at the Attribute-Value Pair (AVP) Level for Non-neighboring Diameter Nodes: Scenarios and Requirements",
+        "authors": [
+            "H. Tschofenig",
+            "J. Korhonen, Ed.",
+            "G. Zorn",
+            "K. Pillay"
+        ],
+        "rawDate": "2016-09",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc7967": {
         "rfcNumber": "RFC7967",
         "href": "https://tools.ietf.org/html/rfc7967",
@@ -120210,6 +120290,43 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc7976": {
+        "rfcNumber": "RFC7976",
+        "href": "https://tools.ietf.org/html/rfc7976",
+        "title": "Updates to Private Header (P-Header) Extension Usage in Session Initiation Protocol (SIP) Requests and Responses",
+        "authors": [
+            "C. Holmberg",
+            "N. Biondic",
+            "G. Salgueiro"
+        ],
+        "rawDate": "2016-09",
+        "status": "Informational",
+        "updates": [
+            "RFC7315"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7977": {
+        "rfcNumber": "RFC7977",
+        "href": "https://tools.ietf.org/html/rfc7977",
+        "title": "The WebSocket Protocol as a Transport for the Message Session Relay Protocol (MSRP)",
+        "authors": [
+            "P. Dunkley",
+            "G. Llewellyn",
+            "V. Pascual",
+            "G. Salgueiro",
+            "R. Ravindranath"
+        ],
+        "rawDate": "2016-09",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC4975",
+            "RFC4976"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc7979": {
         "rfcNumber": "RFC7979",
         "href": "https://tools.ietf.org/html/rfc7979",
@@ -120225,6 +120342,21 @@
     },
     "rfc798": {
         "aliasOf": "rfc0798"
+    },
+    "rfc7982": {
+        "rfcNumber": "RFC7982",
+        "href": "https://tools.ietf.org/html/rfc7982",
+        "title": "Measurement of Round-Trip Time and Fractional Loss Using Session Traversal Utilities for NAT (STUN)",
+        "authors": [
+            "P. Martinsen",
+            "T. Reddy",
+            "D. Wing",
+            "V. Singh"
+        ],
+        "rawDate": "2016-09",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc799": {
         "aliasOf": "rfc0799"
