@@ -42463,6 +42463,7 @@
         "obsoletes": [
             "RFC2233"
         ],
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=2863",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -98145,7 +98146,8 @@
         "status": "Proposed Standard",
         "updatedBy": [
             "RFC7582",
-            "RFC7900"
+            "RFC7900",
+            "RFC7988"
         ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=6513",
         "publisher": "IETF",
@@ -98171,7 +98173,8 @@
             "RFC7582",
             "RFC7899",
             "RFC7900",
-            "RFC7902"
+            "RFC7902",
+            "RFC7988"
         ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=6514",
         "publisher": "IETF",
@@ -119748,6 +119751,7 @@
         "updates": [
             "RFC7530"
         ],
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=7931",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -120331,6 +120335,22 @@
     "rfc797": {
         "aliasOf": "rfc0797"
     },
+    "rfc7971": {
+        "rfcNumber": "RFC7971",
+        "href": "https://tools.ietf.org/html/rfc7971",
+        "title": "Application-Layer Traffic Optimization (ALTO) Deployment Considerations",
+        "authors": [
+            "M. Stiemerling",
+            "S. Kiesel",
+            "M. Scharf",
+            "H. Seidel",
+            "S. Previdi"
+        ],
+        "rawDate": "2016-10",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc7972": {
         "rfcNumber": "RFC7972",
         "href": "https://tools.ietf.org/html/rfc7972",
@@ -120461,6 +120481,24 @@
         "status": "Proposed Standard",
         "updates": [
             "RFC3263"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7988": {
+        "rfcNumber": "RFC7988",
+        "href": "https://tools.ietf.org/html/rfc7988",
+        "title": "Ingress Replication Tunnels in Multicast VPN",
+        "authors": [
+            "E. Rosen, Ed.",
+            "K. Subramanian",
+            "Z. Zhang"
+        ],
+        "rawDate": "2016-10",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC6513",
+            "RFC6514"
         ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
