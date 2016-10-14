@@ -3,6 +3,17 @@ Specref API [![Build Status](https://travis-ci.org/tobie/specref.png?branch=mast
 
 [Specref](http://www.specref.org/) is an open-source, community-maintained database of Web standards & related references.
 
+##Table of Contents##
+
+* [API](#api)
+  * [Aliases](#aliases)
+  * [CORS](#cors)
+  * [Examples](#examples)
+* [Updating & Adding New References](#updating--adding-new-references)
+  * [Daily Auto-Updating](#daily-auto-updating)
+  * [Manual Changes](#manual-changes)
+* [Licenses](#licenses)
+
 ## API
 
 The API to the service is very simple. It supports four operations which are: 
@@ -199,7 +210,7 @@ Some examples should help:
 
 If you need to find a reference ID (for either bibliographic or cross-references) you need to look for it on [specref.org](http://specref.org).
 
-## Updating & Adding
+## Updating & Adding New References
 
 ### Daily Auto-Updating
 
@@ -207,11 +218,11 @@ There are scripts that pull fresh data from IETF, W3C, and WHATWG, and update th
 
 ### Manual Changes
 
-You can make modifications to the databases simply by editing either `refs/biblio.json` in the [GitHub repository](https://github.com/tobie/specref). 
+You can make modifications to the database by editing `refs/biblio.json` in the [GitHub repository](https://github.com/tobie/specref). 
 
-In order to do so you can fork the project and make a pull request to update it, or you can ask to be added as a project collaborator (we're pretty open about that) in which case you'll be able to push changes directly.
+To do so, fork the project and send a pull request. Note you can ask to be added as a project collaborator (we're pretty open about that) so you can merge your changes directly.
 
-In both cases, all changes are automatically tested using [travis](https://travis-ci.org/tobie/specref/). If all tests pass, the changes are immediately (and automatically) deployed.
+All changes are automatically tested using [travis](https://travis-ci.org/tobie/specref/) and automatically deployed if all tests pass.
 
 Some rules to observe when editing the database files: 
 
