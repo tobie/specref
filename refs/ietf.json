@@ -78292,6 +78292,9 @@
         ],
         "rawDate": "2008-04",
         "status": "Experimental",
+        "obsoletedBy": [
+            "RFC8003"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -78305,6 +78308,9 @@
         ],
         "rawDate": "2008-04",
         "status": "Experimental",
+        "obsoletedBy": [
+            "RFC8004"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -78318,6 +78324,9 @@
         ],
         "rawDate": "2008-04",
         "status": "Experimental",
+        "obsoletedBy": [
+            "RFC8005"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -94215,6 +94224,9 @@
         ],
         "rawDate": "2011-05",
         "status": "Experimental",
+        "obsoletedBy": [
+            "RFC8002"
+        ],
         "updates": [
             "RFC5201"
         ],
@@ -111632,6 +111644,9 @@
         ],
         "rawDate": "2015-04",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC8002"
+        ],
         "obsoletes": [
             "RFC5201"
         ],
@@ -119346,6 +119361,23 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc7904": {
+        "rfcNumber": "RFC7904",
+        "href": "https://tools.ietf.org/html/rfc7904",
+        "title": "A SIP Usage for REsource LOcation And Discovery (RELOAD)",
+        "authors": [
+            "C. Jennings",
+            "B. Lowekamp",
+            "E. Rescorla",
+            "S. Baset",
+            "H. Schulzrinne",
+            "T. Schmidt, Ed."
+        ],
+        "rawDate": "2016-10",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc7905": {
         "rfcNumber": "RFC7905",
         "href": "https://tools.ietf.org/html/rfc7905",
@@ -120367,6 +120399,19 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc7975": {
+        "rfcNumber": "RFC7975",
+        "href": "https://tools.ietf.org/html/rfc7975",
+        "title": "Request Routing Redirection Interface for Content Delivery Network (CDN) Interconnection",
+        "authors": [
+            "B. Niven-Jenkins, Ed.",
+            "R. van Brandenburg, Ed."
+        ],
+        "rawDate": "2016-10",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc7976": {
         "rfcNumber": "RFC7976",
         "href": "https://tools.ietf.org/html/rfc7976",
@@ -120515,6 +120560,72 @@
     },
     "rfc800": {
         "aliasOf": "rfc0800"
+    },
+    "rfc8002": {
+        "rfcNumber": "RFC8002",
+        "href": "https://tools.ietf.org/html/rfc8002",
+        "title": "Host Identity Protocol Certificates",
+        "authors": [
+            "T. Heer",
+            "S. Varjonen"
+        ],
+        "rawDate": "2016-10",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC7401"
+        ],
+        "obsoletes": [
+            "RFC6253"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8003": {
+        "rfcNumber": "RFC8003",
+        "href": "https://tools.ietf.org/html/rfc8003",
+        "title": "Host Identity Protocol (HIP) Registration Extension",
+        "authors": [
+            "J. Laganier",
+            "L. Eggert"
+        ],
+        "rawDate": "2016-10",
+        "status": "Proposed Standard",
+        "obsoletes": [
+            "RFC5203"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8004": {
+        "rfcNumber": "RFC8004",
+        "href": "https://tools.ietf.org/html/rfc8004",
+        "title": "Host Identity Protocol (HIP) Rendezvous Extension",
+        "authors": [
+            "J. Laganier",
+            "L. Eggert"
+        ],
+        "rawDate": "2016-10",
+        "status": "Proposed Standard",
+        "obsoletes": [
+            "RFC5204"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8005": {
+        "rfcNumber": "RFC8005",
+        "href": "https://tools.ietf.org/html/rfc8005",
+        "title": "Host Identity Protocol (HIP) Domain Name System (DNS) Extension",
+        "authors": [
+            "J. Laganier"
+        ],
+        "rawDate": "2016-10",
+        "status": "Proposed Standard",
+        "obsoletes": [
+            "RFC5205"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc801": {
         "aliasOf": "rfc0801"
