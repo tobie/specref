@@ -8537,9 +8537,20 @@
                     "https://www.w3.org/WAI/GL/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20161007": {
+                "href": "https://www.w3.org/TR/2016/NOTE-UNDERSTANDING-WCAG20-20161007/",
+                "title": "Understanding WCAG 2.0",
+                "rawDate": "2016-10-07",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WAI/GL/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2016-03-17",
+        "rawDate": "2016-10-07",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
     "UWA-personalization-roadmap": {
@@ -9347,9 +9358,20 @@
                     "https://www.w3.org/WAI/GL/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20161007": {
+                "href": "https://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/",
+                "title": "Techniques for WCAG 2.0",
+                "rawDate": "2016-10-07",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WAI/GL/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2016-03-17",
+        "rawDate": "2016-10-07",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
     "WD-charreq": {
@@ -10259,10 +10281,10 @@
         "etAl": true,
         "href": "https://www.w3.org/TR/XMLHttpRequest/",
         "title": "XMLHttpRequest Level 1",
-        "status": "WD",
+        "status": "NOTE",
         "publisher": "W3C",
         "deliveredBy": [
-            "https://www.w3.org/2008/webapps/"
+            "https://www.w3.org/WebPlatform/WG/"
         ],
         "versions": {
             "20060405": {
@@ -10363,15 +10385,34 @@
                     "https://www.w3.org/2008/webapps/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20161006": {
+                "authors": [
+                    "Anne van Kesteren",
+                    "Julian Aubourg",
+                    "Jungkee Song",
+                    "Hallvord Steen"
+                ],
+                "href": "https://www.w3.org/TR/2016/NOTE-XMLHttpRequest-20161006/",
+                "title": "XMLHttpRequest Level 1",
+                "rawDate": "2016-10-06",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "isRetired": true,
+                "deliveredBy": [
+                    "https://www.w3.org/WebPlatform/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2014-01-30",
+        "rawDate": "2016-10-06",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
-        "edDraft": "http://dvcs.w3.org/hg/xhr/raw-file/default/xhr-1/Overview.html",
+        "edDraft": "https://xhr.spec.whatwg.org/",
         "obsoletes": [
             "XMLHttpRequest2",
             "XMLHttpRequest1"
-        ]
+        ],
+        "isRetired": true
     },
     "XMLHttpRequest1": {
         "authors": [
@@ -10818,7 +10859,7 @@
         ],
         "href": "https://www.w3.org/TR/activitypub/",
         "title": "ActivityPub",
-        "rawDate": "2016-09-13",
+        "rawDate": "2016-10-04",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -10874,9 +10915,20 @@
                     "https://www.w3.org/Social/WG"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20161004": {
+                "href": "https://www.w3.org/TR/2016/WD-activitypub-20161004/",
+                "title": "ActivityPub",
+                "rawDate": "2016-10-04",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Social/WG"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "https://w3c-social.github.io/activitypub/"
+        "edDraft": "https://w3c.github.io/activitypub/"
     },
     "activitystreams-core": {
         "authors": [
@@ -11813,7 +11865,7 @@
         ],
         "href": "https://www.w3.org/TR/appmanifest/",
         "title": "Web App Manifest",
-        "rawDate": "2016-09-12",
+        "rawDate": "2016-10-13",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -12649,6 +12701,17 @@
                     "https://www.w3.org/WebPlatform/WG/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20161013": {
+                "href": "https://www.w3.org/TR/2016/WD-appmanifest-20161013/",
+                "title": "Web App Manifest",
+                "rawDate": "2016-10-13",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WebPlatform/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
         "edDraft": "https://w3c.github.io/manifest/"
@@ -12799,7 +12862,7 @@
         ],
         "href": "https://www.w3.org/TR/audio-output/",
         "title": "Audio Output Devices API",
-        "rawDate": "2016-07-14",
+        "rawDate": "2016-10-14",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/mediacapture-output/",
@@ -12841,6 +12904,18 @@
                 "href": "https://www.w3.org/TR/2016/WD-audio-output-20160714/",
                 "title": "Audio Output Devices API",
                 "rawDate": "2016-07-14",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2011/04/webrtc/",
+                    "https://www.w3.org/2009/dap/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20161014": {
+                "href": "https://www.w3.org/TR/2016/WD-audio-output-20161014/",
+                "title": "Audio Output Devices API",
+                "rawDate": "2016-10-14",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -16383,8 +16458,8 @@
         ],
         "href": "https://www.w3.org/TR/css-grid-1/",
         "title": "CSS Grid Layout Module Level 1",
-        "rawDate": "2016-05-19",
-        "status": "WD",
+        "rawDate": "2016-09-29",
+        "status": "CR",
         "publisher": "W3C",
         "deliveredBy": [
             "https://www.w3.org/Style/CSS/members"
@@ -16531,6 +16606,22 @@
                 "title": "CSS Grid Layout Module Level 1",
                 "rawDate": "2016-05-19",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Style/CSS/members"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20160929": {
+                "authors": [
+                    "Tab Atkins Jr.",
+                    "Elika Etemad",
+                    "Rossen Atanassov"
+                ],
+                "href": "https://www.w3.org/TR/2016/CR-css-grid-1-20160929/",
+                "title": "CSS Grid Layout Module Level 1",
+                "rawDate": "2016-09-29",
+                "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/Style/CSS/members"
@@ -18616,16 +18707,18 @@
         }
     },
     "css-values": {
+        "aliasOf": "css-values-3"
+    },
+    "css-values-3": {
         "authors": [
             "Tab Atkins Jr.",
             "Elika Etemad"
         ],
-        "href": "https://www.w3.org/TR/css-values/",
+        "href": "https://www.w3.org/TR/css-values-3/",
         "title": "CSS Values and Units Module Level 3",
-        "rawDate": "2015-06-11",
+        "rawDate": "2016-09-29",
         "status": "CR",
         "publisher": "W3C",
-        "edDraft": "http://dev.w3.org/csswg/css-values/",
         "deliveredBy": [
             "https://www.w3.org/Style/CSS/members"
         ],
@@ -18707,6 +18800,21 @@
                 "href": "https://www.w3.org/TR/2015/CR-css-values-3-20150611/",
                 "title": "CSS Values and Units Module Level 3",
                 "rawDate": "2015-06-11",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Style/CSS/members"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20160929": {
+                "authors": [
+                    "Tab Atkins Jr.",
+                    "Elika Etemad"
+                ],
+                "href": "https://www.w3.org/TR/2016/CR-css-values-3-20160929/",
+                "title": "CSS Values and Units Module Level 3",
+                "rawDate": "2016-09-29",
                 "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -20463,7 +20571,7 @@
         ]
     },
     "css3-values": {
-        "aliasOf": "css-values"
+        "aliasOf": "css-values-3"
     },
     "css3-webfonts": {
         "aliasOf": "css-fonts-3"
@@ -21098,7 +21206,7 @@
         ],
         "href": "https://www.w3.org/TR/custom-elements/",
         "title": "Custom Elements",
-        "rawDate": "2016-08-30",
+        "rawDate": "2016-10-13",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -21241,6 +21349,17 @@
                 "href": "https://www.w3.org/TR/2016/WD-custom-elements-20160830/",
                 "title": "Custom Elements",
                 "rawDate": "2016-08-30",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WebPlatform/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20161013": {
+                "href": "https://www.w3.org/TR/2016/WD-custom-elements-20161013/",
+                "title": "Custom Elements",
+                "rawDate": "2016-10-13",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -22914,7 +23033,7 @@
         ],
         "href": "https://www.w3.org/TR/elreq/",
         "title": "Ethiopic Layout Requirements",
-        "rawDate": "2016-09-08",
+        "rawDate": "2016-10-17",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/elreq/",
@@ -22930,6 +23049,17 @@
                 "href": "https://www.w3.org/TR/2016/WD-elreq-20160908/",
                 "title": "Ethiopic Layout Requirements",
                 "rawDate": "2016-09-08",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/International/core/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20161017": {
+                "href": "https://www.w3.org/TR/2016/WD-elreq-20161017/",
+                "title": "Ethiopic Layout Requirements",
+                "rawDate": "2016-10-17",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -26138,7 +26268,7 @@
         ],
         "href": "https://www.w3.org/TR/gamepad/",
         "title": "Gamepad",
-        "rawDate": "2016-09-20",
+        "rawDate": "2016-10-11",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -26255,6 +26385,17 @@
                 "href": "https://www.w3.org/TR/2016/WD-gamepad-20160920/",
                 "title": "Gamepad",
                 "rawDate": "2016-09-20",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WebPlatform/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20161011": {
+                "href": "https://www.w3.org/TR/2016/WD-gamepad-20161011/",
+                "title": "Gamepad",
+                "rawDate": "2016-10-11",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -27311,7 +27452,7 @@
         ],
         "href": "https://www.w3.org/TR/hr-time-2/",
         "title": "High Resolution Time Level 2",
-        "rawDate": "2016-07-20",
+        "rawDate": "2016-10-08",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -27556,6 +27697,17 @@
                 "href": "https://www.w3.org/TR/2016/WD-hr-time-2-20160720/",
                 "title": "High Resolution Time Level 2",
                 "rawDate": "2016-07-20",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/webperf/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20161008": {
+                "href": "https://www.w3.org/TR/2016/WD-hr-time-2-20161008/",
+                "title": "High Resolution Time Level 2",
+                "rawDate": "2016-10-08",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -27835,7 +27987,7 @@
         ],
         "href": "https://www.w3.org/TR/html-aria/",
         "title": "ARIA in HTML",
-        "rawDate": "2016-09-19",
+        "rawDate": "2016-10-05",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -28012,6 +28164,17 @@
                 "href": "https://www.w3.org/TR/2016/WD-html-aria-20160919/",
                 "title": "ARIA in HTML",
                 "rawDate": "2016-09-19",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WebPlatform/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20161005": {
+                "href": "https://www.w3.org/TR/2016/WD-html-aria-20161005/",
+                "title": "ARIA in HTML",
+                "rawDate": "2016-10-05",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -30819,7 +30982,7 @@
         ],
         "href": "https://www.w3.org/TR/image-capture/",
         "title": "MediaStream Image Capture",
-        "rawDate": "2016-09-28",
+        "rawDate": "2016-10-14",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -31018,6 +31181,18 @@
                 "href": "https://www.w3.org/TR/2016/WD-image-capture-20160928/",
                 "title": "MediaStream Image Capture",
                 "rawDate": "2016-09-28",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2011/04/webrtc/",
+                    "https://www.w3.org/2009/dap/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20161014": {
+                "href": "https://www.w3.org/TR/2016/WD-image-capture-20161014/",
+                "title": "MediaStream Image Capture",
+                "rawDate": "2016-10-14",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -31407,7 +31582,7 @@
         ],
         "href": "https://www.w3.org/TR/input-events/",
         "title": "Input Events",
-        "rawDate": "2016-09-28",
+        "rawDate": "2016-10-11",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/input-events/index.html",
@@ -31452,6 +31627,17 @@
                     "https://www.w3.org/WebPlatform/WG/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20161011": {
+                "href": "https://www.w3.org/TR/2016/WD-input-events-20161011/",
+                "title": "Input Events",
+                "rawDate": "2016-10-11",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WebPlatform/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
     },
@@ -31461,7 +31647,7 @@
         ],
         "href": "https://www.w3.org/TR/international-specs/",
         "title": "Internationalization Best Practices for Spec Developers",
-        "rawDate": "2016-08-10",
+        "rawDate": "2016-10-07",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/bp-i18n-specdev/",
@@ -31499,6 +31685,17 @@
                 "href": "https://www.w3.org/TR/2016/WD-international-specs-20160810/",
                 "title": "Internationalization Best Practices for Spec Developers",
                 "rawDate": "2016-08-10",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/International/core/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20161007": {
+                "href": "https://www.w3.org/TR/2016/WD-international-specs-20161007/",
+                "title": "Internationalization Best Practices for Spec Developers",
+                "rawDate": "2016-10-07",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -32375,7 +32572,7 @@
         ],
         "href": "https://www.w3.org/TR/ldn/",
         "title": "Linked Data Notifications",
-        "rawDate": "2016-09-26",
+        "rawDate": "2016-10-11",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://linkedresearch.org/ldn/",
@@ -32425,6 +32622,17 @@
                 "href": "https://www.w3.org/TR/2016/WD-ldn-20160926/",
                 "title": "Linked Data Notifications",
                 "rawDate": "2016-09-26",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Social/WG"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20161011": {
+                "href": "https://www.w3.org/TR/2016/WD-ldn-20161011/",
+                "title": "Linked Data Notifications",
+                "rawDate": "2016-10-11",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -33711,8 +33919,8 @@
             "Adrian Bateman"
         ],
         "href": "https://www.w3.org/TR/media-source/",
-        "title": "Media Source Extensions",
-        "status": "CR",
+        "title": "Media Source Extensions™",
+        "status": "PR",
         "publisher": "W3C",
         "deliveredBy": [
             "https://www.w3.org/html/wg/"
@@ -33857,9 +34065,27 @@
                     "https://www.w3.org/html/wg/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20161004": {
+                "authors": [
+                    "Matthew Wolenetz",
+                    "Jerry Smith",
+                    "Mark Watson",
+                    "Aaron Colwell",
+                    "Adrian Bateman"
+                ],
+                "href": "https://www.w3.org/TR/2016/PR-media-source-20161004/",
+                "title": "Media Source Extensions™",
+                "rawDate": "2016-10-04",
+                "status": "PR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/html/wg/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2016-07-05",
+        "rawDate": "2016-10-04",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
         "edDraft": "https://w3c.github.io/media-source/"
     },
@@ -35962,6 +36188,187 @@
         "status": "WD",
         "rawDate": "1995-11-22",
         "title": "Micro Payment Transfer Protocol (MPTP) Version 1.0"
+    },
+    "mse-byte-stream-format-isobmff": {
+        "authors": [
+            "Matthew Wolenetz",
+            "Jerry Smith",
+            "Mark Watson",
+            "Aaron Colwell",
+            "Adrian Bateman"
+        ],
+        "href": "https://www.w3.org/TR/mse-byte-stream-format-isobmff/",
+        "title": "ISO BMFF Byte Stream Format",
+        "rawDate": "2016-10-04",
+        "status": "NOTE",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/media-source/isobmff-byte-stream-format.html",
+        "deliveredBy": [
+            "https://www.w3.org/html/wg/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20161004": {
+                "authors": [
+                    "Matthew Wolenetz",
+                    "Jerry Smith",
+                    "Mark Watson",
+                    "Aaron Colwell",
+                    "Adrian Bateman"
+                ],
+                "href": "https://www.w3.org/TR/2016/NOTE-mse-byte-stream-format-isobmff-20161004/",
+                "title": "ISO BMFF Byte Stream Format",
+                "rawDate": "2016-10-04",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/html/wg/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
+    "mse-byte-stream-format-mp2t": {
+        "authors": [
+            "Matthew Wolenetz",
+            "Jerry Smith",
+            "Mark Watson",
+            "Aaron Colwell",
+            "Adrian Bateman"
+        ],
+        "href": "https://www.w3.org/TR/mse-byte-stream-format-mp2t/",
+        "title": "MPEG-2 TS Byte Stream Format",
+        "rawDate": "2016-10-04",
+        "status": "NOTE",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/media-source/mp2t-byte-stream-format.html",
+        "deliveredBy": [
+            "https://www.w3.org/html/wg/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20161004": {
+                "authors": [
+                    "Matthew Wolenetz",
+                    "Jerry Smith",
+                    "Mark Watson",
+                    "Aaron Colwell",
+                    "Adrian Bateman"
+                ],
+                "href": "https://www.w3.org/TR/2016/NOTE-mse-byte-stream-format-mp2t-20161004/",
+                "title": "MPEG-2 TS Byte Stream Format",
+                "rawDate": "2016-10-04",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/html/wg/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
+    "mse-byte-stream-format-mpeg-audio": {
+        "authors": [
+            "Matthew Wolenetz",
+            "Aaron Colwell"
+        ],
+        "href": "https://www.w3.org/TR/mse-byte-stream-format-mpeg-audio/",
+        "title": "MPEG Audio Byte Stream Format",
+        "rawDate": "2016-10-04",
+        "status": "NOTE",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/media-source/mpeg-audio-byte-stream-format.html",
+        "deliveredBy": [
+            "https://www.w3.org/html/wg/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20161004": {
+                "authors": [
+                    "Matthew Wolenetz",
+                    "Aaron Colwell"
+                ],
+                "href": "https://www.w3.org/TR/2016/NOTE-mse-byte-stream-format-mpeg-audio-20161004/",
+                "title": "MPEG Audio Byte Stream Format",
+                "rawDate": "2016-10-04",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/html/wg/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
+    "mse-byte-stream-format-registry": {
+        "authors": [
+            "Matthew Wolenetz",
+            "Jerry Smith",
+            "Aaron Colwell"
+        ],
+        "href": "https://www.w3.org/TR/mse-byte-stream-format-registry/",
+        "title": "Media Source Extensions Byte Stream Format Registry",
+        "rawDate": "2016-10-04",
+        "status": "NOTE",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/media-source/byte-stream-format-registry.html",
+        "deliveredBy": [
+            "https://www.w3.org/html/wg/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20161004": {
+                "authors": [
+                    "Matthew Wolenetz",
+                    "Jerry Smith",
+                    "Aaron Colwell"
+                ],
+                "href": "https://www.w3.org/TR/2016/NOTE-mse-byte-stream-format-registry-20161004/",
+                "title": "Media Source Extensions Byte Stream Format Registry",
+                "rawDate": "2016-10-04",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/html/wg/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
+    "mse-byte-stream-format-webm": {
+        "authors": [
+            "Matthew Wolenetz",
+            "Jerry Smith",
+            "Aaron Colwell"
+        ],
+        "href": "https://www.w3.org/TR/mse-byte-stream-format-webm/",
+        "title": "WebM Byte Stream Format",
+        "rawDate": "2016-10-04",
+        "status": "NOTE",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/media-source/webm-byte-stream-format.html",
+        "deliveredBy": [
+            "https://www.w3.org/html/wg/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20161004": {
+                "authors": [
+                    "Matthew Wolenetz",
+                    "Jerry Smith",
+                    "Aaron Colwell"
+                ],
+                "href": "https://www.w3.org/TR/2016/NOTE-mse-byte-stream-format-webm-20161004/",
+                "title": "WebM Byte Stream Format",
+                "rawDate": "2016-10-04",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/html/wg/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
     },
     "multimodal-reqs": {
         "authors": [
@@ -39504,7 +39911,7 @@
         ],
         "href": "https://www.w3.org/TR/performance-timeline-2/",
         "title": "Performance Timeline Level 2",
-        "rawDate": "2016-09-28",
+        "rawDate": "2016-09-29",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/performance-timeline/",
@@ -39724,6 +40131,17 @@
                 "href": "https://www.w3.org/TR/2016/WD-performance-timeline-2-20160928/",
                 "title": "Performance Timeline Level 2",
                 "rawDate": "2016-09-28",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/webperf/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20160929": {
+                "href": "https://www.w3.org/TR/2016/WD-performance-timeline-2-20160929/",
+                "title": "Performance Timeline Level 2",
+                "rawDate": "2016-09-29",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -45239,10 +45657,10 @@
         ],
         "href": "https://www.w3.org/TR/referrer-policy/",
         "title": "Referrer Policy",
-        "rawDate": "2016-06-01",
+        "rawDate": "2016-10-16",
         "status": "WD",
         "publisher": "W3C",
-        "edDraft": "https://w3c.github.io/webappsec/specs/referrer-policy/",
+        "edDraft": "https://w3c.github.io/webappsec-referrer-policy/",
         "deliveredBy": [
             "https://www.w3.org/2011/webappsec/"
         ],
@@ -45267,6 +45685,17 @@
                 "href": "https://www.w3.org/TR/2016/WD-referrer-policy-20160601/",
                 "title": "Referrer Policy",
                 "rawDate": "2016-06-01",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2011/webappsec/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20161016": {
+                "href": "https://www.w3.org/TR/2016/WD-referrer-policy-20161016/",
+                "title": "Referrer Policy",
+                "rawDate": "2016-10-16",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -49302,18 +49731,23 @@
         "isRetired": true
     },
     "service-workers": {
+        "aliasOf": "service-workers-1"
+    },
+    "service-workers-1": {
         "authors": [
             "Alex Russell",
             "Jungkee Song",
-            "Jake Archibald"
+            "Jake Archibald",
+            "Marijn Kruisselbrink"
         ],
-        "href": "https://www.w3.org/TR/service-workers/",
-        "title": "Service Workers",
-        "rawDate": "2015-06-25",
+        "href": "https://www.w3.org/TR/service-workers-1/",
+        "title": "Service Workers 1",
+        "rawDate": "2016-10-11",
         "status": "WD",
         "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/ServiceWorker/v1/",
         "deliveredBy": [
-            "https://www.w3.org/2008/webapps/"
+            "https://www.w3.org/WebPlatform/WG/"
         ],
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
         "versions": {
@@ -49378,9 +49812,25 @@
                     "https://www.w3.org/2008/webapps/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20161011": {
+                "authors": [
+                    "Alex Russell",
+                    "Jungkee Song",
+                    "Jake Archibald",
+                    "Marijn Kruisselbrink"
+                ],
+                "href": "https://www.w3.org/TR/2016/WD-service-workers-1-20161011/",
+                "title": "Service Workers 1",
+                "rawDate": "2016-10-11",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WebPlatform/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        },
-        "edDraft": "https://slightlyoff.github.io/ServiceWorker/spec/service_worker/"
+        }
     },
     "session-id": {
         "versions": {
@@ -49722,9 +50172,20 @@
                     "https://www.w3.org/WebPlatform/WG/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20161013": {
+                "href": "https://www.w3.org/TR/2016/WD-shadow-dom-20161013/",
+                "title": "Shadow DOM",
+                "rawDate": "2016-10-13",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WebPlatform/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2016-08-30",
+        "rawDate": "2016-10-13",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
         "edDraft": "https://w3c.github.io/webcomponents/spec/shadow/"
     },
@@ -54528,7 +54989,7 @@
         ],
         "href": "https://www.w3.org/TR/ttml-profile-registry/",
         "title": "TTML Media Type Definition and Profile Registry",
-        "rawDate": "2016-05-10",
+        "rawDate": "2016-10-09",
         "status": "NOTE",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/tt-profile-registry/",
@@ -54545,6 +55006,17 @@
                 "href": "https://www.w3.org/TR/2016/NOTE-ttml-profile-registry-20160510/",
                 "title": "TTML Media Type Definition and Profile Registry",
                 "rawDate": "2016-05-10",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/AudioVideo/TT/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20161009": {
+                "href": "https://www.w3.org/TR/2016/NOTE-ttml-profile-registry-20161009/",
+                "title": "TTML Media Type Definition and Profile Registry",
+                "rawDate": "2016-10-09",
                 "status": "NOTE",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -59223,7 +59695,7 @@
         ],
         "href": "https://www.w3.org/TR/webdriver/",
         "title": "WebDriver",
-        "rawDate": "2016-08-30",
+        "rawDate": "2016-10-13",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -59472,6 +59944,17 @@
                 "href": "https://www.w3.org/TR/2016/WD-webdriver-20160830/",
                 "title": "WebDriver",
                 "rawDate": "2016-08-30",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/testing/browser/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20161013": {
+                "href": "https://www.w3.org/TR/2016/WD-webdriver-20161013/",
+                "title": "WebDriver",
+                "rawDate": "2016-10-13",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -59927,6 +60410,45 @@
                 "title": "Web Payments HTTP Messages 1.0",
                 "rawDate": "2016-09-15",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Payments/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
+    "webpayments-overview": {
+        "authors": [
+            "Manu Sporny",
+            "Adrian Hope-Bailie",
+            "Nick Telford-Reed",
+            "Roy McElmurry",
+            "Dapeng Liu"
+        ],
+        "href": "https://www.w3.org/TR/webpayments-overview/",
+        "title": "Web Payments Overview 1.0",
+        "rawDate": "2016-10-13",
+        "status": "NOTE",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/webpayments-overview/",
+        "deliveredBy": [
+            "https://www.w3.org/Payments/WG/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20161013": {
+                "authors": [
+                    "Manu Sporny",
+                    "Adrian Hope-Bailie",
+                    "Nick Telford-Reed",
+                    "Roy McElmurry",
+                    "Dapeng Liu"
+                ],
+                "href": "https://www.w3.org/TR/2016/NOTE-webpayments-overview-20161013/",
+                "title": "Web Payments Overview 1.0",
+                "rawDate": "2016-10-13",
+                "status": "NOTE",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/Payments/WG/"
