@@ -74802,6 +74802,9 @@
         ],
         "rawDate": "2007-07",
         "status": "Proposed Standard",
+        "obsoletedBy": [
+            "RFC7981"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -110539,6 +110542,9 @@
         ],
         "rawDate": "2014-08",
         "status": "Informational",
+        "obsoletedBy": [
+            "RFC7989"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -120365,6 +120371,19 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc7969": {
+        "rfcNumber": "RFC7969",
+        "href": "https://tools.ietf.org/html/rfc7969",
+        "title": "Customizing DHCP Configuration on the Basis of Network Topology",
+        "authors": [
+            "T. Lemon",
+            "T. Mrugalski"
+        ],
+        "rawDate": "2016-10",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc797": {
         "aliasOf": "rfc0797"
     },
@@ -120396,6 +120415,20 @@
         "obsoletes": [
             "RFC7302"
         ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7974": {
+        "rfcNumber": "RFC7974",
+        "href": "https://tools.ietf.org/html/rfc7974",
+        "title": "An Experimental TCP Option for Host Identification",
+        "authors": [
+            "B. Williams",
+            "M. Boucadair",
+            "D. Wing"
+        ],
+        "rawDate": "2016-10",
+        "status": "Experimental",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -120482,6 +120515,23 @@
     "rfc798": {
         "aliasOf": "rfc0798"
     },
+    "rfc7981": {
+        "rfcNumber": "RFC7981",
+        "href": "https://tools.ietf.org/html/rfc7981",
+        "title": "IS-IS Extensions for Advertising Router Information",
+        "authors": [
+            "L. Ginsberg",
+            "S. Previdi",
+            "M. Chen"
+        ],
+        "rawDate": "2016-10",
+        "status": "Proposed Standard",
+        "obsoletes": [
+            "RFC4971"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc7982": {
         "rfcNumber": "RFC7982",
         "href": "https://tools.ietf.org/html/rfc7982",
@@ -120531,6 +120581,22 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc7987": {
+        "rfcNumber": "RFC7987",
+        "href": "https://tools.ietf.org/html/rfc7987",
+        "title": "IS-IS Minimum Remaining Lifetime",
+        "authors": [
+            "L. Ginsberg",
+            "P. Wells",
+            "B. Decraene",
+            "T. Przygienda",
+            "H. Gredler"
+        ],
+        "rawDate": "2016-10",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc7988": {
         "rfcNumber": "RFC7988",
         "href": "https://tools.ietf.org/html/rfc7988",
@@ -120549,8 +120615,42 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc7989": {
+        "rfcNumber": "RFC7989",
+        "href": "https://tools.ietf.org/html/rfc7989",
+        "title": "End-to-End Session Identification in IP-Based Multimedia Communication Networks",
+        "authors": [
+            "P. Jones",
+            "G. Salgueiro",
+            "C. Pearce",
+            "P. Giralt"
+        ],
+        "rawDate": "2016-10",
+        "status": "Proposed Standard",
+        "obsoletes": [
+            "RFC7329"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc799": {
         "aliasOf": "rfc0799"
+    },
+    "rfc7999": {
+        "rfcNumber": "RFC7999",
+        "href": "https://tools.ietf.org/html/rfc7999",
+        "title": "BLACKHOLE Community",
+        "authors": [
+            "T. King",
+            "C. Dietzel",
+            "J. Snijders",
+            "G. Doering",
+            "G. Hankins"
+        ],
+        "rawDate": "2016-10",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc8": {
         "aliasOf": "rfc0008"
