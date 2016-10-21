@@ -37263,7 +37263,7 @@
     "LWG2245": {
         "title": "packaged_task::reset() memory allocation",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2245",
-        "status": "Tentatively Ready",
+        "status": "Review",
         "authors": [
             "Jonathan Wakely"
         ],
@@ -38513,7 +38513,7 @@
     "LWG2358": {
         "title": "Apparently-bogus definition of is_empty type trait",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2358",
-        "status": "Tentatively Ready",
+        "status": "Open",
         "authors": [
             "Richard Smith"
         ],
@@ -41913,7 +41913,7 @@
     "LWG2665": {
         "title": "remove_filename() post condition is incorrect",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2665",
-        "status": "Tentatively Ready",
+        "status": "Open",
         "authors": [
             "Eric Fiselier"
         ],
@@ -42103,7 +42103,7 @@
     "LWG2682": {
         "title": "filesystem::copy() won't create a symlink to a directory",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2682",
-        "status": "Tentatively Ready",
+        "status": "Open",
         "authors": [
             "Jonathan Wakely"
         ],
@@ -42933,7 +42933,7 @@
     "LWG2757": {
         "title": "std::string{}.insert(3, \"ABCDE\", 0, 1) is ambiguous",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2757",
-        "status": "Open",
+        "status": "Tentatively Resolved",
         "authors": [
             "Marshall Clow"
         ],
@@ -42943,7 +42943,7 @@
     "LWG2758": {
         "title": "std::string{}.assign(\"ABCDE\", 0, 1) is ambiguous",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2758",
-        "status": "Open",
+        "status": "Tentatively Ready",
         "authors": [
             "Marshall Clow"
         ],
@@ -42982,8 +42982,8 @@
     },
     "LWG2761": {
         "title": "directory_entry comparisons are members",
-        "href": "http://cplusplus.github.io/LWG/lwg-active.html#2761",
-        "status": "New",
+        "href": "http://cplusplus.github.io/LWG/lwg-closed.html#2761",
+        "status": "NAD",
         "authors": [
             "Ville Voutilainen"
         ],
@@ -43063,7 +43063,7 @@
     "LWG2769": {
         "title": "Redundant const in the return type of any_cast(const any&)",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2769",
-        "status": "Tentatively Ready",
+        "status": "Open",
         "authors": [
             "Casey Carter"
         ],
@@ -43083,7 +43083,7 @@
     "LWG2770": {
         "title": "tuple_size<const T> specialization is not SFINAE compatible and breaks decomposition declarations",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2770",
-        "status": "New",
+        "status": "Open",
         "authors": [
             "Richard Smith"
         ],
@@ -43093,7 +43093,7 @@
     "LWG2771": {
         "title": "Broken Effects of some basic_string::compare functions in terms of basic_string_view",
         "href": "http://cplusplus.github.io/LWG/lwg-active.html#2771",
-        "status": "New",
+        "status": "Tentatively Ready",
         "authors": [
             "Daniel Krügler"
         ],
@@ -43110,12 +43110,132 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "LWG2773": {
+        "title": "Making std::ignore constexpr",
+        "href": "http://cplusplus.github.io/LWG/lwg-active.html#2773",
+        "status": "Tentatively Ready",
+        "authors": [
+            "Vincent Reverdy"
+        ],
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "LWG2774": {
+        "title": "std::function construction vs assignment",
+        "href": "http://cplusplus.github.io/LWG/lwg-active.html#2774",
+        "status": "New",
+        "authors": [
+            "Barry Revzin"
+        ],
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "LWG2775": {
+        "title": "reverse_iterator is does not compile for fancy pointers",
+        "href": "http://cplusplus.github.io/LWG/lwg-closed.html#2775",
+        "status": "Dup",
+        "authors": [
+            "Billy Robert O'Neal III"
+        ],
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "LWG2776": {
+        "title": "shared_ptr unique() and use_count()",
+        "href": "http://cplusplus.github.io/LWG/lwg-active.html#2776",
+        "status": "New",
+        "authors": [
+            "Hans Boehm"
+        ],
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "LWG2777": {
+        "title": "basic_string_view::copy should use char_traits::copy",
+        "href": "http://cplusplus.github.io/LWG/lwg-active.html#2777",
+        "status": "Tentatively Ready",
+        "authors": [
+            "Billy Robert O'Neal III"
+        ],
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "LWG2778": {
+        "title": "basic_string_view is missing constexpr",
+        "href": "http://cplusplus.github.io/LWG/lwg-active.html#2778",
+        "status": "Tentatively Ready",
+        "authors": [
+            "Billy Robert O'Neal III"
+        ],
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "LWG2779": {
+        "title": "[networking.ts] Relax strict aliasing requirement for user-defined buffer sequence iterators",
+        "href": "http://cplusplus.github.io/LWG/lwg-active.html#2779",
+        "status": "LEWG",
+        "authors": [
+            "Vinnie Falco"
+        ],
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "LWG278": {
         "title": "What does iterator validity mean?",
         "href": "http://cplusplus.github.io/LWG/lwg-defects.html#278",
         "status": "CD1",
         "authors": [
             "P.J. Plauger"
+        ],
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "LWG2780": {
+        "title": "basic_string_view::copy is missing constexpr",
+        "href": "http://cplusplus.github.io/LWG/lwg-active.html#2780",
+        "status": "New",
+        "authors": [
+            "Billy Robert O'Neal III"
+        ],
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "LWG2781": {
+        "title": "Contradictory requirements for std::function and std::reference_wrapper",
+        "href": "http://cplusplus.github.io/LWG/lwg-active.html#2781",
+        "status": "New",
+        "authors": [
+            "Jonathan Wakely"
+        ],
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "LWG2782": {
+        "title": "scoped_allocator_adaptor constructors must be constrained",
+        "href": "http://cplusplus.github.io/LWG/lwg-active.html#2782",
+        "status": "New",
+        "authors": [
+            "Jonathan Wakely"
+        ],
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "LWG2783": {
+        "title": "stack::emplace() and queue::emplace() should return decltype(auto)",
+        "href": "http://cplusplus.github.io/LWG/lwg-active.html#2783",
+        "status": "New",
+        "authors": [
+            "Jonathan Wakely"
+        ],
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "LWG2784": {
+        "title": "Resolution to LWG 2484 is missing \"otherwise, no effects\" and is hard to parse",
+        "href": "http://cplusplus.github.io/LWG/lwg-active.html#2784",
+        "status": "New",
+        "authors": [
+            "Jonathan Wakely"
         ],
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
@@ -81575,6 +81695,86 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "N4607": {
+        "title": "Toronto Meeting Information",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/n4607.pdf",
+        "authors": [
+            "Michael Wong"
+        ],
+        "rawDate": "2016-07-18",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "N4608": {
+        "title": "PL22.16/WG21 draft agenda: 7-12 Nov 2016, Issaquah, WA, US",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/n4608.html",
+        "authors": [
+            "Clark Nelson"
+        ],
+        "rawDate": "2016-07-21",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "N4609": {
+        "title": "Business Plan and Convener's Report",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/n4609.htm",
+        "authors": [
+            "Herb Sutter"
+        ],
+        "rawDate": "2016-08-11",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "N4610": {
+        "title": "Working Draft, Extensions to C++ for Modules",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/n4610.pdf",
+        "authors": [
+            "Gabriel Dos Reis"
+        ],
+        "rawDate": "2016-10-16",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "N4611": {
+        "title": "Editor's Report for the Modules TS",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/n4611.pdf",
+        "authors": [
+            "Gabriel Dos Reis"
+        ],
+        "rawDate": "2016-10-16",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "N4612": {
+        "title": "Working Draft, C++ extensions for Networking",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/n4612.pdf",
+        "authors": [
+            "Jonathan Wakely"
+        ],
+        "rawDate": "2016-10-17",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "N4613": {
+        "title": "Networking TS - Editor's Report",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/n4613.html",
+        "authors": [
+            "Jonathan Wakely"
+        ],
+        "rawDate": "2016-10-17",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "N4614": {
+        "title": "WG21 telecon meeting: Pre-Issaquah",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/n4614.pdf",
+        "authors": [
+            "Herb Sutter"
+        ],
+        "rawDate": "2016-10-01",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "P0001R0": {
         "title": "Removing Deprecated Register Keyword",
         "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2015/p0001r0.html",
@@ -81805,6 +82005,16 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "P0009R3": {
+        "title": "Polymorphic Multidimensional Array View",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0009r3.html",
+        "authors": [
+            "H. Carter Edwards, Bryce Lelbach, Christian Trott, Mauro Bianco, Robin Maffeo, Ben Sander"
+        ],
+        "rawDate": "2016-10-14",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "P0010R0": {
         "title": "Adding a subsection for concurrent random number generation in C++17",
         "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0010r0.pdf",
@@ -81985,6 +82195,16 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "P0019R3": {
+        "title": "Atomic View",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0019r3.html",
+        "authors": [
+            "H. Carter Edwards, Hans Boehm, Olivier Giroux, James Reus"
+        ],
+        "rawDate": "2016-10-14",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "P0020R0": {
         "title": "Floating Point Atomic View",
         "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2015/p0020r0.html",
@@ -82015,6 +82235,16 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "P0020R3": {
+        "title": "Floating Point Atomic View",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0020r3.html",
+        "authors": [
+            "H. Carter Edwards, Hans Boehm, Olivier Giroux, JF Bastien, James Reus"
+        ],
+        "rawDate": "2016-10-14",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "P0021R0": {
         "title": "Working Draft, C++ Extensions for Ranges",
         "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2015/p0021r0.pdf",
@@ -82042,6 +82272,16 @@
             "Eric Niebler"
         ],
         "rawDate": "2015-11-06",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0022R2": {
+        "title": "Proxy Iterators for the Ranges Extensions",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0022r2.html",
+        "authors": [
+            "Eric Niebler"
+        ],
+        "rawDate": "2016-10-17",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -82374,6 +82614,16 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "P0037R3": {
+        "title": "Fixed-point real numbers",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0037r3.html",
+        "authors": [
+            "John McFarlane, Michael Wong"
+        ],
+        "rawDate": "2016-10-17",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "P0038R0": {
         "title": "Flat Containers",
         "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2015/p0038r0.html",
@@ -82551,6 +82801,16 @@
             "Vicente J. Botet Escriba"
         ],
         "rawDate": "2015-11-05",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0051R2": {
+        "title": "C++ generic overload function",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0051r2.pdf",
+        "authors": [
+            "Vicente J. Botet Escriba"
+        ],
+        "rawDate": "2016-10-13",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -82751,6 +83011,16 @@
             "Guy Davidson, Arthur O'Dwyer"
         ],
         "rawDate": "2016-02-09",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0059R2": {
+        "title": "Add rings to the Standard Library",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0059r2.pdf",
+        "authors": [
+            "Guy Davidson, Arthur O'Dwyer, Joe Best-Rotheray"
+        ],
+        "rawDate": "2016-10-14",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -83494,6 +83764,16 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "P0098R1": {
+        "title": "Towards Implementation and Use of memory order consume",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0098r1.pdf",
+        "authors": [
+            "Paul E. McKenney, Torvald Riegel, Jeff Preshing, Hans Boehm, Clark Nelson, Olivier Giroux, Lawrence Crowl"
+        ],
+        "rawDate": "2016-01-04",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "P0099R0": {
         "title": "A low-level API for stackful context switching",
         "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2015/p0099r0.pdf",
@@ -83501,6 +83781,16 @@
             "Oliver Kowalke, Nat Goodspeed"
         ],
         "rawDate": "2015-09-27",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0099R1": {
+        "title": "A low-level API for stackful context switching",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0099r1.pdf",
+        "authors": [
+            "Oliver Kowalke, Nat Goodspeed"
+        ],
+        "rawDate": "2016-10-16",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -84454,6 +84744,16 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "P0165R3": {
+        "title": "C++ Standard Library Issues to be moved in Issaquah",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0165r3.html",
+        "authors": [
+            "Marshall Clow"
+        ],
+        "rawDate": "2016-10-17",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "P0166R0": {
         "title": "Three interesting questions about contracts",
         "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2015/p0166r0.pdf",
@@ -84734,6 +85034,16 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "P0187R1": {
+        "title": "Proposal/Wording for Bit-field Default Member Initializer Syntax",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0187r1.pdf",
+        "authors": [
+            "Andrew Tomazos"
+        ],
+        "rawDate": "2016-06-28",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "P0188R0": {
         "title": "Wording for [[fallthrough]] attribute",
         "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0188r0.pdf",
@@ -84874,6 +85184,16 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "P0194R2": {
+        "title": "Static reflection",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0194r2.html",
+        "authors": [
+            "Matúš Chochlík, Axel Naumann, David Sankel"
+        ],
+        "rawDate": "2016-10-15",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "P0195R0": {
         "title": "Modernizing using-declarations",
         "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0195r0.html",
@@ -84881,6 +85201,16 @@
             "Robert Haberlach"
         ],
         "rawDate": "2015-12-23",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0195R1": {
+        "title": "Modernizing using-declarations",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0195r1.html",
+        "authors": [
+            "Robert Haberlach"
+        ],
+        "rawDate": "2016-10-15",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -84901,6 +85231,16 @@
             "Vicente J. Botet Escriba"
         ],
         "rawDate": "2016-05-22",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0196R2": {
+        "title": "Generic none() factories for Nullable types",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0196r2.pdf",
+        "authors": [
+            "Vicente J. Botet Escriba"
+        ],
+        "rawDate": "2016-10-12",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -84951,6 +85291,16 @@
             "Jonathan Coe"
         ],
         "rawDate": "2016-02-01",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0201R1": {
+        "title": "An indirect value-type for C++",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0201r1.pdf",
+        "authors": [
+            "Jonathan Coe"
+        ],
+        "rawDate": "2016-10-13",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -85141,6 +85491,16 @@
             "Matthias Kretz"
         ],
         "rawDate": "2016-05-28",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0214R2": {
+        "title": "Data-Parallel Vector Types & Operations",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0214r2.pdf",
+        "authors": [
+            "Matthias Kretz"
+        ],
+        "rawDate": "2016-10-17",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -85434,6 +85794,16 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "P0233R2": {
+        "title": "Hazard Pointers: Safe Reclamation for Optimistic Concurrency",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0233r2.pdf",
+        "authors": [
+            "Maged M. Michael, Michael Wong, Paul McKenney, Arthur O'Dwyer"
+        ],
+        "rawDate": "2016-10-17",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "P0234R0": {
         "title": "Towards Massive Parallelism(aka Heterogeneous Devices/Accelerators/GPGPU) support in C++",
         "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0234r0.pdf",
@@ -85491,6 +85861,16 @@
             "Vincent Reverdy, Robert J. Brunner, Nathan Myers"
         ],
         "rawDate": "2016-07-11",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0237R3": {
+        "title": "Wording for fundamental bit manipulation utilities",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0237r3.html",
+        "authors": [
+            "Vincent Reverdy, Robert J. Brunner"
+        ],
+        "rawDate": "2016-10-17",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -85624,6 +86004,16 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "P0249R2": {
+        "title": "Input Devices For 2D Graphics",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0249r2.pdf",
+        "authors": [
+            "Brett Searles, Michael McLaughlin, Jason Zink"
+        ],
+        "rawDate": "2016-10-07",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "P0250R0": {
         "title": "Wording improvements for initialization and thread ids (CWG 2046)",
         "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0250r0.html",
@@ -85681,6 +86071,16 @@
             "Bjarne Stroustrup, Gabriel Dos Reis"
         ],
         "rawDate": "2016-03-02",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0252R2": {
+        "title": "Operator Dot Wording",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0252r2.pdf",
+        "authors": [
+            "Bjarne Stroustrup, Gabriel Dos Reis"
+        ],
+        "rawDate": "2016-10-16",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -85834,6 +86234,16 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "P0261R1": {
+        "title": "C++ Distributed Counters",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0261r1.html",
+        "authors": [
+            "Lawrence Crowl"
+        ],
+        "rawDate": "2016-10-13",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "P0262R0": {
         "title": "A Class for Status and Optional Value",
         "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0262r0.html",
@@ -85841,6 +86251,16 @@
             "Lawrence Crowl"
         ],
         "rawDate": "2016-02-14",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0262R1": {
+        "title": "A Class for Status and Optional Value",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0262r1.html",
+        "authors": [
+            "Lawrence Crowl, Chris Mysen"
+        ],
+        "rawDate": "2016-10-15",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -86084,6 +86504,16 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "P0279R1": {
+        "title": "Read-Copy Update (RCU) for C++",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0279r1.pdf",
+        "authors": [
+            "Paul E. McKenney"
+        ],
+        "rawDate": "2016-08-25",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "P0280R0": {
         "title": "Initialize unspecified aggregate members with direct list initialization",
         "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0280r0.html",
@@ -86214,6 +86644,16 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "P0290R1": {
+        "title": "apply() for synchronized_value<T>",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0290r1.html",
+        "authors": [
+            "Anthony Williams"
+        ],
+        "rawDate": "2016-06-23",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "P0292R0": {
         "title": "constexpr if: A slightly different syntax",
         "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0292r0.html",
@@ -86241,6 +86681,16 @@
             "Jens Maurer"
         ],
         "rawDate": "2016-06-20",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0293R0": {
+        "title": "Template deduction for nested classes",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0293r0.pdf",
+        "authors": [
+            "S. Davis Herring"
+        ],
+        "rawDate": "2016-10-14",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -86524,6 +86974,16 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "P0315R1": {
+        "title": "Lambdas in unevaluated context",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0315r1.pdf",
+        "authors": [
+            "Louis Dionne"
+        ],
+        "rawDate": "2016-08-01",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "P0317R0": {
         "title": "Directory Entry Caching for Filesystem",
         "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0317r0.html",
@@ -86531,6 +86991,16 @@
             "Beman Dawes"
         ],
         "rawDate": "2016-05-29",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0317R1": {
+        "title": "Directory Entry Caching for Filesystem",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0317r1.html",
+        "authors": [
+            "Beman Dawes"
+        ],
+        "rawDate": "2016-10-15",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -86564,6 +87034,16 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "P0320R1": {
+        "title": "Thread Constructor Attributes",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0320r1.pdf",
+        "authors": [
+            "Vicente J. Botet Escriba"
+        ],
+        "rawDate": "2016-10-12",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "P0322R0": {
         "title": "exception_list",
         "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0322r0.html",
@@ -86581,6 +87061,16 @@
             "Vicente J. Botet Escriba"
         ],
         "rawDate": "2016-05-28",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0323R1": {
+        "title": "A proposal to add a utility class to represent expected object (Revision 3)",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0323r1.pdf",
+        "authors": [
+            "Vicente J. Botet Escriba"
+        ],
+        "rawDate": "2016-10-12",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -86634,6 +87124,16 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "P0327R1": {
+        "title": "Product types access",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0327r1.pdf",
+        "authors": [
+            "Vicente J. Botet Escriba"
+        ],
+        "rawDate": "2016-10-16",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "P0329R0": {
         "title": "Designated Initialization",
         "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0329r0.pdf",
@@ -86641,6 +87141,16 @@
             "Tim Shen, Richard Smith, Zhihao Yuan, Chandler Carruth"
         ],
         "rawDate": "2016-05-09",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0329R1": {
+        "title": "Designated Initialization Wording",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0329r1.pdf",
+        "authors": [
+            "Tim Shen, Richard Smith"
+        ],
+        "rawDate": "2016-09-26",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -86744,6 +87254,16 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "P0338R1": {
+        "title": "C++ generic factories",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0338r1.pdf",
+        "authors": [
+            "Vicente J. Botet Escriba"
+        ],
+        "rawDate": "2016-10-12",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "P0339R0": {
         "title": "polymorphic_allocator<void> as a vocabulary type",
         "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0339r0.pdf",
@@ -86751,6 +87271,16 @@
             "Pablo Halpern, Dietmar Kühl"
         ],
         "date": "20160531",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0339R1": {
+        "title": "polymorphic_allocator<void> as a vocabulary type",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0339r1.pdf",
+        "authors": [
+            "Pablo Halpern, Dietmar Kühl"
+        ],
+        "rawDate": "2016-10-15",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -86834,6 +87364,16 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "P0347R1": {
+        "title": "Simplifying simple uses of <random>",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0347r1.html",
+        "authors": [
+            "R. \"Tim\" Song, Melissa O'Neill"
+        ],
+        "rawDate": "2016-10-16",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "P0348R0": {
         "title": "Validity testing issues",
         "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0348r0.html",
@@ -86884,6 +87424,16 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "P0353R1": {
+        "title": "Unicode Friendly Encoding Conversions for the Standard Library",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0353r1.html",
+        "authors": [
+            "Beman Dawes"
+        ],
+        "rawDate": "2016-10-14",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "P0354R0": {
         "title": "default == is >, default < is < so",
         "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0354r0.pdf",
@@ -86904,6 +87454,16 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "P0355R1": {
+        "title": "Extending <code><chrono></code> to Calendars and Time Zones",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0355r1.html",
+        "authors": [
+            "Howard Hinnant"
+        ],
+        "rawDate": "2016-10-16",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "P0356R0": {
         "title": "Simplified partial function application",
         "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0356r0.html",
@@ -86914,6 +87474,16 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "P0356R1": {
+        "title": "Simplified partial function application",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0356r1.html",
+        "authors": [
+            "Tomasz Kamiński"
+        ],
+        "rawDate": "2016-10-13",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "P0357R0": {
         "title": "reference_wrapper for incomplete types",
         "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0357r0.html",
@@ -86921,6 +87491,16 @@
             "Tomasz Kamiński"
         ],
         "rawDate": "2016-05-24",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0357R1": {
+        "title": "reference_wrapper for incomplete types",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0357r1.html",
+        "authors": [
+            "Tomasz Kamiński"
+        ],
+        "rawDate": "2016-09-29",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -86971,6 +87551,16 @@
             "Hartmut Kaiser, Thomas Heller, Michael Wong"
         ],
         "date": "20160530",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0361R1": {
+        "title": "Invoking Algorithms asynchronously",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0361r1.pdf",
+        "authors": [
+            "Hartmut Kaiser, Thomas Heller, Bryce Adelstein Lelbach, John Biddiscombe, Michael Wong"
+        ],
+        "rawDate": "2016-10-15",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -87061,6 +87651,16 @@
             "Casey Carter, Eric Niebler"
         ],
         "rawDate": "2016-07-05",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0370R2": {
+        "title": "Ranges TS Design Updates Omnibus",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0370r2.html",
+        "authors": [
+            "Casey Carter, Eric Niebler"
+        ],
+        "rawDate": "2016-10-17",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -87184,6 +87784,16 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "P0381R1": {
+        "title": "Numeric Width",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0381r1.html",
+        "authors": [
+            "John McFarlane, Michael Wong"
+        ],
+        "rawDate": "2016-10-17",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "P0382R0": {
         "title": "Comments on P0119: Overload sets as function arguments",
         "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0382r0.html",
@@ -87211,6 +87821,16 @@
             "Matúš Chochlík, Alex Naumann"
         ],
         "date": "20160530",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0385R1": {
+        "title": "Static reflection: Rationale, design and evolution",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0385r1.pdf",
+        "authors": [
+            "Matúš Chochlík, Axel Naumann, David Sankel"
+        ],
+        "rawDate": "2016-10-15",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -87364,6 +87984,16 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "P0403R0": {
+        "title": "Literal suffixes for basic_string_view",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0403r0.html",
+        "authors": [
+            "Marshall Clow"
+        ],
+        "rawDate": "2016-09-13",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "P0404R0": {
         "title": "Matching Types: 404 Syntax Not found",
         "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0404r0.html",
@@ -87381,6 +88011,16 @@
             "Jonathan Wakely"
         ],
         "rawDate": "2016-06-28",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0406R1": {
+        "title": "Intrusive Containers",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0406r1.html",
+        "authors": [
+            "Hal Finkel"
+        ],
+        "rawDate": "2016-10-17",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -87414,6 +88054,16 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "P0409R1": {
+        "title": "Allow lambda capture [=, this]",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0409r1.html",
+        "authors": [
+            "Thomas Koeppe"
+        ],
+        "rawDate": "2016-10-11",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "P04116R0": {
         "title": "Completing support for emotive programming in C++",
         "href": "https://isocpp.org/files/papers/PO4116_emoticons.html",
@@ -87430,6 +88080,16 @@
             "Jonathan Wakely"
         ],
         "rawDate": "2016-07-07",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0412R0": {
+        "title": "Benchmarking primitives",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0412r0.html",
+        "authors": [
+            "Mikhail Maltsev"
+        ],
+        "rawDate": "2016-07-05",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -87453,6 +88113,26 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "P0414R1": {
+        "title": "Merging shared_ptr changes from Library Fundamentals to C++17",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0414r1.html",
+        "authors": [
+            "Jonathan Wakely"
+        ],
+        "rawDate": "2016-10-06",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0415R0": {
+        "title": "Constexpr for std::complex",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0415r0.html",
+        "authors": [
+            "Antony Polukhin"
+        ],
+        "rawDate": "2016-08-10",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "P0416R0": {
         "title": "Operator Dot (R3)",
         "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0416r0.pdf",
@@ -87463,6 +88143,16 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "P0416R1": {
+        "title": "Operator Dot (R3)",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0416r1.pdf",
+        "authors": [
+            "Bjarne Stroustrup, Gabriel Dos Reis"
+        ],
+        "rawDate": "2016-10-16",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "P0417R0": {
         "title": "C++17 should refer to ISO/IEC 10646 2014 instead of 1994",
         "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0417r0.html",
@@ -87470,6 +88160,606 @@
             "Beman Dawes"
         ],
         "rawDate": "2016-07-13",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0418R1": {
+        "title": "Fail or succeed: there is no atomic lattice",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0418r1.html",
+        "authors": [
+            "JF Bastien"
+        ],
+        "rawDate": "2016-08-02",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0421R0": {
+        "title": "Static class constructor",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0421r0.html",
+        "authors": [
+            "Mariusz Moczala"
+        ],
+        "rawDate": "2016-09-14",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0422R0": {
+        "title": "Out-of-Thin-Air Execution is Vacuous",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0422r0.html",
+        "authors": [
+            "Paul E. McKenney, Alan Jeffrey, Ali Sezgin, Tony Tye"
+        ],
+        "rawDate": "2016-07-27",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0423R0": {
+        "title": "Variable templates for Networking TS traits",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0423r0.html",
+        "authors": [
+            "Jonathan Wakely"
+        ],
+        "rawDate": "2016-08-04",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0424R0": {
+        "title": "Reconsidering literal operator templates for strings",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0424r0.pdf",
+        "authors": [
+            "Louis Dionne"
+        ],
+        "rawDate": "2016-08-15",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0426R0": {
+        "title": "Constexpr for std::char_traits",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0426r0.html",
+        "authors": [
+            "Antony Polukhin"
+        ],
+        "rawDate": "2016-08-10",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0428R0": {
+        "title": "Familiar template syntax for generic lambdas",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0428r0.pdf",
+        "authors": [
+            "Louis Dionne"
+        ],
+        "rawDate": "2016-09-08",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0429R0": {
+        "title": "A Standard flat_map",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0429r0.pdf",
+        "authors": [
+            "Zach Laine"
+        ],
+        "date": "20160831",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0430R0": {
+        "title": "File system library on non-POSIX-like operating systems",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0430r0.pdf",
+        "authors": [
+            "Jason Liu, Hubert Tong"
+        ],
+        "rawDate": "2016-09-12",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0432R0": {
+        "title": "Implicit and Explicit Default Comparison Operators",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0432r0.html",
+        "authors": [
+            "David Stone"
+        ],
+        "rawDate": "2016-09-18",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0433R0": {
+        "title": "Toward a resolution of US7 and US14: Integrating template deduction for class templates into the standard library",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0433r0.html",
+        "authors": [
+            "Mike Spertus, Walter E. Brown"
+        ],
+        "rawDate": "2016-10-16",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0434R0": {
+        "title": "Portable Interrupt Library",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0434r0.pdf",
+        "authors": [
+            "Brett Searies"
+        ],
+        "rawDate": "2016-10-09",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0435R0": {
+        "title": "Resolving LWG Issues re common_type",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0435r0.pdf",
+        "authors": [
+            "Walter E. Brown"
+        ],
+        "rawDate": "2016-10-14",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0436R0": {
+        "title": "An Extensible Approach to Obtaining Selected Operators",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0436r0.pdf",
+        "authors": [
+            "Walter E. Brown"
+        ],
+        "rawDate": "2016-10-10",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0437R0": {
+        "title": "Numeric Traits for the Next Standard Library",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0437r0.pdf",
+        "authors": [
+            "Walter E. Brown"
+        ],
+        "rawDate": "2016-10-14",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0438R0": {
+        "title": "Toward a <random> Technical Specification",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0438r0.pdf",
+        "authors": [
+            "Walter E. Brown"
+        ],
+        "rawDate": "2016-10-05",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0439R0": {
+        "title": "Make memory_order a scoped enumeration",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0439r0.html",
+        "authors": [
+            "Jonathan Wakely"
+        ],
+        "rawDate": "2016-10-06",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0440R0": {
+        "title": "Floating Point Atomic View",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0440r0.html",
+        "authors": [
+            "H. Carter Edwards, Hans Boehm, Olivier Giroux, JF Bastien, James Reus"
+        ],
+        "rawDate": "2016-10-14",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0441R0": {
+        "title": "Ranges: Merging Writable and MoveWritable",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0441r0.html",
+        "authors": [
+            "Casey Carter, Eric Niebler"
+        ],
+        "rawDate": "2016-10-17",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0443R0": {
+        "title": "A Unified Executors Proposal for C++",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0443r0.html",
+        "authors": [
+            "Jared Hoberock, Michael Garland, Chris Kohlhoff, Chris Mysen, Carter Edwards"
+        ],
+        "rawDate": "2016-10-17",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0444R0": {
+        "title": "Unifying suspend-by-call and suspend-by-return",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0444r0.pdf",
+        "authors": [
+            "Nat Goodspeed"
+        ],
+        "rawDate": "2016-10-14",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0445R0": {
+        "title": "SG14: Low Latency Meeting Minutes 2016/09/21-2016/10/13",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0445r0.pdf",
+        "authors": [
+            "Michael Wong"
+        ],
+        "rawDate": "2016-10-16",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0446R0": {
+        "title": "SG5: Transactional Memory (TM) Meeting Minutes 2016/07/18-2016/10/10",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0446r0.pdf",
+        "authors": [
+            "Michael Wong"
+        ],
+        "rawDate": "2016-10-16",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0447R0": {
+        "title": "Introduction of std::colony to the standard library",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0447r0.html",
+        "authors": [
+            "Matthew Bentley"
+        ],
+        "rawDate": "2016-10-16",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0448R0": {
+        "title": "A strstream replacement using span<charT> as",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0448r0.pdf",
+        "authors": [
+            "Peter Sommerlad"
+        ],
+        "rawDate": "2016-10-14",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0451R0": {
+        "title": "Future-Proofing Parallel Algorithms Exception Handling",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0451r0.html",
+        "authors": [
+            "Bryce Adelstein Lelbach, Alisdair Meredith"
+        ],
+        "rawDate": "2016-10-14",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0452R0": {
+        "title": "Binary transform_reduce(): The Missing Overload",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0452r0.html",
+        "authors": [
+            "Bryce Adelstein Lelbach"
+        ],
+        "rawDate": "2016-10-14",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0454R0": {
+        "title": "Wording for a Minimal mdspan",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0454r0.html",
+        "authors": [
+            "Bryce Adelstein Lelbach, H. Carter Edwards"
+        ],
+        "rawDate": "2016-10-10",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0457R0": {
+        "title": "String Prefix and Suffix Checking",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0457r0.html",
+        "authors": [
+            "Mikhail Maltsev"
+        ],
+        "rawDate": "2016-10-09",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0458R0": {
+        "title": "Checking for Existence of an Element in Associative Containers",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0458r0.html",
+        "authors": [
+            "Mikhail Maltsev"
+        ],
+        "rawDate": "2016-10-09",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0459R0": {
+        "title": "C++ Extensions for Ranges, Speculative Combined Proposal Document",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0459r0.pdf",
+        "authors": [
+            "Eric Niebler, Casey Carter"
+        ],
+        "rawDate": "2016-10-15",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0460R0": {
+        "title": "Flat containers wording",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0460r0.pdf",
+        "authors": [
+            "Sean Middleditch"
+        ],
+        "rawDate": "2016-10-15",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0461R0": {
+        "title": "Proposed RCU C++ API",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0461r0.pdf",
+        "authors": [
+            "Paul E. McKenney, Maged Michael, Michael Wong, Isabella Muerte, Arthur O'Dwyer"
+        ],
+        "rawDate": "2016-10-16",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0462R0": {
+        "title": "Marking memory order consume Dependency Chains",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0462r0.pdf",
+        "authors": [
+            "Hans Boehm, Clark Nelson, Olivier Giroux, Lawrence Crowl, JF Bastien, Micheal Wong"
+        ],
+        "rawDate": "2016-10-13",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0463R0": {
+        "title": "endian, Just endian",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0463r0.html",
+        "authors": [
+            "Howard Hinnant"
+        ],
+        "rawDate": "2016-10-16",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0464R0": {
+        "title": "Revisiting the meaning of \"foo(ConceptName,ConceptName)\"",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0464r0.html",
+        "authors": [
+            "Tony Van Eerd, Botond Ballo"
+        ],
+        "rawDate": "2016-10-11",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0465R0": {
+        "title": "Procedural Function Interfaces",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0465r0.pdf",
+        "authors": [
+            "Lisa Lippincott"
+        ],
+        "rawDate": "2016-10-16",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0466R0": {
+        "title": "Layout-compatibility and Pointer-interconvertibility Traits",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0466r0.pdf",
+        "authors": [
+            "Lisa Lippincott"
+        ],
+        "rawDate": "2016-10-15",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0467R0": {
+        "title": "Iterator Concerns for Parallel Algorithms",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0467r0.html",
+        "authors": [
+            "Alisdair Meredith"
+        ],
+        "rawDate": "2016-10-13",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0468R0": {
+        "title": "A Proposal to Add an Intrusive Smart Pointer to the C++ Standard Library",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0468r0.html",
+        "authors": [
+            "Isabella Muerte"
+        ],
+        "rawDate": "2016-10-15",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0469R0": {
+        "title": "Sample in place",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0469r0.html",
+        "authors": [
+            "R. \"Tim\" Song"
+        ],
+        "rawDate": "2016-10-17",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0471R0": {
+        "title": "Single argument std::inserter",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0471r0.html",
+        "authors": [
+            "David Sankel"
+        ],
+        "rawDate": "2016-10-14",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0472R0": {
+        "title": "Move 'std::monostate' to <utility>",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0472r0.html",
+        "authors": [
+            "David Sankel"
+        ],
+        "rawDate": "2016-10-14",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0473R0": {
+        "title": "+ for std::vector concatenation",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0473r0.html",
+        "authors": [
+            "David Sankel"
+        ],
+        "rawDate": "2016-10-13",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0474R0": {
+        "title": "Comparison in C++: Basic Facilities",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0474r0.html",
+        "authors": [
+            "Lawrence Crowl"
+        ],
+        "rawDate": "2016-10-15",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0475R0": {
+        "title": "LWG 2511: guaranteed copy elision for piecewise construction",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0475r0.html",
+        "authors": [
+            "Jonathan Wakely"
+        ],
+        "rawDate": "2016-10-14",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0476R0": {
+        "title": "Bit-casting object representations",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0476r0.html",
+        "authors": [
+            "JF Bastien"
+        ],
+        "rawDate": "2016-10-16",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0477R0": {
+        "title": "std::monostate_function<>",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0477r0.pdf",
+        "authors": [
+            "Matt Calabrese"
+        ],
+        "rawDate": "2016-10-14",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0478R0": {
+        "title": "Template argument deduction for non-terminal function parameter packs",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0478r0.pdf",
+        "authors": [
+            "Bruno Manganelli, Michael Wong, Simon Brand"
+        ],
+        "rawDate": "2016-10-16",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0479R0": {
+        "title": "Attributes for Likely and Unlikely Branches",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0479r0.html",
+        "authors": [
+            "Clay Trychta"
+        ],
+        "rawDate": "2016-10-16",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0480R0": {
+        "title": "Explicit type checking with structured bindings",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0480r0.html",
+        "authors": [
+            "Ville Voutilainen"
+        ],
+        "rawDate": "2016-10-15",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0481R0": {
+        "title": "Bravely Default",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0481r0.pdf",
+        "authors": [
+            "Tony Van Eerd"
+        ],
+        "rawDate": "2016-10-15",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0482R0": {
+        "title": "char8_t: A type for UTF-8 characters and strings",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0482r0.html",
+        "authors": [
+            "Tom Honermann"
+        ],
+        "rawDate": "2016-10-17",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0483R0": {
+        "title": "Extending Memory Management Tools, And a Bit More",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0483r0.pdf",
+        "authors": [
+            "Patrice Roy"
+        ],
+        "rawDate": "2016-10-15",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0484R0": {
+        "title": "Enhancing Thread Constructor Attributes",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0484r0.pdf",
+        "authors": [
+            "Patrice Roy, Billy Baker, Arthur O'Dwyer"
+        ],
+        "rawDate": "2016-10-16",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0485R0": {
+        "title": "Amended rules for Partial Ordering of function templates",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0485r0.pdf",
+        "authors": [
+            "Bruno Manganelli, Michael Wong, Simon Brand"
+        ],
+        "rawDate": "2016-10-16",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0486R0": {
+        "title": "for_each_iter algorithm proposal",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0486r0.pdf",
+        "authors": [
+            "Ildus Nezametdinov, Patrice Roy,"
+        ],
+        "rawDate": "2016-10-15",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0487R0": {
+        "title": "Fixing operator>> (basic_istream&, CharT*) (LWG 2499)",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0487r0.html",
+        "authors": [
+            "Zhihao Yuan"
+        ],
+        "rawDate": "2016-10-17",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0488R0": {
+        "title": "WG21 Working paper: NB Comments, ISO/IEC CD 14882",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0488r0.pdf",
+        "authors": [
+            "Barry Hedquist"
+        ],
+        "rawDate": "2016-10-18",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0489R0": {
+        "title": "WG21 Working paper: Late Comments on CD 14882",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0489r0.pdf",
+        "authors": [
+            "Barry Hedquist"
+        ],
+        "rawDate": "2016-10-18",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -99971,8 +101261,44 @@
     "WG21-LWG2772": {
         "aliasOf": "LWG2772"
     },
+    "WG21-LWG2773": {
+        "aliasOf": "LWG2773"
+    },
+    "WG21-LWG2774": {
+        "aliasOf": "LWG2774"
+    },
+    "WG21-LWG2775": {
+        "aliasOf": "LWG2775"
+    },
+    "WG21-LWG2776": {
+        "aliasOf": "LWG2776"
+    },
+    "WG21-LWG2777": {
+        "aliasOf": "LWG2777"
+    },
+    "WG21-LWG2778": {
+        "aliasOf": "LWG2778"
+    },
+    "WG21-LWG2779": {
+        "aliasOf": "LWG2779"
+    },
     "WG21-LWG278": {
         "aliasOf": "LWG278"
+    },
+    "WG21-LWG2780": {
+        "aliasOf": "LWG2780"
+    },
+    "WG21-LWG2781": {
+        "aliasOf": "LWG2781"
+    },
+    "WG21-LWG2782": {
+        "aliasOf": "LWG2782"
+    },
+    "WG21-LWG2783": {
+        "aliasOf": "LWG2783"
+    },
+    "WG21-LWG2784": {
+        "aliasOf": "LWG2784"
     },
     "WG21-LWG279": {
         "aliasOf": "LWG279"
@@ -111581,6 +112907,30 @@
     "WG21-N4606": {
         "aliasOf": "N4606"
     },
+    "WG21-N4607": {
+        "aliasOf": "N4607"
+    },
+    "WG21-N4608": {
+        "aliasOf": "N4608"
+    },
+    "WG21-N4609": {
+        "aliasOf": "N4609"
+    },
+    "WG21-N4610": {
+        "aliasOf": "N4610"
+    },
+    "WG21-N4611": {
+        "aliasOf": "N4611"
+    },
+    "WG21-N4612": {
+        "aliasOf": "N4612"
+    },
+    "WG21-N4613": {
+        "aliasOf": "N4613"
+    },
+    "WG21-N4614": {
+        "aliasOf": "N4614"
+    },
     "WG21-P0001R0": {
         "aliasOf": "P0001R0"
     },
@@ -111650,6 +113000,9 @@
     "WG21-P0009R2": {
         "aliasOf": "P0009R2"
     },
+    "WG21-P0009R3": {
+        "aliasOf": "P0009R3"
+    },
     "WG21-P0010R0": {
         "aliasOf": "P0010R0"
     },
@@ -111704,6 +113057,9 @@
     "WG21-P0019R2": {
         "aliasOf": "P0019R2"
     },
+    "WG21-P0019R3": {
+        "aliasOf": "P0019R3"
+    },
     "WG21-P0020R0": {
         "aliasOf": "P0020R0"
     },
@@ -111713,6 +113069,9 @@
     "WG21-P0020R2": {
         "aliasOf": "P0020R2"
     },
+    "WG21-P0020R3": {
+        "aliasOf": "P0020R3"
+    },
     "WG21-P0021R0": {
         "aliasOf": "P0021R0"
     },
@@ -111721,6 +113080,9 @@
     },
     "WG21-P0022R1": {
         "aliasOf": "P0022R1"
+    },
+    "WG21-P0022R2": {
+        "aliasOf": "P0022R2"
     },
     "WG21-P0023R0": {
         "aliasOf": "P0023R0"
@@ -111821,6 +113183,9 @@
     "WG21-P0037R2": {
         "aliasOf": "P0037R2"
     },
+    "WG21-P0037R3": {
+        "aliasOf": "P0037R3"
+    },
     "WG21-P0038R0": {
         "aliasOf": "P0038R0"
     },
@@ -111874,6 +113239,9 @@
     },
     "WG21-P0051R1": {
         "aliasOf": "P0051R1"
+    },
+    "WG21-P0051R2": {
+        "aliasOf": "P0051R2"
     },
     "WG21-P0052R0": {
         "aliasOf": "P0052R0"
@@ -111934,6 +113302,9 @@
     },
     "WG21-P0059R1": {
         "aliasOf": "P0059R1"
+    },
+    "WG21-P0059R2": {
+        "aliasOf": "P0059R2"
     },
     "WG21-P0060R0": {
         "aliasOf": "P0060R0"
@@ -112157,8 +113528,14 @@
     "WG21-P0098R0": {
         "aliasOf": "P0098R0"
     },
+    "WG21-P0098R1": {
+        "aliasOf": "P0098R1"
+    },
     "WG21-P0099R0": {
         "aliasOf": "P0099R0"
+    },
+    "WG21-P0099R1": {
+        "aliasOf": "P0099R1"
     },
     "WG21-P0100R0": {
         "aliasOf": "P0100R0"
@@ -112445,6 +113822,9 @@
     "WG21-P0165R2": {
         "aliasOf": "P0165R2"
     },
+    "WG21-P0165R3": {
+        "aliasOf": "P0165R3"
+    },
     "WG21-P0166R0": {
         "aliasOf": "P0166R0"
     },
@@ -112529,6 +113909,9 @@
     "WG21-P0187R0": {
         "aliasOf": "P0187R0"
     },
+    "WG21-P0187R1": {
+        "aliasOf": "P0187R1"
+    },
     "WG21-P0188R0": {
         "aliasOf": "P0188R0"
     },
@@ -112571,14 +113954,23 @@
     "WG21-P0194R1": {
         "aliasOf": "P0194R1"
     },
+    "WG21-P0194R2": {
+        "aliasOf": "P0194R2"
+    },
     "WG21-P0195R0": {
         "aliasOf": "P0195R0"
+    },
+    "WG21-P0195R1": {
+        "aliasOf": "P0195R1"
     },
     "WG21-P0196R0": {
         "aliasOf": "P0196R0"
     },
     "WG21-P0196R1": {
         "aliasOf": "P0196R1"
+    },
+    "WG21-P0196R2": {
+        "aliasOf": "P0196R2"
     },
     "WG21-P0197R0": {
         "aliasOf": "P0197R0"
@@ -112594,6 +113986,9 @@
     },
     "WG21-P0201R0": {
         "aliasOf": "P0201R0"
+    },
+    "WG21-P0201R1": {
+        "aliasOf": "P0201R1"
     },
     "WG21-P0202R0": {
         "aliasOf": "P0202R0"
@@ -112651,6 +114046,9 @@
     },
     "WG21-P0214R1": {
         "aliasOf": "P0214R1"
+    },
+    "WG21-P0214R2": {
+        "aliasOf": "P0214R2"
     },
     "WG21-P0215R0": {
         "aliasOf": "P0215R0"
@@ -112739,6 +114137,9 @@
     "WG21-P0233R1": {
         "aliasOf": "P0233R1"
     },
+    "WG21-P0233R2": {
+        "aliasOf": "P0233R2"
+    },
     "WG21-P0234R0": {
         "aliasOf": "P0234R0"
     },
@@ -112756,6 +114157,9 @@
     },
     "WG21-P0237R2": {
         "aliasOf": "P0237R2"
+    },
+    "WG21-P0237R3": {
+        "aliasOf": "P0237R3"
     },
     "WG21-P0238R0": {
         "aliasOf": "P0238R0"
@@ -112796,6 +114200,9 @@
     "WG21-P0249R0": {
         "aliasOf": "P0249R0"
     },
+    "WG21-P0249R2": {
+        "aliasOf": "P0249R2"
+    },
     "WG21-P0250R0": {
         "aliasOf": "P0250R0"
     },
@@ -112813,6 +114220,9 @@
     },
     "WG21-P0252R1": {
         "aliasOf": "P0252R1"
+    },
+    "WG21-P0252R2": {
+        "aliasOf": "P0252R2"
     },
     "WG21-P0253R0": {
         "aliasOf": "P0253R0"
@@ -112859,8 +114269,14 @@
     "WG21-P0261R0": {
         "aliasOf": "P0261R0"
     },
+    "WG21-P0261R1": {
+        "aliasOf": "P0261R1"
+    },
     "WG21-P0262R0": {
         "aliasOf": "P0262R0"
+    },
+    "WG21-P0262R1": {
+        "aliasOf": "P0262R1"
     },
     "WG21-P0263R0": {
         "aliasOf": "P0263R0"
@@ -112934,6 +114350,9 @@
     "WG21-P0279R0": {
         "aliasOf": "P0279R0"
     },
+    "WG21-P0279R1": {
+        "aliasOf": "P0279R1"
+    },
     "WG21-P0280R0": {
         "aliasOf": "P0280R0"
     },
@@ -112973,6 +114392,9 @@
     "WG21-P0290R0": {
         "aliasOf": "P0290R0"
     },
+    "WG21-P0290R1": {
+        "aliasOf": "P0290R1"
+    },
     "WG21-P0292R0": {
         "aliasOf": "P0292R0"
     },
@@ -112981,6 +114403,9 @@
     },
     "WG21-P0292R2": {
         "aliasOf": "P0292R2"
+    },
+    "WG21-P0293R0": {
+        "aliasOf": "P0293R0"
     },
     "WG21-P0295R0": {
         "aliasOf": "P0295R0"
@@ -113066,8 +114491,14 @@
     "WG21-P0315R0": {
         "aliasOf": "P0315R0"
     },
+    "WG21-P0315R1": {
+        "aliasOf": "P0315R1"
+    },
     "WG21-P0317R0": {
         "aliasOf": "P0317R0"
+    },
+    "WG21-P0317R1": {
+        "aliasOf": "P0317R1"
     },
     "WG21-P0318R0": {
         "aliasOf": "P0318R0"
@@ -113078,11 +114509,17 @@
     "WG21-P0320R0": {
         "aliasOf": "P0320R0"
     },
+    "WG21-P0320R1": {
+        "aliasOf": "P0320R1"
+    },
     "WG21-P0322R0": {
         "aliasOf": "P0322R0"
     },
     "WG21-P0323R0": {
         "aliasOf": "P0323R0"
+    },
+    "WG21-P0323R1": {
+        "aliasOf": "P0323R1"
     },
     "WG21-P0324R0": {
         "aliasOf": "P0324R0"
@@ -113099,8 +114536,14 @@
     "WG21-P0327R0": {
         "aliasOf": "P0327R0"
     },
+    "WG21-P0327R1": {
+        "aliasOf": "P0327R1"
+    },
     "WG21-P0329R0": {
         "aliasOf": "P0329R0"
+    },
+    "WG21-P0329R1": {
+        "aliasOf": "P0329R1"
     },
     "WG21-P0330R0": {
         "aliasOf": "P0330R0"
@@ -113132,8 +114575,14 @@
     "WG21-P0338R0": {
         "aliasOf": "P0338R0"
     },
+    "WG21-P0338R1": {
+        "aliasOf": "P0338R1"
+    },
     "WG21-P0339R0": {
         "aliasOf": "P0339R0"
+    },
+    "WG21-P0339R1": {
+        "aliasOf": "P0339R1"
     },
     "WG21-P0340R0": {
         "aliasOf": "P0340R0"
@@ -113159,6 +114608,9 @@
     "WG21-P0347R0": {
         "aliasOf": "P0347R0"
     },
+    "WG21-P0347R1": {
+        "aliasOf": "P0347R1"
+    },
     "WG21-P0348R0": {
         "aliasOf": "P0348R0"
     },
@@ -113174,17 +114626,29 @@
     "WG21-P0353R0": {
         "aliasOf": "P0353R0"
     },
+    "WG21-P0353R1": {
+        "aliasOf": "P0353R1"
+    },
     "WG21-P0354R0": {
         "aliasOf": "P0354R0"
     },
     "WG21-P0355R0": {
         "aliasOf": "P0355R0"
     },
+    "WG21-P0355R1": {
+        "aliasOf": "P0355R1"
+    },
     "WG21-P0356R0": {
         "aliasOf": "P0356R0"
     },
+    "WG21-P0356R1": {
+        "aliasOf": "P0356R1"
+    },
     "WG21-P0357R0": {
         "aliasOf": "P0357R0"
+    },
+    "WG21-P0357R1": {
+        "aliasOf": "P0357R1"
     },
     "WG21-P0358R0": {
         "aliasOf": "P0358R0"
@@ -113200,6 +114664,9 @@
     },
     "WG21-P0361R0": {
         "aliasOf": "P0361R0"
+    },
+    "WG21-P0361R1": {
+        "aliasOf": "P0361R1"
     },
     "WG21-P0362R0": {
         "aliasOf": "P0362R0"
@@ -113227,6 +114694,9 @@
     },
     "WG21-P0370R1": {
         "aliasOf": "P0370R1"
+    },
+    "WG21-P0370R2": {
+        "aliasOf": "P0370R2"
     },
     "WG21-P0371R0": {
         "aliasOf": "P0371R0"
@@ -113264,6 +114734,9 @@
     "WG21-P0381R0": {
         "aliasOf": "P0381R0"
     },
+    "WG21-P0381R1": {
+        "aliasOf": "P0381R1"
+    },
     "WG21-P0382R0": {
         "aliasOf": "P0382R0"
     },
@@ -113272,6 +114745,9 @@
     },
     "WG21-P0385R0": {
         "aliasOf": "P0385R0"
+    },
+    "WG21-P0385R1": {
+        "aliasOf": "P0385R1"
     },
     "WG21-P0386R0": {
         "aliasOf": "P0386R0"
@@ -113318,11 +114794,17 @@
     "WG21-P0401R0": {
         "aliasOf": "P0401R0"
     },
+    "WG21-P0403R0": {
+        "aliasOf": "P0403R0"
+    },
     "WG21-P0404R0": {
         "aliasOf": "P0404R0"
     },
     "WG21-P0405R0": {
         "aliasOf": "P0405R0"
+    },
+    "WG21-P0406R1": {
+        "aliasOf": "P0406R1"
     },
     "WG21-P0407R0": {
         "aliasOf": "P0407R0"
@@ -113333,11 +114815,17 @@
     "WG21-P0409R0": {
         "aliasOf": "P0409R0"
     },
+    "WG21-P0409R1": {
+        "aliasOf": "P0409R1"
+    },
     "WG21-P04116R0": {
         "aliasOf": "P04116R0"
     },
     "WG21-P0411R0": {
         "aliasOf": "P0411R0"
+    },
+    "WG21-P0412R0": {
+        "aliasOf": "P0412R0"
     },
     "WG21-P0413R0": {
         "aliasOf": "P0413R0"
@@ -113345,11 +114833,200 @@
     "WG21-P0414R0": {
         "aliasOf": "P0414R0"
     },
+    "WG21-P0414R1": {
+        "aliasOf": "P0414R1"
+    },
+    "WG21-P0415R0": {
+        "aliasOf": "P0415R0"
+    },
     "WG21-P0416R0": {
         "aliasOf": "P0416R0"
     },
+    "WG21-P0416R1": {
+        "aliasOf": "P0416R1"
+    },
     "WG21-P0417R0": {
         "aliasOf": "P0417R0"
+    },
+    "WG21-P0418R1": {
+        "aliasOf": "P0418R1"
+    },
+    "WG21-P0421R0": {
+        "aliasOf": "P0421R0"
+    },
+    "WG21-P0422R0": {
+        "aliasOf": "P0422R0"
+    },
+    "WG21-P0423R0": {
+        "aliasOf": "P0423R0"
+    },
+    "WG21-P0424R0": {
+        "aliasOf": "P0424R0"
+    },
+    "WG21-P0426R0": {
+        "aliasOf": "P0426R0"
+    },
+    "WG21-P0428R0": {
+        "aliasOf": "P0428R0"
+    },
+    "WG21-P0429R0": {
+        "aliasOf": "P0429R0"
+    },
+    "WG21-P0430R0": {
+        "aliasOf": "P0430R0"
+    },
+    "WG21-P0432R0": {
+        "aliasOf": "P0432R0"
+    },
+    "WG21-P0433R0": {
+        "aliasOf": "P0433R0"
+    },
+    "WG21-P0434R0": {
+        "aliasOf": "P0434R0"
+    },
+    "WG21-P0435R0": {
+        "aliasOf": "P0435R0"
+    },
+    "WG21-P0436R0": {
+        "aliasOf": "P0436R0"
+    },
+    "WG21-P0437R0": {
+        "aliasOf": "P0437R0"
+    },
+    "WG21-P0438R0": {
+        "aliasOf": "P0438R0"
+    },
+    "WG21-P0439R0": {
+        "aliasOf": "P0439R0"
+    },
+    "WG21-P0440R0": {
+        "aliasOf": "P0440R0"
+    },
+    "WG21-P0441R0": {
+        "aliasOf": "P0441R0"
+    },
+    "WG21-P0443R0": {
+        "aliasOf": "P0443R0"
+    },
+    "WG21-P0444R0": {
+        "aliasOf": "P0444R0"
+    },
+    "WG21-P0445R0": {
+        "aliasOf": "P0445R0"
+    },
+    "WG21-P0446R0": {
+        "aliasOf": "P0446R0"
+    },
+    "WG21-P0447R0": {
+        "aliasOf": "P0447R0"
+    },
+    "WG21-P0448R0": {
+        "aliasOf": "P0448R0"
+    },
+    "WG21-P0451R0": {
+        "aliasOf": "P0451R0"
+    },
+    "WG21-P0452R0": {
+        "aliasOf": "P0452R0"
+    },
+    "WG21-P0454R0": {
+        "aliasOf": "P0454R0"
+    },
+    "WG21-P0457R0": {
+        "aliasOf": "P0457R0"
+    },
+    "WG21-P0458R0": {
+        "aliasOf": "P0458R0"
+    },
+    "WG21-P0459R0": {
+        "aliasOf": "P0459R0"
+    },
+    "WG21-P0460R0": {
+        "aliasOf": "P0460R0"
+    },
+    "WG21-P0461R0": {
+        "aliasOf": "P0461R0"
+    },
+    "WG21-P0462R0": {
+        "aliasOf": "P0462R0"
+    },
+    "WG21-P0463R0": {
+        "aliasOf": "P0463R0"
+    },
+    "WG21-P0464R0": {
+        "aliasOf": "P0464R0"
+    },
+    "WG21-P0465R0": {
+        "aliasOf": "P0465R0"
+    },
+    "WG21-P0466R0": {
+        "aliasOf": "P0466R0"
+    },
+    "WG21-P0467R0": {
+        "aliasOf": "P0467R0"
+    },
+    "WG21-P0468R0": {
+        "aliasOf": "P0468R0"
+    },
+    "WG21-P0469R0": {
+        "aliasOf": "P0469R0"
+    },
+    "WG21-P0471R0": {
+        "aliasOf": "P0471R0"
+    },
+    "WG21-P0472R0": {
+        "aliasOf": "P0472R0"
+    },
+    "WG21-P0473R0": {
+        "aliasOf": "P0473R0"
+    },
+    "WG21-P0474R0": {
+        "aliasOf": "P0474R0"
+    },
+    "WG21-P0475R0": {
+        "aliasOf": "P0475R0"
+    },
+    "WG21-P0476R0": {
+        "aliasOf": "P0476R0"
+    },
+    "WG21-P0477R0": {
+        "aliasOf": "P0477R0"
+    },
+    "WG21-P0478R0": {
+        "aliasOf": "P0478R0"
+    },
+    "WG21-P0479R0": {
+        "aliasOf": "P0479R0"
+    },
+    "WG21-P0480R0": {
+        "aliasOf": "P0480R0"
+    },
+    "WG21-P0481R0": {
+        "aliasOf": "P0481R0"
+    },
+    "WG21-P0482R0": {
+        "aliasOf": "P0482R0"
+    },
+    "WG21-P0483R0": {
+        "aliasOf": "P0483R0"
+    },
+    "WG21-P0484R0": {
+        "aliasOf": "P0484R0"
+    },
+    "WG21-P0485R0": {
+        "aliasOf": "P0485R0"
+    },
+    "WG21-P0486R0": {
+        "aliasOf": "P0486R0"
+    },
+    "WG21-P0487R0": {
+        "aliasOf": "P0487R0"
+    },
+    "WG21-P0488R0": {
+        "aliasOf": "P0488R0"
+    },
+    "WG21-P0489R0": {
+        "aliasOf": "P0489R0"
     },
     "WG21-P3141": {
         "aliasOf": "P3141"
