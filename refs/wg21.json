@@ -86434,6 +86434,16 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "P0273R1": {
+        "title": "Proposed modules changes from implementation and deployment experience",
+        "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0273r1.pdf",
+        "authors": [
+            "Richard Smith, Chandler Carruth, David Jones"
+        ],
+        "rawDate": "2016-10-17",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "P0274R0": {
         "title": "Clump - A Vector-like Sequence Container with Embedded Storage",
         "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0274r0.pdf",
@@ -114328,6 +114338,9 @@
     },
     "WG21-P0273R0": {
         "aliasOf": "P0273R0"
+    },
+    "WG21-P0273R1": {
+        "aliasOf": "P0273R1"
     },
     "WG21-P0274R0": {
         "aliasOf": "P0274R0"
