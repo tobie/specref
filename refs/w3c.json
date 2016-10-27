@@ -40621,8 +40621,8 @@
         ],
         "href": "https://www.w3.org/TR/pointerlock/",
         "title": "Pointer Lock",
-        "rawDate": "2016-08-30",
-        "status": "PR",
+        "rawDate": "2016-10-27",
+        "status": "REC",
         "publisher": "W3C",
         "deliveredBy": [
             "https://www.w3.org/WebPlatform/WG/"
@@ -40693,6 +40693,20 @@
                 "title": "Pointer Lock",
                 "rawDate": "2016-08-30",
                 "status": "PR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WebPlatform/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20161027": {
+                "authors": [
+                    "Vincent Scheib"
+                ],
+                "href": "https://www.w3.org/TR/2016/REC-pointerlock-20161027/",
+                "title": "Pointer Lock",
+                "rawDate": "2016-10-27",
+                "status": "REC",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/WebPlatform/WG/"
@@ -58311,8 +58325,8 @@
         ],
         "href": "https://www.w3.org/TR/wai-aria-1.1/",
         "title": "Accessible Rich Internet Applications (WAI-ARIA) 1.1",
-        "rawDate": "2016-07-21",
-        "status": "WD",
+        "rawDate": "2016-10-27",
+        "status": "CR",
         "publisher": "W3C",
         "deliveredBy": [
             "https://www.w3.org/WAI/ARIA/"
@@ -58444,9 +58458,26 @@
                     "https://www.w3.org/WAI/ARIA/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20161027": {
+                "authors": [
+                    "Joanmarie Diggs",
+                    "James Craig",
+                    "Shane McCarron",
+                    "Michael Cooper"
+                ],
+                "href": "https://www.w3.org/TR/2016/CR-wai-aria-1.1-20161027/",
+                "title": "Accessible Rich Internet Applications (WAI-ARIA) 1.1",
+                "rawDate": "2016-10-27",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WAI/ARIA/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "https://rawgit.com/w3c/aria/master/aria/aria.html"
+        "edDraft": "https://w3c.github.io/aria/aria/aria.html"
     },
     "wai-aria-implementation": {
         "authors": [
