@@ -2100,7 +2100,7 @@
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
     "DOM-Bindings": {
-        "aliasOf": "WebIDL-1"
+        "aliasOf": "WebIDL"
     },
     "DOM-Level-1": {
         "authors": [
@@ -9914,9 +9914,6 @@
         "edDraft": "https://dvcs.w3.org/hg/webcrypto-api/raw-file/tip/spec/Overview.html"
     },
     "WebIDL": {
-        "aliasOf": "WebIDL-1"
-    },
-    "WebIDL-1": {
         "authors": [
             "Cameron McCormack",
             "Boris Zbarsky"
@@ -10040,6 +10037,9 @@
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
+    },
+    "WebIDL-1": {
+        "aliasOf": "WebIDL"
     },
     "WebIDL-Java": {
         "authors": [

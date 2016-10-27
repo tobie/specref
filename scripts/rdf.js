@@ -4,7 +4,8 @@ var request = require('request'),
     xml2js = require('xml2js'),
     bibref = require('../lib/bibref'),
     helper = require('./helper'),
-    getShortName = require('./get-shortname');
+    getShortName = require('./get-shortname'),
+    leveled = require('./leveled');
 
 var RDF_FILE = "https://www.w3.org/2002/01/tr-automation/tr.rdf";
 var FILENAME = "w3c.json";
@@ -40,7 +41,6 @@ var TR_URLS = {
 };
 
 var ED_DRAFTS = {
-    "http://dev.w3.org/2006/webapi/WebIDL/": "http://heycam.github.io/webidl/",
     "http://dev.w3.org/2009/dap/vibration/": "https://w3c.github.io/vibration/"
 };
 
@@ -162,6 +162,11 @@ request({
         // Fill in missing specs
         output.forEach(function(ref) {
             var k = ref.shortName;
+            if (leveled.isLevel(k)) {
+                k = leveled.getRootShortname(k);
+                aliases[ref.shortName] = k;
+                delete aliases[k];
+            }
             var curr = current[k];
             if (curr) {
                 for (var prop in ref) {
@@ -182,7 +187,11 @@ request({
         
         // Fill in missing previous versions
         output.forEach(function(ref) {
-            var cur = current[ref.shortName];
+            var sN = ref.shortName;
+            if (leveled.isLevel(sN)) {
+                sN = leveled.getRootShortname(sN);
+            }
+            var cur = current[sN];
             cur.versions = cur.versions || {};
             var key = ref.rawDate.replace(/\-/g, '');
             var prev = cur.versions[key];
