@@ -219,7 +219,6 @@ request({
             var aliasShortname = aliases[k];
             var alias = current[aliasShortname];
             if (!alias) throw new Error("Missing data for spec " + aliasShortname);
-            var obj = { aliasOf: aliasShortname };
             while (alias.aliasOf) {
                 aliasShortname = alias.aliasOf;
                 alias = current[aliasShortname];
@@ -263,7 +262,7 @@ request({
         console.log("updating existing refs.")
         needUpdate.forEach(function(ref) {
             var latest = bibref.findLatest(ref);
-            if (!latest.aliasOf && latest.rawDate !== ref.rawDate) {
+            if (latest && !latest.aliasOf && latest.rawDate !== ref.rawDate) {
                 if (latest.title) ref.title = latest.title;
                 if (latest.rawDate) ref.rawDate = latest.rawDate;
                 if (latest.status) ref.status = latest.status;
@@ -273,6 +272,7 @@ request({
             }
         });
         helper.writeBiblio(FILENAME, sorted);
+        helper.tryOverwrite(FILENAME);
     });
 });
 

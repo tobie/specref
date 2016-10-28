@@ -3,6 +3,7 @@ var path = require('path');
 var request = require('request');
 
 var DIR_PATH = path.join(__dirname, "..", "refs");
+var OW_PATH = path.join(__dirname, "..", "overwrites");
 var DEFAULT_FILE = "biblio.json";
 var TR_URL = "http://www.w3.org/TR/";
 
@@ -71,4 +72,37 @@ function writeBiblio(f, obj) {
     var filepath = path.join(DIR_PATH, f);
     console.log("Writing output to " + filepath + "...");
     fs.writeFileSync(filepath, JSON.stringify(obj, null, 4) + "\n", 'utf8');
+}
+
+exports.tryOverwrite = tryOverwrite;
+function tryOverwrite(f) {
+    f = f || DEFAULT_FILE;
+    var filepath = path.join(DIR_PATH, f);
+    var filepath_ow = path.join(OW_PATH, f);
+    try {
+        var input = fs.readFileSync(filepath_ow, 'utf8');
+        console.log("Found overwrite file for", f, "at", filepath_ow);
+        console.log("Loading " + filepath_ow + "...");
+    } catch(e) {
+        console.log("No overwrite file for", f, "at", filepath_ow);
+        return;
+    }
+    console.log("Parsing " + filepath_ow + "...");
+    var json = JSON.parse(input);
+    var references = readBiblio(f);
+    Object.keys(json).forEach(function (k) {
+        var ref = references[k];
+        var ow = json[k];
+        if (ref) {
+            console.log("Overwriting", k, "...");
+            var ow = json[k];
+            Object.keys(ow).forEach(function(prop) {
+                console.log("   ", prop + ":", JSON.stringify(ref[prop]), "->", JSON.stringify(ow[prop]));
+                ref[prop] = ow[prop];
+            });
+        } else {
+            console.log("Can't find", k, "in", filepath );
+        }
+    });
+    writeBiblio(f, references);
 }
