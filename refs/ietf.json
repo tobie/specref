@@ -83495,7 +83495,8 @@
             "RFC5546",
             "RFC6868",
             "RFC7529",
-            "RFC7953"
+            "RFC7953",
+            "RFC7986"
         ],
         "obsoletes": [
             "RFC2445"
@@ -120598,6 +120599,21 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc7986": {
+        "rfcNumber": "RFC7986",
+        "href": "https://tools.ietf.org/html/rfc7986",
+        "title": "New Properties for iCalendar",
+        "authors": [
+            "C. Daboo"
+        ],
+        "rawDate": "2016-10",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC5545"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc7987": {
         "rfcNumber": "RFC7987",
         "href": "https://tools.ietf.org/html/rfc7987",
@@ -120741,6 +120757,20 @@
         "obsoletes": [
             "RFC5205"
         ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8009": {
+        "rfcNumber": "RFC8009",
+        "href": "https://tools.ietf.org/html/rfc8009",
+        "title": "AES Encryption with HMAC-SHA2 for Kerberos 5",
+        "authors": [
+            "M. Jenkins",
+            "M. Peck",
+            "K. Burgin"
+        ],
+        "rawDate": "2016-10",
+        "status": "Informational",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
