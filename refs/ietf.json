@@ -95882,7 +95882,6 @@
         "obsoletes": [
             "RFC1150"
         ],
-        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=6360",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -108360,6 +108359,9 @@
         ],
         "rawDate": "2014-04",
         "status": "Informational",
+        "updatedBy": [
+            "RFC7985"
+        ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=7186",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -118186,7 +118188,6 @@
         "updates": [
             "RFC5905"
         ],
-        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=7822",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -120596,6 +120597,23 @@
         "status": "Proposed Standard",
         "updates": [
             "RFC3263"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7985": {
+        "rfcNumber": "RFC7985",
+        "href": "https://tools.ietf.org/html/rfc7985",
+        "title": "Security Threats to Simplified Multicast Forwarding (SMF)",
+        "authors": [
+            "J. Yi",
+            "T. Clausen",
+            "U. Herberg"
+        ],
+        "rawDate": "2016-11",
+        "status": "Informational",
+        "updates": [
+            "RFC7186"
         ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"

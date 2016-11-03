@@ -25207,8 +25207,8 @@
         ],
         "href": "https://www.w3.org/TR/exi-c14n/",
         "title": "Canonical EXI",
-        "rawDate": "2015-05-21",
-        "status": "LCWD",
+        "rawDate": "2016-11-03",
+        "status": "CR",
         "publisher": "W3C",
         "deliveredBy": [
             "https://www.w3.org/XML/EXI/"
@@ -25254,6 +25254,21 @@
                 "title": "Canonical EXI",
                 "rawDate": "2015-05-21",
                 "status": "LCWD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/XML/EXI/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20161103": {
+                "authors": [
+                    "Sebastian Käbisch",
+                    "Daniel Peintner"
+                ],
+                "href": "https://www.w3.org/TR/2016/CR-exi-c14n-20161103/",
+                "title": "Canonical EXI",
+                "rawDate": "2016-11-03",
+                "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/XML/EXI/"
@@ -47335,6 +47350,47 @@
                 "title": "Resource Timing Level 1",
                 "rawDate": "2016-07-21",
                 "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/webperf/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
+    "resource-timing-2": {
+        "authors": [
+            "Todd Reifsteck",
+            "Ilya Grigorik",
+            "Arvind Jain",
+            "Jatinder Mann",
+            "Zhiheng Wang",
+            "Anderson Quach"
+        ],
+        "href": "https://www.w3.org/TR/resource-timing-2/",
+        "title": "Resource Timing Level 2",
+        "rawDate": "2016-11-03",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/resource-timing/",
+        "deliveredBy": [
+            "https://www.w3.org/webperf/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20161103": {
+                "authors": [
+                    "Todd Reifsteck",
+                    "Ilya Grigorik",
+                    "Arvind Jain",
+                    "Jatinder Mann",
+                    "Zhiheng Wang",
+                    "Anderson Quach"
+                ],
+                "href": "https://www.w3.org/TR/2016/WD-resource-timing-2-20161103/",
+                "title": "Resource Timing Level 2",
+                "rawDate": "2016-11-03",
+                "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/webperf/"
