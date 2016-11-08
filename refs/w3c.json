@@ -26753,8 +26753,8 @@
             "Andrei Popescu"
         ],
         "href": "https://www.w3.org/TR/geolocation-API/",
-        "title": "Geolocation API Specification",
-        "status": "PER",
+        "title": "Geolocation API Specification 2nd Edition",
+        "status": "REC",
         "publisher": "W3C",
         "deliveredBy": [
             "https://www.w3.org/2008/geolocation/"
@@ -26819,11 +26819,27 @@
                     "https://www.w3.org/2008/geolocation/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20161108": {
+                "authors": [
+                    "Andrei Popescu"
+                ],
+                "href": "https://www.w3.org/TR/2016/REC-geolocation-API-20161108/",
+                "title": "Geolocation API Specification 2nd Edition",
+                "rawDate": "2016-11-08",
+                "status": "REC",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2008/geolocation/"
+                ],
+                "hasErrata": "https://www.w3.org/2008/geolocation/geoapi-errata.html#1st-edition",
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2015-05-28",
+        "rawDate": "2016-11-08",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
-        "edDraft": "http://dev.w3.org/geo/api/spec-source.html"
+        "edDraft": "http://dev.w3.org/geo/api/spec-source.html",
+        "hasErrata": "https://www.w3.org/2008/geolocation/geoapi-errata.html#1st-edition"
     },
     "geolocation-API-v2": {
         "authors": [
