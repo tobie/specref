@@ -102293,7 +102293,8 @@
         "status": "Proposed Standard",
         "updatedBy": [
             "RFC7274",
-            "RFC7447"
+            "RFC7447",
+            "RFC8012"
         ],
         "updates": [
             "RFC3031",
@@ -120795,6 +120796,25 @@
     },
     "rfc801": {
         "aliasOf": "rfc0801"
+    },
+    "rfc8012": {
+        "rfcNumber": "RFC8012",
+        "href": "https://tools.ietf.org/html/rfc8012",
+        "title": "Label Switched Path (LSP) and Pseudowire (PW) Ping/Trace over MPLS Networks Using Entropy Labels (ELs)",
+        "authors": [
+            "N. Akiya",
+            "G. Swallow",
+            "C. Pignataro",
+            "A. Malis",
+            "S. Aldrin"
+        ],
+        "rawDate": "2016-11",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC6790"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc802": {
         "aliasOf": "rfc0802"
