@@ -24005,6 +24005,66 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "D0057R7": {
+        "title": "Library Editorial changes + Fix spec defect with get_return_object",
+        "href": "http://wiki.edg.com/pub/Wg21issaquah2016/CoreWorkingGroup/D0057R7.pdf",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "D0260R1": {
+        "title": "C++ Concurrent Queues",
+        "href": "http://wiki.edg.com/pub/Wg21issaquah2016/SG1/d0260r1.html",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "D0270R2": {
+        "title": "D0270R2: Revision of signal handlers paper",
+        "href": "http://wiki.edg.com/pub/Wg21issaquah2016/SG1/D0270R2.html",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "D0417R1": {
+        "title": "C++17 should refer to ISO/IEC 10646 2014 instead of 1994 (R1)",
+        "href": "http://wiki.edg.com/pub/Wg21issaquah2016/CoreWorkingGroup/d0417r1.html",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "D0452R1": {
+        "title": "D0452r1: Unifying Numeric Parallel Algorithms",
+        "href": "http://wiki.edg.com/pub/Wg21issaquah2016/SG1/D0452r1.html",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "D0459R1": {
+        "title": "C++ Extensions for Ranges, Speculative Combined Proposal Document (now with Proxy Iterators!)",
+        "href": "http://wiki.edg.com/pub/Wg21issaquah2016/LibraryWorkingGroup/D0459R1.pdf",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "D0464R1": {
+        "title": "D0464R1 - Updated version of P0464R0",
+        "href": "http://wiki.edg.com/pub/Wg21issaquah2016/EvolutionWorkingGroup/d0464r1.html",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "D0490R0": {
+        "title": "(Untitled)",
+        "href": "http://wiki.edg.com/pub/Wg21issaquah2016/CoreWorkingGroup/d0490r0.html",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "D0492R0": {
+        "title": "Proposed Resolution of C++17 National Body Comments for Filesystem(R0)",
+        "href": "http://wiki.edg.com/pub/Wg21issaquah2016/LibraryWorkingGroup/d0492r0.html",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "D0495R0": {
+        "title": "Concurrency Safety in C++ Data Structures",
+        "href": "http://wiki.edg.com/pub/Wg21issaquah2016/SG1/d0495r0.html",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "EWG1": {
         "title": "N3638, N3582, N3386 Return type deduction for normal functions",
         "href": "http://cplusplus.github.io/EWG/ewg-complete.html#1",
@@ -43236,6 +43296,46 @@
         "status": "New",
         "authors": [
             "Jonathan Wakely"
+        ],
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "LWG2785": {
+        "title": "quoted should work with basic_string_view",
+        "href": "http://cplusplus.github.io/LWG/lwg-active.html#2785",
+        "status": "New",
+        "authors": [
+            "Marshall Clow"
+        ],
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "LWG2786": {
+        "title": "Annex C should mention shared_ptr changes for array support",
+        "href": "http://cplusplus.github.io/LWG/lwg-active.html#2786",
+        "status": "New",
+        "authors": [
+            "Jonathan Wakely"
+        ],
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "LWG2787": {
+        "title": "§[file_status.cons] doesn't match class definition",
+        "href": "http://cplusplus.github.io/LWG/lwg-active.html#2787",
+        "status": "New",
+        "authors": [
+            "Tim Song"
+        ],
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "LWG2788": {
+        "title": "basic_string range mutators unintentionally require a default constructible allocator",
+        "href": "http://cplusplus.github.io/LWG/lwg-active.html#2788",
+        "status": "New",
+        "authors": [
+            "Billy O'Neal III"
         ],
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
@@ -72430,6 +72530,7 @@
         "authors": [
             "M. Wong, R. Silvera, R. Mak, C. Cambly, et al."
         ],
+        "rawDate": "2013-04-29",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -74231,6 +74332,7 @@
         "authors": [
             "Alasdair Mackintosh"
         ],
+        "rawDate": "2013-10-11",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -95337,6 +95439,36 @@
     "WG21-CWG999": {
         "aliasOf": "CWG999"
     },
+    "WG21-D0057R7": {
+        "aliasOf": "D0057R7"
+    },
+    "WG21-D0260R1": {
+        "aliasOf": "D0260R1"
+    },
+    "WG21-D0270R2": {
+        "aliasOf": "D0270R2"
+    },
+    "WG21-D0417R1": {
+        "aliasOf": "D0417R1"
+    },
+    "WG21-D0452R1": {
+        "aliasOf": "D0452R1"
+    },
+    "WG21-D0459R1": {
+        "aliasOf": "D0459R1"
+    },
+    "WG21-D0464R1": {
+        "aliasOf": "D0464R1"
+    },
+    "WG21-D0490R0": {
+        "aliasOf": "D0490R0"
+    },
+    "WG21-D0492R0": {
+        "aliasOf": "D0492R0"
+    },
+    "WG21-D0495R0": {
+        "aliasOf": "D0495R0"
+    },
     "WG21-EWG1": {
         "aliasOf": "EWG1"
     },
@@ -101309,6 +101441,18 @@
     },
     "WG21-LWG2784": {
         "aliasOf": "LWG2784"
+    },
+    "WG21-LWG2785": {
+        "aliasOf": "LWG2785"
+    },
+    "WG21-LWG2786": {
+        "aliasOf": "LWG2786"
+    },
+    "WG21-LWG2787": {
+        "aliasOf": "LWG2787"
+    },
+    "WG21-LWG2788": {
+        "aliasOf": "LWG2788"
     },
     "WG21-LWG279": {
         "aliasOf": "LWG279"
