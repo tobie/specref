@@ -13806,7 +13806,8 @@
             "RFC4035",
             "RFC4343",
             "RFC4592",
-            "RFC5936"
+            "RFC5936",
+            "RFC8020"
         ],
         "obsoletes": [
             "RFC0973",
@@ -33585,7 +33586,8 @@
             "RFC4035",
             "RFC4033",
             "RFC4034",
-            "RFC6604"
+            "RFC6604",
+            "RFC8020"
         ],
         "updates": [
             "RFC1034",
@@ -120816,8 +120818,40 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8015": {
+        "rfcNumber": "RFC8015",
+        "href": "https://tools.ietf.org/html/rfc8015",
+        "title": "RTP Control Protocol (RTCP) Extended Report (XR) Block for Independent Reporting of Burst/Gap Discard Metrics",
+        "authors": [
+            "V. Singh",
+            "C. Perkins",
+            "A. Clark",
+            "R. Huang"
+        ],
+        "rawDate": "2016-11",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc802": {
         "aliasOf": "rfc0802"
+    },
+    "rfc8020": {
+        "rfcNumber": "RFC8020",
+        "href": "https://tools.ietf.org/html/rfc8020",
+        "title": "NXDOMAIN: There Really Is Nothing Underneath",
+        "authors": [
+            "S. Bortzmeyer",
+            "S. Huque"
+        ],
+        "rawDate": "2016-11",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC1034",
+            "RFC2308"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc803": {
         "aliasOf": "rfc0803"
