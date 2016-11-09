@@ -24005,9 +24005,21 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "D0003R5": {
+        "title": "Removing dynamic exception specifications",
+        "href": "http://wiki.edg.com/pub/Wg21issaquah2016/CoreWorkingGroup/d0003r5.html",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "D0057R7": {
-        "title": "Library Editorial changes + Fix spec defect with get_return_object",
+        "title": "Applied the changes recommeded during Nov 7 Core Review",
         "href": "http://wiki.edg.com/pub/Wg21issaquah2016/CoreWorkingGroup/D0057R7.pdf",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "D0195R2": {
+        "title": "(Untitled)",
+        "href": "http://wiki.edg.com/pub/Wg21issaquah2016/CoreWorkingGroup/d0195r2.html",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -24026,6 +24038,18 @@
     "D0417R1": {
         "title": "C++17 should refer to ISO/IEC 10646 2014 instead of 1994 (R1)",
         "href": "http://wiki.edg.com/pub/Wg21issaquah2016/CoreWorkingGroup/d0417r1.html",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "D0426R1": {
+        "title": "Constexpr for char traits along with asssign(char_type& c1, const char_type& c2) function",
+        "href": "http://wiki.edg.com/pub/Wg21issaquah2016/LibraryWorkingGroup/d0426r1.html",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "D0430": {
+        "title": "https://docs.google.com/document/d/15uDEVDmuPXksdBdJlGPE5PiwkhVtklGIi4TVwDp1_a8/",
+        "href": "http://wiki.edg.com/pub/Wg21issaquah2016/LibraryWorkingGroup/D0430.docx",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -24062,6 +24086,12 @@
     "D0495R0": {
         "title": "Concurrency Safety in C++ Data Structures",
         "href": "http://wiki.edg.com/pub/Wg21issaquah2016/SG1/d0495r0.html",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "D0497R0": {
+        "title": "Fixes to shared_ptr support for arrays",
+        "href": "http://wiki.edg.com/pub/Wg21issaquah2016/LibraryWorkingGroup/d0497r0.html",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -72530,7 +72560,6 @@
         "authors": [
             "M. Wong, R. Silvera, R. Mak, C. Cambly, et al."
         ],
-        "rawDate": "2013-04-29",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -74332,7 +74361,6 @@
         "authors": [
             "Alasdair Mackintosh"
         ],
-        "rawDate": "2013-10-11",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -85316,6 +85344,12 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "P0195R2": {
+        "title": "P0195R2 Pack expansions in using-declarations",
+        "href": "http://wiki.edg.com/pub/Wg21issaquah2016/StrawPolls/p0195r2.html",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "P0196R0": {
         "title": "A generic none_t literal type for Nullable types",
         "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0196r0.pdf",
@@ -88325,6 +88359,12 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "P0424R1": {
+        "title": "Slightly updated version of P0424R0 (wording updated)",
+        "href": "http://wiki.edg.com/pub/Wg21issaquah2016/EvolutionWorkingGroup/P0424R1.pdf",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "P0426R0": {
         "title": "Constexpr for std::char_traits",
         "href": "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0426r0.html",
@@ -88877,7 +88917,7 @@
     },
     "P3141": {
         "title": "std::terminates()",
-        "href": "https://isocpp.org/blog/2016/04/p3141",
+        "href": "https://isocpp.org/blog/2016/04/p3141/P44",
         "authors": [
             "Hal T. Ng, Professor, C.S., LLVM.edu"
         ],
@@ -95439,8 +95479,14 @@
     "WG21-CWG999": {
         "aliasOf": "CWG999"
     },
+    "WG21-D0003R5": {
+        "aliasOf": "D0003R5"
+    },
     "WG21-D0057R7": {
         "aliasOf": "D0057R7"
+    },
+    "WG21-D0195R2": {
+        "aliasOf": "D0195R2"
     },
     "WG21-D0260R1": {
         "aliasOf": "D0260R1"
@@ -95450,6 +95496,12 @@
     },
     "WG21-D0417R1": {
         "aliasOf": "D0417R1"
+    },
+    "WG21-D0426R1": {
+        "aliasOf": "D0426R1"
+    },
+    "WG21-D0430": {
+        "aliasOf": "D0430"
     },
     "WG21-D0452R1": {
         "aliasOf": "D0452R1"
@@ -95468,6 +95520,9 @@
     },
     "WG21-D0495R0": {
         "aliasOf": "D0495R0"
+    },
+    "WG21-D0497R0": {
+        "aliasOf": "D0497R0"
     },
     "WG21-EWG1": {
         "aliasOf": "EWG1"
@@ -114117,6 +114172,9 @@
     "WG21-P0195R1": {
         "aliasOf": "P0195R1"
     },
+    "WG21-P0195R2": {
+        "aliasOf": "P0195R2"
+    },
     "WG21-P0196R0": {
         "aliasOf": "P0196R0"
     },
@@ -115019,6 +115077,9 @@
     },
     "WG21-P0424R0": {
         "aliasOf": "P0424R0"
+    },
+    "WG21-P0424R1": {
+        "aliasOf": "P0424R1"
     },
     "WG21-P0426R0": {
         "aliasOf": "P0426R0"
