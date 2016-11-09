@@ -24107,6 +24107,24 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "D0503R0": {
+        "title": "D0503R0: Fix for US154,US155, GB68",
+        "href": "https://wg21.link/d0503r0",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "D0504R0": {
+        "title": "Revisiting in-place tag types for any/optional/variant",
+        "href": "https://wg21.link/d0504r0",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "D0505R0": {
+        "title": "Wording for GB 50",
+        "href": "https://wg21.link/d0505r0",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "EWG1": {
         "title": "N3638, N3582, N3386 Return type deduction for normal functions",
         "href": "https://wg21.link/ewg1",
@@ -43382,12 +43400,92 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "LWG2789": {
+        "title": "Equivalence of contained objects",
+        "href": "https://wg21.link/lwg2789",
+        "status": "New",
+        "authors": [
+            "Jonathan Wakely"
+        ],
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "LWG279": {
         "title": "const and non-const iterators should have equivalent typedefs",
         "href": "https://wg21.link/lwg279",
         "status": "NAD",
         "authors": [
             "Steve Cleary"
+        ],
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "LWG2790": {
+        "title": "missing specification of istreambuf_iterator::operator->",
+        "href": "https://wg21.link/lwg2790",
+        "status": "New",
+        "authors": [
+            "Jonathan Wakely"
+        ],
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "LWG2791": {
+        "title": "string_view objects and strings should yield the same hash values",
+        "href": "https://wg21.link/lwg2791",
+        "status": "New",
+        "authors": [
+            "Nicolai Josuttis"
+        ],
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "LWG2792": {
+        "title": "[fund.ts.v2] gcd and lcm should support a wider range of input values",
+        "href": "https://wg21.link/lwg2792",
+        "status": "New",
+        "authors": [
+            "Marshall Clow"
+        ],
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "LWG2793": {
+        "title": "Awkward conflation of trivial special members of istream_iterator",
+        "href": "https://wg21.link/lwg2793",
+        "status": "New",
+        "authors": [
+            "Erich Keane"
+        ],
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "LWG2794": {
+        "title": "Missing requirements for allocator pointers",
+        "href": "https://wg21.link/lwg2794",
+        "status": "New",
+        "authors": [
+            "Billy O'Neal III"
+        ],
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "LWG2795": {
+        "title": "§[global.functions] provides incorrect example of ADL use",
+        "href": "https://wg21.link/lwg2795",
+        "status": "New",
+        "authors": [
+            "Jonathan Wakely"
+        ],
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "LWG2796": {
+        "title": "tuple should be a literal type",
+        "href": "https://wg21.link/lwg2796",
+        "status": "New",
+        "authors": [
+            "Jonathan Wakely"
         ],
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
@@ -88937,6 +89035,12 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "P0502R0": {
+        "title": "P0502r0 Throwing out of a parallel algorithm terminates—but how?",
+        "href": "https://wg21.link/p0502r0",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "P3141": {
         "title": "std::terminates()",
         "href": "https://wg21.link/p3141",
@@ -95552,6 +95656,15 @@
     "WG21-D0502": {
         "aliasOf": "D0502"
     },
+    "WG21-D0503R0": {
+        "aliasOf": "D0503R0"
+    },
+    "WG21-D0504R0": {
+        "aliasOf": "D0504R0"
+    },
+    "WG21-D0505R0": {
+        "aliasOf": "D0505R0"
+    },
     "WG21-EWG1": {
         "aliasOf": "EWG1"
     },
@@ -101537,8 +101650,32 @@
     "WG21-LWG2788": {
         "aliasOf": "LWG2788"
     },
+    "WG21-LWG2789": {
+        "aliasOf": "LWG2789"
+    },
     "WG21-LWG279": {
         "aliasOf": "LWG279"
+    },
+    "WG21-LWG2790": {
+        "aliasOf": "LWG2790"
+    },
+    "WG21-LWG2791": {
+        "aliasOf": "LWG2791"
+    },
+    "WG21-LWG2792": {
+        "aliasOf": "LWG2792"
+    },
+    "WG21-LWG2793": {
+        "aliasOf": "LWG2793"
+    },
+    "WG21-LWG2794": {
+        "aliasOf": "LWG2794"
+    },
+    "WG21-LWG2795": {
+        "aliasOf": "LWG2795"
+    },
+    "WG21-LWG2796": {
+        "aliasOf": "LWG2796"
     },
     "WG21-LWG28": {
         "aliasOf": "LWG28"
@@ -115276,6 +115413,9 @@
     },
     "WG21-P0489R0": {
         "aliasOf": "P0489R0"
+    },
+    "WG21-P0502R0": {
+        "aliasOf": "P0502R0"
     },
     "WG21-P3141": {
         "aliasOf": "P3141"
