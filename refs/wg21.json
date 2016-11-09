@@ -69270,6 +69270,10 @@
     "N3290": {
         "title": "Programming Languages -- C++",
         "href": "https://wg21.link/n3290",
+        "authors": [
+            "Pete Becker"
+        ],
+        "rawDate": "2011-04-11",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -88384,6 +88388,12 @@
             "Antony Polukhin"
         ],
         "rawDate": "2016-08-10",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0426R1": {
+        "title": "Constexpr for char traits along with asssign(char_type& c1, const char_type& c2) function",
+        "href": "https://wg21.link/p0426r1",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -115101,6 +115111,9 @@
     },
     "WG21-P0426R0": {
         "aliasOf": "P0426R0"
+    },
+    "WG21-P0426R1": {
+        "aliasOf": "P0426R1"
     },
     "WG21-P0428R0": {
         "aliasOf": "P0428R0"
