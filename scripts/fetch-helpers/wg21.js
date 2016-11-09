@@ -14,12 +14,6 @@ var MONTHS = {
 };
 
 module.exports = function(id, ref) {
-    if (id == "N3290") {
-        return {
-            title: ref.author,
-            href: ref.link
-        };
-    }
     var output = {
         title: ref.title,
         href: ref.link,
