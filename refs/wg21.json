@@ -72684,7 +72684,6 @@
         "authors": [
             "M. Wong, R. Silvera, R. Mak, C. Cambly, et al."
         ],
-        "rawDate": "2013-04-29",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -74486,7 +74485,6 @@
         "authors": [
             "Alasdair Mackintosh"
         ],
-        "rawDate": "2013-10-11",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -89056,6 +89054,12 @@
     "P0502R0": {
         "title": "P0502r0 Throwing out of a parallel algorithm terminates—but how?",
         "href": "https://wg21.link/p0502r0",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0504R0": {
+        "title": "P0504R0 - revisiting in-place tag types for any/optional/variant",
+        "href": "https://wg21.link/p0504r0",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -115440,6 +115444,9 @@
     },
     "WG21-P0502R0": {
         "aliasOf": "P0502R0"
+    },
+    "WG21-P0504R0": {
+        "aliasOf": "P0504R0"
     },
     "WG21-P3141": {
         "aliasOf": "P3141"
