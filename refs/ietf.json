@@ -51660,6 +51660,9 @@
         ],
         "rawDate": "2003-02",
         "status": "Informational",
+        "obsoletedBy": [
+            "RFC8017"
+        ],
         "obsoletes": [
             "RFC2437"
         ],
@@ -71498,6 +71501,7 @@
         "obsoletes": [
             "RFC2222"
         ],
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=4752",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -81356,6 +81360,9 @@
         ],
         "rawDate": "2009-02",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC7861"
+        ],
         "updates": [
             "RFC2203"
         ],
@@ -91931,6 +91938,7 @@
         "obsoletes": [
             "RFC5006"
         ],
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=6106",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -109558,6 +109566,7 @@
         "updatedBy": [
             "RFC7529"
         ],
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=7265",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -114735,6 +114744,7 @@
         ],
         "rawDate": "2015-07",
         "status": "Proposed Standard",
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=7598",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -118762,6 +118772,46 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc7861": {
+        "rfcNumber": "RFC7861",
+        "href": "https://tools.ietf.org/html/rfc7861",
+        "title": "Remote Procedure Call (RPC) Security Version 3",
+        "authors": [
+            "A. Adamson",
+            "N. Williams"
+        ],
+        "rawDate": "2016-11",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC5403"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7862": {
+        "rfcNumber": "RFC7862",
+        "href": "https://tools.ietf.org/html/rfc7862",
+        "title": "Network File System (NFS) Version 4 Minor Version 2 Protocol",
+        "authors": [
+            "T. Haynes"
+        ],
+        "rawDate": "2016-11",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7863": {
+        "rfcNumber": "RFC7863",
+        "href": "https://tools.ietf.org/html/rfc7863",
+        "title": "Network File System (NFS) Version 4 Minor Version 2 External Data Representation Standard (XDR) Description",
+        "authors": [
+            "T. Haynes"
+        ],
+        "rawDate": "2016-11",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc7864": {
         "rfcNumber": "RFC7864",
         "href": "https://tools.ietf.org/html/rfc7864",
@@ -120427,6 +120477,19 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc7973": {
+        "rfcNumber": "RFC7973",
+        "href": "https://tools.ietf.org/html/rfc7973",
+        "title": "Assignment of an Ethertype for IPv6 with Low-Power Wireless Personal Area Network (LoWPAN) Encapsulation",
+        "authors": [
+            "R. Droms",
+            "P. Duffy"
+        ],
+        "rawDate": "2016-11",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc7974": {
         "rfcNumber": "RFC7974",
         "href": "https://tools.ietf.org/html/rfc7974",
@@ -120834,6 +120897,52 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8016": {
+        "rfcNumber": "RFC8016",
+        "href": "https://tools.ietf.org/html/rfc8016",
+        "title": "Mobility with Traversal Using Relays around NAT (TURN)",
+        "authors": [
+            "T. Reddy",
+            "D. Wing",
+            "P. Patil",
+            "P. Martinsen"
+        ],
+        "rawDate": "2016-11",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8017": {
+        "rfcNumber": "RFC8017",
+        "href": "https://tools.ietf.org/html/rfc8017",
+        "title": "PKCS #1: RSA Cryptography Specifications Version 2.2",
+        "authors": [
+            "K. Moriarty, Ed.",
+            "B. Kaliski",
+            "J. Jonsson",
+            "A. Rusch"
+        ],
+        "rawDate": "2016-11",
+        "status": "Informational",
+        "obsoletes": [
+            "RFC3447"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8019": {
+        "rfcNumber": "RFC8019",
+        "href": "https://tools.ietf.org/html/rfc8019",
+        "title": "Protecting Internet Key Exchange Protocol Version 2 (IKEv2) Implementations from Distributed Denial-of-Service Attacks",
+        "authors": [
+            "Y. Nir",
+            "V. Smyslov"
+        ],
+        "rawDate": "2016-11",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc802": {
         "aliasOf": "rfc0802"
     },
@@ -120861,6 +120970,33 @@
         "authors": [
             "L. Lhotka",
             "A. Lindem"
+        ],
+        "rawDate": "2016-11",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8023": {
+        "rfcNumber": "RFC8023",
+        "href": "https://tools.ietf.org/html/rfc8023",
+        "title": "Report from the Workshop and Prize on Root Causes and Mitigation of Name Collisions",
+        "authors": [
+            "M. Thomas",
+            "A. Mankin",
+            "L. Zhang"
+        ],
+        "rawDate": "2016-11",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8026": {
+        "rfcNumber": "RFC8026",
+        "href": "https://tools.ietf.org/html/rfc8026",
+        "title": "Unified IPv4-in-IPv6 Softwire Customer Premises Equipment (CPE): A DHCPv6-Based Prioritization Mechanism",
+        "authors": [
+            "M. Boucadair",
+            "I. Farrer"
         ],
         "rawDate": "2016-11",
         "status": "Proposed Standard",

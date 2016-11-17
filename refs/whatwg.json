@@ -75,10 +75,25 @@
     },
     "HTML": {
         "authors": [
-            "Ian Hickson"
+            "Anne van Kesteren",
+            "Domenic Denicola",
+            "Ian Hickson",
+            "Philip Jägenstedt",
+            "Simon Pieters"
         ],
         "href": "https://html.spec.whatwg.org/multipage/",
         "title": "HTML Standard",
+        "status": "Living Standard",
+        "publisher": "WHATWG",
+        "source": "https://resources.whatwg.org/biblio.json"
+    },
+    "INFRA": {
+        "authors": [
+            "Anne van Kesteren",
+            "Domenic Denicola"
+        ],
+        "href": "https://infra.spec.whatwg.org/",
+        "title": "Infra Standard",
         "status": "Living Standard",
         "publisher": "WHATWG",
         "source": "https://resources.whatwg.org/biblio.json"
@@ -145,7 +160,8 @@
     },
     "STREAMS": {
         "authors": [
-            "Domenic Denicola"
+            "Domenic Denicola",
+            "吉野剛史 (Takeshi Yoshino)"
         ],
         "href": "https://streams.spec.whatwg.org/",
         "title": "Streams Standard",
@@ -206,6 +222,9 @@
     },
     "WHATWG-HTML": {
         "aliasOf": "HTML"
+    },
+    "WHATWG-INFRA": {
+        "aliasOf": "INFRA"
     },
     "WHATWG-JAVASCRIPT": {
         "aliasOf": "JAVASCRIPT"
