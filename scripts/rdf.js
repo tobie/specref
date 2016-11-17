@@ -40,17 +40,12 @@ var TR_URLS = {
     "https://www.w3.org/TR/2001/WD-xhtml1-20011004/": "https://www.w3.org/TR/xhtml1/",
 };
 
-var ED_DRAFTS = {
-    "http://dev.w3.org/2009/dap/vibration/": "https://w3c.github.io/vibration/"
-};
-
-function edDraft(url) {
-    url = ED_DRAFTS[url] || url;
-    return url ? url.replace(/http:\/\/([a-zA-Z0-9_-]+)\.github\.io/, "https://$1.github.io") : url;
-}
-
 function convertToHttps(url) {
-    return url ? url.replace(/^http:\/\/www\.w3\.org/, "https://www.w3.org") : url;
+    if (url) {
+        url = url.replace(/^http:\/\/www\.w3\.org/, "https://www.w3.org");
+        url = url.replace(/http:\/\/([a-zA-Z0-9_-]+)\.github\.io/, "https://$1.github.io");
+    }
+    return url;
 }
 
 var parser = new xml2js.Parser();
@@ -305,7 +300,7 @@ function makeCleaner(status, isRetired, isSuperseded) {
         };
         obj.deliveredBy = obj.deliveredBy ? obj.deliveredBy.map(function(r) { return  convertToHttps(walk(r, "contact:homePage", 0, "$", "rdf:resource")); }) : obj.deliveredBy;
         obj.trURL = TR_URLS[obj.trURL] || obj.trURL;
-        obj.edDraft = edDraft(obj.edDraft);
+        obj.edDraft = convertToHttps(obj.edDraft);
         obj.shortName = getShortName(obj.trURL);
         return obj;
     }

@@ -97,8 +97,13 @@ function tryOverwrite(f) {
             console.log("Overwriting", k, "...");
             var ow = json[k];
             Object.keys(ow).forEach(function(prop) {
-                console.log("   ", prop + ":", JSON.stringify(ref[prop]), "->", JSON.stringify(ow[prop]));
-                ref[prop] = ow[prop];
+                if (ow[prop].replaceWith) {
+                    console.log("   ", prop + ":", JSON.stringify(ref[prop]), "->", JSON.stringify(ow[prop].replaceWith));
+                    ref[prop] = ow[prop].replaceWith;
+                } else if (ow[prop].delete) {
+                    console.log("   ", prop + ": deleted");
+                    delete ref[prop];
+                }
             });
         } else {
             console.log("Can't find", k, "in", filepath );

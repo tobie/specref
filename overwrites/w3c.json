@@ -1,14 +1,13 @@
 {
     "WebIDL": {
-        "title": "Web IDL",
-        "authors": [
-                "Cameron McCormack",
-                "Boris Zbarsky",
-                "Tobie Langel"
-        ],
-        "status": "WD"
+        "title": { "replaceWith": "Web IDL" },
+        "authors": { "replaceWith": ["Cameron McCormack", "Boris Zbarsky", "Tobie Langel"] },
+        "status": { "replaceWith": "WD" }
     },
     "service-workers-1": {
-        "edDraft": "https://w3c.github.io/ServiceWorker/"
+        "edDraft": { "replaceWith": "https://w3c.github.io/ServiceWorker/" }
+    },
+    "vibration": {
+        "edDraft": { "replaceWith": "https://w3c.github.io/vibration/" }
     }
 }
