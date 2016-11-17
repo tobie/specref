@@ -15087,9 +15087,11 @@
         "title": "Partial ordering and non-dependent types",
         "href": "https://wg21.link/cwg2235",
         "status": "open",
-        "date": "Richard Smith",
         "publisher": "WG21",
-        "source": "https://wg21.link/index.json"
+        "source": "https://wg21.link/index.json",
+        "authors": [
+            "Richard Smith"
+        ]
     },
     "CWG2236": {
         "title": "When is an alias template specialization dependent?",

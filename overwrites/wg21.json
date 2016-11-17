@@ -8,5 +8,9 @@
         "authors": { "replaceWith": ["Vinny Romano"] },
         "rawDate": { "replaceWith": "2016-01-09" },
         "date": { "delete": true }
-    } 
+    },
+    "CWG2235": { 
+        "authors": { "replaceWith": ["Richard Smith"] },
+        "date": { "delete": true }
+    }
 }
