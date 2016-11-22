@@ -11524,7 +11524,7 @@
         ],
         "href": "https://www.w3.org/TR/annotation-model/",
         "title": "Web Annotation Data Model",
-        "rawDate": "2016-09-06",
+        "rawDate": "2016-11-22",
         "status": "CR",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/web-annotation/",
@@ -11605,6 +11605,22 @@
                 "href": "https://www.w3.org/TR/2016/CR-annotation-model-20160906/",
                 "title": "Web Annotation Data Model",
                 "rawDate": "2016-09-06",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/annotation/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20161122": {
+                "authors": [
+                    "Robert Sanderson",
+                    "Paolo Ciccarese",
+                    "Benjamin Young"
+                ],
+                "href": "https://www.w3.org/TR/2016/CR-annotation-model-20161122/",
+                "title": "Web Annotation Data Model",
+                "rawDate": "2016-11-22",
                 "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -11695,7 +11711,7 @@
         ],
         "href": "https://www.w3.org/TR/annotation-vocab/",
         "title": "Web Annotation Vocabulary",
-        "rawDate": "2016-09-06",
+        "rawDate": "2016-11-22",
         "status": "CR",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/web-annotation/",
@@ -11745,6 +11761,22 @@
                 "href": "https://www.w3.org/TR/2016/CR-annotation-vocab-20160906/",
                 "title": "Web Annotation Vocabulary",
                 "rawDate": "2016-09-06",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/annotation/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20161122": {
+                "authors": [
+                    "Robert Sanderson",
+                    "Paolo Ciccarese",
+                    "Benjamin Young"
+                ],
+                "href": "https://www.w3.org/TR/2016/CR-annotation-vocab-20161122/",
+                "title": "Web Annotation Vocabulary",
+                "rawDate": "2016-11-22",
                 "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -40256,8 +40288,8 @@
         ],
         "href": "https://www.w3.org/TR/page-visibility-2/",
         "title": "Page Visibility Level 2",
-        "rawDate": "2016-10-26",
-        "status": "WD",
+        "rawDate": "2016-11-22",
+        "status": "CR",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/page-visibility/",
         "deliveredBy": [
@@ -40286,6 +40318,22 @@
                 "title": "Page Visibility Level 2",
                 "rawDate": "2016-10-26",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/webperf/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20161122": {
+                "authors": [
+                    "Ilya Grigorik",
+                    "Arvind Jain",
+                    "Jatinder Mann"
+                ],
+                "href": "https://www.w3.org/TR/2016/CR-page-visibility-2-20161122/",
+                "title": "Page Visibility Level 2",
+                "rawDate": "2016-11-22",
+                "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/webperf/"
@@ -41183,6 +41231,37 @@
             }
         },
         "edDraft": "https://w3c.github.io/pointerlock/"
+    },
+    "pointerlock-2": {
+        "authors": [
+            "Vincent Scheib"
+        ],
+        "href": "https://www.w3.org/TR/pointerlock-2/",
+        "title": "Pointer Lock 2.0",
+        "rawDate": "2016-11-22",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/pointerlock/",
+        "deliveredBy": [
+            "https://www.w3.org/WebPlatform/WG/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20161122": {
+                "authors": [
+                    "Vincent Scheib"
+                ],
+                "href": "https://www.w3.org/TR/2016/WD-pointerlock-2-20161122/",
+                "title": "Pointer Lock 2.0",
+                "rawDate": "2016-11-22",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WebPlatform/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
     },
     "poix": {
         "versions": {
