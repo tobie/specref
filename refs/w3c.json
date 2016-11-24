@@ -43385,35 +43385,7 @@
         }
     },
     "pubsub": {
-        "authors": [
-            "Julien Genestoux"
-        ],
-        "href": "https://www.w3.org/TR/pubsub/",
-        "title": "PubSub",
-        "rawDate": "2016-10-20",
-        "status": "WD",
-        "publisher": "W3C",
-        "edDraft": "https://w3c.github.io/pubsub/",
-        "deliveredBy": [
-            "https://www.w3.org/Social/WG"
-        ],
-        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
-        "versions": {
-            "20161020": {
-                "authors": [
-                    "Julien Genestoux"
-                ],
-                "href": "https://www.w3.org/TR/2016/WD-pubsub-20161020/",
-                "title": "PubSub",
-                "rawDate": "2016-10-20",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/Social/WG"
-                ],
-                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
-            }
-        }
+        "aliasOf": "websub"
     },
     "push-api": {
         "authors": [
@@ -62068,6 +62040,53 @@
         "rawDate": "2016-04-19",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
         "edDraft": "https://w3c.github.io/webstorage/"
+    },
+    "websub": {
+        "authors": [
+            "Julien Genestoux",
+            "Aaron Parecki"
+        ],
+        "href": "https://www.w3.org/TR/websub/",
+        "title": "WebSub",
+        "rawDate": "2016-11-24",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/websub/",
+        "deliveredBy": [
+            "https://www.w3.org/Social/WG"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20161020": {
+                "authors": [
+                    "Julien Genestoux"
+                ],
+                "href": "https://www.w3.org/TR/2016/WD-pubsub-20161020/",
+                "title": "PubSub",
+                "rawDate": "2016-10-20",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Social/WG"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20161124": {
+                "authors": [
+                    "Julien Genestoux",
+                    "Aaron Parecki"
+                ],
+                "href": "https://www.w3.org/TR/2016/WD-websub-20161124/",
+                "title": "WebSub",
+                "rawDate": "2016-11-24",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Social/WG"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
     },
     "webvtt1": {
         "authors": [
