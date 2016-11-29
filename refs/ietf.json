@@ -73130,7 +73130,8 @@
             "RFC6980",
             "RFC7048",
             "RFC7527",
-            "RFC7559"
+            "RFC7559",
+            "RFC8028"
         ],
         "obsoletes": [
             "RFC2461"
@@ -86807,6 +86808,9 @@
         ],
         "rawDate": "2010-04",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC8035"
+        ],
         "updates": [
             "RFC3550",
             "RFC3551"
@@ -120927,7 +120931,6 @@
         "obsoletes": [
             "RFC3447"
         ],
-        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=8017",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -121004,8 +121007,53 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8027": {
+        "rfcNumber": "RFC8027",
+        "href": "https://tools.ietf.org/html/rfc8027",
+        "title": "DNSSEC Roadblock Avoidance",
+        "authors": [
+            "W. Hardaker",
+            "O. Gudmundsson",
+            "S. Krishnaswamy"
+        ],
+        "rawDate": "2016-11",
+        "status": "Best Current Practice",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8028": {
+        "rfcNumber": "RFC8028",
+        "href": "https://tools.ietf.org/html/rfc8028",
+        "title": "First-Hop Router Selection by Hosts in a Multi-Prefix Network",
+        "authors": [
+            "F. Baker",
+            "B. Carpenter"
+        ],
+        "rawDate": "2016-11",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC4861"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc803": {
         "aliasOf": "rfc0803"
+    },
+    "rfc8035": {
+        "rfcNumber": "RFC8035",
+        "href": "https://tools.ietf.org/html/rfc8035",
+        "title": "Session Description Protocol (SDP) Offer/Answer Clarifications for RTP/RTCP Multiplexing",
+        "authors": [
+            "C. Holmberg"
+        ],
+        "rawDate": "2016-11",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC5761"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc804": {
         "aliasOf": "rfc0804"
