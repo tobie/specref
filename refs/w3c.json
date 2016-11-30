@@ -53804,11 +53804,11 @@
         ],
         "href": "https://www.w3.org/TR/streams-api/",
         "title": "Streams API",
-        "rawDate": "2014-10-23",
-        "status": "WD",
+        "rawDate": "2016-11-29",
+        "status": "NOTE",
         "publisher": "W3C",
         "deliveredBy": [
-            "https://www.w3.org/2008/webapps/"
+            "https://www.w3.org/WebPlatform/WG/"
         ],
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
         "versions": {
@@ -53855,9 +53855,26 @@
                     "https://www.w3.org/2008/webapps/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20161129": {
+                "authors": [
+                    "Feras Moussa",
+                    "Takeshi Yoshino"
+                ],
+                "href": "https://www.w3.org/TR/2016/NOTE-streams-api-20161129/",
+                "title": "Streams API",
+                "rawDate": "2016-11-29",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "isRetired": true,
+                "deliveredBy": [
+                    "https://www.w3.org/WebPlatform/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "http://dvcs.w3.org/hg/streams-api/raw-file/tip/Overview.htm"
+        "edDraft": "https://streams.spec.whatwg.org/",
+        "isRetired": true
     },
     "stts2": {
         "versions": {
