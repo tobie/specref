@@ -74398,7 +74398,8 @@
         "status": "Proposed Standard",
         "updatedBy": [
             "RFC6282",
-            "RFC6775"
+            "RFC6775",
+            "RFC8025"
         ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=4944",
         "publisher": "IETF",
@@ -76331,6 +76332,9 @@
         "status": "Proposed Standard",
         "updatedBy": [
             "RFC6685"
+        ],
+        "obsoletedBy": [
+            "RFC7970"
         ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=5070",
         "publisher": "IETF",
@@ -100741,6 +100745,9 @@
         ],
         "rawDate": "2012-07",
         "status": "Proposed Standard",
+        "obsoletedBy": [
+            "RFC7970"
+        ],
         "updates": [
             "RFC5070"
         ],
@@ -108297,6 +108304,7 @@
             "RFC7188",
             "RFC7466"
         ],
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=7181",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -120450,6 +120458,22 @@
     "rfc797": {
         "aliasOf": "rfc0797"
     },
+    "rfc7970": {
+        "rfcNumber": "RFC7970",
+        "href": "https://tools.ietf.org/html/rfc7970",
+        "title": "The Incident Object Description Exchange Format Version 2",
+        "authors": [
+            "R. Danyliw"
+        ],
+        "rawDate": "2016-11",
+        "status": "Proposed Standard",
+        "obsoletes": [
+            "RFC5070",
+            "RFC6685"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc7971": {
         "rfcNumber": "RFC7971",
         "href": "https://tools.ietf.org/html/rfc7971",
@@ -120784,6 +120808,19 @@
     "rfc800": {
         "aliasOf": "rfc0800"
     },
+    "rfc8000": {
+        "rfcNumber": "RFC8000",
+        "href": "https://tools.ietf.org/html/rfc8000",
+        "title": "Requirements for NFSv4 Multi-Domain Namespace Deployment",
+        "authors": [
+            "A. Adamson",
+            "N. Williams"
+        ],
+        "rawDate": "2016-11",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8002": {
         "rfcNumber": "RFC8002",
         "href": "https://tools.ietf.org/html/rfc8002",
@@ -120991,6 +121028,38 @@
         ],
         "rawDate": "2016-11",
         "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8024": {
+        "rfcNumber": "RFC8024",
+        "href": "https://tools.ietf.org/html/rfc8024",
+        "title": "Multi-Chassis Passive Optical Network (MC-PON) Protection in MPLS",
+        "authors": [
+            "Y. Jiang, Ed.",
+            "Y. Luo",
+            "E. Mallette, Ed.",
+            "Y. Shen",
+            "W. Cheng"
+        ],
+        "rawDate": "2016-11",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8025": {
+        "rfcNumber": "RFC8025",
+        "href": "https://tools.ietf.org/html/rfc8025",
+        "title": "IPv6 over Low-Power Wireless Personal Area Network (6LoWPAN) Paging Dispatch",
+        "authors": [
+            "P. Thubert, Ed.",
+            "R. Cragie"
+        ],
+        "rawDate": "2016-11",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC4944"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
