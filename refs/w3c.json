@@ -71407,7 +71407,10 @@
             }
         },
         "rawDate": "2012-11-13",
-        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "obsoletes": [
+            "xmlenc-core1-testcases"
+        ]
     },
     "xmlenc-core1-testcases": {
         "authors": [
@@ -71439,7 +71442,10 @@
             }
         },
         "rawDate": "2012-01-05",
-        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "obsoletedBy": [
+            "xmlenc-core1-interop"
+        ]
     },
     "xmlenc-decrypt": {
         "authors": [
