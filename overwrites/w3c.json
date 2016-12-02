@@ -2,9 +2,11 @@
     "WebIDL": {
         "title": { "replaceWith": "Web IDL" },
         "authors": { "replaceWith": ["Cameron McCormack", "Boris Zbarsky", "Tobie Langel"] },
-        "status": { "replaceWith": "WD" },
-        "edDraft": { "replaceWith": "https://w3c.github.io/webcrypto/Overview.html" }
+        "status": { "replaceWith": "WD" }
     },
+    "WebCryptoAPI": {
+        "edDraft": { "replaceWith": "https://w3c.github.io/webcrypto/Overview.html" }
+    },    
     "service-workers-1": {
         "edDraft": { "replaceWith": "https://w3c.github.io/ServiceWorker/" }
     },
