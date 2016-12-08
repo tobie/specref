@@ -28187,13 +28187,12 @@
         ],
         "href": "https://www.w3.org/TR/html-aam-1.0/",
         "title": "HTML Accessibility API Mappings 1.0",
-        "rawDate": "2015-12-03",
+        "rawDate": "2016-12-08",
         "status": "WD",
         "publisher": "W3C",
-        "edDraft": "https://w3c.github.io/aria/html-aam/html-aam.html",
+        "edDraft": "https://w3c.github.io/html-aam/",
         "deliveredBy": [
-            "https://www.w3.org/WebPlatform/WG/",
-            "https://www.w3.org/WAI/ARIA/"
+            "https://www.w3.org/WebPlatform/WG/"
         ],
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
         "versions": {
@@ -28230,6 +28229,23 @@
                 "deliveredBy": [
                     "https://www.w3.org/WebPlatform/WG/",
                     "https://www.w3.org/WAI/ARIA/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20161208": {
+                "authors": [
+                    "Steve Faulkner",
+                    "Jason Kiss",
+                    "Alexander Surkov",
+                    "Cynthia Shelly"
+                ],
+                "href": "https://www.w3.org/TR/2016/WD-html-aam-1.0-20161208/",
+                "title": "HTML Accessibility API Mappings 1.0",
+                "rawDate": "2016-12-08",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WebPlatform/WG/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
@@ -40725,12 +40741,14 @@
     },
     "performance-timeline-2": {
         "authors": [
-            "Ilya Grigorik"
+            "Ilya Grigorik",
+            "Jatinder Mann",
+            "Zhiheng Wang"
         ],
         "href": "https://www.w3.org/TR/performance-timeline-2/",
         "title": "Performance Timeline Level 2",
-        "rawDate": "2016-11-14",
-        "status": "WD",
+        "rawDate": "2016-12-08",
+        "status": "CR",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/performance-timeline/",
         "deliveredBy": [
@@ -40994,6 +41012,22 @@
                 "title": "Performance Timeline Level 2",
                 "rawDate": "2016-11-14",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/webperf/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20161208": {
+                "authors": [
+                    "Ilya Grigorik",
+                    "Jatinder Mann",
+                    "Zhiheng Wang"
+                ],
+                "href": "https://www.w3.org/TR/2016/CR-performance-timeline-2-20161208/",
+                "title": "Performance Timeline Level 2",
+                "rawDate": "2016-12-08",
+                "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/webperf/"
