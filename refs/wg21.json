@@ -44910,12 +44910,52 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "LWG2829": {
+        "title": "LWG 2740 leaves behind vacuous words",
+        "href": "https://wg21.link/lwg2829",
+        "status": "New",
+        "authors": [
+            "Richard Smith"
+        ],
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "LWG283": {
         "title": "std::replace() requirement incorrect/insufficient",
         "href": "https://wg21.link/lwg283",
         "status": "CD1",
         "authors": [
             "Martin Sebor"
+        ],
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "LWG2830": {
+        "title": "insert_return_type is only defined for containers with unique keys",
+        "href": "https://wg21.link/lwg2830",
+        "status": "New",
+        "authors": [
+            "Daniel James"
+        ],
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "LWG2831": {
+        "title": "Equality can be defined when Hash function objects have different behaviour",
+        "href": "https://wg21.link/lwg2831",
+        "status": "New",
+        "authors": [
+            "Daniel James"
+        ],
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "LWG2832": {
+        "title": "§[fpos.operations] strange requirement for P(i)",
+        "href": "https://wg21.link/lwg2832",
+        "status": "New",
+        "authors": [
+            "Jens Maurer"
         ],
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
@@ -90999,8 +91039,12 @@
         "source": "https://wg21.link/index.json"
     },
     "P0509R1": {
-        "title": "Wording for GB41 and GB42 on \"Restrictions on exception handing\".",
+        "title": "Updating \"Restrictions on exception handling\"",
         "href": "https://wg21.link/p0509r1",
+        "authors": [
+            "James Dennett"
+        ],
+        "rawDate": "2016-11-10",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -104206,8 +104250,20 @@
     "WG21-LWG2828": {
         "aliasOf": "LWG2828"
     },
+    "WG21-LWG2829": {
+        "aliasOf": "LWG2829"
+    },
     "WG21-LWG283": {
         "aliasOf": "LWG283"
+    },
+    "WG21-LWG2830": {
+        "aliasOf": "LWG2830"
+    },
+    "WG21-LWG2831": {
+        "aliasOf": "LWG2831"
+    },
+    "WG21-LWG2832": {
+        "aliasOf": "LWG2832"
     },
     "WG21-LWG284": {
         "aliasOf": "LWG284"
