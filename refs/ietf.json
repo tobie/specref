@@ -93835,6 +93835,7 @@
         ],
         "rawDate": "2011-05",
         "status": "Proposed Standard",
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=6228",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -120886,6 +120887,50 @@
         "obsoletes": [
             "RFC5205"
         ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8006": {
+        "rfcNumber": "RFC8006",
+        "href": "https://tools.ietf.org/html/rfc8006",
+        "title": "Content Delivery Network Interconnection (CDNI) Metadata",
+        "authors": [
+            "B. Niven-Jenkins",
+            "R. Murray",
+            "M. Caulfield",
+            "K. Ma"
+        ],
+        "rawDate": "2016-12",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8007": {
+        "rfcNumber": "RFC8007",
+        "href": "https://tools.ietf.org/html/rfc8007",
+        "title": "Content Delivery Network Interconnection (CDNI) Control Interface / Triggers",
+        "authors": [
+            "R. Murray",
+            "B. Niven-Jenkins"
+        ],
+        "rawDate": "2016-12",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8008": {
+        "rfcNumber": "RFC8008",
+        "href": "https://tools.ietf.org/html/rfc8008",
+        "title": "Content Delivery Network Interconnection (CDNI) Request Routing: Footprint and Capabilities Semantics",
+        "authors": [
+            "J. Seedorf",
+            "J. Peterson",
+            "S. Previdi",
+            "R. van Brandenburg",
+            "K. Ma"
+        ],
+        "rawDate": "2016-12",
+        "status": "Proposed Standard",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
