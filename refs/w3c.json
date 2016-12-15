@@ -1329,8 +1329,8 @@
         ],
         "href": "https://www.w3.org/TR/CSP2/",
         "title": "Content Security Policy Level 2",
-        "rawDate": "2016-11-08",
-        "status": "PR",
+        "rawDate": "2016-12-15",
+        "status": "REC",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/webappsec-csp/",
         "deliveredBy": [
@@ -1446,8 +1446,26 @@
                     "https://www.w3.org/2011/webappsec/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20161215": {
+                "authors": [
+                    "Mike West",
+                    "Adam Barth",
+                    "Daniel Veditz"
+                ],
+                "href": "https://www.w3.org/TR/2016/REC-CSP2-20161215/",
+                "title": "Content Security Policy Level 2",
+                "rawDate": "2016-12-15",
+                "status": "REC",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2011/webappsec/"
+                ],
+                "hasErrata": "https://github.com/w3c/webappsec-csp/issues",
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "hasErrata": "https://github.com/w3c/webappsec-csp/issues"
     },
     "CSP3": {
         "authors": [
@@ -9861,13 +9879,12 @@
     },
     "WebCryptoAPI": {
         "authors": [
-            "Ryan Sleevi",
             "Mark Watson"
         ],
         "href": "https://www.w3.org/TR/WebCryptoAPI/",
         "title": "Web Cryptography API",
-        "rawDate": "2014-12-11",
-        "status": "CR",
+        "rawDate": "2016-12-15",
+        "status": "PR",
         "publisher": "W3C",
         "deliveredBy": [
             "https://www.w3.org/2012/webcrypto/"
@@ -9931,6 +9948,20 @@
                 "title": "Web Cryptography API",
                 "rawDate": "2014-12-11",
                 "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2012/webcrypto/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20161215": {
+                "authors": [
+                    "Mark Watson"
+                ],
+                "href": "https://www.w3.org/TR/2016/PR-WebCryptoAPI-20161215/",
+                "title": "Web Cryptography API",
+                "rawDate": "2016-12-15",
+                "status": "PR",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/2012/webcrypto/"
@@ -23119,8 +23150,8 @@
         ],
         "href": "https://www.w3.org/TR/dwbp/",
         "title": "Data on the Web Best Practices",
-        "rawDate": "2016-08-30",
-        "status": "CR",
+        "rawDate": "2016-12-15",
+        "status": "PR",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/dwbp/bp.html",
         "deliveredBy": [
@@ -23218,6 +23249,22 @@
                 "title": "Data on the Web Best Practices",
                 "rawDate": "2016-08-30",
                 "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2013/dwbp/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20161215": {
+                "authors": [
+                    "Bernadette Farias Loscio",
+                    "Caroline Burle",
+                    "Newton Calegari"
+                ],
+                "href": "https://www.w3.org/TR/2016/PR-dwbp-20161215/",
+                "title": "Data on the Web Best Practices",
+                "rawDate": "2016-12-15",
+                "status": "PR",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/2013/dwbp/"
@@ -24208,7 +24255,7 @@
         ],
         "href": "https://www.w3.org/TR/encoding/",
         "title": "Encoding",
-        "rawDate": "2016-11-10",
+        "rawDate": "2016-12-15",
         "status": "CR",
         "publisher": "W3C",
         "deliveredBy": [
@@ -24289,6 +24336,22 @@
                 "href": "https://www.w3.org/TR/2016/CR-encoding-20161110/",
                 "title": "Encoding",
                 "rawDate": "2016-11-10",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/International/core/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20161215": {
+                "authors": [
+                    "Anne van Kesteren",
+                    "Joshua Bell",
+                    "Addison Phillips"
+                ],
+                "href": "https://www.w3.org/TR/2016/CR-encoding-20161215/",
+                "title": "Encoding",
+                "rawDate": "2016-12-15",
                 "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -58347,7 +58410,7 @@
         ],
         "href": "https://www.w3.org/TR/vocab-dqv/",
         "title": "Data on the Web Best Practices: Data Quality Vocabulary",
-        "rawDate": "2016-08-30",
+        "rawDate": "2016-12-15",
         "status": "NOTE",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/dwbp/vocab-dqg.html",
@@ -58417,6 +58480,21 @@
                     "https://www.w3.org/2013/dwbp/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20161215": {
+                "authors": [
+                    "Riccardo Albertoni",
+                    "Antoine Isaac"
+                ],
+                "href": "https://www.w3.org/TR/2016/NOTE-vocab-dqv-20161215/",
+                "title": "Data on the Web Best Practices: Data Quality Vocabulary",
+                "rawDate": "2016-12-15",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2013/dwbp/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
     },
@@ -58428,7 +58506,7 @@
         ],
         "href": "https://www.w3.org/TR/vocab-duv/",
         "title": "Data on the Web Best Practices: Dataset Usage Vocabulary",
-        "rawDate": "2016-08-30",
+        "rawDate": "2016-12-15",
         "status": "NOTE",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/dwbp/vocab-du.html",
@@ -58494,6 +58572,22 @@
                 "href": "https://www.w3.org/TR/2016/NOTE-vocab-duv-20160830/",
                 "title": "Data on the Web Best Practices: Dataset Usage Vocabulary",
                 "rawDate": "2016-08-30",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2013/dwbp/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20161215": {
+                "authors": [
+                    "Bernadette Farias Loscio",
+                    "Eric Stephan",
+                    "Sumit Purohit"
+                ],
+                "href": "https://www.w3.org/TR/2016/NOTE-vocab-duv-20161215/",
+                "title": "Data on the Web Best Practices: Dataset Usage Vocabulary",
+                "rawDate": "2016-12-15",
                 "status": "NOTE",
                 "publisher": "W3C",
                 "deliveredBy": [
