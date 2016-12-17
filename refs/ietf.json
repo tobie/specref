@@ -38466,7 +38466,7 @@
             "L. Daigle",
             "D. van Gulik",
             "R. Iannella",
-            "P. Falstrom"
+            "P. Faltstrom"
         ],
         "rawDate": "1999-06",
         "status": "Best Current Practice",
@@ -110485,6 +110485,9 @@
         ],
         "rawDate": "2014-09",
         "status": "Informational",
+        "updatedBy": [
+            "RFC7997"
+        ],
         "obsoletes": [
             "RFC2223"
         ],
@@ -117088,6 +117091,9 @@
         ],
         "rawDate": "2016-02",
         "status": "Informational",
+        "obsoletedBy": [
+            "RFC7991"
+        ],
         "obsoletes": [
             "RFC2629"
         ],
@@ -120786,6 +120792,124 @@
     },
     "rfc799": {
         "aliasOf": "rfc0799"
+    },
+    "rfc7990": {
+        "rfcNumber": "RFC7990",
+        "href": "https://tools.ietf.org/html/rfc7990",
+        "title": "RFC Format Framework",
+        "authors": [
+            "H. Flanagan"
+        ],
+        "rawDate": "2016-12",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7991": {
+        "rfcNumber": "RFC7991",
+        "href": "https://tools.ietf.org/html/rfc7991",
+        "title": "The \"xml2rfc\" Version 3 Vocabulary",
+        "authors": [
+            "P. Hoffman"
+        ],
+        "rawDate": "2016-12",
+        "status": "Informational",
+        "obsoletes": [
+            "RFC7749"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7992": {
+        "rfcNumber": "RFC7992",
+        "href": "https://tools.ietf.org/html/rfc7992",
+        "title": "HTML Format for RFCs",
+        "authors": [
+            "J. Hildebrand, Ed.",
+            "P. Hoffman"
+        ],
+        "rawDate": "2016-12",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7993": {
+        "rfcNumber": "RFC7993",
+        "href": "https://tools.ietf.org/html/rfc7993",
+        "title": "Cascading Style Sheets (CSS) Requirements for RFCs",
+        "authors": [
+            "H. Flanagan"
+        ],
+        "rawDate": "2016-12",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7994": {
+        "rfcNumber": "RFC7994",
+        "href": "https://tools.ietf.org/html/rfc7994",
+        "title": "Requirements for Plain-Text RFCs",
+        "authors": [
+            "H. Flanagan"
+        ],
+        "rawDate": "2016-12",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7995": {
+        "rfcNumber": "RFC7995",
+        "href": "https://tools.ietf.org/html/rfc7995",
+        "title": "PDF Format for RFCs",
+        "authors": [
+            "T. Hansen, Ed.",
+            "L. Masinter",
+            "M. Hardy"
+        ],
+        "rawDate": "2016-12",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7996": {
+        "rfcNumber": "RFC7996",
+        "href": "https://tools.ietf.org/html/rfc7996",
+        "title": "SVG Drawings for RFCs: SVG 1.2 RFC",
+        "authors": [
+            "N. Brownlee"
+        ],
+        "rawDate": "2016-12",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7997": {
+        "rfcNumber": "RFC7997",
+        "href": "https://tools.ietf.org/html/rfc7997",
+        "title": "The Use of Non-ASCII Characters in RFCs",
+        "authors": [
+            "H. Flanagan, Ed."
+        ],
+        "rawDate": "2016-12",
+        "status": "Informational",
+        "updates": [
+            "RFC7322"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7998": {
+        "rfcNumber": "RFC7998",
+        "href": "https://tools.ietf.org/html/rfc7998",
+        "title": "\"xml2rfc\" Version 3 Preparation Tool Description",
+        "authors": [
+            "P. Hoffman",
+            "J. Hildebrand"
+        ],
+        "rawDate": "2016-12",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc7999": {
         "rfcNumber": "RFC7999",
