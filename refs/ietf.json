@@ -33867,6 +33867,9 @@
         ],
         "rawDate": "1998-04",
         "status": "Proposed Standard",
+        "obsoletedBy": [
+            "RFC7826"
+        ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=2326",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -118254,6 +118257,39 @@
         ],
         "rawDate": "2016-05",
         "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7825": {
+        "rfcNumber": "RFC7825",
+        "href": "https://tools.ietf.org/html/rfc7825",
+        "title": "A Network Address Translator (NAT) Traversal Mechanism for Media Controlled by the Real-Time Streaming Protocol (RTSP)",
+        "authors": [
+            "J. Goldberg",
+            "M. Westerlund",
+            "T. Zeng"
+        ],
+        "rawDate": "2016-12",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc7826": {
+        "rfcNumber": "RFC7826",
+        "href": "https://tools.ietf.org/html/rfc7826",
+        "title": "Real-Time Streaming Protocol Version 2.0",
+        "authors": [
+            "H. Schulzrinne",
+            "A. Rao",
+            "R. Lanphier",
+            "M. Westerlund",
+            "M. Stiemerling, Ed."
+        ],
+        "rawDate": "2016-12",
+        "status": "Proposed Standard",
+        "obsoletes": [
+            "RFC2326"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
