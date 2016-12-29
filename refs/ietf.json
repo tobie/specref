@@ -33908,7 +33908,8 @@
             "RFC6549",
             "RFC6845",
             "RFC6860",
-            "RFC7474"
+            "RFC7474",
+            "RFC8042"
         ],
         "obsoletes": [
             "RFC2178"
@@ -70601,6 +70602,7 @@
         ],
         "rawDate": "2006-09",
         "status": "Informational",
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=4690",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -109333,6 +109335,9 @@
         ],
         "rawDate": "2014-05",
         "status": "Proposed Standard",
+        "obsoletedBy": [
+            "RFC8048"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -121132,6 +121137,22 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8014": {
+        "rfcNumber": "RFC8014",
+        "href": "https://tools.ietf.org/html/rfc8014",
+        "title": "An Architecture for Data-Center Network Virtualization over Layer 3 (NVO3)",
+        "authors": [
+            "D. Black",
+            "J. Hudson",
+            "L. Kreeger",
+            "M. Lasserre",
+            "T. Narten"
+        ],
+        "rawDate": "2016-12",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8015": {
         "rfcNumber": "RFC8015",
         "href": "https://tools.ietf.org/html/rfc8015",
@@ -121378,6 +121399,38 @@
     },
     "rfc804": {
         "aliasOf": "rfc0804"
+    },
+    "rfc8042": {
+        "rfcNumber": "RFC8042",
+        "href": "https://tools.ietf.org/html/rfc8042",
+        "title": "OSPF Two-Part Metric",
+        "authors": [
+            "Z. Zhang",
+            "L. Wang",
+            "A. Lindem"
+        ],
+        "rawDate": "2016-12",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC2328"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8048": {
+        "rfcNumber": "RFC8048",
+        "href": "https://tools.ietf.org/html/rfc8048",
+        "title": "Interworking between the Session Initiation Protocol (SIP) and the Extensible Messaging and Presence Protocol (XMPP): Presence",
+        "authors": [
+            "P. Saint-Andre"
+        ],
+        "rawDate": "2016-12",
+        "status": "Proposed Standard",
+        "obsoletes": [
+            "RFC7248"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc805": {
         "aliasOf": "rfc0805"
