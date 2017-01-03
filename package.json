@@ -4,23 +4,23 @@
   "description": "A list of spec references and related API.",
   "main": "index.js",
   "dependencies": {
-    "body-parser": "1.9.0",
-    "compression": "1.1.0",
-    "cors": "2.4.2",
-    "errorhandler": "1.2.0",
-    "express": "4.9.5",
-    "multer": "0.1.4"
+    "body-parser": "1.15.2",
+    "compression": "1.6.2",
+    "cors": "2.8.1",
+    "errorhandler": "1.5.0",
+    "express": "4.14.0",
+    "multer": "^1.2.1"
   },
   "devDependencies": {
-    "async": "0.9.0",
-    "ent": "2.0.0",
-    "jsdom": "3.1.1",
-    "json-pointer": "0.2.2",
-    "mocha": "1.21.4",
-    "request": "2.74.0",
-    "tv4": "1.1.9",
-    "tv4-formats": "1.0.0",
-    "xml2js": "0.4.4"
+    "async": "2.1.4",
+    "ent": "2.2.0",
+    "jsdom": "9.9.1",
+    "json-pointer": "0.6.0",
+    "mocha": "3.2.0",
+    "request": "2.79.0",
+    "tv4": "1.2.7",
+    "tv4-formats": "2.2.1",
+    "xml2js": "0.4.17"
   },
   "scripts": {
     "test": "mocha -u tdd -R min --timeout 300000 ./test/*.js",
