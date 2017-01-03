@@ -9,7 +9,7 @@ if (process.env.NODE_ENV == "dev" || process.env.NODE_ENV == "development") {
     errorhandlerOptions.dumpExceptions = true;
     errorhandlerOptions.showStack = true;
 }
-
+app.enable("etag");
 app.use(require("compression")());
 app.use(require("cors")());
 app.use(require("body-parser").urlencoded({ extended: true }));
@@ -18,6 +18,8 @@ app.use(require("errorhandler")(errorhandlerOptions));
 // bibrefs
 app.get('/bibrefs', function (req, res, next) {
     var refs = req.query["refs"];
+    res.setHeader("Expires", new Date(Date.now() + 86400000).toUTCString());
+    res.setHeader("Cache-Control", "public, max-age=86400");
     if (refs) {
         refs = bibref.getRefs(refs.split(","));
         res.status(200).jsonp(refs);
