@@ -13,12 +13,11 @@ if (process.env.NODE_ENV == "dev" || process.env.NODE_ENV == "development") {
 app.use(require("compression")());
 app.use(require("cors")());
 app.use(require("body-parser").urlencoded({ extended: true }));
-app.use(require("multer")());
 app.use(require("errorhandler")(errorhandlerOptions));
 
 // bibrefs
 app.get('/bibrefs', function (req, res, next) {
-    var refs = req.param("refs");
+    var refs = req.query["refs"];
     if (refs) {
         refs = bibref.getRefs(refs.split(","));
         res.status(200).jsonp(refs);
@@ -29,7 +28,7 @@ app.get('/bibrefs', function (req, res, next) {
 
 // search
 app.get('/search-refs', function (req, res, next) {
-    var q = (req.param("q") || "").toLowerCase();
+    var q = (req.query["q"] || "").toLowerCase();
     if (q) {
 		var obj = {};
 		var current, shortname;
@@ -84,7 +83,7 @@ app.get('/search-refs', function (req, res, next) {
 // search by url
 app.get('/reverse-lookup', function (req, res, next) {
     var refs,
-        urls = req.param("urls");
+        urls = req.query["urls"];
     if (urls) {
         refs = bibref.reverseLookup(urls.split(","));
         res.status(200).jsonp(refs);
