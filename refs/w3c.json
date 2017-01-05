@@ -25223,6 +25223,41 @@
         },
         "edDraft": "https://w3c.github.io/encrypted-media/"
     },
+    "eo-qb": {
+        "authors": [
+            "Dmitry Brizhinev",
+            "Sam Toyer",
+            "Kerry Taylor"
+        ],
+        "href": "https://www.w3.org/TR/eo-qb/",
+        "title": "Publishing and Using Earth Observation Data with the RDF Data Cube and the Discrete Global Grid System",
+        "rawDate": "2017-01-05",
+        "status": "NOTE",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/sdw/eo-qb/",
+        "deliveredBy": [
+            "https://www.w3.org/2015/spatial/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20170105": {
+                "authors": [
+                    "Dmitry Brizhinev",
+                    "Sam Toyer",
+                    "Kerry Taylor"
+                ],
+                "href": "https://www.w3.org/TR/2017/NOTE-eo-qb-20170105/",
+                "title": "Publishing and Using Earth Observation Data with the RDF Data Cube and the Discrete Global Grid System",
+                "rawDate": "2017-01-05",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2015/spatial/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
     "epr": {
         "authors": [
             "David Ross",
@@ -44636,6 +44671,37 @@
         "isRetired": true,
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
+    "qb4st": {
+        "authors": [
+            "Rob Atkinson"
+        ],
+        "href": "https://www.w3.org/TR/qb4st/",
+        "title": "QB4ST: RDF Data Cube extensions for spatio-temporal components",
+        "rawDate": "2017-01-05",
+        "status": "NOTE",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/sdw/qb4st/",
+        "deliveredBy": [
+            "https://www.w3.org/2015/spatial/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20170105": {
+                "authors": [
+                    "Rob Atkinson"
+                ],
+                "href": "https://www.w3.org/TR/2017/NOTE-qb4st-20170105/",
+                "title": "QB4ST: RDF Data Cube extensions for spatio-temporal components",
+                "rawDate": "2017-01-05",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2015/spatial/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
     "query-datamodel": {
         "aliasOf": "xpath-datamodel"
     },
@@ -50684,7 +50750,7 @@
         ],
         "href": "https://www.w3.org/TR/sdw-bp/",
         "title": "Spatial Data on the Web Best Practices",
-        "rawDate": "2016-10-25",
+        "rawDate": "2017-01-05",
         "status": "NOTE",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/sdw/bp/",
@@ -50718,6 +50784,22 @@
                 "href": "https://www.w3.org/TR/2016/NOTE-sdw-bp-20161025/",
                 "title": "Spatial Data on the Web Best Practices",
                 "rawDate": "2016-10-25",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2015/spatial/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20170105": {
+                "authors": [
+                    "Jeremy Tandy",
+                    "Payam Barnaghi",
+                    "Linda van den Brink"
+                ],
+                "href": "https://www.w3.org/TR/2017/NOTE-sdw-bp-20170105/",
+                "title": "Spatial Data on the Web Best Practices",
+                "rawDate": "2017-01-05",
                 "status": "NOTE",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -59185,7 +59267,7 @@
         ],
         "href": "https://www.w3.org/TR/vocab-ssn/",
         "title": "Semantic Sensor Network Ontology",
-        "rawDate": "2016-05-31",
+        "rawDate": "2017-01-05",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/sdw/ssn/",
@@ -59204,6 +59286,23 @@
                 "href": "https://www.w3.org/TR/2016/WD-vocab-ssn-20160531/",
                 "title": "Semantic Sensor Network Ontology",
                 "rawDate": "2016-05-31",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2015/spatial/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20170105": {
+                "authors": [
+                    "Kerry Taylor",
+                    "Krzysztof Janowicz",
+                    "Danh Le Phuoc",
+                    "Armin Haller"
+                ],
+                "href": "https://www.w3.org/TR/2017/WD-vocab-ssn-20170105/",
+                "title": "Semantic Sensor Network Ontology",
+                "rawDate": "2017-01-05",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
