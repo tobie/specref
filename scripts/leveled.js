@@ -25,6 +25,11 @@ function getRootShortname(shortname) {
     return shortname.replace(/-?\d+$/, "");
 }
 
+exports.getLevel = getLevel;
+function getLevel(shortname) {
+    return shortname.replace(/^.*?(-?\d+)$/, "$1");
+}
+
 exports.getLeveledSpecs = getLeveledSpecs;
 function getLeveledSpecs() {
     return LEVELED_SPECS.slice(0);
