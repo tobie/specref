@@ -9988,6 +9988,9 @@
         ],
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
         "versions": {
+            "1": {
+                "aliasOf": "WebIDL-20161215"
+            },
             "20071017": {
                 "authors": [
                     "Cameron McCormack"
@@ -10137,7 +10140,46 @@
         }
     },
     "WebIDL-1": {
-        "aliasOf": "WebIDL"
+        "aliasOf": "WebIDL-20161215"
+    },
+    "WebIDL-1-20071017": {
+        "aliasOf": "WebIDL-20071017"
+    },
+    "WebIDL-1-20080410": {
+        "aliasOf": "WebIDL-20080410"
+    },
+    "WebIDL-1-20080829": {
+        "aliasOf": "WebIDL-20080829"
+    },
+    "WebIDL-1-20081219": {
+        "aliasOf": "WebIDL-20081219"
+    },
+    "WebIDL-1-20101021": {
+        "aliasOf": "WebIDL-20101021"
+    },
+    "WebIDL-1-20110712": {
+        "aliasOf": "WebIDL-20110712"
+    },
+    "WebIDL-1-20110927": {
+        "aliasOf": "WebIDL-20110927"
+    },
+    "WebIDL-1-20120207": {
+        "aliasOf": "WebIDL-20120207"
+    },
+    "WebIDL-1-20120419": {
+        "aliasOf": "WebIDL-20120419"
+    },
+    "WebIDL-1-20150804": {
+        "aliasOf": "WebIDL-20150804"
+    },
+    "WebIDL-1-20160308": {
+        "aliasOf": "WebIDL-20160308"
+    },
+    "WebIDL-1-20160915": {
+        "aliasOf": "WebIDL-20160915"
+    },
+    "WebIDL-1-20161215": {
+        "aliasOf": "WebIDL-20161215"
     },
     "WebIDL-Java": {
         "authors": [
