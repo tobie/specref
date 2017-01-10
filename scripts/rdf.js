@@ -172,12 +172,7 @@ request({
             var k = ref.shortName;
             if (leveled.isLevel(k)) {
                 k = leveled.getRootShortname(k);
-                if (isLegacyLevel(ref.shortName)) { // eg CSS1
-                    aliases[ref.shortName] = k + "-" + makeKey(ref);
-                } else { // eg CSS-1
-                    levels[k] = leveled[k] || [];
-                    levels[k].push([leveled.getLevel(ref.shortName).substr(1), k + "-" + makeKey(ref)])
-                }
+                levels[ref.shortName] = k + "-" + makeKey(ref);
                 delete aliases[k];
             }
             var curr = current[k];
@@ -255,10 +250,7 @@ request({
         });
         
         Object.keys(levels).forEach(function(k) {
-            var root = current[k];
-            levels[k].forEach(function(pair) {
-                root.versions[pair[0]] = { aliasOf: pair[1] };
-            })
+            current[k] =  { aliasOf: levels[k] };
         });
         
         Object.keys(superseders).forEach(function(id) {
