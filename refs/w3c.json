@@ -22641,8 +22641,8 @@
         ],
         "href": "https://www.w3.org/TR/discovery-api/",
         "title": "Network Service Discovery",
-        "rawDate": "2014-02-20",
-        "status": "WD",
+        "rawDate": "2017-01-12",
+        "status": "NOTE",
         "publisher": "W3C",
         "deliveredBy": [
             "https://www.w3.org/2009/dap/"
@@ -22703,9 +22703,25 @@
                     "https://www.w3.org/2009/dap/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20170112": {
+                "authors": [
+                    "Rich Tibbett"
+                ],
+                "href": "https://www.w3.org/TR/2017/NOTE-discovery-api-20170112/",
+                "title": "Network Service Discovery",
+                "rawDate": "2017-01-12",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "isRetired": true,
+                "deliveredBy": [
+                    "https://www.w3.org/2009/dap/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "http://dvcs.w3.org/hg/dap/raw-file/tip/discovery-api/Overview.html"
+        "edDraft": "http://dvcs.w3.org/hg/dap/raw-file/tip/discovery-api/Overview.html",
+        "isRetired": true
     },
     "dom": {
         "authors": [
@@ -62315,8 +62331,8 @@
         ],
         "href": "https://www.w3.org/TR/webmention/",
         "title": "Webmention",
-        "rawDate": "2016-11-01",
-        "status": "PR",
+        "rawDate": "2017-01-12",
+        "status": "REC",
         "publisher": "W3C",
         "edDraft": "https://webmention.net/draft/",
         "deliveredBy": [
@@ -62435,8 +62451,24 @@
                     "https://www.w3.org/Social/WG"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20170112": {
+                "authors": [
+                    "Aaron Parecki"
+                ],
+                "href": "https://www.w3.org/TR/2017/REC-webmention-20170112/",
+                "title": "Webmention",
+                "rawDate": "2017-01-12",
+                "status": "REC",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Social/WG"
+                ],
+                "hasErrata": "https://webmention.net/errata/",
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "hasErrata": "https://webmention.net/errata/"
     },
     "webmessaging": {
         "authors": [
