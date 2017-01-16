@@ -2335,8 +2335,22 @@
         "title": "Test Suite for Packaging and XML Configuration",
         "href": "http://dev.w3.org/2006/waf/widgets/test-suite/"
     },
+    "WebIDL-LS": {
+        "authors": [
+            "Cameron McCormack",
+            "Boris Zbarsky",
+            "Tobie Langel"
+        ],
+        "href": "https://heycam.github.io/webidl/",
+        "title": "Web IDL",
+        "status": "ED",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/WebPlatform/WG/"
+        ]
+    },
     "WebIDL-2": {
-        "aliasOf": "WebIDL"
+        "aliasOf": "WebIDL-LS"
     },
     "WebM": {
         "href": "https://www.webmproject.org/docs/container/",
