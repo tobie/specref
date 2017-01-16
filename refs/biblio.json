@@ -2335,6 +2335,9 @@
         "title": "Test Suite for Packaging and XML Configuration",
         "href": "http://dev.w3.org/2006/waf/widgets/test-suite/"
     },
+    "WebIDL-2": {
+        "aliasOf": "WebIDL-LS"
+    },
     "WebIDL-LS": {
         "authors": [
             "Cameron McCormack",
@@ -2348,9 +2351,6 @@
         "deliveredBy": [
             "https://www.w3.org/WebPlatform/WG/"
         ]
-    },
-    "WebIDL-2": {
-        "aliasOf": "WebIDL-LS"
     },
     "WebM": {
         "href": "https://www.webmproject.org/docs/container/",
