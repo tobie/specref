@@ -43260,6 +43260,9 @@
             "RFC3995",
             "RFC7472"
         ],
+        "obsoletedBy": [
+            "RFC8010"
+        ],
         "obsoletes": [
             "RFC2565"
         ],
@@ -43286,6 +43289,9 @@
             "RFC3996",
             "RFC3995",
             "RFC7472"
+        ],
+        "obsoletedBy": [
+            "RFC8011"
         ],
         "obsoletes": [
             "RFC2566"
@@ -50635,6 +50641,9 @@
         ],
         "rawDate": "2002-09",
         "status": "Proposed Standard",
+        "obsoletedBy": [
+            "RFC8011"
+        ],
         "updates": [
             "RFC2910"
         ],
@@ -50655,6 +50664,10 @@
         ],
         "rawDate": "2002-09",
         "status": "Proposed Standard",
+        "obsoletedBy": [
+            "RFC8010",
+            "RFC8011"
+        ],
         "updates": [
             "RFC2910",
             "RFC2911"
@@ -121137,6 +121150,41 @@
     "rfc801": {
         "aliasOf": "rfc0801"
     },
+    "rfc8010": {
+        "rfcNumber": "RFC8010",
+        "href": "https://tools.ietf.org/html/rfc8010",
+        "title": "Internet Printing Protocol/1.1: Encoding and Transport",
+        "authors": [
+            "M. Sweet",
+            "I. McDonald"
+        ],
+        "rawDate": "2017-01",
+        "status": "Proposed Standard",
+        "obsoletes": [
+            "RFC2910",
+            "RFC3382"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8011": {
+        "rfcNumber": "RFC8011",
+        "href": "https://tools.ietf.org/html/rfc8011",
+        "title": "Internet Printing Protocol/1.1: Model and Semantics",
+        "authors": [
+            "M. Sweet",
+            "I. McDonald"
+        ],
+        "rawDate": "2017-01",
+        "status": "Proposed Standard",
+        "obsoletes": [
+            "RFC2911",
+            "RFC3381",
+            "RFC3382"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8012": {
         "rfcNumber": "RFC8012",
         "href": "https://tools.ietf.org/html/rfc8012",
@@ -121519,6 +121567,18 @@
         ],
         "rawDate": "2017-01",
         "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8056": {
+        "rfcNumber": "RFC8056",
+        "href": "https://tools.ietf.org/html/rfc8056",
+        "title": "Extensible Provisioning Protocol (EPP) and Registration Data Access Protocol (RDAP) Status Mapping",
+        "authors": [
+            "J. Gould"
+        ],
+        "rawDate": "2017-01",
+        "status": "Proposed Standard",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
