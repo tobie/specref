@@ -1867,6 +1867,19 @@
         "href": "http://www.scte.org/documents/pdf/Standards/ANSI_SCTE_27_2011.pdf",
         "publisher": "ANSI/SCTE"
     },
+    "SCTP-SDP": {
+        "authors": [
+            "C. Holmberg",
+            "R. Shpount",
+            "S. Loreto",
+            "G. Camarillo"
+        ],
+        "date": "26 October 2016",
+        "href": "https://datatracker.ietf.org/doc/draft-ietf-mmusic-sctp-sdp/",
+        "publisher": "IETF",
+        "status": "Active Internet-Draft",
+        "title": "Session Description Protocol (SDP) Offer/Answer Procedures For Stream Control Transmission Protocol (SCTP) over Datagram Transport Layer Security (DTLS) Transport"
+    },
     "SDP": {
         "aliasOf": "rfc3264"
     },
