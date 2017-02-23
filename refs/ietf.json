@@ -11290,6 +11290,7 @@
         ],
         "rawDate": "1983-05",
         "status": "Internet Standard",
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=864",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -24629,7 +24630,8 @@
             "RFC2396",
             "RFC3986",
             "RFC6196",
-            "RFC6270"
+            "RFC6270",
+            "RFC8089"
         ],
         "obsoletedBy": [
             "RFC4248",
@@ -34424,7 +34426,7 @@
         "href": "https://tools.ietf.org/html/rfc2362",
         "title": "Protocol Independent Multicast-Sparse Mode (PIM-SM): Protocol Specification",
         "authors": [
-            "D.  Estrin",
+            "D. Estrin",
             "D. Farinacci",
             "A. Helmy",
             "D. Thaler",
@@ -42502,7 +42504,8 @@
             "RFC2868",
             "RFC3575",
             "RFC5080",
-            "RFC6929"
+            "RFC6929",
+            "RFC8044"
         ],
         "obsoletes": [
             "RFC2138"
@@ -43042,6 +43045,9 @@
         ],
         "rawDate": "2000-09",
         "status": "Informational",
+        "obsoletedBy": [
+            "RFC8018"
+        ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=2898",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -47151,6 +47157,9 @@
         ],
         "rawDate": "2001-08",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC8044"
+        ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=3162",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -59277,6 +59286,7 @@
         ],
         "rawDate": "2005-01",
         "status": "Proposed Standard",
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=3947",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -59583,7 +59593,8 @@
         "rawDate": "2004-12",
         "status": "Best Current Practice",
         "updatedBy": [
-            "RFC4897"
+            "RFC4897",
+            "RFC8067"
         ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=3967",
         "publisher": "IETF",
@@ -61286,7 +61297,8 @@
         "rawDate": "2005-08",
         "status": "Proposed Standard",
         "updatedBy": [
-            "RFC7268"
+            "RFC7268",
+            "RFC8044"
         ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=4072",
         "publisher": "IETF",
@@ -63075,6 +63087,7 @@
         ],
         "rawDate": "2005-10",
         "status": "Proposed Standard",
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=4194",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -66927,6 +66940,9 @@
             "RFC6723",
             "RFC6870",
             "RFC7358"
+        ],
+        "obsoletedBy": [
+            "RFC8077"
         ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=4447",
         "publisher": "IETF",
@@ -74418,7 +74434,8 @@
         "updatedBy": [
             "RFC6282",
             "RFC6775",
-            "RFC8025"
+            "RFC8025",
+            "RFC8066"
         ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=4944",
         "publisher": "IETF",
@@ -78376,6 +78393,9 @@
         ],
         "rawDate": "2008-04",
         "status": "Experimental",
+        "obsoletedBy": [
+            "RFC8046"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -92808,7 +92828,8 @@
         "rawDate": "2011-03",
         "status": "Best Current Practice",
         "updatedBy": [
-            "RFC6929"
+            "RFC6929",
+            "RFC8044"
         ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -94703,6 +94724,9 @@
         ],
         "rawDate": "2011-09",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC8066"
+        ],
         "updates": [
             "RFC4944"
         ],
@@ -97414,6 +97438,7 @@
         ],
         "rawDate": "2011-12",
         "status": "Informational",
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=6458",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -99114,6 +99139,9 @@
         ],
         "rawDate": "2012-06",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC8044"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -101312,6 +101340,9 @@
         ],
         "rawDate": "2012-09",
         "status": "Proposed Standard",
+        "obsoletedBy": [
+            "RFC8077"
+        ],
         "updates": [
             "RFC4447",
             "RFC6073"
@@ -109654,6 +109685,9 @@
         ],
         "rawDate": "2014-07",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC8044"
+        ],
         "updates": [
             "RFC3580",
             "RFC4072"
@@ -112700,6 +112734,7 @@
             "RFC3261",
             "RFC4235"
         ],
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=7463",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -116580,6 +116615,7 @@
         ],
         "rawDate": "2015-12",
         "status": "Proposed Standard",
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=7714",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -121269,6 +121305,23 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8018": {
+        "rfcNumber": "RFC8018",
+        "href": "https://tools.ietf.org/html/rfc8018",
+        "title": "PKCS #5: Password-Based Cryptography Specification Version 2.1",
+        "authors": [
+            "K. Moriarty, Ed.",
+            "B. Kaliski",
+            "A. Rusch"
+        ],
+        "rawDate": "2017-01",
+        "status": "Informational",
+        "obsoletes": [
+            "RFC2898"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8019": {
         "rfcNumber": "RFC8019",
         "href": "https://tools.ietf.org/html/rfc8019",
@@ -121449,6 +121502,19 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8032": {
+        "rfcNumber": "RFC8032",
+        "href": "https://tools.ietf.org/html/rfc8032",
+        "title": "Edwards-Curve Digital Signature Algorithm (EdDSA)",
+        "authors": [
+            "S. Josefsson",
+            "I. Liusvaara"
+        ],
+        "rawDate": "2017-01",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8035": {
         "rfcNumber": "RFC8035",
         "href": "https://tools.ietf.org/html/rfc8035",
@@ -121478,6 +121544,18 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8037": {
+        "rfcNumber": "RFC8037",
+        "href": "https://tools.ietf.org/html/rfc8037",
+        "title": "CFRG Elliptic Curve Diffie-Hellman (ECDH) and Signatures in JSON Object Signing and Encryption (JOSE)",
+        "authors": [
+            "I. Liusvaara"
+        ],
+        "rawDate": "2017-01",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8039": {
         "rfcNumber": "RFC8039",
         "href": "https://tools.ietf.org/html/rfc8039",
@@ -121495,6 +121573,20 @@
     },
     "rfc804": {
         "aliasOf": "rfc0804"
+    },
+    "rfc8040": {
+        "rfcNumber": "RFC8040",
+        "href": "https://tools.ietf.org/html/rfc8040",
+        "title": "RESTCONF Protocol",
+        "authors": [
+            "A. Bierman",
+            "M. Bjorklund",
+            "K. Watsen"
+        ],
+        "rawDate": "2017-01",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc8041": {
         "rfcNumber": "RFC8041",
@@ -121540,6 +121632,72 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8044": {
+        "rfcNumber": "RFC8044",
+        "href": "https://tools.ietf.org/html/rfc8044",
+        "title": "Data Types in RADIUS",
+        "authors": [
+            "A. DeKok"
+        ],
+        "rawDate": "2017-01",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC2865",
+            "RFC3162",
+            "RFC4072",
+            "RFC6158",
+            "RFC6572",
+            "RFC7268"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8045": {
+        "rfcNumber": "RFC8045",
+        "href": "https://tools.ietf.org/html/rfc8045",
+        "title": "RADIUS Extensions for IP Port Configuration and Reporting",
+        "authors": [
+            "D. Cheng",
+            "J. Korhonen",
+            "M. Boucadair",
+            "S. Sivakumar"
+        ],
+        "rawDate": "2017-01",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8046": {
+        "rfcNumber": "RFC8046",
+        "href": "https://tools.ietf.org/html/rfc8046",
+        "title": "Host Mobility with the Host Identity Protocol",
+        "authors": [
+            "T. Henderson, Ed.",
+            "C. Vogt",
+            "J. Arkko"
+        ],
+        "rawDate": "2017-02",
+        "status": "Proposed Standard",
+        "obsoletes": [
+            "RFC5206"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8047": {
+        "rfcNumber": "RFC8047",
+        "href": "https://tools.ietf.org/html/rfc8047",
+        "title": "Host Multihoming with the Host Identity Protocol",
+        "authors": [
+            "T. Henderson, Ed.",
+            "C. Vogt",
+            "J. Arkko"
+        ],
+        "rawDate": "2017-02",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8048": {
         "rfcNumber": "RFC8048",
         "href": "https://tools.ietf.org/html/rfc8048",
@@ -121571,6 +121729,49 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8053": {
+        "rfcNumber": "RFC8053",
+        "href": "https://tools.ietf.org/html/rfc8053",
+        "title": "HTTP Authentication Extensions for Interactive Clients",
+        "authors": [
+            "Y. Oiwa",
+            "H. Watanabe",
+            "H. Takagi",
+            "K. Maeda",
+            "T. Hayashi",
+            "Y. Ioku"
+        ],
+        "rawDate": "2017-01",
+        "status": "Experimental",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8054": {
+        "rfcNumber": "RFC8054",
+        "href": "https://tools.ietf.org/html/rfc8054",
+        "title": "Network News Transfer Protocol (NNTP) Extension for Compression",
+        "authors": [
+            "K. Murchison",
+            "J. Elie"
+        ],
+        "rawDate": "2017-01",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8055": {
+        "rfcNumber": "RFC8055",
+        "href": "https://tools.ietf.org/html/rfc8055",
+        "title": "Session Initiation Protocol (SIP) Via Header Field Parameter to Indicate Received Realm",
+        "authors": [
+            "C. Holmberg",
+            "Y. Jiang"
+        ],
+        "rawDate": "2017-01",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8056": {
         "rfcNumber": "RFC8056",
         "href": "https://tools.ietf.org/html/rfc8056",
@@ -121583,17 +121784,274 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8057": {
+        "rfcNumber": "RFC8057",
+        "href": "https://tools.ietf.org/html/rfc8057",
+        "title": "Uniform Resource Name (URN) Namespaces for Broadband Forum",
+        "authors": [
+            "B. Stark",
+            "D. Sinicrope",
+            "W. Lupton"
+        ],
+        "rawDate": "2017-01",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8058": {
+        "rfcNumber": "RFC8058",
+        "href": "https://tools.ietf.org/html/rfc8058",
+        "title": "Signaling One-Click Functionality for List Email Headers",
+        "authors": [
+            "J. Levine",
+            "T. Herkula"
+        ],
+        "rawDate": "2017-01",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8059": {
+        "rfcNumber": "RFC8059",
+        "href": "https://tools.ietf.org/html/rfc8059",
+        "title": "PIM Join Attributes for Locator/ID Separation Protocol (LISP) Environments",
+        "authors": [
+            "J. Arango",
+            "S. Venaas",
+            "I. Kouvelas",
+            "D. Farinacci"
+        ],
+        "rawDate": "2017-01",
+        "status": "Experimental",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc806": {
         "aliasOf": "rfc0806"
+    },
+    "rfc8060": {
+        "rfcNumber": "RFC8060",
+        "href": "https://tools.ietf.org/html/rfc8060",
+        "title": "LISP Canonical Address Format (LCAF)",
+        "authors": [
+            "D. Farinacci",
+            "D. Meyer",
+            "J. Snijders"
+        ],
+        "rawDate": "2017-02",
+        "status": "Experimental",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8061": {
+        "rfcNumber": "RFC8061",
+        "href": "https://tools.ietf.org/html/rfc8061",
+        "title": "Locator/ID Separation Protocol (LISP) Data-Plane Confidentiality",
+        "authors": [
+            "D. Farinacci",
+            "B. Weis"
+        ],
+        "rawDate": "2017-02",
+        "status": "Experimental",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8063": {
+        "rfcNumber": "RFC8063",
+        "href": "https://tools.ietf.org/html/rfc8063",
+        "title": "Key Relay Mapping for the Extensible Provisioning Protocol",
+        "authors": [
+            "H.W. Ribbers",
+            "M.W. Groeneweg",
+            "R. Gieben",
+            "A.L.J. Verschuren"
+        ],
+        "rawDate": "2017-02",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8066": {
+        "rfcNumber": "RFC8066",
+        "href": "https://tools.ietf.org/html/rfc8066",
+        "title": "IPv6 over Low-Power Wireless Personal Area Network (6LoWPAN) ESC Dispatch Code Points and Guidelines",
+        "authors": [
+            "S. Chakrabarti",
+            "G. Montenegro",
+            "R. Droms",
+            "J. Woodyatt"
+        ],
+        "rawDate": "2017-02",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC4944",
+            "RFC6282"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8067": {
+        "rfcNumber": "RFC8067",
+        "href": "https://tools.ietf.org/html/rfc8067",
+        "title": "Updating When Standards Track Documents May Refer Normatively to Documents at a Lower Level",
+        "authors": [
+            "B. Leiba"
+        ],
+        "rawDate": "2017-01",
+        "status": "Best Current Practice",
+        "updates": [
+            "RFC3967"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8069": {
+        "rfcNumber": "RFC8069",
+        "href": "https://tools.ietf.org/html/rfc8069",
+        "title": "URN Namespace for IEEE",
+        "authors": [
+            "A. Thomas"
+        ],
+        "rawDate": "2017-02",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc807": {
         "aliasOf": "rfc0807"
     },
+    "rfc8070": {
+        "rfcNumber": "RFC8070",
+        "href": "https://tools.ietf.org/html/rfc8070",
+        "title": "Public Key Cryptography for Initial Authentication in Kerberos (PKINIT) Freshness Extension",
+        "authors": [
+            "M. Short, Ed.",
+            "S. Moore",
+            "P. Miller"
+        ],
+        "rawDate": "2017-02",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8074": {
+        "rfcNumber": "RFC8074",
+        "href": "https://tools.ietf.org/html/rfc8074",
+        "title": "Source Address Validation Improvement (SAVI) for Mixed Address Assignment Methods Scenario",
+        "authors": [
+            "J. Bi",
+            "G. Yao",
+            "J. Halpern",
+            "E. Levy-Abegnoli, Ed."
+        ],
+        "rawDate": "2017-02",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8077": {
+        "rfcNumber": "RFC8077",
+        "href": "https://tools.ietf.org/html/rfc8077",
+        "title": "Pseudowire Setup and Maintenance Using the Label Distribution Protocol (LDP)",
+        "authors": [
+            "L. Martini, Ed.",
+            "G. Heron, Ed."
+        ],
+        "rawDate": "2017-02",
+        "status": "Internet Standard",
+        "obsoletes": [
+            "RFC4447",
+            "RFC6723"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc808": {
         "aliasOf": "rfc0808"
     },
+    "rfc8080": {
+        "rfcNumber": "RFC8080",
+        "href": "https://tools.ietf.org/html/rfc8080",
+        "title": "Edwards-Curve Digital Security Algorithm (EdDSA) for DNSSEC",
+        "authors": [
+            "O. Sury",
+            "R. Edmonds"
+        ],
+        "rawDate": "2017-02",
+        "status": "Proposed Standard",
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=8080",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8089": {
+        "rfcNumber": "RFC8089",
+        "href": "https://tools.ietf.org/html/rfc8089",
+        "title": "The \"file\" URI Scheme",
+        "authors": [
+            "M. Kerwin"
+        ],
+        "rawDate": "2017-02",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC1738"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc809": {
         "aliasOf": "rfc0809"
+    },
+    "rfc8090": {
+        "rfcNumber": "RFC8090",
+        "href": "https://tools.ietf.org/html/rfc8090",
+        "title": "Appointment Procedures for the IETF Representatives to the Community Coordination Group (CCG)",
+        "authors": [
+            "R. Housley"
+        ],
+        "rawDate": "2017-02",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8091": {
+        "rfcNumber": "RFC8091",
+        "href": "https://tools.ietf.org/html/rfc8091",
+        "title": "A Media Type Structured Syntax Suffix for JSON Text Sequences",
+        "authors": [
+            "E. Wilde"
+        ],
+        "rawDate": "2017-02",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8092": {
+        "rfcNumber": "RFC8092",
+        "href": "https://tools.ietf.org/html/rfc8092",
+        "title": "BGP Large Communities Attribute",
+        "authors": [
+            "J. Heitz, Ed.",
+            "J. Snijders, Ed.",
+            "K. Patel",
+            "I. Bagdonas",
+            "N. Hilliard"
+        ],
+        "rawDate": "2017-02",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8093": {
+        "rfcNumber": "RFC8093",
+        "href": "https://tools.ietf.org/html/rfc8093",
+        "title": "Deprecation of BGP Path Attribute Values 30, 31, 129, 241, 242, and 243",
+        "authors": [
+            "J. Snijders"
+        ],
+        "rawDate": "2017-02",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc81": {
         "aliasOf": "rfc0081"
