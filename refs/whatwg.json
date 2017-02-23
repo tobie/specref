@@ -73,6 +73,16 @@
         "publisher": "WHATWG",
         "source": "https://resources.whatwg.org/biblio.json"
     },
+    "FULLSCREEN": {
+        "authors": [
+            "Anne van Kesteren"
+        ],
+        "href": "https://fullscreen.spec.whatwg.org/",
+        "title": "Fullscreen API Standard",
+        "status": "Living Standard",
+        "publisher": "WHATWG",
+        "source": "https://resources.whatwg.org/biblio.json"
+    },
     "HTML": {
         "authors": [
             "Anne van Kesteren",
@@ -221,14 +231,7 @@
         "aliasOf": "FIGURES"
     },
     "WHATWG-FULLSCREEN": {
-        "authors": [
-            "Anne van Kesteren"
-        ],
-        "href": "https://fullscreen.spec.whatwg.org/",
-        "title": "Fullscreen API Standard",
-        "status": "Living Standard",
-        "publisher": "WHATWG",
-        "source": "https://resources.whatwg.org/biblio.json"
+        "aliasOf": "FULLSCREEN"
     },
     "WHATWG-HTML": {
         "aliasOf": "HTML"

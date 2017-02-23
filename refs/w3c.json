@@ -27348,12 +27348,28 @@
             }
         }
     },
-    "fullscreen": {
+    "fullscreen-20120703": {
         "authors": [
             "Anne van Kesteren",
             "Tantek Çelik"
         ],
-        "href": "https://www.w3.org/TR/fullscreen/",
+        "href": "https://www.w3.org/TR/2012/WD-fullscreen-20120703/",
+        "title": "Fullscreen",
+        "rawDate": "2012-07-03",
+        "status": "WD",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/Style/CSS/members",
+            "https://www.w3.org/2008/webapps/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+    },
+    "fullscreen-20141118": {
+        "authors": [
+            "Anne van Kesteren",
+            "Tantek Çelik"
+        ],
+        "href": "https://www.w3.org/TR/2014/NOTE-fullscreen-20141118/",
         "title": "Fullscreen",
         "rawDate": "2014-11-18",
         "status": "NOTE",
@@ -27363,41 +27379,6 @@
             "https://www.w3.org/Style/CSS/members"
         ],
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
-        "versions": {
-            "20120703": {
-                "authors": [
-                    "Anne van Kesteren",
-                    "Tantek Çelik"
-                ],
-                "href": "https://www.w3.org/TR/2012/WD-fullscreen-20120703/",
-                "title": "Fullscreen",
-                "rawDate": "2012-07-03",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/Style/CSS/members",
-                    "https://www.w3.org/2008/webapps/"
-                ],
-                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
-            },
-            "20141118": {
-                "authors": [
-                    "Anne van Kesteren",
-                    "Tantek Çelik"
-                ],
-                "href": "https://www.w3.org/TR/2014/NOTE-fullscreen-20141118/",
-                "title": "Fullscreen",
-                "rawDate": "2014-11-18",
-                "status": "NOTE",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/2008/webapps/",
-                    "https://www.w3.org/Style/CSS/members"
-                ],
-                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
-                "isRetired": true
-            }
-        },
         "isRetired": true
     },
     "gallery": {
