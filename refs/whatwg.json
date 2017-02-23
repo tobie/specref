@@ -169,6 +169,16 @@
         "publisher": "WHATWG",
         "source": "https://resources.whatwg.org/biblio.json"
     },
+    "URL": {
+        "authors": [
+            "Anne van Kesteren"
+        ],
+        "href": "https://url.spec.whatwg.org/",
+        "title": "URL Standard",
+        "status": "Living Standard",
+        "publisher": "WHATWG",
+        "source": "https://resources.whatwg.org/biblio.json"
+    },
     "WHATWG-BOOKS": {
         "aliasOf": "BOOKS"
     },
@@ -258,14 +268,7 @@
         "aliasOf": "STREAMS"
     },
     "WHATWG-URL": {
-        "authors": [
-            "Anne van Kesteren"
-        ],
-        "href": "https://url.spec.whatwg.org/",
-        "title": "URL Standard",
-        "status": "Living Standard",
-        "publisher": "WHATWG",
-        "source": "https://resources.whatwg.org/biblio.json"
+        "aliasOf": "URL"
     },
     "WHATWG-XHR": {
         "aliasOf": "XHR"

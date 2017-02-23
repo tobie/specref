@@ -94,17 +94,22 @@ function tryOverwrite(f) {
         var ref = references[k];
         var ow = json[k];
         if (ref) {
-            console.log("Overwriting", k, "...");
             var ow = json[k];
-            Object.keys(ow).forEach(function(prop) {
-                if (ow[prop].replaceWith) {
-                    console.log("   ", prop + ":", JSON.stringify(ref[prop]), "->", JSON.stringify(ow[prop].replaceWith));
-                    ref[prop] = ow[prop].replaceWith;
-                } else if (ow[prop].delete) {
-                    console.log("   ", prop + ": deleted");
-                    delete ref[prop];
-                }
-            });
+            if (ow.delete) {
+                delete references[k];
+                console.log("Deleted", k);
+            } else {
+                console.log("Overwriting", k, "...");
+                Object.keys(ow).forEach(function(prop) {
+                    if (ow[prop].replaceWith) {
+                        console.log("   ", prop + ":", JSON.stringify(ref[prop]), "->", JSON.stringify(ow[prop].replaceWith));
+                        ref[prop] = ow[prop].replaceWith;
+                    } else if (ow[prop].delete) {
+                        console.log("   ", prop + ": deleted");
+                        delete ref[prop];
+                    }
+                });
+            }
         } else {
             console.log("Can't find", k, "in", filepath );
         }
