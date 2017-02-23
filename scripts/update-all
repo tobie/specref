@@ -40,9 +40,9 @@ function run()
     node "./scripts/run.js" && 
     node "./scripts/rfc.js" &&
     node "./scripts/rdf.js" &&
-    node "./scripts/csswg.js"; # &&
-   # node "./scripts/fetch-refs.js" "https://resources.whatwg.org/biblio.json" "WHATWG" &&
-   # node "./scripts/fetch-refs.js" "https://wicg.github.io/admin/biblio.json" "WICG" &&
+    node "./scripts/csswg.js" &&
+    node "./scripts/fetch-refs.js" "https://resources.whatwg.org/biblio.json" "WHATWG" &&
+    node "./scripts/fetch-refs.js" "https://wicg.github.io/admin/biblio.json" "WICG"; # &&
    # node "./scripts/fetch-refs.js" "https://wg21.link/index.json" "WG21";
 }
 
