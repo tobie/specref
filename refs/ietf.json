@@ -36130,7 +36130,8 @@
         "rawDate": "1998-12",
         "status": "Proposed Standard",
         "updatedBy": [
-            "RFC6085"
+            "RFC6085",
+            "RFC8064"
         ],
         "obsoletes": [
             "RFC1972"
@@ -36180,6 +36181,9 @@
         ],
         "rawDate": "1998-12",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC8064"
+        ],
         "obsoletes": [
             "RFC2019"
         ],
@@ -36225,6 +36229,9 @@
         ],
         "rawDate": "1998-12",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC8064"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -36565,6 +36572,9 @@
         ],
         "rawDate": "1999-01",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC8064"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -36579,6 +36589,9 @@
         ],
         "rawDate": "1999-01",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC8064"
+        ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=2492",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -36655,6 +36668,9 @@
         ],
         "rawDate": "1999-01",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC8064"
+        ],
         "seeAlso": [
             "RFC1201"
         ],
@@ -38150,6 +38166,9 @@
         ],
         "rawDate": "1999-05",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC8064"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -46894,6 +46913,9 @@
         ],
         "rawDate": "2001-10",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC8064"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -53694,6 +53716,9 @@
         ],
         "rawDate": "2003-07",
         "status": "Informational",
+        "updatedBy": [
+            "RFC8064"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -64530,7 +64555,8 @@
             "RFC6052",
             "RFC7136",
             "RFC7346",
-            "RFC7371"
+            "RFC7371",
+            "RFC8064"
         ],
         "obsoletes": [
             "RFC3513"
@@ -65249,7 +65275,8 @@
         "rawDate": "2006-01",
         "status": "Proposed Standard",
         "updatedBy": [
-            "RFC5494"
+            "RFC5494",
+            "RFC8064"
         ],
         "obsoletes": [
             "RFC3831",
@@ -66112,6 +66139,9 @@
         ],
         "rawDate": "2006-04",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC8064"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -76399,6 +76429,9 @@
         ],
         "rawDate": "2007-09",
         "status": "Draft Standard",
+        "updatedBy": [
+            "RFC8064"
+        ],
         "obsoletes": [
             "RFC2472"
         ],
@@ -77126,6 +77159,9 @@
         ],
         "rawDate": "2008-02",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC8064"
+        ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=5121",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -121241,6 +121277,19 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8013": {
+        "rfcNumber": "RFC8013",
+        "href": "https://tools.ietf.org/html/rfc8013",
+        "title": "Forwarding and Control Element Separation (ForCES) Inter-FE Logical Functional Block (LFB)",
+        "authors": [
+            "D. Joachimpillai",
+            "J. Hadi Salim"
+        ],
+        "rawDate": "2017-02",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8014": {
         "rfcNumber": "RFC8014",
         "href": "https://tools.ietf.org/html/rfc8014",
@@ -121713,6 +121762,20 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8049": {
+        "rfcNumber": "RFC8049",
+        "href": "https://tools.ietf.org/html/rfc8049",
+        "title": "YANG Data Model for L3VPN Service Delivery",
+        "authors": [
+            "S. Litkowski",
+            "L. Tomotaki",
+            "K. Ogaki"
+        ],
+        "rawDate": "2017-02",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc805": {
         "aliasOf": "rfc0805"
     },
@@ -121871,6 +121934,49 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8064": {
+        "rfcNumber": "RFC8064",
+        "href": "https://tools.ietf.org/html/rfc8064",
+        "title": "Recommendation on Stable IPv6 Interface Identifiers",
+        "authors": [
+            "F. Gont",
+            "A. Cooper",
+            "D. Thaler",
+            "W. Liu"
+        ],
+        "rawDate": "2017-02",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC2464",
+            "RFC2467",
+            "RFC2470",
+            "RFC2491",
+            "RFC2492",
+            "RFC2497",
+            "RFC2590",
+            "RFC3146",
+            "RFC3572",
+            "RFC4291",
+            "RFC4338",
+            "RFC4391",
+            "RFC5072",
+            "RFC5121"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8065": {
+        "rfcNumber": "RFC8065",
+        "href": "https://tools.ietf.org/html/rfc8065",
+        "title": "Privacy Considerations for IPv6 Adaptation-Layer Mechanisms",
+        "authors": [
+            "D. Thaler"
+        ],
+        "rawDate": "2017-02",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8066": {
         "rfcNumber": "RFC8066",
         "href": "https://tools.ietf.org/html/rfc8066",
@@ -121934,6 +122040,32 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8071": {
+        "rfcNumber": "RFC8071",
+        "href": "https://tools.ietf.org/html/rfc8071",
+        "title": "NETCONF Call Home and RESTCONF Call Home",
+        "authors": [
+            "K. Watsen"
+        ],
+        "rawDate": "2017-02",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8072": {
+        "rfcNumber": "RFC8072",
+        "href": "https://tools.ietf.org/html/rfc8072",
+        "title": "YANG Patch Media Type",
+        "authors": [
+            "A. Bierman",
+            "M. Bjorklund",
+            "K. Watsen"
+        ],
+        "rawDate": "2017-02",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8074": {
         "rfcNumber": "RFC8074",
         "href": "https://tools.ietf.org/html/rfc8074",
@@ -121963,6 +122095,20 @@
             "RFC4447",
             "RFC6723"
         ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8079": {
+        "rfcNumber": "RFC8079",
+        "href": "https://tools.ietf.org/html/rfc8079",
+        "title": "Guidelines for End-to-End Support of the RTP Control Protocol (RTCP) in Back-to-Back User Agents (B2BUAs)",
+        "authors": [
+            "L. Miniero",
+            "S. Garcia Murillo",
+            "V. Pascual"
+        ],
+        "rawDate": "2017-02",
+        "status": "Proposed Standard",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
