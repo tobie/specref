@@ -63,6 +63,16 @@
         "publisher": "WHATWG",
         "source": "https://resources.whatwg.org/biblio.json"
     },
+    "ENCODING": {
+        "authors": [
+            "Anne van Kesteren"
+        ],
+        "href": "https://encoding.spec.whatwg.org/",
+        "title": "Encoding Standard",
+        "status": "Living Standard",
+        "publisher": "WHATWG",
+        "source": "https://resources.whatwg.org/biblio.json"
+    },
     "FETCH": {
         "authors": [
             "Anne van Kesteren"
@@ -228,14 +238,7 @@
         "aliasOf": "DOMPARSING"
     },
     "WHATWG-ENCODING": {
-        "authors": [
-            "Anne van Kesteren"
-        ],
-        "href": "https://encoding.spec.whatwg.org/",
-        "title": "Encoding Standard",
-        "status": "Living Standard",
-        "publisher": "WHATWG",
-        "source": "https://resources.whatwg.org/biblio.json"
+        "aliasOf": "ENCODING"
     },
     "WHATWG-FETCH": {
         "aliasOf": "FETCH"
