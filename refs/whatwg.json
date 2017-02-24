@@ -40,6 +40,16 @@
         "publisher": "WHATWG",
         "source": "https://resources.whatwg.org/biblio.json"
     },
+    "DOM": {
+        "authors": [
+            "Anne van Kesteren"
+        ],
+        "href": "https://dom.spec.whatwg.org/",
+        "title": "DOM Standard",
+        "status": "Living Standard",
+        "publisher": "WHATWG",
+        "source": "https://resources.whatwg.org/biblio.json"
+    },
     "DOMPARSING": {
         "authors": [
             "Ms2ger"
@@ -145,6 +155,16 @@
         "publisher": "WHATWG",
         "source": "https://resources.whatwg.org/biblio.json"
     },
+    "NOTIFICATIONS": {
+        "authors": [
+            "Anne van Kesteren"
+        ],
+        "href": "https://notifications.spec.whatwg.org/",
+        "title": "Notifications API Standard",
+        "status": "Living Standard",
+        "publisher": "WHATWG",
+        "source": "https://resources.whatwg.org/biblio.json"
+    },
     "QUIRKS": {
         "authors": [
             "Simon Pieters"
@@ -202,14 +222,7 @@
         "aliasOf": "DIFFERENCES"
     },
     "WHATWG-DOM": {
-        "authors": [
-            "Anne van Kesteren"
-        ],
-        "href": "https://dom.spec.whatwg.org/",
-        "title": "DOM Standard",
-        "status": "Living Standard",
-        "publisher": "WHATWG",
-        "source": "https://resources.whatwg.org/biblio.json"
+        "aliasOf": "DOM"
     },
     "WHATWG-DOMPARSING": {
         "aliasOf": "DOMPARSING"
@@ -252,14 +265,7 @@
         "aliasOf": "MIMESNIFF"
     },
     "WHATWG-NOTIFICATIONS": {
-        "authors": [
-            "Anne van Kesteren"
-        ],
-        "href": "https://notifications.spec.whatwg.org/",
-        "title": "Notifications API Standard",
-        "status": "Living Standard",
-        "publisher": "WHATWG",
-        "source": "https://resources.whatwg.org/biblio.json"
+        "aliasOf": "NOTIFICATIONS"
     },
     "WHATWG-QUIRKS": {
         "aliasOf": "QUIRKS"
