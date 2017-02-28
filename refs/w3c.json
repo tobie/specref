@@ -9524,6 +9524,41 @@
         "rawDate": "2016-10-07",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
+    "WCAG21": {
+        "authors": [
+            "Andrew Kirkpatrick",
+            "Joshue O Connor",
+            "Michael Cooper"
+        ],
+        "href": "https://www.w3.org/TR/WCAG21/",
+        "title": "Web Content Accessibility Guidelines (WCAG) 2.1",
+        "rawDate": "2017-02-28",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/wcag21/guidelines/",
+        "deliveredBy": [
+            "https://www.w3.org/WAI/GL/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20170228": {
+                "authors": [
+                    "Andrew Kirkpatrick",
+                    "Joshue O Connor",
+                    "Michael Cooper"
+                ],
+                "href": "https://www.w3.org/TR/2017/WD-WCAG21-20170228/",
+                "title": "Web Content Accessibility Guidelines (WCAG) 2.1",
+                "rawDate": "2017-02-28",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WAI/GL/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
     "WD-charreq": {
         "aliasOf": "charreq"
     },
@@ -32188,7 +32223,7 @@
         ],
         "href": "https://www.w3.org/TR/html52/",
         "title": "HTML 5.2",
-        "rawDate": "2017-01-17",
+        "rawDate": "2017-02-28",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/html/",
@@ -32259,6 +32294,24 @@
                 "href": "https://www.w3.org/TR/2017/WD-html52-20170117/",
                 "title": "HTML 5.2",
                 "rawDate": "2017-01-17",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WebPlatform/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20170228": {
+                "authors": [
+                    "Steve Faulkner",
+                    "Arron Eicholz",
+                    "Travis Leithead",
+                    "Alex Danilo",
+                    "Sangwhan Moon"
+                ],
+                "href": "https://www.w3.org/TR/2017/WD-html52-20170228/",
+                "title": "HTML 5.2",
+                "rawDate": "2017-02-28",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
