@@ -18435,6 +18435,39 @@
             }
         }
     },
+    "css-rhythm-1": {
+        "authors": [
+            "Koji Ishii",
+            "Elika Etemad"
+        ],
+        "href": "https://www.w3.org/TR/css-rhythm-1/",
+        "title": "CSS Rhythmic Sizing",
+        "rawDate": "2017-03-02",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://drafts.csswg.org/css-rhythm/",
+        "deliveredBy": [
+            "https://www.w3.org/Style/CSS/members"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20170302": {
+                "authors": [
+                    "Koji Ishii",
+                    "Elika Etemad"
+                ],
+                "href": "https://www.w3.org/TR/2017/WD-css-rhythm-1-20170302/",
+                "title": "CSS Rhythmic Sizing",
+                "rawDate": "2017-03-02",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Style/CSS/members"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
     "css-round-display-1": {
         "authors": [
             "Jihye Hong"
@@ -19606,10 +19639,10 @@
         ],
         "href": "https://www.w3.org/TR/css-ui-3/",
         "title": "CSS Basic User Interface Module Level 3 (CSS3 UI)",
-        "rawDate": "2015-07-07",
+        "rawDate": "2017-03-02",
         "status": "CR",
         "publisher": "W3C",
-        "edDraft": "http://dev.w3.org/csswg/css-ui/",
+        "edDraft": "https://drafts.csswg.org/css-ui/",
         "deliveredBy": [
             "https://www.w3.org/Style/CSS/members"
         ],
@@ -19712,6 +19745,21 @@
                 "href": "https://www.w3.org/TR/2015/CR-css-ui-3-20150707/",
                 "title": "CSS Basic User Interface Module Level 3 (CSS3 UI)",
                 "rawDate": "2015-07-07",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Style/CSS/members"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20170302": {
+                "authors": [
+                    "Tantek Çelik",
+                    "Florian Rivoal"
+                ],
+                "href": "https://www.w3.org/TR/2017/CR-css-ui-3-20170302/",
+                "title": "CSS Basic User Interface Module Level 3 (CSS3 UI)",
+                "rawDate": "2017-03-02",
                 "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -33843,11 +33891,11 @@
         ],
         "href": "https://www.w3.org/TR/its2req/",
         "title": "Requirements for Internationalization Tag Set (ITS) 2.0",
-        "rawDate": "2012-05-24",
-        "status": "WD",
+        "rawDate": "2017-03-02",
+        "status": "NOTE",
         "publisher": "W3C",
         "deliveredBy": [
-            "https://www.w3.org/International/multilingualweb/lt/"
+            "https://www.w3.org/International/core/"
         ],
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
         "versions": {
@@ -33866,8 +33914,27 @@
                     "https://www.w3.org/International/multilingualweb/lt/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20170302": {
+                "authors": [
+                    "David Lewis",
+                    "Arle Lommel",
+                    "Felix Sasaki"
+                ],
+                "href": "https://www.w3.org/TR/2017/NOTE-its2req-20170302/",
+                "title": "Requirements for Internationalization Tag Set (ITS) 2.0",
+                "rawDate": "2017-03-02",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "isRetired": true,
+                "deliveredBy": [
+                    "https://www.w3.org/International/core/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "isRetired": true,
+        "edDraft": "https://w3c.github.io/its2req/"
     },
     "itsreq": {
         "authors": [
@@ -37472,11 +37539,11 @@
         ],
         "href": "https://www.w3.org/TR/mlw-metadata-us-impl/",
         "title": "Metadata for the Multilingual Web - Usage Scenarios and Implementations",
-        "rawDate": "2013-03-07",
-        "status": "WD",
+        "rawDate": "2017-03-02",
+        "status": "NOTE",
         "publisher": "W3C",
         "deliveredBy": [
-            "https://www.w3.org/International/multilingualweb/lt/"
+            "https://www.w3.org/International/core/"
         ],
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
         "versions": {
@@ -37493,8 +37560,25 @@
                     "https://www.w3.org/International/multilingualweb/lt/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20170302": {
+                "authors": [
+                    "Christian Lieske"
+                ],
+                "href": "https://www.w3.org/TR/2017/NOTE-mlw-metadata-us-impl-20170302/",
+                "title": "Metadata for the Multilingual Web - Usage Scenarios and Implementations",
+                "rawDate": "2017-03-02",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "isRetired": true,
+                "deliveredBy": [
+                    "https://www.w3.org/International/core/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "isRetired": true,
+        "edDraft": "https://w3c.github.io/mlw-metadata-us-impl/"
     },
     "mmi-arch": {
         "authors": [
