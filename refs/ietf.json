@@ -76935,7 +76935,8 @@
         "rawDate": "2008-02",
         "status": "Proposed Standard",
         "updatedBy": [
-            "RFC7728"
+            "RFC7728",
+            "RFC8082"
         ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -103024,6 +103025,9 @@
         ],
         "rawDate": "2013-01",
         "status": "Experimental",
+        "updatedBy": [
+            "RFC8113"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -122242,6 +122246,24 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8082": {
+        "rfcNumber": "RFC8082",
+        "href": "https://tools.ietf.org/html/rfc8082",
+        "title": "Using Codec Control Messages in the RTP Audio-Visual Profile with Feedback with Layered Codecs",
+        "authors": [
+            "S. Wenger",
+            "J. Lennox",
+            "B. Burman",
+            "M. Westerlund"
+        ],
+        "rawDate": "2017-03",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC5104"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8083": {
         "rfcNumber": "RFC8083",
         "href": "https://tools.ietf.org/html/rfc8083",
@@ -122370,6 +122392,7 @@
         ],
         "rawDate": "2017-02",
         "status": "Proposed Standard",
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=8092",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -122455,6 +122478,35 @@
     "rfc810": {
         "aliasOf": "rfc0810"
     },
+    "rfc8100": {
+        "rfcNumber": "RFC8100",
+        "href": "https://tools.ietf.org/html/rfc8100",
+        "title": "Diffserv-Interconnection Classes and Practice",
+        "authors": [
+            "R. Geib, Ed.",
+            "D. Black"
+        ],
+        "rawDate": "2017-03",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8102": {
+        "rfcNumber": "RFC8102",
+        "href": "https://tools.ietf.org/html/rfc8102",
+        "title": "Remote-LFA Node Protection and Manageability",
+        "authors": [
+            "P. Sarkar, Ed.",
+            "S. Hegde",
+            "C. Bowers",
+            "H. Gredler",
+            "S. Litkowski"
+        ],
+        "rawDate": "2017-03",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8103": {
         "rfcNumber": "RFC8103",
         "href": "https://tools.ietf.org/html/rfc8103",
@@ -122500,6 +122552,22 @@
     },
     "rfc811": {
         "aliasOf": "rfc0811"
+    },
+    "rfc8113": {
+        "rfcNumber": "RFC8113",
+        "href": "https://tools.ietf.org/html/rfc8113",
+        "title": "Locator/ID Separation Protocol (LISP): Shared Extension Message & IANA Registry for Packet Type Allocations",
+        "authors": [
+            "M. Boucadair",
+            "C. Jacquenet"
+        ],
+        "rawDate": "2017-03",
+        "status": "Experimental",
+        "updates": [
+            "RFC6830"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc812": {
         "aliasOf": "rfc0812"
