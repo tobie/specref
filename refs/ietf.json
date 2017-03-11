@@ -110927,7 +110927,10 @@
             "G. Barwood"
         ],
         "rawDate": "2014-09",
-        "status": "Informational",
+        "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC8078"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -122203,6 +122206,22 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8078": {
+        "rfcNumber": "RFC8078",
+        "href": "https://tools.ietf.org/html/rfc8078",
+        "title": "Managing DS Records from the Parent via CDS/CDNSKEY",
+        "authors": [
+            "O. Gudmundsson",
+            "P. Wouters"
+        ],
+        "rawDate": "2017-03",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC7344"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8079": {
         "rfcNumber": "RFC8079",
         "href": "https://tools.ietf.org/html/rfc8079",
@@ -122569,8 +122588,34 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8117": {
+        "rfcNumber": "RFC8117",
+        "href": "https://tools.ietf.org/html/rfc8117",
+        "title": "Current Hostname Practice Considered Harmful",
+        "authors": [
+            "C. Huitema",
+            "D. Thaler",
+            "R. Winter"
+        ],
+        "rawDate": "2017-03",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc812": {
         "aliasOf": "rfc0812"
+    },
+    "rfc8128": {
+        "rfcNumber": "RFC8128",
+        "href": "https://tools.ietf.org/html/rfc8128",
+        "title": "IETF Appointment Procedures for the ICANN Root Zone Evolution Review Committee",
+        "authors": [
+            "C. Morgan"
+        ],
+        "rawDate": "2017-03",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc813": {
         "aliasOf": "rfc0813"
