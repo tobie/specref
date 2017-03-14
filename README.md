@@ -3,7 +3,7 @@ Specref API [![Build Status](https://travis-ci.org/tobie/specref.png?branch=mast
 
 [Specref](http://www.specref.org/) is an open-source, community-maintained database of Web standards & related references.
 
-##Table of Contents##
+## Table of Contents ##
 
 * [API](#api)
   * [Aliases](#aliases)
