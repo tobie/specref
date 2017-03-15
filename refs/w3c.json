@@ -42140,7 +42140,7 @@
         ],
         "href": "https://www.w3.org/TR/payment-method-basic-card/",
         "title": "Basic Card Payment",
-        "rawDate": "2017-01-20",
+        "rawDate": "2017-03-15",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/webpayments-methods-card/",
@@ -42202,6 +42202,22 @@
                 "href": "https://www.w3.org/TR/2017/WD-payment-method-basic-card-20170120/",
                 "title": "Basic Card Payment",
                 "rawDate": "2017-01-20",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Payments/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20170315": {
+                "authors": [
+                    "Adrian Bateman",
+                    "Zach Koch",
+                    "Roy McElmurry"
+                ],
+                "href": "https://www.w3.org/TR/2017/WD-payment-method-basic-card-20170315/",
+                "title": "Basic Card Payment",
+                "rawDate": "2017-03-15",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -42295,11 +42311,13 @@
         "authors": [
             "Adrian Bateman",
             "Zach Koch",
-            "Roy McElmurry"
+            "Roy McElmurry",
+            "Domenic Denicola",
+            "Marcos Caceres"
         ],
         "href": "https://www.w3.org/TR/payment-request/",
         "title": "Payment Request API",
-        "rawDate": "2017-03-10",
+        "rawDate": "2017-03-15",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/browser-payment-api/",
@@ -42491,6 +42509,24 @@
                 "href": "https://www.w3.org/TR/2017/WD-payment-request-20170310/",
                 "title": "Payment Request API",
                 "rawDate": "2017-03-10",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Payments/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20170315": {
+                "authors": [
+                    "Adrian Bateman",
+                    "Zach Koch",
+                    "Roy McElmurry",
+                    "Domenic Denicola",
+                    "Marcos Caceres"
+                ],
+                "href": "https://www.w3.org/TR/2017/WD-payment-request-20170315/",
+                "title": "Payment Request API",
+                "rawDate": "2017-03-15",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
