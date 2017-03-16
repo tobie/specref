@@ -67161,6 +67161,9 @@
         ],
         "rawDate": "2006-04",
         "status": "Informational",
+        "updatedBy": [
+            "RFC8119"
+        ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=4458",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -101973,6 +101976,7 @@
             "RFC1918",
             "RFC2606"
         ],
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=6761",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -122556,6 +122560,21 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8104": {
+        "rfcNumber": "RFC8104",
+        "href": "https://tools.ietf.org/html/rfc8104",
+        "title": "Pseudowire (PW) Endpoint Fast Failure Protection",
+        "authors": [
+            "Y. Shen",
+            "R. Aggarwal",
+            "W. Henderickx",
+            "Y. Jiang"
+        ],
+        "rawDate": "2017-03",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8107": {
         "rfcNumber": "RFC8107",
         "href": "https://tools.ietf.org/html/rfc8107",
@@ -122584,6 +122603,20 @@
             "RFC3550",
             "RFC4585"
         ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8109": {
+        "rfcNumber": "RFC8109",
+        "href": "https://tools.ietf.org/html/rfc8109",
+        "title": "Initializing a DNS Resolver with Priming Queries",
+        "authors": [
+            "P. Koch",
+            "M. Larson",
+            "P. Hoffman"
+        ],
+        "rawDate": "2017-03",
+        "status": "Best Current Practice",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -122617,6 +122650,22 @@
         ],
         "rawDate": "2017-03",
         "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8119": {
+        "rfcNumber": "RFC8119",
+        "href": "https://tools.ietf.org/html/rfc8119",
+        "title": "SIP \"cause\" URI Parameter for Service Number Translation",
+        "authors": [
+            "M. Mohali",
+            "M. Barnes"
+        ],
+        "rawDate": "2017-03",
+        "status": "Informational",
+        "updates": [
+            "RFC4458"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
