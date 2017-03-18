@@ -15204,7 +15204,8 @@
             "RFC6093",
             "RFC6298",
             "RFC6633",
-            "RFC6864"
+            "RFC6864",
+            "RFC8029"
         ],
         "updates": [
             "RFC0793"
@@ -56889,6 +56890,9 @@
         ],
         "rawDate": "2004-05",
         "status": "Informational",
+        "obsoletedBy": [
+            "RFC8118"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -65970,6 +65974,9 @@
             "RFC7537",
             "RFC7743"
         ],
+        "obsoletedBy": [
+            "RFC8029"
+        ],
         "updates": [
             "RFC1122"
         ],
@@ -68883,6 +68890,9 @@
         ],
         "rawDate": "2006-07",
         "status": "Proposed Standard",
+        "obsoletedBy": [
+            "RFC8122"
+        ],
         "updates": [
             "RFC4145"
         ],
@@ -92041,6 +92051,9 @@
         ],
         "rawDate": "2010-11",
         "status": "Proposed Standard",
+        "obsoletedBy": [
+            "RFC8106"
+        ],
         "obsoletes": [
             "RFC5006"
         ],
@@ -96961,6 +96974,9 @@
         "status": "Proposed Standard",
         "updatedBy": [
             "RFC7537"
+        ],
+        "obsoletedBy": [
+            "RFC8029"
         ],
         "updates": [
             "RFC4379"
@@ -103009,6 +103025,9 @@
         ],
         "rawDate": "2013-01",
         "status": "Proposed Standard",
+        "obsoletedBy": [
+            "RFC8029"
+        ],
         "updates": [
             "RFC4379"
         ],
@@ -113929,6 +113948,9 @@
         ],
         "rawDate": "2015-05",
         "status": "Proposed Standard",
+        "obsoletedBy": [
+            "RFC8029"
+        ],
         "updates": [
             "RFC4379",
             "RFC6424"
@@ -121554,6 +121576,32 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8029": {
+        "rfcNumber": "RFC8029",
+        "href": "https://tools.ietf.org/html/rfc8029",
+        "title": "Detecting Multiprotocol Label Switched (MPLS) Data-Plane Failures",
+        "authors": [
+            "K. Kompella",
+            "G. Swallow",
+            "C. Pignataro, Ed.",
+            "N. Kumar",
+            "S. Aldrin",
+            "M. Chen"
+        ],
+        "rawDate": "2017-03",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC1122"
+        ],
+        "obsoletes": [
+            "RFC4379",
+            "RFC6424",
+            "RFC6829",
+            "RFC7537"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc803": {
         "aliasOf": "rfc0803"
     },
@@ -122575,6 +122623,24 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8106": {
+        "rfcNumber": "RFC8106",
+        "href": "https://tools.ietf.org/html/rfc8106",
+        "title": "IPv6 Router Advertisement Options for DNS Configuration",
+        "authors": [
+            "J. Jeong",
+            "S. Park",
+            "L. Beloeil",
+            "S. Madanapalli"
+        ],
+        "rawDate": "2017-03",
+        "status": "Proposed Standard",
+        "obsoletes": [
+            "RFC6106"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8107": {
         "rfcNumber": "RFC8107",
         "href": "https://tools.ietf.org/html/rfc8107",
@@ -122639,6 +122705,37 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8114": {
+        "rfcNumber": "RFC8114",
+        "href": "https://tools.ietf.org/html/rfc8114",
+        "title": "Delivery of IPv4 Multicast Services to IPv4 Clients over an IPv6 Multicast Network",
+        "authors": [
+            "M. Boucadair",
+            "C. Qin",
+            "C. Jacquenet",
+            "Y. Lee",
+            "Q. Wang"
+        ],
+        "rawDate": "2017-03",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8115": {
+        "rfcNumber": "RFC8115",
+        "href": "https://tools.ietf.org/html/rfc8115",
+        "title": "DHCPv6 Option for IPv4-Embedded Multicast and Unicast IPv6 Prefixes",
+        "authors": [
+            "M. Boucadair",
+            "J. Qin",
+            "T. Tsou",
+            "X. Deng"
+        ],
+        "rawDate": "2017-03",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8117": {
         "rfcNumber": "RFC8117",
         "href": "https://tools.ietf.org/html/rfc8117",
@@ -122650,6 +122747,25 @@
         ],
         "rawDate": "2017-03",
         "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8118": {
+        "rfcNumber": "RFC8118",
+        "href": "https://tools.ietf.org/html/rfc8118",
+        "title": "The application/pdf Media Type",
+        "authors": [
+            "M. Hardy",
+            "L. Masinter",
+            "D. Markovic",
+            "D. Johnson",
+            "M. Bailey"
+        ],
+        "rawDate": "2017-03",
+        "status": "Informational",
+        "obsoletes": [
+            "RFC3778"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -122671,6 +122787,22 @@
     },
     "rfc812": {
         "aliasOf": "rfc0812"
+    },
+    "rfc8122": {
+        "rfcNumber": "RFC8122",
+        "href": "https://tools.ietf.org/html/rfc8122",
+        "title": "Connection-Oriented Media Transport over the Transport Layer Security (TLS) Protocol in the Session Description Protocol (SDP)",
+        "authors": [
+            "J. Lennox",
+            "C. Holmberg"
+        ],
+        "rawDate": "2017-03",
+        "status": "Proposed Standard",
+        "obsoletes": [
+            "RFC4572"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc8128": {
         "rfcNumber": "RFC8128",
