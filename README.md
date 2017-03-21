@@ -20,7 +20,7 @@ The API to the service is very simple. It supports four operations which are:
 
 1.  Get a set of bibliographic references:
     
-    [`GET https://specref.herokuapp.com/bibrefs?refs=FileAPI,rfc2119`](https://specref.herokuapp.com/bibrefs?refs=FileAPI,rfc2119)
+    [`GET https://api.specref.org/bibrefs?refs=FileAPI,rfc2119`](https://api.specref.org/bibrefs?refs=FileAPI,rfc2119)
     
     parameters:
     
@@ -66,7 +66,7 @@ The API to the service is very simple. It supports four operations which are:
     
 2.  Search bibliographic references
 
-    [`GET https://specref.herokuapp.com/search-refs?q=coffee`](https://specref.herokuapp.com/search-refs?q=coffee)
+    [`GET https://api.specref.org/search-refs?q=coffee`](https://api.specref.org/search-refs?q=coffee)
         
     parameters:
     
@@ -106,7 +106,7 @@ The API to the service is very simple. It supports four operations which are:
     
 3.  Reverse Lookup
 
-    [`GET https://specref.herokuapp.com/reverse-lookup?urls=http://www.w3.org/TR/2012/WD-FileAPI-20121025/`](https://specref.herokuapp.com/reverse-lookup?urls=http://www.w3.org/TR/2012/WD-FileAPI-20121025/)
+    [`GET https://api.specref.org/reverse-lookup?urls=http://www.w3.org/TR/2012/WD-FileAPI-20121025/`](https://api.specref.org/reverse-lookup?urls=http://www.w3.org/TR/2012/WD-FileAPI-20121025/)
     
     parameters:
 
@@ -144,7 +144,7 @@ The API to the service is very simple. It supports four operations which are:
 
 ### Aliases
 
-Because of legacy references, case sensivity issues and taste, many entries have multiple identifiers. Thus an aliasing system was put in place. It isn't _that_ complicated really: an identifier either points directly to the reference object or to another identifier (through the `aliasOf` property), recursively. All aliases are resolved (there are tests for that) and when you query the API for a reference you always get all the objects necessary to resolve it in the same response. So for example, https://specref.herokuapp.com/bibrefs?refs=rfc7230 responds with:
+Because of legacy references, case sensivity issues and taste, many entries have multiple identifiers. Thus an aliasing system was put in place. It isn't _that_ complicated really: an identifier either points directly to the reference object or to another identifier (through the `aliasOf` property), recursively. All aliases are resolved (there are tests for that) and when you query the API for a reference you always get all the objects necessary to resolve it in the same response. So for example, https://api.specref.org/bibrefs?refs=rfc7230 responds with:
 
 ```json
 {
@@ -163,7 +163,7 @@ Because of legacy references, case sensivity issues and taste, many entries have
 }
 ```
 
-while https://specref.herokuapp.com/bibrefs?refs=HTTP11 gives you:
+while https://api.specref.org/bibrefs?refs=HTTP11 gives you:
 
 ```json
 {
@@ -203,10 +203,10 @@ Now whether you decide to display the result as `[HTTP1]`, `[rfc7230]`, `[RFC723
 Some examples should help: 
 
     // get references for SVG, REX, and DAHUT
-    GET https://specref.herokuapp.com/bibrefs?refs=SVG,REX,DAHUT
+    GET https://api.specref.org/bibrefs?refs=SVG,REX,DAHUT
     
     // the same as JSON-P
-    GET https://specref.herokuapp.com/bibrefs?refs=SVG,REX,DAHUT&callback=yourFunctionName
+    GET https://api.specref.org/bibrefs?refs=SVG,REX,DAHUT&callback=yourFunctionName
 
 If you need to find a reference ID (for either bibliographic or cross-references) you need to look for it on [specref.org](http://specref.org).
 
