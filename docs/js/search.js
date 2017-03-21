@@ -91,8 +91,8 @@ function setup($root) {
     
     function fetch(query, callback) {
         $.when(
-            $.getJSON("https://specref.herokuapp.com/search-refs", { q: query }),
-            $.getJSON("https://specref.herokuapp.com/reverse-lookup", { urls: query })
+            $.getJSON("https://api.specref.org/search-refs", { q: query }),
+            $.getJSON("https://api.specref.org/reverse-lookup", { urls: query })
         ).done(function(search, revLookup) {
             var ref;
             search = search[0],
@@ -177,7 +177,7 @@ function metadata(refcount, timeago) {
         return delta + " weeks ago";
     }
     
-    $.getJSON("https://specref.herokuapp.com/metadata").then(function(data) {
+    $.getJSON("https://api.specref.org/metadata").then(function(data) {
         refcount.text(formatRefCount(data.refCount));
     });
     
