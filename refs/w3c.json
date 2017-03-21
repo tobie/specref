@@ -33599,13 +33599,19 @@
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
     "input-events": {
+        "aliasOf": "input-events-2"
+    },
+    "input-events-1": {
+        "aliasOf": "input-events-2"
+    },
+    "input-events-2": {
         "authors": [
             "Johannes Wilm",
             "Ben Peters"
         ],
-        "href": "https://www.w3.org/TR/input-events/",
+        "href": "https://www.w3.org/TR/input-events-2/",
         "title": "Input Events Level 2",
-        "rawDate": "2017-03-20",
+        "rawDate": "2017-03-21",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/input-events/index.html",
@@ -33722,6 +33728,21 @@
                 "href": "https://www.w3.org/TR/2017/WD-input-events-20170320/",
                 "title": "Input Events Level 2",
                 "rawDate": "2017-03-20",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WebPlatform/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20170321": {
+                "authors": [
+                    "Johannes Wilm",
+                    "Ben Peters"
+                ],
+                "href": "https://www.w3.org/TR/2017/WD-input-events-2-20170321/",
+                "title": "Input Events Level 2",
+                "rawDate": "2017-03-21",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -34681,8 +34702,8 @@
         ],
         "href": "https://www.w3.org/TR/ldn/",
         "title": "Linked Data Notifications",
-        "rawDate": "2017-02-23",
-        "status": "CR",
+        "rawDate": "2017-03-21",
+        "status": "PR",
         "publisher": "W3C",
         "edDraft": "https://linkedresearch.org/ldn/",
         "deliveredBy": [
@@ -34773,6 +34794,21 @@
                 "title": "Linked Data Notifications",
                 "rawDate": "2017-02-23",
                 "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Social/WG"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20170321": {
+                "authors": [
+                    "Sarven Capadisli",
+                    "Amy Guy"
+                ],
+                "href": "https://www.w3.org/TR/2017/PR-ldn-20170321/",
+                "title": "Linked Data Notifications",
+                "rawDate": "2017-03-21",
+                "status": "PR",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/Social/WG"
@@ -76346,8 +76382,8 @@
         ],
         "href": "https://www.w3.org/TR/xpath-31/",
         "title": "XML Path Language (XPath) 3.1",
-        "rawDate": "2017-01-17",
-        "status": "PR",
+        "rawDate": "2017-03-21",
+        "status": "REC",
         "publisher": "W3C",
         "deliveredBy": [
             "https://www.w3.org/XML/Query/",
@@ -76453,8 +76489,27 @@
                     "https://www.w3.org/Style/XSL/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20170321": {
+                "authors": [
+                    "Jonathan Robie",
+                    "Michael Dyck",
+                    "Josh Spiegel"
+                ],
+                "href": "https://www.w3.org/TR/2017/REC-xpath-31-20170321/",
+                "title": "XML Path Language (XPath) 3.1",
+                "rawDate": "2017-03-21",
+                "status": "REC",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/XML/Query/",
+                    "https://www.w3.org/Style/XSL/"
+                ],
+                "hasErrata": "https://www.w3.org/XML/2017/qt-errata/xpath-31-errata.html",
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "hasErrata": "https://www.w3.org/XML/2017/qt-errata/xpath-31-errata.html"
     },
     "xpath-datamodel": {
         "authors": [
@@ -76740,8 +76795,8 @@
         ],
         "href": "https://www.w3.org/TR/xpath-datamodel-31/",
         "title": "XQuery and XPath Data Model 3.1",
-        "rawDate": "2017-01-17",
-        "status": "PR",
+        "rawDate": "2017-03-21",
+        "status": "REC",
         "publisher": "W3C",
         "deliveredBy": [
             "https://www.w3.org/XML/Query/",
@@ -76830,8 +76885,27 @@
                     "https://www.w3.org/Style/XSL/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20170321": {
+                "authors": [
+                    "Norman Walsh",
+                    "John Snelson",
+                    "Andrew Coleman"
+                ],
+                "href": "https://www.w3.org/TR/2017/REC-xpath-datamodel-31-20170321/",
+                "title": "XQuery and XPath Data Model 3.1",
+                "rawDate": "2017-03-21",
+                "status": "REC",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/XML/Query/",
+                    "https://www.w3.org/Style/XSL/"
+                ],
+                "hasErrata": "https://www.w3.org/XML/2017/qt-errata/xpath-datamodel-31-errata.html",
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "hasErrata": "https://www.w3.org/XML/2017/qt-errata/xpath-datamodel-31-errata.html"
     },
     "xpath-dm": {
         "aliasOf": "scxml-xpath-dm"
@@ -77523,8 +77597,8 @@
         ],
         "href": "https://www.w3.org/TR/xpath-functions-31/",
         "title": "XPath and XQuery Functions and Operators 3.1",
-        "rawDate": "2017-01-17",
-        "status": "PR",
+        "rawDate": "2017-03-21",
+        "status": "REC",
         "publisher": "W3C",
         "deliveredBy": [
             "https://www.w3.org/XML/Query/",
@@ -77606,8 +77680,25 @@
                     "https://www.w3.org/Style/XSL/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20170321": {
+                "authors": [
+                    "Michael Kay"
+                ],
+                "href": "https://www.w3.org/TR/2017/REC-xpath-functions-31-20170321/",
+                "title": "XPath and XQuery Functions and Operators 3.1",
+                "rawDate": "2017-03-21",
+                "status": "REC",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/XML/Query/",
+                    "https://www.w3.org/Style/XSL/"
+                ],
+                "hasErrata": "https://www.w3.org/XML/2017/qt-errata/xpath-functions-31-errata.html",
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "hasErrata": "https://www.w3.org/XML/2017/qt-errata/xpath-functions-31-errata.html"
     },
     "xpath20": {
         "authors": [
@@ -78906,8 +78997,8 @@
         ],
         "href": "https://www.w3.org/TR/xquery-31/",
         "title": "XQuery 3.1: An XML Query Language",
-        "rawDate": "2017-01-17",
-        "status": "PR",
+        "rawDate": "2017-03-21",
+        "status": "REC",
         "publisher": "W3C",
         "deliveredBy": [
             "https://www.w3.org/XML/Query/"
@@ -79006,8 +79097,26 @@
                     "https://www.w3.org/XML/Query/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20170321": {
+                "authors": [
+                    "Jonathan Robie",
+                    "Michael Dyck",
+                    "Josh Spiegel"
+                ],
+                "href": "https://www.w3.org/TR/2017/REC-xquery-31-20170321/",
+                "title": "XQuery 3.1: An XML Query Language",
+                "rawDate": "2017-03-21",
+                "status": "REC",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/XML/Query/"
+                ],
+                "hasErrata": "https://www.w3.org/XML/2017/qt-errata/xquery-31-errata.html",
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "hasErrata": "https://www.w3.org/XML/2017/qt-errata/xquery-31-errata.html"
     },
     "xquery-31-requirements": {
         "authors": [
@@ -80167,8 +80276,8 @@
         ],
         "href": "https://www.w3.org/TR/xqueryx-31/",
         "title": "XQueryX 3.1",
-        "rawDate": "2017-01-17",
-        "status": "PR",
+        "rawDate": "2017-03-21",
+        "status": "REC",
         "publisher": "W3C",
         "deliveredBy": [
             "https://www.w3.org/XML/Query/"
@@ -80246,8 +80355,25 @@
                     "https://www.w3.org/XML/Query/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20170321": {
+                "authors": [
+                    "Jim Melton",
+                    "Josh Spiegel"
+                ],
+                "href": "https://www.w3.org/TR/2017/REC-xqueryx-31-20170321/",
+                "title": "XQueryX 3.1",
+                "rawDate": "2017-03-21",
+                "status": "REC",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/XML/Query/"
+                ],
+                "hasErrata": "https://www.w3.org/XML/2017/qt-errata/xqueryx-31-errata.html",
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "hasErrata": "https://www.w3.org/XML/2017/qt-errata/xqueryx-31-errata.html"
     },
     "xqupdate": {
         "aliasOf": "xquery-update-10"
@@ -81001,8 +81127,8 @@
         ],
         "href": "https://www.w3.org/TR/xslt-xquery-serialization-31/",
         "title": "XSLT and XQuery Serialization 3.1",
-        "rawDate": "2017-01-17",
-        "status": "PR",
+        "rawDate": "2017-03-21",
+        "status": "REC",
         "publisher": "W3C",
         "deliveredBy": [
             "https://www.w3.org/XML/Query/",
@@ -81105,8 +81231,26 @@
                     "https://www.w3.org/Style/XSL/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20170321": {
+                "authors": [
+                    "Andrew Coleman",
+                    "Michael Sperberg-McQueen"
+                ],
+                "href": "https://www.w3.org/TR/2017/REC-xslt-xquery-serialization-31-20170321/",
+                "title": "XSLT and XQuery Serialization 3.1",
+                "rawDate": "2017-03-21",
+                "status": "REC",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/XML/Query/",
+                    "https://www.w3.org/Style/XSL/"
+                ],
+                "hasErrata": "https://www.w3.org/XML/2017/qt-errata/xslt-xquery-serialization-31-errata.html",
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "hasErrata": "https://www.w3.org/XML/2017/qt-errata/xslt-xquery-serialization-31-errata.html"
     },
     "xslt11": {
         "authors": [
