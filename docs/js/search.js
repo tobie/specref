@@ -120,6 +120,7 @@ function setup($root) {
     });
     
     function update(query, output) {
+        $status.text("Parsing " + pluralize(output.count, "result", "results") + "…");
         $results.html(highlight(output.html, query));
         $status.text(msg(query, output.count));
         $search.select();
@@ -132,7 +133,6 @@ function setup($root) {
         $search.val(query);
         $status.text("Searching…");
         fetch(query, function(err, output) {
-            $status.text("Parsing results…");
             update(query, output);
         });
     }
