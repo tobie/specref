@@ -93,18 +93,20 @@ function setup($root) {
         $.when(
             $.getJSON("https://api.specref.org/search-refs", { q: query }),
             $.getJSON("https://api.specref.org/reverse-lookup", { urls: query })
-        ).done(function(search, revLookup) {
+        ).then(function(search, revLookup) {
             var ref;
             search = search[0],
-            
             revLookup = revLookup[0];
             for (var k in revLookup) {
                 ref = revLookup[k];
                 search[ref.id] = ref;
             }
+
             var results = buildResults(search);
             results.raw = search;
             callback(null, results);
+        }, function(error) {
+            $status.text("Oops! Something didn't work out as planned. :(");
         });
     }
     $root.find("form").on("submit", function() {
@@ -120,7 +122,6 @@ function setup($root) {
     });
     
     function update(query, output) {
-        $status.text("Parsing " + pluralize(output.count, "result", "results") + "…");
         $results.html(highlight(output.html, query));
         $status.text(msg(query, output.count));
         $search.select();
