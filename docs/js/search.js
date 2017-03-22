@@ -132,6 +132,7 @@ function setup($root) {
         $search.val(query);
         $status.text("Searching…");
         fetch(query, function(err, output) {
+            $status.text("Parsing results…");
             update(query, output);
         });
     }
