@@ -11,6 +11,7 @@ suite('Test bibref api', function() {
             }
         },
         foo: { aliasOf: "FOO" },
+        bar: { aliasOf: "fOO" },
         hello: { title: "HELLO" }
     };
 
@@ -143,6 +144,14 @@ suite('Test bibref api', function() {
 
         assert.equal('HELLO', b.get('HeLLo').HeLLo.aliasOf, 'The differently cased alias points to the uppercased alias.');
         assert.equal('hello', b.get('HeLLo').HELLO.aliasOf, 'The uppercased  alias points to ref itself.');
+    });
+
+    test('bibref.get handles aliases case-insensitively', function() {
+        var b = bibref.create(obj);
+        var r = b.get('bar');
+        assert.ok('bar' in r, 'Returns the requested alias.');
+        assert.ok('fOO' in r, 'Returns an alias created on the fly.');
+        assert.ok('FOO' in r, 'Returns the ref itself.');
     });
 
     test('bibref.get also includes canonical reference of versioned specs', function() {

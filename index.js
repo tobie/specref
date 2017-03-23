@@ -49,9 +49,10 @@ app.get('/search-refs', function (req, res, next) {
 			if (match(shortname)) {
 				add();
 				if (current.aliasOf) {
+					var r = bibref.get(current.aliasOf);
 					var k = current.aliasOf;
 					while (k) {
-						obj[k] = all[k];
+						obj[k] = r[k];
 						k = obj[k].aliasOf;
 					}
 				}
