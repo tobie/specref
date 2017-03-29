@@ -10,7 +10,7 @@ Specref API [![Build Status](https://travis-ci.org/tobie/specref.png?branch=mast
   * [CORS](#cors)
   * [Examples](#examples)
 * [Updating & Adding New References](#updating--adding-new-references)
-  * [Daily Auto-Updating](#daily-auto-updating)
+  * [Hourly Auto-Updating](#hourly-auto-updating)
   * [Manual Changes](#manual-changes)
 * [Licenses](#licenses)
 
@@ -212,7 +212,7 @@ If you need to find a reference ID (for either bibliographic or cross-references
 
 ## Updating & Adding New References
 
-### Daily Auto-Updating
+### Hourly Auto-Updating
 
 There are scripts that pull fresh data from IETF, W3C, and WHATWG, and update their relevant files in the `refs` directory. These are now run hourly. Their output is tested, comitted and deployed without human intervention. Content should now always be up to date.
 
