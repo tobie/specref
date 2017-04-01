@@ -1,4 +1,11 @@
 {
+    "FEATURE-POLICY": {
+        "href": "https://wicg.github.io/feature-policy/",
+        "title": "Feature Policy",
+        "status": "Living Standard",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json"
+    },
     "WEB-BACKGROUND-SYNC": {
         "href": "https://wicg.github.io/BackgroundSync/spec/",
         "title": "Web Background Synchronization specification draft",
@@ -12,6 +19,9 @@
         "status": "Living Standard",
         "publisher": "WICG",
         "source": "https://wicg.github.io/admin/biblio.json"
+    },
+    "WICG-FEATURE-POLICY": {
+        "aliasOf": "FEATURE-POLICY"
     },
     "WICG-WEB-BACKGROUND-SYNC": {
         "aliasOf": "WEB-BACKGROUND-SYNC"
