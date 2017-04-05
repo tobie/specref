@@ -37,6 +37,7 @@ request({
     current = helper.sortRefs(current);
     console.log("updating existing refs.")
     helper.writeBiblio(FILE, current);
+    helper.tryOverwrite(FILE);
 });
 
 function href(index) {

@@ -194,6 +194,15 @@ Which let's you get to the data by using a simple `while` loop over the response
 
 Now whether you decide to display the result as `[HTTP1]`, `[rfc7230]`, `[RFC7230]`, or even `[1]` is up to you. Of course, it's silly to reference both `[HTTP1]` and `[rfc7230]` in the same specification, but that's something for the editors and/or their tools to avoid.
 
+### Obsoleted references
+
+Some entries have an `obsoletedBy` property which contains an array of identifiers.
+These identifiers reference specifications that replace this one and can be queried separately from the database.
+
+Like aliases, these identifiers are resolved (there are tests for that), but, unlike aliases, they are not returned with the response to the initial query.
+
+Note that these identifiers can themselves point to aliases or have their own `obsoletedBy` property.
+
 ### CORS
 
 **CORS is enabled for all origins.** By default the service returns JSON data, which is great but not convenient for browsers that do not support CORS yet. For those, simply adding the `callback` parameter with the name of the callback function you want will switch the response to JSON-P.
