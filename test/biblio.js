@@ -38,6 +38,18 @@ function testAliasOfPointsToRealObj(obj, key) {
     }
 }
 
+function testObsoletedByPointsToUptoDateReferences(obj, key) {
+    if ('obsoletedBy' in obj) {
+        var current = obj.obsoletedBy;
+        current.forEach(function(id) {
+            test('new version ' + wrap(id) + ' of ' + wrap(key) + ' exists', function() {
+                var ref = bibref.get(id)[id];
+                assert.ok(typeof ref == "object");
+            });
+        });
+    }
+}
+
 function testForDuplicates(obj, key, dups) {
     test(wrap(key) + ' has no duplicate', function() {
         var id = key.toUpperCase(),
@@ -62,17 +74,19 @@ suite('Validate References', function() {
     });
 });
 
-suite('Verify aliases resolve', function() {
+suite('Verify aliases and obsoletedBy resolve', function() {
     var dups = {};
     Object.keys(json).forEach(function(key) {
         var obj = json[key];
         testForDuplicates(obj, key, dups);
         if (typeof obj == 'object') {
             testAliasOfPointsToRealObj(obj, key);
+            testObsoletedByPointsToUptoDateReferences(obj, key);
             if ('versions' in obj) {
                 var versions = obj.versions;
                 Object.keys(versions).forEach(function(k) {
                     testAliasOfPointsToRealObj(versions[k], k);
+                    testObsoletedByPointsToUptoDateReferences(versions[k], k);
                 });
             }
         } else {
