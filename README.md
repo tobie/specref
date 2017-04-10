@@ -202,7 +202,7 @@ These identifiers reference specifications that replace this one and can be quer
 
 Like aliases, these identifiers are resolved (there are tests for that), but, unlike aliases, they are not returned with the response to the initial query.
 
-Note that these identifiers can themselves point to aliases or have their own `obsoletedBy` property.
+Note that these identifiers can themselves point to aliases or have their own `obsoletedBy` property, recursively.
 
 ### CORS
 
