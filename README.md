@@ -7,6 +7,7 @@ Specref API [![Build Status](https://travis-ci.org/tobie/specref.png?branch=mast
 
 * [API](#api)
   * [Aliases](#aliases)
+  * [Obsoleted References](#obsoleted-references)
   * [CORS](#cors)
   * [Examples](#examples)
 * [Updating & Adding New References](#updating--adding-new-references)
