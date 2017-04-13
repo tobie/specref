@@ -10947,8 +10947,8 @@
             "Alexander Shalamov"
         ],
         "href": "https://www.w3.org/TR/accelerometer/",
-        "title": "Accelerometer Sensor",
-        "rawDate": "2016-09-13",
+        "title": "Accelerometer",
+        "rawDate": "2017-04-11",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/accelerometer/",
@@ -10965,6 +10965,21 @@
                 "href": "https://www.w3.org/TR/2016/WD-accelerometer-20160913/",
                 "title": "Accelerometer Sensor",
                 "rawDate": "2016-09-13",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2009/dap/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20170411": {
+                "authors": [
+                    "Anssi Kostiainen",
+                    "Alexander Shalamov"
+                ],
+                "href": "https://www.w3.org/TR/2017/WD-accelerometer-20170411/",
+                "title": "Accelerometer",
+                "rawDate": "2017-04-11",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -11164,6 +11179,39 @@
             }
         }
     },
+    "act-rules-format-1.0": {
+        "authors": [
+            "Wilco Fiers",
+            "Maureen Kraft"
+        ],
+        "href": "https://www.w3.org/TR/act-rules-format-1.0/",
+        "title": "Accessibility Conformance Testing (ACT) Rules Format 1.0",
+        "rawDate": "2017-04-06",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/wcag-act/act-rules-format.html",
+        "deliveredBy": [
+            "https://www.w3.org/WAI/GL/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20170406": {
+                "authors": [
+                    "Wilco Fiers",
+                    "Maureen Kraft"
+                ],
+                "href": "https://www.w3.org/TR/2017/WD-act-rules-format-1.0-20170406/",
+                "title": "Accessibility Conformance Testing (ACT) Rules Format 1.0",
+                "rawDate": "2017-04-06",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WAI/GL/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
     "activitypub": {
         "authors": [
             "Christopher Webber",
@@ -11171,7 +11219,7 @@
         ],
         "href": "https://www.w3.org/TR/activitypub/",
         "title": "ActivityPub",
-        "rawDate": "2016-11-17",
+        "rawDate": "2017-04-13",
         "status": "CR",
         "publisher": "W3C",
         "deliveredBy": [
@@ -11264,6 +11312,21 @@
                     "https://www.w3.org/Social/WG"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20170413": {
+                "authors": [
+                    "Christopher Webber",
+                    "Jessica Tallon"
+                ],
+                "href": "https://www.w3.org/TR/2017/CR-activitypub-20170413/",
+                "title": "ActivityPub",
+                "rawDate": "2017-04-13",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Social/WG"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
         "edDraft": "https://w3c.github.io/activitypub/"
@@ -11275,8 +11338,8 @@
         ],
         "href": "https://www.w3.org/TR/activitystreams-core/",
         "title": "Activity Streams 2.0",
-        "rawDate": "2016-12-15",
-        "status": "CR",
+        "rawDate": "2017-04-13",
+        "status": "PR",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/activitystreams/core/",
         "deliveredBy": [
@@ -11417,6 +11480,21 @@
                     "https://www.w3.org/Social/WG"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20170413": {
+                "authors": [
+                    "James Snell",
+                    "Evan Prodromou"
+                ],
+                "href": "https://www.w3.org/TR/2017/PR-activitystreams-core-20170413/",
+                "title": "Activity Streams 2.0",
+                "rawDate": "2017-04-13",
+                "status": "PR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Social/WG"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
     },
@@ -11427,8 +11505,8 @@
         ],
         "href": "https://www.w3.org/TR/activitystreams-vocabulary/",
         "title": "Activity Vocabulary",
-        "rawDate": "2016-12-15",
-        "status": "CR",
+        "rawDate": "2017-04-13",
+        "status": "PR",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/activitystreams/vocabulary/",
         "deliveredBy": [
@@ -11564,6 +11642,21 @@
                 "title": "Activity Vocabulary",
                 "rawDate": "2016-12-15",
                 "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Social/WG"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20170413": {
+                "authors": [
+                    "James Snell",
+                    "Evan Prodromou"
+                ],
+                "href": "https://www.w3.org/TR/2017/PR-activitystreams-vocabulary-20170413/",
+                "title": "Activity Vocabulary",
+                "rawDate": "2017-04-13",
+                "status": "PR",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/Social/WG"
@@ -13933,8 +14026,8 @@
         ],
         "href": "https://www.w3.org/TR/beacon/",
         "title": "Beacon",
-        "rawDate": "2016-10-28",
-        "status": "WD",
+        "rawDate": "2017-04-13",
+        "status": "CR",
         "publisher": "W3C",
         "deliveredBy": [
             "https://www.w3.org/webperf/"
@@ -14281,6 +14374,23 @@
                 "title": "Beacon",
                 "rawDate": "2016-10-28",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/webperf/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20170413": {
+                "authors": [
+                    "Ilya Grigorik",
+                    "Alois Reitbauer",
+                    "Arvind Jain",
+                    "Jatinder Mann"
+                ],
+                "href": "https://www.w3.org/TR/2017/CR-beacon-20170413/",
+                "title": "Beacon",
+                "rawDate": "2017-04-13",
+                "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/webperf/"
@@ -16257,7 +16367,7 @@
         ],
         "href": "https://www.w3.org/TR/css-align-3/",
         "title": "CSS Box Alignment Module Level 3",
-        "rawDate": "2017-02-15",
+        "rawDate": "2017-04-07",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://drafts.csswg.org/css-align/",
@@ -16336,6 +16446,21 @@
                 "href": "https://www.w3.org/TR/2017/WD-css-align-3-20170215/",
                 "title": "CSS Box Alignment Module Level 3",
                 "rawDate": "2017-02-15",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Style/CSS/members"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20170407": {
+                "authors": [
+                    "Elika Etemad",
+                    "Tab Atkins Jr."
+                ],
+                "href": "https://www.w3.org/TR/2017/WD-css-align-3-20170407/",
+                "title": "CSS Box Alignment Module Level 3",
+                "rawDate": "2017-04-07",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -17601,6 +17726,56 @@
         "obsoletes": [
             "css3-grid"
         ]
+    },
+    "css-images-4": {
+        "authors": [
+            "Tab Atkins Jr.",
+            "Elika Etemad",
+            "Lea Verou"
+        ],
+        "href": "https://www.w3.org/TR/css-images-4/",
+        "title": "CSS Image Values and Replaced Content Module Level 4",
+        "rawDate": "2017-04-13",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://drafts.csswg.org/css-images-4/",
+        "deliveredBy": [
+            "https://www.w3.org/Style/CSS/members"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20120911": {
+                "authors": [
+                    "Elika Etemad",
+                    "Tab Atkins Jr."
+                ],
+                "href": "https://www.w3.org/TR/2012/WD-css4-images-20120911/",
+                "title": "CSS Image Values and Replaced Content Module Level 4",
+                "rawDate": "2012-09-11",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Style/CSS/members"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20170413": {
+                "authors": [
+                    "Tab Atkins Jr.",
+                    "Elika Etemad",
+                    "Lea Verou"
+                ],
+                "href": "https://www.w3.org/TR/2017/WD-css-images-4-20170413/",
+                "title": "CSS Image Values and Replaced Content Module Level 4",
+                "rawDate": "2017-04-13",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Style/CSS/members"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
     },
     "css-inline-3": {
         "authors": [
@@ -21746,36 +21921,7 @@
         "aliasOf": "css-writing-modes-3"
     },
     "css4-images": {
-        "authors": [
-            "Elika Etemad",
-            "Tab Atkins Jr."
-        ],
-        "href": "https://www.w3.org/TR/css4-images/",
-        "title": "CSS Image Values and Replaced Content Module Level 4",
-        "rawDate": "2012-09-11",
-        "status": "WD",
-        "publisher": "W3C",
-        "deliveredBy": [
-            "https://www.w3.org/Style/CSS/members"
-        ],
-        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
-        "versions": {
-            "20120911": {
-                "authors": [
-                    "Elika Etemad",
-                    "Tab Atkins Jr."
-                ],
-                "href": "https://www.w3.org/TR/2012/WD-css4-images-20120911/",
-                "title": "CSS Image Values and Replaced Content Module Level 4",
-                "rawDate": "2012-09-11",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/Style/CSS/members"
-                ],
-                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
-            }
-        }
+        "aliasOf": "css-images-4"
     },
     "cssom": {
         "aliasOf": "cssom-1"
@@ -26984,6 +27130,41 @@
         "edDraft": "http://dev.w3.org/2009/dap/file-system/file-writer.html",
         "isRetired": true
     },
+    "fill-stroke-3": {
+        "authors": [
+            "Elika Etemad",
+            "Tab Atkins Jr."
+        ],
+        "href": "https://www.w3.org/TR/fill-stroke-3/",
+        "title": "CSS Fill and Stroke Module Level 3",
+        "rawDate": "2017-04-13",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://drafts.fxtf.org/fill-stroke/",
+        "deliveredBy": [
+            "https://www.w3.org/Graphics/SVG/WG/",
+            "https://www.w3.org/Style/CSS/members"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20170413": {
+                "authors": [
+                    "Elika Etemad",
+                    "Tab Atkins Jr."
+                ],
+                "href": "https://www.w3.org/TR/2017/WD-fill-stroke-3-20170413/",
+                "title": "CSS Fill and Stroke Module Level 3",
+                "rawDate": "2017-04-13",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Graphics/SVG/WG/",
+                    "https://www.w3.org/Style/CSS/members"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
     "filter-effects": {
         "aliasOf": "filter-effects-1"
     },
@@ -28536,8 +28717,8 @@
             "Mikhail Pozdnyakov"
         ],
         "href": "https://www.w3.org/TR/gyroscope/",
-        "title": "Gyroscope Sensor",
-        "rawDate": "2016-09-13",
+        "title": "Gyroscope",
+        "rawDate": "2017-04-11",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/gyroscope/",
@@ -28554,6 +28735,21 @@
                 "href": "https://www.w3.org/TR/2016/WD-gyroscope-20160913/",
                 "title": "Gyroscope Sensor",
                 "rawDate": "2016-09-13",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2009/dap/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20170411": {
+                "authors": [
+                    "Anssi Kostiainen",
+                    "Mikhail Pozdnyakov"
+                ],
+                "href": "https://www.w3.org/TR/2017/WD-gyroscope-20170411/",
+                "title": "Gyroscope",
+                "rawDate": "2017-04-11",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -32446,7 +32642,7 @@
         ],
         "href": "https://www.w3.org/TR/html52/",
         "title": "HTML 5.2",
-        "rawDate": "2017-02-28",
+        "rawDate": "2017-04-06",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/html/",
@@ -32535,6 +32731,24 @@
                 "href": "https://www.w3.org/TR/2017/WD-html52-20170228/",
                 "title": "HTML 5.2",
                 "rawDate": "2017-02-28",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WebPlatform/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20170406": {
+                "authors": [
+                    "Steve Faulkner",
+                    "Arron Eicholz",
+                    "Travis Leithead",
+                    "Alex Danilo",
+                    "Sangwhan Moon"
+                ],
+                "href": "https://www.w3.org/TR/2017/WD-html52-20170406/",
+                "title": "HTML 5.2",
+                "rawDate": "2017-04-06",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -35524,8 +35738,8 @@
             "Rijubrata Bhaumik"
         ],
         "href": "https://www.w3.org/TR/magnetometer/",
-        "title": "Magnetometer Sensor",
-        "rawDate": "2016-09-13",
+        "title": "Magnetometer",
+        "rawDate": "2017-04-11",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/magnetometer/",
@@ -35542,6 +35756,21 @@
                 "href": "https://www.w3.org/TR/2016/WD-magnetometer-20160913/",
                 "title": "Magnetometer Sensor",
                 "rawDate": "2016-09-13",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2009/dap/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20170411": {
+                "authors": [
+                    "Anssi Kostiainen",
+                    "Rijubrata Bhaumik"
+                ],
+                "href": "https://www.w3.org/TR/2017/WD-magnetometer-20170411/",
+                "title": "Magnetometer",
+                "rawDate": "2017-04-11",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -37053,7 +37282,7 @@
         ],
         "href": "https://www.w3.org/TR/mediastream-recording/",
         "title": "MediaStream Recording",
-        "rawDate": "2016-12-22",
+        "rawDate": "2017-04-05",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -37299,9 +37528,26 @@
                     "https://www.w3.org/2009/dap/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20170405": {
+                "authors": [
+                    "Miguel Casas-sanchez",
+                    "James Barnett",
+                    "Travis Leithead"
+                ],
+                "href": "https://www.w3.org/TR/2017/WD-mediastream-recording-20170405/",
+                "title": "MediaStream Recording",
+                "rawDate": "2017-04-05",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2011/04/webrtc/",
+                    "https://www.w3.org/2009/dap/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "https://w3c.github.io/mediacapture-record/MediaRecorder.html"
+        "edDraft": "https://w3c.github.io/mediacapture-record/"
     },
     "messaging": {
         "authors": [
@@ -37573,8 +37819,8 @@
         ],
         "href": "https://www.w3.org/TR/micropub/",
         "title": "Micropub",
-        "rawDate": "2016-10-18",
-        "status": "CR",
+        "rawDate": "2017-04-13",
+        "status": "PR",
         "publisher": "W3C",
         "edDraft": "https://micropub.net/draft/",
         "deliveredBy": [
@@ -37668,6 +37914,20 @@
                 "title": "Micropub",
                 "rawDate": "2016-10-18",
                 "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Social/WG"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20170413": {
+                "authors": [
+                    "Aaron Parecki"
+                ],
+                "href": "https://www.w3.org/TR/2017/PR-micropub-20170413/",
+                "title": "Micropub",
+                "rawDate": "2017-04-13",
+                "status": "PR",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/Social/WG"
@@ -53598,8 +53858,8 @@
         ],
         "href": "https://www.w3.org/TR/shacl/",
         "title": "Shapes Constraint Language (SHACL)",
-        "rawDate": "2017-03-03",
-        "status": "WD",
+        "rawDate": "2017-04-11",
+        "status": "CR",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/data-shapes/shacl/",
         "deliveredBy": [
@@ -53687,6 +53947,21 @@
                 "title": "Shapes Constraint Language (SHACL)",
                 "rawDate": "2017-03-03",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2014/data-shapes/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20170411": {
+                "authors": [
+                    "Holger Knublauch",
+                    "Dimitris Kontokostas"
+                ],
+                "href": "https://www.w3.org/TR/2017/CR-shacl-20170411/",
+                "title": "Shapes Constraint Language (SHACL)",
+                "rawDate": "2017-04-11",
+                "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/2014/data-shapes/"
@@ -65674,8 +65949,8 @@
         ],
         "href": "https://www.w3.org/TR/websub/",
         "title": "WebSub",
-        "rawDate": "2016-11-24",
-        "status": "WD",
+        "rawDate": "2017-04-11",
+        "status": "CR",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/websub/",
         "deliveredBy": [
@@ -65706,6 +65981,21 @@
                 "title": "WebSub",
                 "rawDate": "2016-11-24",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Social/WG"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20170411": {
+                "authors": [
+                    "Julien Genestoux",
+                    "Aaron Parecki"
+                ],
+                "href": "https://www.w3.org/TR/2017/CR-websub-20170411/",
+                "title": "WebSub",
+                "rawDate": "2017-04-11",
+                "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/Social/WG"

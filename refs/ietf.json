@@ -111024,6 +111024,7 @@
         ],
         "rawDate": "2014-08",
         "status": "Informational",
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=7348",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -114702,6 +114703,7 @@
         ],
         "rawDate": "2015-10",
         "status": "Experimental",
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=7585",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -122847,6 +122849,40 @@
     "rfc812": {
         "aliasOf": "rfc0812"
     },
+    "rfc8120": {
+        "rfcNumber": "RFC8120",
+        "href": "https://tools.ietf.org/html/rfc8120",
+        "title": "Mutual Authentication Protocol for HTTP",
+        "authors": [
+            "Y. Oiwa",
+            "H. Watanabe",
+            "H. Takagi",
+            "K. Maeda",
+            "T. Hayashi",
+            "Y. Ioku"
+        ],
+        "rawDate": "2017-04",
+        "status": "Experimental",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8121": {
+        "rfcNumber": "RFC8121",
+        "href": "https://tools.ietf.org/html/rfc8121",
+        "title": "Mutual Authentication Protocol for HTTP: Cryptographic Algorithms Based on the Key Agreement Mechanism 3 (KAM3)",
+        "authors": [
+            "Y. Oiwa",
+            "H. Watanabe",
+            "H. Takagi",
+            "K. Maeda",
+            "T. Hayashi",
+            "Y. Ioku"
+        ],
+        "rawDate": "2017-04",
+        "status": "Experimental",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8122": {
         "rfcNumber": "RFC8122",
         "href": "https://tools.ietf.org/html/rfc8122",
@@ -122950,6 +122986,20 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8132": {
+        "rfcNumber": "RFC8132",
+        "href": "https://tools.ietf.org/html/rfc8132",
+        "title": "PATCH and FETCH Methods for the Constrained Application Protocol (CoAP)",
+        "authors": [
+            "P. van der Stok",
+            "C. Bormann",
+            "A. Sehgal"
+        ],
+        "rawDate": "2017-04",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8133": {
         "rfcNumber": "RFC8133",
         "href": "https://tools.ietf.org/html/rfc8133",
@@ -122991,6 +123041,21 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8138": {
+        "rfcNumber": "RFC8138",
+        "href": "https://tools.ietf.org/html/rfc8138",
+        "title": "IPv6 over Low-Power Wireless Personal Area Network (6LoWPAN) Routing Header",
+        "authors": [
+            "P. Thubert, Ed.",
+            "C. Bormann",
+            "L. Toutain",
+            "R. Cragie"
+        ],
+        "rawDate": "2017-04",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc814": {
         "aliasOf": "rfc0814"
     },
@@ -123003,6 +123068,20 @@
         ],
         "rawDate": "2017-04-01",
         "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8145": {
+        "rfcNumber": "RFC8145",
+        "href": "https://tools.ietf.org/html/rfc8145",
+        "title": "Signaling Trust Anchor Knowledge in DNS Security Extensions (DNSSEC)",
+        "authors": [
+            "D. Wessels",
+            "W. Kumari",
+            "P. Hoffman"
+        ],
+        "rawDate": "2017-04",
+        "status": "Proposed Standard",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
