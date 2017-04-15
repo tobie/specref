@@ -109342,6 +109342,9 @@
         ],
         "rawDate": "2014-06",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC8144"
+        ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=7240",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -123068,6 +123071,21 @@
         ],
         "rawDate": "2017-04-01",
         "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8144": {
+        "rfcNumber": "RFC8144",
+        "href": "https://tools.ietf.org/html/rfc8144",
+        "title": "Use of the Prefer Header Field in Web Distributed Authoring and Versioning (WebDAV)",
+        "authors": [
+            "K. Murchison"
+        ],
+        "rawDate": "2017-04",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC7240"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
