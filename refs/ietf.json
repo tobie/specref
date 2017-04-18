@@ -35906,9 +35906,10 @@
             "M. Daniele"
         ],
         "rawDate": "1998-12",
-        "status": "Proposed Standard",
+        "status": "Historic",
         "obsoletedBy": [
-            "RFC4022"
+            "RFC4022",
+            "RFC8096"
         ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -35942,7 +35943,8 @@
         "rawDate": "1998-12",
         "status": "Historic",
         "obsoletedBy": [
-            "RFC4113"
+            "RFC4113",
+            "RFC8096"
         ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -36151,9 +36153,10 @@
             "S. Onishi"
         ],
         "rawDate": "1998-12",
-        "status": "Proposed Standard",
+        "status": "Historic",
         "obsoletedBy": [
-            "RFC4293"
+            "RFC4293",
+            "RFC8096"
         ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -36167,9 +36170,10 @@
             "S. Onishi"
         ],
         "rawDate": "1998-12",
-        "status": "Proposed Standard",
+        "status": "Historic",
         "obsoletedBy": [
-            "RFC4293"
+            "RFC4293",
+            "RFC8096"
         ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -98572,6 +98576,7 @@
         "obsoletes": [
             "RFC5336"
         ],
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=6531",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -122544,6 +122549,24 @@
         ],
         "rawDate": "2017-03",
         "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8096": {
+        "rfcNumber": "RFC8096",
+        "href": "https://tools.ietf.org/html/rfc8096",
+        "title": "The IPv6-Specific MIB Modules Are Obsolete",
+        "authors": [
+            "B. Fenner"
+        ],
+        "rawDate": "2017-04",
+        "status": "Informational",
+        "obsoletes": [
+            "RFC2452",
+            "RFC2454",
+            "RFC2465",
+            "RFC2466"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
