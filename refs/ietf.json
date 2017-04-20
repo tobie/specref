@@ -87009,6 +87009,9 @@
         ],
         "rawDate": "2010-04",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC8155"
+        ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=5766",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -122951,6 +122954,18 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8125": {
+        "rfcNumber": "RFC8125",
+        "href": "https://tools.ietf.org/html/rfc8125",
+        "title": "Requirements for Password-Authenticated Key Agreement (PAKE) Schemes",
+        "authors": [
+            "J. Schmidt"
+        ],
+        "rawDate": "2017-04",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8128": {
         "rfcNumber": "RFC8128",
         "href": "https://tools.ietf.org/html/rfc8128",
@@ -123126,11 +123141,85 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8149": {
+        "rfcNumber": "RFC8149",
+        "href": "https://tools.ietf.org/html/rfc8149",
+        "title": "RSVP Extensions for Reoptimization of Loosely Routed Point-to-Multipoint Traffic Engineering Label Switched Paths (LSPs)",
+        "authors": [
+            "T. Saad, Ed.",
+            "R. Gandhi, Ed.",
+            "Z. Ali",
+            "R. Venator",
+            "Y. Kamite"
+        ],
+        "rawDate": "2017-04",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc815": {
         "aliasOf": "rfc0815"
     },
+    "rfc8150": {
+        "rfcNumber": "RFC8150",
+        "href": "https://tools.ietf.org/html/rfc8150",
+        "title": "MPLS Transport Profile Linear Protection MIB",
+        "authors": [
+            "S. Kingston Smiler",
+            "M. Venkatesan",
+            "D. King",
+            "S. Aldrin",
+            "J. Ryoo"
+        ],
+        "rawDate": "2017-04",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8153": {
+        "rfcNumber": "RFC8153",
+        "href": "https://tools.ietf.org/html/rfc8153",
+        "title": "Digital Preservation Considerations for the RFC Series",
+        "authors": [
+            "H. Flanagan"
+        ],
+        "rawDate": "2017-04",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8155": {
+        "rfcNumber": "RFC8155",
+        "href": "https://tools.ietf.org/html/rfc8155",
+        "title": "Traversal Using Relays around NAT (TURN) Server Auto Discovery",
+        "authors": [
+            "P. Patil",
+            "T. Reddy",
+            "D. Wing"
+        ],
+        "rawDate": "2017-04",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC5766"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc816": {
         "aliasOf": "rfc0816"
+    },
+    "rfc8160": {
+        "rfcNumber": "RFC8160",
+        "href": "https://tools.ietf.org/html/rfc8160",
+        "title": "IUTF8 Terminal Mode in Secure Shell (SSH)",
+        "authors": [
+            "S. Tatham",
+            "D. Tucker"
+        ],
+        "rawDate": "2017-04",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc817": {
         "aliasOf": "rfc0817"
