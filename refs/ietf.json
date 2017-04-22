@@ -69967,6 +69967,9 @@
         ],
         "rawDate": "2006-10",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC8143"
+        ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=4642",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -89439,6 +89442,9 @@
         ],
         "rawDate": "2010-08",
         "status": "Informational",
+        "updatedBy": [
+            "RFC8146"
+        ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=5931",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -123112,6 +123118,21 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8143": {
+        "rfcNumber": "RFC8143",
+        "href": "https://tools.ietf.org/html/rfc8143",
+        "title": "Using Transport Layer Security (TLS) with Network News Transfer Protocol (NNTP)",
+        "authors": [
+            "J. Elie"
+        ],
+        "rawDate": "2017-04",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC4642"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8144": {
         "rfcNumber": "RFC8144",
         "href": "https://tools.ietf.org/html/rfc8144",
@@ -123138,6 +123159,21 @@
         ],
         "rawDate": "2017-04",
         "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8146": {
+        "rfcNumber": "RFC8146",
+        "href": "https://tools.ietf.org/html/rfc8146",
+        "title": "Adding Support for Salted Password Databases to EAP-pwd",
+        "authors": [
+            "D. Harkins"
+        ],
+        "rawDate": "2017-04",
+        "status": "Informational",
+        "updates": [
+            "RFC5931"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
