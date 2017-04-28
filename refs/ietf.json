@@ -30887,6 +30887,9 @@
         ],
         "rawDate": "1997-05",
         "status": "Proposed Standard",
+        "obsoletedBy": [
+            "RFC8141"
+        ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=2141",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -51065,6 +51068,9 @@
         ],
         "rawDate": "2002-10",
         "status": "Best Current Practice",
+        "obsoletedBy": [
+            "RFC8141"
+        ],
         "obsoletes": [
             "RFC2611"
         ],
@@ -123115,6 +123121,35 @@
         ],
         "rawDate": "2017-04-01",
         "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8141": {
+        "rfcNumber": "RFC8141",
+        "href": "https://tools.ietf.org/html/rfc8141",
+        "title": "Uniform Resource Names (URNs)",
+        "authors": [
+            "P. Saint-Andre",
+            "J. Klensin"
+        ],
+        "rawDate": "2017-04",
+        "status": "Proposed Standard",
+        "obsoletes": [
+            "RFC2141",
+            "RFC3406"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8142": {
+        "rfcNumber": "RFC8142",
+        "href": "https://tools.ietf.org/html/rfc8142",
+        "title": "GeoJSON Text Sequences",
+        "authors": [
+            "S. Gillies"
+        ],
+        "rawDate": "2017-04",
+        "status": "Proposed Standard",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
