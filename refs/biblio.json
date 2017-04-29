@@ -2259,7 +2259,7 @@
     },
     "UNICODE": {
         "href": "http://www.unicode.org/versions/latest/",
-        "publisher": "The Unicode Consortium",
+        "publisher": "Unicode Consortium",
         "title": "The Unicode Standard"
     },
     "UNICODE-SECURITY": {
@@ -2269,11 +2269,13 @@
         ],
         "href": "http://www.unicode.org/reports/tr36/",
         "title": "Unicode Security Considerations",
+        "date": "19 September 2014",
+        "status": "Unicode Technical Report #36",
         "publisher": "Unicode Consortium"
     },
     "UNICODE32": {
         "authors": [
-            "The Unicode Consortium"
+            "Unicode Consortium"
         ],
         "href": "http://www.unicode.org/versions/Unicode3.2.0/",
         "title": "The Unicode Standard, Version 3.2.0",
@@ -2308,6 +2310,9 @@
         "status": "Unicode Technical Report #24",
         "publisher": "Unicode Consortium"
     },
+    "UTR36": {
+        "aliasOf": "UNICODE-SECURITY"
+    },
     "UTR51": {
         "authors": [
             "Mark Davis",
@@ -2340,6 +2345,17 @@
         "title": "Unicode Character Mapping Markup Language (CharmapML)",
         "date": "9 September 2009",
         "status": "Unicode Technical Standard #22",
+        "publisher": "Unicode Consortium"
+    },
+    "UTS46": {
+        "authors": [
+            "Mark Davis",
+            "Michel Suignard"
+        ],
+        "href": "http://www.unicode.org/reports/tr46/",
+        "title": "Unicode IDNA Compatibility Processing",
+        "date": "1 June 2016",
+        "status": "Unicode Technical Standard #46",
         "publisher": "Unicode Consortium"
     },
     "UTS51": {
