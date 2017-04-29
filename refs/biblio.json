@@ -2451,21 +2451,10 @@
         "href": "https://dev.w3.org/2006/waf/widgets/test-suite/"
     },
     "WebIDL-2": {
-        "aliasOf": "WebIDL-LS"
+        "aliasOf": "WebIDL"
     },
     "WebIDL-LS": {
-        "authors": [
-            "Cameron McCormack",
-            "Boris Zbarsky",
-            "Tobie Langel"
-        ],
-        "href": "https://heycam.github.io/webidl/",
-        "title": "Web IDL",
-        "status": "ED",
-        "publisher": "W3C",
-        "deliveredBy": [
-            "https://www.w3.org/WebPlatform/WG/"
-        ]
+      "aliasOf": "WebIDL"
     },
     "WebM": {
         "href": "https://www.webmproject.org/docs/container/",
