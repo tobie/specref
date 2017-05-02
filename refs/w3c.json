@@ -35154,8 +35154,8 @@
         ],
         "href": "https://www.w3.org/TR/ldn/",
         "title": "Linked Data Notifications",
-        "rawDate": "2017-03-21",
-        "status": "PR",
+        "rawDate": "2017-05-02",
+        "status": "REC",
         "publisher": "W3C",
         "edDraft": "https://linkedresearch.org/ldn/",
         "deliveredBy": [
@@ -35266,8 +35266,25 @@
                     "https://www.w3.org/Social/WG"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20170502": {
+                "authors": [
+                    "Sarven Capadisli",
+                    "Amy Guy"
+                ],
+                "href": "https://www.w3.org/TR/2017/REC-ldn-20170502/",
+                "title": "Linked Data Notifications",
+                "rawDate": "2017-05-02",
+                "status": "REC",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Social/WG"
+                ],
+                "hasErrata": "https://github.com/w3c/ldn/",
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "hasErrata": "https://github.com/w3c/ldn/"
     },
     "ldp": {
         "authors": [
@@ -46604,9 +46621,9 @@
             "Leonard Rosenthol"
         ],
         "href": "https://www.w3.org/TR/pwp/",
-        "title": "Web Publications",
-        "rawDate": "2017-03-09",
-        "status": "WD",
+        "title": "Web Publications for the Open Web Platform: Vision And Technical Challenges",
+        "rawDate": "2017-05-02",
+        "status": "NOTE",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/dpub-pwp/",
         "deliveredBy": [
@@ -46664,6 +46681,25 @@
                     "https://www.w3.org/dpub/IG/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20170502": {
+                "authors": [
+                    "Markus Gylling",
+                    "Ben De Meester",
+                    "Ivan Herman",
+                    "Tzviya Siegman",
+                    "Dave Cramer",
+                    "Leonard Rosenthol"
+                ],
+                "href": "https://www.w3.org/TR/2017/NOTE-pwp-20170502/",
+                "title": "Web Publications for the Open Web Platform: Vision And Technical Challenges",
+                "rawDate": "2017-05-02",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/dpub/IG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
     },
@@ -46675,8 +46711,8 @@
         ],
         "href": "https://www.w3.org/TR/pwp-ucr/",
         "title": "Web Publications Use Cases and Requirements",
-        "rawDate": "2017-03-09",
-        "status": "WD",
+        "rawDate": "2017-05-02",
+        "status": "NOTE",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/dpub-pwp-ucr/",
         "deliveredBy": [
@@ -46709,6 +46745,22 @@
                 "title": "Web Publications Use Cases and Requirements",
                 "rawDate": "2017-03-09",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/dpub/IG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20170502": {
+                "authors": [
+                    "Heather Flanagan",
+                    "Ivan Herman",
+                    "Leonard Rosenthol"
+                ],
+                "href": "https://www.w3.org/TR/2017/NOTE-pwp-ucr-20170502/",
+                "title": "Web Publications Use Cases and Requirements",
+                "rawDate": "2017-05-02",
+                "status": "NOTE",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/dpub/IG/"
