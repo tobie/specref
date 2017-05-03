@@ -40451,6 +40451,9 @@
         ],
         "rawDate": "1999-12",
         "status": "Best Current Practice",
+        "updatedBy": [
+            "RFC8088"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -121746,6 +121749,22 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8038": {
+        "rfcNumber": "RFC8038",
+        "href": "https://tools.ietf.org/html/rfc8038",
+        "title": "Exporting MIB Variables Using the IP Flow Information Export (IPFIX) Protocol",
+        "authors": [
+            "P. Aitken, Ed.",
+            "B. Claise",
+            "S. B S",
+            "C. McDowall",
+            "J. Schoenwaelder"
+        ],
+        "rawDate": "2017-05",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8039": {
         "rfcNumber": "RFC8039",
         "href": "https://tools.ietf.org/html/rfc8039",
@@ -121854,6 +121873,7 @@
         ],
         "rawDate": "2017-01",
         "status": "Proposed Standard",
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=8045",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -122471,6 +122491,21 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8088": {
+        "rfcNumber": "RFC8088",
+        "href": "https://tools.ietf.org/html/rfc8088",
+        "title": "How to Write an RTP Payload Format",
+        "authors": [
+            "M. Westerlund"
+        ],
+        "rawDate": "2017-05",
+        "status": "Informational",
+        "updates": [
+            "RFC2736"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8089": {
         "rfcNumber": "RFC8089",
         "href": "https://tools.ietf.org/html/rfc8089",
@@ -122711,6 +122746,22 @@
             "Y. Jiang"
         ],
         "rawDate": "2017-03",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8105": {
+        "rfcNumber": "RFC8105",
+        "href": "https://tools.ietf.org/html/rfc8105",
+        "title": "Transmission of IPv6 Packets over Digital Enhanced Cordless Telecommunications (DECT) Ultra Low Energy (ULE)",
+        "authors": [
+            "P. Mariager",
+            "J. Petersen, Ed.",
+            "Z. Shelby",
+            "M. Van de Logt",
+            "D. Barthel"
+        ],
+        "rawDate": "2017-05",
         "status": "Proposed Standard",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -123260,6 +123311,18 @@
         "rawDate": "2017-04",
         "status": "Informational",
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=8153",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8154": {
+        "rfcNumber": "RFC8154",
+        "href": "https://tools.ietf.org/html/rfc8154",
+        "title": "Parallel NFS (pNFS) Small Computer System Interface (SCSI) Layout",
+        "authors": [
+            "C. Hellwig"
+        ],
+        "rawDate": "2017-05",
+        "status": "Proposed Standard",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
