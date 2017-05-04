@@ -13660,150 +13660,7 @@
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
     "aria-in-html": {
-        "authors": [
-            "Steve Faulkner",
-            "Hans Hillen",
-            "David MacDonald"
-        ],
-        "href": "https://www.w3.org/TR/aria-in-html/",
-        "title": "Using ARIA",
-        "rawDate": "2017-04-18",
-        "status": "WD",
-        "publisher": "W3C",
-        "deliveredBy": [
-            "https://www.w3.org/WebPlatform/WG/"
-        ],
-        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
-        "versions": {
-            "20130214": {
-                "authors": [
-                    "Steve Faulkner"
-                ],
-                "href": "https://www.w3.org/TR/2013/WD-aria-in-html-20130214/",
-                "title": "Using WAI-ARIA in HTML",
-                "rawDate": "2013-02-14",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/html/wg/"
-                ],
-                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
-            },
-            "20131003": {
-                "authors": [
-                    "Steve Faulkner",
-                    "Hans Hillen",
-                    "Gez Lemon",
-                    "David MacDonald"
-                ],
-                "href": "https://www.w3.org/TR/2013/WD-aria-in-html-20131003/",
-                "title": "Using WAI-ARIA in HTML",
-                "rawDate": "2013-10-03",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/html/wg/"
-                ],
-                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
-            },
-            "20140626": {
-                "authors": [
-                    "Steve Faulkner",
-                    "Hans Hillen",
-                    "David MacDonald"
-                ],
-                "href": "https://www.w3.org/TR/2014/WD-aria-in-html-20140626/",
-                "title": "Using WAI-ARIA in HTML",
-                "rawDate": "2014-06-26",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/html/wg/"
-                ],
-                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
-            },
-            "20150514": {
-                "authors": [
-                    "Steve Faulkner",
-                    "Hans Hillen",
-                    "David MacDonald"
-                ],
-                "href": "https://www.w3.org/TR/2015/WD-aria-in-html-20150514/",
-                "title": "Notes on Using ARIA in HTML",
-                "rawDate": "2015-05-14",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/html/wg/"
-                ],
-                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
-            },
-            "20150521": {
-                "authors": [
-                    "Steve Faulkner",
-                    "Hans Hillen",
-                    "David MacDonald"
-                ],
-                "href": "https://www.w3.org/TR/2015/WD-aria-in-html-20150521/",
-                "title": "Notes on Using ARIA in HTML",
-                "rawDate": "2015-05-21",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/html/wg/"
-                ],
-                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
-            },
-            "20170214": {
-                "authors": [
-                    "Steve Faulkner",
-                    "David MacDonald",
-                    "Hans Hillen"
-                ],
-                "href": "https://www.w3.org/TR/2017/WD-aria-in-html-20170214/",
-                "title": "Notes on Using ARIA in HTML",
-                "rawDate": "2017-02-14",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/WebPlatform/WG/"
-                ],
-                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
-            },
-            "20170417": {
-                "authors": [
-                    "Steve Faulkner",
-                    "Hans Hillen",
-                    "David MacDonald"
-                ],
-                "href": "https://www.w3.org/TR/2017/WD-aria-in-html-20170417/",
-                "title": "Using ARIA",
-                "rawDate": "2017-04-17",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/WebPlatform/WG/"
-                ],
-                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
-            },
-            "20170418": {
-                "authors": [
-                    "Steve Faulkner",
-                    "Hans Hillen",
-                    "David MacDonald"
-                ],
-                "href": "https://www.w3.org/TR/2017/WD-aria-in-html-20170418/",
-                "title": "Using ARIA",
-                "rawDate": "2017-04-18",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/WebPlatform/WG/"
-                ],
-                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
-            }
-        },
-        "edDraft": "https://w3c.github.io/aria-in-html/"
+        "aliasOf": "using-aria"
     },
     "aria-roadmap": {
         "aliasOf": "wai-aria-roadmap"
@@ -31005,11 +30862,27 @@
                     "https://www.w3.org/2009/dap/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20170504": {
+                "authors": [
+                    "Anssi Kostiainen",
+                    "Ilkka Oksanen",
+                    "Dominique Hazaël-Massieux"
+                ],
+                "href": "https://www.w3.org/TR/2017/CR-html-media-capture-20170504/",
+                "title": "HTML Media Capture",
+                "rawDate": "2017-05-04",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2009/dap/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2014-09-09",
+        "rawDate": "2017-05-04",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
-        "edDraft": "http://dev.w3.org/2009/dap/camera/"
+        "edDraft": "https://w3c.github.io/html-media-capture/"
     },
     "html-picture-element": {
         "authors": [
@@ -37949,14 +37822,15 @@
     },
     "microdata": {
         "authors": [
+            "Charles McCathie Nevile",
             "Ian Hickson"
         ],
         "href": "https://www.w3.org/TR/microdata/",
         "title": "HTML Microdata",
-        "status": "NOTE",
+        "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
-            "https://www.w3.org/html/wg/"
+            "https://www.w3.org/WebPlatform/WG/"
         ],
         "versions": {
             "20100304": {
@@ -38028,11 +37902,26 @@
                     "https://www.w3.org/html/wg/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20170504": {
+                "authors": [
+                    "Charles McCathie Nevile",
+                    "Ian Hickson"
+                ],
+                "href": "https://www.w3.org/TR/2017/WD-microdata-20170504/",
+                "title": "HTML Microdata",
+                "rawDate": "2017-05-04",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WebPlatform/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2013-10-29",
+        "rawDate": "2017-05-04",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
-        "edDraft": "https://www.w3.org/html/wg/drafts/microdata/master/"
+        "edDraft": "https://w3c.github.io/microdata/"
     },
     "microdata-rdf": {
         "authors": [
@@ -61002,6 +60891,166 @@
             }
         }
     },
+    "using-aria": {
+        "authors": [
+            "Steve Faulkner",
+            "David MacDonald"
+        ],
+        "href": "https://www.w3.org/TR/using-aria/",
+        "title": "Using ARIA",
+        "rawDate": "2017-05-04",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/using-aria/",
+        "deliveredBy": [
+            "https://www.w3.org/WebPlatform/WG/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20130214": {
+                "authors": [
+                    "Steve Faulkner"
+                ],
+                "href": "https://www.w3.org/TR/2013/WD-aria-in-html-20130214/",
+                "title": "Using WAI-ARIA in HTML",
+                "rawDate": "2013-02-14",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/html/wg/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20131003": {
+                "authors": [
+                    "Steve Faulkner",
+                    "Hans Hillen",
+                    "Gez Lemon",
+                    "David MacDonald"
+                ],
+                "href": "https://www.w3.org/TR/2013/WD-aria-in-html-20131003/",
+                "title": "Using WAI-ARIA in HTML",
+                "rawDate": "2013-10-03",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/html/wg/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140626": {
+                "authors": [
+                    "Steve Faulkner",
+                    "Hans Hillen",
+                    "David MacDonald"
+                ],
+                "href": "https://www.w3.org/TR/2014/WD-aria-in-html-20140626/",
+                "title": "Using WAI-ARIA in HTML",
+                "rawDate": "2014-06-26",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/html/wg/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150514": {
+                "authors": [
+                    "Steve Faulkner",
+                    "Hans Hillen",
+                    "David MacDonald"
+                ],
+                "href": "https://www.w3.org/TR/2015/WD-aria-in-html-20150514/",
+                "title": "Notes on Using ARIA in HTML",
+                "rawDate": "2015-05-14",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/html/wg/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150521": {
+                "authors": [
+                    "Steve Faulkner",
+                    "Hans Hillen",
+                    "David MacDonald"
+                ],
+                "href": "https://www.w3.org/TR/2015/WD-aria-in-html-20150521/",
+                "title": "Notes on Using ARIA in HTML",
+                "rawDate": "2015-05-21",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/html/wg/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20170214": {
+                "authors": [
+                    "Steve Faulkner",
+                    "David MacDonald",
+                    "Hans Hillen"
+                ],
+                "href": "https://www.w3.org/TR/2017/WD-aria-in-html-20170214/",
+                "title": "Notes on Using ARIA in HTML",
+                "rawDate": "2017-02-14",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WebPlatform/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20170417": {
+                "authors": [
+                    "Steve Faulkner",
+                    "Hans Hillen",
+                    "David MacDonald"
+                ],
+                "href": "https://www.w3.org/TR/2017/WD-aria-in-html-20170417/",
+                "title": "Using ARIA",
+                "rawDate": "2017-04-17",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WebPlatform/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20170418": {
+                "authors": [
+                    "Steve Faulkner",
+                    "Hans Hillen",
+                    "David MacDonald"
+                ],
+                "href": "https://www.w3.org/TR/2017/WD-aria-in-html-20170418/",
+                "title": "Using ARIA",
+                "rawDate": "2017-04-18",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WebPlatform/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20170504": {
+                "authors": [
+                    "Steve Faulkner",
+                    "David MacDonald"
+                ],
+                "href": "https://www.w3.org/TR/2017/WD-using-aria-20170504/",
+                "title": "Using ARIA",
+                "rawDate": "2017-05-04",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WebPlatform/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
     "vbi-reqs": {
         "authors": [
             "Kenneth Rehor"
@@ -62121,14 +62170,15 @@
     },
     "vocab-ssn": {
         "authors": [
-            "Kerry Taylor",
+            "Armin Haller",
             "Krzysztof Janowicz",
             "Danh Le Phuoc",
-            "Armin Haller"
+            "Kerry Taylor",
+            "Maxime Lefrançois"
         ],
         "href": "https://www.w3.org/TR/vocab-ssn/",
         "title": "Semantic Sensor Network Ontology",
-        "rawDate": "2017-01-05",
+        "rawDate": "2017-05-04",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/sdw/ssn/",
@@ -62164,6 +62214,24 @@
                 "href": "https://www.w3.org/TR/2017/WD-vocab-ssn-20170105/",
                 "title": "Semantic Sensor Network Ontology",
                 "rawDate": "2017-01-05",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2015/spatial/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20170504": {
+                "authors": [
+                    "Armin Haller",
+                    "Krzysztof Janowicz",
+                    "Danh Le Phuoc",
+                    "Kerry Taylor",
+                    "Maxime Lefrançois"
+                ],
+                "href": "https://www.w3.org/TR/2017/WD-vocab-ssn-20170504/",
+                "title": "Semantic Sensor Network Ontology",
+                "rawDate": "2017-05-04",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
