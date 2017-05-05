@@ -6,9 +6,9 @@ Specref API [![Build Status](https://travis-ci.org/tobie/specref.png?branch=mast
 ## Table of Contents ##
 
 * [API](#api)
-  * [Get references](#api-bibrefs)
-  * [Search references](#api-search-refs)
-  * [Reverse lookup](#api-reverse-lookup)
+  * [Get references](#get-a-set-of-bibliographic-references)
+  * [Search references](#search-bibliographic-references)
+  * [Reverse lookup](#reverse-lookup)
   * [Aliases](#aliases)
   * [Obsoleted references](#obsoleted-references)
   * [CORS](#cors)
@@ -22,7 +22,7 @@ Specref API [![Build Status](https://travis-ci.org/tobie/specref.png?branch=mast
 
 The API to the service is very simple. It supports three operations which are: 
 
-###  Get a set of bibliographic references {#api-bibrefs}
+###  Get a set of bibliographic references
     
     [`GET https://api.specref.org/bibrefs?refs=FileAPI,rfc2119`](https://api.specref.org/bibrefs?refs=FileAPI,rfc2119)
     
@@ -68,7 +68,7 @@ The API to the service is very simple. It supports three operations which are:
     }
     ```
     
-### Search bibliographic references {#api-search-refs}
+### Search bibliographic references
 
     [`GET https://api.specref.org/search-refs?q=coffee`](https://api.specref.org/search-refs?q=coffee)
         
@@ -108,7 +108,7 @@ The API to the service is very simple. It supports three operations which are:
     
     Used to get a set of bibliographic references that include the search term in any of their attributes. This is usefull to find specs related to a given area of study, specs by a given editor, etc.
     
-### Reverse Lookup {#api-reverse-lookup}
+### Reverse Lookup
 
     [`GET https://api.specref.org/reverse-lookup?urls=http://www.w3.org/TR/2012/WD-FileAPI-20121025/`](https://api.specref.org/reverse-lookup?urls=http://www.w3.org/TR/2012/WD-FileAPI-20121025/)
     
