@@ -6,20 +6,23 @@ Specref API [![Build Status](https://travis-ci.org/tobie/specref.png?branch=mast
 ## Table of Contents ##
 
 * [API](#api)
+  * [Get references](#api-bibrefs)
+  * [Search references](#api-search-refs)
+  * [Reverse lookup](#api-reverse-lookup)
   * [Aliases](#aliases)
-  * [Obsoleted References](#obsoleted-references)
+  * [Obsoleted references](#obsoleted-references)
   * [CORS](#cors)
   * [Examples](#examples)
-* [Updating & Adding New References](#updating--adding-new-references)
-  * [Hourly Auto-Updating](#hourly-auto-updating)
-  * [Manual Changes](#manual-changes)
+* [Updating & adding new references](#updating--adding-new-references)
+  * [Hourly auto-updating](#hourly-auto-updating)
+  * [Manual changes](#manual-changes)
 * [Licenses](#licenses)
 
 ## API
 
-The API to the service is very simple. It supports four operations which are: 
+The API to the service is very simple. It supports three operations which are: 
 
-1.  Get a set of bibliographic references:
+###  Get a set of bibliographic references {#api-bibrefs}
     
     [`GET https://api.specref.org/bibrefs?refs=FileAPI,rfc2119`](https://api.specref.org/bibrefs?refs=FileAPI,rfc2119)
     
@@ -65,7 +68,7 @@ The API to the service is very simple. It supports four operations which are:
     }
     ```
     
-2.  Search bibliographic references
+### Search bibliographic references {#api-search-refs}
 
     [`GET https://api.specref.org/search-refs?q=coffee`](https://api.specref.org/search-refs?q=coffee)
         
@@ -105,7 +108,7 @@ The API to the service is very simple. It supports four operations which are:
     
     Used to get a set of bibliographic references that include the search term in any of their attributes. This is usefull to find specs related to a given area of study, specs by a given editor, etc.
     
-3.  Reverse Lookup
+### Reverse Lookup {#api-reverse-lookup}
 
     [`GET https://api.specref.org/reverse-lookup?urls=http://www.w3.org/TR/2012/WD-FileAPI-20121025/`](https://api.specref.org/reverse-lookup?urls=http://www.w3.org/TR/2012/WD-FileAPI-20121025/)
     
