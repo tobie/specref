@@ -15912,6 +15912,31 @@
         "rawDate": "2014-01-16",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
+    "covjson-overview": {
+        "href": "https://www.w3.org/TR/covjson-overview/",
+        "title": "Overview of the CoverageJSON format",
+        "rawDate": "2017-05-09",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/sdw/coverage-json/",
+        "deliveredBy": [
+            "https://www.w3.org/2015/spatial/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20170509": {
+                "href": "https://www.w3.org/TR/2017/WD-covjson-overview-20170509/",
+                "title": "Overview of the CoverageJSON format",
+                "rawDate": "2017-05-09",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2015/spatial/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
     "cpc-req": {
         "authors": [
             "Markus Lauff",
@@ -17568,7 +17593,7 @@
         ],
         "href": "https://www.w3.org/TR/css-grid-1/",
         "title": "CSS Grid Layout Module Level 1",
-        "rawDate": "2017-02-09",
+        "rawDate": "2017-05-09",
         "status": "CR",
         "publisher": "W3C",
         "deliveredBy": [
@@ -17747,6 +17772,22 @@
                 "href": "https://www.w3.org/TR/2017/CR-css-grid-1-20170209/",
                 "title": "CSS Grid Layout Module Level 1",
                 "rawDate": "2017-02-09",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Style/CSS/members"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20170509": {
+                "authors": [
+                    "Tab Atkins Jr.",
+                    "Elika Etemad",
+                    "Rossen Atanassov"
+                ],
+                "href": "https://www.w3.org/TR/2017/CR-css-grid-1-20170509/",
+                "title": "CSS Grid Layout Module Level 1",
+                "rawDate": "2017-05-09",
                 "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
