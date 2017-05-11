@@ -78847,6 +78847,7 @@
         "updates": [
             "RFC5228"
         ],
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=5229",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -109529,6 +109530,7 @@
         ],
         "rawDate": "2014-06",
         "status": "Proposed Standard",
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=7250",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -123310,7 +123312,6 @@
         ],
         "rawDate": "2017-04",
         "status": "Informational",
-        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=8153",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -123402,6 +123403,31 @@
         ],
         "rawDate": "2017-05",
         "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8164": {
+        "rfcNumber": "RFC8164",
+        "href": "https://tools.ietf.org/html/rfc8164",
+        "title": "Opportunistic Security for HTTP/2",
+        "authors": [
+            "M. Nottingham",
+            "M. Thomson"
+        ],
+        "rawDate": "2017-05",
+        "status": "Experimental",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8165": {
+        "rfcNumber": "RFC8165",
+        "href": "https://tools.ietf.org/html/rfc8165",
+        "title": "Design Considerations for Metadata Insertion",
+        "authors": [
+            "T. Hardie"
+        ],
+        "rawDate": "2017-05",
+        "status": "Informational",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
