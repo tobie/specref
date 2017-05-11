@@ -39213,6 +39213,39 @@
             }
         }
     },
+    "motion-sensors": {
+        "authors": [
+            "Kenneth Christiansen",
+            "Alexander Shalamov"
+        ],
+        "href": "https://www.w3.org/TR/motion-sensors/",
+        "title": "Motion Sensors Explainer",
+        "rawDate": "2017-05-11",
+        "status": "NOTE",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/motion-sensors/",
+        "deliveredBy": [
+            "https://www.w3.org/2009/dap/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20170511": {
+                "authors": [
+                    "Kenneth Christiansen",
+                    "Alexander Shalamov"
+                ],
+                "href": "https://www.w3.org/TR/2017/NOTE-motion-sensors-20170511/",
+                "title": "Motion Sensors Explainer",
+                "rawDate": "2017-05-11",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2009/dap/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
     "mptp": {
         "versions": {
             "19951122": {
@@ -41165,6 +41198,43 @@
         "rawDate": "2016-08-18",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
         "edDraft": "https://w3c.github.io/deviceorientation/spec-source-orientation.html"
+    },
+    "orientation-sensor": {
+        "authors": [
+            "Mikhail Pozdnyakov",
+            "Alexander Shalamov",
+            "Kenneth Christiansen",
+            "Anssi Kostiainen"
+        ],
+        "href": "https://www.w3.org/TR/orientation-sensor/",
+        "title": "Orientation Sensor",
+        "rawDate": "2017-05-11",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/orientation-sensor/",
+        "deliveredBy": [
+            "https://www.w3.org/2009/dap/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20170511": {
+                "authors": [
+                    "Mikhail Pozdnyakov",
+                    "Alexander Shalamov",
+                    "Kenneth Christiansen",
+                    "Anssi Kostiainen"
+                ],
+                "href": "https://www.w3.org/TR/2017/WD-orientation-sensor-20170511/",
+                "title": "Orientation Sensor",
+                "rawDate": "2017-05-11",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2009/dap/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
     },
     "owl-absyn": {
         "aliasOf": "owl-semantics"
@@ -53485,7 +53555,7 @@
         ],
         "href": "https://www.w3.org/TR/sdw-bp/",
         "title": "Spatial Data on the Web Best Practices",
-        "rawDate": "2017-03-30",
+        "rawDate": "2017-05-11",
         "status": "NOTE",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/sdw/bp/",
@@ -53567,6 +53637,22 @@
                 "href": "https://www.w3.org/TR/2017/NOTE-sdw-bp-20170330/",
                 "title": "Spatial Data on the Web Best Practices",
                 "rawDate": "2017-03-30",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2015/spatial/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20170511": {
+                "authors": [
+                    "Jeremy Tandy",
+                    "Linda van den Brink",
+                    "Payam Barnaghi"
+                ],
+                "href": "https://www.w3.org/TR/2017/NOTE-sdw-bp-20170511/",
+                "title": "Spatial Data on the Web Best Practices",
+                "rawDate": "2017-05-11",
                 "status": "NOTE",
                 "publisher": "W3C",
                 "deliveredBy": [
