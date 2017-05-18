@@ -18061,6 +18061,39 @@
         },
         "edDraft": "http://dev.w3.org/csswg/css3-lists/"
     },
+    "css-logical-1": {
+        "authors": [
+            "Rossen Atanassov",
+            "Elika Etemad"
+        ],
+        "href": "https://www.w3.org/TR/css-logical-1/",
+        "title": "CSS Logical Properties and Values Level 1",
+        "rawDate": "2017-05-18",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://drafts.csswg.org/css-logical/",
+        "deliveredBy": [
+            "https://www.w3.org/Style/CSS/members"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20170518": {
+                "authors": [
+                    "Rossen Atanassov",
+                    "Elika Etemad"
+                ],
+                "href": "https://www.w3.org/TR/2017/WD-css-logical-1-20170518/",
+                "title": "CSS Logical Properties and Values Level 1",
+                "rawDate": "2017-05-18",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Style/CSS/members"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
     "css-masking": {
         "aliasOf": "css-masking-1"
     },
@@ -43082,6 +43115,45 @@
         "status": "NOTE",
         "rawDate": "2002-01-24",
         "title": "Current Patent Practice"
+    },
+    "payment-handler": {
+        "authors": [
+            "Adrian Hope-Bailie",
+            "Tommy Thorsen",
+            "Adam Roach",
+            "Jason Normore",
+            "Ian Jacobs"
+        ],
+        "href": "https://www.w3.org/TR/payment-handler/",
+        "title": "Payment Handler API",
+        "rawDate": "2017-05-18",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/payment-handler/",
+        "deliveredBy": [
+            "https://www.w3.org/Payments/WG/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20170518": {
+                "authors": [
+                    "Adrian Hope-Bailie",
+                    "Tommy Thorsen",
+                    "Adam Roach",
+                    "Jason Normore",
+                    "Ian Jacobs"
+                ],
+                "href": "https://www.w3.org/TR/2017/WD-payment-handler-20170518/",
+                "title": "Payment Handler API",
+                "rawDate": "2017-05-18",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Payments/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
     },
     "payment-method-basic-card": {
         "authors": [
