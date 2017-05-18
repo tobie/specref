@@ -60406,8 +60406,8 @@
         ],
         "href": "https://www.w3.org/TR/tvcontrol-api/",
         "title": "TV Control API Specification",
-        "rawDate": "2017-03-16",
-        "status": "WD",
+        "rawDate": "2017-05-18",
+        "status": "NOTE",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/tvcontrol-api/",
         "deliveredBy": [
@@ -60445,8 +60445,26 @@
                     "https://www.w3.org/2016/tvcontrol/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20170518": {
+                "authors": [
+                    "Steve Morris",
+                    "Sung Hei Kim",
+                    "Alexander Futász"
+                ],
+                "href": "https://www.w3.org/TR/2017/NOTE-tvcontrol-api-20170518/",
+                "title": "TV Control API Specification",
+                "rawDate": "2017-05-18",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "isRetired": true,
+                "deliveredBy": [
+                    "https://www.w3.org/2016/tvcontrol/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "isRetired": true
     },
     "typography": {
         "authors": [
