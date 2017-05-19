@@ -30524,6 +30524,9 @@
         ],
         "rawDate": "1997-03",
         "status": "Best Current Practice",
+        "updatedBy": [
+            "RFC8174"
+        ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=2119",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -123497,6 +123500,21 @@
         ],
         "rawDate": "2017-05",
         "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8174": {
+        "rfcNumber": "RFC8174",
+        "href": "https://tools.ietf.org/html/rfc8174",
+        "title": "RFC 2119 Key Words: Clarifying the Use of Capitalization",
+        "authors": [
+            "B. Leiba"
+        ],
+        "rawDate": "2017-05",
+        "status": "Best Current Practice",
+        "updates": [
+            "RFC2119"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
