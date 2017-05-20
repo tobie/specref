@@ -121945,6 +121945,19 @@
     "rfc805": {
         "aliasOf": "rfc0805"
     },
+    "rfc8050": {
+        "rfcNumber": "RFC8050",
+        "href": "https://tools.ietf.org/html/rfc8050",
+        "title": "Multi-Threaded Routing Toolkit (MRT) Routing Information Export Format with BGP Additional Path Extensions",
+        "authors": [
+            "C. Petrie",
+            "T. King"
+        ],
+        "rawDate": "2017-05",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8051": {
         "rfcNumber": "RFC8051",
         "href": "https://tools.ietf.org/html/rfc8051",
@@ -123473,6 +123486,7 @@
         ],
         "rawDate": "2017-05",
         "status": "Experimental",
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=8164",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -123506,7 +123520,7 @@
     "rfc8174": {
         "rfcNumber": "RFC8174",
         "href": "https://tools.ietf.org/html/rfc8174",
-        "title": "RFC 2119 Key Words: Clarifying the Use of Capitalization",
+        "title": "Ambiguity of Uppercase vs Lowercase in RFC 2119 Key Words",
         "authors": [
             "B. Leiba"
         ],
@@ -123515,6 +123529,7 @@
         "updates": [
             "RFC2119"
         ],
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=8174",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
