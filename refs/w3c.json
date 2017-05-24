@@ -11555,9 +11555,11 @@
                 "deliveredBy": [
                     "https://www.w3.org/Social/WG"
                 ],
-                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+                "hasErrata": "https://github.com/w3c/activitystreams/blob/master/ERRATA.md"
             }
-        }
+        },
+        "hasErrata": "https://github.com/w3c/activitystreams/blob/master/ERRATA.md"
     },
     "activitystreams-vocabulary": {
         "authors": [
@@ -11737,9 +11739,11 @@
                 "deliveredBy": [
                     "https://www.w3.org/Social/WG"
                 ],
-                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+                "hasErrata": "https://github.com/w3c/activitystreams/blob/master/ERRATA.md"
             }
-        }
+        },
+        "hasErrata": "https://github.com/w3c/activitystreams/blob/master/ERRATA.md"
     },
     "agent-attributes": {
         "versions": {
@@ -29718,7 +29722,7 @@
         ],
         "href": "https://www.w3.org/TR/html-aam-1.0/",
         "title": "HTML Accessibility API Mappings 1.0",
-        "rawDate": "2017-05-10",
+        "rawDate": "2017-05-24",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/html-aam/",
@@ -29982,6 +29986,23 @@
                 "href": "https://www.w3.org/TR/2017/WD-html-aam-1.0-20170510/",
                 "title": "HTML Accessibility API Mappings 1.0",
                 "rawDate": "2017-05-10",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WebPlatform/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20170524": {
+                "authors": [
+                    "Steve Faulkner",
+                    "Jason Kiss",
+                    "Alexander Surkov",
+                    "Cynthia Shelly"
+                ],
+                "href": "https://www.w3.org/TR/2017/WD-html-aam-1.0-20170524/",
+                "title": "HTML Accessibility API Mappings 1.0",
+                "rawDate": "2017-05-24",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -38360,9 +38381,11 @@
                 "deliveredBy": [
                     "https://www.w3.org/Social/WG"
                 ],
-                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+                "hasErrata": "https://micropub.net/errata/"
             }
-        }
+        },
+        "hasErrata": "https://micropub.net/errata/"
     },
     "mixed-content": {
         "href": "https://www.w3.org/TR/mixed-content/",
