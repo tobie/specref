@@ -29057,7 +29057,8 @@
             "RFC6410",
             "RFC7100",
             "RFC7127",
-            "RFC7475"
+            "RFC7475",
+            "RFC8179"
         ],
         "obsoletes": [
             "RFC1602",
@@ -59853,6 +59854,9 @@
         "updatedBy": [
             "RFC4879"
         ],
+        "obsoletedBy": [
+            "RFC8179"
+        ],
         "updates": [
             "RFC2026",
             "RFC2028"
@@ -73566,6 +73570,9 @@
         ],
         "rawDate": "2007-04",
         "status": "Best Current Practice",
+        "obsoletedBy": [
+            "RFC8179"
+        ],
         "updates": [
             "RFC3979"
         ],
@@ -123536,6 +123543,19 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8162": {
+        "rfcNumber": "RFC8162",
+        "href": "https://tools.ietf.org/html/rfc8162",
+        "title": "Using Secure DNS to Associate Certificates with Domain Names for S/MIME",
+        "authors": [
+            "P. Hoffman",
+            "J. Schlyter"
+        ],
+        "rawDate": "2017-05",
+        "status": "Experimental",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8163": {
         "rfcNumber": "RFC8163",
         "href": "https://tools.ietf.org/html/rfc8163",
@@ -123577,6 +123597,37 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8168": {
+        "rfcNumber": "RFC8168",
+        "href": "https://tools.ietf.org/html/rfc8168",
+        "title": "DHCPv6 Prefix-Length Hint Issues",
+        "authors": [
+            "T. Li",
+            "C. Liu",
+            "Y. Cui"
+        ],
+        "rawDate": "2017-05",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8169": {
+        "rfcNumber": "RFC8169",
+        "href": "https://tools.ietf.org/html/rfc8169",
+        "title": "Residence Time Measurement in MPLS Networks",
+        "authors": [
+            "G. Mirsky",
+            "S. Ruffini",
+            "E. Gray",
+            "J. Drake",
+            "S. Bryant",
+            "A. Vainshtein"
+        ],
+        "rawDate": "2017-05",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc817": {
         "aliasOf": "rfc0817"
     },
@@ -123608,8 +123659,42 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8179": {
+        "rfcNumber": "RFC8179",
+        "href": "https://tools.ietf.org/html/rfc8179",
+        "title": "Intellectual Property Rights in IETF Technology",
+        "authors": [
+            "S. Bradner",
+            "J. Contreras"
+        ],
+        "rawDate": "2017-05",
+        "status": "Best Current Practice",
+        "updates": [
+            "RFC2026"
+        ],
+        "obsoletes": [
+            "RFC3979",
+            "RFC4879"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc818": {
         "aliasOf": "rfc0818"
+    },
+    "rfc8180": {
+        "rfcNumber": "RFC8180",
+        "href": "https://tools.ietf.org/html/rfc8180",
+        "title": "Minimal IPv6 over the TSCH Mode of IEEE 802.15.4e (6TiSCH) Configuration",
+        "authors": [
+            "X. Vilajosana, Ed.",
+            "K. Pister",
+            "T. Watteyne"
+        ],
+        "rawDate": "2017-05",
+        "status": "Best Current Practice",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc819": {
         "aliasOf": "rfc0819"
