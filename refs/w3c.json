@@ -41860,7 +41860,7 @@
         ],
         "href": "https://www.w3.org/TR/owl-time/",
         "title": "Time Ontology in OWL",
-        "status": "WD",
+        "status": "CR",
         "publisher": "W3C",
         "deliveredBy": [
             "https://www.w3.org/2015/spatial/"
@@ -41910,9 +41910,24 @@
                     "https://www.w3.org/2015/spatial/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20170606": {
+                "authors": [
+                    "Simon Cox",
+                    "Chris Little"
+                ],
+                "href": "https://www.w3.org/TR/2017/CR-owl-time-20170606/",
+                "title": "Time Ontology in OWL",
+                "rawDate": "2017-06-06",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2015/spatial/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2017-02-02",
+        "rawDate": "2017-06-06",
         "isRetired": true,
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
         "edDraft": "https://w3c.github.io/sdw/time/"
@@ -44386,6 +44401,41 @@
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/2011/webappsec/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
+    "personalization-semantics-1.0": {
+        "authors": [
+            "Lisa Seeman-Kestenbaum",
+            "Richard Schwerdtfeger",
+            "Michael Cooper"
+        ],
+        "href": "https://www.w3.org/TR/personalization-semantics-1.0/",
+        "title": "Personalization Semantics 1.0",
+        "rawDate": "2017-06-06",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/personalization-semantics/",
+        "deliveredBy": [
+            "https://www.w3.org/WAI/ARIA/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20170606": {
+                "authors": [
+                    "Lisa Seeman-Kestenbaum",
+                    "Richard Schwerdtfeger",
+                    "Michael Cooper"
+                ],
+                "href": "https://www.w3.org/TR/2017/WD-personalization-semantics-1.0-20170606/",
+                "title": "Personalization Semantics 1.0",
+                "rawDate": "2017-06-06",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WAI/ARIA/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
