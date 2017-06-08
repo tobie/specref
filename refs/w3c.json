@@ -15316,6 +15316,39 @@
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
         "edDraft": "https://w3c.github.io/clipboard-apis/"
     },
+    "cloud-browser-arch": {
+        "authors": [
+            "Colin Meerveld",
+            "Alexandra Mikityuk"
+        ],
+        "href": "https://www.w3.org/TR/cloud-browser-arch/",
+        "title": "Cloud Browser Architecture",
+        "rawDate": "2017-06-08",
+        "status": "NOTE",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/Web-and-TV-IG/cloud-browser-tf/",
+        "deliveredBy": [
+            "https://www.w3.org/2011/webtv/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20170608": {
+                "authors": [
+                    "Colin Meerveld",
+                    "Alexandra Mikityuk"
+                ],
+                "href": "https://www.w3.org/TR/2017/NOTE-cloud-browser-arch-20170608/",
+                "title": "Cloud Browser Architecture",
+                "rawDate": "2017-06-08",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2011/webtv/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
     "clreq": {
         "authors": [
             "Bobby Tung",
@@ -55162,6 +55195,74 @@
             }
         }
     },
+    "shacl-af": {
+        "authors": [
+            "Holger Knublauch",
+            "Dean Allemang",
+            "Simon Steyskal"
+        ],
+        "href": "https://www.w3.org/TR/shacl-af/",
+        "title": "SHACL Advanced Features",
+        "rawDate": "2017-06-08",
+        "status": "NOTE",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/data-shapes/shacl-af/",
+        "deliveredBy": [
+            "https://www.w3.org/2014/data-shapes/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20170608": {
+                "authors": [
+                    "Holger Knublauch",
+                    "Dean Allemang",
+                    "Simon Steyskal"
+                ],
+                "href": "https://www.w3.org/TR/2017/NOTE-shacl-af-20170608/",
+                "title": "SHACL Advanced Features",
+                "rawDate": "2017-06-08",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2014/data-shapes/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
+    "shacl-js": {
+        "authors": [
+            "Holger Knublauch",
+            "Pano Maria"
+        ],
+        "href": "https://www.w3.org/TR/shacl-js/",
+        "title": "SHACL JavaScript Extensions",
+        "rawDate": "2017-06-08",
+        "status": "NOTE",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/data-shapes/shacl-js/",
+        "deliveredBy": [
+            "https://www.w3.org/2014/data-shapes/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20170608": {
+                "authors": [
+                    "Holger Knublauch",
+                    "Pano Maria"
+                ],
+                "href": "https://www.w3.org/TR/2017/NOTE-shacl-js-20170608/",
+                "title": "SHACL JavaScript Extensions",
+                "rawDate": "2017-06-08",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2014/data-shapes/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
     "shacl-ucr": {
         "authors": [
             "Simon Steyskal",
@@ -62128,6 +62229,45 @@
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/auto/wg/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
+    "verifiable-claims-use-cases": {
+        "authors": [
+            "Shane McCarron",
+            "Daniel Burnett",
+            "Gregg Kellogg",
+            "Brian Sletten",
+            "Manu Sporny"
+        ],
+        "href": "https://www.w3.org/TR/verifiable-claims-use-cases/",
+        "title": "Verifiable Claims Use Cases",
+        "rawDate": "2017-06-08",
+        "status": "NOTE",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/vc-use-cases/",
+        "deliveredBy": [
+            "https://www.w3.org/2017/vc/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20170608": {
+                "authors": [
+                    "Shane McCarron",
+                    "Daniel Burnett",
+                    "Gregg Kellogg",
+                    "Brian Sletten",
+                    "Manu Sporny"
+                ],
+                "href": "https://www.w3.org/TR/2017/NOTE-verifiable-claims-use-cases-20170608/",
+                "title": "Verifiable Claims Use Cases",
+                "rawDate": "2017-06-08",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2017/vc/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
@@ -82966,8 +83106,8 @@
         ],
         "href": "https://www.w3.org/TR/xslt-30/",
         "title": "XSL Transformations (XSLT) Version 3.0",
-        "rawDate": "2017-04-18",
-        "status": "PR",
+        "rawDate": "2017-06-08",
+        "status": "REC",
         "publisher": "W3C",
         "deliveredBy": [
             "https://www.w3.org/Style/XSL/"
@@ -83058,6 +83198,20 @@
                 "title": "XSL Transformations (XSLT) Version 3.0",
                 "rawDate": "2017-04-18",
                 "status": "PR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Style/XSL/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20170608": {
+                "authors": [
+                    "Michael Kay"
+                ],
+                "href": "https://www.w3.org/TR/2017/REC-xslt-30-20170608/",
+                "title": "XSL Transformations (XSLT) Version 3.0",
+                "rawDate": "2017-06-08",
+                "status": "REC",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/Style/XSL/"
