@@ -95493,7 +95493,8 @@
             "RFC7180",
             "RFC7455",
             "RFC7780",
-            "RFC7783"
+            "RFC7783",
+            "RFC8139"
         ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=6325",
         "publisher": "IETF",
@@ -97275,6 +97276,9 @@
         "status": "Proposed Standard",
         "updatedBy": [
             "RFC7180"
+        ],
+        "obsoletedBy": [
+            "RFC8139"
         ],
         "updates": [
             "RFC6325"
@@ -108385,7 +108389,8 @@
         "rawDate": "2014-05",
         "status": "Proposed Standard",
         "updatedBy": [
-            "RFC7780"
+            "RFC7780",
+            "RFC8139"
         ],
         "updates": [
             "RFC6325"
@@ -123261,6 +123266,29 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8139": {
+        "rfcNumber": "RFC8139",
+        "href": "https://tools.ietf.org/html/rfc8139",
+        "title": "Transparent Interconnection of Lots of Links (TRILL): Appointed Forwarders",
+        "authors": [
+            "D. Eastlake 3rd",
+            "Y. Li",
+            "M. Umair",
+            "A. Banerjee",
+            "F. Hu"
+        ],
+        "rawDate": "2017-06",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC6325",
+            "RFC7177"
+        ],
+        "obsoletes": [
+            "RFC6439"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc814": {
         "aliasOf": "rfc0814"
     },
@@ -123483,6 +123511,19 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8156": {
+        "rfcNumber": "RFC8156",
+        "href": "https://tools.ietf.org/html/rfc8156",
+        "title": "DHCPv6 Failover Protocol",
+        "authors": [
+            "T. Mrugalski",
+            "K. Kinnear"
+        ],
+        "rawDate": "2017-06",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8157": {
         "rfcNumber": "RFC8157",
         "href": "https://tools.ietf.org/html/rfc8157",
@@ -123694,6 +123735,19 @@
         ],
         "rawDate": "2017-05",
         "status": "Best Current Practice",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8186": {
+        "rfcNumber": "RFC8186",
+        "href": "https://tools.ietf.org/html/rfc8186",
+        "title": "Support of the IEEE 1588 Timestamp Format in a Two-Way Active Measurement Protocol (TWAMP)",
+        "authors": [
+            "G. Mirsky",
+            "I. Meilik"
+        ],
+        "rawDate": "2017-06",
+        "status": "Proposed Standard",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
