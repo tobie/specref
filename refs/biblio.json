@@ -140,9 +140,7 @@
         "date": "18 February 2014"
     },
     "AXAPI": {
-        "href": "https://developer.apple.com/reference/appkit/nsaccessibility-jku",
-        "title": "The Mac OS X Accessibility Protocol Mac OS 10.10",
-        "publisher": "Apple, Inc."
+        "aliasOf": "NSAccessibility"
     },
     "BBC-WP193": {
         "authors": [
@@ -1558,6 +1556,11 @@
         "title": "Navigator interface in HTML5",
         "status": "ED",
         "publisher": "W3C"
+    },
+    "NSAccessibility": {
+        "href": "https://developer.apple.com/documentation/appkit/nsaccessibility",
+        "title": "The NSAccessibility Protocol for macOS",
+        "publisher": "Apple, Inc."
     },
     "NTP": {
         "aliasOf": "RFC1305"
