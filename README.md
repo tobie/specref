@@ -235,7 +235,8 @@ You can make modifications to the database by editing `refs/biblio.json` in the 
 
 To do so, fork the project and send a pull request. Note you can ask to be added as a project collaborator (we're pretty open about that) so you can merge your changes directly.
 
-All changes are automatically tested using [travis](https://travis-ci.org/tobie/specref/) and automatically deployed if all tests pass.
+All changes are automatically tested using [travis](https://travis-ci.org/tobie/specref/) and automatically deployed if all tests pass. 
+You can run the tests locally by [installing node.js](https://nodejs.org/en/download/), project dependencies (by running `$ npm install` from the root of the repository) and running `$ npm test`. The test suite is quite large and can take a few minutes to run.
 
 Some rules to observe when editing the database files: 
 
