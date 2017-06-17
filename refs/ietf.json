@@ -102957,6 +102957,9 @@
         ],
         "rawDate": "2012-12",
         "status": "Proposed Standard",
+        "obsoletedBy": [
+            "RFC8202"
+        ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=6822",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -123715,6 +123718,20 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8176": {
+        "rfcNumber": "RFC8176",
+        "href": "https://tools.ietf.org/html/rfc8176",
+        "title": "Authentication Method Reference Values",
+        "authors": [
+            "M. Jones",
+            "P. Hunt",
+            "A. Nadalin"
+        ],
+        "rawDate": "2017-06",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8177": {
         "rfcNumber": "RFC8177",
         "href": "https://tools.ietf.org/html/rfc8177",
@@ -123789,6 +123806,23 @@
     },
     "rfc820": {
         "aliasOf": "rfc0820"
+    },
+    "rfc8202": {
+        "rfcNumber": "RFC8202",
+        "href": "https://tools.ietf.org/html/rfc8202",
+        "title": "IS-IS Multi-Instance",
+        "authors": [
+            "L. Ginsberg",
+            "S. Previdi",
+            "W. Henderickx"
+        ],
+        "rawDate": "2017-06",
+        "status": "Proposed Standard",
+        "obsoletes": [
+            "RFC6822"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc821": {
         "aliasOf": "rfc0821"
