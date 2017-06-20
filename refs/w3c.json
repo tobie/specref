@@ -27574,8 +27574,8 @@
         ],
         "href": "https://www.w3.org/TR/findtext/",
         "title": "FindText API",
-        "rawDate": "2015-10-15",
-        "status": "WD",
+        "rawDate": "2017-06-20",
+        "status": "NOTE",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/findtext/",
         "deliveredBy": [
@@ -27598,8 +27598,25 @@
                     "https://www.w3.org/WebPlatform/WG/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20170620": {
+                "authors": [
+                    "Doug Schepers"
+                ],
+                "href": "https://www.w3.org/TR/2017/NOTE-findtext-20170620/",
+                "title": "FindText API",
+                "rawDate": "2017-06-20",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "isRetired": true,
+                "deliveredBy": [
+                    "https://www.w3.org/annotation/",
+                    "https://www.w3.org/WebPlatform/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "isRetired": true
     },
     "fingerprinting-guidance": {
         "authors": [
@@ -32532,9 +32549,9 @@
             "Alex Danilo"
         ],
         "href": "https://www.w3.org/TR/html51/",
-        "title": "HTML 5.1",
-        "rawDate": "2016-11-01",
-        "status": "REC",
+        "title": "HTML 5.1 2nd Edition",
+        "rawDate": "2017-06-20",
+        "status": "CR",
         "publisher": "W3C",
         "deliveredBy": [
             "https://www.w3.org/WebPlatform/WG/"
@@ -33188,6 +33205,23 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
                 "hasErrata": "https://github.com/w3c/html/issues"
+            },
+            "20170620": {
+                "authors": [
+                    "Steve Faulkner",
+                    "Arron Eicholz",
+                    "Travis Leithead",
+                    "Alex Danilo"
+                ],
+                "href": "https://www.w3.org/TR/2017/CR-html51-20170620/",
+                "title": "HTML 5.1 2nd Edition",
+                "rawDate": "2017-06-20",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WebPlatform/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
         "edDraft": "https://w3c.github.io/html/",
