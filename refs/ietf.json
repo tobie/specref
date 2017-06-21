@@ -78800,6 +78800,9 @@
         ],
         "rawDate": "2008-05",
         "status": "Best Current Practice",
+        "obsoletedBy": [
+            "RFC8126"
+        ],
         "obsoletes": [
             "RFC2434"
         ],
@@ -123126,6 +123129,23 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8126": {
+        "rfcNumber": "RFC8126",
+        "href": "https://tools.ietf.org/html/rfc8126",
+        "title": "Guidelines for Writing an IANA Considerations Section in RFCs",
+        "authors": [
+            "M. Cotton",
+            "B. Leiba",
+            "T. Narten"
+        ],
+        "rawDate": "2017-06",
+        "status": "Best Current Practice",
+        "obsoletes": [
+            "RFC5226"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8128": {
         "rfcNumber": "RFC8128",
         "href": "https://tools.ietf.org/html/rfc8128",
@@ -123702,6 +123722,21 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8171": {
+        "rfcNumber": "RFC8171",
+        "href": "https://tools.ietf.org/html/rfc8171",
+        "title": "Transparent Interconnection of Lots of Links (TRILL): Edge Directory Assistance Mechanisms",
+        "authors": [
+            "D. Eastlake 3rd",
+            "L. Dunbar",
+            "R. Perlman",
+            "Y. Li"
+        ],
+        "rawDate": "2017-06",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8174": {
         "rfcNumber": "RFC8174",
         "href": "https://tools.ietf.org/html/rfc8174",
@@ -123715,6 +123750,22 @@
             "RFC2119"
         ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=8174",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8175": {
+        "rfcNumber": "RFC8175",
+        "href": "https://tools.ietf.org/html/rfc8175",
+        "title": "Dynamic Link Exchange Protocol (DLEP)",
+        "authors": [
+            "S. Ratliff",
+            "S. Jury",
+            "D. Satterwhite",
+            "R. Taylor",
+            "B. Berry"
+        ],
+        "rawDate": "2017-06",
+        "status": "Proposed Standard",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
