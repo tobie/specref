@@ -1260,6 +1260,9 @@
         "status": "Stage 2",
         "title": "IP Multimedia Subsystem (IMS)"
     },
+    "INBAND": {
+        "aliasOf": "INBANDTRACKS"
+    },
     "INBANDTRACKS": {
         "authors": [
             "Silvia Pfeiffer",
@@ -1270,9 +1273,6 @@
         "date": "26 April 2015",
         "status": "Unofficial Draft",
         "publisher": "W3C"
-    },
-    "INBAND": {
-        "aliasOf": "INBANDTRACKS"
     },
     "IRI": {
         "aliasOf": "RFC3987"

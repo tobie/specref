@@ -104052,6 +104052,9 @@
         ],
         "rawDate": "2013-04",
         "status": "Best Current Practice",
+        "updatedBy": [
+            "RFC8190"
+        ],
         "obsoletes": [
             "RFC4773",
             "RFC5156",
@@ -121302,6 +121305,7 @@
         ],
         "rawDate": "2016-12",
         "status": "Proposed Standard",
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=8007",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -123912,6 +123916,24 @@
     },
     "rfc819": {
         "aliasOf": "rfc0819"
+    },
+    "rfc8190": {
+        "rfcNumber": "RFC8190",
+        "href": "https://tools.ietf.org/html/rfc8190",
+        "title": "Updates to the Special-Purpose IP Address Registries",
+        "authors": [
+            "R. Bonica",
+            "M. Cotton",
+            "B. Haberman",
+            "L. Vegoda"
+        ],
+        "rawDate": "2017-06",
+        "status": "Best Current Practice",
+        "updates": [
+            "RFC6890"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc82": {
         "aliasOf": "rfc0082"
