@@ -85478,6 +85478,9 @@
         ],
         "rawDate": "2010-01",
         "status": "Proposed Standard",
+        "obsoletedBy": [
+            "RFC8166"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -117704,6 +117707,7 @@
         ],
         "rawDate": "2016-03",
         "status": "Proposed Standard",
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=7774",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -123682,6 +123686,35 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8166": {
+        "rfcNumber": "RFC8166",
+        "href": "https://tools.ietf.org/html/rfc8166",
+        "title": "Remote Direct Memory Access Transport for Remote Procedure Call Version 1",
+        "authors": [
+            "C. Lever, Ed.",
+            "W. Simpson",
+            "T. Talpey"
+        ],
+        "rawDate": "2017-06",
+        "status": "Proposed Standard",
+        "obsoletes": [
+            "RFC5666"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8167": {
+        "rfcNumber": "RFC8167",
+        "href": "https://tools.ietf.org/html/rfc8167",
+        "title": "Bidirectional Remote Procedure Call on RPC-over-RDMA Transports",
+        "authors": [
+            "C. Lever"
+        ],
+        "rawDate": "2017-06",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8168": {
         "rfcNumber": "RFC8168",
         "href": "https://tools.ietf.org/html/rfc8168",
@@ -123933,6 +123966,20 @@
         "updates": [
             "RFC6890"
         ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8195": {
+        "rfcNumber": "RFC8195",
+        "href": "https://tools.ietf.org/html/rfc8195",
+        "title": "Use of BGP Large Communities",
+        "authors": [
+            "J. Snijders",
+            "J. Heasley",
+            "M. Schmidt"
+        ],
+        "rawDate": "2017-06",
+        "status": "Informational",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
