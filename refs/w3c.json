@@ -28717,8 +28717,8 @@
         ],
         "href": "https://www.w3.org/TR/geolocation-API-v2/",
         "title": "Geolocation API Specification Level 2",
-        "rawDate": "2011-12-01",
-        "status": "LCWD",
+        "rawDate": "2017-07-06",
+        "status": "NOTE",
         "publisher": "W3C",
         "deliveredBy": [
             "https://www.w3.org/2008/geolocation/"
@@ -28739,8 +28739,24 @@
                     "https://www.w3.org/2008/geolocation/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20170706": {
+                "authors": [
+                    "Andrei Popescu",
+                    "Stephen Block"
+                ],
+                "href": "https://www.w3.org/TR/2017/NOTE-geolocation-API-v2-20170706/",
+                "title": "Geolocation API Specification Level 2",
+                "rawDate": "2017-07-06",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2008/geolocation/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "edDraft": "https://dev.w3.org/geo/api/spec-source-v2.html"
     },
     "geometry-1": {
         "authors": [
@@ -45907,11 +45923,12 @@
     },
     "preload": {
         "authors": [
-            "Ilya Grigorik"
+            "Ilya Grigorik",
+            "Yoav Weiss"
         ],
         "href": "https://www.w3.org/TR/preload/",
         "title": "Preload",
-        "rawDate": "2016-11-30",
+        "rawDate": "2017-07-06",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/preload/",
@@ -46268,6 +46285,21 @@
                 "href": "https://www.w3.org/TR/2016/WD-preload-20161130/",
                 "title": "Preload",
                 "rawDate": "2016-11-30",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/webperf/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20170706": {
+                "authors": [
+                    "Ilya Grigorik",
+                    "Yoav Weiss"
+                ],
+                "href": "https://www.w3.org/TR/2017/WD-preload-20170706/",
+                "title": "Preload",
+                "rawDate": "2017-07-06",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
