@@ -64273,7 +64273,8 @@
             "RFC6793",
             "RFC7606",
             "RFC7607",
-            "RFC7705"
+            "RFC7705",
+            "RFC8212"
         ],
         "obsoletes": [
             "RFC1771"
@@ -123517,6 +123518,18 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8152": {
+        "rfcNumber": "RFC8152",
+        "href": "https://tools.ietf.org/html/rfc8152",
+        "title": "CBOR Object Signing and Encryption (COSE)",
+        "authors": [
+            "J. Schaad"
+        ],
+        "rawDate": "2017-07",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8153": {
         "rfcNumber": "RFC8153",
         "href": "https://tools.ietf.org/html/rfc8153",
@@ -124008,6 +124021,23 @@
     },
     "rfc821": {
         "aliasOf": "rfc0821"
+    },
+    "rfc8212": {
+        "rfcNumber": "RFC8212",
+        "href": "https://tools.ietf.org/html/rfc8212",
+        "title": "Default External BGP (EBGP) Route Propagation Behavior without Policies",
+        "authors": [
+            "J. Mauch",
+            "J. Snijders",
+            "G. Hankins"
+        ],
+        "rawDate": "2017-07",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC4271"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc822": {
         "aliasOf": "rfc0822"
