@@ -55407,12 +55407,13 @@
     },
     "server-timing": {
         "authors": [
+            "Charlie Vazac",
             "Ilya Grigorik"
         ],
         "href": "https://www.w3.org/TR/server-timing/",
         "title": "Server Timing",
-        "rawDate": "2016-05-23",
-        "status": "NOTE",
+        "rawDate": "2017-07-13",
+        "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/server-timing/",
         "deliveredBy": [
@@ -55476,6 +55477,21 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
                 "isRetired": true
+            },
+            "20170713": {
+                "authors": [
+                    "Charlie Vazac",
+                    "Ilya Grigorik"
+                ],
+                "href": "https://www.w3.org/TR/2017/WD-server-timing-20170713/",
+                "title": "Server Timing",
+                "rawDate": "2017-07-13",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/webperf/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
         "isRetired": true
@@ -60968,8 +60984,8 @@
         ],
         "href": "https://www.w3.org/TR/ttml-imsc1.0.1/",
         "title": "TTML Profiles for Internet Media Subtitles and Captions 1.0.1 (IMSC1)",
-        "rawDate": "2017-03-22",
-        "status": "WD",
+        "rawDate": "2017-07-13",
+        "status": "CR",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/imsc/imsc1/spec/ttml-ww-profiles.html",
         "deliveredBy": [
@@ -60999,6 +61015,20 @@
                 "title": "TTML Profiles for Internet Media Subtitles and Captions 1.0.1 (IMSC1)",
                 "rawDate": "2017-03-22",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/AudioVideo/TT/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20170713": {
+                "authors": [
+                    "Pierre-Anthony Lemieux"
+                ],
+                "href": "https://www.w3.org/TR/2017/CR-ttml-imsc1.0.1-20170713/",
+                "title": "TTML Profiles for Internet Media Subtitles and Captions 1.0.1 (IMSC1)",
+                "rawDate": "2017-07-13",
+                "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/AudioVideo/TT/"
@@ -62017,7 +62047,7 @@
     },
     "unicode-xml": {
         "authors": [
-            "Martin Dürst"
+            "Addison Phillips"
         ],
         "href": "https://www.w3.org/TR/unicode-xml/",
         "title": "Unicode in XML and other Markup Languages",
@@ -62072,11 +62102,27 @@
                     "https://www.w3.org/International/core/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20170713": {
+                "authors": [
+                    "Addison Phillips"
+                ],
+                "href": "https://www.w3.org/TR/2017/NOTE-unicode-xml-20170713/",
+                "title": "Unicode in XML and other Markup Languages",
+                "rawDate": "2017-07-13",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "isRetired": true,
+                "deliveredBy": [
+                    "https://www.w3.org/International/core/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2016-05-03",
+        "rawDate": "2017-07-13",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
-        "edDraft": "https://w3c.github.io/unicode-xml/"
+        "edDraft": "https://w3c.github.io/unicode-xml/",
+        "isRetired": true
     },
     "upgrade-insecure-requests": {
         "authors": [
@@ -68331,10 +68377,10 @@
         ],
         "href": "https://www.w3.org/TR/webvtt1/",
         "title": "WebVTT: The Web Video Text Tracks Format",
-        "rawDate": "2015-12-08",
+        "rawDate": "2017-07-13",
         "status": "WD",
         "publisher": "W3C",
-        "edDraft": "http://dev.w3.org/html5/webvtt/",
+        "edDraft": "https://w3c.github.io/webvtt/",
         "deliveredBy": [
             "https://www.w3.org/AudioVideo/TT/"
         ],
@@ -68363,6 +68409,20 @@
                 "href": "https://www.w3.org/TR/2015/WD-webvtt1-20151208/",
                 "title": "WebVTT: The Web Video Text Tracks Format",
                 "rawDate": "2015-12-08",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/AudioVideo/TT/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20170713": {
+                "authors": [
+                    "Simon Pieters"
+                ],
+                "href": "https://www.w3.org/TR/2017/WD-webvtt1-20170713/",
+                "title": "WebVTT: The Web Video Text Tracks Format",
+                "rawDate": "2017-07-13",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
