@@ -54119,7 +54119,7 @@
             "M. Souissi"
         ],
         "rawDate": "2003-10",
-        "status": "Draft Standard",
+        "status": "Internet Standard",
         "obsoletes": [
             "RFC3152",
             "RFC1886"
@@ -66942,7 +66942,7 @@
             "M. Gupta, Ed."
         ],
         "rawDate": "2006-03",
-        "status": "Draft Standard",
+        "status": "Internet Standard",
         "updatedBy": [
             "RFC4884"
         ],
@@ -85402,6 +85402,9 @@
         ],
         "rawDate": "2010-01",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC8178"
+        ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=5661",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -109383,6 +109386,7 @@
         ],
         "rawDate": "2014-06",
         "status": "Proposed Standard",
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=7239",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -119072,6 +119076,9 @@
         ],
         "rawDate": "2016-11",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC8178"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -123868,6 +123875,22 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8178": {
+        "rfcNumber": "RFC8178",
+        "href": "https://tools.ietf.org/html/rfc8178",
+        "title": "Rules for NFSv4 Extensions and Minor Versions",
+        "authors": [
+            "D. Noveck"
+        ],
+        "rawDate": "2017-07",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC5661",
+            "RFC7862"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8179": {
         "rfcNumber": "RFC8179",
         "href": "https://tools.ietf.org/html/rfc8179",
@@ -123995,6 +124018,34 @@
         ],
         "rawDate": "2017-06",
         "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8196": {
+        "rfcNumber": "RFC8196",
+        "href": "https://tools.ietf.org/html/rfc8196",
+        "title": "IS-IS Autoconfiguration",
+        "authors": [
+            "B. Liu, Ed.",
+            "L. Ginsberg",
+            "B. Decraene",
+            "I. Farrer",
+            "M. Abrahamsson"
+        ],
+        "rawDate": "2017-07",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8197": {
+        "rfcNumber": "RFC8197",
+        "href": "https://tools.ietf.org/html/rfc8197",
+        "title": "A SIP Response Code for Unwanted Calls",
+        "authors": [
+            "H. Schulzrinne"
+        ],
+        "rawDate": "2017-07",
+        "status": "Proposed Standard",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
