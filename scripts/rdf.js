@@ -184,6 +184,7 @@ request({
                 delete curr.date;
                 delete curr.trURL;
                 delete curr.shortName;
+                delete curr.aliasOf;
             } else {
                 var clone = _cloneJSON(ref);
                 clone.href = clone.trURL;
