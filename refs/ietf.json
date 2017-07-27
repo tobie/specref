@@ -28346,6 +28346,9 @@
         ],
         "rawDate": "1996-08",
         "status": "Draft Standard",
+        "obsoletedBy": [
+            "RFC8201"
+        ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=1981",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -36062,6 +36065,9 @@
             "RFC6946",
             "RFC7045",
             "RFC7112"
+        ],
+        "obsoletedBy": [
+            "RFC8200"
         ],
         "obsoletes": [
             "RFC1883"
@@ -48120,6 +48126,7 @@
         ],
         "rawDate": "2002-01",
         "status": "Informational",
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=3218",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -60795,7 +60802,8 @@
         "updatedBy": [
             "RFC4470",
             "RFC6014",
-            "RFC6840"
+            "RFC6840",
+            "RFC8198"
         ],
         "updates": [
             "RFC1034",
@@ -67617,6 +67625,9 @@
         ],
         "rawDate": "2006-04",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC8203"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -120369,6 +120380,7 @@
         ],
         "rawDate": "2016-08",
         "status": "Proposed Standard",
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=7946",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -124007,6 +124019,23 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8192": {
+        "rfcNumber": "RFC8192",
+        "href": "https://tools.ietf.org/html/rfc8192",
+        "title": "Interface to Network Security Functions (I2NSF): Problem Statement and Use Cases",
+        "authors": [
+            "S. Hares",
+            "D. Lopez",
+            "M. Zarny",
+            "C. Jacquenet",
+            "R. Kumar",
+            "J. Jeong"
+        ],
+        "rawDate": "2017-07",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8195": {
         "rfcNumber": "RFC8195",
         "href": "https://tools.ietf.org/html/rfc8195",
@@ -124049,11 +124078,62 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8198": {
+        "rfcNumber": "RFC8198",
+        "href": "https://tools.ietf.org/html/rfc8198",
+        "title": "Aggressive Use of DNSSEC-Validated Cache",
+        "authors": [
+            "K. Fujiwara",
+            "A. Kato",
+            "W. Kumari"
+        ],
+        "rawDate": "2017-07",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC4035"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc82": {
         "aliasOf": "rfc0082"
     },
     "rfc820": {
         "aliasOf": "rfc0820"
+    },
+    "rfc8200": {
+        "rfcNumber": "RFC8200",
+        "href": "https://tools.ietf.org/html/rfc8200",
+        "title": "Internet Protocol, Version 6 (IPv6) Specification",
+        "authors": [
+            "S. Deering",
+            "R. Hinden"
+        ],
+        "rawDate": "2017-07",
+        "status": "Internet Standard",
+        "obsoletes": [
+            "RFC2460"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8201": {
+        "rfcNumber": "RFC8201",
+        "href": "https://tools.ietf.org/html/rfc8201",
+        "title": "Path MTU Discovery for IP version 6",
+        "authors": [
+            "J. McCann",
+            "S. Deering",
+            "J. Mogul",
+            "R. Hinden, Ed."
+        ],
+        "rawDate": "2017-07",
+        "status": "Internet Standard",
+        "obsoletes": [
+            "RFC1981"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc8202": {
         "rfcNumber": "RFC8202",
@@ -124068,6 +124148,23 @@
         "status": "Proposed Standard",
         "obsoletes": [
             "RFC6822"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8203": {
+        "rfcNumber": "RFC8203",
+        "href": "https://tools.ietf.org/html/rfc8203",
+        "title": "BGP Administrative Shutdown Communication",
+        "authors": [
+            "J. Snijders",
+            "J. Heitz",
+            "J. Scudder"
+        ],
+        "rawDate": "2017-07",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC4486"
         ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
