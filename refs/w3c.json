@@ -29783,7 +29783,7 @@
         ],
         "href": "https://www.w3.org/TR/hr-time-2/",
         "title": "High Resolution Time Level 2",
-        "rawDate": "2016-11-01",
+        "rawDate": "2017-08-03",
         "status": "CR",
         "publisher": "W3C",
         "deliveredBy": [
@@ -30083,6 +30083,22 @@
                     "https://www.w3.org/webperf/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20170803": {
+                "authors": [
+                    "Ilya Grigorik",
+                    "James Simonsen",
+                    "Jatinder Mann"
+                ],
+                "href": "https://www.w3.org/TR/2017/CR-hr-time-2-20170803/",
+                "title": "High Resolution Time Level 2",
+                "rawDate": "2017-08-03",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/webperf/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
         "edDraft": "https://w3c.github.io/hr-time/"
@@ -30095,8 +30111,8 @@
         ],
         "href": "https://www.w3.org/TR/hr-time-3/",
         "title": "High Resolution Time Level 3",
-        "rawDate": "2016-10-31",
-        "status": "WD",
+        "rawDate": "2017-08-03",
+        "status": "NOTE",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/hr-time/",
         "deliveredBy": [
@@ -30119,8 +30135,26 @@
                     "https://www.w3.org/webperf/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20170803": {
+                "authors": [
+                    "Ilya Grigorik",
+                    "James Simonsen",
+                    "Jatinder Mann"
+                ],
+                "href": "https://www.w3.org/TR/2017/NOTE-hr-time-3-20170803/",
+                "title": "High Resolution Time Level 3",
+                "rawDate": "2017-08-03",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "isRetired": true,
+                "deliveredBy": [
+                    "https://www.w3.org/webperf/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "isRetired": true
     },
     "html-aam-1.0": {
         "authors": [
@@ -32767,8 +32801,8 @@
         ],
         "href": "https://www.w3.org/TR/html51/",
         "title": "HTML 5.1 2nd Edition",
-        "rawDate": "2017-06-20",
-        "status": "CR",
+        "rawDate": "2017-08-03",
+        "status": "PR",
         "publisher": "W3C",
         "deliveredBy": [
             "https://www.w3.org/WebPlatform/WG/"
@@ -33439,9 +33473,26 @@
                     "https://www.w3.org/WebPlatform/WG/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20170803": {
+                "authors": [
+                    "Steve Faulkner",
+                    "Arron Eicholz",
+                    "Travis Leithead",
+                    "Alex Danilo"
+                ],
+                "href": "https://www.w3.org/TR/2017/PR-html51-20170803/",
+                "title": "HTML 5.1 2nd Edition",
+                "rawDate": "2017-08-03",
+                "status": "PR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WebPlatform/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "https://w3c.github.io/html/",
+        "edDraft": "https://rawgit.com/w3c/html/html5.1-2/single-page.html",
         "hasErrata": "https://github.com/w3c/html/issues"
     },
     "html52": {
@@ -63295,6 +63346,43 @@
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/auto/wg/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
+    "verifiable-claims-data-model": {
+        "authors": [
+            "Daniel Burnett",
+            "Manu Sporny",
+            "Dave Longley",
+            "Gregg Kellogg"
+        ],
+        "href": "https://www.w3.org/TR/verifiable-claims-data-model/",
+        "title": "Verifiable Claims Data Model and Representations",
+        "rawDate": "2017-08-03",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/vc-data-model/",
+        "deliveredBy": [
+            "https://www.w3.org/2017/vc/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20170803": {
+                "authors": [
+                    "Daniel Burnett",
+                    "Manu Sporny",
+                    "Dave Longley",
+                    "Gregg Kellogg"
+                ],
+                "href": "https://www.w3.org/TR/2017/WD-verifiable-claims-data-model-20170803/",
+                "title": "Verifiable Claims Data Model and Representations",
+                "rawDate": "2017-08-03",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2017/vc/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
