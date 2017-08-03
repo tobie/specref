@@ -48790,7 +48790,8 @@
             "RFC6665",
             "RFC6878",
             "RFC7462",
-            "RFC7463"
+            "RFC7463",
+            "RFC8217"
         ],
         "obsoletes": [
             "RFC2543"
@@ -49859,7 +49860,8 @@
         "rawDate": "2002-11",
         "status": "Informational",
         "updatedBy": [
-            "RFC5876"
+            "RFC5876",
+            "RFC8217"
         ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=3325",
         "publisher": "IETF",
@@ -52864,7 +52866,8 @@
         "rawDate": "2003-04",
         "status": "Proposed Standard",
         "updatedBy": [
-            "RFC7647"
+            "RFC7647",
+            "RFC8217"
         ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=3515",
         "publisher": "IETF",
@@ -58601,6 +58604,9 @@
         ],
         "rawDate": "2004-09",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC8217"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -67942,6 +67948,9 @@
         ],
         "rawDate": "2006-05",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC8217"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -75394,6 +75403,9 @@
         ],
         "rawDate": "2007-08",
         "status": "Informational",
+        "updatedBy": [
+            "RFC8217"
+        ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=5002",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -80201,6 +80213,9 @@
         ],
         "rawDate": "2008-12",
         "status": "Informational",
+        "updatedBy": [
+            "RFC8217"
+        ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=5318",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -80896,6 +80911,9 @@
         ],
         "rawDate": "2008-10",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC8217"
+        ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=5360",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -83030,6 +83048,9 @@
         ],
         "rawDate": "2009-04",
         "status": "Informational",
+        "updatedBy": [
+            "RFC8217"
+        ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=5502",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -110710,6 +110731,7 @@
         "obsoletes": [
             "RFC2223"
         ],
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=7322",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -124252,6 +124274,29 @@
         "status": "Proposed Standard",
         "updates": [
             "RFC4271"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8217": {
+        "rfcNumber": "RFC8217",
+        "href": "https://tools.ietf.org/html/rfc8217",
+        "title": "Clarifications for When to Use the name-addr Production in SIP Messages",
+        "authors": [
+            "R. Sparks"
+        ],
+        "rawDate": "2017-08",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC3261",
+            "RFC3325",
+            "RFC3515",
+            "RFC3892",
+            "RFC4508",
+            "RFC5002",
+            "RFC5318",
+            "RFC5360",
+            "RFC5502"
         ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
