@@ -28709,12 +28709,14 @@
     },
     "generic-sensor": {
         "authors": [
-            "Tobie Langel",
-            "Rick Waldron"
+            "Rick Waldron",
+            "Mikhail Pozdnyakov",
+            "Alexander Shalamov",
+            "Tobie Langel"
         ],
         "href": "https://www.w3.org/TR/generic-sensor/",
         "title": "Generic Sensor API",
-        "rawDate": "2017-05-30",
+        "rawDate": "2017-08-09",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/sensors/",
@@ -28806,6 +28808,23 @@
                 "href": "https://www.w3.org/TR/2017/WD-generic-sensor-20170530/",
                 "title": "Generic Sensor API",
                 "rawDate": "2017-05-30",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2009/dap/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20170809": {
+                "authors": [
+                    "Rick Waldron",
+                    "Mikhail Pozdnyakov",
+                    "Alexander Shalamov",
+                    "Tobie Langel"
+                ],
+                "href": "https://www.w3.org/TR/2017/WD-generic-sensor-20170809/",
+                "title": "Generic Sensor API",
+                "rawDate": "2017-08-09",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
