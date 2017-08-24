@@ -109926,6 +109926,9 @@
         ],
         "rawDate": "2014-06",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC8234"
+        ],
         "updates": [
             "RFC6378"
         ],
@@ -124335,6 +124338,22 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8214": {
+        "rfcNumber": "RFC8214",
+        "href": "https://tools.ietf.org/html/rfc8214",
+        "title": "Virtual Private Wire Service Support in Ethernet VPN",
+        "authors": [
+            "S. Boutros",
+            "A. Sajassi",
+            "S. Salam",
+            "J. Drake",
+            "J. Rabadan"
+        ],
+        "rawDate": "2017-08",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8215": {
         "rfcNumber": "RFC8215",
         "href": "https://tools.ietf.org/html/rfc8215",
@@ -124415,6 +124434,25 @@
     },
     "rfc823": {
         "aliasOf": "rfc0823"
+    },
+    "rfc8234": {
+        "rfcNumber": "RFC8234",
+        "href": "https://tools.ietf.org/html/rfc8234",
+        "title": "Updates to MPLS Transport Profile (MPLS-TP) Linear Protection in Automatic Protection Switching (APS) Mode",
+        "authors": [
+            "J. Ryoo",
+            "T. Cheung",
+            "H. van Helvoort",
+            "I. Busi",
+            "G. Wen"
+        ],
+        "rawDate": "2017-08",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC7271"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc824": {
         "aliasOf": "rfc0824"
