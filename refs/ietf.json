@@ -113080,6 +113080,9 @@
         ],
         "rawDate": "2015-03",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC8223"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -124384,6 +124387,19 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8216": {
+        "rfcNumber": "RFC8216",
+        "href": "https://tools.ietf.org/html/rfc8216",
+        "title": "HTTP Live Streaming",
+        "authors": [
+            "R. Pantos, Ed.",
+            "W. May"
+        ],
+        "rawDate": "2017-08",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8217": {
         "rfcNumber": "RFC8217",
         "href": "https://tools.ietf.org/html/rfc8217",
@@ -124436,6 +124452,25 @@
     },
     "rfc822": {
         "aliasOf": "rfc0822"
+    },
+    "rfc8223": {
+        "rfcNumber": "RFC8223",
+        "href": "https://tools.ietf.org/html/rfc8223",
+        "title": "Application-Aware Targeted LDP",
+        "authors": [
+            "S. Esale",
+            "R. Torvi",
+            "L. Jalil",
+            "U. Chunduri",
+            "K. Raza"
+        ],
+        "rawDate": "2017-08",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC7473"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc8227": {
         "rfcNumber": "RFC8227",
