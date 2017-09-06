@@ -124517,6 +124517,18 @@
     "rfc823": {
         "aliasOf": "rfc0823"
     },
+    "rfc8230": {
+        "rfcNumber": "RFC8230",
+        "href": "https://tools.ietf.org/html/rfc8230",
+        "title": "Using RSA Algorithms with CBOR Object Signing and Encryption (COSE) Messages",
+        "authors": [
+            "M. Jones"
+        ],
+        "rawDate": "2017-09",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8234": {
         "rfcNumber": "RFC8234",
         "href": "https://tools.ietf.org/html/rfc8234",
@@ -124533,6 +124545,30 @@
         "updates": [
             "RFC7271"
         ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8235": {
+        "rfcNumber": "RFC8235",
+        "href": "https://tools.ietf.org/html/rfc8235",
+        "title": "Schnorr Non-interactive Zero-Knowledge Proof",
+        "authors": [
+            "F. Hao, Ed."
+        ],
+        "rawDate": "2017-09",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8236": {
+        "rfcNumber": "RFC8236",
+        "href": "https://tools.ietf.org/html/rfc8236",
+        "title": "J-PAKE: Password-Authenticated Key Exchange by Juggling",
+        "authors": [
+            "F. Hao, Ed."
+        ],
+        "rawDate": "2017-09",
+        "status": "Informational",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
