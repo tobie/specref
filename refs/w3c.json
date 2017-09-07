@@ -37050,6 +37050,41 @@
         "rawDate": "1996-02-21",
         "title": "Extended Log File Format"
     },
+    "longtasks-1": {
+        "authors": [
+            "Shubhie Panicker",
+            "Ilya Grigorik",
+            "Domenic Denicola"
+        ],
+        "href": "https://www.w3.org/TR/longtasks-1/",
+        "title": "Long Tasks API 1",
+        "rawDate": "2017-09-07",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/longtasks/",
+        "deliveredBy": [
+            "https://www.w3.org/webperf/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20170907": {
+                "authors": [
+                    "Shubhie Panicker",
+                    "Ilya Grigorik",
+                    "Domenic Denicola"
+                ],
+                "href": "https://www.w3.org/TR/2017/WD-longtasks-1-20170907/",
+                "title": "Long Tasks API 1",
+                "rawDate": "2017-09-07",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/webperf/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
     "low-vision-needs": {
         "authors": [
             "Jim Allan",
@@ -42977,7 +43012,7 @@
         ],
         "href": "https://www.w3.org/TR/owl-time/",
         "title": "Time Ontology in OWL",
-        "status": "CR",
+        "status": "PR",
         "publisher": "W3C",
         "deliveredBy": [
             "https://www.w3.org/2015/spatial/"
@@ -43042,9 +43077,24 @@
                     "https://www.w3.org/2015/spatial/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20170907": {
+                "authors": [
+                    "Simon Cox",
+                    "Chris Little"
+                ],
+                "href": "https://www.w3.org/TR/2017/PR-owl-time-20170907/",
+                "title": "Time Ontology in OWL",
+                "rawDate": "2017-09-07",
+                "status": "PR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2015/spatial/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2017-06-06",
+        "rawDate": "2017-09-07",
         "isRetired": true,
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
         "edDraft": "https://w3c.github.io/sdw/time/"
@@ -44420,6 +44470,37 @@
                 "title": "Page Visibility Level 2",
                 "rawDate": "2017-03-28",
                 "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/webperf/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
+    "paint-timing": {
+        "authors": [
+            "Shubhie Panicker"
+        ],
+        "href": "https://www.w3.org/TR/paint-timing/",
+        "title": "Paint Timing 1",
+        "rawDate": "2017-09-07",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/paint-timing/",
+        "deliveredBy": [
+            "https://www.w3.org/webperf/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20170907": {
+                "authors": [
+                    "Shubhie Panicker"
+                ],
+                "href": "https://www.w3.org/TR/2017/WD-paint-timing-20170907/",
+                "title": "Paint Timing 1",
+                "rawDate": "2017-09-07",
+                "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/webperf/"
@@ -65415,8 +65496,8 @@
         ],
         "href": "https://www.w3.org/TR/vocab-ssn/",
         "title": "Semantic Sensor Network Ontology",
-        "rawDate": "2017-07-11",
-        "status": "CR",
+        "rawDate": "2017-09-07",
+        "status": "PR",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/sdw/ssn/",
         "deliveredBy": [
@@ -65489,6 +65570,25 @@
                 "title": "Semantic Sensor Network Ontology",
                 "rawDate": "2017-07-11",
                 "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2015/spatial/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20170907": {
+                "authors": [
+                    "Armin Haller",
+                    "Krzysztof Janowicz",
+                    "Simon Cox",
+                    "Danh Le Phuoc",
+                    "Kerry Taylor",
+                    "Maxime Lefrançois"
+                ],
+                "href": "https://www.w3.org/TR/2017/PR-vocab-ssn-20170907/",
+                "title": "Semantic Sensor Network Ontology",
+                "rawDate": "2017-09-07",
+                "status": "PR",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/2015/spatial/"
