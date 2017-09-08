@@ -211,7 +211,7 @@
                 "isoNumber": {
                     "description": "Number of ISO standard",
                     "type": "string",
-                    "pattern": "^ISO(\\/((TS)|(DIS)|(FDIS)))? \\d{4,}(\\-\\d+)?(\\:\\d{4})?$"
+                    "pattern": "^ISO(\\/IEC)?(\\/((TS)|(DIS)|(FDIS)))? \\d{4,}(\\-\\d+)?(\\:\\d{4})?$"
                 },
                 "ogcNumber": {
                     "description": "Number of OGC standard",
@@ -263,4 +263,3 @@
         }
     }
 }
-
