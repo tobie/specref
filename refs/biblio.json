@@ -1331,35 +1331,40 @@
         "title": "Information technology — Coding of audio-visual objects — Part 30: Timed text and other visual overlays in ISO base media file format",
         "href": "http://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm?csnumber=63107",
         "date": "11 March 2014",
-        "publisher": "ISO/IEC"
+        "publisher": "ISO/IEC",
+        "isoNumber": "ISO 14496-30:2014"
     },
     "ISO3166": {
         "date": "2013",
         "href": "http://www.iso.org/iso/catalogue_detail?csnumber=63545",
         "publisher": "International Organization for Standardization (ISO)",
         "status": "ISO 3166-1:2013",
-        "title": "ISO 3166: Codes for the representation of names of countries and their subdivisions."
+        "title": "ISO 3166: Codes for the representation of names of countries and their subdivisions.",
+        "isoNumber": "ISO 3166-1:2013"
     },
     "ISO4217": {
         "date": "2015",
         "href": "http://www.iso.org/iso/home/standards/currency_codes.htm",
         "publisher": "ISO",
         "status": "International Standard",
-        "title": "Currency codes - ISO 4217"
+        "title": "Currency codes - ISO 4217",
+        "isoNumber": "ISO 4217:2015"
     },
     "ISO8601": {
         "href": "http://www.iso.org/iso/catalogue_detail?csnumber=40874",
         "publisher": "International Organization for Standardization (ISO)",
         "date": "2004",
         "status": "ISO 8601:2004",
-        "title": "Representation of dates and times. ISO 8601:2004."
+        "title": "Representation of dates and times. ISO 8601:2004.",
+        "isoNumber": "ISO 8601:2004"
     },
     "ISOBMFF": {
         "title": "Information technology — Coding of audio-visual objects — Part 12: ISO Base Media File Format",
         "href": "http://standards.iso.org/ittf/PubliclyAvailableStandards/c068960_ISO_IEC_14496-12_2015.zip",
         "rawDate": "2015-12",
         "status": "International Standard",
-        "publisher": "ISO/IEC"
+        "publisher": "ISO/IEC",
+        "isoNumber": "ISO/IEC 14496-12:2015"
     },
     "JAPI": {
         "href": "http://www.oracle.com/technetwork/java/javase/tech/index-jsp-140174.html",
@@ -1571,11 +1576,13 @@
         "publisher": "ISO/IEC",
         "deliveredBy": [
             "http://www.iso.org/iso/home/standards_development/list_of_iso_technical_committees/iso_technical_committee.htm?commid=45316"
-        ]
+        ],
+        "isoNumber": "ISO/IEC 13818-1:2013"
     },
     "MPEGDASH": {
         "href": "http://standards.iso.org/ittf/PubliclyAvailableStandards/c065274_ISO_IEC_23009-1_2014.zip",
-        "title": "ISO/IEC 23009-1:2014 Information technology -- Dynamic adaptive streaming over HTTP (DASH) -- Part 1: Media presentation description and segment formats"
+        "title": "ISO/IEC 23009-1:2014 Information technology -- Dynamic adaptive streaming over HTTP (DASH) -- Part 1: Media presentation description and segment formats",
+        "isoNumber": "ISO/IEC 23009-1:2014"
     },
     "MSAA": {
         "href": "https://msdn.microsoft.com/en-us/library/ms697707.aspx",
@@ -2594,7 +2601,8 @@
     },
     "X509V3": {
         "title": "ITU-T Recommendation X.509 version 3 (1997). \"Information Technology - Open Systems Interconnection - The Directory Authentication Framework\"&nbsp; ISO/IEC 9594-8:1997.",
-        "publisher": "ITU"
+        "publisher": "ITU",
+        "isoNumber": "ISO/IEC 9594-8:1997"
     },
     "X690": {
         "href": "https://www.itu.int/ITU-T/studygroups/com17/languages/X.690-0207.pdf",
@@ -2791,7 +2799,8 @@
         "href": "http://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm?csnumber=57421",
         "title": "Extensible metadata platform (XMP) specification -- Part 1",
         "rawDate": "2012-02-15",
-        "publisher": "ISO/IEC"
+        "publisher": "ISO/IEC",
+        "isoNumber": "ISO/IEC 16684-1:2012"
     },
     "XPTR-XPOINTER-CR2001": {
         "aliasOf": "xptr"
@@ -2872,6 +2881,7 @@
         "deliveredBy": [
             "http://www.opengeospatial.org"
         ],
+        "ogcNumber": "OGC 07-036",
         "versions": {
             "20070827": {
                 "authors": [
