@@ -204,9 +204,19 @@
                     "$ref": "#/definitions/idList"
                 },
                 "rfcNumber": {
-                    "description": "",
+                    "description": "Number of IETF RFC",
                     "type": "string",
                     "pattern": "^RFC\\d{4}$"
+                },
+                "isoNumber": {
+                    "description": "Number of ISO standard",
+                    "type": "string",
+                    "pattern": "^ISO(\\/IEC)?(\\/((TS)|(DIS)|(FDIS)))? \\d{4,}(\\-\\d+)?(\\:\\d{4})?$"
+                },
+                "ogcNumber": {
+                    "description": "Number of OGC standard",
+                    "type": "string",
+                    "pattern": "^OGC \\d{2}\\-\\d+(r\\d+)?$"
                 },
                 "seeAlso": {
                     "description": "",
@@ -253,4 +263,3 @@
         }
     }
 }
-
