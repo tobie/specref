@@ -49,7 +49,8 @@
         "status": "International Standard",
         "date": "2005",
         "isoNumber": "ISO 19109:2005",
-        "obsoletedBy": "iso-19109-2015"
+        "isSuperseded": "true",
+        "updatedBy": "iso-19109-2015"
     },
     "iso-19109-2015": {
         "href": "https://www.iso.org/standard/59193.html",
@@ -59,7 +60,7 @@
         "status": "International Standard",
         "date": "2015",
         "isoNumber": "ISO 19109:2015",
-        "obsoletes": "iso-19109-2005"
+        "updates": "iso-19109-2005"
     },
     "iso-19111": {"aliasOf": "iso-19111-2007"},
     "iso-19111-2007": {
