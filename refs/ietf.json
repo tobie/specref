@@ -121526,6 +121526,7 @@
         "obsoletes": [
             "RFC3447"
         ],
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=8017",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -124452,6 +124453,22 @@
     },
     "rfc822": {
         "aliasOf": "rfc0822"
+    },
+    "rfc8220": {
+        "rfcNumber": "RFC8220",
+        "href": "https://tools.ietf.org/html/rfc8220",
+        "title": "Protocol Independent Multicast (PIM) over Virtual Private LAN Service (VPLS)",
+        "authors": [
+            "O. Dornon",
+            "J. Kotalwar",
+            "V. Hemige",
+            "R. Qiu",
+            "Z. Zhang"
+        ],
+        "rawDate": "2017-09",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc8223": {
         "rfcNumber": "RFC8223",
