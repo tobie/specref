@@ -64857,6 +64857,9 @@
         ],
         "rawDate": "2005-12",
         "status": "Proposed Standard",
+        "obsoletedBy": [
+            "RFC8247"
+        ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=4307",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -110320,7 +110323,8 @@
         "status": "Internet Standard",
         "updatedBy": [
             "RFC7427",
-            "RFC7670"
+            "RFC7670",
+            "RFC8247"
         ],
         "obsoletes": [
             "RFC5996"
@@ -124644,6 +124648,27 @@
         ],
         "rawDate": "2017-09",
         "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8247": {
+        "rfcNumber": "RFC8247",
+        "href": "https://tools.ietf.org/html/rfc8247",
+        "title": "Algorithm Implementation Requirements and Usage Guidance for the Internet Key Exchange Protocol Version 2 (IKEv2)",
+        "authors": [
+            "Y. Nir",
+            "T. Kivinen",
+            "P. Wouters",
+            "D. Migault"
+        ],
+        "rawDate": "2017-09",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC7296"
+        ],
+        "obsoletes": [
+            "RFC4307"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
