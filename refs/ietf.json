@@ -81174,6 +81174,7 @@
             "RFC3978",
             "RFC4748"
         ],
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=5378",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -90380,7 +90381,10 @@
             "J. Reschke"
         ],
         "rawDate": "2010-08",
-        "status": "Proposed Standard",
+        "status": "Historic",
+        "obsoletedBy": [
+            "RFC8187"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -124091,6 +124095,21 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8187": {
+        "rfcNumber": "RFC8187",
+        "href": "https://tools.ietf.org/html/rfc8187",
+        "title": "Indicating Character Encoding and Language for HTTP Header Field Parameters",
+        "authors": [
+            "J. Reschke"
+        ],
+        "rawDate": "2017-09",
+        "status": "Proposed Standard",
+        "obsoletes": [
+            "RFC5987"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8188": {
         "rfcNumber": "RFC8188",
         "href": "https://tools.ietf.org/html/rfc8188",
@@ -124648,6 +124667,18 @@
         ],
         "rawDate": "2017-09",
         "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8246": {
+        "rfcNumber": "RFC8246",
+        "href": "https://tools.ietf.org/html/rfc8246",
+        "title": "HTTP Immutable Responses",
+        "authors": [
+            "P. McManus"
+        ],
+        "rawDate": "2017-09",
+        "status": "Proposed Standard",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
