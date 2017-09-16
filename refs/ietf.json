@@ -122155,6 +122155,7 @@
         ],
         "rawDate": "2017-01",
         "status": "Proposed Standard",
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=8058",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -124648,6 +124649,33 @@
         "authors": [
             "H. Tschofenig",
             "S. Farrell"
+        ],
+        "rawDate": "2017-09",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8241": {
+        "rfcNumber": "RFC8241",
+        "href": "https://tools.ietf.org/html/rfc8241",
+        "title": "Interface to the Routing System (I2RS) Security-Related Requirements",
+        "authors": [
+            "S. Hares",
+            "D. Migault",
+            "J. Halpern"
+        ],
+        "rawDate": "2017-09",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8242": {
+        "rfcNumber": "RFC8242",
+        "href": "https://tools.ietf.org/html/rfc8242",
+        "title": "Interface to the Routing System (I2RS) Ephemeral State Requirements",
+        "authors": [
+            "J. Haas",
+            "S. Hares"
         ],
         "rawDate": "2017-09",
         "status": "Informational",
