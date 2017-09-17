@@ -2863,6 +2863,16 @@
         "status": "WD",
         "publisher": "W3C"
     },
+    "bibo": {
+        "authors": [
+            "Bruce D'Arcus",
+            "Frédérick Giasson"
+        ],
+        "href": "http://bibliographic-ontology.org/specification",
+        "title": "Bibliographic Ontology Specification",
+        "publisher": "Structured Dynamics LLC.",
+        "rawDate": "2016-05-11"
+    },
     "browserext": {
         "authors": [
             "Mike Pietraszak"
@@ -2883,6 +2893,93 @@
         "rawDate": "2016-10",
         "publisher": "W3C",
         "status": "Draft Community Group Report"
+    },
+    "datacite": {
+        "authors": [
+            "DataCite Metadata Working Group"
+        ],
+        "href": "https://schema.datacite.org/",
+        "title": "DataCite Metadata Schema",
+        "publisher": "DataCite e.V.",
+        "deliveredBy": [
+            "https://www.datacite.org/"
+        ],
+        "rawDate": "2016-09-16",
+        "versions": {
+            "20110124": {
+                "authors": [
+                    "DataCite Metadata Working Group"
+                ],
+                "href": "https://schema.datacite.org/meta/kernel-2.0/",
+                "title": "DataCite Metadata Schema 2.0",
+                "publisher": "DataCite e.V.",
+                "deliveredBy": [
+                    "https://www.datacite.org/"
+                ],
+                "rawDate": "2011-03-28",
+                "isRetired": true
+            },
+            "20110328": {
+                "authors": [
+                    "DataCite Metadata Working Group"
+                ],
+                "href": "https://schema.datacite.org/meta/kernel-2.1/",
+                "title": "DataCite Metadata Schema 2.1",
+                "publisher": "DataCite e.V.",
+                "deliveredBy": [
+                    "https://www.datacite.org/"
+                ],
+                "rawDate": "2011-03-28"
+            },
+            "20110711": {
+                "authors": [
+                    "DataCite Metadata Working Group"
+                ],
+                "href": "https://schema.datacite.org/meta/kernel-2.2/",
+                "title": "DataCite Metadata Schema 2.2",
+                "publisher": "DataCite e.V.",
+                "deliveredBy": [
+                    "https://www.datacite.org/"
+                ],
+                "rawDate": "2011-07-11"
+            },
+            "20130724": {
+                "authors": [
+                    "DataCite Metadata Working Group"
+                ],
+                "href": "https://schema.datacite.org/meta/kernel-3.0/",
+                "title": "DataCite Metadata Schema 3.0",
+                "publisher": "DataCite e.V.",
+                "deliveredBy": [
+                    "https://www.datacite.org/"
+                ],
+                "rawDate": "2013-07-24"
+            },
+            "20141016": {
+                "authors": [
+                    "DataCite Metadata Working Group"
+                ],
+                "href": "https://schema.datacite.org/meta/kernel-3.1/",
+                "title": "DataCite Metadata Schema 3.1",
+                "publisher": "DataCite e.V.",
+                "deliveredBy": [
+                    "https://www.datacite.org/"
+                ],
+                "rawDate": "2014-10-16"
+            },
+            "20160916": {
+                "authors": [
+                    "DataCite Metadata Working Group"
+                ],
+                "href": "https://schema.datacite.org/meta/kernel-4.0/",
+                "title": "DataCite Metadata Schema 4.0",
+                "publisher": "DataCite e.V.",
+                "deliveredBy": [
+                    "https://www.datacite.org/"
+                ],
+                "rawDate": "2016-09-16"
+            }
+        }
     },
     "dcat-ap": {
         "href": "https://joinup.ec.europa.eu/asset/dcat_application_profile/",
@@ -2950,6 +3047,18 @@
                 ]
             }
         }
+    },
+    "georss": {
+        "href": "https://www.w3.org/2005/Incubator/geo/XGR-geo/",
+        "title": "W3C Geospatial Vocabulary",
+        "authors": [
+            "Joshua Lieberman",
+            "Raj Singh",
+            "Chris Goad"
+        ],
+        "publisher": "W3C Geospatial Incubator Group",
+        "rawDate": "2007-10-23",
+        "status": "W3C Incubator Group Report"
     },
     "gml": {
         "href": "http://www.opengeospatial.org/standards/gml",
@@ -3573,6 +3682,37 @@
         "rawDate": "2013-01-31",
         "title": "JSON Schema: core definitions and terminology"
     },
+    "locn": {
+        "authors": [
+            "Andrea Perego",
+            "Michael Lutz"
+        ],
+        "href": "http://www.w3.org/ns/locn",
+        "title": "ISA Programme Location Core Vocabulary",
+        "rawDate": "2015-03-23",
+        "status": "Second version in w3.org/ns space",
+        "publisher": "European Commission",
+        "deliveredBy": [
+            "https://joinup.ec.europa.eu/asset/core_location"
+        ],
+        "versions": {
+            "20131125": {
+                "authors": [
+                    "Andrea Perego",
+                    "Michael Lutz",
+                    "Phil Archer"
+                ],
+                "href": "https://www.w3.org/2015/04/locn",
+                "title": "ISA Programme Location Core Vocabulary",
+                "rawDate": "2013-11-25",
+                "status": "First version in w3.org/ns space",
+                "publisher": "European Commission",
+                "deliveredBy": [
+                    "https://joinup.ec.europa.eu/asset/core_location/"
+                ]
+            }
+        }
+    },
     "mdn-setcapture": {
         "authors": [
             "Shepherd, Eric; et. al"
@@ -3598,6 +3738,64 @@
         "status": "Public Release",
         "rawDate": "2015",
         "title": "NewsML-G2 Implementation Guide"
+    },
+    "oai-pmh": {
+        "authors": [
+            "Carl Lagoze",
+            "Herbert Van de Sompel",
+            "Michael Nelson",
+            "Simeon Warner"
+        ],
+        "href": "http://www.openarchives.org/OAI/openarchivesprotocol.html",
+        "title": "The Open Archives Initiative Protocol for Metadata Harvesting",
+        "publisher": "OAI",
+        "deliveredBy": [
+            "http://www.openarchives.org/"
+        ],
+        "rawDate": "2015-01-08",
+        "versions": {
+            "20010424": {
+                "authors": [
+                    "Herbert Van de Sompel",
+                    "Carl Lagoze"
+                ],
+                "href": "http://www.openarchives.org/OAI/1.0/openarchivesprotocol.htm",
+                "title": "The Open Archives Initiative Protocol for Metadata Harvesting. Version 1.0",
+                "publisher": "OAI",
+                "deliveredBy": [
+                    "http://www.openarchives.org/"
+                ],
+                "rawDate": "2001-04-24"
+            },
+            "20010620": {
+                "authors": [
+                    "Carl Lagoze",
+                    "Herbert Van de Sompel"
+                ],
+                "href": "http://www.openarchives.org/OAI/1.1/openarchivesprotocol.htm",
+                "title": "The Open Archives Initiative Protocol for Metadata Harvesting. Version 1.1",
+                "publisher": "OAI",
+                "deliveredBy": [
+                    "http://www.openarchives.org/"
+                ],
+                "rawDate": "2001-06-20"
+            },
+            "20150108": {
+                "authors": [
+                    "Carl Lagoze",
+                    "Herbert Van de Sompel",
+                    "Michael Nelson",
+                    "Simeon Warner"
+                ],
+                "href": "http://www.openarchives.org/OAI/2.0/openarchivesprotocol.htm",
+                "title": "The Open Archives Initiative Protocol for Metadata Harvesting. Version 2.0",
+                "publisher": "OAI",
+                "deliveredBy": [
+                    "http://www.openarchives.org/"
+                ],
+                "rawDate": "2015-01-08"
+            }
+        }
     },
     "odrl": {
         "authors": [
@@ -3709,6 +3907,12 @@
         "rawDate": "2016",
         "title": "PLUS License Data Format "
     },
+    "prism": {
+        "href": "http://www.prismstandard.org/specifications/3.0/PRISM_Basic_Metadata_3.0.htm",
+        "title": "Publishing Requirements for Industry Standard Metadata, Version 3.0. PRISM Basic Metadata Specification",
+        "publisher": "International Digital Enterprise Alliance, Inc.",
+        "rawDate": "2012-10-08"
+    },
     "promises-guide": {
         "href": "https://www.w3.org/2001/tag/doc/promises-guide",
         "title": "Writing Promise-Using Specifications",
@@ -3779,6 +3983,109 @@
         "rawDate": "2015-03-01",
         "title": "OMG Unified Modeling Language"
     },
+    "vann": {
+        "authors": [
+            "Ian Davis"
+        ],
+        "href": "http://purl.org/vocab/vann",
+        "title": "VANN: A vocabulary for annotating vocabulary descriptions",
+        "rawDate": "2010-06-07",
+        "publisher": "Vocab.org",
+        "versions": {
+            "20040305": {
+                "authors": [
+                    "Ian Davis"
+                ],
+                "href": "http://purl.org/vocab/vann/vann-vocab-20030405",
+                "title": "VANN: A vocabulary for annotating vocabulary descriptions",
+                "rawDate": "2004-03-05",
+                "publisher": "Vocab.org"
+            },
+            "20100607": {
+                "authors": [
+                    "Ian Davis"
+                ],
+                "href": "http://purl.org/vocab/vann/vann-vocab-20050401",
+                "title": "VANN: A vocabulary for annotating vocabulary descriptions",
+                "rawDate": "2010-06-07",
+                "publisher": "Vocab.org"
+            }
+        }
+    },
+    "voaf": {
+        "authors": [
+            "Bernard Vatant"
+        ],
+        "href": "http://purl.org/vocommons/voaf",
+        "title": "Vocabulary of a Friend (VOAF)",
+        "rawDate": "2013-05-24",
+        "publisher": "OKFN",
+        "versions": {
+            "20111103": {
+                "authors": [
+                    "Bernard Vatant"
+                ],
+                "href": "http://lov.okfn.org/vocommons/voaf/v1.0/",
+                "title": "Vocabulary of a Friend (VOAF). Version 1.0",
+                "publisher": "Mondeca",
+                "rawDate": "2011-11-03"
+            },
+            "20111116": {
+                "authors": [
+                    "Bernard Vatant"
+                ],
+                "href": "http://lov.okfn.org/vocommons/voaf/v1.1/",
+                "title": "Vocabulary of a Friend (VOAF). Version 1.1",
+                "rawDate": "2011-11-16",
+                "publisher": "Mondeca"
+            },
+            "20120703": {
+                "authors": [
+                    "Bernard Vatant"
+                ],
+                "href": "http://lov.okfn.org/vocommons/voaf/v2.0/",
+                "title": "Vocabulary of a Friend (VOAF). Version 2.0",
+                "rawDate": "2012-07-03",
+                "publisher": "OKFN"
+            },
+            "20121015": {
+                "authors": [
+                    "Bernard Vatant"
+                ],
+                "href": "http://lov.okfn.org/vocommons/voaf/v2.1/",
+                "title": "Vocabulary of a Friend (VOAF). Version 2.1",
+                "rawDate": "2012-10-15",
+                "publisher": "OKFN"
+            },
+            "20130424": {
+                "authors": [
+                    "Bernard Vatant"
+                ],
+                "href": "http://lov.okfn.org/vocommons/voaf/v2.2/",
+                "title": "Vocabulary of a Friend (VOAF). Version 2.2",
+                "rawDate": "2013-04-24",
+                "publisher": "OKFN"
+            },
+            "20130524": {
+                "authors": [
+                    "Bernard Vatant"
+                ],
+                "href": "http://lov.okfn.org/vocommons/voaf/v2.3/",
+                "title": "Vocabulary of a Friend (VOAF). Version 2.3",
+                "rawDate": "2013-05-24",
+                "publisher": "OKFN"
+            }
+        }
+    },
+    "w3c-basic-geo": {
+        "href": "https://www.w3.org/2003/01/geo/",
+        "title": "Basic Geo (WGS84 lat/long) Vocabulary",
+        "authors": [
+            "Dan Brickley"
+        ],
+        "publisher": "W3C Semantic Web Interest Group",
+        "rawDate": "2006-02-01"
+    },
     "web-bluetooth": {
         "href": "https://webbluetoothcg.github.io/web-bluetooth/",
         "edDraft": "https://webbluetoothcg.github.io/web-bluetooth/",
@@ -3791,313 +4098,5 @@
             "https://www.w3.org/community/web-bluetooth/"
         ],
         "publisher": "W3C Web Bluetooth Community Group"
-    },
-
-    "w3c-basic-geo":{
-        "href":"https://www.w3.org/2003/01/geo/",
-        "title":"Basic Geo (WGS84 lat/long) Vocabulary",
-        "authors":[
-            "Dan Brickley"
-        ],
-        "publisher":"W3C Semantic Web Interest Group",
-        "rawDate":"2006-02-01"
-    },
-    "georss":{
-        "href":"https://www.w3.org/2005/Incubator/geo/XGR-geo/",
-        "title":"W3C Geospatial Vocabulary",
-        "authors":[
-            "Joshua Lieberman",
-            "Raj Singh",
-            "Chris Goad"
-        ],
-        "publisher":"W3C Geospatial Incubator Group",
-        "rawDate":"2007-10-23",
-        "status":"W3C Incubator Group Report"
-    },
-    "locn":{
-        "authors":[
-            "Andrea Perego",
-            "Michael Lutz"
-        ],
-        "href":"http://www.w3.org/ns/locn",
-        "title":"ISA Programme Location Core Vocabulary",
-        "rawDate":"2015-03-23",
-        "status":"Second version in w3.org/ns space",
-        "publisher":"European Commission",
-        "deliveredBy":[
-            "https://joinup.ec.europa.eu/asset/core_location"
-        ],
-        "versions":{
-            "20131125":{
-                "authors":[
-                    "Andrea Perego",
-                    "Michael Lutz",
-                    "Phil Archer"
-                ],
-                "href":"https://www.w3.org/2015/04/locn",
-                "title":"ISA Programme Location Core Vocabulary",
-                "rawDate":"2013-11-25",
-                "status":"First version in w3.org/ns space",
-                "publisher":"European Commission",
-                "deliveredBy":[
-                    "https://joinup.ec.europa.eu/asset/core_location/"
-                ]
-            }
-        }
-    },
-    "vann":{
-        "authors":[
-            "Ian Davis"
-        ],
-        "href":"http://purl.org/vocab/vann",
-        "title":"VANN: A vocabulary for annotating vocabulary descriptions",
-        "rawDate":"2010-06-07",
-        "publisher":"Vocab.org",
-        "versions":{
-            "20100607":{
-                "authors":[
-                    "Ian Davis"
-                ],
-                "href":"http://purl.org/vocab/vann/vann-vocab-20050401",
-                "title":"VANN: A vocabulary for annotating vocabulary descriptions",
-                "rawDate":"2010-06-07",
-                "publisher":"Vocab.org"
-            },
-            "20040305":{
-                "authors":[
-                    "Ian Davis"
-                ],
-                "href":"http://purl.org/vocab/vann/vann-vocab-20030405",
-                "title":"VANN: A vocabulary for annotating vocabulary descriptions",
-                "rawDate":"2004-03-05",
-                "publisher":"Vocab.org"
-            }
-        }
-    },
-    "voaf":{
-        "authors":[
-            "Bernard Vatant"
-        ],
-        "href":"http://purl.org/vocommons/voaf",
-        "title":"Vocabulary of a Friend (VOAF)",
-        "rawDate":"2013-05-24",
-        "publisher":"OKFN",
-        "versions":{
-            "20130524":{
-                "authors":[
-                    "Bernard Vatant"
-                ],
-                "href":"http://lov.okfn.org/vocommons/voaf/v2.3/",
-                "title":"Vocabulary of a Friend (VOAF). Version 2.3",
-                "rawDate":"2013-05-24",
-                "publisher":"OKFN"
-            },
-            "20130424":{
-                "authors":[
-                    "Bernard Vatant"
-                ],
-                "href":"http://lov.okfn.org/vocommons/voaf/v2.2/",
-                "title":"Vocabulary of a Friend (VOAF). Version 2.2",
-                "rawDate":"2013-04-24",
-                "publisher":"OKFN"
-            },
-            "20121015":{
-                "authors":[
-                    "Bernard Vatant"
-                ],
-                "href":"http://lov.okfn.org/vocommons/voaf/v2.1/",
-                "title":"Vocabulary of a Friend (VOAF). Version 2.1",
-                "rawDate":"2012-10-15",
-                "publisher":"OKFN"
-            },
-            "20120703":{
-                "authors":[
-                    "Bernard Vatant"
-                ],
-                "href":"http://lov.okfn.org/vocommons/voaf/v2.0/",
-                "title":"Vocabulary of a Friend (VOAF). Version 2.0",
-                "rawDate":"2012-07-03",
-                "publisher":"OKFN"
-            },
-            "20111116":{
-                "authors":[
-                    "Bernard Vatant"
-                ],
-                "href":"http://lov.okfn.org/vocommons/voaf/v1.1/",
-                "title":"Vocabulary of a Friend (VOAF). Version 1.1",
-                "rawDate":"2011-11-16",
-                "publisher":"Mondeca"
-            },
-            "20111103":{
-                "authors":[
-                    "Bernard Vatant"
-                ],
-                "href":"http://lov.okfn.org/vocommons/voaf/v1.0/",
-                "title":"Vocabulary of a Friend (VOAF). Version 1.0",
-                "publisher":"Mondeca",
-                "rawDate":"2011-11-03"
-            }
-        }
-    },
-    "prism":{
-        "href":"http://www.prismstandard.org/specifications/3.0/PRISM_Basic_Metadata_3.0.htm",
-        "title":"Publishing Requirements for Industry Standard Metadata, Version 3.0. PRISM Basic Metadata Specification",
-        "publisher":"International Digital Enterprise Alliance, Inc.",
-        "rawDate":"2012-10-08"
-    },
-    "bibo":{
-        "authors":[
-            "Bruce D'Arcus",
-            "Frédérick Giasson"
-        ],
-        "href":"http://bibliographic-ontology.org/specification",
-        "title":"Bibliographic Ontology Specification",
-        "publisher":"Structured Dynamics LLC.",
-        "rawDate":"2016-05-11"
-    },
-    "datacite":{
-        "authors":[
-            "DataCite Metadata Working Group"
-        ],
-        "href":"https://schema.datacite.org/",
-        "title":"DataCite Metadata Schema",
-        "publisher":"DataCite e.V.",
-        "deliveredBy":[
-            "https://www.datacite.org/"
-        ],
-        "rawDate":"2016-09-16",
-        "versions":{
-            "20160916":{
-                "authors":[
-                    "DataCite Metadata Working Group"
-                ],
-                "href":"https://schema.datacite.org/meta/kernel-4.0/",
-                "title":"DataCite Metadata Schema 4.0",
-                "publisher":"DataCite e.V.",
-                "deliveredBy":[
-                    "https://www.datacite.org/"
-                ],
-                "rawDate":"2016-09-16"
-            },
-            "20141016":{
-                "authors":[
-                    "DataCite Metadata Working Group"
-                ],
-                "href":"https://schema.datacite.org/meta/kernel-3.1/",
-                "title":"DataCite Metadata Schema 3.1",
-                "publisher":"DataCite e.V.",
-                "deliveredBy":[
-                    "https://www.datacite.org/"
-                ],
-                "rawDate":"2014-10-16"
-            },
-            "20130724":{
-                "authors":[
-                    "DataCite Metadata Working Group"
-                ],
-                "href":"https://schema.datacite.org/meta/kernel-3.0/",
-                "title":"DataCite Metadata Schema 3.0",
-                "publisher":"DataCite e.V.",
-                "deliveredBy":[
-                    "https://www.datacite.org/"
-                ],
-                "rawDate":"2013-07-24"
-            },
-            "20110711":{
-                "authors":[
-                    "DataCite Metadata Working Group"
-                ],
-                "href":"https://schema.datacite.org/meta/kernel-2.2/",
-                "title":"DataCite Metadata Schema 2.2",
-                "publisher":"DataCite e.V.",
-                "deliveredBy":[
-                    "https://www.datacite.org/"
-                ],
-                "rawDate":"2011-07-11"
-            },
-            "20110328":{
-                "authors":[
-                    "DataCite Metadata Working Group"
-                ],
-                "href":"https://schema.datacite.org/meta/kernel-2.1/",
-                "title":"DataCite Metadata Schema 2.1",
-                "publisher":"DataCite e.V.",
-                "deliveredBy":[
-                    "https://www.datacite.org/"
-                ],
-                "rawDate":"2011-03-28"
-            },
-            "20110124":{
-                "authors":[
-                    "DataCite Metadata Working Group"
-                ],
-                "href":"https://schema.datacite.org/meta/kernel-2.0/",
-                "title":"DataCite Metadata Schema 2.0",
-                "publisher":"DataCite e.V.",
-                "deliveredBy":[
-                    "https://www.datacite.org/"
-                ],
-                "rawDate":"2011-03-28",
-                "isRetired":true
-            }
-        }
-    },
-    "oai-pmh":{
-        "authors":[
-            "Carl Lagoze",
-            "Herbert Van de Sompel",
-            "Michael Nelson",
-            "Simeon Warner"
-        ],
-        "href":"http://www.openarchives.org/OAI/openarchivesprotocol.html",
-        "title":"The Open Archives Initiative Protocol for Metadata Harvesting",
-        "publisher":"OAI",
-        "deliveredBy":[
-            "http://www.openarchives.org/"
-        ],
-        "rawDate":"2015-01-08",
-        "versions":{
-            "20150108":{
-                "authors":[
-                    "Carl Lagoze",
-                    "Herbert Van de Sompel",
-                    "Michael Nelson",
-                    "Simeon Warner"
-                ],
-                "href":"http://www.openarchives.org/OAI/2.0/openarchivesprotocol.htm",
-                "title":"The Open Archives Initiative Protocol for Metadata Harvesting. Version 2.0",
-                "publisher":"OAI",
-                "deliveredBy":[
-                    "http://www.openarchives.org/"
-                ],
-                "rawDate":"2015-01-08"
-            },
-            "20010620":{
-                "authors":[
-                    "Carl Lagoze",
-                    "Herbert Van de Sompel"
-                ],
-                "href":"http://www.openarchives.org/OAI/1.1/openarchivesprotocol.htm",
-                "title":"The Open Archives Initiative Protocol for Metadata Harvesting. Version 1.1",
-                "publisher":"OAI",
-                "deliveredBy":[
-                    "http://www.openarchives.org/"
-                ],
-                "rawDate":"2001-06-20"
-            },
-            "20010424":{
-                "authors":[
-                    "Herbert Van de Sompel",
-                    "Carl Lagoze"
-                ],
-                "href":"http://www.openarchives.org/OAI/1.0/openarchivesprotocol.htm",
-                "title":"The Open Archives Initiative Protocol for Metadata Harvesting. Version 1.0",
-                "publisher":"OAI",
-                "deliveredBy":[
-                    "http://www.openarchives.org/"
-                ],
-                "rawDate":"2001-04-24"
-            }
-        }
-    }    
+    }
 }
