@@ -6,6 +6,13 @@
         "publisher": "WICG",
         "source": "https://wicg.github.io/admin/biblio.json"
     },
+    "MEDIASESSION": {
+        "href": "https://wicg.github.io/mediasession/",
+        "title": "Media Session",
+        "status": "Living Standard",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json"
+    },
     "WEB-BACKGROUND-SYNC": {
         "href": "https://wicg.github.io/BackgroundSync/spec/",
         "title": "Web Background Synchronization specification draft",
@@ -24,11 +31,7 @@
         "aliasOf": "FEATURE-POLICY"
     },
     "WICG-MEDIASESSION": {
-        "href": "https://wicg.github.io/mediasession/",
-        "title": "Media Session",
-        "status": "Living Standard",
-        "publisher": "WICG",
-        "source": "https://wicg.github.io/admin/biblio.json"
+        "aliasOf": "MEDIASESSION"
     },
     "WICG-WEB-BACKGROUND-SYNC": {
         "aliasOf": "WEB-BACKGROUND-SYNC"
