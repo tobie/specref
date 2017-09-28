@@ -184,9 +184,9 @@
             "Aharon Lanin",
             "Andrew Glass"
         ],
-        "href": "http://www.unicode.org/reports/tr9/tr9-35.html",
+        "href": "https://www.unicode.org/reports/tr9/tr9-37.html",
         "publisher": "Unicode Consortium",
-        "date": "18 May 2016",
+        "date": "14 May 2017",
         "status": "Unicode Standard Annex #9",
         "title": "Unicode Bidirectional Algorithm"
     },
@@ -2280,9 +2280,9 @@
         "authors": [
             "Ken Lunde 小林劍"
         ],
-        "href": "http://www.unicode.org/reports/tr11/tr11-31.html",
+        "href": "https://www.unicode.org/reports/tr11/tr11-33.html",
         "title": "East Asian Width",
-        "date": "18 May 2016",
+        "date": "14 May 2017",
         "status": "Unicode Standard Annex #11",
         "publisher": "Unicode Consortium"
     },
@@ -2290,9 +2290,9 @@
         "authors": [
             "Andy Heninger"
         ],
-        "href": "http://www.unicode.org/reports/tr14/tr14-37.html",
+        "href": "https://www.unicode.org/reports/tr14/tr14-39.html",
         "title": "Unicode Line Breaking Algorithm",
-        "date": "1 June 2016",
+        "date": "12 June 2017",
         "status": "Unicode Standard Annex #14",
         "publisher": "Unicode Consortium"
     },
@@ -2301,9 +2301,9 @@
             "Mark Davis",
             "Ken Whistler"
         ],
-        "href": "http://www.unicode.org/reports/tr15/tr15-44.html",
+        "href": "https://www.unicode.org/reports/tr15/tr15-45.html",
         "title": "Unicode Normalization Forms",
-        "date": "24 February 2016",
+        "date": "26 May 2017",
         "status": "Unicode Standard Annex #15",
         "publisher": "Unicode Consortium"
     },
@@ -2325,9 +2325,9 @@
             "Mark Davis",
             "Ken Whistler"
         ],
-        "href": "http://www.unicode.org/reports/tr24/tr24-26.html",
+        "href": "https://www.unicode.org/reports/tr24/tr24-27.html",
         "title": "Unicode Script Property",
-        "date": "18 May 2016",
+        "date": "26 May 2017",
         "status": "Unicode Standard Annex #24",
         "publisher": "Unicode Consortium"
     },
@@ -2351,9 +2351,9 @@
             "Mark Davis",
             "Laurențiu Iancu"
         ],
-        "href": "http://www.unicode.org/reports/tr29/tr29-29.html",
+        "href": "https://www.unicode.org/reports/tr29/tr29-31.html",
         "title": "Unicode Text Segmentation",
-        "date": "20 June 2016",
+        "date": "13 June 2017",
         "status": "Unicode Standard Annex #29",
         "publisher": "Unicode Consortium"
     },
@@ -2459,7 +2459,10 @@
         "title": "Unicode Emoji 4.0",
         "date": "22 November 2016",
         "status": "Unicode Technical Report #51",
-        "publisher": "Unicode Consortium"
+        "publisher": "Unicode Consortium",
+        "obsoletedBy": [
+            "UTS51"
+        ]
     },
     "UTS10": {
         "authors": [
@@ -2467,9 +2470,9 @@
             "Ken Whistler",
             "Markus Scherer"
         ],
-        "href": "http://www.unicode.org/reports/tr10/tr10-30.html",
+        "href": "https://www.unicode.org/reports/tr10/tr10-36.html",
         "title": "Unicode Collation Algorithm",
-        "date": "9 June 2014",
+        "date": "16 June 2017",
         "status": "Unicode Technical Standard #10",
         "publisher": "Unicode Consortium"
     },
@@ -2478,9 +2481,9 @@
             "Mark Davis",
             "Markus Scherer"
         ],
-        "href": "http://www.unicode.org/reports/tr22",
+        "href": "http://www.unicode.org/reports/tr22/tr22-8.html",
         "title": "Unicode Character Mapping Markup Language (CharmapML)",
-        "date": "9 September 2009",
+        "date": "31 May 2017",
         "status": "Unicode Technical Standard #22",
         "publisher": "Unicode Consortium"
     },
@@ -2489,9 +2492,9 @@
             "Mark Davis",
             "Michel Suignard"
         ],
-        "href": "http://www.unicode.org/reports/tr46/",
+        "href": "http://www.unicode.org/reports/tr46/tr46-19.html",
         "title": "Unicode IDNA Compatibility Processing",
-        "date": "1 June 2016",
+        "date": "8 June 2017",
         "status": "Unicode Technical Standard #46",
         "publisher": "Unicode Consortium"
     },
@@ -2500,9 +2503,9 @@
             "Mark Davis",
             "Peter Edberg"
         ],
-        "href": "http://www.unicode.org/reports/tr51/tr51-11.html",
+        "href": "https://www.unicode.org/reports/tr51/tr51-12.html",
         "title": "Unicode Emoji",
-        "date": "27 March 2017",
+        "date": "18 May 2017",
         "status": "Unicode Technical Standard #51",
         "publisher": "Unicode Consortium"
     },
