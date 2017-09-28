@@ -98026,7 +98026,8 @@
         "rawDate": "2012-02",
         "status": "Proposed Standard",
         "updatedBy": [
-            "RFC7318"
+            "RFC7318",
+            "RFC8209"
         ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=6487",
         "publisher": "IETF",
@@ -102821,6 +102822,9 @@
         ],
         "rawDate": "2013-01",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC8210"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -120249,6 +120253,9 @@
         ],
         "rawDate": "2016-08",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC8208"
+        ],
         "obsoletes": [
             "RFC6485"
         ],
@@ -124366,8 +124373,114 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8205": {
+        "rfcNumber": "RFC8205",
+        "href": "https://tools.ietf.org/html/rfc8205",
+        "title": "BGPsec Protocol Specification",
+        "authors": [
+            "M. Lepinski, Ed.",
+            "K. Sriram, Ed."
+        ],
+        "rawDate": "2017-09",
+        "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC8206"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8206": {
+        "rfcNumber": "RFC8206",
+        "href": "https://tools.ietf.org/html/rfc8206",
+        "title": "BGPsec Considerations for Autonomous System (AS) Migration",
+        "authors": [
+            "W. George",
+            "S. Murphy"
+        ],
+        "rawDate": "2017-09",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC8205"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8207": {
+        "rfcNumber": "RFC8207",
+        "href": "https://tools.ietf.org/html/rfc8207",
+        "title": "BGPsec Operational Considerations",
+        "authors": [
+            "R. Bush"
+        ],
+        "rawDate": "2017-09",
+        "status": "Best Current Practice",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8208": {
+        "rfcNumber": "RFC8208",
+        "href": "https://tools.ietf.org/html/rfc8208",
+        "title": "BGPsec Algorithms, Key Formats, and Signature Formats",
+        "authors": [
+            "S. Turner",
+            "O. Borchert"
+        ],
+        "rawDate": "2017-09",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC7935"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8209": {
+        "rfcNumber": "RFC8209",
+        "href": "https://tools.ietf.org/html/rfc8209",
+        "title": "A Profile for BGPsec Router Certificates, Certificate Revocation Lists, and Certification Requests",
+        "authors": [
+            "M. Reynolds",
+            "S. Turner",
+            "S. Kent"
+        ],
+        "rawDate": "2017-09",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC6487"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc821": {
         "aliasOf": "rfc0821"
+    },
+    "rfc8210": {
+        "rfcNumber": "RFC8210",
+        "href": "https://tools.ietf.org/html/rfc8210",
+        "title": "The Resource Public Key Infrastructure (RPKI) to Router Protocol, Version 1",
+        "authors": [
+            "R. Bush",
+            "R. Austein"
+        ],
+        "rawDate": "2017-09",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC6810"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8211": {
+        "rfcNumber": "RFC8211",
+        "href": "https://tools.ietf.org/html/rfc8211",
+        "title": "Adverse Actions by a Certification Authority (CA) or Repository Manager in the Resource Public Key Infrastructure (RPKI)",
+        "authors": [
+            "S. Kent",
+            "D. Ma"
+        ],
+        "rawDate": "2017-09",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc8212": {
         "rfcNumber": "RFC8212",
