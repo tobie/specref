@@ -95545,7 +95545,8 @@
             "RFC7455",
             "RFC7780",
             "RFC7783",
-            "RFC8139"
+            "RFC8139",
+            "RFC8249"
         ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=6325",
         "publisher": "IETF",
@@ -108453,7 +108454,8 @@
         "status": "Proposed Standard",
         "updatedBy": [
             "RFC7780",
-            "RFC8139"
+            "RFC8139",
+            "RFC8249"
         ],
         "updates": [
             "RFC6325"
@@ -117867,6 +117869,9 @@
         ],
         "rawDate": "2016-02",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC8249"
+        ],
         "updates": [
             "RFC6325",
             "RFC7177",
@@ -124933,8 +124938,43 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8249": {
+        "rfcNumber": "RFC8249",
+        "href": "https://tools.ietf.org/html/rfc8249",
+        "title": "Transparent Interconnection of Lots of Links (TRILL): MTU Negotiation",
+        "authors": [
+            "M. Zhang",
+            "X. Zhang",
+            "D. Eastlake 3rd",
+            "R. Perlman",
+            "S. Chatterjee"
+        ],
+        "rawDate": "2017-09",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC6325",
+            "RFC7177",
+            "RFC7780"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc825": {
         "aliasOf": "rfc0825"
+    },
+    "rfc8250": {
+        "rfcNumber": "RFC8250",
+        "href": "https://tools.ietf.org/html/rfc8250",
+        "title": "IPv6 Performance and Diagnostic Metrics (PDM) Destination Option",
+        "authors": [
+            "N. Elkins",
+            "R. Hamilton",
+            "M. Ackermann"
+        ],
+        "rawDate": "2017-09",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc826": {
         "aliasOf": "rfc0826"
