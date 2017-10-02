@@ -57,7 +57,7 @@ request({
         console.log("Can't fetch", REF_URL + ".");
         return;
     }
-    
+
     console.log("Parsing", REF_URL + "...");
     parse(body).forEach(function(o) {
         var id = CURRENT[o.id] || o.id;
