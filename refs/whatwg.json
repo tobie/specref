@@ -180,7 +180,7 @@
         "source": "https://resources.whatwg.org/biblio.json"
     },
     "SNIFF": {
-        "aliasOf": "WHATWG-MIMESNIFF"
+        "aliasOf": "MIMESNIFF"
     },
     "STORAGE": {
         "authors": [
@@ -257,7 +257,7 @@
         "aliasOf": "LOADER"
     },
     "WHATWG-MEDIASESSION": {
-        "aliasOf": "MEDIASESSION"
+        "obsoletedBy": "MEDIASESSION"
     },
     "WHATWG-MIMESNIFF": {
         "aliasOf": "MIMESNIFF"
@@ -293,7 +293,7 @@
     "meta-theme-color": {
         "href": "https://github.com/whatwg/meta-theme-color",
         "publisher": "WHATWG",
-        "status": "Living Standard",
+        "status": "Living Idea",
         "title": "The 'theme-color' meta extension",
         "obsoletedBy": [
             "HTML"
