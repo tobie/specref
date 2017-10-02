@@ -355,7 +355,7 @@
         "authors": [
             "R. Tibbett"
         ],
-        "href": "http://dev.w3.org/2009/dap/contacts/Writer.html",
+        "href": "https://dev.w3.org/2009/dap/contacts/Writer.html",
         "title": "Contacts Writer API",
         "date": "3 August 2010",
         "status": "ED",
@@ -1327,7 +1327,7 @@
             "Silvia Pfeiffer",
             "Bob Lund"
         ],
-        "href": "http://dev.w3.org/html5/html-sourcing-inband-tracks/",
+        "href": "https://dev.w3.org/html5/html-sourcing-inband-tracks/",
         "title": "Sourcing In-band Media Resource Tracks from Media Containers into HTML",
         "date": "26 April 2015",
         "status": "Unofficial Draft",
@@ -1548,11 +1548,14 @@
             "Ilkka Oksanen",
             "Ingmar Kliche"
         ],
-        "href": "http://dev.w3.org/2009/dap/camera/Overview-API.html",
+        "href": "https://dev.w3.org/2009/dap/camera/Overview-API.html",
         "title": "The Media Capture API",
         "date": "3 September 2010",
         "status": "ED",
-        "publisher": "W3C"
+        "publisher": "W3C",
+        "obsoletedBy": [
+            "mediacapture-streams"
+        ]
     },
     "MEDIAONT": {
         "aliasOf": "mediaont-10"
