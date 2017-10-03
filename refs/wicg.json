@@ -6,6 +6,13 @@
         "publisher": "WICG",
         "source": "https://wicg.github.io/admin/biblio.json"
     },
+    "MEDIA-CAPABILITIES": {
+        "href": "https://wicg.github.io/media-capabilities/",
+        "title": "Media Capabilities",
+        "status": "Living Standard",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json"
+    },
     "MEDIASESSION": {
         "href": "https://wicg.github.io/mediasession/",
         "title": "Media Session",
@@ -13,9 +20,23 @@
         "publisher": "WICG",
         "source": "https://wicg.github.io/admin/biblio.json"
     },
+    "NETINFO": {
+        "href": "https://wicg.github.io/netinfo/",
+        "title": "Network Information API",
+        "status": "Living Standard",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json"
+    },
     "WEB-BACKGROUND-SYNC": {
         "href": "https://wicg.github.io/BackgroundSync/spec/",
         "title": "Web Background Synchronization",
+        "status": "Living Standard",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json"
+    },
+    "WEB-SHARE": {
+        "href": "https://wicg.github.io/web-share/",
+        "title": "Web Share API",
         "status": "Living Standard",
         "publisher": "WICG",
         "source": "https://wicg.github.io/admin/biblio.json"
@@ -30,11 +51,20 @@
     "WICG-FEATURE-POLICY": {
         "aliasOf": "FEATURE-POLICY"
     },
+    "WICG-MEDIA-CAPABILITIES": {
+        "aliasOf": "MEDIA-CAPABILITIES"
+    },
     "WICG-MEDIASESSION": {
         "aliasOf": "MEDIASESSION"
     },
+    "WICG-NETINFO": {
+        "aliasOf": "NETINFO"
+    },
     "WICG-WEB-BACKGROUND-SYNC": {
         "aliasOf": "WEB-BACKGROUND-SYNC"
+    },
+    "WICG-WEB-SHARE": {
+        "aliasOf": "WEB-SHARE"
     },
     "WICG-WEBUSB": {
         "aliasOf": "WEBUSB"
