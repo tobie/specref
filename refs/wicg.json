@@ -1,4 +1,18 @@
 {
+    "BACKGROUND-FETCH": {
+        "href": "https://wicg.github.io/background-fetch/",
+        "title": "Background Fetch",
+        "status": "Living Standard",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json"
+    },
+    "ENTRIES-API": {
+        "href": "https://wicg.github.io/entries-api/",
+        "title": "File and Directory Entries API",
+        "status": "Living Standard",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json"
+    },
     "FEATURE-POLICY": {
         "href": "https://wicg.github.io/feature-policy/",
         "title": "Feature Policy",
@@ -27,6 +41,13 @@
         "publisher": "WICG",
         "source": "https://wicg.github.io/admin/biblio.json"
     },
+    "RESIZE-OBSERVER": {
+        "href": "https://wicg.github.io/ResizeObserver/",
+        "title": "Resize Observer",
+        "status": "Living Standard",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json"
+    },
     "WEB-BACKGROUND-SYNC": {
         "href": "https://wicg.github.io/BackgroundSync/spec/",
         "title": "Web Background Synchronization",
@@ -48,6 +69,12 @@
         "publisher": "WICG",
         "source": "https://wicg.github.io/admin/biblio.json"
     },
+    "WICG-BACKGROUND-FETCH": {
+        "aliasOf": "BACKGROUND-FETCH"
+    },
+    "WICG-ENTRIES-API": {
+        "aliasOf": "ENTRIES-API"
+    },
     "WICG-FEATURE-POLICY": {
         "aliasOf": "FEATURE-POLICY"
     },
@@ -59,6 +86,9 @@
     },
     "WICG-NETINFO": {
         "aliasOf": "NETINFO"
+    },
+    "WICG-RESIZE-OBSERVER": {
+        "aliasOf": "RESIZE-OBSERVER"
     },
     "WICG-WEB-BACKGROUND-SYNC": {
         "aliasOf": "WEB-BACKGROUND-SYNC"

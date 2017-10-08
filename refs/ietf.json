@@ -54833,6 +54833,7 @@
         ],
         "rawDate": "2003-10",
         "status": "Proposed Standard",
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=3642",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -56444,6 +56445,7 @@
         "obsoletes": [
             "RFC2284"
         ],
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=3748",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -101900,6 +101902,9 @@
         ],
         "rawDate": "2012-10",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC8252"
+        ],
         "obsoletes": [
             "RFC5849"
         ],
@@ -110513,6 +110518,7 @@
         ],
         "rawDate": "2014-07",
         "status": "Proposed Standard",
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=7307",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -114494,6 +114500,9 @@
         ],
         "rawDate": "2015-05",
         "status": "Proposed Standard",
+        "obsoletedBy": [
+            "RFC8264"
+        ],
         "obsoletes": [
             "RFC3454"
         ],
@@ -115286,6 +115295,9 @@
         ],
         "rawDate": "2015-08",
         "status": "Proposed Standard",
+        "obsoletedBy": [
+            "RFC8265"
+        ],
         "obsoletes": [
             "RFC4013"
         ],
@@ -116559,6 +116571,7 @@
         ],
         "rawDate": "2015-11",
         "status": "Best Current Practice",
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=7696",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -116631,6 +116644,9 @@
         ],
         "rawDate": "2015-12",
         "status": "Proposed Standard",
+        "obsoletedBy": [
+            "RFC8266"
+        ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=7700",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -124976,8 +124992,71 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8252": {
+        "rfcNumber": "RFC8252",
+        "href": "https://tools.ietf.org/html/rfc8252",
+        "title": "OAuth 2.0 for Native Apps",
+        "authors": [
+            "W. Denniss",
+            "J. Bradley"
+        ],
+        "rawDate": "2017-10",
+        "status": "Best Current Practice",
+        "updates": [
+            "RFC6749"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc826": {
         "aliasOf": "rfc0826"
+    },
+    "rfc8264": {
+        "rfcNumber": "RFC8264",
+        "href": "https://tools.ietf.org/html/rfc8264",
+        "title": "PRECIS Framework: Preparation, Enforcement, and Comparison of Internationalized Strings in Application Protocols",
+        "authors": [
+            "P. Saint-Andre",
+            "M. Blanchet"
+        ],
+        "rawDate": "2017-10",
+        "status": "Proposed Standard",
+        "obsoletes": [
+            "RFC7564"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8265": {
+        "rfcNumber": "RFC8265",
+        "href": "https://tools.ietf.org/html/rfc8265",
+        "title": "Preparation, Enforcement, and Comparison of Internationalized Strings Representing Usernames and Passwords",
+        "authors": [
+            "P. Saint-Andre",
+            "A. Melnikov"
+        ],
+        "rawDate": "2017-10",
+        "status": "Proposed Standard",
+        "obsoletes": [
+            "RFC7613"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8266": {
+        "rfcNumber": "RFC8266",
+        "href": "https://tools.ietf.org/html/rfc8266",
+        "title": "Preparation, Enforcement, and Comparison of Internationalized Strings Representing Nicknames",
+        "authors": [
+            "P. Saint-Andre"
+        ],
+        "rawDate": "2017-10",
+        "status": "Proposed Standard",
+        "obsoletes": [
+            "RFC7700"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc827": {
         "aliasOf": "rfc0827"
