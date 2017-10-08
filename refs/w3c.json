@@ -18978,6 +18978,91 @@
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
         "isRetired": true
     },
+    "css-multicol-1": {
+        "authors": [
+            "Håkon Wium Lie",
+            "Florian Rivoal",
+            "Rachel Andrew"
+        ],
+        "href": "https://www.w3.org/TR/css-multicol-1/",
+        "title": "CSS Multi-column Layout Module Level 1",
+        "rawDate": "2017-10-05",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://drafts.csswg.org/css-multicol/",
+        "deliveredBy": [
+            "https://www.w3.org/Style/CSS/members"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "19990623": {
+                "status": "WD",
+                "rawDate": "1999-06-23",
+                "href": "https://www.w3.org/1999/06/WD-css3-multicol-19990623",
+                "source": "./data/w3c-specs.txt"
+            },
+            "20010118": {
+                "status": "WD",
+                "rawDate": "2001-01-18",
+                "href": "https://www.w3.org/TR/2001/WD-css3-multicol-20010118/",
+                "source": "./data/w3c-specs.txt"
+            },
+            "20051215": {
+                "status": "WD",
+                "rawDate": "2005-12-15",
+                "href": "https://www.w3.org/TR/2005/WD-css3-multicol-20051215",
+                "source": "./data/w3c-specs.txt"
+            },
+            "20070606": {
+                "status": "WD",
+                "rawDate": "2007-06-06",
+                "href": "https://www.w3.org/TR/2007/WD-css3-multicol-20070606",
+                "source": "./data/w3c-specs.txt"
+            },
+            "20090630": {
+                "status": "WD",
+                "rawDate": "2009-06-30",
+                "href": "https://www.w3.org/TR/2009/WD-css3-multicol-20090630/",
+                "source": "./data/w3c-specs.txt"
+            },
+            "20091217": {
+                "status": "CR",
+                "rawDate": "2009-12-17",
+                "href": "https://www.w3.org/TR/2009/CR-css3-multicol-20091217",
+                "source": "./data/w3c-specs.txt"
+            },
+            "20110412": {
+                "authors": [
+                    "Håkon Wium Lie"
+                ],
+                "href": "https://www.w3.org/TR/2011/CR-css3-multicol-20110412",
+                "title": "CSS Multi-column Layout Module",
+                "rawDate": "2011-04-12",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Style/CSS/members"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20171005": {
+                "authors": [
+                    "Håkon Wium Lie",
+                    "Florian Rivoal",
+                    "Rachel Andrew"
+                ],
+                "href": "https://www.w3.org/TR/2017/WD-css-multicol-1-20171005/",
+                "title": "CSS Multi-column Layout Module Level 1",
+                "rawDate": "2017-10-05",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Style/CSS/members"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
     "css-namespaces-3": {
         "authors": [
             "Elika Etemad"
@@ -22235,71 +22320,7 @@
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
     "css3-multicol": {
-        "authors": [
-            "Håkon Wium Lie"
-        ],
-        "href": "https://www.w3.org/TR/css3-multicol",
-        "title": "CSS Multi-column Layout Module",
-        "rawDate": "2011-04-12",
-        "status": "CR",
-        "publisher": "W3C",
-        "deliveredBy": [
-            "https://www.w3.org/Style/CSS/members"
-        ],
-        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
-        "versions": {
-            "19990623": {
-                "status": "WD",
-                "rawDate": "1999-06-23",
-                "href": "https://www.w3.org/1999/06/WD-css3-multicol-19990623",
-                "source": "./data/w3c-specs.txt"
-            },
-            "20010118": {
-                "status": "WD",
-                "rawDate": "2001-01-18",
-                "href": "https://www.w3.org/TR/2001/WD-css3-multicol-20010118/",
-                "source": "./data/w3c-specs.txt"
-            },
-            "20051215": {
-                "status": "WD",
-                "rawDate": "2005-12-15",
-                "href": "https://www.w3.org/TR/2005/WD-css3-multicol-20051215",
-                "source": "./data/w3c-specs.txt"
-            },
-            "20070606": {
-                "status": "WD",
-                "rawDate": "2007-06-06",
-                "href": "https://www.w3.org/TR/2007/WD-css3-multicol-20070606",
-                "source": "./data/w3c-specs.txt"
-            },
-            "20090630": {
-                "status": "WD",
-                "rawDate": "2009-06-30",
-                "href": "https://www.w3.org/TR/2009/WD-css3-multicol-20090630/",
-                "source": "./data/w3c-specs.txt"
-            },
-            "20091217": {
-                "status": "CR",
-                "rawDate": "2009-12-17",
-                "href": "https://www.w3.org/TR/2009/CR-css3-multicol-20091217",
-                "source": "./data/w3c-specs.txt"
-            },
-            "20110412": {
-                "authors": [
-                    "Håkon Wium Lie"
-                ],
-                "href": "https://www.w3.org/TR/2011/CR-css3-multicol-20110412",
-                "title": "CSS Multi-column Layout Module",
-                "rawDate": "2011-04-12",
-                "status": "CR",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/Style/CSS/members"
-                ],
-                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
-            }
-        },
-        "edDraft": "https://drafts.csswg.org/css-multicol-1/"
+        "aliasOf": "css-multicol-1"
     },
     "css3-namespace": {
         "aliasOf": "css-namespaces-3"
