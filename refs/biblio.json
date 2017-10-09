@@ -76,7 +76,8 @@
         "authors": [
             "Domenic Denicola"
         ],
-        "rawDate": "2015-12-29"
+        "rawDate": "2015-12-29",
+        "repository": "https://github.com/w3ctag/design-principles"
     },
     "APNG": {
         "authors": [
@@ -234,7 +235,8 @@
         "href": "https://github.com/mozilla/id-specs/blob/prod/browserid/index.md",
         "title": "BrowserID",
         "date": "26 February 2013",
-        "publisher": "Mozilla"
+        "publisher": "Mozilla",
+        "repository": "https://github.com/mozilla/id-specs"
     },
     "C14N2-TestCases": {
         "aliasOf": "xml-c14n2-testcases"
@@ -526,7 +528,8 @@
         "title": "CSS3 Tables Module",
         "date": "13 November 2012",
         "status": "ED",
-        "publisher": "W3C"
+        "publisher": "W3C",
+        "repository": "https://github.com/w3c/csswg-drafts"
     },
     "CSS3TEXT": {
         "aliasOf": "css3-text"
@@ -557,7 +560,8 @@
         "title": "CSS Writing Modes Module Level 3",
         "date": "17 October 2010",
         "status": "ED",
-        "publisher": "W3C"
+        "publisher": "W3C",
+        "repository": "https://github.com/w3c/csswg-drafts"
     },
     "CSSBEIJING": {
         "aliasOf": "css-beijing"
@@ -958,7 +962,8 @@
     "ECMA-402": {
         "href": "https://tc39.github.io/ecma402/",
         "publisher": "Ecma International",
-        "title": "ECMAScript Internationalization API Specification"
+        "title": "ECMAScript Internationalization API Specification",
+        "repository": "https://github.com/tc39/ecma402"
     },
     "ECMA-404": {
         "date": "1 October 2013",
@@ -1001,7 +1006,8 @@
                 "status": "Standard",
                 "title": "ECMAScript Language Specification, Edition 5.1"
             }
-        }
+        },
+        "repository": "https://github.com/tc39/ecma262"
     },
     "ECMASCRIPT-I18N": {
         "aliasOf": "ECMA-402"
@@ -1226,7 +1232,8 @@
         "title": "GraphQL",
         "href": "https://facebook.github.io/graphql/",
         "rawDate": "2015-07",
-        "status": "Working Draft"
+        "status": "Working Draft",
+        "repository": "https://github.com/facebook/graphql"
     },
     "HIGHRES-TIME": {
         "aliasOf": "hr-time-2"
@@ -1263,7 +1270,8 @@
         "title": "HTML Extension Specifications",
         "date": "3 May 2017",
         "status": "ED",
-        "publisher": "W3C"
+        "publisher": "W3C",
+        "repository": "https://github.com/w3c/html-extensions"
     },
     "HTMLMEDIACAPTURE": {
         "aliasOf": "html-media-capture"
@@ -2915,7 +2923,8 @@
         "title": "Browser Extensions",
         "rawDate": "2016-10",
         "publisher": "W3C",
-        "status": "Draft Community Group Report"
+        "status": "Draft Community Group Report",
+        "repository": "https://github.com/browserext/browserext"
     },
     "browserext-native": {
         "authors": [
@@ -2926,7 +2935,8 @@
         "title": "Native Messaging for Browser Extensions",
         "rawDate": "2016-10",
         "publisher": "W3C",
-        "status": "Draft Community Group Report"
+        "status": "Draft Community Group Report",
+        "repository": "https://github.com/browserext/native-messaging"
     },
     "datacite": {
         "authors": [
@@ -3918,7 +3928,8 @@
             "Domenic Denicola",
             "Zach Koch"
         ],
-        "rawDate": "2017-05-30"
+        "rawDate": "2017-05-30",
+        "repository": "https://github.com/w3c/payment-method-manifest"
     },
     "plus": {
         "authors": [
@@ -4173,7 +4184,8 @@
         "deliveredBy": [
             "https://www.w3.org/community/web-bluetooth/"
         ],
-        "publisher": "W3C Web Bluetooth Community Group"
+        "publisher": "W3C Web Bluetooth Community Group",
+        "repository": "https://github.com/webbluetoothcg/web-bluetooth"
     },
     "xfn": {
         "href": "http://www.gmpg.org/xfn/",

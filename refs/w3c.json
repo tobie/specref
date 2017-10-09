@@ -1241,7 +1241,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/webappsec-cowl"
     },
     "CSP": {
         "aliasOf": "CSP3"
@@ -1465,7 +1466,8 @@
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "hasErrata": "https://github.com/w3c/webappsec-csp/issues"
+        "hasErrata": "https://github.com/w3c/webappsec-csp/issues",
+        "repository": "https://github.com/w3c/webappsec-csp"
     },
     "CSP3": {
         "authors": [
@@ -1565,7 +1567,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/webappsec-csp"
     },
     "CSS-access": {
         "versions": {
@@ -1950,7 +1953,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/csswg-drafts"
     },
     "CX": {
         "authors": [
@@ -3157,7 +3161,8 @@
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "https://w3c.github.io/DOM-Parsing/"
+        "edDraft": "https://w3c.github.io/DOM-Parsing/",
+        "repository": "https://github.com/w3c/DOM-Parsing"
     },
     "DOM-Requirements": {
         "authors": [
@@ -3920,7 +3925,8 @@
         },
         "rawDate": "2015-04-21",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
-        "edDraft": "https://w3c.github.io/FileAPI/"
+        "edDraft": "https://w3c.github.io/FileAPI/",
+        "repository": "https://github.com/w3c/FileAPI"
     },
     "HGML": {
         "versions": {
@@ -4621,7 +4627,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/IndexedDB"
     },
     "InkML": {
         "authors": [
@@ -6464,7 +6471,8 @@
             }
         },
         "edDraft": "https://w3c.github.io/webappsec-subresource-integrity/",
-        "hasErrata": "https://www.w3.org/2016/SRI-errata.html"
+        "hasErrata": "https://www.w3.org/2016/SRI-errata.html",
+        "repository": "https://github.com/w3c/webappsec-subresource-integrity"
     },
     "SRML": {
         "versions": {
@@ -7066,7 +7074,8 @@
         },
         "rawDate": "2016-09-15",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
-        "edDraft": "https://svgwg.org/svg2-draft/"
+        "edDraft": "https://svgwg.org/svg2-draft/",
+        "repository": "https://github.com/w3c/svgwg"
     },
     "SVG2Reqs": {
         "authors": [
@@ -8493,7 +8502,8 @@
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "https://w3c.github.io/webappsec-uisecurity/index.html"
+        "edDraft": "https://w3c.github.io/webappsec-uisecurity/index.html",
+        "repository": "https://github.com/w3c/webappsec-uisecurity"
     },
     "UMP": {
         "authors": [
@@ -9685,7 +9695,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/wcag21"
     },
     "WD-charreq": {
         "aliasOf": "charreq"
@@ -10253,7 +10264,8 @@
             }
         },
         "edDraft": "https://w3c.github.io/webcrypto/Overview.html",
-        "hasErrata": "https://w3c.github.io/webcrypto/errata.html"
+        "hasErrata": "https://w3c.github.io/webcrypto/errata.html",
+        "repository": "https://github.com/w3c/webcrypto"
     },
     "WebIDL": {
         "authors": [
@@ -10417,7 +10429,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/heycam/webidl"
     },
     "WebIDL-1": {
         "aliasOf": "WebIDL-20161215"
@@ -10835,7 +10848,8 @@
             "XMLHttpRequest2",
             "XMLHttpRequest1"
         ],
-        "isRetired": true
+        "isRetired": true,
+        "repository": "https://github.com/whatwg/xhr"
     },
     "XMLHttpRequest1": {
         "authors": [
@@ -11127,7 +11141,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/accelerometer"
     },
     "accessibility-metrics-report": {
         "authors": [
@@ -11249,7 +11264,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/aria"
     },
     "acdi": {
         "authors": [
@@ -11365,7 +11381,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/wcag-act"
     },
     "activitypub": {
         "authors": [
@@ -11529,7 +11546,8 @@
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "https://w3c.github.io/activitypub/"
+        "edDraft": "https://w3c.github.io/activitypub/",
+        "repository": "https://github.com/w3c/activitypub"
     },
     "activitystreams-core": {
         "authors": [
@@ -11713,7 +11731,8 @@
                 "hasErrata": "https://github.com/w3c/activitystreams/blob/master/ERRATA.md"
             }
         },
-        "hasErrata": "https://github.com/w3c/activitystreams/blob/master/ERRATA.md"
+        "hasErrata": "https://github.com/w3c/activitystreams/blob/master/ERRATA.md",
+        "repository": "https://github.com/w3c/activitystreams"
     },
     "activitystreams-vocabulary": {
         "authors": [
@@ -11897,7 +11916,8 @@
                 "hasErrata": "https://github.com/w3c/activitystreams/blob/master/ERRATA.md"
             }
         },
-        "hasErrata": "https://github.com/w3c/activitystreams/blob/master/ERRATA.md"
+        "hasErrata": "https://github.com/w3c/activitystreams/blob/master/ERRATA.md",
+        "repository": "https://github.com/w3c/activitystreams"
     },
     "agent-attributes": {
         "versions": {
@@ -12072,7 +12092,8 @@
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "https://w3c.github.io/ambient-light/"
+        "edDraft": "https://w3c.github.io/ambient-light/",
+        "repository": "https://github.com/w3c/ambient-light"
     },
     "animation-timing": {
         "authors": [
@@ -12143,7 +12164,8 @@
         "rawDate": "2015-09-22",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
         "edDraft": "https://w3c.github.io/animation-timing/",
-        "isRetired": true
+        "isRetired": true,
+        "repository": "https://github.com/w3c/animation-timing"
     },
     "annot": {
         "versions": {
@@ -12196,7 +12218,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/web-annotation"
     },
     "annotation-model": {
         "authors": [
@@ -12344,7 +12367,8 @@
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "hasErrata": "https://www.w3.org/annotation/errata/"
+        "hasErrata": "https://www.w3.org/annotation/errata/",
+        "repository": "https://github.com/w3c/web-annotation"
     },
     "annotation-protocol": {
         "authors": [
@@ -12447,7 +12471,8 @@
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "hasErrata": "https://www.w3.org/annotation/errata/"
+        "hasErrata": "https://www.w3.org/annotation/errata/",
+        "repository": "https://github.com/w3c/web-annotation"
     },
     "annotation-vocab": {
         "authors": [
@@ -12564,7 +12589,8 @@
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "hasErrata": "https://www.w3.org/annotation/errata/"
+        "hasErrata": "https://www.w3.org/annotation/errata/",
+        "repository": "https://github.com/w3c/web-annotation"
     },
     "api-design": {
         "authors": [
@@ -14154,7 +14180,8 @@
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "https://w3c.github.io/manifest/"
+        "edDraft": "https://w3c.github.io/manifest/",
+        "repository": "https://github.com/w3c/manifest"
     },
     "arabic-math": {
         "authors": [
@@ -14323,7 +14350,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/mediacapture-output"
     },
     "audioproc": {
         "authors": [
@@ -14529,7 +14557,8 @@
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "https://w3c.github.io/battery/"
+        "edDraft": "https://w3c.github.io/battery/",
+        "repository": "https://github.com/w3c/battery"
     },
     "beacon": {
         "authors": [
@@ -14912,7 +14941,8 @@
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "https://w3c.github.io/beacon/"
+        "edDraft": "https://w3c.github.io/beacon/",
+        "repository": "https://github.com/w3c/beacon"
     },
     "becss": {
         "authors": [
@@ -15082,7 +15112,8 @@
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "https://w3ctag.github.io/capability-urls/"
+        "edDraft": "https://w3ctag.github.io/capability-urls/",
+        "repository": "https://github.com/w3ctag/capability-urls"
     },
     "capture-api": {
         "aliasOf": "html-media-capture"
@@ -15447,7 +15478,8 @@
         },
         "rawDate": "2016-04-07",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
-        "edDraft": "https://w3c.github.io/charmod-norm/"
+        "edDraft": "https://w3c.github.io/charmod-norm/",
+        "repository": "https://github.com/w3c/charmod-norm"
     },
     "charmod-resid": {
         "authors": [
@@ -15564,7 +15596,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/webappsec-clear-site-data"
     },
     "clipboard-apis": {
         "authors": [
@@ -15743,7 +15776,8 @@
         },
         "rawDate": "2017-09-29",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
-        "edDraft": "https://w3c.github.io/clipboard-apis/"
+        "edDraft": "https://w3c.github.io/clipboard-apis/",
+        "repository": "https://github.com/w3c/clipboard-apis"
     },
     "cloud-browser-arch": {
         "authors": [
@@ -15776,7 +15810,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/Web-and-TV-IG"
     },
     "clreq": {
         "authors": [
@@ -15854,7 +15889,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/clreq"
     },
     "coga-user-research": {
         "authors": [
@@ -15889,7 +15925,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/coga"
     },
     "components-intro": {
         "authors": [
@@ -15951,7 +15988,8 @@
             }
         },
         "edDraft": "https://w3c.github.io/webcomponents/explainer/",
-        "isRetired": true
+        "isRetired": true,
+        "repository": "https://github.com/w3c/webcomponents"
     },
     "compositing": {
         "aliasOf": "compositing-1"
@@ -16396,7 +16434,8 @@
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "https://w3c.github.io/aria/core-aam/core-aam.html"
+        "edDraft": "https://w3c.github.io/aria/core-aam/core-aam.html",
+        "repository": "https://github.com/w3c/aria"
     },
     "cors": {
         "authors": [
@@ -16522,7 +16561,8 @@
             "Jon Blower",
             "Maik Riechert",
             "Bill Roberts"
-        ]
+        ],
+        "repository": "https://github.com/w3c/sdw"
     },
     "cpc-req": {
         "authors": [
@@ -16614,7 +16654,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/webappsec-credential-management"
     },
     "cselection": {
         "authors": [
@@ -16811,7 +16852,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/webappsec-csp"
     },
     "csp-embedded-enforcement": {
         "authors": [
@@ -16853,7 +16895,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/webappsec-csp"
     },
     "csp-pinning": {
         "authors": [
@@ -16898,7 +16941,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/webappsec-csp"
     },
     "css-2010": {
         "authors": [
@@ -16969,7 +17013,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/csswg-drafts"
     },
     "css-2017": {
         "authors": [
@@ -17004,7 +17049,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/csswg-drafts"
     },
     "css-align-3": {
         "authors": [
@@ -17159,7 +17205,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/csswg-drafts"
     },
     "css-beijing": {
         "authors": [
@@ -17309,7 +17356,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/csswg-drafts"
     },
     "css-cascade-3": {
         "authors": [
@@ -17423,7 +17471,8 @@
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "https://drafts.csswg.org/css-cascade-3/"
+        "edDraft": "https://drafts.csswg.org/css-cascade-3/",
+        "repository": "https://github.com/w3c/csswg-drafts"
     },
     "css-cascade-4": {
         "authors": [
@@ -17486,7 +17535,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/csswg-drafts"
     },
     "css-color-4": {
         "authors": [
@@ -17519,7 +17569,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/csswg-drafts"
     },
     "css-contain-1": {
         "authors": [
@@ -17581,7 +17632,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/csswg-drafts"
     },
     "css-content-3": {
         "authors": [
@@ -17628,7 +17680,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/csswg-drafts"
     },
     "css-counter-styles-3": {
         "authors": [
@@ -17721,7 +17774,8 @@
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "http://dev.w3.org/csswg/css-counter-styles/"
+        "edDraft": "http://dev.w3.org/csswg/css-counter-styles/",
+        "repository": "https://github.com/w3c/csswg-drafts"
     },
     "css-device-adapt": {
         "aliasOf": "css-device-adapt-1"
@@ -17789,7 +17843,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/csswg-drafts"
     },
     "css-display-3": {
         "authors": [
@@ -17893,7 +17948,8 @@
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "https://drafts.csswg.org/css-display/"
+        "edDraft": "https://drafts.csswg.org/css-display/",
+        "repository": "https://github.com/w3c/csswg-drafts"
     },
     "css-flexbox-1": {
         "authors": [
@@ -18038,7 +18094,8 @@
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "https://drafts.csswg.org/css-flexbox/"
+        "edDraft": "https://drafts.csswg.org/css-flexbox/",
+        "repository": "https://github.com/w3c/csswg-drafts"
     },
     "css-font-loading-3": {
         "authors": [
@@ -18083,7 +18140,8 @@
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "http://dev.w3.org/csswg/css-font-loading/"
+        "edDraft": "http://dev.w3.org/csswg/css-font-loading/",
+        "repository": "https://github.com/w3c/csswg-drafts"
     },
     "css-fonts-3": {
         "authors": [
@@ -18184,7 +18242,8 @@
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "http://dev.w3.org/csswg/css-fonts/"
+        "edDraft": "http://dev.w3.org/csswg/css-fonts/",
+        "repository": "https://github.com/w3c/csswg-drafts"
     },
     "css-fonts-4": {
         "authors": [
@@ -18217,7 +18276,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/csswg-drafts"
     },
     "css-gcpm-3": {
         "authors": [
@@ -18292,7 +18352,8 @@
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "http://dev.w3.org/csswg/css-gcpm/"
+        "edDraft": "http://dev.w3.org/csswg/css-gcpm/",
+        "repository": "https://github.com/w3c/csswg-drafts"
     },
     "css-grid-1": {
         "authors": [
@@ -18508,7 +18569,8 @@
         "edDraft": "https://drafts.csswg.org/css-grid/",
         "obsoletes": [
             "css3-grid"
-        ]
+        ],
+        "repository": "https://github.com/w3c/csswg-drafts"
     },
     "css-images-4": {
         "authors": [
@@ -18558,7 +18620,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/csswg-drafts"
     },
     "css-inline-3": {
         "authors": [
@@ -18628,7 +18691,8 @@
         },
         "obsoletes": [
             "css3-linebox"
-        ]
+        ],
+        "repository": "https://github.com/w3c/csswg-drafts"
     },
     "css-line-grid-1": {
         "authors": [
@@ -18679,7 +18743,8 @@
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "http://dev.w3.org/csswg/css-line-grid/"
+        "edDraft": "http://dev.w3.org/csswg/css-line-grid/",
+        "repository": "https://github.com/w3c/csswg-drafts"
     },
     "css-lists-3": {
         "authors": [
@@ -18736,7 +18801,8 @@
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "http://dev.w3.org/csswg/css3-lists/"
+        "edDraft": "http://dev.w3.org/csswg/css3-lists/",
+        "repository": "https://github.com/w3c/csswg-drafts"
     },
     "css-logical-1": {
         "authors": [
@@ -18769,7 +18835,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/csswg-drafts"
     },
     "css-masking": {
         "aliasOf": "css-masking-1"
@@ -19061,7 +19128,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/csswg-drafts"
     },
     "css-namespaces-3": {
         "authors": [
@@ -19139,7 +19207,8 @@
             }
         },
         "edDraft": "http://dev.w3.org/csswg/css-namespaces/",
-        "hasErrata": "https://www.w3.org/Style/2011/REC-css3-color-20110607-errata.html"
+        "hasErrata": "https://www.w3.org/Style/2011/REC-css3-color-20110607-errata.html",
+        "repository": "https://github.com/w3c/csswg-drafts"
     },
     "css-overflow-3": {
         "authors": [
@@ -19186,7 +19255,8 @@
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "http://drafts.csswg.org/css-overflow/"
+        "edDraft": "http://drafts.csswg.org/css-overflow/",
+        "repository": "https://github.com/w3c/csswg-drafts"
     },
     "css-overflow-4": {
         "authors": [
@@ -19219,7 +19289,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/csswg-drafts"
     },
     "css-page-floats-3": {
         "authors": [
@@ -19250,7 +19321,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/csswg-drafts"
     },
     "css-paint-api-1": {
         "authors": [
@@ -19349,7 +19421,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/csswg-drafts"
     },
     "css-print": {
         "authors": [
@@ -19499,7 +19572,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/csswg-drafts"
     },
     "css-regions-1": {
         "authors": [
@@ -19594,7 +19668,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/csswg-drafts"
     },
     "css-rhythm-1": {
         "authors": [
@@ -19627,7 +19702,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/csswg-drafts"
     },
     "css-round-display-1": {
         "authors": [
@@ -19688,7 +19764,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/csswg-drafts"
     },
     "css-ruby-1": {
         "authors": [
@@ -19769,7 +19846,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/csswg-drafts"
     },
     "css-scoping-1": {
         "authors": [
@@ -19802,7 +19880,8 @@
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "http://dev.w3.org/csswg/css-scoping/"
+        "edDraft": "http://dev.w3.org/csswg/css-scoping/",
+        "repository": "https://github.com/w3c/csswg-drafts"
     },
     "css-scroll-snap-1": {
         "authors": [
@@ -19920,7 +19999,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/csswg-drafts"
     },
     "css-shapes-1": {
         "authors": [
@@ -20003,7 +20083,8 @@
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "http://dev.w3.org/csswg/css-shapes/"
+        "edDraft": "http://dev.w3.org/csswg/css-shapes/",
+        "repository": "https://github.com/w3c/csswg-drafts"
     },
     "css-sizing-3": {
         "authors": [
@@ -20079,7 +20160,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/csswg-drafts"
     },
     "css-snappoints-1": {
         "aliasOf": "css-scroll-snap-1"
@@ -20169,7 +20251,8 @@
         },
         "rawDate": "2013-11-07",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
-        "edDraft": "http://dev.w3.org/csswg/css-style-attr/"
+        "edDraft": "http://dev.w3.org/csswg/css-style-attr/",
+        "repository": "https://github.com/w3c/csswg-drafts"
     },
     "css-syntax-3": {
         "authors": [
@@ -20246,7 +20329,8 @@
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "http://dev.w3.org/csswg/css-syntax/"
+        "edDraft": "http://dev.w3.org/csswg/css-syntax/",
+        "repository": "https://github.com/w3c/csswg-drafts"
     },
     "css-tables-3": {
         "authors": [
@@ -20292,7 +20376,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/csswg-drafts"
     },
     "css-template-3": {
         "authors": [
@@ -20364,7 +20449,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/csswg-drafts"
     },
     "css-text-3": {
         "authors": [
@@ -20529,7 +20615,8 @@
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "https://drafts.csswg.org/css-text-3/"
+        "edDraft": "https://drafts.csswg.org/css-text-3/",
+        "repository": "https://github.com/w3c/csswg-drafts"
     },
     "css-text-4": {
         "authors": [
@@ -20564,7 +20651,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/csswg-drafts"
     },
     "css-text-decor-3": {
         "authors": [
@@ -20618,7 +20706,8 @@
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "http://dev.w3.org/csswg/css-text-decor-3/"
+        "edDraft": "http://dev.w3.org/csswg/css-text-decor-3/",
+        "repository": "https://github.com/w3c/csswg-drafts"
     },
     "css-timing-1": {
         "authors": [
@@ -20655,7 +20744,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/csswg-drafts"
     },
     "css-transforms-1": {
         "authors": [
@@ -20729,7 +20819,8 @@
         "obsoletes": [
             "css3-2d-transforms",
             "css3-3d-transforms"
-        ]
+        ],
+        "repository": "https://github.com/w3c/csswg-drafts"
     },
     "css-tv": {
         "authors": [
@@ -20993,7 +21084,8 @@
         },
         "obsoletes": [
             "css3-userint"
-        ]
+        ],
+        "repository": "https://github.com/w3c/csswg-drafts"
     },
     "css-ui-4": {
         "authors": [
@@ -21024,7 +21116,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/csswg-drafts"
     },
     "css-values": {
         "aliasOf": "css-values-3"
@@ -21143,7 +21236,8 @@
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "https://drafts.csswg.org/css-values/"
+        "edDraft": "https://drafts.csswg.org/css-values/",
+        "repository": "https://github.com/w3c/csswg-drafts"
     },
     "css-variables": {
         "aliasOf": "css-variables-1"
@@ -21224,7 +21318,8 @@
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "http://dev.w3.org/csswg/css-variables/"
+        "edDraft": "http://dev.w3.org/csswg/css-variables/",
+        "repository": "https://github.com/w3c/csswg-drafts"
     },
     "css-will-change-1": {
         "authors": [
@@ -21269,7 +21364,8 @@
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "http://dev.w3.org/csswg/css-will-change/"
+        "edDraft": "http://dev.w3.org/csswg/css-will-change/",
+        "repository": "https://github.com/w3c/csswg-drafts"
     },
     "css-writing-modes-3": {
         "authors": [
@@ -21398,7 +21494,8 @@
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "http://dev.w3.org/csswg/css-writing-modes-3/"
+        "edDraft": "http://dev.w3.org/csswg/css-writing-modes-3/",
+        "repository": "https://github.com/w3c/csswg-drafts"
     },
     "css3-2d-transforms": {
         "authors": [
@@ -21542,7 +21639,8 @@
         ],
         "rawDate": "2013-02-19",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
-        "edDraft": "https://drafts.csswg.org/css-animations-1/"
+        "edDraft": "https://drafts.csswg.org/css-animations-1/",
+        "repository": "https://github.com/w3c/csswg-drafts"
     },
     "css3-background": {
         "authors": [
@@ -21678,7 +21776,8 @@
         "edDraft": "http://dev.w3.org/csswg/css3-background/",
         "obsoletes": [
             "css3-border"
-        ]
+        ],
+        "repository": "https://github.com/w3c/csswg-drafts"
     },
     "css3-border": {
         "authors": [
@@ -21892,7 +21991,8 @@
         },
         "rawDate": "2013-04-04",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
-        "edDraft": "https://drafts.csswg.org/css-conditional-3/"
+        "edDraft": "https://drafts.csswg.org/css-conditional-3/",
+        "repository": "https://github.com/w3c/csswg-drafts"
     },
     "css3-content": {
         "aliasOf": "css-content-3"
@@ -21965,7 +22065,8 @@
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "http://dev.w3.org/csswg/css-exclusions/"
+        "edDraft": "http://dev.w3.org/csswg/css-exclusions/",
+        "repository": "https://github.com/w3c/csswg-drafts"
     },
     "css3-flexbox": {
         "aliasOf": "css-flexbox-1"
@@ -22396,7 +22497,8 @@
         },
         "rawDate": "2013-03-14",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
-        "edDraft": "https://drafts.csswg.org/css-page-3/"
+        "edDraft": "https://drafts.csswg.org/css-page-3/",
+        "repository": "https://github.com/w3c/csswg-drafts"
     },
     "css3-positioning": {
         "aliasOf": "css-position-3"
@@ -22647,7 +22749,8 @@
         "hasErrata": "https://www.w3.org/Style/2011/REC-css3-selectors-20110929-errata.html",
         "rawDate": "2011-09-29",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
-        "edDraft": "https://drafts.csswg.org/selectors-3/"
+        "edDraft": "https://drafts.csswg.org/selectors-3/",
+        "repository": "https://github.com/w3c/csswg-drafts"
     },
     "css3-sizing": {
         "aliasOf": "css-sizing-3"
@@ -22711,7 +22814,8 @@
         },
         "rawDate": "2012-03-20",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
-        "edDraft": "https://drafts.csswg.org/css-speech-1/"
+        "edDraft": "https://drafts.csswg.org/css-speech-1/",
+        "repository": "https://github.com/w3c/csswg-drafts"
     },
     "css3-syntax": {
         "aliasOf": "css-syntax-3"
@@ -22792,7 +22896,8 @@
         ],
         "rawDate": "2013-11-19",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
-        "edDraft": "http://dev.w3.org/csswg/css-transitions/"
+        "edDraft": "http://dev.w3.org/csswg/css-transitions/",
+        "repository": "https://github.com/w3c/csswg-drafts"
     },
     "css3-ui": {
         "aliasOf": "css-ui-3"
@@ -22911,7 +23016,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/csswg-drafts"
     },
     "cssom-view": {
         "aliasOf": "cssom-view-1"
@@ -22986,7 +23092,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/csswg-drafts"
     },
     "csv2json": {
         "authors": [
@@ -23079,7 +23186,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/csvw"
     },
     "csv2rdf": {
         "authors": [
@@ -23177,7 +23285,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/csvw"
     },
     "csvw-html": {
         "authors": [
@@ -23208,7 +23317,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/csvw"
     },
     "csvw-ucr": {
         "authors": [
@@ -23275,7 +23385,8 @@
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "https://w3c.github.io/csvw/use-cases-and-requirements/"
+        "edDraft": "https://w3c.github.io/csvw/use-cases-and-requirements/",
+        "repository": "https://github.com/w3c/csvw"
     },
     "ct-guidelines": {
         "authors": [
@@ -23605,7 +23716,8 @@
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "https://w3c.github.io/webcomponents/spec/custom/"
+        "edDraft": "https://w3c.github.io/webcomponents/spec/custom/",
+        "repository": "https://github.com/w3c/webcomponents"
     },
     "daml+oil-axioms": {
         "versions": {
@@ -24778,7 +24890,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/dom"
     },
     "domcore": {
         "aliasOf": "dom"
@@ -24884,7 +24997,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/aria"
     },
     "dpub-accessibility": {
         "authors": [
@@ -24917,7 +25031,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/dpub-accessibility"
     },
     "dpub-annotation-uc": {
         "authors": [
@@ -24962,7 +25077,8 @@
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "https://w3c.github.io/dpub-annotation/"
+        "edDraft": "https://w3c.github.io/dpub-annotation/",
+        "repository": "https://github.com/w3c/dpub-annotation"
     },
     "dpub-aria-1.0": {
         "authors": [
@@ -25050,7 +25166,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/aria"
     },
     "dpub-css-priorities": {
         "authors": [
@@ -25081,7 +25198,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/dpub-pagination"
     },
     "dpub-latinreq": {
         "authors": [
@@ -25126,7 +25244,8 @@
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "https://w3c.github.io/dpub-pagination/"
+        "edDraft": "https://w3c.github.io/dpub-pagination/",
+        "repository": "https://github.com/w3c/dpub-pagination"
     },
     "dpub-metadata": {
         "authors": [
@@ -25161,7 +25280,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/dpub-metadata"
     },
     "drawml": {
         "versions": {
@@ -25358,7 +25478,8 @@
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "hasErrata": "https://w3c.github.io/dwbp/errata.html"
+        "hasErrata": "https://w3c.github.io/dwbp/errata.html",
+        "repository": "https://github.com/w3c/dwbp"
     },
     "dwbp-ucr": {
         "authors": [
@@ -25424,7 +25545,8 @@
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "https://w3c.github.io/dwbp/usecasesv1.html"
+        "edDraft": "https://w3c.github.io/dwbp/usecasesv1.html",
+        "repository": "https://github.com/w3c/dwbp"
     },
     "edge-arch": {
         "versions": {
@@ -25544,7 +25666,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/elreq"
     },
     "eme-initdata-cenc": {
         "authors": [
@@ -25614,7 +25737,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/encrypted-media"
     },
     "eme-initdata-keyids": {
         "authors": [
@@ -25682,7 +25806,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/encrypted-media"
     },
     "eme-initdata-registry": {
         "authors": [
@@ -25750,7 +25875,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/encrypted-media"
     },
     "eme-initdata-webm": {
         "authors": [
@@ -25818,7 +25944,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/encrypted-media"
     },
     "eme-stream-mp4": {
         "authors": [
@@ -25888,7 +26015,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/encrypted-media"
     },
     "eme-stream-registry": {
         "authors": [
@@ -25956,7 +26084,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/encrypted-media"
     },
     "eme-stream-webm": {
         "authors": [
@@ -26024,7 +26153,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/encrypted-media"
     },
     "emma": {
         "authors": [
@@ -26222,7 +26352,8 @@
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "isRetired": true
+        "isRetired": true,
+        "repository": "https://github.com/w3c/emma"
     },
     "emotion-voc": {
         "authors": [
@@ -27226,7 +27357,8 @@
             }
         },
         "edDraft": "https://w3c.github.io/encrypted-media/",
-        "hasErrata": "https://github.com/w3c/encrypted-media/commits/V1/encrypted-media-respec.html"
+        "hasErrata": "https://github.com/w3c/encrypted-media/commits/V1/encrypted-media-respec.html",
+        "repository": "https://github.com/w3c/encrypted-media"
     },
     "eo-qb": {
         "authors": [
@@ -27277,7 +27409,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/sdw"
     },
     "epr": {
         "authors": [
@@ -27323,7 +27456,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/webappsec-epr"
     },
     "esi-invp": {
         "versions": {
@@ -28304,7 +28438,8 @@
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "isRetired": true
+        "isRetired": true,
+        "repository": "https://github.com/w3c/findtext"
     },
     "fingerprinting-guidance": {
         "authors": [
@@ -28765,7 +28900,8 @@
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "isRetired": true
+        "isRetired": true,
+        "repository": "https://github.com/w3c/frame-timing"
     },
     "framework-970706": {
         "versions": {
@@ -29115,7 +29251,8 @@
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "https://w3c.github.io/gamepad/"
+        "edDraft": "https://w3c.github.io/gamepad/",
+        "repository": "https://github.com/w3c/gamepad"
     },
     "gdiff": {
         "versions": {
@@ -29275,7 +29412,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/sensors"
     },
     "geofencing": {
         "authors": [
@@ -29322,7 +29460,8 @@
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "isRetired": true
+        "isRetired": true,
+        "repository": "https://github.com/w3c/geofencing-api"
     },
     "geolocation-API": {
         "authors": [
@@ -29624,7 +29763,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/aria"
     },
     "graphics-aria-1.0": {
         "authors": [
@@ -29675,7 +29815,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/aria"
     },
     "grddl": {
         "authors": [
@@ -29939,7 +30080,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/gyroscope"
     },
     "hash-in-uri": {
         "authors": [
@@ -30657,7 +30799,8 @@
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "https://w3c.github.io/hr-time/"
+        "edDraft": "https://w3c.github.io/hr-time/",
+        "repository": "https://github.com/w3c/hr-time"
     },
     "hr-time-3": {
         "authors": [
@@ -30710,7 +30853,8 @@
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "isRetired": true
+        "isRetired": true,
+        "repository": "https://github.com/w3c/hr-time"
     },
     "html-aam-1.0": {
         "authors": [
@@ -31079,7 +31223,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/html-aam"
     },
     "html-aapi": {
         "authors": [
@@ -31285,7 +31430,8 @@
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "https://w3c.github.io/alt-techniques/"
+        "edDraft": "https://w3c.github.io/alt-techniques/",
+        "repository": "https://github.com/w3c/alt-techniques"
     },
     "html-aria": {
         "authors": [
@@ -31656,7 +31802,8 @@
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "https://w3c.github.io/html-aria/"
+        "edDraft": "https://w3c.github.io/html-aria/",
+        "repository": "https://github.com/w3c/html-aria"
     },
     "html-bidi": {
         "authors": [
@@ -31832,7 +31979,8 @@
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "https://w3c.github.io/webcomponents/spec/imports/"
+        "edDraft": "https://w3c.github.io/webcomponents/spec/imports/",
+        "repository": "https://github.com/w3c/webcomponents"
     },
     "html-json-forms": {
         "authors": [
@@ -32275,7 +32423,8 @@
         },
         "rawDate": "2017-08-31",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
-        "edDraft": "https://w3c.github.io/html-media-capture/"
+        "edDraft": "https://w3c.github.io/html-media-capture/",
+        "repository": "https://github.com/w3c/html-media-capture"
     },
     "html-picture-element": {
         "authors": [
@@ -32772,7 +32921,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/html-transcript"
     },
     "html-xml-tf-report": {
         "authors": [
@@ -33419,7 +33569,8 @@
         },
         "rawDate": "2014-12-09",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
-        "edDraft": "https://rawgit.com/whatwg/html-differences/master/Overview.html"
+        "edDraft": "https://rawgit.com/whatwg/html-differences/master/Overview.html",
+        "repository": "https://github.com/whatwg/html-differences"
     },
     "html5-pubnotes": {
         "authors": [
@@ -34172,7 +34323,8 @@
             }
         },
         "edDraft": "https://rawgit.com/w3c/html/html5.1-2/single-page.html",
-        "hasErrata": "https://github.com/w3c/html/labels/errata"
+        "hasErrata": "https://github.com/w3c/html/labels/errata",
+        "repository": "https://github.com/w3c/html"
     },
     "html52": {
         "authors": [
@@ -34352,7 +34504,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/html"
     },
     "http-edit-dist-scenarios": {
         "versions": {
@@ -34681,7 +34834,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/ilreq"
     },
     "ilu-requestor": {
         "authors": [
@@ -35116,7 +35270,8 @@
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "https://w3c.github.io/mediacapture-image/"
+        "edDraft": "https://w3c.github.io/mediacapture-image/",
+        "repository": "https://github.com/w3c/mediacapture-image"
     },
     "ime-api": {
         "authors": [
@@ -35283,7 +35438,8 @@
             }
         },
         "edDraft": "https://w3c.github.io/ime-api/",
-        "isRetired": true
+        "isRetired": true,
+        "repository": "https://github.com/w3c/ime-api"
     },
     "indie-ui-context": {
         "authors": [
@@ -35331,7 +35487,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/indie-ui"
     },
     "indie-ui-events": {
         "authors": [
@@ -35424,7 +35581,8 @@
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "https://w3c.github.io/indie-ui/indie-ui-events.html"
+        "edDraft": "https://w3c.github.io/indie-ui/indie-ui-events.html",
+        "repository": "https://github.com/w3c/indie-ui"
     },
     "indie-ui-requirements": {
         "authors": [
@@ -35698,7 +35856,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/input-events"
     },
     "input-events-2": {
         "aliasOf": "input-events-1"
@@ -35765,7 +35924,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/bp-i18n-specdev"
     },
     "intersection-observer": {
         "authors": [
@@ -35796,7 +35956,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/IntersectionObserver"
     },
     "its": {
         "authors": [
@@ -36060,7 +36221,8 @@
             }
         },
         "isRetired": true,
-        "edDraft": "https://w3c.github.io/its2req/"
+        "edDraft": "https://w3c.github.io/its2req/",
+        "repository": "https://github.com/w3c/its2req"
     },
     "itsreq": {
         "authors": [
@@ -36237,7 +36399,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/dissolve/jf2"
     },
     "jlreq": {
         "authors": [
@@ -36602,7 +36765,8 @@
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "https://w3c.github.io/klreq/"
+        "edDraft": "https://w3c.github.io/klreq/",
+        "repository": "https://github.com/w3c/klreq"
     },
     "lbase": {
         "authors": [
@@ -36855,7 +37019,8 @@
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "hasErrata": "https://github.com/w3c/ldn/"
+        "hasErrata": "https://github.com/w3c/ldn/",
+        "repository": "https://github.com/w3c/ldn"
     },
     "ldp": {
         "authors": [
@@ -37438,7 +37603,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/longtasks"
     },
     "low-vision-needs": {
         "authors": [
@@ -37473,7 +37639,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/low-vision-a11y-tf"
     },
     "ltli": {
         "authors": [
@@ -37526,7 +37693,8 @@
         },
         "rawDate": "2015-04-23",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
-        "edDraft": "https://w3c.github.io/ltli/"
+        "edDraft": "https://w3c.github.io/ltli/",
+        "repository": "https://github.com/w3c/ltli"
     },
     "magnetometer": {
         "authors": [
@@ -37604,7 +37772,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/magnetometer"
     },
     "mathml-bvar": {
         "authors": [
@@ -37965,7 +38134,8 @@
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "https://w3c.github.io/pfwg/media-accessibility-reqs/"
+        "edDraft": "https://w3c.github.io/pfwg/media-accessibility-reqs/",
+        "repository": "https://github.com/w3c/pfwg"
     },
     "media-annot-reqs": {
         "authors": [
@@ -38402,7 +38572,8 @@
         "rawDate": "2016-11-17",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
         "edDraft": "https://w3c.github.io/media-source/",
-        "hasErrata": "https://w3c.github.io/media-source/mse-1-errata.html"
+        "hasErrata": "https://w3c.github.io/media-source/mse-1-errata.html",
+        "repository": "https://github.com/w3c/media-source"
     },
     "mediacapture-depth": {
         "authors": [
@@ -38635,7 +38806,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/mediacapture-depth"
     },
     "mediacapture-fromelement": {
         "authors": [
@@ -38764,7 +38936,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/mediacapture-fromelement"
     },
     "mediacapture-streams": {
         "authors": [
@@ -38900,7 +39073,8 @@
         },
         "rawDate": "2017-10-03",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
-        "edDraft": "https://w3c.github.io/mediacapture-main/"
+        "edDraft": "https://w3c.github.io/mediacapture-main/",
+        "repository": "https://github.com/w3c/mediacapture-main"
     },
     "mediaont-10": {
         "authors": [
@@ -39181,7 +39355,8 @@
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "https://drafts.csswg.org/mediaqueries-4/"
+        "edDraft": "https://drafts.csswg.org/mediaqueries-4/",
+        "repository": "https://github.com/w3c/csswg-drafts"
     },
     "mediastream-recording": {
         "authors": [
@@ -39473,7 +39648,8 @@
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "https://w3c.github.io/mediacapture-record/"
+        "edDraft": "https://w3c.github.io/mediacapture-record/",
+        "repository": "https://github.com/w3c/mediacapture-record"
     },
     "messaging": {
         "authors": [
@@ -39744,7 +39920,8 @@
         },
         "rawDate": "2017-10-10",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
-        "edDraft": "https://w3c.github.io/microdata/"
+        "edDraft": "https://w3c.github.io/microdata/",
+        "repository": "https://github.com/w3c/microdata"
     },
     "microdata-rdf": {
         "authors": [
@@ -39798,7 +39975,8 @@
         "edDraft": "https://w3c.github.io/microdata-rdf/",
         "deliveredBy": [
             "https://www.w3.org/2001/sw/interest/"
-        ]
+        ],
+        "repository": "https://github.com/w3c/microdata-rdf"
     },
     "micropub": {
         "authors": [
@@ -39937,7 +40115,8 @@
                 "hasErrata": "https://micropub.net/errata/"
             }
         },
-        "hasErrata": "https://micropub.net/errata/"
+        "hasErrata": "https://micropub.net/errata/",
+        "repository": "https://github.com/w3c/micropub"
     },
     "mixed-content": {
         "href": "https://www.w3.org/TR/mixed-content/",
@@ -40035,7 +40214,8 @@
         },
         "authors": [
             "Mike West"
-        ]
+        ],
+        "repository": "https://github.com/w3c/webappsec-mixed-content"
     },
     "mlw-metadata-us-impl": {
         "authors": [
@@ -40082,7 +40262,8 @@
             }
         },
         "isRetired": true,
-        "edDraft": "https://w3c.github.io/mlw-metadata-us-impl/"
+        "edDraft": "https://w3c.github.io/mlw-metadata-us-impl/",
+        "repository": "https://github.com/w3c/mlw-metadata-us-impl"
     },
     "mmi-arch": {
         "authors": [
@@ -40579,7 +40760,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/Mobile-A11y-TF-Note"
     },
     "mobile-bp": {
         "authors": [
@@ -40989,7 +41171,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/motion-sensors"
     },
     "mptp": {
         "versions": {
@@ -41044,7 +41227,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/media-source"
     },
     "mse-byte-stream-format-mp2t": {
         "authors": [
@@ -41083,7 +41267,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/media-source"
     },
     "mse-byte-stream-format-mpeg-audio": {
         "authors": [
@@ -41116,7 +41301,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/media-source"
     },
     "mse-byte-stream-format-registry": {
         "authors": [
@@ -41151,7 +41337,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/media-source"
     },
     "mse-byte-stream-format-webm": {
         "authors": [
@@ -41186,7 +41373,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/media-source"
     },
     "multimodal-reqs": {
         "authors": [
@@ -42283,7 +42471,8 @@
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "https://w3c.github.io/navigation-timing/"
+        "edDraft": "https://w3c.github.io/navigation-timing/",
+        "repository": "https://github.com/w3c/navigation-timing"
     },
     "netinfo-api": {
         "authors": [
@@ -42371,7 +42560,8 @@
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "https://w3c-webmob.github.io/netinfo-usecases/"
+        "edDraft": "https://w3c-webmob.github.io/netinfo-usecases/",
+        "repository": "https://github.com/w3c-webmob/netinfo-usecases"
     },
     "network-error-logging": {
         "authors": [
@@ -42555,7 +42745,8 @@
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "isRetired": true
+        "isRetired": true,
+        "repository": "https://github.com/w3c/network-error-logging"
     },
     "newline": {
         "versions": {
@@ -42841,7 +43032,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/poe"
     },
     "odrl-vocab": {
         "authors": [
@@ -42916,7 +43108,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/poe"
     },
     "offline-webapps": {
         "authors": [
@@ -43025,7 +43218,8 @@
         "rawDate": "2017-05-30",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
         "edDraft": "https://w3c.github.io/deviceorientation/spec-source-orientation.html",
-        "isRetired": true
+        "isRetired": true,
+        "repository": "https://github.com/w3c/deviceorientation"
     },
     "orientation-sensor": {
         "authors": [
@@ -43079,7 +43273,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/orientation-sensor"
     },
     "owl-absyn": {
         "aliasOf": "owl-semantics"
@@ -43546,7 +43741,8 @@
         "rawDate": "2017-09-07",
         "isRetired": true,
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
-        "edDraft": "https://w3c.github.io/sdw/time/"
+        "edDraft": "https://w3c.github.io/sdw/time/",
+        "repository": "https://github.com/w3c/sdw"
     },
     "owl-xmlsyntax": {
         "authors": [
@@ -44925,7 +45121,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/page-visibility"
     },
     "paint-timing": {
         "authors": [
@@ -44956,7 +45153,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/paint-timing"
     },
     "patent-practice": {
         "versions": {
@@ -45313,7 +45511,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/payment-handler"
     },
     "payment-method-basic-card": {
         "authors": [
@@ -45458,7 +45657,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/payment-method-basic-card"
     },
     "payment-method-id": {
         "authors": [
@@ -45706,7 +45906,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/payment-method-id"
     },
     "payment-request": {
         "authors": [
@@ -46493,7 +46694,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/payment-request"
     },
     "performance-timeline": {
         "authors": [
@@ -46870,7 +47072,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/performance-timeline"
     },
     "permissions": {
         "authors": [
@@ -46920,7 +47123,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/permissions"
     },
     "personalization-semantics-1.0": {
         "authors": [
@@ -46955,7 +47159,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/personalization-semantics"
     },
     "photo-rdf": {
         "versions": {
@@ -47052,7 +47257,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/png-hdr-pq"
     },
     "poe-ucr": {
         "authors": [
@@ -47103,7 +47309,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/poe"
     },
     "poi-core": {
         "authors": [
@@ -47266,7 +47473,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/pointerevents"
     },
     "pointerlock": {
         "authors": [
@@ -47367,7 +47575,8 @@
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "https://w3c.github.io/pointerlock/"
+        "edDraft": "https://w3c.github.io/pointerlock/",
+        "repository": "https://github.com/w3c/pointerlock"
     },
     "pointerlock-2": {
         "authors": [
@@ -47398,7 +47607,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/pointerlock"
     },
     "poix": {
         "versions": {
@@ -47532,7 +47742,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/tantek/post-type-discovery"
     },
     "powder-dr": {
         "authors": [
@@ -48059,7 +48270,8 @@
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "https://w3c.github.io/predefined-counter-styles/"
+        "edDraft": "https://w3c.github.io/predefined-counter-styles/",
+        "repository": "https://github.com/w3c/predefined-counter-styles"
     },
     "preload": {
         "authors": [
@@ -48507,7 +48719,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/preload"
     },
     "presentation-api": {
         "authors": [
@@ -48644,7 +48857,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/presentation-api"
     },
     "print": {
         "authors": [
@@ -49613,7 +49827,8 @@
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "https://w3c.github.io/proximity/"
+        "edDraft": "https://w3c.github.io/proximity/",
+        "repository": "https://github.com/w3c/proximity"
     },
     "proxy": {
         "versions": {
@@ -50068,7 +50283,8 @@
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "https://w3c.github.io/push-api/"
+        "edDraft": "https://w3c.github.io/push-api/",
+        "repository": "https://github.com/w3c/push-api"
     },
     "pwp": {
         "authors": [
@@ -50160,7 +50376,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/dpub-pwp"
     },
     "pwp-ucr": {
         "authors": [
@@ -50226,7 +50443,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/dpub-pwp-ucr"
     },
     "qa-handbook": {
         "authors": [
@@ -50576,7 +50794,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/sdw"
     },
     "query-datamodel": {
         "aliasOf": "xpath-datamodel"
@@ -50685,7 +50904,8 @@
         "rawDate": "2016-05-23",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
         "edDraft": "https://w3c.github.io/quota-api/",
-        "isRetired": true
+        "isRetired": true,
+        "repository": "https://github.com/w3c/quota-api"
     },
     "r2rml": {
         "authors": [
@@ -53231,7 +53451,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/webappsec-referrer-policy"
     },
     "remote-playback": {
         "authors": [
@@ -53275,7 +53496,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/remote-playback"
     },
     "reporting-1": {
         "authors": [
@@ -53325,7 +53547,8 @@
                 "isRetired": true
             }
         },
-        "isRetired": true
+        "isRetired": true,
+        "repository": "https://github.com/w3c/reporting"
     },
     "requestidlecallback": {
         "authors": [
@@ -53558,7 +53781,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/requestidlecallback"
     },
     "resource-hints": {
         "authors": [
@@ -53855,7 +54079,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/resource-hints"
     },
     "resource-priorities": {
         "authors": [
@@ -54512,7 +54737,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/resource-timing"
     },
     "resource-timing-2": {
         "authors": [
@@ -54591,7 +54817,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/resource-timing"
     },
     "respimg-usecases": {
         "authors": [
@@ -56200,7 +56427,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/mediacapture-screen-share"
     },
     "screen-orientation": {
         "authors": [
@@ -56382,7 +56610,8 @@
         },
         "rawDate": "2016-10-31",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
-        "edDraft": "https://w3c.github.io/screen-orientation/"
+        "edDraft": "https://w3c.github.io/screen-orientation/",
+        "repository": "https://github.com/w3c/screen-orientation"
     },
     "scxml": {
         "authors": [
@@ -56876,7 +57105,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/sdw"
     },
     "sdw-ucr": {
         "authors": [
@@ -56939,7 +57169,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/sdw"
     },
     "secure-contexts": {
         "authors": [
@@ -57060,7 +57291,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/webappsec-secure-contexts"
     },
     "security-privacy-questionnaire": {
         "authors": [
@@ -57091,7 +57323,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3ctag/security-questionnaire"
     },
     "selection-api": {
         "authors": [
@@ -57312,7 +57545,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/selection-api"
     },
     "selectors-api": {
         "authors": [
@@ -57480,7 +57714,8 @@
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "http://dev.w3.org/csswg/selectors-nonelement/"
+        "edDraft": "http://dev.w3.org/csswg/selectors-nonelement/",
+        "repository": "https://github.com/w3c/csswg-drafts"
     },
     "selectors-states": {
         "authors": [
@@ -57517,7 +57752,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/web-annotation"
     },
     "selectors4": {
         "authors": [
@@ -57827,7 +58063,8 @@
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "isRetired": true
+        "isRetired": true,
+        "repository": "https://github.com/w3c/server-timing"
     },
     "service-workers": {
         "aliasOf": "service-workers-1"
@@ -57929,7 +58166,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/ServiceWorker"
     },
     "session-id": {
         "versions": {
@@ -58112,7 +58350,8 @@
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "hasErrata": "https://www.w3.org/2017/shacl/errata"
+        "hasErrata": "https://www.w3.org/2017/shacl/errata",
+        "repository": "https://github.com/w3c/data-shapes"
     },
     "shacl-abstract-syntax": {
         "authors": [
@@ -58162,7 +58401,8 @@
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "isRetired": true
+        "isRetired": true,
+        "repository": "https://github.com/w3c/data-shapes"
     },
     "shacl-af": {
         "authors": [
@@ -58197,7 +58437,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/data-shapes"
     },
     "shacl-js": {
         "authors": [
@@ -58230,7 +58471,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/data-shapes"
     },
     "shacl-ucr": {
         "authors": [
@@ -58308,7 +58550,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/data-shapes"
     },
     "shadow-dom": {
         "authors": [
@@ -58526,7 +58769,8 @@
         },
         "rawDate": "2017-09-05",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
-        "edDraft": "https://w3c.github.io/webcomponents/spec/shadow/"
+        "edDraft": "https://w3c.github.io/webcomponents/spec/shadow/",
+        "repository": "https://github.com/w3c/webcomponents"
     },
     "shoplogfileformat": {
         "versions": {
@@ -60062,7 +60306,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c-social/social-web-protocols"
     },
     "sparql-features": {
         "authors": [
@@ -61319,7 +61564,8 @@
             }
         },
         "edDraft": "https://streams.spec.whatwg.org/",
-        "isRetired": true
+        "isRetired": true,
+        "repository": "https://github.com/whatwg/streams"
     },
     "stts2": {
         "versions": {
@@ -61397,7 +61643,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/aria"
     },
     "svg-integration": {
         "authors": [
@@ -61432,7 +61679,8 @@
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "https://svgwg.org/specs/integration/"
+        "edDraft": "https://svgwg.org/specs/integration/",
+        "repository": "https://github.com/w3c/svgwg"
     },
     "svg-markers": {
         "authors": [
@@ -61463,7 +61711,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/svgwg"
     },
     "svg-paths": {
         "authors": [
@@ -61498,7 +61747,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/svgwg"
     },
     "svg-strokes": {
         "authors": [
@@ -61531,7 +61781,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/svgwg"
     },
     "sw-oosd-primer": {
         "authors": [
@@ -62096,7 +62347,8 @@
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "https://w3c.github.io/csvw/syntax/"
+        "edDraft": "https://w3c.github.io/csvw/syntax/",
+        "repository": "https://github.com/w3c/csvw"
     },
     "tabular-data-primer": {
         "authors": [
@@ -62127,7 +62379,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/csvw"
     },
     "tabular-metadata": {
         "authors": [
@@ -62235,7 +62488,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/csvw"
     },
     "task-models": {
         "authors": [
@@ -62738,7 +62992,8 @@
         },
         "rawDate": "2013-10-10",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
-        "edDraft": "https://w3c.github.io/touch-events/"
+        "edDraft": "https://w3c.github.io/touch-events/",
+        "repository": "https://github.com/w3c/touch-events"
     },
     "touch-events-extensions": {
         "authors": [
@@ -63372,7 +63627,8 @@
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "https://rawgit.com/w3c/imsc1/master/spec/ttml-ww-profiles.html"
+        "edDraft": "https://rawgit.com/w3c/imsc1/master/spec/ttml-ww-profiles.html",
+        "repository": "https://github.com/w3c/imsc1"
     },
     "ttml-imsc1.0.1": {
         "authors": [
@@ -63431,7 +63687,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/imsc"
     },
     "ttml-profile-registry": {
         "authors": [
@@ -63488,7 +63745,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/tt-profile-registry"
     },
     "ttml1": {
         "authors": [
@@ -63724,7 +63982,8 @@
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "https://w3c.github.io/ttml2/spec/ttml2.html"
+        "edDraft": "https://w3c.github.io/ttml2/spec/ttml2.html",
+        "repository": "https://github.com/w3c/ttml2"
     },
     "turingtest": {
         "authors": [
@@ -63902,7 +64161,8 @@
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "isRetired": true
+        "isRetired": true,
+        "repository": "https://github.com/w3c/tvcontrol-api"
     },
     "typography": {
         "authors": [
@@ -63933,7 +64193,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/typography"
     },
     "uclp": {
         "versions": {
@@ -64261,7 +64522,8 @@
             }
         },
         "edDraft": "https://w3c.github.io/uievents/",
-        "isRetired": true
+        "isRetired": true,
+        "repository": "https://github.com/w3c/uievents"
     },
     "uievents-code": {
         "authors": [
@@ -64350,7 +64612,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/uievents-code"
     },
     "uievents-key": {
         "authors": [
@@ -64439,7 +64702,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/uievents-key"
     },
     "unicode-xml": {
         "authors": [
@@ -64518,7 +64782,8 @@
         "rawDate": "2017-07-13",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
         "edDraft": "https://w3c.github.io/unicode-xml/",
-        "isRetired": true
+        "isRetired": true,
+        "repository": "https://github.com/w3c/unicode-xml"
     },
     "upgrade-insecure-requests": {
         "authors": [
@@ -64577,7 +64842,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/webappsec-upgrade-insecure-requests"
     },
     "uri-clarification": {
         "authors": [
@@ -64688,7 +64954,8 @@
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "isRetired": true
+        "isRetired": true,
+        "repository": "https://github.com/whatwg/url"
     },
     "url-20120524": {
         "aliasOf": "url-1-20120524"
@@ -64848,7 +65115,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/user-timing"
     },
     "using-aria": {
         "authors": [
@@ -65008,7 +65276,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/using-aria"
     },
     "vbi-reqs": {
         "authors": [
@@ -65164,7 +65433,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/automotive"
     },
     "vehicle-information-api": {
         "authors": [
@@ -65253,7 +65523,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/automotive"
     },
     "vehicle-information-service": {
         "authors": [
@@ -65290,7 +65561,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/automotive"
     },
     "verifiable-claims-data-model": {
         "authors": [
@@ -65327,7 +65599,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/vc-data-model"
     },
     "verifiable-claims-use-cases": {
         "authors": [
@@ -65366,7 +65639,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/vc-use-cases"
     },
     "vibration": {
         "authors": [
@@ -65534,7 +65808,8 @@
             }
         },
         "edDraft": "https://w3c.github.io/vibration/",
-        "hasErrata": "https://www.w3.org/2009/dap/vibration-errata.html"
+        "hasErrata": "https://www.w3.org/2009/dap/vibration-errata.html",
+        "repository": "https://github.com/w3c/vibration"
     },
     "view-mode": {
         "authors": [
@@ -65961,7 +66236,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/dwbp"
     },
     "vocab-duv": {
         "authors": [
@@ -66060,7 +66336,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/dwbp"
     },
     "vocab-odrl": {
         "aliasOf": "odrl-vocab"
@@ -66342,7 +66619,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/sdw"
     },
     "voice": {
         "authors": [
@@ -67214,7 +67492,8 @@
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "https://w3c.github.io/aria/aria/aria.html"
+        "edDraft": "https://w3c.github.io/aria/aria/aria.html",
+        "repository": "https://github.com/w3c/aria"
     },
     "wai-aria-implementation": {
         "authors": [
@@ -67523,7 +67802,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/aria-practices"
     },
     "wai-aria-primer": {
         "authors": [
@@ -67878,7 +68158,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/wake-lock"
     },
     "wake-lock-use-cases": {
         "authors": [
@@ -67913,7 +68194,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c-webmob/wake-lock-use-cases"
     },
     "wbxml": {
         "versions": {
@@ -67964,7 +68246,8 @@
             "Michael Cooper",
             "Andrew Kirkpatrick",
             "Joshue O Connor"
-        ]
+        ],
+        "repository": "https://github.com/w3c/wcag"
     },
     "wcag2-req": {
         "authors": [
@@ -68200,7 +68483,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/web-animations"
     },
     "web-forms-2": {
         "authors": [
@@ -68330,7 +68614,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3ctag/packaging-on-the-web"
     },
     "web-payments-use-cases": {
         "href": "https://www.w3.org/TR/web-payments-use-cases/",
@@ -68561,7 +68846,8 @@
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "https://webaudio.github.io/web-audio-api/"
+        "edDraft": "https://webaudio.github.io/web-audio-api/",
+        "repository": "https://github.com/webaudio/web-audio-api"
     },
     "webaudio-usecases": {
         "authors": [
@@ -68744,7 +69030,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/webauthn"
     },
     "webcgm20": {
         "authors": [
@@ -69749,7 +70036,8 @@
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "https://w3c.github.io/webdriver/webdriver-spec.html"
+        "edDraft": "https://w3c.github.io/webdriver/webdriver-spec.html",
+        "repository": "https://github.com/w3c/webdriver"
     },
     "webintents-local-services": {
         "authors": [
@@ -69944,7 +70232,8 @@
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "hasErrata": "https://webmention.net/errata/"
+        "hasErrata": "https://webmention.net/errata/",
+        "repository": "https://github.com/w3c/webmention"
     },
     "webmessaging": {
         "authors": [
@@ -70098,7 +70387,8 @@
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "https://webaudio.github.io/web-midi-api/"
+        "edDraft": "https://webaudio.github.io/web-midi-api/",
+        "repository": "https://github.com/webaudio/web-midi-api"
     },
     "webont-req": {
         "authors": [
@@ -70199,7 +70489,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/webpayments-http-api"
     },
     "webpayments-http-messages": {
         "authors": [
@@ -70232,7 +70523,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/webpayments-http-messages"
     },
     "webpayments-overview": {
         "authors": [
@@ -70271,7 +70563,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/webpayments-overview"
     },
     "webrtc": {
         "authors": [
@@ -70523,7 +70816,8 @@
         },
         "rawDate": "2017-08-22",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
-        "edDraft": "https://w3c.github.io/webrtc-pc/"
+        "edDraft": "https://w3c.github.io/webrtc-pc/",
+        "repository": "https://github.com/w3c/webrtc-pc"
     },
     "webrtc-stats": {
         "authors": [
@@ -70627,7 +70921,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/webrtc-stats"
     },
     "websockets": {
         "authors": [
@@ -70848,7 +71143,8 @@
         ],
         "rawDate": "2016-04-19",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
-        "edDraft": "https://w3c.github.io/webstorage/"
+        "edDraft": "https://w3c.github.io/webstorage/",
+        "repository": "https://github.com/w3c/webstorage"
     },
     "websub": {
         "authors": [
@@ -70925,7 +71221,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/websub"
     },
     "webvtt1": {
         "authors": [
@@ -71000,7 +71297,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/webvtt"
     },
     "widgets": {
         "authors": [
@@ -71282,7 +71580,8 @@
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "https://w3c.github.io/packaged-webapps/api/Overview.html"
+        "edDraft": "https://w3c.github.io/packaged-webapps/api/Overview.html",
+        "repository": "https://github.com/w3c/packaged-webapps"
     },
     "widgets-digsig": {
         "authors": [
@@ -71741,7 +72040,8 @@
         ],
         "rawDate": "2015-09-24",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
-        "edDraft": "https://html.spec.whatwg.org/multipage/workers.html"
+        "edDraft": "https://html.spec.whatwg.org/multipage/workers.html",
+        "repository": "https://github.com/whatwg/html"
     },
     "worklets-1": {
         "authors": [
@@ -71809,7 +72109,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/wot-architecture"
     },
     "wot-scripting-api": {
         "authors": [
@@ -71844,7 +72145,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/wot-scripting-api"
     },
     "wot-thing-description": {
         "authors": [
@@ -71877,7 +72179,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/wot-thing-description"
     },
     "ws-addr-core": {
         "authors": [
