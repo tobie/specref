@@ -69,6 +69,7 @@ function writeBiblio(f, obj) {
         obj = f;
         f = DEFAULT_FILE;
     }
+    f = f || DEFAULT_FILE;
     var filepath = path.join(DIR_PATH, f);
     console.log("Writing output to " + filepath + "...");
     fs.writeFileSync(filepath, JSON.stringify(obj, null, 4) + "\n", 'utf8');
