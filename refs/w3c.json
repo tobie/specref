@@ -65386,10 +65386,10 @@
         ],
         "href": "https://www.w3.org/TR/vehicle-data/",
         "title": "Vehicle Data",
-        "rawDate": "2016-01-19",
-        "status": "WD",
+        "rawDate": "2017-10-12",
+        "status": "NOTE",
         "publisher": "W3C",
-        "edDraft": "http://rawgit.com/w3c/automotive/master/vehicle_data/data_spec.html",
+        "edDraft": "https://w3c.github.io/automotive/vehicle_data/data_spec.html",
         "deliveredBy": [
             "https://www.w3.org/auto/wg/"
         ],
@@ -65432,9 +65432,30 @@
                     "https://www.w3.org/auto/wg/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20171012": {
+                "authors": [
+                    "WonSuk Lee",
+                    "Qing An",
+                    "Adam Crofts",
+                    "Kevin Gavigan",
+                    "Justin(JongSeon) Park",
+                    "Kevron Rees"
+                ],
+                "href": "https://www.w3.org/TR/2017/NOTE-vehicle-data-20171012/",
+                "title": "Vehicle Data",
+                "rawDate": "2017-10-12",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "isRetired": true,
+                "deliveredBy": [
+                    "https://www.w3.org/auto/wg/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "repository": "https://github.com/w3c/automotive"
+        "repository": "https://github.com/w3c/automotive",
+        "isRetired": true
     },
     "vehicle-information-api": {
         "authors": [
