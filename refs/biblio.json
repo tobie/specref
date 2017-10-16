@@ -2576,13 +2576,29 @@
         "aliasOf": "WCAG"
     },
     "WEBGL": {
+      "aliasOf": "WEBGL-2"
+    },
+    "WEBGL-1": {
         "authors": [
-            "Chris Marrin (Apple Inc.)"
+          "Dean Jackson",
+          "Jeff Gilbert"
         ],
-        "href": "https://www.khronos.org/registry/webgl/specs/1.0/",
+        "href": "https://www.khronos.org/registry/webgl/specs/latest/1.0/",
         "title": "WebGL Specification, Version 1.0",
-        "date": "10 February 2011",
-        "publisher": "Khronos"
+        "rawDate": "2017-08-09",
+        "publisher": "Khronos",
+        "repository": "https://github.com/KhronosGroup/WebGL"
+    },
+    "WEBGL-2": {
+        "authors": [
+          "Dean Jackson",
+          "Jeff Gilbert"
+        ],
+        "href": "https://www.khronos.org/registry/webgl/specs/latest/2.0/",
+        "title": "WebGL 2.0 Specification",
+        "rawDate": "2017-08-12",
+        "publisher": "Khronos",
+        "repository": "https://github.com/KhronosGroup/WebGL"
     },
     "WEBINTENTS": {
         "authors": [
