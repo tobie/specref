@@ -81944,6 +81944,7 @@
         "obsoletes": [
             "RFC3028"
         ],
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=5429",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -110737,6 +110738,9 @@
         ],
         "rawDate": "2014-08",
         "status": "Proposed Standard",
+        "obsoletedBy": [
+            "RFC8221"
+        ],
         "obsoletes": [
             "RFC4835"
         ],
@@ -124575,6 +124579,7 @@
         ],
         "rawDate": "2017-08",
         "status": "Informational",
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=8216",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -124644,6 +124649,25 @@
         ],
         "rawDate": "2017-09",
         "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8221": {
+        "rfcNumber": "RFC8221",
+        "href": "https://tools.ietf.org/html/rfc8221",
+        "title": "Cryptographic Algorithm Implementation Requirements and Usage Guidance for Encapsulating Security Payload (ESP) and Authentication Header (AH)",
+        "authors": [
+            "P. Wouters",
+            "D. Migault",
+            "J. Mattsson",
+            "Y. Nir",
+            "T. Kivinen"
+        ],
+        "rawDate": "2017-10",
+        "status": "Proposed Standard",
+        "obsoletes": [
+            "RFC7321"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -125024,6 +125048,35 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8257": {
+        "rfcNumber": "RFC8257",
+        "href": "https://tools.ietf.org/html/rfc8257",
+        "title": "Data Center TCP (DCTCP): TCP Congestion Control for Data Centers",
+        "authors": [
+            "S. Bensley",
+            "D. Thaler",
+            "P. Balasubramanian",
+            "L. Eggert",
+            "G. Judd"
+        ],
+        "rawDate": "2017-10",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8258": {
+        "rfcNumber": "RFC8258",
+        "href": "https://tools.ietf.org/html/rfc8258",
+        "title": "Generalized SCSI: A Generic Structure for Interface Switching Capability Descriptor (ISCD) Switching Capability Specific Information (SCSI)",
+        "authors": [
+            "D. Ceccarelli",
+            "L. Berger"
+        ],
+        "rawDate": "2017-10",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc826": {
         "aliasOf": "rfc0826"
     },
@@ -125071,6 +125124,22 @@
         "obsoletes": [
             "RFC7700"
         ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8269": {
+        "rfcNumber": "RFC8269",
+        "href": "https://tools.ietf.org/html/rfc8269",
+        "title": "The ARIA Algorithm and Its Use with the Secure Real-Time Transport Protocol (SRTP)",
+        "authors": [
+            "W. Kim",
+            "J. Lee",
+            "J. Park",
+            "D. Kwon",
+            "D. Kim"
+        ],
+        "rawDate": "2017-10",
+        "status": "Informational",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
