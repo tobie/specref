@@ -11072,7 +11072,7 @@
         ],
         "href": "https://www.w3.org/TR/accelerometer/",
         "title": "Accelerometer",
-        "rawDate": "2017-08-14",
+        "rawDate": "2017-10-18",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/accelerometer/",
@@ -11134,6 +11134,21 @@
                 "href": "https://www.w3.org/TR/2017/WD-accelerometer-20170814/",
                 "title": "Accelerometer",
                 "rawDate": "2017-08-14",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2009/dap/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20171018": {
+                "authors": [
+                    "Anssi Kostiainen",
+                    "Alexander Shalamov"
+                ],
+                "href": "https://www.w3.org/TR/2017/WD-accelerometer-20171018/",
+                "title": "Accelerometer",
+                "rawDate": "2017-10-18",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -11958,7 +11973,7 @@
         ],
         "href": "https://www.w3.org/TR/ambient-light/",
         "title": "Ambient Light Sensor",
-        "rawDate": "2017-08-14",
+        "rawDate": "2017-10-18",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -12084,6 +12099,21 @@
                 "href": "https://www.w3.org/TR/2017/WD-ambient-light-20170814/",
                 "title": "Ambient Light Sensor",
                 "rawDate": "2017-08-14",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2009/dap/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20171018": {
+                "authors": [
+                    "Anssi Kostiainen",
+                    "Tobie Langel"
+                ],
+                "href": "https://www.w3.org/TR/2017/WD-ambient-light-20171018/",
+                "title": "Ambient Light Sensor",
+                "rawDate": "2017-10-18",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -17208,6 +17238,158 @@
         },
         "repository": "https://github.com/w3c/csswg-drafts"
     },
+    "css-backgrounds-3": {
+        "authors": [
+            "Bert Bos",
+            "Elika Etemad",
+            "Brad Kemper"
+        ],
+        "href": "https://www.w3.org/TR/css-backgrounds-3/",
+        "title": "CSS Backgrounds and Borders Module Level 3",
+        "rawDate": "2017-10-17",
+        "status": "CR",
+        "publisher": "W3C",
+        "edDraft": "https://drafts.csswg.org/css-backgrounds/",
+        "deliveredBy": [
+            "https://www.w3.org/Style/CSS/members"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20010924": {
+                "status": "WD",
+                "rawDate": "2001-09-24",
+                "href": "https://www.w3.org/TR/2001/WD-css3-background-20010924",
+                "source": "./data/w3c-specs.txt"
+            },
+            "20020219": {
+                "status": "WD",
+                "rawDate": "2002-02-19",
+                "href": "https://www.w3.org/TR/2002/WD-css3-background-20020219/",
+                "source": "./data/w3c-specs.txt"
+            },
+            "20020802": {
+                "status": "WD",
+                "rawDate": "2002-08-02",
+                "href": "https://www.w3.org/TR/2002/WD-css3-background-20020802",
+                "source": "./data/w3c-specs.txt"
+            },
+            "20050216": {
+                "status": "WD",
+                "rawDate": "2005-02-16",
+                "href": "https://www.w3.org/TR/2005/WD-css3-background-20050216",
+                "source": "./data/w3c-specs.txt"
+            },
+            "20080910": {
+                "status": "WD",
+                "rawDate": "2008-09-10",
+                "href": "https://www.w3.org/TR/2008/WD-css3-background-20080910",
+                "source": "./data/w3c-specs.txt"
+            },
+            "20091015": {
+                "status": "WD",
+                "rawDate": "2009-10-15",
+                "href": "https://www.w3.org/TR/2009/WD-css3-background-20091015",
+                "source": "./data/w3c-specs.txt"
+            },
+            "20091217": {
+                "status": "CR",
+                "rawDate": "2009-12-17",
+                "href": "https://www.w3.org/TR/2009/CR-css3-background-20091217",
+                "source": "./data/w3c-specs.txt"
+            },
+            "20100612": {
+                "status": "WD",
+                "rawDate": "2010-06-12",
+                "href": "https://www.w3.org/TR/2010/WD-css3-background-20100612",
+                "source": "./data/w3c-specs.txt"
+            },
+            "20110215": {
+                "status": "CR",
+                "rawDate": "2011-02-15",
+                "href": "https://www.w3.org/TR/2011/CR-css3-background-20110215/",
+                "source": "./data/w3c-specs.txt"
+            },
+            "20120214": {
+                "status": "WD",
+                "rawDate": "2012-02-14",
+                "href": "https://www.w3.org/TR/2012/WD-css3-background-20120214/",
+                "source": "./data/w3c-specs.txt"
+            },
+            "20120417": {
+                "status": "CR",
+                "rawDate": "2012-04-17",
+                "href": "https://www.w3.org/TR/2012/CR-css3-background-20120417/",
+                "source": "./data/w3c-specs.txt"
+            },
+            "20120724": {
+                "authors": [
+                    "Bert Bos",
+                    "Elika Etemad",
+                    "Brad Kemper"
+                ],
+                "href": "https://www.w3.org/TR/2012/CR-css3-background-20120724/",
+                "title": "CSS Backgrounds and Borders Module Level 3",
+                "rawDate": "2012-07-24",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Style/CSS/members"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140204": {
+                "authors": [
+                    "Bert Bos",
+                    "Elika Etemad",
+                    "Brad Kemper"
+                ],
+                "href": "https://www.w3.org/TR/2014/WD-css3-background-20140204/",
+                "title": "CSS Backgrounds and Borders Module Level 3",
+                "rawDate": "2014-02-04",
+                "status": "LCWD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Style/CSS/members"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20140909": {
+                "authors": [
+                    "Bert Bos",
+                    "Elika Etemad",
+                    "Brad Kemper"
+                ],
+                "href": "https://www.w3.org/TR/2014/CR-css3-background-20140909/",
+                "title": "CSS Backgrounds and Borders Module Level 3",
+                "rawDate": "2014-09-09",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Style/CSS/members"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20171017": {
+                "authors": [
+                    "Bert Bos",
+                    "Elika Etemad",
+                    "Brad Kemper"
+                ],
+                "href": "https://www.w3.org/TR/2017/CR-css-backgrounds-3-20171017/",
+                "title": "CSS Backgrounds and Borders Module Level 3",
+                "rawDate": "2017-10-17",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Style/CSS/members"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        },
+        "obsoletes": [
+            "css3-border"
+        ]
+    },
     "css-beijing": {
         "authors": [
             "Elika Etemad"
@@ -21643,141 +21825,7 @@
         "repository": "https://github.com/w3c/csswg-drafts"
     },
     "css3-background": {
-        "authors": [
-            "Bert Bos",
-            "Elika Etemad",
-            "Brad Kemper"
-        ],
-        "href": "https://www.w3.org/TR/css3-background/",
-        "title": "CSS Backgrounds and Borders Module Level 3",
-        "status": "CR",
-        "publisher": "W3C",
-        "versions": {
-            "20010924": {
-                "status": "WD",
-                "rawDate": "2001-09-24",
-                "href": "https://www.w3.org/TR/2001/WD-css3-background-20010924",
-                "source": "./data/w3c-specs.txt"
-            },
-            "20020219": {
-                "status": "WD",
-                "rawDate": "2002-02-19",
-                "href": "https://www.w3.org/TR/2002/WD-css3-background-20020219/",
-                "source": "./data/w3c-specs.txt"
-            },
-            "20020802": {
-                "status": "WD",
-                "rawDate": "2002-08-02",
-                "href": "https://www.w3.org/TR/2002/WD-css3-background-20020802",
-                "source": "./data/w3c-specs.txt"
-            },
-            "20050216": {
-                "status": "WD",
-                "rawDate": "2005-02-16",
-                "href": "https://www.w3.org/TR/2005/WD-css3-background-20050216",
-                "source": "./data/w3c-specs.txt"
-            },
-            "20080910": {
-                "status": "WD",
-                "rawDate": "2008-09-10",
-                "href": "https://www.w3.org/TR/2008/WD-css3-background-20080910",
-                "source": "./data/w3c-specs.txt"
-            },
-            "20091015": {
-                "status": "WD",
-                "rawDate": "2009-10-15",
-                "href": "https://www.w3.org/TR/2009/WD-css3-background-20091015",
-                "source": "./data/w3c-specs.txt"
-            },
-            "20091217": {
-                "status": "CR",
-                "rawDate": "2009-12-17",
-                "href": "https://www.w3.org/TR/2009/CR-css3-background-20091217",
-                "source": "./data/w3c-specs.txt"
-            },
-            "20100612": {
-                "status": "WD",
-                "rawDate": "2010-06-12",
-                "href": "https://www.w3.org/TR/2010/WD-css3-background-20100612",
-                "source": "./data/w3c-specs.txt"
-            },
-            "20110215": {
-                "status": "CR",
-                "rawDate": "2011-02-15",
-                "href": "https://www.w3.org/TR/2011/CR-css3-background-20110215/",
-                "source": "./data/w3c-specs.txt"
-            },
-            "20120214": {
-                "status": "WD",
-                "rawDate": "2012-02-14",
-                "href": "https://www.w3.org/TR/2012/WD-css3-background-20120214/",
-                "source": "./data/w3c-specs.txt"
-            },
-            "20120417": {
-                "status": "CR",
-                "rawDate": "2012-04-17",
-                "href": "https://www.w3.org/TR/2012/CR-css3-background-20120417/",
-                "source": "./data/w3c-specs.txt"
-            },
-            "20120724": {
-                "authors": [
-                    "Bert Bos",
-                    "Elika Etemad",
-                    "Brad Kemper"
-                ],
-                "href": "https://www.w3.org/TR/2012/CR-css3-background-20120724/",
-                "title": "CSS Backgrounds and Borders Module Level 3",
-                "rawDate": "2012-07-24",
-                "status": "CR",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/Style/CSS/members"
-                ],
-                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
-            },
-            "20140204": {
-                "authors": [
-                    "Bert Bos",
-                    "Elika Etemad",
-                    "Brad Kemper"
-                ],
-                "href": "https://www.w3.org/TR/2014/WD-css3-background-20140204/",
-                "title": "CSS Backgrounds and Borders Module Level 3",
-                "rawDate": "2014-02-04",
-                "status": "LCWD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/Style/CSS/members"
-                ],
-                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
-            },
-            "20140909": {
-                "authors": [
-                    "Bert Bos",
-                    "Elika Etemad",
-                    "Brad Kemper"
-                ],
-                "href": "https://www.w3.org/TR/2014/CR-css3-background-20140909/",
-                "title": "CSS Backgrounds and Borders Module Level 3",
-                "rawDate": "2014-09-09",
-                "status": "CR",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/Style/CSS/members"
-                ],
-                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
-            }
-        },
-        "deliveredBy": [
-            "https://www.w3.org/Style/CSS/members"
-        ],
-        "rawDate": "2014-09-09",
-        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
-        "edDraft": "http://dev.w3.org/csswg/css3-background/",
-        "obsoletes": [
-            "css3-border"
-        ],
-        "repository": "https://github.com/w3c/csswg-drafts"
+        "aliasOf": "css-backgrounds-3"
     },
     "css3-border": {
         "authors": [
@@ -21809,7 +21857,7 @@
         "rawDate": "2002-11-07",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
         "obsoletedBy": [
-            "css3-background"
+            "css-backgrounds-3"
         ]
     },
     "css3-box": {
@@ -29279,7 +29327,7 @@
         ],
         "href": "https://www.w3.org/TR/generic-sensor/",
         "title": "Generic Sensor API",
-        "rawDate": "2017-10-02",
+        "rawDate": "2017-10-18",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/sensors/",
@@ -29405,6 +29453,23 @@
                 "href": "https://www.w3.org/TR/2017/WD-generic-sensor-20171002/",
                 "title": "Generic Sensor API",
                 "rawDate": "2017-10-02",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2009/dap/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20171018": {
+                "authors": [
+                    "Rick Waldron",
+                    "Mikhail Pozdnyakov",
+                    "Alexander Shalamov",
+                    "Tobie Langel"
+                ],
+                "href": "https://www.w3.org/TR/2017/WD-generic-sensor-20171018/",
+                "title": "Generic Sensor API",
+                "rawDate": "2017-10-18",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -30011,7 +30076,7 @@
         ],
         "href": "https://www.w3.org/TR/gyroscope/",
         "title": "Gyroscope",
-        "rawDate": "2017-08-14",
+        "rawDate": "2017-10-18",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/gyroscope/",
@@ -30073,6 +30138,21 @@
                 "href": "https://www.w3.org/TR/2017/WD-gyroscope-20170814/",
                 "title": "Gyroscope",
                 "rawDate": "2017-08-14",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2009/dap/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20171018": {
+                "authors": [
+                    "Anssi Kostiainen",
+                    "Mikhail Pozdnyakov"
+                ],
+                "href": "https://www.w3.org/TR/2017/WD-gyroscope-20171018/",
+                "title": "Gyroscope",
+                "rawDate": "2017-10-18",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -37717,7 +37797,7 @@
         ],
         "href": "https://www.w3.org/TR/magnetometer/",
         "title": "Magnetometer",
-        "rawDate": "2017-08-14",
+        "rawDate": "2017-10-18",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/magnetometer/",
@@ -37779,6 +37859,21 @@
                 "href": "https://www.w3.org/TR/2017/WD-magnetometer-20170814/",
                 "title": "Magnetometer",
                 "rawDate": "2017-08-14",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2009/dap/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20171018": {
+                "authors": [
+                    "Anssi Kostiainen",
+                    "Rijubrata Bhaumik"
+                ],
+                "href": "https://www.w3.org/TR/2017/WD-magnetometer-20171018/",
+                "title": "Magnetometer",
+                "rawDate": "2017-10-18",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -43244,7 +43339,7 @@
         ],
         "href": "https://www.w3.org/TR/orientation-sensor/",
         "title": "Orientation Sensor",
-        "rawDate": "2017-08-14",
+        "rawDate": "2017-10-18",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/orientation-sensor/",
@@ -43280,6 +43375,23 @@
                 "href": "https://www.w3.org/TR/2017/WD-orientation-sensor-20170814/",
                 "title": "Orientation Sensor",
                 "rawDate": "2017-08-14",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2009/dap/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20171018": {
+                "authors": [
+                    "Mikhail Pozdnyakov",
+                    "Alexander Shalamov",
+                    "Kenneth Christiansen",
+                    "Anssi Kostiainen"
+                ],
+                "href": "https://www.w3.org/TR/2017/WD-orientation-sensor-20171018/",
+                "title": "Orientation Sensor",
+                "rawDate": "2017-10-18",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -43670,7 +43782,7 @@
         ],
         "href": "https://www.w3.org/TR/owl-time/",
         "title": "Time Ontology in OWL",
-        "status": "PR",
+        "status": "REC",
         "publisher": "W3C",
         "deliveredBy": [
             "https://www.w3.org/2015/spatial/"
@@ -43750,13 +43862,30 @@
                     "https://www.w3.org/2015/spatial/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20171019": {
+                "authors": [
+                    "Simon Cox",
+                    "Chris Little"
+                ],
+                "href": "https://www.w3.org/TR/2017/REC-owl-time-20171019/",
+                "title": "Time Ontology in OWL",
+                "rawDate": "2017-10-19",
+                "status": "REC",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2015/spatial/"
+                ],
+                "hasErrata": "https://www.w3.org/2017/10/owl-time-errata.html",
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2017-09-07",
+        "rawDate": "2017-10-19",
         "isRetired": true,
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
         "edDraft": "https://w3c.github.io/sdw/time/",
-        "repository": "https://github.com/w3c/sdw"
+        "repository": "https://github.com/w3c/sdw",
+        "hasErrata": "https://www.w3.org/2017/10/owl-time-errata.html"
     },
     "owl-xmlsyntax": {
         "authors": [
@@ -45067,8 +45196,8 @@
         ],
         "href": "https://www.w3.org/TR/page-visibility-2/",
         "title": "Page Visibility Level 2",
-        "rawDate": "2017-03-28",
-        "status": "CR",
+        "rawDate": "2017-10-17",
+        "status": "PR",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/page-visibility/",
         "deliveredBy": [
@@ -45129,6 +45258,22 @@
                 "title": "Page Visibility Level 2",
                 "rawDate": "2017-03-28",
                 "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/webperf/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20171017": {
+                "authors": [
+                    "Ilya Grigorik",
+                    "Arvind Jain",
+                    "Jatinder Mann"
+                ],
+                "href": "https://www.w3.org/TR/2017/PR-page-visibility-2-20171017/",
+                "title": "Page Visibility Level 2",
+                "rawDate": "2017-10-17",
+                "status": "PR",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/webperf/"
@@ -53470,13 +53615,13 @@
     },
     "remote-playback": {
         "authors": [
-            "Anton Vayvod",
-            "Mounir Lamouri"
+            "Mounir Lamouri",
+            "Anton Vayvod"
         ],
         "href": "https://www.w3.org/TR/remote-playback/",
         "title": "Remote Playback API",
-        "rawDate": "2016-11-07",
-        "status": "WD",
+        "rawDate": "2017-10-19",
+        "status": "CR",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/remote-playback/",
         "deliveredBy": [
@@ -53504,6 +53649,21 @@
                 "title": "Remote Playback API",
                 "rawDate": "2016-11-07",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2014/secondscreen/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20171019": {
+                "authors": [
+                    "Mounir Lamouri",
+                    "Anton Vayvod"
+                ],
+                "href": "https://www.w3.org/TR/2017/CR-remote-playback-20171019/",
+                "title": "Remote Playback API",
+                "rawDate": "2017-10-19",
+                "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/2014/secondscreen/"
@@ -57890,7 +58050,7 @@
         ],
         "href": "https://www.w3.org/TR/server-timing/",
         "title": "Server Timing",
-        "rawDate": "2017-09-20",
+        "rawDate": "2017-10-18",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/server-timing/",
@@ -58069,6 +58229,21 @@
                 "href": "https://www.w3.org/TR/2017/WD-server-timing-20170920/",
                 "title": "Server Timing",
                 "rawDate": "2017-09-20",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/webperf/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20171018": {
+                "authors": [
+                    "Charlie Vazac",
+                    "Ilya Grigorik"
+                ],
+                "href": "https://www.w3.org/TR/2017/WD-server-timing-20171018/",
+                "title": "Server Timing",
+                "rawDate": "2017-10-18",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -63250,7 +63425,7 @@
         ],
         "href": "https://www.w3.org/TR/tracking-dnt/",
         "title": "Tracking Preference Expression (DNT)",
-        "rawDate": "2015-08-20",
+        "rawDate": "2017-10-19",
         "status": "CR",
         "publisher": "W3C",
         "deliveredBy": [
@@ -63350,9 +63525,24 @@
                     "https://www.w3.org/2011/tracking-protection/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20171019": {
+                "authors": [
+                    "Roy Fielding",
+                    "David Singer"
+                ],
+                "href": "https://www.w3.org/TR/2017/CR-tracking-dnt-20171019/",
+                "title": "Tracking Preference Expression (DNT)",
+                "rawDate": "2017-10-19",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2011/tracking-protection/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "https://www.w3.org/2011/tracking-protection/drafts/tracking-dnt.html"
+        "edDraft": "https://w3c.github.io/dnt/drafts/tracking-dnt.html"
     },
     "trig": {
         "authors": [
@@ -63703,6 +63893,37 @@
             }
         },
         "repository": "https://github.com/w3c/imsc"
+    },
+    "ttml-imsc1.1": {
+        "authors": [
+            "Pierre-Anthony Lemieux"
+        ],
+        "href": "https://www.w3.org/TR/ttml-imsc1.1/",
+        "title": "TTML Profiles for Internet Media Subtitles and Captions 1.1",
+        "rawDate": "2017-10-17",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://rawgit.com/w3c/imsc/IMSC1.1/imsc1/spec/ttml-ww-profiles.html",
+        "deliveredBy": [
+            "https://www.w3.org/AudioVideo/TT/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20171017": {
+                "authors": [
+                    "Pierre-Anthony Lemieux"
+                ],
+                "href": "https://www.w3.org/TR/2017/WD-ttml-imsc1.1-20171017/",
+                "title": "TTML Profiles for Internet Media Subtitles and Captions 1.1",
+                "rawDate": "2017-10-17",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/AudioVideo/TT/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
     },
     "ttml-profile-registry": {
         "authors": [
@@ -66555,8 +66776,8 @@
         ],
         "href": "https://www.w3.org/TR/vocab-ssn/",
         "title": "Semantic Sensor Network Ontology",
-        "rawDate": "2017-09-07",
-        "status": "PR",
+        "rawDate": "2017-10-19",
+        "status": "REC",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/sdw/ssn/",
         "deliveredBy": [
@@ -66653,9 +66874,30 @@
                     "https://www.w3.org/2015/spatial/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20171019": {
+                "authors": [
+                    "Armin Haller",
+                    "Krzysztof Janowicz",
+                    "Simon Cox",
+                    "Danh Le Phuoc",
+                    "Kerry Taylor",
+                    "Maxime Lefrançois"
+                ],
+                "href": "https://www.w3.org/TR/2017/REC-vocab-ssn-20171019/",
+                "title": "Semantic Sensor Network Ontology",
+                "rawDate": "2017-10-19",
+                "status": "REC",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2015/spatial/"
+                ],
+                "hasErrata": "https://www.w3.org/2017/10/vocab-ssn-errata.html",
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "repository": "https://github.com/w3c/sdw"
+        "repository": "https://github.com/w3c/sdw",
+        "hasErrata": "https://www.w3.org/2017/10/vocab-ssn-errata.html"
     },
     "voice": {
         "authors": [
