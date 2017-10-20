@@ -46354,6 +46354,9 @@
         "updatedBy": [
             "RFC6790"
         ],
+        "obsoletedBy": [
+            "RFC8277"
+        ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=3107",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -88601,6 +88604,7 @@
         ],
         "rawDate": "2010-05",
         "status": "Informational",
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=5869",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -124935,6 +124939,20 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8244": {
+        "rfcNumber": "RFC8244",
+        "href": "https://tools.ietf.org/html/rfc8244",
+        "title": "Special-Use Domain Names Problem Statement",
+        "authors": [
+            "T. Lemon",
+            "R. Droms",
+            "W. Kumari"
+        ],
+        "rawDate": "2017-10",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8246": {
         "rfcNumber": "RFC8246",
         "href": "https://tools.ietf.org/html/rfc8246",
@@ -125145,6 +125163,21 @@
     },
     "rfc827": {
         "aliasOf": "rfc0827"
+    },
+    "rfc8277": {
+        "rfcNumber": "RFC8277",
+        "href": "https://tools.ietf.org/html/rfc8277",
+        "title": "Using BGP to Bind MPLS Labels to Address Prefixes",
+        "authors": [
+            "E. Rosen"
+        ],
+        "rawDate": "2017-10",
+        "status": "Proposed Standard",
+        "obsoletes": [
+            "RFC3107"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc828": {
         "aliasOf": "rfc0828"
