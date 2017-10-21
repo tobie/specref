@@ -45412,7 +45412,10 @@
             "S. Rozenfeld"
         ],
         "rawDate": "2001-01",
-        "status": "Informational",
+        "status": "Historic",
+        "obsoletedBy": [
+            "RFC8254"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -47609,7 +47612,10 @@
             "H. Walravens"
         ],
         "rawDate": "2001-10",
-        "status": "Informational",
+        "status": "Historic",
+        "obsoletedBy": [
+            "RFC8254"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -82109,7 +82115,8 @@
         "rawDate": "2009-03",
         "status": "Proposed Standard",
         "updatedBy": [
-            "RFC7896"
+            "RFC7896",
+            "RFC8253"
         ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=5440",
         "publisher": "IETF",
@@ -82175,7 +82182,8 @@
         "rawDate": "2009-02",
         "status": "Proposed Standard",
         "updatedBy": [
-            "RFC7631"
+            "RFC7631",
+            "RFC8245"
         ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=5444",
         "publisher": "IETF",
@@ -101414,6 +101422,9 @@
         ],
         "rawDate": "2012-09",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC8251"
+        ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=6716",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -109341,6 +109352,7 @@
         "obsoletes": [
             "RFC2616"
         ],
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=7232",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -124953,6 +124965,24 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8245": {
+        "rfcNumber": "RFC8245",
+        "href": "https://tools.ietf.org/html/rfc8245",
+        "title": "Rules for Designing Protocols Using the Generalized Packet/Message Format from RFC 5444",
+        "authors": [
+            "T. Clausen",
+            "C. Dearlove",
+            "U. Herberg",
+            "H. Rogge"
+        ],
+        "rawDate": "2017-10",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC5444"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8246": {
         "rfcNumber": "RFC8246",
         "href": "https://tools.ietf.org/html/rfc8246",
@@ -125037,6 +125067,22 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8251": {
+        "rfcNumber": "RFC8251",
+        "href": "https://tools.ietf.org/html/rfc8251",
+        "title": "Updates to the Opus Audio Codec",
+        "authors": [
+            "JM. Valin",
+            "K. Vos"
+        ],
+        "rawDate": "2017-10",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC6716"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8252": {
         "rfcNumber": "RFC8252",
         "href": "https://tools.ietf.org/html/rfc8252",
@@ -125049,6 +125095,41 @@
         "status": "Best Current Practice",
         "updates": [
             "RFC6749"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8253": {
+        "rfcNumber": "RFC8253",
+        "href": "https://tools.ietf.org/html/rfc8253",
+        "title": "PCEPS: Usage of TLS to Provide a Secure Transport for the Path Computation Element Communication Protocol (PCEP)",
+        "authors": [
+            "D. Lopez",
+            "O. Gonzalez de Dios",
+            "Q. Wu",
+            "D. Dhody"
+        ],
+        "rawDate": "2017-10",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC5440"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8254": {
+        "rfcNumber": "RFC8254",
+        "href": "https://tools.ietf.org/html/rfc8254",
+        "title": "Uniform Resource Name (URN) Namespace Registration Transition",
+        "authors": [
+            "J. Klensin",
+            "J. Hakala"
+        ],
+        "rawDate": "2017-10",
+        "status": "Proposed Standard",
+        "obsoletes": [
+            "RFC3044",
+            "RFC3187"
         ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
