@@ -24,6 +24,21 @@
     "ABNF": {
         "aliasOf": "RFC5234"
     },
+    "ACE-CWT-PROOF-OF-POSSESSION": {
+        "authors": [
+            "M. Jones",
+            "L. Seitz",
+            "G. Selander",
+            "E. Wahlstroem",
+            "S. Erdtman",
+            "H. Tschofenig"
+        ],
+        "date": "17 July 2017",
+        "href": "https://datatracker.ietf.org/doc/draft-ietf-ace-cwt-proof-of-possession/",
+        "publisher": "IETF",
+        "status": "Internet Draft (work in progress)",
+        "title": "Proof-of-Possession Key Semantics for CBOR Web Tokens (CWTs)"
+    },
     "AD-INDUSTRY": {
         "href": "https://www.iab.net/media/file/ven-principles-07-01-09.pdf",
         "title": "Self-Regulatory Principles for Online Behavioral Advertising",
@@ -1777,7 +1792,10 @@
         "href": "https://datatracker.ietf.org/doc/draft-ietf-oauth-pop-key-distribution/",
         "publisher": "IETF",
         "status": "Internet Draft (work in progress)",
-        "title": "OAuth 2.0 Proof-of-Possession: Authorization Server to Client Key Distribution"
+        "title": "OAuth 2.0 Proof-of-Possession: Authorization Server to Client Key Distribution",
+        "obsoletedBy": [
+            "ACE-CWT-PROOF-OF-POSSESSION"
+        ]
     },
     "OCSP": {
         "aliasOf": "RFC2560"
