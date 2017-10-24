@@ -111,6 +111,14 @@
         "source": "https://wicg.github.io/admin/biblio.json",
         "repository": "https://github.com/wicg/netinfo"
     },
+    "REPORTING": {
+        "href": "https://wicg.github.io/reporting/",
+        "title": "Reporting API",
+        "status": "Living Standard",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/reporting"
+    },
     "RESIZE-OBSERVER": {
         "href": "https://wicg.github.io/ResizeObserver/",
         "title": "Resize Observer",
@@ -200,6 +208,9 @@
     },
     "WICG-NETINFO": {
         "aliasOf": "NETINFO"
+    },
+    "WICG-REPORTING": {
+        "aliasOf": "REPORTING"
     },
     "WICG-RESIZE-OBSERVER": {
         "aliasOf": "RESIZE-OBSERVER"
