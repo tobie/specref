@@ -39,6 +39,14 @@
         "source": "https://wicg.github.io/admin/biblio.json",
         "repository": "https://github.com/wicg/animation-worklet"
     },
+    "CSS-PARSER-API": {
+        "href": "https://wicg.github.io/CSS-Parser-API/",
+        "title": "CSS Parser API",
+        "status": "Living Standard",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/CSS-Parser-API"
+    },
     "CSS-SCROLL-BOUNDARY-BEHAVIOR": {
         "href": "https://wicg.github.io/scroll-boundary-behavior/",
         "title": "CSS Scroll Boundary Behavior Module Level 1",
@@ -87,6 +95,14 @@
         "source": "https://wicg.github.io/admin/biblio.json",
         "repository": "https://github.com/wicg/media-capabilities"
     },
+    "MEDIA-PLAYBACK-QUALITY": {
+        "href": "https://wicg.github.io/media-playback-quality/",
+        "title": "Media Playback Quality",
+        "status": "Living Standard",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/media-playback-quality"
+    },
     "MEDIASESSION": {
         "href": "https://wicg.github.io/mediasession/",
         "title": "Media Session",
@@ -110,6 +126,14 @@
         "publisher": "WICG",
         "source": "https://wicg.github.io/admin/biblio.json",
         "repository": "https://github.com/wicg/netinfo"
+    },
+    "ORIGIN-POLICY": {
+        "href": "https://wicg.github.io/origin-policy/",
+        "title": "Origin Policy",
+        "status": "Living Standard",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/origin-policy"
     },
     "REPORTING": {
         "href": "https://wicg.github.io/reporting/",
@@ -159,6 +183,14 @@
         "source": "https://wicg.github.io/admin/biblio.json",
         "repository": "https://github.com/wicg/web-share"
     },
+    "WEB-SHARE-TARGET": {
+        "href": "https://wicg.github.io/web-share-target/",
+        "title": "Web Share Target API",
+        "status": "Living Standard",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/web-share-target"
+    },
     "WEBUSB": {
         "href": "https://wicg.github.io/webusb/",
         "title": "WebUSB API",
@@ -182,6 +214,9 @@
     "WICG-CSS-ANIMATION-WORKLET": {
         "aliasOf": "CSS-ANIMATION-WORKLET"
     },
+    "WICG-CSS-PARSER-API": {
+        "aliasOf": "CSS-PARSER-API"
+    },
     "WICG-CSS-SCROLL-BOUNDARY-BEHAVIOR": {
         "aliasOf": "CSS-SCROLL-BOUNDARY-BEHAVIOR"
     },
@@ -200,6 +235,9 @@
     "WICG-MEDIA-CAPABILITIES": {
         "aliasOf": "MEDIA-CAPABILITIES"
     },
+    "WICG-MEDIA-PLAYBACK-QUALITY": {
+        "aliasOf": "MEDIA-PLAYBACK-QUALITY"
+    },
     "WICG-MEDIASESSION": {
         "aliasOf": "MEDIASESSION"
     },
@@ -208,6 +246,9 @@
     },
     "WICG-NETINFO": {
         "aliasOf": "NETINFO"
+    },
+    "WICG-ORIGIN-POLICY": {
+        "aliasOf": "ORIGIN-POLICY"
     },
     "WICG-REPORTING": {
         "aliasOf": "REPORTING"
@@ -226,6 +267,9 @@
     },
     "WICG-WEB-SHARE": {
         "aliasOf": "WEB-SHARE"
+    },
+    "WICG-WEB-SHARE-TARGET": {
+        "aliasOf": "WEB-SHARE-TARGET"
     },
     "WICG-WEBUSB": {
         "aliasOf": "WEBUSB"
