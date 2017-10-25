@@ -90413,6 +90413,9 @@
         ],
         "rawDate": "2010-10",
         "status": "Proposed Standard",
+        "obsoletedBy": [
+            "RFC8288"
+        ],
         "updates": [
             "RFC4287"
         ],
@@ -120380,6 +120383,7 @@
         ],
         "rawDate": "2016-08",
         "status": "Proposed Standard",
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=7940",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -124177,6 +124181,20 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8189": {
+        "rfcNumber": "RFC8189",
+        "href": "https://tools.ietf.org/html/rfc8189",
+        "title": "Multi-Cost Application-Layer Traffic Optimization (ALTO)",
+        "authors": [
+            "S. Randriamasy",
+            "W. Roome",
+            "N. Schwan"
+        ],
+        "rawDate": "2017-10",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc819": {
         "aliasOf": "rfc0819"
     },
@@ -125262,6 +125280,21 @@
     },
     "rfc828": {
         "aliasOf": "rfc0828"
+    },
+    "rfc8288": {
+        "rfcNumber": "RFC8288",
+        "href": "https://tools.ietf.org/html/rfc8288",
+        "title": "Web Linking",
+        "authors": [
+            "M. Nottingham"
+        ],
+        "rawDate": "2017-10",
+        "status": "Proposed Standard",
+        "obsoletes": [
+            "RFC5988"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc829": {
         "aliasOf": "rfc0829"
