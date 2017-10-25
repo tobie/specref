@@ -167,6 +167,14 @@
         "source": "https://wicg.github.io/admin/biblio.json",
         "repository": "https://github.com/wicg/shape-detection-api"
     },
+    "VISUAL-VIEWPORT": {
+        "href": "https://wicg.github.io/visual-viewport/",
+        "title": "Visual Viewport API",
+        "status": "Living Standard",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/visual-viewport"
+    },
     "WEB-BACKGROUND-SYNC": {
         "href": "https://wicg.github.io/BackgroundSync/spec/",
         "title": "Web Background Synchronization",
@@ -277,6 +285,9 @@
     },
     "WICG-SHAPE-DETECTION-API": {
         "aliasOf": "SHAPE-DETECTION-API"
+    },
+    "WICG-VISUAL-VIEWPORT": {
+        "aliasOf": "VISUAL-VIEWPORT"
     },
     "WICG-WEB-BACKGROUND-SYNC": {
         "aliasOf": "WEB-BACKGROUND-SYNC"
