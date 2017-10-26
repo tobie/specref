@@ -79784,6 +79784,9 @@
         ],
         "rawDate": "2008-07",
         "status": "Proposed Standard",
+        "obsoletedBy": [
+            "RFC8285"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -81040,6 +81043,9 @@
         ],
         "rawDate": "2008-10",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC8262"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -84834,6 +84840,9 @@
         ],
         "rawDate": "2009-09",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC8262"
+        ],
         "updates": [
             "RFC3204",
             "RFC3261",
@@ -85550,6 +85559,9 @@
         ],
         "rawDate": "2010-01",
         "status": "Proposed Standard",
+        "obsoletedBy": [
+            "RFC8267"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -97397,6 +97409,9 @@
         ],
         "rawDate": "2011-12",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC8262"
+        ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=6442",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -125197,6 +125212,24 @@
     "rfc826": {
         "aliasOf": "rfc0826"
     },
+    "rfc8262": {
+        "rfcNumber": "RFC8262",
+        "href": "https://tools.ietf.org/html/rfc8262",
+        "title": "Content-ID Header Field in the Session Initiation Protocol (SIP)",
+        "authors": [
+            "C. Holmberg",
+            "I. Sedlacek"
+        ],
+        "rawDate": "2017-10",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC5621",
+            "RFC5368",
+            "RFC6442"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8264": {
         "rfcNumber": "RFC8264",
         "href": "https://tools.ietf.org/html/rfc8264",
@@ -125244,6 +125277,21 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8267": {
+        "rfcNumber": "RFC8267",
+        "href": "https://tools.ietf.org/html/rfc8267",
+        "title": "Network File System (NFS) Upper-Layer Binding to RPC-over-RDMA Version 1",
+        "authors": [
+            "C. Lever"
+        ],
+        "rawDate": "2017-10",
+        "status": "Proposed Standard",
+        "obsoletes": [
+            "RFC5667"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8269": {
         "rfcNumber": "RFC8269",
         "href": "https://tools.ietf.org/html/rfc8269",
@@ -125281,6 +125329,38 @@
     "rfc828": {
         "aliasOf": "rfc0828"
     },
+    "rfc8285": {
+        "rfcNumber": "RFC8285",
+        "href": "https://tools.ietf.org/html/rfc8285",
+        "title": "A General Mechanism for RTP Header Extensions",
+        "authors": [
+            "D. Singer",
+            "H. Desineni",
+            "R. Even, Ed."
+        ],
+        "rawDate": "2017-10",
+        "status": "Proposed Standard",
+        "obsoletes": [
+            "RFC5285"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8286": {
+        "rfcNumber": "RFC8286",
+        "href": "https://tools.ietf.org/html/rfc8286",
+        "title": "RTP/RTCP Extension for RTP Splicing Notification",
+        "authors": [
+            "J. Xia",
+            "R. Even",
+            "R. Huang",
+            "L. Deng"
+        ],
+        "rawDate": "2017-10",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8288": {
         "rfcNumber": "RFC8288",
         "href": "https://tools.ietf.org/html/rfc8288",
@@ -125293,6 +125373,7 @@
         "obsoletes": [
             "RFC5988"
         ],
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=8288",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
