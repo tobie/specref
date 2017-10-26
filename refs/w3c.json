@@ -3836,15 +3836,14 @@
     },
     "FileAPI": {
         "authors": [
-            "Arun Ranganathan",
-            "Jonas Sicking"
+            "Marijn Kruisselbrink"
         ],
         "href": "https://www.w3.org/TR/FileAPI/",
         "title": "File API",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
-            "https://www.w3.org/2008/webapps/"
+            "https://www.w3.org/WebPlatform/WG/"
         ],
         "versions": {
             "20061018": {
@@ -3921,9 +3920,23 @@
                     "https://www.w3.org/2008/webapps/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20171026": {
+                "authors": [
+                    "Marijn Kruisselbrink"
+                ],
+                "href": "https://www.w3.org/TR/2017/WD-FileAPI-20171026/",
+                "title": "File API",
+                "rawDate": "2017-10-26",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WebPlatform/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2015-04-21",
+        "rawDate": "2017-10-26",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
         "edDraft": "https://w3c.github.io/FileAPI/",
         "repository": "https://github.com/w3c/FileAPI"
@@ -48491,8 +48504,8 @@
         ],
         "href": "https://www.w3.org/TR/preload/",
         "title": "Preload",
-        "rawDate": "2017-08-30",
-        "status": "WD",
+        "rawDate": "2017-10-26",
+        "status": "CR",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/preload/",
         "deliveredBy": [
@@ -48924,6 +48937,21 @@
                 "title": "Preload",
                 "rawDate": "2017-08-30",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/webperf/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20171026": {
+                "authors": [
+                    "Ilya Grigorik",
+                    "Yoav Weiss"
+                ],
+                "href": "https://www.w3.org/TR/2017/CR-preload-20171026/",
+                "title": "Preload",
+                "rawDate": "2017-10-26",
+                "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/webperf/"
