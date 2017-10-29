@@ -253,6 +253,16 @@
         "publisher": "Mozilla",
         "repository": "https://github.com/mozilla/id-specs"
     },
+    "building-web-of-things": {
+        "authors": [
+            "Dominique Guinard",
+            "Vlad Trifa"
+        ],
+        "href": "http://book.webofthings.io",
+        "title": "Building the Web of Things",
+        "publisher": "Manning",
+        "isbn": "9781617292682"
+    },
     "C14N2-TestCases": {
         "aliasOf": "xml-c14n2-testcases"
     },
@@ -4217,6 +4227,22 @@
         ],
         "publisher": "W3C Web Bluetooth Community Group",
         "repository": "https://github.com/webbluetoothcg/web-bluetooth"
+    },
+    "web-thing-model": {
+        "href": "https://www.w3.org/Submission/wot-model/",
+        "edDraft": "https://www.w3.org/Submission/wot-model/",
+        "title": "Web Thing Model",
+        "status": "Member Submission",
+        "authors": [
+            "Vlad Trifa",
+            "Dominique Guinard",
+            "David Carrera"
+        ],
+        "deliveredBy": [
+            "https://webofthings.org"
+        ],
+        "publisher": "W3C WoT Community Group",
+        "repository": "https://github.com/webofthings/web-thing-model"
     },
     "xfn": {
         "href": "http://www.gmpg.org/xfn/",
