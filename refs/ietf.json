@@ -61640,6 +61640,9 @@
         ],
         "rawDate": "2005-05",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC8271"
+        ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=4090",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -124901,6 +124904,20 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8237": {
+        "rfcNumber": "RFC8237",
+        "href": "https://tools.ietf.org/html/rfc8237",
+        "title": "MPLS Label Switched Path (LSP) Pseudowire (PW) Status Refresh Reduction for Static PWs",
+        "authors": [
+            "L. Martini",
+            "G. Swallow",
+            "E. Bellagamba"
+        ],
+        "rawDate": "2017-10",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8238": {
         "rfcNumber": "RFC8238",
         "href": "https://tools.ietf.org/html/rfc8238",
@@ -125329,6 +125346,25 @@
     "rfc827": {
         "aliasOf": "rfc0827"
     },
+    "rfc8271": {
+        "rfcNumber": "RFC8271",
+        "href": "https://tools.ietf.org/html/rfc8271",
+        "title": "Updates to the Resource Reservation Protocol for Fast Reroute of Traffic Engineering GMPLS Label Switched Paths (LSPs)",
+        "authors": [
+            "M. Taillon",
+            "T. Saad, Ed.",
+            "R. Gandhi, Ed.",
+            "Z. Ali",
+            "M. Bhatia"
+        ],
+        "rawDate": "2017-10",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC4090"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8277": {
         "rfcNumber": "RFC8277",
         "href": "https://tools.ietf.org/html/rfc8277",
@@ -125346,6 +125382,19 @@
     },
     "rfc828": {
         "aliasOf": "rfc0828"
+    },
+    "rfc8280": {
+        "rfcNumber": "RFC8280",
+        "href": "https://tools.ietf.org/html/rfc8280",
+        "title": "Research into Human Rights Protocol Considerations",
+        "authors": [
+            "N. ten Oever",
+            "C. Cath"
+        ],
+        "rawDate": "2017-10",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc8285": {
         "rfcNumber": "RFC8285",
