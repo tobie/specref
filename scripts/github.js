@@ -53,6 +53,12 @@ const urlToGHRepo = (url = "") => {
     if (url === "http://dev.w3.org/2009/dap/camera/") {
         return {owner: 'w3c', name: 'html-media-capture', issuefilter: nofilter};
     }
+
+    // Additions
+    const draftsfxtf = url.match(/^https?:\/\/drafts.fxtf.org\/([^\/]*)\/?/);
+    if (draftsfxtf) {
+        return { owner: 'w3c', name: 'fxtf-drafts' };
+    }
 };
 
 module.exports = function(key, obj, input, output, cb) {
