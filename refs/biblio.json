@@ -1307,6 +1307,12 @@
     "HTTP11": {
         "aliasOf": "RFC7230"
     },
+    "IANA-COSE": {
+        "authors": ["Francesca Palombini", "Matt Miller", "Justin Richer", "Carsten Bormann"],
+        "publisher": "Internet Assigned Numbers Authority",
+        "title": "CBOR Object Signing and Encryption (COSE)",
+        "href": "https://www.iana.org/assignments/cose/cose.xhtml"
+    },
     "IANA-MEDIA-TYPES": {
         "href": "https://www.iana.org/assignments/media-types/",
         "title": "Media Types",
