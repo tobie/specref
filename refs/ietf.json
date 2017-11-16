@@ -49842,6 +49842,7 @@
         ],
         "rawDate": "2002-11",
         "status": "Proposed Standard",
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=3323",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -125251,6 +125252,36 @@
     },
     "rfc826": {
         "aliasOf": "rfc0826"
+    },
+    "rfc8260": {
+        "rfcNumber": "RFC8260",
+        "href": "https://tools.ietf.org/html/rfc8260",
+        "title": "Stream Schedulers and User Message Interleaving for the Stream Control Transmission Protocol",
+        "authors": [
+            "R. Stewart",
+            "M. Tuexen",
+            "S. Loreto",
+            "R. Seggelmann"
+        ],
+        "rawDate": "2017-11",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8261": {
+        "rfcNumber": "RFC8261",
+        "href": "https://tools.ietf.org/html/rfc8261",
+        "title": "Datagram Transport Layer Security (DTLS) Encapsulation of SCTP Packets",
+        "authors": [
+            "M. Tuexen",
+            "R. Stewart",
+            "R. Jesup",
+            "S. Loreto"
+        ],
+        "rawDate": "2017-11",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc8262": {
         "rfcNumber": "RFC8262",
