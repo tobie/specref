@@ -1352,9 +1352,22 @@
     },
     "IEEE-754": {
         "href": "http://ieeexplore.ieee.org/servlet/opac?punumber=4610933",
-        "title": "IEEE Standard for Binary Floating-Point Arithmetic (ANSI/IEEE Std 754-1985)",
+        "title": "IEEE Standard for Floating-Point Arithmetic",
         "publisher": "Institute of Electrical and Electronics Engineers",
-        "date": "29 August 2008"
+        "rawDate": "2008-08-29",
+        "isbn": "978-0-7381-5752-8",
+        "versions": {
+            "1985": {
+                "href": "http://ieeexplore.ieee.org/servlet/opac?punumber=2355",
+                "title": "IEEE Standard for Binary Floating-Point Arithmetic",
+                "publisher": "Institute of Electrical and Electronics Engineers",
+                "rawDate": "1985",
+                "isSuperseded": true
+            },
+            "2008": {
+                "aliasOf": "IEEE-754"
+            }
+        }
     },
     "IMAGEMAP": {
         "aliasOf": "NOTE-imagemap"
