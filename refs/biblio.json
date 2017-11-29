@@ -3036,20 +3036,17 @@
         "publisher": "Manning",
         "isbn": "9781617292682"
     },
-    "ogc-12-168r6": {
-        "aliasOf": "csw"
-    },
-    "csw":{
-        "authors":[
+    "csw": {
+        "authors": [
             "Douglas Nebert",
             "Uwe Voges",
             "Lorenzo Bigagli"
         ],
-        "href":"http://www.opengeospatial.org/standards/cat",
-        "title":"Catalogue Services 3.0 - General Model",
-        "publisher":"OGC",
-        "ogcNumber":"OGC 12-168r6",
-        "rawDate":"2016-06-10"
+        "href": "http://www.opengeospatial.org/standards/cat",
+        "title": "Catalogue Services 3.0 - General Model",
+        "publisher": "OGC",
+        "ogcNumber": "OGC 12-168r6",
+        "rawDate": "2016-06-10"
     },
     "datacite": {
         "authors": [
@@ -3211,22 +3208,16 @@
         "rawDate": "2007-10-23",
         "status": "W3C Incubator Group Report"
     },
-    "ogc-11-052r4": {
-        "aliasOf": "sos"
-    },
-    "geosparql":{
-        "authors":[
+    "geosparql": {
+        "authors": [
             "Matthew Perry",
             "John Herring"
         ],
-        "href":"http://www.opengeospatial.org/standards/geosparql",
-        "title":"GeoSPARQL - A Geographic Query Language for RDF Data",
-        "publisher":"OGC",
-        "ogcNumber":"OGC 11-052r4",
-        "rawDate":"2012-09-10"
-    },
-    "ogc-07-036": {
-        "aliasOf": "sos"
+        "href": "http://www.opengeospatial.org/standards/geosparql",
+        "title": "GeoSPARQL - A Geographic Query Language for RDF Data",
+        "publisher": "OGC",
+        "ogcNumber": "OGC 11-052r4",
+        "rawDate": "2012-09-10"
     },
     "gml": {
         "href": "http://www.opengeospatial.org/standards/gml",
@@ -4048,6 +4039,30 @@
         "rawDate": "2015-03-05",
         "title": "ODRL Version 2.1 XML Encoding"
     },
+    "ogc-06-042": {
+        "aliasOf": "wms"
+    },
+    "ogc-07-036": {
+        "aliasOf": "sos"
+    },
+    "ogc-07-057r7": {
+        "aliasOf": "wmts"
+    },
+    "ogc-09-025r2": {
+        "aliasOf": "wfs"
+    },
+    "ogc-11-052r4": {
+        "aliasOf": "sos"
+    },
+    "ogc-12-006": {
+        "aliasOf": "sos"
+    },
+    "ogc-12-168r6": {
+        "aliasOf": "csw"
+    },
+    "ogc-14-065": {
+        "aliasOf": "wps"
+    },
     "payment-method-manifest": {
         "href": "https://w3c.github.io/payment-method-manifest/",
         "title": "Payment Method Manifest",
@@ -4159,21 +4174,18 @@
         "publisher": "European Telecommunications Standards Institute",
         "rawDate": "2015-11"
     },
-    "ogc-12-006": {
-        "aliasOf": "sos"
-    },
-    "sos":{
-        "href":"http://www.opengeospatial.org/standards/sos",
-        "publisher":"OGC",
-        "ogcNumber":"OGC 12-006",
-        "authors":[
+    "sos": {
+        "href": "http://www.opengeospatial.org/standards/sos",
+        "publisher": "OGC",
+        "ogcNumber": "OGC 12-006",
+        "authors": [
             "Arne Bröring",
             "Christoph Stasch",
             "Johannes Echterhoff"
         ],
-        "rawDate":"2012-04-20",
-        "title":"Sensor Observation Service Interface Standard",
-        "status":"OpenGIS Implementation Standard"
+        "rawDate": "2012-04-20",
+        "title": "Sensor Observation Service Interface Standard",
+        "status": "OpenGIS Implementation Standard"
     },
     "statdcat-ap": {
         "href": "https://joinup.ec.europa.eu/asset/stat_dcat_application_profile/",
@@ -4349,64 +4361,52 @@
         "publisher": "W3C WoT Community Group",
         "repository": "https://github.com/webofthings/web-thing-model"
     },
-    "ogc-09-025r2": {
-        "aliasOf": "wfs"
-    },
-    "wfs":{
-        "href":"http://www.opengeospatial.org/standards/wfs",
-        "publisher":"OGC",
-        "ogcNumber":"OGC 09-025r2",
-        "authors":[
+    "wfs": {
+        "href": "http://www.opengeospatial.org/standards/wfs",
+        "publisher": "OGC",
+        "ogcNumber": "OGC 09-025r2",
+        "authors": [
             "Panagiotis (Peter) A. Vretanos"
         ],
-        "rawDate":"2014-07-10",
-        "title":"Web Feature Service 2.0 Interface Standard",
-        "status":"OGC Interface Standard"
+        "rawDate": "2014-07-10",
+        "title": "Web Feature Service 2.0 Interface Standard",
+        "status": "OGC Interface Standard"
     },
-    "ogc-06-042": {
-        "aliasOf": "wms"
-    },
-    "wms":{
-        "authors":[
+    "wms": {
+        "authors": [
             "Jeff de la Beaujardiere"
         ],
-        "href":"http://www.opengeospatial.org/standards/wms",
-        "title":"Web Map Service Implementation Specification",
-        "publisher":"OGC",
-        "ogcNumber":"OGC 06-042",
-        "rawDate":"2006-03-15",
-        "status":"OpenGIS Implementation Standard"
+        "href": "http://www.opengeospatial.org/standards/wms",
+        "title": "Web Map Service Implementation Specification",
+        "publisher": "OGC",
+        "ogcNumber": "OGC 06-042",
+        "rawDate": "2006-03-15",
+        "status": "OpenGIS Implementation Standard"
     },
-    "ogc-07-057r7": {
-        "aliasOf": "wmts"
-    },
-    "wmts":{
-        "href":"http://www.opengeospatial.org/standards/wmts",
-        "publisher":"OGC",
-        "ogcNumber":"OGC 07-057r7",
-        "authors":[
+    "wmts": {
+        "href": "http://www.opengeospatial.org/standards/wmts",
+        "publisher": "OGC",
+        "ogcNumber": "OGC 07-057r7",
+        "authors": [
             "Joan Masó",
             "Keith Pomakis",
             "Núria Julià"
         ],
-        "rawDate":"2010-04-06",
-        "title":"Web Map Tile Service Implementation Standard",
-        "status":"OpenGIS Implementation Standard"
+        "rawDate": "2010-04-06",
+        "title": "Web Map Tile Service Implementation Standard",
+        "status": "OpenGIS Implementation Standard"
     },
-    "ogc-14-065": {
-        "aliasOf": "wps"
-    },
-    "wps":{
-        "href":"http://www.opengeospatial.org/standards/wps",
-        "publisher":"OGC",
-        "ogcNumber":"OGC 14-065",
-        "authors":[
+    "wps": {
+        "href": "http://www.opengeospatial.org/standards/wps",
+        "publisher": "OGC",
+        "ogcNumber": "OGC 14-065",
+        "authors": [
             "Matthias Mueller",
             "Benjamin Pross"
         ],
-        "rawDate":"2015-10-05",
-        "title":"Web Processing Service 2.0 Interface Standard",
-        "status":"OGC Implementation Standard"
+        "rawDate": "2015-10-05",
+        "title": "Web Processing Service 2.0 Interface Standard",
+        "status": "OGC Implementation Standard"
     },
     "xfn": {
         "href": "http://www.gmpg.org/xfn/",
