@@ -11,11 +11,34 @@ suite('Test bibref api', function() {
             }
         },
         foo: { aliasOf: "FOO" },
+        bar: { aliasOf: "fOO" },
         hello: { title: "HELLO" }
     };
-    test('bibref.raw points to the object passed to the constructor', function() {
-        var obj = {};
-        assert.strictEqual(obj, bibref.create(obj).raw);
+
+    test('bibref constructor handles a single reference obj', function() {
+        var obj = { foo: { title: "foo"} };
+        assert.equal("foo", bibref.create(obj).get("foo").foo.title);
+    });
+    
+    test('bibref constructor handles multiple reference objects', function() {
+        var obj1 = { foo: { title: "foo"} };
+        var obj2 = { bar: { title: "bar"} };
+        var b = bibref.create(obj1, obj2);
+        assert.equal("foo", b.get("foo").foo.title);
+        assert.equal("bar", b.get("bar").bar.title);
+    });
+    
+    test('bibref constructor throws when different reference objects share same identifiers', function() {
+        var obj1 = { foo: { title: "foo"} };
+        var obj2 = { foo: { title: "foo"} };
+        assert.throws(function() {
+            bibref.create(obj1, obj2);
+        });
+    });
+
+    test('bibref.raw holds a similar object as the one passed to the constructor', function() {
+        var obj = {foo: { title: "bar"}};
+        assert.deepEqual(obj, bibref.create(obj).raw);
     });
 
     test('bibref.all points to a clone of the object passed to the constructor', function() {
@@ -121,6 +144,14 @@ suite('Test bibref api', function() {
 
         assert.equal('HELLO', b.get('HeLLo').HeLLo.aliasOf, 'The differently cased alias points to the uppercased alias.');
         assert.equal('hello', b.get('HeLLo').HELLO.aliasOf, 'The uppercased  alias points to ref itself.');
+    });
+
+    test('bibref.get handles aliases case-insensitively', function() {
+        var b = bibref.create(obj);
+        var r = b.get('bar');
+        assert.ok('bar' in r, 'Returns the requested alias.');
+        assert.ok('fOO' in r, 'Returns an alias created on the fly.');
+        assert.ok('FOO' in r, 'Returns the ref itself.');
     });
 
     test('bibref.get also includes canonical reference of versioned specs', function() {
@@ -306,5 +337,26 @@ suite('Test bibref reverseLookup API', function() {
         var output = b.reverseLookup([edDraft]);
         assert(edDraft in output);
         assert.equal("Bar", output[edDraft].title);
+    });
+});
+
+suite('Test bibref normalizeUrl API', function() {
+    test('removes protocol', function() {
+        assert.equal("example.com", bibref.normalizeUrl("http://example.com"));
+        assert.equal("example.com", bibref.normalizeUrl("https://example.com"));
+    });
+    
+    test('removes www. subdomains', function() {
+        assert.equal("example.com", bibref.normalizeUrl("http://www.example.com"));
+    });
+    
+    test('keeps hashes around', function() {
+        assert.equal("example.com#foo", bibref.normalizeUrl("http://www.example.com#foo"));
+    });
+    
+    test('removes trailing slashes', function() {
+        assert.equal("example.com", bibref.normalizeUrl("http://www.example.com/"));
+        assert.equal("example.com/foo", bibref.normalizeUrl("http://www.example.com/foo/"));
+        assert.equal("example.com/foo/index.html", bibref.normalizeUrl("http://www.example.com/foo/index.html"));
     });
 });

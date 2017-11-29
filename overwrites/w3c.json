@@ -1,0 +1,23 @@
+{
+    "WebIDL": {
+        "title": { "replaceWith": "Web IDL" },
+        "authors": { "replaceWith": ["Cameron McCormack", "Boris Zbarsky", "Tobie Langel"] },
+        "status": { "replaceWith": "ED" },
+        "href": { "replaceWith": "https://heycam.github.io/webidl/" }
+    },
+    "url": {
+        "delete": true
+    },
+    "fullscreen": {
+        "delete": true
+    },
+    "notifications": {
+        "delete": true
+    },
+    "dom": {
+        "delete": true
+    },
+    "encoding": {
+        "delete": true
+    }
+}

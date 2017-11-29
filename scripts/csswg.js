@@ -1,23 +1,23 @@
 #!/usr/bin/env node
 var request = require('request'),
-    runner = require('./run');
+    userAgent =require("./user-agent"),
+    bibref = require('../lib/bibref'),
+    helper = require('./helper');
 
-var current = runner.readBiblio();
+var FILENAME = "csswg.json";
+var current = helper.readBiblio(FILENAME);
+
+var refs = bibref.expandRefs(bibref.raw);
+
 var CURRENT = {}
-Object.keys(current).forEach(function(id) {
+
+Object.keys(refs).forEach(function(id) {
     CURRENT[id.toUpperCase()] = id;
-    if (current[id].versions) {
-        Object.keys(current[id].versions).forEach(function(vid) {
-            var k = id + "-" + vid;
-            CURRENT[k.toUpperCase()] = id;
-            CURRENT[k] = id;
-        });
-    }
 });
 
 var urls = {};
 
-Object.keys(current).forEach(function(id) {
+Object.keys(refs).forEach(function(id) {
     var obj = current[id];
     if (typeof obj != "object") return;
     var href = obj.href;
@@ -43,40 +43,42 @@ var REJECT = {
     "XML10-4e": true
 }
 
-var REF_URL = "http://dev.w3.org/csswg/biblio.ref";
+var REF_URL = "https://dev.w3.org/csswg/biblio.ref";
 
 console.log("Updating CSS WG refs...");
 console.log("Fetching", REF_URL + "...");
-request(REF_URL, function(err, response, body) {
+request({
+    url: REF_URL,
+    headers: {
+        'User-Agent': userAgent()
+    }
+}, function(err, response, body) {
     if (err || response.statusCode !== 200) {
         console.log("Can't fetch", REF_URL + ".");
         return;
     }
-    
+
     console.log("Parsing", REF_URL + "...");
     parse(body).forEach(function(o) {
         var id = CURRENT[o.id] || o.id;
         if (!id || REJECT[id]) return;
-        if (current[id]) {
-            if (current[id].source == REF_URL) {
+        if (refs[id]) {
+            if (refs[id].source == REF_URL) {
                 current[id] = o;
-                delete o.id;
             }
-            return;
-        };
-        if (o.href && urls[o.href]) {
+        } else if (o.href && urls[o.href]) {
             var id = urls[o.href];
             current[o.id] = {
                 aliasOf: id
             };
-            return
+        } else {
+            current[o.id] = o;
         }
-        current[o.id] = o;
         delete o.id;
-    })
-    current = runner.sortRefs(current);
+    });
+    current = helper.sortRefs(current);
     console.log("updating existing refs.")
-    runner.writeBiblio(current);
+    helper.writeBiblio(FILENAME, current);
 });
 
 var MONTHS = [

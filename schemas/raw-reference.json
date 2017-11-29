@@ -4,7 +4,7 @@
     "title": "Specref",
     "description": "A list of spec references.",
     "patternProperties": {
-        "^[a-zA-Z0-9-_+\\.]+$": {
+        "^[a-zA-Z0-9\\-_+\\.]+$": {
             "oneOf": [
                 { "$ref": "#/definitions/alias" },
                 { "$ref": "#/definitions/legacyRef" },
@@ -36,7 +36,7 @@
         "id": {
             "definition": "A reference ID (corresponds to RFCs or W3C shortnames).",
             "type": "string",
-            "pattern": "^[a-zA-Z0-9-_+\\.]+$"
+            "pattern": "^[a-zA-Z0-9\\-_+\\.]+$"
         },
         "idList": {
             "definition": "An array of unique reference IDs.",
@@ -111,7 +111,7 @@
                     "$ref": "#/definitions/idList"
                 }
             },
-            "required": ["href", "rawDate"],
+            "required": ["href"],
             "additionalProperties": false
         },
         "legacyRef": {
@@ -204,9 +204,19 @@
                     "$ref": "#/definitions/idList"
                 },
                 "rfcNumber": {
-                    "description": "",
+                    "description": "Number of IETF RFC",
                     "type": "string",
                     "pattern": "^RFC\\d{4}$"
+                },
+                "isoNumber": {
+                    "description": "Number of ISO standard",
+                    "type": "string",
+                    "pattern": "^ISO(\\/IEC)?(\\/((TS)|(DIS)|(FDIS)))? \\d{4,}(\\-\\d+)?(\\:\\d{4})?$"
+                },
+                "ogcNumber": {
+                    "description": "Number of OGC standard",
+                    "type": "string",
+                    "pattern": "^OGC \\d{2}\\-\\d+(r\\d+)?$"
                 },
                 "seeAlso": {
                     "description": "",
@@ -220,7 +230,7 @@
                     "description": "An object listing specific versions of that spec.",
                     "type": "object",
                     "patternProperties": {
-                        "^[a-zA-Z0-9-_+\\.]+$": {
+                        "^[a-zA-Z0-9\\-_+\\.]+$": {
                             "oneOf": [
                                 { "$ref": "#/definitions/version" },
                                 { "$ref": "#/definitions/alias" }
@@ -236,6 +246,20 @@
                 "edDraft": {
                     "description": "URL of the editor's draft",
                     "$ref": "#/definitions/url"
+                },
+                "isbn": {
+                    "description": "International Standard Book Number",
+                    "type": "string",
+                    "pattern": "^[0-9\\-]+X?$"
+                },
+                "pages": {
+                    "description": "Page number(s) where the reference is inside the titled document",
+                    "type": "string",
+                    "pattern": "^[0-9\\-,]+$"
+                },
+                "repository": {
+                    "description": "URL of the repository",
+                    "$ref": "#/definitions/url"
                 }
             },
             "required": ["title"],
@@ -243,4 +267,3 @@
         }
     }
 }
-

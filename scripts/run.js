@@ -1,36 +1,12 @@
 #!/usr/bin/env node
-var fs = require('fs');
-var path = require('path');
-var FILE = path.join(__dirname, "..", "biblio.json");
+var helper = require('./helper');
 var moduleName = process.argv[2];
 var fn = moduleName ? require(moduleName) : noop;
+var FILE = process.argv[3];
 
 function noop(k, v, input, output, cb) {
     output[k] = v;
     cb(null);
-}
-
-exports.readBiblio = readBiblio;
-function readBiblio() {
-    console.log("Loadind and parsing " + FILE + "...");
-    var input = fs.readFileSync(FILE, 'utf8');
-    return JSON.parse(input);
-}
-
-exports.sortRefs = sortRefs;
-function sortRefs(input) {
-    console.log("Sorting references...");
-    var output = {};
-    Object.keys(input).sort().forEach(function(k) {
-        output[k] = input[k];
-    });
-    return output;
-}
-
-exports.writeBiblio = writeBiblio;
-function writeBiblio(obj) {
-    console.log("Writing output to " + FILE + "...");
-    fs.writeFileSync(FILE, JSON.stringify(obj, null, 4) + "\n", 'utf8');
 }
 
 function next(keys, input, output) {
@@ -44,12 +20,12 @@ function next(keys, input, output) {
             });
         });
     } else {
-        output = sortRefs(output);
-        writeBiblio(output)
+        output = helper.sortRefs(output);
+        helper.writeBiblio(FILE, output)
     }
 }
 if (require.main === module) {
-    var input = readBiblio();
+    var input = helper.readBiblio(FILE);
     if (moduleName) console.log("Applying module", moduleName);
     next(Object.keys(input), input, {});
 }
