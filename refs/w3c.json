@@ -17337,6 +17337,73 @@
         },
         "repository": "https://github.com/w3c/csswg-drafts"
     },
+    "css-animations-1": {
+        "authors": [
+            "Dean Jackson",
+            "David Baron",
+            "Tab Atkins Jr.",
+            "Brian Birtles"
+        ],
+        "href": "https://www.w3.org/TR/css-animations-1/",
+        "title": "CSS Animations Level 1",
+        "rawDate": "2017-11-30",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://drafts.csswg.org/css-animations/",
+        "deliveredBy": [
+            "https://www.w3.org/Style/CSS/members"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20090320": {
+                "status": "WD",
+                "rawDate": "2009-03-20",
+                "href": "https://www.w3.org/TR/2009/WD-css3-animations-20090320/",
+                "source": "./data/w3c-specs.txt"
+            },
+            "20120403": {
+                "status": "WD",
+                "rawDate": "2012-04-03",
+                "href": "https://www.w3.org/TR/2012/WD-css3-animations-20120403/",
+                "source": "./data/w3c-specs.txt"
+            },
+            "20130219": {
+                "authors": [
+                    "Dean Jackson",
+                    "David Hyatt",
+                    "Chris Marrin",
+                    "Sylvain Galineau",
+                    "David Baron"
+                ],
+                "href": "https://www.w3.org/TR/2013/WD-css3-animations-20130219/",
+                "title": "CSS Animations",
+                "rawDate": "2013-02-19",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Style/CSS/members"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20171130": {
+                "authors": [
+                    "Dean Jackson",
+                    "David Baron",
+                    "Tab Atkins Jr.",
+                    "Brian Birtles"
+                ],
+                "href": "https://www.w3.org/TR/2017/WD-css-animations-1-20171130/",
+                "title": "CSS Animations Level 1",
+                "rawDate": "2017-11-30",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Style/CSS/members"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
     "css-backgrounds-3": {
         "authors": [
             "Bert Bos",
@@ -21076,11 +21143,10 @@
         ],
         "href": "https://www.w3.org/TR/css-transforms-1/",
         "title": "CSS Transforms Module Level 1",
-        "rawDate": "2013-11-26",
+        "rawDate": "2017-11-30",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
-            "https://www.w3.org/Graphics/SVG/WG/",
             "https://www.w3.org/Style/CSS/members"
         ],
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
@@ -21133,6 +21199,23 @@
                     "https://www.w3.org/Style/CSS/members"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20171130": {
+                "authors": [
+                    "Simon Fraser",
+                    "Dean Jackson",
+                    "Theresa O'Connor",
+                    "Dirk Schulze"
+                ],
+                "href": "https://www.w3.org/TR/2017/WD-css-transforms-1-20171130/",
+                "title": "CSS Transforms Module Level 1",
+                "rawDate": "2017-11-30",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Style/CSS/members"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
         "edDraft": "https://drafts.csswg.org/css-transforms/",
@@ -21141,6 +21224,93 @@
             "css3-3d-transforms"
         ],
         "repository": "https://github.com/w3c/csswg-drafts"
+    },
+    "css-transitions-1": {
+        "authors": [
+            "David Baron",
+            "Dean Jackson",
+            "Brian Birtles"
+        ],
+        "href": "https://www.w3.org/TR/css-transitions-1/",
+        "title": "CSS Transitions",
+        "rawDate": "2017-11-30",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://drafts.csswg.org/css-transitions/",
+        "deliveredBy": [
+            "https://www.w3.org/Style/CSS/members"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20090320": {
+                "status": "WD",
+                "rawDate": "2009-03-20",
+                "href": "https://www.w3.org/TR/2009/WD-css3-transitions-20090320",
+                "source": "./data/w3c-specs.txt"
+            },
+            "20091201": {
+                "status": "WD",
+                "rawDate": "2009-12-01",
+                "href": "https://www.w3.org/TR/2009/WD-css3-transitions-20091201/",
+                "source": "./data/w3c-specs.txt"
+            },
+            "20120403": {
+                "status": "WD",
+                "rawDate": "2012-04-03",
+                "href": "https://www.w3.org/TR/2012/WD-css3-transitions-20120403/",
+                "source": "./data/w3c-specs.txt"
+            },
+            "20130212": {
+                "authors": [
+                    "Dean Jackson",
+                    "David Hyatt",
+                    "Chris Marrin",
+                    "David Baron"
+                ],
+                "href": "https://www.w3.org/TR/2013/WD-css3-transitions-20130212/",
+                "title": "CSS Transitions",
+                "rawDate": "2013-02-12",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Style/CSS/members"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20131119": {
+                "authors": [
+                    "Dean Jackson",
+                    "David Hyatt",
+                    "Chris Marrin",
+                    "David Baron"
+                ],
+                "href": "https://www.w3.org/TR/2013/WD-css3-transitions-20131119/",
+                "title": "CSS Transitions",
+                "rawDate": "2013-11-19",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Style/CSS/members"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20171130": {
+                "authors": [
+                    "David Baron",
+                    "Dean Jackson",
+                    "Brian Birtles"
+                ],
+                "href": "https://www.w3.org/TR/2017/WD-css-transitions-1-20171130/",
+                "title": "CSS Transitions",
+                "rawDate": "2017-11-30",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Style/CSS/members"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
     },
     "css-tv": {
         "authors": [
@@ -21911,56 +22081,7 @@
         "aliasOf": "css-align-3"
     },
     "css3-animations": {
-        "authors": [
-            "Dean Jackson",
-            "David Hyatt",
-            "Chris Marrin",
-            "Sylvain Galineau",
-            "David Baron"
-        ],
-        "href": "https://www.w3.org/TR/css3-animations/",
-        "title": "CSS Animations",
-        "status": "WD",
-        "publisher": "W3C",
-        "versions": {
-            "20090320": {
-                "status": "WD",
-                "rawDate": "2009-03-20",
-                "href": "https://www.w3.org/TR/2009/WD-css3-animations-20090320/",
-                "source": "./data/w3c-specs.txt"
-            },
-            "20120403": {
-                "status": "WD",
-                "rawDate": "2012-04-03",
-                "href": "https://www.w3.org/TR/2012/WD-css3-animations-20120403/",
-                "source": "./data/w3c-specs.txt"
-            },
-            "20130219": {
-                "authors": [
-                    "Dean Jackson",
-                    "David Hyatt",
-                    "Chris Marrin",
-                    "Sylvain Galineau",
-                    "David Baron"
-                ],
-                "href": "https://www.w3.org/TR/2013/WD-css3-animations-20130219/",
-                "title": "CSS Animations",
-                "rawDate": "2013-02-19",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/Style/CSS/members"
-                ],
-                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
-            }
-        },
-        "deliveredBy": [
-            "https://www.w3.org/Style/CSS/members"
-        ],
-        "rawDate": "2013-02-19",
-        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
-        "edDraft": "https://drafts.csswg.org/css-animations-1/",
-        "repository": "https://github.com/w3c/csswg-drafts"
+        "aliasOf": "css-animations-1"
     },
     "css3-background": {
         "aliasOf": "css-backgrounds-3"
@@ -23013,77 +23134,7 @@
         "aliasOf": "css-transforms-1"
     },
     "css3-transitions": {
-        "authors": [
-            "Dean Jackson",
-            "David Hyatt",
-            "Chris Marrin",
-            "David Baron"
-        ],
-        "href": "https://www.w3.org/TR/css3-transitions/",
-        "title": "CSS Transitions",
-        "status": "WD",
-        "publisher": "W3C",
-        "versions": {
-            "20090320": {
-                "status": "WD",
-                "rawDate": "2009-03-20",
-                "href": "https://www.w3.org/TR/2009/WD-css3-transitions-20090320",
-                "source": "./data/w3c-specs.txt"
-            },
-            "20091201": {
-                "status": "WD",
-                "rawDate": "2009-12-01",
-                "href": "https://www.w3.org/TR/2009/WD-css3-transitions-20091201/",
-                "source": "./data/w3c-specs.txt"
-            },
-            "20120403": {
-                "status": "WD",
-                "rawDate": "2012-04-03",
-                "href": "https://www.w3.org/TR/2012/WD-css3-transitions-20120403/",
-                "source": "./data/w3c-specs.txt"
-            },
-            "20130212": {
-                "authors": [
-                    "Dean Jackson",
-                    "David Hyatt",
-                    "Chris Marrin",
-                    "David Baron"
-                ],
-                "href": "https://www.w3.org/TR/2013/WD-css3-transitions-20130212/",
-                "title": "CSS Transitions",
-                "rawDate": "2013-02-12",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/Style/CSS/members"
-                ],
-                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
-            },
-            "20131119": {
-                "authors": [
-                    "Dean Jackson",
-                    "David Hyatt",
-                    "Chris Marrin",
-                    "David Baron"
-                ],
-                "href": "https://www.w3.org/TR/2013/WD-css3-transitions-20131119/",
-                "title": "CSS Transitions",
-                "rawDate": "2013-11-19",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/Style/CSS/members"
-                ],
-                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
-            }
-        },
-        "deliveredBy": [
-            "https://www.w3.org/Style/CSS/members"
-        ],
-        "rawDate": "2013-11-19",
-        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
-        "edDraft": "https://drafts.csswg.org/css-transitions/",
-        "repository": "https://github.com/w3c/csswg-drafts"
+        "aliasOf": "css-transitions-1"
     },
     "css3-ui": {
         "aliasOf": "css-ui-3"
