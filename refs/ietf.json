@@ -18671,7 +18671,7 @@
             "R. Callon"
         ],
         "rawDate": "1992-06",
-        "status": "Informational",
+        "status": "Historic",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -22860,7 +22860,7 @@
             "P. Francis"
         ],
         "rawDate": "1994-05",
-        "status": "Informational",
+        "status": "Historic",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -22872,7 +22872,7 @@
             "P. Francis"
         ],
         "rawDate": "1994-05",
-        "status": "Informational",
+        "status": "Historic",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -24170,7 +24170,7 @@
             "R. Ullmann"
         ],
         "rawDate": "1994-10",
-        "status": "Informational",
+        "status": "Historic",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -25885,7 +25885,7 @@
             "L. Berger, Ed."
         ],
         "rawDate": "1995-08",
-        "status": "Experimental",
+        "status": "Historic",
         "obsoletes": [
             "RFC1190",
             "IEN119"
@@ -90719,6 +90719,9 @@
         ],
         "rawDate": "2010-09",
         "status": "Proposed Standard",
+        "obsoletedBy": [
+            "RFC8306"
+        ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=6006",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -125301,6 +125304,21 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8263": {
+        "rfcNumber": "RFC8263",
+        "href": "https://tools.ietf.org/html/rfc8263",
+        "title": "Group Domain of Interpretation (GDOI) GROUPKEY-PUSH Acknowledgement Message",
+        "authors": [
+            "B. Weis",
+            "U. Mangla",
+            "T. Karl",
+            "N. Maheshwari"
+        ],
+        "rawDate": "2017-11",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8264": {
         "rfcNumber": "RFC8264",
         "href": "https://tools.ietf.org/html/rfc8264",
@@ -125475,6 +125493,18 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8284": {
+        "rfcNumber": "RFC8284",
+        "href": "https://tools.ietf.org/html/rfc8284",
+        "title": "Lightweight Directory Access Protocol (LDAP) Schema for Supporting the Extensible Messaging and Presence Protocol (XMPP) in White Pages",
+        "authors": [
+            "S. Kille"
+        ],
+        "rawDate": "2017-11",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8285": {
         "rfcNumber": "RFC8285",
         "href": "https://tools.ietf.org/html/rfc8285",
@@ -125556,6 +125586,24 @@
     },
     "rfc830": {
         "aliasOf": "rfc0830"
+    },
+    "rfc8306": {
+        "rfcNumber": "RFC8306",
+        "href": "https://tools.ietf.org/html/rfc8306",
+        "title": "Extensions to the Path Computation Element Communication Protocol (PCEP) for Point-to-Multipoint Traffic Engineering Label Switched Paths",
+        "authors": [
+            "Q. Zhao",
+            "D. Dhody, Ed.",
+            "R. Palleti",
+            "D. King"
+        ],
+        "rawDate": "2017-11",
+        "status": "Proposed Standard",
+        "obsoletes": [
+            "RFC6006"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc831": {
         "aliasOf": "rfc0831"
