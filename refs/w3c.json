@@ -11434,8 +11434,8 @@
         ],
         "href": "https://www.w3.org/TR/activitypub/",
         "title": "ActivityPub",
-        "rawDate": "2017-11-02",
-        "status": "CR",
+        "rawDate": "2017-12-05",
+        "status": "PR",
         "publisher": "W3C",
         "deliveredBy": [
             "https://www.w3.org/Social/WG"
@@ -11597,6 +11597,21 @@
                 "title": "ActivityPub",
                 "rawDate": "2017-11-02",
                 "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Social/WG"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20171205": {
+                "authors": [
+                    "Christopher Webber",
+                    "Jessica Tallon"
+                ],
+                "href": "https://www.w3.org/TR/2017/PR-activitypub-20171205/",
+                "title": "ActivityPub",
+                "rawDate": "2017-12-05",
+                "status": "PR",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/Social/WG"
@@ -17902,6 +17917,105 @@
         },
         "repository": "https://github.com/w3c/csswg-drafts"
     },
+    "css-color-3": {
+        "authors": [
+            "Tantek Çelik",
+            "Chris Lilley",
+            "David Baron"
+        ],
+        "href": "https://www.w3.org/TR/css-color-3/",
+        "title": "CSS Color Module Level 3",
+        "rawDate": "2017-12-05",
+        "status": "CR",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/Style/CSS/members"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "19990623": {
+                "status": "WD",
+                "rawDate": "1999-06-23",
+                "href": "https://www.w3.org/1999/06/WD-css3-iccprof-19990623",
+                "source": "./data/w3c-specs.txt"
+            },
+            "20010305": {
+                "status": "WD",
+                "rawDate": "2001-03-05",
+                "href": "https://www.w3.org/TR/2001/WD-css3-color-20010305",
+                "source": "./data/w3c-specs.txt"
+            },
+            "20020219": {
+                "status": "WD",
+                "rawDate": "2002-02-19",
+                "href": "https://www.w3.org/TR/2002/WD-css3-color-20020219/",
+                "source": "./data/w3c-specs.txt"
+            },
+            "20020418": {
+                "status": "WD",
+                "rawDate": "2002-04-18",
+                "href": "https://www.w3.org/TR/2002/WD-css3-color-20020418",
+                "source": "./data/w3c-specs.txt"
+            },
+            "20030214": {
+                "status": "WD",
+                "rawDate": "2003-02-14",
+                "href": "https://www.w3.org/TR/2003/WD-css3-color-20030214",
+                "source": "./data/w3c-specs.txt"
+            },
+            "20030514": {
+                "status": "CR",
+                "rawDate": "2003-05-14",
+                "href": "https://www.w3.org/TR/2003/CR-css3-color-20030514",
+                "source": "./data/w3c-specs.txt"
+            },
+            "20080721": {
+                "status": "WD",
+                "rawDate": "2008-07-21",
+                "href": "https://www.w3.org/TR/2008/WD-css3-color-20080721",
+                "source": "./data/w3c-specs.txt"
+            },
+            "20101028": {
+                "status": "PR",
+                "rawDate": "2010-10-28",
+                "href": "https://www.w3.org/TR/2010/PR-css3-color-20101028",
+                "source": "./data/w3c-specs.txt"
+            },
+            "20110607": {
+                "authors": [
+                    "Tantek Çelik",
+                    "Chris Lilley",
+                    "David Baron"
+                ],
+                "href": "https://www.w3.org/TR/2011/REC-css3-color-20110607/",
+                "title": "CSS Color Module Level 3",
+                "rawDate": "2011-06-07",
+                "status": "REC",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Style/CSS/members"
+                ],
+                "hasErrata": "https://www.w3.org/Style/2011/REC-css3-color-20110607-errata.html",
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20171205": {
+                "authors": [
+                    "Tantek Çelik",
+                    "Chris Lilley",
+                    "David Baron"
+                ],
+                "href": "https://www.w3.org/TR/2017/CR-css-color-3-20171205/",
+                "title": "CSS Color Module Level 3",
+                "rawDate": "2017-12-05",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Style/CSS/members"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
     "css-color-4": {
         "authors": [
             "Tab Atkins Jr.",
@@ -22184,88 +22298,7 @@
         "aliasOf": "css-cascade-3"
     },
     "css3-color": {
-        "authors": [
-            "Tantek Çelik",
-            "Chris Lilley",
-            "David Baron"
-        ],
-        "href": "https://www.w3.org/TR/css3-color/",
-        "title": "CSS Color Module Level 3",
-        "rawDate": "2011-06-07",
-        "status": "REC",
-        "publisher": "W3C",
-        "deliveredBy": [
-            "https://www.w3.org/Style/CSS/members"
-        ],
-        "hasErrata": "https://www.w3.org/Style/2011/REC-css3-color-20110607-errata.html",
-        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
-        "versions": {
-            "19990623": {
-                "status": "WD",
-                "rawDate": "1999-06-23",
-                "href": "https://www.w3.org/1999/06/WD-css3-iccprof-19990623",
-                "source": "./data/w3c-specs.txt"
-            },
-            "20010305": {
-                "status": "WD",
-                "rawDate": "2001-03-05",
-                "href": "https://www.w3.org/TR/2001/WD-css3-color-20010305",
-                "source": "./data/w3c-specs.txt"
-            },
-            "20020219": {
-                "status": "WD",
-                "rawDate": "2002-02-19",
-                "href": "https://www.w3.org/TR/2002/WD-css3-color-20020219/",
-                "source": "./data/w3c-specs.txt"
-            },
-            "20020418": {
-                "status": "WD",
-                "rawDate": "2002-04-18",
-                "href": "https://www.w3.org/TR/2002/WD-css3-color-20020418",
-                "source": "./data/w3c-specs.txt"
-            },
-            "20030214": {
-                "status": "WD",
-                "rawDate": "2003-02-14",
-                "href": "https://www.w3.org/TR/2003/WD-css3-color-20030214",
-                "source": "./data/w3c-specs.txt"
-            },
-            "20030514": {
-                "status": "CR",
-                "rawDate": "2003-05-14",
-                "href": "https://www.w3.org/TR/2003/CR-css3-color-20030514",
-                "source": "./data/w3c-specs.txt"
-            },
-            "20080721": {
-                "status": "WD",
-                "rawDate": "2008-07-21",
-                "href": "https://www.w3.org/TR/2008/WD-css3-color-20080721",
-                "source": "./data/w3c-specs.txt"
-            },
-            "20101028": {
-                "status": "PR",
-                "rawDate": "2010-10-28",
-                "href": "https://www.w3.org/TR/2010/PR-css3-color-20101028",
-                "source": "./data/w3c-specs.txt"
-            },
-            "20110607": {
-                "authors": [
-                    "Tantek Çelik",
-                    "Chris Lilley",
-                    "David Baron"
-                ],
-                "href": "https://www.w3.org/TR/2011/REC-css3-color-20110607/",
-                "title": "CSS Color Module Level 3",
-                "rawDate": "2011-06-07",
-                "status": "REC",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/Style/CSS/members"
-                ],
-                "hasErrata": "https://www.w3.org/Style/2011/REC-css3-color-20110607-errata.html",
-                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
-            }
-        }
+        "aliasOf": "css-color-3"
     },
     "css3-conditional": {
         "authors": [
@@ -22487,7 +22520,7 @@
         "isRetired": true
     },
     "css3-iccprof": {
-        "aliasOf": "css3-color"
+        "aliasOf": "css-color-3"
     },
     "css3-images": {
         "authors": [
@@ -69929,8 +69962,8 @@
             "J.C. Jones"
         ],
         "href": "https://www.w3.org/TR/webauthn/",
-        "title": "Web Authentication: An API for accessing Public Key Credentials Level 1",
-        "rawDate": "2017-08-11",
+        "title": "Web Authentication: An API for accessing Public Key Credentials - Level 1",
+        "rawDate": "2017-12-05",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/webauthn/",
@@ -70052,6 +70085,28 @@
                 "href": "https://www.w3.org/TR/2017/WD-webauthn-20170811/",
                 "title": "Web Authentication: An API for accessing Public Key Credentials Level 1",
                 "rawDate": "2017-08-11",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/webauthn/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20171205": {
+                "authors": [
+                    "Vijay Bharadwaj",
+                    "Hubert Le Van Gong",
+                    "Dirk Balfanz",
+                    "Alexei Czeskis",
+                    "Arnar Birgisson",
+                    "Jeff Hodges",
+                    "Michael Jones",
+                    "Rolf Lindemann",
+                    "J.C. Jones"
+                ],
+                "href": "https://www.w3.org/TR/2017/WD-webauthn-20171205/",
+                "title": "Web Authentication: An API for accessing Public Key Credentials - Level 1",
+                "rawDate": "2017-12-05",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
