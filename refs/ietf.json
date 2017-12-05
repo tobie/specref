@@ -20455,6 +20455,7 @@
         ],
         "rawDate": "1993-05",
         "status": "Experimental",
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=1464",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -125433,6 +125434,19 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8273": {
+        "rfcNumber": "RFC8273",
+        "href": "https://tools.ietf.org/html/rfc8273",
+        "title": "Unique IPv6 Prefix per Host",
+        "authors": [
+            "J. Brzozowski",
+            "G. Van de Velde"
+        ],
+        "rawDate": "2017-12",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8274": {
         "rfcNumber": "RFC8274",
         "href": "https://tools.ietf.org/html/rfc8274",
@@ -125443,6 +125457,32 @@
         ],
         "rawDate": "2017-11",
         "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8275": {
+        "rfcNumber": "RFC8275",
+        "href": "https://tools.ietf.org/html/rfc8275",
+        "title": "Allowing Inheritable NFSv4 Access Control Entries to Override the Umask",
+        "authors": [
+            "J. Fields",
+            "A. Gruenbacher"
+        ],
+        "rawDate": "2017-12",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8276": {
+        "rfcNumber": "RFC8276",
+        "href": "https://tools.ietf.org/html/rfc8276",
+        "title": "File System Extended Attributes in NFSv4",
+        "authors": [
+            "M. Naik",
+            "M. Eshel"
+        ],
+        "rawDate": "2017-12",
+        "status": "Proposed Standard",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
