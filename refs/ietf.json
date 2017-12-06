@@ -66613,6 +66613,9 @@
         ],
         "rawDate": "2006-03",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC8270"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -97968,6 +97971,7 @@
         ],
         "rawDate": "2012-02",
         "status": "Informational",
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=6480",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -125401,6 +125405,22 @@
     "rfc827": {
         "aliasOf": "rfc0827"
     },
+    "rfc8270": {
+        "rfcNumber": "RFC8270",
+        "href": "https://tools.ietf.org/html/rfc8270",
+        "title": "Increase the Secure Shell Minimum Recommended Diffie-Hellman Modulus Size to 2048 Bits",
+        "authors": [
+            "L. Velvindron",
+            "M. Baushke"
+        ],
+        "rawDate": "2017-12",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC4419"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8271": {
         "rfcNumber": "RFC8271",
         "href": "https://tools.ietf.org/html/rfc8271",
@@ -125470,6 +125490,7 @@
         ],
         "rawDate": "2017-12",
         "status": "Proposed Standard",
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=8275",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -125483,6 +125504,7 @@
         ],
         "rawDate": "2017-12",
         "status": "Proposed Standard",
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=8276",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
