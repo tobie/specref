@@ -68202,12 +68202,6 @@
         "rawDate": "2008-05-14",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
-    "wai-aria-10": {
-        "aliasOf": "wai-aria"
-    },
-    "wai-aria-1.0": {
-        "aliasOf": "wai-aria"
-    },
     "wai-aria": {
         "authors": [
             "James Craig",
@@ -68326,8 +68320,8 @@
         "rawDate": "2014-03-20",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
-    "wai-aria-11": {
-        "aliasOf": "wai-aria-1.1"
+    "wai-aria-1.0": {
+        "aliasOf": "wai-aria"
     },
     "wai-aria-1.1": {
         "authors": [
@@ -68511,6 +68505,12 @@
         },
         "edDraft": "https://rawgit.com/w3c/aria/master/aria/aria.html",
         "repository": "https://github.com/w3c/aria"
+    },
+    "wai-aria-10": {
+        "aliasOf": "wai-aria"
+    },
+    "wai-aria-11": {
+        "aliasOf": "wai-aria-1.1"
     },
     "wai-aria-implementation": {
         "authors": [
