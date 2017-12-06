@@ -18671,7 +18671,7 @@
             "R. Callon"
         ],
         "rawDate": "1992-06",
-        "status": "Informational",
+        "status": "Historic",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -20455,6 +20455,7 @@
         ],
         "rawDate": "1993-05",
         "status": "Experimental",
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=1464",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -22860,7 +22861,7 @@
             "P. Francis"
         ],
         "rawDate": "1994-05",
-        "status": "Informational",
+        "status": "Historic",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -22872,7 +22873,7 @@
             "P. Francis"
         ],
         "rawDate": "1994-05",
-        "status": "Informational",
+        "status": "Historic",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -24170,7 +24171,7 @@
             "R. Ullmann"
         ],
         "rawDate": "1994-10",
-        "status": "Informational",
+        "status": "Historic",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -25885,7 +25886,7 @@
             "L. Berger, Ed."
         ],
         "rawDate": "1995-08",
-        "status": "Experimental",
+        "status": "Historic",
         "obsoletes": [
             "RFC1190",
             "IEN119"
@@ -53253,7 +53254,7 @@
             "D. Ely"
         ],
         "rawDate": "2003-06",
-        "status": "Experimental",
+        "status": "Historic",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -66612,6 +66613,9 @@
         ],
         "rawDate": "2006-03",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC8270"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -90719,6 +90723,9 @@
         ],
         "rawDate": "2010-09",
         "status": "Proposed Standard",
+        "obsoletedBy": [
+            "RFC8306"
+        ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=6006",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -97964,6 +97971,7 @@
         ],
         "rawDate": "2012-02",
         "status": "Informational",
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=6480",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -125301,6 +125309,21 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8263": {
+        "rfcNumber": "RFC8263",
+        "href": "https://tools.ietf.org/html/rfc8263",
+        "title": "Group Domain of Interpretation (GDOI) GROUPKEY-PUSH Acknowledgement Message",
+        "authors": [
+            "B. Weis",
+            "U. Mangla",
+            "T. Karl",
+            "N. Maheshwari"
+        ],
+        "rawDate": "2017-11",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8264": {
         "rfcNumber": "RFC8264",
         "href": "https://tools.ietf.org/html/rfc8264",
@@ -125382,6 +125405,22 @@
     "rfc827": {
         "aliasOf": "rfc0827"
     },
+    "rfc8270": {
+        "rfcNumber": "RFC8270",
+        "href": "https://tools.ietf.org/html/rfc8270",
+        "title": "Increase the Secure Shell Minimum Recommended Diffie-Hellman Modulus Size to 2048 Bits",
+        "authors": [
+            "L. Velvindron",
+            "M. Baushke"
+        ],
+        "rawDate": "2017-12",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC4419"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8271": {
         "rfcNumber": "RFC8271",
         "href": "https://tools.ietf.org/html/rfc8271",
@@ -125415,6 +125454,19 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8273": {
+        "rfcNumber": "RFC8273",
+        "href": "https://tools.ietf.org/html/rfc8273",
+        "title": "Unique IPv6 Prefix per Host",
+        "authors": [
+            "J. Brzozowski",
+            "G. Van de Velde"
+        ],
+        "rawDate": "2017-12",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8274": {
         "rfcNumber": "RFC8274",
         "href": "https://tools.ietf.org/html/rfc8274",
@@ -125425,6 +125477,34 @@
         ],
         "rawDate": "2017-11",
         "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8275": {
+        "rfcNumber": "RFC8275",
+        "href": "https://tools.ietf.org/html/rfc8275",
+        "title": "Allowing Inheritable NFSv4 Access Control Entries to Override the Umask",
+        "authors": [
+            "J. Fields",
+            "A. Gruenbacher"
+        ],
+        "rawDate": "2017-12",
+        "status": "Proposed Standard",
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=8275",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8276": {
+        "rfcNumber": "RFC8276",
+        "href": "https://tools.ietf.org/html/rfc8276",
+        "title": "File System Extended Attributes in NFSv4",
+        "authors": [
+            "M. Naik",
+            "M. Eshel"
+        ],
+        "rawDate": "2017-12",
+        "status": "Proposed Standard",
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=8276",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -125471,6 +125551,18 @@
             "C. Cath"
         ],
         "rawDate": "2017-10",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8284": {
+        "rfcNumber": "RFC8284",
+        "href": "https://tools.ietf.org/html/rfc8284",
+        "title": "Lightweight Directory Access Protocol (LDAP) Schema for Supporting the Extensible Messaging and Presence Protocol (XMPP) in White Pages",
+        "authors": [
+            "S. Kille"
+        ],
+        "rawDate": "2017-11",
         "status": "Informational",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -125526,11 +125618,54 @@
     "rfc829": {
         "aliasOf": "rfc0829"
     },
+    "rfc8291": {
+        "rfcNumber": "RFC8291",
+        "href": "https://tools.ietf.org/html/rfc8291",
+        "title": "Message Encryption for Web Push",
+        "authors": [
+            "M. Thomson"
+        ],
+        "rawDate": "2017-11",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8292": {
+        "rfcNumber": "RFC8292",
+        "href": "https://tools.ietf.org/html/rfc8292",
+        "title": "Voluntary Application Server Identification (VAPID) for Web Push",
+        "authors": [
+            "M. Thomson",
+            "P. Beverloo"
+        ],
+        "rawDate": "2017-11",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc83": {
         "aliasOf": "rfc0083"
     },
     "rfc830": {
         "aliasOf": "rfc0830"
+    },
+    "rfc8306": {
+        "rfcNumber": "RFC8306",
+        "href": "https://tools.ietf.org/html/rfc8306",
+        "title": "Extensions to the Path Computation Element Communication Protocol (PCEP) for Point-to-Multipoint Traffic Engineering Label Switched Paths",
+        "authors": [
+            "Q. Zhao",
+            "D. Dhody, Ed.",
+            "R. Palleti",
+            "D. King"
+        ],
+        "rawDate": "2017-11",
+        "status": "Proposed Standard",
+        "obsoletes": [
+            "RFC6006"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc831": {
         "aliasOf": "rfc0831"

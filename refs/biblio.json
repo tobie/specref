@@ -414,17 +414,11 @@
     "CSS-ADAPTATION": {
         "aliasOf": "css-device-adapt"
     },
-    "CSS-ANIMATIONS-1": {
-        "aliasOf": "css3-animations"
-    },
     "CSS-BACKGROUNDS-4": {
         "aliasOf": "css4background"
     },
     "CSS-BOX-1": {
         "aliasOf": "css3-box"
-    },
-    "CSS-COLOR-3": {
-        "aliasOf": "css3-color"
     },
     "CSS-CONDITIONAL-1": {
         "aliasOf": "css3-conditional"
@@ -455,9 +449,6 @@
     },
     "CSS-TEMPLATE-1": {
         "aliasOf": "css-template-3"
-    },
-    "CSS-TRANSITIONS-1": {
-        "aliasOf": "css3-transitions"
     },
     "CSS3-BG": {
         "aliasOf": "css3-background"
@@ -1318,6 +1309,11 @@
         "title": "CBOR Object Signing and Encryption (COSE)",
         "href": "https://www.iana.org/assignments/cose/cose.xhtml"
     },
+    "IANA-DTLS-SRTP": {
+        "href": "https://www.iana.org/assignments/srtp-protection/srtp-protection.xhtml",
+        "title": "DTLS-SRTP Protection Profiles",
+        "publisher": "IANA"
+    },
     "IANA-MEDIA-TYPES": {
         "href": "https://www.iana.org/assignments/media-types/",
         "title": "Media Types",
@@ -1326,6 +1322,11 @@
     "IANA-RTP-2": {
         "href": "https://www.iana.org/assignments/rtp-parameters/rtp-parameters.xhtml#rtp-parameters-2",
         "title": "RTP Payload Format media types",
+        "publisher": "IANA"
+    },
+    "IANA-TLS-CIPHERS": {
+        "href": "https://www.iana.org/assignments/tls-parameters/tls-parameters.xhtml#tls-parameters-4",
+        "title": "TLS Cipher Suite Registry",
         "publisher": "IANA"
     },
     "IANA-TSV": {
