@@ -16030,6 +16030,42 @@
         },
         "repository": "https://github.com/w3c/clreq"
     },
+    "coga-gap-analysis": {
+        "authors": [
+            "Lisa Seeman-Kestenbaum",
+            "Michael Cooper"
+        ],
+        "href": "https://www.w3.org/TR/coga-gap-analysis/",
+        "title": "Cognitive Accessibility Roadmap and Gap Analysis",
+        "rawDate": "2017-12-07",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/coga/gap-analysis/",
+        "deliveredBy": [
+            "https://www.w3.org/WAI/GL/",
+            "https://www.w3.org/WAI/APA/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20171207": {
+                "authors": [
+                    "Lisa Seeman-Kestenbaum",
+                    "Michael Cooper"
+                ],
+                "href": "https://www.w3.org/TR/2017/WD-coga-gap-analysis-20171207/",
+                "title": "Cognitive Accessibility Roadmap and Gap Analysis",
+                "rawDate": "2017-12-07",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WAI/GL/",
+                    "https://www.w3.org/WAI/APA/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        },
+        "repository": "https://github.com/w3c/coga"
+    },
     "coga-user-research": {
         "authors": [
             "Lisa Seeman-Kestenbaum",
@@ -21994,7 +22030,7 @@
         ],
         "href": "https://www.w3.org/TR/css-writing-modes-3/",
         "title": "CSS Writing Modes Level 3",
-        "rawDate": "2015-12-15",
+        "rawDate": "2017-12-07",
         "status": "CR",
         "publisher": "W3C",
         "deliveredBy": [
@@ -22112,9 +22148,58 @@
                     "https://www.w3.org/Style/CSS/members"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20171207": {
+                "authors": [
+                    "Elika Etemad",
+                    "Koji Ishii"
+                ],
+                "href": "https://www.w3.org/TR/2017/CR-css-writing-modes-3-20171207/",
+                "title": "CSS Writing Modes Level 3",
+                "rawDate": "2017-12-07",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Style/CSS/members"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
         "edDraft": "https://drafts.csswg.org/css-writing-modes-3/",
+        "repository": "https://github.com/w3c/csswg-drafts"
+    },
+    "css-writing-modes-4": {
+        "authors": [
+            "Elika Etemad",
+            "Koji Ishii"
+        ],
+        "href": "https://www.w3.org/TR/css-writing-modes-4/",
+        "title": "CSS Writing Modes Level 4",
+        "rawDate": "2017-12-07",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://drafts.csswg.org/css-writing-modes-4/",
+        "deliveredBy": [
+            "https://www.w3.org/Style/CSS/members"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20171207": {
+                "authors": [
+                    "Elika Etemad",
+                    "Koji Ishii"
+                ],
+                "href": "https://www.w3.org/TR/2017/WD-css-writing-modes-4-20171207/",
+                "title": "CSS Writing Modes Level 4",
+                "rawDate": "2017-12-07",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Style/CSS/members"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        },
         "repository": "https://github.com/w3c/csswg-drafts"
     },
     "css3-2d-transforms": {
@@ -25125,7 +25210,7 @@
         ],
         "href": "https://www.w3.org/TR/dom41/",
         "title": "W3C DOM 4.1",
-        "rawDate": "2017-11-02",
+        "rawDate": "2017-12-07",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/dom/",
@@ -25225,6 +25310,20 @@
                 "href": "https://www.w3.org/TR/2017/WD-dom41-20171102/",
                 "title": "W3C DOM 4.1",
                 "rawDate": "2017-11-02",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WebPlatform/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20171207": {
+                "authors": [
+                    "Yongsheng Zhu"
+                ],
+                "href": "https://www.w3.org/TR/2017/WD-dom41-20171207/",
+                "title": "W3C DOM 4.1",
+                "rawDate": "2017-12-07",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
