@@ -33828,6 +33828,7 @@
         ],
         "rawDate": "1998-04-01",
         "status": "Informational",
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=2322",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -64001,6 +64002,9 @@
         ],
         "rawDate": "2006-01",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC8268"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -64042,7 +64046,8 @@
         "rawDate": "2006-01",
         "status": "Proposed Standard",
         "updatedBy": [
-            "RFC6668"
+            "RFC6668",
+            "RFC8268"
         ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=4253",
         "publisher": "IETF",
@@ -99099,6 +99104,9 @@
         ],
         "rawDate": "2012-04",
         "status": "Proposed Standard",
+        "obsoletedBy": [
+            "RFC8305"
+        ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=6555",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -108213,6 +108221,9 @@
         ],
         "rawDate": "2014-03",
         "status": "Proposed Standard",
+        "obsoletedBy": [
+            "RFC8259"
+        ],
         "obsoletes": [
             "RFC4627",
             "RFC7158"
@@ -119481,6 +119492,7 @@
         "updates": [
             "RFC5880"
         ],
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=7880",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -123768,6 +123780,19 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8158": {
+        "rfcNumber": "RFC8158",
+        "href": "https://tools.ietf.org/html/rfc8158",
+        "title": "IP Flow Information Export (IPFIX) Information Elements for Logging NAT Events",
+        "authors": [
+            "S. Sivakumar",
+            "R. Penno"
+        ],
+        "rawDate": "2017-12",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8159": {
         "rfcNumber": "RFC8159",
         "href": "https://tools.ietf.org/html/rfc8159",
@@ -125258,6 +125283,22 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8259": {
+        "rfcNumber": "RFC8259",
+        "href": "https://tools.ietf.org/html/rfc8259",
+        "title": "The JavaScript Object Notation (JSON) Data Interchange Format",
+        "authors": [
+            "T. Bray, Ed."
+        ],
+        "rawDate": "2017-12",
+        "status": "Internet Standard",
+        "obsoletes": [
+            "RFC7159"
+        ],
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=8259",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc826": {
         "aliasOf": "rfc0826"
     },
@@ -125382,6 +125423,22 @@
         "status": "Proposed Standard",
         "obsoletes": [
             "RFC5667"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8268": {
+        "rfcNumber": "RFC8268",
+        "href": "https://tools.ietf.org/html/rfc8268",
+        "title": "More Modular Exponentiation (MODP) Diffie-Hellman (DH) Key Exchange (KEX) Groups for Secure Shell (SSH)",
+        "authors": [
+            "M. Baushke"
+        ],
+        "rawDate": "2017-12",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC4250",
+            "RFC4253"
         ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -125555,6 +125612,51 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8281": {
+        "rfcNumber": "RFC8281",
+        "href": "https://tools.ietf.org/html/rfc8281",
+        "title": "Path Computation Element Communication Protocol (PCEP) Extensions for PCE-Initiated LSP Setup in a Stateful PCE Model",
+        "authors": [
+            "E. Crabbe",
+            "I. Minei",
+            "S. Sivabalan",
+            "R. Varga"
+        ],
+        "rawDate": "2017-12",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8282": {
+        "rfcNumber": "RFC8282",
+        "href": "https://tools.ietf.org/html/rfc8282",
+        "title": "Extensions to the Path Computation Element Communication Protocol (PCEP) for Inter-Layer MPLS and GMPLS Traffic Engineering",
+        "authors": [
+            "E. Oki",
+            "T. Takeda",
+            "A. Farrel",
+            "F. Zhang"
+        ],
+        "rawDate": "2017-12",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8283": {
+        "rfcNumber": "RFC8283",
+        "href": "https://tools.ietf.org/html/rfc8283",
+        "title": "An Architecture for Use of PCE and the PCE Communication Protocol (PCEP) in a Network with Central Control",
+        "authors": [
+            "A. Farrel, Ed.",
+            "Q. Zhao, Ed.",
+            "Z. Li",
+            "C. Zhou"
+        ],
+        "rawDate": "2017-12",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8284": {
         "rfcNumber": "RFC8284",
         "href": "https://tools.ietf.org/html/rfc8284",
@@ -125595,6 +125697,23 @@
             "L. Deng"
         ],
         "rawDate": "2017-10",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8287": {
+        "rfcNumber": "RFC8287",
+        "href": "https://tools.ietf.org/html/rfc8287",
+        "title": "Label Switched Path (LSP) Ping/Traceroute for Segment Routing (SR) IGP-Prefix and IGP-Adjacency Segment Identifiers (SIDs) with MPLS Data Planes",
+        "authors": [
+            "N. Kumar, Ed.",
+            "C. Pignataro, Ed.",
+            "G. Swallow",
+            "N. Akiya",
+            "S. Kini",
+            "M. Chen"
+        ],
+        "rawDate": "2017-12",
         "status": "Proposed Standard",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -125643,11 +125762,68 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8294": {
+        "rfcNumber": "RFC8294",
+        "href": "https://tools.ietf.org/html/rfc8294",
+        "title": "Common YANG Data Types for the Routing Area",
+        "authors": [
+            "X. Liu",
+            "Y. Qu",
+            "A. Lindem",
+            "C. Hopps",
+            "L. Berger"
+        ],
+        "rawDate": "2017-12",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8297": {
+        "rfcNumber": "RFC8297",
+        "href": "https://tools.ietf.org/html/rfc8297",
+        "title": "An HTTP Status Code for Indicating Hints",
+        "authors": [
+            "K. Oku"
+        ],
+        "rawDate": "2017-12",
+        "status": "Experimental",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8298": {
+        "rfcNumber": "RFC8298",
+        "href": "https://tools.ietf.org/html/rfc8298",
+        "title": "Self-Clocked Rate Adaptation for Multimedia",
+        "authors": [
+            "I. Johansson",
+            "Z. Sarker"
+        ],
+        "rawDate": "2017-12",
+        "status": "Experimental",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc83": {
         "aliasOf": "rfc0083"
     },
     "rfc830": {
         "aliasOf": "rfc0830"
+    },
+    "rfc8305": {
+        "rfcNumber": "RFC8305",
+        "href": "https://tools.ietf.org/html/rfc8305",
+        "title": "Happy Eyeballs Version 2: Better Connectivity Using Concurrency",
+        "authors": [
+            "D. Schinazi",
+            "T. Pauly"
+        ],
+        "rawDate": "2017-12",
+        "status": "Proposed Standard",
+        "obsoletes": [
+            "RFC6555"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc8306": {
         "rfcNumber": "RFC8306",

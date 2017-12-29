@@ -24458,6 +24458,17 @@
         ],
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
         "versions": {
+            "20121216": {
+                "authors": [
+                    "R. Cyganiak",
+                    "F. Maali."
+                ],
+                "href": "https://dvcs.w3.org/hg/gld/raw-file/default/dcat-ucr/index.html",
+                "title": "Use Cases and Requirements for the Data Catalog Vocabulary",
+                "rawDate": "2012-12-16",
+                "status": "ED",
+                "publisher": "W3C"
+            },
             "20171212": {
                 "authors": [
                     "Ixchel Faniel",
@@ -24473,19 +24484,9 @@
                     "https://www.w3.org/2017/dxwg/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
-            },
-            "20121216": {
-              "authors": [
-                  "R. Cyganiak",
-                  "F. Maali."
-              ],
-              "href": "https://dvcs.w3.org/hg/gld/raw-file/default/dcat-ucr/index.html",
-              "title": "Use Cases and Requirements for the Data Catalog Vocabulary",
-              "rawDate": "2012-12-16",
-              "status": "ED",
-              "publisher": "W3C"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/dxwg"
     },
     "dcd": {
         "versions": {
@@ -35419,7 +35420,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/html"
     },
     "http-edit-dist-scenarios": {
         "versions": {
@@ -47021,7 +47023,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/payment-method-manifest"
     },
     "payment-request": {
         "authors": [
@@ -73888,7 +73891,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/wot-security"
     },
     "wot-thing-description": {
         "authors": [
