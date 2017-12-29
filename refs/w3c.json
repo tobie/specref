@@ -16507,8 +16507,8 @@
         ],
         "href": "https://www.w3.org/TR/core-aam-1.1/",
         "title": "Core Accessibility API Mappings 1.1",
-        "rawDate": "2017-11-02",
-        "status": "PR",
+        "rawDate": "2017-12-14",
+        "status": "REC",
         "publisher": "W3C",
         "deliveredBy": [
             "https://www.w3.org/WAI/ARIA/"
@@ -16654,10 +16654,31 @@
                     "https://www.w3.org/WAI/ARIA/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20171214": {
+                "authors": [
+                    "Joanmarie Diggs",
+                    "Joseph Scheuhammer",
+                    "Richard Schwerdtfeger",
+                    "Michael Cooper",
+                    "Andi Snow-Weaver",
+                    "Aaron Leventhal"
+                ],
+                "href": "https://www.w3.org/TR/2017/REC-core-aam-1.1-20171214/",
+                "title": "Core Accessibility API Mappings 1.1",
+                "rawDate": "2017-12-14",
+                "status": "REC",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WAI/ARIA/"
+                ],
+                "hasErrata": "https://www.w3.org/WAI/ARIA/1.1/errata/aria",
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "https://w3c.github.io/aria/core-aam/core-aam.html",
-        "repository": "https://github.com/w3c/aria"
+        "edDraft": "https://w3c.github.io/core-aam/",
+        "repository": "https://github.com/w3c/aria",
+        "hasErrata": "https://www.w3.org/WAI/ARIA/1.1/errata/aria"
     },
     "cors": {
         "authors": [
@@ -18231,7 +18252,7 @@
         ],
         "href": "https://www.w3.org/TR/css-counter-styles-3/",
         "title": "CSS Counter Styles Level 3",
-        "rawDate": "2015-06-11",
+        "rawDate": "2017-12-14",
         "status": "CR",
         "publisher": "W3C",
         "deliveredBy": [
@@ -18308,6 +18329,20 @@
                 "href": "https://www.w3.org/TR/2015/CR-css-counter-styles-3-20150611/",
                 "title": "CSS Counter Styles Level 3",
                 "rawDate": "2015-06-11",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Style/CSS/members"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20171214": {
+                "authors": [
+                    "Tab Atkins Jr."
+                ],
+                "href": "https://www.w3.org/TR/2017/CR-css-counter-styles-3-20171214/",
+                "title": "CSS Counter Styles Level 3",
+                "rawDate": "2017-12-14",
                 "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -18924,7 +18959,7 @@
         ],
         "href": "https://www.w3.org/TR/css-grid-1/",
         "title": "CSS Grid Layout Module Level 1",
-        "rawDate": "2017-05-09",
+        "rawDate": "2017-12-14",
         "status": "CR",
         "publisher": "W3C",
         "deliveredBy": [
@@ -19119,6 +19154,22 @@
                 "href": "https://www.w3.org/TR/2017/CR-css-grid-1-20170509/",
                 "title": "CSS Grid Layout Module Level 1",
                 "rawDate": "2017-05-09",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Style/CSS/members"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20171214": {
+                "authors": [
+                    "Tab Atkins Jr.",
+                    "Elika Etemad",
+                    "Rossen Atanassov"
+                ],
+                "href": "https://www.w3.org/TR/2017/CR-css-grid-1-20171214/",
+                "title": "CSS Grid Layout Module Level 1",
+                "rawDate": "2017-12-14",
                 "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -20472,7 +20523,7 @@
         ],
         "href": "https://www.w3.org/TR/css-scroll-snap-1/",
         "title": "CSS Scroll Snap Module Level 1",
-        "rawDate": "2017-08-24",
+        "rawDate": "2017-12-14",
         "status": "CR",
         "publisher": "W3C",
         "edDraft": "https://drafts.csswg.org/css-scroll-snap-1/",
@@ -20572,6 +20623,23 @@
                 "href": "https://www.w3.org/TR/2017/CR-css-scroll-snap-1-20170824/",
                 "title": "CSS Scroll Snap Module Level 1",
                 "rawDate": "2017-08-24",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Style/CSS/members"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20171214": {
+                "authors": [
+                    "Matt Rakow",
+                    "Jacob Rossi",
+                    "Tab Atkins Jr.",
+                    "Elika Etemad"
+                ],
+                "href": "https://www.w3.org/TR/2017/CR-css-scroll-snap-1-20171214/",
+                "title": "CSS Scroll Snap Module Level 1",
+                "rawDate": "2017-12-14",
                 "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -21637,8 +21705,8 @@
         ],
         "href": "https://www.w3.org/TR/css-ui-3/",
         "title": "CSS Basic User Interface Module Level 3 (CSS3 UI)",
-        "rawDate": "2017-03-02",
-        "status": "CR",
+        "rawDate": "2017-12-14",
+        "status": "PR",
         "publisher": "W3C",
         "edDraft": "https://drafts.csswg.org/css-ui/",
         "deliveredBy": [
@@ -21764,6 +21832,21 @@
                     "https://www.w3.org/Style/CSS/members"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20171214": {
+                "authors": [
+                    "Tantek Çelik",
+                    "Florian Rivoal"
+                ],
+                "href": "https://www.w3.org/TR/2017/PR-css-ui-3-20171214/",
+                "title": "CSS Basic User Interface Module Level 3 (CSS3 UI)",
+                "rawDate": "2017-12-14",
+                "status": "PR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Style/CSS/members"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
         "obsoletes": [
@@ -21777,7 +21860,7 @@
         ],
         "href": "https://www.w3.org/TR/css-ui-4/",
         "title": "CSS Basic User Interface Module Level 4",
-        "rawDate": "2015-09-22",
+        "rawDate": "2017-12-22",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://drafts.csswg.org/css-ui-4/",
@@ -21793,6 +21876,20 @@
                 "href": "https://www.w3.org/TR/2015/WD-css-ui-4-20150922/",
                 "title": "CSS Basic User Interface Module Level 4",
                 "rawDate": "2015-09-22",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Style/CSS/members"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20171222": {
+                "authors": [
+                    "Florian Rivoal"
+                ],
+                "href": "https://www.w3.org/TR/2017/WD-css-ui-4-20171222/",
+                "title": "CSS Basic User Interface Module Level 4",
+                "rawDate": "2017-12-22",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -24344,6 +24441,52 @@
         "rawDate": "1998-08-27",
         "title": "Date and Time Formats"
     },
+    "dcat-ucr": {
+        "authors": [
+            "Ixchel Faniel",
+            "Jaroslav Pullmann",
+            "Rob Atkinson"
+        ],
+        "href": "https://www.w3.org/TR/dcat-ucr/",
+        "title": "Dataset Exchange Use Cases and Requirements",
+        "rawDate": "2017-12-12",
+        "status": "NOTE",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/dxwg/ucr/",
+        "deliveredBy": [
+            "https://www.w3.org/2017/dxwg/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20171212": {
+                "authors": [
+                    "Ixchel Faniel",
+                    "Jaroslav Pullmann",
+                    "Rob Atkinson"
+                ],
+                "href": "https://www.w3.org/TR/2017/NOTE-dcat-ucr-20171212/",
+                "title": "Dataset Exchange Use Cases and Requirements",
+                "rawDate": "2017-12-12",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2017/dxwg/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20121216": {
+              "authors": [
+                  "R. Cyganiak",
+                  "F. Maali."
+              ],
+              "href": "https://dvcs.w3.org/hg/gld/raw-file/default/dcat-ucr/index.html",
+              "title": "Use Cases and Requirements for the Data Catalog Vocabulary",
+              "rawDate": "2012-12-16",
+              "status": "ED",
+              "publisher": "W3C"
+            }
+        }
+    },
     "dcd": {
         "versions": {
             "19980731": {
@@ -25414,10 +25557,10 @@
         ],
         "href": "https://www.w3.org/TR/dpub-aam-1.0/",
         "title": "Digital Publishing Accessibility API Mappings",
-        "rawDate": "2017-11-02",
-        "status": "PR",
+        "rawDate": "2017-12-14",
+        "status": "REC",
         "publisher": "W3C",
-        "edDraft": "https://w3c.github.io/aria/dpub-aam/dpub-aam.html",
+        "edDraft": "https://w3c.github.io/dpub-aam/",
         "deliveredBy": [
             "https://www.w3.org/WAI/ARIA/"
         ],
@@ -25480,9 +25623,26 @@
                     "https://www.w3.org/WAI/ARIA/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20171214": {
+                "authors": [
+                    "Richard Schwerdtfeger",
+                    "Joanmarie Diggs"
+                ],
+                "href": "https://www.w3.org/TR/2017/REC-dpub-aam-1.0-20171214/",
+                "title": "Digital Publishing Accessibility API Mappings",
+                "rawDate": "2017-12-14",
+                "status": "REC",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WAI/ARIA/"
+                ],
+                "hasErrata": "https://www.w3.org/WAI/ARIA/1.1/errata/dpub",
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "repository": "https://github.com/w3c/aria"
+        "repository": "https://github.com/w3c/aria",
+        "hasErrata": "https://www.w3.org/WAI/ARIA/1.1/errata/dpub"
     },
     "dpub-accessibility": {
         "authors": [
@@ -25573,10 +25733,10 @@
         ],
         "href": "https://www.w3.org/TR/dpub-aria-1.0/",
         "title": "Digital Publishing WAI-ARIA Module 1.0",
-        "rawDate": "2017-11-02",
-        "status": "PR",
+        "rawDate": "2017-12-14",
+        "status": "REC",
         "publisher": "W3C",
-        "edDraft": "https://w3c.github.io/aria/aria/dpub.html",
+        "edDraft": "https://w3c.github.io/dpub-aria/",
         "deliveredBy": [
             "https://www.w3.org/WAI/ARIA/"
         ],
@@ -25666,9 +25826,28 @@
                     "https://www.w3.org/WAI/ARIA/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20171214": {
+                "authors": [
+                    "Matt Garrish",
+                    "Tzviya Siegman",
+                    "Markus Gylling",
+                    "Shane McCarron"
+                ],
+                "href": "https://www.w3.org/TR/2017/REC-dpub-aria-1.0-20171214/",
+                "title": "Digital Publishing WAI-ARIA Module 1.0",
+                "rawDate": "2017-12-14",
+                "status": "REC",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WAI/ARIA/"
+                ],
+                "hasErrata": "https://www.w3.org/WAI/ARIA/1.1/errata/dpub",
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "repository": "https://github.com/w3c/aria"
+        "repository": "https://github.com/w3c/aria",
+        "hasErrata": "https://www.w3.org/WAI/ARIA/1.1/errata/dpub"
     },
     "dpub-css-priorities": {
         "authors": [
@@ -31418,7 +31597,7 @@
         ],
         "href": "https://www.w3.org/TR/html-aam-1.0/",
         "title": "HTML Accessibility API Mappings 1.0",
-        "rawDate": "2017-12-07",
+        "rawDate": "2017-12-18",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/html-aam/",
@@ -31840,6 +32019,24 @@
                 "href": "https://www.w3.org/TR/2017/WD-html-aam-1.0-20171207/",
                 "title": "HTML Accessibility API Mappings 1.0",
                 "rawDate": "2017-12-07",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WebPlatform/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20171218": {
+                "authors": [
+                    "Steve Faulkner",
+                    "Jason Kiss",
+                    "Alexander Surkov",
+                    "Bogdan Brinza",
+                    "Cynthia Shelly"
+                ],
+                "href": "https://www.w3.org/TR/2017/WD-html-aam-1.0-20171218/",
+                "title": "HTML Accessibility API Mappings 1.0",
+                "rawDate": "2017-12-18",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -34990,8 +35187,8 @@
         ],
         "href": "https://www.w3.org/TR/html52/",
         "title": "HTML 5.2",
-        "rawDate": "2017-11-02",
-        "status": "PR",
+        "rawDate": "2017-12-14",
+        "status": "REC",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/html/",
         "deliveredBy": [
@@ -35175,9 +35372,54 @@
                     "https://www.w3.org/WebPlatform/WG/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20171214": {
+                "authors": [
+                    "Steve Faulkner",
+                    "Arron Eicholz",
+                    "Travis Leithead",
+                    "Alex Danilo",
+                    "Sangwhan Moon"
+                ],
+                "href": "https://www.w3.org/TR/2017/REC-html52-20171214/",
+                "title": "HTML 5.2",
+                "rawDate": "2017-12-14",
+                "status": "REC",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WebPlatform/WG/"
+                ],
+                "hasErrata": "https://github.com/w3c/html/labels/errata",
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "repository": "https://github.com/w3c/html"
+        "repository": "https://github.com/w3c/html",
+        "hasErrata": "https://github.com/w3c/html/labels/errata"
+    },
+    "html53": {
+        "href": "https://www.w3.org/TR/html53/",
+        "title": "HTML 5.3",
+        "rawDate": "2017-12-14",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/html/",
+        "deliveredBy": [
+            "https://www.w3.org/WebPlatform/WG/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20171214": {
+                "href": "https://www.w3.org/TR/2017/WD-html53-20171214/",
+                "title": "HTML 5.3",
+                "rawDate": "2017-12-14",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WebPlatform/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
     },
     "http-edit-dist-scenarios": {
         "versions": {
@@ -46746,6 +46988,41 @@
         },
         "repository": "https://github.com/w3c/payment-method-id"
     },
+    "payment-method-manifest": {
+        "authors": [
+            "Dapeng Liu",
+            "Domenic Denicola",
+            "Zach Koch"
+        ],
+        "href": "https://www.w3.org/TR/payment-method-manifest/",
+        "title": "Payment Method Manifest",
+        "rawDate": "2017-12-12",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/payment-method-manifest/",
+        "deliveredBy": [
+            "https://www.w3.org/Payments/WG/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20171212": {
+                "authors": [
+                    "Dapeng Liu",
+                    "Domenic Denicola",
+                    "Zach Koch"
+                ],
+                "href": "https://www.w3.org/TR/2017/WD-payment-method-manifest-20171212/",
+                "title": "Payment Method Manifest",
+                "rawDate": "2017-12-12",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Payments/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
     "payment-request": {
         "authors": [
             "Adrian Bateman",
@@ -50759,7 +51036,7 @@
         ],
         "href": "https://www.w3.org/TR/push-api/",
         "title": "Push API",
-        "rawDate": "2017-10-26",
+        "rawDate": "2017-12-15",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -51145,6 +51422,24 @@
                 "href": "https://www.w3.org/TR/2017/WD-push-api-20171026/",
                 "title": "Push API",
                 "rawDate": "2017-10-26",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WebPlatform/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20171215": {
+                "authors": [
+                    "Peter Beverloo",
+                    "Martin Thomson",
+                    "Michael van Ouwerkerk",
+                    "Bryan Sullivan",
+                    "Eduardo Fullea"
+                ],
+                "href": "https://www.w3.org/TR/2017/WD-push-api-20171215/",
+                "title": "Push API",
+                "rawDate": "2017-12-15",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -58821,7 +59116,7 @@
         ],
         "href": "https://www.w3.org/TR/server-timing/",
         "title": "Server Timing",
-        "rawDate": "2017-11-20",
+        "rawDate": "2017-12-21",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/server-timing/",
@@ -59045,6 +59340,21 @@
                 "href": "https://www.w3.org/TR/2017/WD-server-timing-20171120/",
                 "title": "Server Timing",
                 "rawDate": "2017-11-20",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/webperf/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20171221": {
+                "authors": [
+                    "Charlie Vazac",
+                    "Ilya Grigorik"
+                ],
+                "href": "https://www.w3.org/TR/2017/WD-server-timing-20171221/",
+                "title": "Server Timing",
+                "rawDate": "2017-12-21",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -61232,8 +61542,8 @@
         ],
         "href": "https://www.w3.org/TR/social-web-protocols/",
         "title": "Social Web Protocols",
-        "rawDate": "2017-05-04",
-        "status": "WD",
+        "rawDate": "2017-12-25",
+        "status": "NOTE",
         "publisher": "W3C",
         "edDraft": "https://w3c-social.github.io/social-web-protocols",
         "deliveredBy": [
@@ -61307,6 +61617,20 @@
                 "title": "Social Web Protocols",
                 "rawDate": "2017-05-04",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Social/WG"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20171225": {
+                "authors": [
+                    "Amy Guy"
+                ],
+                "href": "https://www.w3.org/TR/2017/NOTE-social-web-protocols-20171225/",
+                "title": "Social Web Protocols",
+                "rawDate": "2017-12-25",
+                "status": "NOTE",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/Social/WG"
@@ -68512,8 +68836,8 @@
         ],
         "href": "https://www.w3.org/TR/wai-aria-1.1/",
         "title": "Accessible Rich Internet Applications (WAI-ARIA) 1.1",
-        "rawDate": "2017-11-02",
-        "status": "PR",
+        "rawDate": "2017-12-14",
+        "status": "REC",
         "publisher": "W3C",
         "deliveredBy": [
             "https://www.w3.org/WAI/ARIA/"
@@ -68680,10 +69004,30 @@
                     "https://www.w3.org/WAI/ARIA/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20171214": {
+                "authors": [
+                    "Joanmarie Diggs",
+                    "Shane McCarron",
+                    "Michael Cooper",
+                    "Richard Schwerdtfeger",
+                    "James Craig"
+                ],
+                "href": "https://www.w3.org/TR/2017/REC-wai-aria-1.1-20171214/",
+                "title": "Accessible Rich Internet Applications (WAI-ARIA) 1.1",
+                "rawDate": "2017-12-14",
+                "status": "REC",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WAI/ARIA/"
+                ],
+                "hasErrata": "https://www.w3.org/WAI/ARIA/1.1/errata/aria",
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "https://rawgit.com/w3c/aria/master/aria/aria.html",
-        "repository": "https://github.com/w3c/aria"
+        "edDraft": "https://w3c.github.io/aria/",
+        "repository": "https://github.com/w3c/aria",
+        "hasErrata": "https://www.w3.org/WAI/ARIA/1.1/errata/aria"
     },
     "wai-aria-10": {
         "aliasOf": "wai-aria"
@@ -68891,8 +69235,8 @@
         ],
         "href": "https://www.w3.org/TR/wai-aria-practices-1.1/",
         "title": "WAI-ARIA Authoring Practices 1.1",
-        "rawDate": "2017-06-28",
-        "status": "WD",
+        "rawDate": "2017-12-14",
+        "status": "NOTE",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/aria-practices/",
         "deliveredBy": [
@@ -68992,6 +69336,26 @@
                 "title": "WAI-ARIA Authoring Practices 1.1",
                 "rawDate": "2017-06-28",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WAI/ARIA/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20171214": {
+                "authors": [
+                    "Matthew King",
+                    "James Nurthen",
+                    "Michiel Bijl",
+                    "Michael Cooper",
+                    "Joseph Scheuhammer",
+                    "Lisa Pappas",
+                    "Richard Schwerdtfeger"
+                ],
+                "href": "https://www.w3.org/TR/2017/NOTE-wai-aria-practices-1.1-20171214/",
+                "title": "WAI-ARIA Authoring Practices 1.1",
+                "rawDate": "2017-12-14",
+                "status": "NOTE",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/WAI/ARIA/"
@@ -69114,8 +69478,8 @@
         ],
         "href": "https://www.w3.org/TR/wake-lock/",
         "title": "Wake Lock API",
-        "rawDate": "2017-12-04",
-        "status": "WD",
+        "rawDate": "2017-12-14",
+        "status": "CR",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/wake-lock/",
         "deliveredBy": [
@@ -69412,6 +69776,22 @@
                 "title": "Wake Lock API",
                 "rawDate": "2017-12-04",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2009/dap/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20171214": {
+                "authors": [
+                    "Ilya Bogdanovich",
+                    "Andrey Logvinov",
+                    "Marcos Caceres"
+                ],
+                "href": "https://www.w3.org/TR/2017/CR-wake-lock-20171214/",
+                "title": "Wake Lock API",
+                "rawDate": "2017-12-14",
+                "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/2009/dap/"
@@ -71754,8 +72134,8 @@
         ],
         "href": "https://www.w3.org/TR/webpayments-http-api/",
         "title": "Web Payments HTTP API 1.0",
-        "rawDate": "2016-09-15",
-        "status": "WD",
+        "rawDate": "2017-12-12",
+        "status": "NOTE",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/webpayments-http-api/",
         "deliveredBy": [
@@ -71777,9 +72157,26 @@
                     "https://www.w3.org/Payments/WG/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20171212": {
+                "authors": [
+                    "Manu Sporny",
+                    "Dave Longley"
+                ],
+                "href": "https://www.w3.org/TR/2017/NOTE-webpayments-http-api-20171212/",
+                "title": "Web Payments HTTP API 1.0",
+                "rawDate": "2017-12-12",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "isRetired": true,
+                "deliveredBy": [
+                    "https://www.w3.org/Payments/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "repository": "https://github.com/w3c/webpayments-http-api"
+        "repository": "https://github.com/w3c/webpayments-http-api",
+        "isRetired": true
     },
     "webpayments-http-messages": {
         "authors": [
@@ -73459,6 +73856,39 @@
             }
         },
         "repository": "https://github.com/w3c/wot-scripting-api"
+    },
+    "wot-security": {
+        "authors": [
+            "Elena Reshetova",
+            "Michael McCool"
+        ],
+        "href": "https://www.w3.org/TR/wot-security/",
+        "title": "Web of Things (WoT) Security and Privacy Considerations",
+        "rawDate": "2017-12-14",
+        "status": "NOTE",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/wot-security/",
+        "deliveredBy": [
+            "https://www.w3.org/WoT/WG/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20171214": {
+                "authors": [
+                    "Elena Reshetova",
+                    "Michael McCool"
+                ],
+                "href": "https://www.w3.org/TR/2017/NOTE-wot-security-20171214/",
+                "title": "Web of Things (WoT) Security and Privacy Considerations",
+                "rawDate": "2017-12-14",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WoT/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
     },
     "wot-thing-description": {
         "authors": [
