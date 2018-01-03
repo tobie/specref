@@ -8510,6 +8510,7 @@
         ],
         "rawDate": "1974-10",
         "status": "Historic",
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=658",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -97615,7 +97616,8 @@
         "rawDate": "2011-12",
         "status": "Proposed Standard",
         "updatedBy": [
-            "RFC7936"
+            "RFC7936",
+            "RFC8307"
         ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=6455",
         "publisher": "IETF",
@@ -125762,6 +125764,22 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8293": {
+        "rfcNumber": "RFC8293",
+        "href": "https://tools.ietf.org/html/rfc8293",
+        "title": "A Framework for Multicast in Network Virtualization over Layer 3",
+        "authors": [
+            "A. Ghanwani",
+            "L. Dunbar",
+            "M. McBride",
+            "V. Bannai",
+            "R. Krishnan"
+        ],
+        "rawDate": "2018-01",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8294": {
         "rfcNumber": "RFC8294",
         "href": "https://tools.ietf.org/html/rfc8294",
@@ -125839,6 +125857,21 @@
         "status": "Proposed Standard",
         "obsoletes": [
             "RFC6006"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8307": {
+        "rfcNumber": "RFC8307",
+        "href": "https://tools.ietf.org/html/rfc8307",
+        "title": "Well-Known URIs for the WebSocket Protocol",
+        "authors": [
+            "C. Bormann"
+        ],
+        "rawDate": "2018-01",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC6455"
         ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
