@@ -43975,9 +43975,9 @@
             "Serena Villata"
         ],
         "href": "https://www.w3.org/TR/odrl-model/",
-        "title": "ODRL Information Model",
-        "rawDate": "2017-09-26",
-        "status": "CR",
+        "title": "ODRL Information Model 2.2",
+        "rawDate": "2018-01-04",
+        "status": "PR",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/poe/model/",
         "deliveredBy": [
@@ -44029,6 +44029,21 @@
                     "https://www.w3.org/2016/poe/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20180104": {
+                "authors": [
+                    "Renato Iannella",
+                    "Serena Villata"
+                ],
+                "href": "https://www.w3.org/TR/2018/PR-odrl-model-20180104/",
+                "title": "ODRL Information Model 2.2",
+                "rawDate": "2018-01-04",
+                "status": "PR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2016/poe/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
         "repository": "https://github.com/w3c/poe"
@@ -44041,9 +44056,9 @@
             "Víctor Rodríguez-Doncel"
         ],
         "href": "https://www.w3.org/TR/odrl-vocab/",
-        "title": "ODRL Vocabulary & Expression",
-        "rawDate": "2017-09-26",
-        "status": "CR",
+        "title": "ODRL Vocabulary & Expression 2.2",
+        "rawDate": "2018-01-04",
+        "status": "PR",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/poe/vocab/",
         "deliveredBy": [
@@ -44100,6 +44115,23 @@
                 "title": "ODRL Vocabulary & Expression",
                 "rawDate": "2017-09-26",
                 "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2016/poe/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20180104": {
+                "authors": [
+                    "Renato Iannella",
+                    "Michael Steidl",
+                    "Stuart Myles",
+                    "Víctor Rodríguez-Doncel"
+                ],
+                "href": "https://www.w3.org/TR/2018/PR-odrl-vocab-20180104/",
+                "title": "ODRL Vocabulary & Expression 2.2",
+                "rawDate": "2018-01-04",
+                "status": "PR",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/2016/poe/"
@@ -51640,6 +51672,38 @@
             }
         },
         "repository": "https://github.com/w3c/dpub-pwp-ucr"
+    },
+    "pwpub": {
+        "authors": [
+            "David Wood"
+        ],
+        "href": "https://www.w3.org/TR/pwpub/",
+        "title": "Packaged Web Publications",
+        "rawDate": "2018-01-04",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/pwpub/",
+        "deliveredBy": [
+            "https://www.w3.org/publishing/groups/publ-wg/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20180104": {
+                "authors": [
+                    "David Wood"
+                ],
+                "href": "https://www.w3.org/TR/2018/WD-pwpub-20180104/",
+                "title": "Packaged Web Publications",
+                "rawDate": "2018-01-04",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/publishing/groups/publ-wg/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        },
+        "repository": "https://github.com/w3c/pwpub"
     },
     "qa-handbook": {
         "authors": [
@@ -73969,6 +74033,74 @@
             }
         },
         "repository": "https://github.com/w3c/wot-thing-description"
+    },
+    "wpub": {
+        "authors": [
+            "Matt Garrish",
+            "Ivan Herman"
+        ],
+        "href": "https://www.w3.org/TR/wpub/",
+        "title": "Web Publications",
+        "rawDate": "2018-01-04",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/wpub/",
+        "deliveredBy": [
+            "https://www.w3.org/publishing/groups/publ-wg/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20180104": {
+                "authors": [
+                    "Matt Garrish",
+                    "Ivan Herman"
+                ],
+                "href": "https://www.w3.org/TR/2018/WD-wpub-20180104/",
+                "title": "Web Publications",
+                "rawDate": "2018-01-04",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/publishing/groups/publ-wg/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        },
+        "repository": "https://github.com/w3c/wpub"
+    },
+    "wpub-ann": {
+        "authors": [
+            "Timothy Cole",
+            "Ivan Herman"
+        ],
+        "href": "https://www.w3.org/TR/wpub-ann/",
+        "title": "Web Annotation Extensions for Web Publications",
+        "rawDate": "2018-01-04",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/wpub-ann/",
+        "deliveredBy": [
+            "https://www.w3.org/publishing/groups/publ-wg/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20180104": {
+                "authors": [
+                    "Timothy Cole",
+                    "Ivan Herman"
+                ],
+                "href": "https://www.w3.org/TR/2018/WD-wpub-ann-20180104/",
+                "title": "Web Annotation Extensions for Web Publications",
+                "rawDate": "2018-01-04",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/publishing/groups/publ-wg/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        },
+        "repository": "https://github.com/w3c/wpub-ann"
     },
     "ws-addr-core": {
         "authors": [
