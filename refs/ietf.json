@@ -8510,7 +8510,6 @@
         ],
         "rawDate": "1974-10",
         "status": "Historic",
-        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=658",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -125737,8 +125736,39 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8289": {
+        "rfcNumber": "RFC8289",
+        "href": "https://tools.ietf.org/html/rfc8289",
+        "title": "Controlled Delay Active Queue Management",
+        "authors": [
+            "K. Nichols",
+            "V. Jacobson",
+            "A. McGregor, Ed.",
+            "J. Iyengar, Ed."
+        ],
+        "rawDate": "2018-01",
+        "status": "Experimental",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc829": {
         "aliasOf": "rfc0829"
+    },
+    "rfc8290": {
+        "rfcNumber": "RFC8290",
+        "href": "https://tools.ietf.org/html/rfc8290",
+        "title": "The Flow Queue CoDel Packet Scheduler and Active Queue Management Algorithm",
+        "authors": [
+            "T. Hoeiland-Joergensen",
+            "P. McKenney",
+            "D. Taht",
+            "J. Gettys",
+            "E. Dumazet"
+        ],
+        "rawDate": "2018-01",
+        "status": "Experimental",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc8291": {
         "rfcNumber": "RFC8291",
@@ -125827,6 +125857,22 @@
     },
     "rfc830": {
         "aliasOf": "rfc0830"
+    },
+    "rfc8302": {
+        "rfcNumber": "RFC8302",
+        "href": "https://tools.ietf.org/html/rfc8302",
+        "title": "Transparent Interconnection of Lots of Links (TRILL): ARP and Neighbor Discovery (ND) Optimization",
+        "authors": [
+            "Y. Li",
+            "D. Eastlake 3rd",
+            "L. Dunbar",
+            "R. Perlman",
+            "M. Umair"
+        ],
+        "rawDate": "2018-01",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc8305": {
         "rfcNumber": "RFC8305",
