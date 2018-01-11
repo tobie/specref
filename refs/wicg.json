@@ -39,6 +39,14 @@
         "source": "https://wicg.github.io/admin/biblio.json",
         "repository": "https://github.com/wicg/animation-worklet"
     },
+    "CSS-OVERSCROLL-BEHAVIOR": {
+        "href": "https://wicg.github.io/overscroll-behavior/",
+        "title": "CSS Overscroll Behavior Module Level 1",
+        "status": "Living Standard",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/overscroll-behavior"
+    },
     "CSS-PARSER-API": {
         "href": "https://wicg.github.io/CSS-Parser-API/",
         "title": "CSS Parser API",
@@ -221,6 +229,9 @@
     },
     "WICG-CSS-ANIMATION-WORKLET": {
         "aliasOf": "CSS-ANIMATION-WORKLET"
+    },
+    "WICG-CSS-OVERSCROLL-BEHAVIOR": {
+        "aliasOf": "CSS-OVERSCROLL-BEHAVIOR"
     },
     "WICG-CSS-PARSER-API": {
         "aliasOf": "CSS-PARSER-API"
