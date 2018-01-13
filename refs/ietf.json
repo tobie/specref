@@ -47303,7 +47303,8 @@
         "status": "Proposed Standard",
         "updatedBy": [
             "RFC4301",
-            "RFC6040"
+            "RFC6040",
+            "RFC8311"
         ],
         "updates": [
             "RFC2003",
@@ -65411,6 +65412,9 @@
         ],
         "rawDate": "2006-03",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC8311"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -65427,7 +65431,8 @@
         "status": "Proposed Standard",
         "updatedBy": [
             "RFC5348",
-            "RFC6323"
+            "RFC6323",
+            "RFC8311"
         ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=4342",
         "publisher": "IETF",
@@ -84875,7 +84880,8 @@
         "rawDate": "2009-08",
         "status": "Experimental",
         "updatedBy": [
-            "RFC6323"
+            "RFC6323",
+            "RFC8311"
         ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -100942,6 +100948,9 @@
         ],
         "rawDate": "2012-08",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC8311"
+        ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=6679",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -125828,6 +125837,23 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8296": {
+        "rfcNumber": "RFC8296",
+        "href": "https://tools.ietf.org/html/rfc8296",
+        "title": "Encapsulation for Bit Index Explicit Replication (BIER) in MPLS and Non-MPLS Networks",
+        "authors": [
+            "IJ. Wijnands, Ed.",
+            "E. Rosen, Ed.",
+            "A. Dolganow",
+            "J. Tantsura",
+            "S. Aldrin",
+            "I. Meilik"
+        ],
+        "rawDate": "2018-01",
+        "status": "Experimental",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8297": {
         "rfcNumber": "RFC8297",
         "href": "https://tools.ietf.org/html/rfc8297",
@@ -125858,6 +125884,20 @@
     },
     "rfc830": {
         "aliasOf": "rfc0830"
+    },
+    "rfc8300": {
+        "rfcNumber": "RFC8300",
+        "href": "https://tools.ietf.org/html/rfc8300",
+        "title": "Network Service Header (NSH)",
+        "authors": [
+            "P. Quinn, Ed.",
+            "U. Elzur, Ed.",
+            "C. Pignataro, Ed."
+        ],
+        "rawDate": "2018-01",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc8302": {
         "rfcNumber": "RFC8302",
@@ -125924,8 +125964,57 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8309": {
+        "rfcNumber": "RFC8309",
+        "href": "https://tools.ietf.org/html/rfc8309",
+        "title": "Service Models Explained",
+        "authors": [
+            "Q. Wu",
+            "W. Liu",
+            "A. Farrel"
+        ],
+        "rawDate": "2018-01",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc831": {
         "aliasOf": "rfc0831"
+    },
+    "rfc8311": {
+        "rfcNumber": "RFC8311",
+        "href": "https://tools.ietf.org/html/rfc8311",
+        "title": "Relaxing Restrictions on Explicit Congestion Notification (ECN) Experimentation",
+        "authors": [
+            "D. Black"
+        ],
+        "rawDate": "2018-01",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC3168",
+            "RFC4341",
+            "RFC4342",
+            "RFC5622",
+            "RFC6679"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8313": {
+        "rfcNumber": "RFC8313",
+        "href": "https://tools.ietf.org/html/rfc8313",
+        "title": "Use of Multicast across Inter-domain Peering Points",
+        "authors": [
+            "P. Tarapore, Ed.",
+            "R. Sayko",
+            "G. Shepherd",
+            "T. Eckert, Ed.",
+            "R. Krishnan"
+        ],
+        "rawDate": "2018-01",
+        "status": "Best Current Practice",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc832": {
         "aliasOf": "rfc0832"
