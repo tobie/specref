@@ -3,9 +3,9 @@
         "authors": [
             "Håkon Wium Lie"
         ],
-        "href": "https://books.spec.whatwg.org/",
+        "href": "https://books.idea.whatwg.org/",
         "title": "CSS Books",
-        "status": "Living Standard",
+        "status": "Living Idea",
         "publisher": "WHATWG",
         "source": "https://resources.whatwg.org/biblio.json"
     },
@@ -17,10 +17,12 @@
         "title": "Compatibility Standard",
         "status": "Living Standard",
         "publisher": "WHATWG",
-        "source": "https://resources.whatwg.org/biblio.json"
+        "source": "https://resources.whatwg.org/biblio.json",
+        "repository": "https://github.com/whatwg/compat"
     },
     "CONSOLE": {
         "authors": [
+            "Dominic Farolino",
             "Terin Stock",
             "Robert Kowalski"
         ],
@@ -28,7 +30,8 @@
         "title": "Console Standard",
         "status": "Living Standard",
         "publisher": "WHATWG",
-        "source": "https://resources.whatwg.org/biblio.json"
+        "source": "https://resources.whatwg.org/biblio.json",
+        "repository": "https://github.com/whatwg/console"
     },
     "DIFFERENCES": {
         "authors": [
@@ -39,6 +42,17 @@
         "status": "Living Standard",
         "publisher": "WHATWG",
         "source": "https://resources.whatwg.org/biblio.json"
+    },
+    "DOM": {
+        "authors": [
+            "Anne van Kesteren"
+        ],
+        "href": "https://dom.spec.whatwg.org/",
+        "title": "DOM Standard",
+        "status": "Living Standard",
+        "publisher": "WHATWG",
+        "source": "https://resources.whatwg.org/biblio.json",
+        "repository": "https://github.com/whatwg/dom"
     },
     "DOMPARSING": {
         "authors": [
@@ -51,7 +65,19 @@
         ],
         "status": "Living Standard",
         "publisher": "WHATWG",
-        "source": "https://resources.whatwg.org/biblio.json"
+        "source": "https://resources.whatwg.org/biblio.json",
+        "repository": "https://github.com/whatwg/domparsing"
+    },
+    "ENCODING": {
+        "authors": [
+            "Anne van Kesteren"
+        ],
+        "href": "https://encoding.spec.whatwg.org/",
+        "title": "Encoding Standard",
+        "status": "Living Standard",
+        "publisher": "WHATWG",
+        "source": "https://resources.whatwg.org/biblio.json",
+        "repository": "https://github.com/whatwg/encoding"
     },
     "FETCH": {
         "authors": [
@@ -61,17 +87,29 @@
         "title": "Fetch Standard",
         "status": "Living Standard",
         "publisher": "WHATWG",
-        "source": "https://resources.whatwg.org/biblio.json"
+        "source": "https://resources.whatwg.org/biblio.json",
+        "repository": "https://github.com/whatwg/fetch"
     },
     "FIGURES": {
         "authors": [
             "Håkon Wium Lie"
         ],
-        "href": "https://figures.spec.whatwg.org/",
+        "href": "https://figures.idea.whatwg.org/",
         "title": "CSS Figures",
-        "status": "Living Standard",
+        "status": "Living Idea",
         "publisher": "WHATWG",
         "source": "https://resources.whatwg.org/biblio.json"
+    },
+    "FULLSCREEN": {
+        "authors": [
+            "Anne van Kesteren"
+        ],
+        "href": "https://fullscreen.spec.whatwg.org/",
+        "title": "Fullscreen API Standard",
+        "status": "Living Standard",
+        "publisher": "WHATWG",
+        "source": "https://resources.whatwg.org/biblio.json",
+        "repository": "https://github.com/whatwg/fullscreen"
     },
     "HTML": {
         "authors": [
@@ -85,7 +123,8 @@
         "title": "HTML Standard",
         "status": "Living Standard",
         "publisher": "WHATWG",
-        "source": "https://resources.whatwg.org/biblio.json"
+        "source": "https://resources.whatwg.org/biblio.json",
+        "repository": "https://github.com/whatwg/html"
     },
     "INFRA": {
         "authors": [
@@ -96,7 +135,8 @@
         "title": "Infra Standard",
         "status": "Living Standard",
         "publisher": "WHATWG",
-        "source": "https://resources.whatwg.org/biblio.json"
+        "source": "https://resources.whatwg.org/biblio.json",
+        "repository": "https://github.com/whatwg/infra"
     },
     "JAVASCRIPT": {
         "authors": [
@@ -109,21 +149,16 @@
         ],
         "status": "Living Standard",
         "publisher": "WHATWG",
-        "source": "https://resources.whatwg.org/biblio.json"
+        "source": "https://resources.whatwg.org/biblio.json",
+        "repository": "https://github.com/whatwg/javascript"
     },
     "LOADER": {
         "href": "https://whatwg.github.io/loader/",
         "title": "Loader",
-        "status": "Living Standard",
+        "status": "Living Idea",
         "publisher": "WHATWG",
-        "source": "https://resources.whatwg.org/biblio.json"
-    },
-    "MEDIASESSION": {
-        "href": "https://mediasession.spec.whatwg.org/",
-        "title": "Media Session Standard",
-        "publisher": "WHATWG",
-        "status": "Living Standard",
-        "source": "https://resources.whatwg.org/biblio.json"
+        "source": "https://resources.whatwg.org/biblio.json",
+        "repository": "https://github.com/whatwg/loader"
     },
     "MIMESNIFF": {
         "authors": [
@@ -133,7 +168,19 @@
         "title": "MIME Sniffing Standard",
         "status": "Living Standard",
         "publisher": "WHATWG",
-        "source": "https://resources.whatwg.org/biblio.json"
+        "source": "https://resources.whatwg.org/biblio.json",
+        "repository": "https://github.com/whatwg/mimesniff"
+    },
+    "NOTIFICATIONS": {
+        "authors": [
+            "Anne van Kesteren"
+        ],
+        "href": "https://notifications.spec.whatwg.org/",
+        "title": "Notifications API Standard",
+        "status": "Living Standard",
+        "publisher": "WHATWG",
+        "source": "https://resources.whatwg.org/biblio.json",
+        "repository": "https://github.com/whatwg/notifications"
     },
     "QUIRKS": {
         "authors": [
@@ -143,7 +190,8 @@
         "title": "Quirks Mode Standard",
         "status": "Living Standard",
         "publisher": "WHATWG",
-        "source": "https://resources.whatwg.org/biblio.json"
+        "source": "https://resources.whatwg.org/biblio.json",
+        "repository": "https://github.com/whatwg/quirks"
     },
     "SNIFF": {
         "aliasOf": "WHATWG-MIMESNIFF"
@@ -156,10 +204,12 @@
         "title": "Storage Standard",
         "status": "Living Standard",
         "publisher": "WHATWG",
-        "source": "https://resources.whatwg.org/biblio.json"
+        "source": "https://resources.whatwg.org/biblio.json",
+        "repository": "https://github.com/whatwg/storage"
     },
     "STREAMS": {
         "authors": [
+            "Adam Rice",
             "Domenic Denicola",
             "吉野剛史 (Takeshi Yoshino)"
         ],
@@ -167,7 +217,19 @@
         "title": "Streams Standard",
         "status": "Living Standard",
         "publisher": "WHATWG",
-        "source": "https://resources.whatwg.org/biblio.json"
+        "source": "https://resources.whatwg.org/biblio.json",
+        "repository": "https://github.com/whatwg/streams"
+    },
+    "URL": {
+        "authors": [
+            "Anne van Kesteren"
+        ],
+        "href": "https://url.spec.whatwg.org/",
+        "title": "URL Standard",
+        "status": "Living Standard",
+        "publisher": "WHATWG",
+        "source": "https://resources.whatwg.org/biblio.json",
+        "repository": "https://github.com/whatwg/url"
     },
     "WHATWG-BOOKS": {
         "aliasOf": "BOOKS"
@@ -182,27 +244,13 @@
         "aliasOf": "DIFFERENCES"
     },
     "WHATWG-DOM": {
-        "authors": [
-            "Anne van Kesteren"
-        ],
-        "href": "https://dom.spec.whatwg.org/",
-        "title": "DOM Standard",
-        "status": "Living Standard",
-        "publisher": "WHATWG",
-        "source": "https://resources.whatwg.org/biblio.json"
+        "aliasOf": "DOM"
     },
     "WHATWG-DOMPARSING": {
         "aliasOf": "DOMPARSING"
     },
     "WHATWG-ENCODING": {
-        "authors": [
-            "Anne van Kesteren"
-        ],
-        "href": "https://encoding.spec.whatwg.org/",
-        "title": "Encoding Standard",
-        "status": "Living Standard",
-        "publisher": "WHATWG",
-        "source": "https://resources.whatwg.org/biblio.json"
+        "aliasOf": "ENCODING"
     },
     "WHATWG-FETCH": {
         "aliasOf": "FETCH"
@@ -211,14 +259,7 @@
         "aliasOf": "FIGURES"
     },
     "WHATWG-FULLSCREEN": {
-        "authors": [
-            "Anne van Kesteren"
-        ],
-        "href": "https://fullscreen.spec.whatwg.org/",
-        "title": "Fullscreen API Standard",
-        "status": "Living Standard",
-        "publisher": "WHATWG",
-        "source": "https://resources.whatwg.org/biblio.json"
+        "aliasOf": "FULLSCREEN"
     },
     "WHATWG-HTML": {
         "aliasOf": "HTML"
@@ -239,14 +280,7 @@
         "aliasOf": "MIMESNIFF"
     },
     "WHATWG-NOTIFICATIONS": {
-        "authors": [
-            "Anne van Kesteren"
-        ],
-        "href": "https://notifications.spec.whatwg.org/",
-        "title": "Notifications API Standard",
-        "status": "Living Standard",
-        "publisher": "WHATWG",
-        "source": "https://resources.whatwg.org/biblio.json"
+        "aliasOf": "NOTIFICATIONS"
     },
     "WHATWG-QUIRKS": {
         "aliasOf": "QUIRKS"
@@ -258,14 +292,7 @@
         "aliasOf": "STREAMS"
     },
     "WHATWG-URL": {
-        "authors": [
-            "Anne van Kesteren"
-        ],
-        "href": "https://url.spec.whatwg.org/",
-        "title": "URL Standard",
-        "status": "Living Standard",
-        "publisher": "WHATWG",
-        "source": "https://resources.whatwg.org/biblio.json"
+        "aliasOf": "URL"
     },
     "WHATWG-XHR": {
         "aliasOf": "XHR"
@@ -278,7 +305,8 @@
         "title": "XMLHttpRequest Standard",
         "status": "Living Standard",
         "publisher": "WHATWG",
-        "source": "https://resources.whatwg.org/biblio.json"
+        "source": "https://resources.whatwg.org/biblio.json",
+        "repository": "https://github.com/whatwg/xhr"
     },
     "meta-theme-color": {
         "href": "https://github.com/whatwg/meta-theme-color",

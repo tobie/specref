@@ -43,7 +43,7 @@ var REJECT = {
     "XML10-4e": true
 }
 
-var REF_URL = "http://dev.w3.org/csswg/biblio.ref";
+var REF_URL = "https://dev.w3.org/csswg/biblio.ref";
 
 console.log("Updating CSS WG refs...");
 console.log("Fetching", REF_URL + "...");
@@ -57,7 +57,7 @@ request({
         console.log("Can't fetch", REF_URL + ".");
         return;
     }
-    
+
     console.log("Parsing", REF_URL + "...");
     parse(body).forEach(function(o) {
         var id = CURRENT[o.id] || o.id;

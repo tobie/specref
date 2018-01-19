@@ -43,7 +43,8 @@
         ],
         "status": "ED",
         "publisher": "W3C",
-        "href": "https://drafts.csswg.org/css-extensions/"
+        "href": "https://drafts.csswg.org/css-extensions/",
+        "repository": "https://github.com/w3c/csswg-drafts"
     },
     "CSS3-PAGE-TEMPLATE": {
         "source": "http://dev.w3.org/csswg/biblio.ref",
@@ -52,7 +53,8 @@
             "Alan Stearns"
         ],
         "status": "Proposal for a CSS module",
-        "href": "https://drafts.csswg.org/css3-page-template/"
+        "href": "https://drafts.csswg.org/css3-page-template/",
+        "repository": "https://github.com/w3c/csswg-drafts"
     },
     "CSS4BACKGROUND": {
         "source": "http://dev.w3.org/csswg/biblio.ref",
@@ -62,12 +64,8 @@
             "Håkon Wium Lie"
         ],
         "status": "Proposal for a CSS module",
-        "href": "https://drafts.csswg.org/css4-background/"
-    },
-    "DCI-P3": {
-        "title": "RP 431-2, D-Cinema Quality – Reference Projector and Environment for the Display of DCDM in Review Rooms and Theaters",
-        "publisher": "The Society of Motion Picture and Television Engineers",
-        "rawDate": "2011"
+        "href": "https://drafts.csswg.org/css4-background/",
+        "repository": "https://github.com/w3c/csswg-drafts"
     },
     "DIGITAL-TYPOGRAPHY": {
         "source": "http://dev.w3.org/csswg/biblio.ref",
@@ -83,6 +81,15 @@
         "publisher": "International Color Consortium",
         "rawDate": "2010-12",
         "href": "http://www.color.org/specification/ICC1v43_2010-12.pdf"
+    },
+    "JUSTIFY": {
+        "source": "http://dev.w3.org/csswg/biblio.ref",
+        "authors": [
+            "Elika Etemad",
+            "Richard Ishida"
+        ],
+        "title": "Approches to Full Justification",
+        "href": "https://www.w3.org/International/articles/typography/justification"
     },
     "OPEN-FONT-FORMAT": {
         "source": "http://dev.w3.org/csswg/biblio.ref",

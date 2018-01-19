@@ -1,20 +1,313 @@
 {
-    "WEB-BACKGROUND-SYNC": {
-        "href": "https://wicg.github.io/BackgroundSync/spec/",
-        "title": "Web Background Synchronization specification draft",
+    "AOM": {
+        "href": "https://wicg.github.io/aom/spec/",
+        "title": "Accessibility Object Model",
         "status": "Living Standard",
         "publisher": "WICG",
-        "source": "https://wicg.github.io/admin/biblio.json"
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/aom"
+    },
+    "BACKGROUND-FETCH": {
+        "href": "https://wicg.github.io/background-fetch/",
+        "title": "Background Fetch",
+        "status": "Living Standard",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/background-fetch"
+    },
+    "BUDGET-API": {
+        "href": "https://wicg.github.io/budget-api/",
+        "title": "Web Budget API",
+        "status": "Living Standard",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/budget-api"
+    },
+    "CORS-RFC1918": {
+        "href": "https://wicg.github.io/cors-rfc1918/",
+        "title": "CORS and RFC1918",
+        "status": "Living Standard",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/cors-rfc1918"
+    },
+    "CSS-ANIMATION-WORKLET": {
+        "href": "https://wicg.github.io/animation-worklet/",
+        "title": "CSS Animation Worklet API",
+        "status": "Living Standard",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/animation-worklet"
+    },
+    "CSS-OVERSCROLL-BEHAVIOR": {
+        "href": "https://wicg.github.io/overscroll-behavior/",
+        "title": "CSS Overscroll Behavior Module Level 1",
+        "status": "Living Standard",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/overscroll-behavior"
+    },
+    "CSS-PARSER-API": {
+        "href": "https://wicg.github.io/CSS-Parser-API/",
+        "title": "CSS Parser API",
+        "status": "Living Standard",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/CSS-Parser-API"
+    },
+    "CSS-SCROLL-BOUNDARY-BEHAVIOR": {
+        "href": "https://wicg.github.io/scroll-boundary-behavior/",
+        "title": "CSS Scroll Boundary Behavior Module Level 1",
+        "status": "Living Standard",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/scroll-boundary-behavior"
+    },
+    "ENTRIES-API": {
+        "href": "https://wicg.github.io/entries-api/",
+        "title": "File and Directory Entries API",
+        "status": "Living Standard",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/entries-api"
+    },
+    "FEATURE-POLICY": {
+        "href": "https://wicg.github.io/feature-policy/",
+        "title": "Feature Policy",
+        "status": "Living Standard",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/feature-policy"
+    },
+    "GEOLOCATION-SENSOR": {
+        "href": "https://wicg.github.io/geolocation-sensor/",
+        "title": "Geolocation Sensor",
+        "status": "Living Standard",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/geolocation-sensor"
+    },
+    "INPUT-DEVICE-CAPABILITIES": {
+        "href": "https://wicg.github.io/InputDeviceCapabilities/",
+        "title": "Input Device Capabilities",
+        "status": "Living Standard",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/InputDeviceCapabilities"
+    },
+    "MEDIA-CAPABILITIES": {
+        "href": "https://wicg.github.io/media-capabilities/",
+        "title": "Media Capabilities",
+        "status": "Living Standard",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/media-capabilities"
+    },
+    "MEDIA-PLAYBACK-QUALITY": {
+        "href": "https://wicg.github.io/media-playback-quality/",
+        "title": "Media Playback Quality",
+        "status": "Living Standard",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/media-playback-quality"
+    },
+    "MEDIASESSION": {
+        "href": "https://wicg.github.io/mediasession/",
+        "title": "Media Session",
+        "status": "Living Standard",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/mediasession"
+    },
+    "MST-CONTENT-HINT": {
+        "href": "https://wicg.github.io/mst-content-hint/",
+        "title": "MediaStreamTrack Content Hints",
+        "status": "Living Standard",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/mst-content-hint"
+    },
+    "NETINFO": {
+        "href": "https://wicg.github.io/netinfo/",
+        "title": "Network Information API",
+        "status": "Living Standard",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/netinfo"
+    },
+    "ORIGIN-POLICY": {
+        "href": "https://wicg.github.io/origin-policy/",
+        "title": "Origin Policy",
+        "status": "Living Standard",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/origin-policy"
+    },
+    "REPORTING": {
+        "href": "https://wicg.github.io/reporting/",
+        "title": "Reporting API",
+        "status": "Living Standard",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/reporting"
+    },
+    "RESIZE-OBSERVER": {
+        "href": "https://wicg.github.io/ResizeObserver/",
+        "title": "Resize Observer",
+        "status": "Living Standard",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/ResizeObserver"
+    },
+    "SCROLL-ANIMATIONS": {
+        "href": "https://wicg.github.io/scroll-animations/",
+        "title": "Scroll-linked Animations",
+        "status": "Living Standard",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/scroll-animations"
+    },
+    "SHAPE-DETECTION-API": {
+        "href": "https://wicg.github.io/shape-detection-api/",
+        "title": "Accelerated Shape Detection in Images",
+        "status": "Living Standard",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/shape-detection-api"
+    },
+    "VISUAL-VIEWPORT": {
+        "href": "https://wicg.github.io/visual-viewport/",
+        "title": "Visual Viewport API",
+        "status": "Living Standard",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/visual-viewport"
+    },
+    "WEB-BACKGROUND-SYNC": {
+        "href": "https://wicg.github.io/BackgroundSync/spec/",
+        "title": "Web Background Synchronization",
+        "status": "Living Standard",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/BackgroundSync"
+    },
+    "WEB-SHARE": {
+        "href": "https://wicg.github.io/web-share/",
+        "title": "Web Share API",
+        "status": "Living Standard",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/web-share"
+    },
+    "WEB-SHARE-TARGET": {
+        "href": "https://wicg.github.io/web-share-target/",
+        "title": "Web Share Target API",
+        "status": "Living Standard",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/web-share-target"
     },
     "WEBUSB": {
         "href": "https://wicg.github.io/webusb/",
-        "title": "WebUSB API specification draft",
+        "title": "WebUSB API",
         "status": "Living Standard",
         "publisher": "WICG",
-        "source": "https://wicg.github.io/admin/biblio.json"
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/webusb"
+    },
+    "WICG-AOM": {
+        "aliasOf": "AOM"
+    },
+    "WICG-BACKGROUND-FETCH": {
+        "aliasOf": "BACKGROUND-FETCH"
+    },
+    "WICG-BUDGET-API": {
+        "aliasOf": "BUDGET-API"
+    },
+    "WICG-CORS-RFC1918": {
+        "aliasOf": "CORS-RFC1918"
+    },
+    "WICG-CSS-ANIMATION-WORKLET": {
+        "aliasOf": "CSS-ANIMATION-WORKLET"
+    },
+    "WICG-CSS-OVERSCROLL-BEHAVIOR": {
+        "aliasOf": "CSS-OVERSCROLL-BEHAVIOR"
+    },
+    "WICG-CSS-PARSER-API": {
+        "aliasOf": "CSS-PARSER-API"
+    },
+    "WICG-CSS-SCROLL-BOUNDARY-BEHAVIOR": {
+        "aliasOf": "CSS-SCROLL-BOUNDARY-BEHAVIOR"
+    },
+    "WICG-ENTRIES-API": {
+        "aliasOf": "ENTRIES-API"
+    },
+    "WICG-FEATURE-POLICY": {
+        "aliasOf": "FEATURE-POLICY"
+    },
+    "WICG-FRAME-TIMING": {
+        "href": "https://wicg.github.io/frame-timing/",
+        "title": "Frame Timing",
+        "status": "Living Standard",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/frame-timing"
+    },
+    "WICG-GEOLOCATION-SENSOR": {
+        "aliasOf": "GEOLOCATION-SENSOR"
+    },
+    "WICG-INPUT-DEVICE-CAPABILITIES": {
+        "aliasOf": "INPUT-DEVICE-CAPABILITIES"
+    },
+    "WICG-MEDIA-CAPABILITIES": {
+        "aliasOf": "MEDIA-CAPABILITIES"
+    },
+    "WICG-MEDIA-PLAYBACK-QUALITY": {
+        "aliasOf": "MEDIA-PLAYBACK-QUALITY"
+    },
+    "WICG-MEDIASESSION": {
+        "aliasOf": "MEDIASESSION"
+    },
+    "WICG-MST-CONTENT-HINT": {
+        "aliasOf": "MST-CONTENT-HINT"
+    },
+    "WICG-NETINFO": {
+        "aliasOf": "NETINFO"
+    },
+    "WICG-NETWORK-ERROR-LOGGING": {
+        "href": "https://wicg.github.io/network-error-logging/",
+        "title": "Network Error Logging",
+        "status": "Living Standard",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/network-error-logging"
+    },
+    "WICG-ORIGIN-POLICY": {
+        "aliasOf": "ORIGIN-POLICY"
+    },
+    "WICG-REPORTING": {
+        "aliasOf": "REPORTING"
+    },
+    "WICG-RESIZE-OBSERVER": {
+        "aliasOf": "RESIZE-OBSERVER"
+    },
+    "WICG-SCROLL-ANIMATIONS": {
+        "aliasOf": "SCROLL-ANIMATIONS"
+    },
+    "WICG-SHAPE-DETECTION-API": {
+        "aliasOf": "SHAPE-DETECTION-API"
+    },
+    "WICG-VISUAL-VIEWPORT": {
+        "aliasOf": "VISUAL-VIEWPORT"
     },
     "WICG-WEB-BACKGROUND-SYNC": {
         "aliasOf": "WEB-BACKGROUND-SYNC"
+    },
+    "WICG-WEB-SHARE": {
+        "aliasOf": "WEB-SHARE"
+    },
+    "WICG-WEB-SHARE-TARGET": {
+        "aliasOf": "WEB-SHARE-TARGET"
     },
     "WICG-WEBUSB": {
         "aliasOf": "WEBUSB"

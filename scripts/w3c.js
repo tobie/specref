@@ -48,6 +48,18 @@ function convertToHttps(url) {
     return url;
 }
 
+function makeKey(ref) {
+    return ref.rawDate.replace(/\-/g, '');
+}
+
+function getKey(shortname) {
+    return shortname.replace(/^.*?(\d+)$/, "$1");
+}
+
+function isLegacyLevel(shortname) {
+    return leveled.getLevel(shortname).indexOf("-") < 0;
+}
+
 var parser = new xml2js.Parser();
 console.log("Updating W3C references...");
 request({
@@ -66,6 +78,7 @@ request({
         var refs = result['rdf:RDF'];
         var output = [];
         var aliases = {};
+        var levels = {};
         var superseders = {};
         
         Object.keys(STATUSES).forEach(function(k) {
@@ -159,7 +172,7 @@ request({
             var k = ref.shortName;
             if (leveled.isLevel(k)) {
                 k = leveled.getRootShortname(k);
-                aliases[ref.shortName] = k;
+                levels[ref.shortName] = k + "-" + makeKey(ref);
                 delete aliases[k];
             }
             var curr = current[k];
@@ -171,6 +184,7 @@ request({
                 delete curr.date;
                 delete curr.trURL;
                 delete curr.shortName;
+                delete curr.aliasOf;
             } else {
                 var clone = _cloneJSON(ref);
                 clone.href = clone.trURL;
@@ -188,7 +202,7 @@ request({
             }
             var cur = current[sN];
             cur.versions = cur.versions || {};
-            var key = ref.rawDate.replace(/\-/g, '');
+            var key = makeKey(ref);
             var prev = cur.versions[key];
             if (prev) {
                 if (prev.aliasOf) {
@@ -213,21 +227,31 @@ request({
         Object.keys(aliases).forEach(function(k) {
             var aliasShortname = aliases[k];
             var alias = current[aliasShortname];
-            if (!alias) throw new Error("Missing data for spec " + aliasShortname);
-            while (alias.aliasOf) {
-                aliasShortname = alias.aliasOf;
-                alias = current[aliasShortname];
-            }
-            var old = current[k];
-            if (old && old.versions) {
-                alias.versions = alias.versions || {};
-                for (var prop in old.versions) {
-                    if (!alias.versions[prop]) {
-                        alias.versions[prop] = old.versions[prop];
+            try {
+                while (alias.aliasOf) {
+                    aliasShortname = alias.aliasOf;
+                    alias = current[aliasShortname];
+                }
+                var old = current[k];
+                if (old && old.versions) {
+                    alias.versions = alias.versions || {};
+                    for (var prop in old.versions) {
+                        if (!alias.versions[prop]) {
+                            alias.versions[prop] = old.versions[prop];
+                        }
                     }
                 }
+            } catch(e) {
+                var root = current[leveled.getRootShortname(aliasShortname)];
+                if (!root || !root.versions || !root.versions[getKey(aliasShortname)]) {
+                    throw new Error("Missing data for spec " + aliasShortname);
+                }
             }
-            current[k] = { aliasOf: aliasShortname };
+            current[k] = { aliasOf: leveled.isLevel(aliasShortname) ? leveled.getRootShortname(aliasShortname) : aliasShortname };
+        });
+        
+        Object.keys(levels).forEach(function(k) {
+            current[k] =  { aliasOf: levels[k] };
         });
         
         Object.keys(superseders).forEach(function(id) {
