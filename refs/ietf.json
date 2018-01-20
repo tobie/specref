@@ -96402,6 +96402,9 @@
         ],
         "rawDate": "2011-09",
         "status": "Internet Standard",
+        "updatedBy": [
+            "RFC8301"
+        ],
         "obsoletes": [
             "RFC4871",
             "RFC5672"
@@ -122141,6 +122144,9 @@
         ],
         "rawDate": "2017-02",
         "status": "Proposed Standard",
+        "obsoletedBy": [
+            "RFC8299"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -125879,6 +125885,24 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8299": {
+        "rfcNumber": "RFC8299",
+        "href": "https://tools.ietf.org/html/rfc8299",
+        "title": "YANG Data Model for L3VPN Service Delivery",
+        "authors": [
+            "Q. Wu, Ed.",
+            "S. Litkowski",
+            "L. Tomotaki",
+            "K. Ogaki"
+        ],
+        "rawDate": "2018-01",
+        "status": "Proposed Standard",
+        "obsoletes": [
+            "RFC8049"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc83": {
         "aliasOf": "rfc0083"
     },
@@ -125896,6 +125920,21 @@
         ],
         "rawDate": "2018-01",
         "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8301": {
+        "rfcNumber": "RFC8301",
+        "href": "https://tools.ietf.org/html/rfc8301",
+        "title": "Cryptographic Algorithm and Key Usage Update to DomainKeys Identified Mail (DKIM)",
+        "authors": [
+            "S. Kitterman"
+        ],
+        "rawDate": "2018-01",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC6376"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
