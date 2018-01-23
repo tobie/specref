@@ -143,6 +143,14 @@
         "source": "https://wicg.github.io/admin/biblio.json",
         "repository": "https://github.com/wicg/origin-policy"
     },
+    "PICTURE-IN-PICTURE": {
+        "href": "https://wicg.github.io/picture-in-picture/",
+        "title": "Picture-in-Picture",
+        "status": "Living Standard",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/picture-in-picture"
+    },
     "REPORTING": {
         "href": "https://wicg.github.io/reporting/",
         "title": "Reporting API",
@@ -284,6 +292,9 @@
     },
     "WICG-ORIGIN-POLICY": {
         "aliasOf": "ORIGIN-POLICY"
+    },
+    "WICG-PICTURE-IN-PICTURE": {
+        "aliasOf": "PICTURE-IN-PICTURE"
     },
     "WICG-REPORTING": {
         "aliasOf": "REPORTING"
