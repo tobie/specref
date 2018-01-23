@@ -11478,8 +11478,8 @@
         ],
         "href": "https://www.w3.org/TR/activitypub/",
         "title": "ActivityPub",
-        "rawDate": "2017-12-05",
-        "status": "PR",
+        "rawDate": "2018-01-23",
+        "status": "REC",
         "publisher": "W3C",
         "deliveredBy": [
             "https://www.w3.org/Social/WG"
@@ -11661,10 +11661,27 @@
                     "https://www.w3.org/Social/WG"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20180123": {
+                "authors": [
+                    "Christopher Webber",
+                    "Jessica Tallon"
+                ],
+                "href": "https://www.w3.org/TR/2018/REC-activitypub-20180123/",
+                "title": "ActivityPub",
+                "rawDate": "2018-01-23",
+                "status": "REC",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Social/WG"
+                ],
+                "hasErrata": "https://www.w3.org/wiki/ActivityPub_errata",
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
         "edDraft": "https://w3c.github.io/activitypub/",
-        "repository": "https://github.com/w3c/activitypub"
+        "repository": "https://github.com/w3c/activitypub",
+        "hasErrata": "https://www.w3.org/wiki/ActivityPub_errata"
     },
     "activitystreams-core": {
         "authors": [
@@ -36664,6 +36681,37 @@
         },
         "edDraft": "https://dvcs.w3.org/hg/IndieUI/raw-file/default/src/indie-ui-requirements.html"
     },
+    "indieauth": {
+        "authors": [
+            "Aaron Parecki"
+        ],
+        "href": "https://www.w3.org/TR/indieauth/",
+        "title": "IndieAuth",
+        "rawDate": "2018-01-23",
+        "status": "NOTE",
+        "publisher": "W3C",
+        "edDraft": "https://indieauth.spec.indieweb.org/",
+        "deliveredBy": [
+            "https://www.w3.org/Social/WG"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20180123": {
+                "authors": [
+                    "Aaron Parecki"
+                ],
+                "href": "https://www.w3.org/TR/2018/NOTE-indieauth-20180123/",
+                "title": "IndieAuth",
+                "rawDate": "2018-01-23",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Social/WG"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
     "inkreqs": {
         "authors": [
             "Yi-Min Chee",
@@ -47235,7 +47283,7 @@
         ],
         "href": "https://www.w3.org/TR/payment-request/",
         "title": "Payment Request API",
-        "rawDate": "2017-09-21",
+        "rawDate": "2018-01-23",
         "status": "CR",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/payment-request/",
@@ -48003,6 +48051,24 @@
                 "href": "https://www.w3.org/TR/2017/CR-payment-request-20170921/",
                 "title": "Payment Request API",
                 "rawDate": "2017-09-21",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Payments/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20180123": {
+                "authors": [
+                    "Adrian Bateman",
+                    "Zach Koch",
+                    "Roy McElmurry",
+                    "Domenic Denicola",
+                    "Marcos Caceres"
+                ],
+                "href": "https://www.w3.org/TR/2018/CR-payment-request-20180123/",
+                "title": "Payment Request API",
+                "rawDate": "2018-01-23",
                 "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -73177,10 +73243,10 @@
         ],
         "href": "https://www.w3.org/TR/websub/",
         "title": "WebSub",
-        "rawDate": "2017-10-03",
-        "status": "PR",
+        "rawDate": "2018-01-23",
+        "status": "REC",
         "publisher": "W3C",
-        "edDraft": "https://w3c.github.io/websub/",
+        "edDraft": "https://websub.net/draft",
         "deliveredBy": [
             "https://www.w3.org/Social/WG"
         ],
@@ -73244,9 +73310,26 @@
                     "https://www.w3.org/Social/WG"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20180123": {
+                "authors": [
+                    "Julien Genestoux",
+                    "Aaron Parecki"
+                ],
+                "href": "https://www.w3.org/TR/2018/REC-websub-20180123/",
+                "title": "WebSub",
+                "rawDate": "2018-01-23",
+                "status": "REC",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Social/WG"
+                ],
+                "hasErrata": "https://websub.net/errata",
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "repository": "https://github.com/w3c/websub"
+        "repository": "https://github.com/w3c/websub",
+        "hasErrata": "https://websub.net/errata"
     },
     "webvr": {
         "href": "https://w3c.github.io/webvr/spec/latest/",
