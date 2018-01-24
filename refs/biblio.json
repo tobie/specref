@@ -1388,12 +1388,28 @@
         "isoNumber": "ISO 14496-30:2014"
     },
     "ISO3166": {
-        "date": "2013",
-        "href": "http://www.iso.org/iso/catalogue_detail?csnumber=63545",
+        "aliasOf": "ISO3166-1"
+    },
+    "ISO3166-1": {
+        "date": "November 2013",
+        "href": "https://www.iso.org/standard/63545.html",
         "publisher": "International Organization for Standardization (ISO)",
-        "status": "ISO 3166-1:2013",
-        "title": "ISO 3166: Codes for the representation of names of countries and their subdivisions.",
-        "isoNumber": "ISO 3166-1:2013"
+        "status": "Published",
+        "title": "ISO 3166: Codes for the representation of names of countries and their subdivisions – Part 1: Country codes"
+    },
+    "ISO3166-2": {
+        "date": "November 2013",
+        "href": "https://www.iso.org/standard/63546.html",
+        "publisher": "International Organization for Standardization (ISO)",
+        "status": "Published",
+        "title": "ISO 3166: Codes for the representation of names of countries and their subdivisions – Part 2: Country subdivision code."
+    },
+    "ISO3166-3": {
+        "date": "November 2013",
+        "href": "https://www.iso.org/standard/63547.html",
+        "publisher": "International Organization for Standardization (ISO)",
+        "status": "Published",
+        "title": "ISO 3166: Codes for the representation of names of countries and their subdivisions – Part 3: Code for formerly used names of countries"
     },
     "ISO4217": {
         "date": "2015",
