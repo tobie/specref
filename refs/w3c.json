@@ -4560,8 +4560,8 @@
         ],
         "href": "https://www.w3.org/TR/IndexedDB-2/",
         "title": "Indexed Database API 2.0",
-        "rawDate": "2017-11-16",
-        "status": "PR",
+        "rawDate": "2018-01-30",
+        "status": "REC",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/IndexedDB/",
         "deliveredBy": [
@@ -4654,9 +4654,26 @@
                     "https://www.w3.org/WebPlatform/WG/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20180130": {
+                "authors": [
+                    "Ali Alabbas",
+                    "Joshua Bell"
+                ],
+                "href": "https://www.w3.org/TR/2018/REC-IndexedDB-2-20180130/",
+                "title": "Indexed Database API 2.0",
+                "rawDate": "2018-01-30",
+                "status": "REC",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WebPlatform/WG/"
+                ],
+                "hasErrata": "https://github.com/w3c/IndexedDB/labels/errata",
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "repository": "https://github.com/w3c/IndexedDB"
+        "repository": "https://github.com/w3c/IndexedDB",
+        "hasErrata": "https://github.com/w3c/IndexedDB/labels/errata"
     },
     "InkML": {
         "authors": [
@@ -9614,18 +9631,12 @@
         "authors": [
             "Andrew Kirkpatrick",
             "Joshue O Connor",
-            "Michael Cooper",
-            "Ben Caldwell",
-            "Loretta Guarino Reid",
-            "Gregg Vanderheiden",
-            "Wendy Chisholm",
-            "John Slatin",
-            "Jason White"
+            "Michael Cooper"
         ],
         "href": "https://www.w3.org/TR/WCAG21/",
         "title": "Web Content Accessibility Guidelines (WCAG) 2.1",
-        "rawDate": "2017-12-07",
-        "status": "WD",
+        "rawDate": "2018-01-30",
+        "status": "CR",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/wcag21/guidelines/",
         "deliveredBy": [
@@ -9745,6 +9756,22 @@
                 "title": "Web Content Accessibility Guidelines (WCAG) 2.1",
                 "rawDate": "2017-12-07",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WAI/GL/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20180130": {
+                "authors": [
+                    "Andrew Kirkpatrick",
+                    "Joshue O Connor",
+                    "Michael Cooper"
+                ],
+                "href": "https://www.w3.org/TR/2018/CR-WCAG21-20180130/",
+                "title": "Web Content Accessibility Guidelines (WCAG) 2.1",
+                "rawDate": "2018-01-30",
+                "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/WAI/GL/"
@@ -23358,97 +23385,7 @@
         "aliasOf": "css-ruby-1"
     },
     "css3-selectors": {
-        "authors": [
-            "Tantek Çelik",
-            "Elika Etemad",
-            "Daniel Glazman",
-            "Ian Hickson",
-            "Peter Linss",
-            "John Williams"
-        ],
-        "etAl": true,
-        "href": "https://www.w3.org/TR/css3-selectors/",
-        "title": "Selectors Level 3",
-        "status": "REC",
-        "publisher": "W3C",
-        "versions": {
-            "19990803": {
-                "status": "WD",
-                "rawDate": "1999-08-03",
-                "href": "https://www.w3.org/TR/1999/WD-CSS3-selectors-19990803",
-                "source": "./data/w3c-specs.txt"
-            },
-            "20000410": {
-                "status": "WD",
-                "rawDate": "2000-04-10",
-                "href": "https://www.w3.org/TR/2000/WD-css3-selectors-20000410",
-                "source": "./data/w3c-specs.txt"
-            },
-            "20001005": {
-                "status": "WD",
-                "rawDate": "2000-10-05",
-                "href": "https://www.w3.org/TR/2000/WD-css3-selectors-20001005",
-                "source": "./data/w3c-specs.txt"
-            },
-            "20010126": {
-                "status": "WD",
-                "rawDate": "2001-01-26",
-                "href": "https://www.w3.org/TR/2001/WD-css3-selectors-20010126",
-                "source": "./data/w3c-specs.txt"
-            },
-            "20011113": {
-                "status": "CR",
-                "rawDate": "2001-11-13",
-                "href": "https://www.w3.org/TR/2001/CR-css3-selectors-20011113/",
-                "source": "./data/w3c-specs.txt"
-            },
-            "20051215": {
-                "status": "WD",
-                "rawDate": "2005-12-15",
-                "href": "https://www.w3.org/TR/2005/WD-css3-selectors-20051215",
-                "source": "./data/w3c-specs.txt"
-            },
-            "20090310": {
-                "status": "WD",
-                "rawDate": "2009-03-10",
-                "href": "https://www.w3.org/TR/2009/WD-css3-selectors-20090310",
-                "source": "./data/w3c-specs.txt"
-            },
-            "20091215": {
-                "status": "PR",
-                "rawDate": "2009-12-15",
-                "href": "https://www.w3.org/TR/2009/PR-css3-selectors-20091215/",
-                "source": "./data/w3c-specs.txt"
-            },
-            "20110929": {
-                "authors": [
-                    "Tantek Çelik",
-                    "Elika Etemad",
-                    "Daniel Glazman",
-                    "Ian Hickson",
-                    "Peter Linss",
-                    "John Williams"
-                ],
-                "href": "https://www.w3.org/TR/2011/REC-css3-selectors-20110929/",
-                "title": "Selectors Level 3",
-                "rawDate": "2011-09-29",
-                "status": "REC",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/Style/CSS/members"
-                ],
-                "hasErrata": "https://www.w3.org/Style/2011/REC-css3-selectors-20110929-errata.html",
-                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
-            }
-        },
-        "deliveredBy": [
-            "https://www.w3.org/Style/CSS/members"
-        ],
-        "hasErrata": "https://www.w3.org/Style/2011/REC-css3-selectors-20110929-errata.html",
-        "rawDate": "2011-09-29",
-        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
-        "edDraft": "https://drafts.csswg.org/selectors-3/",
-        "repository": "https://github.com/w3c/csswg-drafts"
+        "aliasOf": "selectors-3"
     },
     "css3-sizing": {
         "aliasOf": "css-sizing-3"
@@ -59170,6 +59107,114 @@
         },
         "repository": "https://github.com/w3c/selection-api"
     },
+    "selectors-3": {
+        "authors": [
+            "Tantek Çelik",
+            "Elika Etemad",
+            "Daniel Glazman",
+            "Ian Hickson",
+            "Peter Linss",
+            "John Williams"
+        ],
+        "href": "https://www.w3.org/TR/selectors-3/",
+        "title": "Selectors Level 3",
+        "rawDate": "2018-01-30",
+        "status": "CR",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/Style/CSS/members"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "19990803": {
+                "status": "WD",
+                "rawDate": "1999-08-03",
+                "href": "https://www.w3.org/TR/1999/WD-CSS3-selectors-19990803",
+                "source": "./data/w3c-specs.txt"
+            },
+            "20000410": {
+                "status": "WD",
+                "rawDate": "2000-04-10",
+                "href": "https://www.w3.org/TR/2000/WD-css3-selectors-20000410",
+                "source": "./data/w3c-specs.txt"
+            },
+            "20001005": {
+                "status": "WD",
+                "rawDate": "2000-10-05",
+                "href": "https://www.w3.org/TR/2000/WD-css3-selectors-20001005",
+                "source": "./data/w3c-specs.txt"
+            },
+            "20010126": {
+                "status": "WD",
+                "rawDate": "2001-01-26",
+                "href": "https://www.w3.org/TR/2001/WD-css3-selectors-20010126",
+                "source": "./data/w3c-specs.txt"
+            },
+            "20011113": {
+                "status": "CR",
+                "rawDate": "2001-11-13",
+                "href": "https://www.w3.org/TR/2001/CR-css3-selectors-20011113/",
+                "source": "./data/w3c-specs.txt"
+            },
+            "20051215": {
+                "status": "WD",
+                "rawDate": "2005-12-15",
+                "href": "https://www.w3.org/TR/2005/WD-css3-selectors-20051215",
+                "source": "./data/w3c-specs.txt"
+            },
+            "20090310": {
+                "status": "WD",
+                "rawDate": "2009-03-10",
+                "href": "https://www.w3.org/TR/2009/WD-css3-selectors-20090310",
+                "source": "./data/w3c-specs.txt"
+            },
+            "20091215": {
+                "status": "PR",
+                "rawDate": "2009-12-15",
+                "href": "https://www.w3.org/TR/2009/PR-css3-selectors-20091215/",
+                "source": "./data/w3c-specs.txt"
+            },
+            "20110929": {
+                "authors": [
+                    "Tantek Çelik",
+                    "Elika Etemad",
+                    "Daniel Glazman",
+                    "Ian Hickson",
+                    "Peter Linss",
+                    "John Williams"
+                ],
+                "href": "https://www.w3.org/TR/2011/REC-css3-selectors-20110929/",
+                "title": "Selectors Level 3",
+                "rawDate": "2011-09-29",
+                "status": "REC",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Style/CSS/members"
+                ],
+                "hasErrata": "https://www.w3.org/Style/2011/REC-css3-selectors-20110929-errata.html",
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20180130": {
+                "authors": [
+                    "Tantek Çelik",
+                    "Elika Etemad",
+                    "Daniel Glazman",
+                    "Ian Hickson",
+                    "Peter Linss",
+                    "John Williams"
+                ],
+                "href": "https://www.w3.org/TR/2018/CR-selectors-3-20180130/",
+                "title": "Selectors Level 3",
+                "rawDate": "2018-01-30",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Style/CSS/members"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
     "selectors-api": {
         "authors": [
             "Anne van Kesteren",
@@ -70648,13 +70693,12 @@
         ],
         "href": "https://www.w3.org/TR/web-packaging/",
         "title": "Packaging on the Web",
-        "rawDate": "2015-01-15",
-        "status": "WD",
+        "rawDate": "2018-01-30",
+        "status": "NOTE",
         "publisher": "W3C",
         "edDraft": "https://w3ctag.github.io/packaging-on-the-web/",
         "deliveredBy": [
-            "https://www.w3.org/2001/tag/",
-            "https://www.w3.org/2008/webapps/"
+            "https://www.w3.org/2001/tag/"
         ],
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
         "versions": {
@@ -70672,9 +70716,25 @@
                     "https://www.w3.org/2008/webapps/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20180130": {
+                "authors": [
+                    "Jeni Tennison"
+                ],
+                "href": "https://www.w3.org/TR/2018/NOTE-web-packaging-20180130/",
+                "title": "Packaging on the Web",
+                "rawDate": "2018-01-30",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "isRetired": true,
+                "deliveredBy": [
+                    "https://www.w3.org/2001/tag/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "repository": "https://github.com/w3ctag/packaging-on-the-web"
+        "repository": "https://github.com/w3ctag/packaging-on-the-web",
+        "isRetired": true
     },
     "web-payments-use-cases": {
         "href": "https://www.w3.org/TR/web-payments-use-cases/",
