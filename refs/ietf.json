@@ -27725,7 +27725,8 @@
         "updatedBy": [
             "RFC1957",
             "RFC2449",
-            "RFC6186"
+            "RFC6186",
+            "RFC8314"
         ],
         "obsoletes": [
             "RFC1725"
@@ -36543,6 +36544,7 @@
         ],
         "rawDate": "1999-01",
         "status": "Best Current Practice",
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=2488",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -38267,7 +38269,8 @@
         "status": "Proposed Standard",
         "updatedBy": [
             "RFC4616",
-            "RFC7817"
+            "RFC7817",
+            "RFC8314"
         ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=2595",
         "publisher": "IETF",
@@ -52673,7 +52676,8 @@
             "RFC5738",
             "RFC6186",
             "RFC6858",
-            "RFC7817"
+            "RFC7817",
+            "RFC8314"
         ],
         "obsoletes": [
             "RFC2060"
@@ -76481,6 +76485,9 @@
         ],
         "rawDate": "2007-11",
         "status": "Best Current Practice",
+        "updatedBy": [
+            "RFC8314"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -93470,6 +93477,9 @@
         ],
         "rawDate": "2011-03",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC8314"
+        ],
         "updates": [
             "RFC1939",
             "RFC3501"
@@ -96893,6 +96903,9 @@
         ],
         "rawDate": "2011-11",
         "status": "Internet Standard",
+        "updatedBy": [
+            "RFC8314"
+        ],
         "obsoletes": [
             "RFC4409"
         ],
@@ -111787,6 +111800,9 @@
         ],
         "rawDate": "2014-10",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC8317"
+        ],
         "updates": [
             "RFC6514"
         ],
@@ -112607,7 +112623,8 @@
         "rawDate": "2015-01",
         "status": "Best Current Practice",
         "updatedBy": [
-            "RFC7776"
+            "RFC7776",
+            "RFC8318"
         ],
         "obsoletes": [
             "RFC3777",
@@ -119902,6 +119919,7 @@
             "RFC5246",
             "RFC6347"
         ],
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=7905",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -125859,6 +125877,18 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8295": {
+        "rfcNumber": "RFC8295",
+        "href": "https://tools.ietf.org/html/rfc8295",
+        "title": "EST (Enrollment over Secure Transport) Extensions",
+        "authors": [
+            "S. Turner"
+        ],
+        "rawDate": "2018-01",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8296": {
         "rfcNumber": "RFC8296",
         "href": "https://tools.ietf.org/html/rfc8296",
@@ -126068,6 +126098,62 @@
         ],
         "rawDate": "2018-01",
         "status": "Best Current Practice",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8314": {
+        "rfcNumber": "RFC8314",
+        "href": "https://tools.ietf.org/html/rfc8314",
+        "title": "Cleartext Considered Obsolete: Use of Transport Layer Security (TLS) for Email Submission and Access",
+        "authors": [
+            "K. Moore",
+            "C. Newman"
+        ],
+        "rawDate": "2018-01",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC1939",
+            "RFC2595",
+            "RFC3501",
+            "RFC5068",
+            "RFC6186",
+            "RFC6409"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8317": {
+        "rfcNumber": "RFC8317",
+        "href": "https://tools.ietf.org/html/rfc8317",
+        "title": "Ethernet-Tree (E-Tree) Support in Ethernet VPN (EVPN) and Provider Backbone Bridging EVPN (PBB-EVPN)",
+        "authors": [
+            "A. Sajassi, Ed.",
+            "S. Salam",
+            "J. Drake",
+            "J. Uttaro",
+            "S. Boutros",
+            "J. Rabadan"
+        ],
+        "rawDate": "2018-01",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC7385"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8318": {
+        "rfcNumber": "RFC8318",
+        "href": "https://tools.ietf.org/html/rfc8318",
+        "title": "IAB, IESG, and IAOC Selection, Confirmation, and Recall Process: IAOC Advisor for the Nominating Committee",
+        "authors": [
+            "S. Dawkins"
+        ],
+        "rawDate": "2018-01",
+        "status": "Best Current Practice",
+        "updates": [
+            "RFC7437"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
