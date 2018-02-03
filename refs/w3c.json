@@ -12960,7 +12960,7 @@
         ],
         "href": "https://www.w3.org/TR/appmanifest/",
         "title": "Web App Manifest",
-        "rawDate": "2018-01-30",
+        "rawDate": "2018-02-02",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -14456,6 +14456,24 @@
                 "href": "https://www.w3.org/TR/2018/WD-appmanifest-20180130/",
                 "title": "Web App Manifest",
                 "rawDate": "2018-01-30",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WebPlatform/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20180202": {
+                "authors": [
+                    "Marcos Caceres",
+                    "Kenneth Christiansen",
+                    "Mounir Lamouri",
+                    "Anssi Kostiainen",
+                    "Rob Dolin"
+                ],
+                "href": "https://www.w3.org/TR/2018/WD-appmanifest-20180202/",
+                "title": "Web App Manifest",
+                "rawDate": "2018-02-02",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -25451,7 +25469,7 @@
         ],
         "href": "https://www.w3.org/TR/dom41/",
         "title": "W3C DOM 4.1",
-        "rawDate": "2017-12-07",
+        "rawDate": "2018-02-01",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/dom/",
@@ -25565,6 +25583,20 @@
                 "href": "https://www.w3.org/TR/2017/WD-dom41-20171207/",
                 "title": "W3C DOM 4.1",
                 "rawDate": "2017-12-07",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WebPlatform/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20180201": {
+                "authors": [
+                    "Yongsheng Zhu"
+                ],
+                "href": "https://www.w3.org/TR/2018/WD-dom41-20180201/",
+                "title": "W3C DOM 4.1",
+                "rawDate": "2018-02-01",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -30514,17 +30546,19 @@
     },
     "graphics-aam-1.0": {
         "authors": [
-            "Richard Schwerdtfeger",
-            "Doug Schepers",
+            "Amelia Bellamy-Royds",
+            "Joanmarie Diggs",
+            "Michael Cooper",
             "Fred Esch",
-            "Amelia Bellamy-Royds"
+            "Richard Schwerdtfeger",
+            "Doug Schepers"
         ],
         "href": "https://www.w3.org/TR/graphics-aam-1.0/",
         "title": "Graphics Accessibility API Mappings",
-        "rawDate": "2016-09-08",
+        "rawDate": "2018-02-02",
         "status": "WD",
         "publisher": "W3C",
-        "edDraft": "https://w3c.github.io/aria/graphics-aam/graphics-aam.html",
+        "edDraft": "https://w3c.github.io/graphics-aam/",
         "deliveredBy": [
             "https://www.w3.org/Graphics/SVG/WG/",
             "https://www.w3.org/WAI/ARIA/"
@@ -30548,6 +30582,26 @@
                     "https://www.w3.org/WAI/ARIA/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20180202": {
+                "authors": [
+                    "Amelia Bellamy-Royds",
+                    "Joanmarie Diggs",
+                    "Michael Cooper",
+                    "Fred Esch",
+                    "Richard Schwerdtfeger",
+                    "Doug Schepers"
+                ],
+                "href": "https://www.w3.org/TR/2018/WD-graphics-aam-1.0-20180202/",
+                "title": "Graphics Accessibility API Mappings",
+                "rawDate": "2018-02-02",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Graphics/SVG/WG/",
+                    "https://www.w3.org/WAI/ARIA/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
         "repository": "https://github.com/w3c/aria"
@@ -30555,16 +30609,18 @@
     "graphics-aria-1.0": {
         "authors": [
             "Amelia Bellamy-Royds",
+            "Joanmarie Diggs",
+            "Michael Cooper",
             "Fred Esch",
             "Richard Schwerdtfeger",
-            "Léonie Watson"
+            "Doug Schepers"
         ],
         "href": "https://www.w3.org/TR/graphics-aria-1.0/",
         "title": "WAI-ARIA Graphics Module",
-        "rawDate": "2016-09-08",
+        "rawDate": "2018-02-02",
         "status": "WD",
         "publisher": "W3C",
-        "edDraft": "https://w3c.github.io/aria/aria/graphics.html",
+        "edDraft": "https://w3c.github.io/graphics-aria/",
         "deliveredBy": [
             "https://www.w3.org/Graphics/SVG/WG/",
             "https://www.w3.org/WAI/ARIA/"
@@ -30593,6 +30649,26 @@
                 "href": "https://www.w3.org/TR/2016/WD-graphics-aria-1.0-20160908/",
                 "title": "WAI-ARIA Graphics Module",
                 "rawDate": "2016-09-08",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Graphics/SVG/WG/",
+                    "https://www.w3.org/WAI/ARIA/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20180202": {
+                "authors": [
+                    "Amelia Bellamy-Royds",
+                    "Joanmarie Diggs",
+                    "Michael Cooper",
+                    "Fred Esch",
+                    "Richard Schwerdtfeger",
+                    "Doug Schepers"
+                ],
+                "href": "https://www.w3.org/TR/2018/WD-graphics-aria-1.0-20180202/",
+                "title": "WAI-ARIA Graphics Module",
+                "rawDate": "2018-02-02",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -33295,7 +33371,7 @@
         ],
         "href": "https://www.w3.org/TR/html-media-capture/",
         "title": "HTML Media Capture",
-        "status": "PR",
+        "status": "REC",
         "publisher": "W3C",
         "deliveredBy": [
             "https://www.w3.org/2009/dap/"
@@ -33444,12 +33520,30 @@
                     "https://www.w3.org/2009/dap/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20180201": {
+                "authors": [
+                    "Anssi Kostiainen",
+                    "Ilkka Oksanen",
+                    "Dominique Hazaël-Massieux"
+                ],
+                "href": "https://www.w3.org/TR/2018/REC-html-media-capture-20180201/",
+                "title": "HTML Media Capture",
+                "rawDate": "2018-02-01",
+                "status": "REC",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2009/dap/"
+                ],
+                "hasErrata": "https://github.com/w3c/html-media-capture/labels/errata",
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2017-11-28",
+        "rawDate": "2018-02-01",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
         "edDraft": "https://w3c.github.io/html-media-capture/",
-        "repository": "https://github.com/w3c/html-media-capture"
+        "repository": "https://github.com/w3c/html-media-capture",
+        "hasErrata": "https://github.com/w3c/html-media-capture/labels/errata"
     },
     "html-picture-element": {
         "authors": [
@@ -59249,6 +59343,66 @@
         },
         "repository": "https://github.com/w3c/csswg-drafts"
     },
+    "selectors-4": {
+        "authors": [
+            "Elika Etemad",
+            "Tab Atkins Jr."
+        ],
+        "href": "https://www.w3.org/TR/selectors-4/",
+        "title": "Selectors Level 4",
+        "rawDate": "2018-02-02",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://drafts.csswg.org/selectors",
+        "deliveredBy": [
+            "https://www.w3.org/Style/CSS/members"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20110929": {
+                "status": "WD",
+                "rawDate": "2011-09-29",
+                "href": "https://www.w3.org/TR/2011/WD-selectors4-20110929/",
+                "source": "./data/w3c-specs.txt"
+            },
+            "20120823": {
+                "status": "WD",
+                "rawDate": "2012-08-23",
+                "href": "https://www.w3.org/TR/2012/WD-selectors4-20120823/",
+                "source": "./data/w3c-specs.txt"
+            },
+            "20130502": {
+                "authors": [
+                    "Elika Etemad",
+                    "Tab Atkins Jr."
+                ],
+                "href": "https://www.w3.org/TR/2013/WD-selectors4-20130502/",
+                "title": "Selectors Level 4",
+                "rawDate": "2013-05-02",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Style/CSS/members"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20180202": {
+                "authors": [
+                    "Elika Etemad",
+                    "Tab Atkins Jr."
+                ],
+                "href": "https://www.w3.org/TR/2018/WD-selectors-4-20180202/",
+                "title": "Selectors Level 4",
+                "rawDate": "2018-02-02",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Style/CSS/members"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
     "selectors-api": {
         "authors": [
             "Anne van Kesteren",
@@ -59457,48 +59611,7 @@
         "repository": "https://github.com/w3c/web-annotation"
     },
     "selectors4": {
-        "authors": [
-            "Elika Etemad",
-            "Tab Atkins Jr."
-        ],
-        "href": "https://www.w3.org/TR/selectors4/",
-        "title": "Selectors Level 4",
-        "rawDate": "2013-05-02",
-        "status": "WD",
-        "publisher": "W3C",
-        "deliveredBy": [
-            "https://www.w3.org/Style/CSS/members"
-        ],
-        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
-        "versions": {
-            "20110929": {
-                "status": "WD",
-                "rawDate": "2011-09-29",
-                "href": "https://www.w3.org/TR/2011/WD-selectors4-20110929/",
-                "source": "./data/w3c-specs.txt"
-            },
-            "20120823": {
-                "status": "WD",
-                "rawDate": "2012-08-23",
-                "href": "https://www.w3.org/TR/2012/WD-selectors4-20120823/",
-                "source": "./data/w3c-specs.txt"
-            },
-            "20130502": {
-                "authors": [
-                    "Elika Etemad",
-                    "Tab Atkins Jr."
-                ],
-                "href": "https://www.w3.org/TR/2013/WD-selectors4-20130502/",
-                "title": "Selectors Level 4",
-                "rawDate": "2013-05-02",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/Style/CSS/members"
-                ],
-                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
-            }
-        }
+        "aliasOf": "selectors-4"
     },
     "semantic-interpretation": {
         "authors": [
