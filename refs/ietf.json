@@ -122024,6 +122024,7 @@
         ],
         "rawDate": "2017-01",
         "status": "Proposed Standard",
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=8040",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -126001,6 +126002,33 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8303": {
+        "rfcNumber": "RFC8303",
+        "href": "https://tools.ietf.org/html/rfc8303",
+        "title": "On the Usage of Transport Features Provided by IETF Transport Protocols",
+        "authors": [
+            "M. Welzl",
+            "M. Tuexen",
+            "N. Khademi"
+        ],
+        "rawDate": "2018-02",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8304": {
+        "rfcNumber": "RFC8304",
+        "href": "https://tools.ietf.org/html/rfc8304",
+        "title": "Transport Features of the User Datagram Protocol (UDP) and Lightweight UDP (UDP-Lite)",
+        "authors": [
+            "G. Fairhurst",
+            "T. Jones"
+        ],
+        "rawDate": "2018-02",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8305": {
         "rfcNumber": "RFC8305",
         "href": "https://tools.ietf.org/html/rfc8305",
@@ -126083,6 +126111,23 @@
             "RFC5622",
             "RFC6679"
         ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8312": {
+        "rfcNumber": "RFC8312",
+        "href": "https://tools.ietf.org/html/rfc8312",
+        "title": "CUBIC for Fast Long-Distance Networks",
+        "authors": [
+            "I. Rhee",
+            "L. Xu",
+            "S. Ha",
+            "A. Zimmermann",
+            "L. Eggert",
+            "R. Scheffenegger"
+        ],
+        "rawDate": "2018-02",
+        "status": "Informational",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
