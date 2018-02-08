@@ -4,7 +4,7 @@ var bibref = require('./lib/bibref');
 
 var app = module.exports = require("express")();
 
-var errorhandlerOptions = {};
+var errorhandlerOptions = { log: true };
 if (process.env.NODE_ENV == "dev" || process.env.NODE_ENV == "development") {
     errorhandlerOptions.dumpExceptions = true;
     errorhandlerOptions.showStack = true;
