@@ -2679,7 +2679,20 @@
         "title": "WebGL Specification, Version 1.0",
         "rawDate": "2017-08-09",
         "publisher": "Khronos",
-        "repository": "https://github.com/KhronosGroup/WebGL"
+        "repository": "https://github.com/KhronosGroup/WebGL",
+        "versions": {
+            "20141027": {
+                "authors": [
+                    "Dean Jackson"
+                ],
+                "href": "https://www.khronos.org/registry/webgl/specs/1.0.3/",
+                "title": "WebGL Specification",
+                "rawDate": "2014-10-27"
+            }
+        }
+    },
+    "WEBGL-103": {
+        "aliasOf": "WEBGL-1-20141027"
     },
     "WEBGL-2": {
         "authors": [
