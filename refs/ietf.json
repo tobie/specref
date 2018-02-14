@@ -83614,6 +83614,9 @@
         ],
         "rawDate": "2009-11",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC8315"
+        ],
         "obsoletes": [
             "RFC1036",
             "RFC1849"
@@ -126168,6 +126171,36 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8315": {
+        "rfcNumber": "RFC8315",
+        "href": "https://tools.ietf.org/html/rfc8315",
+        "title": "Cancel-Locks in Netnews Articles",
+        "authors": [
+            "M. Baeuerle"
+        ],
+        "rawDate": "2018-02",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC5537"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8316": {
+        "rfcNumber": "RFC8316",
+        "href": "https://tools.ietf.org/html/rfc8316",
+        "title": "Autonomic Networking Use Case for Distributed Detection of Service Level Agreement (SLA) Violations",
+        "authors": [
+            "J. Nobre",
+            "L. Granville",
+            "A. Clemm",
+            "A. Gonzalez Prieto"
+        ],
+        "rawDate": "2018-02",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8317": {
         "rfcNumber": "RFC8317",
         "href": "https://tools.ietf.org/html/rfc8317",
@@ -126222,6 +126255,20 @@
         ],
         "rawDate": "2018-01",
         "status": "Experimental",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8325": {
+        "rfcNumber": "RFC8325",
+        "href": "https://tools.ietf.org/html/rfc8325",
+        "title": "Mapping Diffserv to IEEE 802.11",
+        "authors": [
+            "T. Szigeti",
+            "J. Henry",
+            "F. Baker"
+        ],
+        "rawDate": "2018-02",
+        "status": "Proposed Standard",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
