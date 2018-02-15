@@ -67499,10 +67499,13 @@
         "title": "Enhancements for Authenticated Identity Management in the Session Initiation Protocol (SIP)",
         "authors": [
             "J. Peterson",
-            " C. Jennings"
+            "C. Jennings"
         ],
         "rawDate": "2006-08",
         "status": "Proposed Standard",
+        "obsoletedBy": [
+            "RFC8224"
+        ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=4474",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -115831,6 +115834,9 @@
         ],
         "rawDate": "2015-09",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC8323"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -120754,6 +120760,9 @@
         ],
         "rawDate": "2016-08",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC8323"
+        ],
         "updates": [
             "RFC7252"
         ],
@@ -124836,6 +124845,50 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8224": {
+        "rfcNumber": "RFC8224",
+        "href": "https://tools.ietf.org/html/rfc8224",
+        "title": "Authenticated Identity Management in the Session Initiation Protocol (SIP)",
+        "authors": [
+            "J. Peterson",
+            "C. Jennings",
+            "E. Rescorla",
+            "C. Wendt"
+        ],
+        "rawDate": "2018-02",
+        "status": "Proposed Standard",
+        "obsoletes": [
+            "RFC4474"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8225": {
+        "rfcNumber": "RFC8225",
+        "href": "https://tools.ietf.org/html/rfc8225",
+        "title": "PASSporT: Personal Assertion Token",
+        "authors": [
+            "C. Wendt",
+            "J. Peterson"
+        ],
+        "rawDate": "2018-02",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8226": {
+        "rfcNumber": "RFC8226",
+        "href": "https://tools.ietf.org/html/rfc8226",
+        "title": "Secure Telephone Identity Credentials: Certificates",
+        "authors": [
+            "J. Peterson",
+            "S. Turner"
+        ],
+        "rawDate": "2018-02",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8227": {
         "rfcNumber": "RFC8227",
         "href": "https://tools.ietf.org/html/rfc8227",
@@ -126258,6 +126311,41 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8322": {
+        "rfcNumber": "RFC8322",
+        "href": "https://tools.ietf.org/html/rfc8322",
+        "title": "Resource-Oriented Lightweight Information Exchange (ROLIE)",
+        "authors": [
+            "J. Field",
+            "S. Banghart",
+            "D. Waltermire"
+        ],
+        "rawDate": "2018-02",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8323": {
+        "rfcNumber": "RFC8323",
+        "href": "https://tools.ietf.org/html/rfc8323",
+        "title": "CoAP (Constrained Application Protocol) over TCP, TLS, and WebSockets",
+        "authors": [
+            "C. Bormann",
+            "S. Lemay",
+            "H. Tschofenig",
+            "K. Hartke",
+            "B. Silverajan",
+            "B. Raymor, Ed."
+        ],
+        "rawDate": "2018-02",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC7641",
+            "RFC7959"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8325": {
         "rfcNumber": "RFC8325",
         "href": "https://tools.ietf.org/html/rfc8325",
@@ -126274,6 +126362,22 @@
     },
     "rfc833": {
         "aliasOf": "rfc0833"
+    },
+    "rfc8330": {
+        "rfcNumber": "RFC8330",
+        "href": "https://tools.ietf.org/html/rfc8330",
+        "title": "OSPF Traffic Engineering (OSPF-TE) Link Availability Extension for Links with Variable Discrete Bandwidth",
+        "authors": [
+            "H. Long",
+            "M. Ye",
+            "G. Mirsky",
+            "A. D'Alessandro",
+            "H. Shah"
+        ],
+        "rawDate": "2018-02",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc834": {
         "aliasOf": "rfc0834"
