@@ -73311,7 +73311,8 @@
             "RFC7048",
             "RFC7527",
             "RFC7559",
-            "RFC8028"
+            "RFC8028",
+            "RFC8319"
         ],
         "obsoletes": [
             "RFC2461"
@@ -73719,6 +73720,9 @@
         ],
         "rawDate": "2007-04",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC8335"
+        ],
         "updates": [
             "RFC0792",
             "RFC4443"
@@ -126290,8 +126294,43 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8319": {
+        "rfcNumber": "RFC8319",
+        "href": "https://tools.ietf.org/html/rfc8319",
+        "title": "Support for Adjustable Maximum Router Lifetimes per Link",
+        "authors": [
+            "S. Krishnan",
+            "J. Korhonen",
+            "S. Chakrabarti",
+            "E. Nordmark",
+            "A. Yourtchenko"
+        ],
+        "rawDate": "2018-02",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC4861"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc832": {
         "aliasOf": "rfc0832"
+    },
+    "rfc8320": {
+        "rfcNumber": "RFC8320",
+        "href": "https://tools.ietf.org/html/rfc8320",
+        "title": "LDP Extensions to Support Maximally Redundant Trees",
+        "authors": [
+            "A. Atlas",
+            "K. Tiruveedhula",
+            "C. Bowers",
+            "J. Tantsura",
+            "IJ. Wijnands"
+        ],
+        "rawDate": "2018-02",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc8321": {
         "rfcNumber": "RFC8321",
@@ -126361,6 +126400,22 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8329": {
+        "rfcNumber": "RFC8329",
+        "href": "https://tools.ietf.org/html/rfc8329",
+        "title": "Framework for Interface to Network Security Functions",
+        "authors": [
+            "D. Lopez",
+            "E. Lopez",
+            "L. Dunbar",
+            "J. Strassner",
+            "R. Kumar"
+        ],
+        "rawDate": "2018-02",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc833": {
         "aliasOf": "rfc0833"
     },
@@ -126389,6 +126444,25 @@
         ],
         "rawDate": "2018-02",
         "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8335": {
+        "rfcNumber": "RFC8335",
+        "href": "https://tools.ietf.org/html/rfc8335",
+        "title": "PROBE: A Utility for Probing Interfaces",
+        "authors": [
+            "R. Bonica",
+            "R. Thomas",
+            "J. Linkova",
+            "C. Lenart",
+            "M. Boucadair"
+        ],
+        "rawDate": "2018-02",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC4884"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
