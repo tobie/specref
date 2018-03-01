@@ -10064,8 +10064,8 @@
         ],
         "href": "https://www.w3.org/TR/WOFF2/",
         "title": "WOFF File Format 2.0",
-        "rawDate": "2018-01-11",
-        "status": "PR",
+        "rawDate": "2018-03-01",
+        "status": "REC",
         "publisher": "W3C",
         "deliveredBy": [
             "https://www.w3.org/Fonts/WG/"
@@ -10131,10 +10131,27 @@
                     "https://www.w3.org/Fonts/WG/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20180301": {
+                "authors": [
+                    "Vladimir Levantovsky",
+                    "Raph Levien"
+                ],
+                "href": "https://www.w3.org/TR/2018/REC-WOFF2-20180301/",
+                "title": "WOFF File Format 2.0",
+                "rawDate": "2018-03-01",
+                "status": "REC",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Fonts/WG/"
+                ],
+                "hasErrata": "https://www.w3.org/Fonts/REC-WOFF2-20180301-errata.html",
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
         "edDraft": "https://w3c.github.io/woff/woff2/",
-        "repository": "https://github.com/w3c/woff"
+        "repository": "https://github.com/w3c/woff",
+        "hasErrata": "https://www.w3.org/Fonts/REC-WOFF2-20180301-errata.html"
     },
     "WOFF20ER": {
         "authors": [
@@ -31501,7 +31518,7 @@
         ],
         "href": "https://www.w3.org/TR/hr-time-2/",
         "title": "High Resolution Time Level 2",
-        "rawDate": "2017-08-03",
+        "rawDate": "2018-03-01",
         "status": "CR",
         "publisher": "W3C",
         "deliveredBy": [
@@ -31811,6 +31828,22 @@
                 "href": "https://www.w3.org/TR/2017/CR-hr-time-2-20170803/",
                 "title": "High Resolution Time Level 2",
                 "rawDate": "2017-08-03",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/webperf/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20180301": {
+                "authors": [
+                    "Ilya Grigorik",
+                    "James Simonsen",
+                    "Jatinder Mann"
+                ],
+                "href": "https://www.w3.org/TR/2018/CR-hr-time-2-20180301/",
+                "title": "High Resolution Time Level 2",
+                "rawDate": "2018-03-01",
                 "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -47654,7 +47687,7 @@
         ],
         "href": "https://www.w3.org/TR/payment-request/",
         "title": "Payment Request API",
-        "rawDate": "2018-02-22",
+        "rawDate": "2018-03-01",
         "status": "CR",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/payment-request/",
@@ -48458,6 +48491,24 @@
                 "href": "https://www.w3.org/TR/2018/CR-payment-request-20180222/",
                 "title": "Payment Request API",
                 "rawDate": "2018-02-22",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Payments/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20180301": {
+                "authors": [
+                    "Adrian Bateman",
+                    "Zach Koch",
+                    "Roy McElmurry",
+                    "Domenic Denicola",
+                    "Marcos Caceres"
+                ],
+                "href": "https://www.w3.org/TR/2018/CR-payment-request-20180301/",
+                "title": "Payment Request API",
+                "rawDate": "2018-03-01",
                 "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -60829,7 +60880,7 @@
         ],
         "href": "https://www.w3.org/TR/shadow-dom/",
         "title": "Shadow DOM",
-        "status": "WD",
+        "status": "NOTE",
         "publisher": "W3C",
         "deliveredBy": [
             "https://www.w3.org/WebPlatform/WG/"
@@ -61035,12 +61086,28 @@
                     "https://www.w3.org/WebPlatform/WG/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20180301": {
+                "authors": [
+                    "Hayato Ito"
+                ],
+                "href": "https://www.w3.org/TR/2018/NOTE-shadow-dom-20180301/",
+                "title": "Shadow DOM",
+                "rawDate": "2018-03-01",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "isRetired": true,
+                "deliveredBy": [
+                    "https://www.w3.org/WebPlatform/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2017-09-05",
+        "rawDate": "2018-03-01",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
         "edDraft": "https://w3c.github.io/webcomponents/spec/shadow/",
-        "repository": "https://github.com/w3c/webcomponents"
+        "repository": "https://github.com/w3c/webcomponents",
+        "isRetired": true
     },
     "shoplogfileformat": {
         "versions": {
