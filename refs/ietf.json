@@ -56382,6 +56382,7 @@
         ],
         "rawDate": "2004-04",
         "status": "Informational",
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=3743",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -82154,7 +82155,8 @@
         "status": "Proposed Standard",
         "updatedBy": [
             "RFC7896",
-            "RFC8253"
+            "RFC8253",
+            "RFC8356"
         ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=5440",
         "publisher": "IETF",
@@ -111814,7 +111816,8 @@
         "rawDate": "2014-10",
         "status": "Proposed Standard",
         "updatedBy": [
-            "RFC8317"
+            "RFC8317",
+            "RFC8338"
         ],
         "updates": [
             "RFC6514"
@@ -126414,6 +126417,37 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8326": {
+        "rfcNumber": "RFC8326",
+        "href": "https://tools.ietf.org/html/rfc8326",
+        "title": "Graceful BGP Session Shutdown",
+        "authors": [
+            "P. Francois, Ed.",
+            "B. Decraene, Ed.",
+            "C. Pelsser",
+            "K. Patel",
+            "C. Filsfils"
+        ],
+        "rawDate": "2018-03",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8327": {
+        "rfcNumber": "RFC8327",
+        "href": "https://tools.ietf.org/html/rfc8327",
+        "title": "Mitigating the Negative Impact of Maintenance through BGP Session Culling",
+        "authors": [
+            "W. Hargrave",
+            "M. Griswold",
+            "J. Snijders",
+            "N. Hilliard"
+        ],
+        "rawDate": "2018-03",
+        "status": "Best Current Practice",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8329": {
         "rfcNumber": "RFC8329",
         "href": "https://tools.ietf.org/html/rfc8329",
@@ -126494,11 +126528,57 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8338": {
+        "rfcNumber": "RFC8338",
+        "href": "https://tools.ietf.org/html/rfc8338",
+        "title": "Signaling Root-Initiated Point-to-Multipoint Pseudowire Using LDP",
+        "authors": [
+            "S. Boutros, Ed.",
+            "S. Sivabalan, Ed."
+        ],
+        "rawDate": "2018-03",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC7385"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc834": {
         "aliasOf": "rfc0834"
     },
     "rfc835": {
         "aliasOf": "rfc0835"
+    },
+    "rfc8356": {
+        "rfcNumber": "RFC8356",
+        "href": "https://tools.ietf.org/html/rfc8356",
+        "title": "Experimental Codepoint Allocation for the Path Computation Element Communication Protocol (PCEP)",
+        "authors": [
+            "D. Dhody",
+            "D. King",
+            "A. Farrel"
+        ],
+        "rawDate": "2018-03",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC5440"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8357": {
+        "rfcNumber": "RFC8357",
+        "href": "https://tools.ietf.org/html/rfc8357",
+        "title": "Generalized UDP Source Port for DHCP Relay",
+        "authors": [
+            "N. Shen",
+            "E. Chen"
+        ],
+        "rawDate": "2018-03",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc836": {
         "aliasOf": "rfc0836"
