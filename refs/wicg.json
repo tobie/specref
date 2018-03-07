@@ -183,6 +183,14 @@
         "source": "https://wicg.github.io/admin/biblio.json",
         "repository": "https://github.com/wicg/shape-detection-api"
     },
+    "TEXT-DETECTION-API": {
+        "href": "https://wicg.github.io/shape-detection-api/text.html",
+        "title": "Accelerated Text Detection in Images",
+        "status": "Living Standard",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/shape-detection-api"
+    },
     "VISUAL-VIEWPORT": {
         "href": "https://wicg.github.io/visual-viewport/",
         "title": "Visual Viewport API",
@@ -307,6 +315,9 @@
     },
     "WICG-SHAPE-DETECTION-API": {
         "aliasOf": "SHAPE-DETECTION-API"
+    },
+    "WICG-TEXT-DETECTION-API": {
+        "aliasOf": "TEXT-DETECTION-API"
     },
     "WICG-VISUAL-VIEWPORT": {
         "aliasOf": "VISUAL-VIEWPORT"
