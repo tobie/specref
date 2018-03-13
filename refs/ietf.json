@@ -82867,6 +82867,9 @@
         ],
         "rawDate": "2009-03",
         "status": "Informational",
+        "updatedBy": [
+            "RFC8358"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -122888,6 +122891,7 @@
         ],
         "rawDate": "2017-03",
         "status": "Informational",
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=8095",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -126578,6 +126582,21 @@
         ],
         "rawDate": "2018-03",
         "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8358": {
+        "rfcNumber": "RFC8358",
+        "href": "https://tools.ietf.org/html/rfc8358",
+        "title": "Update to Digital Signatures on Internet-Draft Documents",
+        "authors": [
+            "R. Housley"
+        ],
+        "rawDate": "2018-03",
+        "status": "Informational",
+        "updates": [
+            "RFC5485"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
