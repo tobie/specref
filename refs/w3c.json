@@ -21695,6 +21695,40 @@
         "edDraft": "https://drafts.csswg.org/css-text-decor-3/",
         "repository": "https://github.com/w3c/csswg-drafts"
     },
+    "css-text-decor-4": {
+        "authors": [
+            "Elika Etemad",
+            "Koji Ishii"
+        ],
+        "href": "https://www.w3.org/TR/css-text-decor-4/",
+        "title": "CSS Text Decoration Module Level 4",
+        "rawDate": "2018-03-13",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://drafts.csswg.org/css-text-decor-4/",
+        "deliveredBy": [
+            "https://www.w3.org/Style/CSS/members"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20180313": {
+                "authors": [
+                    "Elika Etemad",
+                    "Koji Ishii"
+                ],
+                "href": "https://www.w3.org/TR/2018/WD-css-text-decor-4-20180313/",
+                "title": "CSS Text Decoration Module Level 4",
+                "rawDate": "2018-03-13",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Style/CSS/members"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        },
+        "repository": "https://github.com/w3c/csswg-drafts"
+    },
     "css-timing-1": {
         "authors": [
             "Brian Birtles",
@@ -66439,12 +66473,13 @@
     },
     "ttml2": {
         "authors": [
-            "Glenn Adams"
+            "Glenn Adams",
+            "Cyril Concolato"
         ],
         "href": "https://www.w3.org/TR/ttml2/",
         "title": "Timed Text Markup Language 2 (TTML2)",
-        "rawDate": "2017-06-30",
-        "status": "WD",
+        "rawDate": "2018-03-13",
+        "status": "CR",
         "publisher": "W3C",
         "deliveredBy": [
             "https://www.w3.org/AudioVideo/TT/"
@@ -66517,9 +66552,24 @@
                     "https://www.w3.org/AudioVideo/TT/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20180313": {
+                "authors": [
+                    "Glenn Adams",
+                    "Cyril Concolato"
+                ],
+                "href": "https://www.w3.org/TR/2018/CR-ttml2-20180313/",
+                "title": "Timed Text Markup Language 2 (TTML2)",
+                "rawDate": "2018-03-13",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/AudioVideo/TT/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "https://w3c.github.io/ttml2/spec/ttml2.html",
+        "edDraft": "https://w3c.github.io/ttml2/index.html",
         "repository": "https://github.com/w3c/ttml2"
     },
     "turingtest": {
