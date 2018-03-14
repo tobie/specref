@@ -52198,7 +52198,8 @@
             "RFC6003",
             "RFC6205",
             "RFC7074",
-            "RFC7699"
+            "RFC7699",
+            "RFC8359"
         ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=3471",
         "publisher": "IETF",
@@ -52243,7 +52244,8 @@
             "RFC5420",
             "RFC6002",
             "RFC6003",
-            "RFC6780"
+            "RFC6780",
+            "RFC8359"
         ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=3473",
         "publisher": "IETF",
@@ -93769,7 +93771,8 @@
         "rawDate": "2011-03",
         "status": "Proposed Standard",
         "updatedBy": [
-            "RFC7699"
+            "RFC7699",
+            "RFC8359"
         ],
         "updates": [
             "RFC3471"
@@ -126549,6 +126552,20 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8339": {
+        "rfcNumber": "RFC8339",
+        "href": "https://tools.ietf.org/html/rfc8339",
+        "title": "Definition of P2MP PW TLV for Label Switched Path (LSP) Ping Mechanisms",
+        "authors": [
+            "P. Jain, Ed.",
+            "S. Boutros",
+            "S. Aldrin"
+        ],
+        "rawDate": "2018-03",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc834": {
         "aliasOf": "rfc0834"
     },
@@ -126596,6 +126613,28 @@
         "status": "Informational",
         "updates": [
             "RFC5485"
+        ],
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=8358",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8359": {
+        "rfcNumber": "RFC8359",
+        "href": "https://tools.ietf.org/html/rfc8359",
+        "title": "Network-Assigned Upstream Label",
+        "authors": [
+            "X. Zhang, Ed.",
+            "V. Beeram, Ed.",
+            "I. Bryskin",
+            "D. Ceccarelli",
+            "O. Gonzalez de Dios"
+        ],
+        "rawDate": "2018-03",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC3471",
+            "RFC3473",
+            "RFC6205"
         ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
