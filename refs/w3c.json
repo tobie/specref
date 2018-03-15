@@ -3994,10 +3994,26 @@
                     "https://www.w3.org/MarkUp/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20180315": {
+                "authors": [
+                    "Dave Raggett"
+                ],
+                "href": "https://www.w3.org/TR/2018/SPSD-html32-20180315/",
+                "title": "HTML 3.2 Reference Specification",
+                "rawDate": "2018-03-15",
+                "status": "REC",
+                "publisher": "W3C",
+                "isRetired": true,
+                "deliveredBy": [
+                    "https://www.w3.org/MarkUp/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "1997-01-14",
-        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+        "rawDate": "2018-03-15",
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "isRetired": true
     },
     "HTMLComponents": {
         "versions": {
@@ -75487,11 +75503,16 @@
     "wpub": {
         "authors": [
             "Matt Garrish",
-            "Ivan Herman"
+            "Ivan Herman",
+            "Baldur Bjarnason",
+            "Timothy Cole",
+            "Dave Cramer",
+            "Hadrien Gardeur",
+            "Florian Rivoal"
         ],
         "href": "https://www.w3.org/TR/wpub/",
         "title": "Web Publications",
-        "rawDate": "2018-01-04",
+        "rawDate": "2018-03-15",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/wpub/",
@@ -75508,6 +75529,26 @@
                 "href": "https://www.w3.org/TR/2018/WD-wpub-20180104/",
                 "title": "Web Publications",
                 "rawDate": "2018-01-04",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/publishing/groups/publ-wg/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20180315": {
+                "authors": [
+                    "Matt Garrish",
+                    "Ivan Herman",
+                    "Baldur Bjarnason",
+                    "Timothy Cole",
+                    "Dave Cramer",
+                    "Hadrien Gardeur",
+                    "Florian Rivoal"
+                ],
+                "href": "https://www.w3.org/TR/2018/WD-wpub-20180315/",
+                "title": "Web Publications",
+                "rawDate": "2018-03-15",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
