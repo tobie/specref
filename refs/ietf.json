@@ -98853,6 +98853,9 @@
         ],
         "rawDate": "2012-03",
         "status": "Proposed Standard",
+        "obsoletedBy": [
+            "RFC8341"
+        ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=6536",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -109297,6 +109300,9 @@
         ],
         "rawDate": "2014-05",
         "status": "Proposed Standard",
+        "obsoletedBy": [
+            "RFC8343"
+        ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=7223",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -110167,6 +110173,9 @@
         ],
         "rawDate": "2014-06",
         "status": "Proposed Standard",
+        "obsoletedBy": [
+            "RFC8344"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -120638,6 +120647,9 @@
         ],
         "rawDate": "2016-08",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC8342"
+        ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=7950",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -126581,6 +126593,118 @@
     },
     "rfc834": {
         "aliasOf": "rfc0834"
+    },
+    "rfc8340": {
+        "rfcNumber": "RFC8340",
+        "href": "https://tools.ietf.org/html/rfc8340",
+        "title": "YANG Tree Diagrams",
+        "authors": [
+            "M. Bjorklund",
+            "L. Berger, Ed."
+        ],
+        "rawDate": "2018-03",
+        "status": "Best Current Practice",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8341": {
+        "rfcNumber": "RFC8341",
+        "href": "https://tools.ietf.org/html/rfc8341",
+        "title": "Network Configuration Access Control Model",
+        "authors": [
+            "A. Bierman",
+            "M. Bjorklund"
+        ],
+        "rawDate": "2018-03",
+        "status": "Internet Standard",
+        "obsoletes": [
+            "RFC6536"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8342": {
+        "rfcNumber": "RFC8342",
+        "href": "https://tools.ietf.org/html/rfc8342",
+        "title": "Network Management Datastore Architecture (NMDA)",
+        "authors": [
+            "M. Bjorklund",
+            "J. Schoenwaelder",
+            "P. Shafer",
+            "K. Watsen",
+            "R. Wilton"
+        ],
+        "rawDate": "2018-03",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC7950"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8343": {
+        "rfcNumber": "RFC8343",
+        "href": "https://tools.ietf.org/html/rfc8343",
+        "title": "A YANG Data Model for Interface Management",
+        "authors": [
+            "M. Bjorklund"
+        ],
+        "rawDate": "2018-03",
+        "status": "Proposed Standard",
+        "obsoletes": [
+            "RFC7223"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8344": {
+        "rfcNumber": "RFC8344",
+        "href": "https://tools.ietf.org/html/rfc8344",
+        "title": "A YANG Data Model for IP Management",
+        "authors": [
+            "M. Bjorklund"
+        ],
+        "rawDate": "2018-03",
+        "status": "Proposed Standard",
+        "obsoletes": [
+            "RFC7277"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8345": {
+        "rfcNumber": "RFC8345",
+        "href": "https://tools.ietf.org/html/rfc8345",
+        "title": "A YANG Data Model for Network Topologies",
+        "authors": [
+            "A. Clemm",
+            "J. Medved",
+            "R. Varga",
+            "N. Bahadur",
+            "H. Ananthakrishnan",
+            "X. Liu"
+        ],
+        "rawDate": "2018-03",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8346": {
+        "rfcNumber": "RFC8346",
+        "href": "https://tools.ietf.org/html/rfc8346",
+        "title": "A YANG Data Model for Layer 3 Topologies",
+        "authors": [
+            "A. Clemm",
+            "J. Medved",
+            "R. Varga",
+            "X. Liu",
+            "H. Ananthakrishnan",
+            "N. Bahadur"
+        ],
+        "rawDate": "2018-03",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc835": {
         "aliasOf": "rfc0835"
