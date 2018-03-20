@@ -64026,6 +64026,9 @@
         ],
         "rawDate": "2006-01",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC8308"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -64039,6 +64042,10 @@
         ],
         "rawDate": "2006-01",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC8308",
+            "RFC8332"
+        ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=4252",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -64055,7 +64062,9 @@
         "status": "Proposed Standard",
         "updatedBy": [
             "RFC6668",
-            "RFC8268"
+            "RFC8268",
+            "RFC8308",
+            "RFC8332"
         ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=4253",
         "publisher": "IETF",
@@ -64071,6 +64080,9 @@
         ],
         "rawDate": "2006-01",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC8308"
+        ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=4254",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -121785,6 +121797,9 @@
         ],
         "rawDate": "2016-11",
         "status": "Proposed Standard",
+        "obsoletedBy": [
+            "RFC8349"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -126162,6 +126177,24 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8308": {
+        "rfcNumber": "RFC8308",
+        "href": "https://tools.ietf.org/html/rfc8308",
+        "title": "Extension Negotiation in the Secure Shell (SSH) Protocol",
+        "authors": [
+            "D. Bider"
+        ],
+        "rawDate": "2018-03",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC4251",
+            "RFC4252",
+            "RFC4253",
+            "RFC4254"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8309": {
         "rfcNumber": "RFC8309",
         "href": "https://tools.ietf.org/html/rfc8309",
@@ -126515,6 +126548,22 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8332": {
+        "rfcNumber": "RFC8332",
+        "href": "https://tools.ietf.org/html/rfc8332",
+        "title": "Use of RSA Keys with SHA-256 and SHA-512 in the Secure Shell (SSH) Protocol",
+        "authors": [
+            "D. Bider"
+        ],
+        "rawDate": "2018-03",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC4252",
+            "RFC4253"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8334": {
         "rfcNumber": "RFC8334",
         "href": "https://tools.ietf.org/html/rfc8334",
@@ -126703,6 +126752,23 @@
         ],
         "rawDate": "2018-03",
         "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8349": {
+        "rfcNumber": "RFC8349",
+        "href": "https://tools.ietf.org/html/rfc8349",
+        "title": "A YANG Data Model for Routing Management (NMDA Version)",
+        "authors": [
+            "L. Lhotka",
+            "A. Lindem",
+            "Y. Qu"
+        ],
+        "rawDate": "2018-03",
+        "status": "Proposed Standard",
+        "obsoletes": [
+            "RFC8022"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
