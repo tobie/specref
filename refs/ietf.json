@@ -119238,6 +119238,9 @@
         ],
         "rawDate": "2016-05",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC8310"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -125867,6 +125870,7 @@
         ],
         "rawDate": "2017-12",
         "status": "Proposed Standard",
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=8287",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -126212,6 +126216,23 @@
     "rfc831": {
         "aliasOf": "rfc0831"
     },
+    "rfc8310": {
+        "rfcNumber": "RFC8310",
+        "href": "https://tools.ietf.org/html/rfc8310",
+        "title": "Usage Profiles for DNS over TLS and DNS over DTLS",
+        "authors": [
+            "S. Dickinson",
+            "D. Gillmor",
+            "T. Reddy"
+        ],
+        "rawDate": "2018-03",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC7858"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8311": {
         "rfcNumber": "RFC8311",
         "href": "https://tools.ietf.org/html/rfc8311",
@@ -126501,6 +126522,25 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8328": {
+        "rfcNumber": "RFC8328",
+        "href": "https://tools.ietf.org/html/rfc8328",
+        "title": "Policy-Based Management Framework for the Simplified Use of Policy Abstractions (SUPA)",
+        "authors": [
+            "W. Liu",
+            "C. Xie",
+            "J. Strassner",
+            "G. Karagiannis",
+            "M. Klyus",
+            "J. Bi",
+            "Y. Cheng",
+            "D. Zhang"
+        ],
+        "rawDate": "2018-03",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8329": {
         "rfcNumber": "RFC8329",
         "href": "https://tools.ietf.org/html/rfc8329",
@@ -126594,6 +126634,19 @@
         "updates": [
             "RFC4884"
         ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8336": {
+        "rfcNumber": "RFC8336",
+        "href": "https://tools.ietf.org/html/rfc8336",
+        "title": "The ORIGIN HTTP/2 Frame",
+        "authors": [
+            "M. Nottingham",
+            "E. Nygren"
+        ],
+        "rawDate": "2018-03",
+        "status": "Proposed Standard",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
