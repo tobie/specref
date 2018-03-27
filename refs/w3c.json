@@ -34622,14 +34622,32 @@
                 ],
                 "hasErrata": "https://www.w3.org/MarkUp/html40-updates/REC-html40-19980424-errata.html",
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20180327": {
+                "authors": [
+                    "Dave Raggett",
+                    "Arnaud Le Hors",
+                    "Ian Jacobs"
+                ],
+                "href": "https://www.w3.org/TR/2018/SPSD-html40-20180327/",
+                "title": "HTML 4.0 Recommendation",
+                "rawDate": "2018-03-27",
+                "status": "REC",
+                "publisher": "W3C",
+                "isRetired": true,
+                "deliveredBy": [
+                    "https://www.w3.org/MarkUp/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "1998-04-24",
+        "rawDate": "2018-03-27",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
         "hasErrata": "https://www.w3.org/MarkUp/html40-updates/REC-html40-19980424-errata.html",
         "obsoletedBy": [
             "html401"
-        ]
+        ],
+        "isRetired": true
     },
     "html40-mobile": {
         "authors": [
@@ -34697,13 +34715,31 @@
                 ],
                 "hasErrata": "https://www.w3.org/MarkUp/html4-updates/errata",
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20180327": {
+                "authors": [
+                    "Dave Raggett",
+                    "Arnaud Le Hors",
+                    "Ian Jacobs"
+                ],
+                "href": "https://www.w3.org/TR/2018/SPSD-html401-20180327/",
+                "title": "HTML 4.01 Specification",
+                "rawDate": "2018-03-27",
+                "status": "REC",
+                "publisher": "W3C",
+                "isRetired": true,
+                "deliveredBy": [
+                    "https://www.w3.org/MarkUp/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "1999-12-24",
+        "rawDate": "2018-03-27",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
         "obsoletes": [
             "html40"
-        ]
+        ],
+        "isRetired": true
     },
     "html5": {
         "authors": [
@@ -34717,7 +34753,7 @@
         ],
         "href": "https://www.w3.org/TR/html5/",
         "title": "HTML5",
-        "rawDate": "2014-10-28",
+        "rawDate": "2018-03-27",
         "status": "REC",
         "publisher": "W3C",
         "deliveredBy": [
@@ -34959,13 +34995,35 @@
                     "https://www.w3.org/html/wg/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20180327": {
+                "authors": [
+                    "Ian Hickson",
+                    "Robin Berjon",
+                    "Steve Faulkner",
+                    "Travis Leithead",
+                    "Erika Doyle Navara",
+                    "Theresa O'Connor",
+                    "Silvia Pfeiffer"
+                ],
+                "href": "https://www.w3.org/TR/2018/SPSD-html5-20180327/",
+                "title": "HTML5",
+                "rawDate": "2018-03-27",
+                "status": "REC",
+                "publisher": "W3C",
+                "isRetired": true,
+                "deliveredBy": [
+                    "https://www.w3.org/html/wg/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
         "edDraft": "https://www.w3.org/html/wg/drafts/html/master/",
         "obsoletes": [
             "Window",
             "web-forms-2"
-        ]
+        ],
+        "isRetired": true
     },
     "html5-author": {
         "authors": [
@@ -79399,10 +79457,26 @@
                 ],
                 "hasErrata": "https://www.w3.org/MarkUp/2010/xhtml-basic-2nd-edition-errata.html",
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20180327": {
+                "authors": [
+                    "Shane McCarron"
+                ],
+                "href": "https://www.w3.org/TR/2018/SPSD-xhtml-basic-20180327/",
+                "title": "XHTML™ Basic 1.1 - Second Edition",
+                "rawDate": "2018-03-27",
+                "status": "REC",
+                "publisher": "W3C",
+                "isRetired": true,
+                "deliveredBy": [
+                    "https://www.w3.org/MarkUp/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2010-11-23",
-        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+        "rawDate": "2018-03-27",
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "isRetired": true
     },
     "xhtml-building": {
         "authors": [
@@ -79701,11 +79775,27 @@
                 "hasErrata": "https://www.w3.org/MarkUp/2008/REC-xhtml-modularization-20081008-errata",
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
                 "etAl": true
+            },
+            "20180327": {
+                "authors": [
+                    "Shane McCarron"
+                ],
+                "href": "https://www.w3.org/TR/2018/SPSD-xhtml-modularization-20180327/",
+                "title": "XHTML™ Modularization 1.1 - Second Edition",
+                "rawDate": "2018-03-27",
+                "status": "REC",
+                "publisher": "W3C",
+                "isRetired": true,
+                "deliveredBy": [
+                    "https://www.w3.org/MarkUp/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2010-07-29",
+        "rawDate": "2018-03-27",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
-        "hasErrata": "https://www.w3.org/MarkUp/2008/REC-xhtml-modularization-20081008-errata"
+        "hasErrata": "https://www.w3.org/MarkUp/2008/REC-xhtml-modularization-20081008-errata",
+        "isRetired": true
     },
     "xhtml-print": {
         "authors": [
@@ -79774,10 +79864,26 @@
                 ],
                 "hasErrata": "https://www.w3.org/MarkUp/2010/xhtml-print-2nd-edition-errata.html",
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20180327": {
+                "authors": [
+                    "Shane McCarron"
+                ],
+                "href": "https://www.w3.org/TR/2018/SPSD-xhtml-print-20180327/",
+                "title": "XHTML-Print - Second Edition",
+                "rawDate": "2018-03-27",
+                "status": "REC",
+                "publisher": "W3C",
+                "isRetired": true,
+                "deliveredBy": [
+                    "https://www.w3.org/MarkUp/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2010-11-23",
-        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+        "rawDate": "2018-03-27",
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "isRetired": true
     },
     "xhtml-prof-req": {
         "authors": [
@@ -80246,11 +80352,27 @@
                 ],
                 "hasErrata": "https://www.w3.org/2002/08/REC-xhtml1-20020801-errata",
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20180327": {
+                "authors": [
+                    "Steven Pemberton"
+                ],
+                "href": "https://www.w3.org/TR/2018/SPSD-xhtml1-20180327/",
+                "title": "XHTML™ 1.0 The Extensible HyperText Markup Language (Second Edition)",
+                "rawDate": "2018-03-27",
+                "status": "REC",
+                "publisher": "W3C",
+                "isRetired": true,
+                "deliveredBy": [
+                    "https://www.w3.org/MarkUp/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2002-08-01",
+        "rawDate": "2018-03-27",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
-        "hasErrata": "https://www.w3.org/2002/08/REC-xhtml1-20020801-errata"
+        "hasErrata": "https://www.w3.org/2002/08/REC-xhtml1-20020801-errata",
+        "isRetired": true
     },
     "xhtml1-schema": {
         "authors": [
@@ -80284,8 +80406,8 @@
     },
     "xhtml11": {
         "authors": [
-            "Shane McCarron",
-            "Masayasu Ishikawa"
+            "Masayasu Ishikawa",
+            "Shane McCarron"
         ],
         "href": "https://www.w3.org/TR/xhtml11/",
         "title": "XHTML™ 1.1 - Module-based XHTML - Second Edition",
@@ -80354,6 +80476,22 @@
                 "hasErrata": "https://www.w3.org/MarkUp/2009/xhtml11-2nd-edition-errata.html",
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             },
+            "20180327": {
+                "authors": [
+                    "Masayasu Ishikawa",
+                    "Shane McCarron"
+                ],
+                "href": "https://www.w3.org/TR/2018/SPSD-xhtml11-20180327/",
+                "title": "XHTML™ 1.1 - Module-based XHTML - Second Edition",
+                "rawDate": "2018-03-27",
+                "status": "REC",
+                "publisher": "W3C",
+                "isRetired": true,
+                "deliveredBy": [
+                    "https://www.w3.org/MarkUp/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
             "1e": {
                 "aliasOf": "xhtml11-20010531"
             },
@@ -80365,8 +80503,9 @@
             "https://www.w3.org/MarkUp/"
         ],
         "hasErrata": "https://www.w3.org/MarkUp/2009/xhtml11-2nd-edition-errata.html",
-        "rawDate": "2010-11-23",
-        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+        "rawDate": "2018-03-27",
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "isRetired": true
     },
     "xhtml2": {
         "authors": [
