@@ -124207,6 +124207,7 @@
             "RFC3979",
             "RFC4879"
         ],
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=8179",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -126592,6 +126593,7 @@
         ],
         "rawDate": "2018-02",
         "status": "Proposed Standard",
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=8331",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -126608,6 +126610,21 @@
             "RFC4252",
             "RFC4253"
         ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8333": {
+        "rfcNumber": "RFC8333",
+        "href": "https://tools.ietf.org/html/rfc8333",
+        "title": "Micro-loop Prevention by Introducing a Local Convergence Delay",
+        "authors": [
+            "S. Litkowski",
+            "B. Decraene",
+            "C. Filsfils",
+            "P. Francois"
+        ],
+        "rawDate": "2018-03",
+        "status": "Proposed Standard",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -126815,6 +126832,22 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8347": {
+        "rfcNumber": "RFC8347",
+        "href": "https://tools.ietf.org/html/rfc8347",
+        "title": "A YANG Data Model for the Virtual Router Redundancy Protocol (VRRP)",
+        "authors": [
+            "X. Liu, Ed.",
+            "A. Kyparlis",
+            "R. Parikh",
+            "A. Lindem",
+            "M. Zhang"
+        ],
+        "rawDate": "2018-03",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8348": {
         "rfcNumber": "RFC8348",
         "href": "https://tools.ietf.org/html/rfc8348",
@@ -126849,6 +126882,37 @@
     },
     "rfc835": {
         "aliasOf": "rfc0835"
+    },
+    "rfc8354": {
+        "rfcNumber": "RFC8354",
+        "href": "https://tools.ietf.org/html/rfc8354",
+        "title": "Use Cases for IPv6 Source Packet Routing in Networking (SPRING)",
+        "authors": [
+            "J. Brzozowski",
+            "J. Leddy",
+            "C. Filsfils",
+            "R. Maglione, Ed.",
+            "M. Townsley"
+        ],
+        "rawDate": "2018-03",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8355": {
+        "rfcNumber": "RFC8355",
+        "href": "https://tools.ietf.org/html/rfc8355",
+        "title": "Resiliency Use Cases in Source Packet Routing in Networking (SPRING) Networks",
+        "authors": [
+            "C. Filsfils, Ed.",
+            "S. Previdi, Ed.",
+            "B. Decraene",
+            "R. Shakir"
+        ],
+        "rawDate": "2018-03",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc8356": {
         "rfcNumber": "RFC8356",
@@ -126919,6 +126983,21 @@
     },
     "rfc836": {
         "aliasOf": "rfc0836"
+    },
+    "rfc8364": {
+        "rfcNumber": "RFC8364",
+        "href": "https://tools.ietf.org/html/rfc8364",
+        "title": "PIM Flooding Mechanism (PFM) and Source Discovery (SD)",
+        "authors": [
+            "IJ. Wijnands",
+            "S. Venaas",
+            "M. Brig",
+            "A. Jonasson"
+        ],
+        "rawDate": "2018-03",
+        "status": "Experimental",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc837": {
         "aliasOf": "rfc0837"
