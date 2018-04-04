@@ -80652,7 +80652,8 @@
         "updatedBy": [
             "RFC6845",
             "RFC6860",
-            "RFC7503"
+            "RFC7503",
+            "RFC8362"
         ],
         "obsoletes": [
             "RFC2740"
@@ -88208,7 +88209,8 @@
         "status": "Proposed Standard",
         "updatedBy": [
             "RFC6969",
-            "RFC7949"
+            "RFC7949",
+            "RFC8362"
         ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -123631,6 +123633,7 @@
         ],
         "rawDate": "2017-04-01",
         "status": "Informational",
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=8140",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -126883,6 +126886,21 @@
     "rfc835": {
         "aliasOf": "rfc0835"
     },
+    "rfc8352": {
+        "rfcNumber": "RFC8352",
+        "href": "https://tools.ietf.org/html/rfc8352",
+        "title": "Energy-Efficient Features of Internet of Things Protocols",
+        "authors": [
+            "C. Gomez",
+            "M. Kovatsch",
+            "H. Tian",
+            "Z. Cao, Ed."
+        ],
+        "rawDate": "2018-04",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8354": {
         "rfcNumber": "RFC8354",
         "href": "https://tools.ietf.org/html/rfc8354",
@@ -126983,6 +127001,26 @@
     },
     "rfc836": {
         "aliasOf": "rfc0836"
+    },
+    "rfc8362": {
+        "rfcNumber": "RFC8362",
+        "href": "https://tools.ietf.org/html/rfc8362",
+        "title": "OSPFv3 Link State Advertisement (LSA) Extensibility",
+        "authors": [
+            "A. Lindem",
+            "A. Roy",
+            "D. Goethals",
+            "V. Reddy Vallem",
+            "F. Baker"
+        ],
+        "rawDate": "2018-04",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC5340",
+            "RFC5838"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc8364": {
         "rfcNumber": "RFC8364",
