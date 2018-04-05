@@ -75798,15 +75798,48 @@
         },
         "repository": "https://github.com/w3c/wot-architecture"
     },
+    "wot-binding-templates": {
+        "authors": [
+            "Michael Koster"
+        ],
+        "href": "https://www.w3.org/TR/wot-binding-templates/",
+        "title": "Web of Things (WoT) Protocol Binding Templates",
+        "rawDate": "2018-04-05",
+        "status": "NOTE",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/wot-binding-templates/",
+        "deliveredBy": [
+            "https://www.w3.org/WoT/WG/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20180405": {
+                "authors": [
+                    "Michael Koster"
+                ],
+                "href": "https://www.w3.org/TR/2018/NOTE-wot-binding-templates-20180405/",
+                "title": "Web of Things (WoT) Protocol Binding Templates",
+                "rawDate": "2018-04-05",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WoT/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        },
+        "repository": "https://github.com/w3c/wot-binding-templates"
+    },
     "wot-scripting-api": {
         "authors": [
             "Zoltan Kis",
             "Kazuaki Nimura",
-            "Daniel Peintner"
+            "Daniel Peintner",
+            "Johannes Hund"
         ],
         "href": "https://www.w3.org/TR/wot-scripting-api/",
         "title": "Web of Things (WoT) Scripting API",
-        "rawDate": "2017-09-14",
+        "rawDate": "2018-04-05",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/wot-scripting-api/",
@@ -75824,6 +75857,23 @@
                 "href": "https://www.w3.org/TR/2017/WD-wot-scripting-api-20170914/",
                 "title": "Web of Things (WoT) Scripting API",
                 "rawDate": "2017-09-14",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WoT/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20180405": {
+                "authors": [
+                    "Zoltan Kis",
+                    "Kazuaki Nimura",
+                    "Daniel Peintner",
+                    "Johannes Hund"
+                ],
+                "href": "https://www.w3.org/TR/2018/WD-wot-scripting-api-20180405/",
+                "title": "Web of Things (WoT) Scripting API",
+                "rawDate": "2018-04-05",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -75875,7 +75925,7 @@
         ],
         "href": "https://www.w3.org/TR/wot-thing-description/",
         "title": "Web of Things (WoT) Thing Description",
-        "rawDate": "2017-09-14",
+        "rawDate": "2018-04-05",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/wot-thing-description/",
@@ -75892,6 +75942,21 @@
                 "href": "https://www.w3.org/TR/2017/WD-wot-thing-description-20170914/",
                 "title": "Web of Things (WoT) Thing Description",
                 "rawDate": "2017-09-14",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WoT/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20180405": {
+                "authors": [
+                    "Sebastian Käbisch",
+                    "Takuki Kamiya"
+                ],
+                "href": "https://www.w3.org/TR/2018/WD-wot-thing-description-20180405/",
+                "title": "Web of Things (WoT) Thing Description",
+                "rawDate": "2018-04-05",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
