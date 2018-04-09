@@ -338,6 +338,22 @@ suite('Test bibref reverseLookup API', function() {
         assert(edDraft in output);
         assert.equal("Bar", output[edDraft].title);
     });
+
+    test('returns the right ref even when url also exists as edDraft', function() {
+        var foo = "http://example.com/foof";
+        var bar = "http://example.com/barf";
+        var b = bibref.create({
+            foo: { title: "Foo", href: foo },
+            fooEd: { title: "Foo ED", edDraft: foo },
+            barEd: { title: "Bar ED", edDraft: bar },
+            bar: { title: "Bar", href: bar }
+        });
+        var output = b.reverseLookup([foo, bar]);
+        assert(foo in output);
+        assert.equal("Foo", output[foo].title);
+        assert(bar in output);
+        assert.equal("Bar", output[bar].title);
+    });
 });
 
 suite('Test bibref normalizeUrl API', function() {
