@@ -3572,6 +3572,96 @@
             }
         }
     },
+    "iso-639": {
+        "aliasOf": "iso-639-1988"
+    },
+    "iso-639-1988": {
+        "authors": [
+            "ISO/TC 37/SC 2"
+        ],
+        "href": "https://www.iso.org/standard/4766.html",
+        "title": "Code for the representation of names of languages",
+        "publisher": "ISO",
+        "status": "International Standard",
+        "date": "1988",
+        "isoNumber": "ISO 639:1988",
+        "updatedBy": [
+            "iso-639-1"
+        ]
+    },
+    "iso-639-1": {
+        "aliasOf": "iso-639-1-2002"
+    },
+    "iso-639-1-2002": {
+        "authors": [
+            "ISO/TC 37/SC 2"
+        ],
+        "href": "https://www.iso.org/standard/22109.html",
+        "title": "Codes for the representation of names of languages -- Part 1: Alpha-2 code",
+        "publisher": "ISO",
+        "status": "International Standard",
+        "date": "2002",
+        "isoNumber": "ISO 639-1:2002",
+        "updates": [
+            "iso-639-1988"
+        ]
+    },
+    "iso-639-2": {
+        "aliasOf": "iso-639-2-1998"
+    },
+    "iso-639-2-1998": {
+        "authors": [
+            "ISO/TC 37/SC 2"
+        ],
+        "href": "https://www.iso.org/standard/4767.html",
+        "title": "Codes for the representation of names of languages -- Part 2: Alpha-3 code",
+        "publisher": "ISO",
+        "status": "International Standard",
+        "date": "1998",
+        "isoNumber": "ISO 639-2:1998"
+    },
+    "iso-639-3": {
+        "aliasOf": "iso-639-3-2007"
+    },
+    "iso-639-3-2007": {
+        "authors": [
+            "ISO/TC 37/SC 2"
+        ],
+        "href": "https://www.iso.org/standard/39534.html",
+        "title": "Codes for the representation of names of languages -- Part 3: Alpha-3 code for comprehensive coverage of languages",
+        "publisher": "ISO",
+        "status": "International Standard",
+        "date": "2007",
+        "isoNumber": "ISO 639-3:2007"
+    },    
+    "iso-639-4": {
+        "aliasOf": "iso-639-4-2010"
+    },
+    "iso-639-4-2010": {
+        "authors": [
+            "ISO/TC 37/SC 2"
+        ],
+        "href": "https://www.iso.org/standard/39535.html",
+        "title": "Codes for the representation of names of languages -- Part 4: General principles of coding of the representation of names of languages and related entities, and application guidelines",
+        "publisher": "ISO",
+        "status": "International Standard",
+        "date": "2010",
+        "isoNumber": "ISO 639-4:2010"
+    },        
+    "iso-639-5": {
+        "aliasOf": "iso-639-5-2008"
+    },
+    "iso-639-5-2008": {
+        "authors": [
+            "ISO/TC 37/SC 2"
+        ],
+        "href": "https://www.iso.org/standard/39536.html",
+        "title": "Codes for the representation of names of languages -- Part 5: Alpha-3 code for language families and groups",
+        "publisher": "ISO",
+        "status": "International Standard",
+        "date": "2008",
+        "isoNumber": "ISO 639-5:2008"
+    },                
     "iso-19101-1": {
         "aliasOf": "iso-19101-1-2014"
     },
