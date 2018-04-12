@@ -19762,6 +19762,47 @@
         ],
         "repository": "https://github.com/w3c/csswg-drafts"
     },
+    "css-layout-api-1": {
+        "authors": [
+            "Greg Whitworth",
+            "Ian Kilpatrick",
+            "Tab Atkins Jr.",
+            "Shane Stephens",
+            "Robert O'Callahan",
+            "Rossen Atanassov"
+        ],
+        "href": "https://www.w3.org/TR/css-layout-api-1/",
+        "title": "CSS Layout API Level 1",
+        "rawDate": "2018-04-12",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://drafts.css-houdini.org/css-layout-api-1/",
+        "deliveredBy": [
+            "https://www.w3.org/Style/CSS/members"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20180412": {
+                "authors": [
+                    "Greg Whitworth",
+                    "Ian Kilpatrick",
+                    "Tab Atkins Jr.",
+                    "Shane Stephens",
+                    "Robert O'Callahan",
+                    "Rossen Atanassov"
+                ],
+                "href": "https://www.w3.org/TR/2018/WD-css-layout-api-1-20180412/",
+                "title": "CSS Layout API Level 1",
+                "rawDate": "2018-04-12",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Style/CSS/members"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
     "css-line-grid-1": {
         "authors": [
             "Elika Etemad",
@@ -39935,11 +39976,10 @@
         ],
         "href": "https://www.w3.org/TR/matrix/",
         "title": "DOMMatrix interface",
-        "rawDate": "2013-09-19",
-        "status": "WD",
+        "rawDate": "2018-04-12",
+        "status": "NOTE",
         "publisher": "W3C",
         "deliveredBy": [
-            "https://www.w3.org/Graphics/SVG/WG/",
             "https://www.w3.org/Style/CSS/members"
         ],
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
@@ -39956,6 +39996,21 @@
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/Graphics/SVG/WG/",
+                    "https://www.w3.org/Style/CSS/members"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20180412": {
+                "authors": [
+                    "Dirk Schulze",
+                    "Rik Cabanier"
+                ],
+                "href": "https://www.w3.org/TR/2018/NOTE-matrix-20180412/",
+                "title": "DOMMatrix interface",
+                "rawDate": "2018-04-12",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
                     "https://www.w3.org/Style/CSS/members"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
