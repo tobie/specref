@@ -95648,7 +95648,8 @@
             "RFC7780",
             "RFC7783",
             "RFC8139",
-            "RFC8249"
+            "RFC8249",
+            "RFC8361"
         ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=6325",
         "publisher": "IETF",
@@ -127018,6 +127019,25 @@
         ],
         "rawDate": "2018-04",
         "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8361": {
+        "rfcNumber": "RFC8361",
+        "href": "https://tools.ietf.org/html/rfc8361",
+        "title": "Transparent Interconnection of Lots of Links (TRILL): Centralized Replication for Active-Active Broadcast, Unknown Unicast, and Multicast (BUM) Traffic",
+        "authors": [
+            "W. Hao",
+            "Y. Li",
+            "M. Durrani",
+            "S. Gupta",
+            "A. Qu"
+        ],
+        "rawDate": "2018-04",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC6325"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
