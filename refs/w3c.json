@@ -31004,7 +31004,7 @@
         ],
         "href": "https://www.w3.org/TR/graphics-aam-1.0/",
         "title": "Graphics Accessibility API Mappings",
-        "rawDate": "2018-03-29",
+        "rawDate": "2018-04-19",
         "status": "CR",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/graphics-aam/",
@@ -31068,9 +31068,29 @@
                     "https://www.w3.org/WAI/ARIA/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20180419": {
+                "authors": [
+                    "Amelia Bellamy-Royds",
+                    "Joanmarie Diggs",
+                    "Michael Cooper",
+                    "Fred Esch",
+                    "Richard Schwerdtfeger"
+                ],
+                "href": "https://www.w3.org/TR/2018/CR-graphics-aam-1.0-20180419/",
+                "title": "Graphics Accessibility API Mappings",
+                "rawDate": "2018-04-19",
+                "status": "CR",
+                "publisher": "W3C",
+                "isRetired": true,
+                "deliveredBy": [
+                    "https://www.w3.org/WAI/ARIA/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "repository": "https://github.com/w3c/aria"
+        "repository": "https://github.com/w3c/aria",
+        "isRetired": true
     },
     "graphics-aria-1.0": {
         "authors": [
