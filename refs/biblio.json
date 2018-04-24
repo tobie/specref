@@ -3239,67 +3239,71 @@
             }
         }
     },
+
     "dcat-ap": {
-        "href": "https://joinup.ec.europa.eu/asset/dcat_application_profile/",
+        "href": "http://data.europa.eu/w21/ac376c94-74cf-4dd7-ade7-267d6a4ec4dc",
         "title": "DCAT Application Profile for data portals in Europe. Version 1.1",
         "publisher": "European Commission",
         "rawDate": "2017-02-24",
         "deliveredBy": [
-            "https://joinup.ec.europa.eu/asset/dcat_application_profile/"
+            "http://data.europa.eu/w21/ac376c94-74cf-4dd7-ade7-267d6a4ec4dc"
         ],
         "versions": {
+            "20130913": {
+                "aliasOf":"dcat-ap-20140515",
+            },
             "20140515": {
-                "href": "https://joinup.ec.europa.eu/catalogue/distribution/dcat-ap_final_v101pdf",
-                "title": "DCAT Application Profile for data portals in Europe. Version 1.01",
-                "rawDate": "2014-04-15",
+                "href": "http://data.europa.eu/w21/0463d03c-bd49-4ae4-a260-21a4869fabc7",
+                "title": "DCAT Application Profile for data portals in Europe. Final version (1.00)",
+                "rawDate": "2013-09-13",
                 "publisher": "European Commission",
                 "deliveredBy": [
-                    "https://joinup.ec.europa.eu/asset/dcat_application_profile/"
+                    "http://data.europa.eu/w21/ac376c94-74cf-4dd7-ade7-267d6a4ec4dc"
                 ]
             },
+            "20151023": {
+                "aliasOf":"dcat-ap-20170224",
+            }
             "20170224": {
-                "href": "https://joinup.ec.europa.eu/asset/dcat_application_profile/asset_release/dcat-ap-v11",
+                "href": "http://data.europa.eu/w21/be3842a8-f87c-4d52-a209-cc21107f20b8",
                 "title": "DCAT Application Profile for data portals in Europe. Version 1.1",
-                "rawDate": "2017-02-24",
+                "rawDate": "2015-10-23",
                 "publisher": "European Commission",
                 "deliveredBy": [
-                    "https://joinup.ec.europa.eu/asset/dcat_application_profile/"
+                    "http://data.europa.eu/w21/ac376c94-74cf-4dd7-ade7-267d6a4ec4dc"
                 ]
             }
         }
     },
+    
     "domxpath": {
         "aliasOf": "DOM-Level-3-XPath"
     },
+
     "geodcat-ap": {
-        "href": "https://joinup.ec.europa.eu/node/139283/",
+        "href": "http://data.europa.eu/w21/81fd7288-6929-4b42-8707-2da604490d30",
         "title": "GeoDCAT-AP: A geospatial extension for the DCAT application profile for data portals in Europe. Version 1.0.1",
         "rawDate": "2016-08-02",
         "publisher": "European Commission",
         "deliveredBy": [
-            "https://joinup.ec.europa.eu/node/139283/"
+            "http://data.europa.eu/w21/c9dae5aa-c3d0-43a7-96e3-9f16cd8d5b6d"
         ],
         "versions": {
             "20151223": {
-                "href": "https://joinup.ec.europa.eu/asset/dcat_application_profile/asset_release/geodcat-ap-v10",
+                "href": "http://data.europa.eu/w21/0872eede-d726-4ab2-8fb8-d6ce5558b4e7",
                 "title": "GeoDCAT-AP: A geospatial extension for the DCAT application profile for data portals in Europe. Version 1.0",
                 "rawDate": "2015-12-23",
                 "publisher": "European Commission",
                 "deliveredBy": [
-                    "https://joinup.ec.europa.eu/node/139283/"
+                    "http://data.europa.eu/w21/c9dae5aa-c3d0-43a7-96e3-9f16cd8d5b6d"
                 ]
             },
             "20160802": {
-                "href": "https://joinup.ec.europa.eu/asset/dcat_application_profile/asset_release/geodcat-ap-v101",
-                "title": "GeoDCAT-AP: A geospatial extension for the DCAT application profile for data portals in Europe. Version 1.0.1",
-                "rawDate": "2016-08-02",
-                "publisher": "European Commission",
-                "deliveredBy": [
-                    "https://joinup.ec.europa.eu/node/139283/"
-                ]
+                "aliasOf":"geodcat-ap"
             }
         }
     },
+
     "georss": {
         "href": "https://www.w3.org/2005/Incubator/geo/XGR-geo/",
         "title": "W3C Geospatial Vocabulary",
@@ -4413,26 +4417,22 @@
         "title": "Sensor Observation Service Interface Standard",
         "status": "OpenGIS Implementation Standard"
     },
+
     "statdcat-ap": {
-        "href": "https://joinup.ec.europa.eu/asset/stat_dcat_application_profile/",
+        "href": "http://data.europa.eu/w21/26e43c99-4e0d-4448-808e-112b3057a38f",
         "title": "StatDCAT-AP – DCAT Application Profile for description of statistical datasets. Version 1.0.0",
         "rawDate": "2016-12-15",
         "publisher": "European Commission",
         "deliveredBy": [
-            "https://joinup.ec.europa.eu/asset/stat_dcat_application_profile/"
+            "http://data.europa.eu/w21/def50d23-7582-4da3-a640-eed53f1b2206"
         ],
         "versions": {
             "20161215": {
-                "href": "https://joinup.ec.europa.eu/asset/stat_dcat_application_profile/asset_release/statdcat-ap-v100",
-                "title": "StatDCAT-AP – DCAT Application Profile for description of statistical datasets. Version 1.0.0",
-                "rawDate": "2016-12-15",
-                "publisher": "European Commission",
-                "deliveredBy": [
-                    "https://joinup.ec.europa.eu/asset/stat_dcat_application_profile/"
-                ]
+                "aliasOf":"statdcat-ap"
             }
         }
-    },
+    },    
+
     "typedarray": {
         "authors": [
             "David Herman",
