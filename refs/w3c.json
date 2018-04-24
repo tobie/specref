@@ -9651,8 +9651,8 @@
         ],
         "href": "https://www.w3.org/TR/WCAG21/",
         "title": "Web Content Accessibility Guidelines (WCAG) 2.1",
-        "rawDate": "2018-01-30",
-        "status": "CR",
+        "rawDate": "2018-04-24",
+        "status": "PR",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/wcag21/guidelines/",
         "deliveredBy": [
@@ -9788,6 +9788,22 @@
                 "title": "Web Content Accessibility Guidelines (WCAG) 2.1",
                 "rawDate": "2018-01-30",
                 "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WAI/GL/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20180424": {
+                "authors": [
+                    "Andrew Kirkpatrick",
+                    "Joshue O Connor",
+                    "Michael Cooper"
+                ],
+                "href": "https://www.w3.org/TR/2018/PR-WCAG21-20180424/",
+                "title": "Web Content Accessibility Guidelines (WCAG) 2.1",
+                "rawDate": "2018-04-24",
+                "status": "PR",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/WAI/GL/"
@@ -66791,8 +66807,8 @@
         ],
         "href": "https://www.w3.org/TR/ttml-imsc1.0.1/",
         "title": "TTML Profiles for Internet Media Subtitles and Captions 1.0.1 (IMSC1)",
-        "rawDate": "2018-02-27",
-        "status": "PR",
+        "rawDate": "2018-04-24",
+        "status": "REC",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/imsc/imsc1/spec/ttml-ww-profiles.html",
         "deliveredBy": [
@@ -66855,9 +66871,25 @@
                     "https://www.w3.org/AudioVideo/TT/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20180424": {
+                "authors": [
+                    "Pierre-Anthony Lemieux"
+                ],
+                "href": "https://www.w3.org/TR/2018/REC-ttml-imsc1.0.1-20180424/",
+                "title": "TTML Profiles for Internet Media Subtitles and Captions 1.0.1 (IMSC1)",
+                "rawDate": "2018-04-24",
+                "status": "REC",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/AudioVideo/TT/"
+                ],
+                "hasErrata": "https://www.w3.org/2018/04/ttml-imsc1.0.1-errata.html",
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "repository": "https://github.com/w3c/imsc"
+        "repository": "https://github.com/w3c/imsc",
+        "hasErrata": "https://www.w3.org/2018/04/ttml-imsc1.0.1-errata.html"
     },
     "ttml-imsc1.1": {
         "authors": [
@@ -66951,12 +66983,13 @@
     },
     "ttml1": {
         "authors": [
-            "Glenn Adams"
+            "Glenn Adams",
+            "Pierre-Anthony Lemieux"
         ],
         "href": "https://www.w3.org/TR/ttml1/",
-        "title": "Timed Text Markup Language 1 (TTML1) (Second Edition)",
-        "rawDate": "2013-09-24",
-        "status": "REC",
+        "title": "Timed Text Markup Language 1 (TTML1) (Third Edition)",
+        "rawDate": "2018-04-24",
+        "status": "CR",
         "publisher": "W3C",
         "deliveredBy": [
             "https://www.w3.org/AudioVideo/TT/"
@@ -67051,9 +67084,26 @@
                     "https://www.w3.org/AudioVideo/TT/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20180424": {
+                "authors": [
+                    "Glenn Adams",
+                    "Pierre-Anthony Lemieux"
+                ],
+                "href": "https://www.w3.org/TR/2018/CR-ttml1-20180424/",
+                "title": "Timed Text Markup Language 1 (TTML1) (Third Edition)",
+                "rawDate": "2018-04-24",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/AudioVideo/TT/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "hasErrata": "https://www.w3.org/2010/11/ttml-issues.html"
+        "hasErrata": "https://www.w3.org/2010/11/ttml-issues.html",
+        "edDraft": "https://w3c.github.io/ttml1/index.html",
+        "repository": "https://github.com/w3c/ttml1"
     },
     "ttml10-sdp-us": {
         "authors": [
