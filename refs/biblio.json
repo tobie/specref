@@ -1,19 +1,4 @@
 {
-    "powder-s": {
-        "authors": [
-            "Andrea Perego",
-            "Stasinos Konstantopoulos",
-            "Phil Archer"
-        ],
-        "href": "https://www.w3.org/2007/05/powder-s",
-        "title": "Protocol for Web Description Resources (POWDER): POWDER-S Vocabulary (WDRS)",
-        "publisher": "W3C",
-        "deliveredBy": [
-            "https://www.w3.org/2007/powder/"
-        ],
-        "rawDate": "2010-11-08"
-    },
-    
     "3GPP-TT": {
         "title": "Transparent end-to-end Packet switched Streaming Service (PSS) Timed text format (Release 12)",
         "href": "http://www.3gpp.org/ftp/Specs/archive/26_series/26.245/26245-c00.zip",
@@ -3254,7 +3239,6 @@
             }
         }
     },
-
     "dcat-ap": {
         "href": "http://data.europa.eu/w21/ac376c94-74cf-4dd7-ade7-267d6a4ec4dc",
         "title": "DCAT Application Profile for data portals in Europe. Version 1.1",
@@ -3265,7 +3249,7 @@
         ],
         "versions": {
             "20130913": {
-                "aliasOf":"dcat-ap-20140515"
+                "aliasOf": "dcat-ap-20140515"
             },
             "20140515": {
                 "href": "http://data.europa.eu/w21/0463d03c-bd49-4ae4-a260-21a4869fabc7",
@@ -3277,7 +3261,7 @@
                 ]
             },
             "20151023": {
-                "aliasOf":"dcat-ap-20170224"
+                "aliasOf": "dcat-ap-20170224"
             },
             "20170224": {
                 "href": "http://data.europa.eu/w21/be3842a8-f87c-4d52-a209-cc21107f20b8",
@@ -3290,11 +3274,9 @@
             }
         }
     },
-    
     "domxpath": {
         "aliasOf": "DOM-Level-3-XPath"
     },
-
     "geodcat-ap": {
         "href": "http://data.europa.eu/w21/81fd7288-6929-4b42-8707-2da604490d30",
         "title": "GeoDCAT-AP: A geospatial extension for the DCAT application profile for data portals in Europe. Version 1.0.1",
@@ -3314,11 +3296,10 @@
                 ]
             },
             "20160802": {
-                "aliasOf":"geodcat-ap"
+                "aliasOf": "geodcat-ap"
             }
         }
     },
-
     "georss": {
         "href": "https://www.w3.org/2005/Incubator/geo/XGR-geo/",
         "title": "W3C Geospatial Vocabulary",
@@ -4299,6 +4280,20 @@
         "rawDate": "2016",
         "title": "PLUS License Data Format "
     },
+    "powder-s": {
+        "authors": [
+            "Andrea Perego",
+            "Stasinos Konstantopoulos",
+            "Phil Archer"
+        ],
+        "href": "https://www.w3.org/2007/05/powder-s",
+        "title": "Protocol for Web Description Resources (POWDER): POWDER-S Vocabulary (WDRS)",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/2007/powder/"
+        ],
+        "rawDate": "2010-11-08"
+    },
     "prism": {
         "href": "http://www.prismstandard.org/specifications/3.0/PRISM_Basic_Metadata_3.0.htm",
         "title": "Publishing Requirements for Industry Standard Metadata, Version 3.0. PRISM Basic Metadata Specification",
@@ -4432,7 +4427,6 @@
         "title": "Sensor Observation Service Interface Standard",
         "status": "OpenGIS Implementation Standard"
     },
-
     "statdcat-ap": {
         "href": "http://data.europa.eu/w21/26e43c99-4e0d-4448-808e-112b3057a38f",
         "title": "StatDCAT-AP – DCAT Application Profile for description of statistical datasets. Version 1.0.0",
@@ -4443,11 +4437,10 @@
         ],
         "versions": {
             "20161215": {
-                "aliasOf":"statdcat-ap"
+                "aliasOf": "statdcat-ap"
             }
         }
-    },    
-
+    },
     "typedarray": {
         "authors": [
             "David Herman",
