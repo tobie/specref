@@ -112170,6 +112170,7 @@
         "updates": [
             "RFC5234"
         ],
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=7405",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -126891,6 +126892,23 @@
     "rfc835": {
         "aliasOf": "rfc0835"
     },
+    "rfc8350": {
+        "rfcNumber": "RFC8350",
+        "href": "https://tools.ietf.org/html/rfc8350",
+        "title": "Alternate Tunnel Encapsulation for Data Frames in Control and Provisioning of Wireless Access Points (CAPWAP)",
+        "authors": [
+            "R. Zhang",
+            "R. Pazhyannur",
+            "S. Gundavelli",
+            "Z. Cao",
+            "H. Deng",
+            "Z. Du"
+        ],
+        "rawDate": "2018-04",
+        "status": "Experimental",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8352": {
         "rfcNumber": "RFC8352",
         "href": "https://tools.ietf.org/html/rfc8352",
@@ -127122,6 +127140,18 @@
     },
     "rfc837": {
         "aliasOf": "rfc0837"
+    },
+    "rfc8374": {
+        "rfcNumber": "RFC8374",
+        "href": "https://tools.ietf.org/html/rfc8374",
+        "title": "BGPsec Design Choices and Summary of Supporting Discussions",
+        "authors": [
+            "K. Sriram, Ed."
+        ],
+        "rawDate": "2018-04",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc838": {
         "aliasOf": "rfc0838"
