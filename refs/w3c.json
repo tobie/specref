@@ -29027,8 +29027,8 @@
         ],
         "href": "https://www.w3.org/TR/exi-c14n/",
         "title": "Canonical EXI",
-        "rawDate": "2016-11-03",
-        "status": "CR",
+        "rawDate": "2018-04-26",
+        "status": "PR",
         "publisher": "W3C",
         "deliveredBy": [
             "https://www.w3.org/XML/EXI/"
@@ -29089,6 +29089,21 @@
                 "title": "Canonical EXI",
                 "rawDate": "2016-11-03",
                 "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/XML/EXI/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20180426": {
+                "authors": [
+                    "Sebastian Käbisch",
+                    "Daniel Peintner"
+                ],
+                "href": "https://www.w3.org/TR/2018/PR-exi-c14n-20180426/",
+                "title": "Canonical EXI",
+                "rawDate": "2018-04-26",
+                "status": "PR",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/XML/EXI/"
@@ -36461,7 +36476,7 @@
     "html53": {
         "href": "https://www.w3.org/TR/html53/",
         "title": "HTML 5.3",
-        "rawDate": "2018-03-15",
+        "rawDate": "2018-04-26",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/html/",
@@ -36514,6 +36529,26 @@
                 "href": "https://www.w3.org/TR/2018/WD-html53-20180315/",
                 "title": "HTML 5.3",
                 "rawDate": "2018-03-15",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WebPlatform/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20180426": {
+                "authors": [
+                    "Patricia Aas",
+                    "Shwetank Dixit",
+                    "Terence Eden",
+                    "Bruce Lawson",
+                    "Sangwhan Moon",
+                    "Xiaoqian Wu",
+                    "Scott O'Hara"
+                ],
+                "href": "https://www.w3.org/TR/2018/WD-html53-20180426/",
+                "title": "HTML 5.3",
+                "rawDate": "2018-04-26",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -73103,15 +73138,19 @@
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
     "webdriver": {
+        "aliasOf": "webdriver1"
+    },
+    "webdriver1": {
         "authors": [
             "Simon Stewart",
             "David Burns"
         ],
-        "href": "https://www.w3.org/TR/webdriver/",
+        "href": "https://www.w3.org/TR/webdriver1/",
         "title": "WebDriver",
-        "rawDate": "2017-03-30",
-        "status": "CR",
+        "rawDate": "2018-04-26",
+        "status": "PR",
         "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/webdriver/webdriver-spec.html",
         "deliveredBy": [
             "https://www.w3.org/testing/browser/"
         ],
@@ -73831,9 +73870,23 @@
                     "https://www.w3.org/testing/browser/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20180426": {
+                "authors": [
+                    "Simon Stewart",
+                    "David Burns"
+                ],
+                "href": "https://www.w3.org/TR/2018/PR-webdriver1-20180426/",
+                "title": "WebDriver",
+                "rawDate": "2018-04-26",
+                "status": "PR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/testing/browser/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "https://w3c.github.io/webdriver/webdriver-spec.html",
         "repository": "https://github.com/w3c/webdriver"
     },
     "webintents-local-services": {
