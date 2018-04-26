@@ -14,6 +14,8 @@ Specref API [![Build Status](https://travis-ci.org/tobie/specref.png?branch=mast
   * [CORS](#cors)
   * [Examples](#examples)
 * [Updating & adding new references](#updating--adding-new-references)
+  * [Commit rights](#commit-rights)
+  * [Review policy](#review-policy)
   * [Hourly auto-updating](#hourly-auto-updating)
   * [Manual changes](#manual-changes)
 * [Licenses](#licenses)
@@ -108,7 +110,7 @@ returns: a JSON object indexed by IDs
 
 Used to get a set of bibliographic references that include the search term in any of their attributes. This is usefull to find specs related to a given area of study, specs by a given editor, etc.
     
-### Reverse Lookup
+### Reverse lookup
 
 [`GET https://api.specref.org/reverse-lookup?urls=http://www.w3.org/TR/2012/WD-FileAPI-20121025/`](https://api.specref.org/reverse-lookup?urls=http://www.w3.org/TR/2012/WD-FileAPI-20121025/)
 
@@ -223,9 +225,9 @@ Some examples should help:
 
 If you need to find a reference ID (for either bibliographic or cross-references) you need to look for it on [specref.org](http://specref.org).
 
-## Updating & Adding New References
+## Updating & adding new references
 
-### Commit Rights
+### Commit rights
 
 Specref loosely follows the process described in [The Pull Request Hack](http://felixge.de/2013/03/11/the-pull-request-hack.html). Contributors are generally granted commit access to the repo after their first pull request is sucessfully merged.
 
@@ -260,11 +262,11 @@ Unfortuntaly it doesn't use HTTPS yet.
 [1]: http://data.europa.eu/
 ```
 
-### Hourly Auto-Updating
+### Hourly auto-updating
 
 There are scripts that pull fresh data from IETF, W3C, and WHATWG, and update their relevant files in the `refs` directory. These are now run hourly. Their output is tested, comitted and deployed without human intervention. Content should now always be up to date.
 
-### Manual Changes
+### Manual changes
 
 Generally, manual changes should be limited to the `refs/biblio.json` file.
 
