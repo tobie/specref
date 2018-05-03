@@ -24619,8 +24619,8 @@
         ],
         "href": "https://www.w3.org/TR/custom-elements/",
         "title": "Custom Elements",
-        "rawDate": "2018-02-16",
-        "status": "WD",
+        "rawDate": "2018-05-03",
+        "status": "NOTE",
         "publisher": "W3C",
         "deliveredBy": [
             "https://www.w3.org/WebPlatform/WG/"
@@ -24793,10 +24793,23 @@
                     "https://www.w3.org/WebPlatform/WG/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20180503": {
+                "href": "https://www.w3.org/TR/2018/NOTE-custom-elements-20180503/",
+                "title": "Custom Elements",
+                "rawDate": "2018-05-03",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "isRetired": true,
+                "deliveredBy": [
+                    "https://www.w3.org/WebPlatform/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
         "edDraft": "https://w3c.github.io/webcomponents/spec/custom/",
-        "repository": "https://github.com/w3c/webcomponents"
+        "repository": "https://github.com/w3c/webcomponents",
+        "isRetired": true
     },
     "daml+oil-axioms": {
         "versions": {
@@ -48412,7 +48425,7 @@
         ],
         "href": "https://www.w3.org/TR/payment-request/",
         "title": "Payment Request API",
-        "rawDate": "2018-03-20",
+        "rawDate": "2018-05-03",
         "status": "CR",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/payment-request/",
@@ -49252,6 +49265,24 @@
                 "href": "https://www.w3.org/TR/2018/CR-payment-request-20180320/",
                 "title": "Payment Request API",
                 "rawDate": "2018-03-20",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Payments/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20180503": {
+                "authors": [
+                    "Adrian Bateman",
+                    "Zach Koch",
+                    "Roy McElmurry",
+                    "Domenic Denicola",
+                    "Marcos Caceres"
+                ],
+                "href": "https://www.w3.org/TR/2018/CR-payment-request-20180503/",
+                "title": "Payment Request API",
+                "rawDate": "2018-05-03",
                 "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -66965,8 +66996,8 @@
         ],
         "href": "https://www.w3.org/TR/ttml-imsc1.1/",
         "title": "TTML Profiles for Internet Media Subtitles and Captions 1.1",
-        "rawDate": "2017-10-17",
-        "status": "WD",
+        "rawDate": "2018-05-03",
+        "status": "CR",
         "publisher": "W3C",
         "edDraft": "https://rawgit.com/w3c/imsc/IMSC1.1/imsc1/spec/ttml-ww-profiles.html",
         "deliveredBy": [
@@ -66982,6 +67013,20 @@
                 "title": "TTML Profiles for Internet Media Subtitles and Captions 1.1",
                 "rawDate": "2017-10-17",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/AudioVideo/TT/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20180503": {
+                "authors": [
+                    "Pierre-Anthony Lemieux"
+                ],
+                "href": "https://www.w3.org/TR/2018/CR-ttml-imsc1.1-20180503/",
+                "title": "TTML Profiles for Internet Media Subtitles and Captions 1.1",
+                "rawDate": "2018-05-03",
+                "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/AudioVideo/TT/"
