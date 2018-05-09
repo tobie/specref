@@ -120996,6 +120996,7 @@
             "RFC5070",
             "RFC6685"
         ],
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=7970",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -127193,6 +127194,34 @@
     },
     "rfc839": {
         "aliasOf": "rfc0839"
+    },
+    "rfc8392": {
+        "rfcNumber": "RFC8392",
+        "href": "https://tools.ietf.org/html/rfc8392",
+        "title": "CBOR Web Token (CWT)",
+        "authors": [
+            "M. Jones",
+            "E. Wahlstroem",
+            "S. Erdtman",
+            "H. Tschofenig"
+        ],
+        "rawDate": "2018-05",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8393": {
+        "rfcNumber": "RFC8393",
+        "href": "https://tools.ietf.org/html/rfc8393",
+        "title": "Operating the Network Service Header (NSH) with Next Protocol \"None\"",
+        "authors": [
+            "A. Farrel",
+            "J. Drake"
+        ],
+        "rawDate": "2018-05",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc84": {
         "aliasOf": "rfc0084"
