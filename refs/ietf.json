@@ -113559,6 +113559,7 @@
         ],
         "rawDate": "2015-03",
         "status": "Proposed Standard",
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=7493",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -123073,6 +123074,7 @@
         ],
         "rawDate": "2017-02",
         "status": "Proposed Standard",
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=8103",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -127119,6 +127121,21 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8366": {
+        "rfcNumber": "RFC8366",
+        "href": "https://tools.ietf.org/html/rfc8366",
+        "title": "A Voucher Artifact for Bootstrapping Protocols",
+        "authors": [
+            "K. Watsen",
+            "M. Richardson",
+            "M. Pritikin",
+            "T. Eckert"
+        ],
+        "rawDate": "2018-05",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8367": {
         "rfcNumber": "RFC8367",
         "href": "https://tools.ietf.org/html/rfc8367",
@@ -127128,6 +127145,19 @@
             "J. Yallouz"
         ],
         "rawDate": "2018-04-01",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8368": {
+        "rfcNumber": "RFC8368",
+        "href": "https://tools.ietf.org/html/rfc8368",
+        "title": "Using an Autonomic Control Plane for Stable Connectivity of Network Operations, Administration, and Maintenance (OAM)",
+        "authors": [
+            "T. Eckert, Ed.",
+            "M. Behringer"
+        ],
+        "rawDate": "2018-05",
         "status": "Informational",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
