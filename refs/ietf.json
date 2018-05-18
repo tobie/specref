@@ -118175,6 +118175,9 @@
         ],
         "rawDate": "2016-04",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC8375"
+        ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=7788",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -126784,6 +126787,7 @@
         "updates": [
             "RFC7950"
         ],
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=8342",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -127224,6 +127228,22 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8375": {
+        "rfcNumber": "RFC8375",
+        "href": "https://tools.ietf.org/html/rfc8375",
+        "title": "Special-Use Domain 'home.arpa.'",
+        "authors": [
+            "P. Pfister",
+            "T. Lemon"
+        ],
+        "rawDate": "2018-05",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC7788"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8378": {
         "rfcNumber": "RFC8378",
         "href": "https://tools.ietf.org/html/rfc8378",
@@ -127256,6 +127276,20 @@
     "rfc838": {
         "aliasOf": "rfc0838"
     },
+    "rfc8386": {
+        "rfcNumber": "RFC8386",
+        "href": "https://tools.ietf.org/html/rfc8386",
+        "title": "Privacy Considerations for Protocols Relying on IP Broadcast or Multicast",
+        "authors": [
+            "R. Winter",
+            "M. Faath",
+            "F. Weisshaar"
+        ],
+        "rawDate": "2018-05",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8387": {
         "rfcNumber": "RFC8387",
         "href": "https://tools.ietf.org/html/rfc8387",
@@ -127265,6 +127299,22 @@
             "J. Arkko",
             "A. Keranen",
             "H. Back"
+        ],
+        "rawDate": "2018-05",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8388": {
+        "rfcNumber": "RFC8388",
+        "href": "https://tools.ietf.org/html/rfc8388",
+        "title": "Usage and Applicability of BGP MPLS-Based Ethernet VPN",
+        "authors": [
+            "J. Rabadan, Ed.",
+            "S. Palislamovic",
+            "W. Henderickx",
+            "A. Sajassi",
+            "J. Uttaro"
         ],
         "rawDate": "2018-05",
         "status": "Informational",
