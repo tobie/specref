@@ -85397,6 +85397,9 @@
         ],
         "rawDate": "2009-08",
         "status": "Proposed Standard",
+        "obsoletedBy": [
+            "RFC8353"
+        ],
         "obsoletes": [
             "RFC2853"
         ],
@@ -126938,6 +126941,23 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8353": {
+        "rfcNumber": "RFC8353",
+        "href": "https://tools.ietf.org/html/rfc8353",
+        "title": "Generic Security Service API Version 2: Java Bindings Update",
+        "authors": [
+            "M. Upadhyay",
+            "S. Malkani",
+            "W. Wang"
+        ],
+        "rawDate": "2018-05",
+        "status": "Proposed Standard",
+        "obsoletes": [
+            "RFC5653"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8354": {
         "rfcNumber": "RFC8354",
         "href": "https://tools.ietf.org/html/rfc8354",
@@ -127275,6 +127295,35 @@
     },
     "rfc838": {
         "aliasOf": "rfc0838"
+    },
+    "rfc8380": {
+        "rfcNumber": "RFC8380",
+        "href": "https://tools.ietf.org/html/rfc8380",
+        "title": "Directory-Assisted Transparent Interconnection of Lots of Links (TRILL) Encapsulation",
+        "authors": [
+            "L. Dunbar",
+            "D. Eastlake 3rd",
+            "R. Perlman"
+        ],
+        "rawDate": "2018-05",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8381": {
+        "rfcNumber": "RFC8381",
+        "href": "https://tools.ietf.org/html/rfc8381",
+        "title": "Transparent Interconnection of Lots of Links (TRILL): Vendor-Specific RBridge Channel Protocol",
+        "authors": [
+            "D. Eastlake 3rd",
+            "Y. Li",
+            "W. Hao",
+            "A. Banerjee"
+        ],
+        "rawDate": "2018-05",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc8386": {
         "rfcNumber": "RFC8386",
