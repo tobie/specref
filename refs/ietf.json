@@ -79754,7 +79754,9 @@
         "rawDate": "2008-05",
         "status": "Proposed Standard",
         "updatedBy": [
-            "RFC6818"
+            "RFC6818",
+            "RFC8398",
+            "RFC8399"
         ],
         "obsoletes": [
             "RFC3280",
@@ -120654,6 +120656,7 @@
         ],
         "rawDate": "2016-09",
         "status": "Informational",
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=7948",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -127414,6 +127417,37 @@
         ],
         "rawDate": "2018-05",
         "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8398": {
+        "rfcNumber": "RFC8398",
+        "href": "https://tools.ietf.org/html/rfc8398",
+        "title": "Internationalized Email Addresses in X.509 Certificates",
+        "authors": [
+            "A. Melnikov, Ed.",
+            "W. Chuang, Ed."
+        ],
+        "rawDate": "2018-05",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC5280"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8399": {
+        "rfcNumber": "RFC8399",
+        "href": "https://tools.ietf.org/html/rfc8399",
+        "title": "Internationalization Updates to RFC 5280",
+        "authors": [
+            "R. Housley"
+        ],
+        "rawDate": "2018-05",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC5280"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
