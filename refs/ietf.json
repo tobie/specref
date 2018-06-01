@@ -127264,6 +127264,7 @@
         ],
         "rawDate": "2018-05",
         "status": "Proposed Standard",
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=8373",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -127292,6 +127293,18 @@
         "updates": [
             "RFC7788"
         ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8376": {
+        "rfcNumber": "RFC8376",
+        "href": "https://tools.ietf.org/html/rfc8376",
+        "title": "Low-Power Wide Area Network (LPWAN) Overview",
+        "authors": [
+            "S. Farrell, Ed."
+        ],
+        "rawDate": "2018-05",
+        "status": "Informational",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -127356,6 +127369,21 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8383": {
+        "rfcNumber": "RFC8383",
+        "href": "https://tools.ietf.org/html/rfc8383",
+        "title": "Transparent Interconnection of Lots of Links (TRILL): Address Flush Message",
+        "authors": [
+            "W. Hao",
+            "D. Eastlake 3rd",
+            "Y. Li",
+            "M. Umair"
+        ],
+        "rawDate": "2018-05",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8386": {
         "rfcNumber": "RFC8386",
         "href": "https://tools.ietf.org/html/rfc8386",
@@ -127404,6 +127432,22 @@
     "rfc839": {
         "aliasOf": "rfc0839"
     },
+    "rfc8391": {
+        "rfcNumber": "RFC8391",
+        "href": "https://tools.ietf.org/html/rfc8391",
+        "title": "XMSS: eXtended Merkle Signature Scheme",
+        "authors": [
+            "A. Huelsing",
+            "D. Butin",
+            "S. Gazdag",
+            "J. Rijneveld",
+            "A. Mohaisen"
+        ],
+        "rawDate": "2018-05",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8392": {
         "rfcNumber": "RFC8392",
         "href": "https://tools.ietf.org/html/rfc8392",
@@ -127426,6 +127470,38 @@
         "authors": [
             "A. Farrel",
             "J. Drake"
+        ],
+        "rawDate": "2018-05",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8394": {
+        "rfcNumber": "RFC8394",
+        "href": "https://tools.ietf.org/html/rfc8394",
+        "title": "Split Network Virtualization Edge (Split-NVE) Control-Plane Requirements",
+        "authors": [
+            "Y. Li",
+            "D. Eastlake 3rd",
+            "L. Kreeger",
+            "T. Narten",
+            "D. Black"
+        ],
+        "rawDate": "2018-05",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8397": {
+        "rfcNumber": "RFC8397",
+        "href": "https://tools.ietf.org/html/rfc8397",
+        "title": "Transparent Interconnection of Lots of Links (TRILL) Multilevel Using Unique Nicknames",
+        "authors": [
+            "M. Zhang",
+            "D. Eastlake 3rd",
+            "R. Perlman",
+            "H. Zhai",
+            "D. Liu"
         ],
         "rawDate": "2018-05",
         "status": "Proposed Standard",
