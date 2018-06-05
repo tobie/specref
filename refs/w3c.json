@@ -9647,14 +9647,15 @@
         "authors": [
             "Andrew Kirkpatrick",
             "Joshue O Connor",
+            "Alastair Campbell",
             "Michael Cooper"
         ],
         "href": "https://www.w3.org/TR/WCAG21/",
         "title": "Web Content Accessibility Guidelines (WCAG) 2.1",
-        "rawDate": "2018-04-24",
-        "status": "PR",
+        "rawDate": "2018-06-05",
+        "status": "REC",
         "publisher": "W3C",
-        "edDraft": "https://w3c.github.io/wcag21/guidelines/",
+        "edDraft": "https://w3c.github.io/wcag/21/guidelines/",
         "deliveredBy": [
             "https://www.w3.org/WAI/GL/"
         ],
@@ -9809,9 +9810,28 @@
                     "https://www.w3.org/WAI/GL/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20180605": {
+                "authors": [
+                    "Andrew Kirkpatrick",
+                    "Joshue O Connor",
+                    "Alastair Campbell",
+                    "Michael Cooper"
+                ],
+                "href": "https://www.w3.org/TR/2018/REC-WCAG21-20180605/",
+                "title": "Web Content Accessibility Guidelines (WCAG) 2.1",
+                "rawDate": "2018-06-05",
+                "status": "REC",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WAI/GL/"
+                ],
+                "hasErrata": "https://www.w3.org/WAI/WCAG21/errata/",
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "repository": "https://github.com/w3c/wcag21"
+        "repository": "https://github.com/w3c/wcag21",
+        "hasErrata": "https://www.w3.org/WAI/WCAG21/errata/"
     },
     "WD-charreq": {
         "aliasOf": "charreq"
@@ -24035,7 +24055,7 @@
         ],
         "href": "https://www.w3.org/TR/css3-speech/",
         "title": "CSS Speech Module",
-        "status": "CR",
+        "status": "NOTE",
         "publisher": "W3C",
         "deliveredBy": [
             "https://www.w3.org/Style/CSS/members"
@@ -24084,9 +24104,23 @@
                     "https://www.w3.org/Style/CSS/members"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20180605": {
+                "authors": [
+                    "Daniel Weck"
+                ],
+                "href": "https://www.w3.org/TR/2018/NOTE-css3-speech-20180605/",
+                "title": "CSS Speech Module",
+                "rawDate": "2018-06-05",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Style/CSS/members"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2012-03-20",
+        "rawDate": "2018-06-05",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
         "edDraft": "https://drafts.csswg.org/css-speech-1/",
         "repository": "https://github.com/w3c/csswg-drafts"
@@ -73733,10 +73767,10 @@
         ],
         "href": "https://www.w3.org/TR/webdriver1/",
         "title": "WebDriver",
-        "rawDate": "2018-04-26",
-        "status": "PR",
+        "rawDate": "2018-06-05",
+        "status": "REC",
         "publisher": "W3C",
-        "edDraft": "https://w3c.github.io/webdriver/webdriver-spec.html",
+        "edDraft": "https://w3c.github.io/webdriver/",
         "deliveredBy": [
             "https://www.w3.org/testing/browser/"
         ],
@@ -74471,9 +74505,26 @@
                     "https://www.w3.org/testing/browser/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20180605": {
+                "authors": [
+                    "Simon Stewart",
+                    "David Burns"
+                ],
+                "href": "https://www.w3.org/TR/2018/REC-webdriver1-20180605/",
+                "title": "WebDriver",
+                "rawDate": "2018-06-05",
+                "status": "REC",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/testing/browser/"
+                ],
+                "hasErrata": "https://github.com/w3c/webdriver/issues?q=is%3Aissue+label%3Aerrata",
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "repository": "https://github.com/w3c/webdriver"
+        "repository": "https://github.com/w3c/webdriver",
+        "hasErrata": "https://github.com/w3c/webdriver/issues?q=is%3Aissue+label%3Aerrata"
     },
     "webintents-local-services": {
         "authors": [
