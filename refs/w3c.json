@@ -1610,11 +1610,13 @@
                 "deliveredBy": [
                     "https://www.w3.org/Style/CSS/members"
                 ],
-                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+                "isRetired": true
             }
         },
         "rawDate": "1998-12-10",
-        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "isRetired": true
     },
     "CSS-smil": {
         "versions": {
@@ -18234,14 +18236,16 @@
                 "deliveredBy": [
                     "https://www.w3.org/Style/CSS/members"
                 ],
-                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+                "isRetired": true
             }
         },
         "rawDate": "2011-05-12",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
         "obsoletes": [
             "css3-roadmap"
-        ]
+        ],
+        "isRetired": true
     },
     "css-break-3": {
         "authors": [
@@ -29231,8 +29235,8 @@
         ],
         "href": "https://www.w3.org/TR/exi-c14n/",
         "title": "Canonical EXI",
-        "rawDate": "2018-04-26",
-        "status": "PR",
+        "rawDate": "2018-06-07",
+        "status": "REC",
         "publisher": "W3C",
         "deliveredBy": [
             "https://www.w3.org/XML/EXI/"
@@ -29313,8 +29317,25 @@
                     "https://www.w3.org/XML/EXI/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20180607": {
+                "authors": [
+                    "Sebastian Käbisch",
+                    "Daniel Peintner"
+                ],
+                "href": "https://www.w3.org/TR/2018/REC-exi-c14n-20180607/",
+                "title": "Canonical EXI",
+                "rawDate": "2018-06-07",
+                "status": "REC",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/XML/EXI/"
+                ],
+                "hasErrata": "https://www.w3.org/XML/EXI/exi-c14n-errata",
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "hasErrata": "https://www.w3.org/XML/EXI/exi-c14n-errata"
     },
     "exi-evaluation": {
         "authors": [
@@ -48735,7 +48756,7 @@
         ],
         "href": "https://www.w3.org/TR/payment-request/",
         "title": "Payment Request API",
-        "rawDate": "2018-05-22",
+        "rawDate": "2018-06-07",
         "status": "CR",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/payment-request/",
@@ -49611,6 +49632,24 @@
                 "href": "https://www.w3.org/TR/2018/CR-payment-request-20180522/",
                 "title": "Payment Request API",
                 "rawDate": "2018-05-22",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Payments/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20180607": {
+                "authors": [
+                    "Adrian Bateman",
+                    "Zach Koch",
+                    "Roy McElmurry",
+                    "Domenic Denicola",
+                    "Marcos Caceres"
+                ],
+                "href": "https://www.w3.org/TR/2018/CR-payment-request-20180607/",
+                "title": "Payment Request API",
+                "rawDate": "2018-06-07",
                 "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
