@@ -27332,6 +27332,7 @@
         "obsoletes": [
             "RFC1537"
         ],
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=1912",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -127548,6 +127549,21 @@
     },
     "rfc840": {
         "aliasOf": "rfc0840"
+    },
+    "rfc8401": {
+        "rfcNumber": "RFC8401",
+        "href": "https://tools.ietf.org/html/rfc8401",
+        "title": "Bit Index Explicit Replication (BIER) Support via IS-IS",
+        "authors": [
+            "L. Ginsberg, Ed.",
+            "T. Przygienda",
+            "S. Aldrin",
+            "Z. Zhang"
+        ],
+        "rawDate": "2018-06",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc841": {
         "aliasOf": "rfc0841"
