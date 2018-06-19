@@ -11381,17 +11381,13 @@
     "accname-1.1": {
         "authors": [
             "Joanmarie Diggs",
-            "Michael Cooper",
-            "Richard Schwerdtfeger",
-            "Joseph Scheuhammer",
-            "James Craig",
-            "Andi Snow-Weaver",
-            "Aaron Leventhal"
+            "Bryan Garaventa",
+            "Michael Cooper"
         ],
         "href": "https://www.w3.org/TR/accname-1.1/",
         "title": "Accessible Name and Description Computation 1.1",
-        "rawDate": "2018-03-20",
-        "status": "WD",
+        "rawDate": "2018-06-19",
+        "status": "CR",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/accname/",
         "deliveredBy": [
@@ -11481,6 +11477,22 @@
                 "title": "Accessible Name and Description Computation 1.1",
                 "rawDate": "2018-03-20",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WAI/ARIA/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20180619": {
+                "authors": [
+                    "Joanmarie Diggs",
+                    "Bryan Garaventa",
+                    "Michael Cooper"
+                ],
+                "href": "https://www.w3.org/TR/2018/CR-accname-1.1-20180619/",
+                "title": "Accessible Name and Description Computation 1.1",
+                "rawDate": "2018-06-19",
+                "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/WAI/ARIA/"
@@ -18588,8 +18600,8 @@
         ],
         "href": "https://www.w3.org/TR/css-color-3/",
         "title": "CSS Color Module Level 3",
-        "rawDate": "2018-03-15",
-        "status": "PR",
+        "rawDate": "2018-06-19",
+        "status": "REC",
         "publisher": "W3C",
         "deliveredBy": [
             "https://www.w3.org/Style/CSS/members"
@@ -18692,8 +18704,28 @@
                     "https://www.w3.org/Style/CSS/members"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20180619": {
+                "authors": [
+                    "Tantek Çelik",
+                    "Chris Lilley",
+                    "David Baron"
+                ],
+                "href": "https://www.w3.org/TR/2018/REC-css-color-3-20180619/",
+                "title": "CSS Color Module Level 3",
+                "rawDate": "2018-06-19",
+                "status": "REC",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Style/CSS/members"
+                ],
+                "hasErrata": "https://www.w3.org/Style/2018/REC-css-color-3-20180619-errata.html",
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "edDraft": "https://drafts.csswg.org/css-color-3/",
+        "hasErrata": "https://www.w3.org/Style/2018/REC-css-color-3-20180619-errata.html",
+        "repository": "https://github.com/w3c/csswg-drafts"
     },
     "css-color-4": {
         "authors": [
@@ -73236,13 +73268,12 @@
     },
     "webaudio": {
         "authors": [
-            "Paul Adenot",
-            "Chris Wilson",
-            "Chris Rogers"
+            "Bryan Garaventa",
+            "Raymond Toy"
         ],
         "href": "https://www.w3.org/TR/webaudio/",
         "title": "Web Audio API",
-        "rawDate": "2015-12-08",
+        "rawDate": "2018-06-19",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -73307,6 +73338,21 @@
                 "href": "https://www.w3.org/TR/2015/WD-webaudio-20151208/",
                 "title": "Web Audio API",
                 "rawDate": "2015-12-08",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2011/audio/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20180619": {
+                "authors": [
+                    "Bryan Garaventa",
+                    "Raymond Toy"
+                ],
+                "href": "https://www.w3.org/TR/2018/WD-webaudio-20180619/",
+                "title": "Web Audio API",
+                "rawDate": "2018-06-19",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [

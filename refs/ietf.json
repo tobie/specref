@@ -114275,6 +114275,9 @@
         ],
         "rawDate": "2015-05",
         "status": "Informational",
+        "obsoletedBy": [
+            "RFC8439"
+        ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=7539",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -116379,6 +116382,7 @@
         ],
         "rawDate": "2015-10",
         "status": "Proposed Standard",
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=7672",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -127609,6 +127613,22 @@
     },
     "rfc843": {
         "aliasOf": "rfc0843"
+    },
+    "rfc8439": {
+        "rfcNumber": "RFC8439",
+        "href": "https://tools.ietf.org/html/rfc8439",
+        "title": "ChaCha20 and Poly1305 for IETF Protocols",
+        "authors": [
+            "Y. Nir",
+            "A. Langley"
+        ],
+        "rawDate": "2018-06",
+        "status": "Informational",
+        "obsoletes": [
+            "RFC7539"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc844": {
         "aliasOf": "rfc0844"
