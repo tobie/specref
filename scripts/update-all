@@ -43,8 +43,7 @@ function run()
     node "./scripts/csswg.js" &&
     node "./scripts/fetch-refs.js" "https://resources.whatwg.org/biblio.json" "WHATWG" &&
     node "./scripts/fetch-refs.js" "https://wicg.github.io/admin/biblio.json" "WICG" &&
-    # node "./scripts/fetch-refs.js" "https://wg21.link/index.json" "WG21" &&
-
+    node "./scripts/fetch-refs.js" "https://wg21.link/index.json" "WG21" &&
     node "./scripts/run.js" "./github" "csswg.json" &&
     node "./scripts/run.js" "./github" "w3c.json" && 
     node "./scripts/run.js" "./github" "wicg.json" &&
