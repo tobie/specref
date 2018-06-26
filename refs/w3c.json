@@ -19417,11 +19417,13 @@
     },
     "css-fonts-3": {
         "authors": [
-            "John Daggett"
+            "John Daggett",
+            "Myles Maxfield",
+            "Chris Lilley"
         ],
         "href": "https://www.w3.org/TR/css-fonts-3/",
         "title": "CSS Fonts Module Level 3",
-        "rawDate": "2018-03-15",
+        "rawDate": "2018-06-26",
         "status": "CR",
         "publisher": "W3C",
         "deliveredBy": [
@@ -19520,6 +19522,22 @@
                 "href": "https://www.w3.org/TR/2018/CR-css-fonts-3-20180315/",
                 "title": "CSS Fonts Module Level 3",
                 "rawDate": "2018-03-15",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Style/CSS/members"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20180626": {
+                "authors": [
+                    "John Daggett",
+                    "Myles Maxfield",
+                    "Chris Lilley"
+                ],
+                "href": "https://www.w3.org/TR/2018/CR-css-fonts-3-20180626/",
+                "title": "CSS Fonts Module Level 3",
+                "rawDate": "2018-06-26",
                 "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -31453,14 +31471,12 @@
         "authors": [
             "Amelia Bellamy-Royds",
             "Joanmarie Diggs",
-            "Michael Cooper",
-            "Fred Esch",
-            "Richard Schwerdtfeger"
+            "Michael Cooper"
         ],
         "href": "https://www.w3.org/TR/graphics-aam-1.0/",
         "title": "Graphics Accessibility API Mappings",
-        "rawDate": "2018-04-19",
-        "status": "CR",
+        "rawDate": "2018-06-26",
+        "status": "PR",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/graphics-aam/",
         "deliveredBy": [
@@ -31542,6 +31558,22 @@
                     "https://www.w3.org/WAI/ARIA/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20180626": {
+                "authors": [
+                    "Amelia Bellamy-Royds",
+                    "Joanmarie Diggs",
+                    "Michael Cooper"
+                ],
+                "href": "https://www.w3.org/TR/2018/PR-graphics-aam-1.0-20180626/",
+                "title": "Graphics Accessibility API Mappings",
+                "rawDate": "2018-06-26",
+                "status": "PR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WAI/ARIA/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
         "repository": "https://github.com/w3c/aria",
@@ -31551,14 +31583,12 @@
         "authors": [
             "Amelia Bellamy-Royds",
             "Joanmarie Diggs",
-            "Michael Cooper",
-            "Fred Esch",
-            "Richard Schwerdtfeger"
+            "Michael Cooper"
         ],
         "href": "https://www.w3.org/TR/graphics-aria-1.0/",
         "title": "WAI-ARIA Graphics Module",
-        "rawDate": "2018-03-29",
-        "status": "CR",
+        "rawDate": "2018-06-26",
+        "status": "PR",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/graphics-aria/",
         "deliveredBy": [
@@ -31628,6 +31658,22 @@
                 "title": "WAI-ARIA Graphics Module",
                 "rawDate": "2018-03-29",
                 "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WAI/ARIA/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20180626": {
+                "authors": [
+                    "Amelia Bellamy-Royds",
+                    "Joanmarie Diggs",
+                    "Michael Cooper"
+                ],
+                "href": "https://www.w3.org/TR/2018/PR-graphics-aria-1.0-20180626/",
+                "title": "WAI-ARIA Graphics Module",
+                "rawDate": "2018-06-26",
+                "status": "PR",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/WAI/ARIA/"
