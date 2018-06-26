@@ -67517,7 +67517,7 @@
         ],
         "href": "https://www.w3.org/TR/ttml-imsc1/",
         "title": "TTML Profiles for Internet Media Subtitles and Captions 1.0 (IMSC1)",
-        "rawDate": "2016-04-21",
+        "rawDate": "2018-06-26",
         "status": "REC",
         "publisher": "W3C",
         "deliveredBy": [
@@ -67622,10 +67622,26 @@
                     "https://www.w3.org/AudioVideo/TT/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20180626": {
+                "authors": [
+                    "Pierre-Anthony Lemieux"
+                ],
+                "href": "https://www.w3.org/TR/2018/SPSD-ttml-imsc1-20180626/",
+                "title": "TTML Profiles for Internet Media Subtitles and Captions 1.0 (IMSC1)",
+                "rawDate": "2018-06-26",
+                "status": "REC",
+                "publisher": "W3C",
+                "isRetired": true,
+                "deliveredBy": [
+                    "https://www.w3.org/AudioVideo/TT/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
         "edDraft": "https://rawgit.com/w3c/imsc1/master/spec/ttml-ww-profiles.html",
-        "repository": "https://github.com/w3c/imsc1"
+        "repository": "https://github.com/w3c/imsc1",
+        "isRetired": true
     },
     "ttml-imsc1.0.1": {
         "authors": [
@@ -69685,7 +69701,7 @@
         ],
         "href": "https://www.w3.org/TR/vehicle-information-api/",
         "title": "Vehicle Information API Specification",
-        "rawDate": "2017-06-21",
+        "rawDate": "2018-06-26",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/automotive/vehicle_information_api/vehicle_information_api_specification.html",
@@ -69757,6 +69773,22 @@
                 "href": "https://www.w3.org/TR/2017/WD-vehicle-information-api-20170621/",
                 "title": "Vehicle Information API Specification",
                 "rawDate": "2017-06-21",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/auto/wg/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20180626": {
+                "authors": [
+                    "Powell Kinney",
+                    "Shinjiro Urata",
+                    "Mike Aro"
+                ],
+                "href": "https://www.w3.org/TR/2018/WD-vehicle-information-api-20180626/",
+                "title": "Vehicle Information API Specification",
+                "rawDate": "2018-06-26",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -73157,7 +73189,7 @@
         ],
         "href": "https://www.w3.org/TR/web-packaging/",
         "title": "Packaging on the Web",
-        "rawDate": "2018-01-30",
+        "rawDate": "2018-06-26",
         "status": "NOTE",
         "publisher": "W3C",
         "edDraft": "https://w3ctag.github.io/packaging-on-the-web/",
@@ -73188,6 +73220,21 @@
                 "href": "https://www.w3.org/TR/2018/NOTE-web-packaging-20180130/",
                 "title": "Packaging on the Web",
                 "rawDate": "2018-01-30",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "isRetired": true,
+                "deliveredBy": [
+                    "https://www.w3.org/2001/tag/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20180626": {
+                "authors": [
+                    "Jeni Tennison"
+                ],
+                "href": "https://www.w3.org/TR/2018/NOTE-web-packaging-20180626/",
+                "title": "Packaging on the Web",
+                "rawDate": "2018-06-26",
                 "status": "NOTE",
                 "publisher": "W3C",
                 "isRetired": true,
