@@ -22646,6 +22646,7 @@
         ],
         "rawDate": "1994-04-01",
         "status": "Informational",
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=1606",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -90439,6 +90440,7 @@
         ],
         "rawDate": "2011-04-01",
         "status": "Experimental",
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=5984",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -127386,6 +127388,21 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8382": {
+        "rfcNumber": "RFC8382",
+        "href": "https://tools.ietf.org/html/rfc8382",
+        "title": "Shared Bottleneck Detection for Coupled Congestion Control for RTP Media",
+        "authors": [
+            "D. Hayes, Ed.",
+            "S. Ferlin",
+            "M. Welzl",
+            "K. Hiorth"
+        ],
+        "rawDate": "2018-06",
+        "status": "Experimental",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8383": {
         "rfcNumber": "RFC8383",
         "href": "https://tools.ietf.org/html/rfc8383",
@@ -127603,6 +127620,23 @@
             "T. Przygienda",
             "S. Aldrin",
             "Z. Zhang"
+        ],
+        "rawDate": "2018-06",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8405": {
+        "rfcNumber": "RFC8405",
+        "href": "https://tools.ietf.org/html/rfc8405",
+        "title": "Shortest Path First (SPF) Back-Off Delay Algorithm for Link-State IGPs",
+        "authors": [
+            "B. Decraene",
+            "S. Litkowski",
+            "H. Gredler",
+            "A. Lindem",
+            "P. Francois",
+            "C. Bowers"
         ],
         "rawDate": "2018-06",
         "status": "Proposed Standard",
