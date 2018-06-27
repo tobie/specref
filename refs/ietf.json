@@ -60181,6 +60181,7 @@
         "updates": [
             "RFC2911"
         ],
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=3996",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -71843,7 +71844,8 @@
         "rawDate": "2007-01",
         "status": "Proposed Standard",
         "updatedBy": [
-            "RFC5462"
+            "RFC5462",
+            "RFC8395"
         ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -126947,6 +126949,18 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8351": {
+        "rfcNumber": "RFC8351",
+        "href": "https://tools.ietf.org/html/rfc8351",
+        "title": "The PKCS #8 EncryptedPrivateKeyInfo Media Type",
+        "authors": [
+            "S. Leonard"
+        ],
+        "rawDate": "2018-06",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8352": {
         "rfcNumber": "RFC8352",
         "href": "https://tools.ietf.org/html/rfc8352",
@@ -127541,6 +127555,25 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8395": {
+        "rfcNumber": "RFC8395",
+        "href": "https://tools.ietf.org/html/rfc8395",
+        "title": "Extensions to BGP-Signaled Pseudowires to Support Flow-Aware Transport Labels",
+        "authors": [
+            "K. Patel",
+            "S. Boutros",
+            "J. Liste",
+            "B. Wen",
+            "J. Rabadan"
+        ],
+        "rawDate": "2018-06",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC4761"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8397": {
         "rfcNumber": "RFC8397",
         "href": "https://tools.ietf.org/html/rfc8397",
@@ -127640,6 +127673,31 @@
         ],
         "rawDate": "2018-06",
         "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8406": {
+        "rfcNumber": "RFC8406",
+        "href": "https://tools.ietf.org/html/rfc8406",
+        "title": "Taxonomy of Coding Techniques for Efficient Network Communications",
+        "authors": [
+            "B. Adamson",
+            "C. Adjih",
+            "J. Bilbao",
+            "V. Firoiu",
+            "F. Fitzek",
+            "S. Ghanem",
+            "E. Lochin",
+            "A. Masucci",
+            "M-J. Montpetit",
+            "M. Pedersen",
+            "G. Peralta",
+            "V. Roca, Ed.",
+            "P. Saxena",
+            "S. Sivakumar"
+        ],
+        "rawDate": "2018-06",
+        "status": "Informational",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
