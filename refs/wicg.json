@@ -119,14 +119,6 @@
         "source": "https://wicg.github.io/admin/biblio.json",
         "repository": "https://github.com/wicg/mediasession"
     },
-    "MST-CONTENT-HINT": {
-        "href": "https://wicg.github.io/mst-content-hint/",
-        "title": "MediaStreamTrack Content Hints",
-        "status": "Living Standard",
-        "publisher": "WICG",
-        "source": "https://wicg.github.io/admin/biblio.json",
-        "repository": "https://github.com/wicg/mst-content-hint"
-    },
     "NETINFO": {
         "href": "https://wicg.github.io/netinfo/",
         "title": "Network Information API",
@@ -285,7 +277,12 @@
         "aliasOf": "MEDIASESSION"
     },
     "WICG-MST-CONTENT-HINT": {
-        "aliasOf": "MST-CONTENT-HINT"
+        "href": "https://wicg.github.io/mst-content-hint/",
+        "title": "MediaStreamTrack Content Hints",
+        "status": "Living Standard",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/mst-content-hint"
     },
     "WICG-NETINFO": {
         "aliasOf": "NETINFO"

@@ -22188,7 +22188,7 @@
         ],
         "href": "https://www.w3.org/TR/css-text-decor-3/",
         "title": "CSS Text Decoration Module Level 3",
-        "rawDate": "2013-08-01",
+        "rawDate": "2018-07-03",
         "status": "CR",
         "publisher": "W3C",
         "deliveredBy": [
@@ -22225,6 +22225,21 @@
                 "href": "https://www.w3.org/TR/2013/CR-css-text-decor-3-20130801/",
                 "title": "CSS Text Decoration Module Level 3",
                 "rawDate": "2013-08-01",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Style/CSS/members"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20180703": {
+                "authors": [
+                    "Elika Etemad",
+                    "Koji Ishii"
+                ],
+                "href": "https://www.w3.org/TR/2018/CR-css-text-decor-3-20180703/",
+                "title": "CSS Text Decoration Module Level 3",
+                "rawDate": "2018-07-03",
                 "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -37019,7 +37034,7 @@
     "html53": {
         "href": "https://www.w3.org/TR/html53/",
         "title": "HTML 5.3",
-        "rawDate": "2018-04-26",
+        "rawDate": "2018-07-03",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/html/",
@@ -37092,6 +37107,26 @@
                 "href": "https://www.w3.org/TR/2018/WD-html53-20180426/",
                 "title": "HTML 5.3",
                 "rawDate": "2018-04-26",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WebPlatform/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20180703": {
+                "authors": [
+                    "Patricia Aas",
+                    "Shwetank Dixit",
+                    "Terence Eden",
+                    "Bruce Lawson",
+                    "Sangwhan Moon",
+                    "Xiaoqian Wu",
+                    "Scott O'Hara"
+                ],
+                "href": "https://www.w3.org/TR/2018/WD-html53-20180703/",
+                "title": "HTML 5.3",
+                "rawDate": "2018-07-03",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -44110,6 +44145,38 @@
             }
         },
         "repository": "https://github.com/w3c/media-source"
+    },
+    "mst-content-hint": {
+        "authors": [
+            "Harald Alvestrand"
+        ],
+        "href": "https://www.w3.org/TR/mst-content-hint/",
+        "title": "MediaStreamTrack Content Hints",
+        "rawDate": "2018-07-03",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/mst-content-hint/",
+        "deliveredBy": [
+            "https://www.w3.org/2011/04/webrtc/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20180703": {
+                "authors": [
+                    "Harald Alvestrand"
+                ],
+                "href": "https://www.w3.org/TR/2018/WD-mst-content-hint-20180703/",
+                "title": "MediaStreamTrack Content Hints",
+                "rawDate": "2018-07-03",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2011/04/webrtc/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        },
+        "repository": "https://github.com/w3c/mst-content-hint"
     },
     "multimodal-reqs": {
         "authors": [
@@ -68157,14 +68224,16 @@
     },
     "turingtest": {
         "authors": [
-            "Matthew May"
+            "Scott Hollier",
+            "Janina Sajka",
+            "Michael Cooper"
         ],
         "href": "https://www.w3.org/TR/turingtest/",
         "title": "Inaccessibility of CAPTCHA",
-        "status": "NOTE",
+        "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
-            "https://www.w3.org/WAI/PF/"
+            "https://www.w3.org/WAI/APA/"
         ],
         "versions": {
             "20031105": {
@@ -68186,10 +68255,28 @@
                     "https://www.w3.org/WAI/PF/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20180703": {
+                "authors": [
+                    "Scott Hollier",
+                    "Janina Sajka",
+                    "Michael Cooper"
+                ],
+                "href": "https://www.w3.org/TR/2018/WD-turingtest-20180703/",
+                "title": "Inaccessibility of CAPTCHA",
+                "rawDate": "2018-07-03",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WAI/APA/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2005-11-23",
-        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+        "rawDate": "2018-07-03",
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "edDraft": "https://w3c.github.io/apa/captcha/",
+        "repository": "https://github.com/w3c/apa"
     },
     "turtle": {
         "authors": [
@@ -75694,6 +75781,38 @@
         "edDraft": "https://w3c.github.io/webrtc-pc/",
         "repository": "https://github.com/w3c/webrtc-pc"
     },
+    "webrtc-dscp": {
+        "authors": [
+            "Harald Alvestrand"
+        ],
+        "href": "https://www.w3.org/TR/webrtc-dscp/",
+        "title": "WebRTC DSCP Control API",
+        "rawDate": "2018-07-03",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/webrtc-dscp-exp/",
+        "deliveredBy": [
+            "https://www.w3.org/2011/04/webrtc/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20180703": {
+                "authors": [
+                    "Harald Alvestrand"
+                ],
+                "href": "https://www.w3.org/TR/2018/WD-webrtc-dscp-20180703/",
+                "title": "WebRTC DSCP Control API",
+                "rawDate": "2018-07-03",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2011/04/webrtc/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        },
+        "repository": "https://github.com/w3c/webrtc-dscp-exp"
+    },
     "webrtc-stats": {
         "authors": [
             "Harald Alvestrand",
@@ -75701,8 +75820,8 @@
         ],
         "href": "https://www.w3.org/TR/webrtc-stats/",
         "title": "Identifiers for WebRTC's Statistics API",
-        "rawDate": "2018-06-27",
-        "status": "WD",
+        "rawDate": "2018-07-03",
+        "status": "CR",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/webrtc-stats/",
         "deliveredBy": [
@@ -75955,6 +76074,21 @@
                 "title": "Identifiers for WebRTC's Statistics API",
                 "rawDate": "2018-06-27",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2011/04/webrtc/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20180703": {
+                "authors": [
+                    "Harald Alvestrand",
+                    "Varun Singh"
+                ],
+                "href": "https://www.w3.org/TR/2018/CR-webrtc-stats-20180703/",
+                "title": "Identifiers for WebRTC's Statistics API",
+                "rawDate": "2018-07-03",
+                "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/2011/04/webrtc/"
