@@ -1921,7 +1921,9 @@
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
         "obsoletes": [
             "font"
-        ]
+        ],
+        "edDraft": "http://dev.w3.org/csswg/css2/",
+        "repository": "https://github.com/w3c/csswg-drafts"
     },
     "CSS21": {
         "aliasOf": "CSS2"
@@ -23825,7 +23827,9 @@
             "https://www.w3.org/Style/CSS/members"
         ],
         "rawDate": "2012-04-17",
-        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "edDraft": "https://drafts.csswg.org/css-images-3/",
+        "repository": "https://github.com/w3c/csswg-drafts"
     },
     "css3-layout": {
         "aliasOf": "css-template-3"
@@ -24011,7 +24015,9 @@
             }
         },
         "rawDate": "2012-06-19",
-        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "edDraft": "http://dev.w3.org/csswg/css3-mediaqueries/",
+        "repository": "https://github.com/w3c/csswg-drafts"
     },
     "css3-multicol": {
         "aliasOf": "css-multicol-1"
