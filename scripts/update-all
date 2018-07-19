@@ -48,7 +48,6 @@ function run()
     node "./scripts/run.js" "./github" "w3c.json" && 
     node "./scripts/run.js" "./github" "wicg.json" &&
     node "./scripts/run.js" "./github" "biblio.json" && 
-
     node "./scripts/run.js" "./github" "whatwg.json";
 }
 
