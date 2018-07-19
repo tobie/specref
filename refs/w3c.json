@@ -13168,7 +13168,7 @@
         ],
         "href": "https://www.w3.org/TR/appmanifest/",
         "title": "Web App Manifest",
-        "rawDate": "2018-07-04",
+        "rawDate": "2018-07-19",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -14891,6 +14891,25 @@
                 "href": "https://www.w3.org/TR/2018/WD-appmanifest-20180704/",
                 "title": "Web App Manifest",
                 "rawDate": "2018-07-04",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WebPlatform/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20180719": {
+                "authors": [
+                    "Marcos Caceres",
+                    "Kenneth Christiansen",
+                    "Mounir Lamouri",
+                    "Anssi Kostiainen",
+                    "Rob Dolin",
+                    "Matt Giuca"
+                ],
+                "href": "https://www.w3.org/TR/2018/WD-appmanifest-20180719/",
+                "title": "Web App Manifest",
+                "rawDate": "2018-07-19",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -17303,6 +17322,40 @@
         "edDraft": "https://w3c.github.io/core-aam/",
         "repository": "https://github.com/w3c/aria",
         "hasErrata": "https://www.w3.org/WAI/ARIA/1.1/errata/aria"
+    },
+    "core-aam-1.2": {
+        "authors": [
+            "Joanmarie Diggs",
+            "Michael Cooper"
+        ],
+        "href": "https://www.w3.org/TR/core-aam-1.2/",
+        "title": "Core Accessibility API Mappings 1.2",
+        "rawDate": "2018-07-19",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/core-aam/",
+        "deliveredBy": [
+            "https://www.w3.org/WAI/ARIA/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20180719": {
+                "authors": [
+                    "Joanmarie Diggs",
+                    "Michael Cooper"
+                ],
+                "href": "https://www.w3.org/TR/2018/WD-core-aam-1.2-20180719/",
+                "title": "Core Accessibility API Mappings 1.2",
+                "rawDate": "2018-07-19",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WAI/ARIA/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        },
+        "repository": "https://github.com/w3c/core-aam"
     },
     "cors": {
         "authors": [
@@ -49093,7 +49146,7 @@
         ],
         "href": "https://www.w3.org/TR/payment-request/",
         "title": "Payment Request API",
-        "rawDate": "2018-07-16",
+        "rawDate": "2018-07-18",
         "status": "CR",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/payment-request/",
@@ -50041,6 +50094,24 @@
                 "href": "https://www.w3.org/TR/2018/CR-payment-request-20180716/",
                 "title": "Payment Request API",
                 "rawDate": "2018-07-16",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Payments/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20180718": {
+                "authors": [
+                    "Adrian Bateman",
+                    "Zach Koch",
+                    "Roy McElmurry",
+                    "Domenic Denicola",
+                    "Marcos Caceres"
+                ],
+                "href": "https://www.w3.org/TR/2018/CR-payment-request-20180718/",
+                "title": "Payment Request API",
+                "rawDate": "2018-07-18",
                 "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -72208,6 +72279,42 @@
         "repository": "https://github.com/w3c/aria",
         "hasErrata": "https://www.w3.org/WAI/ARIA/1.1/errata/aria"
     },
+    "wai-aria-1.2": {
+        "authors": [
+            "Joanmarie Diggs",
+            "James Nurthen",
+            "Michael Cooper"
+        ],
+        "href": "https://www.w3.org/TR/wai-aria-1.2/",
+        "title": "Accessible Rich Internet Applications (WAI-ARIA) 1.2",
+        "rawDate": "2018-07-19",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/aria/",
+        "deliveredBy": [
+            "https://www.w3.org/WAI/ARIA/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20180719": {
+                "authors": [
+                    "Joanmarie Diggs",
+                    "James Nurthen",
+                    "Michael Cooper"
+                ],
+                "href": "https://www.w3.org/TR/2018/WD-wai-aria-1.2-20180719/",
+                "title": "Accessible Rich Internet Applications (WAI-ARIA) 1.2",
+                "rawDate": "2018-07-19",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WAI/ARIA/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        },
+        "repository": "https://github.com/w3c/aria"
+    },
     "wai-aria-10": {
         "aliasOf": "wai-aria"
     },
@@ -72535,6 +72642,50 @@
                 "title": "WAI-ARIA Authoring Practices 1.1",
                 "rawDate": "2017-12-14",
                 "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WAI/ARIA/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        },
+        "repository": "https://github.com/w3c/aria-practices"
+    },
+    "wai-aria-practices-1.2": {
+        "authors": [
+            "Matthew King",
+            "James Nurthen",
+            "Michiel Bijl",
+            "Michael Cooper",
+            "Joseph Scheuhammer",
+            "Lisa Pappas",
+            "Richard Schwerdtfeger"
+        ],
+        "href": "https://www.w3.org/TR/wai-aria-practices-1.2/",
+        "title": "WAI-ARIA Authoring Practices 1.2",
+        "rawDate": "2018-07-19",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/aria-practices/",
+        "deliveredBy": [
+            "https://www.w3.org/WAI/ARIA/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20180719": {
+                "authors": [
+                    "Matthew King",
+                    "James Nurthen",
+                    "Michiel Bijl",
+                    "Michael Cooper",
+                    "Joseph Scheuhammer",
+                    "Lisa Pappas",
+                    "Richard Schwerdtfeger"
+                ],
+                "href": "https://www.w3.org/TR/2018/WD-wai-aria-practices-1.2-20180719/",
+                "title": "WAI-ARIA Authoring Practices 1.2",
+                "rawDate": "2018-07-19",
+                "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/WAI/ARIA/"

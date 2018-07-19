@@ -23,6 +23,14 @@
         "source": "https://wicg.github.io/admin/biblio.json",
         "repository": "https://github.com/wicg/budget-api"
     },
+    "COOKIE-STORE": {
+        "href": "https://wicg.github.io/cookie-store/",
+        "title": "Cookie Store API",
+        "status": "Living Standard",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/cookie-store"
+    },
     "CORS-RFC1918": {
         "href": "https://wicg.github.io/cors-rfc1918/",
         "title": "CORS and RFC1918",
@@ -95,6 +103,14 @@
         "source": "https://wicg.github.io/admin/biblio.json",
         "repository": "https://github.com/wicg/InputDeviceCapabilities"
     },
+    "KEYBOARD-MAP": {
+        "href": "https://wicg.github.io/keyboard-map/",
+        "title": "Keyboard Map",
+        "status": "Living Standard",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/keyboard-map"
+    },
     "MEDIA-CAPABILITIES": {
         "href": "https://wicg.github.io/media-capabilities/",
         "title": "Media Capabilities",
@@ -135,6 +151,14 @@
         "source": "https://wicg.github.io/admin/biblio.json",
         "repository": "https://github.com/wicg/origin-policy"
     },
+    "PAGE-LIFECYCLE": {
+        "href": "https://wicg.github.io/page-lifecycle/spec.html",
+        "title": "Page Lifecycle",
+        "status": "Living Standard",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/page-lifecycle"
+    },
     "PICTURE-IN-PICTURE": {
         "href": "https://wicg.github.io/picture-in-picture/",
         "title": "Picture-in-Picture",
@@ -142,6 +166,14 @@
         "publisher": "WICG",
         "source": "https://wicg.github.io/admin/biblio.json",
         "repository": "https://github.com/wicg/picture-in-picture"
+    },
+    "PRIORITY-HINTS": {
+        "href": "https://wicg.github.io/priority-hints/",
+        "title": "Priority Hints",
+        "status": "Living Standard",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/priority-hints"
     },
     "REPORTING": {
         "href": "https://wicg.github.io/reporting/",
@@ -232,6 +264,9 @@
     "WICG-BUDGET-API": {
         "aliasOf": "BUDGET-API"
     },
+    "WICG-COOKIE-STORE": {
+        "aliasOf": "COOKIE-STORE"
+    },
     "WICG-CORS-RFC1918": {
         "aliasOf": "CORS-RFC1918"
     },
@@ -267,6 +302,9 @@
     "WICG-INPUT-DEVICE-CAPABILITIES": {
         "aliasOf": "INPUT-DEVICE-CAPABILITIES"
     },
+    "WICG-KEYBOARD-MAP": {
+        "aliasOf": "KEYBOARD-MAP"
+    },
     "WICG-MEDIA-CAPABILITIES": {
         "aliasOf": "MEDIA-CAPABILITIES"
     },
@@ -293,8 +331,14 @@
     "WICG-ORIGIN-POLICY": {
         "aliasOf": "ORIGIN-POLICY"
     },
+    "WICG-PAGE-LIFECYCLE": {
+        "aliasOf": "PAGE-LIFECYCLE"
+    },
     "WICG-PICTURE-IN-PICTURE": {
         "aliasOf": "PICTURE-IN-PICTURE"
+    },
+    "WICG-PRIORITY-HINTS": {
+        "aliasOf": "PRIORITY-HINTS"
     },
     "WICG-REPORTING": {
         "aliasOf": "REPORTING"

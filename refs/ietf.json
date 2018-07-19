@@ -50706,6 +50706,7 @@
             "RFC2910",
             "RFC2911"
         ],
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=3380",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -54856,7 +54857,7 @@
             "S. Legg"
         ],
         "rawDate": "2003-10",
-        "status": "Proposed Standard",
+        "status": "Informational",
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=3642",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -73575,7 +73576,8 @@
         "rawDate": "2007-04",
         "status": "Proposed Standard",
         "updatedBy": [
-            "RFC6001"
+            "RFC6001",
+            "RFC8390"
         ],
         "updates": [
             "RFC3209",
@@ -123211,6 +123213,7 @@
         ],
         "rawDate": "2017-03",
         "status": "Informational",
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=8110",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -127512,6 +127515,24 @@
     },
     "rfc839": {
         "aliasOf": "rfc0839"
+    },
+    "rfc8390": {
+        "rfcNumber": "RFC8390",
+        "href": "https://tools.ietf.org/html/rfc8390",
+        "title": "RSVP-TE Path Diversity Using Exclude Route",
+        "authors": [
+            "Z. Ali, Ed.",
+            "G. Swallow, Ed.",
+            "F. Zhang, Ed.",
+            "D. Beller, Ed."
+        ],
+        "rawDate": "2018-07",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC4874"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc8391": {
         "rfcNumber": "RFC8391",
