@@ -79203,6 +79203,9 @@
         "updatedBy": [
             "RFC6336"
         ],
+        "obsoletedBy": [
+            "RFC8445"
+        ],
         "obsoletes": [
             "RFC4091",
             "RFC4092"
@@ -127807,6 +127810,20 @@
     "rfc842": {
         "aliasOf": "rfc0842"
     },
+    "rfc8421": {
+        "rfcNumber": "RFC8421",
+        "href": "https://tools.ietf.org/html/rfc8421",
+        "title": "Guidelines for Multihomed and IPv4/IPv6 Dual-Stack Interactive Connectivity Establishment (ICE)",
+        "authors": [
+            "P. Martinsen",
+            "T. Reddy",
+            "P. Patil"
+        ],
+        "rawDate": "2018-07",
+        "status": "Best Current Practice",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc843": {
         "aliasOf": "rfc0843"
     },
@@ -127828,6 +127845,23 @@
     },
     "rfc844": {
         "aliasOf": "rfc0844"
+    },
+    "rfc8445": {
+        "rfcNumber": "RFC8445",
+        "href": "https://tools.ietf.org/html/rfc8445",
+        "title": "Interactive Connectivity Establishment (ICE): A Protocol for Network Address Translator (NAT) Traversal",
+        "authors": [
+            "A. Keranen",
+            "C. Holmberg",
+            "J. Rosenberg"
+        ],
+        "rawDate": "2018-07",
+        "status": "Proposed Standard",
+        "obsoletes": [
+            "RFC5245"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc845": {
         "aliasOf": "rfc0845"
