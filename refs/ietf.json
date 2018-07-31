@@ -39007,6 +39007,7 @@
         "updates": [
             "RFC0959"
         ],
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=2640",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -73337,7 +73338,8 @@
             "RFC7527",
             "RFC7559",
             "RFC8028",
-            "RFC8319"
+            "RFC8319",
+            "RFC8425"
         ],
         "obsoletes": [
             "RFC2461"
@@ -127910,6 +127912,36 @@
         ],
         "rawDate": "2018-07",
         "status": "Best Current Practice",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8425": {
+        "rfcNumber": "RFC8425",
+        "href": "https://tools.ietf.org/html/rfc8425",
+        "title": "IANA Considerations for IPv6 Neighbor Discovery Prefix Information Option Flags",
+        "authors": [
+            "O. Troan"
+        ],
+        "rawDate": "2018-07",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC4861"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8426": {
+        "rfcNumber": "RFC8426",
+        "href": "https://tools.ietf.org/html/rfc8426",
+        "title": "Recommendations for RSVP-TE and Segment Routing (SR) Label Switched Path (LSP) Coexistence",
+        "authors": [
+            "H. Sitaraman, Ed.",
+            "V. Beeram",
+            "I. Minei",
+            "S. Sivabalan"
+        ],
+        "rawDate": "2018-07",
+        "status": "Informational",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
