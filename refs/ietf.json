@@ -73473,7 +73473,7 @@
             "J. Solinas"
         ],
         "rawDate": "2007-05",
-        "status": "Informational",
+        "status": "Historic",
         "obsoletedBy": [
             "RFC6379"
         ],
@@ -75568,7 +75568,7 @@
             "J. Solinas"
         ],
         "rawDate": "2007-09",
-        "status": "Informational",
+        "status": "Historic",
         "obsoletedBy": [
             "RFC6318"
         ],
@@ -82042,7 +82042,7 @@
             "R. Housley"
         ],
         "rawDate": "2009-03",
-        "status": "Informational",
+        "status": "Historic",
         "obsoletedBy": [
             "RFC6460"
         ],
@@ -87068,7 +87068,7 @@
             "L. Zieglar"
         ],
         "rawDate": "2010-01",
-        "status": "Informational",
+        "status": "Historic",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -91407,6 +91407,7 @@
         "obsoletes": [
             "RFC2447"
         ],
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=6047",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -94344,7 +94345,7 @@
             "K. Igoe"
         ],
         "rawDate": "2011-05",
-        "status": "Informational",
+        "status": "Historic",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -95543,7 +95544,7 @@
             "J. Solinas"
         ],
         "rawDate": "2011-06",
-        "status": "Informational",
+        "status": "Historic",
         "obsoletes": [
             "RFC5008"
         ],
@@ -95672,7 +95673,8 @@
             "RFC7783",
             "RFC8139",
             "RFC8249",
-            "RFC8361"
+            "RFC8361",
+            "RFC8377"
         ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=6325",
         "publisher": "IETF",
@@ -96527,7 +96529,7 @@
             "J. Solinas"
         ],
         "rawDate": "2011-10",
-        "status": "Informational",
+        "status": "Historic",
         "obsoletes": [
             "RFC4869"
         ],
@@ -96546,7 +96548,7 @@
             "M. Peck"
         ],
         "rawDate": "2011-10",
-        "status": "Informational",
+        "status": "Historic",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -96873,7 +96875,7 @@
             "M. Peck"
         ],
         "rawDate": "2011-11",
-        "status": "Informational",
+        "status": "Historic",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -97775,7 +97777,7 @@
             "R. Housley"
         ],
         "rawDate": "2012-01",
-        "status": "Informational",
+        "status": "Historic",
         "obsoletes": [
             "RFC5430"
         ],
@@ -108613,7 +108615,8 @@
         "updatedBy": [
             "RFC7780",
             "RFC8139",
-            "RFC8249"
+            "RFC8249",
+            "RFC8377"
         ],
         "updates": [
             "RFC6325"
@@ -127367,6 +127370,24 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8377": {
+        "rfcNumber": "RFC8377",
+        "href": "https://tools.ietf.org/html/rfc8377",
+        "title": "Transparent Interconnection of Lots of Links (TRILL): Multi-Topology",
+        "authors": [
+            "D. Eastlake 3rd",
+            "M. Zhang",
+            "A. Banerjee"
+        ],
+        "rawDate": "2018-07",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC6325",
+            "RFC7177"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8378": {
         "rfcNumber": "RFC8378",
         "href": "https://tools.ietf.org/html/rfc8378",
@@ -127912,6 +127933,19 @@
         ],
         "rawDate": "2018-07",
         "status": "Best Current Practice",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8423": {
+        "rfcNumber": "RFC8423",
+        "href": "https://tools.ietf.org/html/rfc8423",
+        "title": "Reclassification of Suite B Documents to Historic Status",
+        "authors": [
+            "R. Housley",
+            "L. Zieglar"
+        ],
+        "rawDate": "2018-07",
+        "status": "Informational",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
