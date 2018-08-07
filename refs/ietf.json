@@ -67799,6 +67799,9 @@
             "RFC7027",
             "RFC7919"
         ],
+        "obsoletedBy": [
+            "RFC8422"
+        ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=4492",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -127860,6 +127863,32 @@
     "rfc841": {
         "aliasOf": "rfc0841"
     },
+    "rfc8410": {
+        "rfcNumber": "RFC8410",
+        "href": "https://tools.ietf.org/html/rfc8410",
+        "title": "Algorithm Identifiers for Ed25519, Ed448, X25519, and X448 for Use in the Internet X.509 Public Key Infrastructure",
+        "authors": [
+            "S. Josefsson",
+            "J. Schaad"
+        ],
+        "rawDate": "2018-08",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8411": {
+        "rfcNumber": "RFC8411",
+        "href": "https://tools.ietf.org/html/rfc8411",
+        "title": "IANA Registration for the Cryptographic Algorithm Object Identifier Range",
+        "authors": [
+            "J. Schaad",
+            "R. Andrews"
+        ],
+        "rawDate": "2018-08",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8412": {
         "rfcNumber": "RFC8412",
         "href": "https://tools.ietf.org/html/rfc8412",
@@ -127920,6 +127949,30 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8418": {
+        "rfcNumber": "RFC8418",
+        "href": "https://tools.ietf.org/html/rfc8418",
+        "title": "Use of the Elliptic Curve Diffie-Hellman Key Agreement Algorithm with X25519 and X448 in the Cryptographic Message Syntax (CMS)",
+        "authors": [
+            "R. Housley"
+        ],
+        "rawDate": "2018-08",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8419": {
+        "rfcNumber": "RFC8419",
+        "href": "https://tools.ietf.org/html/rfc8419",
+        "title": "Use of Edwards-Curve Digital Signature Algorithm (EdDSA) Signatures in the Cryptographic Message Syntax (CMS)",
+        "authors": [
+            "R. Housley"
+        ],
+        "rawDate": "2018-08",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc842": {
         "aliasOf": "rfc0842"
     },
@@ -127934,6 +127987,23 @@
         ],
         "rawDate": "2018-07",
         "status": "Best Current Practice",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8422": {
+        "rfcNumber": "RFC8422",
+        "href": "https://tools.ietf.org/html/rfc8422",
+        "title": "Elliptic Curve Cryptography (ECC) Cipher Suites for Transport Layer Security (TLS) Versions 1.2 and Earlier",
+        "authors": [
+            "Y. Nir",
+            "S. Josefsson",
+            "M. Pegourie-Gonnard"
+        ],
+        "rawDate": "2018-08",
+        "status": "Proposed Standard",
+        "obsoletes": [
+            "RFC4492"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
