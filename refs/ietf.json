@@ -56487,6 +56487,9 @@
         ],
         "rawDate": "2004-05",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC8447"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -70648,6 +70651,9 @@
         ],
         "rawDate": "2006-10",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC8447"
+        ],
         "updates": [
             "RFC4346"
         ],
@@ -76663,6 +76669,12 @@
         ],
         "rawDate": "2008-01",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC8447"
+        ],
+        "obsoletedBy": [
+            "RFC8446"
+        ],
         "obsoletes": [
             "RFC4507"
         ],
@@ -79240,7 +79252,11 @@
             "RFC7627",
             "RFC7685",
             "RFC7905",
-            "RFC7919"
+            "RFC7919",
+            "RFC8447"
+        ],
+        "obsoletedBy": [
+            "RFC8446"
         ],
         "updates": [
             "RFC4492"
@@ -86183,6 +86199,10 @@
         ],
         "rawDate": "2010-03",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC8446",
+            "RFC8447"
+        ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=5705",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -88837,6 +88857,9 @@
         ],
         "rawDate": "2010-05",
         "status": "Experimental",
+        "updatedBy": [
+            "RFC8447"
+        ],
         "updates": [
             "RFC5246"
         ],
@@ -91696,6 +91719,10 @@
         ],
         "rawDate": "2011-01",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC8446",
+            "RFC8449"
+        ],
         "obsoletes": [
             "RFC4366"
         ],
@@ -98662,6 +98689,9 @@
         ],
         "rawDate": "2012-02",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC8447"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -105348,6 +105378,9 @@
         ],
         "rawDate": "2013-06",
         "status": "Proposed Standard",
+        "obsoletedBy": [
+            "RFC8446"
+        ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=6961",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -110594,6 +110627,9 @@
         ],
         "rawDate": "2014-07",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC8447"
+        ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=7301",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -128113,6 +128149,65 @@
         "status": "Proposed Standard",
         "obsoletes": [
             "RFC5245"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8446": {
+        "rfcNumber": "RFC8446",
+        "href": "https://tools.ietf.org/html/rfc8446",
+        "title": "The Transport Layer Security (TLS) Protocol Version 1.3",
+        "authors": [
+            "E. Rescorla"
+        ],
+        "rawDate": "2018-08",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC5705",
+            "RFC6066"
+        ],
+        "obsoletes": [
+            "RFC5077",
+            "RFC5246",
+            "RFC6961"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8447": {
+        "rfcNumber": "RFC8447",
+        "href": "https://tools.ietf.org/html/rfc8447",
+        "title": "IANA Registry Updates for TLS and DTLS",
+        "authors": [
+            "J. Salowey",
+            "S. Turner"
+        ],
+        "rawDate": "2018-08",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC3749",
+            "RFC4680",
+            "RFC5077",
+            "RFC5246",
+            "RFC5705",
+            "RFC5878",
+            "RFC6520",
+            "RFC7301"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8449": {
+        "rfcNumber": "RFC8449",
+        "href": "https://tools.ietf.org/html/rfc8449",
+        "title": "Record Size Limit Extension for TLS",
+        "authors": [
+            "M. Thomson"
+        ],
+        "rawDate": "2018-08",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC6066"
         ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
