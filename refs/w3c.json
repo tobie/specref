@@ -19610,8 +19610,8 @@
         ],
         "href": "https://www.w3.org/TR/css-fonts-3/",
         "title": "CSS Fonts Module Level 3",
-        "rawDate": "2018-06-26",
-        "status": "CR",
+        "rawDate": "2018-08-14",
+        "status": "PR",
         "publisher": "W3C",
         "deliveredBy": [
             "https://www.w3.org/Style/CSS/members"
@@ -19726,6 +19726,22 @@
                 "title": "CSS Fonts Module Level 3",
                 "rawDate": "2018-06-26",
                 "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Style/CSS/members"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20180814": {
+                "authors": [
+                    "John Daggett",
+                    "Myles Maxfield",
+                    "Chris Lilley"
+                ],
+                "href": "https://www.w3.org/TR/2018/PR-css-fonts-3-20180814/",
+                "title": "CSS Fonts Module Level 3",
+                "rawDate": "2018-08-14",
+                "status": "PR",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/Style/CSS/members"
@@ -21651,7 +21667,7 @@
         ],
         "href": "https://www.w3.org/TR/css-scroll-snap-1/",
         "title": "CSS Scroll Snap Module Level 1",
-        "rawDate": "2017-12-14",
+        "rawDate": "2018-08-14",
         "status": "CR",
         "publisher": "W3C",
         "edDraft": "https://drafts.csswg.org/css-scroll-snap-1/",
@@ -21768,6 +21784,23 @@
                 "href": "https://www.w3.org/TR/2017/CR-css-scroll-snap-1-20171214/",
                 "title": "CSS Scroll Snap Module Level 1",
                 "rawDate": "2017-12-14",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Style/CSS/members"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20180814": {
+                "authors": [
+                    "Matt Rakow",
+                    "Jacob Rossi",
+                    "Tab Atkins Jr.",
+                    "Elika Etemad"
+                ],
+                "href": "https://www.w3.org/TR/2018/CR-css-scroll-snap-1-20180814/",
+                "title": "CSS Scroll Snap Module Level 1",
+                "rawDate": "2018-08-14",
                 "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -23138,7 +23171,7 @@
         ],
         "href": "https://www.w3.org/TR/css-values-3/",
         "title": "CSS Values and Units Module Level 3",
-        "rawDate": "2016-09-29",
+        "rawDate": "2018-08-14",
         "status": "CR",
         "publisher": "W3C",
         "deliveredBy": [
@@ -23243,9 +23276,58 @@
                     "https://www.w3.org/Style/CSS/members"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20180814": {
+                "authors": [
+                    "Tab Atkins Jr.",
+                    "Elika Etemad"
+                ],
+                "href": "https://www.w3.org/TR/2018/CR-css-values-3-20180814/",
+                "title": "CSS Values and Units Module Level 3",
+                "rawDate": "2018-08-14",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Style/CSS/members"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
+        "edDraft": "https://drafts.csswg.org/css-values-3/",
+        "repository": "https://github.com/w3c/csswg-drafts"
+    },
+    "css-values-4": {
+        "authors": [
+            "Tab Atkins Jr.",
+            "Elika Etemad"
+        ],
+        "href": "https://www.w3.org/TR/css-values-4/",
+        "title": "CSS Values and Units Module Level 4",
+        "rawDate": "2018-08-14",
+        "status": "WD",
+        "publisher": "W3C",
         "edDraft": "https://drafts.csswg.org/css-values/",
+        "deliveredBy": [
+            "https://www.w3.org/Style/CSS/members"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20180814": {
+                "authors": [
+                    "Tab Atkins Jr.",
+                    "Elika Etemad"
+                ],
+                "href": "https://www.w3.org/TR/2018/WD-css-values-4-20180814/",
+                "title": "CSS Values and Units Module Level 4",
+                "rawDate": "2018-08-14",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Style/CSS/members"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        },
         "repository": "https://github.com/w3c/csswg-drafts"
     },
     "css-variables": {
@@ -68596,7 +68678,7 @@
         ],
         "href": "https://www.w3.org/TR/ttml2/",
         "title": "Timed Text Markup Language 2 (TTML2)",
-        "rawDate": "2018-06-28",
+        "rawDate": "2018-08-14",
         "status": "CR",
         "publisher": "W3C",
         "deliveredBy": [
@@ -68694,6 +68776,21 @@
                 "href": "https://www.w3.org/TR/2018/CR-ttml2-20180628/",
                 "title": "Timed Text Markup Language 2 (TTML2)",
                 "rawDate": "2018-06-28",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/AudioVideo/TT/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20180814": {
+                "authors": [
+                    "Glenn Adams",
+                    "Cyril Concolato"
+                ],
+                "href": "https://www.w3.org/TR/2018/CR-ttml2-20180814/",
+                "title": "Timed Text Markup Language 2 (TTML2)",
+                "rawDate": "2018-08-14",
                 "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
