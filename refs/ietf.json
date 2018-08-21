@@ -96603,6 +96603,7 @@
         "obsoletes": [
             "RFC4281"
         ],
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=6381",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -128033,6 +128034,18 @@
     "rfc842": {
         "aliasOf": "rfc0842"
     },
+    "rfc8420": {
+        "rfcNumber": "RFC8420",
+        "href": "https://tools.ietf.org/html/rfc8420",
+        "title": "Using the Edwards-Curve Digital Signature Algorithm (EdDSA) in the Internet Key Exchange Protocol Version 2 (IKEv2)",
+        "authors": [
+            "Y. Nir"
+        ],
+        "rawDate": "2018-08",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8421": {
         "rfcNumber": "RFC8421",
         "href": "https://tools.ietf.org/html/rfc8421",
@@ -128075,6 +128088,19 @@
         ],
         "rawDate": "2018-07",
         "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8424": {
+        "rfcNumber": "RFC8424",
+        "href": "https://tools.ietf.org/html/rfc8424",
+        "title": "Extensions to RSVP-TE for Label Switched Path (LSP) Ingress Fast Reroute (FRR) Protection",
+        "authors": [
+            "H. Chen, Ed.",
+            "R. Torvi, Ed."
+        ],
+        "rawDate": "2018-08",
+        "status": "Experimental",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -128142,6 +128168,19 @@
     },
     "rfc844": {
         "aliasOf": "rfc0844"
+    },
+    "rfc8440": {
+        "rfcNumber": "RFC8440",
+        "href": "https://tools.ietf.org/html/rfc8440",
+        "title": "IMAP4 Extension for Returning MYRIGHTS Information in Extended LIST",
+        "authors": [
+            "K. Murchison",
+            "B. Gondwana"
+        ],
+        "rawDate": "2018-08",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc8445": {
         "rfcNumber": "RFC8445",
