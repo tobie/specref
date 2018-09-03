@@ -21893,6 +21893,7 @@
         ],
         "rawDate": "1993-12",
         "status": "Informational",
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=1557",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -36328,7 +36329,8 @@
         "status": "Proposed Standard",
         "updatedBy": [
             "RFC3168",
-            "RFC3260"
+            "RFC3260",
+            "RFC8436"
         ],
         "updates": [
             "RFC0791"
@@ -52686,7 +52688,8 @@
             "RFC6186",
             "RFC6858",
             "RFC7817",
-            "RFC8314"
+            "RFC8314",
+            "RFC8437"
         ],
         "obsoletes": [
             "RFC2060"
@@ -85563,7 +85566,8 @@
         "rawDate": "2010-01",
         "status": "Proposed Standard",
         "updatedBy": [
-            "RFC8178"
+            "RFC8178",
+            "RFC8434"
         ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=5661",
         "publisher": "IETF",
@@ -120571,6 +120575,7 @@
         ],
         "rawDate": "2016-08",
         "status": "Informational",
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=7938",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -123651,6 +123656,7 @@
         ],
         "rawDate": "2017-04-01",
         "status": "Experimental",
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=8135",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -125633,6 +125639,7 @@
         "obsoletes": [
             "RFC7564"
         ],
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=8264",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -125649,6 +125656,7 @@
         "obsoletes": [
             "RFC7613"
         ],
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=8265",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -127903,6 +127911,20 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8409": {
+        "rfcNumber": "RFC8409",
+        "href": "https://tools.ietf.org/html/rfc8409",
+        "title": "The Entity Category Security Assertion Markup Language (SAML) Attribute Types",
+        "authors": [
+            "I. Young, Ed.",
+            "L. Johansson",
+            "S. Cantor"
+        ],
+        "rawDate": "2018-08",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc841": {
         "aliasOf": "rfc0841"
     },
@@ -128147,8 +128169,106 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8428": {
+        "rfcNumber": "RFC8428",
+        "href": "https://tools.ietf.org/html/rfc8428",
+        "title": "Sensor Measurement Lists (SenML)",
+        "authors": [
+            "C. Jennings",
+            "Z. Shelby",
+            "J. Arkko",
+            "A. Keranen",
+            "C. Bormann"
+        ],
+        "rawDate": "2018-08",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc843": {
         "aliasOf": "rfc0843"
+    },
+    "rfc8433": {
+        "rfcNumber": "RFC8433",
+        "href": "https://tools.ietf.org/html/rfc8433",
+        "title": "A Simpler Method for Resolving Alert-Info URNs",
+        "authors": [
+            "D. Worley"
+        ],
+        "rawDate": "2018-08",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8434": {
+        "rfcNumber": "RFC8434",
+        "href": "https://tools.ietf.org/html/rfc8434",
+        "title": "Requirements for Parallel NFS (pNFS) Layout Types",
+        "authors": [
+            "T. Haynes"
+        ],
+        "rawDate": "2018-08",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC5661"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8435": {
+        "rfcNumber": "RFC8435",
+        "href": "https://tools.ietf.org/html/rfc8435",
+        "title": "Parallel NFS (pNFS) Flexible File Layout",
+        "authors": [
+            "B. Halevy",
+            "T. Haynes"
+        ],
+        "rawDate": "2018-08",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8436": {
+        "rfcNumber": "RFC8436",
+        "href": "https://tools.ietf.org/html/rfc8436",
+        "title": "Update to IANA Registration Procedures for Pool 3 Values in the Differentiated Services Field Codepoints (DSCP) Registry",
+        "authors": [
+            "G. Fairhurst"
+        ],
+        "rawDate": "2018-08",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC2474"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8437": {
+        "rfcNumber": "RFC8437",
+        "href": "https://tools.ietf.org/html/rfc8437",
+        "title": "IMAP UNAUTHENTICATE Extension for Connection Reuse",
+        "authors": [
+            "C. Newman"
+        ],
+        "rawDate": "2018-08",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC3501"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8438": {
+        "rfcNumber": "RFC8438",
+        "href": "https://tools.ietf.org/html/rfc8438",
+        "title": "IMAP Extension for STATUS=SIZE",
+        "authors": [
+            "S. Bosch"
+        ],
+        "rawDate": "2018-08",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc8439": {
         "rfcNumber": "RFC8439",
@@ -128176,6 +128296,21 @@
         "authors": [
             "K. Murchison",
             "B. Gondwana"
+        ],
+        "rawDate": "2018-08",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8443": {
+        "rfcNumber": "RFC8443",
+        "href": "https://tools.ietf.org/html/rfc8443",
+        "title": "Personal Assertion Token (PASSporT) Extension for Resource Priority Authorization",
+        "authors": [
+            "R. Singh",
+            "M. Dolly",
+            "S. Das",
+            "A. Nguyen"
         ],
         "rawDate": "2018-08",
         "status": "Proposed Standard",
@@ -128217,6 +128352,7 @@
             "RFC5246",
             "RFC6961"
         ],
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=8446",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -128260,6 +128396,19 @@
     },
     "rfc845": {
         "aliasOf": "rfc0845"
+    },
+    "rfc8453": {
+        "rfcNumber": "RFC8453",
+        "href": "https://tools.ietf.org/html/rfc8453",
+        "title": "Framework for Abstraction and Control of TE Networks (ACTN)",
+        "authors": [
+            "D. Ceccarelli, Ed.",
+            "Y. Lee, Ed."
+        ],
+        "rawDate": "2018-08",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc846": {
         "aliasOf": "rfc0846"
