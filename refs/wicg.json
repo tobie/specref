@@ -223,6 +223,14 @@
         "source": "https://wicg.github.io/admin/biblio.json",
         "repository": "https://github.com/wicg/BackgroundSync"
     },
+    "WEB-LOCKS": {
+        "href": "https://wicg.github.io/web-locks/",
+        "title": "Web Locks API",
+        "status": "Living Standard",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/web-locks"
+    },
     "WEB-SHARE": {
         "href": "https://wicg.github.io/web-share/",
         "title": "Web Share API",
@@ -357,6 +365,9 @@
     },
     "WICG-WEB-BACKGROUND-SYNC": {
         "aliasOf": "WEB-BACKGROUND-SYNC"
+    },
+    "WICG-WEB-LOCKS": {
+        "aliasOf": "WEB-LOCKS"
     },
     "WICG-WEB-SHARE": {
         "aliasOf": "WEB-SHARE"
