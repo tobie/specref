@@ -40075,6 +40075,102 @@
     "json-ld-syntax": {
         "aliasOf": "json-ld"
     },
+    "json-ld11": {
+        "authors": [
+            "Gregg Kellogg"
+        ],
+        "href": "https://www.w3.org/TR/json-ld11/",
+        "title": "JSON-LD 1.1",
+        "rawDate": "2018-09-11",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/json-ld-syntax/",
+        "deliveredBy": [
+            "https://www.w3.org/2018/json-ld-wg/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20180911": {
+                "authors": [
+                    "Gregg Kellogg"
+                ],
+                "href": "https://www.w3.org/TR/2018/WD-json-ld11-20180911/",
+                "title": "JSON-LD 1.1",
+                "rawDate": "2018-09-11",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2018/json-ld-wg/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        },
+        "repository": "https://github.com/w3c/json-ld-syntax"
+    },
+    "json-ld11-api": {
+        "authors": [
+            "Gregg Kellogg"
+        ],
+        "href": "https://www.w3.org/TR/json-ld11-api/",
+        "title": "JSON-LD 1.1 Processing Algorithms and API",
+        "rawDate": "2018-09-11",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/json-ld-api/",
+        "deliveredBy": [
+            "https://www.w3.org/2018/json-ld-wg/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20180911": {
+                "authors": [
+                    "Gregg Kellogg"
+                ],
+                "href": "https://www.w3.org/TR/2018/WD-json-ld11-api-20180911/",
+                "title": "JSON-LD 1.1 Processing Algorithms and API",
+                "rawDate": "2018-09-11",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2018/json-ld-wg/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        },
+        "repository": "https://github.com/w3c/json-ld-api"
+    },
+    "json-ld11-framing": {
+        "authors": [
+            "Gregg Kellogg"
+        ],
+        "href": "https://www.w3.org/TR/json-ld11-framing/",
+        "title": "JSON-LD 1.1 Framing",
+        "rawDate": "2018-09-11",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/json-ld-framing/",
+        "deliveredBy": [
+            "https://www.w3.org/2018/json-ld-wg/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20180911": {
+                "authors": [
+                    "Gregg Kellogg"
+                ],
+                "href": "https://www.w3.org/TR/2018/WD-json-ld11-framing-20180911/",
+                "title": "JSON-LD 1.1 Framing",
+                "rawDate": "2018-09-11",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2018/json-ld-wg/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        },
+        "repository": "https://github.com/w3c/json-ld-framing"
+    },
     "keyboard-lock": {
         "href": "https://w3c.github.io/keyboard-lock/",
         "title": "Keyboard Lock",
@@ -62240,8 +62336,8 @@
         ],
         "href": "https://www.w3.org/TR/selectors-3/",
         "title": "Selectors Level 3",
-        "rawDate": "2018-01-30",
-        "status": "CR",
+        "rawDate": "2018-09-11",
+        "status": "PR",
         "publisher": "W3C",
         "deliveredBy": [
             "https://www.w3.org/Style/CSS/members"
@@ -62330,6 +62426,25 @@
                 "title": "Selectors Level 3",
                 "rawDate": "2018-01-30",
                 "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Style/CSS/members"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20180911": {
+                "authors": [
+                    "Tantek Çelik",
+                    "Elika Etemad",
+                    "Daniel Glazman",
+                    "Ian Hickson",
+                    "Peter Linss",
+                    "John Williams"
+                ],
+                "href": "https://www.w3.org/TR/2018/PR-selectors-3-20180911/",
+                "title": "Selectors Level 3",
+                "rawDate": "2018-09-11",
+                "status": "PR",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/Style/CSS/members"
