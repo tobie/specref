@@ -1639,8 +1639,8 @@
             "Håkon Wium Lie",
             "Bert Bos"
         ],
-        "href": "https://www.w3.org/TR/REC-CSS1/",
-        "title": "Cascading Style Sheets (CSS1) Level 1 Specification",
+        "href": "https://www.w3.org/TR/CSS1/",
+        "title": "Cascading Style Sheets, level 1",
         "status": "REC",
         "publisher": "W3C",
         "deliveredBy": [
@@ -1749,10 +1749,27 @@
                 ],
                 "hasErrata": "https://www.w3.org/Style/CSS/Errata/REC-CSS1-19990111-errata",
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20180913": {
+                "authors": [
+                    "Håkon Wium Lie",
+                    "Bert Bos"
+                ],
+                "href": "https://www.w3.org/TR/2018/SPSD-CSS1-20180913/",
+                "title": "Cascading Style Sheets, level 1",
+                "rawDate": "2018-09-13",
+                "status": "REC",
+                "publisher": "W3C",
+                "isRetired": true,
+                "deliveredBy": [
+                    "https://www.w3.org/Style/CSS/members"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2008-04-11",
-        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+        "rawDate": "2018-09-13",
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "isRetired": true
     },
     "CSS2": {
         "authors": [
