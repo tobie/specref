@@ -96513,7 +96513,8 @@
         "rawDate": "2011-09",
         "status": "Internet Standard",
         "updatedBy": [
-            "RFC8301"
+            "RFC8301",
+            "RFC8463"
         ],
         "obsoletes": [
             "RFC4871",
@@ -127269,6 +127270,7 @@
         ],
         "rawDate": "2018-03",
         "status": "Proposed Standard",
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=8365",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -128455,6 +128457,21 @@
     },
     "rfc846": {
         "aliasOf": "rfc0846"
+    },
+    "rfc8463": {
+        "rfcNumber": "RFC8463",
+        "href": "https://tools.ietf.org/html/rfc8463",
+        "title": "A New Cryptographic Signature Method for DomainKeys Identified Mail (DKIM)",
+        "authors": [
+            "J. Levine"
+        ],
+        "rawDate": "2018-09",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC6376"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc847": {
         "aliasOf": "rfc0847"
