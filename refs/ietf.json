@@ -128319,6 +128319,7 @@
         "updates": [
             "RFC6455"
         ],
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=8441",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -128546,6 +128547,20 @@
     },
     "rfc847": {
         "aliasOf": "rfc0847"
+    },
+    "rfc8470": {
+        "rfcNumber": "RFC8470",
+        "href": "https://tools.ietf.org/html/rfc8470",
+        "title": "Using Early Data in HTTP",
+        "authors": [
+            "M. Thomson",
+            "M. Nottingham",
+            "W. Tarreau"
+        ],
+        "rawDate": "2018-09",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc848": {
         "aliasOf": "rfc0848"
