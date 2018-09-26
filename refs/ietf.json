@@ -52690,7 +52690,8 @@
             "RFC6858",
             "RFC7817",
             "RFC8314",
-            "RFC8437"
+            "RFC8437",
+            "RFC8474"
         ],
         "obsoletes": [
             "RFC2060"
@@ -128116,7 +128117,6 @@
         ],
         "rawDate": "2018-07",
         "status": "Informational",
-        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=8423",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -128561,6 +128561,21 @@
         ],
         "rawDate": "2018-09",
         "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8474": {
+        "rfcNumber": "RFC8474",
+        "href": "https://tools.ietf.org/html/rfc8474",
+        "title": "IMAP Extension for Object Identifiers",
+        "authors": [
+            "B. Gondwana, Ed."
+        ],
+        "rawDate": "2018-09",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC3501"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
