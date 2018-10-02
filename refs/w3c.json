@@ -32281,8 +32281,8 @@
         ],
         "href": "https://www.w3.org/TR/graphics-aam-1.0/",
         "title": "Graphics Accessibility API Mappings",
-        "rawDate": "2018-06-26",
-        "status": "PR",
+        "rawDate": "2018-10-02",
+        "status": "REC",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/graphics-aam/",
         "deliveredBy": [
@@ -32380,10 +32380,28 @@
                     "https://www.w3.org/WAI/ARIA/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20181002": {
+                "authors": [
+                    "Amelia Bellamy-Royds",
+                    "Joanmarie Diggs",
+                    "Michael Cooper"
+                ],
+                "href": "https://www.w3.org/TR/2018/REC-graphics-aam-1.0-20181002/",
+                "title": "Graphics Accessibility API Mappings",
+                "rawDate": "2018-10-02",
+                "status": "REC",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WAI/ARIA/"
+                ],
+                "hasErrata": "https://www.w3.org/WAI/ARIA/1.0/errata/graphics-aria",
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
         "repository": "https://github.com/w3c/aria",
-        "isRetired": true
+        "isRetired": true,
+        "hasErrata": "https://www.w3.org/WAI/ARIA/1.0/errata/graphics-aria"
     },
     "graphics-aria-1.0": {
         "authors": [
@@ -32393,8 +32411,8 @@
         ],
         "href": "https://www.w3.org/TR/graphics-aria-1.0/",
         "title": "WAI-ARIA Graphics Module",
-        "rawDate": "2018-06-26",
-        "status": "PR",
+        "rawDate": "2018-10-02",
+        "status": "REC",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/graphics-aria/",
         "deliveredBy": [
@@ -32485,9 +32503,27 @@
                     "https://www.w3.org/WAI/ARIA/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20181002": {
+                "authors": [
+                    "Amelia Bellamy-Royds",
+                    "Joanmarie Diggs",
+                    "Michael Cooper"
+                ],
+                "href": "https://www.w3.org/TR/2018/REC-graphics-aria-1.0-20181002/",
+                "title": "WAI-ARIA Graphics Module",
+                "rawDate": "2018-10-02",
+                "status": "REC",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WAI/ARIA/"
+                ],
+                "hasErrata": "https://www.w3.org/WAI/ARIA/1.0/errata/graphics-aria",
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "repository": "https://github.com/w3c/aria"
+        "repository": "https://github.com/w3c/aria",
+        "hasErrata": "https://www.w3.org/WAI/ARIA/1.0/errata/graphics-aria"
     },
     "grddl": {
         "authors": [
