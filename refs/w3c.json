@@ -18358,7 +18358,7 @@
         ],
         "href": "https://www.w3.org/TR/css-animations-1/",
         "title": "CSS Animations Level 1",
-        "rawDate": "2017-11-30",
+        "rawDate": "2018-10-11",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://drafts.csswg.org/css-animations/",
@@ -18407,6 +18407,23 @@
                 "href": "https://www.w3.org/TR/2017/WD-css-animations-1-20171130/",
                 "title": "CSS Animations Level 1",
                 "rawDate": "2017-11-30",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Style/CSS/members"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20181011": {
+                "authors": [
+                    "Dean Jackson",
+                    "David Baron",
+                    "Tab Atkins Jr.",
+                    "Brian Birtles"
+                ],
+                "href": "https://www.w3.org/TR/2018/WD-css-animations-1-20181011/",
+                "title": "CSS Animations Level 1",
+                "rawDate": "2018-10-11",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -23105,11 +23122,12 @@
         "authors": [
             "David Baron",
             "Dean Jackson",
-            "Brian Birtles"
+            "Brian Birtles",
+            "David Hyatt"
         ],
         "href": "https://www.w3.org/TR/css-transitions-1/",
         "title": "CSS Transitions",
-        "rawDate": "2017-11-30",
+        "rawDate": "2018-10-11",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://drafts.csswg.org/css-transitions/",
@@ -23179,6 +23197,23 @@
                 "href": "https://www.w3.org/TR/2017/WD-css-transitions-1-20171130/",
                 "title": "CSS Transitions",
                 "rawDate": "2017-11-30",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Style/CSS/members"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20181011": {
+                "authors": [
+                    "David Baron",
+                    "Dean Jackson",
+                    "Brian Birtles",
+                    "David Hyatt"
+                ],
+                "href": "https://www.w3.org/TR/2018/WD-css-transitions-1-20181011/",
+                "title": "CSS Transitions",
+                "rawDate": "2018-10-11",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -74966,16 +75001,19 @@
     "web-animations-1": {
         "authors": [
             "Brian Birtles",
+            "Robert Flack",
+            "Stephen McGruer",
+            "Antoine Quint",
             "Shane Stephens",
             "Alex Danilo",
             "Tab Atkins Jr."
         ],
         "href": "https://www.w3.org/TR/web-animations-1/",
         "title": "Web Animations",
-        "rawDate": "2016-09-13",
+        "rawDate": "2018-10-11",
         "status": "WD",
         "publisher": "W3C",
-        "edDraft": "https://w3c.github.io/web-animations/",
+        "edDraft": "https://drafts.csswg.org/web-animations-1/",
         "deliveredBy": [
             "https://www.w3.org/Style/CSS/members",
             "https://www.w3.org/Graphics/SVG/WG/"
@@ -75041,6 +75079,27 @@
                 "href": "https://www.w3.org/TR/2016/WD-web-animations-1-20160913/",
                 "title": "Web Animations",
                 "rawDate": "2016-09-13",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Style/CSS/members",
+                    "https://www.w3.org/Graphics/SVG/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20181011": {
+                "authors": [
+                    "Brian Birtles",
+                    "Robert Flack",
+                    "Stephen McGruer",
+                    "Antoine Quint",
+                    "Shane Stephens",
+                    "Alex Danilo",
+                    "Tab Atkins Jr."
+                ],
+                "href": "https://www.w3.org/TR/2018/WD-web-animations-1-20181011/",
+                "title": "Web Animations",
+                "rawDate": "2018-10-11",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
