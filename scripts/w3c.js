@@ -309,7 +309,7 @@ function makeCleaner(status, isRetired, isSuperseded) {
         var type = walk(spec, "rdf:type", 0, "$", "rdf:resource");
         var obj = {
             authors:         authors,
-            href:            convertToHttps(walk(spec, "$", "rdf:about")),
+            href:            convertToHttps(walk(spec, "$", "rdf:about").trim()),
             title:           walk(spec, "dc:title", 0),
             rawDate:         walk(spec, "dc:date", 0),
             status:          status,

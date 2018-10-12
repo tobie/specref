@@ -40472,7 +40472,7 @@
         ],
         "href": "https://www.w3.org/TR/json-ld11/",
         "title": "JSON-LD 1.1",
-        "rawDate": "2018-09-11",
+        "rawDate": "2018-10-11",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/json-ld-syntax/",
@@ -40494,6 +40494,20 @@
                     "https://www.w3.org/2018/json-ld-wg/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20181011": {
+                "authors": [
+                    "Gregg Kellogg"
+                ],
+                "href": "https://www.w3.org/TR/2018/WD-json-ld11-20181011/",
+                "title": "JSON-LD 1.1",
+                "rawDate": "2018-10-11",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2018/json-ld-wg/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
         "repository": "https://github.com/w3c/json-ld-syntax"
@@ -40504,7 +40518,7 @@
         ],
         "href": "https://www.w3.org/TR/json-ld11-api/",
         "title": "JSON-LD 1.1 Processing Algorithms and API",
-        "rawDate": "2018-09-11",
+        "rawDate": "2018-10-12",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/json-ld-api/",
@@ -40526,6 +40540,20 @@
                     "https://www.w3.org/2018/json-ld-wg/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20181012": {
+                "authors": [
+                    "Gregg Kellogg"
+                ],
+                "href": "https://www.w3.org/TR/2018/WD-json-ld11-api-20181012/",
+                "title": "JSON-LD 1.1 Processing Algorithms and API",
+                "rawDate": "2018-10-12",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2018/json-ld-wg/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
         "repository": "https://github.com/w3c/json-ld-api"
@@ -40536,7 +40564,7 @@
         ],
         "href": "https://www.w3.org/TR/json-ld11-framing/",
         "title": "JSON-LD 1.1 Framing",
-        "rawDate": "2018-09-11",
+        "rawDate": "2018-10-12",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/json-ld-framing/",
@@ -40552,6 +40580,20 @@
                 "href": "https://www.w3.org/TR/2018/WD-json-ld11-framing-20180911/",
                 "title": "JSON-LD 1.1 Framing",
                 "rawDate": "2018-09-11",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2018/json-ld-wg/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20181012": {
+                "authors": [
+                    "Gregg Kellogg"
+                ],
+                "href": "https://www.w3.org/TR/2018/WD-json-ld11-framing-20181012/",
+                "title": "JSON-LD 1.1 Framing",
+                "rawDate": "2018-10-12",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -61892,9 +61934,24 @@
                     "https://www.w3.org/WebPlatform/WG/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20181012": {
+                "authors": [
+                    "Mounir Lamouri",
+                    "Marcos Caceres"
+                ],
+                "href": "https://www.w3.org/TR/2018/WD-screen-orientation-20181012/",
+                "title": "The Screen Orientation API",
+                "rawDate": "2018-10-12",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WebPlatform/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2018-09-26",
+        "rawDate": "2018-10-12",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
         "edDraft": "https://w3c.github.io/screen-orientation/",
         "repository": "https://github.com/w3c/screen-orientation"
@@ -71993,7 +72050,7 @@
         ],
         "href": "https://www.w3.org/TR/view-mode/",
         "title": "The 'view-mode' Media Feature",
-        "rawDate": "2012-06-19",
+        "rawDate": "2018-10-11",
         "status": "REC",
         "publisher": "W3C",
         "deliveredBy": [
@@ -72041,8 +72098,25 @@
                 ],
                 "hasErrata": "http://dev.w3.org/2006/waf/widgets-vmmf/errata.html",
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20181011": {
+                "authors": [
+                    "Robin Berjon",
+                    "Marcos Caceres"
+                ],
+                "href": "https://www.w3.org/TR/2018/OBSL-view-mode-20181011/",
+                "title": "The 'view-mode' Media Feature",
+                "rawDate": "2018-10-11",
+                "status": "REC",
+                "publisher": "W3C",
+                "isRetired": true,
+                "deliveredBy": [
+                    "https://www.w3.org/2008/webapps/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "isRetired": true
     },
     "visual-marks": {
         "versions": {
@@ -78544,7 +78618,7 @@
         ],
         "href": "https://www.w3.org/TR/widgets/",
         "title": "Packaged Web Apps (Widgets) - Packaging and XML Configuration (Second Edition)",
-        "rawDate": "2012-11-27",
+        "rawDate": "2018-10-11",
         "status": "REC",
         "publisher": "W3C",
         "deliveredBy": [
@@ -78660,8 +78734,24 @@
                 ],
                 "hasErrata": "http://dev.w3.org/2006/waf/widgets/errata.html",
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20181011": {
+                "authors": [
+                    "Marcos Caceres"
+                ],
+                "href": "https://www.w3.org/TR/2018/OBSL-widgets-20181011/",
+                "title": "Packaged Web Apps (Widgets) - Packaging and XML Configuration (Second Edition)",
+                "rawDate": "2018-10-11",
+                "status": "REC",
+                "publisher": "W3C",
+                "isRetired": true,
+                "deliveredBy": [
+                    "https://www.w3.org/2008/webapps/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "isRetired": true
     },
     "widgets-access": {
         "authors": [
@@ -78670,7 +78760,7 @@
         ],
         "href": "https://www.w3.org/TR/widgets-access/",
         "title": "Widget Access Request Policy",
-        "rawDate": "2012-02-07",
+        "rawDate": "2018-10-11",
         "status": "REC",
         "publisher": "W3C",
         "deliveredBy": [
@@ -78724,8 +78814,25 @@
                 ],
                 "hasErrata": "http://dev.w3.org/2006/waf/widgets-access/errata.html",
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20181011": {
+                "authors": [
+                    "Marcos Caceres",
+                    "Robin Berjon"
+                ],
+                "href": "https://www.w3.org/TR/2018/OBSL-widgets-access-20181011/",
+                "title": "Widget Access Request Policy",
+                "rawDate": "2018-10-11",
+                "status": "REC",
+                "publisher": "W3C",
+                "isRetired": true,
+                "deliveredBy": [
+                    "https://www.w3.org/2008/webapps/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "isRetired": true
     },
     "widgets-apis": {
         "authors": [
@@ -78733,7 +78840,7 @@
         ],
         "href": "https://www.w3.org/TR/widgets-apis/",
         "title": "Widget Interface",
-        "rawDate": "2013-10-31",
+        "rawDate": "2018-10-11",
         "status": "REC",
         "publisher": "W3C",
         "deliveredBy": [
@@ -78816,10 +78923,26 @@
                     "https://www.w3.org/2008/webapps/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20181011": {
+                "authors": [
+                    "Marcos Caceres"
+                ],
+                "href": "https://www.w3.org/TR/2018/OBSL-widgets-apis-20181011/",
+                "title": "Widget Interface",
+                "rawDate": "2018-10-11",
+                "status": "REC",
+                "publisher": "W3C",
+                "isRetired": true,
+                "deliveredBy": [
+                    "https://www.w3.org/2008/webapps/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
         "edDraft": "https://w3c.github.io/packaged-webapps/api/Overview.html",
-        "repository": "https://github.com/w3c/packaged-webapps"
+        "repository": "https://github.com/w3c/packaged-webapps",
+        "isRetired": true
     },
     "widgets-digsig": {
         "authors": [
@@ -78831,7 +78954,7 @@
         ],
         "href": "https://www.w3.org/TR/widgets-digsig/",
         "title": "XML Digital Signatures for Widgets",
-        "rawDate": "2013-04-18",
+        "rawDate": "2018-10-11",
         "status": "REC",
         "publisher": "W3C",
         "deliveredBy": [
@@ -78912,8 +79035,28 @@
                 ],
                 "hasErrata": "http://dev.w3.org/2006/waf/widgets-digsig/errata.html",
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20181011": {
+                "authors": [
+                    "Marcos Caceres",
+                    "Paddy Byers",
+                    "Stuart Knightley",
+                    "Frederick Hirsch",
+                    "Mark Priestley"
+                ],
+                "href": "https://www.w3.org/TR/2018/OBSL-widgets-digsig-20181011/",
+                "title": "XML Digital Signatures for Widgets",
+                "rawDate": "2018-10-11",
+                "status": "REC",
+                "publisher": "W3C",
+                "isRetired": true,
+                "deliveredBy": [
+                    "https://www.w3.org/2008/webapps/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "isRetired": true
     },
     "widgets-land": {
         "authors": [
