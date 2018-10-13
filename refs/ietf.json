@@ -47645,6 +47645,9 @@
         ],
         "rawDate": "2001-10",
         "status": "Informational",
+        "obsoletes": [
+            "RFC8458"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -128542,6 +128545,21 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8458": {
+        "rfcNumber": "RFC8458",
+        "href": "https://tools.ietf.org/html/rfc8458",
+        "title": "Using National Bibliography Numbers as Uniform Resource Names",
+        "authors": [
+            "J. Hakala"
+        ],
+        "rawDate": "2018-10",
+        "status": "Informational",
+        "obsoletes": [
+            "RFC3188"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8459": {
         "rfcNumber": "RFC8459",
         "href": "https://tools.ietf.org/html/rfc8459",
@@ -128589,6 +128607,19 @@
         ],
         "rawDate": "2018-09",
         "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8462": {
+        "rfcNumber": "RFC8462",
+        "href": "https://tools.ietf.org/html/rfc8462",
+        "title": "Report from the IAB Workshop on Managing Radio Networks in an Encrypted World (MaRNEW)",
+        "authors": [
+            "N. Rooney",
+            "S. Dawkins, Ed."
+        ],
+        "rawDate": "2018-10",
+        "status": "Informational",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -128643,6 +128674,18 @@
         ],
         "rawDate": "2018-10",
         "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8467": {
+        "rfcNumber": "RFC8467",
+        "href": "https://tools.ietf.org/html/rfc8467",
+        "title": "Padding Policies for Extension Mechanisms for DNS (EDNS(0))",
+        "authors": [
+            "A. Mayrhofer"
+        ],
+        "rawDate": "2018-10",
+        "status": "Experimental",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -128723,6 +128766,19 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8475": {
+        "rfcNumber": "RFC8475",
+        "href": "https://tools.ietf.org/html/rfc8475",
+        "title": "Using Conditional Router Advertisements for Enterprise Multihoming",
+        "authors": [
+            "J. Linkova",
+            "M. Stucchi"
+        ],
+        "rawDate": "2018-10",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8478": {
         "rfcNumber": "RFC8478",
         "href": "https://tools.ietf.org/html/rfc8478",
@@ -128763,6 +128819,19 @@
         "updates": [
             "RFC6811"
         ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8485": {
+        "rfcNumber": "RFC8485",
+        "href": "https://tools.ietf.org/html/rfc8485",
+        "title": "Vectors of Trust",
+        "authors": [
+            "J. Richer, Ed.",
+            "L. Johansson"
+        ],
+        "rawDate": "2018-10",
+        "status": "Proposed Standard",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
