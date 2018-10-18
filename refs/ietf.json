@@ -92067,6 +92067,9 @@
         ],
         "rawDate": "2011-01",
         "status": "Informational",
+        "obsoletedBy": [
+            "RFC8407"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -127912,6 +127915,21 @@
         ],
         "rawDate": "2018-06",
         "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8407": {
+        "rfcNumber": "RFC8407",
+        "href": "https://tools.ietf.org/html/rfc8407",
+        "title": "Guidelines for Authors and Reviewers of Documents Containing YANG Data Models",
+        "authors": [
+            "A. Bierman"
+        ],
+        "rawDate": "2018-10",
+        "status": "Best Current Practice",
+        "obsoletes": [
+            "RFC6087"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
