@@ -958,34 +958,25 @@
       "href": "https://tech.ebu.ch/docs/tech/tech3350.pdf",
       "publisher": "European Broadcasting Union",
       "versions": {
-        "1": {
-          "aliasOf": "EBU-TT-1-0"
+        "1.0": {
+          "title": "EBU TECH 3350: \"EBU-TT Subtitling format definition\", Version 1.0",
+          "href": "https://tech.ebu.ch/docs/tech/tech3350v1-0.pdf",
+          "publisher": "European Broadcasting Union",
+          "rawDate": "2012-07"
         },
         "1.1": {
-          "aliasOf": "EBU-TT-1-1"
+          "title": "EBU TECH 3350: \"EBU-TT Subtitling format definition\", Version 1.1",
+          "href": "https://tech.ebu.ch/docs/tech/tech3350v1_1.pdf",
+          "publisher": "European Broadcasting Union",
+          "rawDate": "2015-09"
         },
         "1.2": {
-          "aliasOf": "EBU-TT-1-2"
+          "title": "EBU TECH 3350: \"EBU-TT Subtitling format definition\", Version 1.2",
+          "href": "https://tech.ebu.ch/docs/tech/tech3350v1-2.pdf",
+          "publisher": "European Broadcasting Union",
+          "rawDate": "2017-05"
         }
       }
-    },
-    "EBU-TT-1-0": {
-        "title": "EBU TECH 3350: \"EBU-TT Subtitling format definition\", Version 1.0",
-        "href": "https://tech.ebu.ch/docs/tech/tech3350v1-0.pdf",
-        "publisher": "European Broadcasting Union",
-        "date": "July 2012"
-    },
-    "EBU-TT-1-1": {
-        "title": "EBU TECH 3350: \"EBU-TT Subtitling format definition\", Version 1.1",
-        "href": "https://tech.ebu.ch/docs/tech/tech3350v1_1.pdf",
-        "publisher": "European Broadcasting Union",
-        "date": "September 2015"
-    },
-    "EBU-TT-1-2": {
-        "title": "EBU TECH 3350: \"EBU-TT Subtitling format definition\", Version 1.2",
-        "href": "https://tech.ebu.ch/docs/tech/tech3350v1-2.pdf",
-        "publisher": "European Broadcasting Union",
-        "date": "May 2017"
     },
     "EBU-TT-STL": {
         "title": "EBU TECH 3360: \"EBU-TT, Part 2 Mapping EBU STL (TECH 3264) to EBU-TT Subtitle Files\"",
@@ -998,16 +989,13 @@
       "href": "https://tech.ebu.ch/docs/tech/tech3370.pdf",
       "publisher": "European Broadcasting Union",
       "versions": {
-        "1": {
-          "aliasOf": "EBU-TT-Live-1-0"
+        "1.0": {
+          "title": "EBU TECH 3370: \"EBU-TT, Part 3 Live Subtitling Applications\", Version 1.0",
+          "href": "https://tech.ebu.ch/docs/tech/tech3370v1_0.pdf",
+          "publisher": "European Broadcasting Union",
+          "rawDate": "2017-05"
         }
       }
-    },
-    "EBU-TT-Live-1-0": {
-        "title": "EBU TECH 3370: \"EBU-TT, Part 3 Live Subtitling Applications\", Version 1.0",
-        "href": "https://tech.ebu.ch/docs/tech/tech3370v1_0.pdf",
-        "publisher": "European Broadcasting Union",
-        "date": "May 2017"
     },
     "EBU-TT-Live-WS": {
         "title": "EBU TECH 3370s1: \"EBU-TT, Part 3 Supplement 1 Live Subtitling Applications: Carriage over WebSocket\"",
@@ -1027,24 +1015,18 @@
         "publisher": "European Broadcasting Union",
         "versions": {
           "1": {
-            "aliasOf": "EBU-TT-D-1"
+            "title": "EBU TECH 3380: \"EBU-TT-D Subtitling Distribution Format\", Version 1",
+            "href": "https://tech.ebu.ch/docs/tech/tech3380v1_0.pdf",
+            "publisher": "European Broadcasting Union",
+            "rawDate": "2015-03"
           },
           "1.0.1": {
-            "aliasOf": "EBU-TT-D-1-0-1"
+            "title": "EBU TECH 3380: \"EBU-TT-D Subtitling Distribution Format\", Version 1.0.1",
+            "href": "https://tech.ebu.ch/docs/tech/tech3380v1_0_1.pdf",
+            "publisher": "European Broadcasting Union",
+            "rawDate": "2018-05"
           }
         }
-    },
-    "EBU-TT-D-1": {
-        "title": "EBU TECH 3380: \"EBU-TT-D Subtitling Distribution Format\", Version 1",
-        "href": "https://tech.ebu.ch/docs/tech/tech3380v1_0.pdf",
-        "publisher": "European Broadcasting Union",
-        "date": "March 2015"
-    },
-    "EBU-TT-D-1-0-1": {
-        "title": "EBU TECH 3380: \"EBU-TT-D Subtitling Distribution Format\", Version 1.0.1",
-        "href": "https://tech.ebu.ch/docs/tech/tech3380v1_0_1.pdf",
-        "publisher": "European Broadcasting Union",
-        "date": "May 2018"
     },
     "EBXML-MSG": {
         "authors": [
