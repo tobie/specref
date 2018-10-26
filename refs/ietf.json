@@ -5504,6 +5504,7 @@
         ],
         "rawDate": "1973-01",
         "status": "Unknown",
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=403",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -128257,6 +128258,22 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8432": {
+        "rfcNumber": "RFC8432",
+        "href": "https://tools.ietf.org/html/rfc8432",
+        "title": "A Framework for Management and Control of Microwave and Millimeter Wave Interface Parameters",
+        "authors": [
+            "J. Ahlberg, Ed.",
+            "M. Ye, Ed.",
+            "X. Li",
+            "LM. Contreras",
+            "CJ. Bernardos"
+        ],
+        "rawDate": "2018-10",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8433": {
         "rfcNumber": "RFC8433",
         "href": "https://tools.ietf.org/html/rfc8433",
@@ -128798,6 +128815,20 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8477": {
+        "rfcNumber": "RFC8477",
+        "href": "https://tools.ietf.org/html/rfc8477",
+        "title": "Report from the Internet of Things (IoT) Semantic Interoperability (IOTSI) Workshop 2016",
+        "authors": [
+            "J. Jimenez",
+            "H. Tschofenig",
+            "D. Thaler"
+        ],
+        "rawDate": "2018-10",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8478": {
         "rfcNumber": "RFC8478",
         "href": "https://tools.ietf.org/html/rfc8478",
@@ -128838,6 +128869,35 @@
         "updates": [
             "RFC6811"
         ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8483": {
+        "rfcNumber": "RFC8483",
+        "href": "https://tools.ietf.org/html/rfc8483",
+        "title": "Yeti DNS Testbed",
+        "authors": [
+            "L. Song, Ed.",
+            "D. Liu",
+            "P. Vixie",
+            "A. Kato",
+            "S. Kerr"
+        ],
+        "rawDate": "2018-10",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8484": {
+        "rfcNumber": "RFC8484",
+        "href": "https://tools.ietf.org/html/rfc8484",
+        "title": "DNS Queries over HTTPS (DoH)",
+        "authors": [
+            "P. Hoffman",
+            "P. McManus"
+        ],
+        "rawDate": "2018-10",
+        "status": "Proposed Standard",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
