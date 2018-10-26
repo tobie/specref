@@ -5679,9 +5679,11 @@
                 "rawDate": "1998-03-24",
                 "status": "NOTE",
                 "publisher": "W3C",
-                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+                "isRetired": true
             }
-        }
+        },
+        "isRetired": true
     },
     "P3P10-principles": {
         "authors": [
@@ -21423,6 +21425,93 @@
         },
         "repository": "https://github.com/w3c/csswg-drafts"
     },
+    "css-page-3": {
+        "authors": [
+            "Elika Etemad",
+            "Simon Sapin"
+        ],
+        "href": "https://www.w3.org/TR/css-page-3/",
+        "title": "CSS Paged Media Module Level 3",
+        "rawDate": "2018-10-18",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://drafts.csswg.org/css-page-3/",
+        "deliveredBy": [
+            "https://www.w3.org/Style/CSS/members"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "19990623": {
+                "status": "WD",
+                "rawDate": "1999-06-23",
+                "href": "https://www.w3.org/1999/06/WD-css3-page-19990623",
+                "source": "./data/w3c-specs.txt"
+            },
+            "19990928": {
+                "status": "WD",
+                "rawDate": "1999-09-28",
+                "href": "https://www.w3.org/TR/1999/WD-css3-page-19990928",
+                "source": "./data/w3c-specs.txt"
+            },
+            "20030909": {
+                "status": "WD",
+                "rawDate": "2003-09-09",
+                "href": "https://www.w3.org/TR/2003/WD-css3-page-20030909",
+                "source": "./data/w3c-specs.txt"
+            },
+            "20031218": {
+                "status": "WD",
+                "rawDate": "2003-12-18",
+                "href": "https://www.w3.org/TR/2003/WD-css3-page-20031218",
+                "source": "./data/w3c-specs.txt"
+            },
+            "20040225": {
+                "status": "CR",
+                "rawDate": "2004-02-25",
+                "href": "https://www.w3.org/TR/2004/CR-css3-page-20040225",
+                "source": "./data/w3c-specs.txt"
+            },
+            "20061010": {
+                "status": "WD",
+                "rawDate": "2006-10-10",
+                "href": "https://www.w3.org/TR/2006/WD-css3-page-20061010/",
+                "source": "./data/w3c-specs.txt"
+            },
+            "20130314": {
+                "authors": [
+                    "Melinda Grant",
+                    "Elika Etemad",
+                    "Håkon Wium Lie",
+                    "Simon Sapin"
+                ],
+                "href": "https://www.w3.org/TR/2013/WD-css3-page-20130314/",
+                "title": "CSS Paged Media Module Level 3",
+                "rawDate": "2013-03-14",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Style/CSS/members"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20181018": {
+                "authors": [
+                    "Elika Etemad",
+                    "Simon Sapin"
+                ],
+                "href": "https://www.w3.org/TR/2018/WD-css-page-3-20181018/",
+                "title": "CSS Paged Media Module Level 3",
+                "rawDate": "2018-10-18",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Style/CSS/members"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        },
+        "repository": "https://github.com/w3c/csswg-drafts"
+    },
     "css-page-floats-3": {
         "authors": [
             "Johannes Wilm"
@@ -24767,78 +24856,7 @@
         "aliasOf": "css-namespaces-3"
     },
     "css3-page": {
-        "authors": [
-            "Melinda Grant",
-            "Elika Etemad",
-            "Håkon Wium Lie",
-            "Simon Sapin"
-        ],
-        "href": "https://www.w3.org/TR/css3-page/",
-        "title": "CSS Paged Media Module Level 3",
-        "status": "WD",
-        "publisher": "W3C",
-        "deliveredBy": [
-            "https://www.w3.org/Style/CSS/members"
-        ],
-        "versions": {
-            "19990623": {
-                "status": "WD",
-                "rawDate": "1999-06-23",
-                "href": "https://www.w3.org/1999/06/WD-css3-page-19990623",
-                "source": "./data/w3c-specs.txt"
-            },
-            "19990928": {
-                "status": "WD",
-                "rawDate": "1999-09-28",
-                "href": "https://www.w3.org/TR/1999/WD-css3-page-19990928",
-                "source": "./data/w3c-specs.txt"
-            },
-            "20030909": {
-                "status": "WD",
-                "rawDate": "2003-09-09",
-                "href": "https://www.w3.org/TR/2003/WD-css3-page-20030909",
-                "source": "./data/w3c-specs.txt"
-            },
-            "20031218": {
-                "status": "WD",
-                "rawDate": "2003-12-18",
-                "href": "https://www.w3.org/TR/2003/WD-css3-page-20031218",
-                "source": "./data/w3c-specs.txt"
-            },
-            "20040225": {
-                "status": "CR",
-                "rawDate": "2004-02-25",
-                "href": "https://www.w3.org/TR/2004/CR-css3-page-20040225",
-                "source": "./data/w3c-specs.txt"
-            },
-            "20061010": {
-                "status": "WD",
-                "rawDate": "2006-10-10",
-                "href": "https://www.w3.org/TR/2006/WD-css3-page-20061010/",
-                "source": "./data/w3c-specs.txt"
-            },
-            "20130314": {
-                "authors": [
-                    "Melinda Grant",
-                    "Elika Etemad",
-                    "Håkon Wium Lie",
-                    "Simon Sapin"
-                ],
-                "href": "https://www.w3.org/TR/2013/WD-css3-page-20130314/",
-                "title": "CSS Paged Media Module Level 3",
-                "rawDate": "2013-03-14",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/Style/CSS/members"
-                ],
-                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
-            }
-        },
-        "rawDate": "2013-03-14",
-        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
-        "edDraft": "https://drafts.csswg.org/css-page-3/",
-        "repository": "https://github.com/w3c/csswg-drafts"
+        "aliasOf": "css-page-3"
     },
     "css3-positioning": {
         "aliasOf": "css-position-3"
@@ -33785,7 +33803,7 @@
         ],
         "href": "https://www.w3.org/TR/html-aam-1.0/",
         "title": "HTML Accessibility API Mappings 1.0",
-        "rawDate": "2018-10-18",
+        "rawDate": "2018-10-25",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/html-aam/",
@@ -34573,6 +34591,25 @@
                 "href": "https://www.w3.org/TR/2018/WD-html-aam-1.0-20181018/",
                 "title": "HTML Accessibility API Mappings 1.0",
                 "rawDate": "2018-10-18",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WebPlatform/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20181025": {
+                "authors": [
+                    "Steve Faulkner",
+                    "Alexander Surkov",
+                    "Scott O'Hara",
+                    "Bogdan Brinza",
+                    "Jason Kiss",
+                    "Cynthia Shelly"
+                ],
+                "href": "https://www.w3.org/TR/2018/WD-html-aam-1.0-20181025/",
+                "title": "HTML Accessibility API Mappings 1.0",
+                "rawDate": "2018-10-25",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -38167,7 +38204,7 @@
     "html53": {
         "href": "https://www.w3.org/TR/html53/",
         "title": "HTML 5.3",
-        "rawDate": "2018-08-09",
+        "rawDate": "2018-10-18",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/html/",
@@ -38280,6 +38317,26 @@
                 "href": "https://www.w3.org/TR/2018/WD-html53-20180809/",
                 "title": "HTML 5.3",
                 "rawDate": "2018-08-09",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WebPlatform/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20181018": {
+                "authors": [
+                    "Patricia Aas",
+                    "Shwetank Dixit",
+                    "Terence Eden",
+                    "Bruce Lawson",
+                    "Sangwhan Moon",
+                    "Xiaoqian Wu",
+                    "Scott O'Hara"
+                ],
+                "href": "https://www.w3.org/TR/2018/WD-html53-20181018/",
+                "title": "HTML 5.3",
+                "rawDate": "2018-10-18",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -49316,11 +49373,13 @@
                 "deliveredBy": [
                     "https://www.w3.org/P3P/Group/Specification/"
                 ],
-                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+                "isRetired": true
             }
         },
         "rawDate": "2002-02-11",
-        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "isRetired": true
     },
     "page-visibility": {
         "authors": [
@@ -51993,12 +52052,12 @@
         ],
         "href": "https://www.w3.org/TR/personalization-semantics-1.0/",
         "title": "Personalization Semantics Explainer 1.0",
-        "rawDate": "2018-03-16",
+        "rawDate": "2018-10-18",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/personalization-semantics/",
         "deliveredBy": [
-            "https://www.w3.org/WAI/ARIA/"
+            "https://www.w3.org/WAI/APA/"
         ],
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
         "versions": {
@@ -52053,6 +52112,24 @@
                     "https://www.w3.org/WAI/ARIA/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20181018": {
+                "authors": [
+                    "Lisa Seeman-Kestenbaum",
+                    "Charles LaPierre",
+                    "Richard Schwerdtfeger",
+                    "Michael Cooper",
+                    "Ruoxi Ran"
+                ],
+                "href": "https://www.w3.org/TR/2018/WD-personalization-semantics-1.0-20181018/",
+                "title": "Personalization Semantics Explainer 1.0",
+                "rawDate": "2018-10-18",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WAI/APA/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
         "repository": "https://github.com/w3c/personalization-semantics"
@@ -52061,18 +52138,18 @@
         "authors": [
             "Lisa Seeman-Kestenbaum",
             "Charles LaPierre",
-            "Richard Schwerdtfeger",
             "Michael Cooper",
-            "Ruoxi Ran"
+            "Ruoxi Ran",
+            "Richard Schwerdtfeger"
         ],
         "href": "https://www.w3.org/TR/personalization-semantics-content-1.0/",
         "title": "Personalization Semantics Content Module 1.0",
-        "rawDate": "2018-03-16",
+        "rawDate": "2018-10-18",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/personalization-semantics/content/",
         "deliveredBy": [
-            "https://www.w3.org/WAI/ARIA/"
+            "https://www.w3.org/WAI/APA/"
         ],
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
         "versions": {
@@ -52127,6 +52204,24 @@
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/WAI/ARIA/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20181018": {
+                "authors": [
+                    "Lisa Seeman-Kestenbaum",
+                    "Charles LaPierre",
+                    "Michael Cooper",
+                    "Ruoxi Ran",
+                    "Richard Schwerdtfeger"
+                ],
+                "href": "https://www.w3.org/TR/2018/WD-personalization-semantics-content-1.0-20181018/",
+                "title": "Personalization Semantics Content Module 1.0",
+                "rawDate": "2018-10-18",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WAI/APA/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
@@ -55084,7 +55179,7 @@
         ],
         "href": "https://www.w3.org/TR/push-api/",
         "title": "Push API",
-        "rawDate": "2017-12-15",
+        "rawDate": "2018-10-26",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -55488,6 +55583,24 @@
                 "href": "https://www.w3.org/TR/2017/WD-push-api-20171215/",
                 "title": "Push API",
                 "rawDate": "2017-12-15",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WebPlatform/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20181026": {
+                "authors": [
+                    "Peter Beverloo",
+                    "Martin Thomson",
+                    "Michael van Ouwerkerk",
+                    "Bryan Sullivan",
+                    "Eduardo Fullea"
+                ],
+                "href": "https://www.w3.org/TR/2018/WD-push-api-20181026/",
+                "title": "Push API",
+                "rawDate": "2018-10-26",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -63687,7 +63800,7 @@
         ],
         "href": "https://www.w3.org/TR/server-timing/",
         "title": "Server Timing",
-        "rawDate": "2018-10-17",
+        "rawDate": "2018-10-19",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/server-timing/",
@@ -63986,6 +64099,21 @@
                 "href": "https://www.w3.org/TR/2018/WD-server-timing-20181017/",
                 "title": "Server Timing",
                 "rawDate": "2018-10-17",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/webperf/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20181019": {
+                "authors": [
+                    "Charlie Vazac",
+                    "Ilya Grigorik"
+                ],
+                "href": "https://www.w3.org/TR/2018/WD-server-timing-20181019/",
+                "title": "Server Timing",
+                "rawDate": "2018-10-19",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -79929,7 +80057,7 @@
         ],
         "href": "https://www.w3.org/TR/wot-thing-description/",
         "title": "Web of Things (WoT) Thing Description",
-        "rawDate": "2018-04-05",
+        "rawDate": "2018-10-21",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/wot-thing-description/",
@@ -79961,6 +80089,21 @@
                 "href": "https://www.w3.org/TR/2018/WD-wot-thing-description-20180405/",
                 "title": "Web of Things (WoT) Thing Description",
                 "rawDate": "2018-04-05",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WoT/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20181021": {
+                "authors": [
+                    "Sebastian Käbisch",
+                    "Takuki Kamiya"
+                ],
+                "href": "https://www.w3.org/TR/2018/WD-wot-thing-description-20181021/",
+                "title": "Web of Things (WoT) Thing Description",
+                "rawDate": "2018-10-21",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
