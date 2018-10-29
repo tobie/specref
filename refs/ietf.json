@@ -119137,6 +119137,9 @@
         ],
         "rawDate": "2016-04",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC8486"
+        ],
         "updates": [
             "RFC5334"
         ],
@@ -124354,6 +124357,7 @@
         ],
         "rawDate": "2017-05",
         "status": "Best Current Practice",
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=8180",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -128910,6 +128914,22 @@
         ],
         "rawDate": "2018-10",
         "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8486": {
+        "rfcNumber": "RFC8486",
+        "href": "https://tools.ietf.org/html/rfc8486",
+        "title": "Ambisonics in an Ogg Opus Container",
+        "authors": [
+            "J. Skoglund",
+            "M. Graczyk"
+        ],
+        "rawDate": "2018-10",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC7845"
+        ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
