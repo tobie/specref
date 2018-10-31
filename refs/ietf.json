@@ -59615,6 +59615,9 @@
         ],
         "rawDate": "2005-02",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC8429"
+        ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=3961",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -62109,7 +62112,8 @@
             "RFC6806",
             "RFC7751",
             "RFC8062",
-            "RFC8129"
+            "RFC8129",
+            "RFC8429"
         ],
         "obsoletes": [
             "RFC1510"
@@ -128227,6 +128231,23 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8429": {
+        "rfcNumber": "RFC8429",
+        "href": "https://tools.ietf.org/html/rfc8429",
+        "title": "Deprecate Triple-DES (3DES) and RC4 in Kerberos",
+        "authors": [
+            "B. Kaduk",
+            "M. Short"
+        ],
+        "rawDate": "2018-10",
+        "status": "Best Current Practice",
+        "updates": [
+            "RFC3961",
+            "RFC4120"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc843": {
         "aliasOf": "rfc0843"
     },
@@ -128992,6 +129013,19 @@
             "E. Madden",
             "J. Scancella",
             "C. Adams"
+        ],
+        "rawDate": "2018-10",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8496": {
+        "rfcNumber": "RFC8496",
+        "href": "https://tools.ietf.org/html/rfc8496",
+        "title": "P-Charge-Info: A Private Header Field (P-Header) Extension to the Session Initiation Protocol (SIP)",
+        "authors": [
+            "D. York",
+            "T. Asveren"
         ],
         "rawDate": "2018-10",
         "status": "Informational",
