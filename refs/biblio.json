@@ -968,7 +968,7 @@
                 "title": "EBU TECH 3350: \"EBU-TT Subtitling format definition\", Version 1.0",
                 "href": "https://tech.ebu.ch/docs/tech/tech3350v1-0.pdf",
                 "publisher": "European Broadcasting Union",
-                "rawDate": "2012-07" 
+                "rawDate": "2012-07"
             },
             "1-1": {
                 "title": "EBU TECH 3350: \"EBU-TT Subtitling format definition\", Version 1.1",
@@ -1152,7 +1152,7 @@
         "authors": [
             "Hadley Beeman"
         ],
-	"rawDate": "2017-02-09"
+        "rawDate": "2017-02-09"
     },
     "EXIF": {
         "title": "Exchangeable image file format for digital still cameras",
@@ -1454,9 +1454,8 @@
     "ICE": {
         "aliasOf": "RFC5245"
     },
-    "ID3v2":
-    {
-	    "href": "http://id3.org/id3v2.4.0-structure",
+    "ID3v2": {
+        "href": "http://id3.org/id3v2.4.0-structure",
         "title": "ID3 tag version 2.4.0 - Main Structure",
         "publisher": "id3.org"
     },
@@ -1849,7 +1848,7 @@
         "title": "ISO/IEC 14496-30:2014 Preview Information technology -- Coding of audio-visual objects -- Part 30: Timed text and other visual overlays in ISO base media file format",
         "publisher": "ISO/IEC",
         "isoNumber": "ISO/IEC 14496-30:2014",
-        "rawDate": "2014-03" 
+        "rawDate": "2014-03"
     },
     "MPEG4-Audio": {
         "href": "https://www.iso.org/standard/53943.html",
@@ -1859,12 +1858,12 @@
         "status": "Published",
         "rawDate": "2009-09"
     },
-    "MPEGAVC":{
-         "href": "https://www.iso.org/standard/56538.html", 
-         "title": "ISO/IEC 14496-10:2010 Information technology -- Coding of audio-visual objects -- Part 10: Advanced Video Coding",
-         "publisher": "ISO/IEC",
-         "rawDate": "2010-12"
-	},
+    "MPEGAVC": {
+        "href": "https://www.iso.org/standard/56538.html",
+        "title": "ISO/IEC 14496-10:2010 Information technology -- Coding of audio-visual objects -- Part 10: Advanced Video Coding",
+        "publisher": "ISO/IEC",
+        "rawDate": "2010-12"
+    },
     "MPEGCENC": {
         "href": "https://www.iso.org/standard/68042.html",
         "title": "ISO/IEC 23001-7:2016 Preview Information technology -- MPEG systems technologies -- Part 7: Common encryption in ISO base media file format files",
@@ -1891,7 +1890,7 @@
         "publisher": "ISO/IEC",
         "isoNumber": "ISO/IEC 23008-2:2013",
         "rawDate": "2013-12"
-    },	
+    },
     "MSAA": {
         "href": "https://msdn.microsoft.com/en-us/library/ms697707.aspx",
         "title": "Microsoft Active Accessibility (MSAA) 2.0",
@@ -2322,6 +2321,11 @@
     "RUBY-UC": {
         "aliasOf": "ruby-use-cases"
     },
+    "SCTE104": {
+        "title": "Automation System to Compression System Communications Applications Program Interface (API)",
+        "href": "https://www.scte.org/SCTEDocs/Standards/ANSI_SCTE104%202017.pdf",
+        "publisher": "ANSI/SCTE"
+    },
     "SCTE128-1": {
         "title": "ANSI/SCTE 128-1 2013 AVC Constraints for Cable Television Part 1- Coding",
         "href": "http://www.scte.org/documents/pdf/Standards/ANSI_SCTE%20128-1%202013.pdf",
@@ -2332,21 +2336,6 @@
         "href": "http://www.scte.org/documents/pdf/Standards/ANSI_SCTE%20193-2%202014.pdf",
         "publisher": "ANSI/SCTE"
     },
-    "SCTE27": {
-        "title": "Subtitling Methods For Broadcast Cable",
-        "href": "http://www.scte.org/documents/pdf/Standards/ANSI_SCTE_27_2011.pdf",
-        "publisher": "ANSI/SCTE"
-    },
-	"SCTE35": {
-        "title": "Digital Program Insertion Cueing Message for Cable",
-        "href": "https://www.scte.org/SCTEDocs/Standards/SCTE%2035%202016.pdf",
-        "publisher": "ANSI/SCTE"
-    },
-    "SCTE104": {
-        "title": "Automation System to Compression System Communications Applications Program Interface (API)",
-        "href": "https://www.scte.org/SCTEDocs/Standards/ANSI_SCTE104%202017.pdf",
-        "publisher": "ANSI/SCTE"
-    },
     "SCTE214": {
         "title": "MPEG DASH for IP-Based Cable Services  Part 1: MPD Constraints and Extensions",
         "href": "https://www.scte.org/SCTEDocs/Standards/ANSI_SCTE%20214-1%202015.pdf",
@@ -2355,6 +2344,16 @@
     "SCTE224": {
         "title": " Event Scheduling and Notification Interface (ESNI) ",
         "href": "https://www.scte.org/SCTEDocs/Standards/ANSI_SCTE%20224%202018r1.pdf",
+        "publisher": "ANSI/SCTE"
+    },
+    "SCTE27": {
+        "title": "Subtitling Methods For Broadcast Cable",
+        "href": "http://www.scte.org/documents/pdf/Standards/ANSI_SCTE_27_2011.pdf",
+        "publisher": "ANSI/SCTE"
+    },
+    "SCTE35": {
+        "title": "Digital Program Insertion Cueing Message for Cable",
+        "href": "https://www.scte.org/SCTEDocs/Standards/SCTE%2035%202016.pdf",
         "publisher": "ANSI/SCTE"
     },
     "SCTP-SDP": {
