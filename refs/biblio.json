@@ -903,10 +903,19 @@
         "title": "Digital Video Broadcasting Project",
         "href": "https://www.dvb.org/"
     },
+    "DVB-DASH": {
+        "title": "ETSI TS 103 285 Digital Video Broadcasting (DVB); MPEG-DASH Profile for Transport of ISO BMFF Based DVB Services over IP Based Networks",
+        "href": "http://www.etsi.org/deliver/etsi_ts/103200_103299/103285/01.02.01_60/ts_103285v010201p.pdf",
+        "publisher": "European Telecommunications Standards Insitute",
+        "deliveredBy": [
+            "https://www.dvb.org/"
+        ],
+        "rawDate": "2018-03"
+    },
     "DVB-DATA": {
         "title": "ETSI EN 301 192: \"Digital Video Broadcasting (DVB); DVB specification for data broadcasting\"",
         "href": "https://www.dvb.org/resources/public/standards/a027_data_broadcast_specification.pdf",
-        "publisher": "European Telecommunications Standards Insitute",
+        "publisher": "European Telecommunications Standards Institute",
         "deliveredBy": [
             "https://www.dvb.org/"
         ]
@@ -959,7 +968,7 @@
                 "title": "EBU TECH 3350: \"EBU-TT Subtitling format definition\", Version 1.0",
                 "href": "https://tech.ebu.ch/docs/tech/tech3350v1-0.pdf",
                 "publisher": "European Broadcasting Union",
-                "rawDate": "2012-07"
+                "rawDate": "2012-07" 
             },
             "1-1": {
                 "title": "EBU TECH 3350: \"EBU-TT Subtitling format definition\", Version 1.1",
@@ -1143,7 +1152,7 @@
         "authors": [
             "Hadley Beeman"
         ],
-        "rawDate": "2017-02-09"
+	"rawDate": "2017-02-09"
     },
     "EXIF": {
         "title": "Exchangeable image file format for digital still cameras",
@@ -1444,6 +1453,12 @@
     },
     "ICE": {
         "aliasOf": "RFC5245"
+    },
+    "ID3v2":
+    {
+	    "href": "http://id3.org/id3v2.4.0-structure",
+        "title": "ID3 tag version 2.4.0 - Main Structure",
+        "publisher": "id3.org"
     },
     "IEEE-754": {
         "href": "http://ieeexplore.ieee.org/servlet/opac?punumber=4610933",
@@ -1829,6 +1844,13 @@
         ],
         "isoNumber": "ISO/IEC 13818-1:2013"
     },
+    "MPEG4-30": {
+        "href": "https://www.iso.org/standard/63107.html",
+        "title": "ISO/IEC 14496-30:2014 Preview Information technology -- Coding of audio-visual objects -- Part 30: Timed text and other visual overlays in ISO base media file format",
+        "publisher": "ISO/IEC",
+        "isoNumber": "ISO/IEC 14496-30:2014",
+        "rawDate": "2014-03" 
+    },
     "MPEG4-Audio": {
         "href": "https://www.iso.org/standard/53943.html",
         "title": "Information technology -- Coding of audio-visual objects -- Part 3: Audio",
@@ -1837,11 +1859,39 @@
         "status": "Published",
         "rawDate": "2009-09"
     },
+    "MPEGAVC":{
+         "href": "https://www.iso.org/standard/56538.html", 
+         "title": "ISO/IEC 14496-10:2010 Information technology -- Coding of audio-visual objects -- Part 10: Advanced Video Coding",
+         "publisher": "ISO/IEC",
+         "rawDate": "2010-12"
+	},
+    "MPEGCENC": {
+        "href": "https://www.iso.org/standard/68042.html",
+        "title": "ISO/IEC 23001-7:2016 Preview Information technology -- MPEG systems technologies -- Part 7: Common encryption in ISO base media file format files",
+        "publisher": "ISO/IEC",
+        "isoNumber": "ISO/IEC 23001-7:2016",
+        "rawDate": "2016-02"
+    },
+    "MPEGCMAF": {
+        "href": "https://www.iso.org/standard/71975.html",
+        "title": "ISO/IEC 23000-19:2018 Information technology -- Multimedia application format (MPEG-A) -- Part 19: Common media application format (CMAF) for segmented media",
+        "publisher": "ISO/IEC",
+        "isoNumber": "ISO/IEC 23000-19:2018",
+        "rawDate": "2018-01"
+    },
     "MPEGDASH": {
         "href": "http://standards.iso.org/ittf/PubliclyAvailableStandards/c065274_ISO_IEC_23009-1_2014.zip",
         "title": "ISO/IEC 23009-1:2014 Information technology -- Dynamic adaptive streaming over HTTP (DASH) -- Part 1: Media presentation description and segment formats",
-        "isoNumber": "ISO/IEC 23009-1:2014"
+        "isoNumber": "ISO/IEC 23009-1:2014",
+        "publisher": "ISO/IEC"
     },
+    "MPEGHEVC": {
+        "href": "https://www.iso.org/standard/35424.html",
+        "title": "ISO/IEC 23008-2:2013 Information technology -- High efficiency coding and media delivery in heterogeneous environments -- Part 2: High efficiency video coding",
+        "publisher": "ISO/IEC",
+        "isoNumber": "ISO/IEC 23008-2:2013",
+        "rawDate": "2013-12"
+    },	
     "MSAA": {
         "href": "https://msdn.microsoft.com/en-us/library/ms697707.aspx",
         "title": "Microsoft Active Accessibility (MSAA) 2.0",
@@ -2285,6 +2335,26 @@
     "SCTE27": {
         "title": "Subtitling Methods For Broadcast Cable",
         "href": "http://www.scte.org/documents/pdf/Standards/ANSI_SCTE_27_2011.pdf",
+        "publisher": "ANSI/SCTE"
+    },
+	"SCTE35": {
+        "title": "Digital Program Insertion Cueing Message for Cable",
+        "href": "https://www.scte.org/SCTEDocs/Standards/SCTE%2035%202016.pdf",
+        "publisher": "ANSI/SCTE"
+    },
+    "SCTE104": {
+        "title": "Automation System to Compression System Communications Applications Program Interface (API)",
+        "href": "https://www.scte.org/SCTEDocs/Standards/ANSI_SCTE104%202017.pdf",
+        "publisher": "ANSI/SCTE"
+    },
+    "SCTE214": {
+        "title": "MPEG DASH for IP-Based Cable Services  Part 1: MPD Constraints and Extensions",
+        "href": "https://www.scte.org/SCTEDocs/Standards/ANSI_SCTE%20214-1%202015.pdf",
+        "publisher": "ANSI/SCTE"
+    },
+    "SCTE224": {
+        "title": " Event Scheduling and Notification Interface (ESNI) ",
+        "href": "https://www.scte.org/SCTEDocs/Standards/ANSI_SCTE%20224%202018r1.pdf",
         "publisher": "ANSI/SCTE"
     },
     "SCTP-SDP": {
