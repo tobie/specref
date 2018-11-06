@@ -26904,6 +26904,42 @@
         "edDraft": "http://dvcs.w3.org/hg/dap/raw-file/tip/discovery-api/Overview.html",
         "isRetired": true
     },
+    "distributed-tracing": {
+        "authors": [
+            "Sergey Kanzhelev",
+            "Morgan McLean",
+            "Alois Reitbauer"
+        ],
+        "href": "https://www.w3.org/TR/distributed-tracing/",
+        "title": "Trace Context",
+        "rawDate": "2018-11-06",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/trace-context/",
+        "deliveredBy": [
+            "https://www.w3.org/2018/distributed-tracing/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20181106": {
+                "authors": [
+                    "Sergey Kanzhelev",
+                    "Morgan McLean",
+                    "Alois Reitbauer"
+                ],
+                "href": "https://www.w3.org/TR/2018/WD-distributed-tracing-20181106/",
+                "title": "Trace Context",
+                "rawDate": "2018-11-06",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2018/distributed-tracing/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        },
+        "repository": "https://github.com/w3c/trace-context"
+    },
     "dom-20101007": {
         "authors": [
             "Anne van Kesteren",
@@ -63404,8 +63440,8 @@
         ],
         "href": "https://www.w3.org/TR/selectors-3/",
         "title": "Selectors Level 3",
-        "rawDate": "2018-09-11",
-        "status": "PR",
+        "rawDate": "2018-11-06",
+        "status": "REC",
         "publisher": "W3C",
         "deliveredBy": [
             "https://www.w3.org/Style/CSS/members"
@@ -63513,6 +63549,25 @@
                 "title": "Selectors Level 3",
                 "rawDate": "2018-09-11",
                 "status": "PR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Style/CSS/members"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20181106": {
+                "authors": [
+                    "Tantek Çelik",
+                    "Elika Etemad",
+                    "Daniel Glazman",
+                    "Ian Hickson",
+                    "Peter Linss",
+                    "John Williams"
+                ],
+                "href": "https://www.w3.org/TR/2018/REC-selectors-3-20181106/",
+                "title": "Selectors Level 3",
+                "rawDate": "2018-11-06",
+                "status": "REC",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/Style/CSS/members"
