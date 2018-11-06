@@ -3871,7 +3871,8 @@
     },
     "FileAPI": {
         "authors": [
-            "Marijn Kruisselbrink"
+            "Marijn Kruisselbrink",
+            "Arun Ranganathan"
         ],
         "href": "https://www.w3.org/TR/FileAPI/",
         "title": "File API",
@@ -3969,9 +3970,24 @@
                     "https://www.w3.org/WebPlatform/WG/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20181106": {
+                "authors": [
+                    "Marijn Kruisselbrink",
+                    "Arun Ranganathan"
+                ],
+                "href": "https://www.w3.org/TR/2018/WD-FileAPI-20181106/",
+                "title": "File API",
+                "rawDate": "2018-11-06",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WebPlatform/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2017-10-26",
+        "rawDate": "2018-11-06",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
         "edDraft": "https://w3c.github.io/FileAPI/",
         "repository": "https://github.com/w3c/FileAPI"
@@ -39877,11 +39893,12 @@
     },
     "intersection-observer": {
         "authors": [
-            "Stefan Zager"
+            "Stefan Zager",
+            "Michael Blain"
         ],
         "href": "https://www.w3.org/TR/intersection-observer/",
         "title": "Intersection Observer",
-        "rawDate": "2017-09-14",
+        "rawDate": "2018-11-06",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/IntersectionObserver/",
@@ -39897,6 +39914,21 @@
                 "href": "https://www.w3.org/TR/2017/WD-intersection-observer-20170914/",
                 "title": "Intersection Observer",
                 "rawDate": "2017-09-14",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WebPlatform/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20181106": {
+                "authors": [
+                    "Stefan Zager",
+                    "Michael Blain"
+                ],
+                "href": "https://www.w3.org/TR/2018/WD-intersection-observer-20181106/",
+                "title": "Intersection Observer",
+                "rawDate": "2018-11-06",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
