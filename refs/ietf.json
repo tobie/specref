@@ -33969,7 +33969,8 @@
         "rawDate": "1998-05",
         "status": "Informational",
         "updatedBy": [
-            "RFC7312"
+            "RFC7312",
+            "RFC8468"
         ],
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -67128,7 +67129,8 @@
         "rawDate": "2006-04",
         "status": "Proposed Standard",
         "updatedBy": [
-            "RFC5462"
+            "RFC5462",
+            "RFC8469"
         ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=4448",
         "publisher": "IETF",
@@ -102521,6 +102523,9 @@
         ],
         "rawDate": "2012-11",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC8505"
+        ],
         "updates": [
             "RFC4944"
         ],
@@ -128458,6 +128463,24 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8444": {
+        "rfcNumber": "RFC8444",
+        "href": "https://tools.ietf.org/html/rfc8444",
+        "title": "OSPFv2 Extensions for Bit Index Explicit Replication (BIER)",
+        "authors": [
+            "P. Psenak, Ed.",
+            "N. Kumar",
+            "IJ. Wijnands",
+            "A. Dolganow",
+            "T. Przygienda",
+            "J. Zhang",
+            "S. Aldrin"
+        ],
+        "rawDate": "2018-11",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8445": {
         "rfcNumber": "RFC8445",
         "href": "https://tools.ietf.org/html/rfc8445",
@@ -128783,6 +128806,42 @@
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc8468": {
+        "rfcNumber": "RFC8468",
+        "href": "https://tools.ietf.org/html/rfc8468",
+        "title": "IPv4, IPv6, and IPv4-IPv6 Coexistence: Updates for the IP Performance Metrics (IPPM) Framework",
+        "authors": [
+            "A. Morton",
+            "J. Fabini",
+            "N. Elkins",
+            "M. Ackermann",
+            "V. Hegde"
+        ],
+        "rawDate": "2018-11",
+        "status": "Informational",
+        "updates": [
+            "RFC2330"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8469": {
+        "rfcNumber": "RFC8469",
+        "href": "https://tools.ietf.org/html/rfc8469",
+        "title": "Recommendation to Use the Ethernet Control Word",
+        "authors": [
+            "S. Bryant",
+            "A. Malis",
+            "I. Bagdonas"
+        ],
+        "rawDate": "2018-11",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC4448"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc847": {
         "aliasOf": "rfc0847"
     },
@@ -129019,6 +129078,21 @@
     "rfc849": {
         "aliasOf": "rfc0849"
     },
+    "rfc8491": {
+        "rfcNumber": "RFC8491",
+        "href": "https://tools.ietf.org/html/rfc8491",
+        "title": "Signaling Maximum SID Depth (MSD) Using IS-IS",
+        "authors": [
+            "J. Tantsura",
+            "U. Chunduri",
+            "S. Aldrin",
+            "L. Ginsberg"
+        ],
+        "rawDate": "2018-11",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc8493": {
         "rfcNumber": "RFC8493",
         "href": "https://tools.ietf.org/html/rfc8493",
@@ -129031,6 +129105,19 @@
             "C. Adams"
         ],
         "rawDate": "2018-10",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc8494": {
+        "rfcNumber": "RFC8494",
+        "href": "https://tools.ietf.org/html/rfc8494",
+        "title": "Multicast Email (MULE) over Allied Communications Publication (ACP) 142",
+        "authors": [
+            "D. Wilson",
+            "A. Melnikov, Ed."
+        ],
+        "rawDate": "2018-11",
         "status": "Informational",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -129053,6 +129140,24 @@
     },
     "rfc850": {
         "aliasOf": "rfc0850"
+    },
+    "rfc8505": {
+        "rfcNumber": "RFC8505",
+        "href": "https://tools.ietf.org/html/rfc8505",
+        "title": "Registration Extensions for IPv6 over Low-Power Wireless Personal Area Network (6LoWPAN) Neighbor Discovery",
+        "authors": [
+            "P. Thubert, Ed.",
+            "E. Nordmark",
+            "S. Chakrabarti",
+            "C. Perkins"
+        ],
+        "rawDate": "2018-11",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC6775"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc851": {
         "aliasOf": "rfc0851"
