@@ -113519,6 +113519,9 @@
         ],
         "rawDate": "2015-03",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC8521"
+        ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=7484",
         "publisher": "IETF",
         "source": "http://www.ietf.org/rfc/rfc-index.xml"
@@ -129164,6 +129167,22 @@
     },
     "rfc852": {
         "aliasOf": "rfc0852"
+    },
+    "rfc8521": {
+        "rfcNumber": "RFC8521",
+        "href": "https://tools.ietf.org/html/rfc8521",
+        "title": "Registration Data Access Protocol (RDAP) Object Tagging",
+        "authors": [
+            "S. Hollenbeck",
+            "A. Newton"
+        ],
+        "rawDate": "2018-11",
+        "status": "Best Current Practice",
+        "updates": [
+            "RFC7484"
+        ],
+        "publisher": "IETF",
+        "source": "http://www.ietf.org/rfc/rfc-index.xml"
     },
     "rfc854": {
         "aliasOf": "rfc0854"
