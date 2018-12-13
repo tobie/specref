@@ -8929,7 +8929,12 @@
                 "deliveredBy": [
                     "https://www.w3.org/WAI/GL/"
                 ],
-                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+                "authors": [
+                    "Michael Cooper",
+                    "Andrew Kirkpatrick",
+                    "Joshue O Connor"
+                ]
             }
         },
         "rawDate": "2016-10-07",
@@ -9765,7 +9770,12 @@
                 "deliveredBy": [
                     "https://www.w3.org/WAI/GL/"
                 ],
-                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+                "authors": [
+                    "Michael Cooper",
+                    "Andrew Kirkpatrick",
+                    "Joshue O Connor"
+                ]
             }
         },
         "rawDate": "2016-10-07",
@@ -13308,7 +13318,7 @@
         ],
         "href": "https://www.w3.org/TR/appmanifest/",
         "title": "Web App Manifest",
-        "rawDate": "2018-11-13",
+        "rawDate": "2018-12-12",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -15208,6 +15218,25 @@
                     "https://www.w3.org/WebPlatform/WG/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20181212": {
+                "authors": [
+                    "Marcos Caceres",
+                    "Kenneth Christiansen",
+                    "Mounir Lamouri",
+                    "Anssi Kostiainen",
+                    "Rob Dolin",
+                    "Matt Giuca"
+                ],
+                "href": "https://www.w3.org/TR/2018/WD-appmanifest-20181212/",
+                "title": "Web App Manifest",
+                "rawDate": "2018-12-12",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WebPlatform/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
         "edDraft": "https://w3c.github.io/manifest/",
@@ -17000,7 +17029,7 @@
         ],
         "href": "https://www.w3.org/TR/coga-gap-analysis/",
         "title": "Cognitive Accessibility Roadmap and Gap Analysis",
-        "rawDate": "2018-06-07",
+        "rawDate": "2018-12-11",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/coga/gap-analysis/",
@@ -17041,9 +17070,60 @@
                     "https://www.w3.org/WAI/GL/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20181211": {
+                "authors": [
+                    "Lisa Seeman-Kestenbaum",
+                    "Michael Cooper"
+                ],
+                "href": "https://www.w3.org/TR/2018/WD-coga-gap-analysis-20181211/",
+                "title": "Cognitive Accessibility Roadmap and Gap Analysis",
+                "rawDate": "2018-12-11",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WAI/APA/",
+                    "https://www.w3.org/WAI/GL/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
         "repository": "https://github.com/w3c/coga"
+    },
+    "coga-usable": {
+        "authors": [
+            "Lisa Seeman-Kestenbaum",
+            "Michael Cooper"
+        ],
+        "href": "https://www.w3.org/TR/coga-usable/",
+        "title": "Making Content Usable for People with Cognitive and Learning Disabilities",
+        "rawDate": "2018-12-11",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/coga/content-usable/",
+        "deliveredBy": [
+            "https://www.w3.org/WAI/GL/",
+            "https://www.w3.org/WAI/APA/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20181211": {
+                "authors": [
+                    "Lisa Seeman-Kestenbaum",
+                    "Michael Cooper"
+                ],
+                "href": "https://www.w3.org/TR/2018/WD-coga-usable-20181211/",
+                "title": "Making Content Usable for People with Cognitive and Learning Disabilities",
+                "rawDate": "2018-12-11",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WAI/GL/",
+                    "https://www.w3.org/WAI/APA/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
     },
     "coga-user-research": {
         "authors": [
@@ -18329,7 +18409,7 @@
         ],
         "href": "https://www.w3.org/TR/css-align-3/",
         "title": "CSS Box Alignment Module Level 3",
-        "rawDate": "2018-08-30",
+        "rawDate": "2018-12-06",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://drafts.csswg.org/css-align/",
@@ -18498,6 +18578,21 @@
                 "href": "https://www.w3.org/TR/2018/WD-css-align-3-20180830/",
                 "title": "CSS Box Alignment Module Level 3",
                 "rawDate": "2018-08-30",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Style/CSS/members"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20181206": {
+                "authors": [
+                    "Elika Etemad",
+                    "Tab Atkins Jr."
+                ],
+                "href": "https://www.w3.org/TR/2018/WD-css-align-3-20181206/",
+                "title": "CSS Box Alignment Module Level 3",
+                "rawDate": "2018-12-06",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -18879,7 +18974,7 @@
         ],
         "href": "https://www.w3.org/TR/css-break-3/",
         "title": "CSS Fragmentation Module Level 3",
-        "rawDate": "2017-02-09",
+        "rawDate": "2018-12-04",
         "status": "CR",
         "publisher": "W3C",
         "edDraft": "https://drafts.csswg.org/css-break/",
@@ -18962,6 +19057,21 @@
                 "href": "https://www.w3.org/TR/2017/CR-css-break-3-20170209/",
                 "title": "CSS Fragmentation Module Level 3",
                 "rawDate": "2017-02-09",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Style/CSS/members"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20181204": {
+                "authors": [
+                    "Rossen Atanassov",
+                    "Elika Etemad"
+                ],
+                "href": "https://www.w3.org/TR/2018/CR-css-break-3-20181204/",
+                "title": "CSS Fragmentation Module Level 3",
+                "rawDate": "2018-12-04",
                 "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -23019,11 +23129,12 @@
     "css-text-3": {
         "authors": [
             "Elika Etemad",
-            "Koji Ishii"
+            "Koji Ishii",
+            "Florian Rivoal"
         ],
         "href": "https://www.w3.org/TR/css-text-3/",
         "title": "CSS Text Module Level 3",
-        "rawDate": "2018-09-20",
+        "rawDate": "2018-12-12",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -23186,6 +23297,22 @@
                 "href": "https://www.w3.org/TR/2018/WD-css-text-3-20180920/",
                 "title": "CSS Text Module Level 3",
                 "rawDate": "2018-09-20",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Style/CSS/members"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20181212": {
+                "authors": [
+                    "Elika Etemad",
+                    "Koji Ishii",
+                    "Florian Rivoal"
+                ],
+                "href": "https://www.w3.org/TR/2018/WD-css-text-3-20181212/",
+                "title": "CSS Text Module Level 3",
+                "rawDate": "2018-12-12",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -23365,7 +23492,7 @@
         ],
         "href": "https://www.w3.org/TR/css-transforms-1/",
         "title": "CSS Transforms Module Level 1",
-        "rawDate": "2017-11-30",
+        "rawDate": "2018-11-30",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -23432,6 +23559,23 @@
                 "href": "https://www.w3.org/TR/2017/WD-css-transforms-1-20171130/",
                 "title": "CSS Transforms Module Level 1",
                 "rawDate": "2017-11-30",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Style/CSS/members"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20181130": {
+                "authors": [
+                    "Simon Fraser",
+                    "Dean Jackson",
+                    "Theresa O'Connor",
+                    "Dirk Schulze"
+                ],
+                "href": "https://www.w3.org/TR/2018/WD-css-transforms-1-20181130/",
+                "title": "CSS Transforms Module Level 1",
+                "rawDate": "2018-11-30",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -27115,40 +27259,7 @@
         "isRetired": true
     },
     "distributed-tracing": {
-        "authors": [
-            "Sergey Kanzhelev",
-            "Morgan McLean",
-            "Alois Reitbauer"
-        ],
-        "href": "https://www.w3.org/TR/distributed-tracing/",
-        "title": "Trace Context",
-        "rawDate": "2018-11-06",
-        "status": "WD",
-        "publisher": "W3C",
-        "edDraft": "https://w3c.github.io/trace-context/",
-        "deliveredBy": [
-            "https://www.w3.org/2018/distributed-tracing/"
-        ],
-        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
-        "versions": {
-            "20181106": {
-                "authors": [
-                    "Sergey Kanzhelev",
-                    "Morgan McLean",
-                    "Alois Reitbauer"
-                ],
-                "href": "https://www.w3.org/TR/2018/WD-distributed-tracing-20181106/",
-                "title": "Trace Context",
-                "rawDate": "2018-11-06",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/2018/distributed-tracing/"
-                ],
-                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
-            }
-        },
-        "repository": "https://github.com/w3c/trace-context"
+        "aliasOf": "trace-context"
     },
     "dom-20101007": {
         "authors": [
@@ -31073,18 +31184,17 @@
     },
     "filter-effects-1": {
         "authors": [
-            "Dean Jackson",
-            "Erik Dahlström",
-            "Dirk Schulze"
+            "Dirk Schulze",
+            "Dean Jackson"
         ],
         "href": "https://www.w3.org/TR/filter-effects-1/",
         "title": "Filter Effects Module Level 1",
-        "rawDate": "2014-11-25",
+        "rawDate": "2018-11-24",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
-            "https://www.w3.org/Graphics/SVG/WG/",
-            "https://www.w3.org/Style/CSS/members"
+            "https://www.w3.org/Style/CSS/members",
+            "https://www.w3.org/Graphics/SVG/WG/"
         ],
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
         "versions": {
@@ -31152,9 +31262,25 @@
                     "https://www.w3.org/Style/CSS/members"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20181124": {
+                "authors": [
+                    "Dirk Schulze",
+                    "Dean Jackson"
+                ],
+                "href": "https://www.w3.org/TR/2018/WD-filter-effects-1-20181124/",
+                "title": "Filter Effects Module Level 1",
+                "rawDate": "2018-11-24",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Style/CSS/members",
+                    "https://www.w3.org/Graphics/SVG/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "edDraft": "https://drafts.fxtf.org/filter-effects/",
+        "edDraft": "https://drafts.fxtf.org/filter-effects-1/",
         "repository": "https://github.com/w3c/fxtf-drafts"
     },
     "findtext": {
@@ -31812,7 +31938,7 @@
         ],
         "href": "https://www.w3.org/TR/gamepad/",
         "title": "Gamepad",
-        "rawDate": "2018-11-09",
+        "rawDate": "2018-12-13",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -32170,6 +32296,22 @@
                 "href": "https://www.w3.org/TR/2018/WD-gamepad-20181109/",
                 "title": "Gamepad",
                 "rawDate": "2018-11-09",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WebPlatform/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20181213": {
+                "authors": [
+                    "Scott Graham",
+                    "Theodore Mielczarek",
+                    "Brandon Jones"
+                ],
+                "href": "https://www.w3.org/TR/2018/WD-gamepad-20181213/",
+                "title": "Gamepad",
+                "rawDate": "2018-12-13",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -32600,16 +32742,14 @@
     "geometry-1": {
         "authors": [
             "Simon Pieters",
-            "Dirk Schulze",
-            "Rik Cabanier"
+            "Chris Harrelson"
         ],
         "href": "https://www.w3.org/TR/geometry-1/",
         "title": "Geometry Interfaces Module Level 1",
-        "rawDate": "2014-11-25",
+        "rawDate": "2018-12-04",
         "status": "CR",
         "publisher": "W3C",
         "deliveredBy": [
-            "https://www.w3.org/Graphics/SVG/WG/",
             "https://www.w3.org/Style/CSS/members"
         ],
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
@@ -32678,6 +32818,21 @@
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/Graphics/SVG/WG/",
+                    "https://www.w3.org/Style/CSS/members"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20181204": {
+                "authors": [
+                    "Simon Pieters",
+                    "Chris Harrelson"
+                ],
+                "href": "https://www.w3.org/TR/2018/CR-geometry-1-20181204/",
+                "title": "Geometry Interfaces Module Level 1",
+                "rawDate": "2018-12-04",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
                     "https://www.w3.org/Style/CSS/members"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
@@ -40031,19 +40186,7 @@
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             },
             "20181108": {
-                "authors": [
-                    "Johannes Wilm",
-                    "Ben Peters"
-                ],
-                "href": "https://www.w3.org/TR/2018/WD-input-events-2-20181108/",
-                "title": "Input Events Level 2",
-                "rawDate": "2018-11-08",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/WebPlatform/WG/"
-                ],
-                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+                "aliasOf": "input-events-2-20181108"
             },
             "20181109": {
                 "authors": [
@@ -40063,7 +40206,83 @@
         }
     },
     "input-events-2": {
-        "aliasOf": "input-events-1"
+        "authors": [
+            "Johannes Wilm",
+            "Ben Peters"
+        ],
+        "href": "https://www.w3.org/TR/input-events-2/",
+        "title": "Input Events Level 2",
+        "rawDate": "2018-11-08",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://cdn.staticaly.com/gh/w3c/input-events/v1/index.html",
+        "deliveredBy": [
+            "https://www.w3.org/WebPlatform/WG/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+          "20160830": {
+            "aliasOf": "input-events-1-20160830"
+          },
+          "20160922": {
+            "aliasOf": "input-events-1-20160922"
+          },
+          "20160928": {
+            "aliasOf": "input-events-1-20160928"
+          },
+          "20161011": {
+            "aliasOf": "input-events-1-20161011"
+          },
+          "20161018": {
+            "aliasOf": "input-events-1-20161018"
+          },
+          "20161205": {
+            "aliasOf": "input-events-1-20161205"
+          },
+          "20161216": {
+            "aliasOf": "input-events-1-20161216"
+          },
+          "20170319": {
+            "aliasOf": "input-events-1-20170319"
+          },
+          "20170320": {
+            "aliasOf": "input-events-1-20170320"
+          },
+          "20170321": {
+            "aliasOf": "input-events-1-20170321"
+          },
+          "20170627": {
+            "aliasOf": "input-events-1-20170627"
+          },
+          "20170629": {
+            "aliasOf": "input-events-1-20170629"
+          },
+          "20170714": {
+            "aliasOf": "input-events-1-20170714"
+          },
+          "20170905": {
+            "aliasOf": "input-events-1-20170905"
+          },
+
+          "20181109": {
+            "aliasOf": "input-events-1-20181109"
+          },
+            "20181108": {
+                "authors": [
+                    "Johannes Wilm",
+                    "Ben Peters"
+                ],
+                "href": "https://www.w3.org/TR/2018/WD-input-events-2-20181108/",
+                "title": "Input Events Level 2",
+                "rawDate": "2018-11-08",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WebPlatform/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
     },
     "international-specs": {
         "authors": [
@@ -46413,7 +46632,7 @@
         ],
         "href": "https://www.w3.org/TR/navigation-timing-2/",
         "title": "Navigation Timing Level 2",
-        "rawDate": "2018-11-05",
+        "rawDate": "2018-11-30",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -47037,6 +47256,23 @@
                 "href": "https://www.w3.org/TR/2018/WD-navigation-timing-2-20181105/",
                 "title": "Navigation Timing Level 2",
                 "rawDate": "2018-11-05",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/webperf/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20181130": {
+                "authors": [
+                    "Ilya Grigorik",
+                    "Tobin Titus",
+                    "Jatinder Mann",
+                    "Arvind Jain"
+                ],
+                "href": "https://www.w3.org/TR/2018/WD-navigation-timing-2-20181130/",
+                "title": "Navigation Timing Level 2",
+                "rawDate": "2018-11-30",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -52095,7 +52331,7 @@
         ],
         "href": "https://www.w3.org/TR/performance-timeline-2/",
         "title": "Performance Timeline Level 2",
-        "rawDate": "2018-11-19",
+        "rawDate": "2018-11-27",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/performance-timeline/",
@@ -52405,6 +52641,20 @@
                 "href": "https://www.w3.org/TR/2018/WD-performance-timeline-2-20181119/",
                 "title": "Performance Timeline Level 2",
                 "rawDate": "2018-11-19",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/webperf/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20181127": {
+                "authors": [
+                    "Ilya Grigorik"
+                ],
+                "href": "https://www.w3.org/TR/2018/WD-performance-timeline-2-20181127/",
+                "title": "Performance Timeline Level 2",
+                "rawDate": "2018-11-27",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -53017,8 +53267,8 @@
         ],
         "href": "https://www.w3.org/TR/pointerevents2/",
         "title": "Pointer Events",
-        "rawDate": "2018-10-16",
-        "status": "PR",
+        "rawDate": "2018-12-11",
+        "status": "CR",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/pointerevents/",
         "deliveredBy": [
@@ -53118,6 +53368,23 @@
                 "title": "Pointer Events",
                 "rawDate": "2018-10-16",
                 "status": "PR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2012/pointerevents/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20181211": {
+                "authors": [
+                    "Matt Brubeck",
+                    "Rick Byers",
+                    "Patrick Lauke",
+                    "Navid Zolghadr"
+                ],
+                "href": "https://www.w3.org/TR/2018/CR-pointerevents2-20181211/",
+                "title": "Pointer Events",
+                "rawDate": "2018-12-11",
+                "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/2012/pointerevents/"
@@ -62422,7 +62689,11 @@
                     "https://www.w3.org/2011/04/webrtc/",
                     "https://www.w3.org/das/"
                 ],
-                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+                "authors": [
+                    "Martin Thomson",
+                    "Keith Griffin"
+                ]
             }
         },
         "repository": "https://github.com/w3c/mediacapture-screen-share"
@@ -63936,10 +64207,10 @@
         ],
         "href": "https://www.w3.org/TR/selectors-4/",
         "title": "Selectors Level 4",
-        "rawDate": "2018-02-02",
+        "rawDate": "2018-11-21",
         "status": "WD",
         "publisher": "W3C",
-        "edDraft": "https://drafts.csswg.org/selectors",
+        "edDraft": "https://drafts.csswg.org/selectors/",
         "deliveredBy": [
             "https://www.w3.org/Style/CSS/members"
         ],
@@ -63980,6 +64251,21 @@
                 "href": "https://www.w3.org/TR/2018/WD-selectors-4-20180202/",
                 "title": "Selectors Level 4",
                 "rawDate": "2018-02-02",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Style/CSS/members"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20181121": {
+                "authors": [
+                    "Elika Etemad",
+                    "Tab Atkins Jr."
+                ],
+                "href": "https://www.w3.org/TR/2018/WD-selectors-4-20181121/",
+                "title": "Selectors Level 4",
+                "rawDate": "2018-11-21",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -69636,6 +69922,57 @@
         "edDraft": "http://dvcs.w3.org/hg/webevents/raw-file/default/touchevents.html",
         "isRetired": true
     },
+    "trace-context": {
+        "authors": [
+            "Sergey Kanzhelev",
+            "Morgan McLean",
+            "Alois Reitbauer"
+        ],
+        "href": "https://www.w3.org/TR/trace-context/",
+        "title": "Trace Context",
+        "rawDate": "2018-11-22",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/trace-context/",
+        "deliveredBy": [
+            "https://www.w3.org/2018/distributed-tracing/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20181106": {
+                "authors": [
+                    "Sergey Kanzhelev",
+                    "Morgan McLean",
+                    "Alois Reitbauer"
+                ],
+                "href": "https://www.w3.org/TR/2018/WD-distributed-tracing-20181106/",
+                "title": "Trace Context",
+                "rawDate": "2018-11-06",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2018/distributed-tracing/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20181122": {
+                "authors": [
+                    "Sergey Kanzhelev",
+                    "Morgan McLean",
+                    "Alois Reitbauer"
+                ],
+                "href": "https://www.w3.org/TR/2018/WD-trace-context-20181122/",
+                "title": "Trace Context",
+                "rawDate": "2018-11-22",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2018/distributed-tracing/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
     "tracking-compliance": {
         "authors": [
             "Nick Doty",
@@ -73909,6 +74246,37 @@
         },
         "repository": "https://github.com/w3c/sdw",
         "hasErrata": "https://www.w3.org/2017/10/vocab-ssn-errata.html"
+    },
+    "vocab-ssn-ext": {
+        "authors": [
+            "Simon Cox"
+        ],
+        "href": "https://www.w3.org/TR/vocab-ssn-ext/",
+        "title": "Extensions to the Semantic Sensor Network Ontology",
+        "rawDate": "2018-11-22",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/sdw/proposals/ssn-extensions/",
+        "deliveredBy": [
+            "https://www.w3.org/2017/sdwig/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20181122": {
+                "authors": [
+                    "Simon Cox"
+                ],
+                "href": "https://www.w3.org/TR/2018/WD-vocab-ssn-ext-20181122/",
+                "title": "Extensions to the Semantic Sensor Network Ontology",
+                "rawDate": "2018-11-22",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2017/sdwig/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
     },
     "voice": {
         "authors": [
@@ -78896,6 +79264,37 @@
         },
         "repository": "https://github.com/w3c/webrtc-identity"
     },
+    "webrtc-nv-use-cases": {
+        "authors": [
+            "Bernard Aboba"
+        ],
+        "href": "https://www.w3.org/TR/webrtc-nv-use-cases/",
+        "title": "WebRTC Next Version Use Cases",
+        "rawDate": "2018-12-11",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/webrtc-nv-use-cases/",
+        "deliveredBy": [
+            "https://www.w3.org/2011/04/webrtc/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20181211": {
+                "authors": [
+                    "Bernard Aboba"
+                ],
+                "href": "https://www.w3.org/TR/2018/WD-webrtc-nv-use-cases-20181211/",
+                "title": "WebRTC Next Version Use Cases",
+                "rawDate": "2018-12-11",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2011/04/webrtc/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
+    },
     "webrtc-stats": {
         "authors": [
             "Harald Alvestrand",
@@ -80514,7 +80913,7 @@
         ],
         "href": "https://www.w3.org/TR/wot-scripting-api/",
         "title": "Web of Things (WoT) Scripting API",
-        "rawDate": "2018-04-05",
+        "rawDate": "2018-11-29",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/wot-scripting-api/",
@@ -80555,6 +80954,23 @@
                     "https://www.w3.org/WoT/WG/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20181129": {
+                "authors": [
+                    "Zoltan Kis",
+                    "Kazuaki Nimura",
+                    "Daniel Peintner",
+                    "Johannes Hund"
+                ],
+                "href": "https://www.w3.org/TR/2018/WD-wot-scripting-api-20181129/",
+                "title": "Web of Things (WoT) Scripting API",
+                "rawDate": "2018-11-29",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WoT/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
         "repository": "https://github.com/w3c/wot-scripting-api"
@@ -80566,7 +80982,7 @@
         ],
         "href": "https://www.w3.org/TR/wot-security/",
         "title": "Web of Things (WoT) Security and Privacy Considerations",
-        "rawDate": "2017-12-14",
+        "rawDate": "2018-12-03",
         "status": "NOTE",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/wot-security/",
@@ -80583,6 +80999,21 @@
                 "href": "https://www.w3.org/TR/2017/NOTE-wot-security-20171214/",
                 "title": "Web of Things (WoT) Security and Privacy Considerations",
                 "rawDate": "2017-12-14",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WoT/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20181203": {
+                "authors": [
+                    "Elena Reshetova",
+                    "Michael McCool"
+                ],
+                "href": "https://www.w3.org/TR/2018/NOTE-wot-security-20181203/",
+                "title": "Web of Things (WoT) Security and Privacy Considerations",
+                "rawDate": "2018-12-03",
                 "status": "NOTE",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -80664,7 +81095,7 @@
         ],
         "href": "https://www.w3.org/TR/wpub/",
         "title": "Web Publications",
-        "rawDate": "2018-08-14",
+        "rawDate": "2018-12-12",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/wpub/",
@@ -80731,6 +81162,21 @@
                 "href": "https://www.w3.org/TR/2018/WD-wpub-20180814/",
                 "title": "Web Publications",
                 "rawDate": "2018-08-14",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/publishing/groups/publ-wg/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20181212": {
+                "authors": [
+                    "Matt Garrish",
+                    "Ivan Herman"
+                ],
+                "href": "https://www.w3.org/TR/2018/WD-wpub-20181212/",
+                "title": "Web Publications",
+                "rawDate": "2018-12-12",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
