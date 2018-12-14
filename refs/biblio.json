@@ -2425,6 +2425,13 @@
     "SMPTE2052-1": {
         "aliasOf": "SMPTE2052-1-2013"
     },
+    "SMPTE296": {
+        "title": "ST 296:2012, 1280 × 720 Progressive Image 4:2:2 and 4:4:4 Sample Structure — Analog and Digital Representation and Analog Interface",
+        "href": "https://doi.org/10.5594/SMPTE.ST296.2012",
+        "publisher": "SMPTE",
+        "rawDate": "2012-05-17",
+        "status": "Standard"
+    },
     "SMPTE2052-1-2010": {
         "title": "SMPTE ST 2052-1:2010 \"Timed Text Format (SMPTE-TT)\"",
         "href": "https://doi.org/10.5594/SMPTE.ST2052-1.2010",
@@ -4220,6 +4227,20 @@
         "status": "International Standard",
         "date": "2008",
         "isoNumber": "ISO 639-5:2008"
+    },
+    "ITU-R-BT.601": {
+        "href": "https://www.itu.int/rec/R-REC-BT.601/",
+        "title": "Recommendation ITU-R BT.601-7 (03/2011), Studio encoding parameters of digital television for standard 4:3 and wide screen 16:9 aspect ratios",
+        "status": "Recommendation",
+        "rawDate": "2011-03-08",
+        "publisher": "ITU"
+    },
+    "ITU-R-BT.709": {
+        "href": "https://www.itu.int/rec/R-REC-BT.709/",
+        "title": "Recommendation ITU-R BT.709-6 (06/2015), Parameter values for the HDTV standards for production and international programme exchange",
+        "status": "Recommendation",
+        "rawDate": "2015-06-17",
+        "publisher": "ITU"
     },
     "json-patch": {
         "aliasOf": "rfc6902"
