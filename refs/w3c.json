@@ -17123,7 +17123,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/coga"
     },
     "coga-user-research": {
         "authors": [
@@ -31938,7 +31939,7 @@
         ],
         "href": "https://www.w3.org/TR/gamepad/",
         "title": "Gamepad",
-        "rawDate": "2018-12-13",
+        "rawDate": "2018-12-14",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -32312,6 +32313,22 @@
                 "href": "https://www.w3.org/TR/2018/WD-gamepad-20181213/",
                 "title": "Gamepad",
                 "rawDate": "2018-12-13",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WebPlatform/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20181214": {
+                "authors": [
+                    "Scott Graham",
+                    "Theodore Mielczarek",
+                    "Brandon Jones"
+                ],
+                "href": "https://www.w3.org/TR/2018/WD-gamepad-20181214/",
+                "title": "Gamepad",
+                "rawDate": "2018-12-14",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -34220,7 +34237,7 @@
         ],
         "href": "https://www.w3.org/TR/html-aam-1.0/",
         "title": "HTML Accessibility API Mappings 1.0",
-        "rawDate": "2018-10-25",
+        "rawDate": "2018-12-14",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/html-aam/",
@@ -35033,6 +35050,25 @@
                     "https://www.w3.org/WebPlatform/WG/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20181214": {
+                "authors": [
+                    "Steve Faulkner",
+                    "Alexander Surkov",
+                    "Scott O'Hara",
+                    "Bogdan Brinza",
+                    "Jason Kiss",
+                    "Cynthia Shelly"
+                ],
+                "href": "https://www.w3.org/TR/2018/WD-html-aam-1.0-20181214/",
+                "title": "HTML Accessibility API Mappings 1.0",
+                "rawDate": "2018-12-14",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WebPlatform/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
         "repository": "https://github.com/w3c/html-aam"
@@ -35252,7 +35288,7 @@
         ],
         "href": "https://www.w3.org/TR/html-aria/",
         "title": "ARIA in HTML",
-        "rawDate": "2018-10-18",
+        "rawDate": "2018-12-14",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -35775,6 +35811,20 @@
                 "href": "https://www.w3.org/TR/2018/WD-html-aria-20181018/",
                 "title": "ARIA in HTML",
                 "rawDate": "2018-10-18",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WebPlatform/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20181214": {
+                "authors": [
+                    "Steve Faulkner"
+                ],
+                "href": "https://www.w3.org/TR/2018/WD-html-aria-20181214/",
+                "title": "ARIA in HTML",
+                "rawDate": "2018-12-14",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -40221,52 +40271,48 @@
         ],
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
         "versions": {
-          "20160830": {
-            "aliasOf": "input-events-1-20160830"
-          },
-          "20160922": {
-            "aliasOf": "input-events-1-20160922"
-          },
-          "20160928": {
-            "aliasOf": "input-events-1-20160928"
-          },
-          "20161011": {
-            "aliasOf": "input-events-1-20161011"
-          },
-          "20161018": {
-            "aliasOf": "input-events-1-20161018"
-          },
-          "20161205": {
-            "aliasOf": "input-events-1-20161205"
-          },
-          "20161216": {
-            "aliasOf": "input-events-1-20161216"
-          },
-          "20170319": {
-            "aliasOf": "input-events-1-20170319"
-          },
-          "20170320": {
-            "aliasOf": "input-events-1-20170320"
-          },
-          "20170321": {
-            "aliasOf": "input-events-1-20170321"
-          },
-          "20170627": {
-            "aliasOf": "input-events-1-20170627"
-          },
-          "20170629": {
-            "aliasOf": "input-events-1-20170629"
-          },
-          "20170714": {
-            "aliasOf": "input-events-1-20170714"
-          },
-          "20170905": {
-            "aliasOf": "input-events-1-20170905"
-          },
-
-          "20181109": {
-            "aliasOf": "input-events-1-20181109"
-          },
+            "20160830": {
+                "aliasOf": "input-events-1-20160830"
+            },
+            "20160922": {
+                "aliasOf": "input-events-1-20160922"
+            },
+            "20160928": {
+                "aliasOf": "input-events-1-20160928"
+            },
+            "20161011": {
+                "aliasOf": "input-events-1-20161011"
+            },
+            "20161018": {
+                "aliasOf": "input-events-1-20161018"
+            },
+            "20161205": {
+                "aliasOf": "input-events-1-20161205"
+            },
+            "20161216": {
+                "aliasOf": "input-events-1-20161216"
+            },
+            "20170319": {
+                "aliasOf": "input-events-1-20170319"
+            },
+            "20170320": {
+                "aliasOf": "input-events-1-20170320"
+            },
+            "20170321": {
+                "aliasOf": "input-events-1-20170321"
+            },
+            "20170627": {
+                "aliasOf": "input-events-1-20170627"
+            },
+            "20170629": {
+                "aliasOf": "input-events-1-20170629"
+            },
+            "20170714": {
+                "aliasOf": "input-events-1-20170714"
+            },
+            "20170905": {
+                "aliasOf": "input-events-1-20170905"
+            },
             "20181108": {
                 "authors": [
                     "Johannes Wilm",
@@ -40281,6 +40327,9 @@
                     "https://www.w3.org/WebPlatform/WG/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20181109": {
+                "aliasOf": "input-events-1-20181109"
             }
         }
     },
@@ -63054,9 +63103,24 @@
                     "https://www.w3.org/WebPlatform/WG/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20181214": {
+                "authors": [
+                    "Mounir Lamouri",
+                    "Marcos Caceres"
+                ],
+                "href": "https://www.w3.org/TR/2018/WD-screen-orientation-20181214/",
+                "title": "The Screen Orientation API",
+                "rawDate": "2018-12-14",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WebPlatform/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2018-10-12",
+        "rawDate": "2018-12-14",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
         "edDraft": "https://w3c.github.io/screen-orientation/",
         "repository": "https://github.com/w3c/screen-orientation"
@@ -69971,7 +70035,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/trace-context"
     },
     "tracking-compliance": {
         "authors": [
@@ -74276,7 +74341,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/sdw"
     },
     "voice": {
         "authors": [
@@ -79293,7 +79359,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/webrtc-nv-use-cases"
     },
     "webrtc-stats": {
         "authors": [

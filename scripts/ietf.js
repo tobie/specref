@@ -4,7 +4,7 @@ var request = require('request'),
     helper = require('./helper'),
     xml2js = require('xml2js');
 
-var RFC_URL = "http://www.ietf.org/rfc/rfc-index.xml";
+var RFC_URL = "https://www.rfc-editor.org/in-notes/rfc-index.xml";
 var FILE = "ietf.json";
 
 var current = helper.readBiblio(FILE);

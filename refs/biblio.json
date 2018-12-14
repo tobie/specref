@@ -2742,6 +2742,16 @@
         "title": "The IAccessibleEx Interface",
         "publisher": "Microsoft Corporation"
     },
+    "UN-CEFACT-V3-1": {
+        "authors": [
+            "United Nations Economic Commission for Europe"
+        ],
+        "href": "https://www.unece.org/fileadmin/DAM/cefact/codesfortrade/CCTS/CCTS-DTCatalogueVersion3p1.pdf",
+        "publisher": "United Nations Economic Commission for Europe",
+        "status": "Normative",
+        "rawDate": "2011-09-17",
+        "title": "United Nations Centre for Trade Facilitation and Electronic Business Core Components Data Type Catalogue Version 3.1"
+    },
     "UNDO": {
         "authors": [
             "Ryosuke Niwa"
@@ -4591,6 +4601,19 @@
         "rawDate": "2013",
         "title": "RightsML"
     },
+    "service-workers-nightly": {
+        "authors": [
+            "Alex Russell",
+            "Jungkee Song",
+            "Jake Archibald",
+            "Marijn Kruisselbrink"
+        ],
+        "href": "https://w3c.github.io/ServiceWorker/",
+        "publisher": "W3C",
+        "status": "LS",
+        "title": "Service Workers Nightly",
+        "repository": "https://github.com/w3c/ServiceWorker"
+    },
     "smartM2M": {
         "href": "http://www.etsi.org/deliver/etsi_ts/103200_103299/103264/01.01.01_60/ts_103264v010101p.pdf",
         "title": "ETSI TS 103 264: SmartM2M; Smart Appliances; Reference Ontology and oneM2M Mapping",
@@ -4645,16 +4668,6 @@
         "status": "Normative",
         "rawDate": "2015-03-01",
         "title": "OMG Unified Modeling Language"
-    },
-    "UN-CEFACT-V3-1": {
-        "authors": [
-            "United Nations Economic Commission for Europe"
-        ],
-        "href": "https://www.unece.org/fileadmin/DAM/cefact/codesfortrade/CCTS/CCTS-DTCatalogueVersion3p1.pdf",
-        "publisher": "United Nations Economic Commission for Europe",
-        "status": "Normative",
-        "rawDate": "2011-09-17",
-        "title": "United Nations Centre for Trade Facilitation and Electronic Business Core Components Data Type Catalogue Version 3.1"
     },
     "vann": {
         "authors": [
@@ -4845,12 +4858,5 @@
             "Eric Meyer"
         ],
         "publisher": "Global Multimedia Protocols Group"
-    },
-    "service-workers-nightly": {
-        "authors": ["Alex Russell", "Jungkee Song", "Jake Archibald", "Marijn Kruisselbrink"],
-        "href": "https://w3c.github.io/ServiceWorker/",
-        "publisher": "W3C",
-        "status": "LS",
-        "title": "Service Workers Nightly"
     }
 }
