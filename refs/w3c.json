@@ -11522,8 +11522,8 @@
         ],
         "href": "https://www.w3.org/TR/accname-1.1/",
         "title": "Accessible Name and Description Computation 1.1",
-        "rawDate": "2018-10-18",
-        "status": "PR",
+        "rawDate": "2018-12-18",
+        "status": "REC",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/accname/",
         "deliveredBy": [
@@ -11650,9 +11650,27 @@
                     "https://www.w3.org/WAI/ARIA/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20181218": {
+                "authors": [
+                    "Joanmarie Diggs",
+                    "Bryan Garaventa",
+                    "Michael Cooper"
+                ],
+                "href": "https://www.w3.org/TR/2018/REC-accname-1.1-20181218/",
+                "title": "Accessible Name and Description Computation 1.1",
+                "rawDate": "2018-12-18",
+                "status": "REC",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WAI/ARIA/"
+                ],
+                "hasErrata": "https://www.w3.org/WAI/ARIA/1.1/errata/accname",
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "repository": "https://github.com/w3c/accname"
+        "repository": "https://github.com/w3c/accname",
+        "hasErrata": "https://www.w3.org/WAI/ARIA/1.1/errata/accname"
     },
     "accname-aam-1.1": {
         "aliasOf": "accname-1.1"
@@ -18901,7 +18919,7 @@
         ],
         "href": "https://www.w3.org/TR/css-box-3/",
         "title": "CSS Box Model Module Level 3",
-        "rawDate": "2018-08-09",
+        "rawDate": "2018-12-18",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://drafts.csswg.org/css-box-3/",
@@ -18958,6 +18976,20 @@
                 "href": "https://www.w3.org/TR/2018/WD-css-box-3-20180809/",
                 "title": "CSS Box Model Module Level 3",
                 "rawDate": "2018-08-09",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Style/CSS/members"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20181218": {
+                "authors": [
+                    "Elika Etemad"
+                ],
+                "href": "https://www.w3.org/TR/2018/WD-css-box-3-20181218/",
+                "title": "CSS Box Model Module Level 3",
+                "rawDate": "2018-12-18",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -19074,6 +19106,40 @@
                 "title": "CSS Fragmentation Module Level 3",
                 "rawDate": "2018-12-04",
                 "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Style/CSS/members"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        },
+        "repository": "https://github.com/w3c/csswg-drafts"
+    },
+    "css-break-4": {
+        "authors": [
+            "Rossen Atanassov",
+            "Elika Etemad"
+        ],
+        "href": "https://www.w3.org/TR/css-break-4/",
+        "title": "CSS Fragmentation Module Level 4",
+        "rawDate": "2018-12-18",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://drafts.csswg.org/css-break-4/",
+        "deliveredBy": [
+            "https://www.w3.org/Style/CSS/members"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20181218": {
+                "authors": [
+                    "Rossen Atanassov",
+                    "Elika Etemad"
+                ],
+                "href": "https://www.w3.org/TR/2018/WD-css-break-4-20181218/",
+                "title": "CSS Fragmentation Module Level 4",
+                "rawDate": "2018-12-18",
+                "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/Style/CSS/members"
@@ -28378,6 +28444,76 @@
         "edDraft": "https://w3c.github.io/dwbp/usecasesv1.html",
         "repository": "https://github.com/w3c/dwbp"
     },
+    "dx-prof": {
+        "authors": [
+            "Rob Atkinson",
+            "Nicholas Car"
+        ],
+        "href": "https://www.w3.org/TR/dx-prof/",
+        "title": "The Profiles Ontology",
+        "rawDate": "2018-12-18",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/dxwg/profilesont/",
+        "deliveredBy": [
+            "https://www.w3.org/2017/dxwg/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20181218": {
+                "authors": [
+                    "Rob Atkinson",
+                    "Nicholas Car"
+                ],
+                "href": "https://www.w3.org/TR/2018/WD-dx-prof-20181218/",
+                "title": "The Profiles Ontology",
+                "rawDate": "2018-12-18",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2017/dxwg/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        },
+        "repository": "https://github.com/w3c/dxwg"
+    },
+    "dx-prof-conneg": {
+        "authors": [
+            "Lars G. Svensson",
+            "Rob Atkinson",
+            "Nicholas Car"
+        ],
+        "href": "https://www.w3.org/TR/dx-prof-conneg/",
+        "title": "Content Negotiation by Profile",
+        "rawDate": "2018-12-18",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/dxwg/conneg-by-ap/",
+        "deliveredBy": [
+            "https://www.w3.org/2017/dxwg/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20181218": {
+                "authors": [
+                    "Lars G. Svensson",
+                    "Rob Atkinson",
+                    "Nicholas Car"
+                ],
+                "href": "https://www.w3.org/TR/2018/WD-dx-prof-conneg-20181218/",
+                "title": "Content Negotiation by Profile",
+                "rawDate": "2018-12-18",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2017/dxwg/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        },
+        "repository": "https://github.com/w3c/dxwg"
+    },
     "edge-arch": {
         "versions": {
             "20010804": {
@@ -31190,12 +31326,11 @@
         ],
         "href": "https://www.w3.org/TR/filter-effects-1/",
         "title": "Filter Effects Module Level 1",
-        "rawDate": "2018-11-24",
+        "rawDate": "2018-12-18",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
-            "https://www.w3.org/Style/CSS/members",
-            "https://www.w3.org/Graphics/SVG/WG/"
+            "https://www.w3.org/Style/CSS/members"
         ],
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
         "versions": {
@@ -31277,6 +31412,21 @@
                 "deliveredBy": [
                     "https://www.w3.org/Style/CSS/members",
                     "https://www.w3.org/Graphics/SVG/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20181218": {
+                "authors": [
+                    "Dirk Schulze",
+                    "Dean Jackson"
+                ],
+                "href": "https://www.w3.org/TR/2018/WD-filter-effects-1-20181218/",
+                "title": "Filter Effects Module Level 1",
+                "rawDate": "2018-12-18",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Style/CSS/members"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
@@ -45827,16 +45977,16 @@
         "authors": [
             "Dirk Schulze",
             "Shane Stephens",
-            "Jihye Hong"
+            "Jihye Hong",
+            "Eric Willigers"
         ],
         "href": "https://www.w3.org/TR/motion-1/",
         "title": "Motion Path Module Level 1",
-        "rawDate": "2017-07-11",
+        "rawDate": "2018-12-18",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://drafts.fxtf.org/motion-1/",
         "deliveredBy": [
-            "https://www.w3.org/Graphics/SVG/WG/",
             "https://www.w3.org/Style/CSS/members"
         ],
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
@@ -45870,6 +46020,23 @@
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/Graphics/SVG/WG/",
+                    "https://www.w3.org/Style/CSS/members"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20181218": {
+                "authors": [
+                    "Dirk Schulze",
+                    "Shane Stephens",
+                    "Jihye Hong",
+                    "Eric Willigers"
+                ],
+                "href": "https://www.w3.org/TR/2018/WD-motion-1-20181218/",
+                "title": "Motion Path Module Level 1",
+                "rawDate": "2018-12-18",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
                     "https://www.w3.org/Style/CSS/members"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
