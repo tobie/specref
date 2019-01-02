@@ -3455,10 +3455,10 @@
         }
     },
     "dcat-ap": {
-        "href": "http://data.europa.eu/w21/ac376c94-74cf-4dd7-ade7-267d6a4ec4dc",
-        "title": "DCAT Application Profile for data portals in Europe. Version 1.1",
+        "href": "https://joinup.ec.europa.eu/solution/dcat-application-profile-data-portals-europe",
+        "title": "DCAT Application Profile for data portals in Europe. Version 1.2",
         "publisher": "European Commission",
-        "rawDate": "2017-02-24",
+        "rawDate": "2018-11-08",
         "deliveredBy": [
             "http://data.europa.eu/w21/ac376c94-74cf-4dd7-ade7-267d6a4ec4dc"
         ],
@@ -3479,9 +3479,18 @@
                 "aliasOf": "dcat-ap-20170224"
             },
             "20170224": {
-                "href": "http://data.europa.eu/w21/be3842a8-f87c-4d52-a209-cc21107f20b8",
+                "href": "https://joinup.ec.europa.eu/release/dcat-ap/11",
                 "title": "DCAT Application Profile for data portals in Europe. Version 1.1",
                 "rawDate": "2015-10-23",
+                "publisher": "European Commission",
+                "deliveredBy": [
+                    "http://data.europa.eu/w21/ac376c94-74cf-4dd7-ade7-267d6a4ec4dc"
+                ]
+            },
+            "20181108" : {
+                "href": "https://joinup.ec.europa.eu/release/dcat-ap/12",
+                "title": "DCAT Application Profile for data portals in Europe. Version 1.2",
+                "rawDate": "2018-11-08",
                 "publisher": "European Commission",
                 "deliveredBy": [
                     "http://data.europa.eu/w21/ac376c94-74cf-4dd7-ade7-267d6a4ec4dc"
