@@ -800,14 +800,14 @@
         "rawDate": "2012-06-14",
         "publisher": "DCMI",
         "status": "DCMI Recommendation",
-        "versions" : {
-          "20120614" : {
-              "href": "http://dublincore.org/documents/2012/06/14/dces/",
-              "title": "Dublin Core Metadata Element Set, Version 1.1",
-              "rawDate": "2012-06-14",
-              "publisher": "DCMI",
-              "status": "DCMI Recommendation"
-          }
+        "versions": {
+            "20120614": {
+                "href": "http://dublincore.org/documents/2012/06/14/dces/",
+                "title": "Dublin Core Metadata Element Set, Version 1.1",
+                "rawDate": "2012-06-14",
+                "publisher": "DCMI",
+                "status": "DCMI Recommendation"
+            }
         }
     },
     "DCI-P3": {
@@ -822,12 +822,12 @@
         "rawDate": "2012-06-14",
         "publisher": "DCMI",
         "status": "DCMI Recommendation",
-        "versions" : {
-          "20101011" : {
-            "aliasOf" : "DC-TERMS"
-          }
+        "versions": {
+            "20101011": {
+                "aliasOf": "DC-TERMS"
+            }
         }
-    },    
+    },
     "DES": {
         "href": "https://csrc.nist.gov/publications/fips/fips46-3/fips46-3.pdf",
         "title": "NIST FIPS 46-3: Data Encryption Standard (DES)",
