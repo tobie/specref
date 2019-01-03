@@ -780,36 +780,54 @@
         "etAl": true,
         "href": "http://dublincore.org/documents/dc-rdf/",
         "title": "Expressing Dublin Core metadata using the Resource Description Framework (RDF)",
-        "date": "14 January 2008",
+        "rawDate": "2008-01-14",
+        "publisher": "DCMI",
         "status": "DCMI Recommendation"
     },
     "DC-TERMS": {
+        "authors": [
+            "DCMI Usage Board"
+        ],
         "href": "http://dublincore.org/documents/2010/10/11/dcmi-terms/",
-        "title": "Dublin Core Metadata Initiative Terms, version 1.1",
-        "date": "11 October 2010",
+        "title": "Dublin Core Metadata Terms, version 1.1",
+        "rawDate": "2010-10-11",
+        "publisher": "DCMI",
         "status": "DCMI Recommendation"
     },
     "DC11": {
-        "authors": [
-            "Dublin Core metadata initiative"
-        ],
-        "href": "http://dublincore.org/documents/2012/06/14/dces/",
+        "href": "http://dublincore.org/documents/dces/",
         "title": "Dublin Core Metadata Element Set, Version 1.1",
-        "date": "14 June 2012",
-        "status": "DCMI recommendation"
+        "rawDate": "2012-06-14",
+        "publisher": "DCMI",
+        "status": "DCMI Recommendation",
+        "versions" : {
+          "20120614" : {
+              "href": "http://dublincore.org/documents/2012/06/14/dces/",
+              "title": "Dublin Core Metadata Element Set, Version 1.1",
+              "rawDate": "2012-06-14",
+              "publisher": "DCMI",
+              "status": "DCMI Recommendation"
+          }
+        }
     },
     "DCI-P3": {
         "aliasOf": "SMPTE431-2"
     },
     "DCTERMS": {
         "authors": [
-            "Dublin Core metadata initiative"
+            "DCMI Usage Board"
         ],
         "href": "http://dublincore.org/documents/dcmi-terms/",
         "title": "DCMI Metadata Terms",
-        "date": "14 June 2012",
-        "status": "DCMI Recommendation"
-    },
+        "rawDate": "2012-06-14",
+        "publisher": "DCMI",
+        "status": "DCMI Recommendation",
+        "versions" : {
+          "20101011" : {
+            "aliasOf" : "DC-TERMS"
+          }
+        }
+    },    
     "DES": {
         "href": "https://csrc.nist.gov/publications/fips/fips46-3/fips46-3.pdf",
         "title": "NIST FIPS 46-3: Data Encryption Standard (DES)",
