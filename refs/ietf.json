@@ -33610,7 +33610,8 @@
             "RFC4033",
             "RFC4034",
             "RFC6604",
-            "RFC8020"
+            "RFC8020",
+            "RFC8499"
         ],
         "updates": [
             "RFC1034",
@@ -82456,6 +82457,7 @@
         ],
         "rawDate": "2009-02",
         "status": "Proposed Standard",
+        "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=5453",
         "publisher": "IETF",
         "source": "https://www.rfc-editor.org/in-notes/rfc-index.xml"
     },
@@ -117227,6 +117229,9 @@
         ],
         "rawDate": "2015-12",
         "status": "Informational",
+        "obsoletedBy": [
+            "RFC8499"
+        ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=7719",
         "publisher": "IETF",
         "source": "https://www.rfc-editor.org/in-notes/rfc-index.xml"
@@ -129266,6 +129271,26 @@
         ],
         "rawDate": "2018-11",
         "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "https://www.rfc-editor.org/in-notes/rfc-index.xml"
+    },
+    "rfc8499": {
+        "rfcNumber": "RFC8499",
+        "href": "https://tools.ietf.org/html/rfc8499",
+        "title": "DNS Terminology",
+        "authors": [
+            "P. Hoffman",
+            "A. Sullivan",
+            "K. Fujiwara"
+        ],
+        "rawDate": "2019-01",
+        "status": "Best Current Practice",
+        "updates": [
+            "RFC2308"
+        ],
+        "obsoletes": [
+            "RFC7719"
+        ],
         "publisher": "IETF",
         "source": "https://www.rfc-editor.org/in-notes/rfc-index.xml"
     },
