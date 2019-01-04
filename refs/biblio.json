@@ -314,9 +314,13 @@
     "CGM": {
         "aliasOf": "NOTE-cgm"
     },
+    "IANA-CHARSETS": {
+        "aliasOf": "CHARSETS"
+    },
     "CHARSETS": {
         "href": "https://www.iana.org/assignments/character-sets",
-        "title": "Character sets"
+        "title": "Character sets",
+        "publisher": "IANA"
     },
     "CHIPS": {
         "authors": [
@@ -424,6 +428,9 @@
         "date": "2 December 2009",
         "status": "ED",
         "publisher": "W3C"
+    },
+    "IANA-CP50220": {
+        "aliasOf": "CP50220"
     },
     "CP50220": {
         "authors": [
@@ -1423,7 +1430,7 @@
             "Justin Richer",
             "Carsten Bormann"
         ],
-        "publisher": "Internet Assigned Numbers Authority",
+        "publisher": "IANA",
         "title": "CBOR Object Signing and Encryption (COSE)",
         "href": "https://www.iana.org/assignments/cose/cose.xhtml"
     },
@@ -1459,7 +1466,8 @@
         "href": "https://www.iana.org/assignments/media-types/text/tab-separated-values",
         "title": "Definition of tab-separated-values (tsv)",
         "date": "June 1993",
-        "status": "IANA Media Type Registration"
+        "status": "IANA Media Type Registration",
+        "publisher": "IANA"
     },
     "IANA-URI-SCHEMES": {
         "href": "https://www.iana.org/assignments/uri-schemes/uri-schemes.xhtml",
