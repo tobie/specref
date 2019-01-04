@@ -314,9 +314,6 @@
     "CGM": {
         "aliasOf": "NOTE-cgm"
     },
-    "IANA-CHARSETS": {
-        "aliasOf": "CHARSETS"
-    },
     "CHARSETS": {
         "href": "https://www.iana.org/assignments/character-sets",
         "title": "Character sets",
@@ -428,9 +425,6 @@
         "date": "2 December 2009",
         "status": "ED",
         "publisher": "W3C"
-    },
-    "IANA-CP50220": {
-        "aliasOf": "CP50220"
     },
     "CP50220": {
         "authors": [
@@ -1423,6 +1417,9 @@
     "HTTP11": {
         "aliasOf": "RFC7230"
     },
+    "IANA-CHARSETS": {
+        "aliasOf": "CHARSETS"
+    },
     "IANA-COSE": {
         "authors": [
             "Francesca Palombini",
@@ -1433,6 +1430,9 @@
         "publisher": "IANA",
         "title": "CBOR Object Signing and Encryption (COSE)",
         "href": "https://www.iana.org/assignments/cose/cose.xhtml"
+    },
+    "IANA-CP50220": {
+        "aliasOf": "CP50220"
     },
     "IANA-DTLS-SRTP": {
         "href": "https://www.iana.org/assignments/srtp-protection/srtp-protection.xhtml",
