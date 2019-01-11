@@ -13809,7 +13809,8 @@
             "RFC4343",
             "RFC4592",
             "RFC5936",
-            "RFC8020"
+            "RFC8020",
+            "RFC8482"
         ],
         "obsoletes": [
             "RFC0973",
@@ -13854,7 +13855,8 @@
             "RFC5936",
             "RFC5966",
             "RFC6604",
-            "RFC7766"
+            "RFC7766",
+            "RFC8482"
         ],
         "obsoletes": [
             "RFC0973",
@@ -129100,6 +129102,25 @@
         "status": "Proposed Standard",
         "updates": [
             "RFC6811"
+        ],
+        "publisher": "IETF",
+        "source": "https://www.rfc-editor.org/in-notes/rfc-index.xml"
+    },
+    "rfc8482": {
+        "rfcNumber": "RFC8482",
+        "href": "https://tools.ietf.org/html/rfc8482",
+        "title": "Providing Minimal-Sized Responses to DNS Queries That Have QTYPE=ANY",
+        "authors": [
+            "J. Abley",
+            "O. Gudmundsson",
+            "M. Majkowski",
+            "E. Hunt"
+        ],
+        "rawDate": "2019-01",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC1034",
+            "RFC1035"
         ],
         "publisher": "IETF",
         "source": "https://www.rfc-editor.org/in-notes/rfc-index.xml"
