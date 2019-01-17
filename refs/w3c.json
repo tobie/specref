@@ -26662,13 +26662,14 @@
     },
     "dcat-ucr": {
         "authors": [
-            "Ixchel Faniel",
             "Jaroslav Pullmann",
-            "Rob Atkinson"
+            "Rob Atkinson",
+            "Antoine Isaac",
+            "Ixchel Faniel"
         ],
         "href": "https://www.w3.org/TR/dcat-ucr/",
         "title": "Dataset Exchange Use Cases and Requirements",
-        "rawDate": "2017-12-12",
+        "rawDate": "2019-01-17",
         "status": "NOTE",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/dxwg/ucr/",
@@ -26697,6 +26698,23 @@
                 "href": "https://www.w3.org/TR/2017/NOTE-dcat-ucr-20171212/",
                 "title": "Dataset Exchange Use Cases and Requirements",
                 "rawDate": "2017-12-12",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2017/dxwg/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20190117": {
+                "authors": [
+                    "Jaroslav Pullmann",
+                    "Rob Atkinson",
+                    "Antoine Isaac",
+                    "Ixchel Faniel"
+                ],
+                "href": "https://www.w3.org/TR/2019/NOTE-dcat-ucr-20190117/",
+                "title": "Dataset Exchange Use Cases and Requirements",
+                "rawDate": "2019-01-17",
                 "status": "NOTE",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -70615,8 +70633,8 @@
         ],
         "href": "https://www.w3.org/TR/tracking-dnt/",
         "title": "Tracking Preference Expression (DNT)",
-        "rawDate": "2017-10-19",
-        "status": "CR",
+        "rawDate": "2019-01-17",
+        "status": "NOTE",
         "publisher": "W3C",
         "deliveredBy": [
             "https://www.w3.org/2011/tracking-protection/"
@@ -70730,10 +70748,27 @@
                     "https://www.w3.org/2011/tracking-protection/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20190117": {
+                "authors": [
+                    "Roy Fielding",
+                    "David Singer"
+                ],
+                "href": "https://www.w3.org/TR/2019/NOTE-tracking-dnt-20190117/",
+                "title": "Tracking Preference Expression (DNT)",
+                "rawDate": "2019-01-17",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "isRetired": true,
+                "deliveredBy": [
+                    "https://www.w3.org/2011/tracking-protection/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
         "edDraft": "https://w3c.github.io/dnt/drafts/tracking-dnt.html",
-        "repository": "https://github.com/w3c/dnt"
+        "repository": "https://github.com/w3c/dnt",
+        "isRetired": true
     },
     "trig": {
         "authors": [
