@@ -97451,6 +97451,9 @@
         ],
         "rawDate": "2011-12",
         "status": "Informational",
+        "obsoletedBy": [
+            "RFC8504"
+        ],
         "obsoletes": [
             "RFC4294"
         ],
@@ -129373,6 +129376,23 @@
         ],
         "rawDate": "2018-12",
         "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "https://www.rfc-editor.org/in-notes/rfc-index.xml"
+    },
+    "rfc8504": {
+        "rfcNumber": "RFC8504",
+        "href": "https://tools.ietf.org/html/rfc8504",
+        "title": "IPv6 Node Requirements",
+        "authors": [
+            "T. Chown",
+            "J. Loughney",
+            "T. Winters"
+        ],
+        "rawDate": "2019-01",
+        "status": "Best Current Practice",
+        "obsoletes": [
+            "RFC6434"
+        ],
         "publisher": "IETF",
         "source": "https://www.rfc-editor.org/in-notes/rfc-index.xml"
     },
