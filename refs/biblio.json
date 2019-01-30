@@ -2412,8 +2412,21 @@
         "publisher": "ANSI/SCTE"
     },
     "SCTE214": {
-        "title": "MPEG DASH for IP-Based Cable Services  Part 1: MPD Constraints and Extensions",
+        "aliasOf": "SCTE214-1"
+    },
+    "SCTE214-1": {
+        "title": "MPEG DASH for IP-Based Cable Services, Part 1: MPD Constraints and Extensions",
         "href": "https://www.scte.org/SCTEDocs/Standards/ANSI_SCTE%20214-1%202015.pdf",
+        "publisher": "ANSI/SCTE"
+    },
+    "SCTE214-2": {
+        "title": "MPEG DASH for IP-Based Cable Services, Part 2: DASH/TS Profile",
+        "href": "https://www.scte.org/SCTEDocs/Standards/ANSI_SCTE%20214-2%202015.pdf",
+        "publisher": "ANSI/SCTE"
+    },
+    "SCTE214-3": {
+        "title": "MPEG DASH for IP-Based Cable Services, Part 3: DASH/FF Profile",
+        "href": "https://www.scte.org/SCTEDocs/Standards/ANSI_SCTE%20214-3%202015.pdf",
         "publisher": "ANSI/SCTE"
     },
     "SCTE224": {
