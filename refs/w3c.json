@@ -73870,14 +73870,14 @@
     },
     "verifiable-claims-data-model": {
         "authors": [
-            "Daniel Burnett",
             "Manu Sporny",
+            "Daniel Burnett",
             "Dave Longley",
             "Gregg Kellogg"
         ],
         "href": "https://www.w3.org/TR/verifiable-claims-data-model/",
-        "title": "Verifiable Claims Data Model and Representations",
-        "rawDate": "2017-08-03",
+        "title": "Verifiable Credentials Data Model 1.0",
+        "rawDate": "2019-02-08",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/vc-data-model/",
@@ -73896,6 +73896,23 @@
                 "href": "https://www.w3.org/TR/2017/WD-verifiable-claims-data-model-20170803/",
                 "title": "Verifiable Claims Data Model and Representations",
                 "rawDate": "2017-08-03",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2017/vc/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20190208": {
+                "authors": [
+                    "Manu Sporny",
+                    "Daniel Burnett",
+                    "Dave Longley",
+                    "Gregg Kellogg"
+                ],
+                "href": "https://www.w3.org/TR/2019/WD-verifiable-claims-data-model-20190208/",
+                "title": "Verifiable Credentials Data Model 1.0",
+                "rawDate": "2019-02-08",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
