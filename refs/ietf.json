@@ -83204,7 +83204,8 @@
         "rawDate": "2009-04",
         "status": "Informational",
         "updatedBy": [
-            "RFC8217"
+            "RFC8217",
+            "RFC8498"
         ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=5502",
         "publisher": "IETF",
@@ -129316,6 +129317,21 @@
         ],
         "rawDate": "2018-11",
         "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "https://www.rfc-editor.org/in-notes/rfc-index.xml"
+    },
+    "rfc8498": {
+        "rfcNumber": "RFC8498",
+        "href": "https://tools.ietf.org/html/rfc8498",
+        "title": "A P-Served-User Header Field Parameter for an Originating Call Diversion (CDIV) Session Case in the Session Initiation Protocol (SIP)",
+        "authors": [
+            "M. Mohali"
+        ],
+        "rawDate": "2019-02",
+        "status": "Informational",
+        "updates": [
+            "RFC5502"
+        ],
         "publisher": "IETF",
         "source": "https://www.rfc-editor.org/in-notes/rfc-index.xml"
     },
