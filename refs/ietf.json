@@ -61695,7 +61695,8 @@
         "rawDate": "2005-05",
         "status": "Proposed Standard",
         "updatedBy": [
-            "RFC8271"
+            "RFC8271",
+            "RFC8537"
         ],
         "hasErrata": "http://www.rfc-editor.org/errata_search.php?rfc=4090",
         "publisher": "IETF",
@@ -114604,6 +114605,9 @@
         ],
         "rawDate": "2015-05",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC8537"
+        ],
         "publisher": "IETF",
         "source": "https://www.rfc-editor.org/in-notes/rfc-index.xml"
     },
@@ -129617,6 +129621,24 @@
         ],
         "rawDate": "2019-02",
         "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "https://www.rfc-editor.org/in-notes/rfc-index.xml"
+    },
+    "rfc8537": {
+        "rfcNumber": "RFC8537",
+        "href": "https://tools.ietf.org/html/rfc8537",
+        "title": "Updates to the Fast Reroute Procedures for Co-routed Associated Bidirectional Label Switched Paths (LSPs)",
+        "authors": [
+            "R. Gandhi, Ed.",
+            "H. Shah",
+            "J. Whittaker"
+        ],
+        "rawDate": "2019-02",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC4090",
+            "RFC7551"
+        ],
         "publisher": "IETF",
         "source": "https://www.rfc-editor.org/in-notes/rfc-index.xml"
     },
