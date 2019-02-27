@@ -73126,16 +73126,20 @@
         }
     },
     "user-timing": {
+        "aliasOf": "user-timing-1"
+    },
+    "user-timing-1": {
         "authors": [
             "Jatinder Mann",
             "Zhiheng Wang",
             "Anderson Quach"
         ],
-        "href": "https://www.w3.org/TR/user-timing/",
+        "href": "https://www.w3.org/TR/user-timing-1/",
         "title": "User Timing",
-        "rawDate": "2013-12-12",
+        "rawDate": "2019-02-26",
         "status": "REC",
         "publisher": "W3C",
+        "isRetired": true,
         "deliveredBy": [
             "https://www.w3.org/webperf/"
         ],
@@ -73202,6 +73206,23 @@
                 "rawDate": "2013-12-12",
                 "status": "REC",
                 "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/webperf/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20190226": {
+                "authors": [
+                    "Jatinder Mann",
+                    "Zhiheng Wang",
+                    "Anderson Quach"
+                ],
+                "href": "https://www.w3.org/TR/2019/SPSD-user-timing-1-20190226/",
+                "title": "User Timing",
+                "rawDate": "2019-02-26",
+                "status": "REC",
+                "publisher": "W3C",
+                "isRetired": true,
                 "deliveredBy": [
                     "https://www.w3.org/webperf/"
                 ],
