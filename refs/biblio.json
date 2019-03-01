@@ -1,4 +1,10 @@
 {
+    "3GPP-INTERACTIVITY": {
+        "title": "Interactivity Support for 3GPP-Based Streaming and Download Services (Release 15)",
+        "href": "https://www.3gpp.org/ftp/Specs/archive/26_series/26.953/26953-f00.zip",
+        "publisher": "3GPP",
+        "date": "June 2018"
+    },
     "3GPP-TT": {
         "title": "Transparent end-to-end Packet switched Streaming Service (PSS) Timed text format (Release 12)",
         "href": "http://www.3gpp.org/ftp/Specs/archive/26_series/26.245/26245-c00.zip",
@@ -158,6 +164,13 @@
     "AXAPI": {
         "aliasOf": "NSAccessibility"
     },
+    "BBC-SUBTITLE": {
+        "href": "https://bbc.github.io/subtitle-guidelines/",
+        "title": "Subtitle Guidelines, Version 1.1.7",
+        "publisher": "BBC",
+        "date": "May 2018",
+        "repository": "https://github.com/bbc/subtitle-guidelines"
+    },
     "BBC-WP193": {
         "authors": [
             "J.P. Barrett",
@@ -165,7 +178,7 @@
             "S.J.E Jolly"
         ],
         "date": "June 2011",
-        "href": "http://www.bbc.co.uk/rd/publications/whitepaper193.shtml",
+        "href": "https://www.bbc.co.uk/rd/publications/whitepaper193.shtml",
         "title": "White Paper 193 : The Universal Control API version 0.6.0 - An Overview",
         "publisher": "BBC"
     },
@@ -176,7 +189,7 @@
             "S.J.E Jolly"
         ],
         "date": "June 2011",
-        "href": "http://www.bbc.co.uk/rd/publications/whitepaper194.shtml",
+        "href": "https://www.bbc.co.uk/rd/publications/whitepaper194.shtml",
         "title": "White Paper 194 : The Universal Control API version 0.6.0 - Specification for the behaviour of a universal control server running on a set-top box, and the clients that connect to it",
         "publisher": "BBC"
     },
@@ -227,6 +240,15 @@
         "date": "2 June 2010",
         "href": "https://web-beta.archive.org/web/20130114131937/http://bondi.omtp.org/1.11/apis/apifeatures.html",
         "title": "BONDI API Features v1.11"
+    },
+    "Bradford CAT": {
+        "authors": [
+            "Ming R. Luo",
+            "R. W. G. Hunt"
+        ],
+        "rawDate": "1998-06",
+        "title": "A Chromatic Adaptation Transform and a Colour Inconstancy Index. Color Research & Application 23(3) 154-158",
+        "publisher": "Wiley"
     },
     "BUNDLE": {
         "authors": [
@@ -316,7 +338,8 @@
     },
     "CHARSETS": {
         "href": "https://www.iana.org/assignments/character-sets",
-        "title": "Character sets"
+        "title": "Character sets",
+        "publisher": "IANA"
     },
     "CHIPS": {
         "authors": [
@@ -780,35 +803,86 @@
         "etAl": true,
         "href": "http://dublincore.org/documents/dc-rdf/",
         "title": "Expressing Dublin Core metadata using the Resource Description Framework (RDF)",
-        "date": "14 January 2008",
+        "rawDate": "2008-01-14",
+        "publisher": "DCMI",
         "status": "DCMI Recommendation"
     },
     "DC-TERMS": {
+        "authors": [
+            "DCMI Usage Board"
+        ],
         "href": "http://dublincore.org/documents/2010/10/11/dcmi-terms/",
-        "title": "Dublin Core Metadata Initiative Terms, version 1.1",
-        "date": "11 October 2010",
+        "title": "Dublin Core Metadata Terms, version 1.1",
+        "rawDate": "2010-10-11",
+        "publisher": "DCMI",
         "status": "DCMI Recommendation"
     },
     "DC11": {
-        "authors": [
-            "Dublin Core metadata initiative"
-        ],
-        "href": "http://dublincore.org/documents/2012/06/14/dces/",
+        "href": "http://dublincore.org/documents/dces/",
         "title": "Dublin Core Metadata Element Set, Version 1.1",
-        "date": "14 June 2012",
-        "status": "DCMI recommendation"
+        "rawDate": "2012-06-14",
+        "publisher": "DCMI",
+        "status": "DCMI Recommendation",
+        "versions": {
+            "20120614": {
+                "href": "http://dublincore.org/documents/2012/06/14/dces/",
+                "title": "Dublin Core Metadata Element Set, Version 1.1",
+                "rawDate": "2012-06-14",
+                "publisher": "DCMI",
+                "status": "DCMI Recommendation"
+            }
+        }
+    },
+    "DCAP": {
+        "authors": [
+            "Karen Coyle",
+            "Thomas Baker"
+        ],
+        "href": "http://dublincore.org/documents/profile-guidelines/",
+        "title": "Guidelines for Dublin Core Application Profiles",
+        "rawDate": "2009-05-18",
+        "publisher": "DCMI",
+        "status": "DCMI Recommended Resource"
+    },
+    "DCDSP": {
+        "authors": [
+            "Mikael Nilsson"
+        ],
+        "href": "http://dublincore.org/documents/dc-dsp/",
+        "title": "Description Set Profiles: A constraint language for Dublin Core Application Profiles",
+        "rawDate": "2008-03-31",
+        "publisher": "DCMI",
+        "status": "DCMI Working Draft"
     },
     "DCI-P3": {
         "aliasOf": "SMPTE431-2"
     },
+    "DCSF": {
+        "authors": [
+            "Mikael Nilsson",
+            "Thomas Baker",
+            "Pete Johnston"
+        ],
+        "href": "http://dublincore.org/documents/singapore-framework/",
+        "title": "The Singapore Framework for Dublin Core Application Profiles",
+        "rawDate": "2008-01-14",
+        "publisher": "DCMI",
+        "status": "DCMI Recommended Resource"
+    },
     "DCTERMS": {
         "authors": [
-            "Dublin Core metadata initiative"
+            "DCMI Usage Board"
         ],
         "href": "http://dublincore.org/documents/dcmi-terms/",
         "title": "DCMI Metadata Terms",
-        "date": "14 June 2012",
-        "status": "DCMI Recommendation"
+        "rawDate": "2012-06-14",
+        "publisher": "DCMI",
+        "status": "DCMI Recommendation",
+        "versions": {
+            "20101011": {
+                "aliasOf": "DC-TERMS"
+            }
+        }
     },
     "DES": {
         "href": "https://csrc.nist.gov/publications/fips/fips46-3/fips46-3.pdf",
@@ -978,7 +1052,7 @@
             },
             "1-2": {
                 "title": "EBU TECH 3350: \"EBU-TT Subtitling format definition\", Version 1.2",
-                "href": "https://tech.ebu.ch/docs/tech/tech3350v1-2.pdf",
+                "href": "https://tech.ebu.ch/docs/tech/tech3350v1_2.pdf",
                 "publisher": "European Broadcasting Union",
                 "rawDate": "2017-05"
             }
@@ -1350,6 +1424,12 @@
         "status": "Working Draft",
         "repository": "https://github.com/facebook/graphql"
     },
+    "HBBTV": {
+        "title": "HbbTV 2.0.2 Specification",
+        "href": "https://www.hbbtv.org/wp-content/uploads/2018/02/HbbTV_v202_specification_2018_02_16.pdf",
+        "publisher": "HbbTV Association",
+        "rawDate": "2018-02-16"
+    },
     "HIGHRES-TIME": {
         "aliasOf": "hr-time-2"
     },
@@ -1363,6 +1443,12 @@
         "date": "15 October 2012",
         "status": "Internet Draft",
         "publisher": "IETF"
+    },
+    "HLS-TIMED-METADATA": {
+        "title": "Timed Metadata for HTTP Live Streaming",
+        "href": "https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/HTTP_Live_Streaming_Metadata_Spec/Introduction/Introduction.html",
+        "publisher": "Apple, Inc.",
+        "rawDate": "2011-04-28"
     },
     "HMAC": {
         "aliasOf": "RFC2104"
@@ -1410,6 +1496,9 @@
     "HTTP11": {
         "aliasOf": "RFC7230"
     },
+    "IANA-CHARSETS": {
+        "aliasOf": "CHARSETS"
+    },
     "IANA-COSE": {
         "authors": [
             "Francesca Palombini",
@@ -1417,9 +1506,12 @@
             "Justin Richer",
             "Carsten Bormann"
         ],
-        "publisher": "Internet Assigned Numbers Authority",
+        "publisher": "IANA",
         "title": "CBOR Object Signing and Encryption (COSE)",
         "href": "https://www.iana.org/assignments/cose/cose.xhtml"
+    },
+    "IANA-CP50220": {
+        "aliasOf": "CP50220"
     },
     "IANA-DTLS-SRTP": {
         "href": "https://www.iana.org/assignments/srtp-protection/srtp-protection.xhtml",
@@ -1429,6 +1521,11 @@
     "IANA-MEDIA-TYPES": {
         "href": "https://www.iana.org/assignments/media-types/",
         "title": "Media Types",
+        "publisher": "IANA"
+    },
+    "IANA-RELATIONS": {
+        "href": "https://www.iana.org/assignments/link-relations/",
+        "title": "Link Relations",
         "publisher": "IANA"
     },
     "IANA-RTP-2": {
@@ -1453,7 +1550,8 @@
         "href": "https://www.iana.org/assignments/media-types/text/tab-separated-values",
         "title": "Definition of tab-separated-values (tsv)",
         "date": "June 1993",
-        "status": "IANA Media Type Registration"
+        "status": "IANA Media Type Registration",
+        "publisher": "IANA"
     },
     "IANA-URI-SCHEMES": {
         "href": "https://www.iana.org/assignments/uri-schemes/uri-schemes.xhtml",
@@ -1589,10 +1687,43 @@
         "publisher": "ISO/IEC",
         "isoNumber": "ISO/IEC 14496-12:2015"
     },
+    "ITU-R-BT.601": {
+        "href": "https://www.itu.int/rec/R-REC-BT.601/",
+        "title": "Recommendation ITU-R BT.601-7 (03/2011), Studio encoding parameters of digital television for standard 4:3 and wide screen 16:9 aspect ratios",
+        "status": "Recommendation",
+        "rawDate": "2011-03-08",
+        "publisher": "ITU"
+    },
+    "ITU-R-BT.709": {
+        "href": "https://www.itu.int/rec/R-REC-BT.709/",
+        "title": "Recommendation ITU-R BT.709-6 (06/2015), Parameter values for the HDTV standards for production and international programme exchange",
+        "status": "Recommendation",
+        "rawDate": "2015-06-17",
+        "publisher": "ITU"
+    },
     "JAPI": {
         "href": "http://www.oracle.com/technetwork/java/javase/tech/index-jsp-140174.html",
         "title": "Java Accessibility API",
         "publisher": "Oracle"
+    },
+    "JAX-RS": {
+        "aliasOf": "JAX-RS-2.1"
+    },
+    "JAX-RS-2.0": {
+        "authors": ["S. Pericas-Geertsen", "M. Potociar"],
+        "date": "22 May 2013",
+        "href": "http://download.oracle.com/otn-pub/jcp/jaxrs-2_0-fr-eval-spec/jsr339-jaxrs-2.0-final-spec.pdf",
+        "publisher": "Oracle Corporation",
+        "status": "Final Release",
+        "title": "JAX-RS: Java API for RESTful Web Services Version 2.0"
+    },
+    "JAX-RS-2.1": {
+        "authors": ["S. Pericas-Geertsen", "P. Bucek"],
+        "date": "13 July 2017",
+        "href": "https://download.oracle.com/otn-pub/jcp/jaxrs-2_1-final-eval-spec/jaxrs-2_1-final-spec.pdf",
+        "publisher": "Oracle Corporation",
+        "status": "Final Release",
+        "title": "JAX-RS: Java API for RESTful Web Services Version 2.1"
     },
     "JIGSAW": {
         "authors": [
@@ -2351,8 +2482,21 @@
         "publisher": "ANSI/SCTE"
     },
     "SCTE214": {
-        "title": "MPEG DASH for IP-Based Cable Services  Part 1: MPD Constraints and Extensions",
+        "aliasOf": "SCTE214-1"
+    },
+    "SCTE214-1": {
+        "title": "MPEG DASH for IP-Based Cable Services, Part 1: MPD Constraints and Extensions",
         "href": "https://www.scte.org/SCTEDocs/Standards/ANSI_SCTE%20214-1%202015.pdf",
+        "publisher": "ANSI/SCTE"
+    },
+    "SCTE214-2": {
+        "title": "MPEG DASH for IP-Based Cable Services, Part 2: DASH/TS Profile",
+        "href": "https://www.scte.org/SCTEDocs/Standards/ANSI_SCTE%20214-2%202015.pdf",
+        "publisher": "ANSI/SCTE"
+    },
+    "SCTE214-3": {
+        "title": "MPEG DASH for IP-Based Cable Services, Part 3: DASH/FF Profile",
+        "href": "https://www.scte.org/SCTEDocs/Standards/ANSI_SCTE%20214-3%202015.pdf",
         "publisher": "ANSI/SCTE"
     },
     "SCTE224": {
@@ -2385,6 +2529,19 @@
     },
     "SDP": {
         "aliasOf": "rfc3264"
+    },
+    "SDP-SIMULCAST": {
+        "authors": [
+            "B. Burman",
+            "M. Westerlund",
+            "S. Nandakumar",
+            "M. Zanaty"
+        ],
+        "date": "27 June 2018",
+        "href": "https://tools.ietf.org/html/draft-ietf-mmusic-sdp-simulcast",
+        "publisher": "IETF",
+        "status": "Active Internet-Draft",
+        "title": "Using Simulcast in SDP and RTP Sessions"
     },
     "SDPLABEL": {
         "aliasOf": "rfc4574"
@@ -2451,6 +2608,13 @@
         "title": "Conversion from CEA-708 Caption Data to SMPTE-TT",
         "href": "https://www.smpte.org/sites/default/files/RP2052-11-2013.pdf",
         "publisher": "SMPTE"
+    },
+    "SMPTE296": {
+        "title": "ST 296:2012, 1280 × 720 Progressive Image 4:2:2 and 4:4:4 Sample Structure — Analog and Digital Representation and Analog Interface",
+        "href": "https://doi.org/10.5594/SMPTE.ST296.2012",
+        "publisher": "SMPTE",
+        "rawDate": "2012-05-17",
+        "status": "Standard"
     },
     "SMPTE431-1": {
         "title": "SMPTE Engineering Guideline - Digital Source Processing — Color Processing for D-Cinema",
@@ -2754,6 +2918,16 @@
         "title": "The IAccessibleEx Interface",
         "publisher": "Microsoft Corporation"
     },
+    "UN-CEFACT-V3-1": {
+        "authors": [
+            "United Nations Economic Commission for Europe"
+        ],
+        "href": "https://www.unece.org/fileadmin/DAM/cefact/codesfortrade/CCTS/CCTS-DTCatalogueVersion3p1.pdf",
+        "publisher": "United Nations Economic Commission for Europe",
+        "status": "Normative",
+        "rawDate": "2011-09-17",
+        "title": "United Nations Centre for Trade Facilitation and Electronic Business Core Components Data Type Catalogue Version 3.1"
+    },
     "UNDO": {
         "authors": [
             "Ryosuke Niwa"
@@ -2974,6 +3148,17 @@
     },
     "WEBSOCKETS-PROTOCOL": {
         "aliasOf": "RFC6455"
+    },
+    "WEBVMT": {
+        "title": "WebVMT: The Web Video Map Tracks Format",
+        "href": "https://w3c.github.io/sdw/proposals/geotagging/webvmt/",
+        "authors": [
+            "Rob Smith"
+        ],
+        "publisher": "W3C",
+        "status": "ED",
+        "date": "29 January 2019",
+        "repository": "https://github.com/w3c/sdw"
     },
     "WEBVTT": {
         "aliasOf": "webvtt1"
@@ -3436,10 +3621,10 @@
         }
     },
     "dcat-ap": {
-        "href": "http://data.europa.eu/w21/ac376c94-74cf-4dd7-ade7-267d6a4ec4dc",
-        "title": "DCAT Application Profile for data portals in Europe. Version 1.1",
+        "href": "https://joinup.ec.europa.eu/solution/dcat-application-profile-data-portals-europe",
+        "title": "DCAT Application Profile for data portals in Europe. Version 1.2",
         "publisher": "European Commission",
-        "rawDate": "2017-02-24",
+        "rawDate": "2018-11-08",
         "deliveredBy": [
             "http://data.europa.eu/w21/ac376c94-74cf-4dd7-ade7-267d6a4ec4dc"
         ],
@@ -3460,9 +3645,18 @@
                 "aliasOf": "dcat-ap-20170224"
             },
             "20170224": {
-                "href": "http://data.europa.eu/w21/be3842a8-f87c-4d52-a209-cc21107f20b8",
+                "href": "https://joinup.ec.europa.eu/release/dcat-ap/11",
                 "title": "DCAT Application Profile for data portals in Europe. Version 1.1",
                 "rawDate": "2015-10-23",
+                "publisher": "European Commission",
+                "deliveredBy": [
+                    "http://data.europa.eu/w21/ac376c94-74cf-4dd7-ade7-267d6a4ec4dc"
+                ]
+            },
+            "20181108": {
+                "href": "https://joinup.ec.europa.eu/release/dcat-ap/12",
+                "title": "DCAT Application Profile for data portals in Europe. Version 1.2",
+                "rawDate": "2018-11-08",
                 "publisher": "European Commission",
                 "deliveredBy": [
                     "http://data.europa.eu/w21/ac376c94-74cf-4dd7-ade7-267d6a4ec4dc"
@@ -4602,6 +4796,19 @@
         "status": "Version 1.1 Experimental Phase 2",
         "rawDate": "2013",
         "title": "RightsML"
+    },
+    "service-workers-nightly": {
+        "authors": [
+            "Alex Russell",
+            "Jungkee Song",
+            "Jake Archibald",
+            "Marijn Kruisselbrink"
+        ],
+        "href": "https://w3c.github.io/ServiceWorker/",
+        "publisher": "W3C",
+        "status": "LS",
+        "title": "Service Workers Nightly",
+        "repository": "https://github.com/w3c/ServiceWorker"
     },
     "smartM2M": {
         "href": "http://www.etsi.org/deliver/etsi_ts/103200_103299/103264/01.01.01_60/ts_103264v010101p.pdf",
