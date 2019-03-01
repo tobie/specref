@@ -1686,15 +1686,23 @@
         "publisher": "Oracle"
     },
     "JAX-RS": {
-        "aliasOf": "JAX-RS-2.0"
+        "aliasOf": "JAX-RS-2.1"
     },
     "JAX-RS-2.0": {
         "authors": ["S. Pericas-Geertsen", "M. Potociar"],
         "date": "22 May 2013",
         "href": "http://download.oracle.com/otn-pub/jcp/jaxrs-2_0-fr-eval-spec/jsr339-jaxrs-2.0-final-spec.pdf",
         "publisher": "Oracle Corporation",
-        "status": "Final release",
+        "status": "Final Release",
         "title": "JAX-RS: Java API for RESTful Web Services Version 2.0"
+    },
+    "JAX-RS-2.1": {
+        "authors": ["S. Pericas-Geertsen", "P. Bucek"],
+        "date": "13 July 2017",
+        "href": "https://download.oracle.com/otn-pub/jcp/jaxrs-2_1-final-eval-spec/jaxrs-2_1-final-spec.pdf",
+        "publisher": "Oracle Corporation",
+        "status": "Final Release",
+        "title": "JAX-RS: Java API for RESTful Web Services Version 2.1"
     },
     "JIGSAW": {
         "authors": [
