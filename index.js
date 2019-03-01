@@ -4,21 +4,22 @@ var bibref = require('./lib/bibref');
 
 var app = module.exports = require("express")();
 
-var errorhandlerOptions = {};
+var errorhandlerOptions = { log: true };
 if (process.env.NODE_ENV == "dev" || process.env.NODE_ENV == "development") {
     errorhandlerOptions.dumpExceptions = true;
     errorhandlerOptions.showStack = true;
 }
-
+app.enable("etag");
 app.use(require("compression")());
 app.use(require("cors")());
 app.use(require("body-parser").urlencoded({ extended: true }));
-app.use(require("multer")());
 app.use(require("errorhandler")(errorhandlerOptions));
 
 // bibrefs
 app.get('/bibrefs', function (req, res, next) {
-    var refs = req.param("refs");
+    var refs = req.query["refs"];
+    res.setHeader("Expires", new Date(Date.now() + 86400000).toUTCString());
+    res.setHeader("Cache-Control", "public, max-age=86400");
     if (refs) {
         refs = bibref.getRefs(refs.split(","));
         res.status(200).jsonp(refs);
@@ -29,7 +30,7 @@ app.get('/bibrefs', function (req, res, next) {
 
 // search
 app.get('/search-refs', function (req, res, next) {
-    var q = (req.param("q") || "").toLowerCase();
+    var q = (req.query["q"] || "").toLowerCase();
     if (q) {
 		var obj = {};
 		var current, shortname;
@@ -48,9 +49,10 @@ app.get('/search-refs', function (req, res, next) {
 			if (match(shortname)) {
 				add();
 				if (current.aliasOf) {
+					var r = bibref.get(current.aliasOf);
 					var k = current.aliasOf;
 					while (k) {
-						obj[k] = all[k];
+						obj[k] = r[k];
 						k = obj[k].aliasOf;
 					}
 				}
@@ -84,7 +86,7 @@ app.get('/search-refs', function (req, res, next) {
 // search by url
 app.get('/reverse-lookup', function (req, res, next) {
     var refs,
-        urls = req.param("urls");
+        urls = req.query["urls"];
     if (urls) {
         refs = bibref.reverseLookup(urls.split(","));
         res.status(200).jsonp(refs);

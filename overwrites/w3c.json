@@ -2,15 +2,28 @@
     "WebIDL": {
         "title": { "replaceWith": "Web IDL" },
         "authors": { "replaceWith": ["Cameron McCormack", "Boris Zbarsky", "Tobie Langel"] },
-        "status": { "replaceWith": "WD" }
+        "status": { "replaceWith": "ED" },
+        "href": { "replaceWith": "https://heycam.github.io/webidl/" }
     },
-    "WebCryptoAPI": {
-        "edDraft": { "replaceWith": "https://w3c.github.io/webcrypto/Overview.html" }
-    },    
+    "url": {
+        "delete": true
+    },
+    "fullscreen": {
+        "delete": true
+    },
+    "notifications": {
+        "delete": true
+    },
+    "dom": {
+        "delete": true
+    },
+    "encoding": {
+        "delete": true
+    },
     "service-workers-1": {
         "edDraft": { "replaceWith": "https://w3c.github.io/ServiceWorker/" }
     },
-    "vibration": {
-        "edDraft": { "replaceWith": "https://w3c.github.io/vibration/" }
+    "xpath": {
+        "href": { "replaceWith": "https://www.w3.org/TR/xpath-10/" }
     }
 }

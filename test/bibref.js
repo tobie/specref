@@ -11,6 +11,7 @@ suite('Test bibref api', function() {
             }
         },
         foo: { aliasOf: "FOO" },
+        bar: { aliasOf: "fOO" },
         hello: { title: "HELLO" }
     };
 
@@ -143,6 +144,14 @@ suite('Test bibref api', function() {
 
         assert.equal('HELLO', b.get('HeLLo').HeLLo.aliasOf, 'The differently cased alias points to the uppercased alias.');
         assert.equal('hello', b.get('HeLLo').HELLO.aliasOf, 'The uppercased  alias points to ref itself.');
+    });
+
+    test('bibref.get handles aliases case-insensitively', function() {
+        var b = bibref.create(obj);
+        var r = b.get('bar');
+        assert.ok('bar' in r, 'Returns the requested alias.');
+        assert.ok('fOO' in r, 'Returns an alias created on the fly.');
+        assert.ok('FOO' in r, 'Returns the ref itself.');
     });
 
     test('bibref.get also includes canonical reference of versioned specs', function() {
@@ -328,6 +337,22 @@ suite('Test bibref reverseLookup API', function() {
         var output = b.reverseLookup([edDraft]);
         assert(edDraft in output);
         assert.equal("Bar", output[edDraft].title);
+    });
+
+    test('returns the right ref even when url also exists as edDraft', function() {
+        var foo = "http://example.com/foof";
+        var bar = "http://example.com/barf";
+        var b = bibref.create({
+            foo: { title: "Foo", href: foo },
+            fooEd: { title: "Foo ED", edDraft: foo },
+            barEd: { title: "Bar ED", edDraft: bar },
+            bar: { title: "Bar", href: bar }
+        });
+        var output = b.reverseLookup([foo, bar]);
+        assert(foo in output);
+        assert.equal("Foo", output[foo].title);
+        assert(bar in output);
+        assert.equal("Bar", output[bar].title);
     });
 });
 

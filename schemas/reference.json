@@ -163,6 +163,10 @@
                     "description": "Page number(s) where the reference is inside the titled document",
                     "type": "string",
                     "pattern": "^[0-9\\-,]+$"
+                },
+                "repository": {
+                    "description": "URL of the repository",
+                    "$ref": "#/definitions/url"
                 }
             },
             "required": ["title"],
