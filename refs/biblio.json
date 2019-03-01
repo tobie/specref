@@ -241,15 +241,6 @@
         "href": "https://web-beta.archive.org/web/20130114131937/http://bondi.omtp.org/1.11/apis/apifeatures.html",
         "title": "BONDI API Features v1.11"
     },
-    "Bradford-CAT": {
-        "authors": [
-            "Ming R. Luo",
-            "R. W. G. Hunt"
-        ],
-        "rawDate": "1998-06",
-        "title": "A Chromatic Adaptation Transform and a Colour Inconstancy Index. Color Research & Application 23(3) 154-158",
-        "publisher": "Wiley"
-    },
     "BUNDLE": {
         "authors": [
             "C. Holmberg",
@@ -261,6 +252,15 @@
         "publisher": "IETF",
         "status": "Active Internet-Draft",
         "title": "Negotiating Media Multiplexing Using the Session Description Protocol (SDP)"
+    },
+    "Bradford-CAT": {
+        "authors": [
+            "Ming R. Luo",
+            "R. W. G. Hunt"
+        ],
+        "rawDate": "1998-06",
+        "title": "A Chromatic Adaptation Transform and a Colour Inconstancy Index. Color Research & Application 23(3) 154-158",
+        "publisher": "Wiley"
     },
     "BrowserID": {
         "authors": [
@@ -1698,7 +1698,10 @@
         "aliasOf": "JAX-RS-2.1"
     },
     "JAX-RS-2.0": {
-        "authors": ["S. Pericas-Geertsen", "M. Potociar"],
+        "authors": [
+            "S. Pericas-Geertsen",
+            "M. Potociar"
+        ],
         "date": "22 May 2013",
         "href": "http://download.oracle.com/otn-pub/jcp/jaxrs-2_0-fr-eval-spec/jsr339-jaxrs-2.0-final-spec.pdf",
         "publisher": "Oracle Corporation",
@@ -1706,7 +1709,10 @@
         "title": "JAX-RS: Java API for RESTful Web Services Version 2.0"
     },
     "JAX-RS-2.1": {
-        "authors": ["S. Pericas-Geertsen", "P. Bucek"],
+        "authors": [
+            "S. Pericas-Geertsen",
+            "P. Bucek"
+        ],
         "date": "13 July 2017",
         "href": "https://download.oracle.com/otn-pub/jcp/jaxrs-2_1-final-eval-spec/jaxrs-2_1-final-spec.pdf",
         "publisher": "Oracle Corporation",
