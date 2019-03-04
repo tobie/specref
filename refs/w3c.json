@@ -78002,6 +78002,9 @@
         }
     },
     "webauthn": {
+        "aliasOf": "webauthn-1"
+    },
+    "webauthn-1": {
         "authors": [
             "Dirk Balfanz",
             "Alexei Czeskis",
@@ -78013,10 +78016,10 @@
             "Rolf Lindemann",
             "Emil Lundberg"
         ],
-        "href": "https://www.w3.org/TR/webauthn/",
-        "title": "Web Authentication:An API for accessing Public Key CredentialsLevel 1",
-        "rawDate": "2019-01-17",
-        "status": "PR",
+        "href": "https://www.w3.org/TR/webauthn-1/",
+        "title": "Web Authentication:An API for accessing Public Key Credentials Level 1",
+        "rawDate": "2019-03-04",
+        "status": "REC",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/webauthn/",
         "deliveredBy": [
@@ -78276,6 +78279,28 @@
                 "title": "Web Authentication:An API for accessing Public Key CredentialsLevel 1",
                 "rawDate": "2019-01-17",
                 "status": "PR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/webauthn/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20190304": {
+                "authors": [
+                    "Dirk Balfanz",
+                    "Alexei Czeskis",
+                    "Jeff Hodges",
+                    "J.C. Jones",
+                    "Michael Jones",
+                    "Akshay Kumar",
+                    "Huakai Liao",
+                    "Rolf Lindemann",
+                    "Emil Lundberg"
+                ],
+                "href": "https://www.w3.org/TR/2019/REC-webauthn-1-20190304/",
+                "title": "Web Authentication:An API for accessing Public Key Credentials Level 1",
+                "rawDate": "2019-03-04",
+                "status": "REC",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/webauthn/"
