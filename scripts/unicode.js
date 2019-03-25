@@ -9,24 +9,34 @@ const helper = require('./helper');
 const FILENAME = "unicode.json";
 const current = helper.readBiblio(FILENAME);
 
-const reportsToFetch = [
-    9,
-    10,
-    11,
-    14,
-    15,
-    24,
-    29,
-    35,
-    36,
-    39,
-    44,
-    46,
-    50,
-    51,
-];
+const MAX_REPORT = 53;
+const skip = new Set([
+    // Stabilized
+    6, 16, 22, 26,
 
-async.each(reportsToFetch, (num, cb) => {
+    // Old versions of Unicode
+    4, 8, 27, 28,
+
+    // Other superseded
+    1, 2, 3, 5, 7, 13, 19, 21,
+
+    // Withdrawn or suspended
+    12, 20, 30, 32, 40, 47, 49, 52,
+
+    // Nonexistent
+    43, 48,
+
+    // Not in HTML
+    25,
+]);
+
+async.each(range(1, MAX_REPORT), (num, cb) => {
+    if (skip.has(num)) {
+        console.log('Skipping report #' + num);
+        cb();
+        return;
+    }
+
     const url = `https://www.unicode.org/reports/tr${num}/`;
     console.log('Fetching', url, '...');
     request({

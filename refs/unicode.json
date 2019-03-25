@@ -79,8 +79,61 @@
         "status": "Unicode Standard Annex #29",
         "publisher": "Unicode Consortium"
     },
+    "UAX31": {
+        "authors": [
+            "Mark Davis"
+        ],
+        "href": "https://www.unicode.org/reports/tr31/tr31-31.html",
+        "title": "Unicode Identifier and Pattern Syntax",
+        "rawDate": "2019-02-19",
+        "status": "Unicode Standard Annex #31",
+        "publisher": "Unicode Consortium"
+    },
+    "UAX34": {
+        "authors": [
+            "Addison Phillips"
+        ],
+        "href": "https://www.unicode.org/reports/tr34/tr34-25.html",
+        "title": "Unicode Named Character Sequences",
+        "rawDate": "2019-02-19",
+        "status": "Unicode Standard Annex #34",
+        "publisher": "Unicode Consortium"
+    },
     "UAX35": {
         "aliasOf": "UTS35"
+    },
+    "UAX38": {
+        "authors": [
+            "John H. Jenkins 井作恆",
+            "Richard Cook 曲理查",
+            "Ken Lunde 小林劍󠄁"
+        ],
+        "href": "https://www.unicode.org/reports/tr38/tr38-27.html",
+        "title": "Unicode Han Database (Unihan)",
+        "rawDate": "2019-02-15",
+        "status": "Unicode Standard Annex #38",
+        "publisher": "Unicode Consortium"
+    },
+    "UAX41": {
+        "authors": [
+            "Laurențiu Iancu",
+            "Rick McGowan"
+        ],
+        "href": "https://www.unicode.org/reports/tr41/tr41-24.html",
+        "title": "Common References for Unicode Standard Annexes",
+        "rawDate": "2019-02-08",
+        "status": "Unicode Standard Annex #41",
+        "publisher": "Unicode Consortium"
+    },
+    "UAX42": {
+        "authors": [
+            "Eric Muller"
+        ],
+        "href": "https://www.unicode.org/reports/tr42/tr42-25.html",
+        "title": "Unicode Character Database in XML",
+        "rawDate": "2019-03-01",
+        "status": "Unicode Standard Annex #42",
+        "publisher": "Unicode Consortium"
     },
     "UAX44": {
         "authors": [
@@ -91,6 +144,16 @@
         "title": "Unicode Character Database",
         "rawDate": "2019-02-27",
         "status": "Unicode Standard Annex #44",
+        "publisher": "Unicode Consortium"
+    },
+    "UAX45": {
+        "authors": [
+            "John H. Jenkins 井作恆"
+        ],
+        "href": "https://www.unicode.org/reports/tr45/tr45-21.html",
+        "title": "U-source Ideographs",
+        "rawDate": "2019-02-15",
+        "status": "Unicode Standard Annex #45",
         "publisher": "Unicode Consortium"
     },
     "UAX50": {
@@ -156,8 +219,43 @@
         "publisher": "Unicode Consortium",
         "title": "BOCU-1: MIME-Compatible Unicode Compression"
     },
+    "UTR17": {
+        "authors": [
+            "Ken Whistler",
+            "Mark Davis",
+            "Asmus Freytag"
+        ],
+        "href": "https://www.unicode.org/reports/tr17/tr17-7.html",
+        "title": "Unicode Character Encoding Model",
+        "rawDate": "2008-11-11",
+        "status": "Unicode Technical Report #17",
+        "publisher": "Unicode Consortium"
+    },
+    "UTR23": {
+        "authors": [
+            "Ken Whistler",
+            "Asmus Freytag"
+        ],
+        "href": "https://www.unicode.org/reports/tr23/tr23-11.html",
+        "title": "The Unicode Character Property Model",
+        "rawDate": "2015-05-27",
+        "status": "Unicode Technical Report #23",
+        "publisher": "Unicode Consortium"
+    },
     "UTR24": {
         "aliasOf": "UAX24"
+    },
+    "UTR25": {
+        "authors": [
+            "Barbara Beeton",
+            "Asmus Freytag",
+            "Murray Sargent III"
+        ],
+        "href": "https://www.unicode.org/reports/tr25/tr25-15.pdf",
+        "title": "Unicode Support for Mathematics",
+        "rawDate": "2017-05-30",
+        "status": "Unicode Technical Report #25",
+        "publisher": "Unicode Consortium"
     },
     "UTR26": {
         "authors": [
@@ -167,6 +265,17 @@
         "title": "Compatibility Encoding Scheme for UTF-16: 8-Bit (CESU-8)",
         "rawDate": "2011-12-19",
         "status": "Unicode Technical Report #26",
+        "publisher": "Unicode Consortium"
+    },
+    "UTR33": {
+        "authors": [
+            "Ken Whistler",
+            "Asmus Freytag"
+        ],
+        "href": "https://www.unicode.org/reports/tr33/tr33-5.html",
+        "title": "Unicode Conformance Model",
+        "rawDate": "2008-11-11",
+        "status": "Unicode Technical Report #33",
         "publisher": "Unicode Consortium"
     },
     "UTR36": {
@@ -189,6 +298,18 @@
     "UTR51": {
         "aliasOf": "UTS51"
     },
+    "UTR53": {
+        "authors": [
+            "Roozbeh Pournader",
+            "Bob Hallissy",
+            "Lorna Evans"
+        ],
+        "href": "https://www.unicode.org/reports/tr53/tr53-4.html",
+        "title": "Unicode Arabic Mark Rendering",
+        "rawDate": "2018-10-02",
+        "status": "Unicode Technical Report #53",
+        "publisher": "Unicode Consortium"
+    },
     "UTS10": {
         "authors": [
             "Ken Whistler",
@@ -198,6 +319,17 @@
         "title": "Unicode Collation Algorithm",
         "rawDate": "2019-03-04",
         "status": "Unicode Technical Standard #10",
+        "publisher": "Unicode Consortium"
+    },
+    "UTS18": {
+        "authors": [
+            "Mark Davis",
+            "Andy Heninger"
+        ],
+        "href": "https://www.unicode.org/reports/tr18/tr18-19.html",
+        "title": "Unicode Regular Expressions",
+        "rawDate": "2016-10-18",
+        "status": "Unicode Technical Standard #18",
         "publisher": "Unicode Consortium"
     },
     "UTS22": {
@@ -220,6 +352,17 @@
         "title": "Unicode Locale Data Markup Language (LDML)",
         "rawDate": "2018-10-10",
         "status": "Unicode Technical Standard #35",
+        "publisher": "Unicode Consortium"
+    },
+    "UTS37": {
+        "authors": [
+            "Ken Lunde 小林劍󠄁",
+            "Richard Cook 曲理查"
+        ],
+        "href": "https://www.unicode.org/reports/tr37/tr37-12.html",
+        "title": "Unicode Ideographic Variation Database",
+        "rawDate": "2018-01-29",
+        "status": "Unicode Technical Standard #37",
         "publisher": "Unicode Consortium"
     },
     "UTS39": {
