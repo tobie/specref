@@ -41,6 +41,7 @@ function run()
     node "./scripts/ietf.js" &&
     node "./scripts/w3c.js" &&
     node "./scripts/csswg.js" &&
+    node "./scripts/unicode.js" &&
     node "./scripts/fetch-refs.js" "https://resources.whatwg.org/biblio.json" "WHATWG" &&
     node "./scripts/fetch-refs.js" "https://wicg.github.io/admin/biblio.json" "WICG" &&
     node "./scripts/fetch-refs.js" "https://wg21.link/index.json" "WG21" &&
