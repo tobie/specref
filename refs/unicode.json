@@ -57,11 +57,13 @@
     "UAX27": {
         "authors": [
             "Mark Davis",
-            "Michael Everson"
+            "Michael Everson",
+            "Asmus Freytag",
+            "John H. Jenkins"
         ],
         "etAl": true,
         "href": "https://www.unicode.org/unicode/reports/tr27/tr27-4.html",
-        "title": "Unicode 3.1.0",
+        "title": "Unicode 3.1",
         "date": "16 May 2001",
         "status": "Unicode Standard Annex #27",
         "publisher": "Unicode Consortium",
@@ -131,24 +133,26 @@
             "The Unicode Consortium"
         ],
         "title": "The Unicode Standard, Version 6.2.0",
-        "href": "http://www.unicode.org/versions/Unicode6.2.0/"
+        "href": "https://www.unicode.org/versions/Unicode6.2.0/"
     },
     "UTN22": {
         "authors": [
             "Elika J. Etemad"
         ],
         "title": "Robust Vertical Text Layout",
+        "status": "Unicode Technical Note #22",
         "rawDate": "2005-04-25",
-        "href": "http://unicode.org/notes/tn22/"
+        "href": "https://unicode.org/notes/tn22/"
     },
     "UTN6": {
         "authors": [
             "M. Scherer",
             "M. Davis"
         ],
+        "status": "Unicode Technical Note #6",
         "href": "https://www.unicode.org/notes/tn6/",
         "publisher": "Unicode Consortium",
-        "title": "UTN #6: BOCU-1: MIME-Compatible Unicode Compression"
+        "title": "BOCU-1: MIME-Compatible Unicode Compression"
     },
     "UTR24": {
         "authors": [
@@ -165,10 +169,12 @@
     },
     "UTR26": {
         "authors": [
-            "T. Phipps"
+            "Rick McGowan"
         ],
-        "href": "https://www.unicode.org/reports/tr26/",
-        "title": "UTR #26: Compatibility Encoding Scheme For UTF-16: 8-BIT (CESU-8)",
+        "href": "https://www.unicode.org/reports/tr26/tr26-4.html",
+        "title": "Compatibility Encoding Scheme for UTF-16: 8-Bit (CESU-8)",
+        "rawDate": "2011-12-19",
+        "status": "Unicode Technical Report #26",
         "publisher": "Unicode Consortium"
     },
     "UTR36": {
@@ -194,12 +200,14 @@
         "publisher": "Unicode Consortium"
     },
     "UTR50": {
-        "title": "Unicode Properties for Vertical Text Layout",
+        "title": "Unicode Vertical Text Layout",
         "authors": [
-            "Koji Ishii"
+            "Koji Ishii 石井宏治"
         ],
-        "rawDate": "2013-08-31",
-        "href": "http://www.unicode.org/reports/tr50/"
+        "rawDate": "2016-11-23",
+        "href": "https://www.unicode.org/reports/tr50/tr50-17.html",
+        "status": "Unicode Technical Report #50",
+        "publisher": "Unicode Consortium"
     },
     "UTR51": {
         "authors": [
@@ -233,7 +241,7 @@
             "Markus Scherer"
         ],
         "href": "https://www.unicode.org/reports/tr22/tr22-8.html",
-        "title": "Unicode Character Mapping Markup Language (CharmapML)",
+        "title": "Unicode Character Mapping Markup Language (CharMapML)",
         "date": "31 May 2017",
         "status": "Unicode Technical Standard #22",
         "publisher": "Unicode Consortium"
