@@ -5154,7 +5154,7 @@
         ],
         "href": "https://www.w3.org/TR/MediaAccessEvents/",
         "title": "Media Access Events",
-        "status": "WD",
+        "status": "NOTE",
         "publisher": "W3C",
         "deliveredBy": [
             "https://www.w3.org/Graphics/SVG/WG/"
@@ -5174,10 +5174,27 @@
                     "https://www.w3.org/Graphics/SVG/WG/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20190328": {
+                "authors": [
+                    "Ola Andersson",
+                    "Jean-Claude Dufourd"
+                ],
+                "href": "https://www.w3.org/TR/2019/NOTE-MediaAccessEvents-20190328/",
+                "title": "Media Access Events",
+                "rawDate": "2019-03-28",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "isRetired": true,
+                "deliveredBy": [
+                    "https://www.w3.org/Graphics/SVG/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2006-10-13",
-        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+        "rawDate": "2019-03-28",
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "isRetired": true
     },
     "Micropayment-Markup": {
         "authors": [
@@ -7471,7 +7488,7 @@
         ],
         "href": "https://www.w3.org/TR/SVGFilterReqs12/",
         "title": "SVG Filter Requirements",
-        "status": "WD",
+        "status": "NOTE",
         "publisher": "W3C",
         "deliveredBy": [
             "https://www.w3.org/Graphics/SVG/WG/"
@@ -7490,10 +7507,26 @@
                     "https://www.w3.org/Graphics/SVG/WG/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20190328": {
+                "authors": [
+                    "Erik Dahlström"
+                ],
+                "href": "https://www.w3.org/TR/2019/NOTE-SVGFilterReqs12-20190328/",
+                "title": "SVG Filter Requirements",
+                "rawDate": "2019-03-28",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "isRetired": true,
+                "deliveredBy": [
+                    "https://www.w3.org/Graphics/SVG/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2007-05-01",
-        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+        "rawDate": "2019-03-28",
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "isRetired": true
     },
     "SVGMobile": {
         "authors": [
@@ -31742,8 +31775,8 @@
             "Nick Doty"
         ],
         "href": "https://www.w3.org/TR/fingerprinting-guidance/",
-        "title": "Fingerprinting Guidance for Web Specification Authors (Draft)",
-        "rawDate": "2015-11-24",
+        "title": "Mitigating Browser Fingerprinting in Web Specifications",
+        "rawDate": "2019-03-28",
         "status": "NOTE",
         "publisher": "W3C",
         "deliveredBy": [
@@ -31758,6 +31791,20 @@
                 "href": "https://www.w3.org/TR/2015/NOTE-fingerprinting-guidance-20151124/",
                 "title": "Fingerprinting Guidance for Web Specification Authors (Draft)",
                 "rawDate": "2015-11-24",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Privacy/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20190328": {
+                "authors": [
+                    "Nick Doty"
+                ],
+                "href": "https://www.w3.org/TR/2019/NOTE-fingerprinting-guidance-20190328/",
+                "title": "Mitigating Browser Fingerprinting in Web Specifications",
+                "rawDate": "2019-03-28",
                 "status": "NOTE",
                 "publisher": "W3C",
                 "deliveredBy": [
