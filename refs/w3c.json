@@ -65663,8 +65663,8 @@
         ],
         "href": "https://www.w3.org/TR/selectors-nonelement-1/",
         "title": "Non-element Selectors Module Level 1",
-        "rawDate": "2014-06-03",
-        "status": "WD",
+        "rawDate": "2019-04-02",
+        "status": "NOTE",
         "publisher": "W3C",
         "deliveredBy": [
             "https://www.w3.org/Style/CSS/members"
@@ -65685,10 +65685,27 @@
                     "https://www.w3.org/Style/CSS/members"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20190402": {
+                "authors": [
+                    "Jirka Kosek",
+                    "Tab Atkins Jr."
+                ],
+                "href": "https://www.w3.org/TR/2019/NOTE-selectors-nonelement-1-20190402/",
+                "title": "Non-element Selectors Module Level 1",
+                "rawDate": "2019-04-02",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "isRetired": true,
+                "deliveredBy": [
+                    "https://www.w3.org/Style/CSS/members"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
         "edDraft": "https://drafts.csswg.org/selectors-nonelement/",
-        "repository": "https://github.com/w3c/csswg-drafts"
+        "repository": "https://github.com/w3c/csswg-drafts",
+        "isRetired": true
     },
     "selectors-states": {
         "authors": [
