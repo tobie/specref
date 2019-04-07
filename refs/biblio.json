@@ -3473,25 +3473,31 @@
         "aliasOf": "DOM-Level-3-XPath"
     },
     "geodcat-ap": {
-        "href": "http://data.europa.eu/w21/81fd7288-6929-4b42-8707-2da604490d30",
+        "href": "https://joinup.ec.europa.eu/solution/geodcat-application-profile-data-portals-europe",
         "title": "GeoDCAT-AP: A geospatial extension for the DCAT application profile for data portals in Europe. Version 1.0.1",
         "rawDate": "2016-08-02",
         "publisher": "European Commission",
         "deliveredBy": [
-            "http://data.europa.eu/w21/c9dae5aa-c3d0-43a7-96e3-9f16cd8d5b6d"
+            "https://joinup.ec.europa.eu/solution/geodcat-application-profile-data-portals-europe"
         ],
         "versions": {
             "20151223": {
-                "href": "http://data.europa.eu/w21/0872eede-d726-4ab2-8fb8-d6ce5558b4e7",
+                "href": "https://joinup.ec.europa.eu/release/geodcat-ap/10",
                 "title": "GeoDCAT-AP: A geospatial extension for the DCAT application profile for data portals in Europe. Version 1.0",
                 "rawDate": "2015-12-23",
                 "publisher": "European Commission",
                 "deliveredBy": [
-                    "http://data.europa.eu/w21/c9dae5aa-c3d0-43a7-96e3-9f16cd8d5b6d"
+                    "https://joinup.ec.europa.eu/solution/geodcat-application-profile-data-portals-europe"
                 ]
             },
             "20160802": {
-                "aliasOf": "geodcat-ap"
+                "href": "https://joinup.ec.europa.eu/release/geodcat-ap/101",
+                "title": "GeoDCAT-AP: A geospatial extension for the DCAT application profile for data portals in Europe. Version 1.0.1",
+                "rawDate": "2016-08-02",
+                "publisher": "European Commission",
+                "deliveredBy": [
+                    "https://joinup.ec.europa.eu/solution/geodcat-application-profile-data-portals-europe"
+                ]
             }
         }
     },
@@ -4636,16 +4642,22 @@
         "status": "OpenGIS Implementation Standard"
     },
     "statdcat-ap": {
-        "href": "http://data.europa.eu/w21/26e43c99-4e0d-4448-808e-112b3057a38f",
+        "href": "https://joinup.ec.europa.eu/solution/statdcat-application-profile-data-portals-europe",
         "title": "StatDCAT-AP – DCAT Application Profile for description of statistical datasets. Version 1.0.0",
         "rawDate": "2016-12-15",
         "publisher": "European Commission",
         "deliveredBy": [
-            "http://data.europa.eu/w21/def50d23-7582-4da3-a640-eed53f1b2206"
+            "https://joinup.ec.europa.eu/solution/statdcat-application-profile-data-portals-europe"
         ],
         "versions": {
             "20161215": {
-                "aliasOf": "statdcat-ap"
+                "href": "https://joinup.ec.europa.eu/release/statdcat-ap/100",
+                "title": "StatDCAT-AP – DCAT Application Profile for description of statistical datasets. Version 1.0.0",
+                "rawDate": "2016-12-15",
+                "publisher": "European Commission",
+                "deliveredBy": [
+                    "https://joinup.ec.europa.eu/solution/statdcat-application-profile-data-portals-europe"
+                ]
             }
         }
     },
