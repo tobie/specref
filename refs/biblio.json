@@ -1609,13 +1609,6 @@
         "title": "Integrated Services Digital Broadcasting",
         "href": "http://dibeg.org/"
     },
-    "ISO14496-30": {
-        "title": "Information technology — Coding of audio-visual objects — Part 30: Timed text and other visual overlays in ISO base media file format",
-        "href": "http://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm?csnumber=63107",
-        "date": "11 March 2014",
-        "publisher": "ISO/IEC",
-        "isoNumber": "ISO 14496-30:2014"
-    },
     "ISO3166": {
         "aliasOf": "ISO3166-1"
     },
@@ -1971,61 +1964,28 @@
         "rawDate": "2003-11"
     },
     "MPEG2TS": {
-        "href": "http://www.itu.int/rec/T-REC-H.222.0-201206-I",
-        "title": "Information technology -- Generic coding of moving pictures and associated audio information: Systems ITU-T Rec. H.222.0 / ISO/IEC 13818-1:2013",
-        "publisher": "ISO/IEC",
-        "deliveredBy": [
-            "http://www.iso.org/iso/home/standards_development/list_of_iso_technical_committees/iso_technical_committee.htm?commid=45316"
-        ],
-        "isoNumber": "ISO/IEC 13818-1:2013"
+        "aliasOf": "iso13818-1"
     },
     "MPEG4-30": {
-        "href": "https://www.iso.org/standard/63107.html",
-        "title": "ISO/IEC 14496-30:2014 Preview Information technology -- Coding of audio-visual objects -- Part 30: Timed text and other visual overlays in ISO base media file format",
-        "publisher": "ISO/IEC",
-        "isoNumber": "ISO/IEC 14496-30:2014",
-        "rawDate": "2014-03"
+        "aliasOf": "iso14496-30"
     },
     "MPEG4-Audio": {
-        "href": "https://www.iso.org/standard/53943.html",
-        "title": "Information technology -- Coding of audio-visual objects -- Part 3: Audio",
-        "publisher": "ISO/IEC",
-        "isoNumber": "ISO/IEC 14496-3:2009",
-        "status": "Published",
-        "rawDate": "2009-09"
+        "aliasOf": "iso14496-3"
     },
     "MPEGAVC": {
-        "href": "https://www.iso.org/standard/56538.html",
-        "title": "ISO/IEC 14496-10:2010 Information technology -- Coding of audio-visual objects -- Part 10: Advanced Video Coding",
-        "publisher": "ISO/IEC",
-        "rawDate": "2010-12"
+        "aliasOf": "iso14496-10"
     },
     "MPEGCENC": {
-        "href": "https://www.iso.org/standard/68042.html",
-        "title": "ISO/IEC 23001-7:2016 Preview Information technology -- MPEG systems technologies -- Part 7: Common encryption in ISO base media file format files",
-        "publisher": "ISO/IEC",
-        "isoNumber": "ISO/IEC 23001-7:2016",
-        "rawDate": "2016-02"
+        "aliasOf": "iso23001-7"
     },
     "MPEGCMAF": {
-        "href": "https://www.iso.org/standard/71975.html",
-        "title": "ISO/IEC 23000-19:2018 Information technology -- Multimedia application format (MPEG-A) -- Part 19: Common media application format (CMAF) for segmented media",
-        "publisher": "ISO/IEC",
-        "isoNumber": "ISO/IEC 23000-19:2018",
-        "rawDate": "2018-01"
+        "aliasOf": "iso23000-19"
     },
     "MPEGDASH": {
-        "href": "http://standards.iso.org/ittf/PubliclyAvailableStandards/c065274_ISO_IEC_23009-1_2014.zip",
-        "title": "ISO/IEC 23009-1:2014 Information technology -- Dynamic adaptive streaming over HTTP (DASH) -- Part 1: Media presentation description and segment formats",
-        "isoNumber": "ISO/IEC 23009-1:2014",
-        "publisher": "ISO/IEC"
+        "aliasOf": "iso23009-1"
     },
     "MPEGHEVC": {
-        "href": "https://www.iso.org/standard/35424.html",
-        "title": "ISO/IEC 23008-2:2013 Information technology -- High efficiency coding and media delivery in heterogeneous environments -- Part 2: High efficiency video coding",
-        "publisher": "ISO/IEC",
-        "isoNumber": "ISO/IEC 23008-2:2013",
-        "rawDate": "2013-12"
+        "aliasOf": "iso23008-2"
     },
     "MSAA": {
         "href": "https://msdn.microsoft.com/en-us/library/ms697707.aspx",
