@@ -958,53 +958,22 @@
         "href": "https://www.dvb.org/"
     },
     "DVB-DASH": {
-        "title": "ETSI TS 103 285 Digital Video Broadcasting (DVB); MPEG-DASH Profile for Transport of ISO BMFF Based DVB Services over IP Based Networks",
-        "href": "http://www.etsi.org/deliver/etsi_ts/103200_103299/103285/01.02.01_60/ts_103285v010201p.pdf",
-        "publisher": "European Telecommunications Standards Insitute",
-        "deliveredBy": [
-            "https://www.dvb.org/"
-        ],
-        "rawDate": "2018-03"
+        "aliasOf": "etsi-ts-103-285"
     },
     "DVB-DATA": {
-        "title": "ETSI EN 301 192: \"Digital Video Broadcasting (DVB); DVB specification for data broadcasting\"",
-        "href": "https://www.dvb.org/resources/public/standards/a027_data_broadcast_specification.pdf",
-        "publisher": "European Telecommunications Standards Institute",
-        "deliveredBy": [
-            "https://www.dvb.org/"
-        ]
+        "aliasOf": "etsi-en-301-192"
     },
     "DVB-SI": {
-        "title": "ETSI EN 300 468: \"Digital Video Broadcasting (DVB); Specification for Service Information (SI) in DVB systems\"",
-        "href": "http://www.etsi.org/deliver/etsi_en/300400_300499/300468/01.14.01_60/en_300468v011401p.pdf",
-        "publisher": "European Telecommunications Standards Insitute",
-        "deliveredBy": [
-            "https://www.dvb.org/"
-        ]
+        "aliasOf": "etsi-en-300-468"
     },
     "DVB-SUB": {
-        "title": "ETSI EN 300 743: \"Digital Video Broadcasting (DVB); Subtitling systems\"",
-        "href": "http://www.etsi.org/deliver/etsi_en/300700_300799/300743/01.05.01_60/en_300743v010501p.pdf",
-        "publisher": "European Telecommunications Standards Insitute",
-        "deliveredBy": [
-            "https://www.dvb.org/"
-        ]
+        "aliasOf": "etsi-en-300-743"
     },
     "DVB-TXT": {
-        "title": "ETSI EN 300 472: \"Digital Video Broadcasting (DVB); Specification for conveying ITU-R System B Teletext in DVB bitstreams\"",
-        "href": "http://www.etsi.org/deliver/etsi_en/300400_300499/300472/01.03.01_60/en_300472v010301p.pdf",
-        "publisher": "European Telecommunications Standards Insitute",
-        "deliveredBy": [
-            "https://www.dvb.org/"
-        ]
+        "aliasOf": "etsi-en-300-472"
     },
     "DVB-VBI": {
-        "title": "ETSI EN 301 775: \"\"Digital Video Broadcasting (DVB); Specification for the carriage of Vertical Blanking Information (VBI) data in DVB bitstreams",
-        "href": "http://www.etsi.org/deliver/etsi_en/301700_301799/301775/01.02.01_60/en_301775v010201p.pdf",
-        "publisher": "European Telecommunications Standards Insitute",
-        "deliveredBy": [
-            "https://www.dvb.org/"
-        ]
+        "aliasOf": "etsi-en-301-775"
     },
     "E.164": {
         "title": "The international public telecommunication numbering plan",
@@ -1195,22 +1164,13 @@
         "aliasOf": "RFC2631"
     },
     "ETSI102366": {
-        "title": "ETSI TS 102 366: Digital Audio Compression(AC-3, Enhanced AC-3) Standard",
-        "href": "http://www.etsi.org/deliver/etsi_ts/102300_102399/102366/01.04.01_60/ts_102366v010401p.pdf",
-        "rawDate": "2017-09",
-        "publisher": "European Telecommunications Standards Institute"
+        "aliasOf": "etsi-ts-102-366"
     },
     "ETSI103190-1": {
-        "title": "ETSI TS 103 190-1: Digital Audio Compression (AC-4) Standard; Part 1: Channel based coding",
-        "href": "https://www.etsi.org/deliver/etsi_ts/103100_103199/10319001/01.03.01_60/ts_10319001v010301p.pdf",
-        "rawDate": "2018-02",
-        "publisher": "European Telecommunications Standards Institute"
+        "aliasOf": "etsi-ts-103-190-1"
     },
     "ETSI103190-2": {
-        "title": "ETSI TS 103 190-2: Digital Audio Compression (AC-4) Standard; Part 2: Immersive and personalized audio",
-        "href": "https://www.etsi.org/deliver/etsi_ts/103100_103199/10319002/01.02.01_60/ts_10319002v010201p.pdf",
-        "rawDate": "2018-02",
-        "publisher": "European Telecommunications Standards Institute"
+        "aliasOf": "etsi-ts-103-190-2"
     },
     "EVERGREEN-WEB": {
         "href": "https://www.w3.org/2001/tag/doc/evergreen-web/",
@@ -4582,11 +4542,7 @@
         "repository": "https://github.com/w3c/ServiceWorker"
     },
     "smartM2M": {
-        "href": "http://www.etsi.org/deliver/etsi_ts/103200_103299/103264/01.01.01_60/ts_103264v010101p.pdf",
-        "title": "ETSI TS 103 264: SmartM2M; Smart Appliances; Reference Ontology and oneM2M Mapping",
-        "status": "ETSI Technical Specification",
-        "publisher": "European Telecommunications Standards Institute",
-        "rawDate": "2015-11"
+        "aliasOf": "etsi-ts-103-264"
     },
     "sos": {
         "href": "http://www.opengeospatial.org/standards/sos",
