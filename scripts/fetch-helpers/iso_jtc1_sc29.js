@@ -6,6 +6,8 @@ module.exports = function(id, ref) {
         publisher: ref.publisher,
         isoNumber: ref.isoNumber,
         isRetired: ref.isRetired,
-        isSuperseded: ref.isSuperseded
+        isSuperseded: ref.isSuperseded,
+        rawDate: ref.rawDate,
+        obsoletedBy: ref.obsoletedBy
     };
 }
