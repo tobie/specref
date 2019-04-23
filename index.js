@@ -34,7 +34,7 @@ app.get('/search-refs', function (req, res, next) {
     if (q) {
 		var obj = {};
 		var current, shortname;
-		var FALSE_POSITIVES = /https?:\/\/|\.html/g;
+		var FALSE_POSITIVES = /https?:\/\/|\.html|\.shtml|\.xhtml|\/html/g;
 		function match(str) {
 			str = str.toLowerCase() || "";
 			str = str.replace(FALSE_POSITIVES, "");
