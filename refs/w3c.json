@@ -11787,15 +11787,55 @@
             }
         }
     },
+    "act-rules-aspects": {
+        "authors": [
+            "Wilco Fiers",
+            "Maureen Kraft",
+            "Mary Jo Mueller",
+            "Shadi Abou-Zahra"
+        ],
+        "href": "https://www.w3.org/TR/act-rules-aspects/",
+        "title": "Accessibility Conformance Testing (ACT) Rules: Common Input Aspects",
+        "rawDate": "2019-04-16",
+        "status": "NOTE",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/wcag-act/NOTE-act-rules-common-aspects.html",
+        "deliveredBy": [
+            "https://www.w3.org/WAI/GL/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20190416": {
+                "authors": [
+                    "Wilco Fiers",
+                    "Maureen Kraft",
+                    "Mary Jo Mueller",
+                    "Shadi Abou-Zahra"
+                ],
+                "href": "https://www.w3.org/TR/2019/NOTE-act-rules-aspects-20190416/",
+                "title": "Accessibility Conformance Testing (ACT) Rules: Common Input Aspects",
+                "rawDate": "2019-04-16",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WAI/GL/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        },
+        "repository": "https://github.com/w3c/wcag-act"
+    },
     "act-rules-format-1.0": {
         "authors": [
             "Wilco Fiers",
-            "Maureen Kraft"
+            "Maureen Kraft",
+            "Mary Jo Mueller",
+            "Shadi Abou-Zahra"
         ],
         "href": "https://www.w3.org/TR/act-rules-format-1.0/",
         "title": "Accessibility Conformance Testing (ACT) Rules Format 1.0",
-        "rawDate": "2018-07-05",
-        "status": "WD",
+        "rawDate": "2019-04-16",
+        "status": "CR",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/wcag-act/act-rules-format.html",
         "deliveredBy": [
@@ -11857,6 +11897,23 @@
                 "title": "Accessibility Conformance Testing (ACT) Rules Format 1.0",
                 "rawDate": "2018-07-05",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WAI/GL/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20190416": {
+                "authors": [
+                    "Wilco Fiers",
+                    "Maureen Kraft",
+                    "Mary Jo Mueller",
+                    "Shadi Abou-Zahra"
+                ],
+                "href": "https://www.w3.org/TR/2019/CR-act-rules-format-1.0-20190416/",
+                "title": "Accessibility Conformance Testing (ACT) Rules Format 1.0",
+                "rawDate": "2019-04-16",
+                "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/WAI/GL/"
@@ -13393,7 +13450,7 @@
         ],
         "href": "https://www.w3.org/TR/appmanifest/",
         "title": "Web App Manifest",
-        "rawDate": "2019-04-13",
+        "rawDate": "2019-04-18",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -15342,6 +15399,24 @@
                 "href": "https://www.w3.org/TR/2019/WD-appmanifest-20190413/",
                 "title": "Web App Manifest",
                 "rawDate": "2019-04-13",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WebPlatform/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20190418": {
+                "authors": [
+                    "Marcos Caceres",
+                    "Kenneth Christiansen",
+                    "Mounir Lamouri",
+                    "Anssi Kostiainen",
+                    "Matt Giuca"
+                ],
+                "href": "https://www.w3.org/TR/2019/WD-appmanifest-20190418/",
+                "title": "Web App Manifest",
+                "rawDate": "2019-04-18",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -21882,6 +21957,40 @@
         },
         "edDraft": "https://drafts.csswg.org/css-namespaces/",
         "hasErrata": "https://www.w3.org/Style/2011/REC-css3-color-20110607-errata.html",
+        "repository": "https://github.com/w3c/csswg-drafts"
+    },
+    "css-nav-1": {
+        "authors": [
+            "Jihye Hong",
+            "Florian Rivoal"
+        ],
+        "href": "https://www.w3.org/TR/css-nav-1/",
+        "title": "CSS Spatial Navigation Level 1",
+        "rawDate": "2019-04-23",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://drafts.csswg.org/css-nav-1/",
+        "deliveredBy": [
+            "https://www.w3.org/Style/CSS/members"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20190423": {
+                "authors": [
+                    "Jihye Hong",
+                    "Florian Rivoal"
+                ],
+                "href": "https://www.w3.org/TR/2019/WD-css-nav-1-20190423/",
+                "title": "CSS Spatial Navigation Level 1",
+                "rawDate": "2019-04-23",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Style/CSS/members"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        },
         "repository": "https://github.com/w3c/csswg-drafts"
     },
     "css-overflow-3": {
@@ -31485,6 +31594,38 @@
         "status": "NOTE",
         "rawDate": "1997-10-28",
         "title": "Testbed"
+    },
+    "feature-policy-1": {
+        "authors": [
+            "Ian Clelland"
+        ],
+        "href": "https://www.w3.org/TR/feature-policy-1/",
+        "title": "Feature Policy",
+        "rawDate": "2019-04-16",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/webappsec-feature-policy/",
+        "deliveredBy": [
+            "https://www.w3.org/2011/webappsec/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20190416": {
+                "authors": [
+                    "Ian Clelland"
+                ],
+                "href": "https://www.w3.org/TR/2019/WD-feature-policy-1-20190416/",
+                "title": "Feature Policy",
+                "rawDate": "2019-04-16",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2011/webappsec/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        },
+        "repository": "https://github.com/w3c/webappsec-feature-policy"
     },
     "file-system-api": {
         "authors": [
@@ -41988,13 +42129,6 @@
         },
         "repository": "https://github.com/w3c/json-ld-framing"
     },
-    "keyboard-lock": {
-        "href": "https://w3c.github.io/keyboard-lock/",
-        "title": "Keyboard Lock",
-        "status": "ED",
-        "publisher": "W3C",
-        "repository": "https://github.com/w3c/keyboard-lock"
-    },
     "klreq": {
         "authors": [
             "Richard Ishida"
@@ -48792,10 +48926,10 @@
         ],
         "href": "https://www.w3.org/TR/orientation-event/",
         "title": "DeviceOrientation Event Specification",
-        "status": "NOTE",
+        "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
-            "https://www.w3.org/2008/geolocation/"
+            "https://www.w3.org/das/"
         ],
         "versions": {
             "20110628": {
@@ -48853,9 +48987,26 @@
                     "https://www.w3.org/2008/geolocation/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20190416": {
+                "authors": [
+                    "Rich Tibbett",
+                    "Tim Volodine",
+                    "Stephen Block",
+                    "Andrei Popescu"
+                ],
+                "href": "https://www.w3.org/TR/2019/WD-orientation-event-20190416/",
+                "title": "DeviceOrientation Event Specification",
+                "rawDate": "2019-04-16",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/das/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2017-05-30",
+        "rawDate": "2019-04-16",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
         "edDraft": "https://w3c.github.io/deviceorientation/spec-source-orientation.html",
         "isRetired": true,
@@ -52140,15 +52291,16 @@
     },
     "payment-request": {
         "authors": [
-            "Adrian Bateman",
             "Zach Koch",
             "Roy McElmurry",
             "Domenic Denicola",
-            "Marcos Caceres"
+            "Marcos Caceres",
+            "Ian Jacobs",
+            "Rouslan Solomakhin"
         ],
         "href": "https://www.w3.org/TR/payment-request/",
         "title": "Payment Request API",
-        "rawDate": "2018-08-30",
+        "rawDate": "2019-04-16",
         "status": "CR",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/payment-request/",
@@ -53186,6 +53338,25 @@
                 "href": "https://www.w3.org/TR/2018/CR-payment-request-20180830/",
                 "title": "Payment Request API",
                 "rawDate": "2018-08-30",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Payments/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20190416": {
+                "authors": [
+                    "Zach Koch",
+                    "Roy McElmurry",
+                    "Domenic Denicola",
+                    "Marcos Caceres",
+                    "Ian Jacobs",
+                    "Rouslan Solomakhin"
+                ],
+                "href": "https://www.w3.org/TR/2019/CR-payment-request-20190416/",
+                "title": "Payment Request API",
+                "rawDate": "2019-04-16",
                 "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -64422,9 +64593,25 @@
                     "https://www.w3.org/WebPlatform/WG/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20190416": {
+                "authors": [
+                    "Mounir Lamouri",
+                    "Marcos Caceres",
+                    "Johanna Herman"
+                ],
+                "href": "https://www.w3.org/TR/2019/WD-screen-orientation-20190416/",
+                "title": "The Screen Orientation API",
+                "rawDate": "2019-04-16",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WebPlatform/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2019-03-26",
+        "rawDate": "2019-04-16",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
         "edDraft": "https://w3c.github.io/screen-orientation/",
         "repository": "https://github.com/w3c/screen-orientation"
@@ -69857,6 +70044,40 @@
         "edDraft": "https://streams.spec.whatwg.org/",
         "isRetired": true,
         "repository": "https://github.com/whatwg/streams"
+    },
+    "string-meta": {
+        "authors": [
+            "Addison Phillips",
+            "Richard Ishida"
+        ],
+        "href": "https://www.w3.org/TR/string-meta/",
+        "title": "Strings on the Web: Language and Direction Metadata",
+        "rawDate": "2019-04-16",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/string-meta/",
+        "deliveredBy": [
+            "https://www.w3.org/International/core/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20190416": {
+                "authors": [
+                    "Addison Phillips",
+                    "Richard Ishida"
+                ],
+                "href": "https://www.w3.org/TR/2019/WD-string-meta-20190416/",
+                "title": "Strings on the Web: Language and Direction Metadata",
+                "rawDate": "2019-04-16",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/International/core/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        },
+        "repository": "https://github.com/w3c/string-meta"
     },
     "stts2": {
         "versions": {

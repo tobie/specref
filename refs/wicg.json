@@ -15,6 +15,14 @@
         "source": "https://wicg.github.io/admin/biblio.json",
         "repository": "https://github.com/wicg/background-fetch"
     },
+    "BADGING": {
+        "href": "https://wicg.github.io/badging/",
+        "title": "Badging API",
+        "status": "Living Standard",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/badging"
+    },
     "BUDGET-API": {
         "href": "https://wicg.github.io/budget-api/",
         "title": "Web Budget API",
@@ -79,6 +87,14 @@
         "source": "https://wicg.github.io/admin/biblio.json",
         "repository": "https://github.com/wicg/entries-api"
     },
+    "EVENT-TIMING": {
+        "href": "https://wicg.github.io/event-timing/",
+        "title": "Event Timing API",
+        "status": "Living Standard",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/event-timing"
+    },
     "FEATURE-POLICY": {
         "href": "https://wicg.github.io/feature-policy/",
         "title": "Feature Policy",
@@ -95,6 +111,22 @@
         "source": "https://wicg.github.io/admin/biblio.json",
         "repository": "https://github.com/wicg/InputDeviceCapabilities"
     },
+    "JS-SELF-PROFILING": {
+        "href": "https://wicg.github.io/js-self-profiling/",
+        "title": "JS Self-Profiling API",
+        "status": "Living Standard",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/js-self-profiling"
+    },
+    "KEYBOARD-LOCK": {
+        "href": "https://wicg.github.io/keyboard-lock/",
+        "title": "Keyboard Lock",
+        "status": "Living Standard",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/keyboard-lock"
+    },
     "KEYBOARD-MAP": {
         "href": "https://wicg.github.io/keyboard-map/",
         "title": "Keyboard Map",
@@ -102,6 +134,14 @@
         "publisher": "WICG",
         "source": "https://wicg.github.io/admin/biblio.json",
         "repository": "https://github.com/wicg/keyboard-map"
+    },
+    "KV-STORAGE": {
+        "href": "https://wicg.github.io/kv-storage/",
+        "title": "KV Storage",
+        "status": "Living Standard",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/kv-storage"
     },
     "MEDIA-CAPABILITIES": {
         "href": "https://wicg.github.io/media-capabilities/",
@@ -127,6 +167,14 @@
         "source": "https://wicg.github.io/admin/biblio.json",
         "repository": "https://github.com/wicg/mediasession"
     },
+    "NATIVE-FILE-SYSTEM": {
+        "href": "https://wicg.github.io/native-file-system/",
+        "title": "Native File System",
+        "status": "Living Standard",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/native-file-system"
+    },
     "NETINFO": {
         "href": "https://wicg.github.io/netinfo/",
         "title": "Network Information API",
@@ -150,6 +198,22 @@
         "publisher": "WICG",
         "source": "https://wicg.github.io/admin/biblio.json",
         "repository": "https://github.com/wicg/page-lifecycle"
+    },
+    "PERMISSIONS-REQUEST": {
+        "href": "https://wicg.github.io/permissions-request/",
+        "title": "Requesting Permissions",
+        "status": "Living Standard",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/permissions-request"
+    },
+    "PERMISSIONS-REVOKE": {
+        "href": "https://wicg.github.io/permissions-revoke/",
+        "title": "Relinquishing Permissions",
+        "status": "Living Standard",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/permissions-revoke"
     },
     "PICTURE-IN-PICTURE": {
         "href": "https://wicg.github.io/picture-in-picture/",
@@ -207,6 +271,14 @@
         "source": "https://wicg.github.io/admin/biblio.json",
         "repository": "https://github.com/wicg/shape-detection-api"
     },
+    "TRUSTED-TYPES": {
+        "href": "https://wicg.github.io/trusted-types/dist/spec/",
+        "title": "Trusted Types Spec WIP",
+        "status": "Living Standard",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/trusted-types"
+    },
     "VISUAL-VIEWPORT": {
         "href": "https://wicg.github.io/visual-viewport/",
         "title": "Visual Viewport API",
@@ -261,6 +333,9 @@
     "WICG-BACKGROUND-FETCH": {
         "aliasOf": "BACKGROUND-FETCH"
     },
+    "WICG-BADGING": {
+        "aliasOf": "BADGING"
+    },
     "WICG-BUDGET-API": {
         "aliasOf": "BUDGET-API"
     },
@@ -285,6 +360,9 @@
     "WICG-ENTRIES-API": {
         "aliasOf": "ENTRIES-API"
     },
+    "WICG-EVENT-TIMING": {
+        "aliasOf": "EVENT-TIMING"
+    },
     "WICG-FEATURE-POLICY": {
         "aliasOf": "FEATURE-POLICY"
     },
@@ -307,16 +385,17 @@
     "WICG-INPUT-DEVICE-CAPABILITIES": {
         "aliasOf": "INPUT-DEVICE-CAPABILITIES"
     },
+    "WICG-JS-SELF-PROFILING": {
+        "aliasOf": "JS-SELF-PROFILING"
+    },
     "WICG-KEYBOARD-LOCK": {
-        "href": "https://wicg.github.io/keyboard-lock/",
-        "title": "Keyboard Lock",
-        "status": "Living Standard",
-        "publisher": "WICG",
-        "source": "https://wicg.github.io/admin/biblio.json",
-        "repository": "https://github.com/wicg/keyboard-lock"
+        "aliasOf": "KEYBOARD-LOCK"
     },
     "WICG-KEYBOARD-MAP": {
         "aliasOf": "KEYBOARD-MAP"
+    },
+    "WICG-KV-STORAGE": {
+        "aliasOf": "KV-STORAGE"
     },
     "WICG-MEDIA-CAPABILITIES": {
         "aliasOf": "MEDIA-CAPABILITIES"
@@ -329,6 +408,9 @@
     },
     "WICG-MST-CONTENT-HINT": {
         "aliasOf": "mst-content-hint"
+    },
+    "WICG-NATIVE-FILE-SYSTEM": {
+        "aliasOf": "NATIVE-FILE-SYSTEM"
     },
     "WICG-NETINFO": {
         "aliasOf": "NETINFO"
@@ -346,6 +428,12 @@
     },
     "WICG-PAGE-LIFECYCLE": {
         "aliasOf": "PAGE-LIFECYCLE"
+    },
+    "WICG-PERMISSIONS-REQUEST": {
+        "aliasOf": "PERMISSIONS-REQUEST"
+    },
+    "WICG-PERMISSIONS-REVOKE": {
+        "aliasOf": "PERMISSIONS-REVOKE"
     },
     "WICG-PICTURE-IN-PICTURE": {
         "aliasOf": "PICTURE-IN-PICTURE"
@@ -367,6 +455,9 @@
     },
     "WICG-TEXT-DETECTION-API": {
         "aliasOf": "TEXT-DETECTION-API"
+    },
+    "WICG-TRUSTED-TYPES": {
+        "aliasOf": "TRUSTED-TYPES"
     },
     "WICG-VISUAL-VIEWPORT": {
         "aliasOf": "VISUAL-VIEWPORT"
