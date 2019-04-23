@@ -46,7 +46,7 @@ request({
         } else {
             var existingRef = refs[uppercaseId];
             while (existingRef.aliasOf) { existingRef = refs[existingRef.aliasOf]; }
-            if (existingRef.source == SOURCE ||
+            if (!("source" in existingRef) || existingRef.source == SOURCE ||
                     bibref.normalizeUrl(ref.href) == bibref.normalizeUrl(existingRef.href)) {
                 current[id] = ref;
                 if (PREFIX) { current[prefixedId] = { aliasOf: id }; }
