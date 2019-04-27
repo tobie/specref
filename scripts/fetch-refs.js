@@ -61,7 +61,7 @@ request({
                 rv.id.toUpperCase() != prefixedId.toUpperCase() &&
                 // avoid inadvertently catching drafts.
                 bibref.normalizeUrl(rv.href) == bibref.normalizeUrl(ref.href)) {
-            current[rv.id] = { aliasOf: prefixedId };
+            current[rv.id] = { aliasOf: PREFIX ? prefixedId : id };
             delete biblio[rv.id];
         }
     });
