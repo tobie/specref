@@ -16756,16 +16756,12 @@
     },
     "charmod-resid": {
         "authors": [
-            "Martin Dürst",
-            "François Yergeau",
-            "Richard Ishida",
-            "Misha Wolf",
-            "Tex Texin"
+            "Richard Ishida"
         ],
         "etAl": true,
         "href": "https://www.w3.org/TR/charmod-resid/",
         "title": "Character Model for the World Wide Web 1.0: Resource Identifiers",
-        "status": "CR",
+        "status": "NOTE",
         "publisher": "W3C",
         "deliveredBy": [
             "https://www.w3.org/International/core/"
@@ -16788,10 +16784,26 @@
                     "https://www.w3.org/International/core/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20190502": {
+                "authors": [
+                    "Richard Ishida"
+                ],
+                "href": "https://www.w3.org/TR/2019/NOTE-charmod-resid-20190502/",
+                "title": "Character Model for the World Wide Web 1.0: Resource Identifiers",
+                "rawDate": "2019-05-02",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "isRetired": true,
+                "deliveredBy": [
+                    "https://www.w3.org/International/core/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2004-11-22",
-        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+        "rawDate": "2019-05-02",
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "isRetired": true
     },
     "charreq": {
         "authors": [
