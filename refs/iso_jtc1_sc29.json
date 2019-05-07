@@ -79,7 +79,7 @@
     },
     "iso10918-7": {
         "href": "https://www.iso.org/standard/75845.html",
-        "title": "Information technology -- Digital compression and coding of continuous-tone still images: JPEG File Interchange Format (JFIF) -- Part 7: Reference software",
+        "title": "Information technology -- Digital compression and coding of continuous-tone still images -- Part 7: Reference software",
         "status": "Under development",
         "publisher": "ISO/IEC",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
@@ -3449,8 +3449,9 @@
     "iso14496-31": {
         "href": "https://www.iso.org/standard/66062.html",
         "title": "Information technology -- Coding of audio-visual objects -- Part 31: Video coding for browsers",
-        "status": "Under development",
+        "status": "Deleted",
         "publisher": "ISO/IEC",
+        "isRetired": true,
         "rawDate": "2018-05",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
@@ -6478,8 +6479,9 @@
     "iso21122-1": {
         "href": "https://www.iso.org/standard/74535.html",
         "title": "Information technology -- JPEG XS low-latency lightweight image coding system -- Part 1: Core coding system",
-        "status": "Under development",
+        "status": "Published",
         "publisher": "ISO/IEC",
+        "isoNumber": "ISO 21122-1:2019",
         "rawDate": "2019-05",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
@@ -8515,8 +8517,9 @@
     "iso23009-5-2017-cdcor1": {
         "href": "https://www.iso.org/standard/76158.html",
         "title": "ISO/IEC 23009-5:2017/CD Cor 1",
-        "status": "Under development",
+        "status": "Deleted",
         "publisher": "ISO/IEC",
+        "isRetired": true,
         "obsoletedBy": [
             "iso23009-5"
         ],
