@@ -6039,7 +6039,14 @@
     },
     "iso19566-5": {
         "href": "https://www.iso.org/standard/73604.html",
-        "title": "Information technologies -- JPEG Systems -- Part 5: JPEG Universal Metadata Box Format (JUMBF)",
+        "title": "Information technologies -- JPEG systems -- Part 5: JPEG universal metadata box format (JUMBF)",
+        "status": "Under development",
+        "publisher": "ISO/IEC",
+        "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+    },
+    "iso19566-5-awiamd1": {
+        "href": "https://www.iso.org/standard/78467.html",
+        "title": "Support for embedding mixed code streams",
         "status": "Under development",
         "publisher": "ISO/IEC",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
@@ -6047,6 +6054,20 @@
     "iso19566-6": {
         "href": "https://www.iso.org/standard/75846.html",
         "title": "Information technologies -- JPEG systems -- Part 6: JPEG 360",
+        "status": "Under development",
+        "publisher": "ISO/IEC",
+        "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+    },
+    "iso19566-6-awiamd1": {
+        "href": "https://www.iso.org/standard/78468.html",
+        "title": "Addition of new JPEG 360 image types and accelerated ROI rendering",
+        "status": "Under development",
+        "publisher": "ISO/IEC",
+        "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+    },
+    "iso19566-7": {
+        "href": "https://www.iso.org/standard/78466.html",
+        "title": "Information technologies -- JPEG systems -- Part 7: JPEG linked media format (JLINK)",
         "status": "Under development",
         "publisher": "ISO/IEC",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
@@ -6485,9 +6506,26 @@
         "rawDate": "2019-05",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
+    "iso21122-1-2019-awiamd1": {
+        "href": "https://www.iso.org/standard/78469.html",
+        "title": "Extended capabilities for JPEG XS core coding system",
+        "status": "Under development",
+        "publisher": "ISO/IEC",
+        "obsoletedBy": [
+            "iso21122-1"
+        ],
+        "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+    },
     "iso21122-2": {
         "href": "https://www.iso.org/standard/74536.html",
         "title": "Information technology -- JPEG XS low-latency lightweight image coding system -- Part 2: Profiles and buffer models",
+        "status": "Under development",
+        "publisher": "ISO/IEC",
+        "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+    },
+    "iso21122-2-awiamd1": {
+        "href": "https://www.iso.org/standard/78470.html",
+        "title": "Profiles extensions",
         "status": "Under development",
         "publisher": "ISO/IEC",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
@@ -8188,7 +8226,7 @@
         "rawDate": "2018-07",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
-    "iso23008-2-npamd1": {
+    "iso23008-2-damd1": {
         "href": "https://www.iso.org/standard/77749.html",
         "title": "Additional supplemental enhancement information",
         "status": "Under development",
@@ -8197,6 +8235,9 @@
             "iso23008-2"
         ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+    },
+    "iso23008-2-npamd1": {
+        "aliasOf": "iso23008-2-damd1"
     },
     "iso23008-3": {
         "href": "https://www.iso.org/standard/74430.html",
