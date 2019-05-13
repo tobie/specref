@@ -79,7 +79,7 @@ var HTTP_SPECS = [
 
 function href(index) {
     index = index.toLowerCase();
-    if (index in HTTP_SPECS) {
+    if (HTTP_SPECS.indexOf(index) > -1) {
         return "https://httpwg.org/specs/" + index + ".html";
     }
     return "https://tools.ietf.org/html/" + unpad(index);
