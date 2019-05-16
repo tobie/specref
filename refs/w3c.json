@@ -44212,6 +44212,38 @@
         "hasErrata": "https://w3c.github.io/media-source/mse-1-errata.html",
         "repository": "https://github.com/w3c/media-source"
     },
+    "media-timed-events": {
+        "authors": [
+            "Chris Needham"
+        ],
+        "href": "https://www.w3.org/TR/media-timed-events/",
+        "title": "Media Timed Events",
+        "rawDate": "2019-05-16",
+        "status": "NOTE",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/me-media-timed-events/",
+        "deliveredBy": [
+            "https://www.w3.org/2011/webtv/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20190516": {
+                "authors": [
+                    "Chris Needham"
+                ],
+                "href": "https://www.w3.org/TR/2019/NOTE-media-timed-events-20190516/",
+                "title": "Media Timed Events",
+                "rawDate": "2019-05-16",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2011/webtv/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        },
+        "repository": "https://github.com/w3c/me-media-timed-events"
+    },
     "mediacapture-depth": {
         "authors": [
             "Anssi Kostiainen",
@@ -83134,14 +83166,17 @@
     },
     "wot-architecture": {
         "authors": [
-            "Kazuo Kajimoto",
             "Matthias Kovatsch",
-            "Uday Davuluru"
+            "Ryuichi Matsukura",
+            "Michael Lagally",
+            "Toru Kawaguchi",
+            "Kunihiko Toumura",
+            "Kazuo Kajimoto"
         ],
         "href": "https://www.w3.org/TR/wot-architecture/",
         "title": "Web of Things (WoT) Architecture",
-        "rawDate": "2017-09-14",
-        "status": "WD",
+        "rawDate": "2019-05-16",
+        "status": "CR",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/wot-architecture/",
         "deliveredBy": [
@@ -83159,6 +83194,25 @@
                 "title": "Web of Things (WoT) Architecture",
                 "rawDate": "2017-09-14",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WoT/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20190516": {
+                "authors": [
+                    "Matthias Kovatsch",
+                    "Ryuichi Matsukura",
+                    "Michael Lagally",
+                    "Toru Kawaguchi",
+                    "Kunihiko Toumura",
+                    "Kazuo Kajimoto"
+                ],
+                "href": "https://www.w3.org/TR/2019/CR-wot-architecture-20190516/",
+                "title": "Web of Things (WoT) Architecture",
+                "rawDate": "2019-05-16",
+                "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/WoT/WG/"
@@ -83323,12 +83377,14 @@
     "wot-thing-description": {
         "authors": [
             "Sebastian Käbisch",
-            "Takuki Kamiya"
+            "Takuki Kamiya",
+            "Michael McCool",
+            "Victor Charpenay"
         ],
         "href": "https://www.w3.org/TR/wot-thing-description/",
         "title": "Web of Things (WoT) Thing Description",
-        "rawDate": "2018-10-21",
-        "status": "WD",
+        "rawDate": "2019-05-16",
+        "status": "CR",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/wot-thing-description/",
         "deliveredBy": [
@@ -83375,6 +83431,23 @@
                 "title": "Web of Things (WoT) Thing Description",
                 "rawDate": "2018-10-21",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WoT/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20190516": {
+                "authors": [
+                    "Sebastian Käbisch",
+                    "Takuki Kamiya",
+                    "Michael McCool",
+                    "Victor Charpenay"
+                ],
+                "href": "https://www.w3.org/TR/2019/CR-wot-thing-description-20190516/",
+                "title": "Web of Things (WoT) Thing Description",
+                "rawDate": "2019-05-16",
+                "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/WoT/WG/"
