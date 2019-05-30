@@ -3871,15 +3871,14 @@
     },
     "FileAPI": {
         "authors": [
-            "Marijn Kruisselbrink",
-            "Arun Ranganathan"
+            "Marijn Kruisselbrink"
         ],
         "href": "https://www.w3.org/TR/FileAPI/",
         "title": "File API",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
-            "https://www.w3.org/WebPlatform/WG/"
+            "https://www.w3.org/2019/webapps/"
         ],
         "versions": {
             "20061018": {
@@ -3985,9 +3984,23 @@
                     "https://www.w3.org/WebPlatform/WG/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20190530": {
+                "authors": [
+                    "Marijn Kruisselbrink"
+                ],
+                "href": "https://www.w3.org/TR/2019/WD-FileAPI-20190530/",
+                "title": "File API",
+                "rawDate": "2019-05-30",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2019/webapps/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2018-11-06",
+        "rawDate": "2019-05-30",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
         "edDraft": "https://w3c.github.io/FileAPI/",
         "repository": "https://github.com/w3c/FileAPI"
@@ -13450,11 +13463,11 @@
         ],
         "href": "https://www.w3.org/TR/appmanifest/",
         "title": "Web App Manifest",
-        "rawDate": "2019-05-13",
+        "rawDate": "2019-05-30",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
-            "https://www.w3.org/WebPlatform/WG/"
+            "https://www.w3.org/2019/webapps/"
         ],
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
         "versions": {
@@ -15441,6 +15454,24 @@
                     "https://www.w3.org/WebPlatform/WG/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20190530": {
+                "authors": [
+                    "Marcos Caceres",
+                    "Kenneth Christiansen",
+                    "Mounir Lamouri",
+                    "Anssi Kostiainen",
+                    "Matt Giuca"
+                ],
+                "href": "https://www.w3.org/TR/2019/WD-appmanifest-20190530/",
+                "title": "Web App Manifest",
+                "rawDate": "2019-05-30",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2019/webapps/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
         "edDraft": "https://w3c.github.io/manifest/",
@@ -16927,7 +16958,7 @@
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
-            "https://www.w3.org/WebPlatform/WG/"
+            "https://www.w3.org/2019/webapps/"
         ],
         "versions": {
             "20061115": {
@@ -17105,9 +17136,25 @@
                     "https://www.w3.org/WebPlatform/WG/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20190530": {
+                "authors": [
+                    "Gary Kacmarcik",
+                    "Grisha Lyukshin",
+                    "Hallvord Steen"
+                ],
+                "href": "https://www.w3.org/TR/2019/WD-clipboard-apis-20190530/",
+                "title": "Clipboard API and events",
+                "rawDate": "2019-05-30",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2019/webapps/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2018-11-08",
+        "rawDate": "2019-05-30",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
         "edDraft": "https://w3c.github.io/clipboard-apis/",
         "repository": "https://github.com/w3c/clipboard-apis"
@@ -32759,16 +32806,16 @@
     "gamepad": {
         "authors": [
             "Scott Graham",
-            "Theodore Mielczarek",
-            "Brandon Jones"
+            "Brandon Jones",
+            "Steve Agoston"
         ],
         "href": "https://www.w3.org/TR/gamepad/",
         "title": "Gamepad",
-        "rawDate": "2018-12-14",
+        "rawDate": "2019-05-30",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
-            "https://www.w3.org/WebPlatform/WG/"
+            "https://www.w3.org/2019/webapps/"
         ],
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
         "versions": {
@@ -33158,6 +33205,22 @@
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/WebPlatform/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20190530": {
+                "authors": [
+                    "Scott Graham",
+                    "Brandon Jones",
+                    "Steve Agoston"
+                ],
+                "href": "https://www.w3.org/TR/2019/WD-gamepad-20190530/",
+                "title": "Gamepad",
+                "rawDate": "2019-05-30",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2019/webapps/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
@@ -35100,19 +35163,16 @@
         "authors": [
             "Steve Faulkner",
             "Alexander Surkov",
-            "Scott O'Hara",
-            "Bogdan Brinza",
-            "Jason Kiss",
-            "Cynthia Shelly"
+            "Scott O'Hara"
         ],
         "href": "https://www.w3.org/TR/html-aam-1.0/",
         "title": "HTML Accessibility API Mappings 1.0",
-        "rawDate": "2019-01-31",
+        "rawDate": "2019-05-30",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/html-aam/",
         "deliveredBy": [
-            "https://www.w3.org/WebPlatform/WG/"
+            "https://www.w3.org/2019/webapps/"
         ],
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
         "versions": {
@@ -35996,6 +36056,22 @@
                     "https://www.w3.org/WebPlatform/WG/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20190530": {
+                "authors": [
+                    "Steve Faulkner",
+                    "Alexander Surkov",
+                    "Scott O'Hara"
+                ],
+                "href": "https://www.w3.org/TR/2019/WD-html-aam-1.0-20190530/",
+                "title": "HTML Accessibility API Mappings 1.0",
+                "rawDate": "2019-05-30",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2019/webapps/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
         "repository": "https://github.com/w3c/html-aam"
@@ -36215,11 +36291,11 @@
         ],
         "href": "https://www.w3.org/TR/html-aria/",
         "title": "ARIA in HTML",
-        "rawDate": "2018-12-14",
+        "rawDate": "2019-05-30",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
-            "https://www.w3.org/WebPlatform/WG/"
+            "https://www.w3.org/2019/webapps/"
         ],
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
         "versions": {
@@ -36756,6 +36832,20 @@
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/WebPlatform/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20190530": {
+                "authors": [
+                    "Steve Faulkner"
+                ],
+                "href": "https://www.w3.org/TR/2019/WD-html-aria-20190530/",
+                "title": "ARIA in HTML",
+                "rawDate": "2019-05-30",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2019/webapps/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
@@ -40963,7 +41053,7 @@
         ],
         "href": "https://www.w3.org/TR/input-events-1/",
         "title": "Input Events Level 1",
-        "rawDate": "2018-11-09",
+        "rawDate": "2019-05-30",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://cdn.staticaly.com/gh/w3c/input-events/v1/index.html",
@@ -41179,22 +41269,36 @@
                     "https://www.w3.org/WebPlatform/WG/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20190530": {
+                "authors": [
+                    "Johannes Wilm",
+                    "Ben Peters"
+                ],
+                "href": "https://www.w3.org/TR/2019/WD-input-events-1-20190530/",
+                "title": "Input Events Level 1",
+                "rawDate": "2019-05-30",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WebPlatform/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
     },
     "input-events-2": {
         "authors": [
-            "Johannes Wilm",
-            "Ben Peters"
+            "Johannes Wilm"
         ],
         "href": "https://www.w3.org/TR/input-events-2/",
         "title": "Input Events Level 2",
-        "rawDate": "2018-11-08",
+        "rawDate": "2019-05-30",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://cdn.staticaly.com/gh/w3c/input-events/v1/index.html",
         "deliveredBy": [
-            "https://www.w3.org/WebPlatform/WG/"
+            "https://www.w3.org/2019/webapps/"
         ],
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
         "versions": {
@@ -41257,6 +41361,20 @@
             },
             "20181109": {
                 "aliasOf": "input-events-1-20181109"
+            },
+            "20190530": {
+                "authors": [
+                    "Johannes Wilm"
+                ],
+                "href": "https://www.w3.org/TR/2019/WD-input-events-2-20190530/",
+                "title": "Input Events Level 2",
+                "rawDate": "2019-05-30",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2019/webapps/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
     },
@@ -41327,17 +41445,16 @@
     },
     "intersection-observer": {
         "authors": [
-            "Stefan Zager",
-            "Michael Blain"
+            "Stefan Zager"
         ],
         "href": "https://www.w3.org/TR/intersection-observer/",
         "title": "Intersection Observer",
-        "rawDate": "2018-11-06",
+        "rawDate": "2019-05-30",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/IntersectionObserver/",
         "deliveredBy": [
-            "https://www.w3.org/WebPlatform/WG/"
+            "https://www.w3.org/2019/webapps/"
         ],
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
         "versions": {
@@ -41367,6 +41484,20 @@
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/WebPlatform/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20190530": {
+                "authors": [
+                    "Stefan Zager"
+                ],
+                "href": "https://www.w3.org/TR/2019/WD-intersection-observer-20190530/",
+                "title": "Intersection Observer",
+                "rawDate": "2019-05-30",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2019/webapps/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
@@ -55040,17 +55171,16 @@
     },
     "pointerlock-2": {
         "authors": [
-            "Navid Zolghadr",
-            "Vincent Scheib"
+            "Navid Zolghadr"
         ],
         "href": "https://www.w3.org/TR/pointerlock-2/",
         "title": "Pointer Lock 2.0",
-        "rawDate": "2018-11-06",
+        "rawDate": "2019-05-30",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/pointerlock/",
         "deliveredBy": [
-            "https://www.w3.org/WebPlatform/WG/"
+            "https://www.w3.org/2019/webapps/"
         ],
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
         "versions": {
@@ -55095,6 +55225,20 @@
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/WebPlatform/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20190530": {
+                "authors": [
+                    "Navid Zolghadr"
+                ],
+                "href": "https://www.w3.org/TR/2019/WD-pointerlock-2-20190530/",
+                "title": "Pointer Lock 2.0",
+                "rawDate": "2019-05-30",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2019/webapps/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
@@ -57435,18 +57579,15 @@
     "push-api": {
         "authors": [
             "Peter Beverloo",
-            "Martin Thomson",
-            "Michael van Ouwerkerk",
-            "Bryan Sullivan",
-            "Eduardo Fullea"
+            "Martin Thomson"
         ],
         "href": "https://www.w3.org/TR/push-api/",
         "title": "Push API",
-        "rawDate": "2018-10-26",
+        "rawDate": "2019-05-30",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
-            "https://www.w3.org/WebPlatform/WG/"
+            "https://www.w3.org/2019/webapps/"
         ],
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
         "versions": {
@@ -57868,6 +58009,21 @@
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/WebPlatform/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20190530": {
+                "authors": [
+                    "Peter Beverloo",
+                    "Martin Thomson"
+                ],
+                "href": "https://www.w3.org/TR/2019/WD-push-api-20190530/",
+                "title": "Push API",
+                "rawDate": "2019-05-30",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2019/webapps/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
@@ -64355,7 +64511,7 @@
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
-            "https://www.w3.org/WebPlatform/WG/"
+            "https://www.w3.org/2019/webapps/"
         ],
         "versions": {
             "20120522": {
@@ -64978,9 +65134,25 @@
                     "https://www.w3.org/WebPlatform/WG/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20190530": {
+                "authors": [
+                    "Mounir Lamouri",
+                    "Marcos Caceres",
+                    "Johanna Herman"
+                ],
+                "href": "https://www.w3.org/TR/2019/WD-screen-orientation-20190530/",
+                "title": "The Screen Orientation API",
+                "rawDate": "2019-05-30",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2019/webapps/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2019-05-13",
+        "rawDate": "2019-05-30",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
         "edDraft": "https://w3c.github.io/screen-orientation/",
         "repository": "https://github.com/w3c/screen-orientation"
@@ -65720,12 +65892,12 @@
         ],
         "href": "https://www.w3.org/TR/selection-api/",
         "title": "Selection API",
-        "rawDate": "2018-10-18",
+        "rawDate": "2019-05-30",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/selection-api/",
         "deliveredBy": [
-            "https://www.w3.org/WebPlatform/WG/"
+            "https://www.w3.org/2019/webapps/"
         ],
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
         "versions": {
@@ -65986,6 +66158,20 @@
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/WebPlatform/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20190530": {
+                "authors": [
+                    "Ryosuke Niwa"
+                ],
+                "href": "https://www.w3.org/TR/2019/WD-selection-api-20190530/",
+                "title": "Selection API",
+                "rawDate": "2019-05-30",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2019/webapps/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
@@ -73671,11 +73857,11 @@
         ],
         "href": "https://www.w3.org/TR/uievents/",
         "title": "UI Events",
-        "rawDate": "2018-11-08",
+        "rawDate": "2019-05-30",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
-            "https://www.w3.org/WebPlatform/WG/"
+            "https://www.w3.org/2019/webapps/"
         ],
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
         "versions": {
@@ -73985,6 +74171,22 @@
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/WebPlatform/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20190530": {
+                "authors": [
+                    "Gary Kacmarcik",
+                    "Travis Leithead",
+                    "Doug Schepers"
+                ],
+                "href": "https://www.w3.org/TR/2019/WD-uievents-20190530/",
+                "title": "UI Events",
+                "rawDate": "2019-05-30",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2019/webapps/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
