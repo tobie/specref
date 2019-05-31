@@ -3871,7 +3871,8 @@
     },
     "FileAPI": {
         "authors": [
-            "Marijn Kruisselbrink"
+            "Marijn Kruisselbrink",
+            "Arun Ranganathan"
         ],
         "href": "https://www.w3.org/TR/FileAPI/",
         "title": "File API",
@@ -3998,9 +3999,24 @@
                     "https://www.w3.org/2019/webapps/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20190531": {
+                "authors": [
+                    "Marijn Kruisselbrink",
+                    "Arun Ranganathan"
+                ],
+                "href": "https://www.w3.org/TR/2019/WD-FileAPI-20190531/",
+                "title": "File API",
+                "rawDate": "2019-05-31",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2019/webapps/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2019-05-30",
+        "rawDate": "2019-05-31",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
         "edDraft": "https://w3c.github.io/FileAPI/",
         "repository": "https://github.com/w3c/FileAPI"
@@ -41110,7 +41126,7 @@
         "publisher": "W3C",
         "edDraft": "https://cdn.staticaly.com/gh/w3c/input-events/v1/index.html",
         "deliveredBy": [
-            "https://www.w3.org/WebPlatform/WG/"
+            "https://www.w3.org/2019/webapps/"
         ],
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
         "versions": {
@@ -41333,7 +41349,7 @@
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
-                    "https://www.w3.org/WebPlatform/WG/"
+                    "https://www.w3.org/2019/webapps/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
@@ -41497,11 +41513,12 @@
     },
     "intersection-observer": {
         "authors": [
-            "Stefan Zager"
+            "Stefan Zager",
+            "Michael Blain"
         ],
         "href": "https://www.w3.org/TR/intersection-observer/",
         "title": "Intersection Observer",
-        "rawDate": "2019-05-30",
+        "rawDate": "2019-05-31",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/IntersectionObserver/",
@@ -41546,6 +41563,21 @@
                 "href": "https://www.w3.org/TR/2019/WD-intersection-observer-20190530/",
                 "title": "Intersection Observer",
                 "rawDate": "2019-05-30",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2019/webapps/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20190531": {
+                "authors": [
+                    "Stefan Zager",
+                    "Michael Blain"
+                ],
+                "href": "https://www.w3.org/TR/2019/WD-intersection-observer-20190531/",
+                "title": "Intersection Observer",
+                "rawDate": "2019-05-31",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
