@@ -4476,6 +4476,16 @@
         "rawDate": "2004-08",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
+    "iso14496-5-2001-amd40": {
+        "href": "https://www.iso.org/standard/69449.html",
+        "title": "Printing material and 3D graphics coding for browsers reference software",
+        "status": "Under development",
+        "publisher": "ISO/IEC",
+        "obsoletedBy": [
+            "iso14496-5"
+        ],
+        "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+    },
     "iso14496-5-2001-amd41": {
         "href": "https://www.iso.org/standard/70380.html?browse=tc",
         "title": "Reference software for internet video coding",
@@ -4575,14 +4585,7 @@
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso14496-5-2001-fdamd40": {
-        "href": "https://www.iso.org/standard/69449.html",
-        "title": "Printing material and 3D graphics coding for browsers reference software",
-        "status": "Under development",
-        "publisher": "ISO/IEC",
-        "obsoletedBy": [
-            "iso14496-5"
-        ],
-        "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+        "aliasOf": "iso14496-5-2001-amd40"
     },
     "iso14496-6": {
         "href": "https://www.iso.org/standard/34418.html",
