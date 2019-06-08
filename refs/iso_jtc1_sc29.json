@@ -1742,41 +1742,61 @@
     "iso14496-11-2005-amd5-2007": {
         "href": "https://www.iso.org/standard/43587.html",
         "title": "Support for Symbolic Music Notation",
-        "status": "Published",
+        "status": "Withdrawn",
         "publisher": "ISO/IEC",
+        "isSuperseded": true,
         "rawDate": "2007-04",
+        "obsoletedBy": [
+            "iso14496-11"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso14496-11-2005-amd6-2009": {
         "href": "https://www.iso.org/standard/51751.html",
         "title": "ISO/IEC 14496-11:2005/Amd 6:2009",
-        "status": "Published",
+        "status": "Withdrawn",
         "publisher": "ISO/IEC",
+        "isSuperseded": true,
         "rawDate": "2009-03",
+        "obsoletedBy": [
+            "iso14496-11"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso14496-11-2005-amd7-2010": {
         "href": "https://www.iso.org/standard/54839.html",
         "title": "ExtendedCore2D profile",
-        "status": "Published",
+        "status": "Withdrawn",
         "publisher": "ISO/IEC",
+        "isSuperseded": true,
         "rawDate": "2010-12",
+        "obsoletedBy": [
+            "iso14496-11"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso14496-11-2005-cor5-2008": {
         "href": "https://www.iso.org/standard/44364.html",
         "title": "ISO/IEC 14496-11:2005/Cor 5:2008",
-        "status": "Published",
+        "status": "Withdrawn",
         "publisher": "ISO/IEC",
+        "isSuperseded": true,
         "rawDate": "2008-12",
+        "obsoletedBy": [
+            "iso14496-11"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso14496-11-2005-cor6-2007": {
         "href": "https://www.iso.org/standard/46299.html",
         "title": "ISO/IEC 14496-11:2005/Cor 6:2007",
-        "status": "Published",
+        "status": "Withdrawn",
         "publisher": "ISO/IEC",
+        "isSuperseded": true,
         "rawDate": "2007-10",
+        "obsoletedBy": [
+            "iso14496-11"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso14496-12": {
@@ -4481,6 +4501,7 @@
         "title": "Printing material and 3D graphics coding for browsers reference software",
         "status": "Under development",
         "publisher": "ISO/IEC",
+        "rawDate": "2019-06",
         "obsoletedBy": [
             "iso14496-5"
         ],
@@ -7370,17 +7391,25 @@
     "iso23002-4-2014-amd1-2014": {
         "href": "https://www.iso.org/standard/65282.html",
         "title": "Graphics tool library (GTL) for the reconfigurable multimedia coding (RMC) framework",
-        "status": "Published",
+        "status": "Withdrawn",
         "publisher": "ISO/IEC",
+        "isSuperseded": true,
         "rawDate": "2014-11",
+        "obsoletedBy": [
+            "iso23002-4"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23002-4-2014-amd2-2015": {
         "href": "https://www.iso.org/standard/65303.html",
         "title": "FU and FN descriptions for HEVC",
-        "status": "Published",
+        "status": "Withdrawn",
         "publisher": "ISO/IEC",
+        "isSuperseded": true,
         "rawDate": "2015-04",
+        "obsoletedBy": [
+            "iso23002-4"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23002-4-2014-damd3": {
