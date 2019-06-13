@@ -2128,6 +2128,16 @@
         "href": "https://www.openapis.org/",
         "title": "OpenAPI Specification",
         "publisher": "OpenAPI Initiative",
+        "authors": [
+            "Darrell Miller",
+            "Jeremy Whitlock",
+            "Marsh Gardiner",
+            "Mike Ralphson",
+            "Ron Ratovsky",
+            "Uri Sarid",
+            "Tony Tam",
+            "Jason Harmon"
+        ],
         "versions": {
             "3.0.2": {
                 "href": "http://spec.openapis.org/oas/v3.0.2",
@@ -2140,6 +2150,19 @@
                     "Mike Ralphson",
                     "Ron Ratovsky",
                     "Uri Sarid"
+                ]
+            },
+            "2.0": {
+                "href": "http://spec.openapis.org/oas/v2.0",
+                "title": "OpenAPI Specification - version 2.0",
+                "rawDate": "2014-09-08",
+                "authors": [
+                    "Darrell Miller",
+                    "Jason Harmon",
+                    "Jeremy Whitlock",
+                    "Marsh Gardiner",
+                    "Ron Ratovsky",
+                    "Tony Tam"
                 ]
             }
         }
