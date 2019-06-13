@@ -2124,6 +2124,26 @@
         "publisher": "Object Management Group",
         "date": "January 2008"
     },
+    "OPENAPIS": {
+        "href": "https://www.openapis.org/",
+        "title": "OpenAPI Specification",
+        "publisher": "OpenAPI Initiative",
+        "versions": {
+            "3.0.2": {
+                "href": "http://spec.openapis.org/oas/v3.0.2",
+                "title": "OpenAPI Specification - version 3.0.2",
+                "date": "8 October 2018",
+                "authors": [
+                    "Darrell Miller",
+                    "Jeremy Whitlock",
+                    "Marsh Gardiner",
+                    "Mike Ralphson",
+                    "Ron Ratovsky",
+                    "Uri Sarid"
+                ]
+            }
+        }
+    },
     "ORIGIN": {
         "aliasOf": "RFC6454"
     },
