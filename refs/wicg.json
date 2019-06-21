@@ -2,7 +2,7 @@
     "AOM": {
         "href": "https://wicg.github.io/aom/spec/",
         "title": "Accessibility Object Model",
-        "status": "Living Standard",
+        "status": "cg-draft",
         "publisher": "WICG",
         "source": "https://wicg.github.io/admin/biblio.json",
         "repository": "https://github.com/wicg/aom"
@@ -10,7 +10,7 @@
     "BACKGROUND-FETCH": {
         "href": "https://wicg.github.io/background-fetch/",
         "title": "Background Fetch",
-        "status": "Living Standard",
+        "status": "cg-draft",
         "publisher": "WICG",
         "source": "https://wicg.github.io/admin/biblio.json",
         "repository": "https://github.com/wicg/background-fetch"
@@ -18,7 +18,7 @@
     "BADGING": {
         "href": "https://wicg.github.io/badging/",
         "title": "Badging API",
-        "status": "Living Standard",
+        "status": "cg-draft",
         "publisher": "WICG",
         "source": "https://wicg.github.io/admin/biblio.json",
         "repository": "https://github.com/wicg/badging"
@@ -26,7 +26,7 @@
     "BUDGET-API": {
         "href": "https://wicg.github.io/budget-api/",
         "title": "Web Budget API",
-        "status": "Living Standard",
+        "status": "cg-draft",
         "publisher": "WICG",
         "source": "https://wicg.github.io/admin/biblio.json",
         "repository": "https://github.com/wicg/budget-api"
@@ -34,7 +34,7 @@
     "COOKIE-STORE": {
         "href": "https://wicg.github.io/cookie-store/",
         "title": "Cookie Store API",
-        "status": "Living Standard",
+        "status": "cg-draft",
         "publisher": "WICG",
         "source": "https://wicg.github.io/admin/biblio.json",
         "repository": "https://github.com/wicg/cookie-store"
@@ -42,7 +42,7 @@
     "CORS-RFC1918": {
         "href": "https://wicg.github.io/cors-rfc1918/",
         "title": "CORS and RFC1918",
-        "status": "Living Standard",
+        "status": "cg-draft",
         "publisher": "WICG",
         "source": "https://wicg.github.io/admin/biblio.json",
         "repository": "https://github.com/wicg/cors-rfc1918"
@@ -50,7 +50,7 @@
     "CSS-ANIMATION-WORKLET": {
         "href": "https://wicg.github.io/animation-worklet/",
         "title": "CSS Animation Worklet API",
-        "status": "Living Standard",
+        "status": "cg-draft",
         "publisher": "WICG",
         "source": "https://wicg.github.io/admin/biblio.json",
         "repository": "https://github.com/wicg/animation-worklet"
@@ -58,7 +58,7 @@
     "CSS-OVERSCROLL-BEHAVIOR": {
         "href": "https://wicg.github.io/overscroll-behavior/",
         "title": "CSS Overscroll Behavior Module Level 1",
-        "status": "Living Standard",
+        "status": "cg-draft",
         "publisher": "WICG",
         "source": "https://wicg.github.io/admin/biblio.json",
         "repository": "https://github.com/wicg/overscroll-behavior"
@@ -66,7 +66,7 @@
     "CSS-PARSER-API": {
         "href": "https://wicg.github.io/CSS-Parser-API/",
         "title": "CSS Parser API",
-        "status": "Living Standard",
+        "status": "cg-draft",
         "publisher": "WICG",
         "source": "https://wicg.github.io/admin/biblio.json",
         "repository": "https://github.com/wicg/CSS-Parser-API"
@@ -74,15 +74,23 @@
     "CSS-SCROLL-BOUNDARY-BEHAVIOR": {
         "href": "https://wicg.github.io/scroll-boundary-behavior/",
         "title": "CSS Scroll Boundary Behavior Module Level 1",
-        "status": "Living Standard",
+        "status": "cg-draft",
         "publisher": "WICG",
         "source": "https://wicg.github.io/admin/biblio.json",
         "repository": "https://github.com/wicg/scroll-boundary-behavior"
     },
+    "ELEMENT-TIMING": {
+        "href": "https://wicg.github.io/element-timing/",
+        "title": "Element Timing API",
+        "status": "cg-draft",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/element-timing"
+    },
     "ENTRIES-API": {
         "href": "https://wicg.github.io/entries-api/",
         "title": "File and Directory Entries API",
-        "status": "Living Standard",
+        "status": "cg-draft",
         "publisher": "WICG",
         "source": "https://wicg.github.io/admin/biblio.json",
         "repository": "https://github.com/wicg/entries-api"
@@ -90,7 +98,7 @@
     "EVENT-TIMING": {
         "href": "https://wicg.github.io/event-timing/",
         "title": "Event Timing API",
-        "status": "Living Standard",
+        "status": "cg-draft",
         "publisher": "WICG",
         "source": "https://wicg.github.io/admin/biblio.json",
         "repository": "https://github.com/wicg/event-timing"
@@ -98,7 +106,7 @@
     "INPUT-DEVICE-CAPABILITIES": {
         "href": "https://wicg.github.io/InputDeviceCapabilities/",
         "title": "Input Device Capabilities",
-        "status": "Living Standard",
+        "status": "cg-draft",
         "publisher": "WICG",
         "source": "https://wicg.github.io/admin/biblio.json",
         "repository": "https://github.com/wicg/InputDeviceCapabilities"
@@ -106,7 +114,7 @@
     "JS-SELF-PROFILING": {
         "href": "https://wicg.github.io/js-self-profiling/",
         "title": "JS Self-Profiling API",
-        "status": "Living Standard",
+        "status": "cg-draft",
         "publisher": "WICG",
         "source": "https://wicg.github.io/admin/biblio.json",
         "repository": "https://github.com/wicg/js-self-profiling"
@@ -114,7 +122,7 @@
     "KEYBOARD-LOCK": {
         "href": "https://wicg.github.io/keyboard-lock/",
         "title": "Keyboard Lock",
-        "status": "Living Standard",
+        "status": "cg-draft",
         "publisher": "WICG",
         "source": "https://wicg.github.io/admin/biblio.json",
         "repository": "https://github.com/wicg/keyboard-lock"
@@ -122,7 +130,7 @@
     "KEYBOARD-MAP": {
         "href": "https://wicg.github.io/keyboard-map/",
         "title": "Keyboard Map",
-        "status": "Living Standard",
+        "status": "cg-draft",
         "publisher": "WICG",
         "source": "https://wicg.github.io/admin/biblio.json",
         "repository": "https://github.com/wicg/keyboard-map"
@@ -130,15 +138,23 @@
     "KV-STORAGE": {
         "href": "https://wicg.github.io/kv-storage/",
         "title": "KV Storage",
-        "status": "Living Standard",
+        "status": "cg-draft",
         "publisher": "WICG",
         "source": "https://wicg.github.io/admin/biblio.json",
         "repository": "https://github.com/wicg/kv-storage"
     },
+    "LARGEST-CONTENTFUL-PAINT": {
+        "href": "https://wicg.github.io/largest-contentful-paint/",
+        "title": "Largest Contentful Paint",
+        "status": "cg-draft",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/largest-contentful-paint"
+    },
     "MEDIA-CAPABILITIES": {
         "href": "https://wicg.github.io/media-capabilities/",
         "title": "Media Capabilities",
-        "status": "Living Standard",
+        "status": "cg-draft",
         "publisher": "WICG",
         "source": "https://wicg.github.io/admin/biblio.json",
         "repository": "https://github.com/wicg/media-capabilities"
@@ -146,7 +162,7 @@
     "MEDIA-PLAYBACK-QUALITY": {
         "href": "https://wicg.github.io/media-playback-quality/",
         "title": "Media Playback Quality",
-        "status": "Living Standard",
+        "status": "cg-draft",
         "publisher": "WICG",
         "source": "https://wicg.github.io/admin/biblio.json",
         "repository": "https://github.com/wicg/media-playback-quality"
@@ -154,7 +170,7 @@
     "MEDIASESSION": {
         "href": "https://wicg.github.io/mediasession/",
         "title": "Media Session",
-        "status": "Living Standard",
+        "status": "cg-draft",
         "publisher": "WICG",
         "source": "https://wicg.github.io/admin/biblio.json",
         "repository": "https://github.com/wicg/mediasession"
@@ -162,7 +178,7 @@
     "NATIVE-FILE-SYSTEM": {
         "href": "https://wicg.github.io/native-file-system/",
         "title": "Native File System",
-        "status": "Living Standard",
+        "status": "cg-draft",
         "publisher": "WICG",
         "source": "https://wicg.github.io/admin/biblio.json",
         "repository": "https://github.com/wicg/native-file-system"
@@ -170,7 +186,7 @@
     "NETINFO": {
         "href": "https://wicg.github.io/netinfo/",
         "title": "Network Information API",
-        "status": "Living Standard",
+        "status": "cg-draft",
         "publisher": "WICG",
         "source": "https://wicg.github.io/admin/biblio.json",
         "repository": "https://github.com/wicg/netinfo"
@@ -178,7 +194,7 @@
     "ORIGIN-POLICY": {
         "href": "https://wicg.github.io/origin-policy/",
         "title": "Origin Policy",
-        "status": "Living Standard",
+        "status": "cg-draft",
         "publisher": "WICG",
         "source": "https://wicg.github.io/admin/biblio.json",
         "repository": "https://github.com/wicg/origin-policy"
@@ -186,7 +202,7 @@
     "PAGE-LIFECYCLE": {
         "href": "https://wicg.github.io/page-lifecycle/spec.html",
         "title": "Page Lifecycle",
-        "status": "Living Standard",
+        "status": "cg-draft",
         "publisher": "WICG",
         "source": "https://wicg.github.io/admin/biblio.json",
         "repository": "https://github.com/wicg/page-lifecycle"
@@ -194,7 +210,7 @@
     "PERMISSIONS-REQUEST": {
         "href": "https://wicg.github.io/permissions-request/",
         "title": "Requesting Permissions",
-        "status": "Living Standard",
+        "status": "cg-draft",
         "publisher": "WICG",
         "source": "https://wicg.github.io/admin/biblio.json",
         "repository": "https://github.com/wicg/permissions-request"
@@ -202,7 +218,7 @@
     "PERMISSIONS-REVOKE": {
         "href": "https://wicg.github.io/permissions-revoke/",
         "title": "Relinquishing Permissions",
-        "status": "Living Standard",
+        "status": "cg-draft",
         "publisher": "WICG",
         "source": "https://wicg.github.io/admin/biblio.json",
         "repository": "https://github.com/wicg/permissions-revoke"
@@ -210,7 +226,7 @@
     "PICTURE-IN-PICTURE": {
         "href": "https://wicg.github.io/picture-in-picture/",
         "title": "Picture-in-Picture",
-        "status": "Living Standard",
+        "status": "cg-draft",
         "publisher": "WICG",
         "source": "https://wicg.github.io/admin/biblio.json",
         "repository": "https://github.com/wicg/picture-in-picture"
@@ -218,7 +234,7 @@
     "PRIORITY-HINTS": {
         "href": "https://wicg.github.io/priority-hints/",
         "title": "Priority Hints",
-        "status": "Living Standard",
+        "status": "cg-draft",
         "publisher": "WICG",
         "source": "https://wicg.github.io/admin/biblio.json",
         "repository": "https://github.com/wicg/priority-hints"
@@ -226,7 +242,7 @@
     "REPORTING": {
         "href": "https://wicg.github.io/reporting/",
         "title": "Reporting API",
-        "status": "Living Standard",
+        "status": "cg-draft",
         "publisher": "WICG",
         "source": "https://wicg.github.io/admin/biblio.json",
         "repository": "https://github.com/wicg/reporting"
@@ -234,7 +250,7 @@
     "RESIZE-OBSERVER": {
         "href": "https://wicg.github.io/ResizeObserver/",
         "title": "Resize Observer",
-        "status": "Living Standard",
+        "status": "cg-draft",
         "publisher": "WICG",
         "source": "https://wicg.github.io/admin/biblio.json",
         "repository": "https://github.com/wicg/ResizeObserver"
@@ -242,7 +258,7 @@
     "SCROLL-ANIMATIONS": {
         "href": "https://wicg.github.io/scroll-animations/",
         "title": "Scroll-linked Animations",
-        "status": "Living Standard",
+        "status": "cg-draft",
         "publisher": "WICG",
         "source": "https://wicg.github.io/admin/biblio.json",
         "repository": "https://github.com/wicg/scroll-animations"
@@ -250,7 +266,7 @@
     "SHAPE-DETECTION-API": {
         "href": "https://wicg.github.io/shape-detection-api/",
         "title": "Accelerated Shape Detection in Images",
-        "status": "Living Standard",
+        "status": "cg-draft",
         "publisher": "WICG",
         "source": "https://wicg.github.io/admin/biblio.json",
         "repository": "https://github.com/wicg/shape-detection-api"
@@ -258,7 +274,7 @@
     "TEXT-DETECTION-API": {
         "href": "https://wicg.github.io/shape-detection-api/text.html",
         "title": "Accelerated Text Detection in Images",
-        "status": "Living Standard",
+        "status": "cg-draft",
         "publisher": "WICG",
         "source": "https://wicg.github.io/admin/biblio.json",
         "repository": "https://github.com/wicg/shape-detection-api"
@@ -266,7 +282,7 @@
     "TRUSTED-TYPES": {
         "href": "https://wicg.github.io/trusted-types/dist/spec/",
         "title": "Trusted Types Spec WIP",
-        "status": "Living Standard",
+        "status": "cg-draft",
         "publisher": "WICG",
         "source": "https://wicg.github.io/admin/biblio.json",
         "repository": "https://github.com/wicg/trusted-types"
@@ -274,7 +290,7 @@
     "VISUAL-VIEWPORT": {
         "href": "https://wicg.github.io/visual-viewport/",
         "title": "Visual Viewport API",
-        "status": "Living Standard",
+        "status": "cg-draft",
         "publisher": "WICG",
         "source": "https://wicg.github.io/admin/biblio.json",
         "repository": "https://github.com/wicg/visual-viewport"
@@ -282,7 +298,7 @@
     "WEB-BACKGROUND-SYNC": {
         "href": "https://wicg.github.io/BackgroundSync/spec/",
         "title": "Web Background Synchronization",
-        "status": "Living Standard",
+        "status": "cg-draft",
         "publisher": "WICG",
         "source": "https://wicg.github.io/admin/biblio.json",
         "repository": "https://github.com/wicg/BackgroundSync"
@@ -290,7 +306,7 @@
     "WEB-LOCKS": {
         "href": "https://wicg.github.io/web-locks/",
         "title": "Web Locks API",
-        "status": "Living Standard",
+        "status": "cg-draft",
         "publisher": "WICG",
         "source": "https://wicg.github.io/admin/biblio.json",
         "repository": "https://github.com/wicg/web-locks"
@@ -298,7 +314,7 @@
     "WEB-SHARE": {
         "href": "https://wicg.github.io/web-share/",
         "title": "Web Share API",
-        "status": "Living Standard",
+        "status": "cg-draft",
         "publisher": "WICG",
         "source": "https://wicg.github.io/admin/biblio.json",
         "repository": "https://github.com/wicg/web-share"
@@ -306,7 +322,7 @@
     "WEB-SHARE-TARGET": {
         "href": "https://wicg.github.io/web-share-target/",
         "title": "Web Share Target API",
-        "status": "Living Standard",
+        "status": "cg-draft",
         "publisher": "WICG",
         "source": "https://wicg.github.io/admin/biblio.json",
         "repository": "https://github.com/wicg/web-share-target"
@@ -314,7 +330,7 @@
     "WEBUSB": {
         "href": "https://wicg.github.io/webusb/",
         "title": "WebUSB API",
-        "status": "Living Standard",
+        "status": "cg-draft",
         "publisher": "WICG",
         "source": "https://wicg.github.io/admin/biblio.json",
         "repository": "https://github.com/wicg/webusb"
@@ -349,6 +365,9 @@
     "WICG-CSS-SCROLL-BOUNDARY-BEHAVIOR": {
         "aliasOf": "CSS-SCROLL-BOUNDARY-BEHAVIOR"
     },
+    "WICG-ELEMENT-TIMING": {
+        "aliasOf": "ELEMENT-TIMING"
+    },
     "WICG-ENTRIES-API": {
         "aliasOf": "ENTRIES-API"
     },
@@ -361,7 +380,7 @@
     "WICG-FRAME-TIMING": {
         "href": "https://wicg.github.io/frame-timing/",
         "title": "Frame Timing",
-        "status": "Living Standard",
+        "status": "cg-draft",
         "publisher": "WICG",
         "source": "https://wicg.github.io/admin/biblio.json",
         "repository": "https://github.com/wicg/frame-timing"
@@ -369,7 +388,7 @@
     "WICG-GEOLOCATION-SENSOR": {
         "href": "https://wicg.github.io/geolocation-sensor/",
         "title": "Geolocation Sensor",
-        "status": "Living Standard",
+        "status": "cg-draft",
         "publisher": "WICG",
         "source": "https://wicg.github.io/admin/biblio.json",
         "repository": "https://github.com/wicg/geolocation-sensor"
@@ -388,6 +407,9 @@
     },
     "WICG-KV-STORAGE": {
         "aliasOf": "KV-STORAGE"
+    },
+    "WICG-LARGEST-CONTENTFUL-PAINT": {
+        "aliasOf": "LARGEST-CONTENTFUL-PAINT"
     },
     "WICG-MEDIA-CAPABILITIES": {
         "aliasOf": "MEDIA-CAPABILITIES"
@@ -410,7 +432,7 @@
     "WICG-NETWORK-ERROR-LOGGING": {
         "href": "https://wicg.github.io/network-error-logging/",
         "title": "Network Error Logging",
-        "status": "Living Standard",
+        "status": "cg-draft",
         "publisher": "WICG",
         "source": "https://wicg.github.io/admin/biblio.json",
         "repository": "https://github.com/wicg/network-error-logging"
