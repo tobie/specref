@@ -4,6 +4,6 @@ module.exports = function(id, ref) {
         href: ref.href,
         title: ref.title,
         obsoletedBy: ref.obsoletedBy,
-        status: "Living Standard"
+        status: "cg-draft"
     };
 }
