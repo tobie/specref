@@ -15681,6 +15681,38 @@
         },
         "repository": "https://github.com/w3c/mediacapture-output"
     },
+    "audiobooks": {
+        "authors": [
+            "Wendy Reid"
+        ],
+        "href": "https://www.w3.org/TR/audiobooks/",
+        "title": "Audiobook Profile for Web Publications",
+        "rawDate": "2019-06-20",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/audiobooks/index.html",
+        "deliveredBy": [
+            "https://www.w3.org/publishing/groups/publ-wg/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20190620": {
+                "authors": [
+                    "Wendy Reid"
+                ],
+                "href": "https://www.w3.org/TR/2019/WD-audiobooks-20190620/",
+                "title": "Audiobook Profile for Web Publications",
+                "rawDate": "2019-06-20",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/publishing/groups/publ-wg/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        },
+        "repository": "https://github.com/w3c/audiobooks"
+    },
     "audioproc": {
         "authors": [
             "Robert O'Callahan",
@@ -35281,7 +35313,7 @@
         ],
         "href": "https://www.w3.org/TR/html-aam-1.0/",
         "title": "HTML Accessibility API Mappings 1.0",
-        "rawDate": "2019-06-03",
+        "rawDate": "2019-06-14",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/html-aam/",
@@ -36218,6 +36250,25 @@
                 "href": "https://www.w3.org/TR/2019/WD-html-aam-1.0-20190603/",
                 "title": "HTML Accessibility API Mappings 1.0",
                 "rawDate": "2019-06-03",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2019/webapps/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20190614": {
+                "authors": [
+                    "Steve Faulkner",
+                    "Alexander Surkov",
+                    "Scott O'Hara",
+                    "Bogdan Brinza",
+                    "Jason Kiss",
+                    "Cynthia Shelly"
+                ],
+                "href": "https://www.w3.org/TR/2019/WD-html-aam-1.0-20190614/",
+                "title": "HTML Accessibility API Mappings 1.0",
+                "rawDate": "2019-06-14",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -62816,7 +62867,7 @@
         ],
         "href": "https://www.w3.org/TR/resource-timing-2/",
         "title": "Resource Timing Level 2",
-        "rawDate": "2019-05-16",
+        "rawDate": "2019-06-19",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/resource-timing/",
@@ -63087,6 +63138,26 @@
                 "href": "https://www.w3.org/TR/2019/WD-resource-timing-2-20190516/",
                 "title": "Resource Timing Level 2",
                 "rawDate": "2019-05-16",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/webperf/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20190619": {
+                "authors": [
+                    "Todd Reifsteck",
+                    "Ilya Grigorik",
+                    "Yoav Weiss",
+                    "Arvind Jain",
+                    "Jatinder Mann",
+                    "Zhiheng Wang",
+                    "Anderson Quach"
+                ],
+                "href": "https://www.w3.org/TR/2019/WD-resource-timing-2-20190619/",
+                "title": "Resource Timing Level 2",
+                "rawDate": "2019-06-19",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -70906,7 +70977,7 @@
         ],
         "href": "https://www.w3.org/TR/string-meta/",
         "title": "Strings on the Web: Language and Direction Metadata",
-        "rawDate": "2019-04-16",
+        "rawDate": "2019-06-11",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/string-meta/",
@@ -70923,6 +70994,21 @@
                 "href": "https://www.w3.org/TR/2019/WD-string-meta-20190416/",
                 "title": "Strings on the Web: Language and Direction Metadata",
                 "rawDate": "2019-04-16",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/International/core/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20190611": {
+                "authors": [
+                    "Addison Phillips",
+                    "Richard Ishida"
+                ],
+                "href": "https://www.w3.org/TR/2019/WD-string-meta-20190611/",
+                "title": "Strings on the Web: Language and Direction Metadata",
+                "rawDate": "2019-06-11",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -75229,7 +75315,7 @@
         ],
         "href": "https://www.w3.org/TR/user-timing-3/",
         "title": "User Timing Level 3",
-        "rawDate": "2019-04-25",
+        "rawDate": "2019-06-19",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/user-timing/",
@@ -75282,6 +75368,24 @@
                 "href": "https://www.w3.org/TR/2019/WD-user-timing-3-20190425/",
                 "title": "User Timing Level 3",
                 "rawDate": "2019-04-25",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/webperf/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20190619": {
+                "authors": [
+                    "Ilya Grigorik",
+                    "Nicolas Pena Moreno",
+                    "Jatinder Mann",
+                    "Zhiheng Wang",
+                    "Anderson Quach"
+                ],
+                "href": "https://www.w3.org/TR/2019/WD-user-timing-3-20190619/",
+                "title": "User Timing Level 3",
+                "rawDate": "2019-06-19",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -84191,7 +84295,7 @@
         ],
         "href": "https://www.w3.org/TR/wpub/",
         "title": "Web Publications",
-        "rawDate": "2019-04-09",
+        "rawDate": "2019-06-14",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/wpub/",
@@ -84303,6 +84407,21 @@
                 "href": "https://www.w3.org/TR/2019/WD-wpub-20190409/",
                 "title": "Web Publications",
                 "rawDate": "2019-04-09",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/publishing/groups/publ-wg/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20190614": {
+                "authors": [
+                    "Matt Garrish",
+                    "Ivan Herman"
+                ],
+                "href": "https://www.w3.org/TR/2019/WD-wpub-20190614/",
+                "title": "Web Publications",
+                "rawDate": "2019-06-14",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
