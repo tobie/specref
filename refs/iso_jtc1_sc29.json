@@ -859,7 +859,7 @@
     },
     "iso13818-1-2019-damd1": {
         "href": "https://www.iso.org/standard/76595.html",
-        "title": "Carriage of associated CMAF boxes for audio-visual elementary streams and JPEG XS in MPEG-2 TS",
+        "title": "Carriage of JPEG XS in MPEG-2 TS",
         "status": "Under development",
         "publisher": "ISO/IEC",
         "obsoletedBy": [
@@ -2774,6 +2774,16 @@
         ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
+    "iso14496-22-2019-pdam1": {
+        "href": "https://www.iso.org/standard/78865.html",
+        "title": "Color font technology and other updates",
+        "status": "Under development",
+        "publisher": "ISO/IEC",
+        "obsoletedBy": [
+            "iso14496-22"
+        ],
+        "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+    },
     "iso14496-23": {
         "href": "https://www.iso.org/standard/45531.html",
         "title": "Information technology -- Coding of audio-visual objects -- Part 23: Symbolic Music Representation",
@@ -4497,14 +4507,14 @@
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso14496-5-2001-amd40": {
+        "aliasOf": "iso14496-5-2001-amd40-2019"
+    },
+    "iso14496-5-2001-amd40-2019": {
         "href": "https://www.iso.org/standard/69449.html",
         "title": "Printing material and 3D graphics coding for browsers reference software",
-        "status": "Under development",
+        "status": "Published",
         "publisher": "ISO/IEC",
         "rawDate": "2019-06",
-        "obsoletedBy": [
-            "iso14496-5"
-        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso14496-5-2001-amd41": {
@@ -6568,17 +6578,24 @@
     "iso21122-2": {
         "href": "https://www.iso.org/standard/74536.html",
         "title": "Information technology -- JPEG XS low-latency lightweight image coding system -- Part 2: Profiles and buffer models",
-        "status": "Under development",
+        "status": "Published",
         "publisher": "ISO/IEC",
+        "isoNumber": "ISO 21122-2:2019",
         "rawDate": "2019-07",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
-    "iso21122-2-awiamd1": {
+    "iso21122-2-2019-awiamd1": {
         "href": "https://www.iso.org/standard/78470.html",
         "title": "Profiles extensions",
         "status": "Under development",
         "publisher": "ISO/IEC",
+        "obsoletedBy": [
+            "iso21122-2"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+    },
+    "iso21122-2-awiamd1": {
+        "aliasOf": "iso21122-2-2019-awiamd1"
     },
     "iso21122-3": {
         "href": "https://www.iso.org/standard/74537.html",
@@ -6596,7 +6613,7 @@
     },
     "iso21122-5": {
         "href": "https://www.iso.org/standard/74539.html",
-        "title": "Information technology -- Low-latency lightweight image coding system -- Part 5: Reference software",
+        "title": "Information technology -- JPEG XS low-latency lightweight image coding system -- Part 5: Reference software",
         "status": "Under development",
         "publisher": "ISO/IEC",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
@@ -6884,8 +6901,9 @@
     "iso23000-22": {
         "href": "https://www.iso.org/standard/74417.html",
         "title": "Information technology -- Multimedia application format (MPEG-A) -- Part 22: Multi-image application format (MIAF)",
-        "status": "Under development",
+        "status": "Published",
         "publisher": "ISO/IEC",
+        "isoNumber": "ISO 23000-22:2019",
         "rawDate": "2019-06",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
@@ -8750,7 +8768,7 @@
     },
     "iso23092-3": {
         "href": "https://www.iso.org/standard/75625.html",
-        "title": "Information Technology -- Genomic information representation -- Part 3: Metadata and application programming interfaces (APIs)",
+        "title": "Information Technology -- Genomic information representation -- Part 3: Genomic Information Metadata and Application Programming Interfaces (APIs)",
         "status": "Under development",
         "publisher": "ISO/IEC",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
@@ -8792,14 +8810,21 @@
     },
     "iso23093-3": {
         "href": "https://www.iso.org/standard/74333.html",
-        "title": "Information technology -- Internet of media things -- Part 3: IoMT Media Data Formats and API",
+        "title": "Information technology -- Internet of media things -- Part 3: Media Data Formats and API",
         "status": "Under development",
         "publisher": "ISO/IEC",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23093-4": {
         "href": "https://www.iso.org/standard/77840.html",
-        "title": "Information technology -- Internet of media things -- Part 4: Internet of media things: Reference software and conformance",
+        "title": "Information technology -- Internet of media things -- Part 4: Reference software and conformance",
+        "status": "Under development",
+        "publisher": "ISO/IEC",
+        "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+    },
+    "iso23094": {
+        "href": "https://www.iso.org/standard/57797.html",
+        "title": "General Video Coding",
         "status": "Under development",
         "publisher": "ISO/IEC",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
@@ -8833,8 +8858,9 @@
     "iso24800-2-2011-damd2": {
         "href": "https://www.iso.org/standard/71976.html",
         "title": "Registration procedure of JPOnto",
-        "status": "Under development",
+        "status": "Deleted",
         "publisher": "ISO/IEC",
+        "isRetired": true,
         "obsoletedBy": [
             "iso24800-2"
         ],
