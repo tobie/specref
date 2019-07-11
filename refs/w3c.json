@@ -11745,6 +11745,42 @@
         "repository": "https://github.com/w3c/accname",
         "hasErrata": "https://www.w3.org/WAI/ARIA/1.1/errata/accname"
     },
+    "accname-1.2": {
+        "authors": [
+            "Bryan Garaventa",
+            "Joanmarie Diggs",
+            "Michael Cooper"
+        ],
+        "href": "https://www.w3.org/TR/accname-1.2/",
+        "title": "Accessible Name and Description Computation 1.2",
+        "rawDate": "2019-07-11",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/accname/",
+        "deliveredBy": [
+            "https://www.w3.org/WAI/ARIA/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20190711": {
+                "authors": [
+                    "Bryan Garaventa",
+                    "Joanmarie Diggs",
+                    "Michael Cooper"
+                ],
+                "href": "https://www.w3.org/TR/2019/WD-accname-1.2-20190711/",
+                "title": "Accessible Name and Description Computation 1.2",
+                "rawDate": "2019-07-11",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WAI/ARIA/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        },
+        "repository": "https://github.com/w3c/accname"
+    },
     "accname-aam-1.1": {
         "aliasOf": "accname-1.1"
     },
@@ -20448,7 +20484,7 @@
         ],
         "href": "https://www.w3.org/TR/css-display-3/",
         "title": "CSS Display Module Level 3",
-        "rawDate": "2018-08-28",
+        "rawDate": "2019-07-11",
         "status": "CR",
         "publisher": "W3C",
         "deliveredBy": [
@@ -20581,6 +20617,21 @@
                 "href": "https://www.w3.org/TR/2018/CR-css-display-3-20180828/",
                 "title": "CSS Display Module Level 3",
                 "rawDate": "2018-08-28",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Style/CSS/members"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20190711": {
+                "authors": [
+                    "Tab Atkins Jr.",
+                    "Elika Etemad"
+                ],
+                "href": "https://www.w3.org/TR/2019/CR-css-display-3-20190711/",
+                "title": "CSS Display Module Level 3",
+                "rawDate": "2019-07-11",
                 "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -58130,7 +58181,7 @@
         ],
         "href": "https://www.w3.org/TR/push-api/",
         "title": "Push API",
-        "rawDate": "2019-06-03",
+        "rawDate": "2019-07-11",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -58582,6 +58633,21 @@
                 "href": "https://www.w3.org/TR/2019/WD-push-api-20190603/",
                 "title": "Push API",
                 "rawDate": "2019-06-03",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2019/webapps/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20190711": {
+                "authors": [
+                    "Peter Beverloo",
+                    "Martin Thomson"
+                ],
+                "href": "https://www.w3.org/TR/2019/WD-push-api-20190711/",
+                "title": "Push API",
+                "rawDate": "2019-07-11",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
