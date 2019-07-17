@@ -151,6 +151,14 @@
         "source": "https://wicg.github.io/admin/biblio.json",
         "repository": "https://github.com/wicg/largest-contentful-paint"
     },
+    "LAYOUT-INSTABILITY": {
+        "href": "https://wicg.github.io/layout-instability/",
+        "title": "Layout Instability",
+        "status": "cg-draft",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/layout-instability"
+    },
     "MEDIA-CAPABILITIES": {
         "href": "https://wicg.github.io/media-capabilities/",
         "title": "Media Capabilities",
@@ -410,6 +418,9 @@
     },
     "WICG-LARGEST-CONTENTFUL-PAINT": {
         "aliasOf": "LARGEST-CONTENTFUL-PAINT"
+    },
+    "WICG-LAYOUT-INSTABILITY": {
+        "aliasOf": "LAYOUT-INSTABILITY"
     },
     "WICG-MEDIA-CAPABILITIES": {
         "aliasOf": "MEDIA-CAPABILITIES"
