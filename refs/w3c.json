@@ -73080,6 +73080,38 @@
         "rawDate": "2011-07-05",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
+    "timing-entrytypes-registry": {
+        "authors": [
+            "Philippe Le Hégaret"
+        ],
+        "href": "https://www.w3.org/TR/timing-entrytypes-registry/",
+        "title": "Timing Entry Names Registry",
+        "rawDate": "2019-07-23",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/timing-entrytypes-registry/",
+        "deliveredBy": [
+            "https://www.w3.org/webperf/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20190723": {
+                "authors": [
+                    "Philippe Le Hégaret"
+                ],
+                "href": "https://www.w3.org/TR/2019/WD-timing-entrytypes-registry-20190723/",
+                "title": "Timing Entry Names Registry",
+                "rawDate": "2019-07-23",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/webperf/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        },
+        "repository": "https://github.com/w3c/timing-entrytypes-registry"
+    },
     "touch-events": {
         "authors": [
             "Doug Schepers",
