@@ -2254,7 +2254,7 @@
         "rawDate": "2019-01",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
-    "iso14496-15-wdamd1": {
+    "iso14496-15-pdam1": {
         "href": "https://www.iso.org/standard/79146.html",
         "title": "Improved support for tiling and layering",
         "status": "Under development",
@@ -2263,6 +2263,9 @@
             "iso14496-15"
         ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+    },
+    "iso14496-15-wdamd1": {
+        "aliasOf": "iso14496-15-pdam1"
     },
     "iso14496-16": {
         "href": "https://www.iso.org/standard/57367.html",
@@ -5238,6 +5241,9 @@
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso15444-5-2015-npamd1": {
+        "aliasOf": "iso15444-5-2015-pdam1"
+    },
+    "iso15444-5-2015-pdam1": {
         "href": "https://www.iso.org/standard/77835.html",
         "title": "Reference software for High-Throughput JPEG 2000 (HTJ2K)",
         "status": "Under development",
@@ -6642,6 +6648,7 @@
         "title": "Information technology -- JPEG XS low-latency lightweight image coding system -- Part 3: Transport and container formats",
         "status": "Under development",
         "publisher": "ISO/IEC",
+        "rawDate": "2019-08",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso21122-4": {
@@ -7340,9 +7347,10 @@
     "iso23001-8": {
         "href": "https://www.iso.org/standard/69661.html",
         "title": "Information technology -- MPEG systems technologies -- Part 8: Coding-independent code points",
-        "status": "Published",
+        "status": "Withdrawn",
         "publisher": "ISO/IEC",
         "isoNumber": "ISO 23001-8:2016",
+        "isSuperseded": true,
         "rawDate": "2016-05",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
@@ -7353,9 +7361,6 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "2015-07",
-        "obsoletedBy": [
-            "iso23001-8"
-        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23001-8-2013-cor1-2015": {
@@ -7365,9 +7370,6 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "2015-02",
-        "obsoletedBy": [
-            "iso23001-8"
-        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23001-8-2016-damd1": {
@@ -7376,9 +7378,6 @@
         "status": "Deleted",
         "publisher": "ISO/IEC",
         "isRetired": true,
-        "obsoletedBy": [
-            "iso23001-8"
-        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23001-9": {
@@ -8296,6 +8295,16 @@
         "rawDate": "2017-12",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
+    "iso23008-12-2017-pdam2": {
+        "href": "https://www.iso.org/standard/79153.html",
+        "title": "Support for predictive image coding, bursts, bracketing, and other improvements",
+        "status": "Under development",
+        "publisher": "ISO/IEC",
+        "obsoletedBy": [
+            "iso23008-12"
+        ],
+        "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+    },
     "iso23008-13": {
         "href": "https://www.iso.org/standard/70438.html",
         "title": "Information technology -- High efficiency coding and media delivery in heterogeneous environments -- Part 13: MPEG media transport implementation guidelines",
@@ -8821,7 +8830,7 @@
     },
     "iso23090-8": {
         "href": "https://www.iso.org/standard/77839.html",
-        "title": "Information technology -- Coded representation of immersive media -- Part 8: Interfaces for network media processing",
+        "title": "Information technology -- Coded representation of immersive media -- Part 8: Network based media processing",
         "status": "Under development",
         "publisher": "ISO/IEC",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
@@ -8845,8 +8854,9 @@
     "iso23091-2": {
         "href": "https://www.iso.org/standard/73412.html",
         "title": "Information technology -- Coding-independent code points -- Part 2: Video",
-        "status": "Under development",
+        "status": "Published",
         "publisher": "ISO/IEC",
+        "isoNumber": "ISO 23091-2:2019",
         "rawDate": "2019-07",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
@@ -8862,8 +8872,9 @@
     "iso23091-4": {
         "href": "https://www.iso.org/standard/74418.html",
         "title": "Information technology -- Coding-independent code points -- Part 4: Usage of video signal type code points",
-        "status": "Under development",
+        "status": "Published",
         "publisher": "ISO/IEC",
+        "isoNumber": "ISO 23091-4:2019",
         "rawDate": "2019-08",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
