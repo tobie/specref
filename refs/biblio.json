@@ -1121,6 +1121,25 @@
             "2015": {
                 "aliasOf": "ECMASCRIPT-6.0"
             },
+            "2016": {
+                "aliasOf": "ECMASCRIPT-7.0"
+            },
+            "2017": {
+                "aliasOf": "ECMASCRIPT-8.0"
+            },
+            "2018": {
+                "aliasOf": "ECMASCRIPT-9.0"
+            },
+            "2019": {
+                "aliasOf": "ECMASCRIPT-10.0"
+            },
+            "5.1": {
+                "title": "ECMA-262 Edition 5.1, The ECMAScript Language Specification",
+                "rawDate": "2011-06",
+                "href": "http://www.ecma-international.org/ecma-262/5.1/index.html",
+                "status": "Standard",
+                "publisher": "Ecma International"
+            },
             "6.0": {
                 "title": "ECMA-262 6th Edition, The ECMAScript 2015 Language Specification",
                 "rawDate": "2015-06",
@@ -1131,12 +1150,45 @@
                     "Allen Wirfs-Brock"
                 ]
             },
-            "5.1": {
-                "rawDate": "2011-06",
-                "href": "http://www.ecma-international.org/publications/standards/Ecma-262.htm",
-                "publisher": "Ecma International",
+            "7.0": {
+                "title": "ECMA-262 7th Edition, The ECMAScript 2016 Language Specification",
+                "rawDate": "2016-06",
+                "href": "http://www.ecma-international.org/ecma-262/7.0/index.html",
                 "status": "Standard",
-                "title": "ECMAScript Language Specification, Edition 5.1"
+                "publisher": "Ecma International",
+                "authors": [
+                    "Brian Terlson"
+                ]
+            },
+            "8.0": {
+                "title": "ECMA-262 8th Edition, The ECMAScript 2017 Language Specification",
+                "rawDate": "2017-06",
+                "href": "http://www.ecma-international.org/ecma-262/8.0/index.html",
+                "status": "Standard",
+                "publisher": "Ecma International",
+                "authors": [
+                    "Brian Terlson"
+                ]
+            },
+            "9.0": {
+                "title": "ECMA-262 9th Edition, The ECMAScript 2018 Language Specification",
+                "rawDate": "2018-06",
+                "href": "http://www.ecma-international.org/ecma-262/9.0/index.html",
+                "status": "Standard",
+                "publisher": "Ecma International",
+                "authors": [
+                    "Brian Terlson"
+                ]
+            },
+            "10.0": {
+                "title": "ECMA-262 10th Edition, The ECMAScript 2019 Language Specification",
+                "rawDate": "2019-06",
+                "href": "http://www.ecma-international.org/ecma-262/10.0/index.html",
+                "status": "Standard",
+                "publisher": "Ecma International",
+                "authors": [
+                    "Brian Terlson"
+                ]
             }
         },
         "repository": "https://github.com/tc39/ecma262"
