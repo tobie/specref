@@ -858,6 +858,9 @@
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso13818-1-2019-damd1": {
+        "aliasOf": "iso13818-1-2019-fdamd1"
+    },
+    "iso13818-1-2019-fdamd1": {
         "href": "https://www.iso.org/standard/76595.html",
         "title": "Carriage of JPEG XS in MPEG-2 TS",
         "status": "Under development",
@@ -2787,7 +2790,7 @@
         ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
-    "iso14496-22-2019-pdam1": {
+    "iso14496-22-2019-damd1": {
         "href": "https://www.iso.org/standard/78865.html",
         "title": "Color font technology and other updates",
         "status": "Under development",
@@ -2796,6 +2799,9 @@
             "iso14496-22"
         ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+    },
+    "iso14496-22-2019-pdam1": {
+        "aliasOf": "iso14496-22-2019-damd1"
     },
     "iso14496-23": {
         "href": "https://www.iso.org/standard/45531.html",
@@ -5097,6 +5103,7 @@
         "title": "Information technology -- JPEG 2000 image coding system -- Part 16: Encapsulation of JPEG 2000 Images into ISO/IEC 23008-12",
         "status": "Under development",
         "publisher": "ISO/IEC",
+        "rawDate": "2019-09",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso15444-2": {
@@ -6355,20 +6362,24 @@
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso21000-22": {
-        "href": "https://www.iso.org/standard/68927.html",
+        "href": "https://www.iso.org/standard/75858.html",
         "title": "Information technology -- Multimedia framework (MPEG-21) -- Part 22: User Description",
         "status": "Published",
         "publisher": "ISO/IEC",
-        "isoNumber": "ISO 21000-22:2016",
-        "rawDate": "2016-11",
+        "isoNumber": "ISO 21000-22:2019",
+        "rawDate": "2019-08",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso21000-22-2016-amd1-2018": {
         "href": "https://www.iso.org/standard/71289.html",
         "title": "Reference software for MPEG-21 user description",
-        "status": "Published",
+        "status": "Withdrawn",
         "publisher": "ISO/IEC",
+        "isSuperseded": true,
         "rawDate": "2018-07",
+        "obsoletedBy": [
+            "iso21000-22"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso21000-3": {
@@ -6667,7 +6678,7 @@
     },
     "iso21794-1": {
         "href": "https://www.iso.org/standard/74531.html",
-        "title": "Information technology -- Plenoptic image coding system (JPEG Pleno) -- Part 1: Framework",
+        "title": "Information technology -- JPEG Pleno Plenoptic image coding\tsystem -- Part 1: Framework",
         "status": "Under development",
         "publisher": "ISO/IEC",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
@@ -7331,18 +7342,22 @@
         ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
-    "iso23001-7-2016-damd1": {
-        "aliasOf": "iso23001-7-2016-fdamd1"
-    },
-    "iso23001-7-2016-fdamd1": {
+    "iso23001-7-2016-amd1": {
         "href": "https://www.iso.org/standard/76597.html",
         "title": "AES-CBC-128 and key rotation",
         "status": "Under development",
         "publisher": "ISO/IEC",
+        "rawDate": "2019-09",
         "obsoletedBy": [
             "iso23001-7"
         ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+    },
+    "iso23001-7-2016-damd1": {
+        "aliasOf": "iso23001-7-2016-fdamd1"
+    },
+    "iso23001-7-2016-fdamd1": {
+        "aliasOf": "iso23001-7-2016-amd1"
     },
     "iso23001-8": {
         "href": "https://www.iso.org/standard/69661.html",
@@ -8497,6 +8512,13 @@
         "isRetired": true,
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
+    "iso23008-4-pdam2": {
+        "href": "https://www.iso.org/standard/79325.html",
+        "title": "ISO/IEC 23008-4/PDAM 2",
+        "status": "Under development",
+        "publisher": "ISO/IEC",
+        "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+    },
     "iso23008-5": {
         "href": "https://www.iso.org/standard/72216.html",
         "title": "Information technology -- High efficiency coding and media delivery in heterogeneous environments -- Part 5: Reference software for high efficiency video coding",
@@ -8586,12 +8608,12 @@
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23009-1": {
-        "href": "https://www.iso.org/standard/65274.html",
+        "href": "https://www.iso.org/standard/75485.html",
         "title": "Information technology -- Dynamic adaptive streaming over HTTP (DASH) -- Part 1: Media presentation description and segment formats",
         "status": "Published",
         "publisher": "ISO/IEC",
-        "isoNumber": "ISO 23009-1:2014",
-        "rawDate": "2014-05",
+        "isoNumber": "ISO 23009-1:2019",
+        "rawDate": "2019-08",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23009-1-2012-cor1-2013": {
@@ -8609,41 +8631,61 @@
     "iso23009-1-2014-amd1-2015": {
         "href": "https://www.iso.org/standard/66068.html",
         "title": "High Profile and Availability Time Synchronization",
-        "status": "Published",
+        "status": "Withdrawn",
         "publisher": "ISO/IEC",
+        "isSuperseded": true,
         "rawDate": "2015-06",
+        "obsoletedBy": [
+            "iso23009-1"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23009-1-2014-amd2-2015": {
         "href": "https://www.iso.org/standard/66486.html",
         "title": "Spatial relationship description, generalized URL parameters and other extensions",
-        "status": "Published",
+        "status": "Withdrawn",
         "publisher": "ISO/IEC",
+        "isSuperseded": true,
         "rawDate": "2015-07",
+        "obsoletedBy": [
+            "iso23009-1"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23009-1-2014-amd3-2016": {
         "href": "https://www.iso.org/standard/68921.html",
         "title": "Authentication, MPD linking, Callback Event, Period Continuity and other Extensions",
-        "status": "Published",
+        "status": "Withdrawn",
         "publisher": "ISO/IEC",
+        "isSuperseded": true,
         "rawDate": "2016-10",
+        "obsoletedBy": [
+            "iso23009-1"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23009-1-2014-cor1-2015": {
         "href": "https://www.iso.org/standard/66098.html",
         "title": "ISO/IEC 23009-1:2014/Cor 1:2015",
-        "status": "Published",
+        "status": "Withdrawn",
         "publisher": "ISO/IEC",
+        "isSuperseded": true,
         "rawDate": "2015-04",
+        "obsoletedBy": [
+            "iso23009-1"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23009-1-2014-cor2-2015": {
         "href": "https://www.iso.org/standard/69417.html",
         "title": "ISO/IEC 23009-1:2014/Cor 2:2015",
-        "status": "Published",
+        "status": "Withdrawn",
         "publisher": "ISO/IEC",
+        "isSuperseded": true,
         "rawDate": "2015-12",
+        "obsoletedBy": [
+            "iso23009-1"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23009-1-2014-damd4": {
@@ -8668,7 +8710,7 @@
         ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
-    "iso23009-1-damd1": {
+    "iso23009-1-2019-damd1": {
         "href": "https://www.iso.org/standard/78173.html",
         "title": "Device information and other extensions",
         "status": "Deleted",
@@ -8678,6 +8720,9 @@
             "iso23009-1"
         ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+    },
+    "iso23009-1-damd1": {
+        "aliasOf": "iso23009-1-2019-damd1"
     },
     "iso23009-2": {
         "href": "https://www.iso.org/standard/69562.html",
@@ -8934,6 +8979,7 @@
         "title": "Information technology -- Internet of media things -- Part 2: Discovery and communication API",
         "status": "Under development",
         "publisher": "ISO/IEC",
+        "rawDate": "2019-09",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23093-3": {
