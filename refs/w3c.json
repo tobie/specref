@@ -34164,8 +34164,9 @@
         },
         "rawDate": "2016-11-08",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
-        "edDraft": "http://dev.w3.org/geo/api/spec-source.html",
-        "hasErrata": "https://www.w3.org/2008/geolocation/geoapi-errata.html#1st-edition"
+        "edDraft": "https://w3c.github.io/geolocation-api/",
+        "hasErrata": "https://www.w3.org/2008/geolocation/geoapi-errata.html#1st-edition",
+        "repository": "https://github.com/w3c/geolocation-api"
     },
     "geolocation-API-v2": {
         "authors": [
@@ -42079,7 +42080,7 @@
         "rawDate": "2019-05-30",
         "status": "WD",
         "publisher": "W3C",
-        "edDraft": "https://cdn.staticaly.com/gh/w3c/input-events/v1/index.html",
+        "edDraft": "https://w3c.github.io/input-events/",
         "deliveredBy": [
             "https://www.w3.org/2019/webapps/"
         ],
@@ -42159,7 +42160,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/w3c/input-events"
     },
     "international-specs": {
         "authors": [
@@ -56336,7 +56338,7 @@
         ],
         "href": "https://www.w3.org/TR/pointerlock-2/",
         "title": "Pointer Lock 2.0",
-        "rawDate": "2019-06-06",
+        "rawDate": "2019-08-28",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/pointerlock/",
@@ -56410,6 +56412,20 @@
                 "href": "https://www.w3.org/TR/2019/WD-pointerlock-2-20190606/",
                 "title": "Pointer Lock 2.0",
                 "rawDate": "2019-06-06",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2019/webapps/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20190828": {
+                "authors": [
+                    "Navid Zolghadr"
+                ],
+                "href": "https://www.w3.org/TR/2019/WD-pointerlock-2-20190828/",
+                "title": "Pointer Lock 2.0",
+                "rawDate": "2019-08-28",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
