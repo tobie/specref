@@ -53528,12 +53528,11 @@
             "Marcos Caceres",
             "Domenic Denicola",
             "Zach Koch",
-            "Roy McElmurry",
-            "Adrian Bateman"
+            "Roy McElmurry"
         ],
         "href": "https://www.w3.org/TR/payment-method-id/",
         "title": "Payment Method Identifiers",
-        "rawDate": "2019-04-03",
+        "rawDate": "2019-09-05",
         "status": "CR",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/payment-method-id/",
@@ -53799,6 +53798,23 @@
                 "href": "https://www.w3.org/TR/2019/CR-payment-method-id-20190403/",
                 "title": "Payment Method Identifiers",
                 "rawDate": "2019-04-03",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Payments/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20190905": {
+                "authors": [
+                    "Marcos Caceres",
+                    "Domenic Denicola",
+                    "Zach Koch",
+                    "Roy McElmurry"
+                ],
+                "href": "https://www.w3.org/TR/2019/CR-payment-method-id-20190905/",
+                "title": "Payment Method Identifiers",
+                "rawDate": "2019-09-05",
                 "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -57952,6 +57968,44 @@
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
         "edDraft": "http://dvcs.w3.org/hg/progress/raw-file/tip/Overview.html"
     },
+    "pronunciation-gap-analysis": {
+        "authors": [
+            "Markku Hakkinen",
+            "Steve Noble",
+            "Irfan Ali",
+            "Ruoxi Ran"
+        ],
+        "href": "https://www.w3.org/TR/pronunciation-gap-analysis/",
+        "title": "Pronunciation Gap Analysis",
+        "rawDate": "2019-09-05",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/pronunciation/gap-analysis",
+        "deliveredBy": [
+            "https://www.w3.org/WAI/APA/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20190905": {
+                "authors": [
+                    "Markku Hakkinen",
+                    "Steve Noble",
+                    "Irfan Ali",
+                    "Ruoxi Ran"
+                ],
+                "href": "https://www.w3.org/TR/2019/WD-pronunciation-gap-analysis-20190905/",
+                "title": "Pronunciation Gap Analysis",
+                "rawDate": "2019-09-05",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WAI/APA/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        },
+        "repository": "https://github.com/w3c/pronunciation"
+    },
     "pronunciation-lexicon": {
         "authors": [
             "Paolo Baggia"
@@ -58013,6 +58067,84 @@
         },
         "rawDate": "2008-10-14",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+    },
+    "pronunciation-use-cases": {
+        "authors": [
+            "Irfan Ali",
+            "Paul Grenier",
+            "Markku Hakkinen",
+            "Ruoxi Ran"
+        ],
+        "href": "https://www.w3.org/TR/pronunciation-use-cases/",
+        "title": "Pronunciation Use Cases",
+        "rawDate": "2019-09-05",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/pronunciation/use-cases",
+        "deliveredBy": [
+            "https://www.w3.org/WAI/APA/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20190905": {
+                "authors": [
+                    "Irfan Ali",
+                    "Paul Grenier",
+                    "Markku Hakkinen",
+                    "Ruoxi Ran"
+                ],
+                "href": "https://www.w3.org/TR/2019/WD-pronunciation-use-cases-20190905/",
+                "title": "Pronunciation Use Cases",
+                "rawDate": "2019-09-05",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WAI/APA/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        },
+        "repository": "https://github.com/w3c/pronunciation"
+    },
+    "pronunciation-user-scenarios": {
+        "authors": [
+            "Irfan Ali",
+            "Sam Kanta",
+            "Christine Loew",
+            "Paul Grenier",
+            "Ruoxi Ran"
+        ],
+        "href": "https://www.w3.org/TR/pronunciation-user-scenarios/",
+        "title": "Pronunciation User Scenarios",
+        "rawDate": "2019-09-05",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/pronunciation/user-scenarios",
+        "deliveredBy": [
+            "https://www.w3.org/WAI/APA/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20190905": {
+                "authors": [
+                    "Irfan Ali",
+                    "Sam Kanta",
+                    "Christine Loew",
+                    "Paul Grenier",
+                    "Ruoxi Ran"
+                ],
+                "href": "https://www.w3.org/TR/2019/WD-pronunciation-user-scenarios-20190905/",
+                "title": "Pronunciation User Scenarios",
+                "rawDate": "2019-09-05",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WAI/APA/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        },
+        "repository": "https://github.com/w3c/pronunciation"
     },
     "prov-aq": {
         "authors": [
@@ -77185,8 +77317,8 @@
         ],
         "href": "https://www.w3.org/TR/vc-data-model/",
         "title": "Verifiable Credentials Data Model 1.0",
-        "rawDate": "2019-07-25",
-        "status": "CR",
+        "rawDate": "2019-09-05",
+        "status": "PR",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/vc-data-model/",
         "deliveredBy": [
@@ -77257,6 +77389,24 @@
                 "title": "Verifiable Credentials Data Model 1.0",
                 "rawDate": "2019-07-25",
                 "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2017/vc/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20190905": {
+                "authors": [
+                    "Manu Sporny",
+                    "Grant Noble",
+                    "Dave Longley",
+                    "Daniel Burnett",
+                    "Brent Zundel"
+                ],
+                "href": "https://www.w3.org/TR/2019/PR-vc-data-model-20190905/",
+                "title": "Verifiable Credentials Data Model 1.0",
+                "rawDate": "2019-09-05",
+                "status": "PR",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/2017/vc/"
