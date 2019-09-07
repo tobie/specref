@@ -5101,8 +5101,9 @@
     "iso15444-16": {
         "href": "https://www.iso.org/standard/76647.html",
         "title": "Information technology -- JPEG 2000 image coding system -- Part 16: Encapsulation of JPEG 2000 Images into ISO/IEC 23008-12",
-        "status": "Under development",
+        "status": "Published",
         "publisher": "ISO/IEC",
+        "isoNumber": "ISO 15444-16:2019",
         "rawDate": "2019-09",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
@@ -8586,10 +8587,7 @@
         "rawDate": "2018-08",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
-    "iso23008-8-2018-damd1": {
-        "aliasOf": "iso23008-8-2018-prfamd1"
-    },
-    "iso23008-8-2018-prfamd1": {
+    "iso23008-8-2018-amd1": {
         "href": "https://www.iso.org/standard/75909.html",
         "title": "Conformance testing for HEVC screen content coding (SCC) extensions and non-intra high throughput profiles",
         "status": "Under development",
@@ -8598,6 +8596,12 @@
             "iso23008-8"
         ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+    },
+    "iso23008-8-2018-damd1": {
+        "aliasOf": "iso23008-8-2018-prfamd1"
+    },
+    "iso23008-8-2018-prfamd1": {
+        "aliasOf": "iso23008-8-2018-amd1"
     },
     "iso23008-9": {
         "href": "https://www.iso.org/standard/71974.html",
