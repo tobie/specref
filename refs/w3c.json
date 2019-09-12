@@ -47192,6 +47192,60 @@
         "hasErrata": "https://micropub.net/errata/",
         "repository": "https://github.com/w3c/micropub"
     },
+    "mini-app-white-paper": {
+        "authors": [
+            "Angel Li",
+            "Qing An",
+            "Dapeng Liu",
+            "Hongru (Judy) Zhu",
+            "Qingqian Tao",
+            "Zhixing Lei",
+            "Zhou Shen",
+            "Zhiqiang Yu",
+            "Wanming Lin",
+            "xiaowei jiang",
+            "Fuqiao Xue",
+            "Lei Zhao"
+        ],
+        "href": "https://www.w3.org/TR/mini-app-white-paper/",
+        "title": "MiniApp Standardization White Paper",
+        "rawDate": "2019-09-12",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/mini-app-white-paper/",
+        "deliveredBy": [
+            "https://www.w3.org/2018/chinese-web-ig/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20190912": {
+                "authors": [
+                    "Angel Li",
+                    "Qing An",
+                    "Dapeng Liu",
+                    "Hongru (Judy) Zhu",
+                    "Qingqian Tao",
+                    "Zhixing Lei",
+                    "Zhou Shen",
+                    "Zhiqiang Yu",
+                    "Wanming Lin",
+                    "xiaowei jiang",
+                    "Fuqiao Xue",
+                    "Lei Zhao"
+                ],
+                "href": "https://www.w3.org/TR/2019/WD-mini-app-white-paper-20190912/",
+                "title": "MiniApp Standardization White Paper",
+                "rawDate": "2019-09-12",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2018/chinese-web-ig/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        },
+        "repository": "https://github.com/w3c/mini-app-white-paper"
+    },
     "mixed-content": {
         "href": "https://www.w3.org/TR/mixed-content/",
         "title": "Mixed Content",
@@ -83309,6 +83363,40 @@
         },
         "repository": "https://github.com/w3c/webdriver",
         "hasErrata": "https://github.com/w3c/webdriver/issues?q=is%3Aissue+label%3Aerrata"
+    },
+    "webdriver2": {
+        "authors": [
+            "Simon Stewart",
+            "David Burns"
+        ],
+        "href": "https://www.w3.org/TR/webdriver2/",
+        "title": "WebDriver",
+        "rawDate": "2019-09-12",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/webdriver/",
+        "deliveredBy": [
+            "https://www.w3.org/testing/browser/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20190912": {
+                "authors": [
+                    "Simon Stewart",
+                    "David Burns"
+                ],
+                "href": "https://www.w3.org/TR/2019/WD-webdriver2-20190912/",
+                "title": "WebDriver",
+                "rawDate": "2019-09-12",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/testing/browser/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        },
+        "repository": "https://github.com/w3c/webdriver"
     },
     "webintents-local-services": {
         "authors": [
