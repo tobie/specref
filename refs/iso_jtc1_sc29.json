@@ -2178,7 +2178,7 @@
         "rawDate": "2019-01",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
-    "iso14496-15-pdam1": {
+    "iso14496-15-2019-cdamd1": {
         "href": "https://www.iso.org/standard/79146.html",
         "title": "Information technology — Coding of audio-visual objects — Part 15: Carriage of network abstraction layer (NAL) unit structured video in the ISO base media file format — Amendment 1: Improved support for tiling and layering",
         "status": "Under development",
@@ -2187,6 +2187,9 @@
             "iso14496-15"
         ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+    },
+    "iso14496-15-pdam1": {
+        "aliasOf": "iso14496-15-2019-cdamd1"
     },
     "iso14496-15-wdamd1": {
         "aliasOf": "iso14496-15-pdam1"
@@ -8169,7 +8172,7 @@
         "rawDate": "2017-12",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
-    "iso23008-12-2017-pdam2": {
+    "iso23008-12-2017-cdamd2": {
         "href": "https://www.iso.org/standard/79153.html",
         "title": "Information technology — High efficiency coding and media delivery in heterogeneous environments — Part 12: Image File Format — Amendment 2: Support for predictive image coding, bursts, bracketing, and other improvements",
         "status": "Under development",
@@ -8178,6 +8181,9 @@
             "iso23008-12"
         ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+    },
+    "iso23008-12-2017-pdam2": {
+        "aliasOf": "iso23008-12-2017-cdamd2"
     },
     "iso23008-13": {
         "href": "https://www.iso.org/standard/70438.html",
