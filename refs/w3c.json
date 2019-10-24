@@ -13548,7 +13548,7 @@
         ],
         "href": "https://www.w3.org/TR/appmanifest/",
         "title": "Web App Manifest",
-        "rawDate": "2019-10-10",
+        "rawDate": "2019-10-24",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -15805,6 +15805,25 @@
                 "href": "https://www.w3.org/TR/2019/WD-appmanifest-20191010/",
                 "title": "Web App Manifest",
                 "rawDate": "2019-10-10",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2019/webapps/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20191024": {
+                "authors": [
+                    "Marcos Caceres",
+                    "Kenneth Christiansen",
+                    "Mounir Lamouri",
+                    "Anssi Kostiainen",
+                    "Matt Giuca",
+                    "Aaron Gustafson"
+                ],
+                "href": "https://www.w3.org/TR/2019/WD-appmanifest-20191024/",
+                "title": "Web App Manifest",
+                "rawDate": "2019-10-24",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -20431,8 +20450,8 @@
         ],
         "href": "https://www.w3.org/TR/css-contain-1/",
         "title": "CSS Containment Module Level 1",
-        "rawDate": "2019-04-30",
-        "status": "CR",
+        "rawDate": "2019-10-15",
+        "status": "PR",
         "publisher": "W3C",
         "edDraft": "https://drafts.csswg.org/css-contain/",
         "deliveredBy": [
@@ -20523,6 +20542,55 @@
                 "title": "CSS Containment Module Level 1",
                 "rawDate": "2019-04-30",
                 "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Style/CSS/members"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20191015": {
+                "authors": [
+                    "Tab Atkins Jr.",
+                    "Florian Rivoal"
+                ],
+                "href": "https://www.w3.org/TR/2019/PR-css-contain-1-20191015/",
+                "title": "CSS Containment Module Level 1",
+                "rawDate": "2019-10-15",
+                "status": "PR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Style/CSS/members"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        },
+        "repository": "https://github.com/w3c/csswg-drafts"
+    },
+    "css-contain-2": {
+        "authors": [
+            "Tab Atkins Jr.",
+            "Florian Rivoal"
+        ],
+        "href": "https://www.w3.org/TR/css-contain-2/",
+        "title": "CSS Containment Module Level 2",
+        "rawDate": "2019-10-15",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://drafts.csswg.org/css-contain-2/",
+        "deliveredBy": [
+            "https://www.w3.org/Style/CSS/members"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20191015": {
+                "authors": [
+                    "Tab Atkins Jr.",
+                    "Florian Rivoal"
+                ],
+                "href": "https://www.w3.org/TR/2019/WD-css-contain-2-20191015/",
+                "title": "CSS Containment Module Level 2",
+                "rawDate": "2019-10-15",
+                "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/Style/CSS/members"
@@ -21911,6 +21979,93 @@
         },
         "repository": "https://github.com/w3c/csswg-drafts"
     },
+    "css-images-3": {
+        "authors": [
+            "Tab Atkins Jr.",
+            "Elika Etemad",
+            "Lea Verou"
+        ],
+        "href": "https://www.w3.org/TR/css-images-3/",
+        "title": "CSS Images Module Level 3",
+        "rawDate": "2019-10-10",
+        "status": "CR",
+        "publisher": "W3C",
+        "edDraft": "https://drafts.csswg.org/css-images-3/",
+        "deliveredBy": [
+            "https://www.w3.org/Style/CSS/members"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20090723": {
+                "status": "WD",
+                "rawDate": "2009-07-23",
+                "href": "https://www.w3.org/TR/2009/WD-css3-images-20090723/",
+                "source": "./data/w3c-specs.txt"
+            },
+            "20110217": {
+                "status": "WD",
+                "rawDate": "2011-02-17",
+                "href": "https://www.w3.org/TR/2011/WD-css3-images-20110217/",
+                "source": "./data/w3c-specs.txt"
+            },
+            "20110712": {
+                "status": "WD",
+                "rawDate": "2011-07-12",
+                "href": "https://www.w3.org/TR/2011/WD-css3-images-20110712/",
+                "source": "./data/w3c-specs.txt"
+            },
+            "20110908": {
+                "status": "WD",
+                "rawDate": "2011-09-08",
+                "href": "https://www.w3.org/TR/2011/WD-css3-images-20110908/",
+                "source": "./data/w3c-specs.txt"
+            },
+            "20111206": {
+                "status": "WD",
+                "rawDate": "2011-12-06",
+                "href": "https://www.w3.org/TR/2011/WD-css3-images-20111206/",
+                "source": "./data/w3c-specs.txt"
+            },
+            "20120112": {
+                "status": "WD",
+                "rawDate": "2012-01-12",
+                "href": "https://www.w3.org/TR/2012/WD-css3-images-20120112/",
+                "source": "./data/w3c-specs.txt"
+            },
+            "20120417": {
+                "authors": [
+                    "Elika Etemad",
+                    "Tab Atkins Jr."
+                ],
+                "href": "https://www.w3.org/TR/2012/CR-css3-images-20120417/",
+                "title": "CSS Image Values and Replaced Content Module Level 3",
+                "rawDate": "2012-04-17",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Style/CSS/members"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20191010": {
+                "authors": [
+                    "Tab Atkins Jr.",
+                    "Elika Etemad",
+                    "Lea Verou"
+                ],
+                "href": "https://www.w3.org/TR/2019/CR-css-images-3-20191010/",
+                "title": "CSS Images Module Level 3",
+                "rawDate": "2019-10-10",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Style/CSS/members"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        },
+        "repository": "https://github.com/w3c/csswg-drafts"
+    },
     "css-images-4": {
         "authors": [
             "Tab Atkins Jr.",
@@ -22506,12 +22661,13 @@
     },
     "css-multicol-1": {
         "authors": [
+            "Håkon Wium Lie",
             "Florian Rivoal",
             "Rachel Andrew"
         ],
         "href": "https://www.w3.org/TR/css-multicol-1/",
         "title": "CSS Multi-column Layout Module Level 1",
-        "rawDate": "2018-05-28",
+        "rawDate": "2019-10-15",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://drafts.csswg.org/css-multicol/",
@@ -22594,6 +22750,22 @@
                 "href": "https://www.w3.org/TR/2018/WD-css-multicol-1-20180528/",
                 "title": "CSS Multi-column Layout Module Level 1",
                 "rawDate": "2018-05-28",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Style/CSS/members"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20191015": {
+                "authors": [
+                    "Håkon Wium Lie",
+                    "Florian Rivoal",
+                    "Rachel Andrew"
+                ],
+                "href": "https://www.w3.org/TR/2019/WD-css-multicol-1-20191015/",
+                "title": "CSS Multi-column Layout Module Level 1",
+                "rawDate": "2019-10-15",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -25689,8 +25861,8 @@
         ],
         "href": "https://www.w3.org/TR/css-writing-modes-3/",
         "title": "CSS Writing Modes Level 3",
-        "rawDate": "2019-09-03",
-        "status": "CR",
+        "rawDate": "2019-10-24",
+        "status": "PR",
         "publisher": "W3C",
         "deliveredBy": [
             "https://www.w3.org/Style/CSS/members"
@@ -25862,6 +26034,21 @@
                 "title": "CSS Writing Modes Level 3",
                 "rawDate": "2019-09-03",
                 "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Style/CSS/members"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20191024": {
+                "authors": [
+                    "Elika Etemad",
+                    "Koji Ishii"
+                ],
+                "href": "https://www.w3.org/TR/2019/PR-css-writing-modes-3-20191024/",
+                "title": "CSS Writing Modes Level 3",
+                "rawDate": "2019-10-24",
+                "status": "PR",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/Style/CSS/members"
@@ -26303,74 +26490,7 @@
         "aliasOf": "css-color-3"
     },
     "css3-images": {
-        "authors": [
-            "Elika Etemad",
-            "Tab Atkins Jr."
-        ],
-        "href": "https://www.w3.org/TR/css3-images/",
-        "title": "CSS Image Values and Replaced Content Module Level 3",
-        "status": "CR",
-        "publisher": "W3C",
-        "versions": {
-            "20090723": {
-                "status": "WD",
-                "rawDate": "2009-07-23",
-                "href": "https://www.w3.org/TR/2009/WD-css3-images-20090723/",
-                "source": "./data/w3c-specs.txt"
-            },
-            "20110217": {
-                "status": "WD",
-                "rawDate": "2011-02-17",
-                "href": "https://www.w3.org/TR/2011/WD-css3-images-20110217/",
-                "source": "./data/w3c-specs.txt"
-            },
-            "20110712": {
-                "status": "WD",
-                "rawDate": "2011-07-12",
-                "href": "https://www.w3.org/TR/2011/WD-css3-images-20110712/",
-                "source": "./data/w3c-specs.txt"
-            },
-            "20110908": {
-                "status": "WD",
-                "rawDate": "2011-09-08",
-                "href": "https://www.w3.org/TR/2011/WD-css3-images-20110908/",
-                "source": "./data/w3c-specs.txt"
-            },
-            "20111206": {
-                "status": "WD",
-                "rawDate": "2011-12-06",
-                "href": "https://www.w3.org/TR/2011/WD-css3-images-20111206/",
-                "source": "./data/w3c-specs.txt"
-            },
-            "20120112": {
-                "status": "WD",
-                "rawDate": "2012-01-12",
-                "href": "https://www.w3.org/TR/2012/WD-css3-images-20120112/",
-                "source": "./data/w3c-specs.txt"
-            },
-            "20120417": {
-                "authors": [
-                    "Elika Etemad",
-                    "Tab Atkins Jr."
-                ],
-                "href": "https://www.w3.org/TR/2012/CR-css3-images-20120417/",
-                "title": "CSS Image Values and Replaced Content Module Level 3",
-                "rawDate": "2012-04-17",
-                "status": "CR",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/Style/CSS/members"
-                ],
-                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
-            }
-        },
-        "deliveredBy": [
-            "https://www.w3.org/Style/CSS/members"
-        ],
-        "rawDate": "2012-04-17",
-        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
-        "edDraft": "https://drafts.csswg.org/css-images-3/",
-        "repository": "https://github.com/w3c/csswg-drafts"
+        "aliasOf": "css-images-3"
     },
     "css3-layout": {
         "aliasOf": "css-template-3"
@@ -33509,7 +33629,7 @@
         ],
         "href": "https://www.w3.org/TR/gamepad/",
         "title": "Gamepad",
-        "rawDate": "2019-10-03",
+        "rawDate": "2019-10-10",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -34093,6 +34213,24 @@
                 "href": "https://www.w3.org/TR/2019/WD-gamepad-20191003/",
                 "title": "Gamepad",
                 "rawDate": "2019-10-03",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2019/webapps/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20191010": {
+                "authors": [
+                    "James Hollyer",
+                    "Matthew Reynolds",
+                    "Brandon Jones",
+                    "Scott Graham",
+                    "Theodore Mielczarek"
+                ],
+                "href": "https://www.w3.org/TR/2019/WD-gamepad-20191010/",
+                "title": "Gamepad",
+                "rawDate": "2019-10-10",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -35639,14 +35777,12 @@
     },
     "hr-time-2": {
         "authors": [
-            "Ilya Grigorik",
-            "James Simonsen",
-            "Jatinder Mann"
+            "Ilya Grigorik"
         ],
         "href": "https://www.w3.org/TR/hr-time-2/",
         "title": "High Resolution Time Level 2",
-        "rawDate": "2019-06-26",
-        "status": "CR",
+        "rawDate": "2019-10-15",
+        "status": "PR",
         "publisher": "W3C",
         "deliveredBy": [
             "https://www.w3.org/webperf/"
@@ -35993,6 +36129,20 @@
                     "https://www.w3.org/webperf/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20191015": {
+                "authors": [
+                    "Ilya Grigorik"
+                ],
+                "href": "https://www.w3.org/TR/2019/PR-hr-time-2-20191015/",
+                "title": "High Resolution Time Level 2",
+                "rawDate": "2019-10-15",
+                "status": "PR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/webperf/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
         "edDraft": "https://w3c.github.io/hr-time/",
@@ -36063,7 +36213,7 @@
         ],
         "href": "https://www.w3.org/TR/html-aam-1.0/",
         "title": "HTML Accessibility API Mappings 1.0",
-        "rawDate": "2019-10-06",
+        "rawDate": "2019-10-18",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/html-aam/",
@@ -37272,6 +37422,25 @@
                     "https://www.w3.org/2019/webapps/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20191018": {
+                "authors": [
+                    "Steve Faulkner",
+                    "Alexander Surkov",
+                    "Scott O'Hara",
+                    "Bogdan Brinza",
+                    "Jason Kiss",
+                    "Cynthia Shelly"
+                ],
+                "href": "https://www.w3.org/TR/2019/WD-html-aam-1.0-20191018/",
+                "title": "HTML Accessibility API Mappings 1.0",
+                "rawDate": "2019-10-18",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2019/webapps/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
         "repository": "https://github.com/w3c/html-aam"
@@ -37492,7 +37661,7 @@
         ],
         "href": "https://www.w3.org/TR/html-aria/",
         "title": "ARIA in HTML",
-        "rawDate": "2019-10-08",
+        "rawDate": "2019-10-18",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -38189,6 +38358,21 @@
                 "href": "https://www.w3.org/TR/2019/WD-html-aria-20191008/",
                 "title": "ARIA in HTML",
                 "rawDate": "2019-10-08",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2019/webapps/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20191018": {
+                "authors": [
+                    "Steve Faulkner",
+                    "Scott O'Hara"
+                ],
+                "href": "https://www.w3.org/TR/2019/WD-html-aria-20191018/",
+                "title": "ARIA in HTML",
+                "rawDate": "2019-10-18",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -43634,11 +43818,12 @@
     "json-ld11": {
         "authors": [
             "Gregg Kellogg",
-            "Pierre-Antoine Champin"
+            "Pierre-Antoine Champin",
+            "Dave Longley"
         ],
         "href": "https://www.w3.org/TR/json-ld11/",
         "title": "JSON-LD 1.1",
-        "rawDate": "2019-09-09",
+        "rawDate": "2019-10-18",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/json-ld-syntax/",
@@ -43778,17 +43963,35 @@
                     "https://www.w3.org/2018/json-ld-wg/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20191018": {
+                "authors": [
+                    "Gregg Kellogg",
+                    "Pierre-Antoine Champin",
+                    "Dave Longley"
+                ],
+                "href": "https://www.w3.org/TR/2019/WD-json-ld11-20191018/",
+                "title": "JSON-LD 1.1",
+                "rawDate": "2019-10-18",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2018/json-ld-wg/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
         "repository": "https://github.com/w3c/json-ld-syntax"
     },
     "json-ld11-api": {
         "authors": [
-            "Gregg Kellogg"
+            "Gregg Kellogg",
+            "Dave Longley",
+            "Pierre-Antoine Champin"
         ],
         "href": "https://www.w3.org/TR/json-ld11-api/",
         "title": "JSON-LD 1.1 Processing Algorithms and API",
-        "rawDate": "2019-09-09",
+        "rawDate": "2019-10-18",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/json-ld-api/",
@@ -43908,17 +44111,35 @@
                     "https://www.w3.org/2018/json-ld-wg/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20191018": {
+                "authors": [
+                    "Gregg Kellogg",
+                    "Dave Longley",
+                    "Pierre-Antoine Champin"
+                ],
+                "href": "https://www.w3.org/TR/2019/WD-json-ld11-api-20191018/",
+                "title": "JSON-LD 1.1 Processing Algorithms and API",
+                "rawDate": "2019-10-18",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2018/json-ld-wg/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
         "repository": "https://github.com/w3c/json-ld-api"
     },
     "json-ld11-framing": {
         "authors": [
-            "Gregg Kellogg"
+            "Dave Longley",
+            "Gregg Kellogg",
+            "Pierre-Antoine Champin"
         ],
         "href": "https://www.w3.org/TR/json-ld11-framing/",
         "title": "JSON-LD 1.1 Framing",
-        "rawDate": "2019-09-09",
+        "rawDate": "2019-10-18",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/json-ld-framing/",
@@ -44018,6 +44239,22 @@
                 "href": "https://www.w3.org/TR/2019/WD-json-ld11-framing-20190909/",
                 "title": "JSON-LD 1.1 Framing",
                 "rawDate": "2019-09-09",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2018/json-ld-wg/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20191018": {
+                "authors": [
+                    "Dave Longley",
+                    "Gregg Kellogg",
+                    "Pierre-Antoine Champin"
+                ],
+                "href": "https://www.w3.org/TR/2019/WD-json-ld11-framing-20191018/",
+                "title": "JSON-LD 1.1 Framing",
+                "rawDate": "2019-10-18",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -53171,7 +53408,7 @@
         ],
         "href": "https://www.w3.org/TR/payment-handler/",
         "title": "Payment Handler API",
-        "rawDate": "2019-09-24",
+        "rawDate": "2019-10-21",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/payment-handler/",
@@ -53591,6 +53828,26 @@
                 "href": "https://www.w3.org/TR/2019/WD-payment-handler-20190924/",
                 "title": "Payment Handler API",
                 "rawDate": "2019-09-24",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Payments/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20191021": {
+                "authors": [
+                    "Adrian Hope-Bailie",
+                    "Jason Normore",
+                    "Ian Jacobs",
+                    "Rouslan Solomakhin",
+                    "Jinho Bang",
+                    "Tommy Thorsen",
+                    "Adam Roach"
+                ],
+                "href": "https://www.w3.org/TR/2019/WD-payment-handler-20191021/",
+                "title": "Payment Handler API",
+                "rawDate": "2019-10-21",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -67568,9 +67825,25 @@
                     "https://www.w3.org/2019/webapps/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20191024": {
+                "authors": [
+                    "Mounir Lamouri",
+                    "Marcos Caceres",
+                    "Johanna Herman"
+                ],
+                "href": "https://www.w3.org/TR/2019/WD-screen-orientation-20191024/",
+                "title": "The Screen Orientation API",
+                "rawDate": "2019-10-24",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2019/webapps/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2019-09-03",
+        "rawDate": "2019-10-24",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
         "edDraft": "https://w3c.github.io/screen-orientation/",
         "repository": "https://github.com/w3c/screen-orientation"
@@ -85293,6 +85566,40 @@
         },
         "repository": "https://github.com/w3c/webrtc-stats"
     },
+    "webrtc-svc": {
+        "authors": [
+            "Peter Thatcher",
+            "Bernard Aboba"
+        ],
+        "href": "https://www.w3.org/TR/webrtc-svc/",
+        "title": "Scalable Video Coding (SVC) Extension for WebRTC",
+        "rawDate": "2019-10-22",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/webrtc-svc/",
+        "deliveredBy": [
+            "https://www.w3.org/2011/04/webrtc/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20191022": {
+                "authors": [
+                    "Peter Thatcher",
+                    "Bernard Aboba"
+                ],
+                "href": "https://www.w3.org/TR/2019/WD-webrtc-svc-20191022/",
+                "title": "Scalable Video Coding (SVC) Extension for WebRTC",
+                "rawDate": "2019-10-22",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2011/04/webrtc/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        },
+        "repository": "https://github.com/w3c/webrtc-svc"
+    },
     "websockets": {
         "authors": [
             "Ian Hickson"
@@ -85725,7 +86032,7 @@
         ],
         "href": "https://www.w3.org/TR/webxr/",
         "title": "WebXR Device API",
-        "rawDate": "2019-05-21",
+        "rawDate": "2019-10-10",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://immersive-web.github.io/webxr/",
@@ -85763,9 +86070,94 @@
                     "https://www.w3.org/immersive-web/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20191010": {
+                "authors": [
+                    "Brandon Jones",
+                    "Nell Waliczek"
+                ],
+                "href": "https://www.w3.org/TR/2019/WD-webxr-20191010/",
+                "title": "WebXR Device API",
+                "rawDate": "2019-10-10",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/immersive-web/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
         "repository": "https://github.com/immersive-web/webxr"
+    },
+    "webxr-ar-module-1": {
+        "authors": [
+            "Brandon Jones",
+            "Nell Waliczek",
+            "Manish Goregaokar"
+        ],
+        "href": "https://www.w3.org/TR/webxr-ar-module-1/",
+        "title": "WebXR Augmented Reality Module - Level 1",
+        "rawDate": "2019-10-10",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://immersive-web.github.io/webxr-ar-module/",
+        "deliveredBy": [
+            "https://www.w3.org/immersive-web/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20191010": {
+                "authors": [
+                    "Brandon Jones",
+                    "Nell Waliczek",
+                    "Manish Goregaokar"
+                ],
+                "href": "https://www.w3.org/TR/2019/WD-webxr-ar-module-1-20191010/",
+                "title": "WebXR Augmented Reality Module - Level 1",
+                "rawDate": "2019-10-10",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/immersive-web/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        },
+        "repository": "https://github.com/immersive-web/webxr-ar-module"
+    },
+    "webxr-gamepads-module-1": {
+        "authors": [
+            "Brandon Jones",
+            "Nell Waliczek"
+        ],
+        "href": "https://www.w3.org/TR/webxr-gamepads-module-1/",
+        "title": "WebXR Gamepads Module - Level 1",
+        "rawDate": "2019-10-10",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://immersive-web.github.io/webxr-gamepads-module/",
+        "deliveredBy": [
+            "https://www.w3.org/immersive-web/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20191010": {
+                "authors": [
+                    "Brandon Jones",
+                    "Nell Waliczek"
+                ],
+                "href": "https://www.w3.org/TR/2019/WD-webxr-gamepads-module-1-20191010/",
+                "title": "WebXR Gamepads Module - Level 1",
+                "rawDate": "2019-10-10",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/immersive-web/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        },
+        "repository": "https://github.com/immersive-web/webxr-gamepads-module"
     },
     "widgets": {
         "authors": [
