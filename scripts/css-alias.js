@@ -4,6 +4,11 @@
  */
 const { promises: fs } = require("fs");
 const w3cSpecsPath = require("path").resolve(__dirname, "../refs/w3c.json");
+
+// Some are delta specs, or not stable enough to
+// be used as the canonical ones.
+const overrides = new Map([["css-grid", "css-grid-1"]]);
+
 (async () => {
   const data = await fs.readFile(w3cSpecsPath);
   const obj = JSON.parse(data);
@@ -12,7 +17,7 @@ const w3cSpecsPath = require("path").resolve(__dirname, "../refs/w3c.json");
   // we don't override existing ones
   const canonicalKeys = Object.keys(obj).reduce((map, key) => {
     return map.set(key.toLowerCase(), key);
-  }, new Map())
+  }, new Map());
 
   // Find all the CSS WG specs that are not already aliased in "obj"
   // by taking the "greater" level
@@ -24,9 +29,11 @@ const w3cSpecsPath = require("path").resolve(__dirname, "../refs/w3c.json");
       // if this key already exists, potentially update it
       // to latest spec
       if (canonicalKeys.has(key.toLowerCase())) {
-        key = canonicalKeys.get(key.toLowerCase())
+        key = canonicalKeys.get(key.toLowerCase());
       }
-      if (!map.has(key) || spec > map.get(key)) {
+      if (overrides.has(key)) {
+        map.set(key, overrides.get(key));
+      } else if (!map.has(key) || spec > map.get(key)) {
         map.set(key, spec);
       }
       return map;
