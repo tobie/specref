@@ -2,16 +2,14 @@
  * Script creates alias for CSS specs
  * see https://github.com/tobie/specref/issues/563
  */
-const { promises: fs } = require("fs");
-const w3cSpecsPath = require("path").resolve(__dirname, "../refs/w3c.json");
+const helper = require('./helper');
+const FILENAME = "w3c.json";
+const obj = helper.readBiblio(FILENAME);
 
 // Some are delta specs, or not stable enough to
 // be used as the canonical ones.
 const overrides = new Map([["css-grid", "css-grid-1"]]);
 
-(async () => {
-  const data = await fs.readFile(w3cSpecsPath);
-  const obj = JSON.parse(data);
 
   // Store the keys in canonical form as lowercase to make sure
   // we don't override existing ones
@@ -54,6 +52,4 @@ const overrides = new Map([["css-grid", "css-grid-1"]]);
     }, {});
 
   // Write the file back out
-  const json = JSON.stringify(sortedObj, null, 4) + "\n";
-  await fs.writeFile(w3cSpecsPath, json, "utf-8");
-})();
+helper.writeBiblio(FILENAME, sortedObj);
