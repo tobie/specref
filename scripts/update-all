@@ -52,7 +52,9 @@ function run()
     node "./scripts/run.js" "./github" "w3c.json" &&
     node "./scripts/run.js" "./github" "wicg.json" &&
     node "./scripts/run.js" "./github" "biblio.json" &&
-    node "./scripts/run.js" "./github" "whatwg.json";
+    node "./scripts/run.js" "./github" "whatwg.json" &&
+    node "./scripts/scripts/css-alias.js" &&
+    node "./scripts/list-refs.js"; # regenerate, as CSS aliases may have changed
 }
 
 function run_test_suite()

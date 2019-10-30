@@ -47,14 +47,6 @@
         "source": "https://wicg.github.io/admin/biblio.json",
         "repository": "https://github.com/wicg/cors-rfc1918"
     },
-    "CSS-ANIMATION-WORKLET": {
-        "href": "https://wicg.github.io/animation-worklet/",
-        "title": "CSS Animation Worklet API",
-        "status": "cg-draft",
-        "publisher": "WICG",
-        "source": "https://wicg.github.io/admin/biblio.json",
-        "repository": "https://github.com/wicg/animation-worklet"
-    },
     "CSS-OVERSCROLL-BEHAVIOR": {
         "href": "https://wicg.github.io/overscroll-behavior/",
         "title": "CSS Overscroll Behavior Module Level 1",
@@ -330,7 +322,7 @@
         "aliasOf": "CORS-RFC1918"
     },
     "WICG-CSS-ANIMATION-WORKLET": {
-        "aliasOf": "CSS-ANIMATION-WORKLET"
+        "aliasOf": "css-animation-worklet"
     },
     "WICG-CSS-OVERSCROLL-BEHAVIOR": {
         "aliasOf": "CSS-OVERSCROLL-BEHAVIOR"
