@@ -11914,8 +11914,8 @@
         ],
         "href": "https://www.w3.org/TR/act-rules-format-1.0/",
         "title": "Accessibility Conformance Testing (ACT) Rules Format 1.0",
-        "rawDate": "2019-07-30",
-        "status": "PR",
+        "rawDate": "2019-10-31",
+        "status": "REC",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/wcag-act/act-rules-format.html",
         "deliveredBy": [
@@ -12016,9 +12016,28 @@
                     "https://www.w3.org/WAI/GL/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20191031": {
+                "authors": [
+                    "Wilco Fiers",
+                    "Maureen Kraft",
+                    "Mary Jo Mueller",
+                    "Shadi Abou-Zahra"
+                ],
+                "href": "https://www.w3.org/TR/2019/REC-act-rules-format-1.0-20191031/",
+                "title": "Accessibility Conformance Testing (ACT) Rules Format 1.0",
+                "rawDate": "2019-10-31",
+                "status": "REC",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WAI/GL/"
+                ],
+                "hasErrata": "https://www.w3.org/WAI/GL/task-forces/conformance-testing/errata",
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "repository": "https://github.com/w3c/wcag-act"
+        "repository": "https://github.com/w3c/wcag-act",
+        "hasErrata": "https://www.w3.org/WAI/GL/task-forces/conformance-testing/errata"
     },
     "activitypub": {
         "authors": [
