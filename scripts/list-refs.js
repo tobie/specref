@@ -13,14 +13,29 @@ function add(k) {
     }
 }
 
-keys.forEach(function(key) {
-    add(key);
-    var value = json[key];
-    if (typeof value == "object" && json.versions) {
-        Object.keys(json.versions).forEach(function(k) {
-            add(key + "-" + k);
-        });
-    }
+const legacy = ["css-values"];
+// anything "css-" that ends with a to z, case insensitive
+const cssAlias = /^css-.+[\-?a-z]+$/i
+
+keys
+    .filter(key => {
+        // Include legacy things..
+        if (legacy.includes(key.toLocaleLowerCase())) return false;
+        // Don't include css aliases
+        if (cssAlias.test(key)) {
+            console.log("Ignoring", key);
+            return false;
+        }
+        return true;
+    })
+    .forEach(function(key) {
+        add(key);
+        var value = json[key];
+        if (typeof value == "object" && json.versions) {
+            Object.keys(json.versions).forEach(function(k) {
+                add(key + "-" + k);
+            });
+        }
 });
 
 output.sort(function(a, b) { return a.localeCompare(b); });
