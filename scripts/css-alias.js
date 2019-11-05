@@ -8,7 +8,11 @@ const obj = helper.readBiblio(FILENAME);
 
 // Some are delta specs, or not stable enough to
 // be used as the canonical ones.
-const overrides = new Map([["css-grid", "css-grid-1"]]);
+const overrides = new Map([
+  ["css-grid", "css-grid-1"],
+  // temporary, while we figure out how to deal with aliasOf upgrades
+  ["css-values", "css-values-3"],
+]);
 
 // Store the keys in canonical form as lowercase to make sure
 // we don't override existing ones
