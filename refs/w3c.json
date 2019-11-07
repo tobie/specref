@@ -28737,6 +28737,42 @@
         "isRetired": true,
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
+    "did-core": {
+        "authors": [
+            "Drummond Reed",
+            "Manu Sporny",
+            "Markus Sabadello"
+        ],
+        "href": "https://www.w3.org/TR/did-core/",
+        "title": "Decentralized Identifiers (DIDs) v1.0",
+        "rawDate": "2019-11-07",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/did-core/",
+        "deliveredBy": [
+            "https://www.w3.org/2019/did-wg/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20191107": {
+                "authors": [
+                    "Drummond Reed",
+                    "Manu Sporny",
+                    "Markus Sabadello"
+                ],
+                "href": "https://www.w3.org/TR/2019/WD-did-core-20191107/",
+                "title": "Decentralized Identifiers (DIDs) v1.0",
+                "rawDate": "2019-11-07",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2019/did-wg/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        },
+        "repository": "https://github.com/w3c/did-core"
+    },
     "discovery-api": {
         "authors": [
             "Rich Tibbett"
