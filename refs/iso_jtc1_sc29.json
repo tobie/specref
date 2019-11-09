@@ -6870,7 +6870,7 @@
         "rawDate": "2019-07",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
-    "iso23000-21-2019-wdamd1": {
+    "iso23000-21-2019-cdamd1": {
         "href": "https://www.iso.org/standard/79885.html",
         "title": "Information technology — Multimedia application format (MPEG-A) — Part 21: Visual identity management application format — Amendment 1: Reference software and conformance",
         "status": "Under development",
@@ -6879,6 +6879,9 @@
             "iso23000-21"
         ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+    },
+    "iso23000-21-2019-wdamd1": {
+        "aliasOf": "iso23000-21-2019-cdamd1"
     },
     "iso23000-22": {
         "href": "https://www.iso.org/standard/74417.html",
@@ -7980,10 +7983,12 @@
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23005-7": {
-        "href": "https://www.iso.org/standard/75529.html",
+        "href": "https://www.iso.org/standard/67764.html",
         "title": "Information technology — Media context and control — Part 7: Conformance and reference software",
-        "status": "Under development",
+        "status": "Published",
         "publisher": "ISO/IEC",
+        "isoNumber": "ISO 23005-7:2017",
+        "rawDate": "2017-01",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23006-1": {
@@ -8588,15 +8593,18 @@
         "isRetired": true,
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
-    "iso23009-1-damd1": {
-        "aliasOf": "iso23009-1-2019-damd1"
-    },
-    "iso23009-1-wdamd1": {
+    "iso23009-1-cdamd1": {
         "href": "https://www.iso.org/standard/79884.html",
         "title": "Information technology — Dynamic adaptive streaming over HTTP (DASH) — Part 1: Media presentation description and segment formats — Amendment 1: CMAF support, events processing model and other extensions",
         "status": "Under development",
         "publisher": "ISO/IEC",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+    },
+    "iso23009-1-damd1": {
+        "aliasOf": "iso23009-1-2019-damd1"
+    },
+    "iso23009-1-wdamd1": {
+        "aliasOf": "iso23009-1-cdamd1"
     },
     "iso23009-2": {
         "href": "https://www.iso.org/standard/79107.html",
