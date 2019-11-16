@@ -8210,6 +8210,9 @@
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23008-12-2017-cdamd2": {
+        "aliasOf": "iso23008-12-2017-damd2"
+    },
+    "iso23008-12-2017-damd2": {
         "href": "https://www.iso.org/standard/79153.html",
         "title": "Information technology — High efficiency coding and media delivery in heterogeneous environments — Part 12: Image File Format — Amendment 2: Support for predictive image coding, bursts, bracketing, and other improvements",
         "status": "Under development",
@@ -8512,10 +8515,12 @@
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23009-1": {
-        "href": "https://www.iso.org/standard/79329.html",
+        "href": "https://www.iso.org/standard/75485.html",
         "title": "Information technology — Dynamic adaptive streaming over HTTP (DASH) — Part 1: Media presentation description and segment formats",
-        "status": "Under development",
+        "status": "Published",
         "publisher": "ISO/IEC",
+        "isoNumber": "ISO 23009-1:2019",
+        "rawDate": "2019-08",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23009-1-2012-cor1-2013": {
@@ -8525,6 +8530,9 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "2013-06",
+        "obsoletedBy": [
+            "iso23009-1"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23009-1-2014-amd1-2015": {
@@ -8534,6 +8542,9 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "2015-06",
+        "obsoletedBy": [
+            "iso23009-1"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23009-1-2014-amd2-2015": {
@@ -8543,6 +8554,9 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "2015-07",
+        "obsoletedBy": [
+            "iso23009-1"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23009-1-2014-amd3-2016": {
@@ -8552,6 +8566,9 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "2016-10",
+        "obsoletedBy": [
+            "iso23009-1"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23009-1-2014-cor1-2015": {
@@ -8561,6 +8578,9 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "2015-04",
+        "obsoletedBy": [
+            "iso23009-1"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23009-1-2014-cor2-2015": {
@@ -8570,6 +8590,9 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "2015-12",
+        "obsoletedBy": [
+            "iso23009-1"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23009-1-2014-damd4": {
@@ -8578,6 +8601,9 @@
         "status": "Deleted",
         "publisher": "ISO/IEC",
         "isRetired": true,
+        "obsoletedBy": [
+            "iso23009-1"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23009-1-2014-damd5": {
@@ -8586,6 +8612,9 @@
         "status": "Deleted",
         "publisher": "ISO/IEC",
         "isRetired": true,
+        "obsoletedBy": [
+            "iso23009-1"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23009-1-2019-damd1": {
@@ -8594,6 +8623,9 @@
         "status": "Deleted",
         "publisher": "ISO/IEC",
         "isRetired": true,
+        "obsoletedBy": [
+            "iso23009-1"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23009-1-cdamd1": {
@@ -8601,6 +8633,9 @@
         "title": "Information technology — Dynamic adaptive streaming over HTTP (DASH) — Part 1: Media presentation description and segment formats — Amendment 1: CMAF support, events processing model and other extensions",
         "status": "Under development",
         "publisher": "ISO/IEC",
+        "obsoletedBy": [
+            "iso23009-1"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23009-1-damd1": {
@@ -8721,7 +8756,7 @@
     },
     "iso23090-3": {
         "href": "https://www.iso.org/standard/73022.html",
-        "title": "Coded representation of immersive media — Part 3: Versatile video coding",
+        "title": "Information technology - Coded representation of immersive media — Part 3: Versatile video coding",
         "status": "Under development",
         "publisher": "ISO/IEC",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
@@ -8820,7 +8855,7 @@
     },
     "iso23092-3": {
         "href": "https://www.iso.org/standard/75625.html",
-        "title": "Information technology — Genomic information representation — Part 3: Genomic information metadata and application programming interfaces (APIs)",
+        "title": "Information technology — Genomic information representation — Part 3: Metadata and application programming interfaces (APIs)",
         "status": "Under development",
         "publisher": "ISO/IEC",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
