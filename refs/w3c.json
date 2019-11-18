@@ -16083,11 +16083,12 @@
     },
     "audiobooks": {
         "authors": [
-            "Wendy Reid"
+            "Wendy Reid",
+            "Matt Garrish"
         ],
         "href": "https://www.w3.org/TR/audiobooks/",
-        "title": "Audiobook Profile for Publication Manifest",
-        "rawDate": "2019-09-11",
+        "title": "Audiobooks",
+        "rawDate": "2019-11-18",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/audiobooks/",
@@ -16131,6 +16132,21 @@
                 "href": "https://www.w3.org/TR/2019/WD-audiobooks-20190911/",
                 "title": "Audiobook Profile for Publication Manifest",
                 "rawDate": "2019-09-11",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/publishing/groups/publ-wg/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20191118": {
+                "authors": [
+                    "Wendy Reid",
+                    "Matt Garrish"
+                ],
+                "href": "https://www.w3.org/TR/2019/WD-audiobooks-20191118/",
+                "title": "Audiobooks",
+                "rawDate": "2019-11-18",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
