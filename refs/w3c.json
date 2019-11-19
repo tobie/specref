@@ -67398,16 +67398,18 @@
     "screen-capture": {
         "authors": [
             "Martin Thomson",
-            "Keith Griffin"
+            "Keith Griffin",
+            "Suhas Nandakumar",
+            "Henrik Boström",
+            "Jan-Ivar Bruaroey"
         ],
         "href": "https://www.w3.org/TR/screen-capture/",
         "title": "Screen Capture",
-        "rawDate": "2016-07-14",
+        "rawDate": "2019-11-19",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/mediacapture-screen-share/",
         "deliveredBy": [
-            "https://www.w3.org/das/",
             "https://www.w3.org/2011/04/webrtc/"
         ],
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
@@ -67455,6 +67457,24 @@
                     "Martin Thomson",
                     "Keith Griffin"
                 ]
+            },
+            "20191119": {
+                "authors": [
+                    "Martin Thomson",
+                    "Keith Griffin",
+                    "Suhas Nandakumar",
+                    "Henrik Boström",
+                    "Jan-Ivar Bruaroey"
+                ],
+                "href": "https://www.w3.org/TR/2019/WD-screen-capture-20191119/",
+                "title": "Screen Capture",
+                "rawDate": "2019-11-19",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2011/04/webrtc/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
         "repository": "https://github.com/w3c/mediacapture-screen-share"
@@ -70245,8 +70265,8 @@
         ],
         "href": "https://www.w3.org/TR/service-workers-1/",
         "title": "Service Workers 1",
-        "rawDate": "2019-08-13",
-        "status": "WD",
+        "rawDate": "2019-11-19",
+        "status": "CR",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/ServiceWorker/",
         "deliveredBy": [
@@ -70361,6 +70381,23 @@
                 "title": "Service Workers 1",
                 "rawDate": "2019-08-13",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/sw/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20191119": {
+                "authors": [
+                    "Alex Russell",
+                    "Jungkee Song",
+                    "Jake Archibald",
+                    "Marijn Kruisselbrink"
+                ],
+                "href": "https://www.w3.org/TR/2019/CR-service-workers-1-20191119/",
+                "title": "Service Workers 1",
+                "rawDate": "2019-11-19",
+                "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/sw/"
@@ -78718,8 +78755,8 @@
         ],
         "href": "https://www.w3.org/TR/vc-data-model/",
         "title": "Verifiable Credentials Data Model 1.0",
-        "rawDate": "2019-09-05",
-        "status": "PR",
+        "rawDate": "2019-11-19",
+        "status": "REC",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/vc-data-model/",
         "deliveredBy": [
@@ -78808,6 +78845,24 @@
                 "title": "Verifiable Credentials Data Model 1.0",
                 "rawDate": "2019-09-05",
                 "status": "PR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2017/vc/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20191119": {
+                "authors": [
+                    "Manu Sporny",
+                    "Grant Noble",
+                    "Dave Longley",
+                    "Daniel Burnett",
+                    "Brent Zundel"
+                ],
+                "href": "https://www.w3.org/TR/2019/REC-vc-data-model-20191119/",
+                "title": "Verifiable Credentials Data Model 1.0",
+                "rawDate": "2019-11-19",
+                "status": "REC",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/2017/vc/"
@@ -79752,8 +79807,8 @@
         ],
         "href": "https://www.w3.org/TR/vocab-dcat-2/",
         "title": "Data Catalog Vocabulary (DCAT) - Version 2",
-        "rawDate": "2019-10-03",
-        "status": "CR",
+        "rawDate": "2019-11-19",
+        "status": "PR",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/dxwg/dcat/",
         "deliveredBy": [
@@ -79827,6 +79882,25 @@
                 "title": "Data Catalog Vocabulary (DCAT) - Version 2",
                 "rawDate": "2019-10-03",
                 "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2017/dxwg/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20191119": {
+                "authors": [
+                    "Riccardo Albertoni",
+                    "David Browning",
+                    "Simon Cox",
+                    "Alejandra Gonzalez Beltran",
+                    "Andrea Perego",
+                    "Peter Winstanley"
+                ],
+                "href": "https://www.w3.org/TR/2019/PR-vocab-dcat-2-20191119/",
+                "title": "Data Catalog Vocabulary (DCAT) - Version 2",
+                "rawDate": "2019-11-19",
+                "status": "PR",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/2017/dxwg/"
