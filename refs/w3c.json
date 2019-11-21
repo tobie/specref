@@ -20557,8 +20557,8 @@
         ],
         "href": "https://www.w3.org/TR/css-contain-1/",
         "title": "CSS Containment Module Level 1",
-        "rawDate": "2019-10-15",
-        "status": "PR",
+        "rawDate": "2019-11-21",
+        "status": "REC",
         "publisher": "W3C",
         "edDraft": "https://drafts.csswg.org/css-contain/",
         "deliveredBy": [
@@ -20669,9 +20669,26 @@
                     "https://www.w3.org/Style/CSS/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20191121": {
+                "authors": [
+                    "Tab Atkins Jr.",
+                    "Florian Rivoal"
+                ],
+                "href": "https://www.w3.org/TR/2019/REC-css-contain-1-20191121/",
+                "title": "CSS Containment Module Level 1",
+                "rawDate": "2019-11-21",
+                "status": "REC",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Style/CSS/"
+                ],
+                "hasErrata": "https://www.w3.org/Style/2019/REC-css-contain-1-20191121-errata.html",
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "repository": "https://github.com/w3c/csswg-drafts"
+        "repository": "https://github.com/w3c/csswg-drafts",
+        "hasErrata": "https://www.w3.org/Style/2019/REC-css-contain-1-20191121-errata.html"
     },
     "css-contain-2": {
         "authors": [
@@ -29001,7 +29018,7 @@
         "isRetired": true
     },
     "distributed-tracing": {
-        "aliasOf": "trace-context"
+        "aliasOf": "trace-context-1"
     },
     "dom-20101007": {
         "authors": [
@@ -35992,11 +36009,11 @@
     },
     "hr-time": {
         "authors": [
-            "Jatinder Mann"
+            "Michael McKeough"
         ],
         "href": "https://www.w3.org/TR/hr-time/",
         "title": "High Resolution Time",
-        "rawDate": "2012-12-17",
+        "rawDate": "2019-11-21",
         "status": "REC",
         "publisher": "W3C",
         "deliveredBy": [
@@ -36037,8 +36054,24 @@
                 ],
                 "hasErrata": "https://www.w3.org/2012/12/hr-time-errata.html",
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20191121": {
+                "authors": [
+                    "Michael McKeough"
+                ],
+                "href": "https://www.w3.org/TR/2019/SPSD-hr-time-1-20191121/",
+                "title": "High Resolution Time",
+                "rawDate": "2019-11-21",
+                "status": "REC",
+                "publisher": "W3C",
+                "isRetired": true,
+                "deliveredBy": [
+                    "https://www.w3.org/webperf/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "isRetired": true
     },
     "hr-time-2": {
         "authors": [
@@ -36046,8 +36079,8 @@
         ],
         "href": "https://www.w3.org/TR/hr-time-2/",
         "title": "High Resolution Time Level 2",
-        "rawDate": "2019-10-15",
-        "status": "PR",
+        "rawDate": "2019-11-21",
+        "status": "REC",
         "publisher": "W3C",
         "deliveredBy": [
             "https://www.w3.org/webperf/"
@@ -36408,10 +36441,26 @@
                     "https://www.w3.org/webperf/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20191121": {
+                "authors": [
+                    "Ilya Grigorik"
+                ],
+                "href": "https://www.w3.org/TR/2019/REC-hr-time-2-20191121/",
+                "title": "High Resolution Time Level 2",
+                "rawDate": "2019-11-21",
+                "status": "REC",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/webperf/"
+                ],
+                "hasErrata": "https://w3c.github.io/hr-time/errata.html",
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
         "edDraft": "https://w3c.github.io/hr-time/",
-        "repository": "https://github.com/w3c/hr-time"
+        "repository": "https://github.com/w3c/hr-time",
+        "hasErrata": "https://w3c.github.io/hr-time/errata.html"
     },
     "hr-time-3": {
         "authors": [
@@ -75454,6 +75503,9 @@
         "isRetired": true
     },
     "trace-context": {
+        "aliasOf": "trace-context-1"
+    },
+    "trace-context-1": {
         "authors": [
             "Sergey Kanzhelev",
             "Morgan McLean",
@@ -75462,10 +75514,10 @@
             "Nik Molnar",
             "Yuri Shkuro"
         ],
-        "href": "https://www.w3.org/TR/trace-context/",
+        "href": "https://www.w3.org/TR/trace-context-1/",
         "title": "Trace Context",
-        "rawDate": "2019-08-13",
-        "status": "CR",
+        "rawDate": "2019-11-21",
+        "status": "PR",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/trace-context/",
         "deliveredBy": [
@@ -75537,6 +75589,25 @@
                 "title": "Trace Context",
                 "rawDate": "2019-08-13",
                 "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2018/distributed-tracing/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20191121": {
+                "authors": [
+                    "Sergey Kanzhelev",
+                    "Morgan McLean",
+                    "Alois Reitbauer",
+                    "Bogdan Drutu",
+                    "Nik Molnar",
+                    "Yuri Shkuro"
+                ],
+                "href": "https://www.w3.org/TR/2019/PR-trace-context-1-20191121/",
+                "title": "Trace Context",
+                "rawDate": "2019-11-21",
+                "status": "PR",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/2018/distributed-tracing/"
