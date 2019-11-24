@@ -5104,11 +5104,7 @@
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso15444-4-2004-cdamd1": {
-        "href": "https://www.iso.org/standard/77834.html",
-        "title": "Information technology — JPEG 2000 image coding system: Conformance testing — Part 4:  — Amendment 1: Conformance testing for High-Throughput JPEG 2000 (HTJ2K)",
-        "status": "Under development",
-        "publisher": "ISO/IEC",
-        "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+        "aliasOf": "iso15444-4-2004-damd1"
     },
     "iso15444-4-2004-cor1-2009": {
         "href": "https://www.iso.org/standard/52175.html",
@@ -5116,6 +5112,13 @@
         "status": "Published",
         "publisher": "ISO/IEC",
         "rawDate": "2009-10",
+        "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+    },
+    "iso15444-4-2004-damd1": {
+        "href": "https://www.iso.org/standard/77834.html",
+        "title": "Information technology — JPEG 2000 image coding system: Conformance testing — Part 4: — Amendment 1: High-throughput JPEG 2000 conformance testing",
+        "status": "Under development",
+        "publisher": "ISO/IEC",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso15444-4-2004-npamd1": {
