@@ -28980,6 +28980,40 @@
         },
         "repository": "https://github.com/w3c/did-core"
     },
+    "did-use-cases": {
+        "authors": [
+            "Joe Andrieu",
+            "Phil Archer"
+        ],
+        "href": "https://www.w3.org/TR/did-use-cases/",
+        "title": "Use Cases and Requirements for Decentralized Identifiers",
+        "rawDate": "2019-11-28",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/did-use-cases/",
+        "deliveredBy": [
+            "https://www.w3.org/2019/did-wg/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20191128": {
+                "authors": [
+                    "Joe Andrieu",
+                    "Phil Archer"
+                ],
+                "href": "https://www.w3.org/TR/2019/WD-did-use-cases-20191128/",
+                "title": "Use Cases and Requirements for Decentralized Identifiers",
+                "rawDate": "2019-11-28",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2019/did-wg/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        },
+        "repository": "https://github.com/w3c/did-use-cases"
+    },
     "discovery-api": {
         "authors": [
             "Rich Tibbett"
@@ -76606,6 +76640,38 @@
         },
         "repository": "https://github.com/w3c/imsc",
         "hasErrata": "https://www.w3.org/2018/11/ttml-imsc1.1-errata.html"
+    },
+    "ttml-imsc1.2": {
+        "authors": [
+            "Pierre-Anthony Lemieux"
+        ],
+        "href": "https://www.w3.org/TR/ttml-imsc1.2/",
+        "title": "TTML Profiles for Internet Media Subtitles and Captions 1.2",
+        "rawDate": "2019-11-28",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/imsc/imsc1/spec/ttml-ww-profiles.html",
+        "deliveredBy": [
+            "https://www.w3.org/AudioVideo/TT/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20191128": {
+                "authors": [
+                    "Pierre-Anthony Lemieux"
+                ],
+                "href": "https://www.w3.org/TR/2019/WD-ttml-imsc1.2-20191128/",
+                "title": "TTML Profiles for Internet Media Subtitles and Captions 1.2",
+                "rawDate": "2019-11-28",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/AudioVideo/TT/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        },
+        "repository": "https://github.com/w3c/imsc"
     },
     "ttml-profile-registry": {
         "authors": [
