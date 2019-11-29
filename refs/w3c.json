@@ -36184,7 +36184,10 @@
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "isRetired": true
+        "isRetired": true,
+        "obsoletedBy": [
+            "hr-time-2"
+        ]
     },
     "hr-time-2": {
         "authors": [
@@ -36573,7 +36576,10 @@
         },
         "edDraft": "https://w3c.github.io/hr-time/",
         "repository": "https://github.com/w3c/hr-time",
-        "hasErrata": "https://w3c.github.io/hr-time/errata.html"
+        "hasErrata": "https://w3c.github.io/hr-time/errata.html",
+        "obsoletes": [
+            "hr-time"
+        ]
     },
     "hr-time-3": {
         "authors": [
