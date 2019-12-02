@@ -2025,10 +2025,12 @@
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso14496-14": {
-        "href": "https://www.iso.org/standard/79110.html",
+        "href": "https://www.iso.org/standard/75929.html",
         "title": "Information technology — Coding of audio-visual objects — Part 14: MP4 file format",
-        "status": "Under development",
+        "status": "Published",
         "publisher": "ISO/IEC",
+        "isoNumber": "ISO 14496-14:2018",
+        "rawDate": "2018-11",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso14496-14-2003-amd1-2010": {
@@ -2038,6 +2040,9 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "2010-06",
+        "obsoletedBy": [
+            "iso14496-14"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso14496-14-2003-cor1-2006": {
@@ -2047,6 +2052,9 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "2006-04",
+        "obsoletedBy": [
+            "iso14496-14"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso14496-15": {
