@@ -20,6 +20,10 @@
     "encoding": {
         "delete": true
     },
+    "hr-time": {
+        "renameTo": "hr-time-1",
+        "aliasOf": { "replaceWith": "hr-time-2" }
+    },
     "service-workers-1": {
         "edDraft": { "replaceWith": "https://w3c.github.io/ServiceWorker/" }
     },

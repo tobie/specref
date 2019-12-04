@@ -99,6 +99,16 @@ function tryOverwrite(f) {
             if (ow.delete) {
                 delete references[k];
                 console.log("Deleted", k);
+            } else if (ow.renameTo) {
+                references[ow.renameTo] = ref;
+                delete references[k];
+                console.log("Renamed", k, "to", ow.renameTo);
+
+                if (ow.aliasOf && ow.aliasOf.replaceWith) {
+                    console.log("Overwriting", k, "...");
+                    console.log("   ", "aliasOf:", undefined, "->", JSON.stringify(ow.aliasOf.replaceWith));
+                    references[k] = { aliasOf: ow.aliasOf.replaceWith };
+                }
             } else {
                 console.log("Overwriting", k, "...");
                 Object.keys(ow).forEach(function(prop) {
