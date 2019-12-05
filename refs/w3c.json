@@ -10534,10 +10534,27 @@
                 "publisher": "W3C",
                 "hasErrata": "https://www.w3.org/Graphics/WebCGM-20011217-errata",
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20191205": {
+                "authors": [
+                    "David Cruikshank",
+                    "Lofton Henderson"
+                ],
+                "href": "https://www.w3.org/TR/2019/SPSD-WebCGM-20191205",
+                "title": "WebCGM 1.0 Second Release",
+                "rawDate": "2019-12-05",
+                "status": "REC",
+                "publisher": "W3C",
+                "isRetired": true,
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2001-12-17",
-        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+        "rawDate": "2019-12-05",
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "isRetired": true,
+        "obsoletedBy": [
+            "webcgm21"
+        ]
     },
     "WebCryptoAPI": {
         "authors": [
@@ -16107,8 +16124,8 @@
         ],
         "href": "https://www.w3.org/TR/audiobooks/",
         "title": "Audiobooks",
-        "rawDate": "2019-11-18",
-        "status": "WD",
+        "rawDate": "2019-12-05",
+        "status": "CR",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/audiobooks/",
         "deliveredBy": [
@@ -16167,6 +16184,21 @@
                 "title": "Audiobooks",
                 "rawDate": "2019-11-18",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/publishing/groups/publ-wg/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20191205": {
+                "authors": [
+                    "Wendy Reid",
+                    "Matt Garrish"
+                ],
+                "href": "https://www.w3.org/TR/2019/CR-audiobooks-20191205/",
+                "title": "Audiobooks",
+                "rawDate": "2019-12-05",
+                "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/publishing/groups/publ-wg/"
@@ -45827,6 +45859,38 @@
         },
         "repository": "https://github.com/w3c/low-vision-a11y-tf"
     },
+    "lpf": {
+        "authors": [
+            "Laurent Le Meur"
+        ],
+        "href": "https://www.w3.org/TR/lpf/",
+        "title": "Lightweight Packaging Format (LPF)",
+        "rawDate": "2019-12-05",
+        "status": "NOTE",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/lpf/",
+        "deliveredBy": [
+            "https://www.w3.org/publishing/groups/publ-wg/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20191205": {
+                "authors": [
+                    "Laurent Le Meur"
+                ],
+                "href": "https://www.w3.org/TR/2019/NOTE-lpf-20191205/",
+                "title": "Lightweight Packaging Format (LPF)",
+                "rawDate": "2019-12-05",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/publishing/groups/publ-wg/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        },
+        "repository": "https://github.com/w3c/lpf"
+    },
     "ltli": {
         "authors": [
             "Felix Sasaki",
@@ -60503,8 +60567,8 @@
         ],
         "href": "https://www.w3.org/TR/pub-manifest/",
         "title": "Publication Manifest",
-        "rawDate": "2019-11-18",
-        "status": "WD",
+        "rawDate": "2019-12-05",
+        "status": "CR",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/pub-manifest/",
         "deliveredBy": [
@@ -60551,6 +60615,21 @@
                 "title": "Publication Manifest",
                 "rawDate": "2019-11-18",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/publishing/groups/publ-wg/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20191205": {
+                "authors": [
+                    "Matt Garrish",
+                    "Ivan Herman"
+                ],
+                "href": "https://www.w3.org/TR/2019/CR-pub-manifest-20191205/",
+                "title": "Publication Manifest",
+                "rawDate": "2019-12-05",
+                "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/publishing/groups/publ-wg/"
@@ -84185,10 +84264,31 @@
                 ],
                 "hasErrata": "https://www.w3.org/2006/WebCGM20-errata.html",
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20191205": {
+                "authors": [
+                    "Benoit Bezaire",
+                    "David Cruikshank",
+                    "Lofton Henderson"
+                ],
+                "href": "https://www.w3.org/TR/2019/SPSD-webcgm20-20191205/",
+                "title": "WebCGM 2.0",
+                "rawDate": "2019-12-05",
+                "status": "REC",
+                "publisher": "W3C",
+                "isRetired": true,
+                "deliveredBy": [
+                    "https://www.w3.org/Graphics/WebCGM/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2007-01-30",
-        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+        "rawDate": "2019-12-05",
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "isRetired": true,
+        "obsoletedBy": [
+            "webcgm21"
+        ]
     },
     "webcgm21": {
         "authors": [
@@ -84252,7 +84352,11 @@
             }
         },
         "rawDate": "2010-03-01",
-        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "obsoletes": [
+            "WebCGM",
+            "webcgm20"
+        ]
     },
     "webcrypto-key-discovery": {
         "authors": [
