@@ -105,7 +105,7 @@ function tryOverwrite(f) {
                 console.log("Renamed", k, "to", ow.renameTo);
 
                 if (ow.aliasOf && ow.aliasOf.replaceWith) {
-                    console.log("Overwriting", k, "...");
+                    console.log("Adding", k, "...");
                     console.log("   ", "aliasOf:", undefined, "->", JSON.stringify(ow.aliasOf.replaceWith));
                     references[k] = { aliasOf: ow.aliasOf.replaceWith };
                 }

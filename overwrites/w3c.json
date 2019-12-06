@@ -24,6 +24,9 @@
         "renameTo": "hr-time-1",
         "aliasOf": { "replaceWith": "hr-time-2" }
     },
+    "hr-time-1": {
+        "href": { "replaceWith": "https://www.w3.org/TR/hr-time-1/" }
+    },
     "service-workers-1": {
         "edDraft": { "replaceWith": "https://w3c.github.io/ServiceWorker/" }
     },
