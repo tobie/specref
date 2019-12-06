@@ -100,9 +100,15 @@ function tryOverwrite(f) {
                 delete references[k];
                 console.log("Deleted", k);
             } else if (ow.renameTo) {
-                references[ow.renameTo] = ref;
+                var renameTo = ow.renameTo;
+                references[renameTo] = ref;
                 delete references[k];
-                console.log("Renamed", k, "to", ow.renameTo);
+                if (typeof ref.versions === "object") {
+                    Object.keys(ref.versions).forEach(function (version) {
+                        references[k + "-" + version] = { aliasOf: renameTo + "-" + version };
+                    });
+                }
+                console.log("Renamed", k, "to", renameTo);
 
                 if (ow.aliasOf && ow.aliasOf.replaceWith) {
                     console.log("Adding", k, "...");
