@@ -36203,10 +36203,13 @@
         }
     },
     "hr-time": {
+        "aliasOf": "hr-time-2"
+    },
+    "hr-time-1": {
         "authors": [
             "Michael McKeough"
         ],
-        "href": "https://www.w3.org/TR/hr-time/",
+        "href": "https://www.w3.org/TR/hr-time-1/",
         "title": "High Resolution Time",
         "rawDate": "2019-11-21",
         "status": "REC",
@@ -36662,6 +36665,21 @@
         "obsoletes": [
             "hr-time"
         ]
+    },
+    "hr-time-20120313": {
+        "aliasOf": "hr-time-1-20120313"
+    },
+    "hr-time-20120522": {
+        "aliasOf": "hr-time-1-20120522"
+    },
+    "hr-time-20121023": {
+        "aliasOf": "hr-time-1-20121023"
+    },
+    "hr-time-20121217": {
+        "aliasOf": "hr-time-1-20121217"
+    },
+    "hr-time-20191121": {
+        "aliasOf": "hr-time-1-20191121"
     },
     "hr-time-3": {
         "authors": [

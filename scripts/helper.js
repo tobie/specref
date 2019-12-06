@@ -99,6 +99,22 @@ function tryOverwrite(f) {
             if (ow.delete) {
                 delete references[k];
                 console.log("Deleted", k);
+            } else if (ow.renameTo) {
+                var renameTo = ow.renameTo;
+                references[renameTo] = ref;
+                delete references[k];
+                if (typeof ref.versions === "object") {
+                    Object.keys(ref.versions).forEach(function (version) {
+                        references[k + "-" + version] = { aliasOf: renameTo + "-" + version };
+                    });
+                }
+                console.log("Renamed", k, "to", renameTo);
+
+                if (ow.aliasOf && ow.aliasOf.replaceWith) {
+                    console.log("Adding", k, "...");
+                    console.log("   ", "aliasOf:", undefined, "->", JSON.stringify(ow.aliasOf.replaceWith));
+                    references[k] = { aliasOf: ow.aliasOf.replaceWith };
+                }
             } else {
                 console.log("Overwriting", k, "...");
                 Object.keys(ow).forEach(function(prop) {
