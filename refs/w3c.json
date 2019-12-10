@@ -26170,8 +26170,8 @@
         ],
         "href": "https://www.w3.org/TR/css-writing-modes-3/",
         "title": "CSS Writing Modes Level 3",
-        "rawDate": "2019-10-24",
-        "status": "PR",
+        "rawDate": "2019-12-10",
+        "status": "REC",
         "publisher": "W3C",
         "deliveredBy": [
             "https://www.w3.org/Style/CSS/"
@@ -26363,10 +26363,27 @@
                     "https://www.w3.org/Style/CSS/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20191210": {
+                "authors": [
+                    "Elika Etemad",
+                    "Koji Ishii"
+                ],
+                "href": "https://www.w3.org/TR/2019/REC-css-writing-modes-3-20191210/",
+                "title": "CSS Writing Modes Level 3",
+                "rawDate": "2019-12-10",
+                "status": "REC",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Style/CSS/"
+                ],
+                "hasErrata": "https://www.w3.org/Style/2019/REC-css-writing-modes-3-20191210-errata.html",
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
         "edDraft": "https://drafts.csswg.org/css-writing-modes-3/",
-        "repository": "https://github.com/w3c/csswg-drafts"
+        "repository": "https://github.com/w3c/csswg-drafts",
+        "hasErrata": "https://www.w3.org/Style/2019/REC-css-writing-modes-3-20191210-errata.html"
     },
     "css-writing-modes-4": {
         "authors": [
