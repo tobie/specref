@@ -11469,8 +11469,8 @@
         ],
         "href": "https://www.w3.org/TR/accelerometer/",
         "title": "Accelerometer",
-        "rawDate": "2019-03-07",
-        "status": "WD",
+        "rawDate": "2019-12-12",
+        "status": "CR",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/accelerometer/",
         "deliveredBy": [
@@ -11576,6 +11576,20 @@
                 "title": "Accelerometer",
                 "rawDate": "2019-03-07",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/das/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20191212": {
+                "authors": [
+                    "Anssi Kostiainen"
+                ],
+                "href": "https://www.w3.org/TR/2019/CR-accelerometer-20191212/",
+                "title": "Accelerometer",
+                "rawDate": "2019-12-12",
+                "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/das/"
@@ -34791,14 +34805,12 @@
     },
     "generic-sensor": {
         "authors": [
-            "Mikhail Pozdnyakov",
-            "Alexander Shalamov",
-            "Tobie Langel"
+            "Rick Waldron"
         ],
         "href": "https://www.w3.org/TR/generic-sensor/",
         "title": "Generic Sensor API",
-        "rawDate": "2019-03-07",
-        "status": "WD",
+        "rawDate": "2019-12-12",
+        "status": "CR",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/sensors/",
         "deliveredBy": [
@@ -34973,6 +34985,20 @@
                 "title": "Generic Sensor API",
                 "rawDate": "2019-03-07",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/das/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20191212": {
+                "authors": [
+                    "Rick Waldron"
+                ],
+                "href": "https://www.w3.org/TR/2019/CR-generic-sensor-20191212/",
+                "title": "Generic Sensor API",
+                "rawDate": "2019-12-12",
+                "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/das/"
@@ -35800,8 +35826,8 @@
         ],
         "href": "https://www.w3.org/TR/gyroscope/",
         "title": "Gyroscope",
-        "rawDate": "2019-03-07",
-        "status": "WD",
+        "rawDate": "2019-12-12",
+        "status": "CR",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/gyroscope/",
         "deliveredBy": [
@@ -35907,6 +35933,20 @@
                 "title": "Gyroscope",
                 "rawDate": "2019-03-07",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/das/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20191212": {
+                "authors": [
+                    "Anssi Kostiainen"
+                ],
+                "href": "https://www.w3.org/TR/2019/CR-gyroscope-20191212/",
+                "title": "Gyroscope",
+                "rawDate": "2019-12-12",
+                "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/das/"
@@ -44527,8 +44567,8 @@
         ],
         "href": "https://www.w3.org/TR/json-ld11/",
         "title": "JSON-LD 1.1",
-        "rawDate": "2019-11-12",
-        "status": "WD",
+        "rawDate": "2019-12-12",
+        "status": "CR",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/json-ld-syntax/",
         "deliveredBy": [
@@ -44699,6 +44739,22 @@
                     "https://www.w3.org/2018/json-ld-wg/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20191212": {
+                "authors": [
+                    "Gregg Kellogg",
+                    "Pierre-Antoine Champin",
+                    "Dave Longley"
+                ],
+                "href": "https://www.w3.org/TR/2019/CR-json-ld11-20191212/",
+                "title": "JSON-LD 1.1",
+                "rawDate": "2019-12-12",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2018/json-ld-wg/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
         "repository": "https://github.com/w3c/json-ld-syntax"
@@ -44711,8 +44767,8 @@
         ],
         "href": "https://www.w3.org/TR/json-ld11-api/",
         "title": "JSON-LD 1.1 Processing Algorithms and API",
-        "rawDate": "2019-11-12",
-        "status": "WD",
+        "rawDate": "2019-12-12",
+        "status": "CR",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/json-ld-api/",
         "deliveredBy": [
@@ -44863,6 +44919,22 @@
                     "https://www.w3.org/2018/json-ld-wg/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20191212": {
+                "authors": [
+                    "Gregg Kellogg",
+                    "Dave Longley",
+                    "Pierre-Antoine Champin"
+                ],
+                "href": "https://www.w3.org/TR/2019/CR-json-ld11-api-20191212/",
+                "title": "JSON-LD 1.1 Processing Algorithms and API",
+                "rawDate": "2019-12-12",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2018/json-ld-wg/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
         "repository": "https://github.com/w3c/json-ld-api"
@@ -44875,8 +44947,8 @@
         ],
         "href": "https://www.w3.org/TR/json-ld11-framing/",
         "title": "JSON-LD 1.1 Framing",
-        "rawDate": "2019-11-13",
-        "status": "WD",
+        "rawDate": "2019-12-12",
+        "status": "CR",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/json-ld-framing/",
         "deliveredBy": [
@@ -45008,6 +45080,22 @@
                 "title": "JSON-LD 1.1 Framing",
                 "rawDate": "2019-11-13",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2018/json-ld-wg/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20191212": {
+                "authors": [
+                    "Dave Longley",
+                    "Gregg Kellogg",
+                    "Pierre-Antoine Champin"
+                ],
+                "href": "https://www.w3.org/TR/2019/CR-json-ld11-framing-20191212/",
+                "title": "JSON-LD 1.1 Framing",
+                "rawDate": "2019-12-12",
+                "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/2018/json-ld-wg/"
@@ -52139,8 +52227,8 @@
         ],
         "href": "https://www.w3.org/TR/orientation-sensor/",
         "title": "Orientation Sensor",
-        "rawDate": "2019-03-07",
-        "status": "WD",
+        "rawDate": "2019-12-12",
+        "status": "CR",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/orientation-sensor/",
         "deliveredBy": [
@@ -52225,6 +52313,21 @@
                 "title": "Orientation Sensor",
                 "rawDate": "2019-03-07",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/das/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20191212": {
+                "authors": [
+                    "Kenneth Christiansen",
+                    "Anssi Kostiainen"
+                ],
+                "href": "https://www.w3.org/TR/2019/CR-orientation-sensor-20191212/",
+                "title": "Orientation Sensor",
+                "rawDate": "2019-12-12",
+                "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/das/"
@@ -58040,6 +58143,40 @@
                 "title": "Pointer Events",
                 "rawDate": "2019-04-04",
                 "status": "REC",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2012/pointerevents/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        },
+        "repository": "https://github.com/w3c/pointerevents"
+    },
+    "pointerevents3": {
+        "authors": [
+            "Patrick Lauke",
+            "Navid Zolghadr"
+        ],
+        "href": "https://www.w3.org/TR/pointerevents3/",
+        "title": "Pointer Events Level 3",
+        "rawDate": "2019-12-12",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/pointerevents/",
+        "deliveredBy": [
+            "https://www.w3.org/2012/pointerevents/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20191212": {
+                "authors": [
+                    "Patrick Lauke",
+                    "Navid Zolghadr"
+                ],
+                "href": "https://www.w3.org/TR/2019/WD-pointerevents3-20191212/",
+                "title": "Pointer Events Level 3",
+                "rawDate": "2019-12-12",
+                "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/2012/pointerevents/"
