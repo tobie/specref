@@ -86223,13 +86223,14 @@
     },
     "webrtc": {
         "authors": [
+            "Cullen Jennings",
+            "Henrik Boström",
+            "Jan-Ivar Bruaroey",
             "Adam Bergkvist",
             "Daniel Burnett",
-            "Cullen Jennings",
             "Anant Narayanan",
             "Bernard Aboba",
-            "Taylor Brandstetter",
-            "Jan-Ivar Bruaroey"
+            "Taylor Brandstetter"
         ],
         "href": "https://www.w3.org/TR/webrtc/",
         "title": "WebRTC 1.0: Real-time Communication Between Browsers",
@@ -86527,9 +86528,30 @@
                     "https://www.w3.org/2011/04/webrtc/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20191213": {
+                "authors": [
+                    "Cullen Jennings",
+                    "Henrik Boström",
+                    "Jan-Ivar Bruaroey",
+                    "Adam Bergkvist",
+                    "Daniel Burnett",
+                    "Anant Narayanan",
+                    "Bernard Aboba",
+                    "Taylor Brandstetter"
+                ],
+                "href": "https://www.w3.org/TR/2019/CR-webrtc-20191213/",
+                "title": "WebRTC 1.0: Real-time Communication Between Browsers",
+                "rawDate": "2019-12-13",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2011/04/webrtc/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2018-09-27",
+        "rawDate": "2019-12-13",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
         "edDraft": "https://w3c.github.io/webrtc-pc/",
         "repository": "https://github.com/w3c/webrtc-pc"
