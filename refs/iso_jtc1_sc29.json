@@ -2951,12 +2951,12 @@
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso14496-3": {
-        "href": "https://www.iso.org/standard/53943.html",
+        "href": "https://www.iso.org/standard/76383.html",
         "title": "Information technology — Coding of audio-visual objects — Part 3: Audio",
         "status": "Published",
         "publisher": "ISO/IEC",
-        "isoNumber": "ISO 14496-3:2009",
-        "rawDate": "2009-09",
+        "isoNumber": "ISO 14496-3:2019",
+        "rawDate": "2019-12",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso14496-3-1999-amd1-2000": {
@@ -3262,25 +3262,37 @@
     "iso14496-3-2009-amd1-2009": {
         "href": "https://www.iso.org/standard/53944.html",
         "title": "Information technology — Coding of audio-visual objects — Part 3: Audio — Amendment 1: HD-AAC profile and MPEG Surround signaling",
-        "status": "Published",
+        "status": "Withdrawn",
         "publisher": "ISO/IEC",
+        "isSuperseded": true,
         "rawDate": "2009-12",
+        "obsoletedBy": [
+            "iso14496-3"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso14496-3-2009-amd2-2010": {
         "href": "https://www.iso.org/standard/54838.html",
         "title": "Information technology — Coding of audio-visual objects — Part 3: Audio — Amendment 2: ALS simple profile and transport of SAOC",
-        "status": "Published",
+        "status": "Withdrawn",
         "publisher": "ISO/IEC",
+        "isSuperseded": true,
         "rawDate": "2010-10",
+        "obsoletedBy": [
+            "iso14496-3"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso14496-3-2009-amd3-2012": {
         "href": "https://www.iso.org/standard/59635.html",
         "title": "Information technology — Coding of audio-visual objects — Part 3: Audio — Amendment 3: Transport of unified speech and audio coding (USAC)",
-        "status": "Published",
+        "status": "Withdrawn",
         "publisher": "ISO/IEC",
+        "isSuperseded": true,
         "rawDate": "2012-08",
+        "obsoletedBy": [
+            "iso14496-3"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso14496-3-2009-amd3-2012-cdcor1": {
@@ -3297,97 +3309,145 @@
     "iso14496-3-2009-amd4-2013": {
         "href": "https://www.iso.org/standard/63022.html",
         "title": "Information technology — Coding of audio-visual objects — Part 3: Audio — Amendment 4: New levels for AAC profiles",
-        "status": "Published",
+        "status": "Withdrawn",
         "publisher": "ISO/IEC",
+        "isSuperseded": true,
         "rawDate": "2013-12",
+        "obsoletedBy": [
+            "iso14496-3"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso14496-3-2009-amd4-2013-cor1-2015": {
         "href": "https://www.iso.org/standard/67079.html",
         "title": "Information technology — Coding of audio-visual objects — Part 3: Audio — Amendment 4: New levels for AAC profiles — Technical Corrigendum 1",
-        "status": "Published",
+        "status": "Withdrawn",
         "publisher": "ISO/IEC",
+        "isSuperseded": true,
         "rawDate": "2015-04",
+        "obsoletedBy": [
+            "iso14496-3"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso14496-3-2009-amd5-2015": {
         "href": "https://www.iso.org/standard/66392.html",
         "title": "Information technology — Coding of audio-visual objects — Part 3: Audio — Amendment 5: Support for Dynamic Range Control, New Levels for ALS Simple Profile, and Audio Synchronization",
-        "status": "Published",
+        "status": "Withdrawn",
         "publisher": "ISO/IEC",
+        "isSuperseded": true,
         "rawDate": "2015-08",
+        "obsoletedBy": [
+            "iso14496-3"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso14496-3-2009-amd6-2017": {
         "href": "https://www.iso.org/standard/70436.html",
         "title": "Information technology — Coding of audio-visual objects — Part 3: Audio — Amendment 6: Profiles, levels and downmixing method for 22.2 channel programs",
-        "status": "Published",
+        "status": "Withdrawn",
         "publisher": "ISO/IEC",
+        "isSuperseded": true,
         "rawDate": "2017-03",
+        "obsoletedBy": [
+            "iso14496-3"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso14496-3-2009-amd7-2018": {
         "href": "https://www.iso.org/standard/74421.html",
         "title": "Information technology — Coding of audio-visual objects — Part 3: Audio — Amendment 7: SBR enhancements",
-        "status": "Published",
+        "status": "Withdrawn",
         "publisher": "ISO/IEC",
+        "isSuperseded": true,
         "rawDate": "2018-08",
+        "obsoletedBy": [
+            "iso14496-3"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso14496-3-2009-cor1-2009": {
         "href": "https://www.iso.org/standard/54996.html",
         "title": "Information technology — Coding of audio-visual objects — Part 3: Audio — Technical Corrigendum 1",
-        "status": "Published",
+        "status": "Withdrawn",
         "publisher": "ISO/IEC",
+        "isSuperseded": true,
         "rawDate": "2009-12",
+        "obsoletedBy": [
+            "iso14496-3"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso14496-3-2009-cor2-2011": {
         "href": "https://www.iso.org/standard/59237.html",
         "title": "Information technology — Coding of audio-visual objects — Part 3: Audio — Technical Corrigendum 2",
-        "status": "Published",
+        "status": "Withdrawn",
         "publisher": "ISO/IEC",
+        "isSuperseded": true,
         "rawDate": "2011-10",
+        "obsoletedBy": [
+            "iso14496-3"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso14496-3-2009-cor3-2012": {
         "href": "https://www.iso.org/standard/61574.html",
         "title": "Information technology — Coding of audio-visual objects — Part 3: Audio — Technical Corrigendum 3",
-        "status": "Published",
+        "status": "Withdrawn",
         "publisher": "ISO/IEC",
+        "isSuperseded": true,
         "rawDate": "2012-09",
+        "obsoletedBy": [
+            "iso14496-3"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso14496-3-2009-cor4-2012": {
         "href": "https://www.iso.org/standard/62130.html",
         "title": "Information technology — Coding of audio-visual objects — Part 3: Audio — Technical Corrigendum 4",
-        "status": "Published",
+        "status": "Withdrawn",
         "publisher": "ISO/IEC",
+        "isSuperseded": true,
         "rawDate": "2012-11",
+        "obsoletedBy": [
+            "iso14496-3"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso14496-3-2009-cor5-2015": {
         "href": "https://www.iso.org/standard/67078.html",
         "title": "Information technology — Coding of audio-visual objects — Part 3: Audio — Technical Corrigendum 5",
-        "status": "Published",
+        "status": "Withdrawn",
         "publisher": "ISO/IEC",
+        "isSuperseded": true,
         "rawDate": "2015-03",
+        "obsoletedBy": [
+            "iso14496-3"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso14496-3-2009-cor6-2015": {
         "href": "https://www.iso.org/standard/68647.html",
         "title": "Information technology — Coding of audio-visual objects — Part 3: Audio — Technical Corrigendum 6",
-        "status": "Published",
+        "status": "Withdrawn",
         "publisher": "ISO/IEC",
+        "isSuperseded": true,
         "rawDate": "2015-08",
+        "obsoletedBy": [
+            "iso14496-3"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso14496-3-2009-cor7-2015": {
         "href": "https://www.iso.org/standard/69653.html",
         "title": "Information technology — Coding of audio-visual objects — Part 3: Audio — Technical Corrigendum 7",
-        "status": "Published",
+        "status": "Withdrawn",
         "publisher": "ISO/IEC",
+        "isSuperseded": true,
         "rawDate": "2015-11",
+        "obsoletedBy": [
+            "iso14496-3"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso14496-30": {
@@ -8215,6 +8275,13 @@
     "iso23008-12-2017-cdamd2": {
         "aliasOf": "iso23008-12-2017-damd2"
     },
+    "iso23008-12-2017-cdcor1": {
+        "href": "https://www.iso.org/standard/80239.html",
+        "title": "Information technology — High efficiency coding and media delivery in heterogeneous environments — Part 12: Image File Format — Technical Corrigendum 1",
+        "status": "Under development",
+        "publisher": "ISO/IEC",
+        "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+    },
     "iso23008-12-2017-damd2": {
         "href": "https://www.iso.org/standard/79153.html",
         "title": "Information technology — High efficiency coding and media delivery in heterogeneous environments — Part 12: Image File Format — Amendment 2: Support for predictive image coding, bursts, bracketing, and other improvements",
@@ -8512,12 +8579,12 @@
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23009-1": {
-        "href": "https://www.iso.org/standard/75485.html",
+        "href": "https://www.iso.org/standard/79329.html",
         "title": "Information technology — Dynamic adaptive streaming over HTTP (DASH) — Part 1: Media presentation description and segment formats",
         "status": "Published",
         "publisher": "ISO/IEC",
         "isoNumber": "ISO 23009-1:2019",
-        "rawDate": "2019-08",
+        "rawDate": "2019-12",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23009-1-2012-cor1-2013": {
