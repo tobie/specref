@@ -239,6 +239,14 @@
         "source": "https://wicg.github.io/admin/biblio.json",
         "repository": "https://github.com/wicg/shape-detection-api"
     },
+    "SPEECH-API": {
+        "href": "https://wicg.github.io/speech-api/",
+        "title": "Web Speech API",
+        "status": "cg-draft",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/speech-api"
+    },
     "TEXT-DETECTION-API": {
         "href": "https://wicg.github.io/shape-detection-api/text.html",
         "title": "Accelerated Text Detection in Images",
@@ -430,6 +438,9 @@
     "WICG-SHAPE-DETECTION-API": {
         "aliasOf": "SHAPE-DETECTION-API"
     },
+    "WICG-SPEECH-API": {
+        "aliasOf": "SPEECH-API"
+    },
     "WICG-TEXT-DETECTION-API": {
         "aliasOf": "TEXT-DETECTION-API"
     },
@@ -446,7 +457,12 @@
         "aliasOf": "WEB-LOCKS"
     },
     "WICG-WEB-SHARE": {
-        "aliasOf": "WEB-SHARE"
+        "href": "https://wicg.github.io/web-share/",
+        "title": "Web Share API",
+        "status": "cg-draft",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/web-share"
     },
     "WICG-WEB-SHARE-TARGET": {
         "aliasOf": "WEB-SHARE-TARGET"

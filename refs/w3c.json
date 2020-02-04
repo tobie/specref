@@ -16157,7 +16157,7 @@
         ],
         "href": "https://www.w3.org/TR/audiobooks/",
         "title": "Audiobooks",
-        "rawDate": "2019-12-05",
+        "rawDate": "2020-01-28",
         "status": "CR",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/audiobooks/",
@@ -16231,6 +16231,21 @@
                 "href": "https://www.w3.org/TR/2019/CR-audiobooks-20191205/",
                 "title": "Audiobooks",
                 "rawDate": "2019-12-05",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/publishing/groups/publ-wg/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20200128": {
+                "authors": [
+                    "Wendy Reid",
+                    "Matt Garrish"
+                ],
+                "href": "https://www.w3.org/TR/2020/CR-audiobooks-20200128/",
+                "title": "Audiobooks",
+                "rawDate": "2020-01-28",
                 "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -18674,7 +18689,7 @@
         ],
         "href": "https://www.w3.org/TR/core-aam-1.2/",
         "title": "Core Accessibility API Mappings 1.2",
-        "rawDate": "2018-12-18",
+        "rawDate": "2019-12-18",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/core-aam/",
@@ -18713,6 +18728,28 @@
                 "href": "https://www.w3.org/TR/2018/WD-core-aam-1.2-20181218/",
                 "title": "Core Accessibility API Mappings 1.2",
                 "rawDate": "2018-12-18",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WAI/ARIA/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20191218": {
+                "authors": [
+                    "Joanmarie Diggs",
+                    "Michael Cooper",
+                    "Richard Schwerdtfeger",
+                    "Joseph Scheuhammer",
+                    "Andi Snow-Weaver",
+                    "Aaron Leventhal",
+                    "Melanie Richards",
+                    "James Craig",
+                    "Alexander Surkov"
+                ],
+                "href": "https://www.w3.org/TR/2019/WD-core-aam-1.2-20191218/",
+                "title": "Core Accessibility API Mappings 1.2",
+                "rawDate": "2019-12-18",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -25780,7 +25817,7 @@
         ],
         "href": "https://www.w3.org/TR/css-ui-4/",
         "title": "CSS Basic User Interface Module Level 4",
-        "rawDate": "2017-12-22",
+        "rawDate": "2020-01-24",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://drafts.csswg.org/css-ui-4/",
@@ -25810,6 +25847,20 @@
                 "href": "https://www.w3.org/TR/2017/WD-css-ui-4-20171222/",
                 "title": "CSS Basic User Interface Module Level 4",
                 "rawDate": "2017-12-22",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Style/CSS/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20200124": {
+                "authors": [
+                    "Florian Rivoal"
+                ],
+                "href": "https://www.w3.org/TR/2020/WD-css-ui-4-20200124/",
+                "title": "CSS Basic User Interface Module Level 4",
+                "rawDate": "2020-01-24",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -29122,7 +29173,7 @@
         ],
         "href": "https://www.w3.org/TR/did-use-cases/",
         "title": "Use Cases and Requirements for Decentralized Identifiers",
-        "rawDate": "2019-12-04",
+        "rawDate": "2020-01-30",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/did-use-cases/",
@@ -29154,6 +29205,21 @@
                 "href": "https://www.w3.org/TR/2019/WD-did-use-cases-20191204/",
                 "title": "Use Cases and Requirements for Decentralized Identifiers",
                 "rawDate": "2019-12-04",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2019/did-wg/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20200130": {
+                "authors": [
+                    "Joe Andrieu",
+                    "Phil Archer"
+                ],
+                "href": "https://www.w3.org/TR/2020/WD-did-use-cases-20200130/",
+                "title": "Use Cases and Requirements for Decentralized Identifiers",
+                "rawDate": "2020-01-30",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -30377,10 +30443,10 @@
         ],
         "href": "https://www.w3.org/TR/dx-prof/",
         "title": "The Profiles Vocabulary",
-        "rawDate": "2019-04-02",
-        "status": "WD",
+        "rawDate": "2019-12-18",
+        "status": "NOTE",
         "publisher": "W3C",
-        "edDraft": "https://w3c.github.io/dxwg/profilesont/",
+        "edDraft": "https://w3c.github.io/dxwg/prof/",
         "deliveredBy": [
             "https://www.w3.org/2017/dxwg/"
         ],
@@ -30409,6 +30475,20 @@
                 "title": "The Profiles Vocabulary",
                 "rawDate": "2019-04-02",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2017/dxwg/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20191218": {
+                "authors": [
+                    "Nicholas Car"
+                ],
+                "href": "https://www.w3.org/TR/2019/NOTE-dx-prof-20191218/",
+                "title": "The Profiles Vocabulary",
+                "rawDate": "2019-12-18",
+                "status": "NOTE",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/2017/dxwg/"
@@ -33164,7 +33244,7 @@
         ],
         "href": "https://www.w3.org/TR/fetch-metadata/",
         "title": "Fetch Metadata Request Headers",
-        "rawDate": "2019-11-25",
+        "rawDate": "2020-01-10",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://github.com/w3c/webappsec-fetch-metadata/",
@@ -33194,6 +33274,20 @@
                 "href": "https://www.w3.org/TR/2019/WD-fetch-metadata-20191125/",
                 "title": "Fetch Metadata Request Headers",
                 "rawDate": "2019-11-25",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2011/webappsec/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20200110": {
+                "authors": [
+                    "Mike West"
+                ],
+                "href": "https://www.w3.org/TR/2020/WD-fetch-metadata-20200110/",
+                "title": "Fetch Metadata Request Headers",
+                "rawDate": "2020-01-10",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -34156,7 +34250,7 @@
         ],
         "href": "https://www.w3.org/TR/gamepad/",
         "title": "Gamepad",
-        "rawDate": "2019-11-14",
+        "rawDate": "2020-01-21",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -34776,6 +34870,24 @@
                 "href": "https://www.w3.org/TR/2019/WD-gamepad-20191114/",
                 "title": "Gamepad",
                 "rawDate": "2019-11-14",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2019/webapps/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20200121": {
+                "authors": [
+                    "James Hollyer",
+                    "Matthew Reynolds",
+                    "Brandon Jones",
+                    "Scott Graham",
+                    "Theodore Mielczarek"
+                ],
+                "href": "https://www.w3.org/TR/2020/WD-gamepad-20200121/",
+                "title": "Gamepad",
+                "rawDate": "2020-01-21",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -38402,7 +38514,7 @@
         ],
         "href": "https://www.w3.org/TR/html-aria/",
         "title": "ARIA in HTML",
-        "rawDate": "2019-12-06",
+        "rawDate": "2020-02-03",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -39174,6 +39286,21 @@
                 "href": "https://www.w3.org/TR/2019/WD-html-aria-20191206/",
                 "title": "ARIA in HTML",
                 "rawDate": "2019-12-06",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2019/webapps/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20200203": {
+                "authors": [
+                    "Steve Faulkner",
+                    "Scott O'Hara"
+                ],
+                "href": "https://www.w3.org/TR/2020/WD-html-aria-20200203/",
+                "title": "ARIA in HTML",
+                "rawDate": "2020-02-03",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -46749,16 +46876,39 @@
     },
     "media-capabilities": {
         "authors": [
-            "Mounir Lamouri"
+            "Mounir Lamouri",
+            "Chris Cunningham",
+            "Vi Nguyen"
         ],
-        "href": "https://w3c.github.io/media-capabilities/",
+        "href": "https://www.w3.org/TR/media-capabilities/",
         "title": "Media Capabilities",
-        "status": "ED",
+        "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
             "https://www.w3.org/media-wg/"
         ],
-        "repository": "https://github.com/w3c/media-capabilities"
+        "repository": "https://github.com/w3c/media-capabilities",
+        "rawDate": "2020-01-30",
+        "edDraft": "https://w3c.github.io/media-capabilities/",
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20200130": {
+                "authors": [
+                    "Mounir Lamouri",
+                    "Chris Cunningham",
+                    "Vi Nguyen"
+                ],
+                "href": "https://www.w3.org/TR/2020/WD-media-capabilities-20200130/",
+                "title": "Media Capabilities",
+                "rawDate": "2020-01-30",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/media-wg/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
     },
     "media-capture-api": {
         "authors": [
@@ -48003,17 +48153,36 @@
     "mediasession": {
         "authors": [
             "Mounir Lamouri",
-            "Zhiqiang Zhang",
-            "Rich Tibbett"
+            "Becca Hughes"
         ],
-        "href": "https://w3c.github.io/mediasession/",
-        "title": "Media Session",
-        "status": "ED",
+        "href": "https://www.w3.org/TR/mediasession/",
+        "title": "Media Session Standard",
+        "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
             "https://www.w3.org/media-wg/"
         ],
-        "repository": "https://github.com/w3c/mediasession"
+        "repository": "https://github.com/w3c/mediasession",
+        "rawDate": "2020-01-30",
+        "edDraft": "https://w3c.github.io/mediasession/",
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20200130": {
+                "authors": [
+                    "Mounir Lamouri",
+                    "Becca Hughes"
+                ],
+                "href": "https://www.w3.org/TR/2020/WD-mediasession-20200130/",
+                "title": "Media Session Standard",
+                "rawDate": "2020-01-30",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/media-wg/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
     },
     "mediastream-recording": {
         "authors": [
@@ -50702,7 +50871,7 @@
         ],
         "href": "https://www.w3.org/TR/navigation-timing-2/",
         "title": "Navigation Timing Level 2",
-        "rawDate": "2019-07-15",
+        "rawDate": "2020-01-21",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -51411,6 +51580,23 @@
                 "href": "https://www.w3.org/TR/2019/WD-navigation-timing-2-20190715/",
                 "title": "Navigation Timing Level 2",
                 "rawDate": "2019-07-15",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/webperf/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20200121": {
+                "authors": [
+                    "Ilya Grigorik",
+                    "Tobin Titus",
+                    "Jatinder Mann",
+                    "Arvind Jain"
+                ],
+                "href": "https://www.w3.org/TR/2020/WD-navigation-timing-2-20200121/",
+                "title": "Navigation Timing Level 2",
+                "rawDate": "2020-01-21",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -54812,7 +54998,7 @@
         ],
         "href": "https://www.w3.org/TR/payment-method-basic-card/",
         "title": "Payment Method: Basic Card",
-        "rawDate": "2019-11-20",
+        "rawDate": "2020-01-23",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/payment-method-basic-card/",
@@ -55385,6 +55571,24 @@
                 "href": "https://www.w3.org/TR/2019/WD-payment-method-basic-card-20191120/",
                 "title": "Payment Method: Basic Card",
                 "rawDate": "2019-11-20",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Payments/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20200123": {
+                "authors": [
+                    "Marcos Caceres",
+                    "Domenic Denicola",
+                    "Zach Koch",
+                    "Roy McElmurry",
+                    "Adrian Bateman"
+                ],
+                "href": "https://www.w3.org/TR/2020/WD-payment-method-basic-card-20200123/",
+                "title": "Payment Method: Basic Card",
+                "rawDate": "2020-01-23",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -57423,7 +57627,7 @@
         ],
         "href": "https://www.w3.org/TR/personalization-semantics-1.0/",
         "title": "Personalization Semantics Explainer 1.0",
-        "rawDate": "2019-07-11",
+        "rawDate": "2020-01-27",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/personalization-semantics/",
@@ -57519,6 +57723,24 @@
                     "https://www.w3.org/WAI/APA/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20200127": {
+                "authors": [
+                    "Lisa Seeman-Kestenbaum",
+                    "Charles LaPierre",
+                    "Michael Cooper",
+                    "Ruoxi Ran",
+                    "Richard Schwerdtfeger"
+                ],
+                "href": "https://www.w3.org/TR/2020/WD-personalization-semantics-1.0-20200127/",
+                "title": "Personalization Semantics Explainer 1.0",
+                "rawDate": "2020-01-27",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WAI/APA/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
         "repository": "https://github.com/w3c/personalization-semantics"
@@ -57533,7 +57755,7 @@
         ],
         "href": "https://www.w3.org/TR/personalization-semantics-content-1.0/",
         "title": "Personalization Semantics Content Module 1.0",
-        "rawDate": "2019-07-11",
+        "rawDate": "2020-01-27",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/personalization-semantics/content/",
@@ -57631,6 +57853,24 @@
                     "https://www.w3.org/WAI/APA/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20200127": {
+                "authors": [
+                    "Lisa Seeman-Kestenbaum",
+                    "Charles LaPierre",
+                    "Michael Cooper",
+                    "Ruoxi Ran",
+                    "Richard Schwerdtfeger"
+                ],
+                "href": "https://www.w3.org/TR/2020/WD-personalization-semantics-content-1.0-20200127/",
+                "title": "Personalization Semantics Content Module 1.0",
+                "rawDate": "2020-01-27",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WAI/APA/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
         "repository": "https://github.com/w3c/personalization-semantics"
@@ -57683,6 +57923,44 @@
                 "href": "https://www.w3.org/TR/2019/WD-personalization-semantics-help-1.0-20190711/",
                 "title": "Personalization Help and Support 1.0",
                 "rawDate": "2019-07-11",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WAI/APA/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        },
+        "repository": "https://github.com/w3c/personalization-semantics"
+    },
+    "personalization-semantics-requirements-1.0": {
+        "authors": [
+            "Lisa Seeman-Kestenbaum",
+            "Charles LaPierre",
+            "Michael Cooper",
+            "Ruoxi Ran"
+        ],
+        "href": "https://www.w3.org/TR/personalization-semantics-requirements-1.0/",
+        "title": "Requirements for Personalization Semantics",
+        "rawDate": "2020-01-30",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/personalization-semantics/requirements/",
+        "deliveredBy": [
+            "https://www.w3.org/WAI/APA/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20200130": {
+                "authors": [
+                    "Lisa Seeman-Kestenbaum",
+                    "Charles LaPierre",
+                    "Michael Cooper",
+                    "Ruoxi Ran"
+                ],
+                "href": "https://www.w3.org/TR/2020/WD-personalization-semantics-requirements-1.0-20200130/",
+                "title": "Requirements for Personalization Semantics",
+                "rawDate": "2020-01-30",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -57791,17 +58069,37 @@
     },
     "picture-in-picture": {
         "authors": [
-            "François Beaufort",
+            "Francois Beaufort",
             "Mounir Lamouri"
         ],
-        "href": "https://w3c.github.io/picture-in-picture/",
+        "href": "https://www.w3.org/TR/picture-in-picture/",
         "title": "Picture-in-Picture",
-        "status": "ED",
+        "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
             "https://www.w3.org/media-wg/"
         ],
-        "repository": "https://github.com/w3c/picture-in-picture"
+        "repository": "https://github.com/w3c/picture-in-picture",
+        "rawDate": "2020-01-30",
+        "edDraft": "https://w3c.github.io/picture-in-picture/",
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20200130": {
+                "authors": [
+                    "Francois Beaufort",
+                    "Mounir Lamouri"
+                ],
+                "href": "https://www.w3.org/TR/2020/WD-picture-in-picture-20200130/",
+                "title": "Picture-in-Picture",
+                "rawDate": "2020-01-30",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/media-wg/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
     },
     "png-hdr-pq": {
         "authors": [
@@ -60886,7 +61184,7 @@
         ],
         "href": "https://www.w3.org/TR/pub-manifest/",
         "title": "Publication Manifest",
-        "rawDate": "2019-12-05",
+        "rawDate": "2020-01-28",
         "status": "CR",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/pub-manifest/",
@@ -60948,6 +61246,21 @@
                 "href": "https://www.w3.org/TR/2019/CR-pub-manifest-20191205/",
                 "title": "Publication Manifest",
                 "rawDate": "2019-12-05",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/publishing/groups/publ-wg/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20200128": {
+                "authors": [
+                    "Matt Garrish",
+                    "Ivan Herman"
+                ],
+                "href": "https://www.w3.org/TR/2020/CR-pub-manifest-20200128/",
+                "title": "Publication Manifest",
+                "rawDate": "2020-01-28",
                 "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -61016,7 +61329,7 @@
         ],
         "href": "https://www.w3.org/TR/push-api/",
         "title": "Push API",
-        "rawDate": "2019-10-03",
+        "rawDate": "2020-02-04",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -61573,6 +61886,21 @@
                 "href": "https://www.w3.org/TR/2019/WD-push-api-20191003/",
                 "title": "Push API",
                 "rawDate": "2019-10-03",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2019/webapps/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20200204": {
+                "authors": [
+                    "Peter Beverloo",
+                    "Martin Thomson"
+                ],
+                "href": "https://www.w3.org/TR/2020/WD-push-api-20200204/",
+                "title": "Push API",
+                "rawDate": "2020-02-04",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -66204,7 +66532,7 @@
         ],
         "href": "https://www.w3.org/TR/resource-timing-2/",
         "title": "Resource Timing Level 2",
-        "rawDate": "2019-11-28",
+        "rawDate": "2020-01-23",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/resource-timing/",
@@ -66555,6 +66883,26 @@
                 "href": "https://www.w3.org/TR/2019/WD-resource-timing-2-20191128/",
                 "title": "Resource Timing Level 2",
                 "rawDate": "2019-11-28",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/webperf/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20200123": {
+                "authors": [
+                    "Todd Reifsteck",
+                    "Ilya Grigorik",
+                    "Yoav Weiss",
+                    "Arvind Jain",
+                    "Jatinder Mann",
+                    "Zhiheng Wang",
+                    "Anderson Quach"
+                ],
+                "href": "https://www.w3.org/TR/2020/WD-resource-timing-2-20200123/",
+                "title": "Resource Timing Level 2",
+                "rawDate": "2020-01-23",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -68977,9 +69325,25 @@
                     "https://www.w3.org/2019/webapps/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20200122": {
+                "authors": [
+                    "Mounir Lamouri",
+                    "Marcos Caceres",
+                    "Johanna Herman"
+                ],
+                "href": "https://www.w3.org/TR/2020/WD-screen-orientation-20200122/",
+                "title": "The Screen Orientation API",
+                "rawDate": "2020-01-22",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2019/webapps/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2019-11-02",
+        "rawDate": "2020-01-22",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
         "edDraft": "https://w3c.github.io/screen-orientation/",
         "repository": "https://github.com/w3c/screen-orientation"
@@ -70618,7 +70982,7 @@
         ],
         "href": "https://www.w3.org/TR/server-timing/",
         "title": "Server Timing",
-        "rawDate": "2019-03-07",
+        "rawDate": "2020-01-20",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/server-timing/",
@@ -70962,6 +71326,21 @@
                 "href": "https://www.w3.org/TR/2019/WD-server-timing-20190307/",
                 "title": "Server Timing",
                 "rawDate": "2019-03-07",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/webperf/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20200120": {
+                "authors": [
+                    "Charles Vazac",
+                    "Ilya Grigorik"
+                ],
+                "href": "https://www.w3.org/TR/2020/WD-server-timing-20200120/",
+                "title": "Server Timing",
+                "rawDate": "2020-01-20",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -77461,9 +77840,9 @@
             "Cyril Concolato"
         ],
         "href": "https://www.w3.org/TR/ttml2/",
-        "title": "Timed Text Markup Language 2 (TTML2)",
-        "rawDate": "2018-11-08",
-        "status": "REC",
+        "title": "Timed Text Markup Language 2 (TTML2) (2nd Edition)",
+        "rawDate": "2020-01-28",
+        "status": "CR",
         "publisher": "W3C",
         "deliveredBy": [
             "https://www.w3.org/AudioVideo/TT/"
@@ -77611,6 +77990,21 @@
                     "https://www.w3.org/AudioVideo/TT/"
                 ],
                 "hasErrata": "https://www.w3.org/2018/11/ttml2-errata.html",
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20200128": {
+                "authors": [
+                    "Glenn Adams",
+                    "Cyril Concolato"
+                ],
+                "href": "https://www.w3.org/TR/2020/CR-ttml2-20200128/",
+                "title": "Timed Text Markup Language 2 (TTML2) (2nd Edition)",
+                "rawDate": "2020-01-28",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/AudioVideo/TT/"
+                ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
@@ -80511,7 +80905,7 @@
         ],
         "href": "https://www.w3.org/TR/vocab-dcat/",
         "title": "Data Catalog Vocabulary (DCAT)",
-        "rawDate": "2014-01-16",
+        "rawDate": "2020-02-04",
         "status": "REC",
         "publisher": "W3C",
         "deliveredBy": [
@@ -80600,8 +80994,28 @@
                     "https://www.w3.org/2011/gld/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20200204": {
+                "authors": [
+                    "Fadi Maali",
+                    "John Erickson"
+                ],
+                "href": "https://www.w3.org/TR/2020/SPSD-vocab-dcat-20200204/",
+                "title": "Data Catalog Vocabulary (DCAT)",
+                "rawDate": "2020-02-04",
+                "status": "REC",
+                "publisher": "W3C",
+                "isRetired": true,
+                "deliveredBy": [
+                    "https://www.w3.org/2011/gld/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "isRetired": true,
+        "obsoletedBy": [
+            "vocab-dcat-2"
+        ]
     },
     "vocab-dcat-2": {
         "authors": [
@@ -80614,8 +81028,8 @@
         ],
         "href": "https://www.w3.org/TR/vocab-dcat-2/",
         "title": "Data Catalog Vocabulary (DCAT) - Version 2",
-        "rawDate": "2019-11-19",
-        "status": "PR",
+        "rawDate": "2020-02-04",
+        "status": "REC",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/dxwg/dcat/",
         "deliveredBy": [
@@ -80713,9 +81127,33 @@
                     "https://www.w3.org/2017/dxwg/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20200204": {
+                "authors": [
+                    "Riccardo Albertoni",
+                    "David Browning",
+                    "Simon Cox",
+                    "Alejandra Gonzalez Beltran",
+                    "Andrea Perego",
+                    "Peter Winstanley"
+                ],
+                "href": "https://www.w3.org/TR/2020/REC-vocab-dcat-2-20200204/",
+                "title": "Data Catalog Vocabulary (DCAT) - Version 2",
+                "rawDate": "2020-02-04",
+                "status": "REC",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2017/dxwg/"
+                ],
+                "hasErrata": "https://w3c.github.io/dxwg/errata/",
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "repository": "https://github.com/w3c/dxwg"
+        "repository": "https://github.com/w3c/dxwg",
+        "hasErrata": "https://w3c.github.io/dxwg/errata/",
+        "obsoletes": [
+            "vocab-dcat"
+        ]
     },
     "vocab-dqv": {
         "authors": [
@@ -81223,7 +81661,7 @@
         ],
         "href": "https://www.w3.org/TR/vocab-ssn-ext/",
         "title": "Extensions to the Semantic Sensor Network Ontology",
-        "rawDate": "2018-11-22",
+        "rawDate": "2020-01-16",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/sdw/proposals/ssn-extensions/",
@@ -81239,6 +81677,20 @@
                 "href": "https://www.w3.org/TR/2018/WD-vocab-ssn-ext-20181122/",
                 "title": "Extensions to the Semantic Sensor Network Ontology",
                 "rawDate": "2018-11-22",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2017/sdwig/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20200116": {
+                "authors": [
+                    "Simon Cox"
+                ],
+                "href": "https://www.w3.org/TR/2020/WD-vocab-ssn-ext-20200116/",
+                "title": "Extensions to the Semantic Sensor Network Ontology",
+                "rawDate": "2020-01-16",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -82175,7 +82627,7 @@
         ],
         "href": "https://www.w3.org/TR/wai-aria-1.2/",
         "title": "Accessible Rich Internet Applications (WAI-ARIA) 1.2",
-        "rawDate": "2018-12-18",
+        "rawDate": "2019-12-18",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://rawgit.com/w3c/aria/master/",
@@ -82212,6 +82664,25 @@
                 "href": "https://www.w3.org/TR/2018/WD-wai-aria-1.2-20181218/",
                 "title": "Accessible Rich Internet Applications (WAI-ARIA) 1.2",
                 "rawDate": "2018-12-18",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WAI/ARIA/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20191218": {
+                "authors": [
+                    "Joanmarie Diggs",
+                    "Shane McCarron",
+                    "James Nurthen",
+                    "Michael Cooper",
+                    "Richard Schwerdtfeger",
+                    "James Craig"
+                ],
+                "href": "https://www.w3.org/TR/2019/WD-wai-aria-1.2-20191218/",
+                "title": "Accessible Rich Internet Applications (WAI-ARIA) 1.2",
+                "rawDate": "2019-12-18",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -82621,6 +83092,7 @@
     "wai-aria-practices-1.2": {
         "authors": [
             "Matthew King",
+            "JaEun Ku",
             "James Nurthen",
             "Zoë Bijl",
             "Michael Cooper",
@@ -82630,10 +83102,10 @@
         ],
         "href": "https://www.w3.org/TR/wai-aria-practices-1.2/",
         "title": "WAI-ARIA Authoring Practices 1.2",
-        "rawDate": "2018-12-18",
+        "rawDate": "2019-12-18",
         "status": "WD",
         "publisher": "W3C",
-        "edDraft": "https://rawgit.com/w3c/aria-practices/apg-1.2/aria-practices.html",
+        "edDraft": "https://w3c.github.io/aria-practices/",
         "deliveredBy": [
             "https://www.w3.org/WAI/ARIA/"
         ],
@@ -82672,6 +83144,27 @@
                 "href": "https://www.w3.org/TR/2018/WD-wai-aria-practices-1.2-20181218/",
                 "title": "WAI-ARIA Authoring Practices 1.2",
                 "rawDate": "2018-12-18",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WAI/ARIA/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20191218": {
+                "authors": [
+                    "Matthew King",
+                    "JaEun Ku",
+                    "James Nurthen",
+                    "Zoë Bijl",
+                    "Michael Cooper",
+                    "Joseph Scheuhammer",
+                    "Lisa Pappas",
+                    "Richard Schwerdtfeger"
+                ],
+                "href": "https://www.w3.org/TR/2019/WD-wai-aria-practices-1.2-20191218/",
+                "title": "WAI-ARIA Authoring Practices 1.2",
+                "rawDate": "2019-12-18",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -86630,36 +87123,7 @@
         "repository": "https://github.com/w3c/webrtc-pc"
     },
     "webrtc-dscp": {
-        "authors": [
-            "Harald Alvestrand"
-        ],
-        "href": "https://www.w3.org/TR/webrtc-dscp/",
-        "title": "WebRTC DSCP Control API",
-        "rawDate": "2018-07-03",
-        "status": "WD",
-        "publisher": "W3C",
-        "edDraft": "https://w3c.github.io/webrtc-dscp-exp/",
-        "deliveredBy": [
-            "https://www.w3.org/2011/04/webrtc/"
-        ],
-        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
-        "versions": {
-            "20180703": {
-                "authors": [
-                    "Harald Alvestrand"
-                ],
-                "href": "https://www.w3.org/TR/2018/WD-webrtc-dscp-20180703/",
-                "title": "WebRTC DSCP Control API",
-                "rawDate": "2018-07-03",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/2011/04/webrtc/"
-                ],
-                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
-            }
-        },
-        "repository": "https://github.com/w3c/webrtc-dscp-exp"
+        "aliasOf": "webrtc-priority"
     },
     "webrtc-identity": {
         "authors": [
@@ -86727,6 +87191,52 @@
         },
         "repository": "https://github.com/w3c/webrtc-nv-use-cases"
     },
+    "webrtc-priority": {
+        "authors": [
+            "Harald Alvestrand"
+        ],
+        "href": "https://www.w3.org/TR/webrtc-priority/",
+        "title": "WebRTC Priority Control API",
+        "rawDate": "2020-01-23",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/webrtc-priority/",
+        "deliveredBy": [
+            "https://www.w3.org/2011/04/webrtc/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20180703": {
+                "authors": [
+                    "Harald Alvestrand"
+                ],
+                "href": "https://www.w3.org/TR/2018/WD-webrtc-dscp-20180703/",
+                "title": "WebRTC DSCP Control API",
+                "rawDate": "2018-07-03",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2011/04/webrtc/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20200123": {
+                "authors": [
+                    "Harald Alvestrand"
+                ],
+                "href": "https://www.w3.org/TR/2020/WD-webrtc-priority-20200123/",
+                "title": "WebRTC Priority Control API",
+                "rawDate": "2020-01-23",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2011/04/webrtc/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        },
+        "repository": "https://github.com/w3c/webrtc-priority"
+    },
     "webrtc-stats": {
         "authors": [
             "Harald Alvestrand",
@@ -86734,7 +87244,7 @@
         ],
         "href": "https://www.w3.org/TR/webrtc-stats/",
         "title": "Identifiers for WebRTC's Statistics API",
-        "rawDate": "2018-07-03",
+        "rawDate": "2020-01-14",
         "status": "CR",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/webrtc-stats/",
@@ -87002,6 +87512,21 @@
                 "href": "https://www.w3.org/TR/2018/CR-webrtc-stats-20180703/",
                 "title": "Identifiers for WebRTC's Statistics API",
                 "rawDate": "2018-07-03",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2011/04/webrtc/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20200114": {
+                "authors": [
+                    "Harald Alvestrand",
+                    "Varun Singh"
+                ],
+                "href": "https://www.w3.org/TR/2020/CR-webrtc-stats-20200114/",
+                "title": "Identifiers for WebRTC's Statistics API",
+                "rawDate": "2020-01-14",
                 "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -88456,12 +88981,13 @@
             "Ryuichi Matsukura",
             "Michael Lagally",
             "Toru Kawaguchi",
-            "Kunihiko Toumura"
+            "Kunihiko Toumura",
+            "Kazuo Kajimoto"
         ],
         "href": "https://www.w3.org/TR/wot-architecture/",
         "title": "Web of Things (WoT) Architecture",
-        "rawDate": "2019-11-06",
-        "status": "CR",
+        "rawDate": "2020-01-30",
+        "status": "PR",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/wot-architecture/",
         "deliveredBy": [
@@ -88521,17 +89047,37 @@
                     "https://www.w3.org/WoT/WG/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20200130": {
+                "authors": [
+                    "Matthias Kovatsch",
+                    "Ryuichi Matsukura",
+                    "Michael Lagally",
+                    "Toru Kawaguchi",
+                    "Kunihiko Toumura",
+                    "Kazuo Kajimoto"
+                ],
+                "href": "https://www.w3.org/TR/2020/PR-wot-architecture-20200130/",
+                "title": "Web of Things (WoT) Architecture",
+                "rawDate": "2020-01-30",
+                "status": "PR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WoT/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
         "repository": "https://github.com/w3c/wot-architecture"
     },
     "wot-binding-templates": {
         "authors": [
-            "Michael Koster"
+            "Michael Koster",
+            "Ege Korkan"
         ],
         "href": "https://www.w3.org/TR/wot-binding-templates/",
-        "title": "Web of Things (WoT) Protocol Binding Templates",
-        "rawDate": "2018-04-05",
+        "title": "Web of Things (WoT) Binding Templates",
+        "rawDate": "2020-01-30",
         "status": "NOTE",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/wot-binding-templates/",
@@ -88547,6 +89093,21 @@
                 "href": "https://www.w3.org/TR/2018/NOTE-wot-binding-templates-20180405/",
                 "title": "Web of Things (WoT) Protocol Binding Templates",
                 "rawDate": "2018-04-05",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WoT/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20200130": {
+                "authors": [
+                    "Michael Koster",
+                    "Ege Korkan"
+                ],
+                "href": "https://www.w3.org/TR/2020/NOTE-wot-binding-templates-20200130/",
+                "title": "Web of Things (WoT) Binding Templates",
+                "rawDate": "2020-01-30",
                 "status": "NOTE",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -88719,8 +89280,8 @@
         ],
         "href": "https://www.w3.org/TR/wot-thing-description/",
         "title": "Web of Things (WoT) Thing Description",
-        "rawDate": "2019-11-06",
-        "status": "CR",
+        "rawDate": "2020-01-30",
+        "status": "PR",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/wot-thing-description/",
         "deliveredBy": [
@@ -88802,6 +89363,24 @@
                 "title": "Web of Things (WoT) Thing Description",
                 "rawDate": "2019-11-06",
                 "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WoT/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20200130": {
+                "authors": [
+                    "Sebastian Käbisch",
+                    "Takuki Kamiya",
+                    "Michael McCool",
+                    "Victor Charpenay",
+                    "Matthias Kovatsch"
+                ],
+                "href": "https://www.w3.org/TR/2020/PR-wot-thing-description-20200130/",
+                "title": "Web of Things (WoT) Thing Description",
+                "rawDate": "2020-01-30",
+                "status": "PR",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/WoT/WG/"
