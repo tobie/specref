@@ -191,6 +191,14 @@
         "source": "https://wicg.github.io/admin/biblio.json",
         "repository": "https://github.com/wicg/page-lifecycle"
     },
+    "PERIODIC-BACKGROUND-SYNC": {
+        "href": "https://wicg.github.io/BackgroundSync/spec/PeriodicBackgroundSync-index.html",
+        "title": "Web Periodic Background Synchronization",
+        "status": "cg-draft",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/BackgroundSync"
+    },
     "PERMISSIONS-REQUEST": {
         "href": "https://wicg.github.io/permissions-request/",
         "title": "Requesting Permissions",
@@ -413,6 +421,9 @@
     },
     "WICG-PAGE-LIFECYCLE": {
         "aliasOf": "PAGE-LIFECYCLE"
+    },
+    "WICG-PERIODIC-BACKGROUND-SYNC": {
+        "aliasOf": "PERIODIC-BACKGROUND-SYNC"
     },
     "WICG-PERMISSIONS-REQUEST": {
         "aliasOf": "PERMISSIONS-REQUEST"
