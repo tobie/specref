@@ -10048,6 +10048,42 @@
         "repository": "https://github.com/w3c/wcag21",
         "hasErrata": "https://www.w3.org/WAI/WCAG21/errata/"
     },
+    "WCAG22": {
+        "authors": [
+            "Andrew Kirkpatrick",
+            "Alastair Campbell",
+            "Michael Cooper"
+        ],
+        "href": "https://www.w3.org/TR/WCAG22/",
+        "title": "Web Content Accessibility Guidelines (WCAG) 2.2",
+        "rawDate": "2020-02-27",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/wcag/guidelines/22/",
+        "deliveredBy": [
+            "https://www.w3.org/WAI/GL/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20200227": {
+                "authors": [
+                    "Andrew Kirkpatrick",
+                    "Alastair Campbell",
+                    "Michael Cooper"
+                ],
+                "href": "https://www.w3.org/TR/2020/WD-WCAG22-20200227/",
+                "title": "Web Content Accessibility Guidelines (WCAG) 2.2",
+                "rawDate": "2020-02-27",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WAI/GL/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        },
+        "repository": "https://github.com/w3c/wcag"
+    },
     "WD-charreq": {
         "aliasOf": "charreq"
     },
