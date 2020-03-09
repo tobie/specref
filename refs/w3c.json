@@ -44750,8 +44750,8 @@
         "status": "NOTE",
         "publisher": "W3C",
         "deliveredBy": [
-            "https://www.w3.org/Style/XSL/",
-            "https://www.w3.org/International/core/"
+            "https://www.w3.org/International/core/",
+            "https://www.w3.org/Style/XSL/"
         ],
         "versions": {
             "20080411": {
@@ -44797,8 +44797,8 @@
                 "status": "NOTE",
                 "publisher": "W3C",
                 "deliveredBy": [
-                    "https://www.w3.org/Style/XSL/",
-                    "https://www.w3.org/International/core/"
+                    "https://www.w3.org/International/core/",
+                    "https://www.w3.org/Style/XSL/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
@@ -63900,7 +63900,7 @@
         "rawDate": "2014-02-25",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
         "deliveredBy": [
-            "https://www.w3.org/2001/sw/RDFCore/"
+            "https://www.w3.org/2011/rdf-wg/"
         ],
         "obsoletes": [
             "rdf-syntax-grammar"
@@ -64240,7 +64240,8 @@
     },
     "rdf-syntax-grammar": {
         "authors": [
-            "Dave Beckett"
+            "Fabien Gandon",
+            "Guus Schreiber"
         ],
         "href": "https://www.w3.org/TR/rdf-syntax-grammar/",
         "title": "RDF 1.1 XML Syntax",
@@ -64393,7 +64394,7 @@
         "rawDate": "2014-02-25",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
         "deliveredBy": [
-            "https://www.w3.org/2001/sw/RDFCore/"
+            "https://www.w3.org/2011/rdf-wg/"
         ],
         "obsoletedBy": [
             "rdf-primer"
@@ -89470,8 +89471,8 @@
         "publisher": "W3C",
         "edDraft": "https://drafts.css-houdini.org/worklets/",
         "deliveredBy": [
-            "https://www.w3.org/Style/CSS/",
-            "https://www.w3.org/2001/tag/"
+            "https://www.w3.org/2001/tag/",
+            "https://www.w3.org/Style/CSS/"
         ],
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
         "versions": {
@@ -89485,8 +89486,8 @@
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
-                    "https://www.w3.org/Style/CSS/",
-                    "https://www.w3.org/2001/tag/"
+                    "https://www.w3.org/2001/tag/",
+                    "https://www.w3.org/Style/CSS/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
@@ -96292,8 +96293,8 @@
         "status": "NOTE",
         "publisher": "W3C",
         "deliveredBy": [
-            "https://www.w3.org/MarkUp/",
-            "https://www.w3.org/MarkUp/Forms/2009/charter2010.html"
+            "https://www.w3.org/MarkUp/Forms/2009/charter2010.html",
+            "https://www.w3.org/MarkUp/"
         ],
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
         "versions": {
@@ -96389,8 +96390,8 @@
                 "status": "NOTE",
                 "publisher": "W3C",
                 "deliveredBy": [
-                    "https://www.w3.org/MarkUp/",
-                    "https://www.w3.org/MarkUp/Forms/2009/charter2010.html"
+                    "https://www.w3.org/MarkUp/Forms/2009/charter2010.html",
+                    "https://www.w3.org/MarkUp/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
@@ -97547,16 +97548,17 @@
     },
     "xmlbase": {
         "authors": [
-            "Jonathan Marsh"
+            "Jonathan Marsh",
+            "Richard Tobin"
         ],
         "href": "https://www.w3.org/TR/xmlbase/",
         "title": "XML Base (Second Edition)",
         "status": "REC",
         "publisher": "W3C",
         "deliveredBy": [
-            "https://www.w3.org/XML/Group/Linking"
+            "https://www.w3.org/XML/Core/"
         ],
-        "hasErrata": "https://www.w3.org/2001/06/xmlbase-errata",
+        "hasErrata": "https://www.w3.org/2009/01/xmlbase-errata",
         "versions": {
             "19991220": {
                 "status": "WD",
@@ -97713,7 +97715,9 @@
         "authors": [
             "Donald Eastlake",
             "Joseph Reagle",
-            "David Solo"
+            "David Solo",
+            "Frederick Hirsch",
+            "Thomas Roessler"
         ],
         "etAl": true,
         "href": "https://www.w3.org/TR/xmldsig-core/",
@@ -97721,9 +97725,10 @@
         "status": "REC",
         "publisher": "W3C",
         "deliveredBy": [
+            "https://www.w3.org/2007/xmlsec/",
             "https://www.w3.org/2008/xmlsec/"
         ],
-        "hasErrata": "https://www.w3.org/2001/10/xmldsig-errata",
+        "hasErrata": "https://www.w3.org/2008/06/xmldsigcore-errata.html",
         "versions": {
             "20000114": {
                 "status": "WD",
