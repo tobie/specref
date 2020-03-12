@@ -19684,6 +19684,9 @@
         },
         "repository": "https://github.com/w3c/csswg-drafts"
     },
+    "css-animation-worklet": {
+        "aliasOf": "css-animation-worklet-1"
+    },
     "css-animation-worklet-1": {
         "authors": [
             "Majid Valipour",
@@ -23401,6 +23404,12 @@
         },
         "repository": "https://github.com/w3c/csswg-drafts"
     },
+    "css-overscroll-behavior": {
+        "aliasOf": "css-overscroll"
+    },
+    "css-overscroll": {
+        "aliasOf": "css-overscroll-1"
+    },
     "css-overscroll-1": {
         "authors": [
             "Majid Valipour"
@@ -24229,6 +24238,9 @@
             }
         },
         "repository": "https://github.com/w3c/csswg-drafts"
+    },
+    "css-scroll-boundary-behavior": {
+        "aliasOf": "css-overscroll"
     },
     "css-scroll-snap-1": {
         "authors": [
