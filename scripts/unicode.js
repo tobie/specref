@@ -9,7 +9,7 @@ const helper = require('./helper');
 const FILENAME = "unicode.json";
 const current = helper.readBiblio(FILENAME);
 
-const MAX_REPORT = 53;
+const MAX_REPORT = 100;
 const skip = new Set([
     // Stabilized
     6, 16, 22, 26,
@@ -27,7 +27,7 @@ const skip = new Set([
     43, 48,
 
     // Not in HTML
-    25,
+    25, 54,
 ]);
 
 async.each(range(1, MAX_REPORT), (num, cb) => {
