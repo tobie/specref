@@ -11011,7 +11011,7 @@
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
-            "https://www.w3.org/MarkUp/Forms/2009/charter2010.html"
+            "https://www.w3.org/MarkUp/Forms/"
         ],
         "versions": {
             "20081219": {
@@ -11024,7 +11024,7 @@
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
-                    "https://www.w3.org/MarkUp/Forms/2009/charter2010.html"
+                    "https://www.w3.org/MarkUp/Forms/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
@@ -13634,7 +13634,7 @@
         ],
         "href": "https://www.w3.org/TR/appmanifest/",
         "title": "Web App Manifest",
-        "rawDate": "2019-12-09",
+        "rawDate": "2020-03-26",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -16011,6 +16011,25 @@
                     "https://www.w3.org/2019/webapps/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20200326": {
+                "authors": [
+                    "Marcos Caceres",
+                    "Kenneth Christiansen",
+                    "Mounir Lamouri",
+                    "Anssi Kostiainen",
+                    "Matt Giuca",
+                    "Aaron Gustafson"
+                ],
+                "href": "https://www.w3.org/TR/2020/WD-appmanifest-20200326/",
+                "title": "Web App Manifest",
+                "rawDate": "2020-03-26",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2019/webapps/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
         "edDraft": "https://w3c.github.io/manifest/",
@@ -16193,7 +16212,7 @@
         ],
         "href": "https://www.w3.org/TR/audiobooks/",
         "title": "Audiobooks",
-        "rawDate": "2020-01-28",
+        "rawDate": "2020-03-17",
         "status": "CR",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/audiobooks/",
@@ -16282,6 +16301,21 @@
                 "href": "https://www.w3.org/TR/2020/CR-audiobooks-20200128/",
                 "title": "Audiobooks",
                 "rawDate": "2020-01-28",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/publishing/groups/publ-wg/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20200317": {
+                "authors": [
+                    "Wendy Reid",
+                    "Matt Garrish"
+                ],
+                "href": "https://www.w3.org/TR/2020/CR-audiobooks-20200317/",
+                "title": "Audiobooks",
+                "rawDate": "2020-03-17",
                 "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -17067,8 +17101,8 @@
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
-            "https://www.w3.org/das/",
-            "https://www.w3.org/2011/04/webrtc/"
+            "https://www.w3.org/2011/04/webrtc/",
+            "https://www.w3.org/das/"
         ],
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
         "versions": {
@@ -17082,8 +17116,8 @@
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
-                    "https://www.w3.org/das/",
-                    "https://www.w3.org/2011/04/webrtc/"
+                    "https://www.w3.org/2011/04/webrtc/",
+                    "https://www.w3.org/das/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
@@ -18076,11 +18110,13 @@
     "coga-usable": {
         "authors": [
             "Lisa Seeman-Kestenbaum",
-            "Michael Cooper"
+            "Rachael Montgomery",
+            "Steve Lee",
+            "Ruoxi Ran"
         ],
         "href": "https://www.w3.org/TR/coga-usable/",
-        "title": "Making Content Usable for People with Cognitive and Learning Disabilities",
-        "rawDate": "2019-07-16",
+        "title": "Making content usable for people with cognitive and learning disabilities",
+        "rawDate": "2020-03-27",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/coga/content-usable/",
@@ -18114,6 +18150,24 @@
                 "href": "https://www.w3.org/TR/2019/WD-coga-usable-20190716/",
                 "title": "Making Content Usable for People with Cognitive and Learning Disabilities",
                 "rawDate": "2019-07-16",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WAI/APA/",
+                    "https://www.w3.org/WAI/GL/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20200327": {
+                "authors": [
+                    "Lisa Seeman-Kestenbaum",
+                    "Rachael Montgomery",
+                    "Steve Lee",
+                    "Ruoxi Ran"
+                ],
+                "href": "https://www.w3.org/TR/2020/WD-coga-usable-20200327/",
+                "title": "Making content usable for people with cognitive and learning disabilities",
+                "rawDate": "2020-03-27",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -23404,9 +23458,6 @@
         },
         "repository": "https://github.com/w3c/csswg-drafts"
     },
-    "css-overscroll-behavior": {
-        "aliasOf": "css-overscroll"
-    },
     "css-overscroll": {
         "aliasOf": "css-overscroll-1"
     },
@@ -23441,6 +23492,9 @@
             }
         },
         "repository": "https://github.com/w3c/csswg-drafts"
+    },
+    "css-overscroll-behavior": {
+        "aliasOf": "css-overscroll"
     },
     "css-page-3": {
         "authors": [
@@ -24691,6 +24745,95 @@
     },
     "css-snappoints-1": {
         "aliasOf": "css-scroll-snap-1"
+    },
+    "css-speech-1": {
+        "authors": [
+            "Daniel Weck"
+        ],
+        "href": "https://www.w3.org/TR/css-speech-1/",
+        "title": "CSS Speech Module",
+        "rawDate": "2020-03-10",
+        "status": "CR",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/Style/CSS/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20030514": {
+                "status": "WD",
+                "rawDate": "2003-05-14",
+                "href": "https://www.w3.org/TR/2003/WD-css3-speech-20030514",
+                "source": "./data/w3c-specs.txt"
+            },
+            "20040727": {
+                "status": "WD",
+                "rawDate": "2004-07-27",
+                "href": "https://www.w3.org/TR/2004/WD-css3-speech-20040727",
+                "source": "./data/w3c-specs.txt"
+            },
+            "20041216": {
+                "status": "WD",
+                "rawDate": "2004-12-16",
+                "href": "https://www.w3.org/TR/2004/WD-css3-speech-20041216/",
+                "source": "./data/w3c-specs.txt"
+            },
+            "20110419": {
+                "status": "WD",
+                "rawDate": "2011-04-19",
+                "href": "https://www.w3.org/TR/2011/WD-css3-speech-20110419",
+                "source": "./data/w3c-specs.txt"
+            },
+            "20110818": {
+                "status": "WD",
+                "rawDate": "2011-08-18",
+                "href": "https://www.w3.org/TR/2011/WD-css3-speech-20110818/",
+                "source": "./data/w3c-specs.txt"
+            },
+            "20120320": {
+                "authors": [
+                    "Daniel Weck"
+                ],
+                "href": "https://www.w3.org/TR/2012/CR-css3-speech-20120320/",
+                "title": "CSS Speech Module",
+                "rawDate": "2012-03-20",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Style/CSS/members"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20180605": {
+                "authors": [
+                    "Daniel Weck"
+                ],
+                "href": "https://www.w3.org/TR/2018/NOTE-css3-speech-20180605/",
+                "title": "CSS Speech Module",
+                "rawDate": "2018-06-05",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Style/CSS/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+                "isRetired": true
+            },
+            "20200310": {
+                "authors": [
+                    "Daniel Weck"
+                ],
+                "href": "https://www.w3.org/TR/2020/CR-css-speech-1-20200310/",
+                "title": "CSS Speech Module",
+                "rawDate": "2020-03-10",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Style/CSS/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        }
     },
     "css-style-attr": {
         "authors": [
@@ -27436,82 +27579,7 @@
         "aliasOf": "css-sizing-3"
     },
     "css3-speech": {
-        "authors": [
-            "Daniel Weck"
-        ],
-        "href": "https://www.w3.org/TR/css3-speech/",
-        "title": "CSS Speech Module",
-        "status": "NOTE",
-        "publisher": "W3C",
-        "deliveredBy": [
-            "https://www.w3.org/Style/CSS/"
-        ],
-        "versions": {
-            "20030514": {
-                "status": "WD",
-                "rawDate": "2003-05-14",
-                "href": "https://www.w3.org/TR/2003/WD-css3-speech-20030514",
-                "source": "./data/w3c-specs.txt"
-            },
-            "20040727": {
-                "status": "WD",
-                "rawDate": "2004-07-27",
-                "href": "https://www.w3.org/TR/2004/WD-css3-speech-20040727",
-                "source": "./data/w3c-specs.txt"
-            },
-            "20041216": {
-                "status": "WD",
-                "rawDate": "2004-12-16",
-                "href": "https://www.w3.org/TR/2004/WD-css3-speech-20041216/",
-                "source": "./data/w3c-specs.txt"
-            },
-            "20110419": {
-                "status": "WD",
-                "rawDate": "2011-04-19",
-                "href": "https://www.w3.org/TR/2011/WD-css3-speech-20110419",
-                "source": "./data/w3c-specs.txt"
-            },
-            "20110818": {
-                "status": "WD",
-                "rawDate": "2011-08-18",
-                "href": "https://www.w3.org/TR/2011/WD-css3-speech-20110818/",
-                "source": "./data/w3c-specs.txt"
-            },
-            "20120320": {
-                "authors": [
-                    "Daniel Weck"
-                ],
-                "href": "https://www.w3.org/TR/2012/CR-css3-speech-20120320/",
-                "title": "CSS Speech Module",
-                "rawDate": "2012-03-20",
-                "status": "CR",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/Style/CSS/members"
-                ],
-                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
-            },
-            "20180605": {
-                "authors": [
-                    "Daniel Weck"
-                ],
-                "href": "https://www.w3.org/TR/2018/NOTE-css3-speech-20180605/",
-                "title": "CSS Speech Module",
-                "rawDate": "2018-06-05",
-                "status": "NOTE",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/Style/CSS/"
-                ],
-                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
-                "isRetired": true
-            }
-        },
-        "rawDate": "2018-06-05",
-        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
-        "edDraft": "https://drafts.csswg.org/css-speech-1/",
-        "repository": "https://github.com/w3c/csswg-drafts",
-        "isRetired": true
+        "aliasOf": "css-speech-1"
     },
     "css3-syntax": {
         "aliasOf": "css-syntax-3"
@@ -29256,7 +29324,7 @@
         ],
         "href": "https://www.w3.org/TR/did-core/",
         "title": "Decentralized Identifiers (DIDs) v1.0",
-        "rawDate": "2020-03-05",
+        "rawDate": "2020-03-23",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/did-core/",
@@ -29418,6 +29486,24 @@
                 "href": "https://www.w3.org/TR/2020/WD-did-core-20200305/",
                 "title": "Decentralized Identifiers (DIDs) v1.0",
                 "rawDate": "2020-03-05",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2019/did-wg/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20200323": {
+                "authors": [
+                    "Drummond Reed",
+                    "Manu Sporny",
+                    "Markus Sabadello",
+                    "Dave Longley",
+                    "Christopher Allen"
+                ],
+                "href": "https://www.w3.org/TR/2020/WD-did-core-20200323/",
+                "title": "Decentralized Identifiers (DIDs) v1.0",
+                "rawDate": "2020-03-23",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -29838,8 +29924,8 @@
         ],
         "href": "https://www.w3.org/TR/dom41/",
         "title": "W3C DOM 4.1",
-        "rawDate": "2018-02-01",
-        "status": "WD",
+        "rawDate": "2020-03-17",
+        "status": "NOTE",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/dom/",
         "deliveredBy": [
@@ -29972,9 +30058,25 @@
                     "https://www.w3.org/WebPlatform/WG/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20200317": {
+                "authors": [
+                    "Yongsheng Zhu"
+                ],
+                "href": "https://www.w3.org/TR/2020/NOTE-dom41-20200317/",
+                "title": "W3C DOM 4.1",
+                "rawDate": "2020-03-17",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "isRetired": true,
+                "deliveredBy": [
+                    "https://www.w3.org/WebPlatform/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "repository": "https://github.com/w3c/dom"
+        "repository": "https://github.com/w3c/dom",
+        "isRetired": true
     },
     "domcore": {
         "aliasOf": "dom"
@@ -42958,8 +43060,8 @@
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
-            "https://www.w3.org/das/",
-            "https://www.w3.org/2011/04/webrtc/"
+            "https://www.w3.org/2011/04/webrtc/",
+            "https://www.w3.org/das/"
         ],
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
         "versions": {
@@ -43348,8 +43450,8 @@
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
-                    "https://www.w3.org/das/",
-                    "https://www.w3.org/2011/04/webrtc/"
+                    "https://www.w3.org/2011/04/webrtc/",
+                    "https://www.w3.org/das/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
@@ -45043,7 +45145,7 @@
         ],
         "href": "https://www.w3.org/TR/json-ld11/",
         "title": "JSON-LD 1.1",
-        "rawDate": "2020-03-05",
+        "rawDate": "2020-03-16",
         "status": "CR",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/json-ld-syntax/",
@@ -45241,6 +45343,22 @@
                 "href": "https://www.w3.org/TR/2020/CR-json-ld11-20200305/",
                 "title": "JSON-LD 1.1",
                 "rawDate": "2020-03-05",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2018/json-ld-wg/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20200316": {
+                "authors": [
+                    "Gregg Kellogg",
+                    "Pierre-Antoine Champin",
+                    "Dave Longley"
+                ],
+                "href": "https://www.w3.org/TR/2020/CR-json-ld11-20200316/",
+                "title": "JSON-LD 1.1",
+                "rawDate": "2020-03-16",
                 "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -46599,7 +46717,7 @@
         ],
         "href": "https://www.w3.org/TR/lpf/",
         "title": "Lightweight Packaging Format (LPF)",
-        "rawDate": "2019-12-05",
+        "rawDate": "2020-03-19",
         "status": "NOTE",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/lpf/",
@@ -46615,6 +46733,20 @@
                 "href": "https://www.w3.org/TR/2019/NOTE-lpf-20191205/",
                 "title": "Lightweight Packaging Format (LPF)",
                 "rawDate": "2019-12-05",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/publishing/groups/publ-wg/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20200319": {
+                "authors": [
+                    "Laurent Le Meur"
+                ],
+                "href": "https://www.w3.org/TR/2020/NOTE-lpf-20200319/",
+                "title": "Lightweight Packaging Format (LPF)",
+                "rawDate": "2020-03-19",
                 "status": "NOTE",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -47948,8 +48080,8 @@
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/mediacapture-fromelement/",
         "deliveredBy": [
-            "https://www.w3.org/das/",
-            "https://www.w3.org/2011/04/webrtc/"
+            "https://www.w3.org/2011/04/webrtc/",
+            "https://www.w3.org/das/"
         ],
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
         "versions": {
@@ -48057,8 +48189,8 @@
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
-                    "https://www.w3.org/das/",
-                    "https://www.w3.org/2011/04/webrtc/"
+                    "https://www.w3.org/2011/04/webrtc/",
+                    "https://www.w3.org/das/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
@@ -48514,7 +48646,7 @@
         ],
         "href": "https://www.w3.org/TR/mediaqueries-5/",
         "title": "Media Queries Level 5",
-        "rawDate": "2020-03-03",
+        "rawDate": "2020-03-18",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://drafts.csswg.org/mediaqueries-5/",
@@ -48532,6 +48664,22 @@
                 "href": "https://www.w3.org/TR/2020/WD-mediaqueries-5-20200303/",
                 "title": "Media Queries Level 5",
                 "rawDate": "2020-03-03",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Style/CSS/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20200318": {
+                "authors": [
+                    "Dean Jackson",
+                    "Florian Rivoal",
+                    "Tab Atkins Jr."
+                ],
+                "href": "https://www.w3.org/TR/2020/WD-mediaqueries-5-20200318/",
+                "title": "Media Queries Level 5",
+                "rawDate": "2020-03-18",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -48588,8 +48736,8 @@
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
-            "https://www.w3.org/das/",
-            "https://www.w3.org/2011/04/webrtc/"
+            "https://www.w3.org/2011/04/webrtc/",
+            "https://www.w3.org/das/"
         ],
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
         "versions": {
@@ -48860,8 +49008,8 @@
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
-                    "https://www.w3.org/das/",
-                    "https://www.w3.org/2011/04/webrtc/"
+                    "https://www.w3.org/2011/04/webrtc/",
+                    "https://www.w3.org/das/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
@@ -53366,7 +53514,7 @@
         ],
         "href": "https://www.w3.org/TR/owl-time/",
         "title": "Time Ontology in OWL",
-        "status": "REC",
+        "status": "CR",
         "publisher": "W3C",
         "deliveredBy": [
             "https://www.w3.org/2015/spatial/"
@@ -53462,9 +53610,24 @@
                 ],
                 "hasErrata": "https://www.w3.org/2017/10/owl-time-errata.html",
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20200326": {
+                "authors": [
+                    "Simon Cox",
+                    "Chris Little"
+                ],
+                "href": "https://www.w3.org/TR/2020/CR-owl-time-20200326/",
+                "title": "Time Ontology in OWL",
+                "rawDate": "2020-03-26",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2015/spatial/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2017-10-19",
+        "rawDate": "2020-03-26",
         "isRetired": true,
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
         "edDraft": "https://w3c.github.io/sdw/time/",
@@ -60661,6 +60824,40 @@
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
         "edDraft": "http://dvcs.w3.org/hg/progress/raw-file/tip/Overview.html"
     },
+    "pronunciation-explainer": {
+        "authors": [
+            "Markku Hakkinen",
+            "Irfan Ali"
+        ],
+        "href": "https://www.w3.org/TR/pronunciation-explainer/",
+        "title": "Explainer: Improving Spoken Presentation on the Web",
+        "rawDate": "2020-03-10",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/pronunciation/explainer",
+        "deliveredBy": [
+            "https://www.w3.org/WAI/APA/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20200310": {
+                "authors": [
+                    "Markku Hakkinen",
+                    "Irfan Ali"
+                ],
+                "href": "https://www.w3.org/TR/2020/WD-pronunciation-explainer-20200310/",
+                "title": "Explainer: Improving Spoken Presentation on the Web",
+                "rawDate": "2020-03-10",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WAI/APA/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        },
+        "repository": "https://github.com/w3c/pronunciation"
+    },
     "pronunciation-gap-analysis": {
         "authors": [
             "Markku Hakkinen",
@@ -60670,8 +60867,8 @@
         ],
         "href": "https://www.w3.org/TR/pronunciation-gap-analysis/",
         "title": "Pronunciation Gap Analysis",
-        "rawDate": "2019-09-05",
-        "status": "WD",
+        "rawDate": "2020-03-17",
+        "status": "NOTE",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/pronunciation/gap-analysis",
         "deliveredBy": [
@@ -60689,6 +60886,67 @@
                 "href": "https://www.w3.org/TR/2019/WD-pronunciation-gap-analysis-20190905/",
                 "title": "Pronunciation Gap Analysis",
                 "rawDate": "2019-09-05",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WAI/APA/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20200317": {
+                "authors": [
+                    "Markku Hakkinen",
+                    "Steve Noble",
+                    "Irfan Ali",
+                    "Ruoxi Ran"
+                ],
+                "href": "https://www.w3.org/TR/2020/NOTE-pronunciation-gap-analysis-20200317/",
+                "title": "Pronunciation Gap Analysis",
+                "rawDate": "2020-03-17",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "isRetired": true,
+                "deliveredBy": [
+                    "https://www.w3.org/WAI/APA/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        },
+        "repository": "https://github.com/w3c/pronunciation",
+        "isRetired": true
+    },
+    "pronunciation-gap-analysis-and-use-cases": {
+        "authors": [
+            "Markku Hakkinen",
+            "Steve Noble",
+            "Dee Dyer",
+            "Irfan Ali",
+            "Paul Grenier",
+            "Ruoxi Ran"
+        ],
+        "href": "https://www.w3.org/TR/pronunciation-gap-analysis-and-use-cases/",
+        "title": "Pronunciation Gap Analysis and Use Cases",
+        "rawDate": "2020-03-10",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/pronunciation/gap-analysis_and_use-case",
+        "deliveredBy": [
+            "https://www.w3.org/WAI/APA/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20200310": {
+                "authors": [
+                    "Markku Hakkinen",
+                    "Steve Noble",
+                    "Dee Dyer",
+                    "Irfan Ali",
+                    "Paul Grenier",
+                    "Ruoxi Ran"
+                ],
+                "href": "https://www.w3.org/TR/2020/WD-pronunciation-gap-analysis-and-use-cases-20200310/",
+                "title": "Pronunciation Gap Analysis and Use Cases",
+                "rawDate": "2020-03-10",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -60770,8 +61028,8 @@
         ],
         "href": "https://www.w3.org/TR/pronunciation-use-cases/",
         "title": "Pronunciation Use Cases",
-        "rawDate": "2019-09-05",
-        "status": "WD",
+        "rawDate": "2020-03-17",
+        "status": "NOTE",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/pronunciation/use-cases",
         "deliveredBy": [
@@ -60795,9 +61053,28 @@
                     "https://www.w3.org/WAI/APA/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20200317": {
+                "authors": [
+                    "Irfan Ali",
+                    "Paul Grenier",
+                    "Markku Hakkinen",
+                    "Ruoxi Ran"
+                ],
+                "href": "https://www.w3.org/TR/2020/NOTE-pronunciation-use-cases-20200317/",
+                "title": "Pronunciation Use Cases",
+                "rawDate": "2020-03-17",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "isRetired": true,
+                "deliveredBy": [
+                    "https://www.w3.org/WAI/APA/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "repository": "https://github.com/w3c/pronunciation"
+        "repository": "https://github.com/w3c/pronunciation",
+        "isRetired": true
     },
     "pronunciation-user-scenarios": {
         "authors": [
@@ -61626,7 +61903,7 @@
         ],
         "href": "https://www.w3.org/TR/pub-manifest/",
         "title": "Publication Manifest",
-        "rawDate": "2020-01-28",
+        "rawDate": "2020-03-17",
         "status": "CR",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/pub-manifest/",
@@ -61703,6 +61980,21 @@
                 "href": "https://www.w3.org/TR/2020/CR-pub-manifest-20200128/",
                 "title": "Publication Manifest",
                 "rawDate": "2020-01-28",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/publishing/groups/publ-wg/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20200317": {
+                "authors": [
+                    "Matt Garrish",
+                    "Ivan Herman"
+                ],
+                "href": "https://www.w3.org/TR/2020/CR-pub-manifest-20200317/",
+                "title": "Publication Manifest",
+                "rawDate": "2020-03-17",
                 "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -63107,6 +63399,44 @@
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         }
+    },
+    "raur": {
+        "authors": [
+            "Joshue O Connor",
+            "Janina Sajka",
+            "Jason White",
+            "Michael Cooper"
+        ],
+        "href": "https://www.w3.org/TR/raur/",
+        "title": "RTC Accessibility User Requirements",
+        "rawDate": "2020-03-19",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/apa/raur/",
+        "deliveredBy": [
+            "https://www.w3.org/WAI/APA/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20200319": {
+                "authors": [
+                    "Joshue O Connor",
+                    "Janina Sajka",
+                    "Jason White",
+                    "Michael Cooper"
+                ],
+                "href": "https://www.w3.org/TR/2020/WD-raur-20200319/",
+                "title": "RTC Accessibility User Requirements",
+                "rawDate": "2020-03-19",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WAI/APA/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        },
+        "repository": "https://github.com/w3c/apa"
     },
     "raw-sockets": {
         "aliasOf": "tcp-udp-sockets"
@@ -78048,8 +78378,8 @@
         ],
         "href": "https://www.w3.org/TR/ttml-imsc1.2/",
         "title": "TTML Profiles for Internet Media Subtitles and Captions 1.2",
-        "rawDate": "2019-11-28",
-        "status": "WD",
+        "rawDate": "2020-03-24",
+        "status": "CR",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/imsc/imsc1/spec/ttml-ww-profiles.html",
         "deliveredBy": [
@@ -78065,6 +78395,20 @@
                 "title": "TTML Profiles for Internet Media Subtitles and Captions 1.2",
                 "rawDate": "2019-11-28",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/AudioVideo/TT/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20200324": {
+                "authors": [
+                    "Pierre-Anthony Lemieux"
+                ],
+                "href": "https://www.w3.org/TR/2020/CR-ttml-imsc1.2-20200324/",
+                "title": "TTML Profiles for Internet Media Subtitles and Captions 1.2",
+                "rawDate": "2020-03-24",
+                "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/AudioVideo/TT/"
@@ -80005,7 +80349,7 @@
         ],
         "href": "https://www.w3.org/TR/user-timing-3/",
         "title": "User Timing Level 3",
-        "rawDate": "2019-09-27",
+        "rawDate": "2020-03-26",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/user-timing/",
@@ -80184,6 +80528,24 @@
                 "href": "https://www.w3.org/TR/2019/WD-user-timing-3-20190927/",
                 "title": "User Timing Level 3",
                 "rawDate": "2019-09-27",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/webperf/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20200326": {
+                "authors": [
+                    "Ilya Grigorik",
+                    "Nicolas Pena Moreno",
+                    "Jatinder Mann",
+                    "Zhiheng Wang",
+                    "Anderson Quach"
+                ],
+                "href": "https://www.w3.org/TR/2020/WD-user-timing-3-20200326/",
+                "title": "User Timing Level 3",
+                "rawDate": "2020-03-26",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -86730,8 +87092,8 @@
             "David Burns"
         ],
         "href": "https://www.w3.org/TR/webdriver2/",
-        "title": "WebDriver - Level 2",
-        "rawDate": "2019-11-24",
+        "title": "WebDriver",
+        "rawDate": "2020-03-27",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/webdriver/",
@@ -86763,6 +87125,21 @@
                 "href": "https://www.w3.org/TR/2019/WD-webdriver2-20191124/",
                 "title": "WebDriver - Level 2",
                 "rawDate": "2019-11-24",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/testing/browser/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20200327": {
+                "authors": [
+                    "Simon Stewart",
+                    "David Burns"
+                ],
+                "href": "https://www.w3.org/TR/2020/WD-webdriver2-20200327/",
+                "title": "WebDriver",
+                "rawDate": "2020-03-27",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -93114,7 +93491,7 @@
         "title": "XForms 1.0 (Third Edition)",
         "publisher": "W3C",
         "deliveredBy": [
-            "https://www.w3.org/MarkUp/Forms/2009/charter2010.html"
+            "https://www.w3.org/MarkUp/Forms/"
         ],
         "hasErrata": "https://www.w3.org/2007/10/REC-xforms-20071029-errata.html",
         "versions": {
@@ -93196,7 +93573,7 @@
                 "rawDate": "2003-10-14",
                 "publisher": "W3C",
                 "deliveredBy": [
-                    "https://www.w3.org/MarkUp/Forms/2009/charter2010.html"
+                    "https://www.w3.org/MarkUp/Forms/"
                 ],
                 "hasErrata": "https://www.w3.org/2003/10/REC-xforms-10-20031014-errata.html",
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
@@ -93222,7 +93599,7 @@
                 "rawDate": "2006-03-14",
                 "publisher": "W3C",
                 "deliveredBy": [
-                    "https://www.w3.org/MarkUp/Forms/2009/charter2010.html"
+                    "https://www.w3.org/MarkUp/Forms/"
                 ],
                 "hasErrata": "https://www.w3.org/2006/03/REC-xforms-20060314-errata.html",
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
@@ -93243,7 +93620,7 @@
                 "rawDate": "2007-10-29",
                 "publisher": "W3C",
                 "deliveredBy": [
-                    "https://www.w3.org/MarkUp/Forms/2009/charter2010.html"
+                    "https://www.w3.org/MarkUp/Forms/"
                 ],
                 "hasErrata": "https://www.w3.org/2007/10/REC-xforms-20071029-errata.html",
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
@@ -93267,7 +93644,7 @@
         "status": "NOTE",
         "publisher": "W3C",
         "deliveredBy": [
-            "https://www.w3.org/MarkUp/Forms/2009/charter2010.html"
+            "https://www.w3.org/MarkUp/Forms/"
         ],
         "versions": {
             "20040126": {
@@ -93293,7 +93670,7 @@
                 "status": "NOTE",
                 "publisher": "W3C",
                 "deliveredBy": [
-                    "https://www.w3.org/MarkUp/Forms/2009/charter2010.html"
+                    "https://www.w3.org/MarkUp/Forms/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
@@ -93311,7 +93688,7 @@
         "status": "CR",
         "publisher": "W3C",
         "deliveredBy": [
-            "https://www.w3.org/MarkUp/Forms/2009/charter2010.html"
+            "https://www.w3.org/MarkUp/Forms/"
         ],
         "versions": {
             "20031014": {
@@ -93325,7 +93702,7 @@
                 "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
-                    "https://www.w3.org/MarkUp/Forms/2009/charter2010.html"
+                    "https://www.w3.org/MarkUp/Forms/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
@@ -93344,7 +93721,7 @@
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
-            "https://www.w3.org/MarkUp/Forms/2009/charter2010.html"
+            "https://www.w3.org/MarkUp/Forms/"
         ],
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
         "versions": {
@@ -93359,7 +93736,7 @@
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
-                    "https://www.w3.org/MarkUp/Forms/2009/charter2010.html"
+                    "https://www.w3.org/MarkUp/Forms/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
@@ -93374,7 +93751,7 @@
         "status": "REC",
         "publisher": "W3C",
         "deliveredBy": [
-            "https://www.w3.org/MarkUp/Forms/2009/charter2010.html"
+            "https://www.w3.org/MarkUp/Forms/"
         ],
         "hasErrata": "https://www.w3.org/2009/10/REC-xforms-20091020-errata-20091020.html",
         "versions": {
@@ -93436,7 +93813,7 @@
                 "status": "REC",
                 "publisher": "W3C",
                 "deliveredBy": [
-                    "https://www.w3.org/MarkUp/Forms/2009/charter2010.html"
+                    "https://www.w3.org/MarkUp/Forms/"
                 ],
                 "hasErrata": "https://www.w3.org/2009/10/REC-xforms-20091020-errata-20091020.html",
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
@@ -93461,7 +93838,7 @@
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
-            "https://www.w3.org/MarkUp/Forms/2009/charter2010.html"
+            "https://www.w3.org/MarkUp/Forms/"
         ],
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
         "versions": {
@@ -93478,7 +93855,7 @@
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
-                    "https://www.w3.org/MarkUp/Forms/2009/charter2010.html"
+                    "https://www.w3.org/MarkUp/Forms/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
@@ -93808,7 +94185,7 @@
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
-            "https://www.w3.org/MarkUp/Forms/2009/charter2010.html"
+            "https://www.w3.org/MarkUp/Forms/"
         ],
         "versions": {
             "19990906": {
@@ -93841,7 +94218,7 @@
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
-                    "https://www.w3.org/MarkUp/Forms/2009/charter2010.html"
+                    "https://www.w3.org/MarkUp/Forms/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
@@ -96305,7 +96682,7 @@
         "status": "NOTE",
         "publisher": "W3C",
         "deliveredBy": [
-            "https://www.w3.org/MarkUp/Forms/2009/charter2010.html",
+            "https://www.w3.org/MarkUp/Forms/",
             "https://www.w3.org/MarkUp/"
         ],
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
@@ -96402,7 +96779,7 @@
                 "status": "NOTE",
                 "publisher": "W3C",
                 "deliveredBy": [
-                    "https://www.w3.org/MarkUp/Forms/2009/charter2010.html",
+                    "https://www.w3.org/MarkUp/Forms/",
                     "https://www.w3.org/MarkUp/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
