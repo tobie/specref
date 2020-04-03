@@ -223,6 +223,14 @@
         "source": "https://wicg.github.io/admin/biblio.json",
         "repository": "https://github.com/wicg/shape-detection-api"
     },
+    "SMS-ONE-TIME-CODES": {
+        "href": "https://wicg.github.io/sms-one-time-codes/",
+        "title": "Origin-bound one-time codes delivered via SMS",
+        "status": "cg-draft",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/sms-one-time-codes"
+    },
     "SPEECH-API": {
         "href": "https://wicg.github.io/speech-api/",
         "title": "Web Speech API",
@@ -424,6 +432,9 @@
     },
     "WICG-SHAPE-DETECTION-API": {
         "aliasOf": "SHAPE-DETECTION-API"
+    },
+    "WICG-SMS-ONE-TIME-CODES": {
+        "aliasOf": "SMS-ONE-TIME-CODES"
     },
     "WICG-SPEECH-API": {
         "aliasOf": "SPEECH-API"
