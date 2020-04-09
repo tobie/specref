@@ -90066,8 +90066,8 @@
         ],
         "href": "https://www.w3.org/TR/wot-architecture/",
         "title": "Web of Things (WoT) Architecture",
-        "rawDate": "2020-01-30",
-        "status": "PR",
+        "rawDate": "2020-04-09",
+        "status": "REC",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/wot-architecture/",
         "deliveredBy": [
@@ -90146,9 +90146,30 @@
                     "https://www.w3.org/WoT/WG/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20200409": {
+                "authors": [
+                    "Matthias Kovatsch",
+                    "Ryuichi Matsukura",
+                    "Michael Lagally",
+                    "Toru Kawaguchi",
+                    "Kunihiko Toumura",
+                    "Kazuo Kajimoto"
+                ],
+                "href": "https://www.w3.org/TR/2020/REC-wot-architecture-20200409/",
+                "title": "Web of Things (WoT) Architecture",
+                "rawDate": "2020-04-09",
+                "status": "REC",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WoT/WG/"
+                ],
+                "hasErrata": "https://w3c.github.io/wot-architecture/errata.html",
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "repository": "https://github.com/w3c/wot-architecture"
+        "repository": "https://github.com/w3c/wot-architecture",
+        "hasErrata": "https://w3c.github.io/wot-architecture/errata.html"
     },
     "wot-binding-templates": {
         "authors": [
@@ -90360,8 +90381,8 @@
         ],
         "href": "https://www.w3.org/TR/wot-thing-description/",
         "title": "Web of Things (WoT) Thing Description",
-        "rawDate": "2020-01-30",
-        "status": "PR",
+        "rawDate": "2020-04-09",
+        "status": "REC",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/wot-thing-description/",
         "deliveredBy": [
@@ -90466,9 +90487,29 @@
                     "https://www.w3.org/WoT/WG/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20200409": {
+                "authors": [
+                    "Sebastian Käbisch",
+                    "Takuki Kamiya",
+                    "Michael McCool",
+                    "Victor Charpenay",
+                    "Matthias Kovatsch"
+                ],
+                "href": "https://www.w3.org/TR/2020/REC-wot-thing-description-20200409/",
+                "title": "Web of Things (WoT) Thing Description",
+                "rawDate": "2020-04-09",
+                "status": "REC",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WoT/WG/"
+                ],
+                "hasErrata": "https://w3c.github.io/wot-thing-description/errata.html",
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "repository": "https://github.com/w3c/wot-thing-description"
+        "repository": "https://github.com/w3c/wot-thing-description",
+        "hasErrata": "https://w3c.github.io/wot-thing-description/errata.html"
     },
     "wpub": {
         "authors": [
