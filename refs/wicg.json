@@ -31,6 +31,14 @@
         "source": "https://wicg.github.io/admin/biblio.json",
         "repository": "https://github.com/wicg/budget-api"
     },
+    "CLIENT-HINTS-INFRASTRUCTURE": {
+        "href": "https://wicg.github.io/client-hints-infrastructure/",
+        "title": "Client Hints Infrastructure",
+        "status": "cg-draft",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/client-hints-infrastructure"
+    },
     "COOKIE-STORE": {
         "href": "https://wicg.github.io/cookie-store/",
         "title": "Cookie Store API",
@@ -306,6 +314,9 @@
     },
     "WICG-BUDGET-API": {
         "aliasOf": "BUDGET-API"
+    },
+    "WICG-CLIENT-HINTS-INFRASTRUCTURE": {
+        "aliasOf": "CLIENT-HINTS-INFRASTRUCTURE"
     },
     "WICG-COOKIE-STORE": {
         "aliasOf": "COOKIE-STORE"
