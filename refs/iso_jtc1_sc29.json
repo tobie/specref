@@ -7302,15 +7302,18 @@
         "rawDate": "2016-12",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
-    "iso23001-10-awiamd1": {
-        "aliasOf": "iso23001-10-cdamd1"
-    },
-    "iso23001-10-cdamd1": {
+    "iso23001-10-2020-cdamd1": {
         "href": "https://www.iso.org/standard/80758.html",
         "title": "Information technology — MPEG systems technologies — Part 10: Carriage of timed metadata metrics of media in ISO base media file format — Amendment 1: Support for Content-Guided Transcoding and Spatial Relationship of Immersive Media",
         "status": "Under development",
         "publisher": "ISO/IEC",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+    },
+    "iso23001-10-awiamd1": {
+        "aliasOf": "iso23001-10-cdamd1"
+    },
+    "iso23001-10-cdamd1": {
+        "aliasOf": "iso23001-10-2020-cdamd1"
     },
     "iso23001-11": {
         "href": "https://www.iso.org/standard/76384.html",
