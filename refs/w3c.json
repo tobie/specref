@@ -43785,6 +43785,42 @@
         "edDraft": "https://w3c.github.io/mediacapture-image/",
         "repository": "https://github.com/w3c/mediacapture-image"
     },
+    "image-resource": {
+        "authors": [
+            "Aaron Gustafson",
+            "Rayan Kanso",
+            "Marcos Caceres"
+        ],
+        "href": "https://www.w3.org/TR/image-resource/",
+        "title": "Image Resource",
+        "rawDate": "2020-05-07",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/image-resource/",
+        "deliveredBy": [
+            "https://www.w3.org/2019/webapps/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20200507": {
+                "authors": [
+                    "Aaron Gustafson",
+                    "Rayan Kanso",
+                    "Marcos Caceres"
+                ],
+                "href": "https://www.w3.org/TR/2020/WD-image-resource-20200507/",
+                "title": "Image Resource",
+                "rawDate": "2020-05-07",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2019/webapps/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        },
+        "repository": "https://github.com/w3c/image-resource"
+    },
     "ime-api": {
         "authors": [
             "Travis Leithead"
@@ -45471,8 +45507,8 @@
         ],
         "href": "https://www.w3.org/TR/json-ld11/",
         "title": "JSON-LD 1.1",
-        "rawDate": "2020-04-17",
-        "status": "CR",
+        "rawDate": "2020-05-07",
+        "status": "PR",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/json-ld-syntax/",
         "deliveredBy": [
@@ -45707,6 +45743,22 @@
                     "https://www.w3.org/2018/json-ld-wg/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20200507": {
+                "authors": [
+                    "Gregg Kellogg",
+                    "Pierre-Antoine Champin",
+                    "Dave Longley"
+                ],
+                "href": "https://www.w3.org/TR/2020/PR-json-ld11-20200507/",
+                "title": "JSON-LD 1.1",
+                "rawDate": "2020-05-07",
+                "status": "PR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2018/json-ld-wg/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
         "repository": "https://github.com/w3c/json-ld-syntax"
@@ -45719,8 +45771,8 @@
         ],
         "href": "https://www.w3.org/TR/json-ld11-api/",
         "title": "JSON-LD 1.1 Processing Algorithms and API",
-        "rawDate": "2020-04-17",
-        "status": "CR",
+        "rawDate": "2020-05-07",
+        "status": "PR",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/json-ld-api/",
         "deliveredBy": [
@@ -45919,6 +45971,22 @@
                     "https://www.w3.org/2018/json-ld-wg/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20200507": {
+                "authors": [
+                    "Gregg Kellogg",
+                    "Dave Longley",
+                    "Pierre-Antoine Champin"
+                ],
+                "href": "https://www.w3.org/TR/2020/PR-json-ld11-api-20200507/",
+                "title": "JSON-LD 1.1 Processing Algorithms and API",
+                "rawDate": "2020-05-07",
+                "status": "PR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2018/json-ld-wg/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
         "repository": "https://github.com/w3c/json-ld-api"
@@ -45931,8 +45999,8 @@
         ],
         "href": "https://www.w3.org/TR/json-ld11-framing/",
         "title": "JSON-LD 1.1 Framing",
-        "rawDate": "2020-04-17",
-        "status": "CR",
+        "rawDate": "2020-05-07",
+        "status": "PR",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/json-ld-framing/",
         "deliveredBy": [
@@ -46133,9 +46201,57 @@
                     "https://www.w3.org/2018/json-ld-wg/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20200507": {
+                "authors": [
+                    "Dave Longley",
+                    "Gregg Kellogg",
+                    "Pierre-Antoine Champin"
+                ],
+                "href": "https://www.w3.org/TR/2020/PR-json-ld11-framing-20200507/",
+                "title": "JSON-LD 1.1 Framing",
+                "rawDate": "2020-05-07",
+                "status": "PR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2018/json-ld-wg/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
         "repository": "https://github.com/w3c/json-ld-framing"
+    },
+    "json-ld11-streaming": {
+        "authors": [
+            "Ruben Taelman"
+        ],
+        "href": "https://www.w3.org/TR/json-ld11-streaming/",
+        "title": "Streaming JSON-LD",
+        "rawDate": "2020-05-07",
+        "status": "NOTE",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/json-ld-streaming/",
+        "deliveredBy": [
+            "https://www.w3.org/2018/json-ld-wg/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20200507": {
+                "authors": [
+                    "Ruben Taelman"
+                ],
+                "href": "https://www.w3.org/TR/2020/NOTE-json-ld11-streaming-20200507/",
+                "title": "Streaming JSON-LD",
+                "rawDate": "2020-05-07",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2018/json-ld-wg/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        },
+        "repository": "https://github.com/w3c/json-ld-streaming"
     },
     "klreq": {
         "authors": [
