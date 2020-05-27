@@ -1953,7 +1953,7 @@
         "obsoletes": [
             "font"
         ],
-        "edDraft": "http://dev.w3.org/csswg/css2/",
+        "edDraft": "https://drafts.csswg.org/css2/",
         "repository": "https://github.com/w3c/csswg-drafts"
     },
     "CSS21": {
@@ -4662,7 +4662,8 @@
         },
         "rawDate": "2015-01-08",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
-        "edDraft": "http://dvcs.w3.org/hg/IndexedDB/raw-file/tip/Overview.html"
+        "edDraft": "https://w3c.github.io/IndexedDB/",
+        "repository": "https://github.com/w3c/IndexedDB"
     },
     "IndexedDB-2": {
         "authors": [
@@ -27706,7 +27707,7 @@
         },
         "rawDate": "2012-06-19",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
-        "edDraft": "http://dev.w3.org/csswg/css3-mediaqueries/",
+        "edDraft": "https://drafts.csswg.org/mediaqueries-3/",
         "repository": "https://github.com/w3c/csswg-drafts"
     },
     "css3-multicol": {
@@ -33457,7 +33458,8 @@
         ],
         "rawDate": "2015-02-03",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
-        "edDraft": "http://dev.w3.org/html5/eventsource/"
+        "edDraft": "https://html.spec.whatwg.org/multipage/server-sent-events.html",
+        "repository": "https://github.com/whatwg/html"
     },
     "exi": {
         "authors": [
@@ -61514,7 +61516,8 @@
         },
         "rawDate": "2014-02-11",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
-        "edDraft": "http://dvcs.w3.org/hg/progress/raw-file/tip/Overview.html"
+        "edDraft": "https://xhr.spec.whatwg.org/",
+        "repository": "https://github.com/whatwg/xhr"
     },
     "pronunciation-explainer": {
         "authors": [
@@ -88259,8 +88262,9 @@
         ],
         "rawDate": "2015-05-19",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
-        "edDraft": "http://dev.w3.org/html5/postmsg/",
-        "hasErrata": "https://www.w3.org/2008/webapps/wiki/Errata/WebMessaging"
+        "edDraft": "https://html.spec.whatwg.org/multipage/web-messaging.html",
+        "hasErrata": "https://www.w3.org/2008/webapps/wiki/Errata/WebMessaging",
+        "repository": "https://github.com/whatwg/html"
     },
     "webmidi": {
         "authors": [
