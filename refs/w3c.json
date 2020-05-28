@@ -5303,20 +5303,7 @@
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
     "NOTE-XSL": {
-        "versions": {
-            "19970910": {
-                "status": "NOTE",
-                "rawDate": "1997-09-10",
-                "href": "https://www.w3.org/TR/NOTE-XSL-970910",
-                "source": "./data/w3c-specs.txt"
-            }
-        },
-        "href": "https://www.w3.org/TR/NOTE-XSL",
-        "publisher": "W3C",
-        "source": "./data/w3c-specs.txt",
-        "status": "NOTE",
-        "rawDate": "1997-09-10",
-        "title": "A Proposal for XSL"
+        "aliasOf": "xsl"
     },
     "NOTE-cgm": {
         "authors": [
@@ -105851,6 +105838,12 @@
         ],
         "hasErrata": "https://www.w3.org/2001/10/REC-XSL-20011015-errata",
         "versions": {
+            "19970910": {
+                "status": "NOTE",
+                "rawDate": "1997-09-10",
+                "href": "https://www.w3.org/TR/NOTE-XSL-970910",
+                "source": "./data/w3c-specs.txt"
+            },
             "19990421": {
                 "status": "WD",
                 "rawDate": "1999-04-21",
