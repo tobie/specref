@@ -5739,49 +5739,70 @@
     "iso15938-6": {
         "href": "https://www.iso.org/standard/68939.html",
         "title": "Information technology — Multimedia content description interface — Part 6: Reference software",
-        "status": "Under development",
+        "status": "Published",
         "publisher": "ISO/IEC",
+        "isoNumber": "ISO 15938-6:2020",
         "rawDate": "2020-06",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso15938-6-2003-amd1-2006": {
         "href": "https://www.iso.org/standard/40493.html",
         "title": "Information technology — Multimedia content description interface — Part 6: Reference software — Amendment 1: Reference software extensions",
-        "status": "Published",
+        "status": "Withdrawn",
         "publisher": "ISO/IEC",
+        "isSuperseded": true,
         "rawDate": "2006-05",
+        "obsoletedBy": [
+            "iso15938-6"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso15938-6-2003-amd1-2006-cor1-2007": {
         "href": "https://www.iso.org/standard/46304.html",
         "title": "Information technology — Multimedia content description interface — Part 6: Reference software — Amendment 1: Reference software extensions — Technical Corrigendum 1",
-        "status": "Published",
+        "status": "Withdrawn",
         "publisher": "ISO/IEC",
+        "isSuperseded": true,
         "rawDate": "2007-09",
+        "obsoletedBy": [
+            "iso15938-6"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso15938-6-2003-amd2-2007": {
         "href": "https://www.iso.org/standard/45528.html",
         "title": "Information technology — Multimedia content description interface — Part 6: Reference software — Amendment 2: Reference software of perceptual 3D shape descriptor",
-        "status": "Published",
+        "status": "Withdrawn",
         "publisher": "ISO/IEC",
+        "isSuperseded": true,
         "rawDate": "2007-11",
+        "obsoletedBy": [
+            "iso15938-6"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso15938-6-2003-amd3-2010": {
         "href": "https://www.iso.org/standard/53592.html",
         "title": "Information technology — Multimedia content description interface — Part 6: Reference software — Amendment 3: Reference software for image signature tools",
-        "status": "Published",
+        "status": "Withdrawn",
         "publisher": "ISO/IEC",
+        "isSuperseded": true,
         "rawDate": "2010-05",
+        "obsoletedBy": [
+            "iso15938-6"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso15938-6-2003-amd4-2011": {
         "href": "https://www.iso.org/standard/56735.html",
         "title": "Information technology — Multimedia content description interface — Part 6: Reference software — Amendment 4: Reference software for video signature tools",
-        "status": "Published",
+        "status": "Withdrawn",
         "publisher": "ISO/IEC",
+        "isSuperseded": true,
         "rawDate": "2011-10",
+        "obsoletedBy": [
+            "iso15938-6"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso15938-7": {
@@ -8031,25 +8052,34 @@
     "iso23003-4": {
         "href": "https://www.iso.org/standard/75930.html",
         "title": "Information technology — MPEG audio technologies — Part 4: Dynamic range control",
-        "status": "Under development",
+        "status": "Published",
         "publisher": "ISO/IEC",
+        "isoNumber": "ISO 23003-4:2020",
         "rawDate": "2020-06",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23003-4-2015-amd1-2017": {
         "href": "https://www.iso.org/standard/70437.html",
         "title": "Information technology — MPEG audio technologies — Part 4: Dynamic Range Control — Amendment 1: Parametric DRC, gain mapping and equalization tools",
-        "status": "Published",
+        "status": "Withdrawn",
         "publisher": "ISO/IEC",
+        "isSuperseded": true,
         "rawDate": "2017-09",
+        "obsoletedBy": [
+            "iso23003-4"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23003-4-2015-amd2-2017": {
         "href": "https://www.iso.org/standard/71074.html",
         "title": "Information technology — MPEG audio technologies — Part 4: Dynamic Range Control — Amendment 2: Reference software",
-        "status": "Published",
+        "status": "Withdrawn",
         "publisher": "ISO/IEC",
+        "isSuperseded": true,
         "rawDate": "2017-10",
+        "obsoletedBy": [
+            "iso23003-4"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23003-4-2015-damd3": {
@@ -8389,6 +8419,7 @@
         "title": "Information technology — High efficiency coding and media delivery in heterogeneous environments — Part 1: MPEG media transport (MMT) — Amendment 1: Support of FCAST",
         "status": "Under development",
         "publisher": "ISO/IEC",
+        "rawDate": "2021-05",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23008-1-wdamd1": {
@@ -8660,8 +8691,9 @@
     "iso23008-4": {
         "href": "https://www.iso.org/standard/68662.html",
         "title": "Information technology — High efficiency coding and media delivery in heterogeneous environments — Part 4: MMT reference software",
-        "status": "Under development",
+        "status": "Published",
         "publisher": "ISO/IEC",
+        "isoNumber": "ISO 23008-4:2020",
         "rawDate": "2020-06",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
@@ -8678,6 +8710,9 @@
         "status": "Deleted",
         "publisher": "ISO/IEC",
         "isRetired": true,
+        "obsoletedBy": [
+            "iso23008-4"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23008-4-pdam2": {
