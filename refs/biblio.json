@@ -92,13 +92,7 @@
         "publisher": "ANSI"
     },
     "API-DESIGN-PRINCIPLES": {
-        "title": "API Design Principles",
-        "href": "https://w3ctag.github.io/design-principles/",
-        "authors": [
-            "Domenic Denicola"
-        ],
-        "rawDate": "2015-12-29",
-        "repository": "https://github.com/w3ctag/design-principles"
+        "aliasOf": "DESIGN-PRINCIPLES"
     },
     "APNG": {
         "authors": [
@@ -3640,6 +3634,15 @@
         "publisher": "OGC",
         "ogcNumber": "OGC 11-052r4",
         "rawDate": "2012-09-10"
+    },
+    "DESIGN-PRINCIPLES": {
+        "title": "Web Platform Design Principles",
+        "href": "https://w3ctag.github.io/design-principles/",
+        "authors": [
+            "Sangwhan Moon"
+        ],
+        "rawDate": "2020-06-04",
+        "repository": "https://github.com/w3ctag/design-principles"
     },
     "gml": {
         "href": "http://www.opengeospatial.org/standards/gml",
