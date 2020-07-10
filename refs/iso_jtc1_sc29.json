@@ -2742,9 +2742,12 @@
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso14496-22-2019-amd1": {
+        "aliasOf": "iso14496-22-2019-amd1-2020"
+    },
+    "iso14496-22-2019-amd1-2020": {
         "href": "https://www.iso.org/standard/78865.html",
         "title": "Information technology — Coding of audio-visual objects — Part 22: Open Font Format — Amendment 1: Color font technology and other updates",
-        "status": "Under development",
+        "status": "Published",
         "publisher": "ISO/IEC",
         "rawDate": "2020-06",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
@@ -7963,81 +7966,118 @@
     "iso23003-3": {
         "href": "https://www.iso.org/standard/76385.html",
         "title": "Information technology — MPEG audio technologies — Part 3: Unified speech and audio coding",
-        "status": "Under development",
+        "status": "Published",
         "publisher": "ISO/IEC",
+        "isoNumber": "ISO 23003-3:2020",
         "rawDate": "2020-06",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23003-3-2012-amd1-2014": {
         "href": "https://www.iso.org/standard/62117.html",
         "title": "Information technology — MPEG audio technologies — Part 3: Unified speech and audio coding — Amendment 1: Conformance",
-        "status": "Published",
+        "status": "Withdrawn",
         "publisher": "ISO/IEC",
+        "isSuperseded": true,
         "rawDate": "2014-03",
+        "obsoletedBy": [
+            "iso23003-3"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23003-3-2012-amd1-2014-cor1-2015": {
         "href": "https://www.iso.org/standard/66478.html",
         "title": "Information technology — MPEG audio technologies — Part 3: Unified speech and audio coding — Amendment 1: Conformance — Technical Corrigendum 1",
-        "status": "Published",
+        "status": "Withdrawn",
         "publisher": "ISO/IEC",
+        "isSuperseded": true,
         "rawDate": "2015-07",
+        "obsoletedBy": [
+            "iso23003-3"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23003-3-2012-amd2-2015": {
         "href": "https://www.iso.org/standard/62118.html",
         "title": "Information technology — MPEG audio technologies — Part 3: Unified speech and audio coding — Amendment 2: Reference software",
-        "status": "Published",
+        "status": "Withdrawn",
         "publisher": "ISO/IEC",
+        "isSuperseded": true,
         "rawDate": "2015-05",
+        "obsoletedBy": [
+            "iso23003-3"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23003-3-2012-amd2-2015-cor1-2015": {
         "href": "https://www.iso.org/standard/66572.html",
         "title": "Information technology — MPEG audio technologies — Part 3: Unified speech and audio coding — Amendment 2: Reference software  — Technical Corrigendum 1",
-        "status": "Published",
+        "status": "Withdrawn",
         "publisher": "ISO/IEC",
+        "isSuperseded": true,
         "rawDate": "2015-04",
+        "obsoletedBy": [
+            "iso23003-3"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23003-3-2012-amd3-2016": {
         "href": "https://www.iso.org/standard/68643.html",
         "title": "Information technology — MPEG audio technologies — Part 3: Unified speech and audio coding — Amendment 3: Support of MPEG-D DRC, audio pre-roll and immediate play-out frame",
-        "status": "Published",
+        "status": "Withdrawn",
         "publisher": "ISO/IEC",
+        "isSuperseded": true,
         "rawDate": "2016-08",
+        "obsoletedBy": [
+            "iso23003-3"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23003-3-2012-cor1-2012": {
         "href": "https://www.iso.org/standard/61751.html",
         "title": "Information technology — MPEG audio technologies — Part 3: Unified speech and audio coding — Technical Corrigendum 1",
-        "status": "Published",
+        "status": "Withdrawn",
         "publisher": "ISO/IEC",
+        "isSuperseded": true,
         "rawDate": "2012-09",
+        "obsoletedBy": [
+            "iso23003-3"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23003-3-2012-cor2-2013": {
         "href": "https://www.iso.org/standard/63965.html",
         "title": "Information technology — MPEG audio technologies — Part 3: Unified speech and audio coding — Technical Corrigendum 2",
-        "status": "Published",
+        "status": "Withdrawn",
         "publisher": "ISO/IEC",
+        "isSuperseded": true,
         "rawDate": "2013-09",
+        "obsoletedBy": [
+            "iso23003-3"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23003-3-2012-cor3-2015": {
         "href": "https://www.iso.org/standard/66571.html",
         "title": "Information technology — MPEG audio technologies — Part 3: Unified speech and audio coding — Technical Corrigendum 3",
-        "status": "Published",
+        "status": "Withdrawn",
         "publisher": "ISO/IEC",
+        "isSuperseded": true,
         "rawDate": "2015-04",
+        "obsoletedBy": [
+            "iso23003-3"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23003-3-2012-cor4-2015": {
         "href": "https://www.iso.org/standard/68644.html",
         "title": "Information technology — MPEG audio technologies — Part 3: Unified speech and audio coding — Technical Corrigendum 4",
-        "status": "Published",
+        "status": "Withdrawn",
         "publisher": "ISO/IEC",
+        "isSuperseded": true,
         "rawDate": "2015-09",
+        "obsoletedBy": [
+            "iso23003-3"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23003-3-2012-damd4": {
@@ -8497,6 +8537,9 @@
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23008-12-2017-damd2": {
+        "aliasOf": "iso23008-12-2017-fdamd2"
+    },
+    "iso23008-12-2017-fdamd2": {
         "href": "https://www.iso.org/standard/79153.html",
         "title": "Information technology — High efficiency coding and media delivery in heterogeneous environments — Part 12: Image File Format — Amendment 2: Support for predictive image coding, bursts, bracketing, and other improvements",
         "status": "Under development",
@@ -9257,8 +9300,9 @@
     "iso23093-4": {
         "href": "https://www.iso.org/standard/77840.html",
         "title": "Information technology — Internet of media things — Part 4: Reference software and conformance",
-        "status": "Under development",
+        "status": "Published",
         "publisher": "ISO/IEC",
+        "isoNumber": "ISO 23093-4:2020",
         "rawDate": "2020-06",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
