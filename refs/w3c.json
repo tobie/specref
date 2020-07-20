@@ -34450,39 +34450,10 @@
         "title": "Testbed"
     },
     "feature-policy": {
-        "aliasOf": "feature-policy-1"
+        "aliasOf": "permissions-policy-1"
     },
     "feature-policy-1": {
-        "authors": [
-            "Ian Clelland"
-        ],
-        "href": "https://www.w3.org/TR/feature-policy-1/",
-        "title": "Feature Policy",
-        "rawDate": "2019-04-16",
-        "status": "WD",
-        "publisher": "W3C",
-        "edDraft": "https://w3c.github.io/webappsec-feature-policy/",
-        "deliveredBy": [
-            "https://www.w3.org/2011/webappsec/"
-        ],
-        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
-        "versions": {
-            "20190416": {
-                "authors": [
-                    "Ian Clelland"
-                ],
-                "href": "https://www.w3.org/TR/2019/WD-feature-policy-1-20190416/",
-                "title": "Feature Policy",
-                "rawDate": "2019-04-16",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/2011/webappsec/"
-                ],
-                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
-            }
-        },
-        "repository": "https://github.com/w3c/webappsec-feature-policy"
+        "aliasOf": "permissions-policy-1"
     },
     "fetch-metadata": {
         "authors": [
@@ -59859,6 +59830,55 @@
             }
         },
         "repository": "https://github.com/w3c/permissions"
+    },
+    "permissions-policy": {
+        "aliasOf": "permissions-policy-1"
+    },
+    "permissions-policy-1": {
+        "authors": [
+            "Ian Clelland"
+        ],
+        "href": "https://www.w3.org/TR/permissions-policy-1/",
+        "title": "Permissions Policy",
+        "rawDate": "2020-07-16",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/webappsec-permissions-policy/",
+        "deliveredBy": [
+            "https://www.w3.org/2011/webappsec/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20190416": {
+                "authors": [
+                    "Ian Clelland"
+                ],
+                "href": "https://www.w3.org/TR/2019/WD-feature-policy-1-20190416/",
+                "title": "Feature Policy",
+                "rawDate": "2019-04-16",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2011/webappsec/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20200716": {
+                "authors": [
+                    "Ian Clelland"
+                ],
+                "href": "https://www.w3.org/TR/2020/WD-permissions-policy-1-20200716/",
+                "title": "Permissions Policy",
+                "rawDate": "2019-07-16",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2011/webappsec/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        },
+        "repository": "https://github.com/w3c/webappsec-permissions-policy"
     },
     "personalization-semantics-1.0": {
         "authors": [
