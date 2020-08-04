@@ -85120,6 +85120,32 @@
         "rawDate": "2008-08-08",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
+    "w3c-html": {
+        "href": "https://www.w3.org/TR/html/",
+        "title": "HTML",
+        "rawDate": "2020-06-18",
+        "status": "CR",
+        "publisher": "W3C",
+        "edDraft": "https://html.spec.whatwg.org/",
+        "deliveredBy": [
+            "https://www.w3.org/2019/html/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20200618": {
+                "href": "https://www.w3.org/TR/2020/CR-html-20200618/",
+                "title": "HTML",
+                "rawDate": "2020-06-18",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2019/html/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        },
+        "repository": "https://github.com/whatwg/html"
+    },
     "wai-age-literature": {
         "authors": [
             "Andrew Arch"
