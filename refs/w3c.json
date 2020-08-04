@@ -11631,7 +11631,7 @@
         ],
         "href": "https://www.w3.org/TR/accessibility-conformance-challenges/",
         "title": "Challenges with Accessibility Guidelines Conformance and Testing, and Approaches for Mitigating Them",
-        "rawDate": "2020-06-04",
+        "rawDate": "2020-06-19",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/wcag/conformance-challenges/",
@@ -11664,6 +11664,22 @@
                 "href": "https://www.w3.org/TR/2020/WD-accessibility-conformance-challenges-20200604/",
                 "title": "Challenges with Accessibility Guidelines Conformance and Testing, and Approaches for Mitigating Them",
                 "rawDate": "2020-06-04",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WAI/GL/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20200619": {
+                "authors": [
+                    "Michael Cooper",
+                    "Peter Korn",
+                    "Charles Hall"
+                ],
+                "href": "https://www.w3.org/TR/2020/WD-accessibility-conformance-challenges-20200619/",
+                "title": "Challenges with Accessibility Guidelines Conformance and Testing, and Approaches for Mitigating Them",
+                "rawDate": "2020-06-19",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -13718,7 +13734,7 @@
         ],
         "href": "https://www.w3.org/TR/appmanifest/",
         "title": "Web App Manifest",
-        "rawDate": "2020-05-25",
+        "rawDate": "2020-07-27",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -16152,6 +16168,25 @@
                     "https://www.w3.org/2019/webapps/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20200727": {
+                "authors": [
+                    "Marcos Caceres",
+                    "Kenneth Christiansen",
+                    "Mounir Lamouri",
+                    "Anssi Kostiainen",
+                    "Matt Giuca",
+                    "Aaron Gustafson"
+                ],
+                "href": "https://www.w3.org/TR/2020/WD-appmanifest-20200727/",
+                "title": "Web App Manifest",
+                "rawDate": "2020-07-27",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2019/webapps/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
         "edDraft": "https://w3c.github.io/manifest/",
@@ -16334,7 +16369,7 @@
         ],
         "href": "https://www.w3.org/TR/audiobooks/",
         "title": "Audiobooks",
-        "rawDate": "2020-03-17",
+        "rawDate": "2020-07-30",
         "status": "CR",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/audiobooks/",
@@ -16438,6 +16473,21 @@
                 "href": "https://www.w3.org/TR/2020/CR-audiobooks-20200317/",
                 "title": "Audiobooks",
                 "rawDate": "2020-03-17",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/publishing/groups/publ-wg/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20200730": {
+                "authors": [
+                    "Wendy Reid",
+                    "Matt Garrish"
+                ],
+                "href": "https://www.w3.org/TR/2020/CR-audiobooks-20200730/",
+                "title": "Audiobooks",
+                "rawDate": "2020-07-30",
                 "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -17216,7 +17266,7 @@
         ],
         "href": "https://www.w3.org/TR/cans-iu-cr-gap/",
         "title": "Inuktitut & Cree Gap Analysis",
-        "rawDate": "2020-06-16",
+        "rawDate": "2020-07-15",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/amlreq/gap-analysis/iu-cr-gap",
@@ -17232,6 +17282,20 @@
                 "href": "https://www.w3.org/TR/2020/WD-cans-iu-cr-gap-20200616/",
                 "title": "Inuktitut & Cree Gap Analysis",
                 "rawDate": "2020-06-16",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/International/core/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20200715": {
+                "authors": [
+                    "Richard Ishida"
+                ],
+                "href": "https://www.w3.org/TR/2020/WD-cans-iu-cr-gap-20200715/",
+                "title": "Inuktitut & Cree Gap Analysis",
+                "rawDate": "2020-07-15",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -17761,10 +17825,10 @@
         ],
         "href": "https://www.w3.org/TR/cher-gap/",
         "title": "Cherokee Gap Analysis",
-        "rawDate": "2020-06-16",
+        "rawDate": "2020-07-15",
         "status": "WD",
         "publisher": "W3C",
-        "edDraft": "https://w3c.github.io/amlreq/gap-analysis/chr-gap",
+        "edDraft": "https://w3c.github.io/amlreq/gap-analysis/chr-gap.html",
         "deliveredBy": [
             "https://www.w3.org/International/core/"
         ],
@@ -17777,6 +17841,20 @@
                 "href": "https://www.w3.org/TR/2020/WD-cher-gap-20200616/",
                 "title": "Cherokee Gap Analysis",
                 "rawDate": "2020-06-16",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/International/core/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20200715": {
+                "authors": [
+                    "Richard Ishida"
+                ],
+                "href": "https://www.w3.org/TR/2020/WD-cher-gap-20200715/",
+                "title": "Cherokee Gap Analysis",
+                "rawDate": "2020-07-15",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -18078,9 +18156,24 @@
                     "https://www.w3.org/2019/webapps/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20200721": {
+                "authors": [
+                    "Gary Kacmarcik",
+                    "Grisha Lyukshin"
+                ],
+                "href": "https://www.w3.org/TR/2020/WD-clipboard-apis-20200721/",
+                "title": "Clipboard API and events",
+                "rawDate": "2020-07-21",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2019/webapps/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2020-06-03",
+        "rawDate": "2020-07-21",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
         "edDraft": "https://w3c.github.io/clipboard-apis/",
         "repository": "https://github.com/w3c/clipboard-apis"
@@ -18134,7 +18227,7 @@
         ],
         "href": "https://www.w3.org/TR/clreq/",
         "title": "Requirements for Chinese Text Layout中文排版需求",
-        "rawDate": "2020-06-01",
+        "rawDate": "2020-08-01",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/clreq/",
@@ -18314,6 +18407,29 @@
                     "https://www.w3.org/International/core/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20200801": {
+                "authors": [
+                    "Bobby Tung",
+                    "Yijun Chen",
+                    "Eric Q LIU",
+                    "Hui Jing Chen",
+                    "Fuqiao Xue",
+                    "Richard Ishida",
+                    "An Qi Li",
+                    "Hai Liang",
+                    "Xiaoqian Wu",
+                    "Aijie Zhang"
+                ],
+                "href": "https://www.w3.org/TR/2020/WD-clreq-20200801/",
+                "title": "Requirements for Chinese Text Layout中文排版需求",
+                "rawDate": "2020-08-01",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/International/core/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
         "repository": "https://github.com/w3c/clreq"
@@ -18428,8 +18544,8 @@
             "Ruoxi Ran"
         ],
         "href": "https://www.w3.org/TR/coga-usable/",
-        "title": "Making content usable for people with cognitive and learning disabilities",
-        "rawDate": "2020-03-27",
+        "title": "Making Content Usable for People with Cognitive and Learning Disabilities",
+        "rawDate": "2020-07-17",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/coga/content-usable/",
@@ -18481,6 +18597,24 @@
                 "href": "https://www.w3.org/TR/2020/WD-coga-usable-20200327/",
                 "title": "Making content usable for people with cognitive and learning disabilities",
                 "rawDate": "2020-03-27",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WAI/APA/",
+                    "https://www.w3.org/WAI/GL/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20200717": {
+                "authors": [
+                    "Lisa Seeman-Kestenbaum",
+                    "Rachael Montgomery",
+                    "Steve Lee",
+                    "Ruoxi Ran"
+                ],
+                "href": "https://www.w3.org/TR/2020/WD-coga-usable-20200717/",
+                "title": "Making Content Usable for People with Cognitive and Learning Disabilities",
+                "rawDate": "2020-07-17",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -23021,7 +23155,7 @@
         ],
         "href": "https://www.w3.org/TR/css-inline-3/",
         "title": "CSS Inline Layout Module Level 3",
-        "rawDate": "2020-06-04",
+        "rawDate": "2020-06-18",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://drafts.csswg.org/css-inline-3/",
@@ -23119,6 +23253,22 @@
                 "href": "https://www.w3.org/TR/2020/WD-css-inline-3-20200604/",
                 "title": "CSS Inline Layout Module Level 3",
                 "rawDate": "2020-06-04",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Style/CSS/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20200618": {
+                "authors": [
+                    "Dave Cramer",
+                    "Elika Etemad",
+                    "Steve Zilles"
+                ],
+                "href": "https://www.w3.org/TR/2020/WD-css-inline-3-20200618/",
+                "title": "CSS Inline Layout Module Level 3",
+                "rawDate": "2020-06-18",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -23232,7 +23382,7 @@
         ],
         "href": "https://www.w3.org/TR/css-lists-3/",
         "title": "CSS Lists Module Level 3",
-        "rawDate": "2019-08-17",
+        "rawDate": "2020-07-09",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -23303,6 +23453,21 @@
                 "href": "https://www.w3.org/TR/2019/WD-css-lists-3-20190817/",
                 "title": "CSS Lists Module Level 3",
                 "rawDate": "2019-08-17",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Style/CSS/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20200709": {
+                "authors": [
+                    "Elika Etemad",
+                    "Tab Atkins Jr."
+                ],
+                "href": "https://www.w3.org/TR/2020/WD-css-lists-3-20200709/",
+                "title": "CSS Lists Module Level 3",
+                "rawDate": "2020-07-09",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -29934,11 +30099,12 @@
             "Manu Sporny",
             "Markus Sabadello",
             "Dave Longley",
-            "Christopher Allen"
+            "Christopher Allen",
+            "Jonathan Holt"
         ],
         "href": "https://www.w3.org/TR/did-core/",
         "title": "Decentralized Identifiers (DIDs) v1.0",
-        "rawDate": "2020-06-08",
+        "rawDate": "2020-07-31",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/did-core/",
@@ -30250,6 +30416,25 @@
                     "https://www.w3.org/2019/did-wg/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20200731": {
+                "authors": [
+                    "Drummond Reed",
+                    "Manu Sporny",
+                    "Markus Sabadello",
+                    "Dave Longley",
+                    "Christopher Allen",
+                    "Jonathan Holt"
+                ],
+                "href": "https://www.w3.org/TR/2020/WD-did-core-20200731/",
+                "title": "Decentralized Identifiers (DIDs) v1.0",
+                "rawDate": "2020-07-31",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2019/did-wg/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
         "repository": "https://github.com/w3c/did-core"
@@ -30298,7 +30483,7 @@
         ],
         "href": "https://www.w3.org/TR/did-use-cases/",
         "title": "Use Cases and Requirements for Decentralized Identifiers",
-        "rawDate": "2020-04-25",
+        "rawDate": "2020-07-16",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/did-use-cases/",
@@ -30378,6 +30563,24 @@
                 "href": "https://www.w3.org/TR/2020/WD-did-use-cases-20200425/",
                 "title": "Use Cases and Requirements for Decentralized Identifiers",
                 "rawDate": "2020-04-25",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2019/did-wg/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20200716": {
+                "authors": [
+                    "Joe Andrieu",
+                    "Phil Archer",
+                    "Kim Duffy",
+                    "Ryan Grant",
+                    "Adrian Gropper"
+                ],
+                "href": "https://www.w3.org/TR/2020/WD-did-use-cases-20200716/",
+                "title": "Use Cases and Requirements for Decentralized Identifiers",
+                "rawDate": "2020-07-16",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -35467,7 +35670,7 @@
         ],
         "href": "https://www.w3.org/TR/gamepad/",
         "title": "Gamepad",
-        "rawDate": "2020-02-25",
+        "rawDate": "2020-06-18",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -36129,6 +36332,24 @@
                     "https://www.w3.org/2019/webapps/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20200618": {
+                "authors": [
+                    "James Hollyer",
+                    "Matthew Reynolds",
+                    "Brandon Jones",
+                    "Scott Graham",
+                    "Theodore Mielczarek"
+                ],
+                "href": "https://www.w3.org/TR/2020/WD-gamepad-20200618/",
+                "title": "Gamepad",
+                "rawDate": "2020-06-18",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2019/webapps/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
         "edDraft": "https://w3c.github.io/gamepad/",
@@ -36703,7 +36924,7 @@
         ],
         "href": "https://www.w3.org/TR/geor-gap/",
         "title": "Georgian Gap Analysis",
-        "rawDate": "2020-06-17",
+        "rawDate": "2020-07-15",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/eurlreq/gap-analysis/geor-gap.html",
@@ -36733,6 +36954,20 @@
                 "href": "https://www.w3.org/TR/2020/WD-geor-gap-20200617/",
                 "title": "Georgian Gap Analysis",
                 "rawDate": "2020-06-17",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/International/core/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20200715": {
+                "authors": [
+                    "Richard Ishida"
+                ],
+                "href": "https://www.w3.org/TR/2020/WD-geor-gap-20200715/",
+                "title": "Georgian Gap Analysis",
+                "rawDate": "2020-07-15",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -37219,7 +37454,7 @@
         ],
         "href": "https://www.w3.org/TR/grek-gap/",
         "title": "Modern Greek Gap Analysis",
-        "rawDate": "2020-06-11",
+        "rawDate": "2020-07-15",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/eurlreq/gap-analysis/grek-gap",
@@ -37235,6 +37470,20 @@
                 "href": "https://www.w3.org/TR/2020/WD-grek-gap-20200611/",
                 "title": "Modern Greek Gap Analysis",
                 "rawDate": "2020-06-11",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/International/core/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20200715": {
+                "authors": [
+                    "Richard Ishida"
+                ],
+                "href": "https://www.w3.org/TR/2020/WD-grek-gap-20200715/",
+                "title": "Modern Greek Gap Analysis",
+                "rawDate": "2020-07-15",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -38330,7 +38579,7 @@
         ],
         "href": "https://www.w3.org/TR/html-aam-1.0/",
         "title": "HTML Accessibility API Mappings 1.0",
-        "rawDate": "2020-06-01",
+        "rawDate": "2020-07-18",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/html-aam/",
@@ -39710,6 +39959,25 @@
                     "https://www.w3.org/2019/webapps/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20200718": {
+                "authors": [
+                    "Steve Faulkner",
+                    "Alexander Surkov",
+                    "Scott O'Hara",
+                    "Bogdan Brinza",
+                    "Jason Kiss",
+                    "Cynthia Shelly"
+                ],
+                "href": "https://www.w3.org/TR/2020/WD-html-aam-1.0-20200718/",
+                "title": "HTML Accessibility API Mappings 1.0",
+                "rawDate": "2020-07-18",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2019/webapps/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
         "repository": "https://github.com/w3c/html-aam"
@@ -39930,7 +40198,7 @@
         ],
         "href": "https://www.w3.org/TR/html-aria/",
         "title": "ARIA in HTML",
-        "rawDate": "2020-05-20",
+        "rawDate": "2020-07-14",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -40747,6 +41015,21 @@
                 "href": "https://www.w3.org/TR/2020/WD-html-aria-20200520/",
                 "title": "ARIA in HTML",
                 "rawDate": "2020-05-20",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2019/webapps/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20200714": {
+                "authors": [
+                    "Steve Faulkner",
+                    "Scott O'Hara"
+                ],
+                "href": "https://www.w3.org/TR/2020/WD-html-aria-20200714/",
+                "title": "ARIA in HTML",
+                "rawDate": "2020-07-14",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -46404,8 +46687,8 @@
         ],
         "href": "https://www.w3.org/TR/json-ld11/",
         "title": "JSON-LD 1.1",
-        "rawDate": "2020-05-07",
-        "status": "PR",
+        "rawDate": "2020-07-16",
+        "status": "REC",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/json-ld-syntax/",
         "deliveredBy": [
@@ -46656,9 +46939,27 @@
                     "https://www.w3.org/2018/json-ld-wg/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20200716": {
+                "authors": [
+                    "Gregg Kellogg",
+                    "Pierre-Antoine Champin",
+                    "Dave Longley"
+                ],
+                "href": "https://www.w3.org/TR/2020/REC-json-ld11-20200716/",
+                "title": "JSON-LD 1.1",
+                "rawDate": "2020-07-16",
+                "status": "REC",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2018/json-ld-wg/"
+                ],
+                "hasErrata": "https://w3c.github.io/json-ld-syntax/errata/",
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "repository": "https://github.com/w3c/json-ld-syntax"
+        "repository": "https://github.com/w3c/json-ld-syntax",
+        "hasErrata": "https://w3c.github.io/json-ld-syntax/errata/"
     },
     "json-ld11-api": {
         "authors": [
@@ -46668,8 +46969,8 @@
         ],
         "href": "https://www.w3.org/TR/json-ld11-api/",
         "title": "JSON-LD 1.1 Processing Algorithms and API",
-        "rawDate": "2020-05-07",
-        "status": "PR",
+        "rawDate": "2020-07-16",
+        "status": "REC",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/json-ld-api/",
         "deliveredBy": [
@@ -46884,9 +47185,27 @@
                     "https://www.w3.org/2018/json-ld-wg/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20200716": {
+                "authors": [
+                    "Gregg Kellogg",
+                    "Dave Longley",
+                    "Pierre-Antoine Champin"
+                ],
+                "href": "https://www.w3.org/TR/2020/REC-json-ld11-api-20200716/",
+                "title": "JSON-LD 1.1 Processing Algorithms and API",
+                "rawDate": "2020-07-16",
+                "status": "REC",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2018/json-ld-wg/"
+                ],
+                "hasErrata": "https://w3c.github.io/json-ld-api/errata/",
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "repository": "https://github.com/w3c/json-ld-api"
+        "repository": "https://github.com/w3c/json-ld-api",
+        "hasErrata": "https://w3c.github.io/json-ld-api/errata/"
     },
     "json-ld11-framing": {
         "authors": [
@@ -46896,8 +47215,8 @@
         ],
         "href": "https://www.w3.org/TR/json-ld11-framing/",
         "title": "JSON-LD 1.1 Framing",
-        "rawDate": "2020-05-07",
-        "status": "PR",
+        "rawDate": "2020-07-16",
+        "status": "REC",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/json-ld-framing/",
         "deliveredBy": [
@@ -47114,9 +47433,27 @@
                     "https://www.w3.org/2018/json-ld-wg/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20200716": {
+                "authors": [
+                    "Dave Longley",
+                    "Gregg Kellogg",
+                    "Pierre-Antoine Champin"
+                ],
+                "href": "https://www.w3.org/TR/2020/REC-json-ld11-framing-20200716/",
+                "title": "JSON-LD 1.1 Framing",
+                "rawDate": "2020-07-16",
+                "status": "REC",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2018/json-ld-wg/"
+                ],
+                "hasErrata": "https://w3c.github.io/json-ld-framing/errata/",
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "repository": "https://github.com/w3c/json-ld-framing"
+        "repository": "https://github.com/w3c/json-ld-framing",
+        "hasErrata": "https://w3c.github.io/json-ld-framing/errata/"
     },
     "json-ld11-streaming": {
         "authors": [
@@ -47304,11 +47641,11 @@
     },
     "latn-hu-gap": {
         "authors": [
-            "Ivan Herman"
+            "Richard Ishida"
         ],
         "href": "https://www.w3.org/TR/latn-hu-gap/",
         "title": "Hungarian Gap Analysis",
-        "rawDate": "2020-06-11",
+        "rawDate": "2020-07-15",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/eurlreq/gap-analysis/latn-hu-gap",
@@ -47330,17 +47667,31 @@
                     "https://www.w3.org/International/core/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20200715": {
+                "authors": [
+                    "Richard Ishida"
+                ],
+                "href": "https://www.w3.org/TR/2020/WD-latn-hu-gap-20200715/",
+                "title": "Hungarian Gap Analysis",
+                "rawDate": "2020-07-15",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/International/core/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
         "repository": "https://github.com/w3c/eurlreq"
     },
     "latn-nl-gap": {
         "authors": [
-            "Bert Bos"
+            "Richard Ishida"
         ],
         "href": "https://www.w3.org/TR/latn-nl-gap/",
         "title": "Dutch Gap Analysis",
-        "rawDate": "2020-06-11",
+        "rawDate": "2020-07-15",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/eurlreq/gap-analysis/latn-nl-gap",
@@ -47356,6 +47707,20 @@
                 "href": "https://www.w3.org/TR/2020/WD-latn-nl-gap-20200611/",
                 "title": "Dutch Gap Analysis",
                 "rawDate": "2020-06-11",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/International/core/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20200715": {
+                "authors": [
+                    "Richard Ishida"
+                ],
+                "href": "https://www.w3.org/TR/2020/WD-latn-nl-gap-20200715/",
+                "title": "Dutch Gap Analysis",
+                "rawDate": "2020-07-15",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -48464,6 +48829,38 @@
         },
         "repository": "https://github.com/w3c/magnetometer"
     },
+    "manifest-app-info": {
+        "authors": [
+            "Aaron Gustafson"
+        ],
+        "href": "https://www.w3.org/TR/manifest-app-info/",
+        "title": "Web App Manifest - Application Information",
+        "rawDate": "2020-07-30",
+        "status": "NOTE",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/manifest-app-info/",
+        "deliveredBy": [
+            "https://www.w3.org/2019/webapps/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20200730": {
+                "authors": [
+                    "Aaron Gustafson"
+                ],
+                "href": "https://www.w3.org/TR/2020/NOTE-manifest-app-info-20200730/",
+                "title": "Web App Manifest - Application Information",
+                "rawDate": "2020-07-30",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2019/webapps/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        },
+        "repository": "https://github.com/w3c/manifest-app-info"
+    },
     "mathml-bvar": {
         "authors": [
             "Stan Devitt",
@@ -49335,8 +49732,8 @@
             "Chris Needham"
         ],
         "href": "https://www.w3.org/TR/media-timed-events/",
-        "title": "Media Timed Events",
-        "rawDate": "2019-05-16",
+        "title": "Requirements for Media Timed Events",
+        "rawDate": "2020-06-25",
         "status": "NOTE",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/me-media-timed-events/",
@@ -49352,6 +49749,20 @@
                 "href": "https://www.w3.org/TR/2019/NOTE-media-timed-events-20190516/",
                 "title": "Media Timed Events",
                 "rawDate": "2019-05-16",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2011/webtv/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20200625": {
+                "authors": [
+                    "Chris Needham"
+                ],
+                "href": "https://www.w3.org/TR/2020/NOTE-media-timed-events-20200625/",
+                "title": "Requirements for Media Timed Events",
+                "rawDate": "2020-06-25",
                 "status": "NOTE",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -50084,7 +50495,7 @@
         ],
         "href": "https://www.w3.org/TR/mediaqueries-4/",
         "title": "Media Queries Level 4",
-        "rawDate": "2017-09-05",
+        "rawDate": "2020-07-21",
         "status": "CR",
         "publisher": "W3C",
         "deliveredBy": [
@@ -50162,6 +50573,21 @@
                     "https://www.w3.org/Style/CSS/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20200721": {
+                "authors": [
+                    "Florian Rivoal",
+                    "Tab Atkins Jr."
+                ],
+                "href": "https://www.w3.org/TR/2020/CR-mediaqueries-4-20200721/",
+                "title": "Media Queries Level 4",
+                "rawDate": "2020-07-21",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Style/CSS/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
         "edDraft": "https://drafts.csswg.org/mediaqueries-4/",
@@ -50175,7 +50601,7 @@
         ],
         "href": "https://www.w3.org/TR/mediaqueries-5/",
         "title": "Media Queries Level 5",
-        "rawDate": "2020-06-03",
+        "rawDate": "2020-07-31",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://drafts.csswg.org/mediaqueries-5/",
@@ -50225,6 +50651,22 @@
                 "href": "https://www.w3.org/TR/2020/WD-mediaqueries-5-20200603/",
                 "title": "Media Queries Level 5",
                 "rawDate": "2020-06-03",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Style/CSS/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20200731": {
+                "authors": [
+                    "Dean Jackson",
+                    "Florian Rivoal",
+                    "Tab Atkins Jr."
+                ],
+                "href": "https://www.w3.org/TR/2020/WD-mediaqueries-5-20200731/",
+                "title": "Media Queries Level 5",
+                "rawDate": "2020-07-31",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -52446,7 +52888,7 @@
         ],
         "href": "https://www.w3.org/TR/mst-content-hint/",
         "title": "MediaStreamTrack Content Hints",
-        "rawDate": "2020-02-14",
+        "rawDate": "2020-07-28",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/mst-content-hint/",
@@ -52476,6 +52918,20 @@
                 "href": "https://www.w3.org/TR/2020/WD-mst-content-hint-20200214/",
                 "title": "MediaStreamTrack Content Hints",
                 "rawDate": "2020-02-14",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/webrtc"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20200728": {
+                "authors": [
+                    "Harald Alvestrand"
+                ],
+                "href": "https://www.w3.org/TR/2020/WD-mst-content-hint-20200728/",
+                "title": "MediaStreamTrack Content Hints",
+                "rawDate": "2020-07-28",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -59788,7 +60244,7 @@
         ],
         "href": "https://www.w3.org/TR/permissions/",
         "title": "Permissions",
-        "rawDate": "2017-09-25",
+        "rawDate": "2020-07-20",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/permissions/",
@@ -59827,6 +60283,22 @@
                     "https://www.w3.org/2011/webappsec/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20200720": {
+                "authors": [
+                    "Mounir Lamouri",
+                    "Marcos Caceres",
+                    "Jeffrey Yasskin"
+                ],
+                "href": "https://www.w3.org/TR/2020/WD-permissions-20200720/",
+                "title": "Permissions",
+                "rawDate": "2020-07-20",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2011/webappsec/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
         "repository": "https://github.com/w3c/permissions"
@@ -59843,7 +60315,7 @@
         "rawDate": "2020-07-16",
         "status": "WD",
         "publisher": "W3C",
-        "edDraft": "https://w3c.github.io/webappsec-permissions-policy/",
+        "edDraft": "https://w3c.github.io/webappsec-feature-policy/",
         "deliveredBy": [
             "https://www.w3.org/2011/webappsec/"
         ],
@@ -59869,7 +60341,7 @@
                 ],
                 "href": "https://www.w3.org/TR/2020/WD-permissions-policy-1-20200716/",
                 "title": "Permissions Policy",
-                "rawDate": "2019-07-16",
+                "rawDate": "2020-07-16",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -63580,7 +64052,7 @@
         ],
         "href": "https://www.w3.org/TR/pub-manifest/",
         "title": "Publication Manifest",
-        "rawDate": "2020-03-17",
+        "rawDate": "2020-07-30",
         "status": "CR",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/pub-manifest/",
@@ -63672,6 +64144,21 @@
                 "href": "https://www.w3.org/TR/2020/CR-pub-manifest-20200317/",
                 "title": "Publication Manifest",
                 "rawDate": "2020-03-17",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/publishing/groups/publ-wg/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20200730": {
+                "authors": [
+                    "Matt Garrish",
+                    "Ivan Herman"
+                ],
+                "href": "https://www.w3.org/TR/2020/CR-pub-manifest-20200730/",
+                "title": "Publication Manifest",
+                "rawDate": "2020-07-30",
                 "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -73547,7 +74034,7 @@
         ],
         "href": "https://www.w3.org/TR/server-timing/",
         "title": "Server Timing",
-        "rawDate": "2020-04-30",
+        "rawDate": "2020-07-28",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/server-timing/",
@@ -73936,6 +74423,21 @@
                 "href": "https://www.w3.org/TR/2020/WD-server-timing-20200430/",
                 "title": "Server Timing",
                 "rawDate": "2020-04-30",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/webperf/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20200728": {
+                "authors": [
+                    "Charles Vazac",
+                    "Ilya Grigorik"
+                ],
+                "href": "https://www.w3.org/TR/2020/WD-server-timing-20200728/",
+                "title": "Server Timing",
+                "rawDate": "2020-07-28",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -80298,8 +80800,8 @@
         ],
         "href": "https://www.w3.org/TR/ttml-imsc1.2/",
         "title": "TTML Profiles for Internet Media Subtitles and Captions 1.2",
-        "rawDate": "2020-06-16",
-        "status": "PR",
+        "rawDate": "2020-08-04",
+        "status": "REC",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/imsc/imsc1/spec/ttml-ww-profiles.html",
         "deliveredBy": [
@@ -80348,9 +80850,25 @@
                     "https://www.w3.org/AudioVideo/TT/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20200804": {
+                "authors": [
+                    "Pierre-Anthony Lemieux"
+                ],
+                "href": "https://www.w3.org/TR/2020/REC-ttml-imsc1.2-20200804/",
+                "title": "TTML Profiles for Internet Media Subtitles and Captions 1.2",
+                "rawDate": "2020-08-04",
+                "status": "REC",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/AudioVideo/TT/"
+                ],
+                "hasErrata": "https://www.w3.org/2020/08/ttml-imsc1.2-errata.html",
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "repository": "https://github.com/w3c/imsc"
+        "repository": "https://github.com/w3c/imsc",
+        "hasErrata": "https://www.w3.org/2020/08/ttml-imsc1.2-errata.html"
     },
     "ttml-profile-registry": {
         "authors": [
@@ -84287,6 +84805,76 @@
             }
         }
     },
+    "vocab-owl-time-agg": {
+        "authors": [
+            "Simon Cox",
+            "Adam Shepherd",
+            "Charles Vardeman"
+        ],
+        "href": "https://www.w3.org/TR/vocab-owl-time-agg/",
+        "title": "Extensions to the OWL-Time Ontology - temporal aggregates",
+        "rawDate": "2020-07-07",
+        "status": "NOTE",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/sdw/time-aggregates/",
+        "deliveredBy": [
+            "https://www.w3.org/2017/sdwig/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20200707": {
+                "authors": [
+                    "Simon Cox",
+                    "Adam Shepherd",
+                    "Charles Vardeman"
+                ],
+                "href": "https://www.w3.org/TR/2020/NOTE-vocab-owl-time-agg-20200707/",
+                "title": "Extensions to the OWL-Time Ontology - temporal aggregates",
+                "rawDate": "2020-07-07",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2017/sdwig/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        },
+        "repository": "https://github.com/w3c/sdw"
+    },
+    "vocab-owl-time-rel": {
+        "authors": [
+            "Simon Cox",
+            "Chris Little"
+        ],
+        "href": "https://www.w3.org/TR/vocab-owl-time-rel/",
+        "title": "Extensions to the OWL-Time Ontology - entity relations",
+        "rawDate": "2020-07-07",
+        "status": "NOTE",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/sdw/time-entity-relations/",
+        "deliveredBy": [
+            "https://www.w3.org/2017/sdwig/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20200707": {
+                "authors": [
+                    "Simon Cox",
+                    "Chris Little"
+                ],
+                "href": "https://www.w3.org/TR/2020/NOTE-vocab-owl-time-rel-20200707/",
+                "title": "Extensions to the OWL-Time Ontology - entity relations",
+                "rawDate": "2020-07-07",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2017/sdwig/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        },
+        "repository": "https://github.com/w3c/sdw"
+    },
     "vocab-people": {
         "authors": [
             "Michael Hausenblas"
@@ -87350,7 +87938,7 @@
         ],
         "href": "https://www.w3.org/TR/web-share/",
         "title": "Web Share API",
-        "rawDate": "2020-06-17",
+        "rawDate": "2020-08-04",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/web-share/",
@@ -87396,6 +87984,21 @@
                 "href": "https://www.w3.org/TR/2020/WD-web-share-20200617/",
                 "title": "Web Share API",
                 "rawDate": "2020-06-17",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2019/webapps/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20200804": {
+                "authors": [
+                    "Matt Giuca",
+                    "Eric Willigers"
+                ],
+                "href": "https://www.w3.org/TR/2020/WD-web-share-20200804/",
+                "title": "Web Share API",
+                "rawDate": "2020-08-04",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -88000,8 +88603,8 @@
             "Huakai Liao"
         ],
         "href": "https://www.w3.org/TR/webauthn-2/",
-        "title": "Web Authentication: An API for accessing Public Key Credentials - Level 2",
-        "rawDate": "2019-11-26",
+        "title": "Web Authentication:An API for accessing Public Key CredentialsLevel 2",
+        "rawDate": "2020-07-30",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/webauthn/",
@@ -88048,6 +88651,30 @@
                 "href": "https://www.w3.org/TR/2019/WD-webauthn-2-20191126/",
                 "title": "Web Authentication: An API for accessing Public Key Credentials - Level 2",
                 "rawDate": "2019-11-26",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/webauthn/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20200730": {
+                "authors": [
+                    "Dirk Balfanz",
+                    "Alexei Czeskis",
+                    "Jeff Hodges",
+                    "J.C. Jones",
+                    "Michael Jones",
+                    "Akshay Kumar",
+                    "Rolf Lindemann",
+                    "Vijay Bharadwaj",
+                    "Arnar Birgisson",
+                    "Hubert Le Van Gong",
+                    "Huakai Liao"
+                ],
+                "href": "https://www.w3.org/TR/2020/WD-webauthn-2-20200730/",
+                "title": "Web Authentication:An API for accessing Public Key CredentialsLevel 2",
+                "rawDate": "2020-07-30",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -89131,7 +89758,7 @@
         ],
         "href": "https://www.w3.org/TR/webdriver2/",
         "title": "WebDriver",
-        "rawDate": "2020-06-10",
+        "rawDate": "2020-07-17",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/webdriver/",
@@ -89268,6 +89895,21 @@
                 "href": "https://www.w3.org/TR/2020/WD-webdriver2-20200610/",
                 "title": "WebDriver",
                 "rawDate": "2020-06-10",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/testing/browser/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20200717": {
+                "authors": [
+                    "Simon Stewart",
+                    "David Burns"
+                ],
+                "href": "https://www.w3.org/TR/2020/WD-webdriver2-20200717/",
+                "title": "WebDriver",
+                "rawDate": "2020-07-17",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
@@ -89752,12 +90394,12 @@
     "webpayments-http-messages": {
         "authors": [
             "Manu Sporny",
-            "Dave Longley"
+            "Shane McCarron"
         ],
         "href": "https://www.w3.org/TR/webpayments-http-messages/",
         "title": "Web Payments HTTP Messages 1.0",
-        "rawDate": "2016-09-15",
-        "status": "WD",
+        "rawDate": "2020-07-21",
+        "status": "NOTE",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/webpayments-http-messages/",
         "deliveredBy": [
@@ -89779,9 +90421,26 @@
                     "https://www.w3.org/Payments/WG/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20200721": {
+                "authors": [
+                    "Manu Sporny",
+                    "Shane McCarron"
+                ],
+                "href": "https://www.w3.org/TR/2020/NOTE-webpayments-http-messages-20200721/",
+                "title": "Web Payments HTTP Messages 1.0",
+                "rawDate": "2020-07-21",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "isRetired": true,
+                "deliveredBy": [
+                    "https://www.w3.org/Payments/WG/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "repository": "https://github.com/w3c/webpayments-http-messages"
+        "repository": "https://github.com/w3c/webpayments-http-messages",
+        "isRetired": true
     },
     "webpayments-overview": {
         "authors": [
@@ -91050,11 +91709,12 @@
     "webxr": {
         "authors": [
             "Brandon Jones",
+            "Manish Goregaokar",
             "Nell Waliczek"
         ],
         "href": "https://www.w3.org/TR/webxr/",
         "title": "WebXR Device API",
-        "rawDate": "2019-10-10",
+        "rawDate": "2020-07-24",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://immersive-web.github.io/webxr/",
@@ -91101,6 +91761,22 @@
                 "href": "https://www.w3.org/TR/2019/WD-webxr-20191010/",
                 "title": "WebXR Device API",
                 "rawDate": "2019-10-10",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/immersive-web/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20200724": {
+                "authors": [
+                    "Brandon Jones",
+                    "Manish Goregaokar",
+                    "Nell Waliczek"
+                ],
+                "href": "https://www.w3.org/TR/2020/WD-webxr-20200724/",
+                "title": "WebXR Device API",
+                "rawDate": "2020-07-24",
                 "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
