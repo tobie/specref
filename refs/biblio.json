@@ -1160,6 +1160,9 @@
             "2019": {
                 "aliasOf": "ECMASCRIPT-10.0"
             },
+            "2020": {
+                "aliasOf": "ECMASCRIPT-11.0"
+            },
             "5.1": {
                 "title": "ECMA-262 Edition 5.1, The ECMAScript Language Specification",
                 "rawDate": "2011-06",
@@ -1215,6 +1218,16 @@
                 "publisher": "Ecma International",
                 "authors": [
                     "Brian Terlson"
+                ]
+            },
+            "11.0": {
+                "title": "ECMA-262 11th Edition, The ECMAScript 2020 Language Specification",
+                "rawDate": "2020-06",
+                "href": "http://www.ecma-international.org/ecma-262/11.0/index.html",
+                "status": "Standard",
+                "publisher": "Ecma International",
+                "authors": [
+                    "Jordan Harband"
                 ]
             }
         },
