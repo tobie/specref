@@ -762,8 +762,8 @@
         "aliasOf": "scte165-01"
     },
     "scte165-10": {
-        "href": "https://scte-cms-resource-storage.s3.amazonaws.com/ANSI_SCTE-165-10-2009-1575562197619.pdf",
-        "title": "ANSI/SCTE 165-10 2009: IPCablecom 1.5 Part 10: Security",
+        "href": "https://scte-cms-resource-storage.s3.amazonaws.com/SCTE-165-10-2020-1596587609846.pdf",
+        "title": "SCTE 165-10 2020: IPCablecom 1.5 Part 10: Security",
         "publisher": "SCTE",
         "source": "https://dashifspecref.blob.core.windows.net/scte/scte.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=eIrXcpSm6WkcgRNBgNKlyMnIUGWLwgTurzYy8K2WApI%3D"
     },
@@ -1796,6 +1796,51 @@
         "publisher": "SCTE",
         "source": "https://dashifspecref.blob.core.windows.net/scte/scte.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=eIrXcpSm6WkcgRNBgNKlyMnIUGWLwgTurzYy8K2WApI%3D"
     },
+    "scte259-01": {
+        "href": "https://scte-cms-resource-storage.s3.amazonaws.com/SCTE-259-01-2020-1596587644050.pdf",
+        "title": "SCTE 259-01 2020: Enterprise SIP Gateway Specification",
+        "publisher": "SCTE",
+        "source": "https://dashifspecref.blob.core.windows.net/scte/scte.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=eIrXcpSm6WkcgRNBgNKlyMnIUGWLwgTurzYy8K2WApI%3D"
+    },
+    "scte259-02": {
+        "href": "https://scte-cms-resource-storage.s3.amazonaws.com/SCTE-259-02-2020-1596587666089.pdf",
+        "title": "SCTE 259-02 2020: PacketCable High Definition Voice Specification",
+        "publisher": "SCTE",
+        "source": "https://dashifspecref.blob.core.windows.net/scte/scte.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=eIrXcpSm6WkcgRNBgNKlyMnIUGWLwgTurzYy8K2WApI%3D"
+    },
+    "scte259-03": {
+        "href": "https://scte-cms-resource-storage.s3.amazonaws.com/SCTE-259-03-2020-1596587684908.pdf",
+        "title": "SCTE 259-03 2020: HDV NCS Specification",
+        "publisher": "SCTE",
+        "source": "https://dashifspecref.blob.core.windows.net/scte/scte.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=eIrXcpSm6WkcgRNBgNKlyMnIUGWLwgTurzYy8K2WApI%3D"
+    },
+    "scte259-04": {
+        "href": "https://scte-cms-resource-storage.s3.amazonaws.com/SCTE-259-04-2020-1596587710944.pdf",
+        "title": "SCTE 259-04 2020: HDV Provisioning Specification",
+        "publisher": "SCTE",
+        "source": "https://dashifspecref.blob.core.windows.net/scte/scte.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=eIrXcpSm6WkcgRNBgNKlyMnIUGWLwgTurzYy8K2WApI%3D"
+    },
+    "scte259-05": {
+        "href": "https://scte-cms-resource-storage.s3.amazonaws.com/SCTE-259-05-2020-1596587731911.pdf",
+        "title": "SCTE 259-05 2020: HDV SIP Specification",
+        "publisher": "SCTE",
+        "source": "https://dashifspecref.blob.core.windows.net/scte/scte.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=eIrXcpSm6WkcgRNBgNKlyMnIUGWLwgTurzYy8K2WApI%3D"
+    },
+    "scte259-1": {
+        "aliasOf": "scte259-01"
+    },
+    "scte259-2": {
+        "aliasOf": "scte259-02"
+    },
+    "scte259-3": {
+        "aliasOf": "scte259-03"
+    },
+    "scte259-4": {
+        "aliasOf": "scte259-04"
+    },
+    "scte259-5": {
+        "aliasOf": "scte259-05"
+    },
     "scte26": {
         "href": "https://scte-cms-resource-storage.s3.amazonaws.com/Standards/ANSI_SCTE%2026%202017.pdf",
         "title": "ANSI/SCTE 26 2017: Home Digital Network Interface Specification with Copy Protection",
@@ -2049,8 +2094,8 @@
         "source": "https://dashifspecref.blob.core.windows.net/scte/scte.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=eIrXcpSm6WkcgRNBgNKlyMnIUGWLwgTurzYy8K2WApI%3D"
     },
     "scte54": {
-        "href": "https://scte-cms-resource-storage.s3.amazonaws.com/Standards/ANSI_SCTE%2054%202015.pdf",
-        "title": "ANSI/SCTE 54 2015: Digital Video Service Multiplex and Transport System Standard for Cable Television",
+        "href": "https://scte-cms-resource-storage.s3.amazonaws.com/SCTE-54-2020-1596587785959.pdf",
+        "title": "SCTE 54 2020: Digital Video Service Multiplex and Transport System Standard for Cable Television",
         "publisher": "SCTE",
         "source": "https://dashifspecref.blob.core.windows.net/scte/scte.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=eIrXcpSm6WkcgRNBgNKlyMnIUGWLwgTurzYy8K2WApI%3D"
     },
