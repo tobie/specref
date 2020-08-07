@@ -869,11 +869,7 @@
         "aliasOf": "iso13818-1-2019-cdamd2"
     },
     "iso13818-1-2019-cdamd2": {
-        "href": "https://www.iso.org/standard/80754.html",
-        "title": "Information technology — Generic coding of moving pictures and associated audio information — Part 1: Systems — Amendment 2: Carriage of VVC in MPEG-2 Systems",
-        "status": "Under development",
-        "publisher": "ISO/IEC",
-        "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+        "aliasOf": "iso13818-1-2019-damd2"
     },
     "iso13818-1-2019-cdcor1": {
         "aliasOf": "iso13818-1-2019-cor1"
@@ -888,6 +884,13 @@
     },
     "iso13818-1-2019-damd1": {
         "aliasOf": "iso13818-1-2019-fdamd1"
+    },
+    "iso13818-1-2019-damd2": {
+        "href": "https://www.iso.org/standard/80754.html",
+        "title": "Information technology — Generic coding of moving pictures and associated audio information — Part 1: Systems — Amendment 2: Carriage of VVC in MPEG-2 Systems",
+        "status": "Under development",
+        "publisher": "ISO/IEC",
+        "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso13818-1-2019-fdamd1": {
         "aliasOf": "iso13818-1-2019-amd1-2020"
@@ -5208,12 +5211,10 @@
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso15444-4": {
-        "href": "https://www.iso.org/standard/39079.html",
-        "title": "Information technology — JPEG 2000 image coding system: Conformance testing — Part 4:",
-        "status": "Published",
+        "href": "https://www.iso.org/standard/81574.html",
+        "title": "Information technology — JPEG 2000 image coding system — Part 4: Conformance Testing",
+        "status": "Under development",
         "publisher": "ISO/IEC",
-        "isoNumber": "ISO 15444-4:2004",
-        "rawDate": "2004-12",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso15444-4-2004-cdamd1": {
@@ -5230,8 +5231,9 @@
     "iso15444-4-2004-damd1": {
         "href": "https://www.iso.org/standard/77834.html",
         "title": "Information technology — JPEG 2000 image coding system: Conformance testing — Part 4: — Amendment 1: High-throughput JPEG 2000 conformance testing",
-        "status": "Under development",
+        "status": "Deleted",
         "publisher": "ISO/IEC",
+        "isRetired": true,
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso15444-4-2004-npamd1": {
@@ -5241,12 +5243,10 @@
         "aliasOf": "iso15444-4-2004-cdamd1"
     },
     "iso15444-5": {
-        "href": "https://www.iso.org/standard/69462.html",
-        "title": "Information technology — JPEG 2000 image coding system: Reference software — Part 5:",
-        "status": "Published",
+        "href": "https://www.iso.org/standard/81575.html",
+        "title": "Information technology — JPEG 2000 image coding system — Part 5: Reference Software",
+        "status": "Under development",
         "publisher": "ISO/IEC",
-        "isoNumber": "ISO 15444-5:2015",
-        "rawDate": "2015-10",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso15444-5-2003-amd1-2003": {
@@ -5256,9 +5256,6 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "2003-12",
-        "obsoletedBy": [
-            "iso15444-5"
-        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso15444-5-2003-amd2-2015": {
@@ -5268,9 +5265,6 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "2015-05",
-        "obsoletedBy": [
-            "iso15444-5"
-        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso15444-5-2015-cdamd1": {
@@ -5279,8 +5273,9 @@
     "iso15444-5-2015-damd1": {
         "href": "https://www.iso.org/standard/77835.html",
         "title": "Information technology — JPEG 2000 image coding system: Reference software — Part 5: — Amendment 1: Additional reference software for HTJ2K",
-        "status": "Under development",
+        "status": "Deleted",
         "publisher": "ISO/IEC",
+        "isRetired": true,
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso15444-5-2015-npamd1": {
