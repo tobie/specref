@@ -46407,25 +46407,25 @@
     },
     "jlreq": {
         "authors": [
-            "Yasuhiro Anan",
             "Hiroyuki Chiba",
             "Junzaburo Edamoto",
             "Richard Ishida",
+            "Seiichi Kato",
             "Tatsuo KOBAYASHI",
             "Toshi Kobayashi",
-            "Kenzou Onozawa",
+            "Nathaniel McCully",
             "Felix Sasaki",
-            "Seiichi Kato",
-            "Hajime Shiozawa"
+            "Atsushi Shimono",
+            "Hajime Shiozawa",
+            "Fuqiao Xue"
         ],
         "etAl": true,
         "href": "https://www.w3.org/TR/jlreq/",
-        "title": "Requirements for Japanese Text Layout",
+        "title": "Requirements for Japanese Text Layout 日本語組版処理の要件(日本語版)",
         "status": "NOTE",
         "publisher": "W3C",
         "deliveredBy": [
-            "https://www.w3.org/International/core/",
-            "https://www.w3.org/Style/XSL/"
+            "https://www.w3.org/International/core/"
         ],
         "versions": {
             "20080411": {
@@ -46475,9 +46475,33 @@
                     "https://www.w3.org/Style/XSL/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20200811": {
+                "authors": [
+                    "Hiroyuki Chiba",
+                    "Junzaburo Edamoto",
+                    "Richard Ishida",
+                    "Seiichi Kato",
+                    "Tatsuo KOBAYASHI",
+                    "Toshi Kobayashi",
+                    "Nathaniel McCully",
+                    "Felix Sasaki",
+                    "Atsushi Shimono",
+                    "Hajime Shiozawa",
+                    "Fuqiao Xue"
+                ],
+                "href": "https://www.w3.org/TR/2020/NOTE-jlreq-20200811/",
+                "title": "Requirements for Japanese Text Layout 日本語組版処理の要件(日本語版)",
+                "rawDate": "2020-08-11",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/International/core/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2012-04-03",
+        "rawDate": "2020-08-11",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
     "jpan-gap": {
