@@ -21000,8 +21000,8 @@
         ],
         "href": "https://www.w3.org/TR/css-cascade-4/",
         "title": "CSS Cascading and Inheritance Level 4",
-        "rawDate": "2018-08-28",
-        "status": "CR",
+        "rawDate": "2020-08-18",
+        "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://drafts.csswg.org/css-cascade/",
         "deliveredBy": [
@@ -21063,6 +21063,21 @@
                 "title": "CSS Cascading and Inheritance Level 4",
                 "rawDate": "2018-08-28",
                 "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Style/CSS/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20200818": {
+                "authors": [
+                    "Elika Etemad",
+                    "Tab Atkins Jr."
+                ],
+                "href": "https://www.w3.org/TR/2020/WD-css-cascade-4-20200818/",
+                "title": "CSS Cascading and Inheritance Level 4",
+                "rawDate": "2020-08-18",
+                "status": "WD",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/Style/CSS/"
@@ -22715,11 +22730,12 @@
         "authors": [
             "Tab Atkins Jr.",
             "Elika Etemad",
-            "Rossen Atanassov"
+            "Rossen Atanassov",
+            "Oriol Brufau"
         ],
         "href": "https://www.w3.org/TR/css-grid-1/",
         "title": "CSS Grid Layout Module Level 1",
-        "rawDate": "2017-12-14",
+        "rawDate": "2020-08-18",
         "status": "CR",
         "publisher": "W3C",
         "deliveredBy": [
@@ -22936,6 +22952,23 @@
                     "https://www.w3.org/Style/CSS/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20200818": {
+                "authors": [
+                    "Tab Atkins Jr.",
+                    "Elika Etemad",
+                    "Rossen Atanassov",
+                    "Oriol Brufau"
+                ],
+                "href": "https://www.w3.org/TR/2020/CR-css-grid-1-20200818/",
+                "title": "CSS Grid Layout Module Level 1",
+                "rawDate": "2020-08-18",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Style/CSS/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
         "edDraft": "https://drafts.csswg.org/css-grid/",
@@ -22952,8 +22985,8 @@
         ],
         "href": "https://www.w3.org/TR/css-grid-2/",
         "title": "CSS Grid Layout Module Level 2",
-        "rawDate": "2019-12-03",
-        "status": "WD",
+        "rawDate": "2020-08-18",
+        "status": "CR",
         "publisher": "W3C",
         "edDraft": "https://drafts.csswg.org/css-grid-2/",
         "deliveredBy": [
@@ -23035,6 +23068,22 @@
                 "title": "CSS Grid Layout Module Level 2",
                 "rawDate": "2019-12-03",
                 "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Style/CSS/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20200818": {
+                "authors": [
+                    "Tab Atkins Jr.",
+                    "Elika Etemad",
+                    "Rossen Atanassov"
+                ],
+                "href": "https://www.w3.org/TR/2020/CR-css-grid-2-20200818/",
+                "title": "CSS Grid Layout Module Level 2",
+                "rawDate": "2020-08-18",
+                "status": "CR",
                 "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/Style/CSS/"
@@ -60503,7 +60552,7 @@
         "rawDate": "2020-07-16",
         "status": "WD",
         "publisher": "W3C",
-        "edDraft": "https://w3c.github.io/webappsec-feature-policy/",
+        "edDraft": "https://w3c.github.io/webappsec-permissions-policy/",
         "deliveredBy": [
             "https://www.w3.org/2011/webappsec/"
         ],
