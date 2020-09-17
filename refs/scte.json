@@ -1847,6 +1847,51 @@
         "publisher": "SCTE",
         "source": "https://dashifspecref.blob.core.windows.net/scte/scte.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=eIrXcpSm6WkcgRNBgNKlyMnIUGWLwgTurzYy8K2WApI%3D"
     },
+    "scte262-01": {
+        "href": "https://scte-cms-resource-storage.s3.amazonaws.com/SCTE-262-01-2020-1600303419583.pdf",
+        "title": "SCTE 262-01 2020: DOCSIS 4.0 Part 1: Physical Layer Specification",
+        "publisher": "SCTE",
+        "source": "https://dashifspecref.blob.core.windows.net/scte/scte.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=eIrXcpSm6WkcgRNBgNKlyMnIUGWLwgTurzYy8K2WApI%3D"
+    },
+    "scte262-02": {
+        "href": "https://scte-cms-resource-storage.s3.amazonaws.com/SCTE-262-02-2020-1600303450136.pdf",
+        "title": "SCTE 262-02 2020: DOCSIS 4.0 Part 2: MAC and Upper Layer Protocols Interface Specification",
+        "publisher": "SCTE",
+        "source": "https://dashifspecref.blob.core.windows.net/scte/scte.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=eIrXcpSm6WkcgRNBgNKlyMnIUGWLwgTurzYy8K2WApI%3D"
+    },
+    "scte262-03": {
+        "href": "https://scte-cms-resource-storage.s3.amazonaws.com/SCTE-262-03-2020-1600303468131.pdf",
+        "title": "SCTE 262-03 2020: DOCSIS 4.0 Part 3: Cable Modem Operations Support System Interface Specification",
+        "publisher": "SCTE",
+        "source": "https://dashifspecref.blob.core.windows.net/scte/scte.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=eIrXcpSm6WkcgRNBgNKlyMnIUGWLwgTurzYy8K2WApI%3D"
+    },
+    "scte262-04": {
+        "href": "https://scte-cms-resource-storage.s3.amazonaws.com/SCTE-262-04-2020-1600303511516.pdf",
+        "title": "SCTE 262-04 2020: DOCSIS 4.0 Part 4: CCAP™ Operations Support System Interface Specification",
+        "publisher": "SCTE",
+        "source": "https://dashifspecref.blob.core.windows.net/scte/scte.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=eIrXcpSm6WkcgRNBgNKlyMnIUGWLwgTurzYy8K2WApI%3D"
+    },
+    "scte262-05": {
+        "href": "https://scte-cms-resource-storage.s3.amazonaws.com/SCTE-262-05-2020-1600303546143.pdf",
+        "title": "SCTE 262-05 2020: DOCSIS 4.0 Part 5: Security Specification",
+        "publisher": "SCTE",
+        "source": "https://dashifspecref.blob.core.windows.net/scte/scte.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=eIrXcpSm6WkcgRNBgNKlyMnIUGWLwgTurzYy8K2WApI%3D"
+    },
+    "scte262-1": {
+        "aliasOf": "scte262-01"
+    },
+    "scte262-2": {
+        "aliasOf": "scte262-02"
+    },
+    "scte262-3": {
+        "aliasOf": "scte262-03"
+    },
+    "scte262-4": {
+        "aliasOf": "scte262-04"
+    },
+    "scte262-5": {
+        "aliasOf": "scte262-05"
+    },
     "scte27": {
         "href": "https://scte-cms-resource-storage.s3.amazonaws.com/Standards/ANSI_SCTE%2027%202016.pdf",
         "title": "ANSI/SCTE 27 2016: Subtitling Methods for Broadcast Cable",
