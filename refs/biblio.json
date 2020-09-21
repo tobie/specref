@@ -4198,6 +4198,54 @@
         "date": "2005",
         "isoNumber": "ISO 19133:2005"
     },
+    "iso-19135": {
+        "aliasOf": "iso-19135-2005"
+    },
+    "iso-19135-1": {
+        "aliasOf": "iso-19135-1-2015"
+    },
+    "iso-19135-1-2015": {
+        "authors": [
+            "ISO/TC 211"
+        ],
+        "href": "https://www.iso.org/standard/54721.html",
+        "title": "Geographic information -- Procedures for item registration -- Part 1: Fundamentals",
+        "publisher": "ISO",
+        "status": "International Standard",
+        "date": "2015",
+        "isoNumber": "ISO 19135-1:2015",
+        "updates": [
+            "iso-19135-2005"
+        ]
+    },
+    "iso-19135-2": {
+        "aliasOf": "iso-19135-2-2012"
+    },
+    "iso-19135-2-2012": {
+        "authors": [
+            "ISO/TC 211"
+        ],
+        "href": "https://www.iso.org/standard/55998.html",
+        "title": "Geographic information -- Procedures for item registration -- Part 2: XML schema implementation",
+        "publisher": "ISO",
+        "status": "International Standard",
+        "date": "2012",
+        "isoNumber": "ISO 19135-2:2012"
+    },
+    "iso-19135-2005": {
+        "authors": [
+            "ISO/TC 211"
+        ],
+        "href": "https://www.iso.org/standard/32553.html",
+        "title": "Geographic information -- Procedures for item registration",
+        "publisher": "ISO",
+        "status": "International Standard",
+        "date": "2005",
+        "isoNumber": "ISO 19135:2005",
+        "updatedBy": [
+            "iso-19135-1-2015"
+        ]
+    },  
     "iso-19136": {
         "aliasOf": "iso-19136-2007"
     },
