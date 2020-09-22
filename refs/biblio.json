@@ -2441,15 +2441,17 @@
     "RDF-SPARQL-UPDATE": {
         "aliasOf": "sparql11-update"
     },
-    "RDF-SYNTAX": {
-        "aliasOf": "rdf-concepts"
-    },
     "RDF-STAR-FOUNDATION": {
-        "authors": [ "Olaf Hartig" ],
+        "authors": [
+            "Olaf Hartig"
+        ],
         "title": "Foundations of RDF* and SPARQL* - An Alternative Approach to Statement-Level Metadata in RDF.",
         "publisher": "In Proceedings of the 11th Alberto Mendelzon International Workshop on Foundations of Data Management (AMW), Montevideo, Uruguay",
         "rawDate": "2017-06",
         "href": "http://ceur-ws.org/Vol-1912/paper12.pdf"
+    },
+    "RDF-SYNTAX": {
+        "aliasOf": "rdf-concepts"
     },
     "RELAXNG-SCHEMA": {
         "title": "Information technology -- Document Schema Definition Language (DSDL) -- Part 2: Regular-grammar-based validation -- RELAX NG",
