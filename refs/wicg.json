@@ -87,6 +87,14 @@
         "source": "https://wicg.github.io/admin/biblio.json",
         "repository": "https://github.com/wicg/event-timing"
     },
+    "FILE-SYSTEM-ACCESS": {
+        "href": "https://wicg.github.io/file-system-access/",
+        "title": "File System Access",
+        "status": "cg-draft",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/file-system-access"
+    },
     "INPUT-DEVICE-CAPABILITIES": {
         "href": "https://wicg.github.io/input-device-capabilities/",
         "title": "Input Device Capabilities",
@@ -334,6 +342,9 @@
     },
     "WICG-FEATURE-POLICY": {
         "aliasOf": "FEATURE-POLICY"
+    },
+    "WICG-FILE-SYSTEM-ACCESS": {
+        "aliasOf": "FILE-SYSTEM-ACCESS"
     },
     "WICG-FRAME-TIMING": {
         "href": "https://wicg.github.io/frame-timing/",
