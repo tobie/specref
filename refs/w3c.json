@@ -50530,13 +50530,13 @@
     },
     "mediacapture-streams": {
         "authors": [
-            "Daniel Burnett",
-            "Adam Bergkvist",
             "Cullen Jennings",
-            "Anant Narayanan",
             "Bernard Aboba",
             "Jan-Ivar Bruaroey",
-            "Henrik Boström"
+            "Henrik Boström",
+            "Daniel Burnett",
+            "Adam Bergkvist",
+            "Anant Narayanan"
         ],
         "href": "https://www.w3.org/TR/mediacapture-streams/",
         "title": "Media Capture and Streams",
@@ -50680,9 +50680,29 @@
                     "https://www.w3.org/groups/wg/webrtc"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20200924": {
+                "authors": [
+                    "Cullen Jennings",
+                    "Bernard Aboba",
+                    "Jan-Ivar Bruaroey",
+                    "Henrik Boström",
+                    "Daniel Burnett",
+                    "Adam Bergkvist",
+                    "Anant Narayanan"
+                ],
+                "href": "https://www.w3.org/TR/2020/CRD-mediacapture-streams-20200924/",
+                "title": "Media Capture and Streams",
+                "rawDate": "2020-09-24",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/webrtc"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "rawDate": "2019-07-02",
+        "rawDate": "2020-09-24",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
         "edDraft": "https://w3c.github.io/mediacapture-main/",
         "repository": "https://github.com/w3c/mediacapture-main"
