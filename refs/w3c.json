@@ -72888,6 +72888,353 @@
         "edDraft": "https://w3c.github.io/screen-orientation/",
         "repository": "https://github.com/w3c/screen-orientation"
     },
+    "screen-wake-lock": {
+        "authors": [
+            "Kenneth Christiansen",
+            "Marcos Caceres",
+            "Raphael Kubo da Costa"
+        ],
+        "href": "https://www.w3.org/TR/screen-wake-lock/",
+        "title": "Screen Wake Lock API",
+        "rawDate": "2020-09-29",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/screen-wake-lock/",
+        "deliveredBy": [
+            "https://www.w3.org/das/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20150212": {
+                "authors": [
+                    "Ilya Bogdanovich",
+                    "Andrey Logvinov",
+                    "Marcos Caceres"
+                ],
+                "href": "https://www.w3.org/TR/2015/WD-wake-lock-20150212/",
+                "title": "Wake Lock API",
+                "rawDate": "2015-02-12",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2009/dap/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20150904": {
+                "authors": [
+                    "Ilya Bogdanovich",
+                    "Andrey Logvinov",
+                    "Marcos Caceres"
+                ],
+                "href": "https://www.w3.org/TR/2015/WD-wake-lock-20150904/",
+                "title": "Wake Lock API",
+                "rawDate": "2015-09-04",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2009/dap/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20160129": {
+                "authors": [
+                    "Ilya Bogdanovich",
+                    "Andrey Logvinov",
+                    "Marcos Caceres"
+                ],
+                "href": "https://www.w3.org/TR/2016/WD-wake-lock-20160129/",
+                "title": "Wake Lock API",
+                "rawDate": "2016-01-29",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2009/dap/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20160316": {
+                "authors": [
+                    "Ilya Bogdanovich",
+                    "Andrey Logvinov",
+                    "Marcos Caceres"
+                ],
+                "href": "https://www.w3.org/TR/2016/WD-wake-lock-20160316/",
+                "title": "Wake Lock API",
+                "rawDate": "2016-03-16",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2009/dap/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20160603": {
+                "href": "https://www.w3.org/TR/2016/WD-wake-lock-20160603/",
+                "title": "Wake Lock API",
+                "rawDate": "2016-06-03",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2009/dap/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20160617": {
+                "href": "https://www.w3.org/TR/2016/WD-wake-lock-20160617/",
+                "title": "Wake Lock API",
+                "rawDate": "2016-06-17",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2009/dap/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20160620": {
+                "href": "https://www.w3.org/TR/2016/WD-wake-lock-20160620/",
+                "title": "Wake Lock API",
+                "rawDate": "2016-06-20",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2009/dap/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20160714": {
+                "href": "https://www.w3.org/TR/2016/WD-wake-lock-20160714/",
+                "title": "Wake Lock API",
+                "rawDate": "2016-07-14",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2009/dap/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20160803": {
+                "href": "https://www.w3.org/TR/2016/WD-wake-lock-20160803/",
+                "title": "Wake Lock API",
+                "rawDate": "2016-08-03",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2009/dap/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20161220": {
+                "authors": [
+                    "Ilya Bogdanovich",
+                    "Andrey Logvinov",
+                    "Marcos Caceres"
+                ],
+                "href": "https://www.w3.org/TR/2016/WD-wake-lock-20161220/",
+                "title": "Wake Lock API",
+                "rawDate": "2016-12-20",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2009/dap/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20170222": {
+                "authors": [
+                    "Ilya Bogdanovich",
+                    "Andrey Logvinov",
+                    "Marcos Caceres"
+                ],
+                "href": "https://www.w3.org/TR/2017/WD-wake-lock-20170222/",
+                "title": "Wake Lock API",
+                "rawDate": "2017-02-22",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2009/dap/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20170613": {
+                "authors": [
+                    "Ilya Bogdanovich",
+                    "Andrey Logvinov",
+                    "Marcos Caceres"
+                ],
+                "href": "https://www.w3.org/TR/2017/WD-wake-lock-20170613/",
+                "title": "Wake Lock API",
+                "rawDate": "2017-06-13",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2009/dap/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20170629": {
+                "authors": [
+                    "Ilya Bogdanovich",
+                    "Andrey Logvinov",
+                    "Marcos Caceres"
+                ],
+                "href": "https://www.w3.org/TR/2017/WD-wake-lock-20170629/",
+                "title": "Wake Lock API",
+                "rawDate": "2017-06-29",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2009/dap/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20170724": {
+                "authors": [
+                    "Ilya Bogdanovich",
+                    "Andrey Logvinov",
+                    "Marcos Caceres"
+                ],
+                "href": "https://www.w3.org/TR/2017/WD-wake-lock-20170724/",
+                "title": "Wake Lock API",
+                "rawDate": "2017-07-24",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2009/dap/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20170824": {
+                "authors": [
+                    "Ilya Bogdanovich",
+                    "Andrey Logvinov",
+                    "Marcos Caceres"
+                ],
+                "href": "https://www.w3.org/TR/2017/WD-wake-lock-20170824/",
+                "title": "Wake Lock API",
+                "rawDate": "2017-08-24",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2009/dap/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20170912": {
+                "authors": [
+                    "Ilya Bogdanovich",
+                    "Andrey Logvinov",
+                    "Marcos Caceres"
+                ],
+                "href": "https://www.w3.org/TR/2017/WD-wake-lock-20170912/",
+                "title": "Wake Lock API",
+                "rawDate": "2017-09-12",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2009/dap/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20171120": {
+                "authors": [
+                    "Ilya Bogdanovich",
+                    "Andrey Logvinov",
+                    "Marcos Caceres"
+                ],
+                "href": "https://www.w3.org/TR/2017/WD-wake-lock-20171120/",
+                "title": "Wake Lock API",
+                "rawDate": "2017-11-20",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2009/dap/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20171121": {
+                "authors": [
+                    "Ilya Bogdanovich",
+                    "Andrey Logvinov",
+                    "Marcos Caceres"
+                ],
+                "href": "https://www.w3.org/TR/2017/WD-wake-lock-20171121/",
+                "title": "Wake Lock API",
+                "rawDate": "2017-11-21",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2009/dap/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20171123": {
+                "authors": [
+                    "Ilya Bogdanovich",
+                    "Andrey Logvinov",
+                    "Marcos Caceres"
+                ],
+                "href": "https://www.w3.org/TR/2017/WD-wake-lock-20171123/",
+                "title": "Wake Lock API",
+                "rawDate": "2017-11-23",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2009/dap/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20171204": {
+                "authors": [
+                    "Ilya Bogdanovich",
+                    "Andrey Logvinov",
+                    "Marcos Caceres"
+                ],
+                "href": "https://www.w3.org/TR/2017/WD-wake-lock-20171204/",
+                "title": "Wake Lock API",
+                "rawDate": "2017-12-04",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2009/dap/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20171214": {
+                "authors": [
+                    "Ilya Bogdanovich",
+                    "Andrey Logvinov",
+                    "Marcos Caceres"
+                ],
+                "href": "https://www.w3.org/TR/2017/CR-wake-lock-20171214/",
+                "title": "Wake Lock API",
+                "rawDate": "2017-12-14",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/das/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20200929": {
+                "authors": [
+                    "Kenneth Christiansen",
+                    "Marcos Caceres",
+                    "Raphael Kubo da Costa"
+                ],
+                "href": "https://www.w3.org/TR/2020/WD-screen-wake-lock-20200929/",
+                "title": "Screen Wake Lock API",
+                "rawDate": "2020-09-29",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/das/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        },
+        "repository": "https://github.com/w3c/screen-wake-lock"
+    },
     "scxml": {
         "authors": [
             "James Barnett",
@@ -87302,335 +87649,7 @@
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
     "wake-lock": {
-        "authors": [
-            "Ilya Bogdanovich",
-            "Andrey Logvinov",
-            "Marcos Caceres"
-        ],
-        "href": "https://www.w3.org/TR/wake-lock/",
-        "title": "Wake Lock API",
-        "rawDate": "2017-12-14",
-        "status": "CR",
-        "publisher": "W3C",
-        "edDraft": "https://w3c.github.io/screen-wake-lock/",
-        "deliveredBy": [
-            "https://www.w3.org/das/"
-        ],
-        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
-        "versions": {
-            "20150212": {
-                "authors": [
-                    "Ilya Bogdanovich",
-                    "Andrey Logvinov",
-                    "Marcos Caceres"
-                ],
-                "href": "https://www.w3.org/TR/2015/WD-wake-lock-20150212/",
-                "title": "Wake Lock API",
-                "rawDate": "2015-02-12",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/2009/dap/"
-                ],
-                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
-            },
-            "20150904": {
-                "authors": [
-                    "Ilya Bogdanovich",
-                    "Andrey Logvinov",
-                    "Marcos Caceres"
-                ],
-                "href": "https://www.w3.org/TR/2015/WD-wake-lock-20150904/",
-                "title": "Wake Lock API",
-                "rawDate": "2015-09-04",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/2009/dap/"
-                ],
-                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
-            },
-            "20160129": {
-                "authors": [
-                    "Ilya Bogdanovich",
-                    "Andrey Logvinov",
-                    "Marcos Caceres"
-                ],
-                "href": "https://www.w3.org/TR/2016/WD-wake-lock-20160129/",
-                "title": "Wake Lock API",
-                "rawDate": "2016-01-29",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/2009/dap/"
-                ],
-                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
-            },
-            "20160316": {
-                "authors": [
-                    "Ilya Bogdanovich",
-                    "Andrey Logvinov",
-                    "Marcos Caceres"
-                ],
-                "href": "https://www.w3.org/TR/2016/WD-wake-lock-20160316/",
-                "title": "Wake Lock API",
-                "rawDate": "2016-03-16",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/2009/dap/"
-                ],
-                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
-            },
-            "20160603": {
-                "href": "https://www.w3.org/TR/2016/WD-wake-lock-20160603/",
-                "title": "Wake Lock API",
-                "rawDate": "2016-06-03",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/2009/dap/"
-                ],
-                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
-            },
-            "20160617": {
-                "href": "https://www.w3.org/TR/2016/WD-wake-lock-20160617/",
-                "title": "Wake Lock API",
-                "rawDate": "2016-06-17",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/2009/dap/"
-                ],
-                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
-            },
-            "20160620": {
-                "href": "https://www.w3.org/TR/2016/WD-wake-lock-20160620/",
-                "title": "Wake Lock API",
-                "rawDate": "2016-06-20",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/2009/dap/"
-                ],
-                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
-            },
-            "20160714": {
-                "href": "https://www.w3.org/TR/2016/WD-wake-lock-20160714/",
-                "title": "Wake Lock API",
-                "rawDate": "2016-07-14",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/2009/dap/"
-                ],
-                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
-            },
-            "20160803": {
-                "href": "https://www.w3.org/TR/2016/WD-wake-lock-20160803/",
-                "title": "Wake Lock API",
-                "rawDate": "2016-08-03",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/2009/dap/"
-                ],
-                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
-            },
-            "20161220": {
-                "authors": [
-                    "Ilya Bogdanovich",
-                    "Andrey Logvinov",
-                    "Marcos Caceres"
-                ],
-                "href": "https://www.w3.org/TR/2016/WD-wake-lock-20161220/",
-                "title": "Wake Lock API",
-                "rawDate": "2016-12-20",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/2009/dap/"
-                ],
-                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
-            },
-            "20170222": {
-                "authors": [
-                    "Ilya Bogdanovich",
-                    "Andrey Logvinov",
-                    "Marcos Caceres"
-                ],
-                "href": "https://www.w3.org/TR/2017/WD-wake-lock-20170222/",
-                "title": "Wake Lock API",
-                "rawDate": "2017-02-22",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/2009/dap/"
-                ],
-                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
-            },
-            "20170613": {
-                "authors": [
-                    "Ilya Bogdanovich",
-                    "Andrey Logvinov",
-                    "Marcos Caceres"
-                ],
-                "href": "https://www.w3.org/TR/2017/WD-wake-lock-20170613/",
-                "title": "Wake Lock API",
-                "rawDate": "2017-06-13",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/2009/dap/"
-                ],
-                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
-            },
-            "20170629": {
-                "authors": [
-                    "Ilya Bogdanovich",
-                    "Andrey Logvinov",
-                    "Marcos Caceres"
-                ],
-                "href": "https://www.w3.org/TR/2017/WD-wake-lock-20170629/",
-                "title": "Wake Lock API",
-                "rawDate": "2017-06-29",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/2009/dap/"
-                ],
-                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
-            },
-            "20170724": {
-                "authors": [
-                    "Ilya Bogdanovich",
-                    "Andrey Logvinov",
-                    "Marcos Caceres"
-                ],
-                "href": "https://www.w3.org/TR/2017/WD-wake-lock-20170724/",
-                "title": "Wake Lock API",
-                "rawDate": "2017-07-24",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/2009/dap/"
-                ],
-                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
-            },
-            "20170824": {
-                "authors": [
-                    "Ilya Bogdanovich",
-                    "Andrey Logvinov",
-                    "Marcos Caceres"
-                ],
-                "href": "https://www.w3.org/TR/2017/WD-wake-lock-20170824/",
-                "title": "Wake Lock API",
-                "rawDate": "2017-08-24",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/2009/dap/"
-                ],
-                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
-            },
-            "20170912": {
-                "authors": [
-                    "Ilya Bogdanovich",
-                    "Andrey Logvinov",
-                    "Marcos Caceres"
-                ],
-                "href": "https://www.w3.org/TR/2017/WD-wake-lock-20170912/",
-                "title": "Wake Lock API",
-                "rawDate": "2017-09-12",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/2009/dap/"
-                ],
-                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
-            },
-            "20171120": {
-                "authors": [
-                    "Ilya Bogdanovich",
-                    "Andrey Logvinov",
-                    "Marcos Caceres"
-                ],
-                "href": "https://www.w3.org/TR/2017/WD-wake-lock-20171120/",
-                "title": "Wake Lock API",
-                "rawDate": "2017-11-20",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/2009/dap/"
-                ],
-                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
-            },
-            "20171121": {
-                "authors": [
-                    "Ilya Bogdanovich",
-                    "Andrey Logvinov",
-                    "Marcos Caceres"
-                ],
-                "href": "https://www.w3.org/TR/2017/WD-wake-lock-20171121/",
-                "title": "Wake Lock API",
-                "rawDate": "2017-11-21",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/2009/dap/"
-                ],
-                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
-            },
-            "20171123": {
-                "authors": [
-                    "Ilya Bogdanovich",
-                    "Andrey Logvinov",
-                    "Marcos Caceres"
-                ],
-                "href": "https://www.w3.org/TR/2017/WD-wake-lock-20171123/",
-                "title": "Wake Lock API",
-                "rawDate": "2017-11-23",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/2009/dap/"
-                ],
-                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
-            },
-            "20171204": {
-                "authors": [
-                    "Ilya Bogdanovich",
-                    "Andrey Logvinov",
-                    "Marcos Caceres"
-                ],
-                "href": "https://www.w3.org/TR/2017/WD-wake-lock-20171204/",
-                "title": "Wake Lock API",
-                "rawDate": "2017-12-04",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/2009/dap/"
-                ],
-                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
-            },
-            "20171214": {
-                "authors": [
-                    "Ilya Bogdanovich",
-                    "Andrey Logvinov",
-                    "Marcos Caceres"
-                ],
-                "href": "https://www.w3.org/TR/2017/CR-wake-lock-20171214/",
-                "title": "Wake Lock API",
-                "rawDate": "2017-12-14",
-                "status": "CR",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/das/"
-                ],
-                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
-            }
-        },
-        "repository": "https://github.com/w3c/wake-lock"
+        "aliasOf": "screen-wake-lock"
     },
     "wake-lock-use-cases": {
         "authors": [
