@@ -1,7 +1,7 @@
 Specref API [![Build Status](https://travis-ci.org/tobie/specref.png?branch=master)](https://travis-ci.org/tobie/specref) [![Greenkeeper badge](https://badges.greenkeeper.io/tobie/specref.svg)](https://greenkeeper.io/)
 ===========
 
-[Specref](http://www.specref.org/) is an open-source, community-maintained database of Web standards & related references.
+[Specref](http://www.specref.org/) is an open-source Project, it is community-maintained database of Web standards & related references.
 
 ## Table of Contents ##
 
