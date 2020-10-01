@@ -16404,8 +16404,8 @@
         ],
         "href": "https://www.w3.org/TR/audiobooks/",
         "title": "Audiobooks",
-        "rawDate": "2020-09-14",
-        "status": "CR",
+        "rawDate": "2020-10-01",
+        "status": "PR",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/audiobooks/",
         "deliveredBy": [
@@ -16559,9 +16559,26 @@
                     "https://www.w3.org/publishing/groups/publ-wg/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20201001": {
+                "authors": [
+                    "Wendy Reid",
+                    "Matt Garrish"
+                ],
+                "href": "https://www.w3.org/TR/2020/PR-audiobooks-20201001/",
+                "title": "Audiobooks",
+                "rawDate": "2020-10-01",
+                "status": "PR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/publishing/groups/publ-wg/"
+                ],
+                "hasErrata": "https://w3c.github.io/audiobooks/errata/",
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "repository": "https://github.com/w3c/audiobooks"
+        "repository": "https://github.com/w3c/audiobooks",
+        "hasErrata": "https://w3c.github.io/audiobooks/errata/"
     },
     "audioproc": {
         "authors": [
@@ -38792,14 +38809,12 @@
     },
     "hr-time-3": {
         "authors": [
-            "Ilya Grigorik",
-            "James Simonsen",
-            "Jatinder Mann"
+            "Ilya Grigorik"
         ],
         "href": "https://www.w3.org/TR/hr-time-3/",
-        "title": "High Resolution Time Level 3",
-        "rawDate": "2017-08-03",
-        "status": "NOTE",
+        "title": "High Resolution Time",
+        "rawDate": "2020-10-01",
+        "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/hr-time/",
         "deliveredBy": [
@@ -38835,6 +38850,20 @@
                 "status": "NOTE",
                 "publisher": "W3C",
                 "isRetired": true,
+                "deliveredBy": [
+                    "https://www.w3.org/webperf/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20201001": {
+                "authors": [
+                    "Ilya Grigorik"
+                ],
+                "href": "https://www.w3.org/TR/2020/WD-hr-time-3-20201001/",
+                "title": "High Resolution Time",
+                "rawDate": "2020-10-01",
+                "status": "WD",
+                "publisher": "W3C",
                 "deliveredBy": [
                     "https://www.w3.org/webperf/"
                 ],
@@ -64577,8 +64606,8 @@
         ],
         "href": "https://www.w3.org/TR/pub-manifest/",
         "title": "Publication Manifest",
-        "rawDate": "2020-09-14",
-        "status": "CR",
+        "rawDate": "2020-10-01",
+        "status": "PR",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/pub-manifest/",
         "deliveredBy": [
@@ -64720,9 +64749,26 @@
                     "https://www.w3.org/publishing/groups/publ-wg/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20201001": {
+                "authors": [
+                    "Matt Garrish",
+                    "Ivan Herman"
+                ],
+                "href": "https://www.w3.org/TR/2020/PR-pub-manifest-20201001/",
+                "title": "Publication Manifest",
+                "rawDate": "2020-10-01",
+                "status": "PR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/publishing/groups/publ-wg/"
+                ],
+                "hasErrata": "https://w3c.github.io/pub-manifest/errata/",
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "repository": "https://github.com/w3c/pub-manifest"
+        "repository": "https://github.com/w3c/pub-manifest",
+        "hasErrata": "https://w3c.github.io/pub-manifest/errata/"
     },
     "publishing-linking": {
         "authors": [
@@ -65560,8 +65606,8 @@
         ],
         "href": "https://www.w3.org/TR/pwpub/",
         "title": "Packaged Web Publications",
-        "rawDate": "2018-01-04",
-        "status": "WD",
+        "rawDate": "2020-10-01",
+        "status": "NOTE",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/pwpub/",
         "deliveredBy": [
@@ -65582,9 +65628,25 @@
                     "https://www.w3.org/publishing/groups/publ-wg/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20201001": {
+                "authors": [
+                    "David Wood"
+                ],
+                "href": "https://www.w3.org/TR/2020/NOTE-pwpub-20201001/",
+                "title": "Packaged Web Publications",
+                "rawDate": "2020-10-01",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "isRetired": true,
+                "deliveredBy": [
+                    "https://www.w3.org/publishing/groups/publ-wg/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "repository": "https://github.com/w3c/pwpub"
+        "repository": "https://github.com/w3c/pwpub",
+        "isRetired": true
     },
     "qa-handbook": {
         "authors": [
@@ -94101,8 +94163,8 @@
         ],
         "href": "https://www.w3.org/TR/wpub-ann/",
         "title": "Web Annotation Extensions for Web Publications",
-        "rawDate": "2018-01-04",
-        "status": "WD",
+        "rawDate": "2020-10-01",
+        "status": "NOTE",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/wpub-ann/",
         "deliveredBy": [
@@ -94124,9 +94186,26 @@
                     "https://www.w3.org/publishing/groups/publ-wg/"
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20201001": {
+                "authors": [
+                    "Timothy Cole",
+                    "Ivan Herman"
+                ],
+                "href": "https://www.w3.org/TR/2020/NOTE-wpub-ann-20201001/",
+                "title": "Web Annotation Extensions for Web Publications",
+                "rawDate": "2020-10-01",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "isRetired": true,
+                "deliveredBy": [
+                    "https://www.w3.org/publishing/groups/publ-wg/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
         },
-        "repository": "https://github.com/w3c/wpub-ann"
+        "repository": "https://github.com/w3c/wpub-ann",
+        "isRetired": true
     },
     "ws-addr-core": {
         "authors": [
