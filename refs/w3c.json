@@ -16720,6 +16720,42 @@
         "rawDate": "2006-11-16",
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
     },
+    "baggage": {
+        "authors": [
+            "Sergey Kanzhelev",
+            "Morgan McLean",
+            "Alois Reitbauer"
+        ],
+        "href": "https://www.w3.org/TR/baggage/",
+        "title": "Propagation format for distributed trace context: Baggage",
+        "rawDate": "2020-10-20",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://w3c.github.io/baggage/",
+        "deliveredBy": [
+            "https://www.w3.org/2018/distributed-tracing/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20201020": {
+                "authors": [
+                    "Sergey Kanzhelev",
+                    "Morgan McLean",
+                    "Alois Reitbauer"
+                ],
+                "href": "https://www.w3.org/TR/2020/WD-baggage-20201020/",
+                "title": "Propagation format for distributed trace context: Baggage",
+                "rawDate": "2020-10-20",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2018/distributed-tracing/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        },
+        "repository": "https://github.com/w3c/baggage"
+    },
     "battery-status": {
         "authors": [
             "Anssi Kostiainen",
