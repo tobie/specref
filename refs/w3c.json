@@ -23336,6 +23336,42 @@
         },
         "repository": "https://github.com/w3c/csswg-drafts"
     },
+    "css-highlight-api-1": {
+        "authors": [
+            "Florian Rivoal",
+            "Sanket Joshi",
+            "Megan Gardner"
+        ],
+        "href": "https://www.w3.org/TR/css-highlight-api-1/",
+        "title": "CSS Custom Highlight API Module Level 1",
+        "rawDate": "2020-10-22",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://drafts.csswg.org/css-highlight-api-1/",
+        "deliveredBy": [
+            "https://www.w3.org/Style/CSS/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20201022": {
+                "authors": [
+                    "Florian Rivoal",
+                    "Sanket Joshi",
+                    "Megan Gardner"
+                ],
+                "href": "https://www.w3.org/TR/2020/WD-css-highlight-api-1-20201022/",
+                "title": "CSS Custom Highlight API Module Level 1",
+                "rawDate": "2020-10-22",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Style/CSS/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        },
+        "repository": "https://github.com/w3c/csswg-drafts"
+    },
     "css-images-3": {
         "authors": [
             "Tab Atkins Jr.",
@@ -47181,7 +47217,9 @@
             }
         },
         "rawDate": "2020-08-11",
-        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "edDraft": "https://w3c.github.io/jlreq/",
+        "repository": "https://github.com/w3c/jlreq"
     },
     "jpan-gap": {
         "authors": [
@@ -86515,7 +86553,7 @@
         "rawDate": "2020-01-16",
         "status": "WD",
         "publisher": "W3C",
-        "edDraft": "https://w3c.github.io/sdw/proposals/ssn-extensions/",
+        "edDraft": "https://w3c.github.io/sdw/ssn-extensions/",
         "deliveredBy": [
             "https://www.w3.org/2017/sdwig/"
         ],
@@ -93164,6 +93202,38 @@
             }
         },
         "repository": "https://github.com/immersive-web/webxr-gamepads-module"
+    },
+    "webxr-hand-input-1": {
+        "authors": [
+            "Manish Goregaokar"
+        ],
+        "href": "https://www.w3.org/TR/webxr-hand-input-1/",
+        "title": "WebXR Hand Input Module - Level 1",
+        "rawDate": "2020-10-22",
+        "status": "WD",
+        "publisher": "W3C",
+        "edDraft": "https://immersive-web.github.io/webxr-hand-input/",
+        "deliveredBy": [
+            "https://www.w3.org/immersive-web/"
+        ],
+        "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
+        "versions": {
+            "20201022": {
+                "authors": [
+                    "Manish Goregaokar"
+                ],
+                "href": "https://www.w3.org/TR/2020/WD-webxr-hand-input-1-20201022/",
+                "title": "WebXR Hand Input Module - Level 1",
+                "rawDate": "2020-10-22",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/immersive-web/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        },
+        "repository": "https://github.com/immersive-web/webxr-hand-input"
     },
     "widgets": {
         "authors": [
