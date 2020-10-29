@@ -6835,14 +6835,14 @@
         "aliasOf": "iso21794-2-cdamd1"
     },
     "iso21794-2-cdamd1": {
-        "aliasOf": "iso21794-2-damd1"
-    },
-    "iso21794-2-damd1": {
         "href": "https://www.iso.org/standard/80897.html",
         "title": "Information technology — Plenoptic image coding system (JPEG Pleno) — Part 2: Light field coding — Amendment 1: Profiles and Levels for JPEG Pleno Light Field Coding System",
         "status": "Under development",
         "publisher": "ISO/IEC",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+    },
+    "iso21794-2-damd1": {
+        "aliasOf": "iso21794-2-cdamd1"
     },
     "iso21794-3": {
         "href": "https://www.iso.org/standard/74533.html",
@@ -8607,6 +8607,13 @@
         "rawDate": "2017-12",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
+    "iso23008-12-2017-amd2": {
+        "href": "https://www.iso.org/standard/79153.html",
+        "title": "Information technology — High efficiency coding and media delivery in heterogeneous environments — Part 12: Image File Format — Amendment 2: Support for predictive image coding, bursts, bracketing and other improvements",
+        "status": "Under development",
+        "publisher": "ISO/IEC",
+        "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+    },
     "iso23008-12-2017-cdamd2": {
         "aliasOf": "iso23008-12-2017-damd2"
     },
@@ -8625,11 +8632,7 @@
         "aliasOf": "iso23008-12-2017-fdamd2"
     },
     "iso23008-12-2017-fdamd2": {
-        "href": "https://www.iso.org/standard/79153.html",
-        "title": "Information technology — High efficiency coding and media delivery in heterogeneous environments — Part 12: Image File Format — Amendment 2: Support for predictive image coding, bursts, bracketing and other improvements",
-        "status": "Under development",
-        "publisher": "ISO/IEC",
-        "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+        "aliasOf": "iso23008-12-2017-amd2"
     },
     "iso23008-12-2017-pdam2": {
         "aliasOf": "iso23008-12-2017-cdamd2"
@@ -8833,6 +8836,13 @@
         "rawDate": "2019-06",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
+    "iso23008-3-2019-amd2": {
+        "href": "https://www.iso.org/standard/79147.html",
+        "title": "Information technology — High efficiency coding and media delivery in heterogeneous environments — Part 3: 3D audio — Amendment 2: 3D Audio baseline profile, corrections and improvements",
+        "status": "Under development",
+        "publisher": "ISO/IEC",
+        "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+    },
     "iso23008-3-2019-cdamd2": {
         "aliasOf": "iso23008-3-2019-damd2"
     },
@@ -8843,11 +8853,7 @@
         "aliasOf": "iso23008-3-2019-amd1"
     },
     "iso23008-3-2019-fdamd2": {
-        "href": "https://www.iso.org/standard/79147.html",
-        "title": "Information technology — High efficiency coding and media delivery in heterogeneous environments — Part 3: 3D audio — Amendment 2: 3D Audio baseline profile, corrections and improvements",
-        "status": "Under development",
-        "publisher": "ISO/IEC",
-        "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+        "aliasOf": "iso23008-3-2019-amd2"
     },
     "iso23008-3-2019-wdamd2": {
         "aliasOf": "iso23008-3-2019-cdamd2"
