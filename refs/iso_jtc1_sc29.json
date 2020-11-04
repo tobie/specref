@@ -8610,12 +8610,15 @@
         "rawDate": "2017-12",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
-    "iso23008-12-2017-amd2": {
+    "iso23008-12-2017-amd1": {
         "href": "https://www.iso.org/standard/79153.html",
         "title": "Information technology — High efficiency coding and media delivery in heterogeneous environments — Part 12: Image File Format — Amendment 2: Support for predictive image coding, bursts, bracketing and other improvements",
         "status": "Under development",
         "publisher": "ISO/IEC",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+    },
+    "iso23008-12-2017-amd2": {
+        "aliasOf": "iso23008-12-2017-amd1"
     },
     "iso23008-12-2017-cdamd2": {
         "aliasOf": "iso23008-12-2017-damd2"
@@ -8640,12 +8643,15 @@
     "iso23008-12-2017-pdam2": {
         "aliasOf": "iso23008-12-2017-cdamd2"
     },
-    "iso23008-12-2017-wdamd3": {
+    "iso23008-12-2017-wdamd2": {
         "href": "https://www.iso.org/standard/81688.html",
         "title": "Information technology — High efficiency coding and media delivery in heterogeneous environments — Part 12: Image File Format — Amendment 3: Support for VVC, EVC, slideshows and other improvements",
         "status": "Under development",
         "publisher": "ISO/IEC",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+    },
+    "iso23008-12-2017-wdamd3": {
+        "aliasOf": "iso23008-12-2017-wdamd2"
     },
     "iso23008-13": {
         "href": "https://www.iso.org/standard/75822.html",
