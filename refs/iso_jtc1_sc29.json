@@ -6838,14 +6838,14 @@
         "aliasOf": "iso21794-2-cdamd1"
     },
     "iso21794-2-cdamd1": {
+        "aliasOf": "iso21794-2-damd1"
+    },
+    "iso21794-2-damd1": {
         "href": "https://www.iso.org/standard/80897.html",
         "title": "Information technology — Plenoptic image coding system (JPEG Pleno) — Part 2: Light field coding — Amendment 1: Profiles and Levels for JPEG Pleno Light Field Coding System",
         "status": "Under development",
         "publisher": "ISO/IEC",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
-    },
-    "iso21794-2-damd1": {
-        "aliasOf": "iso21794-2-cdamd1"
     },
     "iso21794-3": {
         "href": "https://www.iso.org/standard/74533.html",
@@ -8615,6 +8615,7 @@
         "title": "Information technology — High efficiency coding and media delivery in heterogeneous environments — Part 12: Image File Format — Amendment 2: Support for predictive image coding, bursts, bracketing and other improvements",
         "status": "Under development",
         "publisher": "ISO/IEC",
+        "rawDate": "2020-11",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23008-12-2017-amd2": {
@@ -8846,10 +8847,14 @@
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23008-3-2019-amd2": {
+        "aliasOf": "iso23008-3-2019-amd2-2020"
+    },
+    "iso23008-3-2019-amd2-2020": {
         "href": "https://www.iso.org/standard/79147.html",
         "title": "Information technology — High efficiency coding and media delivery in heterogeneous environments — Part 3: 3D audio — Amendment 2: 3D Audio baseline profile, corrections and improvements",
-        "status": "Under development",
+        "status": "Published",
         "publisher": "ISO/IEC",
+        "rawDate": "2020-11",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23008-3-2019-cdamd2": {
@@ -9254,7 +9259,7 @@
     },
     "iso23090-18": {
         "href": "https://www.iso.org/standard/80901.html",
-        "title": "Information technology — Coded representation of immersive media — Part 18: Carriage of Geometry-based Point Cloud Compression Data",
+        "title": "Information technology — Coded representation of immersive media (MPEG-I) — Part 18: Carriage of Geometry-based Point Cloud Compression Data",
         "status": "Under development",
         "publisher": "ISO/IEC",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
