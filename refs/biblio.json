@@ -877,15 +877,35 @@
         "authors": [
             "DCMI Usage Board"
         ],
-        "href": "http://dublincore.org/documents/dcmi-terms/",
+        "href": "https://www.dublincore.org/specifications/dublin-core/dcmi-terms/",
         "title": "DCMI Metadata Terms",
-        "rawDate": "2012-06-14",
+        "rawDate": "2020-01-20",
         "publisher": "DCMI",
         "status": "DCMI Recommendation",
         "versions": {
             "20101011": {
                 "aliasOf": "DC-TERMS"
-            }
+            },
+			"20120614": {
+				"authors": [
+					"DCMI Usage Board"
+				],
+				"href": "https://dublincore.org/specifications/dublin-core/dcmi-terms/2012-06-14/",
+				"title": "DCMI Metadata Terms",
+				"rawDate": "2012-06-14",
+				"publisher": "DCMI",
+				"status": "DCMI Recommendation"
+			},
+			"20200120": {
+				"authors": [
+					"DCMI Usage Board"
+				],
+				"href": "https://dublincore.org/specifications/dublin-core/dcmi-terms/2020-01-20/",
+				"title": "DCMI Metadata Terms",
+				"rawDate": "2020-01-20",
+				"publisher": "DCMI",
+				"status": "DCMI Recommendation"
+			}
         }
     },
     "DES": {
