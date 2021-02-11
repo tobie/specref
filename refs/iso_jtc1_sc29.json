@@ -5460,12 +5460,10 @@
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso15444-8": {
-        "href": "https://www.iso.org/standard/37382.html",
-        "title": "Information technology — JPEG 2000 image coding system: Secure JPEG 2000 — Part 8:",
-        "status": "Published",
+        "href": "https://www.iso.org/standard/82566.html",
+        "title": "Information technology — JPEG 2000 image coding system — Part 8: Secure JPEG 2000",
+        "status": "Under development",
         "publisher": "ISO/IEC",
-        "isoNumber": "ISO 15444-8:2007",
-        "rawDate": "2007-04",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso15444-8-2007-amd1-2008": {
@@ -5477,12 +5475,10 @@
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso15444-9": {
-        "href": "https://www.iso.org/standard/39413.html",
-        "title": "Information technology — JPEG 2000 image coding system: Interactivity tools, APIs and protocols — Part 9:",
-        "status": "Published",
+        "href": "https://www.iso.org/standard/82567.html",
+        "title": "Information technology — JPEG 2000 image coding system — Part 9: Interactivity tools, APIs and protocols",
+        "status": "Under development",
         "publisher": "ISO/IEC",
-        "isoNumber": "ISO 15444-9:2005",
-        "rawDate": "2005-12",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso15444-9-2005-amd1-2006": {
@@ -6930,21 +6926,17 @@
         "aliasOf": "iso21122-3-2019-cdcor1"
     },
     "iso21122-4": {
-        "href": "https://www.iso.org/standard/74538.html",
+        "href": "https://www.iso.org/standard/82568.html",
         "title": "Information technology — JPEG XS low-latency lightweight image coding system — Part 4: Conformance testing",
-        "status": "Published",
+        "status": "Under development",
         "publisher": "ISO/IEC",
-        "isoNumber": "ISO 21122-4:2020",
-        "rawDate": "2020-06",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso21122-5": {
-        "href": "https://www.iso.org/standard/74539.html",
+        "href": "https://www.iso.org/standard/82569.html",
         "title": "Information technology — JPEG XS low-latency lightweight image coding system — Part 5: Reference software",
-        "status": "Published",
+        "status": "Under development",
         "publisher": "ISO/IEC",
-        "isoNumber": "ISO 21122-5:2020",
-        "rawDate": "2020-10",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso21794-1": {
@@ -7235,14 +7227,17 @@
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23000-19-2020-awiamd2": {
+        "aliasOf": "iso23000-19-2020-cdamd2"
+    },
+    "iso23000-19-2020-cdamd1": {
+        "aliasOf": "iso23000-19-2020-damd1"
+    },
+    "iso23000-19-2020-cdamd2": {
         "href": "https://www.iso.org/standard/82530.html",
         "title": "Information technology — Multimedia application format (MPEG-A) — Part 19: Common media application format (CMAF) for segmented media — Amendment 2: CMAF Media Profiles for MPEG-H 3D Audio, EVC, VVC and other technologies",
         "status": "Under development",
         "publisher": "ISO/IEC",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
-    },
-    "iso23000-19-2020-cdamd1": {
-        "aliasOf": "iso23000-19-2020-damd1"
     },
     "iso23000-19-2020-damd1": {
         "aliasOf": "iso23000-19-2020-fdamd1"
@@ -9561,12 +9556,15 @@
         "publisher": "ISO/IEC",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
-    "iso23090-6-wdamd1": {
+    "iso23090-6-cdamd1": {
         "href": "https://www.iso.org/standard/81606.html",
         "title": "Information technology — Coded representation of immersive media — Part 6: Immersive media metrics — Amendment 1: Immersive media metrics for V3C Data and OMAF",
         "status": "Under development",
         "publisher": "ISO/IEC",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+    },
+    "iso23090-6-wdamd1": {
+        "aliasOf": "iso23090-6-cdamd1"
     },
     "iso23090-7": {
         "href": "https://www.iso.org/standard/78989.html",
