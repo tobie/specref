@@ -95,6 +95,14 @@
         "source": "https://wicg.github.io/admin/biblio.json",
         "repository": "https://github.com/wicg/file-system-access"
     },
+    "IDLE-DETECTION": {
+        "href": "https://wicg.github.io/idle-detection/",
+        "title": "Idle Detection API",
+        "status": "cg-draft",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/idle-detection"
+    },
     "INPUT-DEVICE-CAPABILITIES": {
         "href": "https://wicg.github.io/input-device-capabilities/",
         "title": "Input Device Capabilities",
@@ -356,6 +364,9 @@
     },
     "WICG-GEOLOCATION-SENSOR": {
         "aliasOf": "geolocation-sensor"
+    },
+    "WICG-IDLE-DETECTION": {
+        "aliasOf": "IDLE-DETECTION"
     },
     "WICG-INPUT-DEVICE-CAPABILITIES": {
         "aliasOf": "INPUT-DEVICE-CAPABILITIES"
