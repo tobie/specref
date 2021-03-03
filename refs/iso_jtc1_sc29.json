@@ -2373,6 +2373,13 @@
     "iso14496-15-2019-cdamd2": {
         "aliasOf": "iso14496-15-2019-damd2"
     },
+    "iso14496-15-2019-cdamd3": {
+        "href": "https://www.iso.org/standard/82614.html",
+        "title": "Information technology — Coding of audio-visual objects — Part 15: Carriage of network abstraction layer (NAL) unit structured video in the ISO base media file format — Amendment 3: Support for LCEVC",
+        "status": "Under development",
+        "publisher": "ISO/IEC",
+        "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+    },
     "iso14496-15-2019-damd1": {
         "aliasOf": "iso14496-15-2019-fdamd1"
     },
@@ -2390,11 +2397,7 @@
         "aliasOf": "iso14496-15-2019-cdamd2"
     },
     "iso14496-15-2019-wdamd3": {
-        "href": "https://www.iso.org/standard/82614.html",
-        "title": "Information technology — Coding of audio-visual objects — Part 15: Carriage of network abstraction layer (NAL) unit structured video in the ISO base media file format — Amendment 3: Support for LCEVC",
-        "status": "Under development",
-        "publisher": "ISO/IEC",
-        "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+        "aliasOf": "iso14496-15-2019-cdamd3"
     },
     "iso14496-15-pdam1": {
         "aliasOf": "iso14496-15-2019-cdamd1"
@@ -3692,12 +3695,15 @@
         ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
-    "iso14496-30-2018-wdamd1": {
+    "iso14496-30-2018-cdamd1": {
         "href": "https://www.iso.org/standard/82615.html",
         "title": "Information technology — Coding of audio-visual objects — Part 30: Timed text and other visual overlays in ISO base media file format — Amendment 1: Timing improvements",
         "status": "Under development",
         "publisher": "ISO/IEC",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+    },
+    "iso14496-30-2018-wdamd1": {
+        "aliasOf": "iso14496-30-2018-cdamd1"
     },
     "iso14496-31": {
         "href": "https://www.iso.org/standard/66062.html",
@@ -7313,9 +7319,12 @@
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23000-22-2019-amd1": {
+        "aliasOf": "iso23000-22-2019-amd1-2021"
+    },
+    "iso23000-22-2019-amd1-2021": {
         "href": "https://www.iso.org/standard/80757.html",
         "title": "Information technology — Multimedia application format (MPEG-A) — Part 22: Multi-image application format (MIAF) — Amendment 1: Reference software and conformance for multi-image application format",
-        "status": "Under development",
+        "status": "Published",
         "publisher": "ISO/IEC",
         "rawDate": "2021-02",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
@@ -7777,6 +7786,13 @@
         "rawDate": "2019-09",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
+    "iso23001-7-2016-cdamd2": {
+        "href": "https://www.iso.org/standard/82616.html",
+        "title": "Information technology — MPEG systems technologies — Part 7: Common encryption in ISO base media file format files — Amendment 2: Improvements on selective encryption",
+        "status": "Under development",
+        "publisher": "ISO/IEC",
+        "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+    },
     "iso23001-7-2016-damd1": {
         "aliasOf": "iso23001-7-2016-fdamd1"
     },
@@ -7784,11 +7800,7 @@
         "aliasOf": "iso23001-7-2016-amd1"
     },
     "iso23001-7-2016-wdamd2": {
-        "href": "https://www.iso.org/standard/82616.html",
-        "title": "Information technology — MPEG systems technologies — Part 7: Common encryption in ISO base media file format files — Amendment 2: Improvements on selective encryption",
-        "status": "Under development",
-        "publisher": "ISO/IEC",
-        "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+        "aliasOf": "iso23001-7-2016-cdamd2"
     },
     "iso23001-8": {
         "href": "https://www.iso.org/standard/69661.html",
@@ -9330,6 +9342,13 @@
     "iso23009-1-2019-cdamd1": {
         "aliasOf": "iso23009-1-2019-damd1"
     },
+    "iso23009-1-2019-cdamd2": {
+        "href": "https://www.iso.org/standard/82184.html",
+        "title": "Information technology — Dynamic adaptive streaming over HTTP (DASH) — Part 1: Media presentation description and segment formats — Amendment 2: Preroll, nonlinear playback and other extensions",
+        "status": "Under development",
+        "publisher": "ISO/IEC",
+        "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+    },
     "iso23009-1-2019-damd1": {
         "href": "https://www.iso.org/standard/79884.html",
         "title": "Information technology — Dynamic adaptive streaming over HTTP (DASH) — Part 1: Media presentation description and segment formats — Amendment 1: CMAF support, events processing model and other extensions",
@@ -9338,11 +9357,7 @@
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23009-1-2019-wdamd2": {
-        "href": "https://www.iso.org/standard/82184.html",
-        "title": "Information technology — Dynamic adaptive streaming over HTTP (DASH) — Part 1: Media presentation description and segment formats — Amendment 2: Preroll, nonlinear playback and other extensions",
-        "status": "Under development",
-        "publisher": "ISO/IEC",
-        "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+        "aliasOf": "iso23009-1-2019-cdamd2"
     },
     "iso23009-1-cdamd1": {
         "aliasOf": "iso23009-1-2019-cdamd1"
@@ -9659,12 +9674,15 @@
         "rawDate": "2018-04",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
-    "iso23091-3-2018-wdamd1": {
+    "iso23091-3-2018-cdamd1": {
         "href": "https://www.iso.org/standard/82617.html",
         "title": "Information technology — Coding-independent code points — Part 3: Audio — Amendment 1: Headphone support",
         "status": "Under development",
         "publisher": "ISO/IEC",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+    },
+    "iso23091-3-2018-wdamd1": {
+        "aliasOf": "iso23091-3-2018-cdamd1"
     },
     "iso23091-4": {
         "href": "https://www.iso.org/standard/81585.html",
