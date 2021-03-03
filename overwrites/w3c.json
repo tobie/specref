@@ -10,5 +10,6 @@
   { "id": "encoding",          "action": "delete" },
   { "id": "hr-time",           "action": "createAlias", "aliasOf": "hr-time-2"},
   { "id": "service-workers-1", "action": "replaceProp", "prop": "edDraft", "value": "https://w3c.github.io/ServiceWorker/" },
-  { "id": "xpath",             "action": "replaceProp", "prop": "href", "value": "https://www.w3.org/TR/xpath-10/" }
+  { "id": "xpath",             "action": "replaceProp", "prop": "href", "value": "https://www.w3.org/TR/xpath-10/" },
+  { "id": "vocab-dcat",        "action": "createAlias", "aliasOf": "vocab-dcat-2"}
 ]
