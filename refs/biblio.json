@@ -220,15 +220,7 @@
         "aliasOf": "RFC4289"
     },
     "BCP47": {
-        "authors": [
-            "A. Phillips",
-            "M. Davis"
-        ],
-        "href": "https://datatracker.ietf.org/doc/html/bcp47",
-        "title": "Tags for Identifying Languages",
-        "date": "September 2009",
-        "status": "IETF Best Current Practice",
-        "publisher": "IETF"
+        "aliasOf": "rfc5646"
     },
     "BIDI": {
         "aliasOf": "UAX9"
@@ -250,16 +242,7 @@
         "title": "BONDI API Features v1.11"
     },
     "BUNDLE": {
-        "authors": [
-            "C. Holmberg",
-            "H. Alvestrand",
-            "C. Jennings"
-        ],
-        "date": "31 August 2017",
-        "href": "https://datatracker.ietf.org/doc/html/draft-ietf-mmusic-sdp-bundle-negotiation",
-        "publisher": "IETF",
-        "status": "Active Internet-Draft",
-        "title": "Negotiating Media Multiplexing Using the Session Description Protocol (SDP)"
+        "aliasOf": "rfc8843"
     },
     "Bradford-CAT": {
         "authors": [
@@ -384,15 +367,7 @@
         "aliasOf": "RFC3217"
     },
     "COAP": {
-        "authors": [
-            "E Shelby"
-        ],
-        "etAl": true,
-        "href": "https://datatracker.ietf.org/doc/html/draft-ietf-core-coap",
-        "title": "Constrained Application Protocol (CoAP)",
-        "date": "December 2012",
-        "status": "Internet Draft",
-        "publisher": "IETF"
+        "aliasOf": "rfc7252"
     },
     "COCKBURN-2000": {
         "authors": [
@@ -1365,17 +1340,7 @@
         "aliasOf": "css3-flexbox"
     },
     "FLEXFEC": {
-        "title": "RTP Payload Format for Flexible Forward Error Correction (FEC)",
-        "href": "https://datatracker.ietf.org/doc/html/draft-ietf-payload-flexible-fec-scheme",
-        "authors": [
-            "V. Singh",
-            "A. Begen",
-            "M. Zanaty",
-            "G. Mandyam"
-        ],
-        "status": "Internet Draft (work in progress)",
-        "publisher": "IETF",
-        "rawDate": "2017-07-03"
+        "aliasOf": "rfc8627"
     },
     "FOAF": {
         "authors": [
@@ -1506,15 +1471,7 @@
         "aliasOf": "hr-time-2"
     },
     "HLS": {
-        "authors": [
-            "R. Pantos",
-            "W. May"
-        ],
-        "href": "https://datatracker.ietf.org/doc/html/draft-pantos-http-live-streaming",
-        "title": "HTTP Live Streaming (HLS)",
-        "date": "15 October 2012",
-        "status": "Internet Draft",
-        "publisher": "IETF"
+        "aliasOf": "rfc8216"
     },
     "HLS-TIMED-METADATA": {
         "title": "Timed Metadata for HTTP Live Streaming",
@@ -1876,26 +1833,10 @@
         "publisher": "JSON-RPC Working Group"
     },
     "JWK": {
-        "authors": [
-            "Mike Jones"
-        ],
-        "date": "28 May 2013",
-        "href": "https://datatracker.ietf.org/doc/html/draft-ietf-jose-json-web-key-11",
-        "publisher": "IETF",
-        "status": "Internet Draft",
-        "title": "JSON Web Key (JWK)"
+        "aliasOf": "rfc7517"
     },
     "JWT": {
-        "authors": [
-            "M. Jones",
-            "J. Bradley",
-            "N. Sakimura"
-        ],
-        "date": "6 July 2012",
-        "href": "https://datatracker.ietf.org/doc/html/draft-ietf-oauth-json-web-token-01",
-        "publisher": "IETF",
-        "status": "Internet Draft",
-        "title": "JSON Web Token (JWT)"
+        "aliasOf": "rfc7519"
     },
     "KEYS": {
         "authors": [
@@ -2477,14 +2418,7 @@
         "publisher": "IETF"
     },
     "RTCWEB-ALPN": {
-        "authors": [
-            "M. Thomson"
-        ],
-        "date": "23 July 2014",
-        "href": "https://datatracker.ietf.org/doc/html/draft-ietf-rtcweb-alpn",
-        "publisher": "IETF",
-        "status": "Active Internet-Draft",
-        "title": "Application Layer Protocol Negotiation for Web Real-Time Communications"
+        "aliasOf": "rfc8833"
     },
     "RTCWEB-AUDIO": {
         "aliasOf": "rfc7874"
@@ -2500,114 +2434,34 @@
         "title": "IANA Registry for RTCWeb Constrainable Properties"
     },
     "RTCWEB-DATA": {
-        "authors": [
-            "R. Jesup",
-            "S. Loreto",
-            "M. Tuexen"
-        ],
-        "date": "14 October 2015",
-        "href": "https://datatracker.ietf.org/doc/html/draft-ietf-rtcweb-data-channel",
-        "publisher": "IETF",
-        "status": "Active Internet-Draft",
-        "title": "RTCWeb Data Channels"
+        "aliasOf": "rfc8831"
     },
     "RTCWEB-DATA-PROTOCOL": {
-        "authors": [
-            "R. Jesup",
-            "S. Loreto",
-            "M. Tuexen"
-        ],
-        "date": "14 October 2015",
-        "href": "https://datatracker.ietf.org/doc/html/draft-ietf-rtcweb-data-protocol",
-        "publisher": "IETF",
-        "status": "Active Internet-Draft",
-        "title": "RTCWeb Data Channel Protocol"
+        "aliasOf": "rfc8832"
     },
     "RTCWEB-IP-HANDLING": {
-        "authors": [
-            "Guo-wei Shieh",
-            "Justin Uberti"
-        ],
-        "date": "20 March 2016",
-        "href": "https://datatracker.ietf.org/doc/html/draft-ietf-rtcweb-ip-handling",
-        "publisher": "IETF",
-        "status": "Active Internet-Draft",
-        "title": "WebRTC IP Address Handling Recommendations"
+        "aliasOf": "rfc8828"
     },
     "RTCWEB-JSEP": {
-        "authors": [
-            "Justin Uberti",
-            "Cullen Jennings"
-        ],
-        "date": "22 October 2013",
-        "href": "https://datatracker.ietf.org/doc/html/draft-ietf-rtcweb-jsep",
-        "publisher": "IETF",
-        "status": "Active Internet-Draft",
-        "title": "Javascript Session Establishment Protocol"
+        "aliasOf": "rfc8829"
     },
     "RTCWEB-OVERVIEW": {
-        "authors": [
-            "H. Alvestrand"
-        ],
-        "date": "14 February 2014",
-        "href": "https://datatracker.ietf.org/doc/html/draft-ietf-rtcweb-overview",
-        "publisher": "IETF",
-        "status": "Active Internet-Draft",
-        "title": "Overview: Real Time Protocols for Brower-based Applications"
+        "aliasOf": "rfc8825"
     },
     "RTCWEB-RTP": {
-        "authors": [
-            "C. Perkins",
-            "M. Westerlund",
-            "J. Ott"
-        ],
-        "date": "17 March 2016",
-        "href": "https://datatracker.ietf.org/doc/html/draft-ietf-rtcweb-rtp-usage",
-        "publisher": "IETF",
-        "status": "Active Internet-Draft",
-        "title": "Web Real-Time Communication (WebRTC): Media Transport and Use of RTP"
+        "aliasOf": "rfc8834"
     },
     "RTCWEB-SECURITY": {
-        "authors": [
-            "Eric Rescorla"
-        ],
-        "date": "22 January 2014",
-        "href": "https://datatracker.ietf.org/doc/html/draft-ietf-rtcweb-security",
-        "publisher": "IETF",
-        "status": "Active Internet-Draft",
-        "title": "Security Considerations for WebRTC"
+        "aliasOf": "rfc8826"
     },
     "RTCWEB-SECURITY-ARCH": {
-        "authors": [
-            "Eric Rescorla"
-        ],
-        "date": "10 December 2016",
-        "href": "https://datatracker.ietf.org/doc/html/draft-ietf-rtcweb-security-arch",
-        "publisher": "IETF",
-        "status": "Active Internet-Draft",
-        "title": "WebRTC Security Architecture"
+        "aliasOf": "rfc8827"
     },
     "RTCWEB-TRANSPORT": {
-        "authors": [
-            "H. Alvestrand"
-        ],
-        "date": "31 October 2016",
-        "href": "https://datatracker.ietf.org/doc/html/draft-ietf-rtcweb-transports",
-        "publisher": "IETF",
-        "status": "Active Internet-Draft",
-        "title": "Transports for RTCWEB"
+        "aliasOf": "rfc8835"
     },
     "RTCWEB-USECAS": {
-        "authors": [
-            "Christer Holmberg",
-            "Stefan Hakansson",
-            "Goran AP Eriksson"
-        ],
-        "date": "14 October 2013",
-        "href": "http://datatracker.ietf.org/doc/draft-ietf-rtcweb-use-cases-and-requirements/",
-        "publisher": "IETF",
-        "status": "Active Internet-Draft",
-        "title": "Web Real-Time Communication Use-cases and Requirements"
+        "aliasOf": "rfc7478"
     },
     "RUBY-UC": {
         "aliasOf": "ruby-use-cases"
@@ -2616,33 +2470,13 @@
         "aliasOf": "SCTE214-1"
     },
     "SCTP-SDP": {
-        "authors": [
-            "C. Holmberg",
-            "R. Shpount",
-            "S. Loreto",
-            "G. Camarillo"
-        ],
-        "date": "20 March 2017",
-        "href": "https://datatracker.ietf.org/doc/html/draft-ietf-mmusic-sctp-sdp",
-        "publisher": "IETF",
-        "status": "Active Internet-Draft",
-        "title": "Session Description Protocol (SDP) Offer/Answer Procedures For Stream Control Transmission Protocol (SCTP) over Datagram Transport Layer Security (DTLS) Transport"
+        "aliasOf": "RFC8841"
     },
     "SDP": {
         "aliasOf": "rfc3264"
     },
     "SDP-SIMULCAST": {
-        "authors": [
-            "B. Burman",
-            "M. Westerlund",
-            "S. Nandakumar",
-            "M. Zanaty"
-        ],
-        "date": "27 June 2018",
-        "href": "https://datatracker.ietf.org/doc/html/draft-ietf-mmusic-sdp-simulcast",
-        "publisher": "IETF",
-        "status": "Active Internet-Draft",
-        "title": "Using Simulcast in SDP and RTP Sessions"
+        "aliasOf": "rfc8853"
     },
     "SDPLABEL": {
         "aliasOf": "rfc4574"
@@ -2772,32 +2606,10 @@
         "aliasOf": "rfc5389"
     },
     "STUN-BIS": {
-        "authors": [
-            "M. Petit-Huguenin",
-            "G. Salgueiro",
-            "J. Rosenberg",
-            "D. Wing",
-            "R. Mahy",
-            "P. Matthews"
-        ],
-        "date": "16 February 2017",
-        "href": "https://datatracker.ietf.org/doc/html/draft-ietf-tram-stunbis",
-        "publisher": "IETF",
-        "status": "Internet Draft (work in progress)",
-        "title": "Session Traversal Utilities for NAT (STUN)"
+        "aliasOf": "rfc8489"
     },
     "STUN-URI": {
-        "authors": [
-            "S. Nandakumar",
-            "G. Salgueiro",
-            "P. Jones",
-            "and M. Petit-Huguenin"
-        ],
-        "href": "https://datatracker.ietf.org/doc/html/draft-nandakumar-rtcweb-stun-uri",
-        "title": "URI Scheme for Session Traversal Utilities for NAT (STUN) Protocol",
-        "date": "12 March 2012",
-        "status": "Internet Draft (work in progress)",
-        "publisher": "IETF"
+        "aliasOf": "rfc7064"
     },
     "SVG10": {
         "aliasOf": "SVG"
@@ -2856,17 +2668,7 @@
         "aliasOf": "rfc7635"
     },
     "TRICKLE-ICE": {
-        "authors": [
-            "E. Ivov",
-            "E. Rescorla",
-            "J. Uberti",
-            "P. Saint-Andre"
-        ],
-        "date": "15 April 2018",
-        "href": "https://datatracker.ietf.org/doc/html/draft-ietf-ice-trickle-21",
-        "publisher": "IETF",
-        "status": "Internet Draft (work in progress)",
-        "title": "Trickle ICE: Incremental Provisioning of Candidates for the Interactive Connectivity Establishment (ICE) Protocol"
+        "aliasOf": "rfc8838"
     },
     "TRUETYPE": {
         "href": "https://developer.apple.com/fonts/TrueType-Reference-Manual/",
@@ -2885,47 +2687,16 @@
         "repository": "https://github.com/w3c/webappsec-trusted-types/"
     },
     "TSVWG-RTCWEB-QOS": {
-        "authors": [
-            "S. Dhesikan",
-            "C. Jennings",
-            "D. Druta",
-            "P. Jones",
-            "J. Polk"
-        ],
-        "date": "22 August 2016",
-        "href": "https://datatracker.ietf.org/doc/html/draft-ietf-tsvwg-rtcweb-qos",
-        "publisher": "IETF",
-        "status": "Internet Draft (work in progress)",
-        "title": "DSCP Packet Markings for WebRTC QoS"
+        "aliasOf": "rfc8837"
     },
     "TURN": {
         "aliasOf": "rfc5766"
     },
     "TURN-BIS": {
-        "authors": [
-            "T. Reddy",
-            "A. Johnston",
-            "P. Matthews",
-            "J. Rosenberg"
-        ],
-        "date": "11 October 2018",
-        "href": "https://datatracker.ietf.org/doc/html/draft-ietf-tram-turnbis",
-        "publisher": "IETF",
-        "status": "Internet Draft (work in progress)",
-        "title": "Traversal Using Relays around NAT (TURN): Relay Extensions to Session Traversal Utilities for NAT (STUN)"
+        "aliasOf": "rfc8656"
     },
     "TURN-URI": {
-        "authors": [
-            "M. Petit-Huguenin",
-            "S. Nandakumar",
-            "G. Salgueiro",
-            "and  P. Jones"
-        ],
-        "href": "https://datatracker.ietf.org/doc/html/draft-petithuguenin-behave-turn-uris",
-        "title": "Traversal Using Relays around NAT (TURN) Uniform Resource Identifiers",
-        "date": "12 March 2012",
-        "status": "Internet Draft (work in progress)",
-        "publisher": "IETF"
+        "aliasOf": "rfc7065"
     },
     "TYPED-ARRAYS": {
         "aliasOf": "typedarray"
