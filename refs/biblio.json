@@ -544,29 +544,13 @@
         "aliasOf": "css3-syntax"
     },
     "CSS3TBL": {
-        "authors": [
-            "Bert Bos",
-            "David Hyatt"
-        ],
-        "href": "https://dev.w3.org/csswg/css3-tables/",
-        "title": "CSS3 Tables Module",
-        "date": "13 November 2012",
-        "status": "ED",
-        "publisher": "W3C",
-        "repository": "https://github.com/w3c/csswg-drafts"
+        "aliasOf": "css-tables-3"
     },
     "CSS3TEXT": {
         "aliasOf": "css3-text"
     },
     "CSS3TEXTLAYOUT": {
-        "authors": [
-            "Elika J. Etemad",
-            "Paul Nelson"
-        ],
-        "href": "https://dvcs.w3.org/hg/csswg/raw-file/816f2655d759/css3-writing-modes/Overview.html",
-        "title": "CSS3 Text Layout Module",
-        "status": "WD",
-        "publisher": "W3C"
+        "aliasOf": "css-writing-modes-3"
     },
     "CSS3UI": {
         "aliasOf": "css3-ui"
@@ -575,17 +559,7 @@
         "aliasOf": "css3-values"
     },
     "CSS3WRITINGMODES": {
-        "authors": [
-            "Elika J. Etemad",
-            "Koji Ishii",
-            "Shinyu Murakami"
-        ],
-        "href": "https://dev.w3.org/csswg/css3-writing-modes",
-        "title": "CSS Writing Modes Module Level 3",
-        "date": "17 October 2010",
-        "status": "ED",
-        "publisher": "W3C",
-        "repository": "https://github.com/w3c/csswg-drafts"
+        "aliasOf": "css-writing-modes-3"
     },
     "CSSBEIJING": {
         "aliasOf": "css-beijing"
@@ -704,18 +678,7 @@
         }
     },
     "DAP-ACCESS-REQS": {
-        "authors": [
-            "L. Arribas",
-            "P. Byers",
-            "M. Hanclik",
-            "F. Hirsch",
-            "D. Rogers"
-        ],
-        "href": "https://dev.w3.org/2009/dap/policy-reqs/",
-        "title": "Device API Access Control Requirements",
-        "date": "17 June 2010",
-        "status": "ED",
-        "publisher": "W3C"
+        "aliasOf": "dap-policy-reqs"
     },
     "DAP-POLICY-FRAMEWORK": {
         "authors": [
@@ -2338,18 +2301,7 @@
         "aliasOf": "pointerevents"
     },
     "POLICY-REQS": {
-        "authors": [
-            "Laura Arribas",
-            "Paddy Byers",
-            "Marcin Hanclik",
-            "Frederick Hirsch",
-            "David Rogers"
-        ],
-        "href": "https://dev.w3.org/2009/dap/policy-reqs",
-        "title": "Device API Policy Requirements",
-        "date": "13 April 2010",
-        "status": "ED",
-        "publisher": "W3C"
+        "aliasOf": "dap-policy-reqs"
     },
     "POLYFILLS": {
         "href": "https://www.w3.org/2001/tag/doc/polyfills/",
@@ -2628,14 +2580,7 @@
         "status": "SXSW Interactive, Austin, TX"
     },
     "SYSAPPS-RUNTIME": {
-        "authors": [
-            "Mounir Lamouri",
-            "Ming Jin"
-        ],
-        "href": "http://runtime.sysapps.org/",
-        "publisher": "W3C",
-        "status": "ED",
-        "title": "Runtime and Security Model for Web Applications"
+        "aliasOf": "runtime"
     },
     "SYSINFOAPI": {
         "aliasOf": "system-info-api"
@@ -2736,9 +2681,9 @@
         "authors": [
             "Ryosuke Niwa"
         ],
-        "href": "https://dvcs.w3.org/hg/undomanager/raw-file/tip/undomanager.html",
+        "href": "https://rniwa.github.io/undo-api/",
         "title": "UndoManager and DOM Transaction",
-        "date": "20 August 2012",
+        "date": "24 September 2020",
         "status": "ED",
         "publisher": "W3C"
     },
@@ -3193,14 +3138,7 @@
         "title": ".ZIP File Format Specification"
     },
     "access-control": {
-        "authors": [
-            "Anne van Kesteren"
-        ],
-        "href": "https://www.w3.org/TR/access-control/",
-        "title": "Access Control for Cross-Site Requests",
-        "date": "12 September 2008",
-        "status": "WD",
-        "publisher": "W3C"
+        "aliasOf": "FETCH"
     },
     "bibo": {
         "authors": [
