@@ -1,29 +1,14 @@
-{
-    "WebIDL": {
-        "title": { "replaceWith": "Web IDL" },
-        "authors": { "replaceWith": ["Boris Zbarsky"] },
-        "status": { "replaceWith": "ED" },
-        "href": { "replaceWith": "https://heycam.github.io/webidl/" }
-    },
-    "url": {
-        "delete": true
-    },
-    "fullscreen": {
-        "delete": true
-    },
-    "notifications": {
-        "delete": true
-    },
-    "dom": {
-        "delete": true
-    },
-    "encoding": {
-        "delete": true
-    },
-    "service-workers-1": {
-        "edDraft": { "replaceWith": "https://w3c.github.io/ServiceWorker/" }
-    },
-    "xpath": {
-        "href": { "replaceWith": "https://www.w3.org/TR/xpath-10/" }
-    }
-}
+[
+  { "id": "WebIDL",            "action": "replaceProp", "prop": "title", "value": "Web IDL" },
+  { "id": "WebIDL",            "action": "replaceProp", "prop": "authors", "value": ["Boris Zbarsky"] },
+  { "id": "WebIDL",            "action": "replaceProp", "prop": "status", "value": "ED" },
+  { "id": "WebIDL",            "action": "replaceProp", "prop": "href", "value": "https://heycam.github.io/webidl/" },
+  { "id": "url",               "action": "delete" },
+  { "id": "fullscreen",        "action": "delete" },
+  { "id": "notifications",     "action": "delete" },
+  { "id": "dom",               "action": "delete" },
+  { "id": "encoding",          "action": "delete" },
+  { "id": "hr-time",           "action": "createAlias", "aliasOf": "hr-time-2"},
+  { "id": "service-workers-1", "action": "replaceProp", "prop": "edDraft", "value": "https://w3c.github.io/ServiceWorker/" },
+  { "id": "xpath",             "action": "replaceProp", "prop": "href", "value": "https://www.w3.org/TR/xpath-10/" }
+]

@@ -92,13 +92,7 @@
         "publisher": "ANSI"
     },
     "API-DESIGN-PRINCIPLES": {
-        "title": "API Design Principles",
-        "href": "https://w3ctag.github.io/design-principles/",
-        "authors": [
-            "Domenic Denicola"
-        ],
-        "rawDate": "2015-12-29",
-        "repository": "https://github.com/w3ctag/design-principles"
+        "aliasOf": "design-principles"
     },
     "APNG": {
         "authors": [
@@ -161,8 +155,37 @@
         "href": "http://www.atsc.org/cms/standards/a72/A72-Part-1-2014.pdf",
         "date": "18 February 2014"
     },
+    "AV1": {
+        "href": "https://aomediacodec.github.io/av1-spec/av1-spec.pdf",
+        "title": "AV1 Bitstream & Decoding Process Specification",
+        "authors": [
+            "Peter de Rivaz",
+            "Jack Haughton"
+        ],
+        "status": "Standard",
+        "publisher": "AOM",
+        "rawDate": "2019-01-08",
+        "repository": "https://github.com/aomediacodec/av1-spec"
+    },
     "AXAPI": {
         "aliasOf": "NSAccessibility"
+    },
+    "AdobeRGB": {
+        "href": "https://www.adobe.com/digitalimag/pdfs/AdobeRGB1998.pdf",
+        "title": "Adobe®RGB(1998) Color Image Encoding",
+        "publisher": "Adobe Systems Incorporated",
+        "date": "May 2005"
+    },
+    "BADGING": {
+        "authors": [
+            "Matt Giuca",
+            "Jay Harris"
+        ],
+        "href": "https://w3c.github.io/badging/",
+        "title": "Badging API",
+        "status": "ED",
+        "publisher": "W3C",
+        "repository": "https://github.com/w3c/badging"
     },
     "BBC-SUBTITLE": {
         "href": "https://bbc.github.io/subtitle-guidelines/",
@@ -197,15 +220,7 @@
         "aliasOf": "RFC4289"
     },
     "BCP47": {
-        "authors": [
-            "A. Phillips",
-            "M. Davis"
-        ],
-        "href": "https://tools.ietf.org/html/bcp47",
-        "title": "Tags for Identifying Languages",
-        "date": "September 2009",
-        "status": "IETF Best Current Practice",
-        "publisher": "IETF"
+        "aliasOf": "rfc5646"
     },
     "BIDI": {
         "aliasOf": "UAX9"
@@ -227,16 +242,7 @@
         "title": "BONDI API Features v1.11"
     },
     "BUNDLE": {
-        "authors": [
-            "C. Holmberg",
-            "H. Alvestrand",
-            "C. Jennings"
-        ],
-        "date": "31 August 2017",
-        "href": "https://tools.ietf.org/html/draft-ietf-mmusic-sdp-bundle-negotiation",
-        "publisher": "IETF",
-        "status": "Active Internet-Draft",
-        "title": "Negotiating Media Multiplexing Using the Session Description Protocol (SDP)"
+        "aliasOf": "rfc8843"
     },
     "Bradford-CAT": {
         "authors": [
@@ -336,6 +342,13 @@
             }
         }
     },
+    "CIELAB": {
+        "href": "http://cie.co.at/publications/colorimetry-part-4-cie-1976-lab-colour-space-1",
+        "title": "ISO/CIE 11664-4:2019(E): Colorimetry — Part 4: CIE 1976 L*a*b* colour space",
+        "publisher": "International Organization for Standardization (ISO), International Commission on Illumination (CIE)",
+        "status": "Published",
+        "date": "2019"
+    },
     "CLABS-HNAPI": {
         "href": "https://www.w3.org/2011/webtv/HNTF/CableLabs_Revised_API_20110727-2.pdf",
         "title": "CableLabs Revised Home Networking API",
@@ -354,15 +367,7 @@
         "aliasOf": "RFC3217"
     },
     "COAP": {
-        "authors": [
-            "E Shelby"
-        ],
-        "etAl": true,
-        "href": "https://tools.ietf.org/html/draft-ietf-core-coap",
-        "title": "Constrained Application Protocol (CoAP)",
-        "date": "December 2012",
-        "status": "Internet Draft",
-        "publisher": "IETF"
+        "aliasOf": "rfc7252"
     },
     "COCKBURN-2000": {
         "authors": [
@@ -383,11 +388,11 @@
         "href": "https://www.mountaingoatsoftware.com/books/user-stories-applied"
     },
     "COLORIMETRY": {
-        "title": "Colorimetry, Third Edition. CIE 15:2004",
-        "date": "2004",
-        "isbn": "978-3-901906-33-6",
+        "title": "Colorimetry, Fourth Edition. CIE 015:2018",
+        "date": "2018",
+        "isbn": "978-3-902842-13-8",
         "publisher": "CIE",
-        "href": "http://www.cie.co.at/publ/abst/15-2004.html"
+        "href": "http://www.cie.co.at/publications/colorimetry-4th-edition"
     },
     "COMPUTABLE": {
         "authors": [
@@ -451,9 +456,6 @@
     "CSS-EXCLUSIONS-1": {
         "aliasOf": "css3-exclusions"
     },
-    "CSS-IMAGES-3": {
-        "aliasOf": "css3-images"
-    },
     "CSS-MARQUEE-3": {
         "aliasOf": "css3-marquee"
     },
@@ -465,9 +467,6 @@
     },
     "CSS-SHAPES": {
         "aliasOf": "css-shapes-1"
-    },
-    "CSS-SPEECH-1": {
-        "aliasOf": "css3-speech"
     },
     "CSS-TEMPLATE-1": {
         "aliasOf": "css-template-3"
@@ -539,35 +538,19 @@
         "aliasOf": "css3-ruby"
     },
     "CSS3SPEECH": {
-        "aliasOf": "css3-speech"
+        "aliasOf": "css-speech-1"
     },
     "CSS3SYN": {
         "aliasOf": "css3-syntax"
     },
     "CSS3TBL": {
-        "authors": [
-            "Bert Bos",
-            "David Hyatt"
-        ],
-        "href": "https://dev.w3.org/csswg/css3-tables/",
-        "title": "CSS3 Tables Module",
-        "date": "13 November 2012",
-        "status": "ED",
-        "publisher": "W3C",
-        "repository": "https://github.com/w3c/csswg-drafts"
+        "aliasOf": "css-tables-3"
     },
     "CSS3TEXT": {
         "aliasOf": "css3-text"
     },
     "CSS3TEXTLAYOUT": {
-        "authors": [
-            "Elika J. Etemad",
-            "Paul Nelson"
-        ],
-        "href": "https://dvcs.w3.org/hg/csswg/raw-file/816f2655d759/css3-writing-modes/Overview.html",
-        "title": "CSS3 Text Layout Module",
-        "status": "WD",
-        "publisher": "W3C"
+        "aliasOf": "css-writing-modes-3"
     },
     "CSS3UI": {
         "aliasOf": "css3-ui"
@@ -576,17 +559,7 @@
         "aliasOf": "css3-values"
     },
     "CSS3WRITINGMODES": {
-        "authors": [
-            "Elika J. Etemad",
-            "Koji Ishii",
-            "Shinyu Murakami"
-        ],
-        "href": "https://dev.w3.org/csswg/css3-writing-modes",
-        "title": "CSS Writing Modes Module Level 3",
-        "date": "17 October 2010",
-        "status": "ED",
-        "publisher": "W3C",
-        "repository": "https://github.com/w3c/csswg-drafts"
+        "aliasOf": "css-writing-modes-3"
     },
     "CSSBEIJING": {
         "aliasOf": "css-beijing"
@@ -705,18 +678,7 @@
         }
     },
     "DAP-ACCESS-REQS": {
-        "authors": [
-            "L. Arribas",
-            "P. Byers",
-            "M. Hanclik",
-            "F. Hirsch",
-            "D. Rogers"
-        ],
-        "href": "https://dev.w3.org/2009/dap/policy-reqs/",
-        "title": "Device API Access Control Requirements",
-        "date": "17 June 2010",
-        "status": "ED",
-        "publisher": "W3C"
+        "aliasOf": "dap-policy-reqs"
     },
     "DAP-POLICY-FRAMEWORK": {
         "authors": [
@@ -853,14 +815,34 @@
         "authors": [
             "DCMI Usage Board"
         ],
-        "href": "http://dublincore.org/documents/dcmi-terms/",
+        "href": "https://www.dublincore.org/specifications/dublin-core/dcmi-terms/",
         "title": "DCMI Metadata Terms",
-        "rawDate": "2012-06-14",
+        "rawDate": "2020-01-20",
         "publisher": "DCMI",
         "status": "DCMI Recommendation",
         "versions": {
             "20101011": {
                 "aliasOf": "DC-TERMS"
+            },
+            "20120614": {
+                "authors": [
+                    "DCMI Usage Board"
+                ],
+                "href": "https://dublincore.org/specifications/dublin-core/dcmi-terms/2012-06-14/",
+                "title": "DCMI Metadata Terms",
+                "rawDate": "2012-06-14",
+                "publisher": "DCMI",
+                "status": "DCMI Recommendation"
+            },
+            "20200120": {
+                "authors": [
+                    "DCMI Usage Board"
+                ],
+                "href": "https://dublincore.org/specifications/dublin-core/dcmi-terms/2020-01-20/",
+                "title": "DCMI Metadata Terms",
+                "rawDate": "2020-01-20",
+                "publisher": "DCMI",
+                "status": "DCMI Recommendation"
             }
         }
     },
@@ -883,6 +865,18 @@
     },
     "DISCO-PROP": {
         "aliasOf": "discovery-api-20120807"
+    },
+    "DMPL": {
+        "authors": [
+            "Nishant Shukla",
+            "Nelson Solano",
+            "Victor Zhang"
+        ],
+        "href": "https://www.w3.org/2019/04/dmpl",
+        "title": "Dialogue Manager Programming Language (DMPL)",
+        "publisher": "W3C",
+        "status": "W3C Community Group Final Specification",
+        "rawDate": "2019-04-16"
     },
     "DNS-SD": {
         "aliasOf": "RFC6763"
@@ -1074,7 +1068,7 @@
         "aliasOf": "ECMASCRIPT"
     },
     "ECMA-402": {
-        "href": "https://tc39.github.io/ecma402/",
+        "href": "https://tc39.es/ecma402/",
         "publisher": "Ecma International",
         "title": "ECMAScript Internationalization API Specification",
         "repository": "https://github.com/tc39/ecma402"
@@ -1091,7 +1085,7 @@
     },
     "ECMASCRIPT": {
         "title": "ECMAScript Language Specification",
-        "href": "https://tc39.github.io/ecma262/",
+        "href": "https://tc39.es/ecma262/",
         "publisher": "Ecma International",
         "versions": {
             "51": {
@@ -1103,6 +1097,28 @@
             "2015": {
                 "aliasOf": "ECMASCRIPT-6.0"
             },
+            "2016": {
+                "aliasOf": "ECMASCRIPT-7.0"
+            },
+            "2017": {
+                "aliasOf": "ECMASCRIPT-8.0"
+            },
+            "2018": {
+                "aliasOf": "ECMASCRIPT-9.0"
+            },
+            "2019": {
+                "aliasOf": "ECMASCRIPT-10.0"
+            },
+            "2020": {
+                "aliasOf": "ECMASCRIPT-11.0"
+            },
+            "5.1": {
+                "title": "ECMA-262 Edition 5.1, The ECMAScript Language Specification",
+                "rawDate": "2011-06",
+                "href": "http://www.ecma-international.org/ecma-262/5.1/index.html",
+                "status": "Standard",
+                "publisher": "Ecma International"
+            },
             "6.0": {
                 "title": "ECMA-262 6th Edition, The ECMAScript 2015 Language Specification",
                 "rawDate": "2015-06",
@@ -1113,12 +1129,55 @@
                     "Allen Wirfs-Brock"
                 ]
             },
-            "5.1": {
-                "rawDate": "2011-06",
-                "href": "http://www.ecma-international.org/publications/standards/Ecma-262.htm",
-                "publisher": "Ecma International",
+            "7.0": {
+                "title": "ECMA-262 7th Edition, The ECMAScript 2016 Language Specification",
+                "rawDate": "2016-06",
+                "href": "http://www.ecma-international.org/ecma-262/7.0/index.html",
                 "status": "Standard",
-                "title": "ECMAScript Language Specification, Edition 5.1"
+                "publisher": "Ecma International",
+                "authors": [
+                    "Brian Terlson"
+                ]
+            },
+            "8.0": {
+                "title": "ECMA-262 8th Edition, The ECMAScript 2017 Language Specification",
+                "rawDate": "2017-06",
+                "href": "http://www.ecma-international.org/ecma-262/8.0/index.html",
+                "status": "Standard",
+                "publisher": "Ecma International",
+                "authors": [
+                    "Brian Terlson"
+                ]
+            },
+            "9.0": {
+                "title": "ECMA-262 9th Edition, The ECMAScript 2018 Language Specification",
+                "rawDate": "2018-06",
+                "href": "http://www.ecma-international.org/ecma-262/9.0/index.html",
+                "status": "Standard",
+                "publisher": "Ecma International",
+                "authors": [
+                    "Brian Terlson"
+                ]
+            },
+            "10.0": {
+                "title": "ECMA-262 10th Edition, The ECMAScript 2019 Language Specification",
+                "rawDate": "2019-06",
+                "href": "http://www.ecma-international.org/ecma-262/10.0/index.html",
+                "status": "Standard",
+                "publisher": "Ecma International",
+                "authors": [
+                    "Brian Terlson"
+                ]
+            },
+            "11.0": {
+                "title": "ECMA-262 11th Edition, The ECMAScript 2020 Language Specification",
+                "rawDate": "2020-06",
+                "href": "http://www.ecma-international.org/ecma-262/11.0/index.html",
+                "status": "Standard",
+                "publisher": "Ecma International",
+                "authors": [
+                    "Jordan Harband"
+                ]
             }
         },
         "repository": "https://github.com/tc39/ecma262"
@@ -1162,6 +1221,17 @@
     },
     "ESDH": {
         "aliasOf": "RFC2631"
+    },
+    "ETHICAL-WEB": {
+        "href": "https://www.w3.org/2001/tag/doc/ethical-web-principles/",
+        "title": "W3C TAG Ethical Web Principles",
+        "publisher": "W3C",
+        "status": "TAG Finding",
+        "authors": [
+            "Daniel Appelquist",
+            "Hadley Beeman"
+        ],
+        "rawDate": "2019-12-04"
     },
     "ETSI102366": {
         "aliasOf": "etsi-ts-102-366"
@@ -1233,17 +1303,7 @@
         "aliasOf": "css3-flexbox"
     },
     "FLEXFEC": {
-        "title": "RTP Payload Format for Flexible Forward Error Correction (FEC)",
-        "href": "https://tools.ietf.org/html/draft-ietf-payload-flexible-fec-scheme",
-        "authors": [
-            "V. Singh",
-            "A. Begen",
-            "M. Zanaty",
-            "G. Mandyam"
-        ],
-        "status": "Internet Draft (work in progress)",
-        "publisher": "IETF",
-        "rawDate": "2017-07-03"
+        "aliasOf": "rfc8627"
     },
     "FOAF": {
         "authors": [
@@ -1374,15 +1434,7 @@
         "aliasOf": "hr-time-2"
     },
     "HLS": {
-        "authors": [
-            "R. Pantos",
-            "W. May"
-        ],
-        "href": "https://tools.ietf.org/html/draft-pantos-http-live-streaming",
-        "title": "HTTP Live Streaming (HLS)",
-        "date": "15 October 2012",
-        "status": "Internet Draft",
-        "publisher": "IETF"
+        "aliasOf": "rfc8216"
     },
     "HLS-TIMED-METADATA": {
         "title": "Timed Metadata for HTTP Live Streaming",
@@ -1422,7 +1474,7 @@
             "J. Reschke"
         ],
         "date": "24 October 2017",
-        "href": "https://tools.ietf.org/html/draft-reschke-http-jfv",
+        "href": "https://datatracker.ietf.org/doc/html/draft-reschke-http-jfv",
         "publisher": "IETF",
         "status": "Active Internet-Draft",
         "title": "A JSON Encoding for HTTP Header Field Values"
@@ -1601,6 +1653,13 @@
         "title": "Currency codes - ISO 4217",
         "isoNumber": "ISO 4217:2015"
     },
+    "ISO646": {
+        "date": "December 1991",
+        "href": "https://www.iso.org/standard/4777.html",
+        "publisher": "International Organization for Standardization (ISO)",
+        "status": "Published",
+        "title": "Information technology — ISO 7-bit coded character set for information interchange"
+    },
     "ISO7812-1": {
         "date": "1 January 2017",
         "href": "https://www.iso.org/standard/70484.html",
@@ -1616,6 +1675,22 @@
         "status": "ISO 8601:2004",
         "title": "Representation of dates and times. ISO 8601:2004.",
         "isoNumber": "ISO 8601:2004"
+    },
+    "ISO8601-1": {
+        "href": "https://www.iso.org/standard/70907.html",
+        "publisher": "International Organization for Standardization (ISO)",
+        "date": "2019",
+        "status": "ISO 8601-1:2019",
+        "title": "Date and time — Representations for information interchange — Part 1: Basic rules. ISO 8601-1:2019.",
+        "isoNumber": "ISO 8601-1:2019"
+    },
+    "ISO8601-2": {
+        "href": "https://www.iso.org/standard/70908.html",
+        "publisher": "International Organization for Standardization (ISO)",
+        "date": "2019",
+        "status": "ISO 8601-2:2019",
+        "title": "Date and time — Representations for information interchange — Part 2: Extensions. ISO 8601-2:2019.",
+        "isoNumber": "ISO 8601-2:2019"
     },
     "ISOBMFF": {
         "title": "Information technology — Coding of audio-visual objects — Part 12: ISO Base Media File Format",
@@ -1699,7 +1774,7 @@
         "status": "Report (draft) ISO/IEC CD15444-1:1999"
     },
     "JSON": {
-        "aliasOf": "RFC4627"
+        "aliasOf": "RFC8259"
     },
     "JSON-LD-TESTS": {
         "authors": [
@@ -1711,27 +1786,20 @@
         "status": "ED",
         "publisher": "W3C"
     },
-    "JWK": {
+    "JSON-RPC": {
         "authors": [
-            "Mike Jones"
+            "JSON-RPC Working Group"
         ],
-        "date": "28 May 2013",
-        "href": "https://tools.ietf.org/html/draft-ietf-jose-json-web-key-11",
-        "publisher": "IETF",
-        "status": "Internet Draft",
-        "title": "JSON Web Key (JWK)"
+        "href": "https://www.jsonrpc.org/specification",
+        "title": "JSON-RPC 2.0 Specification",
+        "rawDate": "2013-01-04",
+        "publisher": "JSON-RPC Working Group"
+    },
+    "JWK": {
+        "aliasOf": "rfc7517"
     },
     "JWT": {
-        "authors": [
-            "M. Jones",
-            "J. Bradley",
-            "N. Sakimura"
-        ],
-        "date": "6 July 2012",
-        "href": "https://tools.ietf.org/html/draft-ietf-oauth-json-web-token-01",
-        "publisher": "IETF",
-        "status": "Internet Draft",
-        "title": "JSON Web Token (JWT)"
+        "aliasOf": "rfc7519"
     },
     "KEYS": {
         "authors": [
@@ -1765,8 +1833,24 @@
         "date": "September 1999",
         "status": "Software package"
     },
+    "LANG-SUBTAG-REGISTRY": {
+        "title": "Language Subtag Registry",
+        "href": "http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry",
+        "publisher": "IANA"
+    },
     "LDAP-DN": {
         "aliasOf": "RFC4514"
+    },
+    "LEAST-POWER": {
+        "href": "https://www.w3.org/2001/tag/doc/leastPower",
+        "title": "The Rule of Least Power",
+        "publisher": "W3C",
+        "status": "TAG Finding",
+        "authors": [
+            "Tim Berners-Lee",
+            "Noah Mendelsohn"
+        ],
+        "rawDate": "2006-02-23"
     },
     "LIC-PRIV": {
         "authors": [
@@ -1938,8 +2022,8 @@
         "aliasOf": "iso23008-2"
     },
     "MSAA": {
-        "href": "https://msdn.microsoft.com/en-us/library/ms697707.aspx",
-        "title": "Microsoft Active Accessibility (MSAA) 2.0",
+        "href": "https://docs.microsoft.com/en-us/windows/win32/winauto/microsoft-active-accessibility",
+        "title": "Microsoft Active Accessibility (MSAA)",
         "publisher": "Microsoft Corporation"
     },
     "MSDN-SETCAPTURE": {
@@ -2124,6 +2208,52 @@
         "publisher": "Object Management Group",
         "date": "January 2008"
     },
+    "OPENAPI": {
+        "aliasOf": "OPENAPIS"
+    },
+    "OPENAPIS": {
+        "href": "https://www.openapis.org/",
+        "title": "OpenAPI Specification",
+        "publisher": "OpenAPI Initiative",
+        "authors": [
+            "Darrell Miller",
+            "Jeremy Whitlock",
+            "Marsh Gardiner",
+            "Mike Ralphson",
+            "Ron Ratovsky",
+            "Uri Sarid",
+            "Tony Tam",
+            "Jason Harmon"
+        ],
+        "versions": {
+            "3.0.2": {
+                "href": "http://spec.openapis.org/oas/v3.0.2",
+                "title": "OpenAPI Specification - version 3.0.2",
+                "rawDate": "2018-10-08",
+                "authors": [
+                    "Darrell Miller",
+                    "Jeremy Whitlock",
+                    "Marsh Gardiner",
+                    "Mike Ralphson",
+                    "Ron Ratovsky",
+                    "Uri Sarid"
+                ]
+            },
+            "2.0": {
+                "href": "http://spec.openapis.org/oas/v2.0",
+                "title": "OpenAPI Specification - version 2.0",
+                "rawDate": "2014-09-08",
+                "authors": [
+                    "Darrell Miller",
+                    "Jason Harmon",
+                    "Jeremy Whitlock",
+                    "Marsh Gardiner",
+                    "Ron Ratovsky",
+                    "Tony Tam"
+                ]
+            }
+        }
+    },
     "ORIGIN": {
         "aliasOf": "RFC6454"
     },
@@ -2171,18 +2301,17 @@
         "aliasOf": "pointerevents"
     },
     "POLICY-REQS": {
+        "aliasOf": "dap-policy-reqs"
+    },
+    "POLYFILLS": {
+        "href": "https://www.w3.org/2001/tag/doc/polyfills/",
+        "title": "Polyfills and the evolution of the Web",
+        "publisher": "W3C",
+        "status": "TAG Finding",
         "authors": [
-            "Laura Arribas",
-            "Paddy Byers",
-            "Marcin Hanclik",
-            "Frederick Hirsch",
-            "David Rogers"
+            "Andrew Betts"
         ],
-        "href": "https://dev.w3.org/2009/dap/policy-reqs",
-        "title": "Device API Policy Requirements",
-        "date": "13 April 2010",
-        "status": "ED",
-        "publisher": "W3C"
+        "rawDate": "2017-02-07"
     },
     "POSTMSG": {
         "aliasOf": "webmessaging"
@@ -2216,6 +2345,15 @@
     "RDF-SPARQL-UPDATE": {
         "aliasOf": "sparql11-update"
     },
+    "RDF-STAR-FOUNDATION": {
+        "authors": [
+            "Olaf Hartig"
+        ],
+        "title": "Foundations of RDF* and SPARQL* - An Alternative Approach to Statement-Level Metadata in RDF.",
+        "publisher": "In Proceedings of the 11th Alberto Mendelzon International Workshop on Foundations of Data Management (AMW), Montevideo, Uruguay",
+        "rawDate": "2017-06",
+        "href": "http://ceur-ws.org/Vol-1912/paper12.pdf"
+    },
     "RDF-SYNTAX": {
         "aliasOf": "rdf-concepts"
     },
@@ -2232,14 +2370,7 @@
         "publisher": "IETF"
     },
     "RTCWEB-ALPN": {
-        "authors": [
-            "M. Thomson"
-        ],
-        "date": "23 July 2014",
-        "href": "https://tools.ietf.org/html/draft-ietf-rtcweb-alpn",
-        "publisher": "IETF",
-        "status": "Active Internet-Draft",
-        "title": "Application Layer Protocol Negotiation for Web Real-Time Communications"
+        "aliasOf": "rfc8833"
     },
     "RTCWEB-AUDIO": {
         "aliasOf": "rfc7874"
@@ -2249,120 +2380,40 @@
             "Dan Burnett"
         ],
         "date": "4 July 2014",
-        "href": "https://tools.ietf.org/html/draft-ietf-rtcweb-constraints-registry",
+        "href": "https://datatracker.ietf.org/doc/html/draft-ietf-rtcweb-constraints-registry",
         "publisher": "IETF",
         "status": "Internet Draft (work in progress)",
         "title": "IANA Registry for RTCWeb Constrainable Properties"
     },
     "RTCWEB-DATA": {
-        "authors": [
-            "R. Jesup",
-            "S. Loreto",
-            "M. Tuexen"
-        ],
-        "date": "14 October 2015",
-        "href": "https://tools.ietf.org/html/draft-ietf-rtcweb-data-channel",
-        "publisher": "IETF",
-        "status": "Active Internet-Draft",
-        "title": "RTCWeb Data Channels"
+        "aliasOf": "rfc8831"
     },
     "RTCWEB-DATA-PROTOCOL": {
-        "authors": [
-            "R. Jesup",
-            "S. Loreto",
-            "M. Tuexen"
-        ],
-        "date": "14 October 2015",
-        "href": "https://tools.ietf.org/html/draft-ietf-rtcweb-data-protocol",
-        "publisher": "IETF",
-        "status": "Active Internet-Draft",
-        "title": "RTCWeb Data Channel Protocol"
+        "aliasOf": "rfc8832"
     },
     "RTCWEB-IP-HANDLING": {
-        "authors": [
-            "Guo-wei Shieh",
-            "Justin Uberti"
-        ],
-        "date": "20 March 2016",
-        "href": "https://tools.ietf.org/html/draft-ietf-rtcweb-ip-handling",
-        "publisher": "IETF",
-        "status": "Active Internet-Draft",
-        "title": "WebRTC IP Address Handling Recommendations"
+        "aliasOf": "rfc8828"
     },
     "RTCWEB-JSEP": {
-        "authors": [
-            "Justin Uberti",
-            "Cullen Jennings"
-        ],
-        "date": "22 October 2013",
-        "href": "https://tools.ietf.org/html/draft-ietf-rtcweb-jsep",
-        "publisher": "IETF",
-        "status": "Active Internet-Draft",
-        "title": "Javascript Session Establishment Protocol"
+        "aliasOf": "rfc8829"
     },
     "RTCWEB-OVERVIEW": {
-        "authors": [
-            "H. Alvestrand"
-        ],
-        "date": "14 February 2014",
-        "href": "https://tools.ietf.org/html/draft-ietf-rtcweb-overview",
-        "publisher": "IETF",
-        "status": "Active Internet-Draft",
-        "title": "Overview: Real Time Protocols for Brower-based Applications"
+        "aliasOf": "rfc8825"
     },
     "RTCWEB-RTP": {
-        "authors": [
-            "C. Perkins",
-            "M. Westerlund",
-            "J. Ott"
-        ],
-        "date": "17 March 2016",
-        "href": "https://tools.ietf.org/html/draft-ietf-rtcweb-rtp-usage",
-        "publisher": "IETF",
-        "status": "Active Internet-Draft",
-        "title": "Web Real-Time Communication (WebRTC): Media Transport and Use of RTP"
+        "aliasOf": "rfc8834"
     },
     "RTCWEB-SECURITY": {
-        "authors": [
-            "Eric Rescorla"
-        ],
-        "date": "22 January 2014",
-        "href": "https://tools.ietf.org/html/draft-ietf-rtcweb-security",
-        "publisher": "IETF",
-        "status": "Active Internet-Draft",
-        "title": "Security Considerations for WebRTC"
+        "aliasOf": "rfc8826"
     },
     "RTCWEB-SECURITY-ARCH": {
-        "authors": [
-            "Eric Rescorla"
-        ],
-        "date": "10 December 2016",
-        "href": "https://tools.ietf.org/html/draft-ietf-rtcweb-security-arch",
-        "publisher": "IETF",
-        "status": "Active Internet-Draft",
-        "title": "WebRTC Security Architecture"
+        "aliasOf": "rfc8827"
     },
     "RTCWEB-TRANSPORT": {
-        "authors": [
-            "H. Alvestrand"
-        ],
-        "date": "31 October 2016",
-        "href": "https://tools.ietf.org/html/draft-ietf-rtcweb-transports",
-        "publisher": "IETF",
-        "status": "Active Internet-Draft",
-        "title": "Transports for RTCWEB"
+        "aliasOf": "rfc8835"
     },
     "RTCWEB-USECAS": {
-        "authors": [
-            "Christer Holmberg",
-            "Stefan Hakansson",
-            "Goran AP Eriksson"
-        ],
-        "date": "14 October 2013",
-        "href": "http://datatracker.ietf.org/doc/draft-ietf-rtcweb-use-cases-and-requirements/",
-        "publisher": "IETF",
-        "status": "Active Internet-Draft",
-        "title": "Web Real-Time Communication Use-cases and Requirements"
+        "aliasOf": "rfc7478"
     },
     "RUBY-UC": {
         "aliasOf": "ruby-use-cases"
@@ -2371,33 +2422,13 @@
         "aliasOf": "SCTE214-1"
     },
     "SCTP-SDP": {
-        "authors": [
-            "C. Holmberg",
-            "R. Shpount",
-            "S. Loreto",
-            "G. Camarillo"
-        ],
-        "date": "20 March 2017",
-        "href": "https://tools.ietf.org/html/draft-ietf-mmusic-sctp-sdp",
-        "publisher": "IETF",
-        "status": "Active Internet-Draft",
-        "title": "Session Description Protocol (SDP) Offer/Answer Procedures For Stream Control Transmission Protocol (SCTP) over Datagram Transport Layer Security (DTLS) Transport"
+        "aliasOf": "RFC8841"
     },
     "SDP": {
         "aliasOf": "rfc3264"
     },
     "SDP-SIMULCAST": {
-        "authors": [
-            "B. Burman",
-            "M. Westerlund",
-            "S. Nandakumar",
-            "M. Zanaty"
-        ],
-        "date": "27 June 2018",
-        "href": "https://tools.ietf.org/html/draft-ietf-mmusic-sdp-simulcast",
-        "publisher": "IETF",
-        "status": "Active Internet-Draft",
-        "title": "Using Simulcast in SDP and RTP Sessions"
+        "aliasOf": "rfc8853"
     },
     "SDPLABEL": {
         "aliasOf": "rfc4574"
@@ -2416,6 +2447,13 @@
     },
     "SELECTORS-LEVEL-3": {
         "aliasOf": "css3-selectors"
+    },
+    "SFNT": {
+        "title": "Spline/Scalable font format",
+        "href": "https://www.iso.org/obp/ui/#iso:std:iso-iec:14496:-22:ed-4:v1:en",
+        "publisher": "ISO",
+        "rawDate": "2019-01",
+        "isoNumber": "ISO/IEC 14496-22:2019"
     },
     "SGML-CATALOG": {
         "title": "Entity Management: OASIS Technical Resolution 9401:1997 (Amendment 2 to TR 9401)",
@@ -2520,32 +2558,10 @@
         "aliasOf": "rfc5389"
     },
     "STUN-BIS": {
-        "authors": [
-            "M. Petit-Huguenin",
-            "G. Salgueiro",
-            "J. Rosenberg",
-            "D. Wing",
-            "R. Mahy",
-            "P. Matthews"
-        ],
-        "date": "16 February 2017",
-        "href": "https://tools.ietf.org/html/draft-ietf-tram-stunbis",
-        "publisher": "IETF",
-        "status": "Internet Draft (work in progress)",
-        "title": "Session Traversal Utilities for NAT (STUN)"
+        "aliasOf": "rfc8489"
     },
     "STUN-URI": {
-        "authors": [
-            "S. Nandakumar",
-            "G. Salgueiro",
-            "P. Jones",
-            "and M. Petit-Huguenin"
-        ],
-        "href": "https://tools.ietf.org/html/draft-nandakumar-rtcweb-stun-uri",
-        "title": "URI Scheme for Session Traversal Utilities for NAT (STUN) Protocol",
-        "date": "12 March 2012",
-        "status": "Internet Draft (work in progress)",
-        "publisher": "IETF"
+        "aliasOf": "rfc7064"
     },
     "SVG10": {
         "aliasOf": "SVG"
@@ -2564,14 +2580,7 @@
         "status": "SXSW Interactive, Austin, TX"
     },
     "SYSAPPS-RUNTIME": {
-        "authors": [
-            "Mounir Lamouri",
-            "Ming Jin"
-        ],
-        "href": "http://runtime.sysapps.org/",
-        "publisher": "W3C",
-        "status": "ED",
-        "title": "Runtime and Security Model for Web Applications"
+        "aliasOf": "runtime"
     },
     "SYSINFOAPI": {
         "aliasOf": "system-info-api"
@@ -2604,70 +2613,49 @@
         "aliasOf": "rfc7635"
     },
     "TRICKLE-ICE": {
-        "authors": [
-            "E. Ivov",
-            "E. Rescorla",
-            "J. Uberti"
-        ],
-        "date": "20 July 2015",
-        "href": "http://datatracker.ietf.org/doc/draft-ietf-mmusic-trickle-ice",
-        "publisher": "IETF",
-        "status": "Internet Draft (work in progress)",
-        "title": "Trickle ICE: Incremental Provisioning of Candidates for the Interactive Connectivity Establishment (ICE) Protocol"
+        "aliasOf": "rfc8838"
     },
     "TRUETYPE": {
         "href": "https://developer.apple.com/fonts/TrueType-Reference-Manual/",
         "publisher": "Apple, Inc.",
         "title": "TrueType™ Reference Manual"
     },
-    "TSVWG-RTCWEB-QOS": {
+    "TRUSTED-TYPES": {
         "authors": [
-            "S. Dhesikan",
-            "C. Jennings",
-            "D. Druta",
-            "P. Jones",
-            "J. Polk"
+            "Krzysztof Kotowicz",
+            "Mike West"
         ],
-        "date": "22 August 2016",
-        "href": "https://tools.ietf.org/html/draft-ietf-tsvwg-rtcweb-qos",
-        "publisher": "IETF",
-        "status": "Internet Draft (work in progress)",
-        "title": "DSCP Packet Markings for WebRTC QoS"
+        "href": "https://w3c.github.io/webappsec-trusted-types/dist/spec/",
+        "title": "Trusted Types",
+        "status": "ED",
+        "publisher": "W3C",
+        "repository": "https://github.com/w3c/webappsec-trusted-types/"
+    },
+    "TSVWG-RTCWEB-QOS": {
+        "aliasOf": "rfc8837"
     },
     "TURN": {
         "aliasOf": "rfc5766"
     },
     "TURN-BIS": {
-        "authors": [
-            "T. Reddy",
-            "A. Johnston",
-            "P. Matthews",
-            "J. Rosenberg"
-        ],
-        "date": "11 October 2018",
-        "href": "https://tools.ietf.org/html/draft-ietf-tram-turnbis",
-        "publisher": "IETF",
-        "status": "Internet Draft (work in progress)",
-        "title": "Traversal Using Relays around NAT (TURN): Relay Extensions to Session Traversal Utilities for NAT (STUN)"
+        "aliasOf": "rfc8656"
     },
     "TURN-URI": {
-        "authors": [
-            "M. Petit-Huguenin",
-            "S. Nandakumar",
-            "G. Salgueiro",
-            "and  P. Jones"
-        ],
-        "href": "https://tools.ietf.org/html/draft-petithuguenin-behave-turn-uris",
-        "title": "Traversal Using Relays around NAT (TURN) Uniform Resource Identifiers",
-        "date": "12 March 2012",
-        "status": "Internet Draft (work in progress)",
-        "publisher": "IETF"
+        "aliasOf": "rfc7065"
     },
     "TYPED-ARRAYS": {
         "aliasOf": "typedarray"
     },
+    "UFO": {
+        "authors": [
+            "G. Guizzardi"
+        ],
+        "href": "https://ris.utwente.nl/ws/portalfiles/portal/6042428/thesis_Guizzardi.pdf",
+        "title": "Ontological Foundations for Structural Conceptual Models",
+        "date": "2005"
+    },
     "UI-AUTOMATION": {
-        "href": "https://msdn.microsoft.com/en-us/library/ee684009%28v=vs.85%29.aspx",
+        "href": "https://docs.microsoft.com/en-us/windows/win32/winauto/ui-automation-specification",
         "title": "UI Automation",
         "publisher": "Microsoft Corporation"
     },
@@ -2675,7 +2663,7 @@
         "aliasOf": "uievents"
     },
     "UIA-EXPRESS": {
-        "href": "https://msdn.microsoft.com/en-us/library/windows/desktop/dd561898%28v=vs.85%29.aspx",
+        "href": "https://docs.microsoft.com/en-us/windows/win32/winauto/iaccessibleex",
         "title": "The IAccessibleEx Interface",
         "publisher": "Microsoft Corporation"
     },
@@ -2693,17 +2681,28 @@
         "authors": [
             "Ryosuke Niwa"
         ],
-        "href": "https://dvcs.w3.org/hg/undomanager/raw-file/tip/undomanager.html",
+        "href": "https://rniwa.github.io/undo-api/",
         "title": "UndoManager and DOM Transaction",
-        "date": "20 August 2012",
+        "date": "24 September 2020",
         "status": "ED",
-        "publisher": "W3C"
+        "publisher": "W3C",
+        "repository": "https://github.com/rniwa/undo-api"
     },
     "UNICODE-SECURITY": {
         "aliasOf": "UTR36"
     },
     "UNICODE-SECURITY-MECHANISMS": {
         "aliasOf": "UTR39"
+    },
+    "UNSANCTIONED-TRACKING": {
+        "href": "http://www.w3.org/2001/tag/doc/unsanctioned-tracking/",
+        "title": "Unsanctioned Web Tracking",
+        "publisher": "W3C",
+        "status": "TAG Finding",
+        "authors": [
+            "Mark Nottingham"
+        ],
+        "rawDate": "2015-07-17"
     },
     "URI": {
         "aliasOf": "rfc3986"
@@ -2722,6 +2721,13 @@
     },
     "UTF-8": {
         "aliasOf": "rfc3629"
+    },
+    "VSS": {
+        "title": "Vehicle Signal Specification",
+        "href": "https://github.com/GENIVI/vehicle_signal_specification",
+        "status": "2.0",
+        "date": "February 2021",
+        "publisher": "GENIVI Alliance"
     },
     "VTT708": {
         "title": "Conversion of 608/708 captions to WebVTT",
@@ -2743,6 +2749,17 @@
     },
     "WCAG": {
         "aliasOf": "WAI-WEBCONTENT"
+    },
+    "WEB-SHARE-TARGET": {
+        "authors": [
+            "Matt Giuca",
+            "Eric Willigers"
+        ],
+        "href": "https://w3c.github.io/web-share-target/",
+        "title": "Web Share Target API",
+        "status": "ED",
+        "publisher": "W3C",
+        "repository": "https://github.com/w3c/web-share-target"
     },
     "WEB-SQL": {
         "aliasOf": "webdatabase"
@@ -2845,6 +2862,9 @@
     },
     "WEBWORKERS": {
         "aliasOf": "workers"
+    },
+    "WEBXR-GAMEPADS-MODULE": {
+        "aliasOf": "webxr-gamepads-module-1"
     },
     "WICDMobile10": {
         "aliasOf": "WICDMobile"
@@ -3122,21 +3142,14 @@
         "title": ".ZIP File Format Specification"
     },
     "access-control": {
-        "authors": [
-            "Anne van Kesteren"
-        ],
-        "href": "https://www.w3.org/TR/access-control/",
-        "title": "Access Control for Cross-Site Requests",
-        "date": "12 September 2008",
-        "status": "WD",
-        "publisher": "W3C"
+        "aliasOf": "FETCH"
     },
     "bibo": {
         "authors": [
             "Bruce D'Arcus",
             "Frédérick Giasson"
         ],
-        "href": "http://bibliographic-ontology.org/specification",
+        "href": "http://bibliontology.com/specification.html",
         "title": "Bibliographic Ontology Specification",
         "publisher": "Structured Dynamics LLC.",
         "rawDate": "2016-05-11"
@@ -3201,7 +3214,7 @@
         "deliveredBy": [
             "https://www.datacite.org/"
         ],
-        "rawDate": "2019-03-20",
+        "rawDate": "2021-03-30",
         "versions": {
             "20110124": {
                 "authors": [
@@ -3299,14 +3312,38 @@
                     "https://www.datacite.org/"
                 ],
                 "rawDate": "2019-03-20"
+            },
+            "20190816": {
+                "authors": [
+                    "DataCite Metadata Working Group"
+                ],
+                "href": "https://schema.datacite.org/meta/kernel-4.3/",
+                "title": "DataCite Metadata Schema 4.3",
+                "publisher": "DataCite e.V.",
+                "deliveredBy": [
+                    "https://www.datacite.org/"
+                ],
+                "rawDate": "2019-08-16"
+            },
+            "20210330": {
+                "authors": [
+                    "DataCite Metadata Working Group"
+                ],
+                "href": "https://schema.datacite.org/meta/kernel-4.4/",
+                "title": "DataCite Metadata Schema 4.4",
+                "publisher": "DataCite e.V.",
+                "deliveredBy": [
+                    "https://www.datacite.org/"
+                ],
+                "rawDate": "2021-03-30"
             }
         }
     },
     "dcat-ap": {
         "href": "https://joinup.ec.europa.eu/solution/dcat-application-profile-data-portals-europe",
-        "title": "DCAT Application Profile for data portals in Europe. Version 1.2",
+        "title": "DCAT Application Profile for data portals in Europe. Version 2.0.1",
         "publisher": "European Commission",
-        "rawDate": "2018-11-08",
+        "rawDate": "2020-06-08",
         "deliveredBy": [
             "http://data.europa.eu/w21/ac376c94-74cf-4dd7-ade7-267d6a4ec4dc"
         ],
@@ -3343,6 +3380,33 @@
                 "deliveredBy": [
                     "http://data.europa.eu/w21/ac376c94-74cf-4dd7-ade7-267d6a4ec4dc"
                 ]
+            },
+            "20190528": {
+                "href": "https://joinup.ec.europa.eu/release/dcat-ap/121",
+                "title": "DCAT Application Profile for data portals in Europe. Version 1.2.1",
+                "rawDate": "2019-05-28",
+                "publisher": "European Commission",
+                "deliveredBy": [
+                    "http://data.europa.eu/w21/ac376c94-74cf-4dd7-ade7-267d6a4ec4dc"
+                ]
+            },
+            "20191120": {
+                "href": "http://data.europa.eu/w21/f8faf044-ea69-4e98-a372-88058631ceee",
+                "title": "DCAT Application Profile for data portals in Europe. Version 2.0.0",
+                "rawDate": "2019-11-20",
+                "publisher": "European Commission",
+                "deliveredBy": [
+                    "http://data.europa.eu/w21/ac376c94-74cf-4dd7-ade7-267d6a4ec4dc"
+                ]
+            },
+            "20200608": {
+                "href": "http://data.europa.eu/w21/32d70b6e-0d27-40d9-9230-017e4cd00bcc",
+                "title": "DCAT Application Profile for data portals in Europe. Version 2.0.1",
+                "rawDate": "2020-06-08",
+                "publisher": "European Commission",
+                "deliveredBy": [
+                    "http://data.europa.eu/w21/ac376c94-74cf-4dd7-ade7-267d6a4ec4dc"
+                ]
             }
         }
     },
@@ -3350,9 +3414,9 @@
         "aliasOf": "DOM-Level-3-XPath"
     },
     "geodcat-ap": {
-        "href": "https://joinup.ec.europa.eu/solution/geodcat-application-profile-data-portals-europe",
-        "title": "GeoDCAT-AP: A geospatial extension for the DCAT application profile for data portals in Europe. Version 1.0.1",
-        "rawDate": "2016-08-02",
+        "href": "https://semiceu.github.io/GeoDCAT-AP/releases/",
+        "title": "GeoDCAT-AP: A geospatial extension for the DCAT application profile for data portals in Europe",
+        "rawDate": "2020-12-23",
         "publisher": "European Commission",
         "deliveredBy": [
             "https://joinup.ec.europa.eu/solution/geodcat-application-profile-data-portals-europe"
@@ -3375,8 +3439,18 @@
                 "deliveredBy": [
                     "https://joinup.ec.europa.eu/solution/geodcat-application-profile-data-portals-europe"
                 ]
+            },
+            "20201223": {
+                "href": "https://semiceu.github.io/GeoDCAT-AP/releases/2.0.0/",
+                "title": "GeoDCAT-AP: A geospatial extension for the DCAT application profile for data portals in Europe. Version 2.0.0",
+                "rawDate": "2020-12-23",
+                "publisher": "European Commission",
+                "deliveredBy": [
+                    "https://joinup.ec.europa.eu/solution/geodcat-application-profile-data-portals-europe"
+                ]
             }
-        }
+        },
+        "repository": "https://github.com/semiceu/GeoDCAT-AP"
     },
     "georss": {
         "href": "https://www.w3.org/2005/Incubator/geo/XGR-geo/",
@@ -3566,7 +3640,7 @@
             "Mark Cavage",
             "Manu Sporny"
         ],
-        "href": "https://tools.ietf.org/html/draft-cavage-http-signatures",
+        "href": "https://datatracker.ietf.org/doc/html/draft-cavage-http-signatures",
         "title": "HTTP Signatures",
         "status": "WD",
         "publisher": "IETF",
@@ -3579,7 +3653,7 @@
                     "Mark Cavage",
                     "Manu Sporny"
                 ],
-                "href": "https://tools.ietf.org/html/draft-cavage-http-signatures-00",
+                "href": "https://datatracker.ietf.org/doc/html/draft-cavage-http-signatures-00",
                 "title": "HTTP Signatures",
                 "rawDate": "2013-05-04",
                 "publisher": "IETF",
@@ -3604,7 +3678,7 @@
         ],
         "versions": {
             "20081219": {
-                "href": "http://inspire.ec.europa.eu/reports/ImplementingRules/metadata/MD_IR_and_ISO_20081219.pdf",
+                "href": "https://inspire.ec.europa.eu/reports/ImplementingRules/metadata/MD_IR_and_ISO_20081219.pdf",
                 "title": "INSPIRE Metadata Implementing Rules: Technical Guidelines based on EN ISO 19115 and EN ISO 19119. Version 1.0",
                 "rawDate": "2008-12-19",
                 "publisher": "European Commission",
@@ -3613,7 +3687,7 @@
                 ]
             },
             "20090218": {
-                "href": "http://inspire.ec.europa.eu/reports/ImplementingRules/metadata/MD_IR_and_ISO_20090218.pdf",
+                "href": "https://inspire.ec.europa.eu/reports/ImplementingRules/metadata/MD_IR_and_ISO_20090218.pdf",
                 "title": "INSPIRE Metadata Implementing Rules: Technical Guidelines based on EN ISO 19115 and EN ISO 19119. Version 1.1",
                 "rawDate": "2009-02-18",
                 "publisher": "European Commission",
@@ -3622,7 +3696,7 @@
                 ]
             },
             "20100616": {
-                "href": "http://inspire.ec.europa.eu/documents/Metadata/INSPIRE_MD_IR_and_ISO_v1_2_20100616.pdf",
+                "href": "https://inspire.ec.europa.eu/documents/Metadata/INSPIRE_MD_IR_and_ISO_v1_2_20100616.pdf",
                 "title": "INSPIRE Metadata Implementing Rules: Technical Guidelines based on EN ISO 19115 and EN ISO 19119. Version 1.2",
                 "rawDate": "2010-06-16",
                 "publisher": "European Commission",
@@ -3631,7 +3705,7 @@
                 ]
             },
             "20131029": {
-                "href": "http://inspire.ec.europa.eu/documents/Metadata/MD_IR_and_ISO_20131029.pdf",
+                "href": "https://inspire.ec.europa.eu/documents/Metadata/MD_IR_and_ISO_20131029.pdf",
                 "title": "INSPIRE Metadata Implementing Rules: Technical Guidelines based on EN ISO 19115 and EN ISO 19119. Version 1.3",
                 "rawDate": "2013-10-29",
                 "publisher": "European Commission",
@@ -3640,7 +3714,7 @@
                 ]
             },
             "20170302": {
-                "href": "https://inspire.ec.europa.eu/file/1705/download?token=iSTwpRWd",
+                "href": "https://inspire.ec.europa.eu/id/document/tg/metadata-iso19139/2.0.1",
                 "title": "Technical Guidance for the implementation of INSPIRE dataset and service metadata based on ISO/TS 19139:2007. Version 2.0.1",
                 "rawDate": "2017-03-02",
                 "publisher": "European Commission",
@@ -3903,6 +3977,54 @@
         "date": "2005",
         "isoNumber": "ISO 19133:2005"
     },
+    "iso-19135": {
+        "aliasOf": "iso-19135-2005"
+    },
+    "iso-19135-1": {
+        "aliasOf": "iso-19135-1-2015"
+    },
+    "iso-19135-1-2015": {
+        "authors": [
+            "ISO/TC 211"
+        ],
+        "href": "https://www.iso.org/standard/54721.html",
+        "title": "Geographic information -- Procedures for item registration -- Part 1: Fundamentals",
+        "publisher": "ISO",
+        "status": "International Standard",
+        "date": "2015",
+        "isoNumber": "ISO 19135-1:2015",
+        "updates": [
+            "iso-19135-2005"
+        ]
+    },
+    "iso-19135-2": {
+        "aliasOf": "iso-19135-2-2012"
+    },
+    "iso-19135-2-2012": {
+        "authors": [
+            "ISO/TC 211"
+        ],
+        "href": "https://www.iso.org/standard/55998.html",
+        "title": "Geographic information -- Procedures for item registration -- Part 2: XML schema implementation",
+        "publisher": "ISO",
+        "status": "International Standard",
+        "date": "2012",
+        "isoNumber": "ISO 19135-2:2012"
+    },
+    "iso-19135-2005": {
+        "authors": [
+            "ISO/TC 211"
+        ],
+        "href": "https://www.iso.org/standard/32553.html",
+        "title": "Geographic information -- Procedures for item registration",
+        "publisher": "ISO",
+        "status": "International Standard",
+        "date": "2005",
+        "isoNumber": "ISO 19135:2005",
+        "updatedBy": [
+            "iso-19135-1-2015"
+        ]
+    },
     "iso-19136": {
         "aliasOf": "iso-19136-2007"
     },
@@ -4115,7 +4237,7 @@
         "authors": [
             "K. Zyp"
         ],
-        "href": "https://tools.ietf.org/html/draft-zyp-json-schema",
+        "href": "https://datatracker.ietf.org/doc/html/draft-zyp-json-schema",
         "publisher": "Internet Engineering Task Force (IETF)",
         "status": "Internet-Draft",
         "rawDate": "2013-01-31",
@@ -4464,6 +4586,16 @@
         "rawDate": "2013",
         "title": "RightsML"
     },
+    "schema-org": {
+        "authors": [
+            "W3C Schema.org Community Group"
+        ],
+        "href": "https://schema.org/",
+        "publisher": "W3C",
+        "status": "6.0",
+        "title": "Schema.org",
+        "repository": "https://github.com/schemaorg/schemaorg"
+    },
     "service-workers-nightly": {
         "authors": [
             "Alex Russell",
@@ -4495,8 +4627,8 @@
     },
     "statdcat-ap": {
         "href": "https://joinup.ec.europa.eu/solution/statdcat-application-profile-data-portals-europe",
-        "title": "StatDCAT-AP – DCAT Application Profile for description of statistical datasets. Version 1.0.0",
-        "rawDate": "2016-12-15",
+        "title": "StatDCAT-AP – DCAT Application Profile for description of statistical datasets. Version 1.0.1",
+        "rawDate": "2019-05-28",
         "publisher": "European Commission",
         "deliveredBy": [
             "https://joinup.ec.europa.eu/solution/statdcat-application-profile-data-portals-europe"
@@ -4506,6 +4638,15 @@
                 "href": "https://joinup.ec.europa.eu/release/statdcat-ap/100",
                 "title": "StatDCAT-AP – DCAT Application Profile for description of statistical datasets. Version 1.0.0",
                 "rawDate": "2016-12-15",
+                "publisher": "European Commission",
+                "deliveredBy": [
+                    "https://joinup.ec.europa.eu/solution/statdcat-application-profile-data-portals-europe"
+                ]
+            },
+            "20190528": {
+                "href": "https://joinup.ec.europa.eu/release/statdcat-ap/101",
+                "title": "StatDCAT-AP – DCAT Application Profile for description of statistical datasets. Version 1.0.1",
+                "rawDate": "2019-05-28",
                 "publisher": "European Commission",
                 "deliveredBy": [
                     "https://joinup.ec.europa.eu/solution/statdcat-application-profile-data-portals-europe"

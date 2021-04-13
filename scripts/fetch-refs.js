@@ -35,9 +35,14 @@ request({
     var json = JSON.parse(body);
     Object.keys(json).forEach(function(id) {
         var ref = json[id];
-        ref = require(HELPER)(id, ref);
-        ref.publisher = ref.publisher || PUBLISHER;
-        ref.source = SOURCE;
+        if (ref.aliasOf) {
+            ref = { aliasOf: ref.aliasOf };
+        }
+        else {
+            ref = require(HELPER)(id, ref);
+            ref.publisher = ref.publisher || PUBLISHER;
+            ref.source = SOURCE;
+        }
         var uppercaseId = id.toUpperCase();
         var prefixedId = PUBLISHER + "-" + id;
         if (!(uppercaseId in refs)) {

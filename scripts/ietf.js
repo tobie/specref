@@ -40,8 +40,49 @@ request({
     helper.tryOverwrite(FILE);
 });
 
+// From https://httpwg.org/specs/
+// JSON.stringify([...document.body.textContent.matchAll(/(RFC\d{4}):/g)]
+//     .map(m => m[1].toLowerCase()).sort(), null, 4);
+var HTTP_SPECS = [
+    "rfc2818",
+    "rfc5789",
+    "rfc5861",
+    "rfc6265",
+    "rfc6266",
+    "rfc6585",
+    "rfc7230",
+    "rfc7231",
+    "rfc7232",
+    "rfc7233",
+    "rfc7234",
+    "rfc7235",
+    "rfc7538",
+    "rfc7540",
+    "rfc7541",
+    "rfc7615",
+    "rfc7616",
+    "rfc7617",
+    "rfc7639",
+    "rfc7694",
+    "rfc7725",
+    "rfc7838",
+    "rfc8144",
+    "rfc8164",
+    "rfc8188",
+    "rfc8246",
+    "rfc8288",
+    "rfc8297",
+    "rfc8336",
+    "rfc8441",
+    "rfc8470"
+];
+
 function href(index) {
-    return "https://tools.ietf.org/html/" + unpad(index.toLowerCase());
+    index = index.toLowerCase();
+    if (HTTP_SPECS.indexOf(index) > -1) {
+        return "https://httpwg.org/specs/" + index + ".html";
+    }
+    return "https://datatracker.ietf.org/doc/html/" + unpad(index);
 }
 
 function unpad(index) {

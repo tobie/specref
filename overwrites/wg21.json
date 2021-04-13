@@ -1,14 +1,6 @@
-{
-    "N4762": { 
-        "title": { "replaceWith": "Working Draft, Standard for Programming Language C+" }
-    },
-    "N4764": { 
-        "title": { "replaceWith": "Editors' Report: Programming Languages C++" }
-    },
-    "N4778": { 
-        "title": { "replaceWith": "Working Draft, Standard for Programming Language C+" }
-    },
-    "N4779": { 
-        "title": { "replaceWith": "Editors' Report: Programming Languages C++" }
-    }
-}
+[
+  { "id": "N4762", "action": "replaceProp", "prop": "title", "value": "Working Draft, Standard for Programming Language C++" },
+  { "id": "N4764", "action": "replaceProp", "prop": "title", "value": "Editors' Report: Programming Languages C++" },
+  { "id": "N4778", "action": "replaceProp", "prop": "title", "value": "Working Draft, Standard for Programming Language C++" },
+  { "id": "N4779", "action": "replaceProp", "prop": "title", "value": "Editors' Report: Programming Languages C++" }
+]

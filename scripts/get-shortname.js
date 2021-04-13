@@ -10,6 +10,7 @@ var SPECIAL_CASES = {
 };
 
 var SHORT_NAME_SPECIAL_CASES = {
+    "html": "w3c-html",
     "NOTE-CSS-potential": "CSS-potential",
     "NOTE-P3P10-principles": "P3P10-principles",
     "NOTE-SYMM-modules": "SYMM-modules",
