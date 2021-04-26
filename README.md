@@ -1,4 +1,4 @@
-Specref API [![Build Status](https://travis-ci.org/tobie/specref.png?branch=master)](https://travis-ci.org/tobie/specref) [![Greenkeeper badge](https://badges.greenkeeper.io/tobie/specref.svg)](https://greenkeeper.io/)
+Specref API [![Build Status](https://travis-ci.org/tobie/specref.png?branch=main)](https://travis-ci.org/tobie/specref) [![Greenkeeper badge](https://badges.greenkeeper.io/tobie/specref.svg)](https://greenkeeper.io/)
 ===========
 
 [Specref](http://www.specref.org/) is an open-source, community-maintained database of Web standards & related references.
@@ -270,7 +270,7 @@ There are scripts that pull fresh data from IETF, W3C, and WHATWG, and update th
 
 Generally, manual changes should be limited to the `refs/biblio.json` file.
 
-If you have commit rights, please don't commit to master directly. Commit to a seperate branch (preferably to your fork) and send a pull request.
+If you have commit rights, please don't commit to main directly. Commit to a seperate branch (preferably to your fork) and send a pull request.
 
 All changes are automatically tested using [travis](https://travis-ci.org/tobie/specref/) and automatically deployed within minutes if all tests pass. You can check that your changes have been properly deployed on [www.specref.org](http://www.specref.org/), @-mention @tobie in a pull request comment if they haven't.
 
