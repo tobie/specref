@@ -135,7 +135,7 @@
                     "$ref": "#/definitions/nonEmptyString"
                 },
                 "obsoletes": {
-                    "description": "An array of specifications obsoloted by this specification.",
+                    "description": "An array of specifications obsoleted by this specification.",
                     "$ref": "#/definitions/idList"
                 },
                 "obsoletedBy": {
