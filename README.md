@@ -257,7 +257,7 @@ Updating URL.
 ```
 There now exists a Persistent URI Registry of EU Institutions and Bodies[1]
 which is to be used when referencing such documents.
-Unfortuntaly it doesn't use HTTPS yet.
+Unfortunately it doesn't use HTTPS yet.
 
 [1]: http://data.europa.eu/
 ```
