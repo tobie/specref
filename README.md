@@ -229,7 +229,7 @@ If you need to find a reference ID (for either bibliographic or cross-references
 
 ### Commit rights
 
-Specref loosely follows the process described in [The Pull Request Hack](http://felixge.de/2013/03/11/the-pull-request-hack.html). Contributors are generally granted commit access to the repo after their first pull request is sucessfully merged.
+Specref loosely follows the process described in [The Pull Request Hack](http://felixge.de/2013/03/11/the-pull-request-hack.html). Contributors are generally granted commit access to the repo after their first pull request is successfully merged.
 
 It's expected contributors read-up on how to make [manual changes](https://github.com/tobie/specref#manual-changes) and follow the [review policy](https://github.com/tobie/specref#review-policy) described below.
 
