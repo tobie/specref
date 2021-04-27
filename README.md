@@ -108,7 +108,7 @@ returns: a JSON object indexed by IDs
 }
 ```
 
-Used to get a set of bibliographic references that include the search term in any of their attributes. This is usefull to find specs related to a given area of study, specs by a given editor, etc.
+Used to get a set of bibliographic references that include the search term in any of their attributes. This is useful to find specs related to a given area of study, specs by a given editor, etc.
     
 ### Reverse lookup
 
