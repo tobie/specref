@@ -264,7 +264,7 @@ Unfortuntaly it doesn't use HTTPS yet.
 
 ### Hourly auto-updating
 
-There are scripts that pull fresh data from IETF, W3C, and WHATWG, and update their relevant files in the `refs` directory. These are now run hourly. Their output is tested, comitted and deployed without human intervention. Content should now always be up to date.
+There are scripts that pull fresh data from IETF, W3C, and WHATWG, and update their relevant files in the `refs` directory. These are now run hourly. Their output is tested, committed and deployed without human intervention. Content should now always be up to date.
 
 ### Manual changes
 
