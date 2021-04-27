@@ -243,7 +243,7 @@ The review policy has three key principles:
 
 We trust contributors to be a good judge of what is trivial, what isn't, and how long to wait before merging a trivial fix. Generally, the more trivial the fix, the shorter the wait.
 
-Similalry, the more a commit message explains the _why_ of a slightly unexpected fix, the less it requires a review.
+Similarly, the more a commit message explains the _why_ of a slightly unexpected fix, the less it requires a review.
 
 For example, for a fix that changes an existing HTTPS url to an HTTP one:
 
