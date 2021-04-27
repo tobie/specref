@@ -119,7 +119,7 @@
                     "$ref": "#/definitions/nonEmptyString"
                 },
                 "date": {
-                    "description": "Date of publication in humand readable form, favor rawDate instead.",
+                    "description": "Date of publication in human readable form, favor rawDate instead.",
                     "type": "string",
                     "pattern": "^([1-3]?\\d\\s)?((?:January|February|March|April|May|June|July|August|September|October|November|December)\\s)?\\d+$"
                 },

@@ -151,7 +151,7 @@
                     "$ref": "#/definitions/nonEmptyString"
                 },
                 "date": {
-                    "description": "Date of publication in humand readable form, favor rawDate instead.",
+                    "description": "Date of publication in human readable form, favor rawDate instead.",
                     "$ref": "#/definitions/nonEmptyString"
                 },
                 "deliveredBy": {
