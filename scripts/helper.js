@@ -48,7 +48,7 @@ function parseURL(url) {
 exports.readBiblio = readBiblio;
 function readBiblio(f) {
     var filepath = path.join(DIR_PATH, f || DEFAULT_FILE);
-    console.log("Loadind and parsing " + filepath + "...");
+    console.log("Loading and parsing " + filepath + "...");
     var input = fs.readFileSync(filepath, 'utf8');
     return JSON.parse(input);
 }
