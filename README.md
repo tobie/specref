@@ -270,7 +270,7 @@ There are scripts that pull fresh data from IETF, W3C, and WHATWG, and update th
 
 Generally, manual changes should be limited to the `refs/biblio.json` file.
 
-If you have commit rights, please don't commit to main directly. Commit to a seperate branch (preferably to your fork) and send a pull request.
+If you have commit rights, please don't commit to main directly. Commit to a separate branch (preferably to your fork) and send a pull request.
 
 All changes are automatically tested using [travis](https://travis-ci.org/tobie/specref/) and automatically deployed within minutes if all tests pass. You can check that your changes have been properly deployed on [www.specref.org](http://www.specref.org/), @-mention @tobie in a pull request comment if they haven't.
 
