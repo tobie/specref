@@ -1,0 +1,16 @@
+# See https://github.com/check-spelling/check-spelling/wiki/Configuration-Examples:-excludes
+(?:^|/)(?i)COPYRIGHT
+(?:^|/)(?i)LICEN[CS]E
+(?:^|/)package(?:-lock|)\.json$
+(?:^|/)vendor/
+ignore$
+\.lock$
+\.min\.
+\.mod$
+^docs/CNAME$
+^refs/csswg\.json$
+^refs/etsi\.json$
+^refs/ietf\.json$
+^refs/wg21\.json$
+^test/ref-list\.json$
+^\.github/
