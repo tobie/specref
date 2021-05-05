@@ -108,7 +108,7 @@ returns: a JSON object indexed by IDs
 }
 ```
 
-Used to get a set of bibliographic references that include the search term in any of their attributes. This is usefull to find specs related to a given area of study, specs by a given editor, etc.
+Used to get a set of bibliographic references that include the search term in any of their attributes. This is useful to find specs related to a given area of study, specs by a given editor, etc.
     
 ### Reverse lookup
 
@@ -150,7 +150,7 @@ This is by design.
 
 ### Aliases
 
-Because of legacy references, case sensivity issues and taste, many entries have multiple identifiers. Thus an aliasing system was put in place. It isn't _that_ complicated really: an identifier either points directly to the reference object or to another identifier (through the `aliasOf` property), recursively. All aliases are resolved (there are tests for that) and when you query the API for a reference you always get all the objects necessary to resolve it in the same response. So for example, https://api.specref.org/bibrefs?refs=rfc7230 responds with:
+Because of legacy references, case sensitivity issues and taste, many entries have multiple identifiers. Thus an aliasing system was put in place. It isn't _that_ complicated really: an identifier either points directly to the reference object or to another identifier (through the `aliasOf` property), recursively. All aliases are resolved (there are tests for that) and when you query the API for a reference you always get all the objects necessary to resolve it in the same response. So for example, https://api.specref.org/bibrefs?refs=rfc7230 responds with:
 
 ```json
 {
@@ -229,7 +229,7 @@ If you need to find a reference ID (for either bibliographic or cross-references
 
 ### Commit rights
 
-Specref loosely follows the process described in [The Pull Request Hack](http://felixge.de/2013/03/11/the-pull-request-hack.html). Contributors are generally granted commit access to the repo after their first pull request is sucessfully merged.
+Specref loosely follows the process described in [The Pull Request Hack](http://felixge.de/2013/03/11/the-pull-request-hack.html). Contributors are generally granted commit access to the repo after their first pull request is successfully merged.
 
 It's expected contributors read-up on how to make [manual changes](https://github.com/tobie/specref#manual-changes) and follow the [review policy](https://github.com/tobie/specref#review-policy) described below.
 
@@ -243,7 +243,7 @@ The review policy has three key principles:
 
 We trust contributors to be a good judge of what is trivial, what isn't, and how long to wait before merging a trivial fix. Generally, the more trivial the fix, the shorter the wait.
 
-Similalry, the more a commit message explains the _why_ of a slightly unexpected fix, the less it requires a review.
+Similarly, the more a commit message explains the _why_ of a slightly unexpected fix, the less it requires a review.
 
 For example, for a fix that changes an existing HTTPS url to an HTTP one:
 
@@ -257,20 +257,20 @@ Updating URL.
 ```
 There now exists a Persistent URI Registry of EU Institutions and Bodies[1]
 which is to be used when referencing such documents.
-Unfortuntaly it doesn't use HTTPS yet.
+Unfortunately it doesn't use HTTPS yet.
 
 [1]: http://data.europa.eu/
 ```
 
 ### Hourly auto-updating
 
-There are scripts that pull fresh data from IETF, W3C, and WHATWG, and update their relevant files in the `refs` directory. These are now run hourly. Their output is tested, comitted and deployed without human intervention. Content should now always be up to date.
+There are scripts that pull fresh data from IETF, W3C, and WHATWG, and update their relevant files in the `refs` directory. These are now run hourly. Their output is tested, committed and deployed without human intervention. Content should now always be up to date.
 
 ### Manual changes
 
 Generally, manual changes should be limited to the `refs/biblio.json` file.
 
-If you have commit rights, please don't commit to main directly. Commit to a seperate branch (preferably to your fork) and send a pull request.
+If you have commit rights, please don't commit to main directly. Commit to a separate branch (preferably to your fork) and send a pull request.
 
 All changes are automatically tested using [travis](https://travis-ci.org/tobie/specref/) and automatically deployed within minutes if all tests pass. You can check that your changes have been properly deployed on [www.specref.org](http://www.specref.org/), @-mention @tobie in a pull request comment if they haven't.
 

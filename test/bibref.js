@@ -57,7 +57,7 @@ suite('Test bibref api', function() {
     });
 
     test('bibref.cleanupRefs modifies the refs correctly', function() {
-        var cleanedup = bibref.cleanupRefs({
+        var cleaned = bibref.cleanupRefs({
             foo: {
                 versions: {},
                 rawDate: "2012-1-1",
@@ -65,7 +65,7 @@ suite('Test bibref api', function() {
                 bar: 123
             }
         });
-        var foo = cleanedup.foo;
+        var foo = cleaned.foo;
         assert.ok(typeof foo.versions == "object", "The versions property is an array of identifiers.");
         assert.ok(!('rawDate' in foo));
         assert.ok('date' in foo);
