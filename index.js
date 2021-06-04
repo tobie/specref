@@ -1,4 +1,3 @@
-
 var t0 = Date.now();
 
 var bibref = require('./lib/bibref');
