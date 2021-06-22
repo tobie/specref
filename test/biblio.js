@@ -38,7 +38,7 @@ function testAliasOfPointsToRealObj(obj, key) {
     }
 }
 
-function testObsoletedByPointsToUptoDateReferences(obj, key) {
+function testObsoletedByPointsToUpToDateReferences(obj, key) {
     if ('obsoletedBy' in obj) {
         var current = obj.obsoletedBy;
         current.forEach(function(id) {
@@ -81,12 +81,12 @@ suite('Verify aliases and obsoletedBy resolve', function() {
         testForDuplicates(obj, key, dups);
         if (typeof obj == 'object') {
             testAliasOfPointsToRealObj(obj, key);
-            testObsoletedByPointsToUptoDateReferences(obj, key);
+            testObsoletedByPointsToUpToDateReferences(obj, key);
             if ('versions' in obj) {
                 var versions = obj.versions;
                 Object.keys(versions).forEach(function(k) {
                     testAliasOfPointsToRealObj(versions[k], k);
-                    testObsoletedByPointsToUptoDateReferences(versions[k], k);
+                    testObsoletedByPointsToUpToDateReferences(versions[k], k);
                 });
             }
         } else {
