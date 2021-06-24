@@ -1903,21 +1903,6 @@
         "status": "W3C Incubator Group Report",
         "publisher": "W3C"
     },
-    "MapML": {
-        "authors": [
-            "Peter Rushforth",
-            "Robert Linder",
-            "Joan Masó"
-        ],
-        "href": "https://maps4html.org/MapML/spec/",
-        "title": "Map Markup Language (MapML) specification",
-        "publisher": "W3C Maps for HTML Community Group",
-        "deliveredBy": [
-            "https://maps4html.org/"
-        ],
-        "status": "Draft Community Group Report",
-        "repository": "https://github.com/Maps4HTML/MapML/"
-    },
     "MDNS": {
         "aliasOf": "RFC6762"
     },
@@ -2060,6 +2045,21 @@
     },
     "MSE": {
         "aliasOf": "media-source"
+    },
+    "MapML": {
+        "authors": [
+            "Peter Rushforth",
+            "Robert Linder",
+            "Joan Masó"
+        ],
+        "href": "https://maps4html.org/MapML/spec/",
+        "title": "Map Markup Language (MapML) specification",
+        "publisher": "W3C Maps for HTML Community Group",
+        "deliveredBy": [
+            "https://maps4html.org/"
+        ],
+        "status": "Draft Community Group Report",
+        "repository": "https://github.com/Maps4HTML/MapML/"
     },
     "Matroska": {
         "href": "https://matroska.org/technical/specs/index.html",
@@ -2691,6 +2691,23 @@
     },
     "TYPED-ARRAYS": {
         "aliasOf": "typedarray"
+    },
+    "UCR-Web-Maps": {
+        "authors": [
+            "Amelia Bellamy-Royds",
+            "Nic Chan",
+            "Nick Fitzsimons",
+            "Peter Rushforth",
+            "Robert Linder"
+        ],
+        "href": "https://maps4html.org/HTML-Map-Element-UseCases-Requirements/",
+        "title": "Use Cases and Requirements for Standardizing Web Maps",
+        "publisher": "W3C Maps for HTML Community Group",
+        "deliveredBy": [
+            "https://maps4html.org/"
+        ],
+        "status": "Draft Community Group Report",
+        "repository": "https://github.com/Maps4HTML/HTML-Map-Element-UseCases-Requirements/"
     },
     "UFO": {
         "authors": [
@@ -4715,23 +4732,6 @@
         "rawDate": "2013-06-26",
         "status": "Khronos Working Draft",
         "publisher": "Khronos"
-    },
-    "UCR-Web-Maps": {
-        "authors": [
-            "Amelia Bellamy-Royds",
-            "Nic Chan",
-            "Nick Fitzsimons",
-            "Peter Rushforth",
-            "Robert Linder"
-        ],
-        "href": "https://maps4html.org/HTML-Map-Element-UseCases-Requirements/",
-        "title": "Use Cases and Requirements for Standardizing Web Maps",
-        "publisher": "W3C Maps for HTML Community Group",
-        "deliveredBy": [
-            "https://maps4html.org/"
-        ],
-        "status": "Draft Community Group Report",
-        "repository": "https://github.com/Maps4HTML/HTML-Map-Element-UseCases-Requirements/"
     },
     "uml": {
         "authors": [
