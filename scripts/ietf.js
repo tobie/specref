@@ -82,7 +82,7 @@ function href(index) {
     if (HTTP_SPECS.indexOf(index) > -1) {
         return "https://httpwg.org/specs/" + index + ".html";
     }
-    return "https://datatracker.ietf.org/doc/html/" + unpad(index);
+    return "https://www.rfc-editor.org/rfc/" + unpad(index);
 }
 
 function unpad(index) {
