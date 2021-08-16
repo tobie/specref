@@ -1124,6 +1124,9 @@
             "2020": {
                 "aliasOf": "ECMASCRIPT-11.0"
             },
+            "2021": {
+                "aliasOf": "ECMASCRIPT-12.0"
+            },
             "5.1": {
                 "title": "ECMA-262 Edition 5.1, The ECMAScript Language Specification",
                 "rawDate": "2011-06",
@@ -1185,6 +1188,16 @@
                 "title": "ECMA-262 11th Edition, The ECMAScript 2020 Language Specification",
                 "rawDate": "2020-06",
                 "href": "http://www.ecma-international.org/ecma-262/11.0/index.html",
+                "status": "Standard",
+                "publisher": "Ecma International",
+                "authors": [
+                    "Jordan Harband"
+                ]
+            },
+            "12.0": {
+                "title": "ECMA-262 12th Edition, The ECMAScript 2021 Language Specification",
+                "rawDate": "2021-06",
+                "href": "https://262.ecma-international.org/12.0/",
                 "status": "Standard",
                 "publisher": "Ecma International",
                 "authors": [
