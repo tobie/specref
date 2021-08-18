@@ -4329,13 +4329,42 @@
     },
     "json-schema": {
         "authors": [
-            "K. Zyp"
+            "Austin Wright",
+            "Henry Andrews",
+            "Ben Hutton",
+            "Greg Dennis"
         ],
-        "href": "https://datatracker.ietf.org/doc/html/draft-zyp-json-schema",
+        "href": "https://datatracker.ietf.org/doc/html/draft-bhutton-json-schema",
         "publisher": "Internet Engineering Task Force (IETF)",
         "status": "Internet-Draft",
-        "rawDate": "2013-01-31",
-        "title": "JSON Schema: core definitions and terminology"
+        "rawDate": "2020-12-08",
+        "title": "JSON Schema: A Media Type for Describing JSON Documents",
+        "repository": "https://github.com/json-schema-org/json-schema-spec",
+        "versions": {
+            "2020-12": {
+                "authors": [
+                    "Austin Wright",
+                    "Henry Andrews",
+                    "Ben Hutton",
+                    "Greg Dennis"
+                ],
+                "href": "https://datatracker.ietf.org/doc/html/draft-bhutton-json-schema-00",
+                "status": "Internet-Draft",
+                "rawDate": "2020-12-08",
+                "title": "JSON Schema: A Media Type for Describing JSON Documents. Draft 2020-12"
+            },
+            "04": {
+                "authors": [
+                    "Kris Zyp",
+                    "Francis Galiegue",
+                    "Gary Court"
+                ],
+                "href": "https://datatracker.ietf.org/doc/html/draft-zyp-json-schema-04",
+                "status": "Internet-Draft",
+                "rawDate": "2013-01-31",
+                "title": "JSON Schema: core definitions and terminology. Draft 4"
+            }
+        }
     },
     "locn": {
         "authors": [
