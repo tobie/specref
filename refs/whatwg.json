@@ -221,6 +221,17 @@
         "source": "https://resources.whatwg.org/biblio.json",
         "repository": "https://github.com/whatwg/streams"
     },
+    "TESTUTILS": {
+        "authors": [
+            "James Graham"
+        ],
+        "href": "https://testutils.spec.whatwg.org/",
+        "title": "Test Utils Standard",
+        "status": "Living Standard",
+        "publisher": "WHATWG",
+        "source": "https://resources.whatwg.org/biblio.json",
+        "repository": "https://github.com/whatwg/testutils"
+    },
     "URL": {
         "authors": [
             "Anne van Kesteren"
@@ -291,6 +302,9 @@
     },
     "WHATWG-STREAMS": {
         "aliasOf": "STREAMS"
+    },
+    "WHATWG-TESTUTILS": {
+        "aliasOf": "TESTUTILS"
     },
     "WHATWG-URL": {
         "aliasOf": "URL"
