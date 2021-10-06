@@ -17,7 +17,8 @@
         "title": "Compatibility Standard",
         "status": "Living Standard",
         "publisher": "WHATWG",
-        "source": "https://resources.whatwg.org/biblio.json"
+        "source": "https://resources.whatwg.org/biblio.json",
+        "repository": "https://github.com/whatwg/compat"
     },
     "CONSOLE": {
         "authors": [
@@ -29,7 +30,8 @@
         "title": "Console Standard",
         "status": "Living Standard",
         "publisher": "WHATWG",
-        "source": "https://resources.whatwg.org/biblio.json"
+        "source": "https://resources.whatwg.org/biblio.json",
+        "repository": "https://github.com/whatwg/console"
     },
     "DIFFERENCES": {
         "authors": [
@@ -49,7 +51,8 @@
         "title": "DOM Standard",
         "status": "Living Standard",
         "publisher": "WHATWG",
-        "source": "https://resources.whatwg.org/biblio.json"
+        "source": "https://resources.whatwg.org/biblio.json",
+        "repository": "https://github.com/whatwg/dom"
     },
     "DOMPARSING": {
         "authors": [
@@ -62,7 +65,8 @@
         ],
         "status": "Living Standard",
         "publisher": "WHATWG",
-        "source": "https://resources.whatwg.org/biblio.json"
+        "source": "https://resources.whatwg.org/biblio.json",
+        "repository": "https://github.com/whatwg/domparsing"
     },
     "ENCODING": {
         "authors": [
@@ -72,7 +76,8 @@
         "title": "Encoding Standard",
         "status": "Living Standard",
         "publisher": "WHATWG",
-        "source": "https://resources.whatwg.org/biblio.json"
+        "source": "https://resources.whatwg.org/biblio.json",
+        "repository": "https://github.com/whatwg/encoding"
     },
     "FETCH": {
         "authors": [
@@ -82,7 +87,8 @@
         "title": "Fetch Standard",
         "status": "Living Standard",
         "publisher": "WHATWG",
-        "source": "https://resources.whatwg.org/biblio.json"
+        "source": "https://resources.whatwg.org/biblio.json",
+        "repository": "https://github.com/whatwg/fetch"
     },
     "FIGURES": {
         "authors": [
@@ -102,7 +108,8 @@
         "title": "Fullscreen API Standard",
         "status": "Living Standard",
         "publisher": "WHATWG",
-        "source": "https://resources.whatwg.org/biblio.json"
+        "source": "https://resources.whatwg.org/biblio.json",
+        "repository": "https://github.com/whatwg/fullscreen"
     },
     "HTML": {
         "authors": [
@@ -116,7 +123,8 @@
         "title": "HTML Standard",
         "status": "Living Standard",
         "publisher": "WHATWG",
-        "source": "https://resources.whatwg.org/biblio.json"
+        "source": "https://resources.whatwg.org/biblio.json",
+        "repository": "https://github.com/whatwg/html"
     },
     "INFRA": {
         "authors": [
@@ -127,7 +135,8 @@
         "title": "Infra Standard",
         "status": "Living Standard",
         "publisher": "WHATWG",
-        "source": "https://resources.whatwg.org/biblio.json"
+        "source": "https://resources.whatwg.org/biblio.json",
+        "repository": "https://github.com/whatwg/infra"
     },
     "JAVASCRIPT": {
         "authors": [
@@ -140,14 +149,16 @@
         ],
         "status": "Living Standard",
         "publisher": "WHATWG",
-        "source": "https://resources.whatwg.org/biblio.json"
+        "source": "https://resources.whatwg.org/biblio.json",
+        "repository": "https://github.com/whatwg/javascript"
     },
     "LOADER": {
         "href": "https://whatwg.github.io/loader/",
         "title": "Loader",
         "status": "Living Standard",
         "publisher": "WHATWG",
-        "source": "https://resources.whatwg.org/biblio.json"
+        "source": "https://resources.whatwg.org/biblio.json",
+        "repository": "https://github.com/whatwg/loader"
     },
     "MIMESNIFF": {
         "authors": [
@@ -157,7 +168,8 @@
         "title": "MIME Sniffing Standard",
         "status": "Living Standard",
         "publisher": "WHATWG",
-        "source": "https://resources.whatwg.org/biblio.json"
+        "source": "https://resources.whatwg.org/biblio.json",
+        "repository": "https://github.com/whatwg/mimesniff"
     },
     "NOTIFICATIONS": {
         "authors": [
@@ -167,7 +179,8 @@
         "title": "Notifications API Standard",
         "status": "Living Standard",
         "publisher": "WHATWG",
-        "source": "https://resources.whatwg.org/biblio.json"
+        "source": "https://resources.whatwg.org/biblio.json",
+        "repository": "https://github.com/whatwg/notifications"
     },
     "QUIRKS": {
         "authors": [
@@ -177,7 +190,8 @@
         "title": "Quirks Mode Standard",
         "status": "Living Standard",
         "publisher": "WHATWG",
-        "source": "https://resources.whatwg.org/biblio.json"
+        "source": "https://resources.whatwg.org/biblio.json",
+        "repository": "https://github.com/whatwg/quirks"
     },
     "SNIFF": {
         "aliasOf": "WHATWG-MIMESNIFF"
@@ -190,7 +204,8 @@
         "title": "Storage Standard",
         "status": "Living Standard",
         "publisher": "WHATWG",
-        "source": "https://resources.whatwg.org/biblio.json"
+        "source": "https://resources.whatwg.org/biblio.json",
+        "repository": "https://github.com/whatwg/storage"
     },
     "STREAMS": {
         "authors": [
@@ -203,7 +218,8 @@
         "title": "Streams Standard",
         "status": "Living Standard",
         "publisher": "WHATWG",
-        "source": "https://resources.whatwg.org/biblio.json"
+        "source": "https://resources.whatwg.org/biblio.json",
+        "repository": "https://github.com/whatwg/streams"
     },
     "TESTUTILS": {
         "authors": [
@@ -213,7 +229,8 @@
         "title": "Test Utils Standard",
         "status": "Living Standard",
         "publisher": "WHATWG",
-        "source": "https://resources.whatwg.org/biblio.json"
+        "source": "https://resources.whatwg.org/biblio.json",
+        "repository": "https://github.com/whatwg/testutils"
     },
     "URL": {
         "authors": [
@@ -223,7 +240,8 @@
         "title": "URL Standard",
         "status": "Living Standard",
         "publisher": "WHATWG",
-        "source": "https://resources.whatwg.org/biblio.json"
+        "source": "https://resources.whatwg.org/biblio.json",
+        "repository": "https://github.com/whatwg/url"
     },
     "WEBIDL": {
         "authors": [
@@ -381,7 +399,8 @@
                 ],
                 "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
             }
-        }
+        },
+        "repository": "https://github.com/whatwg/webidl"
     },
     "WHATWG-BOOKS": {
         "aliasOf": "BOOKS"
@@ -463,7 +482,8 @@
         "title": "XMLHttpRequest Standard",
         "status": "Living Standard",
         "publisher": "WHATWG",
-        "source": "https://resources.whatwg.org/biblio.json"
+        "source": "https://resources.whatwg.org/biblio.json",
+        "repository": "https://github.com/whatwg/xhr"
     },
     "meta-theme-color": {
         "href": "https://github.com/whatwg/meta-theme-color",
