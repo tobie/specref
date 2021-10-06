@@ -1,11 +1,6 @@
 [
   {
     "id": "WEBIDL",
-    "action": "createAlias",
-    "aliasOf": "WHATWG-WEBIDL"
-  },
-  {
-    "id": "WHATWG-WEBIDL",
     "action": "replaceProp",
     "prop": "versions",
     "value": {
