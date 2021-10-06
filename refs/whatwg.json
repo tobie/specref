@@ -17,7 +17,8 @@
         "title": "Compatibility Standard",
         "status": "Living Standard",
         "publisher": "WHATWG",
-        "source": "https://resources.whatwg.org/biblio.json"
+        "source": "https://resources.whatwg.org/biblio.json",
+        "repository": "https://github.com/whatwg/compat"
     },
     "CONSOLE": {
         "authors": [
@@ -29,7 +30,8 @@
         "title": "Console Standard",
         "status": "Living Standard",
         "publisher": "WHATWG",
-        "source": "https://resources.whatwg.org/biblio.json"
+        "source": "https://resources.whatwg.org/biblio.json",
+        "repository": "https://github.com/whatwg/console"
     },
     "DIFFERENCES": {
         "authors": [
@@ -49,7 +51,8 @@
         "title": "DOM Standard",
         "status": "Living Standard",
         "publisher": "WHATWG",
-        "source": "https://resources.whatwg.org/biblio.json"
+        "source": "https://resources.whatwg.org/biblio.json",
+        "repository": "https://github.com/whatwg/dom"
     },
     "DOMPARSING": {
         "authors": [
@@ -62,7 +65,8 @@
         ],
         "status": "Living Standard",
         "publisher": "WHATWG",
-        "source": "https://resources.whatwg.org/biblio.json"
+        "source": "https://resources.whatwg.org/biblio.json",
+        "repository": "https://github.com/whatwg/domparsing"
     },
     "ENCODING": {
         "authors": [
@@ -72,7 +76,8 @@
         "title": "Encoding Standard",
         "status": "Living Standard",
         "publisher": "WHATWG",
-        "source": "https://resources.whatwg.org/biblio.json"
+        "source": "https://resources.whatwg.org/biblio.json",
+        "repository": "https://github.com/whatwg/encoding"
     },
     "FETCH": {
         "authors": [
@@ -82,7 +87,8 @@
         "title": "Fetch Standard",
         "status": "Living Standard",
         "publisher": "WHATWG",
-        "source": "https://resources.whatwg.org/biblio.json"
+        "source": "https://resources.whatwg.org/biblio.json",
+        "repository": "https://github.com/whatwg/fetch"
     },
     "FIGURES": {
         "authors": [
@@ -102,7 +108,8 @@
         "title": "Fullscreen API Standard",
         "status": "Living Standard",
         "publisher": "WHATWG",
-        "source": "https://resources.whatwg.org/biblio.json"
+        "source": "https://resources.whatwg.org/biblio.json",
+        "repository": "https://github.com/whatwg/fullscreen"
     },
     "HTML": {
         "authors": [
@@ -116,7 +123,8 @@
         "title": "HTML Standard",
         "status": "Living Standard",
         "publisher": "WHATWG",
-        "source": "https://resources.whatwg.org/biblio.json"
+        "source": "https://resources.whatwg.org/biblio.json",
+        "repository": "https://github.com/whatwg/html"
     },
     "INFRA": {
         "authors": [
@@ -127,7 +135,8 @@
         "title": "Infra Standard",
         "status": "Living Standard",
         "publisher": "WHATWG",
-        "source": "https://resources.whatwg.org/biblio.json"
+        "source": "https://resources.whatwg.org/biblio.json",
+        "repository": "https://github.com/whatwg/infra"
     },
     "JAVASCRIPT": {
         "authors": [
@@ -140,14 +149,16 @@
         ],
         "status": "Living Standard",
         "publisher": "WHATWG",
-        "source": "https://resources.whatwg.org/biblio.json"
+        "source": "https://resources.whatwg.org/biblio.json",
+        "repository": "https://github.com/whatwg/javascript"
     },
     "LOADER": {
         "href": "https://whatwg.github.io/loader/",
         "title": "Loader",
         "status": "Living Standard",
         "publisher": "WHATWG",
-        "source": "https://resources.whatwg.org/biblio.json"
+        "source": "https://resources.whatwg.org/biblio.json",
+        "repository": "https://github.com/whatwg/loader"
     },
     "MIMESNIFF": {
         "authors": [
@@ -157,7 +168,8 @@
         "title": "MIME Sniffing Standard",
         "status": "Living Standard",
         "publisher": "WHATWG",
-        "source": "https://resources.whatwg.org/biblio.json"
+        "source": "https://resources.whatwg.org/biblio.json",
+        "repository": "https://github.com/whatwg/mimesniff"
     },
     "NOTIFICATIONS": {
         "authors": [
@@ -167,7 +179,8 @@
         "title": "Notifications API Standard",
         "status": "Living Standard",
         "publisher": "WHATWG",
-        "source": "https://resources.whatwg.org/biblio.json"
+        "source": "https://resources.whatwg.org/biblio.json",
+        "repository": "https://github.com/whatwg/notifications"
     },
     "QUIRKS": {
         "authors": [
@@ -177,7 +190,8 @@
         "title": "Quirks Mode Standard",
         "status": "Living Standard",
         "publisher": "WHATWG",
-        "source": "https://resources.whatwg.org/biblio.json"
+        "source": "https://resources.whatwg.org/biblio.json",
+        "repository": "https://github.com/whatwg/quirks"
     },
     "SNIFF": {
         "aliasOf": "WHATWG-MIMESNIFF"
@@ -190,7 +204,8 @@
         "title": "Storage Standard",
         "status": "Living Standard",
         "publisher": "WHATWG",
-        "source": "https://resources.whatwg.org/biblio.json"
+        "source": "https://resources.whatwg.org/biblio.json",
+        "repository": "https://github.com/whatwg/storage"
     },
     "STREAMS": {
         "authors": [
@@ -203,7 +218,8 @@
         "title": "Streams Standard",
         "status": "Living Standard",
         "publisher": "WHATWG",
-        "source": "https://resources.whatwg.org/biblio.json"
+        "source": "https://resources.whatwg.org/biblio.json",
+        "repository": "https://github.com/whatwg/streams"
     },
     "TESTUTILS": {
         "authors": [
@@ -213,7 +229,8 @@
         "title": "Test Utils Standard",
         "status": "Living Standard",
         "publisher": "WHATWG",
-        "source": "https://resources.whatwg.org/biblio.json"
+        "source": "https://resources.whatwg.org/biblio.json",
+        "repository": "https://github.com/whatwg/testutils"
     },
     "URL": {
         "authors": [
@@ -223,10 +240,8 @@
         "title": "URL Standard",
         "status": "Living Standard",
         "publisher": "WHATWG",
-        "source": "https://resources.whatwg.org/biblio.json"
-    },
-    "WEBIDL": {
-        "aliasOf": "WHATWG-WEBIDL"
+        "source": "https://resources.whatwg.org/biblio.json",
+        "repository": "https://github.com/whatwg/url"
     },
     "WHATWG-BOOKS": {
         "aliasOf": "BOOKS"
@@ -295,154 +310,16 @@
         "aliasOf": "URL"
     },
     "WHATWG-WEBIDL": {
-        "aliasOf": "WEBIDL",
-        "versions": {
-            "20071017": {
-                "authors": [
-                    "Cameron McCormack"
-                ],
-                "status": "WD",
-                "rawDate": "2007-10-17",
-                "href": "https://www.w3.org/TR/2007/WD-DOM-Bindings-20071017/",
-                "source": "./data/w3c-specs.txt"
-            },
-            "20080410": {
-                "authors": [
-                    "Cameron McCormack"
-                ],
-                "status": "WD",
-                "rawDate": "2008-04-10",
-                "href": "https://www.w3.org/TR/2008/WD-DOM-Bindings-20080410/",
-                "source": "./data/w3c-specs.txt"
-            },
-            "20080829": {
-                "authors": [
-                    "Cameron McCormack"
-                ],
-                "status": "WD",
-                "rawDate": "2008-08-29",
-                "href": "https://www.w3.org/TR/2008/WD-WebIDL-20080829/",
-                "source": "./data/w3c-specs.txt"
-            },
-            "20081219": {
-                "authors": [
-                    "Cameron McCormack"
-                ],
-                "status": "WD",
-                "rawDate": "2008-12-19",
-                "href": "https://www.w3.org/TR/2008/WD-WebIDL-20081219/",
-                "source": "./data/w3c-specs.txt"
-            },
-            "20101021": {
-                "authors": [
-                    "Cameron McCormack"
-                ],
-                "status": "WD",
-                "rawDate": "2010-10-21",
-                "href": "https://www.w3.org/TR/2010/WD-WebIDL-20101021/",
-                "source": "./data/w3c-specs.txt"
-            },
-            "20110712": {
-                "authors": [
-                    "Cameron McCormack"
-                ],
-                "status": "WD",
-                "rawDate": "2011-07-12",
-                "href": "https://www.w3.org/TR/2011/WD-WebIDL-20110712/",
-                "source": "./data/w3c-specs.txt"
-            },
-            "20110927": {
-                "authors": [
-                    "Cameron McCormack"
-                ],
-                "status": "WD",
-                "rawDate": "2011-09-27",
-                "href": "https://www.w3.org/TR/2011/WD-WebIDL-20110927/",
-                "source": "./data/w3c-specs.txt"
-            },
-            "20120207": {
-                "authors": [
-                    "Cameron McCormack"
-                ],
-                "status": "WD",
-                "rawDate": "2012-02-07",
-                "href": "https://www.w3.org/TR/2012/WD-WebIDL-20120207/",
-                "source": "./data/w3c-specs.txt"
-            },
-            "20120419": {
-                "authors": [
-                    "Cameron McCormack"
-                ],
-                "href": "https://www.w3.org/TR/2012/CR-WebIDL-20120419/",
-                "title": "Web IDL",
-                "rawDate": "2012-04-19",
-                "status": "CR",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/2008/webapps/"
-                ],
-                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
-            },
-            "20150804": {
-                "authors": [
-                    "Cameron McCormack",
-                    "Boris Zbarsky"
-                ],
-                "href": "https://www.w3.org/TR/2015/WD-WebIDL-1-20150804/",
-                "title": "WebIDL Level 1",
-                "rawDate": "2015-08-04",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/2008/webapps/"
-                ],
-                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
-            },
-            "20160308": {
-                "authors": [
-                    "Cameron McCormack",
-                    "Boris Zbarsky"
-                ],
-                "href": "https://www.w3.org/TR/2016/CR-WebIDL-1-20160308/",
-                "title": "WebIDL Level 1",
-                "rawDate": "2016-03-08",
-                "status": "CR",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/WebPlatform/WG/"
-                ],
-                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
-            },
-            "20160915": {
-                "authors": [
-                    "Cameron McCormack",
-                    "Boris Zbarsky"
-                ],
-                "href": "https://www.w3.org/TR/2016/PR-WebIDL-1-20160915/",
-                "title": "WebIDL Level 1",
-                "rawDate": "2016-09-15",
-                "status": "PR",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/WebPlatform/WG/"
-                ],
-                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
-            },
-            "20161215": {
-                "authors": [
-                    "Cameron McCormack"
-                ],
-                "href": "https://www.w3.org/TR/2016/REC-WebIDL-1-20161215/",
-                "title": "WebIDL Level 1",
-                "rawDate": "2016-12-15",
-                "status": "REC",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/WebPlatform/WG/"
-                ],
-                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
-            }
-        }
+        "authors": [
+            "Edgar Chen",
+            "Timothy Gu"
+        ],
+        "href": "https://webidl.spec.whatwg.org/",
+        "title": "Web IDL Standard",
+        "status": "Living Standard",
+        "publisher": "WHATWG",
+        "source": "https://resources.whatwg.org/biblio.json",
+        "repository": "https://github.com/whatwg/webidl"
     },
     "WHATWG-XHR": {
         "aliasOf": "XHR"
@@ -455,7 +332,8 @@
         "title": "XMLHttpRequest Standard",
         "status": "Living Standard",
         "publisher": "WHATWG",
-        "source": "https://resources.whatwg.org/biblio.json"
+        "source": "https://resources.whatwg.org/biblio.json",
+        "repository": "https://github.com/whatwg/xhr"
     },
     "meta-theme-color": {
         "href": "https://github.com/whatwg/meta-theme-color",
