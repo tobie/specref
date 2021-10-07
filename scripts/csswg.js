@@ -79,6 +79,7 @@ request({
     current = helper.sortRefs(current);
     console.log("updating existing refs.")
     helper.writeBiblio(FILENAME, current);
+    helper.tryOverwrite(FILENAME);
 });
 
 var MONTHS = [
