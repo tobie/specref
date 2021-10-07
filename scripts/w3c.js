@@ -242,17 +242,17 @@ request({
                     }
                 }
             } catch(e) {
-                if (aliasShortname in bibref.get(aliasShortname)) {
-                  return;
-                }
                 var root = current[leveled.getRootShortname(aliasShortname)];
                 if (!root || !root.versions || !root.versions[getKey(aliasShortname)]) {
+                    if (aliasShortname in bibref.get(aliasShortname)) {
+                        return;
+                    }
                     throw new Error("Missing data for spec " + aliasShortname);
                 }
             }
             current[k] = { aliasOf: leveled.isLevel(aliasShortname) ? leveled.getRootShortname(aliasShortname) : aliasShortname };
         });
-        
+
         Object.keys(levels).forEach(function(k) {
             current[k] =  { aliasOf: levels[k] };
         });
