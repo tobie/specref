@@ -242,6 +242,9 @@ request({
                     }
                 }
             } catch(e) {
+                if (aliasShortname in bibref.get(aliasShortname)) {
+                  return;
+                }
                 var root = current[leveled.getRootShortname(aliasShortname)];
                 if (!root || !root.versions || !root.versions[getKey(aliasShortname)]) {
                     throw new Error("Missing data for spec " + aliasShortname);
