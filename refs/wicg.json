@@ -231,6 +231,14 @@
         "source": "https://wicg.github.io/admin/biblio.json",
         "repository": "https://github.com/wicg/ResizeObserver"
     },
+    "SCHEDULING-APIS": {
+        "href": "https://wicg.github.io/scheduling-apis/",
+        "title": "Prioritized Task Scheduling",
+        "status": "cg-draft",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/scheduling-apis"
+    },
     "SCROLL-ANIMATIONS": {
         "href": "https://wicg.github.io/scroll-animations/",
         "title": "Scroll-linked Animations",
@@ -441,6 +449,9 @@
     },
     "WICG-RESIZE-OBSERVER": {
         "aliasOf": "RESIZE-OBSERVER"
+    },
+    "WICG-SCHEDULING-APIS": {
+        "aliasOf": "SCHEDULING-APIS"
     },
     "WICG-SCROLL-ANIMATIONS": {
         "aliasOf": "SCROLL-ANIMATIONS"
