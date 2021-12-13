@@ -413,6 +413,121 @@
         },
         "repository": "https://github.com/whatwg/webidl"
     },
+    "WEBSOCKETS": {
+        "authors": [
+            "Adam Rice"
+        ],
+        "href": "https://websockets.spec.whatwg.org/",
+        "title": "WebSockets Standard",
+        "status": "Living Standard",
+        "publisher": "WHATWG",
+        "source": "https://resources.whatwg.org/biblio.json",
+        "versions": {
+            "20090423": {
+                "authors": [
+                    "Ian Hickson"
+                ],
+                "status": "WD",
+                "rawDate": "2009-04-23",
+                "href": "https://www.w3.org/TR/2009/WD-websockets-20090423/",
+                "source": "./data/w3c-specs.txt"
+            },
+            "20091029": {
+                "authors": [
+                    "Ian Hickson"
+                ],
+                "status": "WD",
+                "rawDate": "2009-10-29",
+                "href": "https://www.w3.org/TR/2009/WD-websockets-20091029/",
+                "source": "./data/w3c-specs.txt"
+            },
+            "20091222": {
+                "authors": [
+                    "Ian Hickson"
+                ],
+                "status": "WD",
+                "rawDate": "2009-12-22",
+                "href": "https://www.w3.org/TR/2009/WD-websockets-20091222/",
+                "source": "./data/w3c-specs.txt"
+            },
+            "20110419": {
+                "authors": [
+                    "Ian Hickson"
+                ],
+                "status": "WD",
+                "rawDate": "2011-04-19",
+                "href": "https://www.w3.org/TR/2011/WD-websockets-20110419/",
+                "source": "./data/w3c-specs.txt"
+            },
+            "20110929": {
+                "authors": [
+                    "Ian Hickson"
+                ],
+                "href": "https://www.w3.org/TR/2011/WD-websockets-20110929/",
+                "title": "The WebSocket API",
+                "rawDate": "2011-09-29",
+                "status": "WD",
+                "publisher": "W3C"
+            },
+            "20111208": {
+                "authors": [
+                    "Ian Hickson"
+                ],
+                "status": "CR",
+                "rawDate": "2011-12-08",
+                "href": "https://www.w3.org/TR/2011/CR-websockets-20111208/",
+                "source": "./data/w3c-specs.txt"
+            },
+            "20120524": {
+                "authors": [
+                    "Ian Hickson"
+                ],
+                "status": "WD",
+                "rawDate": "2012-05-24",
+                "href": "https://www.w3.org/TR/2012/WD-websockets-20120524/",
+                "source": "./data/w3c-specs.txt"
+            },
+            "20120809": {
+                "authors": [
+                    "Ian Hickson"
+                ],
+                "status": "WD",
+                "rawDate": "2012-08-09",
+                "href": "https://www.w3.org/TR/2012/WD-websockets-20120809/",
+                "source": "./data/w3c-specs.txt"
+            },
+            "20120920": {
+                "authors": [
+                    "Ian Hickson"
+                ],
+                "href": "https://www.w3.org/TR/2012/CR-websockets-20120920/",
+                "title": "The WebSocket API",
+                "rawDate": "2012-09-20",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2008/webapps/"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            },
+            "20210128": {
+                "authors": [
+                    "Ian Hickson"
+                ],
+                "href": "https://www.w3.org/TR/2021/NOTE-websockets-20210128/",
+                "title": "The WebSocket API",
+                "rawDate": "2021-01-28",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "isRetired": true,
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/htmlwg"
+                ],
+                "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf"
+            }
+        },
+        "repository": "https://github.com/whatwg/websockets"
+    },
     "WHATWG-BOOKS": {
         "aliasOf": "BOOKS"
     },
@@ -486,15 +601,7 @@
         "aliasOf": "WEBIDL"
     },
     "WHATWG-WEBSOCKETS": {
-        "authors": [
-            "Adam Rice"
-        ],
-        "href": "https://websockets.spec.whatwg.org/",
-        "title": "WebSockets Standard",
-        "status": "Living Standard",
-        "publisher": "WHATWG",
-        "source": "https://resources.whatwg.org/biblio.json",
-        "repository": "https://github.com/whatwg/websockets"
+        "aliasOf": "WEBSOCKETS"
     },
     "WHATWG-XHR": {
         "aliasOf": "XHR"
