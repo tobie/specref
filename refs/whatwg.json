@@ -100,6 +100,17 @@
         "publisher": "WHATWG",
         "source": "https://resources.whatwg.org/biblio.json"
     },
+    "FS": {
+        "authors": [
+            "Marijn Kruisselbrink"
+        ],
+        "href": "https://fs.spec.whatwg.org/",
+        "title": "File System Standard",
+        "status": "Living Standard",
+        "publisher": "WHATWG",
+        "source": "https://resources.whatwg.org/biblio.json",
+        "repository": "https://github.com/whatwg/fs"
+    },
     "FULLSCREEN": {
         "authors": [
             "Philip Jägenstedt"
@@ -428,6 +439,9 @@
     },
     "WHATWG-FIGURES": {
         "aliasOf": "FIGURES"
+    },
+    "WHATWG-FS": {
+        "aliasOf": "FS"
     },
     "WHATWG-FULLSCREEN": {
         "aliasOf": "FULLSCREEN"
