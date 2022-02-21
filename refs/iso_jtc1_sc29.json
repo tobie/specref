@@ -9040,6 +9040,13 @@
         "rawDate": "2021-07",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
+    "iso23008-2-2020-cdamd2": {
+        "href": "https://www.iso.org/standard/84630.html",
+        "title": "Information technology — High efficiency coding and media delivery in heterogeneous environments — Part 2: High efficiency video coding — Amendment 2: High-range levels",
+        "status": "Under development",
+        "publisher": "ISO/IEC",
+        "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+    },
     "iso23008-2-2020-damd1": {
         "aliasOf": "iso23008-2-2020-fdamd1"
     },
@@ -9050,11 +9057,7 @@
         "aliasOf": "iso23008-2-2020-amd1"
     },
     "iso23008-2-2020-wdamd2": {
-        "href": "https://www.iso.org/standard/84630.html",
-        "title": "Information technology — High efficiency coding and media delivery in heterogeneous environments — Part 2: High efficiency video coding — Amendment 2: High-range levels",
-        "status": "Under development",
-        "publisher": "ISO/IEC",
-        "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+        "aliasOf": "iso23008-2-2020-cdamd2"
     },
     "iso23008-2-awiamd2": {
         "aliasOf": "iso23008-2-cdamd2"
@@ -9294,12 +9297,15 @@
         "publisher": "ISO/IEC",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
-    "iso23008-9-wdamd1": {
+    "iso23008-9-cdamd1": {
         "href": "https://www.iso.org/standard/84403.html",
         "title": "Information technology — High efficiency coding and media delivery in heterogeneous environments — Part 9: 3D Audio conformance testing — Amendment 1: Sample Rate Conversion",
         "status": "Under development",
         "publisher": "ISO/IEC",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+    },
+    "iso23008-9-wdamd1": {
+        "aliasOf": "iso23008-9-cdamd1"
     },
     "iso23009-1": {
         "href": "https://www.iso.org/standard/83314.html",
