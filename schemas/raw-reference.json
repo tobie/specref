@@ -255,7 +255,7 @@
                 "pages": {
                     "description": "Page number(s) where the reference is inside the titled document",
                     "type": "string",
-                    "pattern": "^[0-9\\-,]+$"
+                    "pattern": "^[0-9\\-,:]+$"
                 },
                 "repository": {
                     "description": "URL of the repository",
