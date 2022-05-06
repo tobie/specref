@@ -2034,43 +2034,37 @@
         "aliasOf": "mediaqueries-4"
     },
     "MEDIAQ-20010404": {
-        "aliasOf": "css3-mediaqueries-20010404"
+        "aliasOf": "mediaqueries-3-20010404"
     },
     "MEDIAQ-20010517": {
-        "aliasOf": "css3-mediaqueries-20010517"
+        "aliasOf": "mediaqueries-3-20010517"
     },
     "MEDIAQ-20020123": {
-        "aliasOf": "css3-mediaqueries-20020123"
+        "aliasOf": "mediaqueries-3-20020123"
     },
     "MEDIAQ-20020708": {
-        "aliasOf": "css3-mediaqueries-20020708"
+        "aliasOf": "mediaqueries-3-20020708"
     },
     "MEDIAQ-20070606": {
-        "aliasOf": "css3-mediaqueries-20070606"
+        "aliasOf": "mediaqueries-3-20070606"
     },
     "MEDIAQ-20081015": {
-        "aliasOf": "css3-mediaqueries-20081015"
+        "aliasOf": "mediaqueries-3-20081015"
     },
     "MEDIAQ-20090423": {
-        "aliasOf": "css3-mediaqueries-20090423"
+        "aliasOf": "mediaqueries-3-20090423"
     },
     "MEDIAQ-20090915": {
-        "aliasOf": "css3-mediaqueries-20090915"
+        "aliasOf": "mediaqueries-3-20090915"
     },
     "MEDIAQ-20100727": {
-        "aliasOf": "css3-mediaqueries-20100727"
+        "aliasOf": "mediaqueries-3-20100727"
     },
     "MEDIAQ-20120426": {
-        "aliasOf": "css3-mediaqueries-20120426"
+        "aliasOf": "mediaqueries-3-20120426"
     },
     "MEDIAQ-20120619": {
-        "aliasOf": "css3-mediaqueries-20120619"
-    },
-    "MEDIAQUERIES": {
-        "aliasOf": "mediaqueries-4"
-    },
-    "MEDIAQUERIES-3": {
-        "aliasOf": "css3-mediaqueries"
+        "aliasOf": "mediaqueries-3-20120619"
     },
     "MIDI": {
         "href": "https://www.midi.org/specifications/item/the-midi-1-0-specification",
@@ -3474,6 +3468,39 @@
         "publisher": "W3C",
         "title": "Card Network Identifiers Approved for use with Payment Request API"
     },
+    "css3-mediaqueries-20010404": {
+        "aliasOf": "mediaqueries-3-20010404"
+    },
+    "css3-mediaqueries-20010517": {
+        "aliasOf": "mediaqueries-3-20010517"
+    },
+    "css3-mediaqueries-20020123": {
+        "aliasOf": "mediaqueries-3-20020123"
+    },
+    "css3-mediaqueries-20020708": {
+        "aliasOf": "mediaqueries-3-20020708"
+    },
+    "css3-mediaqueries-20070606": {
+        "aliasOf": "mediaqueries-3-20070606"
+    },
+    "css3-mediaqueries-20081015": {
+        "aliasOf": "mediaqueries-3-20081015"
+    },
+    "css3-mediaqueries-20090423": {
+        "aliasOf": "mediaqueries-3-20090423"
+    },
+    "css3-mediaqueries-20090915": {
+        "aliasOf": "mediaqueries-3-20090915"
+    },
+    "css3-mediaqueries-20100727": {
+        "aliasOf": "mediaqueries-3-20100727"
+    },
+    "css3-mediaqueries-20120426": {
+        "aliasOf": "mediaqueries-3-20120426"
+    },
+    "css3-mediaqueries-20120619": {
+        "aliasOf": "mediaqueries-3-20120619"
+    },
     "csw": {
         "authors": [
             "Douglas Nebert",
@@ -4591,6 +4618,9 @@
         ],
         "href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/setCapture",
         "title": "Element.setCapture()"
+    },
+    "mediaqueries": {
+        "aliasOf": "mediaqueries-4"
     },
     "microformats2-parsing": {
         "authors": [
