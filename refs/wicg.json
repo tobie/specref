@@ -143,6 +143,14 @@
         "source": "https://wicg.github.io/admin/biblio.json",
         "repository": "https://github.com/wicg/layout-instability"
     },
+    "MANIFEST-INCUBATIONS": {
+        "href": "https://wicg.github.io/manifest-incubations/",
+        "title": "Manifest Incubations",
+        "status": "cg-draft",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/manifest-incubations"
+    },
     "NATIVE-FILE-SYSTEM": {
         "href": "https://wicg.github.io/native-file-system/",
         "title": "Native File System",
@@ -372,6 +380,9 @@
     },
     "WICG-LAYOUT-INSTABILITY": {
         "aliasOf": "LAYOUT-INSTABILITY"
+    },
+    "WICG-MANIFEST-INCUBATIONS": {
+        "aliasOf": "MANIFEST-INCUBATIONS"
     },
     "WICG-MEDIA-CAPABILITIES": {
         "aliasOf": "MEDIA-CAPABILITIES"
