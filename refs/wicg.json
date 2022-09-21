@@ -63,6 +63,14 @@
         "source": "https://wicg.github.io/admin/biblio.json",
         "repository": "https://github.com/wicg/css-parser-api"
     },
+    "DOCUMENT-POLICY": {
+        "href": "https://wicg.github.io/document-policy/",
+        "title": "Document Policy",
+        "status": "cg-draft",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/document-policy"
+    },
     "ELEMENT-TIMING": {
         "href": "https://wicg.github.io/element-timing/",
         "title": "Element Timing API",
@@ -330,6 +338,9 @@
     },
     "WICG-CSS-SCROLL-BOUNDARY-BEHAVIOR": {
         "aliasOf": "CSS-SCROLL-BOUNDARY-BEHAVIOR"
+    },
+    "WICG-DOCUMENT-POLICY": {
+        "aliasOf": "DOCUMENT-POLICY"
     },
     "WICG-ELEMENT-TIMING": {
         "aliasOf": "ELEMENT-TIMING"
