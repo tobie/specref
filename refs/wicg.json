@@ -159,6 +159,14 @@
         "source": "https://wicg.github.io/admin/biblio.json",
         "repository": "https://github.com/wicg/manifest-incubations"
     },
+    "MULTICAPTURE": {
+        "href": "https://wicg.github.io/multicapture/",
+        "title": "Multicapture",
+        "status": "cg-draft",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/multicapture"
+    },
     "NATIVE-FILE-SYSTEM": {
         "href": "https://wicg.github.io/native-file-system/",
         "title": "Native File System",
@@ -214,6 +222,14 @@
         "publisher": "WICG",
         "source": "https://wicg.github.io/admin/biblio.json",
         "repository": "https://github.com/wicg/permissions-revoke"
+    },
+    "PREFER-CURRENT-TAB": {
+        "href": "https://wicg.github.io/prefer-current-tab/",
+        "title": "preferCurrentTab",
+        "status": "cg-draft",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/prefer-current-tab"
     },
     "PRIORITY-HINTS": {
         "href": "https://wicg.github.io/priority-hints/",
@@ -407,6 +423,9 @@
     "WICG-MST-CONTENT-HINT": {
         "aliasOf": "mst-content-hint"
     },
+    "WICG-MULTICAPTURE": {
+        "aliasOf": "MULTICAPTURE"
+    },
     "WICG-NATIVE-FILE-SYSTEM": {
         "aliasOf": "NATIVE-FILE-SYSTEM"
     },
@@ -438,6 +457,9 @@
     },
     "WICG-PICTURE-IN-PICTURE": {
         "aliasOf": "PICTURE-IN-PICTURE"
+    },
+    "WICG-PREFER-CURRENT-TAB": {
+        "aliasOf": "PREFER-CURRENT-TAB"
     },
     "WICG-PRIORITY-HINTS": {
         "aliasOf": "PRIORITY-HINTS"
