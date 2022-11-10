@@ -303,6 +303,14 @@
         "source": "https://wicg.github.io/admin/biblio.json",
         "repository": "https://github.com/wicg/visual-viewport"
     },
+    "WEB-APP-LAUNCH": {
+        "href": "https://wicg.github.io/web-app-launch/",
+        "title": "Web App Launch Handler API",
+        "status": "cg-draft",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/web-app-launch"
+    },
     "WEB-BACKGROUND-SYNC": {
         "href": "https://wicg.github.io/background-sync/spec/",
         "title": "Web Background Synchronization",
@@ -493,6 +501,9 @@
     },
     "WICG-VISUAL-VIEWPORT": {
         "aliasOf": "VISUAL-VIEWPORT"
+    },
+    "WICG-WEB-APP-LAUNCH": {
+        "aliasOf": "WEB-APP-LAUNCH"
     },
     "WICG-WEB-BACKGROUND-SYNC": {
         "aliasOf": "WEB-BACKGROUND-SYNC"
