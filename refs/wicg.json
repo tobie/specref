@@ -151,6 +151,14 @@
         "source": "https://wicg.github.io/admin/biblio.json",
         "repository": "https://github.com/wicg/layout-instability"
     },
+    "LOCAL-FONT-ACCESS": {
+        "href": "https://wicg.github.io/local-font-access/",
+        "title": "Local Font Access",
+        "status": "cg-draft",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/local-font-access"
+    },
     "MANIFEST-INCUBATIONS": {
         "href": "https://wicg.github.io/manifest-incubations/",
         "title": "Manifest Incubations",
@@ -415,6 +423,9 @@
     },
     "WICG-LAYOUT-INSTABILITY": {
         "aliasOf": "LAYOUT-INSTABILITY"
+    },
+    "WICG-LOCAL-FONT-ACCESS": {
+        "aliasOf": "LOCAL-FONT-ACCESS"
     },
     "WICG-MANIFEST-INCUBATIONS": {
         "aliasOf": "MANIFEST-INCUBATIONS"
