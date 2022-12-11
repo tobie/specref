@@ -222,6 +222,9 @@
     "BCP47": {
         "aliasOf": "rfc5646"
     },
+    "BERNERS-LEE98": {
+      "aliasOf": "RDF-NOT"
+    },
     "BIDI": {
         "aliasOf": "UAX9"
     },
@@ -2474,6 +2477,14 @@
     },
     "RDB2RDF-UC": {
         "aliasOf": "rdb2rdf-ucr"
+    },
+    "RDF-NOT": {
+      "authors": ["Tim Berners-Lee"],
+      "href": "https://www.w3.org/DesignIssues/RDFnot.html",
+      "title": "What the Semantic Web can represent",
+      "date": "1998-09-17",
+      "status": "W3C-Internal Document",
+      "publisher": "W3C"              
     },
     "RDF-SPARQL-UPDATE": {
         "aliasOf": "sparql11-update"
