@@ -223,7 +223,7 @@
         "aliasOf": "rfc5646"
     },
     "BERNERS-LEE98": {
-      "aliasOf": "RDF-NOT"
+        "aliasOf": "RDF-NOT"
     },
     "BIDI": {
         "aliasOf": "UAX9"
@@ -1031,18 +1031,18 @@
         "date": "November 2010"
     },
     "EBNF-NOTATION": {
-      "authors": [
-          "Tim Bray",
-          "Jean Paoli",
-          "Michael Sperberg-McQueen",
-          "Eve Maler",
-          "François Yergeau"
-      ],
-      "etAl": true,
-      "href": "https://www.w3.org/TR/xml/#sec-notation",
-      "title": "EBNF Notation",
-      "status": "REC",
-      "publisher": "W3C"
+        "authors": [
+            "Tim Bray",
+            "Jean Paoli",
+            "Michael Sperberg-McQueen",
+            "Eve Maler",
+            "François Yergeau"
+        ],
+        "etAl": true,
+        "href": "https://www.w3.org/TR/xml/#sec-notation",
+        "title": "EBNF Notation",
+        "status": "REC",
+        "publisher": "W3C"
     },
     "EBU-TT": {
         "title": "EBU TECH 3350: \"EBU-TT Subtitling format definition\"",
@@ -2493,12 +2493,14 @@
         "aliasOf": "rdb2rdf-ucr"
     },
     "RDF-NOT": {
-      "authors": ["Tim Berners-Lee"],
-      "href": "https://www.w3.org/DesignIssues/RDFnot.html",
-      "title": "What the Semantic Web can represent",
-      "rawDate": "1998-09-17",
-      "status": "W3C-Internal Document",
-      "publisher": "W3C"              
+        "authors": [
+            "Tim Berners-Lee"
+        ],
+        "href": "https://www.w3.org/DesignIssues/RDFnot.html",
+        "title": "What the Semantic Web can represent",
+        "rawDate": "1998-09-17",
+        "status": "W3C-Internal Document",
+        "publisher": "W3C"
     },
     "RDF-SPARQL-UPDATE": {
         "aliasOf": "sparql11-update"
@@ -2522,18 +2524,23 @@
         "aliasOf": "rdf-syntax-grammar"
     },
     "RELAXNG": {
-      "authors": ["James Clark", "Murata Makoto"],
-      "href": "http://www.oasis-open.org/committees/relax-ng/spec-20011203.html",
-      "title": "RELAX NG Specification",
-      "rawDate": "2001-12-03",
-      "publisher": "OASIS"
+        "authors": [
+            "James Clark",
+            "Murata Makoto"
+        ],
+        "href": "http://www.oasis-open.org/committees/relax-ng/spec-20011203.html",
+        "title": "RELAX NG Specification",
+        "rawDate": "2001-12-03",
+        "publisher": "OASIS"
     },
     "RELAXNG-COMPACT": {
-      "authors": ["James Clark"],
-      "href": "http://www.oasis-open.org/committees/relax-ng/compact-20021121.html",
-      "title": "RELAX NG Compact Syntax",
-      "rawDate": "2002-11-21",
-      "publisher": "OASIS"
+        "authors": [
+            "James Clark"
+        ],
+        "href": "http://www.oasis-open.org/committees/relax-ng/compact-20021121.html",
+        "title": "RELAX NG Compact Syntax",
+        "rawDate": "2002-11-21",
+        "publisher": "OASIS"
     },
     "RELAXNG-SCHEMA": {
         "title": "Information technology -- Document Schema Definition Language (DSDL) -- Part 2: Regular-grammar-based validation -- RELAX NG",
@@ -4872,6 +4879,9 @@
         ],
         "rawDate": "2018-11-09"
     },
+    "rdf11-schema": {
+        "aliasOf": "rdf-schema"
+    },
     "re3data-schema": {
         "href": "https://doi.org/10.2312/re3.008",
         "title": "Metadata Schema for the Description of Research Data Repositories: version 3",
@@ -4881,9 +4891,6 @@
         "etAl": true,
         "publisher": "GFZ Potsdam",
         "rawDate": "2015-12-17"
-    },
-    "rdf11-schema": {
-      "aliasOf": "rdf-schema"
     },
     "rel-author": {
         "authors": [
