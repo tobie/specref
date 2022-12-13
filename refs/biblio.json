@@ -222,6 +222,9 @@
     "BCP47": {
         "aliasOf": "rfc5646"
     },
+    "BERNERS-LEE98": {
+      "aliasOf": "RDF-NOT"
+    },
     "BIDI": {
         "aliasOf": "UAX9"
     },
@@ -1026,6 +1029,20 @@
         "status": "Recommendation",
         "href": "https://www.itu.int/rec/dologin_pub.asp?lang=e&id=T-REC-E.164-201011-I!!PDF-E&type=items",
         "date": "November 2010"
+    },
+    "EBNF-NOTATION": {
+      "authors": [
+          "Tim Bray",
+          "Jean Paoli",
+          "Michael Sperberg-McQueen",
+          "Eve Maler",
+          "François Yergeau"
+      ],
+      "etAl": true,
+      "href": "https://www.w3.org/TR/xml/#sec-notation",
+      "title": "EBNF Notation",
+      "status": "REC",
+      "publisher": "W3C"
     },
     "EBU-TT": {
         "title": "EBU TECH 3350: \"EBU-TT Subtitling format definition\"",
@@ -2475,6 +2492,14 @@
     "RDB2RDF-UC": {
         "aliasOf": "rdb2rdf-ucr"
     },
+    "RDF-NOT": {
+      "authors": ["Tim Berners-Lee"],
+      "href": "https://www.w3.org/DesignIssues/RDFnot.html",
+      "title": "What the Semantic Web can represent",
+      "rawDate": "1998-09-17",
+      "status": "W3C-Internal Document",
+      "publisher": "W3C"              
+    },
     "RDF-SPARQL-UPDATE": {
         "aliasOf": "sparql11-update"
     },
@@ -2489,6 +2514,26 @@
     },
     "RDF-SYNTAX": {
         "aliasOf": "rdf-concepts"
+    },
+    "RDF-XML": {
+        "aliasOf": "rdf-syntax-grammar"
+    },
+    "RDF11-XML": {
+        "aliasOf": "rdf-syntax-grammar"
+    },
+    "RELAXNG": {
+      "authors": ["James Clark", "Murata Makoto"],
+      "href": "http://www.oasis-open.org/committees/relax-ng/spec-20011203.html",
+      "title": "RELAX NG Specification",
+      "rawDate": "2001-12-03",
+      "publisher": "OASIS"
+    },
+    "RELAXNG-COMPACT": {
+      "authors": ["James Clark"],
+      "href": "http://www.oasis-open.org/committees/relax-ng/compact-20021121.html",
+      "title": "RELAX NG Compact Syntax",
+      "rawDate": "2002-11-21",
+      "publisher": "OASIS"
     },
     "RELAXNG-SCHEMA": {
         "title": "Information technology -- Document Schema Definition Language (DSDL) -- Part 2: Regular-grammar-based validation -- RELAX NG",
@@ -4836,6 +4881,9 @@
         "etAl": true,
         "publisher": "GFZ Potsdam",
         "rawDate": "2015-12-17"
+    },
+    "rdf11-schema": {
+      "aliasOf": "rdf-schema"
     },
     "rel-author": {
         "authors": [
