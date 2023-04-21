@@ -994,10 +994,7 @@
         "publisher": "Graphviz"
     },
     "DSS": {
-        "href": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-4.pdf",
-        "title": "FIPS PUB 186-4:  Digital Signature Standard (DSS)",
-        "date": "July 2013",
-        "publisher": "U.S. Department of Commerce/National Institute of Standards and Technology"
+        "aliasOf": "FIPS-186-5"
     },
     "DTMF": {
         "date": "1 November 1988",
@@ -1381,9 +1378,34 @@
     "FILE-WRITER": {
         "aliasOf": "file-writer-api"
     },
+    "FIPS-180-3": {
+        "title": "FIPS PUB 180-3: Secure Hash Standard (SHS)",
+        "date": "October 2008",
+        "href": "https://csrc.nist.gov/publications/fips/fips180-3/fips180-3_final.pdf",
+        "publisher": "U.S. Department of Commerce/National Institute of Standards and Technology"
+    },
     "FIPS-180-4": {
-        "title": "FIPS PUB 180-4 Secure Hash Standard",
+        "title": "FIPS PUB 180-4: Secure Hash Standard (SHS)",
+        "date": "August 2015",
         "href": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.180-4.pdf",
+        "publisher": "U.S. Department of Commerce/National Institute of Standards and Technology"
+    },
+    "FIPS-186-3": {
+        "title": "FIPS PUB 186-3: Digital Signature Standard (DSS)",
+        "date": "June 2009",
+        "href": "https://csrc.nist.gov/publications/fips/fips186-3/fips_186-3.pdf",
+        "publisher": "U.S. Department of Commerce/National Institute of Standards and Technology"
+    },
+    "FIPS-186-4": {
+        "title": "FIPS PUB 186-4: Digital Signature Standard (DSS)",
+        "date": "July 2013",
+        "href": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-4.pdf",
+        "publisher": "U.S. Department of Commerce/National Institute of Standards and Technology"
+    },
+    "FIPS-186-5": {
+        "title": "FIPS PUB 186-5: Digital Signature Standard (DSS)",
+        "date": "3 February 2023",
+        "href": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
         "publisher": "U.S. Department of Commerce/National Institute of Standards and Technology"
     },
     "FIRESHEEP": {
