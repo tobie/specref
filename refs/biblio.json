@@ -1378,6 +1378,12 @@
     "FILE-WRITER": {
         "aliasOf": "file-writer-api"
     },
+    "FIN-PRIV-NOTICE": {
+        "href": "http://www.ftc.gov/privacy/privacyinitiatives/ftcfinalreport060228.pdf",
+        "publisher": "Kleimann Communications Group, Inc.",
+        "rawDate": "2006-02-28",
+        "title": "Evolution of a Prototype Financial Privacy Notice"
+    },
     "FIPS-180-3": {
         "title": "FIPS PUB 180-3: Secure Hash Standard (SHS)",
         "date": "October 2008",
@@ -1413,12 +1419,25 @@
         "publisher": "U.S. Department of Commerce/National Institute of Standards and Technology",
         "status": "National Standard"
     },
+    "FIR": {
+        "authors": [
+            "Joe Clark"
+        ],
+        "href": "http://www.alistapart.com/articles/fir",
+        "publisher": "A List Apart, Issue No. 160",
+        "rawDate": "2003-10-20",
+        "title": "Facts and Opinion About Fahrner Image Replacement"
+    },
     "FIRESHEEP": {
         "authors": [
             "Eric Butler"
         ],
         "href": "http://codebutler.com/firesheep",
         "title": "Firesheep"
+    },
+    "FLEX": {
+        "isbn": "1882114213",
+        "title": "Flex: The Lexical Scanner Generator (Version 2.3.7)"
     },
     "FLEXBOX": {
         "aliasOf": "css3-flexbox"
@@ -1516,6 +1535,19 @@
         "title": "Privacy of Geolocation Implementations",
         "date": "12 July 2010"
     },
+    "GEOPRIV-ARCH": {
+        "authors": [
+            "Barnes, R",
+            "Lepinski, M",
+            "Cooper, A",
+            "Morris, J",
+            "Tschofenig, H",
+            "Schulzrinne, H"
+        ],
+        "href": "https://tools.ietf.org/html/draft-ietf-geopriv-arch-01",
+        "rawDate": "2009-10-29",
+        "title": "An Architecture for Location and Location Privacy in Internet Applications"
+    },
     "GETUSERMEDIA": {
         "aliasOf": "mediacapture-streams"
     },
@@ -1524,6 +1556,26 @@
         "title": "Graphics Interchange Format",
         "rawDate": "1990-07-31",
         "publisher": "CompuServe Incorporated"
+    },
+    "GRAPHICS": {
+        "authors": [
+            "J. Foley",
+            "A. van Dam",
+            "S. Feiner",
+            "J. Hughes",
+            "Addison-Wesley"
+        ],
+        "isbn": "0-201-84840-6",
+        "title": "Computer Graphics: Principles and Practice in C (Second Edition)"
+    },
+    "GREGORIAN": {
+        "authors": [
+            "A. Lilius",
+            "C. Clavius"
+        ],
+        "publisher": "Gregory XIII Papal Bull",
+        "rawDate": "1582-02",
+        "title": "Inter Gravissimas"
     },
     "GSM-CALL": {
         "authors": [
@@ -1576,6 +1628,28 @@
     "HMAC": {
         "aliasOf": "RFC2104"
     },
+    "HMAC-SECURITY": {
+        "authors": [
+            "C. Rechberger",
+            "V. Rijmen"
+        ],
+        "href": "http://www.jucs.org/jucs_14_3/new_results_on_nmac/jucs_14_3_0347_0376_rechberger.pdf",
+        "publisher": "Journal of Universal Computer Science, vol. 14, no. 3 (2008), 347-376",
+        "rawDate": "2008-01-02",
+        "title": "New Results on NMAC/HMAC when Instantiated with Popular Hash Functions"
+    },
+    "HMRMC": {
+        "href": "http://www.hmrc.gov.uk/softwaredevelopers/index.htm",
+        "title": "HM Revenue and customs"
+    },
+    "HSL": {
+        "authors": [
+            "Steven Pemberton"
+        ],
+        "href": "http://www.cwi.nl/~steven/css/hsl.html",
+        "rawDate": "2009-11-19",
+        "title": "HSL: light vs saturation"
+    },
     "HTML-DEVICE": {
         "authors": [
             "Ian Hickson"
@@ -1596,6 +1670,13 @@
         "status": "ED",
         "publisher": "W3C",
         "repository": "https://github.com/w3c/html-extensions"
+    },
+    "HTMLICCPROF": {
+        "authors": [
+            "Apple Computer with input from Microsoft Corporation"
+        ],
+        "href": "http://www.apple.com/colorsync/benefits/web/icc-profiles.html",
+        "title": "Proposal for HTML support of ICC profiles"
     },
     "HTMLMEDIACAPTURE": {
         "aliasOf": "html-media-capture"
@@ -1618,6 +1699,16 @@
     },
     "HTTP11": {
         "aliasOf": "RFC7230"
+    },
+    "HunterZhan": {
+        "authors": [
+            "Hunter, Jane",
+            "Zhan, Zhimin"
+        ],
+        "href": "http://archive.dstc.edu.au/RDU/staff/jane-hunter/PNG/paper.html",
+        "publisher": "ARLIS/ANZ Conference",
+        "rawDate": "1999-09",
+        "title": "An Indexing and Querying System for Online Images Based on the PNG Format and Embedded Metadata"
     },
     "IANA-CHARSETS": {
         "aliasOf": "CHARSETS"
