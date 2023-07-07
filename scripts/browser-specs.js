@@ -62,9 +62,20 @@ request({
             var uppercaseId = id.toUpperCase();
 
             // Spec may already exist in Specref under another name
-            if (!current[uppercaseId]) {
-                var rv = bibref.reverseLookup([ref.href])[ref.href];
-                if (rv) {
+            var rv = bibref.reverseLookup([ref.href])[ref.href];
+            if (rv) {
+                if (current[uppercaseId] &&
+                        rv.id.toUpperCase() != uppercaseId &&
+                        // avoid inadvertently catching drafts.
+                        bibref.normalizeUrl(rv.href) == bibref.normalizeUrl(ref.href)) {
+                    // Make the existing entry in browser-specs.json an alias
+                    // of the other one
+                    updatedList[uppercaseId] = { aliasOf: rv.id };
+                    return;
+                }
+                else if (!current[uppercaseId]) {
+                    // Entry did not exist in browser-specs.json, let's not
+                    // create one
                     return;
                 }
             }
@@ -82,6 +93,14 @@ request({
                 }
             }
         });
+    // For continuity, add back aliases that we may have created earlier on,
+    // unless the targeted entry no longer exists
+    Object.keys(current).forEach(function(id) {
+        var ref = current[id];
+        if (!updatedList[id] && ref.aliasOf && refs[ref.aliasOf]) {
+            updatedList[id] = ref;
+        }
+    });
     updatedList = helper.sortRefs(updatedList);
     console.log("updating existing refs.")
     helper.writeBiblio(FILENAME, updatedList);
