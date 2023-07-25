@@ -82,11 +82,14 @@ function href(index) {
     if (HTTP_SPECS.indexOf(index) > -1) {
         return "https://httpwg.org/specs/" + index + ".html";
     }
+    if (index.indexOf("bcp") == 0) {
+        return "https://www.rfc-editor.org/info/" + unpad(index);
+    }
     return "https://www.rfc-editor.org/rfc/" + unpad(index);
 }
 
 function unpad(index) {
-    return index.replace(/(rfc)0*(\d+)/i, "$1$2");
+    return index.replace(/(rfc|bcp)0*(\d+)/i, "$1$2");
 }
 
 var MONTHS = [

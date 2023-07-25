@@ -206,7 +206,7 @@
                 "rfcNumber": {
                     "description": "Number of IETF RFC",
                     "type": "string",
-                    "pattern": "^RFC\\d{4}$"
+                    "pattern": "^(BCP|RFC)\\d{4}$"
                 },
                 "isoNumber": {
                     "description": "Number of ISO standard",
