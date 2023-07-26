@@ -2,7 +2,7 @@
 
 node "./scripts/list-refs.js" &&
 node "./scripts/run.js" &&
-node "./scripts/browser-specs.js" &&
+# node "./scripts/browser-specs.js" &&
 node "./scripts/ietf.js" &&
 node "./scripts/w3c.js" &&
 node "./scripts/csswg.js" &&
