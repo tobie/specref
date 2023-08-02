@@ -68,13 +68,17 @@
     "CLOSE-WATCHER": {
         "href": "https://wicg.github.io/close-watcher/",
         "title": "Close Watcher API",
-        "status": "Draft Community Group Report",
+        "status": "Editor's Draft",
         "publisher": "W3C",
         "deliveredBy": [
             "https://www.w3.org/community/wicg/"
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/WICG/close-watcher"
+        "repository": "https://github.com/WICG/close-watcher",
+        "obsoletedBy": [
+            "HTML"
+        ],
+        "isSuperseded": true
     },
     "COMPOSITING-2": {
         "href": "https://drafts.fxtf.org/compositing-2/",
@@ -618,7 +622,7 @@
     "EYEDROPPER-API": {
         "href": "https://wicg.github.io/eyedropper-api/",
         "title": "EyeDropper API",
-        "status": "Editor's Draft",
+        "status": "Draft Community Group Report",
         "publisher": "W3C",
         "deliveredBy": [
             "https://www.w3.org/community/wicg/"
@@ -716,7 +720,7 @@
     "GPC-SPEC": {
         "href": "https://privacycg.github.io/gpc-spec/",
         "title": "Global Privacy Control (GPC)",
-        "status": "Editor's Draft",
+        "status": "Unofficial Proposal Draft",
         "publisher": "W3C",
         "deliveredBy": [
             "https://www.w3.org/community/privacycg/"
@@ -748,7 +752,7 @@
     },
     "IS-INPUT-PENDING": {
         "href": "https://wicg.github.io/is-input-pending/",
-        "title": "isInputPending",
+        "title": "Early detection of input events",
         "status": "Editor's Draft",
         "publisher": "W3C",
         "deliveredBy": [
@@ -815,7 +819,7 @@
     "MODEL-ELEMENT": {
         "href": "https://immersive-web.github.io/model-element/",
         "title": "The <model> element",
-        "status": "Editor's Draft",
+        "status": "Draft Community Group Report",
         "publisher": "W3C",
         "deliveredBy": [
             "https://www.w3.org/community/immersive-web/"
@@ -936,7 +940,7 @@
     "OVERSCROLL-SCROLLEND-EVENTS": {
         "href": "https://wicg.github.io/overscroll-scrollend-events/",
         "title": "overscroll and scrollend events",
-        "status": "Editor's Draft",
+        "status": "Draft Community Group Report",
         "publisher": "W3C",
         "deliveredBy": [
             "https://www.w3.org/community/wicg/"
@@ -1469,7 +1473,11 @@
             "https://tc39.es/"
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/tc39/proposal-resizablearraybuffer"
+        "repository": "https://github.com/tc39/proposal-resizablearraybuffer",
+        "obsoletedBy": [
+            "ECMASCRIPT"
+        ],
+        "isSuperseded": true
     },
     "TC39-SET-METHODS": {
         "href": "https://tc39.es/proposal-set-methods/",
@@ -1514,6 +1522,17 @@
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/tc39/proposal-temporal"
+    },
+    "TOPICS": {
+        "href": "https://patcg-individual-drafts.github.io/topics/",
+        "title": "Topics API",
+        "status": "Draft Community Group Report",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/patcg/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/patcg-individual-drafts/topics"
     },
     "TRUST-TOKEN-API": {
         "href": "https://wicg.github.io/trust-token-api/",
@@ -1606,7 +1625,7 @@
     "WEBCRYPTO-SECURE-CURVES": {
         "href": "https://wicg.github.io/webcrypto-secure-curves/",
         "title": "Secure Curves in the Web Cryptography API",
-        "status": "Editor's Draft",
+        "status": "Draft Community Group Report",
         "publisher": "W3C",
         "deliveredBy": [
             "https://www.w3.org/community/wicg/"
@@ -1837,7 +1856,7 @@
     "WEBHID": {
         "href": "https://wicg.github.io/webhid/",
         "title": "WebHID API",
-        "status": "Editor's Draft",
+        "status": "Draft Community Group Report",
         "publisher": "W3C",
         "deliveredBy": [
             "https://www.w3.org/community/wicg/"
