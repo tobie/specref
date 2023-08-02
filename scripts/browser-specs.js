@@ -108,10 +108,9 @@ request({
             updatedList[uppercaseId] = convertSpec(spec);
         });
 
-    // For continuity, add back aliases that we may have created earlier on,
-    // unless the targeted entry no longer exists (that should never happen
-    // though). Also add back entries that used to exist but that are now known
-    // under another name.
+    // For continuity, add back aliases that we may have created earlier on.
+    // Also add back entries that used to exist but that are now known under
+    // another name.
     const browserSpecsWithFormerNames = browserSpecs.filter(s => s.formerNames);
     Object.keys(current)
         .filter(function(id) { return !updatedList[id]; })
@@ -137,6 +136,9 @@ request({
             }
             else if (ref.aliasOf && isInSpecref(ref.aliasOf)) {
                 updatedList[id] = ref;
+            }
+            else {
+                throw new Error("Missing aliasOf target in browser-specs.json: " + ref.aliasOf + " needed for " + id);
             }
         });
 
