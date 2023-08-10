@@ -1188,6 +1188,9 @@
             "2022": {
                 "aliasOf": "ECMASCRIPT-13.0"
             },
+            "2023": {
+                "aliasOf": "ECMASCRIPT-14.0"
+            },
             "5.1": {
                 "title": "ECMA-262 Edition 5.1, The ECMAScript Language Specification",
                 "rawDate": "2011-06",
@@ -1261,14 +1264,33 @@
                 "href": "https://262.ecma-international.org/12.0/",
                 "status": "Standard",
                 "authors": [
-                    "Jordan Harband"
+                    "Jordan Harband",
+                    "Shu-yu Guo",
+                    "Michael Ficarra",
+                    "Kevin Gibbons"
                 ]
             },
             "13.0": {
                 "title": "ECMA-262 13th Edition, The ECMAScript 2022 Language Specification",
                 "rawDate": "2022-06",
                 "href": "https://262.ecma-international.org/13.0/",
-                "status": "Standard"
+                "status": "Standard",
+                "authors": [
+                    "Shu-yu Guo",
+                    "Michael Ficarra",
+                    "Kevin Gibbons"
+                ]
+            },
+            "14.0": {
+                "title": "ECMA-262 14th Edition, The ECMAScript 2023 Language Specification",
+                "rawDate": "2023-06",
+                "href": "https://262.ecma-international.org/14.0/",
+                "status": "Standard",
+                "authors": [
+                    "Shu-yu Guo",
+                    "Michael Ficarra",
+                    "Kevin Gibbons"
+                ]
             }
         },
         "repository": "https://github.com/tc39/ecma262"
