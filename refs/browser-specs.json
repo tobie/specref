@@ -32,6 +32,17 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/WICG/attribution-reporting-api"
     },
+    "AUDIO-SESSION": {
+        "href": "https://w3c.github.io/audio-session/",
+        "title": "Audio Session",
+        "status": "Editor's Draft",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/media-wg/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/w3c/audio-session"
+    },
     "CAPABILITY-DELEGATION": {
         "href": "https://wicg.github.io/capability-delegation/spec.html",
         "title": "Capability Delegation",
@@ -344,17 +355,6 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/w3c/csswg-drafts"
     },
-    "CSS-TRANSITIONS-2": {
-        "href": "https://drafts.csswg.org/css-transitions-2/",
-        "title": "CSS Transitions Level 2",
-        "status": "Editor's Draft",
-        "publisher": "W3C",
-        "deliveredBy": [
-            "https://www.w3.org/Style/CSS/"
-        ],
-        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/w3c/csswg-drafts"
-    },
     "CSS-TYPED-OM-2": {
         "href": "https://drafts.css-houdini.org/css-typed-om-2/",
         "title": "CSS Typed OM Level 2",
@@ -380,6 +380,17 @@
     "CSS-VARIABLES-2": {
         "href": "https://drafts.csswg.org/css-variables-2/",
         "title": "CSS Custom Properties for Cascading Variables Module Level 2",
+        "status": "Editor's Draft",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/Style/CSS/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/w3c/csswg-drafts"
+    },
+    "CSS-VIEW-TRANSITIONS-2": {
+        "href": "https://drafts.csswg.org/css-view-transitions-2/",
+        "title": "CSS View Transitions Module Level 2",
         "status": "Editor's Draft",
         "publisher": "W3C",
         "deliveredBy": [
@@ -992,6 +1003,17 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/WICG/performance-measure-memory"
     },
+    "PERMISSIONS-REGISTRY": {
+        "href": "https://w3c.github.io/permissions-registry/",
+        "title": "Permissions Registry",
+        "status": "Draft Registry",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/groups/wg/webappsec/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/w3c/permissions-registry"
+    },
     "PORTALS": {
         "href": "https://wicg.github.io/portals/",
         "title": "Portals",
@@ -1157,15 +1179,27 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/WICG/shared-storage"
     },
-    "SOURCEMAP": {
-        "href": "https://sourcemaps.info/spec.html",
-        "title": "Source Map Revision 3 Proposal",
-        "status": "Editor's Draft",
-        "publisher": "sourcemaps.info",
+    "SOFT-NAVIGATIONS": {
+        "href": "https://wicg.github.io/soft-navigations/",
+        "title": "Soft Navigations",
+        "status": "Draft Community Group Report",
+        "publisher": "W3C",
         "deliveredBy": [
-            "https://sourcemaps.info/"
+            "https://www.w3.org/community/wicg/"
         ],
-        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json"
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/WICG/soft-navigations"
+    },
+    "SOURCEMAP": {
+        "href": "https://tc39.es/source-map-spec/",
+        "title": "Source Map",
+        "status": "Editor's Draft",
+        "publisher": "Ecma International",
+        "deliveredBy": [
+            "https://tc39.es/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/tc39/source-map-spec"
     },
     "SPARQL12-CONCEPTS": {
         "href": "https://w3c.github.io/sparql-concepts/spec/",
@@ -1231,7 +1265,11 @@
             "https://tc39.es/"
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/tc39/proposal-array-find-from-last"
+        "repository": "https://github.com/tc39/proposal-array-find-from-last",
+        "obsoletedBy": [
+            "ECMASCRIPT"
+        ],
+        "isSuperseded": true
     },
     "TC39-ARRAY-FROM-ASYNC": {
         "href": "https://tc39.es/proposal-array-from-async/",
@@ -1286,7 +1324,11 @@
             "https://tc39.es/"
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/tc39/proposal-atomics-wait-async"
+        "repository": "https://github.com/tc39/proposal-atomics-wait-async",
+        "obsoletedBy": [
+            "ECMASCRIPT"
+        ],
+        "isSuperseded": true
     },
     "TC39-CHANGE-ARRAY-BY-COPY": {
         "href": "https://tc39.es/proposal-change-array-by-copy/",
@@ -1297,7 +1339,11 @@
             "https://tc39.es/"
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/tc39/proposal-change-array-by-copy"
+        "repository": "https://github.com/tc39/proposal-change-array-by-copy",
+        "obsoletedBy": [
+            "ECMASCRIPT"
+        ],
+        "isSuperseded": true
     },
     "TC39-DECORATORS": {
         "href": "https://tc39.es/proposal-decorators/",
@@ -1332,6 +1378,17 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/tc39/proposal-float16array"
     },
+    "TC39-IMPORT-ATTRIBUTES": {
+        "href": "https://tc39.es/proposal-import-attributes/",
+        "title": "Import Attributes",
+        "status": "Editor's Draft",
+        "publisher": "Ecma International",
+        "deliveredBy": [
+            "https://tc39.es/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/tc39/proposal-import-attributes"
+    },
     "TC39-INTL-ANNEXES": {
         "href": "https://tc39.es/proposal-intl-numberformat-v3/out/annexes/proposed.html",
         "title": "Intl Annexes",
@@ -1341,7 +1398,11 @@
             "https://tc39.es/"
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/tc39/proposal-intl-numberformat-v3"
+        "repository": "https://github.com/tc39/proposal-intl-numberformat-v3",
+        "obsoletedBy": [
+            "ECMA-402"
+        ],
+        "isSuperseded": true
     },
     "TC39-INTL-DURATION-FORMAT": {
         "href": "https://tc39.es/proposal-intl-duration-format/",
@@ -1363,7 +1424,11 @@
             "https://tc39.es/"
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/tc39/proposal-intl-enumeration"
+        "repository": "https://github.com/tc39/proposal-intl-enumeration",
+        "obsoletedBy": [
+            "ECMA-402"
+        ],
+        "isSuperseded": true
     },
     "TC39-INTL-EXTEND-TIMEZONENAME": {
         "href": "https://tc39.es/proposal-intl-extend-timezonename/",
@@ -1374,7 +1439,11 @@
             "https://tc39.es/"
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/tc39/proposal-intl-extend-timezonename"
+        "repository": "https://github.com/tc39/proposal-intl-extend-timezonename",
+        "obsoletedBy": [
+            "ECMA-402"
+        ],
+        "isSuperseded": true
     },
     "TC39-INTL-LOCALE-INFO": {
         "href": "https://tc39.es/proposal-intl-locale-info/",
@@ -1396,7 +1465,11 @@
             "https://tc39.es/"
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/tc39/proposal-intl-numberformat-v3"
+        "repository": "https://github.com/tc39/proposal-intl-numberformat-v3",
+        "obsoletedBy": [
+            "ECMA-402"
+        ],
+        "isSuperseded": true
     },
     "TC39-INTL-NUMBERFORMAT": {
         "href": "https://tc39.es/proposal-intl-numberformat-v3/out/numberformat/proposed.html",
@@ -1407,7 +1480,11 @@
             "https://tc39.es/"
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/tc39/proposal-intl-numberformat-v3"
+        "repository": "https://github.com/tc39/proposal-intl-numberformat-v3",
+        "obsoletedBy": [
+            "ECMA-402"
+        ],
+        "isSuperseded": true
     },
     "TC39-INTL-PLURALRULES": {
         "href": "https://tc39.es/proposal-intl-numberformat-v3/out/pluralrules/proposed.html",
@@ -1418,7 +1495,11 @@
             "https://tc39.es/"
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/tc39/proposal-intl-numberformat-v3"
+        "repository": "https://github.com/tc39/proposal-intl-numberformat-v3",
+        "obsoletedBy": [
+            "ECMA-402"
+        ],
+        "isSuperseded": true
     },
     "TC39-IS-USV-STRING": {
         "href": "https://tc39.es/proposal-is-usv-string/",
@@ -1429,7 +1510,11 @@
             "https://tc39.es/"
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/tc39/proposal-is-usv-string"
+        "repository": "https://github.com/tc39/proposal-is-usv-string",
+        "obsoletedBy": [
+            "ECMASCRIPT"
+        ],
+        "isSuperseded": true
     },
     "TC39-ITERATOR-HELPERS": {
         "href": "https://tc39.es/proposal-iterator-helpers/",
@@ -1463,6 +1548,17 @@
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/tc39/proposal-json-parse-with-source"
+    },
+    "TC39-PROMISE-WITH-RESOLVERS": {
+        "href": "https://tc39.es/proposal-promise-with-resolvers/",
+        "title": "ES Promise.withResolvers (2023)",
+        "status": "Editor's Draft",
+        "publisher": "Ecma International",
+        "deliveredBy": [
+            "https://tc39.es/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/tc39/proposal-promise-with-resolvers"
     },
     "TC39-REGEXP-MODIFIERS": {
         "href": "https://tc39.es/proposal-regexp-modifiers/",
@@ -1512,6 +1608,17 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/tc39/proposal-shadowrealm"
     },
+    "TC39-SOURCE-PHASE-IMPORTS": {
+        "href": "https://tc39.es/proposal-source-phase-imports/",
+        "title": "Source Phase Imports",
+        "status": "Editor's Draft",
+        "publisher": "Ecma International",
+        "deliveredBy": [
+            "https://tc39.es/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/tc39/proposal-source-phase-imports"
+    },
     "TC39-SYMBOLS-AS-WEAKMAP-KEYS": {
         "href": "https://tc39.es/proposal-symbols-as-weakmap-keys/",
         "title": "Symbol as WeakMap Keys Proposal",
@@ -1521,7 +1628,11 @@
             "https://tc39.es/"
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/tc39/proposal-symbols-as-weakmap-keys"
+        "repository": "https://github.com/tc39/proposal-symbols-as-weakmap-keys",
+        "obsoletedBy": [
+            "ECMASCRIPT"
+        ],
+        "isSuperseded": true
     },
     "TC39-TEMPORAL": {
         "href": "https://tc39.es/proposal-temporal/",
