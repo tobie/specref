@@ -697,7 +697,7 @@
     },
     "FIRST-PARTY-SETS": {
         "href": "https://wicg.github.io/first-party-sets/",
-        "title": "User Agent Interaction with First-Party Sets",
+        "title": "User Agent Interaction with Related Website Sets",
         "status": "Draft Community Group Report",
         "publisher": "W3C",
         "deliveredBy": [
@@ -1722,6 +1722,17 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/WICG/video-rvfc"
     },
+    "WASM-CORE-1-FORK-GC": {
+        "href": "https://webassembly.github.io/gc/core/bikeshed/",
+        "title": "WebAssembly Core Specification",
+        "status": "Editor's Draft",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/webassembly/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/WebAssembly/gc"
+    },
     "WASM-JS-API-2-FORK-EXCEPTION-HANDLING": {
         "href": "https://webassembly.github.io/exception-handling/js-api/",
         "title": "WebAssembly JavaScript Interface: Exception Handling",
@@ -1743,6 +1754,17 @@
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/WICG/web-otp"
+    },
+    "WEB-PREFERENCES-API": {
+        "href": "https://wicg.github.io/web-preferences-api/",
+        "title": "Web Preferences API",
+        "status": "Unofficial Proposal Draft",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/wicg/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/WICG/web-preferences-api"
     },
     "WEBCRYPTO-SECURE-CURVES": {
         "href": "https://wicg.github.io/webcrypto-secure-curves/",
@@ -1790,7 +1812,7 @@
     },
     "WEBGL_CLIP_CULL_DISTANCE": {
         "href": "https://registry.khronos.org/webgl/extensions/WEBGL_clip_cull_distance/",
-        "title": "WebGL WEBGL_clip_cull_distance Extension Draft Specification",
+        "title": "WebGL WEBGL_clip_cull_distance Extension Specification",
         "status": "Editor's Draft",
         "publisher": "Khronos Group",
         "deliveredBy": [
