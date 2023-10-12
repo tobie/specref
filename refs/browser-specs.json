@@ -794,6 +794,17 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/KhronosGroup/WebGL"
     },
+    "MANAGED-CONFIGURATION": {
+        "href": "https://wicg.github.io/WebApiDevice/managed_config/",
+        "title": "Managed Configuration API",
+        "status": "Draft Community Group Report",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/wicg/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/WICG/WebApiDevice"
+    },
     "MATHML-AAM": {
         "href": "https://w3c.github.io/mathml-aam/",
         "title": "MathML Accessiblity API Mappings 1.0",
@@ -1744,6 +1755,17 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/WebAssembly/exception-handling"
     },
+    "WEB-BLUETOOTH-SCANNING": {
+        "href": "https://webbluetoothcg.github.io/web-bluetooth/scanning.html",
+        "title": "Web Bluetooth Scanning",
+        "status": "Draft Community Group Report",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/web-bluetooth/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/WebBluetoothCG/web-bluetooth"
+    },
     "WEB-OTP": {
         "href": "https://wicg.github.io/web-otp/",
         "title": "WebOTP API",
@@ -2029,5 +2051,27 @@
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/w3c/webrtc-ice"
+    },
+    "WEBXR-MESHING": {
+        "href": "https://immersive-web.github.io/real-world-geometry/webxrmeshing-1.html",
+        "title": "WebXR Meshing API Level 1",
+        "status": "A Collection of Interesting Ideas",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/immersive-web/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/immersive-web/real-world-geometry"
+    },
+    "WEBXR-PLANE-DETECTION": {
+        "href": "https://immersive-web.github.io/real-world-geometry/plane-detection.html",
+        "title": "WebXR Plane Detection Module",
+        "status": "Draft Community Group Report",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/immersive-web/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/immersive-web/real-world-geometry"
     }
 }
