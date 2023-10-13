@@ -10,5 +10,7 @@
   { "id": "encoding",          "action": "delete" },
   { "id": "hr-time",           "action": "createAlias", "aliasOf": "hr-time-3"},
   { "id": "resource-timing",   "action": "createAlias", "aliasOf": "resource-timing-2"},
-  { "id": "xpath",             "action": "replaceProp", "prop": "href", "value": "https://www.w3.org/TR/xpath-10/" }
+  { "id": "xpath",             "action": "replaceProp", "prop": "href", "value": "https://www.w3.org/TR/xpath-10/" },
+  { "id": "PNG",               "action": "renameTo", "newId": "PNG-1"},
+  { "id": "PNG",               "action": "createAlias", "aliasOf": "png-3"}
 ]
