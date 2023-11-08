@@ -590,6 +590,84 @@
     "CSSUI": {
         "aliasOf": "css3-userint"
     },
+    "CTA-5000": {
+        "title": "Web Media API Snapshot 2017 CTA-5000",
+        "authors": [
+            "David Evans",
+            "Mark Vickers"
+        ],
+        "href": "https://cdn.cta.tech/cta/media/media/resources/standards/pdfs/cta-5000-final-v2_pdf.pdf",
+        "date": "December 2017",
+        "publisher": "Consumer Technology Association",
+        "status": "CTA Specification"
+    },
+    "CTA-5000-A": {
+        "title": "Web Media API Snapshot 2018 CTA-5000-A",
+        "authors": [
+            "Jon Piesing",
+            "Mark Vickers"
+        ],
+        "href": "https://cdn.cta.tech/cta/media/media/resources/standards/pdfs/cta-5000-a-final.pdf",
+        "date": "December 2018",
+        "publisher": "Consumer Technology Association",
+        "status": "CTA Specification"
+    },
+    "CTA-5000-B": {
+        "title": "Web Media API Snapshot 2019 CTA-5000-B",
+        "authors": [
+            "John Luther",
+            "Jon Piesing",
+            "John Riviello"
+        ],
+        "href": "https://cdn.cta.tech/cta/media/media/resources/standards/pdfs/cta-5000-b-final_v2.pdf",
+        "date": "December 2019",
+        "publisher": "Consumer Technology Association",
+        "status": "CTA Specification"
+    },
+    "CTA-5000-C": {
+        "title": "Web Media API Snapshot 2020 CTA-5000-C",
+        "authors": [
+            "Jon Piesing",
+            "John Riviello"
+        ],
+        "href": "https://cdn.cta.tech/cta/media/media/resources/standards/pdfs/cta-5000-c_final.pdf",
+        "date": "December 2020",
+        "publisher": "Consumer Technology Association",
+        "status": "CTA Specification"
+    },
+    "CTA-5000-D": {
+        "title": "Web Media API Snapshot 2021 CTA-5000-D",
+        "authors": [
+            "Jon Piesing",
+            "John Riviello"
+        ],
+        "href": "https://cdn.cta.tech/cta/media/media/resources/standards/pdfs/cta-5000-d-final.pdf",
+        "date": "December 2021",
+        "publisher": "Consumer Technology Association",
+        "status": "CTA Specification"
+    },
+    "CTA-5000-E": {
+        "title": "Web Media API Snapshot 2022 CTA-5000-E",
+        "authors": [
+            "Jon Piesing",
+            "John Riviello"
+        ],
+        "href": "https://cdn.cta.tech/cta/media/media/resources/standards/pdfs/cta-5000-e-final.pdf",
+        "date": "December 2022",
+        "publisher": "Consumer Technology Association",
+        "status": "CTA Specification"
+    },
+    "CTA-5000-F": {
+        "title": "Web Media API Snapshot 2023 CTA-5000-F",
+        "authors": [
+            "Jon Piesing",
+            "John Riviello"
+        ],
+        "href": "https://cdn.cta.tech/cta/media/media/resources/standards/pdfs/cta-5000-f-final.pdf",
+        "date": "November 2023",
+        "publisher": "Consumer Technology Association",
+        "status": "CTA Specification"
+    },
     "CUAP": {
         "authors": [
             "Karl Dubost"
@@ -5383,6 +5461,27 @@
         "rawDate": "2014-07-10",
         "title": "Web Feature Service 2.0 Interface Standard",
         "status": "OGC Interface Standard"
+    },
+    "WMAS2017": {
+        "aliasOf": "CTA-5000"
+    },
+    "WMAS2018": {
+        "aliasOf": "CTA-5000-A"
+    },
+    "WMAS2019": {
+        "aliasOf": "CTA-5000-B"
+    },
+    "WMAS2020": {
+        "aliasOf": "CTA-5000-C"
+    },
+    "WMAS2021": {
+        "aliasOf": "CTA-5000-D"
+    },
+    "WMAS2022": {
+        "aliasOf": "CTA-5000-E"
+    },
+    "WMAS2023": {
+        "aliasOf": "CTA-5000-F"
     },
     "wms": {
         "authors": [
