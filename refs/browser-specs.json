@@ -43,6 +43,17 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/w3c/audio-session"
     },
+    "AV1-AVIF": {
+        "href": "https://aomediacodec.github.io/av1-avif/",
+        "title": "AV1 Image File Format (AVIF)",
+        "status": "Editor's Draft",
+        "publisher": "Alliance for Open Media",
+        "deliveredBy": [
+            "https://aomedia.org/about/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/AOMediaCodec/av1-avif"
+    },
     "CAPABILITY-DELEGATION": {
         "href": "https://wicg.github.io/capability-delegation/spec.html",
         "title": "Capability Delegation",
@@ -79,7 +90,7 @@
     "CLOSE-WATCHER": {
         "href": "https://wicg.github.io/close-watcher/",
         "title": "Close Watcher API",
-        "status": "Editor's Draft",
+        "status": "Living Standard",
         "publisher": "W3C",
         "deliveredBy": [
             "https://www.w3.org/community/wicg/"
@@ -870,6 +881,17 @@
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/privacycg/nav-tracking-mitigations"
+    },
+    "NETWORK-REPORTING": {
+        "href": "https://w3c.github.io/reporting/network-reporting.html",
+        "title": "Network Reporting API",
+        "status": "Editor's Draft",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/groups/wg/webperf/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/w3c/reporting"
     },
     "NO-VARY-SEARCH": {
         "href": "https://wicg.github.io/nav-speculation/no-vary-search.html",
@@ -1712,15 +1734,7 @@
         "repository": "https://github.com/WICG/ua-client-hints"
     },
     "URLPATTERN": {
-        "href": "https://wicg.github.io/urlpattern/",
-        "title": "URLPattern API",
-        "status": "Draft Community Group Report",
-        "publisher": "W3C",
-        "deliveredBy": [
-            "https://www.w3.org/community/wicg/"
-        ],
-        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/WICG/urlpattern"
+        "aliasOf": "WHATWG-URLPATTERN"
     },
     "USER-PREFERENCE-MEDIA-FEATURES-HEADERS": {
         "href": "https://wicg.github.io/user-preference-media-features-headers/",
@@ -1798,6 +1812,17 @@
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/WICG/web-preferences-api"
+    },
+    "WEB-SMART-CARD": {
+        "href": "https://wicg.github.io/web-smart-card/",
+        "title": "Web Smart Card API",
+        "status": "Unofficial Proposal Draft",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/wicg/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/WICG/web-smart-card"
     },
     "WEBCRYPTO-SECURE-CURVES": {
         "href": "https://wicg.github.io/webcrypto-secure-curves/",
@@ -2040,6 +2065,16 @@
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/WICG/webhid"
+    },
+    "WEBP": {
+        "href": "https://datatracker.ietf.org/doc/html/draft-zern-webp/",
+        "title": "WebP Image Format",
+        "status": "Editor's Draft",
+        "publisher": "IETF",
+        "deliveredBy": [
+            "https://datatracker.ietf.org/group/app/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json"
     },
     "WEBPACKAGE": {
         "href": "https://wicg.github.io/webpackage/loading.html",
