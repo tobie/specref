@@ -254,6 +254,19 @@
         "source": "https://resources.whatwg.org/biblio.json",
         "repository": "https://github.com/whatwg/url"
     },
+    "URLPATTERN": {
+        "authors": [
+            "Ben Kelly",
+            "Jeremy Roman",
+            "宍戸俊哉 (Shunya Shishido)"
+        ],
+        "href": "https://urlpattern.spec.whatwg.org/",
+        "title": "URL Pattern Standard",
+        "status": "Living Standard",
+        "publisher": "WHATWG",
+        "source": "https://resources.whatwg.org/biblio.json",
+        "repository": "https://github.com/whatwg/urlpattern"
+    },
     "WEBIDL": {
         "authors": [
             "Edgar Chen",
@@ -598,17 +611,7 @@
         "aliasOf": "URL"
     },
     "WHATWG-URLPATTERN": {
-        "authors": [
-            "Ben Kelly",
-            "Jeremy Roman",
-            "宍戸俊哉 (Shunya Shishido)"
-        ],
-        "href": "https://urlpattern.spec.whatwg.org/",
-        "title": "URL Pattern Standard",
-        "status": "Living Standard",
-        "publisher": "WHATWG",
-        "source": "https://resources.whatwg.org/biblio.json",
-        "repository": "https://github.com/whatwg/urlpattern"
+        "aliasOf": "URLPATTERN"
     },
     "WHATWG-WEBIDL": {
         "aliasOf": "WEBIDL"
