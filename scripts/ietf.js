@@ -40,9 +40,11 @@ request({
     helper.tryOverwrite(FILE);
 });
 
-// From https://httpwg.org/specs/
-// JSON.stringify([...document.body.textContent.matchAll(/(RFC\d{4}):/g)]
-//     .map(m => m[1].toLowerCase()).sort(), null, 4);
+// From https://github.com/httpwg/httpwg.github.io/tree/main/specs
+// JSON.stringify([...new Set(
+//   [...document.querySelectorAll('div[title^=rfc]')]
+//     .map(el => el.getAttribute('title').replace(/\..*$/, '')).sort()
+// )], null, 4);
 var HTTP_SPECS = [
     "rfc2818",
     "rfc5789",
@@ -74,7 +76,22 @@ var HTTP_SPECS = [
     "rfc8297",
     "rfc8336",
     "rfc8441",
-    "rfc8470"
+    "rfc8470",
+    "rfc8941",
+    "rfc9110",
+    "rfc9111",
+    "rfc9112",
+    "rfc9113",
+    "rfc9114",
+    "rfc9204",
+    "rfc9205",
+    "rfc9209",
+    "rfc9211",
+    "rfc9213",
+    "rfc9218",
+    "rfc9220",
+    "rfc9412",
+    "rfc9440"
 ];
 
 function href(index) {
