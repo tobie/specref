@@ -1,4 +1,15 @@
 {
+    "AFGS1-SPEC": {
+        "href": "https://aomediacodec.github.io/afgs1-spec/",
+        "title": "AOMedia Film Grain Synthesis 1 (AFGS1) specification (Draft)",
+        "status": "Draft Deliverable",
+        "publisher": "Alliance for Open Media",
+        "deliveredBy": [
+            "https://aomedia.org/about/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/AOMediaCodec/afgs1-spec"
+    },
     "ANCHORS": {
         "href": "https://immersive-web.github.io/anchors/",
         "title": "WebXR Anchors Module",
@@ -20,6 +31,17 @@
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/KhronosGroup/WebGL"
+    },
+    "ANONYMOUS-IFRAME": {
+        "href": "https://wicg.github.io/anonymous-iframe/",
+        "title": "Iframe credentialless",
+        "status": "Draft Community Group Report",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/wicg/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/WICG/anonymous-iframe"
     },
     "ATTRIBUTION-REPORTING-API": {
         "href": "https://wicg.github.io/attribution-reporting-api/",
@@ -46,13 +68,57 @@
     "AV1-AVIF": {
         "href": "https://aomediacodec.github.io/av1-avif/",
         "title": "AV1 Image File Format (AVIF)",
-        "status": "Editor's Draft",
+        "status": "Final Deliverable",
         "publisher": "Alliance for Open Media",
         "deliveredBy": [
             "https://aomedia.org/about/"
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/AOMediaCodec/av1-avif"
+    },
+    "AV1-HDR10PLUS": {
+        "href": "https://aomediacodec.github.io/av1-hdr10plus/",
+        "title": "HDR10+ AV1 Metadata Handling Specification",
+        "status": "Final Deliverable",
+        "publisher": "Alliance for Open Media",
+        "deliveredBy": [
+            "https://aomedia.org/about/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/AOMediaCodec/av1-hdr10plus"
+    },
+    "AV1-ISOBMFF": {
+        "href": "https://aomediacodec.github.io/av1-isobmff/",
+        "title": "AV1 Codec ISO Media File Format Binding",
+        "status": "Draft Deliverable",
+        "publisher": "Alliance for Open Media",
+        "deliveredBy": [
+            "https://aomedia.org/about/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/AOMediaCodec/av1-isobmff"
+    },
+    "AV1-MPEG2-TS": {
+        "href": "https://aomediacodec.github.io/av1-mpeg2-ts/",
+        "title": "Carriage of AV1 in MPEG-2 TS",
+        "status": "Draft Deliverable",
+        "publisher": "Alliance for Open Media",
+        "deliveredBy": [
+            "https://aomedia.org/about/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/AOMediaCodec/av1-mpeg2-ts"
+    },
+    "AV1-RTP-SPEC": {
+        "href": "https://aomediacodec.github.io/av1-rtp-spec/",
+        "title": "RTP Payload Format For AV1 (v1.0)",
+        "status": "Draft Deliverable",
+        "publisher": "Alliance for Open Media",
+        "deliveredBy": [
+            "https://aomedia.org/about/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/AOMediaCodec/av1-rtp-spec"
     },
     "CAPABILITY-DELEGATION": {
         "href": "https://wicg.github.io/capability-delegation/spec.html",
@@ -82,7 +148,7 @@
         "status": "Editor's Draft",
         "publisher": "IETF",
         "deliveredBy": [
-            "https://datatracker.ietf.org/wg/httpbis/"
+            "https://datatracker.ietf.org/wg/none/"
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/davidben/http-client-hint-reliability"
@@ -1031,7 +1097,7 @@
         "status": "Editor's Draft",
         "publisher": "IETF",
         "deliveredBy": [
-            "https://datatracker.ietf.org/wg/httpbis/"
+            "https://datatracker.ietf.org/wg/none/"
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/DCtheTall/CHIPS-spec"
@@ -2069,7 +2135,7 @@
         "status": "Editor's Draft",
         "publisher": "IETF",
         "deliveredBy": [
-            "https://datatracker.ietf.org/group/app/"
+            "https://datatracker.ietf.org/wg/art/"
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json"
     },
