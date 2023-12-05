@@ -70,8 +70,8 @@ request({
         .filter(function(spec) {
             // Only keep specs from browser-specs that meet the following
             // criteria:
-            // 1. The info comes from the spec itself. Other specs should
-            // already be in Specref.
+            // 1. The info comes from the spec itself or is an IETF draft.
+            // Other specs should already be in Specref.
             // 2. The name ID is available, or lives in browser-specs.json.
             // Given the way that browser-specs is maintained, a name collision
             // means that the spec already started to appear in another source
@@ -79,7 +79,9 @@ request({
             // That's good, no need to throw an error, let's give priority to
             // the other source.
             const uppercaseId = spec.shortname.toUpperCase();
-            return spec.source === 'spec' && !isInSpecref(uppercaseId);
+            return (spec.source === 'spec' ||
+                    (spec.source === 'ietf' && !spec.url.match(/www\.rfc-editor\.org/))) &&
+                !isInSpecref(uppercaseId);
         })
         .forEach(function(spec) {
             // Add an entry to browser-specs.json for the spec, unless Specref
