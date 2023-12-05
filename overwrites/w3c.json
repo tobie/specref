@@ -12,5 +12,8 @@
   { "id": "resource-timing",   "action": "createAlias", "aliasOf": "resource-timing-2"},
   { "id": "xpath",             "action": "replaceProp", "prop": "href", "value": "https://www.w3.org/TR/xpath-10/" },
   { "id": "PNG",               "action": "renameTo", "newId": "PNG-1"},
-  { "id": "PNG",               "action": "createAlias", "aliasOf": "png-3"}
+  { "id": "PNG",               "action": "createAlias", "aliasOf": "png-3"},
+  { "id": "media-source",      "action": "renameTo", "newId": "media-source-1" },
+  { "id": "media-source-1",    "action": "replaceProp", "prop": "href", "value": "https://www.w3.org/TR/media-source-1/" },
+  { "id": "media-source",      "action": "createAlias", "aliasOf": "media-source-2" }
 ]
