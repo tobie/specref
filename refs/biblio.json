@@ -2364,6 +2364,13 @@
     "MPEGHEVC": {
         "aliasOf": "iso23008-2"
     },
+    "MQTT": {
+	"title": "Message Queuing Telemetry Transport (MQTT)",
+        "href": "https://docs.oasis-open.org/mqtt/mqtt/v5.0/mqtt-v5.0.html",
+        "status": "5.0",
+        "date": "March 2019",
+        "publisher": "OASIS"
+    },        
     "MSAA": {
         "href": "https://docs.microsoft.com/en-us/windows/win32/winauto/microsoft-active-accessibility",
         "title": "Microsoft Active Accessibility (MSAA)",
@@ -3213,10 +3220,10 @@
     },
     "VSS": {
         "title": "Vehicle Signal Specification",
-        "href": "https://github.com/GENIVI/vehicle_signal_specification",
-        "status": "2.0",
-        "date": "February 2021",
-        "publisher": "GENIVI Alliance"
+        "href": "https://github.com/COVESA/vehicle_signal_specification",
+        "status": "4.0",
+        "date": "May 2023",
+        "publisher": "COVESA"
     },
     "VTT708": {
         "title": "Conversion of 608/708 captions to WebVTT",
