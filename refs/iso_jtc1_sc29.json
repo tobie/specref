@@ -78,9 +78,10 @@
     "iso10918-7": {
         "href": "https://www.iso.org/standard/85635.html",
         "title": "Information technology — Digital compression and coding of continuous-tone still images — Part 7: Reference software",
-        "status": "Under development",
+        "status": "Published",
         "publisher": "ISO/IEC",
-        "rawDate": "2023-09",
+        "isoNumber": "ISO 10918-7:2023",
+        "rawDate": "2023-11",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso11172-1": {
@@ -299,8 +300,10 @@
     "iso13818-1": {
         "href": "https://www.iso.org/standard/87619.html",
         "title": "Information technology — Generic coding of moving pictures and associated audio information — Part 1: Systems",
-        "status": "Under development",
+        "status": "Published",
         "publisher": "ISO/IEC",
+        "isoNumber": "ISO 13818-1:2023",
+        "rawDate": "2023-12",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso13818-1-1996-amd1-1997": {
@@ -310,6 +313,9 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "1997-12",
+        "obsoletedBy": [
+            "iso13818-1"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso13818-1-1996-amd2-1997": {
@@ -319,6 +325,9 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "1997-12",
+        "obsoletedBy": [
+            "iso13818-1"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso13818-1-1996-amd3-1998": {
@@ -328,6 +337,9 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "1998-12",
+        "obsoletedBy": [
+            "iso13818-1"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso13818-1-1996-amd4-1998": {
@@ -337,6 +349,9 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "1998-12",
+        "obsoletedBy": [
+            "iso13818-1"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso13818-1-1996-amd5-2000": {
@@ -346,6 +361,9 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "2000-04",
+        "obsoletedBy": [
+            "iso13818-1"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso13818-1-1996-amd6-2000": {
@@ -355,6 +373,9 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "2000-04",
+        "obsoletedBy": [
+            "iso13818-1"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso13818-1-1996-cor1-1999": {
@@ -364,6 +385,9 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "1999-01",
+        "obsoletedBy": [
+            "iso13818-1"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso13818-1-2000-amd1-2003": {
@@ -373,6 +397,9 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "2003-08",
+        "obsoletedBy": [
+            "iso13818-1"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso13818-1-2000-amd2-2004": {
@@ -382,6 +409,9 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "2004-02",
+        "obsoletedBy": [
+            "iso13818-1"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso13818-1-2000-amd3-2004": {
@@ -391,6 +421,9 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "2004-11",
+        "obsoletedBy": [
+            "iso13818-1"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso13818-1-2000-amd4-2005": {
@@ -400,6 +433,9 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "2005-07",
+        "obsoletedBy": [
+            "iso13818-1"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso13818-1-2000-amd5-2005": {
@@ -409,6 +445,9 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "2005-12",
+        "obsoletedBy": [
+            "iso13818-1"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso13818-1-2000-cor1-2002": {
@@ -418,6 +457,9 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "2002-03",
+        "obsoletedBy": [
+            "iso13818-1"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso13818-1-2000-cor2-2002": {
@@ -427,6 +469,9 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "2002-12",
+        "obsoletedBy": [
+            "iso13818-1"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso13818-1-2000-cor3-2005": {
@@ -436,6 +481,9 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "2005-06",
+        "obsoletedBy": [
+            "iso13818-1"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso13818-1-2000-cor4-2007": {
@@ -445,6 +493,9 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "2007-08",
+        "obsoletedBy": [
+            "iso13818-1"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso13818-1-2007-amd1-2007": {
@@ -454,6 +505,9 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "2007-11",
+        "obsoletedBy": [
+            "iso13818-1"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso13818-1-2007-amd2-2008": {
@@ -463,6 +517,9 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "2008-12",
+        "obsoletedBy": [
+            "iso13818-1"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso13818-1-2007-amd3-2009": {
@@ -472,6 +529,9 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "2009-11",
+        "obsoletedBy": [
+            "iso13818-1"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso13818-1-2007-amd3-2009-cor1-2011": {
@@ -481,6 +541,9 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "2011-04",
+        "obsoletedBy": [
+            "iso13818-1"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso13818-1-2007-amd4-2009": {
@@ -490,6 +553,9 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "2009-12",
+        "obsoletedBy": [
+            "iso13818-1"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso13818-1-2007-amd5-2011": {
@@ -499,6 +565,9 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "2011-12",
+        "obsoletedBy": [
+            "iso13818-1"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso13818-1-2007-amd6-2011": {
@@ -508,6 +577,9 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "2011-12",
+        "obsoletedBy": [
+            "iso13818-1"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso13818-1-2007-cor1-2008": {
@@ -517,6 +589,9 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "2008-12",
+        "obsoletedBy": [
+            "iso13818-1"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso13818-1-2007-cor2-2009": {
@@ -526,6 +601,9 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "2009-12",
+        "obsoletedBy": [
+            "iso13818-1"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso13818-1-2007-cor3-2011": {
@@ -535,6 +613,9 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "2011-04",
+        "obsoletedBy": [
+            "iso13818-1"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso13818-1-2013-amd1-2014": {
@@ -544,6 +625,9 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "2014-05",
+        "obsoletedBy": [
+            "iso13818-1"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso13818-1-2013-amd2-2014": {
@@ -553,6 +637,9 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "2014-04",
+        "obsoletedBy": [
+            "iso13818-1"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso13818-1-2013-amd3-2014": {
@@ -562,6 +649,9 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "2014-04",
+        "obsoletedBy": [
+            "iso13818-1"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso13818-1-2013-amd4-2014": {
@@ -571,6 +661,9 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "2014-04",
+        "obsoletedBy": [
+            "iso13818-1"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso13818-1-2015-amd1-2015": {
@@ -580,6 +673,9 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "2015-07",
+        "obsoletedBy": [
+            "iso13818-1"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso13818-1-2015-amd1-2015-cor1-2016": {
@@ -589,6 +685,9 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "2016-07",
+        "obsoletedBy": [
+            "iso13818-1"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso13818-1-2015-amd1-2015-cor2-2016": {
@@ -598,6 +697,9 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "2016-10",
+        "obsoletedBy": [
+            "iso13818-1"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso13818-1-2015-amd2-2016": {
@@ -607,6 +709,9 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "2016-07",
+        "obsoletedBy": [
+            "iso13818-1"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso13818-1-2015-amd3-2016": {
@@ -616,6 +721,9 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "2016-07",
+        "obsoletedBy": [
+            "iso13818-1"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso13818-1-2015-amd3-2016-cor1-2017": {
@@ -625,6 +733,9 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "2017-05",
+        "obsoletedBy": [
+            "iso13818-1"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso13818-1-2015-amd4-2016": {
@@ -634,6 +745,9 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "2016-10",
+        "obsoletedBy": [
+            "iso13818-1"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso13818-1-2015-amd5-2016": {
@@ -643,6 +757,9 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "2016-10",
+        "obsoletedBy": [
+            "iso13818-1"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso13818-1-2015-amd6-2016": {
@@ -652,6 +769,9 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "2016-10",
+        "obsoletedBy": [
+            "iso13818-1"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso13818-1-2015-cor1-2016": {
@@ -661,6 +781,9 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "2016-10",
+        "obsoletedBy": [
+            "iso13818-1"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso13818-1-2015-cor2-2017": {
@@ -670,6 +793,9 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "2017-05",
+        "obsoletedBy": [
+            "iso13818-1"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso13818-1-2015-damd10": {
@@ -704,6 +830,9 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "2018-05",
+        "obsoletedBy": [
+            "iso13818-1"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso13818-1-2018-damd2": {
@@ -735,6 +864,9 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "2020-01",
+        "obsoletedBy": [
+            "iso13818-1"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso13818-1-2019-awiamd2": {
@@ -764,6 +896,9 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "2020-10",
+        "obsoletedBy": [
+            "iso13818-1"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso13818-1-2019-damd1": {
@@ -794,9 +929,13 @@
     "iso13818-1-2022-amd1-2023": {
         "href": "https://www.iso.org/standard/83253.html",
         "title": "Information technology — Generic coding of moving pictures and associated audio information — Part 1: Systems — Amendment 1: Carriage of LCEVC and other improvements",
-        "status": "Published",
+        "status": "Withdrawn",
         "publisher": "ISO/IEC",
+        "isSuperseded": true,
         "rawDate": "2023-04",
+        "obsoletedBy": [
+            "iso13818-1"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso13818-1-2022-cdcor2": {
@@ -805,14 +944,21 @@
         "status": "Deleted",
         "publisher": "ISO/IEC",
         "isRetired": true,
+        "obsoletedBy": [
+            "iso13818-1"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso13818-1-2022-cor1-2023": {
         "href": "https://www.iso.org/standard/84998.html",
         "title": "Information technology — Generic coding of moving pictures and associated audio information — Part 1: Systems — Technical Corrigendum 1: Adding missing field compatibleProfileSetsPresent",
-        "status": "Published",
+        "status": "Withdrawn",
         "publisher": "ISO/IEC",
+        "isSuperseded": true,
         "rawDate": "2023-04",
+        "obsoletedBy": [
+            "iso13818-1"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso13818-1-cdamd1": {
@@ -2212,22 +2358,29 @@
         "aliasOf": "iso14496-15-2019-cdamd3"
     },
     "iso14496-15-2022-amd1": {
+        "aliasOf": "iso14496-15-2022-amd1-2023"
+    },
+    "iso14496-15-2022-amd1-2023": {
         "href": "https://www.iso.org/standard/83337.html",
         "title": "Information technology — Coding of audio-visual objects — Part 15: Carriage of network abstraction layer (NAL) unit structured video in the ISO base media file format — Amendment 1: Support for LCEVC",
-        "status": "Under development",
+        "status": "Published",
         "publisher": "ISO/IEC",
+        "rawDate": "2023-10",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso14496-15-2022-cdamd3": {
-        "href": "https://www.iso.org/standard/86520.html",
-        "title": "Information technology — Coding of audio-visual objects — Part 15: Carriage of network abstraction layer (NAL) unit structured video in the ISO base media file format — Amendment 3: Support for neural-network post-filter supplemental enhancement information and other improvements",
-        "status": "Under development",
-        "publisher": "ISO/IEC",
-        "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+        "aliasOf": "iso14496-15-2022-damd3"
     },
     "iso14496-15-2022-damd2": {
         "href": "https://www.iso.org/standard/85548.html",
         "title": "Information technology — Coding of audio-visual objects — Part 15: Carriage of network abstraction layer (NAL) unit structured video in the ISO base media file format — Amendment 2: Picture-in-picture support and other extensions",
+        "status": "Under development",
+        "publisher": "ISO/IEC",
+        "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+    },
+    "iso14496-15-2022-damd3": {
+        "href": "https://www.iso.org/standard/86520.html",
+        "title": "Information technology — Coding of audio-visual objects — Part 15: Carriage of network abstraction layer (NAL) unit structured video in the ISO base media file format — Amendment 3: Support for neural-network post-filter supplemental enhancement information and other improvements",
         "status": "Under development",
         "publisher": "ISO/IEC",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
@@ -5142,8 +5295,10 @@
     "iso15444-2": {
         "href": "https://www.iso.org/standard/84573.html",
         "title": "Information technology — JPEG 2000 image coding system — Part 2: Extensions",
-        "status": "Under development",
+        "status": "Published",
         "publisher": "ISO/IEC",
+        "isoNumber": "ISO 15444-2:2023",
+        "rawDate": "2023-11",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso15444-2-2004-amd2-2006": {
@@ -5153,6 +5308,9 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "2006-01",
+        "obsoletedBy": [
+            "iso15444-2"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso15444-2-2004-amd3-2015": {
@@ -5162,6 +5320,9 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "2015-07",
+        "obsoletedBy": [
+            "iso15444-2"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso15444-2-2004-amd4-2015": {
@@ -5171,6 +5332,9 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "2015-07",
+        "obsoletedBy": [
+            "iso15444-2"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso15444-2-2004-cor3-2005": {
@@ -5180,6 +5344,9 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "2005-06",
+        "obsoletedBy": [
+            "iso15444-2"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso15444-2-2004-cor4-2007": {
@@ -5189,6 +5356,9 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "2007-09",
+        "obsoletedBy": [
+            "iso15444-2"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso15444-3": {
@@ -5327,16 +5497,22 @@
     "iso15444-8": {
         "href": "https://www.iso.org/standard/82566.html",
         "title": "Information technology — JPEG 2000 image coding system — Part 8: Secure JPEG 2000",
-        "status": "Under development",
+        "status": "Published",
         "publisher": "ISO/IEC",
+        "isoNumber": "ISO 15444-8:2023",
+        "rawDate": "2023-10",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso15444-8-2007-amd1-2008": {
         "href": "https://www.iso.org/standard/46592.html",
         "title": "Information technology — JPEG 2000 image coding system: Secure JPEG 2000 — Part 8: — Amendment 1: File format security",
-        "status": "Published",
+        "status": "Withdrawn",
         "publisher": "ISO/IEC",
+        "isSuperseded": true,
         "rawDate": "2008-12",
+        "obsoletedBy": [
+            "iso15444-8"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso15444-9": {
@@ -5625,6 +5801,7 @@
         "title": "Information technology — Multimedia content description interface — Part 17: Compression of neural networks for multimedia content description and analysis",
         "status": "Under development",
         "publisher": "ISO/IEC",
+        "rawDate": "2024-01",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso15938-18": {
@@ -6199,8 +6376,10 @@
     "iso18477-3": {
         "href": "https://www.iso.org/standard/85637.html",
         "title": "Information technology — Scalable compression and coding of continuous-tone still images — Part 3: Box file format",
-        "status": "Under development",
+        "status": "Published",
         "publisher": "ISO/IEC",
+        "isoNumber": "ISO 18477-3:2023",
+        "rawDate": "2023-12",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso18477-4": {
@@ -6953,6 +7132,13 @@
         "publisher": "ISO/IEC",
         "isoNumber": "ISO 21122-5:2022",
         "rawDate": "2022-09",
+        "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+    },
+    "iso21617-1": {
+        "href": "https://www.iso.org/standard/86831.html",
+        "title": "Information technology — JPEG Trust — Part 1: Core Foundation",
+        "status": "Under development",
+        "publisher": "ISO/IEC",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso21794-1": {
@@ -8167,7 +8353,7 @@
     },
     "iso23002-9": {
         "href": "https://www.iso.org/standard/84712.html",
-        "title": "Information technology — MPEG video technologies — Part 9: Film grain synthesis technologies for video applications",
+        "title": "Information technology — MPEG video technologies — Part 9: Film grain synthesis technology for video applications",
         "status": "Under development",
         "publisher": "ISO/IEC",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
@@ -8603,9 +8789,12 @@
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23003-4-2020-amd2": {
+        "aliasOf": "iso23003-4-2020-amd2-2023"
+    },
+    "iso23003-4-2020-amd2-2023": {
         "href": "https://www.iso.org/standard/85290.html",
         "title": "Information technology — MPEG audio technologies — Part 4: Dynamic range control — Amendment 2: Loudness leveling",
-        "status": "Under development",
+        "status": "Published",
         "publisher": "ISO/IEC",
         "rawDate": "2023-10",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
@@ -9137,15 +9326,18 @@
         "aliasOf": "iso23008-12-2017-wdamd2"
     },
     "iso23008-12-2022-cdamd2": {
-        "href": "https://www.iso.org/standard/86521.html",
-        "title": "Information technology — High efficiency coding and media delivery in heterogeneous environments — Part 12: Image File Format — Amendment 2: Renderable text items and other improvements",
-        "status": "Under development",
-        "publisher": "ISO/IEC",
-        "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+        "aliasOf": "iso23008-12-2022-damd2"
     },
     "iso23008-12-2022-damd1": {
         "href": "https://www.iso.org/standard/84767.html",
         "title": "Information technology — High efficiency coding and media delivery in heterogeneous environments — Part 12: Image File Format — Amendment 1: Support for progressive rendering signalling and other improvements",
+        "status": "Under development",
+        "publisher": "ISO/IEC",
+        "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+    },
+    "iso23008-12-2022-damd2": {
+        "href": "https://www.iso.org/standard/86521.html",
+        "title": "Information technology — High efficiency coding and media delivery in heterogeneous environments — Part 12: Image File Format — Amendment 2: Renderable text items and other improvements",
         "status": "Under development",
         "publisher": "ISO/IEC",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
@@ -9183,8 +9375,10 @@
     "iso23008-2": {
         "href": "https://www.iso.org/standard/85457.html",
         "title": "Information technology — High efficiency coding and media delivery in heterogeneous environments — Part 2: High efficiency video coding",
-        "status": "Under development",
+        "status": "Published",
         "publisher": "ISO/IEC",
+        "isoNumber": "ISO 23008-2:2023",
+        "rawDate": "2023-10",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23008-2-2015-amd1-2015": {
@@ -9194,6 +9388,9 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "2015-10",
+        "obsoletedBy": [
+            "iso23008-2"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23008-2-2017-amd1-2018": {
@@ -9203,6 +9400,9 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "2018-03",
+        "obsoletedBy": [
+            "iso23008-2"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23008-2-2017-amd2-2018": {
@@ -9212,6 +9412,9 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "2018-03",
+        "obsoletedBy": [
+            "iso23008-2"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23008-2-2017-amd3-2018": {
@@ -9221,6 +9424,9 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "2018-07",
+        "obsoletedBy": [
+            "iso23008-2"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23008-2-2020-amd1": {
@@ -9229,9 +9435,13 @@
     "iso23008-2-2020-amd1-2021": {
         "href": "https://www.iso.org/standard/80759.html",
         "title": "Information technology — High efficiency coding and media delivery in heterogeneous environments — Part 2: High efficiency video coding — Amendment 1: Shutter interval information SEI message",
-        "status": "Published",
+        "status": "Withdrawn",
         "publisher": "ISO/IEC",
+        "isSuperseded": true,
         "rawDate": "2021-07",
+        "obsoletedBy": [
+            "iso23008-2"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23008-2-2020-cdamd2": {
@@ -9253,15 +9463,18 @@
     "iso23008-2-2020-wdamd2": {
         "aliasOf": "iso23008-2-2020-cdamd2"
     },
-    "iso23008-2-awiamd2": {
-        "aliasOf": "iso23008-2-cdamd2"
-    },
-    "iso23008-2-cdamd1": {
+    "iso23008-2-2023-damd1": {
         "href": "https://www.iso.org/standard/87588.html",
         "title": "Information technology — High efficiency coding and media delivery in heterogeneous environments — Part 2: High efficiency video coding — Amendment 1: New profiles, colour descriptors, and SEI messages",
         "status": "Under development",
         "publisher": "ISO/IEC",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+    },
+    "iso23008-2-awiamd2": {
+        "aliasOf": "iso23008-2-cdamd2"
+    },
+    "iso23008-2-cdamd1": {
+        "aliasOf": "iso23008-2-2023-damd1"
     },
     "iso23008-2-cdamd2": {
         "aliasOf": "iso23008-2-damd2"
@@ -9901,6 +10114,7 @@
         "title": "Information technology — Coded representation of immersive media — Part 13: Video decoding interface for immersive media",
         "status": "Under development",
         "publisher": "ISO/IEC",
+        "rawDate": "2024-01",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23090-13-cdamd1": {
@@ -9919,19 +10133,26 @@
         "rawDate": "2023-06",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
+    "iso23090-14-2023-amd1-2023": {
+        "href": "https://www.iso.org/standard/84769.html",
+        "title": "Information technology — Coded representation of immersive media — Part 14: Scene description — Amendment 1: Support for immersive media codecs in scene description",
+        "status": "Published",
+        "publisher": "ISO/IEC",
+        "rawDate": "2023-11",
+        "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+    },
     "iso23090-14-2023-cdamd2": {
+        "aliasOf": "iso23090-14-2023-damd2"
+    },
+    "iso23090-14-2023-damd2": {
         "href": "https://www.iso.org/standard/86439.html",
-        "title": "Information technology — Coded representation of immersive media — Part 14: Scene description — Amendment 2: Support for haptics, augmented reality, avatars, Interactivity, MPEG-I audio, and lighting",
+        "title": "Information technology — Coded representation of immersive media — Part 14: Scene description — Amendment 2: Support for haptics, augmented reality, avatars, interactivity, MPEG-I audio, and lighting",
         "status": "Under development",
         "publisher": "ISO/IEC",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23090-14-2023-fdamd1": {
-        "href": "https://www.iso.org/standard/84769.html",
-        "title": "Information technology — Coded representation of immersive media — Part 14: Scene description — Amendment 1: Support for immersive media codecs in scene description",
-        "status": "Under development",
-        "publisher": "ISO/IEC",
-        "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+        "aliasOf": "iso23090-14-2023-amd1-2023"
     },
     "iso23090-14-wdamd1": {
         "aliasOf": "iso23090-14-2023-fdamd1"
@@ -9977,6 +10198,7 @@
         "title": "Information technology — Coded representation of immersive media — Part 18: Carriage of geometry-based point cloud compression data",
         "status": "Under development",
         "publisher": "ISO/IEC",
+        "rawDate": "2024-01",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23090-18-cdamd1": {
@@ -10041,14 +10263,16 @@
     },
     "iso23090-20": {
         "href": "https://www.iso.org/standard/82090.html",
-        "title": "Information technology — Coded representation of immersive media — Part 20: Conformance for V-PCC",
-        "status": "Under development",
+        "title": "Information technology — Coded representation of immersive media — Part 20: Conformance testing for visual volumetric video-based coding (V3C) with video-based point cloud compression (V-PCC)",
+        "status": "Published",
         "publisher": "ISO/IEC",
+        "isoNumber": "ISO 23090-20:2023",
+        "rawDate": "2023-12",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23090-21": {
         "href": "https://www.iso.org/standard/81601.html",
-        "title": "Information technology — Coded representation of immersive media — Part 21: Reference Software for G-PCC",
+        "title": "Information technology — Coded representation of immersive media — Part 21: Reference software for Geometry-based Point Cloud Compression (G-PCC)",
         "status": "Under development",
         "publisher": "ISO/IEC",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
@@ -10063,8 +10287,10 @@
     "iso23090-23": {
         "href": "https://www.iso.org/standard/83695.html",
         "title": "Information technology — Coded representation of immersive media — Part 23: Conformance and reference software for MPEG immersive video",
-        "status": "Under development",
+        "status": "Published",
         "publisher": "ISO/IEC",
+        "isoNumber": "ISO 23090-23:2023",
+        "rawDate": "2023-10",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23090-24": {
@@ -10186,17 +10412,25 @@
     "iso23090-5": {
         "href": "https://www.iso.org/standard/83535.html",
         "title": "Information technology — Coded representation of immersive media — Part 5: Visual volumetric video-based coding (V3C) and video-based point cloud compression (V-PCC)",
-        "status": "Under development",
+        "status": "Published",
         "publisher": "ISO/IEC",
+        "isoNumber": "ISO 23090-5:2023",
+        "rawDate": "2023-11",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
-    "iso23090-5-damd1": {
+    "iso23090-5-2023-damd1": {
         "href": "https://www.iso.org/standard/85139.html",
         "title": "Information technology — Coded representation of immersive media — Part 5: Visual volumetric video-based coding (V3C) and video-based point cloud compression (V-PCC) — Amendment 1: V3C extension mechanism and payload type",
         "status": "Deleted",
         "publisher": "ISO/IEC",
         "isRetired": true,
+        "obsoletedBy": [
+            "iso23090-5"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+    },
+    "iso23090-5-damd1": {
+        "aliasOf": "iso23090-5-2023-damd1"
     },
     "iso23090-6": {
         "href": "https://www.iso.org/standard/78988.html",
@@ -10207,25 +10441,32 @@
         "rawDate": "2021-06",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
+    "iso23090-6-2021-amd1": {
+        "href": "https://www.iso.org/standard/81606.html",
+        "title": "Information technology — Coded representation of immersive media — Part 6: Immersive media metrics — Amendment 1: Immersive media metrics for V3C Data and OMAF",
+        "status": "Under development",
+        "publisher": "ISO/IEC",
+        "rawDate": "2024-01",
+        "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+    },
     "iso23090-6-2021-cdamd1": {
         "aliasOf": "iso23090-6-2021-damd1"
     },
     "iso23090-6-2021-cdamd2": {
+        "aliasOf": "iso23090-6-2021-damd2"
+    },
+    "iso23090-6-2021-damd1": {
+        "aliasOf": "iso23090-6-2021-fdamd1"
+    },
+    "iso23090-6-2021-damd2": {
         "href": "https://www.iso.org/standard/86522.html",
         "title": "Information technology — Coded representation of immersive media — Part 6: Immersive media metrics — Amendment 2: Additional latencies and other improvements",
         "status": "Under development",
         "publisher": "ISO/IEC",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
-    "iso23090-6-2021-damd1": {
-        "aliasOf": "iso23090-6-2021-fdamd1"
-    },
     "iso23090-6-2021-fdamd1": {
-        "href": "https://www.iso.org/standard/81606.html",
-        "title": "Information technology — Coded representation of immersive media — Part 6: Immersive media metrics — Amendment 1: Immersive media metrics for V3C Data and OMAF",
-        "status": "Under development",
-        "publisher": "ISO/IEC",
-        "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+        "aliasOf": "iso23090-6-2021-amd1"
     },
     "iso23090-6-cdamd1": {
         "aliasOf": "iso23090-6-2021-cdamd1"
@@ -10428,18 +10669,23 @@
         "rawDate": "2020-11",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
-    "iso23092-5-2020-wdamd1": {
+    "iso23092-5-2020-cdamd1": {
         "href": "https://www.iso.org/standard/84771.html",
         "title": "Information technology — Genomic information representation — Part 5: Conformance — Amendment 1: Version 2 and Part 6 support",
         "status": "Under development",
         "publisher": "ISO/IEC",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
+    "iso23092-5-2020-wdamd1": {
+        "aliasOf": "iso23092-5-2020-cdamd1"
+    },
     "iso23092-6": {
         "href": "https://www.iso.org/standard/78478.html",
         "title": "Information technology — Genomic information representation — Part 6: Coding of genomic annotations",
-        "status": "Under development",
+        "status": "Published",
         "publisher": "ISO/IEC",
+        "isoNumber": "ISO 23092-6:2023",
+        "rawDate": "2023-11",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23093-1": {
@@ -10466,8 +10712,10 @@
     "iso23093-4": {
         "href": "https://www.iso.org/standard/84239.html",
         "title": "Information technology — Internet of media things — Part 4: Reference software and conformance",
-        "status": "Under development",
+        "status": "Published",
         "publisher": "ISO/IEC",
+        "isoNumber": "ISO 23093-4:2023",
+        "rawDate": "2023-11",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23093-5": {
@@ -10514,6 +10762,9 @@
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23094-2-2021-damd1": {
+        "aliasOf": "iso23094-2-2021-fdamd1"
+    },
+    "iso23094-2-2021-fdamd1": {
         "href": "https://www.iso.org/standard/86436.html",
         "title": "Information technology – General video coding — Part 2: Low complexity enhancement video coding — Amendment 1: Additional levels",
         "status": "Under development",
@@ -10809,8 +11060,9 @@
     "iso6048-1": {
         "href": "https://www.iso.org/standard/81984.html",
         "title": "Information technology — JPEG AI learning-based image coding system — Part 1: Core coding system",
-        "status": "Under development",
+        "status": "Deleted",
         "publisher": "ISO/IEC",
+        "isRetired": true,
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso6048-2": {
