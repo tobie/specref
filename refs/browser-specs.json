@@ -1,7 +1,7 @@
 {
     "AFGS1-SPEC": {
         "href": "https://aomediacodec.github.io/afgs1-spec/",
-        "title": "AOMedia Film Grain Synthesis 1 (AFGS1) specification (Draft)",
+        "title": "AOMedia Film Grain Synthesis 1 (AFGS1) specification",
         "status": "Draft Deliverable",
         "publisher": "Alliance for Open Media",
         "deliveredBy": [
@@ -1816,9 +1816,42 @@
     "WASM-CORE-1-FORK-GC": {
         "aliasOf": "WASM-CORE-2-FORK-GC"
     },
+    "WASM-CORE-2-FORK-BRANCH-HINTING": {
+        "href": "https://webassembly.github.io/branch-hinting/core/bikeshed/",
+        "title": "WebAssembly Core: Branch Hinting",
+        "status": "Editor's Draft",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/webassembly/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/WebAssembly/branch-hinting"
+    },
+    "WASM-CORE-2-FORK-EXTENDED-CONST": {
+        "href": "https://webassembly.github.io/extended-const/core/bikeshed/",
+        "title": "WebAssembly Core: Extended Const Expressions",
+        "status": "Editor's Draft",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/webassembly/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/WebAssembly/extended-const"
+    },
+    "WASM-CORE-2-FORK-FUNCTION-REFERENCES": {
+        "href": "https://webassembly.github.io/function-references/core/bikeshed/",
+        "title": "WebAssembly Core: Function Reference Types",
+        "status": "Editor's Draft",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/webassembly/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/WebAssembly/function-references"
+    },
     "WASM-CORE-2-FORK-GC": {
         "href": "https://webassembly.github.io/gc/core/bikeshed/",
-        "title": "WebAssembly Core Specification",
+        "title": "WebAssembly Core: Garbage Collection",
         "status": "Editor's Draft",
         "publisher": "W3C",
         "deliveredBy": [
@@ -1826,6 +1859,61 @@
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/WebAssembly/gc"
+    },
+    "WASM-CORE-2-FORK-MEMORY64": {
+        "href": "https://webassembly.github.io/memory64/core/bikeshed/",
+        "title": "WebAssembly Core: Memory64",
+        "status": "Editor's Draft",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/webassembly/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/WebAssembly/memory64"
+    },
+    "WASM-CORE-2-FORK-MULTI-MEMORY": {
+        "href": "https://webassembly.github.io/multi-memory/core/bikeshed/",
+        "title": "WebAssembly Core: Multi Memory",
+        "status": "Editor's Draft",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/webassembly/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/WebAssembly/multi-memory"
+    },
+    "WASM-CORE-2-FORK-TAIL-CALL": {
+        "href": "https://webassembly.github.io/tail-call/core/bikeshed/",
+        "title": "WebAssembly Core: Tail Call",
+        "status": "Editor's Draft",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/webassembly/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/WebAssembly/tail-call"
+    },
+    "WASM-CORE-2-FORK-THREADS": {
+        "href": "https://webassembly.github.io/threads/core/bikeshed/",
+        "title": "WebAssembly Core: Threading",
+        "status": "Editor's Draft",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/webassembly/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/WebAssembly/threads"
+    },
+    "WASM-JS-API-2-FORK-CONTENT-SECURITY-POLICY": {
+        "href": "https://webassembly.github.io/content-security-policy/js-api/",
+        "title": "WebAssembly JavaScript Interface: Content Security Policy",
+        "status": "Editor's Draft",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/webassembly/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/WebAssembly/content-security-policy"
     },
     "WASM-JS-API-2-FORK-EXCEPTION-HANDLING": {
         "href": "https://webassembly.github.io/exception-handling/js-api/",
@@ -1837,6 +1925,28 @@
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/WebAssembly/exception-handling"
+    },
+    "WASM-JS-API-2-FORK-JS-PROMISE-INTEGRATION": {
+        "href": "https://webassembly.github.io/js-promise-integration/js-api/",
+        "title": "WebAssembly JavaScript Interface: Promise Integration",
+        "status": "Editor's Draft",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/webassembly/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/WebAssembly/js-promise-integration"
+    },
+    "WASM-JS-API-2-FORK-JS-TYPES": {
+        "href": "https://webassembly.github.io/js-types/js-api/",
+        "title": "WebAssembly JavaScript Interface: Type Reflection",
+        "status": "Editor's Draft",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/webassembly/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/WebAssembly/js-types"
     },
     "WEB-BLUETOOTH-SCANNING": {
         "href": "https://webbluetoothcg.github.io/web-bluetooth/scanning.html",
