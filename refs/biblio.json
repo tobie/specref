@@ -2478,6 +2478,32 @@
     "NTP": {
         "aliasOf": "RFC1305"
     },
+    "OandM": {
+        "href": "https://portal.ogc.org/files/?artifact_id=41579",
+        "publisher": "OGC",
+        "ogcNumber": "OGC 10-004r3",
+        "authors": [
+            "Simon Cox"
+        ],
+        "date": "2011",
+        "title": "Observations and Measurements (O&M) v2",
+        "status": "OGC Abstract Specification Topic 20"
+    },
+    "OMS": {
+        "href": "https://docs.ogc.org/as/20-082r4/20-082r4.html",
+        "publisher": "OGC",
+        "ogcNumber": "OGC 20-082r4",
+        "authors": [
+            "Katharina Schleidt", 
+            "Ilkka Rinne"
+        ],
+        "date": "2023",
+        "title": "Observations, measurements and samples (OMS)",
+        "status": "OGC Abstract Specification Topic 20",
+        "obsoletes": [
+            "OandM"
+        ]
+    },
     "OA": {
         "authors": [
             "Robert Sanderson",
@@ -4741,7 +4767,7 @@
         "isoNumber": "ISO 19150-2:2015"
     },
     "iso-19156": {
-        "aliasOf": "iso-19156-2011"
+        "aliasOf": "iso-19156-2023"
     },
     "iso-19156-2011": {
         "authors": [
@@ -4753,6 +4779,20 @@
         "status": "International Standard",
         "date": "2011",
         "isoNumber": "ISO 19156:2011"
+    },
+    "iso-19156-2023": {
+        "authors": [
+            "ISO/TC 211"
+        ],
+        "href": "https://www.iso.org/standard/82463.html",
+        "title": "Geographic information -- Observations, measurements and samples",
+        "publisher": "ISO",
+        "status": "International Standard",
+        "date": "2023",
+        "isoNumber": "ISO 19156:2023",
+        "obsoletes": [
+            "iso-19156-2011"
+        ]
     },
     "iso-19159-2": {
         "aliasOf": "iso-19159-2-2016"
