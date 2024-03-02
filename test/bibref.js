@@ -57,7 +57,7 @@ suite('Test bibref api', function() {
     });
 
     test('bibref.cleanupRefs modifies the refs correctly', function() {
-        var cleanedup = bibref.cleanupRefs({
+        var cleaned = bibref.cleanupRefs({
             foo: {
                 versions: {},
                 rawDate: "2012-1-1",
@@ -65,7 +65,7 @@ suite('Test bibref api', function() {
                 bar: 123
             }
         });
-        var foo = cleanedup.foo;
+        var foo = cleaned.foo;
         assert.ok(typeof foo.versions == "object", "The versions property is an array of identifiers.");
         assert.ok(!('rawDate' in foo));
         assert.ok('date' in foo);
@@ -337,6 +337,22 @@ suite('Test bibref reverseLookup API', function() {
         var output = b.reverseLookup([edDraft]);
         assert(edDraft in output);
         assert.equal("Bar", output[edDraft].title);
+    });
+
+    test('returns the right ref even when url also exists as edDraft', function() {
+        var foo = "http://example.com/foof";
+        var bar = "http://example.com/barf";
+        var b = bibref.create({
+            foo: { title: "Foo", href: foo },
+            fooEd: { title: "Foo ED", edDraft: foo },
+            barEd: { title: "Bar ED", edDraft: bar },
+            bar: { title: "Bar", href: bar }
+        });
+        var output = b.reverseLookup([foo, bar]);
+        assert(foo in output);
+        assert.equal("Foo", output[foo].title);
+        assert(bar in output);
+        assert.equal("Bar", output[bar].title);
     });
 });
 

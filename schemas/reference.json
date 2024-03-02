@@ -61,7 +61,7 @@
                     "$ref": "#/definitions/url"
                 },
                 "shortname": {
-                    "description": "The WG's shorname.",
+                    "description": "The WG's shortname.",
                     "$ref": "#/definitions/id"
                 }
             },
@@ -86,7 +86,7 @@
                     "$ref": "#/definitions/id"
                 },
                 "id": {
-                    "description": "The aliase's ID.",
+                    "description": "The alias's ID.",
                     "$ref": "#/definitions/id"
                 }
             },
@@ -119,7 +119,7 @@
                     "$ref": "#/definitions/nonEmptyString"
                 },
                 "date": {
-                    "description": "Date of publication in humand readable form, favor rawDate instead.",
+                    "description": "Date of publication in human readable form, favor rawDate instead.",
                     "type": "string",
                     "pattern": "^([1-3]?\\d\\s)?((?:January|February|March|April|May|June|July|August|September|October|November|December)\\s)?\\d+$"
                 },
@@ -135,7 +135,7 @@
                     "$ref": "#/definitions/nonEmptyString"
                 },
                 "obsoletes": {
-                    "description": "An array of specifications obsoloted by this specification.",
+                    "description": "An array of specifications obsoleted by this specification.",
                     "$ref": "#/definitions/idList"
                 },
                 "obsoletedBy": {
@@ -163,6 +163,10 @@
                     "description": "Page number(s) where the reference is inside the titled document",
                     "type": "string",
                     "pattern": "^[0-9\\-,]+$"
+                },
+                "repository": {
+                    "description": "URL of the repository",
+                    "$ref": "#/definitions/url"
                 }
             },
             "required": ["title"],

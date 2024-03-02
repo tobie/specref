@@ -4,12 +4,17 @@ var bibref = require('./lib/bibref');
 
 var app = module.exports = require("express")();
 
-var errorhandlerOptions = {};
+var errorhandlerOptions = { log: true };
 if (process.env.NODE_ENV == "dev" || process.env.NODE_ENV == "development") {
     errorhandlerOptions.dumpExceptions = true;
     errorhandlerOptions.showStack = true;
 }
 app.enable("etag");
+var bannedIPs = [
+	// Palo Alto Networks bot
+	"34.96.130.0/24", "34.77.162.0/24", "34.86.35.0/24"
+];
+app.use(require('express-ipfilter').IpFilter(bannedIPs, { logLevel: "deny" }));
 app.use(require("compression")());
 app.use(require("cors")());
 app.use(require("body-parser").urlencoded({ extended: true }));
@@ -34,9 +39,11 @@ app.get('/search-refs', function (req, res, next) {
     if (q) {
 		var obj = {};
 		var current, shortname;
-		
+		var FALSE_POSITIVES = /https?:\/\/|\.html|\.shtml|\.xhtml|\/html/g;
 		function match(str) {
-			return (str.toLowerCase().indexOf(q) > -1);
+			str = str.toLowerCase() || "";
+			str = str.replace(FALSE_POSITIVES, "");
+			return str.indexOf(q) > -1;
 		}
 		
 		function add() {

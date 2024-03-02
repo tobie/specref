@@ -48,7 +48,7 @@ function parseURL(url) {
 exports.readBiblio = readBiblio;
 function readBiblio(f) {
     var filepath = path.join(DIR_PATH, f || DEFAULT_FILE);
-    console.log("Loadind and parsing " + filepath + "...");
+    console.log("Loading and parsing " + filepath + "...");
     var input = fs.readFileSync(filepath, 'utf8');
     return JSON.parse(input);
 }
@@ -69,6 +69,7 @@ function writeBiblio(f, obj) {
         obj = f;
         f = DEFAULT_FILE;
     }
+    f = f || DEFAULT_FILE;
     var filepath = path.join(DIR_PATH, f);
     console.log("Writing output to " + filepath + "...");
     fs.writeFileSync(filepath, JSON.stringify(obj, null, 4) + "\n", 'utf8');
@@ -88,30 +89,48 @@ function tryOverwrite(f) {
         return;
     }
     console.log("Parsing " + filepath_ow + "...");
-    var json = JSON.parse(input);
+    
+    var actions = JSON.parse(input);
     var references = readBiblio(f);
-    Object.keys(json).forEach(function (k) {
+    actions.forEach(function(action) {
+        var k = action.id
         var ref = references[k];
-        var ow = json[k];
-        if (ref) {
-            var ow = json[k];
-            if (ow.delete) {
-                delete references[k];
-                console.log("Deleted", k);
-            } else {
-                console.log("Overwriting", k, "...");
-                Object.keys(ow).forEach(function(prop) {
-                    if (ow[prop].replaceWith) {
-                        console.log("   ", prop + ":", JSON.stringify(ref[prop]), "->", JSON.stringify(ow[prop].replaceWith));
-                        ref[prop] = ow[prop].replaceWith;
-                    } else if (ow[prop].delete) {
-                        console.log("   ", prop + ": deleted");
-                        delete ref[prop];
+        var type = action.action;
+
+        if (type == "createAlias") { // Do this one first as there might not be any reference for it.
+            console.log("Aliasing", k, "to", action.aliasOf);
+            references[k] = { aliasOf: action.aliasOf };
+        } else if (!ref) {           // Check reference exists before any of the others changes
+            console.log("Can't find", k, "in", filepath, "when attempting action:", JSON.stringify(type));
+        } else if (type == "delete") {
+            console.log("Deleting", k);
+            delete references[k];
+        } else if (type == "renameTo") {
+            console.log("Renaming", k, "to", action.newId);
+            var oldRef = references[action.newId];
+            references[action.newId] = ref;
+            delete references[k];
+            if (ref.versions) {
+                Object.keys(ref.versions).forEach(function (version) {
+                    references[k + "-" + version] = { aliasOf: action.newId + "-" + version };
+                });
+            }
+            if (oldRef && oldRef.versions) {
+                ref.versions = ref.versions || {};
+                Object.keys(oldRef.versions).forEach(function (version) {
+                    if (!(version in ref.versions)) {
+                        ref.versions[version] = oldRef.versions[version];
                     }
                 });
             }
-        } else {
-            console.log("Can't find", k, "in", filepath );
+        } else if (type == "replaceProp") {
+            console.log("Replacing property in", k, "...");
+            console.log("   ", action.prop + ":", JSON.stringify(ref[action.prop]), "->", JSON.stringify(action.value));
+            ref[action.prop] = action.value;
+        } else if (type == "deleteProp") {
+            console.log("Deleting property in", k, "...");
+            console.log("   ", action.prop + ": deleted");
+            delete ref[action.prop];
         }
     });
     writeBiblio(f, references);

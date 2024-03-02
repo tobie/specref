@@ -36,14 +36,7 @@ function setup()
 
 function run()
 {
-    node "./scripts/list-refs.js" &&
-    node "./scripts/run.js" && 
-    node "./scripts/ietf.js" &&
-    node "./scripts/w3c.js" &&
-    node "./scripts/csswg.js" &&
-    node "./scripts/fetch-refs.js" "https://resources.whatwg.org/biblio.json" "WHATWG" &&
-    node "./scripts/fetch-refs.js" "https://wicg.github.io/admin/biblio.json" "WICG"; # &&
-   # node "./scripts/fetch-refs.js" "https://wg21.link/index.json" "WG21";
+    ./scripts/run-all;
 }
 
 function run_test_suite()
@@ -72,7 +65,7 @@ function update_repo()
 }
 
 # SET DEFAULTS
-: ${TARGET_BRANCH:=master}
+: ${TARGET_BRANCH:=main}
 : ${WORKING_DIR:=specref}
 
 # REQUIRED

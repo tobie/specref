@@ -244,12 +244,15 @@ request({
             } catch(e) {
                 var root = current[leveled.getRootShortname(aliasShortname)];
                 if (!root || !root.versions || !root.versions[getKey(aliasShortname)]) {
+                    if (aliasShortname in bibref.get(aliasShortname)) {
+                        return;
+                    }
                     throw new Error("Missing data for spec " + aliasShortname);
                 }
             }
             current[k] = { aliasOf: leveled.isLevel(aliasShortname) ? leveled.getRootShortname(aliasShortname) : aliasShortname };
         });
-        
+
         Object.keys(levels).forEach(function(k) {
             current[k] =  { aliasOf: levels[k] };
         });
@@ -309,7 +312,7 @@ function makeCleaner(status, isRetired, isSuperseded) {
         var type = walk(spec, "rdf:type", 0, "$", "rdf:resource");
         var obj = {
             authors:         authors,
-            href:            convertToHttps(walk(spec, "$", "rdf:about")),
+            href:            convertToHttps(walk(spec, "$", "rdf:about").trim()),
             title:           walk(spec, "dc:title", 0),
             rawDate:         walk(spec, "dc:date", 0),
             status:          status,

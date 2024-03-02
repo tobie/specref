@@ -1,8 +1,4 @@
-{
-    "rfc1384": {
-        "obsoletedBy": { "replaceWith": ["rfc1617"] }
-    },
-    "rfc0200": {
-        "obsoletedBy": { "replaceWith": ["RFC-INDEX"] }
-    }
-}
+[
+  { "id": "rfc1384", "action": "replaceProp", "prop": "obsoletedBy", "value": ["rfc1617"] },
+  { "id": "rfc0200", "action": "replaceProp", "prop": "obsoletedBy", "value": ["RFC-INDEX"] }
+]

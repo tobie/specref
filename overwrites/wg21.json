@@ -1,16 +1,6 @@
-{
-    "CWG2219": { 
-        "authors": { "replaceWith": ["Richard Smith"] },
-        "rawDate": { "replaceWith": "2016-01-04" },
-        "date": { "delete": true }
-    },
-    "CWG2221": { 
-        "authors": { "replaceWith": ["Vinny Romano"] },
-        "rawDate": { "replaceWith": "2016-01-09" },
-        "date": { "delete": true }
-    },
-    "CWG2235": { 
-        "authors": { "replaceWith": ["Richard Smith"] },
-        "date": { "delete": true }
-    }
-}
+[
+  { "id": "N4762", "action": "replaceProp", "prop": "title", "value": "Working Draft, Standard for Programming Language C++" },
+  { "id": "N4764", "action": "replaceProp", "prop": "title", "value": "Editors' Report: Programming Languages C++" },
+  { "id": "N4778", "action": "replaceProp", "prop": "title", "value": "Working Draft, Standard for Programming Language C++" },
+  { "id": "N4779", "action": "replaceProp", "prop": "title", "value": "Editors' Report: Programming Languages C++" }
+]

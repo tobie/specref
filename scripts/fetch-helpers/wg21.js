@@ -21,7 +21,7 @@ var EXTRA_WS = /\s+/g;
 
 module.exports = function(id, ref) {
     var output = {
-        title: ref.title,
+        title: ref.title || "(Missing title)",
         href: ref.link,
 	    status: ref.status
     }

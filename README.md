@@ -1,4 +1,4 @@
-Specref API [![Build Status](https://travis-ci.org/tobie/specref.png?branch=master)](https://travis-ci.org/tobie/specref)
+Specref API
 ===========
 
 [Specref](http://www.specref.org/) is an open-source, community-maintained database of Web standards & related references.
@@ -14,6 +14,8 @@ Specref API [![Build Status](https://travis-ci.org/tobie/specref.png?branch=mast
   * [CORS](#cors)
   * [Examples](#examples)
 * [Updating & adding new references](#updating--adding-new-references)
+  * [Commit rights](#commit-rights)
+  * [Review policy](#review-policy)
   * [Hourly auto-updating](#hourly-auto-updating)
   * [Manual changes](#manual-changes)
 * [Licenses](#licenses)
@@ -106,9 +108,9 @@ returns: a JSON object indexed by IDs
 }
 ```
 
-Used to get a set of bibliographic references that include the search term in any of their attributes. This is usefull to find specs related to a given area of study, specs by a given editor, etc.
+Used to get a set of bibliographic references that include the search term in any of their attributes. This is useful to find specs related to a given area of study, specs by a given editor, etc.
     
-### Reverse Lookup
+### Reverse lookup
 
 [`GET https://api.specref.org/reverse-lookup?urls=http://www.w3.org/TR/2012/WD-FileAPI-20121025/`](https://api.specref.org/reverse-lookup?urls=http://www.w3.org/TR/2012/WD-FileAPI-20121025/)
 
@@ -148,7 +150,7 @@ This is by design.
 
 ### Aliases
 
-Because of legacy references, case sensivity issues and taste, many entries have multiple identifiers. Thus an aliasing system was put in place. It isn't _that_ complicated really: an identifier either points directly to the reference object or to another identifier (through the `aliasOf` property), recursively. All aliases are resolved (there are tests for that) and when you query the API for a reference you always get all the objects necessary to resolve it in the same response. So for example, https://api.specref.org/bibrefs?refs=rfc7230 responds with:
+Because of legacy references, case sensitivity issues and taste, many entries have multiple identifiers. Thus an aliasing system was put in place. It isn't _that_ complicated really: an identifier either points directly to the reference object or to another identifier (through the `aliasOf` property), recursively. All aliases are resolved (there are tests for that) and when you query the API for a reference you always get all the objects necessary to resolve it in the same response. So for example, https://api.specref.org/bibrefs?refs=rfc7230 responds with:
 
 ```json
 {
@@ -223,29 +225,65 @@ Some examples should help:
 
 If you need to find a reference ID (for either bibliographic or cross-references) you need to look for it on [specref.org](http://specref.org).
 
-## Updating & Adding New References
+## Updating & adding new references
 
-### Hourly Auto-Updating
+### Commit rights
 
-There are scripts that pull fresh data from IETF, W3C, and WHATWG, and update their relevant files in the `refs` directory. These are now run hourly. Their output is tested, comitted and deployed without human intervention. Content should now always be up to date.
+Specref loosely follows the process described in [The Pull Request Hack](http://felixge.de/2013/03/11/the-pull-request-hack.html). Contributors are generally granted commit access to the repo after their first pull request is successfully merged.
 
-### Manual Changes
+It's expected contributors read-up on how to make [manual changes](https://github.com/tobie/specref#manual-changes) and follow the [review policy](https://github.com/tobie/specref#review-policy) described below.
 
-You can make modifications to the database by editing `refs/biblio.json` in the [GitHub repository](https://github.com/tobie/specref). 
+### Review policy
 
-To do so, fork the project and send a pull request. Note you can ask to be added as a project collaborator (we're pretty open about that) so you can merge your changes directly.
+The review policy has three key principles:
 
-All changes are automatically tested using [travis](https://travis-ci.org/tobie/specref/) and automatically deployed if all tests pass. 
+1. Get non-trivial changes reviewed by someone.
+2. You can merge trivial changes yourself, but allow enough time for others to comment on them before you do.
+3. Never merge a pull request unless travis is green.
+
+We trust contributors to be a good judge of what is trivial, what isn't, and how long to wait before merging a trivial fix. Generally, the more trivial the fix, the shorter the wait.
+
+Similarly, the more a commit message explains the _why_ of a slightly unexpected fix, the less it requires a review.
+
+For example, for a fix that changes an existing HTTPS url to an HTTP one:
+
+#### Bad:
+
+```
+Updating URL.
+```
+#### Good:
+
+```
+There now exists a Persistent URI Registry of EU Institutions and Bodies[1]
+which is to be used when referencing such documents.
+Unfortunately it doesn't use HTTPS yet.
+
+[1]: http://data.europa.eu/
+```
+
+### Hourly auto-updating
+
+There are [scripts](scripts/run-all) that pull fresh data from IETF, W3C, WHATWG and WICG, and update their relevant files in the `refs` directory. These are now run hourly. Their output is tested, committed and deployed without human intervention. Content should now always be up to date.
+
+### Manual changes
+
+Generally, manual changes should be limited to the `refs/biblio.json` file.
+
+If you have commit rights, please don't commit to main directly. Commit to a separate branch (preferably to your fork) and send a pull request.
+
+All changes are automatically tested using [travis](https://travis-ci.org/tobie/specref/) and automatically deployed within minutes if all tests pass. You can check that your changes have been properly deployed on [www.specref.org](http://www.specref.org/), @-mention @tobie in a pull request comment if they haven't.
+
 You can run the tests locally by [installing node.js](https://nodejs.org/en/download/), project dependencies (by running `$ npm install` from the root of the repository) and running `$ npm test`. The test suite is quite large and can take a few minutes to run.
 
-Some rules to observe when editing the database files: 
+Some rules to observe when editing the `refs/biblio.json` file: 
 
-*   If you have commit rights, don't commit to master directly. Commit to a seperate branch (preferably to your fork) and send a pull request. Only merge the pull request to master once travis is green.
 *   Don't remove entries unless you are 100% certain that no one is using it. Typically that only applies to cases in which you have just added a reference and want to remove it.
 *   Don't duplicate entries. Make sure that what you want to add is not in the DB. If it is, add an alias.
-*   Please use structured objects instead of raw strings as much as you possibly can.
+*   Please use structured objects instead of raw strings.
+*   Always favor HTTPS URLs.
 *   The format for structured objects is [described in JSON-schema](./schemas/raw-reference.json). The schema is used to test new entries, so you better abide by it. :)  _(Note I'm still looking for a tool to turn the JSON schema into something more easily consumed by human beings. Let me know if you have an idea, or better yet, send a pull request.)_
-*   When you want to update an existing reference, if you see that it uses the old string style, please convert it to a structured object. 
+*   When you want to update an existing reference, if you see that it uses the old string style, please convert it to a structured object. Edit both `refs/biblio.json` and `refs/legacy.json` in the same pull request, or you won't pass validation.
 * References in this database are expected to be to the “latest and greatest” version of a given specification. In some cases this may be the draft residing in the editor's repository, or it may be the latest snapshot as published by a Working Group into TR — this choice is left to your appreciation. If you really, *really* want to have a reference to a dated version, then use the `versions` property like so:
 
 ```js

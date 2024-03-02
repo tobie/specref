@@ -1,32 +1,550 @@
 {
-    "FEATURE-POLICY": {
-        "href": "https://wicg.github.io/feature-policy/",
-        "title": "Feature Policy",
-        "status": "Living Standard",
+    "AOM": {
+        "href": "https://wicg.github.io/aom/spec/",
+        "title": "Accessibility Object Model",
+        "status": "cg-draft",
         "publisher": "WICG",
-        "source": "https://wicg.github.io/admin/biblio.json"
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/aom"
+    },
+    "BACKGROUND-FETCH": {
+        "href": "https://wicg.github.io/background-fetch/",
+        "title": "Background Fetch",
+        "status": "cg-draft",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/background-fetch"
+    },
+    "BUDGET-API": {
+        "href": "https://wicg.github.io/budget-api/",
+        "title": "Web Budget API",
+        "status": "cg-draft",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/budget-api"
+    },
+    "CLIENT-HINTS-INFRASTRUCTURE": {
+        "href": "https://wicg.github.io/client-hints-infrastructure/",
+        "title": "Client Hints Infrastructure",
+        "status": "cg-draft",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/client-hints-infrastructure"
+    },
+    "COMPRESSION": {
+        "href": "https://wicg.github.io/compression/",
+        "title": "Compression Streams",
+        "status": "cg-draft",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/compression"
+    },
+    "COOKIE-STORE": {
+        "href": "https://wicg.github.io/cookie-store/",
+        "title": "Cookie Store API",
+        "status": "cg-draft",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/cookie-store"
+    },
+    "CORS-RFC1918": {
+        "href": "https://wicg.github.io/cors-rfc1918/",
+        "title": "CORS and RFC1918",
+        "status": "cg-draft",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/cors-rfc1918"
+    },
+    "CSS-PARSER-API": {
+        "href": "https://wicg.github.io/css-parser-api/",
+        "title": "CSS Parser API",
+        "status": "cg-draft",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/css-parser-api"
+    },
+    "DOCUMENT-POLICY": {
+        "href": "https://wicg.github.io/document-policy/",
+        "title": "Document Policy",
+        "status": "cg-draft",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/document-policy"
+    },
+    "ELEMENT-TIMING": {
+        "href": "https://wicg.github.io/element-timing/",
+        "title": "Element Timing API",
+        "status": "cg-draft",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/element-timing"
+    },
+    "ENTRIES-API": {
+        "href": "https://wicg.github.io/entries-api/",
+        "title": "File and Directory Entries API",
+        "status": "cg-draft",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/entries-api"
+    },
+    "FILE-SYSTEM-ACCESS": {
+        "href": "https://wicg.github.io/file-system-access/",
+        "title": "File System Access",
+        "status": "cg-draft",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/file-system-access"
+    },
+    "IDLE-DETECTION": {
+        "href": "https://wicg.github.io/idle-detection/",
+        "title": "Idle Detection API",
+        "status": "cg-draft",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/idle-detection"
+    },
+    "INPUT-DEVICE-CAPABILITIES": {
+        "href": "https://wicg.github.io/input-device-capabilities/",
+        "title": "Input Device Capabilities",
+        "status": "cg-draft",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/input-device-capabilities"
+    },
+    "JS-SELF-PROFILING": {
+        "href": "https://wicg.github.io/js-self-profiling/",
+        "title": "JS Self-Profiling API",
+        "status": "cg-draft",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/js-self-profiling"
+    },
+    "KEYBOARD-LOCK": {
+        "href": "https://wicg.github.io/keyboard-lock/",
+        "title": "Keyboard Lock",
+        "status": "cg-draft",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/keyboard-lock"
+    },
+    "KEYBOARD-MAP": {
+        "href": "https://wicg.github.io/keyboard-map/",
+        "title": "Keyboard Map",
+        "status": "cg-draft",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/keyboard-map"
+    },
+    "KV-STORAGE": {
+        "href": "https://wicg.github.io/kv-storage/",
+        "title": "KV Storage",
+        "status": "cg-draft",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/kv-storage"
+    },
+    "LAYOUT-INSTABILITY": {
+        "href": "https://wicg.github.io/layout-instability/",
+        "title": "Layout Instability",
+        "status": "cg-draft",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/layout-instability"
+    },
+    "LOCAL-FONT-ACCESS": {
+        "href": "https://wicg.github.io/local-font-access/",
+        "title": "Local Font Access",
+        "status": "cg-draft",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/local-font-access"
+    },
+    "MANIFEST-INCUBATIONS": {
+        "href": "https://wicg.github.io/manifest-incubations/",
+        "title": "Manifest Incubations",
+        "status": "cg-draft",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/manifest-incubations"
+    },
+    "MULTICAPTURE": {
+        "href": "https://wicg.github.io/multicapture/",
+        "title": "Multicapture",
+        "status": "cg-draft",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/multicapture"
+    },
+    "NATIVE-FILE-SYSTEM": {
+        "href": "https://wicg.github.io/native-file-system/",
+        "title": "Native File System",
+        "status": "cg-draft",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/native-file-system"
+    },
+    "NETINFO": {
+        "href": "https://wicg.github.io/netinfo/",
+        "title": "Network Information API",
+        "status": "cg-draft",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/netinfo"
+    },
+    "ORIGIN-POLICY": {
+        "href": "https://wicg.github.io/origin-policy/",
+        "title": "Origin Policy",
+        "status": "cg-draft",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/origin-policy"
+    },
+    "PAGE-LIFECYCLE": {
+        "href": "https://wicg.github.io/page-lifecycle/",
+        "title": "Page Lifecycle",
+        "status": "cg-draft",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/page-lifecycle"
+    },
+    "PERIODIC-BACKGROUND-SYNC": {
+        "href": "https://wicg.github.io/periodic-background-sync/",
+        "title": "Web Periodic Background Synchronization",
+        "status": "cg-draft",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/periodic-background-sync"
+    },
+    "PERMISSIONS-REQUEST": {
+        "href": "https://wicg.github.io/permissions-request/",
+        "title": "Requesting Permissions",
+        "status": "cg-draft",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/permissions-request"
+    },
+    "PERMISSIONS-REVOKE": {
+        "href": "https://wicg.github.io/permissions-revoke/",
+        "title": "Relinquishing Permissions",
+        "status": "cg-draft",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/permissions-revoke"
+    },
+    "PREFER-CURRENT-TAB": {
+        "href": "https://wicg.github.io/prefer-current-tab/",
+        "title": "preferCurrentTab",
+        "status": "cg-draft",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/prefer-current-tab"
+    },
+    "PRIORITY-HINTS": {
+        "href": "https://wicg.github.io/priority-hints/",
+        "title": "Priority Hints",
+        "status": "cg-draft",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/priority-hints"
+    },
+    "RESIZE-OBSERVER": {
+        "href": "https://wicg.github.io/ResizeObserver/",
+        "title": "Resize Observer",
+        "status": "cg-draft",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/ResizeObserver"
+    },
+    "SCHEDULING-APIS": {
+        "href": "https://wicg.github.io/scheduling-apis/",
+        "title": "Prioritized Task Scheduling",
+        "status": "cg-draft",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/scheduling-apis"
+    },
+    "SCROLL-ANIMATIONS": {
+        "href": "https://wicg.github.io/scroll-animations/",
+        "title": "Scroll-linked Animations",
+        "status": "cg-draft",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/scroll-animations"
+    },
+    "SHAPE-DETECTION-API": {
+        "href": "https://wicg.github.io/shape-detection-api/",
+        "title": "Accelerated Shape Detection in Images",
+        "status": "cg-draft",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/shape-detection-api"
+    },
+    "SMS-ONE-TIME-CODES": {
+        "href": "https://wicg.github.io/sms-one-time-codes/",
+        "title": "Origin-bound one-time codes delivered via SMS",
+        "status": "cg-draft",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/sms-one-time-codes"
+    },
+    "SPEECH-API": {
+        "href": "https://wicg.github.io/speech-api/",
+        "title": "Web Speech API",
+        "status": "cg-draft",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/speech-api"
+    },
+    "TEXT-DETECTION-API": {
+        "href": "https://wicg.github.io/shape-detection-api/text.html",
+        "title": "Accelerated Text Detection in Images",
+        "status": "cg-draft",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/shape-detection-api"
+    },
+    "VISUAL-VIEWPORT": {
+        "href": "https://wicg.github.io/visual-viewport/",
+        "title": "Visual Viewport API",
+        "status": "cg-draft",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/visual-viewport"
+    },
+    "WEB-APP-LAUNCH": {
+        "href": "https://wicg.github.io/web-app-launch/",
+        "title": "Web App Launch Handler API",
+        "status": "cg-draft",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/web-app-launch"
     },
     "WEB-BACKGROUND-SYNC": {
-        "href": "https://wicg.github.io/BackgroundSync/spec/",
-        "title": "Web Background Synchronization specification draft",
-        "status": "Living Standard",
+        "href": "https://wicg.github.io/background-sync/spec/",
+        "title": "Web Background Synchronization",
+        "status": "cg-draft",
         "publisher": "WICG",
-        "source": "https://wicg.github.io/admin/biblio.json"
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/background-sync"
     },
     "WEBUSB": {
         "href": "https://wicg.github.io/webusb/",
-        "title": "WebUSB API specification draft",
-        "status": "Living Standard",
+        "title": "WebUSB API",
+        "status": "cg-draft",
         "publisher": "WICG",
-        "source": "https://wicg.github.io/admin/biblio.json"
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/webusb"
+    },
+    "WICG-AOM": {
+        "aliasOf": "AOM"
+    },
+    "WICG-BACKGROUND-FETCH": {
+        "aliasOf": "BACKGROUND-FETCH"
+    },
+    "WICG-BADGING": {
+        "aliasOf": "BADGING"
+    },
+    "WICG-BUDGET-API": {
+        "aliasOf": "BUDGET-API"
+    },
+    "WICG-CLIENT-HINTS-INFRASTRUCTURE": {
+        "aliasOf": "CLIENT-HINTS-INFRASTRUCTURE"
+    },
+    "WICG-COMPRESSION": {
+        "aliasOf": "COMPRESSION"
+    },
+    "WICG-COOKIE-STORE": {
+        "aliasOf": "COOKIE-STORE"
+    },
+    "WICG-CORS-RFC1918": {
+        "aliasOf": "CORS-RFC1918"
+    },
+    "WICG-CSS-ANIMATION-WORKLET": {
+        "aliasOf": "CSS-ANIMATION-WORKLET"
+    },
+    "WICG-CSS-OVERSCROLL-BEHAVIOR": {
+        "aliasOf": "CSS-OVERSCROLL-BEHAVIOR"
+    },
+    "WICG-CSS-PARSER-API": {
+        "aliasOf": "CSS-PARSER-API"
+    },
+    "WICG-CSS-SCROLL-BOUNDARY-BEHAVIOR": {
+        "aliasOf": "CSS-SCROLL-BOUNDARY-BEHAVIOR"
+    },
+    "WICG-DOCUMENT-POLICY": {
+        "aliasOf": "DOCUMENT-POLICY"
+    },
+    "WICG-ELEMENT-TIMING": {
+        "aliasOf": "ELEMENT-TIMING"
+    },
+    "WICG-ENTRIES-API": {
+        "aliasOf": "ENTRIES-API"
+    },
+    "WICG-EVENT-TIMING": {
+        "aliasOf": "EVENT-TIMING"
     },
     "WICG-FEATURE-POLICY": {
         "aliasOf": "FEATURE-POLICY"
     },
+    "WICG-FILE-SYSTEM-ACCESS": {
+        "aliasOf": "FILE-SYSTEM-ACCESS"
+    },
+    "WICG-FRAME-TIMING": {
+        "href": "https://wicg.github.io/frame-timing/",
+        "title": "Frame Timing",
+        "status": "cg-draft",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/frame-timing"
+    },
+    "WICG-GEOLOCATION-SENSOR": {
+        "aliasOf": "geolocation-sensor"
+    },
+    "WICG-IDLE-DETECTION": {
+        "aliasOf": "IDLE-DETECTION"
+    },
+    "WICG-INPUT-DEVICE-CAPABILITIES": {
+        "aliasOf": "INPUT-DEVICE-CAPABILITIES"
+    },
+    "WICG-JS-SELF-PROFILING": {
+        "aliasOf": "JS-SELF-PROFILING"
+    },
+    "WICG-KEYBOARD-LOCK": {
+        "aliasOf": "KEYBOARD-LOCK"
+    },
+    "WICG-KEYBOARD-MAP": {
+        "aliasOf": "KEYBOARD-MAP"
+    },
+    "WICG-KV-STORAGE": {
+        "aliasOf": "KV-STORAGE"
+    },
+    "WICG-LARGEST-CONTENTFUL-PAINT": {
+        "aliasOf": "LARGEST-CONTENTFUL-PAINT"
+    },
+    "WICG-LAYOUT-INSTABILITY": {
+        "aliasOf": "LAYOUT-INSTABILITY"
+    },
+    "WICG-LOCAL-FONT-ACCESS": {
+        "aliasOf": "LOCAL-FONT-ACCESS"
+    },
+    "WICG-MANIFEST-INCUBATIONS": {
+        "aliasOf": "MANIFEST-INCUBATIONS"
+    },
+    "WICG-MEDIA-CAPABILITIES": {
+        "aliasOf": "MEDIA-CAPABILITIES"
+    },
+    "WICG-MEDIA-PLAYBACK-QUALITY": {
+        "aliasOf": "MEDIA-PLAYBACK-QUALITY"
+    },
+    "WICG-MEDIASESSION": {
+        "aliasOf": "MEDIASESSION"
+    },
+    "WICG-MST-CONTENT-HINT": {
+        "aliasOf": "mst-content-hint"
+    },
+    "WICG-MULTICAPTURE": {
+        "aliasOf": "MULTICAPTURE"
+    },
+    "WICG-NATIVE-FILE-SYSTEM": {
+        "aliasOf": "NATIVE-FILE-SYSTEM"
+    },
+    "WICG-NETINFO": {
+        "aliasOf": "NETINFO"
+    },
+    "WICG-NETWORK-ERROR-LOGGING": {
+        "href": "https://wicg.github.io/network-error-logging/",
+        "title": "Network Error Logging",
+        "status": "cg-draft",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/network-error-logging"
+    },
+    "WICG-ORIGIN-POLICY": {
+        "aliasOf": "ORIGIN-POLICY"
+    },
+    "WICG-PAGE-LIFECYCLE": {
+        "aliasOf": "PAGE-LIFECYCLE"
+    },
+    "WICG-PERIODIC-BACKGROUND-SYNC": {
+        "aliasOf": "PERIODIC-BACKGROUND-SYNC"
+    },
+    "WICG-PERMISSIONS-REQUEST": {
+        "aliasOf": "PERMISSIONS-REQUEST"
+    },
+    "WICG-PERMISSIONS-REVOKE": {
+        "aliasOf": "PERMISSIONS-REVOKE"
+    },
+    "WICG-PICTURE-IN-PICTURE": {
+        "aliasOf": "PICTURE-IN-PICTURE"
+    },
+    "WICG-PREFER-CURRENT-TAB": {
+        "aliasOf": "PREFER-CURRENT-TAB"
+    },
+    "WICG-PRIORITY-HINTS": {
+        "aliasOf": "PRIORITY-HINTS"
+    },
+    "WICG-REPORTING": {
+        "aliasOf": "REPORTING"
+    },
+    "WICG-RESIZE-OBSERVER": {
+        "aliasOf": "RESIZE-OBSERVER"
+    },
+    "WICG-SCHEDULING-APIS": {
+        "aliasOf": "SCHEDULING-APIS"
+    },
+    "WICG-SCROLL-ANIMATIONS": {
+        "aliasOf": "SCROLL-ANIMATIONS"
+    },
+    "WICG-SHAPE-DETECTION-API": {
+        "aliasOf": "SHAPE-DETECTION-API"
+    },
+    "WICG-SMS-ONE-TIME-CODES": {
+        "aliasOf": "SMS-ONE-TIME-CODES"
+    },
+    "WICG-SPEECH-API": {
+        "aliasOf": "SPEECH-API"
+    },
+    "WICG-TEXT-DETECTION-API": {
+        "aliasOf": "TEXT-DETECTION-API"
+    },
+    "WICG-TRUSTED-TYPES": {
+        "aliasOf": "TRUSTED-TYPES"
+    },
+    "WICG-VISUAL-VIEWPORT": {
+        "aliasOf": "VISUAL-VIEWPORT"
+    },
+    "WICG-WEB-APP-LAUNCH": {
+        "aliasOf": "WEB-APP-LAUNCH"
+    },
     "WICG-WEB-BACKGROUND-SYNC": {
         "aliasOf": "WEB-BACKGROUND-SYNC"
     },
+    "WICG-WEB-LOCKS": {
+        "aliasOf": "WEB-LOCKS"
+    },
+    "WICG-WEB-SHARE": {
+        "href": "https://wicg.github.io/web-share/",
+        "title": "Web Share API",
+        "status": "cg-draft",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/web-share"
+    },
+    "WICG-WEB-SHARE-TARGET": {
+        "aliasOf": "WEB-SHARE-TARGET"
+    },
     "WICG-WEBUSB": {
         "aliasOf": "WEBUSB"
+    },
+    "WICG-WINDOW-CONTROLS-OVERLAY": {
+        "aliasOf": "WINDOW-CONTROLS-OVERLAY"
+    },
+    "WINDOW-CONTROLS-OVERLAY": {
+        "href": "https://wicg.github.io/window-controls-overlay/",
+        "title": "Window Controls Overlay",
+        "status": "cg-draft",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/window-controls-overlay"
     }
 }

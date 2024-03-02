@@ -1,0 +1,22 @@
+#!/bin/bash
+
+node "./scripts/list-refs.js" &&
+node "./scripts/run.js" &&
+node "./scripts/browser-specs.js" &&
+node "./scripts/ietf.js" &&
+node "./scripts/w3c.js" &&
+node "./scripts/csswg.js" &&
+node "./scripts/unicode.js" &&
+node "./scripts/fetch-refs.js" "https://resources.whatwg.org/biblio.json" "WHATWG" &&
+node "./scripts/fetch-refs.js" "https://wicg.github.io/admin/biblio.json" "WICG" &&
+node "./scripts/fetch-refs.js" "https://wg21.link/index.json" "WG21" &&
+node "./scripts/fetch-refs.js" "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D" "iso_jtc1_sc29" "--no-prefix" &&
+node "./scripts/fetch-refs.js" "https://dashifspecref.blob.core.windows.net/scte/scte.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=eIrXcpSm6WkcgRNBgNKlyMnIUGWLwgTurzYy8K2WApI%3D" "scte" "--no-prefix" &&
+node "./scripts/fetch-refs.js" "https://dashifspecref.blob.core.windows.net/etsi/etsi.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=J%2Fe40FI%2FkhFWRZMUEzmbr6pkNwukw6ChdjsifRaQ%2F%2Bg%3D" "etsi" "--no-prefix" &&
+node "./scripts/run.js" "./github" "csswg.json" &&
+node "./scripts/run.js" "./github" "w3c.json" &&
+node "./scripts/run.js" "./github" "wicg.json" &&
+node "./scripts/run.js" "./github" "biblio.json" &&
+node "./scripts/run.js" "./github" "whatwg.json";
+
+

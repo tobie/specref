@@ -2,6 +2,7 @@
 var helper = require('./helper');
 var moduleName = process.argv[2];
 var fn = moduleName ? require(moduleName) : noop;
+var FILE = process.argv[3];
 
 function noop(k, v, input, output, cb) {
     output[k] = v;
@@ -20,11 +21,11 @@ function next(keys, input, output) {
         });
     } else {
         output = helper.sortRefs(output);
-        helper.writeBiblio(output)
+        helper.writeBiblio(FILE, output)
     }
 }
 if (require.main === module) {
-    var input = helper.readBiblio();
+    var input = helper.readBiblio(FILE);
     if (moduleName) console.log("Applying module", moduleName);
     next(Object.keys(input), input, {});
 }

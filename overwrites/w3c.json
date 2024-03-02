@@ -1,32 +1,19 @@
-{
-    "WebIDL": {
-        "title": { "replaceWith": "Web IDL" },
-        "authors": { "replaceWith": ["Cameron McCormack", "Boris Zbarsky", "Tobie Langel"] },
-        "status": { "replaceWith": "ED" },
-        "href": { "replaceWith": "https://heycam.github.io/webidl/" }
-    },
-    "WebCryptoAPI": {
-        "edDraft": { "replaceWith": "https://w3c.github.io/webcrypto/Overview.html" }
-    },    
-    "service-workers-1": {
-        "edDraft": { "replaceWith": "https://w3c.github.io/ServiceWorker/" }
-    },
-    "vibration": {
-        "edDraft": { "replaceWith": "https://w3c.github.io/vibration/" }
-    },
-    "url": {
-        "delete": true
-    },
-    "fullscreen": {
-        "delete": true
-    },
-    "notifications": {
-        "delete": true
-    },
-    "dom": {
-        "delete": true
-    },
-    "encoding": {
-        "delete": true
-    }
-}
+[
+  { "id": "WebIDL",            "action": "delete" },
+  { "id": "WebIDL-1",          "action": "delete" },
+  { "id": "WebIDL-1",          "action": "createAlias", "aliasOf": "WEBIDL"},
+  { "id": "websockets",        "action": "delete" },
+  { "id": "url",               "action": "delete" },
+  { "id": "fullscreen",        "action": "delete" },
+  { "id": "notifications",     "action": "delete" },
+  { "id": "dom",               "action": "delete" },
+  { "id": "encoding",          "action": "delete" },
+  { "id": "hr-time",           "action": "createAlias", "aliasOf": "hr-time-3"},
+  { "id": "resource-timing",   "action": "createAlias", "aliasOf": "resource-timing-2"},
+  { "id": "xpath",             "action": "replaceProp", "prop": "href", "value": "https://www.w3.org/TR/xpath-10/" },
+  { "id": "PNG",               "action": "renameTo", "newId": "PNG-1"},
+  { "id": "PNG",               "action": "createAlias", "aliasOf": "png-3"},
+  { "id": "media-source",      "action": "renameTo", "newId": "media-source-1" },
+  { "id": "media-source-1",    "action": "replaceProp", "prop": "href", "value": "https://www.w3.org/TR/media-source-1/" },
+  { "id": "media-source",      "action": "createAlias", "aliasOf": "media-source-2" }
+]

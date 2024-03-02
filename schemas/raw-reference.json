@@ -151,7 +151,7 @@
                     "$ref": "#/definitions/nonEmptyString"
                 },
                 "date": {
-                    "description": "Date of publication in humand readable form, favor rawDate instead.",
+                    "description": "Date of publication in human readable form, favor rawDate instead.",
                     "$ref": "#/definitions/nonEmptyString"
                 },
                 "deliveredBy": {
@@ -206,12 +206,12 @@
                 "rfcNumber": {
                     "description": "Number of IETF RFC",
                     "type": "string",
-                    "pattern": "^RFC\\d{4}$"
+                    "pattern": "^(BCP|RFC)\\d{4}$"
                 },
                 "isoNumber": {
                     "description": "Number of ISO standard",
                     "type": "string",
-                    "pattern": "^ISO(\\/IEC)?(\\/((TS)|(DIS)|(FDIS)))? \\d{4,}(\\-\\d+)?(\\:\\d{4})?$"
+                    "pattern": "^ISO(\\/IEC)?(\\/((TS)|(DIS)|(FDIS)))? \\d{3,}(\\-\\d+)?(\\:\\d{4})?$"
                 },
                 "ogcNumber": {
                     "description": "Number of OGC standard",
@@ -255,7 +255,11 @@
                 "pages": {
                     "description": "Page number(s) where the reference is inside the titled document",
                     "type": "string",
-                    "pattern": "^[0-9\\-,]+$"
+                    "pattern": "^[0-9\\-,:]+$"
+                },
+                "repository": {
+                    "description": "URL of the repository",
+                    "$ref": "#/definitions/url"
                 }
             },
             "required": ["title"],

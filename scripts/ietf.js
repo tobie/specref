@@ -4,7 +4,7 @@ var request = require('request'),
     helper = require('./helper'),
     xml2js = require('xml2js');
 
-var RFC_URL = "http://www.ietf.org/rfc/rfc-index.xml";
+var RFC_URL = "https://www.rfc-editor.org/in-notes/rfc-index.xml";
 var FILE = "ietf.json";
 
 var current = helper.readBiblio(FILE);
@@ -40,12 +40,73 @@ request({
     helper.tryOverwrite(FILE);
 });
 
+// From https://github.com/httpwg/httpwg.github.io/tree/main/specs
+// JSON.stringify([...new Set(
+//   [...document.querySelectorAll('div[title^=rfc]')]
+//     .map(el => el.getAttribute('title').replace(/\..*$/, '')).sort()
+// )], null, 4);
+var HTTP_SPECS = [
+    "rfc2818",
+    "rfc5789",
+    "rfc5861",
+    "rfc6265",
+    "rfc6266",
+    "rfc6585",
+    "rfc7230",
+    "rfc7231",
+    "rfc7232",
+    "rfc7233",
+    "rfc7234",
+    "rfc7235",
+    "rfc7538",
+    "rfc7540",
+    "rfc7541",
+    "rfc7615",
+    "rfc7616",
+    "rfc7617",
+    "rfc7639",
+    "rfc7694",
+    "rfc7725",
+    "rfc7838",
+    "rfc8144",
+    "rfc8164",
+    "rfc8188",
+    "rfc8246",
+    "rfc8288",
+    "rfc8297",
+    "rfc8336",
+    "rfc8441",
+    "rfc8470",
+    "rfc8941",
+    "rfc9110",
+    "rfc9111",
+    "rfc9112",
+    "rfc9113",
+    "rfc9114",
+    "rfc9204",
+    "rfc9205",
+    "rfc9209",
+    "rfc9211",
+    "rfc9213",
+    "rfc9218",
+    "rfc9220",
+    "rfc9412",
+    "rfc9440"
+];
+
 function href(index) {
-    return "https://tools.ietf.org/html/" + unpad(index.toLowerCase());
+    index = index.toLowerCase();
+    if (HTTP_SPECS.indexOf(index) > -1) {
+        return "https://httpwg.org/specs/" + index + ".html";
+    }
+    if (index.indexOf("bcp") == 0) {
+        return "https://www.rfc-editor.org/info/" + unpad(index);
+    }
+    return "https://www.rfc-editor.org/rfc/" + unpad(index);
 }
 
 function unpad(index) {
-    return index.replace(/(rfc)0*(\d+)/i, "$1$2");
+    return index.replace(/(rfc|bcp)0*(\d+)/i, "$1$2");
 }
 
 var MONTHS = [
