@@ -4189,1522 +4189,1523 @@
             },
             "status": "OGC Standard"
         },
-        "gml": {
-            "href": "http://www.opengeospatial.org/standards/gml",
-            "title": "Geography Markup Language (GML) Encoding Standard",
-            "publisher": "Open Geospatial Consortium Inc.",
-            "deliveredBy": [
-                "http://www.opengeospatial.org"
-            ],
-            "ogcNumber": "OGC 07-036",
-            "versions": {
-                "20070827": {
-                    "authors": [
-                        "Clemens Portele"
-                    ],
-                    "href": "http://portal.opengeospatial.org/files/?artifact_id=20509",
-                    "title": "Geography Markup Language (GML) Encoding Standard",
-                    "rawDate": "2007-08-27",
-                    "publisher": "Open Geospatial Consortium Inc.",
-                    "deliveredBy": [
-                        "http://www.opengeospatial.org"
-                    ]
-                }
+    },
+    "gml": {
+        "href": "http://www.opengeospatial.org/standards/gml",
+        "title": "Geography Markup Language (GML) Encoding Standard",
+        "publisher": "Open Geospatial Consortium Inc.",
+        "deliveredBy": [
+            "http://www.opengeospatial.org"
+        ],
+        "ogcNumber": "OGC 07-036",
+        "versions": {
+            "20070827": {
+                "authors": [
+                    "Clemens Portele"
+                ],
+                "href": "http://portal.opengeospatial.org/files/?artifact_id=20509",
+                "title": "Geography Markup Language (GML) Encoding Standard",
+                "rawDate": "2007-08-27",
+                "publisher": "Open Geospatial Consortium Inc.",
+                "deliveredBy": [
+                    "http://www.opengeospatial.org"
+                ]
             }
-        },
-        "h-adr": {
-            "authors": [
-                "Tantek Çelik"
-            ],
-            "href": "http://microformats.org/wiki/h-adr",
-            "title": "h-adr",
-            "publisher": "microformats.org",
-            "status": "Living Specification"
-        },
-        "h-card": {
-            "authors": [
-                "Tantek Çelik"
-            ],
-            "href": "http://microformats.org/wiki/h-card",
-            "title": "h-card",
-            "publisher": "microformats.org",
-            "status": "Living Specification"
-        },
-        "h-entry": {
-            "authors": [
-                "Tantek Çelik"
-            ],
-            "href": "http://microformats.org/wiki/h-entry",
-            "title": "h-entry",
-            "publisher": "microformats.org",
-            "status": "Living Specification"
-        },
-        "h-event": {
-            "authors": [
-                "Tantek Çelik"
-            ],
-            "href": "http://microformats.org/wiki/h-event",
-            "title": "h-event",
-            "publisher": "microformats.org",
-            "status": "Living Specification"
-        },
-        "h-feed": {
-            "authors": [
-                "Tantek Çelik"
-            ],
-            "href": "http://microformats.org/wiki/h-feed",
-            "title": "h-feed",
-            "publisher": "microformats.org",
-            "status": "Living Specification"
-        },
-        "h-geo": {
-            "authors": [
-                "Tantek Çelik"
-            ],
-            "href": "http://microformats.org/wiki/h-geo",
-            "title": "h-geo",
-            "publisher": "microformats.org",
-            "status": "Living Specification"
-        },
-        "h-item": {
-            "authors": [
-                "Tantek Çelik"
-            ],
-            "href": "http://microformats.org/wiki/h-item",
-            "title": "h-item",
-            "publisher": "microformats.org",
-            "status": "Living Specification"
-        },
-        "h-listing": {
-            "authors": [
-                "Tantek Çelik",
-                "Tom Morris",
-                "Arthur Rădulescu"
-            ],
-            "href": "http://microformats.org/wiki/h-listing",
-            "title": "h-listing",
-            "publisher": "microformats.org",
-            "status": "Living Specification"
-        },
-        "h-product": {
-            "authors": [
-                "Tantek Çelik"
-            ],
-            "href": "http://microformats.org/wiki/h-product",
-            "title": "h-product",
-            "publisher": "microformats.org",
-            "status": "Living Specification"
-        },
-        "h-recipe": {
-            "authors": [
-                "Tantek Çelik"
-            ],
-            "href": "http://microformats.org/wiki/h-recipe",
-            "title": "h-recipe",
-            "publisher": "microformats.org",
-            "status": "Living Specification"
-        },
-        "h-resume": {
-            "authors": [
-                "Tantek Çelik"
-            ],
-            "href": "http://microformats.org/wiki/h-resume",
-            "title": "h-resume",
-            "publisher": "microformats.org",
-            "status": "Living Specification"
-        },
-        "h-review": {
-            "authors": [
-                "Tantek Çelik"
-            ],
-            "href": "http://microformats.org/wiki/h-review",
-            "title": "h-review",
-            "publisher": "microformats.org",
-            "status": "Living Specification"
-        },
-        "hCard": {
-            "authors": [
-                "Tantek Celik",
-                "Brian Suda"
-            ],
-            "href": "http://microformats.org/wiki/hcard",
-            "title": "hCard 1.0",
-            "date": "23 June 2013"
-        },
-        "html-20121025": {
-            "aliasOf": "html5-20121025"
-        },
-        "html-20121217": {
-            "aliasOf": "html5-20121217"
-        },
-        "html-20130806": {
-            "aliasOf": "html5-20130806"
-        },
-        "html-20140204": {
-            "aliasOf": "html5-20140204"
-        },
-        "html-20140429": {
-            "aliasOf": "html5-20140429"
-        },
-        "html-20140617": {
-            "aliasOf": "html5-20140617"
-        },
-        "http-signatures": {
-            "authors": [
-                "Mark Cavage",
-                "Manu Sporny"
-            ],
-            "href": "https://datatracker.ietf.org/doc/html/draft-cavage-http-signatures",
-            "title": "HTTP Signatures",
-            "status": "WD",
-            "publisher": "IETF",
-            "deliveredBy": [
-                "https://datatracker.ietf.org/wg/httpauth/"
-            ],
-            "versions": {
-                "20130504": {
-                    "authors": [
-                        "Mark Cavage",
-                        "Manu Sporny"
-                    ],
-                    "href": "https://datatracker.ietf.org/doc/html/draft-cavage-http-signatures-00",
-                    "title": "HTTP Signatures",
-                    "rawDate": "2013-05-04",
-                    "publisher": "IETF",
-                    "isRetired": true,
-                    "deliveredBy": [
-                        "https://datatracker.ietf.org/wg/httpauth/"
-                    ],
-                    "source": "https://web-payments.org/specs/source/http-signatures/"
-                }
-            },
-            "rawDate": "2013-05-04",
-            "isRetired": true,
-            "source": "https://web-payments.org/specs/source/http-signatures/"
-        },
-        "inspire-md": {
-            "href": "https://inspire.ec.europa.eu/id/document/tg/metadata-iso19139",
-            "title": "Technical Guidance for the implementation of INSPIRE dataset and service metadata based on ISO/TS 19139:2007. Version 2.1.3",
-            "rawDate": "2023-07-31",
-            "publisher": "European Commission",
-            "deliveredBy": [
-                "https://inspire.ec.europa.eu/inspire-maintenance-and-implementation/"
-            ],
-            "versions": {
-                "20081219": {
-                    "href": "https://inspire.ec.europa.eu/reports/ImplementingRules/metadata/MD_IR_and_ISO_20081219.pdf",
-                    "title": "INSPIRE Metadata Implementing Rules: Technical Guidelines based on EN ISO 19115 and EN ISO 19119. Version 1.0",
-                    "rawDate": "2008-12-19",
-                    "publisher": "European Commission",
-                    "deliveredBy": [
-                        "https://inspire.ec.europa.eu/inspire-maintenance-and-implementation/"
-                    ]
-                },
-                "20090218": {
-                    "href": "https://inspire.ec.europa.eu/reports/ImplementingRules/metadata/MD_IR_and_ISO_20090218.pdf",
-                    "title": "INSPIRE Metadata Implementing Rules: Technical Guidelines based on EN ISO 19115 and EN ISO 19119. Version 1.1",
-                    "rawDate": "2009-02-18",
-                    "publisher": "European Commission",
-                    "deliveredBy": [
-                        "https://inspire.ec.europa.eu/inspire-maintenance-and-implementation/"
-                    ]
-                },
-                "20100616": {
-                    "href": "https://inspire.ec.europa.eu/documents/Metadata/INSPIRE_MD_IR_and_ISO_v1_2_20100616.pdf",
-                    "title": "INSPIRE Metadata Implementing Rules: Technical Guidelines based on EN ISO 19115 and EN ISO 19119. Version 1.2",
-                    "rawDate": "2010-06-16",
-                    "publisher": "European Commission",
-                    "deliveredBy": [
-                        "https://inspire.ec.europa.eu/inspire-maintenance-and-implementation/"
-                    ]
-                },
-                "20131029": {
-                    "href": "https://inspire.ec.europa.eu/documents/Metadata/MD_IR_and_ISO_20131029.pdf",
-                    "title": "INSPIRE Metadata Implementing Rules: Technical Guidelines based on EN ISO 19115 and EN ISO 19119. Version 1.3",
-                    "rawDate": "2013-10-29",
-                    "publisher": "European Commission",
-                    "deliveredBy": [
-                        "https://inspire.ec.europa.eu/inspire-maintenance-and-implementation/"
-                    ]
-                },
-                "20170302": {
-                    "href": "https://inspire.ec.europa.eu/id/document/tg/metadata-iso19139/2.0.1",
-                    "title": "Technical Guidance for the implementation of INSPIRE dataset and service metadata based on ISO/TS 19139:2007. Version 2.0.1",
-                    "rawDate": "2017-03-02",
-                    "publisher": "European Commission",
-                    "deliveredBy": [
-                        "https://inspire.ec.europa.eu/inspire-maintenance-and-implementation/"
-                    ]
-                },
-                "20230731": {
-                    "href": "https://inspire-mif.github.io/technical-guidelines/metadata/metadata-iso19139/",
-                    "title": "Technical Guidance for the implementation of INSPIRE dataset and service metadata based on ISO/TS 19139:2007. Version 2.1.3",
-                    "rawDate": "2023-07-31",
-                    "publisher": "European Commission",
-                    "deliveredBy": [
-                        "https://inspire.ec.europa.eu/inspire-maintenance-and-implementation/"
-                    ]
-                }
-            }
-        },
-        "iso-19101-1": {
-            "aliasOf": "iso-19101-1-2014"
-        },
-        "iso-19101-1-2014": {
-            "authors": [
-                "ISO/TC 211"
-            ],
-            "href": "https://www.iso.org/standard/59164.html",
-            "title": "Geographic information -- Reference model -- Part 1: Fundamentals",
-            "publisher": "ISO",
-            "status": "International Standard",
-            "date": "2014",
-            "isoNumber": "ISO 19101-1:2014"
-        },
-        "iso-19103": {
-            "aliasOf": "iso-19103-2015"
-        },
-        "iso-19103-2015": {
-            "href": "https://www.iso.org/standard/56734.html",
-            "title": "Geographic information -- Conceptual schema language",
-            "authors": [
-                "ISO/TC 211"
-            ],
-            "publisher": "ISO",
-            "status": "International Standard",
-            "date": "2015",
-            "isoNumber": "ISO 19103:2015"
-        },
-        "iso-19107": {
-            "aliasOf": "iso-19107-2003"
-        },
-        "iso-19107-2003": {
-            "href": "https://www.iso.org/standard/26012.html",
-            "title": "Geographic information -- Spatial schema",
-            "authors": [
-                "ISO/TC 211"
-            ],
-            "publisher": "ISO",
-            "status": "International Standard",
-            "date": "2003",
-            "isoNumber": "ISO 19107:2003"
-        },
-        "iso-19108": {
-            "aliasOf": "iso-19108-2002"
-        },
-        "iso-19108-2002": {
-            "href": "https://www.iso.org/standard/26013.html",
-            "title": "Geographic information -- Temporal schema",
-            "authors": [
-                "ISO/TC 211"
-            ],
-            "publisher": "ISO",
-            "status": "International Standard",
-            "date": "2002",
-            "isoNumber": "ISO 19108:2002",
-            "hasErrata": "https://www.iso.org/standard/44883.html"
-        },
-        "iso-19109": {
-            "aliasOf": "iso-19109-2015"
-        },
-        "iso-19109-2005": {
-            "href": "https://www.iso.org/standard/39891.html",
-            "title": "Geographic information -- Rules for application schema",
-            "authors": [
-                "ISO/TC 211"
-            ],
-            "publisher": "ISO",
-            "status": "International Standard",
-            "date": "2005",
-            "isoNumber": "ISO 19109:2005",
-            "isSuperseded": true,
-            "updatedBy": [
-                "iso-19109-2015"
-            ]
-        },
-        "iso-19109-2015": {
-            "href": "https://www.iso.org/standard/59193.html",
-            "title": "Geographic information -- Rules for application schema",
-            "authors": [
-                "ISO/TC 211"
-            ],
-            "publisher": "ISO",
-            "status": "International Standard",
-            "date": "2015",
-            "isoNumber": "ISO 19109:2015",
-            "updates": [
-                "iso-19109-2005"
-            ]
-        },
-        "iso-19111": {
-            "aliasOf": "iso-19111-2007"
-        },
-        "iso-19111-2007": {
-            "authors": [
-                "ISO/TC 211"
-            ],
-            "href": "https://www.iso.org/standard/41126.html",
-            "title": "Geographic information -- Spatial referencing by coordinates",
-            "publisher": "ISO",
-            "status": "International Standard",
-            "date": "2007",
-            "isoNumber": "ISO 19111:2007"
-        },
-        "iso-19115": {
-            "aliasOf": "iso-19115-2003"
-        },
-        "iso-19115-1": {
-            "aliasOf": "iso-19115-1-2014"
-        },
-        "iso-19115-1-2014": {
-            "authors": [
-                "ISO/TC 211"
-            ],
-            "href": "https://www.iso.org/standard/53798.html",
-            "title": "Geographic information -- Metadata -- Part 1: Fundamentals",
-            "publisher": "ISO",
-            "status": "International Standard",
-            "date": "2014",
-            "isoNumber": "ISO 19115-1:2014",
-            "updates": [
-                "iso-19115-2003"
-            ]
-        },
-        "iso-19115-2": {
-            "aliasOf": "iso-19115-2-2009"
-        },
-        "iso-19115-2-2009": {
-            "authors": [
-                "ISO/TC 211"
-            ],
-            "href": "https://www.iso.org/standard/39229.html",
-            "title": "Geographic information -- Metadata -- Part 2: Extensions for imagery and gridded data",
-            "publisher": "ISO",
-            "status": "International Standard",
-            "date": "2009",
-            "isoNumber": "ISO 19115-2:2009"
-        },
-        "iso-19115-2003": {
-            "authors": [
-                "ISO/TC 211"
-            ],
-            "href": "https://www.iso.org/standard/26020.html",
-            "title": "Geographic information -- Metadata",
-            "publisher": "ISO",
-            "status": "International Standard",
-            "date": "2003",
-            "isoNumber": "ISO 19115:2003",
-            "updatedBy": [
-                "iso-19115-1-2014"
-            ]
-        },
-        "iso-19115-3": {
-            "aliasOf": "iso-19115-3-2016"
-        },
-        "iso-19115-3-2016": {
-            "authors": [
-                "ISO/TC 211"
-            ],
-            "href": "https://www.iso.org/standard/32579.html",
-            "title": "Geographic information -- Metadata -- Part 3: XML schema implementation for fundamental concepts",
-            "publisher": "ISO",
-            "status": "International Standard",
-            "date": "2016",
-            "isoNumber": "ISO/TS 19115-3:2016"
-        },
-        "iso-19119": {
-            "aliasOf": "iso-19119-2016"
-        },
-        "iso-19119-2005": {
-            "authors": [
-                "ISO/TC 211"
-            ],
-            "href": "https://www.iso.org/standard/39890.html",
-            "title": "Geographic information -- Services",
-            "publisher": "ISO",
-            "status": "International Standard",
-            "date": "2005",
-            "isoNumber": "ISO 19119:2005",
-            "isRetired": true,
-            "obsoletedBy": [
-                "iso-19119-2016"
-            ]
-        },
-        "iso-19119-2016": {
-            "authors": [
-                "ISO/TC 211"
-            ],
-            "href": "https://www.iso.org/standard/59221.html",
-            "title": "Geographic information -- Services",
-            "publisher": "ISO",
-            "status": "International Standard",
-            "date": "2016",
-            "isoNumber": "ISO 19119:2016",
-            "obsoletes": [
-                "iso-19119-2005"
-            ]
-        },
-        "iso-19123": {
-            "aliasOf": "iso-19123-2005"
-        },
-        "iso-19123-2005": {
-            "href": "https://www.iso.org/standard/40121.html",
-            "title": " Geographic information -- Schema for coverage geometry and functions",
-            "authors": [
-                "ISO/TC 211"
-            ],
-            "publisher": "ISO",
-            "status": "International Standard",
-            "date": "2005",
-            "isoNumber": "ISO 19123:2005"
-        },
-        "iso-19125-1": {
-            "aliasOf": "iso-19125-1-2004"
-        },
-        "iso-19125-1-2004": {
-            "authors": [
-                "ISO/TC 211"
-            ],
-            "href": "https://www.iso.org/standard/40114.html",
-            "title": "Geographic information -- Simple feature access -- Part 1: Common architecture",
-            "publisher": "ISO",
-            "status": "International Standard",
-            "date": "2004",
-            "isoNumber": "ISO 19125-1:2004"
-        },
-        "iso-19128": {
-            "aliasOf": "iso-19128-2005"
-        },
-        "iso-19128-2005": {
-            "href": "https://www.iso.org/standard/32546.html",
-            "title": "Geographic information -- Web map server interface",
-            "authors": [
-                "ISO/TC 211"
-            ],
-            "publisher": "ISO",
-            "status": "International Standard",
-            "date": "2005",
-            "isoNumber": "ISO 19128:2005"
-        },
-        "iso-19133": {
-            "aliasOf": "iso-19133-2005"
-        },
-        "iso-19133-2005": {
-            "href": "https://www.iso.org/standard/32551.html",
-            "title": "Geographic information -- Location-based services -- Tracking and navigation",
-            "authors": [
-                "ISO/TC 211"
-            ],
-            "publisher": "ISO",
-            "status": "International Standard",
-            "date": "2005",
-            "isoNumber": "ISO 19133:2005"
-        },
-        "iso-19135": {
-            "aliasOf": "iso-19135-2005"
-        },
-        "iso-19135-1": {
-            "aliasOf": "iso-19135-1-2015"
-        },
-        "iso-19135-1-2015": {
-            "authors": [
-                "ISO/TC 211"
-            ],
-            "href": "https://www.iso.org/standard/54721.html",
-            "title": "Geographic information -- Procedures for item registration -- Part 1: Fundamentals",
-            "publisher": "ISO",
-            "status": "International Standard",
-            "date": "2015",
-            "isoNumber": "ISO 19135-1:2015",
-            "updates": [
-                "iso-19135-2005"
-            ]
-        },
-        "iso-19135-2": {
-            "aliasOf": "iso-19135-2-2012"
-        },
-        "iso-19135-2-2012": {
-            "authors": [
-                "ISO/TC 211"
-            ],
-            "href": "https://www.iso.org/standard/55998.html",
-            "title": "Geographic information -- Procedures for item registration -- Part 2: XML schema implementation",
-            "publisher": "ISO",
-            "status": "International Standard",
-            "date": "2012",
-            "isoNumber": "ISO 19135-2:2012"
-        },
-        "iso-19135-2005": {
-            "authors": [
-                "ISO/TC 211"
-            ],
-            "href": "https://www.iso.org/standard/32553.html",
-            "title": "Geographic information -- Procedures for item registration",
-            "publisher": "ISO",
-            "status": "International Standard",
-            "date": "2005",
-            "isoNumber": "ISO 19135:2005",
-            "updatedBy": [
-                "iso-19135-1-2015"
-            ]
-        },
-        "iso-19136": {
-            "aliasOf": "iso-19136-1-2020"
-        },
-        "iso-19136-2007": {
-            "href": "https://www.iso.org/standard/32554.html",
-            "title": "Geographic information -- Geography Markup Language (GML)",
-            "authors": [
-                "ISO/TC 211"
-            ],
-            "publisher": "ISO",
-            "status": "International Standard",
-            "date": "2007",
-            "isoNumber": "ISO 19136:2007",
-            "updatedBy": [
-                "iso-19136-1-2020",
-                "iso-19136-2-2015"
-            ]
-        },
-        "iso-19136-1-2020": {
-            "href": "https://www.iso.org/standard/75676.html",
-            "title": "Geographic information -- Geography Markup Language (GML) - Part 1: Fundamentals",
-            "authors": [
-                "ISO/TC 211"
-            ],
-            "publisher": "ISO",
-            "status": "International Standard",
-            "date": "2020",
-            "isoNumber": "ISO 19136-1:2020"
-        },
-        "iso-19136-2-2015": {
-            "href": "https://www.iso.org/standard/61585.html",
-            "title": "Geographic information -- Geography Markup Language (GML) - Part 2: Extended schemas and encoding rules",
-            "authors": [
-                "ISO/TC 211"
-            ],
-            "publisher": "ISO",
-            "status": "International Standard",
-            "date": "2015",
-            "isoNumber": "ISO 19136-2:2015"
-        },
-        "iso-19139": {
-            "aliasOf": "iso-19139-2007"
-        },
-        "iso-19139-2007": {
-            "authors": [
-                "ISO/TC 211"
-            ],
-            "href": "https://www.iso.org/standard/32557.html",
-            "title": "Geographic information -- Metadata -- XML schema implementation",
-            "publisher": "ISO",
-            "status": "Technical Specification",
-            "date": "2007",
-            "isoNumber": "ISO/TS 19139:2007"
-        },
-        "iso-19142": {
-            "aliasOf": "iso-19142-2010"
-        },
-        "iso-19142-2010": {
-            "authors": [
-                "ISO/TC 211"
-            ],
-            "href": "https://www.iso.org/standard/42136.html",
-            "title": "Geographic information -- Web Feature Service",
-            "publisher": "ISO",
-            "status": "International Standard",
-            "date": "2010",
-            "isoNumber": "ISO 19142:2010"
-        },
-        "iso-19143": {
-            "aliasOf": "iso-19143-2010"
-        },
-        "iso-19143-2010": {
-            "authors": [
-                "ISO/TC 211"
-            ],
-            "href": "https://www.iso.org/standard/42137.html",
-            "title": "Geographic information -- Filter Encoding",
-            "publisher": "ISO",
-            "status": "International Standard",
-            "date": "2010",
-            "isoNumber": "ISO 19143:2010"
-        },
-        "iso-19150-2": {
-            "aliasOf": "iso-19150-2-2015"
-        },
-        "iso-19150-2-2015": {
-            "authors": [
-                "ISO/TC 211"
-            ],
-            "href": "https://www.iso.org/standard/57466.html",
-            "title": "Geographic information -- Ontology -- Part 2: Rules for developing ontologies in the Web Ontology Language (OWL)",
-            "publisher": "ISO",
-            "status": "International Standard",
-            "date": "2015",
-            "isoNumber": "ISO 19150-2:2015"
-        },
-        "iso-19156": {
-            "aliasOf": "iso-19156-2023"
-        },
-        "iso-19156-2011": {
-            "authors": [
-                "ISO/TC 211"
-            ],
-            "href": "https://www.iso.org/standard/32574.html",
-            "title": "Geographic information -- Observations and measurements",
-            "publisher": "ISO",
-            "status": "International Standard",
-            "date": "2011",
-            "isoNumber": "ISO 19156:2011",
-            "updatedBy": [
-                "iso-19156-2023"
-            ]
-        },
-        "iso-19156-2023": {
-            "authors": [
-                "ISO/TC 211"
-            ],
-            "href": "https://www.iso.org/standard/82463.html",
-            "title": "Geographic information -- Observations, measurements and samples",
-            "publisher": "ISO",
-            "status": "International Standard",
-            "date": "2023",
-            "isoNumber": "ISO 19156:2023",
-            "obsoletes": [
-                "iso-19156-2011"
-            ]
-        },
-        "iso-19159-2": {
-            "aliasOf": "iso-19159-2-2016"
-        },
-        "iso-19159-2-2016": {
-            "authors": [
-                "ISO/TC 211"
-            ],
-            "href": "https://www.iso.org/standard/64768.html",
-            "title": "Geographic information -- Calibration and validation of remote sensing imagery sensors and data -- Part 2: Lidar",
-            "publisher": "ISO",
-            "status": "Technical Specification",
-            "date": "2016",
-            "isoNumber": "ISO/TS 19159-2:2016"
-        },
-        "iso-19162": {
-            "aliasOf": "iso-19162-2015"
-        },
-        "iso-19162-2015": {
-            "authors": [
-                "ISO/TC 211"
-            ],
-            "href": "https://www.iso.org/standard/63094.html",
-            "title": "ISO 19162:2015 Geographic information -- Well-known text representation of coordinate reference systems",
-            "publisher": "ISO",
-            "status": "International Standard",
-            "date": "2015",
-            "isoNumber": "ISO 19162:2015"
-        },
-        "iso-639": {
-            "aliasOf": "iso-639-1988"
-        },
-        "iso-639-1": {
-            "aliasOf": "iso-639-1-2002"
-        },
-        "iso-639-1-2002": {
-            "authors": [
-                "ISO/TC 37/SC 2"
-            ],
-            "href": "https://www.iso.org/standard/22109.html",
-            "title": "Codes for the representation of names of languages -- Part 1: Alpha-2 code",
-            "publisher": "ISO",
-            "status": "International Standard",
-            "date": "2002",
-            "isoNumber": "ISO 639-1:2002",
-            "updates": [
-                "iso-639-1988"
-            ]
-        },
-        "iso-639-1988": {
-            "authors": [
-                "ISO/TC 37/SC 2"
-            ],
-            "href": "https://www.iso.org/standard/4766.html",
-            "title": "Code for the representation of names of languages",
-            "publisher": "ISO",
-            "status": "International Standard",
-            "date": "1988",
-            "isoNumber": "ISO 639:1988",
-            "updatedBy": [
-                "iso-639-1"
-            ]
-        },
-        "iso-639-2": {
-            "aliasOf": "iso-639-2-1998"
-        },
-        "iso-639-2-1998": {
-            "authors": [
-                "ISO/TC 37/SC 2"
-            ],
-            "href": "https://www.iso.org/standard/4767.html",
-            "title": "Codes for the representation of names of languages -- Part 2: Alpha-3 code",
-            "publisher": "ISO",
-            "status": "International Standard",
-            "date": "1998",
-            "isoNumber": "ISO 639-2:1998"
-        },
-        "iso-639-3": {
-            "aliasOf": "iso-639-3-2007"
-        },
-        "iso-639-3-2007": {
-            "authors": [
-                "ISO/TC 37/SC 2"
-            ],
-            "href": "https://www.iso.org/standard/39534.html",
-            "title": "Codes for the representation of names of languages -- Part 3: Alpha-3 code for comprehensive coverage of languages",
-            "publisher": "ISO",
-            "status": "International Standard",
-            "date": "2007",
-            "isoNumber": "ISO 639-3:2007"
-        },
-        "iso-639-4": {
-            "aliasOf": "iso-639-4-2010"
-        },
-        "iso-639-4-2010": {
-            "authors": [
-                "ISO/TC 37/SC 2"
-            ],
-            "href": "https://www.iso.org/standard/39535.html",
-            "title": "Codes for the representation of names of languages -- Part 4: General principles of coding of the representation of names of languages and related entities, and application guidelines",
-            "publisher": "ISO",
-            "status": "International Standard",
-            "date": "2010",
-            "isoNumber": "ISO 639-4:2010"
-        },
-        "iso-639-5": {
-            "aliasOf": "iso-639-5-2008"
-        },
-        "iso-639-5-2008": {
-            "authors": [
-                "ISO/TC 37/SC 2"
-            ],
-            "href": "https://www.iso.org/standard/39536.html",
-            "title": "Codes for the representation of names of languages -- Part 5: Alpha-3 code for language families and groups",
-            "publisher": "ISO",
-            "status": "International Standard",
-            "date": "2008",
-            "isoNumber": "ISO 639-5:2008"
-        },
-        "json-patch": {
-            "aliasOf": "rfc6902"
-        },
-        "json-patch-20130401": {
-            "aliasOf": "rfc6902"
-        },
-        "json-schema": {
-            "authors": [
-                "Austin Wright",
-                "Henry Andrews",
-                "Ben Hutton",
-                "Greg Dennis"
-            ],
-            "href": "https://datatracker.ietf.org/doc/html/draft-bhutton-json-schema",
-            "publisher": "Internet Engineering Task Force (IETF)",
-            "status": "Internet-Draft",
-            "rawDate": "2020-12-08",
-            "title": "JSON Schema: A Media Type for Describing JSON Documents",
-            "repository": "https://github.com/json-schema-org/json-schema-spec",
-            "versions": {
-                "2020-12": {
-                    "authors": [
-                        "Austin Wright",
-                        "Henry Andrews",
-                        "Ben Hutton",
-                        "Greg Dennis"
-                    ],
-                    "href": "https://datatracker.ietf.org/doc/html/draft-bhutton-json-schema-00",
-                    "status": "Internet-Draft",
-                    "rawDate": "2020-12-08",
-                    "title": "JSON Schema: A Media Type for Describing JSON Documents. Draft 2020-12"
-                },
-                "04": {
-                    "authors": [
-                        "Kris Zyp",
-                        "Francis Galiegue",
-                        "Gary Court"
-                    ],
-                    "href": "https://datatracker.ietf.org/doc/html/draft-zyp-json-schema-04",
-                    "status": "Internet-Draft",
-                    "rawDate": "2013-01-31",
-                    "title": "JSON Schema: core definitions and terminology. Draft 4"
-                }
-            }
-        },
-        "locn": {
-            "authors": [
-                "Andrea Perego",
-                "Michael Lutz"
-            ],
-            "href": "http://www.w3.org/ns/locn",
-            "title": "ISA Programme Location Core Vocabulary",
-            "rawDate": "2015-03-23",
-            "status": "Second version in w3.org/ns space",
-            "publisher": "European Commission",
-            "deliveredBy": [
-                "https://joinup.ec.europa.eu/asset/core_location"
-            ],
-            "versions": {
-                "20131125": {
-                    "authors": [
-                        "Andrea Perego",
-                        "Michael Lutz",
-                        "Phil Archer"
-                    ],
-                    "href": "https://www.w3.org/2015/04/locn",
-                    "title": "ISA Programme Location Core Vocabulary",
-                    "rawDate": "2013-11-25",
-                    "status": "First version in w3.org/ns space",
-                    "publisher": "European Commission",
-                    "deliveredBy": [
-                        "https://joinup.ec.europa.eu/asset/core_location/"
-                    ]
-                }
-            }
-        },
-        "mdn-setcapture": {
-            "authors": [
-                "Eric Shepherd; et. al"
-            ],
-            "href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/setCapture",
-            "title": "Element.setCapture()"
-        },
-        "mediaqueries": {
-            "aliasOf": "mediaqueries-4"
-        },
-        "microformats2-parsing": {
-            "authors": [
-                "Tantek Çelik"
-            ],
-            "href": "http://microformats.org/wiki/microformats2-parsing",
-            "title": "microformats2 parsing",
-            "publisher": "microformats.org",
-            "status": "Living Specification"
-        },
-        "news-ml": {
-            "authors": [
-                "International Press Telecommunications Council"
-            ],
-            "href": "https://www.iptc.org/std/NewsML-G2/2.22/documentation/NewsML-G2-Implementation_Guide_8.0.pdf",
-            "publisher": "IPTC",
-            "status": "Public Release",
-            "rawDate": "2015",
-            "title": "NewsML-G2 Implementation Guide"
-        },
-        "oai-pmh": {
-            "authors": [
-                "Carl Lagoze",
-                "Herbert Van de Sompel",
-                "Michael Nelson",
-                "Simeon Warner"
-            ],
-            "href": "http://www.openarchives.org/OAI/openarchivesprotocol.html",
-            "title": "The Open Archives Initiative Protocol for Metadata Harvesting",
-            "publisher": "OAI",
-            "deliveredBy": [
-                "http://www.openarchives.org/"
-            ],
-            "rawDate": "2015-01-08",
-            "versions": {
-                "20010424": {
-                    "authors": [
-                        "Herbert Van de Sompel",
-                        "Carl Lagoze"
-                    ],
-                    "href": "http://www.openarchives.org/OAI/1.0/openarchivesprotocol.htm",
-                    "title": "The Open Archives Initiative Protocol for Metadata Harvesting. Version 1.0",
-                    "publisher": "OAI",
-                    "deliveredBy": [
-                        "http://www.openarchives.org/"
-                    ],
-                    "rawDate": "2001-04-24"
-                },
-                "20010620": {
-                    "authors": [
-                        "Carl Lagoze",
-                        "Herbert Van de Sompel"
-                    ],
-                    "href": "http://www.openarchives.org/OAI/1.1/openarchivesprotocol.htm",
-                    "title": "The Open Archives Initiative Protocol for Metadata Harvesting. Version 1.1",
-                    "publisher": "OAI",
-                    "deliveredBy": [
-                        "http://www.openarchives.org/"
-                    ],
-                    "rawDate": "2001-06-20"
-                },
-                "20150108": {
-                    "authors": [
-                        "Carl Lagoze",
-                        "Herbert Van de Sompel",
-                        "Michael Nelson",
-                        "Simeon Warner"
-                    ],
-                    "href": "http://www.openarchives.org/OAI/2.0/openarchivesprotocol.htm",
-                    "title": "The Open Archives Initiative Protocol for Metadata Harvesting. Version 2.0",
-                    "publisher": "OAI",
-                    "deliveredBy": [
-                        "http://www.openarchives.org/"
-                    ],
-                    "rawDate": "2015-01-08"
-                }
-            }
-        },
-        "odrl": {
-            "authors": [
-                "Renato Iannella"
-            ],
-            "versions": {
-                "20020919": {
-                    "status": "NOTE",
-                    "rawDate": "2002-09-19",
-                    "href": "https://www.w3.org/TR/2002/NOTE-odrl-20020919/"
-                }
-            },
-            "href": "https://www.w3.org/TR/odrl",
-            "publisher": "W3C",
-            "status": "NOTE",
-            "rawDate": "2002-09-19",
-            "title": "Open Digital Rights Language (ODRL) Version 1.1"
-        },
-        "odrl-w3c-model": {
-            "aliasOf": "odrl-model"
-        },
-        "odrl2-req": {
-            "authors": [
-                "Susanne Guth",
-                "Renato Iannella"
-            ],
-            "href": "https://www.w3.org/2012/09/odrl/archive/odrl.net/2.0/v2req.html",
-            "publisher": "ODRL Initiative",
-            "status": "Working Draft",
-            "rawDate": "2005-02-13",
-            "title": "ODRL Version 2 Requirements"
-        },
-        "odrl21-json": {
-            "authors": [
-                "Jonas Öberg",
-                "Stuart Myles",
-                "Lu Ai"
-            ],
-            "href": "https://www.w3.org/community/odrl/json/2.1/",
-            "publisher": "W3C",
-            "status": "W3C Community Group Final Specification",
-            "rawDate": "2015-03-05",
-            "title": "ODRL Version 2.1 JSON Encoding"
-        },
-        "odrl21-model": {
-            "authors": [
-                "Renato Iannella",
-                "Susanne Guth",
-                "Daniel Paehler",
-                "Andreas Kasten"
-            ],
-            "href": "https://www.w3.org/community/odrl/model/2.1/",
-            "publisher": "W3C",
-            "status": "W3C Community Group Final Specification",
-            "rawDate": "2015-03-05",
-            "title": "ODRL Version 2.1 Core Model"
-        },
-        "odrl21-onto": {
-            "authors": [
-                "Mo McRoberts",
-                "Víctor Rodríguez Doncel"
-            ],
-            "href": "https://www.w3.org/ns/odrl/2/ODRL21",
-            "publisher": "W3C",
-            "status": "W3C Community Group Final Specification",
-            "rawDate": "2015-03-05",
-            "title": "ODRL Version 2.1 Ontology"
-        },
-        "odrl21-vocab": {
-            "authors": [
-                "Renato Iannella",
-                "Michael Steidl",
-                "Susanne Guth"
-            ],
-            "href": "https://www.w3.org/community/odrl/vocab/2.1/",
-            "publisher": "W3C",
-            "status": "W3C Community Group Final Specification",
-            "rawDate": "2015-03-05",
-            "title": "ODRL Version 2.1 Common Vocabulary"
-        },
-        "odrl21-xml": {
-            "authors": [
-                "Renato Iannella"
-            ],
-            "href": "https://www.w3.org/community/odrl/xml/2.1/",
-            "publisher": "W3C",
-            "status": "W3C Community Group Final Specification",
-            "rawDate": "2015-03-05",
-            "title": "ODRL Version 2.1 XML Encoding"
-        },
-        "ogc-06-042": {
-            "aliasOf": "wms"
-        },
-        "ogc-07-036": {
-            "aliasOf": "sos"
-        },
-        "ogc-07-057r7": {
-            "aliasOf": "wmts"
-        },
-        "ogc-09-025r2": {
-            "aliasOf": "wfs"
-        },
-        "ogc-11-052r4": {
-            "aliasOf": "sos"
-        },
-        "ogc-12-006": {
-            "aliasOf": "sos"
-        },
-        "ogc-12-168r6": {
-            "aliasOf": "csw"
-        },
-        "ogc-14-065": {
-            "aliasOf": "wps"
-        },
-        "plus": {
-            "authors": [
-                "PLUS Coalition"
-            ],
-            "href": "http://www.useplus.com/useplus/license.asp",
-            "publisher": "PLUS",
-            "rawDate": "2016",
-            "title": "PLUS License Data Format "
-        },
-        "powder-s": {
-            "authors": [
-                "Andrea Perego",
-                "Stasinos Konstantopoulos",
-                "Phil Archer"
-            ],
-            "href": "https://www.w3.org/2007/05/powder-s",
-            "title": "Protocol for Web Description Resources (POWDER): POWDER-S Vocabulary (WDRS)",
-            "publisher": "W3C",
-            "deliveredBy": [
-                "https://www.w3.org/2007/powder/"
-            ],
-            "rawDate": "2010-11-08"
-        },
-        "prism": {
-            "href": "http://www.prismstandard.org/specifications/3.0/PRISM_Basic_Metadata_3.0.htm",
-            "title": "Publishing Requirements for Industry Standard Metadata, Version 3.0. PRISM Basic Metadata Specification",
-            "publisher": "International Digital Enterprise Alliance, Inc.",
-            "rawDate": "2012-10-08"
-        },
-        "promises-guide": {
-            "href": "https://www.w3.org/2001/tag/doc/promises-guide",
-            "title": "Writing Promise-Using Specifications",
-            "publisher": "W3C",
-            "status": "TAG Finding",
-            "authors": [
-                "Domenic Denicola"
-            ],
-            "rawDate": "2018-11-09"
-        },
-        "rdf11-schema": {
-            "aliasOf": "rdf-schema"
-        },
-        "re3data-schema": {
-            "href": "https://doi.org/10.2312/re3.008",
-            "title": "Metadata Schema for the Description of Research Data Repositories: version 3",
-            "authors": [
-                "Jessika Rücknagel"
-            ],
-            "etAl": true,
-            "publisher": "GFZ Potsdam",
-            "rawDate": "2015-12-17"
-        },
-        "rel-author": {
-            "authors": [
-                "Tantek Çelik"
-            ],
-            "href": "http://microformats.org/wiki/rel-author",
-            "title": "rel-author",
-            "publisher": "microformats.org",
-            "status": "Draft Specification"
-        },
-        "rel-enclosure": {
-            "authors": [
-                "Kevin Marks"
-            ],
-            "href": "http://microformats.org/wiki/rel-enclosure",
-            "title": "rel-enclosure",
-            "publisher": "microformats.org",
-            "status": "Draft Specification"
-        },
-        "rel-home": {
-            "authors": [
-                "Danny Ayers"
-            ],
-            "href": "http://microformats.org/wiki/rel-home",
-            "title": "rel-home",
-            "publisher": "microformats.org",
-            "status": "Draft Specification"
-        },
-        "rel-license": {
-            "authors": [
-                "Tantek Çelik"
-            ],
-            "href": "http://microformats.org/wiki/rel-license",
-            "title": "rel-license",
-            "publisher": "microformats.org",
-            "status": "Living Specification"
-        },
-        "rel-nofollow": {
-            "authors": [
-                "Tantek Çelik",
-                "Kevin Marks"
-            ],
-            "href": "http://microformats.org/wiki/rel-nofollow",
-            "title": "rel-nofollow",
-            "publisher": "microformats.org",
-            "status": "Living Specification"
-        },
-        "rel-tag": {
-            "authors": [
-                "Tantek Çelik",
-                "Kevin Marks"
-            ],
-            "href": "http://microformats.org/wiki/rel-tag",
-            "title": "rel-tag",
-            "publisher": "microformats.org",
-            "status": "Living Specification"
-        },
-        "rights-ml": {
-            "authors": [
-                "International Press Telecommunications Council"
-            ],
-            "href": "http://dev.iptc.org/RightsML",
-            "publisher": "IPTC",
-            "status": "Version 1.1 Experimental Phase 2",
-            "rawDate": "2013",
-            "title": "RightsML"
-        },
-        "schema-org": {
-            "authors": [
-                "W3C Schema.org Community Group"
-            ],
-            "href": "https://schema.org/",
-            "publisher": "W3C",
-            "status": "6.0",
-            "title": "Schema.org",
-            "repository": "https://github.com/schemaorg/schemaorg"
-        },
-        "service-workers-nightly": {
-            "authors": [
-                "Alex Russell",
-                "Jungkee Song",
-                "Jake Archibald",
-                "Marijn Kruisselbrink"
-            ],
-            "href": "https://w3c.github.io/ServiceWorker/",
-            "publisher": "W3C",
-            "status": "LS",
-            "title": "Service Workers Nightly",
-            "repository": "https://github.com/w3c/ServiceWorker"
-        },
-        "smartM2M": {
-            "aliasOf": "etsi-ts-103-264"
-        },
-        "sos": {
-            "href": "http://www.opengeospatial.org/standards/sos",
-            "publisher": "OGC",
-            "ogcNumber": "OGC 12-006",
-            "authors": [
-                "Arne Bröring",
-                "Christoph Stasch",
-                "Johannes Echterhoff"
-            ],
-            "rawDate": "2012-04-20",
-            "title": "Sensor Observation Service Interface Standard",
-            "status": "OpenGIS Implementation Standard"
-        },
-        "statdcat-ap": {
-            "href": "https://joinup.ec.europa.eu/solution/statdcat-application-profile-data-portals-europe",
-            "title": "StatDCAT-AP – DCAT Application Profile for description of statistical datasets. Version 1.0.1",
-            "rawDate": "2019-05-28",
-            "publisher": "European Commission",
-            "deliveredBy": [
-                "https://joinup.ec.europa.eu/solution/statdcat-application-profile-data-portals-europe"
-            ],
-            "versions": {
-                "20161215": {
-                    "href": "https://joinup.ec.europa.eu/release/statdcat-ap/100",
-                    "title": "StatDCAT-AP – DCAT Application Profile for description of statistical datasets. Version 1.0.0",
-                    "rawDate": "2016-12-15",
-                    "publisher": "European Commission",
-                    "deliveredBy": [
-                        "https://joinup.ec.europa.eu/solution/statdcat-application-profile-data-portals-europe"
-                    ]
-                },
-                "20190528": {
-                    "href": "https://joinup.ec.europa.eu/release/statdcat-ap/101",
-                    "title": "StatDCAT-AP – DCAT Application Profile for description of statistical datasets. Version 1.0.1",
-                    "rawDate": "2019-05-28",
-                    "publisher": "European Commission",
-                    "deliveredBy": [
-                        "https://joinup.ec.europa.eu/solution/statdcat-application-profile-data-portals-europe"
-                    ]
-                }
-            }
-        },
-        "typedarray": {
-            "authors": [
-                "David Herman",
-                "Kenneth Russell"
-            ],
-            "href": "https://www.khronos.org/registry/typedarray/specs/latest/",
-            "title": "Typed Array Specification",
-            "rawDate": "2013-06-26",
-            "status": "Khronos Working Draft",
-            "publisher": "Khronos"
-        },
-        "uml": {
-            "authors": [
-                "Open Management Group"
-            ],
-            "href": "http://www.omg.org/spec/UML/",
-            "publisher": "OMG",
-            "status": "Normative",
-            "rawDate": "2015-03-01",
-            "title": "OMG Unified Modeling Language"
-        },
-        "vann": {
-            "authors": [
-                "Ian Davis"
-            ],
-            "href": "http://purl.org/vocab/vann",
-            "title": "VANN: A vocabulary for annotating vocabulary descriptions",
-            "rawDate": "2010-06-07",
-            "publisher": "Vocab.org",
-            "versions": {
-                "20040305": {
-                    "authors": [
-                        "Ian Davis"
-                    ],
-                    "href": "http://purl.org/vocab/vann/vann-vocab-20030405",
-                    "title": "VANN: A vocabulary for annotating vocabulary descriptions",
-                    "rawDate": "2004-03-05",
-                    "publisher": "Vocab.org"
-                },
-                "20100607": {
-                    "authors": [
-                        "Ian Davis"
-                    ],
-                    "href": "http://purl.org/vocab/vann/vann-vocab-20050401",
-                    "title": "VANN: A vocabulary for annotating vocabulary descriptions",
-                    "rawDate": "2010-06-07",
-                    "publisher": "Vocab.org"
-                }
-            }
-        },
-        "voaf": {
-            "authors": [
-                "Bernard Vatant"
-            ],
-            "href": "http://purl.org/vocommons/voaf",
-            "title": "Vocabulary of a Friend (VOAF)",
-            "rawDate": "2013-05-24",
-            "publisher": "OKFN",
-            "versions": {
-                "20111103": {
-                    "authors": [
-                        "Bernard Vatant"
-                    ],
-                    "href": "http://lov.okfn.org/vocommons/voaf/v1.0/",
-                    "title": "Vocabulary of a Friend (VOAF). Version 1.0",
-                    "publisher": "Mondeca",
-                    "rawDate": "2011-11-03"
-                },
-                "20111116": {
-                    "authors": [
-                        "Bernard Vatant"
-                    ],
-                    "href": "http://lov.okfn.org/vocommons/voaf/v1.1/",
-                    "title": "Vocabulary of a Friend (VOAF). Version 1.1",
-                    "rawDate": "2011-11-16",
-                    "publisher": "Mondeca"
-                },
-                "20120703": {
-                    "authors": [
-                        "Bernard Vatant"
-                    ],
-                    "href": "http://lov.okfn.org/vocommons/voaf/v2.0/",
-                    "title": "Vocabulary of a Friend (VOAF). Version 2.0",
-                    "rawDate": "2012-07-03",
-                    "publisher": "OKFN"
-                },
-                "20121015": {
-                    "authors": [
-                        "Bernard Vatant"
-                    ],
-                    "href": "http://lov.okfn.org/vocommons/voaf/v2.1/",
-                    "title": "Vocabulary of a Friend (VOAF). Version 2.1",
-                    "rawDate": "2012-10-15",
-                    "publisher": "OKFN"
-                },
-                "20130424": {
-                    "authors": [
-                        "Bernard Vatant"
-                    ],
-                    "href": "http://lov.okfn.org/vocommons/voaf/v2.2/",
-                    "title": "Vocabulary of a Friend (VOAF). Version 2.2",
-                    "rawDate": "2013-04-24",
-                    "publisher": "OKFN"
-                },
-                "20130524": {
-                    "authors": [
-                        "Bernard Vatant"
-                    ],
-                    "href": "http://lov.okfn.org/vocommons/voaf/v2.3/",
-                    "title": "Vocabulary of a Friend (VOAF). Version 2.3",
-                    "rawDate": "2013-05-24",
-                    "publisher": "OKFN"
-                }
-            }
-        },
-        "w3c-basic-geo": {
-            "href": "https://www.w3.org/2003/01/geo/",
-            "title": "Basic Geo (WGS84 lat/long) Vocabulary",
-            "authors": [
-                "Dan Brickley"
-            ],
-            "publisher": "W3C Semantic Web Interest Group",
-            "rawDate": "2006-02-01"
-        },
-        "w3c-patent-policy": {
-            "href": "https://www.w3.org/Consortium/Patent-Policy/",
-            "title": "W3C Patent Policy",
-            "authors": [
-                "Wendy Seltzer"
-            ],
-            "publisher": "W3C",
-            "rawDate": "2020-09-15"
-        },
-        "w3c-process": {
-            "href": "https://www.w3.org/Consortium/Process/",
-            "title": "W3C Process Document",
-            "authors": [
-                "Elika J. Etemad (fantasai)",
-                "Florian Rivoal"
-            ],
-            "publisher": "W3C",
-            "rawDate": "2021-11-02"
-        },
-        "wacz": {
-            "href": "https://specs.webrecorder.net/wacz/latest/",
-            "title": "Web Archive Collection Zipped (WACZ)",
-            "status": "Published",
-            "publisher": "Webrecorder",
-            "rawDate": "2021-06-03"
-        },
-        "warc": {
-            "href": "https://www.iso.org/standard/68004.html",
-            "title": "Information and documentation — WARC file format",
-            "status": "Published",
-            "publisher": "International Organization for Standardization (ISO)",
-            "isoNumber": "ISO 28500:2017",
-            "rawDate": "2017-08"
-        },
-        "web-bluetooth": {
-            "href": "https://webbluetoothcg.github.io/web-bluetooth/",
-            "edDraft": "https://webbluetoothcg.github.io/web-bluetooth/",
-            "title": "Web Bluetooth",
-            "status": "Draft Community Group Report",
-            "authors": [
-                "Jeffrey Yasskin"
-            ],
-            "deliveredBy": [
-                "https://www.w3.org/community/web-bluetooth/"
-            ],
-            "publisher": "W3C Web Bluetooth Community Group",
-            "repository": "https://github.com/webbluetoothcg/web-bluetooth"
-        },
-        "web-thing-model": {
-            "href": "https://www.w3.org/Submission/wot-model/",
-            "edDraft": "https://www.w3.org/Submission/wot-model/",
-            "title": "Web Thing Model",
-            "status": "Member Submission",
-            "authors": [
-                "Vlad Trifa",
-                "Dominique Guinard",
-                "David Carrera"
-            ],
-            "deliveredBy": [
-                "https://webofthings.org"
-            ],
-            "publisher": "W3C WoT Community Group",
-            "repository": "https://github.com/webofthings/web-thing-model"
-        },
-        "webdriver-bidi": {
-            "href": "https://w3c.github.io/webdriver-bidi/",
-            "publisher": "W3C",
-            "title": "WebDriver BiDi",
-            "status": "Editor's Draft",
-            "repository": "https://github.com/w3c/webdriver-bidi"
-        },
-        "wfs": {
-            "href": "http://www.opengeospatial.org/standards/wfs",
-            "publisher": "OGC",
-            "ogcNumber": "OGC 09-025r2",
-            "authors": [
-                "Panagiotis (Peter) A. Vretanos"
-            ],
-            "rawDate": "2014-07-10",
-            "title": "Web Feature Service 2.0 Interface Standard",
-            "status": "OGC Interface Standard"
-        },
-        "wms": {
-            "authors": [
-                "Jeff de la Beaujardiere"
-            ],
-            "href": "http://www.opengeospatial.org/standards/wms",
-            "title": "Web Map Service Implementation Specification",
-            "publisher": "OGC",
-            "ogcNumber": "OGC 06-042",
-            "rawDate": "2006-03-15",
-            "status": "OpenGIS Implementation Standard"
-        },
-        "wmts": {
-            "href": "http://www.opengeospatial.org/standards/wmts",
-            "publisher": "OGC",
-            "ogcNumber": "OGC 07-057r7",
-            "authors": [
-                "Joan Masó",
-                "Keith Pomakis",
-                "Núria Julià"
-            ],
-            "rawDate": "2010-04-06",
-            "title": "Web Map Tile Service Implementation Standard",
-            "status": "OpenGIS Implementation Standard"
-        },
-        "wps": {
-            "href": "http://www.opengeospatial.org/standards/wps",
-            "publisher": "OGC",
-            "ogcNumber": "OGC 14-065",
-            "authors": [
-                "Matthias Mueller",
-                "Benjamin Pross"
-            ],
-            "rawDate": "2015-10-05",
-            "title": "Web Processing Service 2.0 Interface Standard",
-            "status": "OGC Implementation Standard"
-        },
-        "xfn": {
-            "href": "http://www.gmpg.org/xfn/",
-            "title": "XHTML Friends Network",
-            "authors": [
-                "Tantek Çelik",
-                "Matthew Mullenweg",
-                "Eric Meyer"
-            ],
-            "publisher": "Global Multimedia Protocols Group"
         }
+    },
+    "h-adr": {
+        "authors": [
+            "Tantek Çelik"
+        ],
+        "href": "http://microformats.org/wiki/h-adr",
+        "title": "h-adr",
+        "publisher": "microformats.org",
+        "status": "Living Specification"
+    },
+    "h-card": {
+        "authors": [
+            "Tantek Çelik"
+        ],
+        "href": "http://microformats.org/wiki/h-card",
+        "title": "h-card",
+        "publisher": "microformats.org",
+        "status": "Living Specification"
+    },
+    "h-entry": {
+        "authors": [
+            "Tantek Çelik"
+        ],
+        "href": "http://microformats.org/wiki/h-entry",
+        "title": "h-entry",
+        "publisher": "microformats.org",
+        "status": "Living Specification"
+    },
+    "h-event": {
+        "authors": [
+            "Tantek Çelik"
+        ],
+        "href": "http://microformats.org/wiki/h-event",
+        "title": "h-event",
+        "publisher": "microformats.org",
+        "status": "Living Specification"
+    },
+    "h-feed": {
+        "authors": [
+            "Tantek Çelik"
+        ],
+        "href": "http://microformats.org/wiki/h-feed",
+        "title": "h-feed",
+        "publisher": "microformats.org",
+        "status": "Living Specification"
+    },
+    "h-geo": {
+        "authors": [
+            "Tantek Çelik"
+        ],
+        "href": "http://microformats.org/wiki/h-geo",
+        "title": "h-geo",
+        "publisher": "microformats.org",
+        "status": "Living Specification"
+    },
+    "h-item": {
+        "authors": [
+            "Tantek Çelik"
+        ],
+        "href": "http://microformats.org/wiki/h-item",
+        "title": "h-item",
+        "publisher": "microformats.org",
+        "status": "Living Specification"
+    },
+    "h-listing": {
+        "authors": [
+            "Tantek Çelik",
+            "Tom Morris",
+            "Arthur Rădulescu"
+        ],
+        "href": "http://microformats.org/wiki/h-listing",
+        "title": "h-listing",
+        "publisher": "microformats.org",
+        "status": "Living Specification"
+    },
+    "h-product": {
+        "authors": [
+            "Tantek Çelik"
+        ],
+        "href": "http://microformats.org/wiki/h-product",
+        "title": "h-product",
+        "publisher": "microformats.org",
+        "status": "Living Specification"
+    },
+    "h-recipe": {
+        "authors": [
+            "Tantek Çelik"
+        ],
+        "href": "http://microformats.org/wiki/h-recipe",
+        "title": "h-recipe",
+        "publisher": "microformats.org",
+        "status": "Living Specification"
+    },
+    "h-resume": {
+        "authors": [
+            "Tantek Çelik"
+        ],
+        "href": "http://microformats.org/wiki/h-resume",
+        "title": "h-resume",
+        "publisher": "microformats.org",
+        "status": "Living Specification"
+    },
+    "h-review": {
+        "authors": [
+            "Tantek Çelik"
+        ],
+        "href": "http://microformats.org/wiki/h-review",
+        "title": "h-review",
+        "publisher": "microformats.org",
+        "status": "Living Specification"
+    },
+    "hCard": {
+        "authors": [
+            "Tantek Celik",
+            "Brian Suda"
+        ],
+        "href": "http://microformats.org/wiki/hcard",
+        "title": "hCard 1.0",
+        "date": "23 June 2013"
+    },
+    "html-20121025": {
+        "aliasOf": "html5-20121025"
+    },
+    "html-20121217": {
+        "aliasOf": "html5-20121217"
+    },
+    "html-20130806": {
+        "aliasOf": "html5-20130806"
+    },
+    "html-20140204": {
+        "aliasOf": "html5-20140204"
+    },
+    "html-20140429": {
+        "aliasOf": "html5-20140429"
+    },
+    "html-20140617": {
+        "aliasOf": "html5-20140617"
+    },
+    "http-signatures": {
+        "authors": [
+            "Mark Cavage",
+            "Manu Sporny"
+        ],
+        "href": "https://datatracker.ietf.org/doc/html/draft-cavage-http-signatures",
+        "title": "HTTP Signatures",
+        "status": "WD",
+        "publisher": "IETF",
+        "deliveredBy": [
+            "https://datatracker.ietf.org/wg/httpauth/"
+        ],
+        "versions": {
+            "20130504": {
+                "authors": [
+                    "Mark Cavage",
+                    "Manu Sporny"
+                ],
+                "href": "https://datatracker.ietf.org/doc/html/draft-cavage-http-signatures-00",
+                "title": "HTTP Signatures",
+                "rawDate": "2013-05-04",
+                "publisher": "IETF",
+                "isRetired": true,
+                "deliveredBy": [
+                    "https://datatracker.ietf.org/wg/httpauth/"
+                ],
+                "source": "https://web-payments.org/specs/source/http-signatures/"
+            }
+        },
+        "rawDate": "2013-05-04",
+        "isRetired": true,
+        "source": "https://web-payments.org/specs/source/http-signatures/"
+    },
+    "inspire-md": {
+        "href": "https://inspire.ec.europa.eu/id/document/tg/metadata-iso19139",
+        "title": "Technical Guidance for the implementation of INSPIRE dataset and service metadata based on ISO/TS 19139:2007. Version 2.1.3",
+        "rawDate": "2023-07-31",
+        "publisher": "European Commission",
+        "deliveredBy": [
+            "https://inspire.ec.europa.eu/inspire-maintenance-and-implementation/"
+        ],
+        "versions": {
+            "20081219": {
+                "href": "https://inspire.ec.europa.eu/reports/ImplementingRules/metadata/MD_IR_and_ISO_20081219.pdf",
+                "title": "INSPIRE Metadata Implementing Rules: Technical Guidelines based on EN ISO 19115 and EN ISO 19119. Version 1.0",
+                "rawDate": "2008-12-19",
+                "publisher": "European Commission",
+                "deliveredBy": [
+                    "https://inspire.ec.europa.eu/inspire-maintenance-and-implementation/"
+                ]
+            },
+            "20090218": {
+                "href": "https://inspire.ec.europa.eu/reports/ImplementingRules/metadata/MD_IR_and_ISO_20090218.pdf",
+                "title": "INSPIRE Metadata Implementing Rules: Technical Guidelines based on EN ISO 19115 and EN ISO 19119. Version 1.1",
+                "rawDate": "2009-02-18",
+                "publisher": "European Commission",
+                "deliveredBy": [
+                    "https://inspire.ec.europa.eu/inspire-maintenance-and-implementation/"
+                ]
+            },
+            "20100616": {
+                "href": "https://inspire.ec.europa.eu/documents/Metadata/INSPIRE_MD_IR_and_ISO_v1_2_20100616.pdf",
+                "title": "INSPIRE Metadata Implementing Rules: Technical Guidelines based on EN ISO 19115 and EN ISO 19119. Version 1.2",
+                "rawDate": "2010-06-16",
+                "publisher": "European Commission",
+                "deliveredBy": [
+                    "https://inspire.ec.europa.eu/inspire-maintenance-and-implementation/"
+                ]
+            },
+            "20131029": {
+                "href": "https://inspire.ec.europa.eu/documents/Metadata/MD_IR_and_ISO_20131029.pdf",
+                "title": "INSPIRE Metadata Implementing Rules: Technical Guidelines based on EN ISO 19115 and EN ISO 19119. Version 1.3",
+                "rawDate": "2013-10-29",
+                "publisher": "European Commission",
+                "deliveredBy": [
+                    "https://inspire.ec.europa.eu/inspire-maintenance-and-implementation/"
+                ]
+            },
+            "20170302": {
+                "href": "https://inspire.ec.europa.eu/id/document/tg/metadata-iso19139/2.0.1",
+                "title": "Technical Guidance for the implementation of INSPIRE dataset and service metadata based on ISO/TS 19139:2007. Version 2.0.1",
+                "rawDate": "2017-03-02",
+                "publisher": "European Commission",
+                "deliveredBy": [
+                    "https://inspire.ec.europa.eu/inspire-maintenance-and-implementation/"
+                ]
+            },
+            "20230731": {
+                "href": "https://inspire-mif.github.io/technical-guidelines/metadata/metadata-iso19139/",
+                "title": "Technical Guidance for the implementation of INSPIRE dataset and service metadata based on ISO/TS 19139:2007. Version 2.1.3",
+                "rawDate": "2023-07-31",
+                "publisher": "European Commission",
+                "deliveredBy": [
+                    "https://inspire.ec.europa.eu/inspire-maintenance-and-implementation/"
+                ]
+            }
+        }
+    },
+    "iso-19101-1": {
+        "aliasOf": "iso-19101-1-2014"
+    },
+    "iso-19101-1-2014": {
+        "authors": [
+            "ISO/TC 211"
+        ],
+        "href": "https://www.iso.org/standard/59164.html",
+        "title": "Geographic information -- Reference model -- Part 1: Fundamentals",
+        "publisher": "ISO",
+        "status": "International Standard",
+        "date": "2014",
+        "isoNumber": "ISO 19101-1:2014"
+    },
+    "iso-19103": {
+        "aliasOf": "iso-19103-2015"
+    },
+    "iso-19103-2015": {
+        "href": "https://www.iso.org/standard/56734.html",
+        "title": "Geographic information -- Conceptual schema language",
+        "authors": [
+            "ISO/TC 211"
+        ],
+        "publisher": "ISO",
+        "status": "International Standard",
+        "date": "2015",
+        "isoNumber": "ISO 19103:2015"
+    },
+    "iso-19107": {
+        "aliasOf": "iso-19107-2003"
+    },
+    "iso-19107-2003": {
+        "href": "https://www.iso.org/standard/26012.html",
+        "title": "Geographic information -- Spatial schema",
+        "authors": [
+            "ISO/TC 211"
+        ],
+        "publisher": "ISO",
+        "status": "International Standard",
+        "date": "2003",
+        "isoNumber": "ISO 19107:2003"
+    },
+    "iso-19108": {
+        "aliasOf": "iso-19108-2002"
+    },
+    "iso-19108-2002": {
+        "href": "https://www.iso.org/standard/26013.html",
+        "title": "Geographic information -- Temporal schema",
+        "authors": [
+            "ISO/TC 211"
+        ],
+        "publisher": "ISO",
+        "status": "International Standard",
+        "date": "2002",
+        "isoNumber": "ISO 19108:2002",
+        "hasErrata": "https://www.iso.org/standard/44883.html"
+    },
+    "iso-19109": {
+        "aliasOf": "iso-19109-2015"
+    },
+    "iso-19109-2005": {
+        "href": "https://www.iso.org/standard/39891.html",
+        "title": "Geographic information -- Rules for application schema",
+        "authors": [
+            "ISO/TC 211"
+        ],
+        "publisher": "ISO",
+        "status": "International Standard",
+        "date": "2005",
+        "isoNumber": "ISO 19109:2005",
+        "isSuperseded": true,
+        "updatedBy": [
+            "iso-19109-2015"
+        ]
+    },
+    "iso-19109-2015": {
+        "href": "https://www.iso.org/standard/59193.html",
+        "title": "Geographic information -- Rules for application schema",
+        "authors": [
+            "ISO/TC 211"
+        ],
+        "publisher": "ISO",
+        "status": "International Standard",
+        "date": "2015",
+        "isoNumber": "ISO 19109:2015",
+        "updates": [
+            "iso-19109-2005"
+        ]
+    },
+    "iso-19111": {
+        "aliasOf": "iso-19111-2007"
+    },
+    "iso-19111-2007": {
+        "authors": [
+            "ISO/TC 211"
+        ],
+        "href": "https://www.iso.org/standard/41126.html",
+        "title": "Geographic information -- Spatial referencing by coordinates",
+        "publisher": "ISO",
+        "status": "International Standard",
+        "date": "2007",
+        "isoNumber": "ISO 19111:2007"
+    },
+    "iso-19115": {
+        "aliasOf": "iso-19115-2003"
+    },
+    "iso-19115-1": {
+        "aliasOf": "iso-19115-1-2014"
+    },
+    "iso-19115-1-2014": {
+        "authors": [
+            "ISO/TC 211"
+        ],
+        "href": "https://www.iso.org/standard/53798.html",
+        "title": "Geographic information -- Metadata -- Part 1: Fundamentals",
+        "publisher": "ISO",
+        "status": "International Standard",
+        "date": "2014",
+        "isoNumber": "ISO 19115-1:2014",
+        "updates": [
+            "iso-19115-2003"
+        ]
+    },
+    "iso-19115-2": {
+        "aliasOf": "iso-19115-2-2009"
+    },
+    "iso-19115-2-2009": {
+        "authors": [
+            "ISO/TC 211"
+        ],
+        "href": "https://www.iso.org/standard/39229.html",
+        "title": "Geographic information -- Metadata -- Part 2: Extensions for imagery and gridded data",
+        "publisher": "ISO",
+        "status": "International Standard",
+        "date": "2009",
+        "isoNumber": "ISO 19115-2:2009"
+    },
+    "iso-19115-2003": {
+        "authors": [
+            "ISO/TC 211"
+        ],
+        "href": "https://www.iso.org/standard/26020.html",
+        "title": "Geographic information -- Metadata",
+        "publisher": "ISO",
+        "status": "International Standard",
+        "date": "2003",
+        "isoNumber": "ISO 19115:2003",
+        "updatedBy": [
+            "iso-19115-1-2014"
+        ]
+    },
+    "iso-19115-3": {
+        "aliasOf": "iso-19115-3-2016"
+    },
+    "iso-19115-3-2016": {
+        "authors": [
+            "ISO/TC 211"
+        ],
+        "href": "https://www.iso.org/standard/32579.html",
+        "title": "Geographic information -- Metadata -- Part 3: XML schema implementation for fundamental concepts",
+        "publisher": "ISO",
+        "status": "International Standard",
+        "date": "2016",
+        "isoNumber": "ISO/TS 19115-3:2016"
+    },
+    "iso-19119": {
+        "aliasOf": "iso-19119-2016"
+    },
+    "iso-19119-2005": {
+        "authors": [
+            "ISO/TC 211"
+        ],
+        "href": "https://www.iso.org/standard/39890.html",
+        "title": "Geographic information -- Services",
+        "publisher": "ISO",
+        "status": "International Standard",
+        "date": "2005",
+        "isoNumber": "ISO 19119:2005",
+        "isRetired": true,
+        "obsoletedBy": [
+            "iso-19119-2016"
+        ]
+    },
+    "iso-19119-2016": {
+        "authors": [
+            "ISO/TC 211"
+        ],
+        "href": "https://www.iso.org/standard/59221.html",
+        "title": "Geographic information -- Services",
+        "publisher": "ISO",
+        "status": "International Standard",
+        "date": "2016",
+        "isoNumber": "ISO 19119:2016",
+        "obsoletes": [
+            "iso-19119-2005"
+        ]
+    },
+    "iso-19123": {
+        "aliasOf": "iso-19123-2005"
+    },
+    "iso-19123-2005": {
+        "href": "https://www.iso.org/standard/40121.html",
+        "title": " Geographic information -- Schema for coverage geometry and functions",
+        "authors": [
+            "ISO/TC 211"
+        ],
+        "publisher": "ISO",
+        "status": "International Standard",
+        "date": "2005",
+        "isoNumber": "ISO 19123:2005"
+    },
+    "iso-19125-1": {
+        "aliasOf": "iso-19125-1-2004"
+    },
+    "iso-19125-1-2004": {
+        "authors": [
+            "ISO/TC 211"
+        ],
+        "href": "https://www.iso.org/standard/40114.html",
+        "title": "Geographic information -- Simple feature access -- Part 1: Common architecture",
+        "publisher": "ISO",
+        "status": "International Standard",
+        "date": "2004",
+        "isoNumber": "ISO 19125-1:2004"
+    },
+    "iso-19128": {
+        "aliasOf": "iso-19128-2005"
+    },
+    "iso-19128-2005": {
+        "href": "https://www.iso.org/standard/32546.html",
+        "title": "Geographic information -- Web map server interface",
+        "authors": [
+            "ISO/TC 211"
+        ],
+        "publisher": "ISO",
+        "status": "International Standard",
+        "date": "2005",
+        "isoNumber": "ISO 19128:2005"
+    },
+    "iso-19133": {
+        "aliasOf": "iso-19133-2005"
+    },
+    "iso-19133-2005": {
+        "href": "https://www.iso.org/standard/32551.html",
+        "title": "Geographic information -- Location-based services -- Tracking and navigation",
+        "authors": [
+            "ISO/TC 211"
+        ],
+        "publisher": "ISO",
+        "status": "International Standard",
+        "date": "2005",
+        "isoNumber": "ISO 19133:2005"
+    },
+    "iso-19135": {
+        "aliasOf": "iso-19135-2005"
+    },
+    "iso-19135-1": {
+        "aliasOf": "iso-19135-1-2015"
+    },
+    "iso-19135-1-2015": {
+        "authors": [
+            "ISO/TC 211"
+        ],
+        "href": "https://www.iso.org/standard/54721.html",
+        "title": "Geographic information -- Procedures for item registration -- Part 1: Fundamentals",
+        "publisher": "ISO",
+        "status": "International Standard",
+        "date": "2015",
+        "isoNumber": "ISO 19135-1:2015",
+        "updates": [
+            "iso-19135-2005"
+        ]
+    },
+    "iso-19135-2": {
+        "aliasOf": "iso-19135-2-2012"
+    },
+    "iso-19135-2-2012": {
+        "authors": [
+            "ISO/TC 211"
+        ],
+        "href": "https://www.iso.org/standard/55998.html",
+        "title": "Geographic information -- Procedures for item registration -- Part 2: XML schema implementation",
+        "publisher": "ISO",
+        "status": "International Standard",
+        "date": "2012",
+        "isoNumber": "ISO 19135-2:2012"
+    },
+    "iso-19135-2005": {
+        "authors": [
+            "ISO/TC 211"
+        ],
+        "href": "https://www.iso.org/standard/32553.html",
+        "title": "Geographic information -- Procedures for item registration",
+        "publisher": "ISO",
+        "status": "International Standard",
+        "date": "2005",
+        "isoNumber": "ISO 19135:2005",
+        "updatedBy": [
+            "iso-19135-1-2015"
+        ]
+    },
+    "iso-19136": {
+        "aliasOf": "iso-19136-1-2020"
+    },
+    "iso-19136-2007": {
+        "href": "https://www.iso.org/standard/32554.html",
+        "title": "Geographic information -- Geography Markup Language (GML)",
+        "authors": [
+            "ISO/TC 211"
+        ],
+        "publisher": "ISO",
+        "status": "International Standard",
+        "date": "2007",
+        "isoNumber": "ISO 19136:2007",
+        "updatedBy": [
+            "iso-19136-1-2020",
+            "iso-19136-2-2015"
+        ]
+    },
+    "iso-19136-1-2020": {
+        "href": "https://www.iso.org/standard/75676.html",
+        "title": "Geographic information -- Geography Markup Language (GML) - Part 1: Fundamentals",
+        "authors": [
+            "ISO/TC 211"
+        ],
+        "publisher": "ISO",
+        "status": "International Standard",
+        "date": "2020",
+        "isoNumber": "ISO 19136-1:2020"
+    },
+    "iso-19136-2-2015": {
+        "href": "https://www.iso.org/standard/61585.html",
+        "title": "Geographic information -- Geography Markup Language (GML) - Part 2: Extended schemas and encoding rules",
+        "authors": [
+            "ISO/TC 211"
+        ],
+        "publisher": "ISO",
+        "status": "International Standard",
+        "date": "2015",
+        "isoNumber": "ISO 19136-2:2015"
+    },
+    "iso-19139": {
+        "aliasOf": "iso-19139-2007"
+    },
+    "iso-19139-2007": {
+        "authors": [
+            "ISO/TC 211"
+        ],
+        "href": "https://www.iso.org/standard/32557.html",
+        "title": "Geographic information -- Metadata -- XML schema implementation",
+        "publisher": "ISO",
+        "status": "Technical Specification",
+        "date": "2007",
+        "isoNumber": "ISO/TS 19139:2007"
+    },
+    "iso-19142": {
+        "aliasOf": "iso-19142-2010"
+    },
+    "iso-19142-2010": {
+        "authors": [
+            "ISO/TC 211"
+        ],
+        "href": "https://www.iso.org/standard/42136.html",
+        "title": "Geographic information -- Web Feature Service",
+        "publisher": "ISO",
+        "status": "International Standard",
+        "date": "2010",
+        "isoNumber": "ISO 19142:2010"
+    },
+    "iso-19143": {
+        "aliasOf": "iso-19143-2010"
+    },
+    "iso-19143-2010": {
+        "authors": [
+            "ISO/TC 211"
+        ],
+        "href": "https://www.iso.org/standard/42137.html",
+        "title": "Geographic information -- Filter Encoding",
+        "publisher": "ISO",
+        "status": "International Standard",
+        "date": "2010",
+        "isoNumber": "ISO 19143:2010"
+    },
+    "iso-19150-2": {
+        "aliasOf": "iso-19150-2-2015"
+    },
+    "iso-19150-2-2015": {
+        "authors": [
+            "ISO/TC 211"
+        ],
+        "href": "https://www.iso.org/standard/57466.html",
+        "title": "Geographic information -- Ontology -- Part 2: Rules for developing ontologies in the Web Ontology Language (OWL)",
+        "publisher": "ISO",
+        "status": "International Standard",
+        "date": "2015",
+        "isoNumber": "ISO 19150-2:2015"
+    },
+    "iso-19156": {
+        "aliasOf": "iso-19156-2023"
+    },
+    "iso-19156-2011": {
+        "authors": [
+            "ISO/TC 211"
+        ],
+        "href": "https://www.iso.org/standard/32574.html",
+        "title": "Geographic information -- Observations and measurements",
+        "publisher": "ISO",
+        "status": "International Standard",
+        "date": "2011",
+        "isoNumber": "ISO 19156:2011",
+        "updatedBy": [
+            "iso-19156-2023"
+        ]
+    },
+    "iso-19156-2023": {
+        "authors": [
+            "ISO/TC 211"
+        ],
+        "href": "https://www.iso.org/standard/82463.html",
+        "title": "Geographic information -- Observations, measurements and samples",
+        "publisher": "ISO",
+        "status": "International Standard",
+        "date": "2023",
+        "isoNumber": "ISO 19156:2023",
+        "obsoletes": [
+            "iso-19156-2011"
+        ]
+    },
+    "iso-19159-2": {
+        "aliasOf": "iso-19159-2-2016"
+    },
+    "iso-19159-2-2016": {
+        "authors": [
+            "ISO/TC 211"
+        ],
+        "href": "https://www.iso.org/standard/64768.html",
+        "title": "Geographic information -- Calibration and validation of remote sensing imagery sensors and data -- Part 2: Lidar",
+        "publisher": "ISO",
+        "status": "Technical Specification",
+        "date": "2016",
+        "isoNumber": "ISO/TS 19159-2:2016"
+    },
+    "iso-19162": {
+        "aliasOf": "iso-19162-2015"
+    },
+    "iso-19162-2015": {
+        "authors": [
+            "ISO/TC 211"
+        ],
+        "href": "https://www.iso.org/standard/63094.html",
+        "title": "ISO 19162:2015 Geographic information -- Well-known text representation of coordinate reference systems",
+        "publisher": "ISO",
+        "status": "International Standard",
+        "date": "2015",
+        "isoNumber": "ISO 19162:2015"
+    },
+    "iso-639": {
+        "aliasOf": "iso-639-1988"
+    },
+    "iso-639-1": {
+        "aliasOf": "iso-639-1-2002"
+    },
+    "iso-639-1-2002": {
+        "authors": [
+            "ISO/TC 37/SC 2"
+        ],
+        "href": "https://www.iso.org/standard/22109.html",
+        "title": "Codes for the representation of names of languages -- Part 1: Alpha-2 code",
+        "publisher": "ISO",
+        "status": "International Standard",
+        "date": "2002",
+        "isoNumber": "ISO 639-1:2002",
+        "updates": [
+            "iso-639-1988"
+        ]
+    },
+    "iso-639-1988": {
+        "authors": [
+            "ISO/TC 37/SC 2"
+        ],
+        "href": "https://www.iso.org/standard/4766.html",
+        "title": "Code for the representation of names of languages",
+        "publisher": "ISO",
+        "status": "International Standard",
+        "date": "1988",
+        "isoNumber": "ISO 639:1988",
+        "updatedBy": [
+            "iso-639-1"
+        ]
+    },
+    "iso-639-2": {
+        "aliasOf": "iso-639-2-1998"
+    },
+    "iso-639-2-1998": {
+        "authors": [
+            "ISO/TC 37/SC 2"
+        ],
+        "href": "https://www.iso.org/standard/4767.html",
+        "title": "Codes for the representation of names of languages -- Part 2: Alpha-3 code",
+        "publisher": "ISO",
+        "status": "International Standard",
+        "date": "1998",
+        "isoNumber": "ISO 639-2:1998"
+    },
+    "iso-639-3": {
+        "aliasOf": "iso-639-3-2007"
+    },
+    "iso-639-3-2007": {
+        "authors": [
+            "ISO/TC 37/SC 2"
+        ],
+        "href": "https://www.iso.org/standard/39534.html",
+        "title": "Codes for the representation of names of languages -- Part 3: Alpha-3 code for comprehensive coverage of languages",
+        "publisher": "ISO",
+        "status": "International Standard",
+        "date": "2007",
+        "isoNumber": "ISO 639-3:2007"
+    },
+    "iso-639-4": {
+        "aliasOf": "iso-639-4-2010"
+    },
+    "iso-639-4-2010": {
+        "authors": [
+            "ISO/TC 37/SC 2"
+        ],
+        "href": "https://www.iso.org/standard/39535.html",
+        "title": "Codes for the representation of names of languages -- Part 4: General principles of coding of the representation of names of languages and related entities, and application guidelines",
+        "publisher": "ISO",
+        "status": "International Standard",
+        "date": "2010",
+        "isoNumber": "ISO 639-4:2010"
+    },
+    "iso-639-5": {
+        "aliasOf": "iso-639-5-2008"
+    },
+    "iso-639-5-2008": {
+        "authors": [
+            "ISO/TC 37/SC 2"
+        ],
+        "href": "https://www.iso.org/standard/39536.html",
+        "title": "Codes for the representation of names of languages -- Part 5: Alpha-3 code for language families and groups",
+        "publisher": "ISO",
+        "status": "International Standard",
+        "date": "2008",
+        "isoNumber": "ISO 639-5:2008"
+    },
+    "json-patch": {
+        "aliasOf": "rfc6902"
+    },
+    "json-patch-20130401": {
+        "aliasOf": "rfc6902"
+    },
+    "json-schema": {
+        "authors": [
+            "Austin Wright",
+            "Henry Andrews",
+            "Ben Hutton",
+            "Greg Dennis"
+        ],
+        "href": "https://datatracker.ietf.org/doc/html/draft-bhutton-json-schema",
+        "publisher": "Internet Engineering Task Force (IETF)",
+        "status": "Internet-Draft",
+        "rawDate": "2020-12-08",
+        "title": "JSON Schema: A Media Type for Describing JSON Documents",
+        "repository": "https://github.com/json-schema-org/json-schema-spec",
+        "versions": {
+            "2020-12": {
+                "authors": [
+                    "Austin Wright",
+                    "Henry Andrews",
+                    "Ben Hutton",
+                    "Greg Dennis"
+                ],
+                "href": "https://datatracker.ietf.org/doc/html/draft-bhutton-json-schema-00",
+                "status": "Internet-Draft",
+                "rawDate": "2020-12-08",
+                "title": "JSON Schema: A Media Type for Describing JSON Documents. Draft 2020-12"
+            },
+            "04": {
+                "authors": [
+                    "Kris Zyp",
+                    "Francis Galiegue",
+                    "Gary Court"
+                ],
+                "href": "https://datatracker.ietf.org/doc/html/draft-zyp-json-schema-04",
+                "status": "Internet-Draft",
+                "rawDate": "2013-01-31",
+                "title": "JSON Schema: core definitions and terminology. Draft 4"
+            }
+        }
+    },
+    "locn": {
+        "authors": [
+            "Andrea Perego",
+            "Michael Lutz"
+        ],
+        "href": "http://www.w3.org/ns/locn",
+        "title": "ISA Programme Location Core Vocabulary",
+        "rawDate": "2015-03-23",
+        "status": "Second version in w3.org/ns space",
+        "publisher": "European Commission",
+        "deliveredBy": [
+            "https://joinup.ec.europa.eu/asset/core_location"
+        ],
+        "versions": {
+            "20131125": {
+                "authors": [
+                    "Andrea Perego",
+                    "Michael Lutz",
+                    "Phil Archer"
+                ],
+                "href": "https://www.w3.org/2015/04/locn",
+                "title": "ISA Programme Location Core Vocabulary",
+                "rawDate": "2013-11-25",
+                "status": "First version in w3.org/ns space",
+                "publisher": "European Commission",
+                "deliveredBy": [
+                    "https://joinup.ec.europa.eu/asset/core_location/"
+                ]
+            }
+        }
+    },
+    "mdn-setcapture": {
+        "authors": [
+            "Eric Shepherd; et. al"
+        ],
+        "href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/setCapture",
+        "title": "Element.setCapture()"
+    },
+    "mediaqueries": {
+        "aliasOf": "mediaqueries-4"
+    },
+    "microformats2-parsing": {
+        "authors": [
+            "Tantek Çelik"
+        ],
+        "href": "http://microformats.org/wiki/microformats2-parsing",
+        "title": "microformats2 parsing",
+        "publisher": "microformats.org",
+        "status": "Living Specification"
+    },
+    "news-ml": {
+        "authors": [
+            "International Press Telecommunications Council"
+        ],
+        "href": "https://www.iptc.org/std/NewsML-G2/2.22/documentation/NewsML-G2-Implementation_Guide_8.0.pdf",
+        "publisher": "IPTC",
+        "status": "Public Release",
+        "rawDate": "2015",
+        "title": "NewsML-G2 Implementation Guide"
+    },
+    "oai-pmh": {
+        "authors": [
+            "Carl Lagoze",
+            "Herbert Van de Sompel",
+            "Michael Nelson",
+            "Simeon Warner"
+        ],
+        "href": "http://www.openarchives.org/OAI/openarchivesprotocol.html",
+        "title": "The Open Archives Initiative Protocol for Metadata Harvesting",
+        "publisher": "OAI",
+        "deliveredBy": [
+            "http://www.openarchives.org/"
+        ],
+        "rawDate": "2015-01-08",
+        "versions": {
+            "20010424": {
+                "authors": [
+                    "Herbert Van de Sompel",
+                    "Carl Lagoze"
+                ],
+                "href": "http://www.openarchives.org/OAI/1.0/openarchivesprotocol.htm",
+                "title": "The Open Archives Initiative Protocol for Metadata Harvesting. Version 1.0",
+                "publisher": "OAI",
+                "deliveredBy": [
+                    "http://www.openarchives.org/"
+                ],
+                "rawDate": "2001-04-24"
+            },
+            "20010620": {
+                "authors": [
+                    "Carl Lagoze",
+                    "Herbert Van de Sompel"
+                ],
+                "href": "http://www.openarchives.org/OAI/1.1/openarchivesprotocol.htm",
+                "title": "The Open Archives Initiative Protocol for Metadata Harvesting. Version 1.1",
+                "publisher": "OAI",
+                "deliveredBy": [
+                    "http://www.openarchives.org/"
+                ],
+                "rawDate": "2001-06-20"
+            },
+            "20150108": {
+                "authors": [
+                    "Carl Lagoze",
+                    "Herbert Van de Sompel",
+                    "Michael Nelson",
+                    "Simeon Warner"
+                ],
+                "href": "http://www.openarchives.org/OAI/2.0/openarchivesprotocol.htm",
+                "title": "The Open Archives Initiative Protocol for Metadata Harvesting. Version 2.0",
+                "publisher": "OAI",
+                "deliveredBy": [
+                    "http://www.openarchives.org/"
+                ],
+                "rawDate": "2015-01-08"
+            }
+        }
+    },
+    "odrl": {
+        "authors": [
+            "Renato Iannella"
+        ],
+        "versions": {
+            "20020919": {
+                "status": "NOTE",
+                "rawDate": "2002-09-19",
+                "href": "https://www.w3.org/TR/2002/NOTE-odrl-20020919/"
+            }
+        },
+        "href": "https://www.w3.org/TR/odrl",
+        "publisher": "W3C",
+        "status": "NOTE",
+        "rawDate": "2002-09-19",
+        "title": "Open Digital Rights Language (ODRL) Version 1.1"
+    },
+    "odrl-w3c-model": {
+        "aliasOf": "odrl-model"
+    },
+    "odrl2-req": {
+        "authors": [
+            "Susanne Guth",
+            "Renato Iannella"
+        ],
+        "href": "https://www.w3.org/2012/09/odrl/archive/odrl.net/2.0/v2req.html",
+        "publisher": "ODRL Initiative",
+        "status": "Working Draft",
+        "rawDate": "2005-02-13",
+        "title": "ODRL Version 2 Requirements"
+    },
+    "odrl21-json": {
+        "authors": [
+            "Jonas Öberg",
+            "Stuart Myles",
+            "Lu Ai"
+        ],
+        "href": "https://www.w3.org/community/odrl/json/2.1/",
+        "publisher": "W3C",
+        "status": "W3C Community Group Final Specification",
+        "rawDate": "2015-03-05",
+        "title": "ODRL Version 2.1 JSON Encoding"
+    },
+    "odrl21-model": {
+        "authors": [
+            "Renato Iannella",
+            "Susanne Guth",
+            "Daniel Paehler",
+            "Andreas Kasten"
+        ],
+        "href": "https://www.w3.org/community/odrl/model/2.1/",
+        "publisher": "W3C",
+        "status": "W3C Community Group Final Specification",
+        "rawDate": "2015-03-05",
+        "title": "ODRL Version 2.1 Core Model"
+    },
+    "odrl21-onto": {
+        "authors": [
+            "Mo McRoberts",
+            "Víctor Rodríguez Doncel"
+        ],
+        "href": "https://www.w3.org/ns/odrl/2/ODRL21",
+        "publisher": "W3C",
+        "status": "W3C Community Group Final Specification",
+        "rawDate": "2015-03-05",
+        "title": "ODRL Version 2.1 Ontology"
+    },
+    "odrl21-vocab": {
+        "authors": [
+            "Renato Iannella",
+            "Michael Steidl",
+            "Susanne Guth"
+        ],
+        "href": "https://www.w3.org/community/odrl/vocab/2.1/",
+        "publisher": "W3C",
+        "status": "W3C Community Group Final Specification",
+        "rawDate": "2015-03-05",
+        "title": "ODRL Version 2.1 Common Vocabulary"
+    },
+    "odrl21-xml": {
+        "authors": [
+            "Renato Iannella"
+        ],
+        "href": "https://www.w3.org/community/odrl/xml/2.1/",
+        "publisher": "W3C",
+        "status": "W3C Community Group Final Specification",
+        "rawDate": "2015-03-05",
+        "title": "ODRL Version 2.1 XML Encoding"
+    },
+    "ogc-06-042": {
+        "aliasOf": "wms"
+    },
+    "ogc-07-036": {
+        "aliasOf": "sos"
+    },
+    "ogc-07-057r7": {
+        "aliasOf": "wmts"
+    },
+    "ogc-09-025r2": {
+        "aliasOf": "wfs"
+    },
+    "ogc-11-052r4": {
+        "aliasOf": "sos"
+    },
+    "ogc-12-006": {
+        "aliasOf": "sos"
+    },
+    "ogc-12-168r6": {
+        "aliasOf": "csw"
+    },
+    "ogc-14-065": {
+        "aliasOf": "wps"
+    },
+    "plus": {
+        "authors": [
+            "PLUS Coalition"
+        ],
+        "href": "http://www.useplus.com/useplus/license.asp",
+        "publisher": "PLUS",
+        "rawDate": "2016",
+        "title": "PLUS License Data Format "
+    },
+    "powder-s": {
+        "authors": [
+            "Andrea Perego",
+            "Stasinos Konstantopoulos",
+            "Phil Archer"
+        ],
+        "href": "https://www.w3.org/2007/05/powder-s",
+        "title": "Protocol for Web Description Resources (POWDER): POWDER-S Vocabulary (WDRS)",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/2007/powder/"
+        ],
+        "rawDate": "2010-11-08"
+    },
+    "prism": {
+        "href": "http://www.prismstandard.org/specifications/3.0/PRISM_Basic_Metadata_3.0.htm",
+        "title": "Publishing Requirements for Industry Standard Metadata, Version 3.0. PRISM Basic Metadata Specification",
+        "publisher": "International Digital Enterprise Alliance, Inc.",
+        "rawDate": "2012-10-08"
+    },
+    "promises-guide": {
+        "href": "https://www.w3.org/2001/tag/doc/promises-guide",
+        "title": "Writing Promise-Using Specifications",
+        "publisher": "W3C",
+        "status": "TAG Finding",
+        "authors": [
+            "Domenic Denicola"
+        ],
+        "rawDate": "2018-11-09"
+    },
+    "rdf11-schema": {
+        "aliasOf": "rdf-schema"
+    },
+    "re3data-schema": {
+        "href": "https://doi.org/10.2312/re3.008",
+        "title": "Metadata Schema for the Description of Research Data Repositories: version 3",
+        "authors": [
+            "Jessika Rücknagel"
+        ],
+        "etAl": true,
+        "publisher": "GFZ Potsdam",
+        "rawDate": "2015-12-17"
+    },
+    "rel-author": {
+        "authors": [
+            "Tantek Çelik"
+        ],
+        "href": "http://microformats.org/wiki/rel-author",
+        "title": "rel-author",
+        "publisher": "microformats.org",
+        "status": "Draft Specification"
+    },
+    "rel-enclosure": {
+        "authors": [
+            "Kevin Marks"
+        ],
+        "href": "http://microformats.org/wiki/rel-enclosure",
+        "title": "rel-enclosure",
+        "publisher": "microformats.org",
+        "status": "Draft Specification"
+    },
+    "rel-home": {
+        "authors": [
+            "Danny Ayers"
+        ],
+        "href": "http://microformats.org/wiki/rel-home",
+        "title": "rel-home",
+        "publisher": "microformats.org",
+        "status": "Draft Specification"
+    },
+    "rel-license": {
+        "authors": [
+            "Tantek Çelik"
+        ],
+        "href": "http://microformats.org/wiki/rel-license",
+        "title": "rel-license",
+        "publisher": "microformats.org",
+        "status": "Living Specification"
+    },
+    "rel-nofollow": {
+        "authors": [
+            "Tantek Çelik",
+            "Kevin Marks"
+        ],
+        "href": "http://microformats.org/wiki/rel-nofollow",
+        "title": "rel-nofollow",
+        "publisher": "microformats.org",
+        "status": "Living Specification"
+    },
+    "rel-tag": {
+        "authors": [
+            "Tantek Çelik",
+            "Kevin Marks"
+        ],
+        "href": "http://microformats.org/wiki/rel-tag",
+        "title": "rel-tag",
+        "publisher": "microformats.org",
+        "status": "Living Specification"
+    },
+    "rights-ml": {
+        "authors": [
+            "International Press Telecommunications Council"
+        ],
+        "href": "http://dev.iptc.org/RightsML",
+        "publisher": "IPTC",
+        "status": "Version 1.1 Experimental Phase 2",
+        "rawDate": "2013",
+        "title": "RightsML"
+    },
+    "schema-org": {
+        "authors": [
+            "W3C Schema.org Community Group"
+        ],
+        "href": "https://schema.org/",
+        "publisher": "W3C",
+        "status": "6.0",
+        "title": "Schema.org",
+        "repository": "https://github.com/schemaorg/schemaorg"
+    },
+    "service-workers-nightly": {
+        "authors": [
+            "Alex Russell",
+            "Jungkee Song",
+            "Jake Archibald",
+            "Marijn Kruisselbrink"
+        ],
+        "href": "https://w3c.github.io/ServiceWorker/",
+        "publisher": "W3C",
+        "status": "LS",
+        "title": "Service Workers Nightly",
+        "repository": "https://github.com/w3c/ServiceWorker"
+    },
+    "smartM2M": {
+        "aliasOf": "etsi-ts-103-264"
+    },
+    "sos": {
+        "href": "http://www.opengeospatial.org/standards/sos",
+        "publisher": "OGC",
+        "ogcNumber": "OGC 12-006",
+        "authors": [
+            "Arne Bröring",
+            "Christoph Stasch",
+            "Johannes Echterhoff"
+        ],
+        "rawDate": "2012-04-20",
+        "title": "Sensor Observation Service Interface Standard",
+        "status": "OpenGIS Implementation Standard"
+    },
+    "statdcat-ap": {
+        "href": "https://joinup.ec.europa.eu/solution/statdcat-application-profile-data-portals-europe",
+        "title": "StatDCAT-AP – DCAT Application Profile for description of statistical datasets. Version 1.0.1",
+        "rawDate": "2019-05-28",
+        "publisher": "European Commission",
+        "deliveredBy": [
+            "https://joinup.ec.europa.eu/solution/statdcat-application-profile-data-portals-europe"
+        ],
+        "versions": {
+            "20161215": {
+                "href": "https://joinup.ec.europa.eu/release/statdcat-ap/100",
+                "title": "StatDCAT-AP – DCAT Application Profile for description of statistical datasets. Version 1.0.0",
+                "rawDate": "2016-12-15",
+                "publisher": "European Commission",
+                "deliveredBy": [
+                    "https://joinup.ec.europa.eu/solution/statdcat-application-profile-data-portals-europe"
+                ]
+            },
+            "20190528": {
+                "href": "https://joinup.ec.europa.eu/release/statdcat-ap/101",
+                "title": "StatDCAT-AP – DCAT Application Profile for description of statistical datasets. Version 1.0.1",
+                "rawDate": "2019-05-28",
+                "publisher": "European Commission",
+                "deliveredBy": [
+                    "https://joinup.ec.europa.eu/solution/statdcat-application-profile-data-portals-europe"
+                ]
+            }
+        }
+    },
+    "typedarray": {
+        "authors": [
+            "David Herman",
+            "Kenneth Russell"
+        ],
+        "href": "https://www.khronos.org/registry/typedarray/specs/latest/",
+        "title": "Typed Array Specification",
+        "rawDate": "2013-06-26",
+        "status": "Khronos Working Draft",
+        "publisher": "Khronos"
+    },
+    "uml": {
+        "authors": [
+            "Open Management Group"
+        ],
+        "href": "http://www.omg.org/spec/UML/",
+        "publisher": "OMG",
+        "status": "Normative",
+        "rawDate": "2015-03-01",
+        "title": "OMG Unified Modeling Language"
+    },
+    "vann": {
+        "authors": [
+            "Ian Davis"
+        ],
+        "href": "http://purl.org/vocab/vann",
+        "title": "VANN: A vocabulary for annotating vocabulary descriptions",
+        "rawDate": "2010-06-07",
+        "publisher": "Vocab.org",
+        "versions": {
+            "20040305": {
+                "authors": [
+                    "Ian Davis"
+                ],
+                "href": "http://purl.org/vocab/vann/vann-vocab-20030405",
+                "title": "VANN: A vocabulary for annotating vocabulary descriptions",
+                "rawDate": "2004-03-05",
+                "publisher": "Vocab.org"
+            },
+            "20100607": {
+                "authors": [
+                    "Ian Davis"
+                ],
+                "href": "http://purl.org/vocab/vann/vann-vocab-20050401",
+                "title": "VANN: A vocabulary for annotating vocabulary descriptions",
+                "rawDate": "2010-06-07",
+                "publisher": "Vocab.org"
+            }
+        }
+    },
+    "voaf": {
+        "authors": [
+            "Bernard Vatant"
+        ],
+        "href": "http://purl.org/vocommons/voaf",
+        "title": "Vocabulary of a Friend (VOAF)",
+        "rawDate": "2013-05-24",
+        "publisher": "OKFN",
+        "versions": {
+            "20111103": {
+                "authors": [
+                    "Bernard Vatant"
+                ],
+                "href": "http://lov.okfn.org/vocommons/voaf/v1.0/",
+                "title": "Vocabulary of a Friend (VOAF). Version 1.0",
+                "publisher": "Mondeca",
+                "rawDate": "2011-11-03"
+            },
+            "20111116": {
+                "authors": [
+                    "Bernard Vatant"
+                ],
+                "href": "http://lov.okfn.org/vocommons/voaf/v1.1/",
+                "title": "Vocabulary of a Friend (VOAF). Version 1.1",
+                "rawDate": "2011-11-16",
+                "publisher": "Mondeca"
+            },
+            "20120703": {
+                "authors": [
+                    "Bernard Vatant"
+                ],
+                "href": "http://lov.okfn.org/vocommons/voaf/v2.0/",
+                "title": "Vocabulary of a Friend (VOAF). Version 2.0",
+                "rawDate": "2012-07-03",
+                "publisher": "OKFN"
+            },
+            "20121015": {
+                "authors": [
+                    "Bernard Vatant"
+                ],
+                "href": "http://lov.okfn.org/vocommons/voaf/v2.1/",
+                "title": "Vocabulary of a Friend (VOAF). Version 2.1",
+                "rawDate": "2012-10-15",
+                "publisher": "OKFN"
+            },
+            "20130424": {
+                "authors": [
+                    "Bernard Vatant"
+                ],
+                "href": "http://lov.okfn.org/vocommons/voaf/v2.2/",
+                "title": "Vocabulary of a Friend (VOAF). Version 2.2",
+                "rawDate": "2013-04-24",
+                "publisher": "OKFN"
+            },
+            "20130524": {
+                "authors": [
+                    "Bernard Vatant"
+                ],
+                "href": "http://lov.okfn.org/vocommons/voaf/v2.3/",
+                "title": "Vocabulary of a Friend (VOAF). Version 2.3",
+                "rawDate": "2013-05-24",
+                "publisher": "OKFN"
+            }
+        }
+    },
+    "w3c-basic-geo": {
+        "href": "https://www.w3.org/2003/01/geo/",
+        "title": "Basic Geo (WGS84 lat/long) Vocabulary",
+        "authors": [
+            "Dan Brickley"
+        ],
+        "publisher": "W3C Semantic Web Interest Group",
+        "rawDate": "2006-02-01"
+    },
+    "w3c-patent-policy": {
+        "href": "https://www.w3.org/Consortium/Patent-Policy/",
+        "title": "W3C Patent Policy",
+        "authors": [
+            "Wendy Seltzer"
+        ],
+        "publisher": "W3C",
+        "rawDate": "2020-09-15"
+    },
+    "w3c-process": {
+        "href": "https://www.w3.org/Consortium/Process/",
+        "title": "W3C Process Document",
+        "authors": [
+            "Elika J. Etemad (fantasai)",
+            "Florian Rivoal"
+        ],
+        "publisher": "W3C",
+        "rawDate": "2021-11-02"
+    },
+    "wacz": {
+        "href": "https://specs.webrecorder.net/wacz/latest/",
+        "title": "Web Archive Collection Zipped (WACZ)",
+        "status": "Published",
+        "publisher": "Webrecorder",
+        "rawDate": "2021-06-03"
+    },
+    "warc": {
+        "href": "https://www.iso.org/standard/68004.html",
+        "title": "Information and documentation — WARC file format",
+        "status": "Published",
+        "publisher": "International Organization for Standardization (ISO)",
+        "isoNumber": "ISO 28500:2017",
+        "rawDate": "2017-08"
+    },
+    "web-bluetooth": {
+        "href": "https://webbluetoothcg.github.io/web-bluetooth/",
+        "edDraft": "https://webbluetoothcg.github.io/web-bluetooth/",
+        "title": "Web Bluetooth",
+        "status": "Draft Community Group Report",
+        "authors": [
+            "Jeffrey Yasskin"
+        ],
+        "deliveredBy": [
+            "https://www.w3.org/community/web-bluetooth/"
+        ],
+        "publisher": "W3C Web Bluetooth Community Group",
+        "repository": "https://github.com/webbluetoothcg/web-bluetooth"
+    },
+    "web-thing-model": {
+        "href": "https://www.w3.org/Submission/wot-model/",
+        "edDraft": "https://www.w3.org/Submission/wot-model/",
+        "title": "Web Thing Model",
+        "status": "Member Submission",
+        "authors": [
+            "Vlad Trifa",
+            "Dominique Guinard",
+            "David Carrera"
+        ],
+        "deliveredBy": [
+            "https://webofthings.org"
+        ],
+        "publisher": "W3C WoT Community Group",
+        "repository": "https://github.com/webofthings/web-thing-model"
+    },
+    "webdriver-bidi": {
+        "href": "https://w3c.github.io/webdriver-bidi/",
+        "publisher": "W3C",
+        "title": "WebDriver BiDi",
+        "status": "Editor's Draft",
+        "repository": "https://github.com/w3c/webdriver-bidi"
+    },
+    "wfs": {
+        "href": "http://www.opengeospatial.org/standards/wfs",
+        "publisher": "OGC",
+        "ogcNumber": "OGC 09-025r2",
+        "authors": [
+            "Panagiotis (Peter) A. Vretanos"
+        ],
+        "rawDate": "2014-07-10",
+        "title": "Web Feature Service 2.0 Interface Standard",
+        "status": "OGC Interface Standard"
+    },
+    "wms": {
+        "authors": [
+            "Jeff de la Beaujardiere"
+        ],
+        "href": "http://www.opengeospatial.org/standards/wms",
+        "title": "Web Map Service Implementation Specification",
+        "publisher": "OGC",
+        "ogcNumber": "OGC 06-042",
+        "rawDate": "2006-03-15",
+        "status": "OpenGIS Implementation Standard"
+    },
+    "wmts": {
+        "href": "http://www.opengeospatial.org/standards/wmts",
+        "publisher": "OGC",
+        "ogcNumber": "OGC 07-057r7",
+        "authors": [
+            "Joan Masó",
+            "Keith Pomakis",
+            "Núria Julià"
+        ],
+        "rawDate": "2010-04-06",
+        "title": "Web Map Tile Service Implementation Standard",
+        "status": "OpenGIS Implementation Standard"
+    },
+    "wps": {
+        "href": "http://www.opengeospatial.org/standards/wps",
+        "publisher": "OGC",
+        "ogcNumber": "OGC 14-065",
+        "authors": [
+            "Matthias Mueller",
+            "Benjamin Pross"
+        ],
+        "rawDate": "2015-10-05",
+        "title": "Web Processing Service 2.0 Interface Standard",
+        "status": "OGC Implementation Standard"
+    },
+    "xfn": {
+        "href": "http://www.gmpg.org/xfn/",
+        "title": "XHTML Friends Network",
+        "authors": [
+            "Tantek Çelik",
+            "Matthew Mullenweg",
+            "Eric Meyer"
+        ],
+        "publisher": "Global Multimedia Protocols Group"
     }
+}
