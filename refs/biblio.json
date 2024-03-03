@@ -4155,40 +4155,41 @@
         "status": "W3C Incubator Group Report"
     },
     "geosparql": {
-        "href": "http://www.opengeospatial.org/standards/geosparql",
+        "aliasOf": "geosparql-v1.1"
+    },
+    "geosparql-v1.0": {
+        "href": "https://portal.ogc.org/files/?artifact_id=47664",
         "title": "OGC GeoSPARQL - A Geographic Query Language for RDF Data",
         "publisher": "OGC",
-        "rawDate": "2024-01-29",
-        "versions": {
-            "20120910": {
-                "href": "https://portal.ogc.org/files/?artifact_id=47664",
-                "ogcNumber": "OGC 11-052r4",
-                "authors": [
-                    "Matthew Perry",
-                    "John Herring"
-                ],
-                "rawDate": "2012-09-10",
-                "status": "version 1.0"
-            },
-            "20240129": {
-                "href": "https://docs.ogc.org/is/22-047r1/22-047r1.html",
-                "ogcNumber": "OGC 22-047r1",
-                "authors": [
-                    "Nicholas J. Car",
-                    "Timo Homburg",
-                    "Matthew Perry",
-                    "Frans Knibbe",
-                    "Simon J.D. Cox",
-                    "Joseph Abhayaratna",
-                    "Mathias Bonduel",
-                    "Paul J. Cripps",
-                    "Krzysztof Janowicz"
-                ],
-                "rawDate": "2024-01-29",
-                "status": "version 1.1"
-            },
-            "status": "OGC Standard"
-        }
+        "status": "OGC Standard",
+        "ogcNumber": "OGC 11-052r4",
+        "authors": [
+            "Matthew Perry",
+            "John Herring"
+        ],
+        "rawDate": "2012-09-10"
+    },
+    "geosparql-v1.1": {
+        "href": "https://docs.ogc.org/is/22-047r1/22-047r1.html",
+        "title": "OGC GeoSPARQL - A Geographic Query Language for RDF Data",
+        "publisher": "OGC",
+        "status": "OGC Standard",
+        "obsoletes": [
+            "geosparql-v1.0"
+        ],
+        "ogcNumber": "OGC 22-047r1",
+        "authors": [
+            "Nicholas J. Car",
+            "Timo Homburg",
+            "Matthew Perry",
+            "Frans Knibbe",
+            "Simon J.D. Cox",
+            "Joseph Abhayaratna",
+            "Mathias Bonduel",
+            "Paul J. Cripps",
+            "Krzysztof Janowicz"
+        ],
+        "rawDate": "2024-01-29"
     },
     "gml": {
         "href": "http://www.opengeospatial.org/standards/gml",
