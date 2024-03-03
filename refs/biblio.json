@@ -2032,7 +2032,9 @@
     },
     "ISO18013-5": {
         "title": "ISO/IEC 18013-5:2021 ISO-compliant driving licence, Part 5: Mobile driving licence (mDL) application",
-        "authors": ["ISO/IEC JTC 1/SC 17"],
+        "authors": [
+            "ISO/IEC JTC 1/SC 17"
+        ],
         "date": "September 2021",
         "publisher": "International Organization for Standardization",
         "href": "https://www.iso.org/standard/69084.html"
@@ -2477,6 +2479,35 @@
     },
     "NTP": {
         "aliasOf": "RFC1305"
+    },
+    "OandM": {
+        "href": "https://portal.ogc.org/files/?artifact_id=41579",
+        "publisher": "OGC",
+        "ogcNumber": "OGC 10-004r3",
+        "authors": [
+            "Simon Cox"
+        ],
+        "date": "2011",
+        "title": "Observations and Measurements (O&M) v2",
+        "status": "OGC Abstract Specification Topic 20",
+        "updatedBy": [
+            "OMS"
+        ]
+    },
+    "OMS": {
+        "href": "https://docs.ogc.org/as/20-082r4/20-082r4.html",
+        "publisher": "OGC",
+        "ogcNumber": "OGC 20-082r4",
+        "authors": [
+            "Katharina Schleidt",
+            "Ilkka Rinne"
+        ],
+        "date": "2023",
+        "title": "Observations, measurements and samples (OMS)",
+        "status": "OGC Abstract Specification Topic 20",
+        "obsoletes": [
+            "OandM"
+        ]
     },
     "OA": {
         "authors": [
@@ -4671,7 +4702,7 @@
         ]
     },
     "iso-19136": {
-        "aliasOf": "iso-19136-2007"
+        "aliasOf": "iso-19136-1-2020"
     },
     "iso-19136-2007": {
         "href": "https://www.iso.org/standard/32554.html",
@@ -4682,7 +4713,33 @@
         "publisher": "ISO",
         "status": "International Standard",
         "date": "2007",
-        "isoNumber": "ISO 19136:2007"
+        "isoNumber": "ISO 19136:2007",
+        "updatedBy": [
+            "iso-19136-1-2020",
+            "iso-19136-2-2015"
+        ]
+    },
+    "iso-19136-1-2020": {
+        "href": "https://www.iso.org/standard/75676.html",
+        "title": "Geographic information -- Geography Markup Language (GML) - Part 1: Fundamentals",
+        "authors": [
+            "ISO/TC 211"
+        ],
+        "publisher": "ISO",
+        "status": "International Standard",
+        "date": "2020",
+        "isoNumber": "ISO 19136-1:2020"
+    },
+    "iso-19136-2-2015": {
+        "href": "https://www.iso.org/standard/61585.html",
+        "title": "Geographic information -- Geography Markup Language (GML) - Part 2: Extended schemas and encoding rules",
+        "authors": [
+            "ISO/TC 211"
+        ],
+        "publisher": "ISO",
+        "status": "International Standard",
+        "date": "2015",
+        "isoNumber": "ISO 19136-2:2015"
     },
     "iso-19139": {
         "aliasOf": "iso-19139-2007"
@@ -4741,7 +4798,7 @@
         "isoNumber": "ISO 19150-2:2015"
     },
     "iso-19156": {
-        "aliasOf": "iso-19156-2011"
+        "aliasOf": "iso-19156-2023"
     },
     "iso-19156-2011": {
         "authors": [
@@ -4752,7 +4809,24 @@
         "publisher": "ISO",
         "status": "International Standard",
         "date": "2011",
-        "isoNumber": "ISO 19156:2011"
+        "isoNumber": "ISO 19156:2011",
+        "updatedBy": [
+            "iso-19156-2023"
+        ]
+    },
+    "iso-19156-2023": {
+        "authors": [
+            "ISO/TC 211"
+        ],
+        "href": "https://www.iso.org/standard/82463.html",
+        "title": "Geographic information -- Observations, measurements and samples",
+        "publisher": "ISO",
+        "status": "International Standard",
+        "date": "2023",
+        "isoNumber": "ISO 19156:2023",
+        "obsoletes": [
+            "iso-19156-2011"
+        ]
     },
     "iso-19159-2": {
         "aliasOf": "iso-19159-2-2016"
