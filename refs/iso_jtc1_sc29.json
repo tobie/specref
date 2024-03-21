@@ -961,6 +961,13 @@
         ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
+    "iso13818-1-2023-awiamd1": {
+        "href": "https://www.iso.org/standard/89042.html",
+        "title": "Information technology — Generic coding of moving pictures and associated audio information — Part 1: Systems — Amendment 1: Codec parameter clarifications and other improvements",
+        "status": "Under development",
+        "publisher": "ISO/IEC",
+        "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+    },
     "iso13818-1-cdamd1": {
         "aliasOf": "iso13818-1-damd1"
     },
@@ -2083,11 +2090,7 @@
         "aliasOf": "iso14496-12-2022-cdamd1"
     },
     "iso14496-12-cdamd1": {
-        "href": "https://www.iso.org/standard/86519.html",
-        "title": "Information technology — Coding of audio-visual objects — Part 12: ISO base media file format — Amendment 1: Support for T.35, original sample duration and other improvements",
-        "status": "Under development",
-        "publisher": "ISO/IEC",
-        "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+        "aliasOf": "iso14496-12.2-cdamd1"
     },
     "iso14496-12-cdamd4": {
         "aliasOf": "iso14496-12-damd4"
@@ -2124,6 +2127,13 @@
     },
     "iso14496-12-wdamd1": {
         "aliasOf": "iso14496-12-cdamd1"
+    },
+    "iso14496-12.2-cdamd1": {
+        "href": "https://www.iso.org/standard/86519.html",
+        "title": "Information technology — Coding of audio-visual objects — Part 12: ISO base media file format — Amendment 1: Support for T.35, original sample duration and other improvements",
+        "status": "Under development",
+        "publisher": "ISO/IEC",
+        "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso14496-13": {
         "href": "https://www.iso.org/standard/39110.html",
@@ -2168,12 +2178,10 @@
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso14496-15": {
-        "href": "https://www.iso.org/standard/83336.html",
+        "href": "https://www.iso.org/standard/89118.html",
         "title": "Information technology — Coding of audio-visual objects — Part 15: Carriage of network abstraction layer (NAL) unit structured video in the ISO base media file format",
-        "status": "Published",
+        "status": "Under development",
         "publisher": "ISO/IEC",
-        "isoNumber": "ISO 14496-15:2022",
-        "rawDate": "2022-10",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso14496-15-2004-amd1-2006": {
@@ -2183,9 +2191,6 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "2006-03",
-        "obsoletedBy": [
-            "iso14496-15"
-        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso14496-15-2004-amd2-2008": {
@@ -2195,9 +2200,6 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "2008-07",
-        "obsoletedBy": [
-            "iso14496-15"
-        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso14496-15-2004-cor1-2006": {
@@ -2207,9 +2209,6 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "2006-02",
-        "obsoletedBy": [
-            "iso14496-15"
-        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso14496-15-2004-cor2-2006": {
@@ -2219,9 +2218,6 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "2006-10",
-        "obsoletedBy": [
-            "iso14496-15"
-        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso14496-15-2004-cor3-2009": {
@@ -2231,9 +2227,6 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "2009-04",
-        "obsoletedBy": [
-            "iso14496-15"
-        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso14496-15-2010-amd1-2011": {
@@ -2243,9 +2236,6 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "2011-11",
-        "obsoletedBy": [
-            "iso14496-15"
-        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso14496-15-2010-cor1-2011": {
@@ -2255,9 +2245,6 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "2011-05",
-        "obsoletedBy": [
-            "iso14496-15"
-        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso14496-15-2010-cor2-2012": {
@@ -2267,9 +2254,6 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "2012-07",
-        "obsoletedBy": [
-            "iso14496-15"
-        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso14496-15-2014-cor1-2015": {
@@ -2279,9 +2263,6 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "2015-04",
-        "obsoletedBy": [
-            "iso14496-15"
-        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso14496-15-2017-amd1-2018": {
@@ -2291,9 +2272,6 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "2018-02",
-        "obsoletedBy": [
-            "iso14496-15"
-        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso14496-15-2017-amd2-2019": {
@@ -2303,9 +2281,6 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "2019-01",
-        "obsoletedBy": [
-            "iso14496-15"
-        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso14496-15-2019-amd1": {
@@ -2318,9 +2293,6 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "2020-12",
-        "obsoletedBy": [
-            "iso14496-15"
-        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso14496-15-2019-cdamd1": {
@@ -2374,8 +2346,9 @@
     "iso14496-15-2022-damd2": {
         "href": "https://www.iso.org/standard/85548.html",
         "title": "Information technology — Coding of audio-visual objects — Part 15: Carriage of network abstraction layer (NAL) unit structured video in the ISO base media file format — Amendment 2: Picture-in-picture support and other extensions",
-        "status": "Under development",
+        "status": "Deleted",
         "publisher": "ISO/IEC",
+        "isRetired": true,
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso14496-15-2022-damd3": {
@@ -5275,12 +5248,10 @@
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso15444-16": {
-        "href": "https://www.iso.org/standard/80620.html",
+        "href": "https://www.iso.org/standard/88910.html",
         "title": "Information technology — JPEG 2000 image coding system — Part 16: Encapsulation of JPEG 2000 images into ISO/IEC 23008-12",
-        "status": "Published",
+        "status": "Under development",
         "publisher": "ISO/IEC",
-        "isoNumber": "ISO 15444-16:2021",
-        "rawDate": "2021-09",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso15444-17": {
@@ -6333,7 +6304,7 @@
     },
     "iso18181-3": {
         "href": "https://www.iso.org/standard/87633.html",
-        "title": "Information technology — JPEG XL Image Coding System — Part 3: Conformance testing",
+        "title": "Information technology — JPEG XL image coding system — Part 3: Conformance testing",
         "status": "Under development",
         "publisher": "ISO/IEC",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
@@ -6472,6 +6443,13 @@
         "publisher": "ISO/IEC",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
+    "iso19566-10-awiamd1": {
+        "href": "https://www.iso.org/standard/89041.html",
+        "title": "Information technologies — JPEG systems — Part 10: Reference Software — Amendment 1: Additional reference software implementations",
+        "status": "Under development",
+        "publisher": "ISO/IEC",
+        "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+    },
     "iso19566-2": {
         "href": "https://www.iso.org/standard/67704.html",
         "title": "Information technologies — JPEG Systems — Part 2: Transport mechanisms and packaging",
@@ -6537,6 +6515,13 @@
         "isRetired": true,
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
+    "iso19566-5-2023-cdamd1": {
+        "href": "https://www.iso.org/standard/88913.html",
+        "title": "Information technologies — JPEG systems — Part 5: JPEG universal metadata box format (JUMBF) — Amendment 1: JUMBF box compression and standalone JUMBF files",
+        "status": "Under development",
+        "publisher": "ISO/IEC",
+        "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+    },
     "iso19566-5-awiamd1": {
         "aliasOf": "iso19566-5-2019-awiamd1"
     },
@@ -6566,6 +6551,13 @@
     "iso19566-6-2019-cdamd1": {
         "aliasOf": "iso19566-6-2019-damd1"
     },
+    "iso19566-6-2019-cdamd2": {
+        "href": "https://www.iso.org/standard/88914.html",
+        "title": "Information technologies — JPEG systems — Part 6: JPEG 360 — Amendment 2: Revision to the equirectangular projection constraints",
+        "status": "Under development",
+        "publisher": "ISO/IEC",
+        "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+    },
     "iso19566-6-2019-damd1": {
         "aliasOf": "iso19566-6-2019-prfamd1"
     },
@@ -6584,6 +6576,13 @@
         "rawDate": "2022-10",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
+    "iso19566-7-2022-cdamd1": {
+        "href": "https://www.iso.org/standard/88915.html",
+        "title": "Information technologies — JPEG systems — Part 7: JPEG linked media format (JLINK) — Amendment 1: Revision to the JLINK XMP expressions",
+        "status": "Under development",
+        "publisher": "ISO/IEC",
+        "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+    },
     "iso19566-8": {
         "href": "https://www.iso.org/standard/81643.html",
         "title": "Information technologies — JPEG systems — Part 8: JPEG Snack",
@@ -6591,6 +6590,13 @@
         "publisher": "ISO/IEC",
         "isoNumber": "ISO 19566-8:2023",
         "rawDate": "2023-02",
+        "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+    },
+    "iso19566-8-2023-awiamd1": {
+        "href": "https://www.iso.org/standard/89040.html",
+        "title": "Information technologies — JPEG systems — Part 8: JPEG Snack — Amendment 1: Revision of JPEG Snack content boxes",
+        "status": "Under development",
+        "publisher": "ISO/IEC",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso19566-9": {
@@ -7118,26 +7124,29 @@
         "aliasOf": "iso21122-3-2019-cdcor1"
     },
     "iso21122-4": {
-        "href": "https://www.iso.org/standard/82568.html",
+        "href": "https://www.iso.org/standard/88912.html",
         "title": "Information technology — JPEG XS low-latency lightweight image coding system — Part 4: Conformance testing",
-        "status": "Published",
+        "status": "Under development",
         "publisher": "ISO/IEC",
-        "isoNumber": "ISO 21122-4:2022",
-        "rawDate": "2022-10",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso21122-5": {
-        "href": "https://www.iso.org/standard/82569.html",
+        "href": "https://www.iso.org/standard/89031.html",
         "title": "Information technology — JPEG XS low-latency lightweight image coding system — Part 5: Reference software",
-        "status": "Published",
+        "status": "Under development",
         "publisher": "ISO/IEC",
-        "isoNumber": "ISO 21122-5:2022",
-        "rawDate": "2022-09",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso21617-1": {
         "href": "https://www.iso.org/standard/86831.html",
         "title": "Information technology — JPEG Trust — Part 1: Core Foundation",
+        "status": "Under development",
+        "publisher": "ISO/IEC",
+        "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+    },
+    "iso21617-2": {
+        "href": "https://www.iso.org/standard/89038.html",
+        "title": "Information technology — JPEG Trust — Part 2: Trust profiles catalogue",
         "status": "Under development",
         "publisher": "ISO/IEC",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
@@ -7418,8 +7427,10 @@
     "iso23000-19": {
         "href": "https://www.iso.org/standard/85623.html",
         "title": "Information technology — Multimedia application format (MPEG-A) — Part 19: Common media application format (CMAF) for segmented media",
-        "status": "Under development",
+        "status": "Published",
         "publisher": "ISO/IEC",
+        "isoNumber": "ISO 23000-19:2024",
+        "rawDate": "2024-02",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23000-19-2018-amd1-2018": {
@@ -7429,6 +7440,9 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "2018-10",
+        "obsoletedBy": [
+            "iso23000-19"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23000-19-2018-amd2-2019": {
@@ -7438,6 +7452,9 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "2019-01",
+        "obsoletedBy": [
+            "iso23000-19"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23000-19-2018-damd3": {
@@ -7457,9 +7474,13 @@
     "iso23000-19-2020-amd1-2021": {
         "href": "https://www.iso.org/standard/80756.html",
         "title": "Information technology — Multimedia application format (MPEG-A) — Part 19: Common media application format (CMAF) for segmented media — Amendment 1: Additional CMAF HEVC media profiles",
-        "status": "Published",
+        "status": "Withdrawn",
         "publisher": "ISO/IEC",
+        "isSuperseded": true,
         "rawDate": "2021-05",
+        "obsoletedBy": [
+            "iso23000-19"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23000-19-2020-awiamd2": {
@@ -7506,6 +7527,20 @@
     "iso23000-19-2020-wdamd4": {
         "aliasOf": "iso23000-19-2020-cdamd4"
     },
+    "iso23000-19-2024-awiamd2": {
+        "href": "https://www.iso.org/standard/89043.html",
+        "title": "Information technology — Multimedia application format (MPEG-A) — Part 19: Common media application format (CMAF) for segmented media — Amendment 2: Additional structural CMAF brand profile",
+        "status": "Under development",
+        "publisher": "ISO/IEC",
+        "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+    },
+    "iso23000-19-2024-damd1": {
+        "href": "https://www.iso.org/standard/85642.html",
+        "title": "Information technology — Multimedia application format (MPEG-A) — Part 19: Common media application format (CMAF) for segmented media — Amendment 1: Low complexity enhancement video Coding (LCEVC) and other technologies",
+        "status": "Under development",
+        "publisher": "ISO/IEC",
+        "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+    },
     "iso23000-19-awiamd1": {
         "aliasOf": "iso23000-19-cdamd1"
     },
@@ -7513,11 +7548,7 @@
         "aliasOf": "iso23000-19-2020-cdamd1"
     },
     "iso23000-19-damd1": {
-        "href": "https://www.iso.org/standard/85642.html",
-        "title": "Information technology — Multimedia application format (MPEG-A) — Part 19: Common media application format (CMAF) for segmented media — Amendment 1: Low complexity enhancement video Coding (LCEVC) and other technologies",
-        "status": "Under development",
-        "publisher": "ISO/IEC",
-        "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+        "aliasOf": "iso23000-19-2024-damd1"
     },
     "iso23000-2": {
         "href": "https://www.iso.org/standard/45566.html",
@@ -7618,6 +7649,13 @@
     "iso23000-23": {
         "href": "https://www.iso.org/standard/86437.html",
         "title": "Information technology — Multimedia application format (MPEG-A) — Part 23: Decentralized media rights application format",
+        "status": "Under development",
+        "publisher": "ISO/IEC",
+        "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+    },
+    "iso23000-24": {
+        "href": "https://www.iso.org/standard/89039.html",
+        "title": "Information technology — Multimedia application format (MPEG-A) — Part 24: Messaging media application format (MeMAF)",
         "status": "Under development",
         "publisher": "ISO/IEC",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
@@ -7870,6 +7908,13 @@
     "iso23001-10-2020-cdamd1": {
         "aliasOf": "iso23001-10-2020-damd1"
     },
+    "iso23001-10-2020-cdamd2": {
+        "href": "https://www.iso.org/standard/89119.html",
+        "title": "Information technology — MPEG systems technologies — Part 10: Carriage of timed metadata metrics of media in ISO base media file format — Amendment 2: Support for Attenuation Maps",
+        "status": "Under development",
+        "publisher": "ISO/IEC",
+        "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+    },
     "iso23001-10-2020-damd1": {
         "aliasOf": "iso23001-10-2020-fdamd1"
     },
@@ -8007,17 +8052,29 @@
     },
     "iso23001-17": {
         "href": "https://www.iso.org/standard/82528.html",
-        "title": "Information technology — MPEG systems technologies — Part 17: Carriage of uncompressed video and images in ISO Base Media File Format",
+        "title": "Information technology — MPEG systems technologies — Part 17: Carriage of uncompressed video and images in ISO base media file format",
+        "status": "Published",
+        "publisher": "ISO/IEC",
+        "isoNumber": "ISO 23001-17:2024",
+        "rawDate": "2024-02",
+        "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+    },
+    "iso23001-17-2024-cdamd2": {
+        "href": "https://www.iso.org/standard/89120.html",
+        "title": "Information technology — MPEG systems technologies — Part 17: Carriage of uncompressed video and images in ISO base media file format — Amendment 2: Agnostically compressed media",
+        "status": "Under development",
+        "publisher": "ISO/IEC",
+        "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+    },
+    "iso23001-17-2024-damd1": {
+        "href": "https://www.iso.org/standard/87580.html",
+        "title": "Information technology — MPEG systems technologies — Part 17: Carriage of uncompressed video and images in ISO base media file format — Amendment 1: High precision timing tagging",
         "status": "Under development",
         "publisher": "ISO/IEC",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23001-17-cdamd1": {
-        "href": "https://www.iso.org/standard/87580.html",
-        "title": "Information technology — MPEG systems technologies — Part 17: Carriage of uncompressed video and images in ISO Base Media File Format — Amendment 1: High precision timing tagging",
-        "status": "Under development",
-        "publisher": "ISO/IEC",
-        "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+        "aliasOf": "iso23001-17-2024-damd1"
     },
     "iso23001-18": {
         "href": "https://www.iso.org/standard/82529.html",
@@ -8727,12 +8784,10 @@
         "aliasOf": "iso23003-3-2020-amd1-2021"
     },
     "iso23003-4": {
-        "href": "https://www.iso.org/standard/75930.html",
+        "href": "https://www.iso.org/standard/89036.html",
         "title": "Information technology — MPEG audio technologies — Part 4: Dynamic range control",
-        "status": "Published",
+        "status": "Under development",
         "publisher": "ISO/IEC",
-        "isoNumber": "ISO 23003-4:2020",
-        "rawDate": "2020-06",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23003-4-2015-amd1-2017": {
@@ -8742,9 +8797,6 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "2017-09",
-        "obsoletedBy": [
-            "iso23003-4"
-        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23003-4-2015-amd2-2017": {
@@ -8754,9 +8806,6 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "2017-10",
-        "obsoletedBy": [
-            "iso23003-4"
-        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23003-4-2015-damd3": {
@@ -9262,12 +9311,10 @@
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23008-12": {
-        "href": "https://www.iso.org/standard/83650.html",
+        "href": "https://www.iso.org/standard/89035.html",
         "title": "Information technology — High efficiency coding and media delivery in heterogeneous environments — Part 12: Image File Format",
-        "status": "Published",
+        "status": "Under development",
         "publisher": "ISO/IEC",
-        "isoNumber": "ISO 23008-12:2022",
-        "rawDate": "2022-09",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23008-12-2017-amd1": {
@@ -9280,9 +9327,6 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "2020-11",
-        "obsoletedBy": [
-            "iso23008-12"
-        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23008-12-2017-amd2": {
@@ -9301,9 +9345,6 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "2020-01",
-        "obsoletedBy": [
-            "iso23008-12"
-        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23008-12-2017-damd2": {
@@ -9332,13 +9373,21 @@
     "iso23008-12-2022-damd1": {
         "href": "https://www.iso.org/standard/84767.html",
         "title": "Information technology — High efficiency coding and media delivery in heterogeneous environments — Part 12: Image File Format — Amendment 1: Support for progressive rendering signalling and other improvements",
-        "status": "Under development",
+        "status": "Deleted",
         "publisher": "ISO/IEC",
+        "isRetired": true,
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23008-12-2022-damd2": {
         "href": "https://www.iso.org/standard/86521.html",
         "title": "Information technology — High efficiency coding and media delivery in heterogeneous environments — Part 12: Image File Format — Amendment 2: Renderable text items and other improvements",
+        "status": "Under development",
+        "publisher": "ISO/IEC",
+        "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+    },
+    "iso23008-12-awiamd2": {
+        "href": "https://www.iso.org/standard/89044.html",
+        "title": "Information technology — High efficiency coding and media delivery in heterogeneous environments — Part 12: Image File Format — Amendment 2: Support for tone map derivation and other technologies",
         "status": "Under development",
         "publisher": "ISO/IEC",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
@@ -9771,12 +9820,10 @@
         "aliasOf": "iso23008-9-cdamd1"
     },
     "iso23009-1": {
-        "href": "https://www.iso.org/standard/83314.html",
+        "href": "https://www.iso.org/standard/89027.html",
         "title": "Information technology — Dynamic adaptive streaming over HTTP (DASH) — Part 1: Media presentation description and segment formats",
-        "status": "Published",
+        "status": "Under development",
         "publisher": "ISO/IEC",
-        "isoNumber": "ISO 23009-1:2022",
-        "rawDate": "2022-08",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23009-1-2012-cor1-2013": {
@@ -9786,9 +9833,6 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "2013-06",
-        "obsoletedBy": [
-            "iso23009-1"
-        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23009-1-2014-amd1-2015": {
@@ -9798,9 +9842,6 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "2015-06",
-        "obsoletedBy": [
-            "iso23009-1"
-        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23009-1-2014-amd2-2015": {
@@ -9810,9 +9851,6 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "2015-07",
-        "obsoletedBy": [
-            "iso23009-1"
-        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23009-1-2014-amd3-2016": {
@@ -9822,9 +9860,6 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "2016-10",
-        "obsoletedBy": [
-            "iso23009-1"
-        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23009-1-2014-cor1-2015": {
@@ -9834,9 +9869,6 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "2015-04",
-        "obsoletedBy": [
-            "iso23009-1"
-        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23009-1-2014-cor2-2015": {
@@ -9846,9 +9878,6 @@
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "2015-12",
-        "obsoletedBy": [
-            "iso23009-1"
-        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23009-1-2014-damd4": {
@@ -9898,22 +9927,25 @@
     "iso23009-1-2022-cdamd2": {
         "href": "https://www.iso.org/standard/84629.html",
         "title": "Information technology — Dynamic adaptive streaming over HTTP (DASH) — Part 1: Media presentation description and segment formats — Amendment 2: EDRAP streaming, content steering and other extensions",
-        "status": "Under development",
+        "status": "Deleted",
         "publisher": "ISO/IEC",
+        "isRetired": true,
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23009-1-2022-cdamd3": {
         "href": "https://www.iso.org/standard/87583.html",
         "title": "Information technology — Dynamic adaptive streaming over HTTP (DASH) — Part 1: Media presentation description and segment formats — Amendment 3: Segment sequences for random access and switching",
-        "status": "Under development",
+        "status": "Deleted",
         "publisher": "ISO/IEC",
+        "isRetired": true,
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23009-1-2022-damd1": {
         "href": "https://www.iso.org/standard/83315.html",
         "title": "Information technology — Dynamic adaptive streaming over HTTP (DASH) — Part 1: Media presentation description and segment formats — Amendment 1: Media presentation insertion event, nonlinear playback and other extensions",
-        "status": "Under development",
+        "status": "Deleted",
         "publisher": "ISO/IEC",
+        "isRetired": true,
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23009-1-cdamd1": {
@@ -10068,11 +10100,7 @@
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23090-10-2022-cdamd2": {
-        "href": "https://www.iso.org/standard/87625.html",
-        "title": "Information technology — Coded representation of immersive media — Part 10: Carriage of visual volumetric video-based coding data — Amendment 2: Clarification on brands and other improvements",
-        "status": "Under development",
-        "publisher": "ISO/IEC",
-        "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+        "aliasOf": "iso23090-10-2022-damd2"
     },
     "iso23090-10-2022-cor1-2023": {
         "href": "https://www.iso.org/standard/85612.html",
@@ -10080,6 +10108,13 @@
         "status": "Published",
         "publisher": "ISO/IEC",
         "rawDate": "2023-05",
+        "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+    },
+    "iso23090-10-2022-damd2": {
+        "href": "https://www.iso.org/standard/87625.html",
+        "title": "Information technology — Coded representation of immersive media — Part 10: Carriage of visual volumetric video-based coding data — Amendment 2: Clarification on brands and other improvements",
+        "status": "Under development",
+        "publisher": "ISO/IEC",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23090-10-cdamd1": {
@@ -10114,19 +10149,18 @@
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23090-13": {
-        "href": "https://www.iso.org/standard/80899.html",
+        "href": "https://www.iso.org/standard/89032.html",
         "title": "Information technology — Coded representation of immersive media — Part 13: Video decoding interface for immersive media",
-        "status": "Published",
+        "status": "Under development",
         "publisher": "ISO/IEC",
-        "isoNumber": "ISO 23090-13:2024",
-        "rawDate": "2024-01",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23090-13-2024-cdamd1": {
         "href": "https://www.iso.org/standard/87626.html",
         "title": "Information technology — Coded representation of immersive media — Part 13: Video decoding interface for immersive media — Amendment 1: Multi-decoder profiles and other improvements",
-        "status": "Under development",
+        "status": "Deleted",
         "publisher": "ISO/IEC",
+        "isRetired": true,
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23090-13-cdamd1": {
@@ -10288,8 +10322,10 @@
     "iso23090-21": {
         "href": "https://www.iso.org/standard/81601.html",
         "title": "Information technology — Coded representation of immersive media — Part 21: Reference software for Geometry-based Point Cloud Compression (G-PCC)",
-        "status": "Under development",
+        "status": "Published",
         "publisher": "ISO/IEC",
+        "isoNumber": "ISO 23090-21:2024",
+        "rawDate": "2024-03",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23090-22": {
@@ -10417,6 +10453,13 @@
         "publisher": "ISO/IEC",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
+    "iso23090-34": {
+        "href": "https://www.iso.org/standard/89037.html",
+        "title": "Information technology — Coded representation of immersive media — Part 34: Immersive audio reference software",
+        "status": "Under development",
+        "publisher": "ISO/IEC",
+        "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+    },
     "iso23090-4": {
         "href": "https://www.iso.org/standard/84711.html",
         "title": "Information technology — Coded representation of immersive media — Part 4: MPEG-I immersive audio",
@@ -10425,12 +10468,10 @@
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23090-5": {
-        "href": "https://www.iso.org/standard/83535.html",
+        "href": "https://www.iso.org/standard/89030.html",
         "title": "Information technology — Coded representation of immersive media — Part 5: Visual volumetric video-based coding (V3C) and video-based point cloud compression (V-PCC)",
-        "status": "Published",
+        "status": "Under development",
         "publisher": "ISO/IEC",
-        "isoNumber": "ISO 23090-5:2023",
-        "rawDate": "2023-11",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23090-5-2023-damd1": {
@@ -10502,6 +10543,9 @@
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23090-7-2022-cdamd1.2": {
+        "aliasOf": "iso23090-7-2022-damd1"
+    },
+    "iso23090-7-2022-damd1": {
         "href": "https://www.iso.org/standard/84569.html",
         "title": "Information technology — Coded representation of immersive media — Part 7: Immersive media metadata — Amendment 1: Common metadata for immersive media",
         "status": "Under development",
@@ -10635,6 +10679,7 @@
         "title": "Information technology — Genomic information representation — Part 2: Coding of genomic information",
         "status": "Under development",
         "publisher": "ISO/IEC",
+        "rawDate": "2024-03",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23092-2-2020-cdamd1": {
@@ -10780,9 +10825,12 @@
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23094-2-2021-amd1": {
+        "aliasOf": "iso23094-2-2021-amd1-2024"
+    },
+    "iso23094-2-2021-amd1-2024": {
         "href": "https://www.iso.org/standard/86436.html",
         "title": "Information technology – General video coding — Part 2: Low complexity enhancement video coding — Amendment 1: Additional levels",
-        "status": "Under development",
+        "status": "Published",
         "publisher": "ISO/IEC",
         "rawDate": "2024-01",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
@@ -10822,6 +10870,9 @@
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23094-4-2022-cdamd1": {
+        "aliasOf": "iso23094-4-2022-damd1"
+    },
+    "iso23094-4-2022-damd1": {
         "href": "https://www.iso.org/standard/87587.html",
         "title": "Information technology — General video coding — Part 4: Conformance and reference software for essential video coding — Amendment 1: Green metadata supplemental enhancement information",
         "status": "Under development",
@@ -10831,6 +10882,13 @@
     "iso23888-1": {
         "href": "https://www.iso.org/standard/87589.html",
         "title": "Artificial intelligence for multimedia — Part 1: Vision and scenarios",
+        "status": "Under development",
+        "publisher": "ISO/IEC",
+        "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+    },
+    "iso23888-3": {
+        "href": "https://www.iso.org/standard/89045.html",
+        "title": "Artificial intelligence for multimedia — Part 3: Optimization of encoders and receiving systems for machine analysis of coded video content",
         "status": "Under development",
         "publisher": "ISO/IEC",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
@@ -11080,11 +11138,10 @@
         "aliasOf": "iso6048-1"
     },
     "iso6048-1": {
-        "href": "https://www.iso.org/standard/81984.html",
+        "href": "https://www.iso.org/standard/88911.html",
         "title": "Information technology — JPEG AI learning-based image coding system — Part 1: Core coding system",
-        "status": "Deleted",
+        "status": "Under development",
         "publisher": "ISO/IEC",
-        "isRetired": true,
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso6048-2": {
