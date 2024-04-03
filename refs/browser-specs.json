@@ -90,7 +90,7 @@
     "AV1-ISOBMFF": {
         "href": "https://aomediacodec.github.io/av1-isobmff/",
         "title": "AV1 Codec ISO Media File Format Binding",
-        "status": "Draft Deliverable",
+        "status": "Working Group Approved Draft",
         "publisher": "Alliance for Open Media",
         "deliveredBy": [
             "https://aomedia.org/about/"
@@ -511,6 +511,17 @@
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/WICG/deprecation-reporting"
+    },
+    "DEVICE-ATTRIBUTES": {
+        "href": "https://wicg.github.io/WebApiDevice/device_attributes/",
+        "title": "Device Attributes API",
+        "status": "Draft Community Group Report",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/wicg/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/WICG/WebApiDevice"
     },
     "DIGEST-HEADERS": {
         "aliasOf": "rfc9530"
@@ -1128,6 +1139,17 @@
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/explainers-by-googlers/CHIPS-spec"
+    },
+    "PASSKEY-ENDPOINTS": {
+        "href": "https://w3c.github.io/webappsec-passkey-endpoints/passkey-endpoints.html",
+        "title": "A Well-Known URL for Passkey Endpoints",
+        "status": "Editor's Draft",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/groups/wg/webappsec/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/w3c/webappsec-passkey-endpoints"
     },
     "PERFORMANCE-MEASURE-MEMORY": {
         "href": "https://wicg.github.io/performance-measure-memory/",

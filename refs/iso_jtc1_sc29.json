@@ -7979,6 +7979,9 @@
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23001-11-2023-damd1": {
+        "aliasOf": "iso23001-11-2023-prfamd1"
+    },
+    "iso23001-11-2023-prfamd1": {
         "href": "https://www.iso.org/standard/85589.html",
         "title": "Information technology — MPEG systems technologies — Part 11: Energy-efficient media consumption (green metadata) — Amendment 1: Energy-efficient media consumption (green metadata) for EVC",
         "status": "Under development",
@@ -9749,15 +9752,18 @@
         "rawDate": "2021-10",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
-    "iso23008-6-2021-damd1": {
-        "aliasOf": "iso23008-6-2021-fdamd1"
-    },
-    "iso23008-6-2021-fdamd1": {
+    "iso23008-6-2021-amd1": {
         "href": "https://www.iso.org/standard/86435.html",
         "title": "Information technology — High efficiency coding and media delivery in heterogeneous environments — Part 6: 3D audio reference software — Amendment 1: Corrections for closest loudspeaker playout and increased software resilience",
         "status": "Under development",
         "publisher": "ISO/IEC",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+    },
+    "iso23008-6-2021-damd1": {
+        "aliasOf": "iso23008-6-2021-fdamd1"
+    },
+    "iso23008-6-2021-fdamd1": {
+        "aliasOf": "iso23008-6-2021-amd1"
     },
     "iso23008-7": {
         "href": "https://www.iso.org/standard/76622.html",
