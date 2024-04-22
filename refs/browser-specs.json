@@ -512,16 +512,19 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/WICG/deprecation-reporting"
     },
-    "DIGEST-HEADERS": {
-        "href": "https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-digest-headers",
-        "title": "Digest Fields",
-        "status": "Editor's Draft",
-        "publisher": "IETF",
+    "DEVICE-ATTRIBUTES": {
+        "href": "https://wicg.github.io/WebApiDevice/device_attributes/",
+        "title": "Device Attributes API",
+        "status": "Draft Community Group Report",
+        "publisher": "W3C",
         "deliveredBy": [
-            "https://datatracker.ietf.org/wg/httpbis/"
+            "https://www.w3.org/community/wicg/"
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/httpwg/http-extensions"
+        "repository": "https://github.com/WICG/WebApiDevice"
+    },
+    "DIGEST-HEADERS": {
+        "aliasOf": "rfc9530"
     },
     "DIGITAL-GOODS": {
         "href": "https://wicg.github.io/digital-goods/",
@@ -533,6 +536,17 @@
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/WICG/digital-goods"
+    },
+    "DIGITAL-IDENTITIES": {
+        "href": "https://wicg.github.io/digital-identities/",
+        "title": "Digital Credentials",
+        "status": "Draft Community Group Report",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/wicg/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/WICG/digital-identities"
     },
     "DIRECT-SOCKETS": {
         "href": "https://wicg.github.io/direct-sockets/",
@@ -566,6 +580,16 @@
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/screen-share/element-capture"
+    },
+    "ESSL": {
+        "href": "https://registry.khronos.org/OpenGL/specs/es/3.2/GLSL_ES_Specification_3.20.html",
+        "title": "The OpenGL ES® Shading Language, Version 3.20.8",
+        "status": "Editor's Draft",
+        "publisher": "Khronos Group",
+        "deliveredBy": [
+            "https://www.khronos.org/opengles/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json"
     },
     "EXT_BLEND_MINMAX": {
         "href": "https://registry.khronos.org/webgl/extensions/EXT_blend_minmax/",
@@ -808,6 +832,17 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/WICG/get-installed-related-apps"
     },
+    "GLTF": {
+        "href": "https://registry.khronos.org/glTF/specs/2.0/glTF-2.0.html",
+        "title": "glTF™ 2.0 Specification",
+        "status": "Editor's Draft",
+        "publisher": "Khronos Group",
+        "deliveredBy": [
+            "https://www.khronos.org/gltf/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/KhronosGroup/glTF"
+    },
     "GPC-SPEC": {
         "href": "https://privacycg.github.io/gpc-spec/",
         "title": "Global Privacy Control (GPC)",
@@ -863,6 +898,17 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/KhronosGroup/WebGL"
     },
+    "LONG-ANIMATION-FRAMES": {
+        "href": "https://w3c.github.io/long-animation-frames/",
+        "title": "Long Animation Frames API",
+        "status": "Editor's Draft",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/groups/wg/webperf/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/w3c/long-animation-frames"
+    },
     "MANAGED-CONFIGURATION": {
         "href": "https://wicg.github.io/WebApiDevice/managed_config/",
         "title": "Managed Configuration API",
@@ -876,7 +922,7 @@
     },
     "MATHML-AAM": {
         "href": "https://w3c.github.io/mathml-aam/",
-        "title": "MathML Accessiblity API Mappings 1.0",
+        "title": "MathML Accessibility API Mappings 1.0",
         "status": "Editor's Draft",
         "publisher": "W3C",
         "deliveredBy": [
@@ -1092,7 +1138,18 @@
             "https://datatracker.ietf.org/wg/none/"
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/DCtheTall/CHIPS-spec"
+        "repository": "https://github.com/explainers-by-googlers/CHIPS-spec"
+    },
+    "PASSKEY-ENDPOINTS": {
+        "href": "https://w3c.github.io/webappsec-passkey-endpoints/passkey-endpoints.html",
+        "title": "A Well-Known URL for Passkey Endpoints",
+        "status": "Editor's Draft",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/groups/wg/webappsec/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/w3c/webappsec-passkey-endpoints"
     },
     "PERFORMANCE-MEASURE-MEMORY": {
         "href": "https://wicg.github.io/performance-measure-memory/",
@@ -1395,6 +1452,17 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/tc39/proposal-array-grouping"
     },
+    "TC39-ARRAYBUFFER-BASE64": {
+        "href": "https://tc39.es/proposal-arraybuffer-base64/spec/",
+        "title": "Uint8Array to/from base64",
+        "status": "Editor's Draft",
+        "publisher": "Ecma International",
+        "deliveredBy": [
+            "https://tc39.es/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/tc39/proposal-arraybuffer-base64"
+    },
     "TC39-ARRAYBUFFER-TRANSFER": {
         "href": "https://tc39.es/proposal-arraybuffer-transfer/",
         "title": "ArrayBuffer transfer",
@@ -1457,6 +1525,17 @@
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/tc39/proposal-decorators"
+    },
+    "TC39-DYNAMIC-CODE-BRAND-CHECKS": {
+        "href": "https://tc39.es/proposal-dynamic-code-brand-checks/",
+        "title": "Dynamic Code Brand Checks",
+        "status": "Editor's Draft",
+        "publisher": "Ecma International",
+        "deliveredBy": [
+            "https://tc39.es/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/tc39/proposal-dynamic-code-brand-checks"
     },
     "TC39-EXPLICIT-RESOURCE-MANAGEMENT": {
         "href": "https://tc39.es/proposal-explicit-resource-management/",

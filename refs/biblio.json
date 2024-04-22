@@ -1951,6 +1951,15 @@
         "title": "Integrated Services Digital Broadcasting",
         "href": "http://dibeg.org/"
     },
+    "ISO18013-5": {
+        "title": "ISO/IEC 18013-5:2021 ISO-compliant driving licence, Part 5: Mobile driving licence (mDL) application",
+        "authors": [
+            "ISO/IEC JTC 1/SC 17"
+        ],
+        "date": "September 2021",
+        "publisher": "International Organization for Standardization",
+        "href": "https://www.iso.org/standard/69084.html"
+    },
     "ISO3166": {
         "aliasOf": "ISO3166-1"
     },
@@ -2029,15 +2038,6 @@
         "status": "ISO 8601-2:2019",
         "title": "Date and time — Representations for information interchange — Part 2: Extensions. ISO 8601-2:2019.",
         "isoNumber": "ISO 8601-2:2019"
-    },
-    "ISO18013-5": {
-        "title": "ISO/IEC 18013-5:2021 ISO-compliant driving licence, Part 5: Mobile driving licence (mDL) application",
-        "authors": [
-            "ISO/IEC JTC 1/SC 17"
-        ],
-        "date": "September 2021",
-        "publisher": "International Organization for Standardization",
-        "href": "https://www.iso.org/standard/69084.html"
     },
     "ISOBMFF": {
         "aliasOf": "iso14496-12"
@@ -2480,46 +2480,6 @@
     "NTP": {
         "aliasOf": "RFC1305"
     },
-    "OandM": {
-        "href": "https://portal.ogc.org/files/?artifact_id=41579",
-        "publisher": "OGC",
-        "ogcNumber": "OGC 10-004r3",
-        "authors": [
-            "Simon Cox"
-        ],
-        "date": "2011",
-        "title": "Observations and Measurements (O&M) v2",
-        "status": "OGC Abstract Specification Topic 20",
-        "updatedBy": [
-            "OMS"
-        ]
-    },
-    "OMS": {
-        "href": "https://docs.ogc.org/as/20-082r4/20-082r4.html",
-        "publisher": "OGC",
-        "ogcNumber": "OGC 20-082r4",
-        "authors": [
-            "Katharina Schleidt",
-            "Ilkka Rinne"
-        ],
-        "date": "2023",
-        "title": "Observations, measurements and samples (OMS)",
-        "status": "OGC Abstract Specification Topic 20",
-        "obsoletes": [
-            "OandM"
-        ]
-    },
-    "OMXML": {
-        "href": "http://portal.opengeospatial.org/files/41510",
-        "title": "Observations and Measurements - XML Implementation",
-        "publisher": "OGC",
-        "date": "2010",
-        "status": "OGC Encoding Standard",
-        "ogcNumber": "OGC 10-025r1",
-        "authors": [
-            "S.J.D. Cox"
-        ]
-    },
     "OA": {
         "authors": [
             "Robert Sanderson",
@@ -2655,6 +2615,32 @@
         "publisher": "Object Management Group",
         "date": "January 2008"
     },
+    "OMS": {
+        "href": "https://docs.ogc.org/as/20-082r4/20-082r4.html",
+        "publisher": "OGC",
+        "ogcNumber": "OGC 20-082r4",
+        "authors": [
+            "Katharina Schleidt",
+            "Ilkka Rinne"
+        ],
+        "date": "2023",
+        "title": "Observations, measurements and samples (OMS)",
+        "status": "OGC Abstract Specification Topic 20",
+        "obsoletes": [
+            "OandM"
+        ]
+    },
+    "OMXML": {
+        "href": "http://portal.opengeospatial.org/files/41510",
+        "title": "Observations and Measurements - XML Implementation",
+        "publisher": "OGC",
+        "date": "2010",
+        "status": "OGC Encoding Standard",
+        "ogcNumber": "OGC 10-025r1",
+        "authors": [
+            "S.J.D. Cox"
+        ]
+    },
     "OPENAPI": {
         "aliasOf": "OPENAPIS"
     },
@@ -2732,6 +2718,20 @@
     },
     "OWL-RL-in-RIF": {
         "aliasOf": "rif-owl-rl"
+    },
+    "OandM": {
+        "href": "https://portal.ogc.org/files/?artifact_id=41579",
+        "publisher": "OGC",
+        "ogcNumber": "OGC 10-004r3",
+        "authors": [
+            "Simon Cox"
+        ],
+        "date": "2011",
+        "title": "Observations and Measurements (O&M) v2",
+        "status": "OGC Abstract Specification Topic 20",
+        "updatedBy": [
+            "OMS"
+        ]
     },
     "P3P1.0": {
         "aliasOf": "P3P"
@@ -2963,18 +2963,6 @@
     "SELECTORS-LEVEL-3": {
         "aliasOf": "css3-selectors"
     },
-    "SensorML": {
-        "href": "http://portal.opengeospatial.org/files/55939",
-        "publisher": "OGC",
-        "title": "SensorML: Model and XML Encoding Standard 2.0",
-        "authors": [
-            "Mike Botts",
-            "Alex Robin"
-        ],
-        "status": "OGC Encoding Standard",
-        "ogcNumber": "OGC 12-000",
-        "date": "2014"
-    },
     "SFNT": {
         "title": "Spline/Scalable font format",
         "href": "https://www.iso.org/obp/ui/#iso:std:iso-iec:14496:-22:ed-4:v1:en",
@@ -3130,6 +3118,18 @@
     },
     "SYSINFOAPI": {
         "aliasOf": "system-info-api"
+    },
+    "SensorML": {
+        "href": "http://portal.opengeospatial.org/files/55939",
+        "publisher": "OGC",
+        "title": "SensorML: Model and XML Encoding Standard 2.0",
+        "authors": [
+            "Mike Botts",
+            "Alex Robin"
+        ],
+        "status": "OGC Encoding Standard",
+        "ogcNumber": "OGC 12-000",
+        "date": "2014"
     },
     "TAGLINK20030116": {
         "authors": [
@@ -4753,21 +4753,6 @@
     "iso-19136": {
         "aliasOf": "iso-19136-1-2020"
     },
-    "iso-19136-2007": {
-        "href": "https://www.iso.org/standard/32554.html",
-        "title": "Geographic information -- Geography Markup Language (GML)",
-        "authors": [
-            "ISO/TC 211"
-        ],
-        "publisher": "ISO",
-        "status": "International Standard",
-        "date": "2007",
-        "isoNumber": "ISO 19136:2007",
-        "updatedBy": [
-            "iso-19136-1-2020",
-            "iso-19136-2-2015"
-        ]
-    },
     "iso-19136-1-2020": {
         "href": "https://www.iso.org/standard/75676.html",
         "title": "Geographic information -- Geography Markup Language (GML) - Part 1: Fundamentals",
@@ -4789,6 +4774,21 @@
         "status": "International Standard",
         "date": "2015",
         "isoNumber": "ISO 19136-2:2015"
+    },
+    "iso-19136-2007": {
+        "href": "https://www.iso.org/standard/32554.html",
+        "title": "Geographic information -- Geography Markup Language (GML)",
+        "authors": [
+            "ISO/TC 211"
+        ],
+        "publisher": "ISO",
+        "status": "International Standard",
+        "date": "2007",
+        "isoNumber": "ISO 19136:2007",
+        "updatedBy": [
+            "iso-19136-1-2020",
+            "iso-19136-2-2015"
+        ]
     },
     "iso-19139": {
         "aliasOf": "iso-19139-2007"
