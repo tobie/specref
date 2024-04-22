@@ -3414,9 +3414,12 @@
         "title": "World Geodetic System 1984 (WGS 84)",
         "publisher": "Office of Geomatics, National Geospatial Intelligence Agency",
         "href": "https://earth-info.nga.mil/index.php?dir=wgs84&action=wgs84",
+        "obsoletes": [
+            "WGS84-NIMA"
+        ],
         "date": "2008"
     },
-    "WGS84-2000": {
+    "WGS84-NIMA": {
         "title": "Department of Defense - World Geodetic System 1984 - National Imagery and Mapping Agency Technical Report 8350.2, Third Edition",
         "publisher": "National Imagery and Mapping Agency",
         "href": "https://gis-lab.info/docs/nima-tr8350.2-wgs84fin.pdf",
