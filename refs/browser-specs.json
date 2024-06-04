@@ -477,7 +477,11 @@
             "https://www.w3.org/community/wicg/"
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/WICG/custom-state-pseudo-class"
+        "repository": "https://github.com/WICG/custom-state-pseudo-class",
+        "obsoletedBy": [
+            "HTML"
+        ],
+        "isSuperseded": true
     },
     "DATACUE": {
         "href": "https://wicg.github.io/datacue/",
