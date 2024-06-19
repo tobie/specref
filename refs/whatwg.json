@@ -20,6 +20,17 @@
         "source": "https://resources.whatwg.org/biblio.json",
         "repository": "https://github.com/whatwg/compat"
     },
+    "COMPRESSION": {
+        "authors": [
+            "Adam Rice"
+        ],
+        "href": "https://compression.spec.whatwg.org/",
+        "title": "Compression Standard",
+        "status": "Living Standard",
+        "publisher": "WHATWG",
+        "source": "https://resources.whatwg.org/biblio.json",
+        "repository": "https://github.com/whatwg/compression"
+    },
     "CONSOLE": {
         "authors": [
             "Dominic Farolino",
@@ -548,15 +559,7 @@
         "aliasOf": "COMPAT"
     },
     "WHATWG-COMPRESSION": {
-        "authors": [
-            "Adam Rice"
-        ],
-        "href": "https://compression.spec.whatwg.org/",
-        "title": "Compression Standard",
-        "status": "Living Standard",
-        "publisher": "WHATWG",
-        "source": "https://resources.whatwg.org/biblio.json",
-        "repository": "https://github.com/whatwg/compression"
+        "aliasOf": "COMPRESSION"
     },
     "WHATWG-CONSOLE": {
         "aliasOf": "CONSOLE"
