@@ -63,6 +63,14 @@
         "source": "https://wicg.github.io/admin/biblio.json",
         "repository": "https://github.com/wicg/css-parser-api"
     },
+    "DOCUMENT-PICTURE-IN-PICTURE": {
+        "href": "https://wicg.github.io/document-picture-in-picture/",
+        "title": "Document Picture-in-Picture",
+        "status": "cg-draft",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/document-picture-in-picture"
+    },
     "DOCUMENT-POLICY": {
         "href": "https://wicg.github.io/document-policy/",
         "title": "Document Policy",
@@ -370,6 +378,9 @@
     },
     "WICG-CSS-SCROLL-BOUNDARY-BEHAVIOR": {
         "aliasOf": "CSS-SCROLL-BOUNDARY-BEHAVIOR"
+    },
+    "WICG-DOCUMENT-PICTURE-IN-PICTURE": {
+        "aliasOf": "DOCUMENT-PICTURE-IN-PICTURE"
     },
     "WICG-DOCUMENT-POLICY": {
         "aliasOf": "DOCUMENT-POLICY"
