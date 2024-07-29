@@ -2783,6 +2783,33 @@
             }
         }
     },
+    "OPENID-CONNECT-CORE": {
+        "authors": [
+            "N. Sakimura",
+            "J. Bradley",
+            "M. Jones",
+            "B. de Medeiros",
+            "C. Mortimore"
+        ],
+        "title": "OpenID Connect Core 1.0 incorporating errata set 2",
+        "href": "https://openid.net/specs/openid-connect-core-1_0.html",
+        "publisher": "OpenID Foundation",
+        "status": "Final",
+        "rawDate": "2023-12-15"
+    },
+    "OPENID-CONNECT-DISCOVERY": {
+        "authors": [
+            "N. Sakimura",
+            "J. Bradley",
+            "M. Jones",
+            "E. Jay"
+        ],
+        "title": "OpenID Connect Discovery 1.0 incorporating errata set 2",
+        "href": "https://openid.net/specs/openid-connect-discovery-1_0.html",
+        "publisher": "OpenID Foundation",
+        "status": "Final",
+        "rawDate": "2023-12-15"
+    },
     "ORIGIN": {
         "aliasOf": "RFC6454"
     },
