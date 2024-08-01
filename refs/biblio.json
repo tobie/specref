@@ -5129,7 +5129,7 @@
         "href": "https://datatracker.ietf.org/doc/html/draft-bhutton-json-schema",
         "publisher": "Internet Engineering Task Force (IETF)",
         "status": "Internet-Draft",
-        "rawDate": "2020-12-08",
+        "rawDate": "2022-06-10",
         "title": "JSON Schema: A Media Type for Describing JSON Documents",
         "repository": "https://github.com/json-schema-org/json-schema-spec",
         "versions": {
@@ -5145,6 +5145,15 @@
                 "rawDate": "2020-12-08",
                 "title": "JSON Schema: A Media Type for Describing JSON Documents. Draft 2020-12"
             },
+            "05": {
+                "authors": [
+                    "Austin Wright"
+                ],
+                "href": "https://datatracker.ietf.org/doc/html/draft-wright-json-schema-00",
+                "status": "Internet-Draft",
+                "rawDate": "2016-10-13",
+                "title": "JSON Schema: A Media Type for Describing JSON Documents. Draft 5"
+            },
             "04": {
                 "authors": [
                     "Kris Zyp",
@@ -5155,6 +5164,53 @@
                 "status": "Internet-Draft",
                 "rawDate": "2013-01-31",
                 "title": "JSON Schema: core definitions and terminology. Draft 4"
+            }
+        }
+    },
+    "json-schema-validation": {
+        "authors": [
+            "Austin Wright",
+            "Henry Andrews",
+            "Ben Hutton"
+        ],
+        "href": "https://datatracker.ietf.org/doc/html/draft-bhutton-json-schema-validation",
+        "publisher": "Internet Engineering Task Force (IETF)",
+        "status": "Internet-Draft",
+        "rawDate": "2022-06-10",
+        "title": "JSON Schema Validation: A Vocabulary for Structural Validation of JSON",
+        "repository": "https://github.com/json-schema-org/json-schema-spec",
+        "versions": {
+            "2020-12": {
+                "authors": [
+                    "Austin Wright",
+                    "Henry Andrews",
+                    "Ben Hutton"
+                ],
+                "href": "https://datatracker.ietf.org/doc/html/draft-bhutton-json-schema-validation-00",
+                "status": "Internet-Draft",
+                "rawDate": "2020-12-08",
+                "title": "JSON Schema Validation: A Vocabulary for Structural Validation of JSON. Draft 2020-12"
+            },
+            "05": {
+                "authors": [
+                    "Austin Wright", 
+                    "G. Luff"
+                ],
+                "href": "https://datatracker.ietf.org/doc/html/draft-wright-json-schema-validation-00",
+                "status": "Internet-Draft",
+                "rawDate": "2016-10-13",
+                "title": "JSON Schema Validation: A Vocabulary for Structural Validation of JSON. Draft 5"
+            },
+            "04": {
+                "authors": [
+                    "Kris Zyp",
+                    "Francis Galiegue",
+                    "Gary Court"
+                ],
+                "href": "https://datatracker.ietf.org/doc/html/draft-fge-json-schema-validation-00",
+                "status": "Internet-Draft",
+                "rawDate": "2013-02-01",
+                "title": "JSON Schema: interactive and non interactive validation. Draft 4"
             }
         }
     },
