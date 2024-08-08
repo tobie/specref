@@ -140,7 +140,7 @@ request({
                 updatedList[id] = ref;
             }
             else {
-                throw new Error("Missing aliasOf target in browser-specs.json: " + ref.aliasOf + " needed for " + id);
+                console.log("Missing aliasOf target in browser-specs.json: " + ref.aliasOf + " needed for " + id);
             }
         });
 

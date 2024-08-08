@@ -421,17 +421,6 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/w3c/csswg-drafts"
     },
-    "CSS-SCROLL-SNAP-2": {
-        "href": "https://drafts.csswg.org/css-scroll-snap-2/",
-        "title": "CSS Scroll Snap Module Level 2",
-        "status": "Editor's Draft",
-        "publisher": "W3C",
-        "deliveredBy": [
-            "https://www.w3.org/Style/CSS/"
-        ],
-        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/w3c/csswg-drafts"
-    },
     "CSS-SHAPES-2": {
         "href": "https://drafts.csswg.org/css-shapes-2/",
         "title": "CSS Shapes Module Level 2",
@@ -1376,7 +1365,7 @@
         "repository": "https://github.com/WICG/soft-navigations"
     },
     "SOURCEMAP": {
-        "href": "https://tc39.es/source-map-spec/",
+        "href": "https://tc39.es/source-map/",
         "title": "Source Map",
         "status": "Editor's Draft",
         "publisher": "Ecma International",
@@ -1384,7 +1373,7 @@
             "https://tc39.es/"
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/tc39/source-map-spec"
+        "repository": "https://github.com/tc39/source-map"
     },
     "SPARQL12-CONCEPTS": {
         "href": "https://w3c.github.io/sparql-concepts/spec/",
@@ -2030,6 +2019,17 @@
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/WebAssembly/content-security-policy"
+    },
+    "WASM-JS-API-2-FORK-ESM-INTEGRATION": {
+        "href": "https://webassembly.github.io/esm-integration/js-api/",
+        "title": "WebAssembly JavaScript Interface: ESM Integration",
+        "status": "Editor's Draft",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/webassembly/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/WebAssembly/esm-integration"
     },
     "WASM-JS-API-2-FORK-EXCEPTION-HANDLING": {
         "href": "https://webassembly.github.io/exception-handling/js-api/",

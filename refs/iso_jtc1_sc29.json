@@ -6289,17 +6289,22 @@
     "iso18181-1": {
         "href": "https://www.iso.org/standard/85066.html",
         "title": "Information technology — JPEG XL image coding system — Part 1: Core coding system",
-        "status": "Under development",
+        "status": "Published",
         "publisher": "ISO/IEC",
-        "rawDate": "2024-06",
+        "isoNumber": "ISO 18181-1:2024",
+        "rawDate": "2024-07",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso18181-1-2022-amd1-2022": {
         "href": "https://www.iso.org/standard/81554.html",
         "title": "Information technology — JPEG XL image coding system — Part 1: Core coding system — Amendment 1: Profiles and levels for JPEG XL image coding system",
-        "status": "Published",
+        "status": "Withdrawn",
         "publisher": "ISO/IEC",
+        "isSuperseded": true,
         "rawDate": "2022-06",
+        "obsoletedBy": [
+            "iso18181-1"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso18181-1-2022-prfamd1": {
@@ -6461,7 +6466,7 @@
     },
     "iso19566-10": {
         "href": "https://www.iso.org/standard/85251.html",
-        "title": "Information technology — JPEG systems — Part 10: Reference Software",
+        "title": "Information technology — JPEG Systems — Part 10: Reference Software",
         "status": "Under development",
         "publisher": "ISO/IEC",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
@@ -6471,7 +6476,7 @@
     },
     "iso19566-10-cdamd1": {
         "href": "https://www.iso.org/standard/89041.html",
-        "title": "Information technology — JPEG systems — Part 10: Reference Software — Amendment 1: Additional reference software implementations",
+        "title": "Information technology — JPEG Systems — Part 10: Reference Software — Amendment 1: Additional reference software implementations",
         "status": "Under development",
         "publisher": "ISO/IEC",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
@@ -6542,6 +6547,9 @@
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso19566-5-2023-cdamd1": {
+        "aliasOf": "iso19566-5-2023-damd1"
+    },
+    "iso19566-5-2023-damd1": {
         "href": "https://www.iso.org/standard/88913.html",
         "title": "Information technologies — JPEG systems — Part 5: JPEG universal metadata box format (JUMBF) — Amendment 1: JUMBF box compression and standalone JUMBF files",
         "status": "Under development",
@@ -6628,6 +6636,9 @@
         "aliasOf": "iso19566-8-2023-cdamd1"
     },
     "iso19566-8-2023-cdamd1": {
+        "aliasOf": "iso19566-8-2023-damd1"
+    },
+    "iso19566-8-2023-damd1": {
         "href": "https://www.iso.org/standard/89040.html",
         "title": "Information technologies — JPEG systems — Part 8: JPEG Snack — Amendment 1: Revision of JPEG Snack content boxes",
         "status": "Under development",
@@ -6639,7 +6650,7 @@
         "title": "Information technology — JPEG Systems — Part 9: JPEG extensions mechanisms to facilitate forwards and backwards compatibility",
         "status": "Under development",
         "publisher": "ISO/IEC",
-        "rawDate": "2024-07",
+        "rawDate": "2024-08",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso21000-1": {
@@ -7081,8 +7092,9 @@
     "iso21122-1": {
         "href": "https://www.iso.org/standard/85247.html",
         "title": "Information technology — JPEG XS low-latency lightweight image coding system — Part 1: Core coding system",
-        "status": "Under development",
+        "status": "Published",
         "publisher": "ISO/IEC",
+        "isoNumber": "ISO 21122-1:2024",
         "rawDate": "2024-07",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
@@ -8472,9 +8484,10 @@
     "iso23002-9": {
         "href": "https://www.iso.org/standard/84712.html",
         "title": "Information technology — MPEG video technologies — Part 9: Film grain synthesis technology for video applications",
-        "status": "Under development",
+        "status": "Published",
         "publisher": "ISO/IEC",
-        "rawDate": "2024-06",
+        "isoNumber": "ISO 23002-9:2024",
+        "rawDate": "2024-07",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23003-1": {
@@ -10932,6 +10945,13 @@
         "rawDate": "2022-09",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
+    "iso23094-3-2022-amd1": {
+        "href": "https://www.iso.org/standard/87585.html",
+        "title": "Information technology — General video coding — Part 3: Conformance and reference software for low complexity enhancement video coding — Amendment 1: Updated conformance data and reference software",
+        "status": "Under development",
+        "publisher": "ISO/IEC",
+        "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+    },
     "iso23094-3-2022-cdamd1": {
         "aliasOf": "iso23094-3-2022-damd1"
     },
@@ -10939,11 +10959,7 @@
         "aliasOf": "iso23094-3-2022-fdamd1"
     },
     "iso23094-3-2022-fdamd1": {
-        "href": "https://www.iso.org/standard/87585.html",
-        "title": "Information technology — General video coding — Part 3: Conformance and reference software for low complexity enhancement video coding — Amendment 1: Updated conformance data and reference software",
-        "status": "Under development",
-        "publisher": "ISO/IEC",
-        "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+        "aliasOf": "iso23094-3-2022-amd1"
     },
     "iso23094-4": {
         "href": "https://www.iso.org/standard/81633.html",

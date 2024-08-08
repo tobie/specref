@@ -2714,6 +2714,16 @@
     "OPENAPI": {
         "aliasOf": "OPENAPIS"
     },
+    "OPENAPI-LEARN": {
+        "title": "OpenAPI - Getting started, and the specification explained",
+        "href": "https://learn.openapis.org/",
+        "publisher": "OpenAPI Initiative"
+    },
+    "OPENAPI-REGISTRY": {
+        "title": "OpenAPI Initiative Registry",
+        "href": "https://spec.openapis.org/registry/index.html",
+        "publisher": "OpenAPI Initiative"
+    },
     "OPENAPIS": {
         "href": "https://www.openapis.org/",
         "title": "OpenAPI Specification",
@@ -2803,16 +2813,6 @@
                 ]
             }
         }
-    },
-    "OPENAPI-LEARN": {
-        "title": "OpenAPI - Getting started, and the specification explained",
-        "href": "https://learn.openapis.org/",
-        "publisher": "OpenAPI Initiative"
-    },
-    "OPENAPI-REGISTRY": {
-        "title": "OpenAPI Initiative Registry",
-        "href": "https://spec.openapis.org/registry/index.html",
-        "publisher": "OpenAPI Initiative"
     },
     "OPENID-CONNECT-CORE": {
         "authors": [
@@ -5235,7 +5235,7 @@
             },
             "05": {
                 "authors": [
-                    "Austin Wright", 
+                    "Austin Wright",
                     "G. Luff"
                 ],
                 "href": "https://datatracker.ietf.org/doc/html/draft-wright-json-schema-validation-00",
