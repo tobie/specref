@@ -7123,8 +7123,9 @@
     "iso21122-2": {
         "href": "https://www.iso.org/standard/85250.html",
         "title": "Information technology — JPEG XS low-latency lightweight image coding system — Part 2: Profiles and buffer models",
-        "status": "Under development",
+        "status": "Published",
         "publisher": "ISO/IEC",
+        "isoNumber": "ISO 21122-2:2024",
         "rawDate": "2024-08",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
@@ -7139,9 +7140,13 @@
     "iso21122-2-2022-amd1-2022": {
         "href": "https://www.iso.org/standard/84584.html",
         "title": "Information technology — JPEG XS low-latency lightweight image coding system — Part 2: Profiles and buffer models — Amendment 1: Profile and sublevel for 4:2:0 content",
-        "status": "Published",
+        "status": "Withdrawn",
         "publisher": "ISO/IEC",
+        "isSuperseded": true,
         "rawDate": "2022-11",
+        "obsoletedBy": [
+            "iso21122-2"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso21122-2-awiamd1": {
