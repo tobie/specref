@@ -2138,6 +2138,13 @@
     "iso14496-12-wdamd1": {
         "aliasOf": "iso14496-12-cdamd1"
     },
+    "iso14496-12.2-awiamd2": {
+        "href": "https://www.iso.org/standard/90190.html",
+        "title": "Information technology — Coding of audio-visual objects — Part 12: ISO base media file format — Amendment 2: Tools for enhanced CMAF and DASH integration",
+        "status": "Under development",
+        "publisher": "ISO/IEC",
+        "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+    },
     "iso14496-12.2-cdamd1": {
         "aliasOf": "iso14496-12.2-damd1"
     },
@@ -8478,6 +8485,13 @@
         "isRetired": true,
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
+    "iso23002-7-awiamd1": {
+        "href": "https://www.iso.org/standard/90186.html",
+        "title": "Information technology — MPEG video technologies — Part 7: Versatile supplemental enhancement information messages for coded video bitstreams — Amendment 1: Additional SEI",
+        "status": "Under development",
+        "publisher": "ISO/IEC",
+        "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+    },
     "iso23002-8": {
         "href": "https://www.iso.org/standard/81591.html",
         "title": "Information technology — MPEG video technologies — Part 8: Working practices using objective metrics for evaluation of video coding efficiency experiments",
@@ -10260,12 +10274,10 @@
         "aliasOf": "iso23090-13-2024-cdamd1"
     },
     "iso23090-14": {
-        "href": "https://www.iso.org/standard/80900.html",
+        "href": "https://www.iso.org/standard/90191.html",
         "title": "Information technology — Coded representation of immersive media — Part 14: Scene description",
-        "status": "Published",
+        "status": "Under development",
         "publisher": "ISO/IEC",
-        "isoNumber": "ISO 23090-14:2023",
-        "rawDate": "2023-06",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23090-14-2023-amd1-2023": {
@@ -10282,8 +10294,9 @@
     "iso23090-14-2023-damd2": {
         "href": "https://www.iso.org/standard/86439.html",
         "title": "Information technology — Coded representation of immersive media — Part 14: Scene description — Amendment 2: Support for haptics, augmented reality, avatars, interactivity, MPEG-I audio, and lighting",
-        "status": "Under development",
+        "status": "Deleted",
         "publisher": "ISO/IEC",
+        "isRetired": true,
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23090-14-2023-fdamd1": {
@@ -10313,12 +10326,10 @@
         "aliasOf": "iso23090-15-2022-damd1"
     },
     "iso23090-16": {
-        "href": "https://www.iso.org/standard/82083.html",
+        "href": "https://www.iso.org/standard/90189.html",
         "title": "Information technology — Coded representation of immersive media — Part 16: Reference software for versatile video coding",
-        "status": "Published",
+        "status": "Under development",
         "publisher": "ISO/IEC",
-        "isoNumber": "ISO 23090-16:2022",
-        "rawDate": "2022-10",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23090-17": {
@@ -10518,6 +10529,13 @@
         "isRetired": true,
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
+    "iso23090-3-2024-awiamd1": {
+        "href": "https://www.iso.org/standard/90187.html",
+        "title": "Information technology — Coded representation of immersive media — Part 3: Versatile video coding — Amendment 1: Additions and corrections",
+        "status": "Under development",
+        "publisher": "ISO/IEC",
+        "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+    },
     "iso23090-3-awiamd1": {
         "aliasOf": "iso23090-3-2021-awiamd1"
     },
@@ -10555,6 +10573,20 @@
     "iso23090-34": {
         "href": "https://www.iso.org/standard/89037.html",
         "title": "Information technology — Coded representation of immersive media — Part 34: Immersive audio reference software",
+        "status": "Under development",
+        "publisher": "ISO/IEC",
+        "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+    },
+    "iso23090-35": {
+        "href": "https://www.iso.org/standard/90183.html",
+        "title": "Information technology — Coded representation of immersive media — Part 35: Conformance and reference software for Low latency, low complexity LiDAR coding",
+        "status": "Under development",
+        "publisher": "ISO/IEC",
+        "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+    },
+    "iso23090-36": {
+        "href": "https://www.iso.org/standard/90184.html",
+        "title": "Information technology — Coded representation of immersive media — Part 36: Conformance and Reference Software for V-DMC",
         "status": "Under development",
         "publisher": "ISO/IEC",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
@@ -11274,6 +11306,13 @@
     "iso6048-4": {
         "href": "https://www.iso.org/standard/87579.html",
         "title": "Information technology — JPEG AI learning-based image coding system — Part 4: Conformance",
+        "status": "Under development",
+        "publisher": "ISO/IEC",
+        "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+    },
+    "iso6048-5": {
+        "href": "https://www.iso.org/standard/90193.html",
+        "title": "Information technology — JPEG AI learning-based image coding system — Part 5: File Format",
         "status": "Under development",
         "publisher": "ISO/IEC",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
