@@ -744,7 +744,7 @@
         "status": "Draft Community Group Report",
         "publisher": "W3C",
         "deliveredBy": [
-            "https://www.w3.org/community/wicg/"
+            "https://www.w3.org/groups/wg/fedid/"
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/fedidcg/FedCM"
@@ -1210,6 +1210,17 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/WICG/nav-speculation"
     },
+    "PRIVATE-AGGREGATION-API": {
+        "href": "https://patcg-individual-drafts.github.io/private-aggregation-api/",
+        "title": "Private Aggregation API",
+        "status": "Unofficial Proposal Draft",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/patcg/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/patcg-individual-drafts/private-aggregation-api"
+    },
     "PRIVATE-CLICK-MEASUREMENT": {
         "href": "https://privacycg.github.io/private-click-measurement/",
         "title": "Private Click Measurement",
@@ -1330,6 +1341,17 @@
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/WICG/scroll-to-text-fragment"
+    },
+    "SELECTORS-5": {
+        "href": "https://drafts.csswg.org/selectors-5/",
+        "title": "Selectors Level 5",
+        "status": "Editor's Draft",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/Style/CSS/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/w3c/csswg-drafts"
     },
     "SERIAL": {
         "href": "https://wicg.github.io/serial/",
@@ -1514,6 +1536,17 @@
             "ECMASCRIPT"
         ],
         "isSuperseded": true
+    },
+    "TC39-CANONICAL-TZ": {
+        "href": "https://tc39.es/proposal-canonical-tz/",
+        "title": "Time Zone Canonicalization proposal",
+        "status": "Editor's Draft",
+        "publisher": "Ecma International",
+        "deliveredBy": [
+            "https://tc39.es/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/tc39/proposal-canonical-tz"
     },
     "TC39-CHANGE-ARRAY-BY-COPY": {
         "href": "https://tc39.es/proposal-change-array-by-copy/",
@@ -1766,6 +1799,17 @@
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/tc39/proposal-promise-with-resolvers"
+    },
+    "TC39-REGEX-ESCAPING": {
+        "href": "https://tc39.es/proposal-regex-escaping/",
+        "title": "RegExp.escape",
+        "status": "Editor's Draft",
+        "publisher": "Ecma International",
+        "deliveredBy": [
+            "https://tc39.es/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/tc39/proposal-regex-escaping"
     },
     "TC39-REGEXP-MODIFIERS": {
         "href": "https://tc39.es/proposal-regexp-modifiers/",
@@ -2052,6 +2096,17 @@
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/WebAssembly/js-promise-integration"
+    },
+    "WASM-JS-API-2-FORK-JS-STRING-BUILTINS": {
+        "href": "https://webassembly.github.io/js-string-builtins/js-api/",
+        "title": "WebAssembly JavaScript Interface: JS String Builtins",
+        "status": "Editor's Draft",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/webassembly/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/WebAssembly/js-string-builtins"
     },
     "WASM-JS-API-2-FORK-JS-TYPES": {
         "href": "https://webassembly.github.io/js-types/js-api/",
