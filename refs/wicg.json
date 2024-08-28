@@ -21,7 +21,8 @@
         "status": "cg-draft",
         "publisher": "WICG",
         "source": "https://wicg.github.io/admin/biblio.json",
-        "repository": "https://github.com/wicg/budget-api"
+        "repository": "https://github.com/wicg/budget-api",
+        "isRetired": true
     },
     "CLIENT-HINTS-INFRASTRUCTURE": {
         "href": "https://wicg.github.io/client-hints-infrastructure/",
@@ -40,12 +41,7 @@
         "repository": "https://github.com/wicg/cookie-store"
     },
     "CORS-RFC1918": {
-        "href": "https://wicg.github.io/cors-rfc1918/",
-        "title": "CORS and RFC1918",
-        "status": "cg-draft",
-        "publisher": "WICG",
-        "source": "https://wicg.github.io/admin/biblio.json",
-        "repository": "https://github.com/wicg/cors-rfc1918"
+        "aliasOf": "PRIVATE-NETWORK-ACCESS"
     },
     "CSS-PARSER-API": {
         "href": "https://wicg.github.io/css-parser-api/",
@@ -253,7 +249,8 @@
         "status": "cg-draft",
         "publisher": "WICG",
         "source": "https://wicg.github.io/admin/biblio.json",
-        "repository": "https://github.com/wicg/priority-hints"
+        "repository": "https://github.com/wicg/priority-hints",
+        "isRetired": true
     },
     "RESIZE-OBSERVER": {
         "href": "https://wicg.github.io/ResizeObserver/",
@@ -317,7 +314,11 @@
         "status": "cg-draft",
         "publisher": "WICG",
         "source": "https://wicg.github.io/admin/biblio.json",
-        "repository": "https://github.com/wicg/visual-viewport"
+        "repository": "https://github.com/wicg/visual-viewport",
+        "isSuperseded": true,
+        "obsoletedBy": [
+            "cssom-view"
+        ]
     },
     "WEB-APP-LAUNCH": {
         "href": "https://wicg.github.io/web-app-launch/",
@@ -406,7 +407,8 @@
         "status": "cg-draft",
         "publisher": "WICG",
         "source": "https://wicg.github.io/admin/biblio.json",
-        "repository": "https://github.com/wicg/frame-timing"
+        "repository": "https://github.com/wicg/frame-timing",
+        "isRetired": true
     },
     "WICG-GEOLOCATION-SENSOR": {
         "aliasOf": "geolocation-sensor"
