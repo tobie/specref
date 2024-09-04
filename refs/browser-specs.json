@@ -278,17 +278,6 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/w3c/csswg-drafts"
     },
-    "CSS-EASING-2": {
-        "href": "https://drafts.csswg.org/css-easing-2/",
-        "title": "CSS Easing Functions Level 2",
-        "status": "Editor's Draft",
-        "publisher": "W3C",
-        "deliveredBy": [
-            "https://www.w3.org/Style/CSS/"
-        ],
-        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/w3c/csswg-drafts"
-    },
     "CSS-ENV-1": {
         "href": "https://drafts.csswg.org/css-env-1/",
         "title": "CSS Environment Variables Module Level 1",
@@ -454,17 +443,6 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/w3c/css-houdini-drafts"
     },
-    "CSS-VALUES-5": {
-        "href": "https://drafts.csswg.org/css-values-5/",
-        "title": "CSS Values and Units Module Level 5",
-        "status": "Editor's Draft",
-        "publisher": "W3C",
-        "deliveredBy": [
-            "https://www.w3.org/Style/CSS/"
-        ],
-        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/w3c/csswg-drafts"
-    },
     "CSS-VARIABLES-2": {
         "href": "https://drafts.csswg.org/css-variables-2/",
         "title": "CSS Custom Properties for Cascading Variables Module Level 2",
@@ -490,7 +468,8 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/WICG/custom-state-pseudo-class",
         "obsoletedBy": [
-            "HTML"
+            "HTML",
+            "SELECTORS-5"
         ],
         "isSuperseded": true
     },
@@ -529,6 +508,17 @@
     },
     "DIGEST-HEADERS": {
         "aliasOf": "rfc9530"
+    },
+    "DIGITAL-CREDENTIALS": {
+        "href": "https://wicg.github.io/digital-credentials/",
+        "title": "Digital Credentials",
+        "status": "Draft Community Group Report",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/wicg/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/WICG/digital-credentials"
     },
     "DIGITAL-GOODS": {
         "href": "https://wicg.github.io/digital-goods/",
@@ -583,6 +573,17 @@
             "https://www.khronos.org/opengles/"
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json"
+    },
+    "EXECCOMMAND": {
+        "href": "https://w3c.github.io/editing/docs/execCommand/",
+        "title": "execCommand",
+        "status": "Unofficial Proposal Draft",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/groups/wg/webediting/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/w3c/editing"
     },
     "EXT_BLEND_MINMAX": {
         "href": "https://registry.khronos.org/webgl/extensions/EXT_blend_minmax/",
@@ -739,15 +740,7 @@
         "repository": "https://github.com/WICG/eyedropper-api"
     },
     "FEDCM": {
-        "href": "https://fedidcg.github.io/FedCM/",
-        "title": "Federated Credential Management API",
-        "status": "Draft Community Group Report",
-        "publisher": "W3C",
-        "deliveredBy": [
-            "https://www.w3.org/groups/wg/fedid/"
-        ],
-        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/fedidcg/FedCM"
+        "aliasOf": "fedcm-1"
     },
     "FENCED-FRAME": {
         "href": "https://wicg.github.io/fenced-frame/",
@@ -1011,6 +1004,17 @@
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/WICG/nav-speculation"
+    },
+    "OBSERVABLE": {
+        "href": "https://wicg.github.io/observable/",
+        "title": "Observable",
+        "status": "Draft Community Group Report",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/wicg/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/WICG/observable"
     },
     "OES_DRAW_BUFFERS_INDEXED": {
         "href": "https://registry.khronos.org/webgl/extensions/OES_draw_buffers_indexed/",
@@ -1487,7 +1491,11 @@
             "https://tc39.es/"
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/tc39/proposal-array-grouping"
+        "repository": "https://github.com/tc39/proposal-array-grouping",
+        "obsoletedBy": [
+            "ECMASCRIPT"
+        ],
+        "isSuperseded": true
     },
     "TC39-ARRAYBUFFER-BASE64": {
         "href": "https://tc39.es/proposal-arraybuffer-base64/spec/",
@@ -1509,7 +1517,11 @@
             "https://tc39.es/"
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/tc39/proposal-arraybuffer-transfer"
+        "repository": "https://github.com/tc39/proposal-arraybuffer-transfer",
+        "obsoletedBy": [
+            "ECMASCRIPT"
+        ],
+        "isSuperseded": true
     },
     "TC39-ASYNC-EXPLICIT-RESOURCE-MANAGEMENT": {
         "href": "https://tc39.es/proposal-async-explicit-resource-management/",
@@ -1798,7 +1810,11 @@
             "https://tc39.es/"
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/tc39/proposal-promise-with-resolvers"
+        "repository": "https://github.com/tc39/proposal-promise-with-resolvers",
+        "obsoletedBy": [
+            "ECMASCRIPT"
+        ],
+        "isSuperseded": true
     },
     "TC39-REGEX-ESCAPING": {
         "href": "https://tc39.es/proposal-regex-escaping/",
