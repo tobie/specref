@@ -3192,6 +3192,35 @@
         "href": "https://github.com/solid/web-access-control-spec",
         "publisher": "Solid @ MIT"
     },
+    "SOLID-PROTOCOL": {
+        "title": "Solid Protocol",
+        "href": "https://solidproject.org/TR/protocol",
+        "publisher": "Solid Community Group",
+        "status": "Draft Community Group Report",
+        "authors": [
+            "Sarven Capadisli",
+            "Tim Berners-Lee",
+            "Kjetil Kjernsmo"
+        ],
+        "date": "12 May 2024",
+        "rawDate": "2024-05-12",
+        "edDraft": "https://solidproject.org/ED/protocol",
+        "repository": "https://github.com/solid/specification",
+        "versions": {
+            "20240512": {
+                "title": "Solid Protocol",
+                "href": "https://solidproject.org/TR/2024/protocol-20240512",
+                "publisher": "Solid Community Group",
+                "status": "Draft Community Group Report",
+                "authors": [
+                    "Sarven Capadisli",
+                    "Tim Berners-Lee",
+                    "Kjetil Kjernsmo"
+                ],
+                "rawDate": "2024-05-12"
+            }
+        }
+    },
     "SPARQL-QUERY": {
         "aliasOf": "rdf-sparql-query"
     },
