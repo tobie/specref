@@ -43,6 +43,17 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/WICG/anonymous-iframe"
     },
+    "AT-DRIVER": {
+        "href": "https://w3c.github.io/at-driver/",
+        "title": "AT Driver",
+        "status": "Editor's Draft",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/groups/wg/browser-tools-testing/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/w3c/at-driver"
+    },
     "ATTRIBUTION-REPORTING-API": {
         "href": "https://wicg.github.io/attribution-reporting-api/",
         "title": "Attribution Reporting",
@@ -322,17 +333,6 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/w3c/csswg-drafts"
     },
-    "CSS-GRID-3": {
-        "href": "https://drafts.csswg.org/css-grid-3/",
-        "title": "CSS Grid Layout Module Level 3",
-        "status": "Editor's Draft",
-        "publisher": "W3C",
-        "deliveredBy": [
-            "https://www.w3.org/Style/CSS/"
-        ],
-        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/w3c/csswg-drafts"
-    },
     "CSS-IMAGES-5": {
         "href": "https://drafts.csswg.org/css-images-5/",
         "title": "CSS Images Module Level 5",
@@ -532,15 +532,7 @@
         "repository": "https://github.com/WICG/digital-goods"
     },
     "DIGITAL-IDENTITIES": {
-        "href": "https://wicg.github.io/digital-identities/",
-        "title": "Digital Credentials",
-        "status": "Draft Community Group Report",
-        "publisher": "W3C",
-        "deliveredBy": [
-            "https://www.w3.org/community/wicg/"
-        ],
-        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/WICG/digital-identities"
+        "aliasOf": "DIGITAL-CREDENTIALS"
     },
     "DIRECT-SOCKETS": {
         "href": "https://wicg.github.io/direct-sockets/",
@@ -1392,7 +1384,7 @@
     },
     "SOURCEMAP": {
         "href": "https://tc39.es/source-map/",
-        "title": "Source Map",
+        "title": "Source Map specification",
         "status": "Editor's Draft",
         "publisher": "Ecma International",
         "deliveredBy": [
