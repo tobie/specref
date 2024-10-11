@@ -5316,6 +5316,19 @@
         "href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/setCapture",
         "title": "Element.setCapture()"
     },
+    "media-playback-quality": {
+        "authors": [
+            "Mounir Lamouri"
+        ],
+        "href": "https://w3c.github.io/media-playback-quality/",
+        "title": "Media Playback Quality",
+        "status": "ED",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/media-wg/"
+        ],
+        "repository": "https://github.com/w3c/media-playback-quality"
+    },
     "mediaqueries": {
         "aliasOf": "mediaqueries-4"
     },
@@ -5695,6 +5708,17 @@
             }
         }
     },
+    "staticrange": {
+        "href": "https://w3c.github.io/staticrange/",
+        "title": "Static Range",
+        "status": "ED",
+        "publisher": "W3C",
+        "repository": "https://github.com/w3c/staticrange",
+        "isSuperseded": true,
+        "obsoletedBy": [
+            "dom"
+        ]
+    },
     "typedarray": {
         "authors": [
             "David Herman",
@@ -5867,6 +5891,13 @@
         "publisher": "W3C Web Bluetooth Community Group",
         "repository": "https://github.com/webbluetoothcg/web-bluetooth"
     },
+    "web-nfc": {
+        "href": "https://w3c.github.io/web-nfc/",
+        "title": "Web NFC API",
+        "status": "ED",
+        "publisher": "W3C",
+        "repository": "https://github.com/w3c/web-nfc"
+    },
     "web-thing-model": {
         "href": "https://www.w3.org/Submission/wot-model/",
         "edDraft": "https://www.w3.org/Submission/wot-model/",
@@ -5889,6 +5920,17 @@
         "title": "WebDriver BiDi",
         "status": "Editor's Draft",
         "repository": "https://github.com/w3c/webdriver-bidi"
+    },
+    "webvr": {
+        "href": "https://immersive-web.github.io/webvr/spec/1.1/",
+        "title": "WebVR",
+        "status": "ED",
+        "publisher": "W3C",
+        "repository": "https://github.com/immersive-web/webxr",
+        "isSuperseded": true,
+        "obsoletedBy": [
+            "webxr"
+        ]
     },
     "wfs": {
         "href": "http://www.opengeospatial.org/standards/wfs",
