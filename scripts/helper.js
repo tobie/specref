@@ -133,5 +133,6 @@ function tryOverwrite(f) {
             delete ref[action.prop];
         }
     });
+    references = sortRefs(references);
     writeBiblio(f, references);
 }
