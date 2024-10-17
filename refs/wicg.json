@@ -21,7 +21,8 @@
         "status": "cg-draft",
         "publisher": "WICG",
         "source": "https://wicg.github.io/admin/biblio.json",
-        "repository": "https://github.com/wicg/budget-api"
+        "repository": "https://github.com/wicg/budget-api",
+        "isRetired": true
     },
     "CLIENT-HINTS-INFRASTRUCTURE": {
         "href": "https://wicg.github.io/client-hints-infrastructure/",
@@ -30,14 +31,6 @@
         "publisher": "WICG",
         "source": "https://wicg.github.io/admin/biblio.json",
         "repository": "https://github.com/wicg/client-hints-infrastructure"
-    },
-    "COMPRESSION": {
-        "href": "https://wicg.github.io/compression/",
-        "title": "Compression Streams",
-        "status": "cg-draft",
-        "publisher": "WICG",
-        "source": "https://wicg.github.io/admin/biblio.json",
-        "repository": "https://github.com/wicg/compression"
     },
     "COOKIE-STORE": {
         "href": "https://wicg.github.io/cookie-store/",
@@ -48,12 +41,7 @@
         "repository": "https://github.com/wicg/cookie-store"
     },
     "CORS-RFC1918": {
-        "href": "https://wicg.github.io/cors-rfc1918/",
-        "title": "CORS and RFC1918",
-        "status": "cg-draft",
-        "publisher": "WICG",
-        "source": "https://wicg.github.io/admin/biblio.json",
-        "repository": "https://github.com/wicg/cors-rfc1918"
+        "aliasOf": "PRIVATE-NETWORK-ACCESS"
     },
     "CSS-PARSER-API": {
         "href": "https://wicg.github.io/css-parser-api/",
@@ -62,6 +50,14 @@
         "publisher": "WICG",
         "source": "https://wicg.github.io/admin/biblio.json",
         "repository": "https://github.com/wicg/css-parser-api"
+    },
+    "DOCUMENT-PICTURE-IN-PICTURE": {
+        "href": "https://wicg.github.io/document-picture-in-picture/",
+        "title": "Document Picture-in-Picture",
+        "status": "cg-draft",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/document-picture-in-picture"
     },
     "DOCUMENT-POLICY": {
         "href": "https://wicg.github.io/document-policy/",
@@ -110,6 +106,14 @@
         "publisher": "WICG",
         "source": "https://wicg.github.io/admin/biblio.json",
         "repository": "https://github.com/wicg/input-device-capabilities"
+    },
+    "ISOLATED-CONTEXTS": {
+        "href": "https://wicg.github.io/isolated-web-apps/isolated-contexts.html",
+        "title": "Isolated Contexts",
+        "status": "cg-draft",
+        "publisher": "WICG",
+        "source": "https://wicg.github.io/admin/biblio.json",
+        "repository": "https://github.com/wicg/isolated-web-apps"
     },
     "JS-SELF-PROFILING": {
         "href": "https://wicg.github.io/js-self-profiling/",
@@ -245,7 +249,8 @@
         "status": "cg-draft",
         "publisher": "WICG",
         "source": "https://wicg.github.io/admin/biblio.json",
-        "repository": "https://github.com/wicg/priority-hints"
+        "repository": "https://github.com/wicg/priority-hints",
+        "isRetired": true
     },
     "RESIZE-OBSERVER": {
         "href": "https://wicg.github.io/ResizeObserver/",
@@ -309,7 +314,11 @@
         "status": "cg-draft",
         "publisher": "WICG",
         "source": "https://wicg.github.io/admin/biblio.json",
-        "repository": "https://github.com/wicg/visual-viewport"
+        "repository": "https://github.com/wicg/visual-viewport",
+        "isSuperseded": true,
+        "obsoletedBy": [
+            "cssom-view"
+        ]
     },
     "WEB-APP-LAUNCH": {
         "href": "https://wicg.github.io/web-app-launch/",
@@ -371,6 +380,9 @@
     "WICG-CSS-SCROLL-BOUNDARY-BEHAVIOR": {
         "aliasOf": "CSS-SCROLL-BOUNDARY-BEHAVIOR"
     },
+    "WICG-DOCUMENT-PICTURE-IN-PICTURE": {
+        "aliasOf": "DOCUMENT-PICTURE-IN-PICTURE"
+    },
     "WICG-DOCUMENT-POLICY": {
         "aliasOf": "DOCUMENT-POLICY"
     },
@@ -395,7 +407,8 @@
         "status": "cg-draft",
         "publisher": "WICG",
         "source": "https://wicg.github.io/admin/biblio.json",
-        "repository": "https://github.com/wicg/frame-timing"
+        "repository": "https://github.com/wicg/frame-timing",
+        "isRetired": true
     },
     "WICG-GEOLOCATION-SENSOR": {
         "aliasOf": "geolocation-sensor"
@@ -405,6 +418,9 @@
     },
     "WICG-INPUT-DEVICE-CAPABILITIES": {
         "aliasOf": "INPUT-DEVICE-CAPABILITIES"
+    },
+    "WICG-ISOLATED-CONTEXTS": {
+        "aliasOf": "ISOLATED-CONTEXTS"
     },
     "WICG-JS-SELF-PROFILING": {
         "aliasOf": "JS-SELF-PROFILING"

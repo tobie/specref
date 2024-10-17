@@ -45,16 +45,22 @@
     "iso10918-4": {
         "href": "https://www.iso.org/standard/85634.html",
         "title": "Information technology — Digital compression and coding of continuous-tone still images — Part 4: APPn markers",
-        "status": "Under development",
+        "status": "Published",
         "publisher": "ISO/IEC",
+        "isoNumber": "ISO 10918-4:2024",
+        "rawDate": "2024-05",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso10918-4-1999-amd1-2013": {
         "href": "https://www.iso.org/standard/59454.html",
-        "title": "Information technology — Digital compression and coding of continuous-tone still images: Registration of JPEG profiles, SPIFF profiles, SPIFF tags, SPIFF colour spaces, APPn markers, SPIFF compression types and Registration Authorities (REGAUT) — Part 4: — Amendment 1: Application specific marker list",
-        "status": "Published",
+        "title": "Information technology — Digital compression and coding of continuous-tone still images: Registration of JPEG profiles, SPIFF profiles, SPIFF tags, SPIFF colour spaces, APPn markers, SPIFF compression types and Registration Authorities (REGAUT) — Part 4:  — Amendment 1: Application specific marker list",
+        "status": "Withdrawn",
         "publisher": "ISO/IEC",
+        "isSuperseded": true,
         "rawDate": "2013-05",
+        "obsoletedBy": [
+            "iso10918-4"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso10918-5": {
@@ -247,9 +253,10 @@
     "iso13522-4": {
         "href": "https://www.iso.org/standard/25411.html",
         "title": "Information technology — Coding of multimedia and hypermedia information — Part 4: MHEG registration procedure",
-        "status": "Published",
+        "status": "Withdrawn",
         "publisher": "ISO/IEC",
         "isoNumber": "ISO 13522-4:1996",
+        "isSuperseded": true,
         "rawDate": "1996-11",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
@@ -392,7 +399,7 @@
     },
     "iso13818-1-2000-amd1-2003": {
         "href": "https://www.iso.org/standard/35456.html",
-        "title": "Information technology — Generic coding of moving pictures and associated audio information: Systems — Part 1: — Amendment 1: Carriage of metadata over ISO/IEC 13818-1 streams",
+        "title": "Information technology — Generic coding of moving pictures and associated audio information: Systems — Part 1:  — Amendment 1: Carriage of metadata over ISO/IEC 13818-1 streams",
         "status": "Withdrawn",
         "publisher": "ISO/IEC",
         "isSuperseded": true,
@@ -404,7 +411,7 @@
     },
     "iso13818-1-2000-amd2-2004": {
         "href": "https://www.iso.org/standard/37679.html",
-        "title": "Information technology — Generic coding of moving pictures and associated audio information: Systems — Part 1: — Amendment 2: Support of IPMP on MPEG-2 systems",
+        "title": "Information technology — Generic coding of moving pictures and associated audio information: Systems — Part 1:  — Amendment 2: Support of IPMP on MPEG-2 systems",
         "status": "Withdrawn",
         "publisher": "ISO/IEC",
         "isSuperseded": true,
@@ -416,7 +423,7 @@
     },
     "iso13818-1-2000-amd3-2004": {
         "href": "https://www.iso.org/standard/38548.html",
-        "title": "Information technology — Generic coding of moving pictures and associated audio information: Systems — Part 1: — Amendment 3: Transport of AVC video data over ITU-T Rec H.222.0 | ISO/IEC 13818-1 streams",
+        "title": "Information technology — Generic coding of moving pictures and associated audio information: Systems — Part 1:  — Amendment 3: Transport of AVC video data over ITU-T Rec H.222.0 | ISO/IEC 13818-1 streams",
         "status": "Withdrawn",
         "publisher": "ISO/IEC",
         "isSuperseded": true,
@@ -428,7 +435,7 @@
     },
     "iso13818-1-2000-amd4-2005": {
         "href": "https://www.iso.org/standard/40525.html",
-        "title": "Information technology — Generic coding of moving pictures and associated audio information: Systems — Part 1: — Amendment 4: ISAN and V-ISAN use in the content labelling descriptor",
+        "title": "Information technology — Generic coding of moving pictures and associated audio information: Systems — Part 1:  — Amendment 4: ISAN and V-ISAN use in the content labelling descriptor",
         "status": "Withdrawn",
         "publisher": "ISO/IEC",
         "isSuperseded": true,
@@ -440,7 +447,7 @@
     },
     "iso13818-1-2000-amd5-2005": {
         "href": "https://www.iso.org/standard/40477.html",
-        "title": "Information technology — Generic coding of moving pictures and associated audio information: Systems — Part 1: — Amendment 5: New audio profile and level signalling and change to audio_type table entry",
+        "title": "Information technology — Generic coding of moving pictures and associated audio information: Systems — Part 1:  — Amendment 5: New audio profile and level signalling and change to audio_type table entry",
         "status": "Withdrawn",
         "publisher": "ISO/IEC",
         "isSuperseded": true,
@@ -452,7 +459,7 @@
     },
     "iso13818-1-2000-cor1-2002": {
         "href": "https://www.iso.org/standard/35427.html",
-        "title": "Information technology — Generic coding of moving pictures and associated audio information: Systems — Part 1: — Technical Corrigendum 1",
+        "title": "Information technology — Generic coding of moving pictures and associated audio information: Systems — Part 1:  — Technical Corrigendum 1",
         "status": "Withdrawn",
         "publisher": "ISO/IEC",
         "isSuperseded": true,
@@ -464,7 +471,7 @@
     },
     "iso13818-1-2000-cor2-2002": {
         "href": "https://www.iso.org/standard/36593.html",
-        "title": "Information technology — Generic coding of moving pictures and associated audio information: Systems — Part 1: — Technical Corrigendum 2",
+        "title": "Information technology — Generic coding of moving pictures and associated audio information: Systems — Part 1:  — Technical Corrigendum 2",
         "status": "Withdrawn",
         "publisher": "ISO/IEC",
         "isSuperseded": true,
@@ -476,7 +483,7 @@
     },
     "iso13818-1-2000-cor3-2005": {
         "href": "https://www.iso.org/standard/41507.html",
-        "title": "Information technology — Generic coding of moving pictures and associated audio information: Systems — Part 1: — Technical Corrigendum 3",
+        "title": "Information technology — Generic coding of moving pictures and associated audio information: Systems — Part 1:  — Technical Corrigendum 3",
         "status": "Withdrawn",
         "publisher": "ISO/IEC",
         "isSuperseded": true,
@@ -488,7 +495,7 @@
     },
     "iso13818-1-2000-cor4-2007": {
         "href": "https://www.iso.org/standard/42489.html",
-        "title": "Information technology — Generic coding of moving pictures and associated audio information: Systems — Part 1: — Technical Corrigendum 4",
+        "title": "Information technology — Generic coding of moving pictures and associated audio information: Systems — Part 1:  — Technical Corrigendum 4",
         "status": "Withdrawn",
         "publisher": "ISO/IEC",
         "isSuperseded": true,
@@ -500,7 +507,7 @@
     },
     "iso13818-1-2007-amd1-2007": {
         "href": "https://www.iso.org/standard/44170.html",
-        "title": "Information technology — Generic coding of moving pictures and associated audio information: Systems — Part 1: — Amendment 1: Transport of MPEG-4 streaming text and MPEG-4 lossless audio over MPEG-2 systems",
+        "title": "Information technology — Generic coding of moving pictures and associated audio information: Systems — Part 1:  — Amendment 1: Transport of MPEG-4 streaming text and MPEG-4 lossless audio over MPEG-2 systems",
         "status": "Withdrawn",
         "publisher": "ISO/IEC",
         "isSuperseded": true,
@@ -512,7 +519,7 @@
     },
     "iso13818-1-2007-amd2-2008": {
         "href": "https://www.iso.org/standard/44355.html",
-        "title": "Information technology — Generic coding of moving pictures and associated audio information: Systems — Part 1: — Amendment 2: Carriage of auxiliary video data",
+        "title": "Information technology — Generic coding of moving pictures and associated audio information: Systems — Part 1:  — Amendment 2: Carriage of auxiliary video data",
         "status": "Withdrawn",
         "publisher": "ISO/IEC",
         "isSuperseded": true,
@@ -524,7 +531,7 @@
     },
     "iso13818-1-2007-amd3-2009": {
         "href": "https://www.iso.org/standard/50876.html",
-        "title": "Information technology — Generic coding of moving pictures and associated audio information: Systems — Part 1: — Amendment 3: Transport of scalable video over Rec. ITU-T H.222.0 | ISO/IEC 13818-1",
+        "title": "Information technology — Generic coding of moving pictures and associated audio information: Systems — Part 1:  — Amendment 3: Transport of scalable video over Rec. ITU-T H.222.0 | ISO/IEC 13818-1",
         "status": "Withdrawn",
         "publisher": "ISO/IEC",
         "isSuperseded": true,
@@ -536,7 +543,7 @@
     },
     "iso13818-1-2007-amd3-2009-cor1-2011": {
         "href": "https://www.iso.org/standard/55586.html",
-        "title": "Information technology — Generic coding of moving pictures and associated audio information: Systems — Part 1: — Amendment 3: Transport of scalable video over Rec. ITU-T H.222.0 | ISO/IEC 13818-1 — Technical Corrigendum 1",
+        "title": "Information technology — Generic coding of moving pictures and associated audio information: Systems — Part 1:  — Amendment 3: Transport of scalable video over Rec. ITU-T H.222.0 | ISO/IEC 13818-1 — Technical Corrigendum 1",
         "status": "Withdrawn",
         "publisher": "ISO/IEC",
         "isSuperseded": true,
@@ -548,7 +555,7 @@
     },
     "iso13818-1-2007-amd4-2009": {
         "href": "https://www.iso.org/standard/52880.html",
-        "title": "Information technology — Generic coding of moving pictures and associated audio information: Systems — Part 1: — Amendment 4: Transport of multiview video over Rec. ITU-T H.222.0 | ISO/IEC 13818-1",
+        "title": "Information technology — Generic coding of moving pictures and associated audio information: Systems — Part 1:  — Amendment 4: Transport of multiview video over Rec. ITU-T H.222.0 | ISO/IEC 13818-1",
         "status": "Withdrawn",
         "publisher": "ISO/IEC",
         "isSuperseded": true,
@@ -560,7 +567,7 @@
     },
     "iso13818-1-2007-amd5-2011": {
         "href": "https://www.iso.org/standard/55694.html",
-        "title": "Information technology — Generic coding of moving pictures and associated audio information: Systems — Part 1: — Amendment 5: Transport of JPEG 2000 Part 1 (ITU-T Rec T.800 | ISO/IEC 15444-1) video over ITU-T Rec H.222.0 | ISO/IEC 13818-1",
+        "title": "Information technology — Generic coding of moving pictures and associated audio information: Systems — Part 1:  — Amendment 5: Transport of JPEG 2000 Part 1 (ITU-T Rec T.800 | ISO/IEC 15444-1) video over ITU-T Rec H.222.0 | ISO/IEC 13818-1",
         "status": "Withdrawn",
         "publisher": "ISO/IEC",
         "isSuperseded": true,
@@ -572,7 +579,7 @@
     },
     "iso13818-1-2007-amd6-2011": {
         "href": "https://www.iso.org/standard/55687.html",
-        "title": "Information technology — Generic coding of moving pictures and associated audio information: Systems — Part 1: — Amendment 6: Extension to AVC video descriptor and signalling of operation points for MVC",
+        "title": "Information technology — Generic coding of moving pictures and associated audio information: Systems — Part 1:  — Amendment 6: Extension to AVC video descriptor and signalling of operation points for MVC",
         "status": "Withdrawn",
         "publisher": "ISO/IEC",
         "isSuperseded": true,
@@ -584,7 +591,7 @@
     },
     "iso13818-1-2007-cor1-2008": {
         "href": "https://www.iso.org/standard/46284.html",
-        "title": "Information technology — Generic coding of moving pictures and associated audio information: Systems — Part 1: — Technical Corrigendum 1",
+        "title": "Information technology — Generic coding of moving pictures and associated audio information: Systems — Part 1:  — Technical Corrigendum 1",
         "status": "Withdrawn",
         "publisher": "ISO/IEC",
         "isSuperseded": true,
@@ -596,7 +603,7 @@
     },
     "iso13818-1-2007-cor2-2009": {
         "href": "https://www.iso.org/standard/52945.html",
-        "title": "Information technology — Generic coding of moving pictures and associated audio information: Systems — Part 1: — Technical Corrigendum 2",
+        "title": "Information technology — Generic coding of moving pictures and associated audio information: Systems — Part 1:  — Technical Corrigendum 2",
         "status": "Withdrawn",
         "publisher": "ISO/IEC",
         "isSuperseded": true,
@@ -608,7 +615,7 @@
     },
     "iso13818-1-2007-cor3-2011": {
         "href": "https://www.iso.org/standard/54837.html",
-        "title": "Information technology — Generic coding of moving pictures and associated audio information: Systems — Part 1: — Technical Corrigendum 3: Corrections concerning VBV buffer size, semantics of splice_type and removal rate from transport buffer for ITU-T H.264 ISO/IEC 14496-10 advanced video coding",
+        "title": "Information technology — Generic coding of moving pictures and associated audio information: Systems — Part 1:  — Technical Corrigendum 3: Corrections concerning VBV buffer size, semantics of splice_type and removal rate from transport buffer for ITU-T H.264 ISO/IEC 14496-10 advanced video coding",
         "status": "Withdrawn",
         "publisher": "ISO/IEC",
         "isSuperseded": true,
@@ -962,6 +969,9 @@
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso13818-1-2023-awiamd1": {
+        "aliasOf": "iso13818-1-2023-cdamd1"
+    },
+    "iso13818-1-2023-cdamd1": {
         "href": "https://www.iso.org/standard/89042.html",
         "title": "Information technology — Generic coding of moving pictures and associated audio information — Part 1: Systems — Amendment 1: Codec parameter clarifications and other improvements",
         "status": "Under development",
@@ -1087,7 +1097,7 @@
     },
     "iso13818-2-2000-amd1-2001": {
         "href": "https://www.iso.org/standard/34414.html",
-        "title": "Information technology — Generic coding of moving pictures and associated audio information: Video — Part 2: — Amendment 1: Content description data",
+        "title": "Information technology — Generic coding of moving pictures and associated audio information: Video — Part 2:  — Amendment 1: Content description data",
         "status": "Withdrawn",
         "publisher": "ISO/IEC",
         "isSuperseded": true,
@@ -1099,7 +1109,7 @@
     },
     "iso13818-2-2000-amd2-2007": {
         "href": "https://www.iso.org/standard/43657.html",
-        "title": "Information technology — Generic coding of moving pictures and associated audio information: Video — Part 2: — Amendment 2: Support for colour spaces",
+        "title": "Information technology — Generic coding of moving pictures and associated audio information: Video — Part 2:  — Amendment 2: Support for colour spaces",
         "status": "Withdrawn",
         "publisher": "ISO/IEC",
         "isSuperseded": true,
@@ -1111,7 +1121,7 @@
     },
     "iso13818-2-2000-amd3-2010": {
         "href": "https://www.iso.org/standard/51746.html",
-        "title": "Information technology — Generic coding of moving pictures and associated audio information: Video — Part 2: — Amendment 3: New level for 1080@50p/60p",
+        "title": "Information technology — Generic coding of moving pictures and associated audio information: Video — Part 2:  — Amendment 3: New level for 1080@50p/60p",
         "status": "Withdrawn",
         "publisher": "ISO/IEC",
         "isSuperseded": true,
@@ -1123,7 +1133,7 @@
     },
     "iso13818-2-2000-cor1-2002": {
         "href": "https://www.iso.org/standard/35006.html",
-        "title": "Information technology — Generic coding of moving pictures and associated audio information: Video — Part 2: — Technical Corrigendum 1",
+        "title": "Information technology — Generic coding of moving pictures and associated audio information: Video — Part 2:  — Technical Corrigendum 1",
         "status": "Withdrawn",
         "publisher": "ISO/IEC",
         "isSuperseded": true,
@@ -1135,7 +1145,7 @@
     },
     "iso13818-2-2000-cor2-2007": {
         "href": "https://www.iso.org/standard/43507.html",
-        "title": "Information technology — Generic coding of moving pictures and associated audio information: Video — Part 2: — Technical Corrigendum 2",
+        "title": "Information technology — Generic coding of moving pictures and associated audio information: Video — Part 2:  — Technical Corrigendum 2",
         "status": "Withdrawn",
         "publisher": "ISO/IEC",
         "isSuperseded": true,
@@ -1265,7 +1275,7 @@
     },
     "iso13818-4-2004-amd2-2005-cor1-2007": {
         "href": "https://www.iso.org/standard/45441.html",
-        "title": "Information technology — Generic coding of moving pictures and associated audio information — Part 4: Conformance testing — Amendment 2: Additional audio conformance test sequences — Technical Corrigendum 1",
+        "title": "Information technology — Generic coding of moving pictures and associated audio information — Part 4: Conformance testing — Amendment 2: Additional audio conformance test sequences   — Technical Corrigendum 1",
         "status": "Published",
         "publisher": "ISO/IEC",
         "rawDate": "2007-02",
@@ -1273,7 +1283,7 @@
     },
     "iso13818-4-2004-amd2-2005-cor2-2009": {
         "href": "https://www.iso.org/standard/52337.html",
-        "title": "Information technology — Generic coding of moving pictures and associated audio information — Part 4: Conformance testing — Amendment 2: Additional audio conformance test sequences — Technical Corrigendum 2",
+        "title": "Information technology — Generic coding of moving pictures and associated audio information — Part 4: Conformance testing — Amendment 2: Additional audio conformance test sequences   — Technical Corrigendum 2",
         "status": "Published",
         "publisher": "ISO/IEC",
         "rawDate": "2009-04",
@@ -1281,7 +1291,7 @@
     },
     "iso13818-4-2004-amd3-2009": {
         "href": "https://www.iso.org/standard/51747.html",
-        "title": "Information technology — Generic coding of moving pictures and associated audio information — Part 4: Conformance testing — Amendment 3: Level for 1080@50p/60p conformance testing",
+        "title": "Information technology — Generic coding of moving pictures and associated audio information — Part 4: Conformance testing — Amendment 3:  Level for 1080@50p/60p conformance testing",
         "status": "Published",
         "publisher": "ISO/IEC",
         "rawDate": "2009-06",
@@ -1631,7 +1641,7 @@
     },
     "iso14496-1-2004-amd1-2005": {
         "href": "https://www.iso.org/standard/41482.html",
-        "title": "Information technology — Coding of audio-visual objects — Part 1: Systems — Amendment 1: Text profile and level indication",
+        "title": "Information technology — Coding of audio-visual objects — Part 1: Systems — Amendment 1:  Text profile and level indication",
         "status": "Withdrawn",
         "publisher": "ISO/IEC",
         "isSuperseded": true,
@@ -2128,7 +2138,17 @@
     "iso14496-12-wdamd1": {
         "aliasOf": "iso14496-12-cdamd1"
     },
+    "iso14496-12.2-awiamd2": {
+        "href": "https://www.iso.org/standard/90190.html",
+        "title": "Information technology — Coding of audio-visual objects — Part 12: ISO base media file format — Amendment 2: Tools for enhanced CMAF and DASH integration",
+        "status": "Under development",
+        "publisher": "ISO/IEC",
+        "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+    },
     "iso14496-12.2-cdamd1": {
+        "aliasOf": "iso14496-12.2-damd1"
+    },
+    "iso14496-12.2-damd1": {
         "href": "https://www.iso.org/standard/86519.html",
         "title": "Information technology — Coding of audio-visual objects — Part 12: ISO base media file format — Amendment 1: Support for T.35, original sample duration and other improvements",
         "status": "Under development",
@@ -2665,7 +2685,7 @@
     },
     "iso14496-2-2004-amd3-2007-cor1-2008": {
         "href": "https://www.iso.org/standard/51918.html",
-        "title": "Information technology — Coding of audio-visual objects — Part 2: Visual — Amendment 3: Support for colour spaces — Technical Corrigendum 1",
+        "title": "Information technology — Coding of audio-visual objects — Part 2: Visual — Amendment 3: Support for colour spaces  — Technical Corrigendum 1",
         "status": "Published",
         "publisher": "ISO/IEC",
         "rawDate": "2008-07",
@@ -4134,7 +4154,7 @@
     },
     "iso14496-4-2004-amd4-2005": {
         "href": "https://www.iso.org/standard/39864.html",
-        "title": "Information technology — Coding of audio-visual objects — Part 4: Conformance testing — Amendment 4: IPMPX conformance extensions",
+        "title": "Information technology — Coding of audio-visual objects — Part 4: Conformance testing — Amendment 4:  IPMPX conformance extensions",
         "status": "Published",
         "publisher": "ISO/IEC",
         "rawDate": "2005-04",
@@ -4261,7 +4281,7 @@
     },
     "iso14496-4-2004-amd9-2006-cor1-2007": {
         "href": "https://www.iso.org/standard/46410.html",
-        "title": "Information technology — Coding of audio-visual objects — Part 4: Conformance testing — Amendment 9: AVC fidelity range extensions conformance — Technical Corrigendum 1",
+        "title": "Information technology — Coding of audio-visual objects — Part 4: Conformance testing — Amendment 9: AVC fidelity range extensions conformance   — Technical Corrigendum 1",
         "status": "Published",
         "publisher": "ISO/IEC",
         "rawDate": "2007-10",
@@ -4269,7 +4289,7 @@
     },
     "iso14496-4-2004-amd9-2006-cor2-2012": {
         "href": "https://www.iso.org/standard/61313.html",
-        "title": "Information technology — Coding of audio-visual objects — Part 4: Conformance testing — Amendment 9: AVC fidelity range extensions conformance — Technical Corrigendum 2",
+        "title": "Information technology — Coding of audio-visual objects — Part 4: Conformance testing — Amendment 9: AVC fidelity range extensions conformance   — Technical Corrigendum 2",
         "status": "Published",
         "publisher": "ISO/IEC",
         "rawDate": "2012-08",
@@ -4565,7 +4585,7 @@
     },
     "iso14496-5-2001-amd24-2009-cor1-2012": {
         "href": "https://www.iso.org/standard/62321.html",
-        "title": "Information technology — Coding of audio-visual objects — Part 5: Reference software — Amendment 24: Reference software for AAC-ELD — Technical Corrigendum 1",
+        "title": "Information technology — Coding of audio-visual objects — Part 5: Reference software — Amendment 24: Reference software for AAC-ELD  — Technical Corrigendum 1",
         "status": "Published",
         "publisher": "ISO/IEC",
         "rawDate": "2012-11",
@@ -4573,7 +4593,7 @@
     },
     "iso14496-5-2001-amd24-2009-cor2-2013": {
         "href": "https://www.iso.org/standard/63952.html",
-        "title": "Information technology — Coding of audio-visual objects — Part 5: Reference software — Amendment 24: Reference software for AAC-ELD — Technical Corrigendum 2",
+        "title": "Information technology — Coding of audio-visual objects — Part 5: Reference software — Amendment 24: Reference software for AAC-ELD  — Technical Corrigendum 2",
         "status": "Published",
         "publisher": "ISO/IEC",
         "rawDate": "2013-09",
@@ -4581,7 +4601,7 @@
     },
     "iso14496-5-2001-amd24-2009-cor3-2017": {
         "href": "https://www.iso.org/standard/70607.html",
-        "title": "Information technology — Coding of audio-visual objects — Part 5: Reference software — Amendment 24: Reference software for AAC-ELD — Technical Corrigendum 3",
+        "title": "Information technology — Coding of audio-visual objects — Part 5: Reference software — Amendment 24: Reference software for AAC-ELD  — Technical Corrigendum 3",
         "status": "Published",
         "publisher": "ISO/IEC",
         "rawDate": "2017-02",
@@ -4799,7 +4819,7 @@
     },
     "iso14496-5-2001-amd7-2005": {
         "href": "https://www.iso.org/standard/40361.html",
-        "title": "Information technology — Coding of audio-visual objects — Part 5: Reference software — Amendment 7: AFX reference software extensions",
+        "title": "Information technology — Coding of audio-visual objects — Part 5: Reference software — Amendment 7:  AFX reference software extensions",
         "status": "Published",
         "publisher": "ISO/IEC",
         "rawDate": "2005-04",
@@ -4916,7 +4936,7 @@
     },
     "iso15444-1-2004-amd1-2006": {
         "href": "https://www.iso.org/standard/41719.html",
-        "title": "Information technology — JPEG 2000 image coding system: Core coding system — Part 1: — Amendment 1: Profiles for digital cinema applications",
+        "title": "Information technology — JPEG 2000 image coding system: Core coding system — Part 1:  — Amendment 1: Profiles for digital cinema applications",
         "status": "Withdrawn",
         "publisher": "ISO/IEC",
         "isSuperseded": true,
@@ -4925,7 +4945,7 @@
     },
     "iso15444-1-2004-amd2-2009": {
         "href": "https://www.iso.org/standard/52174.html",
-        "title": "Information technology — JPEG 2000 image coding system: Core coding system — Part 1: — Amendment 2: Extended profiles for cinema and video production and archival applications",
+        "title": "Information technology — JPEG 2000 image coding system: Core coding system — Part 1:  — Amendment 2: Extended profiles for cinema and video production and archival applications",
         "status": "Withdrawn",
         "publisher": "ISO/IEC",
         "isSuperseded": true,
@@ -4934,7 +4954,7 @@
     },
     "iso15444-1-2004-amd3-2010": {
         "href": "https://www.iso.org/standard/53333.html",
-        "title": "Information technology — JPEG 2000 image coding system: Core coding system — Part 1: — Amendment 3: Profiles for broadcast applications",
+        "title": "Information technology — JPEG 2000 image coding system: Core coding system — Part 1:  — Amendment 3: Profiles for broadcast applications",
         "status": "Withdrawn",
         "publisher": "ISO/IEC",
         "isSuperseded": true,
@@ -4943,7 +4963,7 @@
     },
     "iso15444-1-2004-amd4-2013": {
         "href": "https://www.iso.org/standard/52176.html",
-        "title": "Information technology — JPEG 2000 image coding system: Core coding system — Part 1: — Amendment 4: Guidelines for digital cinema applications",
+        "title": "Information technology — JPEG 2000 image coding system: Core coding system — Part 1:  — Amendment 4: Guidelines for digital cinema applications",
         "status": "Withdrawn",
         "publisher": "ISO/IEC",
         "isSuperseded": true,
@@ -4952,7 +4972,7 @@
     },
     "iso15444-1-2004-amd5-2013": {
         "href": "https://www.iso.org/standard/55503.html",
-        "title": "Information technology — JPEG 2000 image coding system: Core coding system — Part 1: — Amendment 5: Enhancements for digital cinema and archive profiles (additional frame rates)",
+        "title": "Information technology — JPEG 2000 image coding system: Core coding system — Part 1:  — Amendment 5: Enhancements for digital cinema and archive profiles (additional frame rates)",
         "status": "Withdrawn",
         "publisher": "ISO/IEC",
         "isSuperseded": true,
@@ -4961,7 +4981,7 @@
     },
     "iso15444-1-2004-amd6-2013": {
         "href": "https://www.iso.org/standard/59863.html",
-        "title": "Information technology — JPEG 2000 image coding system: Core coding system — Part 1: — Amendment 6: Updated ICC profile support, bit depth and resolution clarifications",
+        "title": "Information technology — JPEG 2000 image coding system: Core coding system — Part 1:  — Amendment 6: Updated ICC profile support, bit depth and resolution clarifications",
         "status": "Withdrawn",
         "publisher": "ISO/IEC",
         "isSuperseded": true,
@@ -4970,7 +4990,7 @@
     },
     "iso15444-1-2004-amd7-2015": {
         "href": "https://www.iso.org/standard/69390.html",
-        "title": "Information technology — JPEG 2000 image coding system: Core coding system — Part 1: — Amendment 7: Profiles for an interoperable master format (IMF)",
+        "title": "Information technology — JPEG 2000 image coding system: Core coding system — Part 1:  — Amendment 7: Profiles for an interoperable master format (IMF)",
         "status": "Withdrawn",
         "publisher": "ISO/IEC",
         "isSuperseded": true,
@@ -4979,7 +4999,7 @@
     },
     "iso15444-1-2004-amd8-2015": {
         "href": "https://www.iso.org/standard/65352.html",
-        "title": "Information technology — JPEG 2000 image coding system: Core coding system — Part 1: — Amendment 8: Profiles for an interoperable master format IMF",
+        "title": "Information technology — JPEG 2000 image coding system: Core coding system — Part 1:  — Amendment 8: Profiles for an interoperable master format IMF",
         "status": "Withdrawn",
         "publisher": "ISO/IEC",
         "isSuperseded": true,
@@ -4988,7 +5008,7 @@
     },
     "iso15444-1-2004-cor1-2007": {
         "href": "https://www.iso.org/standard/44343.html",
-        "title": "Information technology — JPEG 2000 image coding system: Core coding system — Part 1: — Technical Corrigendum 1",
+        "title": "Information technology — JPEG 2000 image coding system: Core coding system — Part 1:  — Technical Corrigendum 1",
         "status": "Withdrawn",
         "publisher": "ISO/IEC",
         "isSuperseded": true,
@@ -4997,7 +5017,7 @@
     },
     "iso15444-1-2004-cor2-2008": {
         "href": "https://www.iso.org/standard/46472.html",
-        "title": "Information technology — JPEG 2000 image coding system: Core coding system — Part 1: — Technical Corrigendum 2: Clarification on determination of maximum file size",
+        "title": "Information technology — JPEG 2000 image coding system: Core coding system — Part 1:  — Technical Corrigendum 2: Clarification on determination of maximum file size",
         "status": "Withdrawn",
         "publisher": "ISO/IEC",
         "isSuperseded": true,
@@ -5006,7 +5026,7 @@
     },
     "iso15444-1-2004-cor3-2015": {
         "href": "https://www.iso.org/standard/66389.html",
-        "title": "Information technology — JPEG 2000 image coding system: Core coding system — Part 1: — Technical Corrigendum 3",
+        "title": "Information technology — JPEG 2000 image coding system: Core coding system — Part 1:  — Technical Corrigendum 3",
         "status": "Withdrawn",
         "publisher": "ISO/IEC",
         "isSuperseded": true,
@@ -5015,7 +5035,7 @@
     },
     "iso15444-1-2004-cor4-2015": {
         "href": "https://www.iso.org/standard/67166.html",
-        "title": "Information technology — JPEG 2000 image coding system: Core coding system — Part 1: — Technical Corrigendum 4",
+        "title": "Information technology — JPEG 2000 image coding system: Core coding system — Part 1:  — Technical Corrigendum 4",
         "status": "Withdrawn",
         "publisher": "ISO/IEC",
         "isSuperseded": true,
@@ -5060,7 +5080,7 @@
     },
     "iso15444-11-2007-amd1-2013": {
         "href": "https://www.iso.org/standard/53334.html",
-        "title": "Information technology — JPEG 2000 image coding system: Wireless — Part 11: — Amendment 1: IP based wireless networks",
+        "title": "Information technology — JPEG 2000 image coding system: Wireless — Part 11:  — Amendment 1: IP based wireless networks",
         "status": "Published",
         "publisher": "ISO/IEC",
         "rawDate": "2013-04",
@@ -5274,7 +5294,7 @@
     },
     "iso15444-2-2004-amd2-2006": {
         "href": "https://www.iso.org/standard/39476.html",
-        "title": "Information technology — JPEG 2000 image coding system: Extensions — Part 2: — Amendment 2: Extended capabilities marker segment",
+        "title": "Information technology — JPEG 2000 image coding system: Extensions — Part 2:  — Amendment 2:  Extended capabilities marker segment",
         "status": "Withdrawn",
         "publisher": "ISO/IEC",
         "isSuperseded": true,
@@ -5286,7 +5306,7 @@
     },
     "iso15444-2-2004-amd3-2015": {
         "href": "https://www.iso.org/standard/55504.html",
-        "title": "Information technology — JPEG 2000 image coding system: Extensions — Part 2: — Amendment 3: Box-based file format for JPEG XR, extended ROI boxes, XML boxing, compressed channel definition boxes, and representation of floating point",
+        "title": "Information technology — JPEG 2000 image coding system: Extensions — Part 2:  — Amendment 3: Box-based file format for JPEG XR, extended ROI boxes, XML boxing, compressed channel definition boxes, and representation of floating point",
         "status": "Withdrawn",
         "publisher": "ISO/IEC",
         "isSuperseded": true,
@@ -5298,7 +5318,7 @@
     },
     "iso15444-2-2004-amd4-2015": {
         "href": "https://www.iso.org/standard/59455.html",
-        "title": "Information technology — JPEG 2000 image coding system: Extensions — Part 2: — Amendment 4: Block coder extension",
+        "title": "Information technology — JPEG 2000 image coding system: Extensions — Part 2:  — Amendment 4: Block coder extension",
         "status": "Withdrawn",
         "publisher": "ISO/IEC",
         "isSuperseded": true,
@@ -5310,7 +5330,7 @@
     },
     "iso15444-2-2004-cor3-2005": {
         "href": "https://www.iso.org/standard/40827.html",
-        "title": "Information technology — JPEG 2000 image coding system: Extensions — Part 2: — Technical Corrigendum 3",
+        "title": "Information technology — JPEG 2000 image coding system: Extensions — Part 2:  — Technical Corrigendum 3",
         "status": "Withdrawn",
         "publisher": "ISO/IEC",
         "isSuperseded": true,
@@ -5322,7 +5342,7 @@
     },
     "iso15444-2-2004-cor4-2007": {
         "href": "https://www.iso.org/standard/43745.html",
-        "title": "Information technology — JPEG 2000 image coding system: Extensions — Part 2: — Technical Corrigendum 4",
+        "title": "Information technology — JPEG 2000 image coding system: Extensions — Part 2:  — Technical Corrigendum 4",
         "status": "Withdrawn",
         "publisher": "ISO/IEC",
         "isSuperseded": true,
@@ -5355,7 +5375,7 @@
     },
     "iso15444-3-2007-amd1-2010": {
         "href": "https://www.iso.org/standard/52879.html",
-        "title": "Information technology — JPEG 2000 image coding system: Motion JPEG 2000 — Part 3: — Amendment 1: Additional profiles for archiving applications",
+        "title": "Information technology — JPEG 2000 image coding system: Motion JPEG 2000 — Part 3:  — Amendment 1: Additional profiles for archiving applications",
         "status": "Published",
         "publisher": "ISO/IEC",
         "rawDate": "2010-10",
@@ -5364,8 +5384,10 @@
     "iso15444-4": {
         "href": "https://www.iso.org/standard/85636.html",
         "title": "Information technology — JPEG 2000 image coding system — Part 4: Conformance testing",
-        "status": "Under development",
+        "status": "Published",
         "publisher": "ISO/IEC",
+        "isoNumber": "ISO 15444-4:2024",
+        "rawDate": "2024-05",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso15444-4-2004-cdamd1": {
@@ -5373,11 +5395,14 @@
     },
     "iso15444-4-2004-cor1-2009": {
         "href": "https://www.iso.org/standard/52175.html",
-        "title": "Information technology — JPEG 2000 image coding system: Conformance testing — Part 4: — Technical Corrigendum 1",
+        "title": "Information technology — JPEG 2000 image coding system: Conformance testing — Part 4:  — Technical Corrigendum 1",
         "status": "Withdrawn",
         "publisher": "ISO/IEC",
         "isSuperseded": true,
         "rawDate": "2009-10",
+        "obsoletedBy": [
+            "iso15444-4"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso15444-4-2004-damd1": {
@@ -5405,7 +5430,7 @@
     },
     "iso15444-5-2003-amd1-2003": {
         "href": "https://www.iso.org/standard/36080.html",
-        "title": "Information technology — JPEG 2000 image coding system: Reference software — Part 5: — Amendment 1: Reference software for the JP2 file format",
+        "title": "Information technology — JPEG 2000 image coding system: Reference software — Part 5:  — Amendment 1: Reference software for the JP2 file format",
         "status": "Withdrawn",
         "publisher": "ISO/IEC",
         "isSuperseded": true,
@@ -5417,7 +5442,7 @@
     },
     "iso15444-5-2003-amd2-2015": {
         "href": "https://www.iso.org/standard/65353.html",
-        "title": "Information technology — JPEG 2000 image coding system: Reference software — Part 5: — Amendment 2: Additional reference software",
+        "title": "Information technology — JPEG 2000 image coding system: Reference software — Part 5:  — Amendment 2: Additional reference software",
         "status": "Withdrawn",
         "publisher": "ISO/IEC",
         "isSuperseded": true,
@@ -5476,7 +5501,7 @@
     },
     "iso15444-8-2007-amd1-2008": {
         "href": "https://www.iso.org/standard/46592.html",
-        "title": "Information technology — JPEG 2000 image coding system: Secure JPEG 2000 — Part 8: — Amendment 1: File format security",
+        "title": "Information technology — JPEG 2000 image coding system: Secure JPEG 2000 — Part 8:  — Amendment 1: File format security",
         "status": "Withdrawn",
         "publisher": "ISO/IEC",
         "isSuperseded": true,
@@ -5497,7 +5522,7 @@
     },
     "iso15444-9-2005-amd1-2006": {
         "href": "https://www.iso.org/standard/41720.html",
-        "title": "Information technology — JPEG 2000 image coding system: Interactivity tools, APIs and protocols — Part 9: — Amendment 1: APIs, metadata, and editing",
+        "title": "Information technology — JPEG 2000 image coding system: Interactivity tools, APIs and protocols — Part 9:  — Amendment 1: APIs, metadata, and editing",
         "status": "Withdrawn",
         "publisher": "ISO/IEC",
         "isSuperseded": true,
@@ -5509,7 +5534,7 @@
     },
     "iso15444-9-2005-amd2-2008": {
         "href": "https://www.iso.org/standard/45532.html",
-        "title": "Information technology — JPEG 2000 image coding system: Interactivity tools, APIs and protocols — Part 9: — Amendment 2: JPIP extensions",
+        "title": "Information technology — JPEG 2000 image coding system: Interactivity tools, APIs and protocols — Part 9:  — Amendment 2: JPIP extensions",
         "status": "Withdrawn",
         "publisher": "ISO/IEC",
         "isSuperseded": true,
@@ -5521,7 +5546,7 @@
     },
     "iso15444-9-2005-amd3-2008": {
         "href": "https://www.iso.org/standard/50407.html",
-        "title": "Information technology — JPEG 2000 image coding system: Interactivity tools, APIs and protocols — Part 9: — Amendment 3: JPIP extensions to 3D data",
+        "title": "Information technology — JPEG 2000 image coding system: Interactivity tools, APIs and protocols — Part 9:  — Amendment 3: JPIP extensions to 3D data",
         "status": "Withdrawn",
         "publisher": "ISO/IEC",
         "isSuperseded": true,
@@ -5533,7 +5558,7 @@
     },
     "iso15444-9-2005-amd4-2010": {
         "href": "https://www.iso.org/standard/50948.html",
-        "title": "Information technology — JPEG 2000 image coding system: Interactivity tools, APIs and protocols — Part 9: — Amendment 4: JPIP server and client profiles",
+        "title": "Information technology — JPEG 2000 image coding system: Interactivity tools, APIs and protocols — Part 9:  — Amendment 4: JPIP server and client profiles",
         "status": "Withdrawn",
         "publisher": "ISO/IEC",
         "isSuperseded": true,
@@ -5545,7 +5570,7 @@
     },
     "iso15444-9-2005-amd5-2014": {
         "href": "https://www.iso.org/standard/55505.html",
-        "title": "Information technology — JPEG 2000 image coding system: Interactivity tools, APIs and protocols — Part 9: — Amendment 5: UDP transport and additional enhancements to JPIP",
+        "title": "Information technology — JPEG 2000 image coding system: Interactivity tools, APIs and protocols — Part 9:  — Amendment 5: UDP transport and additional enhancements to JPIP",
         "status": "Withdrawn",
         "publisher": "ISO/IEC",
         "isSuperseded": true,
@@ -5557,7 +5582,7 @@
     },
     "iso15444-9-2005-cor1-2007": {
         "href": "https://www.iso.org/standard/43688.html",
-        "title": "Information technology — JPEG 2000 image coding system: Interactivity tools, APIs and protocols — Part 9: — Technical Corrigendum 1",
+        "title": "Information technology — JPEG 2000 image coding system: Interactivity tools, APIs and protocols — Part 9:  — Technical Corrigendum 1",
         "status": "Withdrawn",
         "publisher": "ISO/IEC",
         "isSuperseded": true,
@@ -5569,7 +5594,7 @@
     },
     "iso15444-9-2005-cor2-2008": {
         "href": "https://www.iso.org/standard/51549.html",
-        "title": "Information technology — JPEG 2000 image coding system: Interactivity tools, APIs and protocols — Part 9: — Technical Corrigendum 2",
+        "title": "Information technology — JPEG 2000 image coding system: Interactivity tools, APIs and protocols — Part 9:  — Technical Corrigendum 2",
         "status": "Withdrawn",
         "publisher": "ISO/IEC",
         "isSuperseded": true,
@@ -5581,7 +5606,7 @@
     },
     "iso15444-9-2005-cor3-2011": {
         "href": "https://www.iso.org/standard/57130.html",
-        "title": "Information technology — JPEG 2000 image coding system: Interactivity tools, APIs and protocols — Part 9: — Technical Corrigendum 3",
+        "title": "Information technology — JPEG 2000 image coding system: Interactivity tools, APIs and protocols — Part 9:  — Technical Corrigendum 3",
         "status": "Withdrawn",
         "publisher": "ISO/IEC",
         "isSuperseded": true,
@@ -5610,7 +5635,7 @@
     },
     "iso15938-1-2002-amd1-2005-cor1-2005": {
         "href": "https://www.iso.org/standard/43460.html",
-        "title": "Information technology — Multimedia content description interface — Part 1: Systems — Amendment 1: Systems extensions — Technical Corrigendum 1",
+        "title": "Information technology — Multimedia content description interface — Part 1: Systems — Amendment 1: Systems extensions   — Technical Corrigendum 1",
         "status": "Published",
         "publisher": "ISO/IEC",
         "rawDate": "2005-11",
@@ -5835,7 +5860,7 @@
     },
     "iso15938-3-2002-amd2-2006-cor1-2007": {
         "href": "https://www.iso.org/standard/46303.html",
-        "title": "Information technology — Multimedia content description interface — Part 3: Visual — Amendment 2: Perceptual 3D Shape Descriptor — Technical Corrigendum 1",
+        "title": "Information technology — Multimedia content description interface — Part 3: Visual — Amendment 2: Perceptual 3D Shape Descriptor  — Technical Corrigendum 1",
         "status": "Published",
         "publisher": "ISO/IEC",
         "rawDate": "2007-09",
@@ -6271,16 +6296,22 @@
     "iso18181-1": {
         "href": "https://www.iso.org/standard/85066.html",
         "title": "Information technology — JPEG XL image coding system — Part 1: Core coding system",
-        "status": "Under development",
+        "status": "Published",
         "publisher": "ISO/IEC",
+        "isoNumber": "ISO 18181-1:2024",
+        "rawDate": "2024-07",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso18181-1-2022-amd1-2022": {
         "href": "https://www.iso.org/standard/81554.html",
         "title": "Information technology — JPEG XL image coding system — Part 1: Core coding system — Amendment 1: Profiles and levels for JPEG XL image coding system",
-        "status": "Published",
+        "status": "Withdrawn",
         "publisher": "ISO/IEC",
+        "isSuperseded": true,
         "rawDate": "2022-06",
+        "obsoletedBy": [
+            "iso18181-1"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso18181-1-2022-prfamd1": {
@@ -6298,8 +6329,10 @@
     "iso18181-2": {
         "href": "https://www.iso.org/standard/85253.html",
         "title": "Information technology — JPEG XL image coding system — Part 2: File format",
-        "status": "Under development",
+        "status": "Published",
         "publisher": "ISO/IEC",
+        "isoNumber": "ISO 18181-2:2024",
+        "rawDate": "2024-06",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso18181-3": {
@@ -6321,8 +6354,10 @@
     "iso18477-1": {
         "href": "https://www.iso.org/standard/86515.html",
         "title": "Information technology — Scalable compression and coding of continuous-tone still images — Part 1: Core coding system specification",
-        "status": "Under development",
+        "status": "Published",
         "publisher": "ISO/IEC",
+        "isoNumber": "ISO 18477-1:2024",
+        "rawDate": "2024-05",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso18477-1-2015-damd1": {
@@ -6338,7 +6373,7 @@
     },
     "iso18477-2": {
         "href": "https://www.iso.org/standard/66070.html",
-        "title": "Information technology — Scalable compression and coding of continuous-tone still images — Part 2: Coding of high dynamic range images",
+        "title": "Information technology —  Scalable compression and coding of continuous-tone still images — Part 2: Coding of high dynamic range images",
         "status": "Published",
         "publisher": "ISO/IEC",
         "isoNumber": "ISO 18477-2:2016",
@@ -6438,14 +6473,17 @@
     },
     "iso19566-10": {
         "href": "https://www.iso.org/standard/85251.html",
-        "title": "Information technologies — JPEG systems — Part 10: Reference Software",
+        "title": "Information technology — JPEG Systems — Part 10: Reference Software",
         "status": "Under development",
         "publisher": "ISO/IEC",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso19566-10-awiamd1": {
+        "aliasOf": "iso19566-10-cdamd1"
+    },
+    "iso19566-10-cdamd1": {
         "href": "https://www.iso.org/standard/89041.html",
-        "title": "Information technologies — JPEG systems — Part 10: Reference Software — Amendment 1: Additional reference software implementations",
+        "title": "Information technology — JPEG Systems — Part 10: Reference Software — Amendment 1: Additional reference software implementations",
         "status": "Under development",
         "publisher": "ISO/IEC",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
@@ -6516,6 +6554,9 @@
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso19566-5-2023-cdamd1": {
+        "aliasOf": "iso19566-5-2023-damd1"
+    },
+    "iso19566-5-2023-damd1": {
         "href": "https://www.iso.org/standard/88913.html",
         "title": "Information technologies — JPEG systems — Part 5: JPEG universal metadata box format (JUMBF) — Amendment 1: JUMBF box compression and standalone JUMBF files",
         "status": "Under development",
@@ -6552,14 +6593,17 @@
         "aliasOf": "iso19566-6-2019-damd1"
     },
     "iso19566-6-2019-cdamd2": {
+        "aliasOf": "iso19566-6-2019-damd2"
+    },
+    "iso19566-6-2019-damd1": {
+        "aliasOf": "iso19566-6-2019-prfamd1"
+    },
+    "iso19566-6-2019-damd2": {
         "href": "https://www.iso.org/standard/88914.html",
         "title": "Information technologies — JPEG systems — Part 6: JPEG 360 — Amendment 2: Revision to the equirectangular projection constraints",
         "status": "Under development",
         "publisher": "ISO/IEC",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
-    },
-    "iso19566-6-2019-damd1": {
-        "aliasOf": "iso19566-6-2019-prfamd1"
     },
     "iso19566-6-2019-prfamd1": {
         "aliasOf": "iso19566-6-2019-amd1"
@@ -6577,6 +6621,9 @@
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso19566-7-2022-cdamd1": {
+        "aliasOf": "iso19566-7-2022-damd1"
+    },
+    "iso19566-7-2022-damd1": {
         "href": "https://www.iso.org/standard/88915.html",
         "title": "Information technologies — JPEG systems — Part 7: JPEG linked media format (JLINK) — Amendment 1: Revision to the JLINK XMP expressions",
         "status": "Under development",
@@ -6593,6 +6640,12 @@
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso19566-8-2023-awiamd1": {
+        "aliasOf": "iso19566-8-2023-cdamd1"
+    },
+    "iso19566-8-2023-cdamd1": {
+        "aliasOf": "iso19566-8-2023-damd1"
+    },
+    "iso19566-8-2023-damd1": {
         "href": "https://www.iso.org/standard/89040.html",
         "title": "Information technologies — JPEG systems — Part 8: JPEG Snack — Amendment 1: Revision of JPEG Snack content boxes",
         "status": "Under development",
@@ -6602,8 +6655,10 @@
     "iso19566-9": {
         "href": "https://www.iso.org/standard/84575.html",
         "title": "Information technology — JPEG Systems — Part 9: JPEG extensions mechanisms to facilitate forwards and backwards compatibility",
-        "status": "Under development",
+        "status": "Published",
         "publisher": "ISO/IEC",
+        "isoNumber": "ISO 19566-9:2024",
+        "rawDate": "2024-08",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso21000-1": {
@@ -6814,12 +6869,10 @@
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso21000-3": {
-        "href": "https://www.iso.org/standard/35367.html",
+        "href": "https://www.iso.org/standard/89735.html",
         "title": "Information technology — Multimedia framework (MPEG-21) — Part 3: Digital Item Identification",
-        "status": "Published",
+        "status": "Under development",
         "publisher": "ISO/IEC",
-        "isoNumber": "ISO 21000-3:2003",
-        "rawDate": "2003-04",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso21000-3-2003-amd1-2007": {
@@ -7047,8 +7100,10 @@
     "iso21122-1": {
         "href": "https://www.iso.org/standard/85247.html",
         "title": "Information technology — JPEG XS low-latency lightweight image coding system — Part 1: Core coding system",
-        "status": "Under development",
+        "status": "Published",
         "publisher": "ISO/IEC",
+        "isoNumber": "ISO 21122-1:2024",
+        "rawDate": "2024-07",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso21122-1-2019-awiamd1": {
@@ -7076,8 +7131,10 @@
     "iso21122-2": {
         "href": "https://www.iso.org/standard/85250.html",
         "title": "Information technology — JPEG XS low-latency lightweight image coding system — Part 2: Profiles and buffer models",
-        "status": "Under development",
+        "status": "Published",
         "publisher": "ISO/IEC",
+        "isoNumber": "ISO 21122-2:2024",
+        "rawDate": "2024-08",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso21122-2-2019-awiamd1": {
@@ -7091,9 +7148,13 @@
     "iso21122-2-2022-amd1-2022": {
         "href": "https://www.iso.org/standard/84584.html",
         "title": "Information technology — JPEG XS low-latency lightweight image coding system — Part 2: Profiles and buffer models — Amendment 1: Profile and sublevel for 4:2:0 content",
-        "status": "Published",
+        "status": "Withdrawn",
         "publisher": "ISO/IEC",
+        "isSuperseded": true,
         "rawDate": "2022-11",
+        "obsoletedBy": [
+            "iso21122-2"
+        ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso21122-2-awiamd1": {
@@ -7110,6 +7171,7 @@
         "title": "Information technology — JPEG XS low-latency lightweight image coding system — Part 3: Transport and container formats",
         "status": "Under development",
         "publisher": "ISO/IEC",
+        "rawDate": "2024-08",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso21122-3-2019-cdcor1": {
@@ -7527,6 +7589,17 @@
     "iso23000-19-2020-wdamd4": {
         "aliasOf": "iso23000-19-2020-cdamd4"
     },
+    "iso23000-19-2024-amd1": {
+        "aliasOf": "iso23000-19-2024-amd1-2024"
+    },
+    "iso23000-19-2024-amd1-2024": {
+        "href": "https://www.iso.org/standard/85642.html",
+        "title": "Information technology — Multimedia application format (MPEG-A) — Part 19: Common media application format (CMAF) for segmented media — Amendment 1: Low complexity enhancement video Coding (LCEVC) and other technologies",
+        "status": "Published",
+        "publisher": "ISO/IEC",
+        "rawDate": "2024-07",
+        "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+    },
     "iso23000-19-2024-awiamd2": {
         "href": "https://www.iso.org/standard/89043.html",
         "title": "Information technology — Multimedia application format (MPEG-A) — Part 19: Common media application format (CMAF) for segmented media — Amendment 2: Additional structural CMAF brand profile",
@@ -7535,11 +7608,10 @@
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23000-19-2024-damd1": {
-        "href": "https://www.iso.org/standard/85642.html",
-        "title": "Information technology — Multimedia application format (MPEG-A) — Part 19: Common media application format (CMAF) for segmented media — Amendment 1: Low complexity enhancement video Coding (LCEVC) and other technologies",
-        "status": "Under development",
-        "publisher": "ISO/IEC",
-        "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+        "aliasOf": "iso23000-19-2024-prfamd1"
+    },
+    "iso23000-19-2024-prfamd1": {
+        "aliasOf": "iso23000-19-2024-amd1"
     },
     "iso23000-19-awiamd1": {
         "aliasOf": "iso23000-19-cdamd1"
@@ -7971,22 +8043,32 @@
         ],
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
+    "iso23001-11-2023-amd1": {
+        "aliasOf": "iso23001-11-2023-amd1-2024"
+    },
+    "iso23001-11-2023-amd1-2024": {
+        "href": "https://www.iso.org/standard/85589.html",
+        "title": "Information technology — MPEG systems technologies — Part 11: Energy-efficient media consumption (green metadata) — Amendment 1: Energy-efficient media consumption (green metadata) for EVC",
+        "status": "Published",
+        "publisher": "ISO/IEC",
+        "rawDate": "2024-07",
+        "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+    },
     "iso23001-11-2023-cdamd2": {
+        "aliasOf": "iso23001-11-2023-damd2"
+    },
+    "iso23001-11-2023-damd1": {
+        "aliasOf": "iso23001-11-2023-prfamd1"
+    },
+    "iso23001-11-2023-damd2": {
         "href": "https://www.iso.org/standard/87622.html",
         "title": "Information technology — MPEG systems technologies — Part 11: Energy-efficient media consumption (green metadata) — Amendment 2: Energy-efficient media consumption for new display power reduction metadata",
         "status": "Under development",
         "publisher": "ISO/IEC",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
-    "iso23001-11-2023-damd1": {
-        "aliasOf": "iso23001-11-2023-prfamd1"
-    },
     "iso23001-11-2023-prfamd1": {
-        "href": "https://www.iso.org/standard/85589.html",
-        "title": "Information technology — MPEG systems technologies — Part 11: Energy-efficient media consumption (green metadata) — Amendment 1: Energy-efficient media consumption (green metadata) for EVC",
-        "status": "Under development",
-        "publisher": "ISO/IEC",
-        "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+        "aliasOf": "iso23001-11-2023-amd1"
     },
     "iso23001-12": {
         "href": "https://www.iso.org/standard/74431.html",
@@ -8403,6 +8485,13 @@
         "isRetired": true,
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
+    "iso23002-7-awiamd1": {
+        "href": "https://www.iso.org/standard/90186.html",
+        "title": "Information technology — MPEG video technologies — Part 7: Versatile supplemental enhancement information messages for coded video bitstreams — Amendment 1: Additional SEI",
+        "status": "Under development",
+        "publisher": "ISO/IEC",
+        "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+    },
     "iso23002-8": {
         "href": "https://www.iso.org/standard/81591.html",
         "title": "Information technology — MPEG video technologies — Part 8: Working practices using objective metrics for evaluation of video coding efficiency experiments",
@@ -8415,8 +8504,10 @@
     "iso23002-9": {
         "href": "https://www.iso.org/standard/84712.html",
         "title": "Information technology — MPEG video technologies — Part 9: Film grain synthesis technology for video applications",
-        "status": "Under development",
+        "status": "Published",
         "publisher": "ISO/IEC",
+        "isoNumber": "ISO 23002-9:2024",
+        "rawDate": "2024-07",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23003-1": {
@@ -8688,7 +8779,7 @@
     },
     "iso23003-3-2012-amd2-2015-cor1-2015": {
         "href": "https://www.iso.org/standard/66572.html",
-        "title": "Information technology — MPEG audio technologies — Part 3: Unified speech and audio coding — Amendment 2: Reference software — Technical Corrigendum 1",
+        "title": "Information technology — MPEG audio technologies — Part 3: Unified speech and audio coding — Amendment 2: Reference software  — Technical Corrigendum 1",
         "status": "Withdrawn",
         "publisher": "ISO/IEC",
         "isSuperseded": true,
@@ -8923,7 +9014,7 @@
     },
     "iso23004-4": {
         "href": "https://www.iso.org/standard/44353.html",
-        "title": "Information technology — Multimedia Middleware — Part 4: Resource and quality management",
+        "title": "Information technology —  Multimedia Middleware — Part 4: Resource and quality management",
         "status": "Published",
         "publisher": "ISO/IEC",
         "isoNumber": "ISO 23004-4:2007",
@@ -9121,7 +9212,7 @@
     },
     "iso23007-2": {
         "href": "https://www.iso.org/standard/59241.html",
-        "title": "Information technology — Rich media user interfaces — Part 2: Advanced user interaction (AUI) interfaces",
+        "title": "Information technology — Rich media user interfaces — Part 2:  Advanced user interaction (AUI) interfaces",
         "status": "Published",
         "publisher": "ISO/IEC",
         "isoNumber": "ISO 23007-2:2012",
@@ -9207,8 +9298,11 @@
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23008-1-2023-cdamd1": {
+        "aliasOf": "iso23008-1-2023-damd1"
+    },
+    "iso23008-1-2023-damd1": {
         "href": "https://www.iso.org/standard/87623.html",
-        "title": "Information technology — High efficiency coding and media delivery in heterogeneous environments — Part 1: MPEG media transport (MMT) — Amendment 1: Signalling of Adaptive FEC Scheme",
+        "title": "Information technology — High efficiency coding and media delivery in heterogeneous environments — Part 1: MPEG media transport (MMT) — Amendment 1: Signalling of adaptive FEC scheme",
         "status": "Under development",
         "publisher": "ISO/IEC",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
@@ -9389,6 +9483,9 @@
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23008-12-awiamd2": {
+        "aliasOf": "iso23008-12-cdamd2"
+    },
+    "iso23008-12-cdamd2": {
         "href": "https://www.iso.org/standard/89044.html",
         "title": "Information technology — High efficiency coding and media delivery in heterogeneous environments — Part 12: Image File Format — Amendment 2: Support for tone map derivation and other technologies",
         "status": "Under development",
@@ -9753,10 +9850,14 @@
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23008-6-2021-amd1": {
+        "aliasOf": "iso23008-6-2021-amd1-2024"
+    },
+    "iso23008-6-2021-amd1-2024": {
         "href": "https://www.iso.org/standard/86435.html",
         "title": "Information technology — High efficiency coding and media delivery in heterogeneous environments — Part 6: 3D audio reference software — Amendment 1: Corrections for closest loudspeaker playout and increased software resilience",
-        "status": "Under development",
+        "status": "Published",
         "publisher": "ISO/IEC",
+        "rawDate": "2024-04",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23008-6-2021-damd1": {
@@ -10173,12 +10274,10 @@
         "aliasOf": "iso23090-13-2024-cdamd1"
     },
     "iso23090-14": {
-        "href": "https://www.iso.org/standard/80900.html",
+        "href": "https://www.iso.org/standard/90191.html",
         "title": "Information technology — Coded representation of immersive media — Part 14: Scene description",
-        "status": "Published",
+        "status": "Under development",
         "publisher": "ISO/IEC",
-        "isoNumber": "ISO 23090-14:2023",
-        "rawDate": "2023-06",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23090-14-2023-amd1-2023": {
@@ -10195,8 +10294,9 @@
     "iso23090-14-2023-damd2": {
         "href": "https://www.iso.org/standard/86439.html",
         "title": "Information technology — Coded representation of immersive media — Part 14: Scene description — Amendment 2: Support for haptics, augmented reality, avatars, interactivity, MPEG-I audio, and lighting",
-        "status": "Under development",
+        "status": "Deleted",
         "publisher": "ISO/IEC",
+        "isRetired": true,
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23090-14-2023-fdamd1": {
@@ -10208,8 +10308,10 @@
     "iso23090-15": {
         "href": "https://www.iso.org/standard/86517.html",
         "title": "Information technology — Coded representation of immersive media — Part 15: Conformance testing for versatile video coding",
-        "status": "Under development",
+        "status": "Published",
         "publisher": "ISO/IEC",
+        "isoNumber": "ISO 23090-15:2024",
+        "rawDate": "2024-07",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23090-15-2022-damd1": {
@@ -10224,12 +10326,10 @@
         "aliasOf": "iso23090-15-2022-damd1"
     },
     "iso23090-16": {
-        "href": "https://www.iso.org/standard/82083.html",
+        "href": "https://www.iso.org/standard/90189.html",
         "title": "Information technology — Coded representation of immersive media — Part 16: Reference software for versatile video coding",
-        "status": "Published",
+        "status": "Under development",
         "publisher": "ISO/IEC",
-        "isoNumber": "ISO 23090-16:2022",
-        "rawDate": "2022-10",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23090-17": {
@@ -10258,6 +10358,9 @@
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23090-18-2024-damd1": {
+        "aliasOf": "iso23090-18-2024-fdamd1"
+    },
+    "iso23090-18-2024-fdamd1": {
         "href": "https://www.iso.org/standard/84570.html",
         "title": "Information technology — Coded representation of immersive media — Part 18: Carriage of geometry-based point cloud compression data — Amendment 1: Support for temporal scalability",
         "status": "Under development",
@@ -10277,19 +10380,18 @@
         "aliasOf": "iso23090-18-cdamd1"
     },
     "iso23090-19": {
-        "href": "https://www.iso.org/standard/82089.html",
+        "href": "https://www.iso.org/standard/90178.html",
         "title": "Information technology — Coded representation of immersive media — Part 19: Reference Software for V-PCC",
-        "status": "Published",
+        "status": "Under development",
         "publisher": "ISO/IEC",
-        "isoNumber": "ISO 23090-19:2023",
-        "rawDate": "2023-02",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23090-19-2023-cdamd1": {
         "href": "https://www.iso.org/standard/86434.html",
         "title": "Information technology — Coded representation of immersive media — Part 19: Reference Software for V-PCC — Amendment 1: Additional V3C bitstreams",
-        "status": "Under development",
+        "status": "Deleted",
         "publisher": "ISO/IEC",
+        "isRetired": true,
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23090-2": {
@@ -10387,7 +10489,7 @@
     },
     "iso23090-28": {
         "href": "https://www.iso.org/standard/84571.html",
-        "title": "Information technology — Coded representation of immersive media — Part 28: Efficient 3D graphics media representation for render-based systems and applications",
+        "title": "Information technology — Coded representation of immersive media — Part 28: Interchangeable scene-based media representations",
         "status": "Under development",
         "publisher": "ISO/IEC",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
@@ -10402,8 +10504,10 @@
     "iso23090-3": {
         "href": "https://www.iso.org/standard/86516.html",
         "title": "Information technology — Coded representation of immersive media — Part 3: Versatile video coding",
-        "status": "Under development",
+        "status": "Published",
         "publisher": "ISO/IEC",
+        "isoNumber": "ISO 23090-3:2024",
+        "rawDate": "2024-07",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23090-3-2021-awiamd1": {
@@ -10423,6 +10527,13 @@
         "status": "Deleted",
         "publisher": "ISO/IEC",
         "isRetired": true,
+        "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+    },
+    "iso23090-3-2024-awiamd1": {
+        "href": "https://www.iso.org/standard/90187.html",
+        "title": "Information technology — Coded representation of immersive media — Part 3: Versatile video coding — Amendment 1: Additions and corrections",
+        "status": "Under development",
+        "publisher": "ISO/IEC",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23090-3-awiamd1": {
@@ -10462,6 +10573,20 @@
     "iso23090-34": {
         "href": "https://www.iso.org/standard/89037.html",
         "title": "Information technology — Coded representation of immersive media — Part 34: Immersive audio reference software",
+        "status": "Under development",
+        "publisher": "ISO/IEC",
+        "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+    },
+    "iso23090-35": {
+        "href": "https://www.iso.org/standard/90183.html",
+        "title": "Information technology — Coded representation of immersive media — Part 35: Conformance and reference software for Low latency, low complexity LiDAR coding",
+        "status": "Under development",
+        "publisher": "ISO/IEC",
+        "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+    },
+    "iso23090-36": {
+        "href": "https://www.iso.org/standard/90184.html",
+        "title": "Information technology — Coded representation of immersive media — Part 36: Conformance and Reference Software for V-DMC",
         "status": "Under development",
         "publisher": "ISO/IEC",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
@@ -10857,15 +10982,21 @@
         "rawDate": "2022-09",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
+    "iso23094-3-2022-amd1": {
+        "href": "https://www.iso.org/standard/87585.html",
+        "title": "Information technology — General video coding — Part 3: Conformance and reference software for low complexity enhancement video coding — Amendment 1: Updated conformance data and reference software",
+        "status": "Under development",
+        "publisher": "ISO/IEC",
+        "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+    },
     "iso23094-3-2022-cdamd1": {
         "aliasOf": "iso23094-3-2022-damd1"
     },
     "iso23094-3-2022-damd1": {
-        "href": "https://www.iso.org/standard/87585.html",
-        "title": "Information technology — General video coding — Part 3: Conformance and reference software for low complexity enhancement video coding — Amendment 1: Improvement to reference software",
-        "status": "Under development",
-        "publisher": "ISO/IEC",
-        "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+        "aliasOf": "iso23094-3-2022-fdamd1"
+    },
+    "iso23094-3-2022-fdamd1": {
+        "aliasOf": "iso23094-3-2022-amd1"
     },
     "iso23094-4": {
         "href": "https://www.iso.org/standard/81633.html",
@@ -10888,14 +11019,21 @@
     },
     "iso23888-1": {
         "href": "https://www.iso.org/standard/87589.html",
-        "title": "Artificial intelligence for multimedia — Part 1: Vision and scenarios",
+        "title": "Information technology — Artificial intelligence for multimedia — Part 1: Vision and scenarios",
+        "status": "Under development",
+        "publisher": "ISO/IEC",
+        "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+    },
+    "iso23888-2": {
+        "href": "https://www.iso.org/standard/88879.html",
+        "title": "Information technology — Artificial intelligence for multimedia — Part 2: Video coding for machines",
         "status": "Under development",
         "publisher": "ISO/IEC",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso23888-3": {
         "href": "https://www.iso.org/standard/89045.html",
-        "title": "Artificial intelligence for multimedia — Part 3: Optimization of encoders and receiving systems for machine analysis of coded video content",
+        "title": "Information technology — Artificial intelligence for multimedia — Part 3: Optimization of encoders and receiving systems for machine analysis of coded video content",
         "status": "Under development",
         "publisher": "ISO/IEC",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
@@ -11172,21 +11310,30 @@
         "publisher": "ISO/IEC",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
+    "iso6048-5": {
+        "href": "https://www.iso.org/standard/90193.html",
+        "title": "Information technology — JPEG AI learning-based image coding system — Part 5: File Format",
+        "status": "Under development",
+        "publisher": "ISO/IEC",
+        "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
+    },
     "iso9281-1": {
         "href": "https://www.iso.org/standard/16933.html",
         "title": "Information technology — Picture coding methods — Part 1: Identification",
-        "status": "Published",
+        "status": "Withdrawn",
         "publisher": "ISO/IEC",
         "isoNumber": "ISO 9281-1:1990",
+        "isSuperseded": true,
         "rawDate": "1990-08",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },
     "iso9281-2": {
         "href": "https://www.iso.org/standard/16934.html",
         "title": "Information technology — Picture coding methods — Part 2: Procedure for registration",
-        "status": "Published",
+        "status": "Withdrawn",
         "publisher": "ISO/IEC",
         "isoNumber": "ISO 9281-2:1990",
+        "isSuperseded": true,
         "rawDate": "1990-08",
         "source": "https://dashifspecref.blob.core.windows.net/iso/iso_jtc1_sc29.json?st=2019-04-01T00%3A00%3A00Z&se=2039-04-01T00%3A00%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Q1%2F6yLw90v0VCYKPhuSw89qLXS8tPZWU%2BQSvYj%2B7NmY%3D"
     },

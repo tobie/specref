@@ -417,6 +417,52 @@
         "publisher": "CIE",
         "href": "http://www.cie.co.at/publications/colorimetry-4th-edition"
     },
+    "COMMONMARK": {
+        "href": "https://spec.commonmark.org/",
+        "title": "CommonMark Spec",
+        "versions": {
+            "0.31.2": {
+                "href": "https://spec.commonmark.org/0.31.2/",
+                "title": "CommonMark Spec, Version 0.31.2",
+                "rawDate": "2024-01-28",
+                "authors": [
+                    "John MacFarlane"
+                ]
+            },
+            "0.30": {
+                "href": "https://spec.commonmark.org/0.30/",
+                "title": "CommonMark Spec, Version 0.30",
+                "rawDate": "2021-06-19",
+                "authors": [
+                    "John MacFarlane"
+                ]
+            },
+            "0.29": {
+                "href": "https://spec.commonmark.org/0.29/",
+                "title": "CommonMark Spec, Version 0.29",
+                "rawDate": "2019-04-06",
+                "authors": [
+                    "John MacFarlane"
+                ]
+            },
+            "0.28": {
+                "href": "https://spec.commonmark.org/0.28/",
+                "title": "CommonMark Spec, Version 0.28",
+                "rawDate": "2017-08-01",
+                "authors": [
+                    "John MacFarlane"
+                ]
+            },
+            "0.27": {
+                "href": "https://spec.commonmark.org/0.27/",
+                "title": "CommonMark Spec, Version 0.27",
+                "rawDate": "2016-11-18",
+                "authors": [
+                    "John MacFarlane"
+                ]
+            }
+        }
+    },
     "COMPUTABLE": {
         "authors": [
             "A. Turing"
@@ -1272,6 +1318,9 @@
             "2023": {
                 "aliasOf": "ECMASCRIPT-14.0"
             },
+            "2024": {
+                "aliasOf": "ECMASCRIPT-15.0"
+            },
             "5.1": {
                 "title": "ECMA-262 Edition 5.1, The ECMAScript Language Specification",
                 "rawDate": "2011-06",
@@ -1366,6 +1415,17 @@
                 "title": "ECMA-262 14th Edition, The ECMAScript 2023 Language Specification",
                 "rawDate": "2023-06",
                 "href": "https://262.ecma-international.org/14.0/",
+                "status": "Standard",
+                "authors": [
+                    "Shu-yu Guo",
+                    "Michael Ficarra",
+                    "Kevin Gibbons"
+                ]
+            },
+            "15.0": {
+                "title": "ECMA-262 15th Edition, The ECMAScript 2024 Language Specification",
+                "rawDate": "2024-06",
+                "href": "https://262.ecma-international.org/15.0/",
                 "status": "Standard",
                 "authors": [
                     "Shu-yu Guo",
@@ -1630,6 +1690,17 @@
         "publisher": "Open Knowledge Foundation",
         "rawDate": "2017-05-02"
     },
+    "FUND-COMP-GRAPHICS": {
+        "authors": [
+            "Peter Shirley",
+            "Michael Ashikhmin",
+            "Steve Marschner"
+        ],
+        "date": "July 31, 2009",
+        "publisher": "A K Peters Limited",
+        "rawDate": "2009-07-31",
+        "title": "Fundamentals of Computer Graphics"
+    },
     "GEOLOCATION-PRIVACY": {
         "authors": [
             "Marcos Cáceres"
@@ -1833,6 +1904,16 @@
     "IANA-DTLS-SRTP": {
         "href": "https://www.iana.org/assignments/srtp-protection/srtp-protection.xhtml",
         "title": "DTLS-SRTP Protection Profiles",
+        "publisher": "IANA"
+    },
+    "IANA-HTTP-AUTHSCHEMES": {
+        "href": "https://www.iana.org/assignments/http-authschemes/",
+        "title": "Hypertext Transfer Protocol (HTTP) Authentication Scheme Registry",
+        "publisher": "IANA"
+    },
+    "IANA-HTTP-STATUS-CODES": {
+        "href": "https://www.iana.org/assignments/http-status-codes/",
+        "title": "Hypertext Transfer Protocol (HTTP) Status Code Registry",
         "publisher": "IANA"
     },
     "IANA-MEDIA-TYPES": {
@@ -2314,8 +2395,8 @@
         "aliasOf": "mediaqueries-3-20120619"
     },
     "MIDI": {
-        "href": "https://www.midi.org/specifications/item/the-midi-1-0-specification",
-        "title": "The Complete MIDI 1.0 Detailed Specification",
+        "href": "https://midi.org/midi-1-0-core-specifications",
+        "title": "MIDI 1.0 Core Specifications",
         "publisher": "The MIDI Manufacturers Association",
         "rawDate": "2014"
     },
@@ -2471,6 +2552,17 @@
         "title": "Navigator interface in HTML5",
         "status": "ED",
         "publisher": "W3C"
+    },
+    "NDE-DATASETS": {
+        "authors": [
+            "David de Boer",
+            "Bob Coret"
+        ],
+        "href": "https://netwerk-digitaal-erfgoed.github.io/requirements-datasets/",
+        "title": "NDE Requirements for Datasets",
+        "status": "Living Specification",
+        "publisher": "NDE",
+        "repository": "https://github.com/netwerk-digitaal-erfgoed/requirements-datasets"
     },
     "NSAccessibility": {
         "href": "https://developer.apple.com/documentation/appkit/nsaccessibility",
@@ -2644,23 +2736,33 @@
     "OPENAPI": {
         "aliasOf": "OPENAPIS"
     },
+    "OPENAPI-LEARN": {
+        "title": "OpenAPI - Getting started, and the specification explained",
+        "href": "https://learn.openapis.org/",
+        "publisher": "OpenAPI Initiative"
+    },
+    "OPENAPI-REGISTRY": {
+        "title": "OpenAPI Initiative Registry",
+        "href": "https://spec.openapis.org/registry/index.html",
+        "publisher": "OpenAPI Initiative"
+    },
     "OPENAPIS": {
         "href": "https://www.openapis.org/",
         "title": "OpenAPI Specification",
         "publisher": "OpenAPI Initiative",
         "authors": [
             "Darrell Miller",
+            "Jason Harmon",
             "Jeremy Whitlock",
             "Marsh Gardiner",
             "Mike Ralphson",
             "Ron Ratovsky",
-            "Uri Sarid",
             "Tony Tam",
-            "Jason Harmon"
+            "Uri Sarid"
         ],
         "versions": {
             "3.1.0": {
-                "href": "http://spec.openapis.org/oas/v3.1.0",
+                "href": "https://spec.openapis.org/oas/v3.1.0",
                 "title": "OpenAPI Specification - version 3.1.0",
                 "rawDate": "2021-02-15",
                 "authors": [
@@ -2673,7 +2775,7 @@
                 ]
             },
             "3.0.3": {
-                "href": "http://spec.openapis.org/oas/v3.0.3",
+                "href": "https://spec.openapis.org/oas/v3.0.3",
                 "title": "OpenAPI Specification - version 3.0.3",
                 "rawDate": "2020-02-20",
                 "authors": [
@@ -2686,7 +2788,7 @@
                 ]
             },
             "3.0.2": {
-                "href": "http://spec.openapis.org/oas/v3.0.2",
+                "href": "https://spec.openapis.org/oas/v3.0.2",
                 "title": "OpenAPI Specification - version 3.0.2",
                 "rawDate": "2018-10-08",
                 "authors": [
@@ -2698,13 +2800,34 @@
                     "Uri Sarid"
                 ]
             },
+            "3.0.1": {
+                "href": "https://spec.openapis.org/oas/v3.0.1",
+                "title": "OpenAPI Specification - version 3.0.1",
+                "rawDate": "2017-12-06",
+                "authors": [
+                    "Darrell Miller",
+                    "Jeremy Whitlock",
+                    "Marsh Gardiner",
+                    "Mike Ralphson",
+                    "Ron Ratovsky"
+                ]
+            },
+            "3.0.0": {
+                "href": "https://spec.openapis.org/oas/v3.0.0",
+                "title": "OpenAPI Specification - version 3.0.0",
+                "rawDate": "2017-07-26",
+                "authors": [
+                    "Jeremy Whitlock",
+                    "Marsh Gardiner",
+                    "Ron Ratovsky",
+                    "Tony Tam"
+                ]
+            },
             "2.0": {
-                "href": "http://spec.openapis.org/oas/v2.0",
+                "href": "https://spec.openapis.org/oas/v2.0.html",
                 "title": "OpenAPI Specification - version 2.0",
                 "rawDate": "2014-09-08",
                 "authors": [
-                    "Darrell Miller",
-                    "Jason Harmon",
                     "Jeremy Whitlock",
                     "Marsh Gardiner",
                     "Ron Ratovsky",
@@ -2712,6 +2835,33 @@
                 ]
             }
         }
+    },
+    "OPENID-CONNECT-CORE": {
+        "authors": [
+            "N. Sakimura",
+            "J. Bradley",
+            "M. Jones",
+            "B. de Medeiros",
+            "C. Mortimore"
+        ],
+        "title": "OpenID Connect Core 1.0 incorporating errata set 2",
+        "href": "https://openid.net/specs/openid-connect-core-1_0.html",
+        "publisher": "OpenID Foundation",
+        "status": "Final",
+        "rawDate": "2023-12-15"
+    },
+    "OPENID-CONNECT-DISCOVERY": {
+        "authors": [
+            "N. Sakimura",
+            "J. Bradley",
+            "M. Jones",
+            "E. Jay"
+        ],
+        "title": "OpenID Connect Discovery 1.0 incorporating errata set 2",
+        "href": "https://openid.net/specs/openid-connect-discovery-1_0.html",
+        "publisher": "OpenID Foundation",
+        "status": "Final",
+        "rawDate": "2023-12-15"
     },
     "ORIGIN": {
         "aliasOf": "RFC6454"
@@ -3048,6 +3198,11 @@
     "SPARQL-UPDATE": {
         "aliasOf": "RDF-SPARQL-UPDATE"
     },
+    "SPDX-LICENSES": {
+        "href": "https://spdx.org/licenses/",
+        "title": "SPDX License List",
+        "publisher": "Linux Foundation"
+    },
     "SPECTRE": {
         "title": "Spectre Attacks: Exploiting Speculative Execution",
         "href": "https://spectreattack.com/spectre.pdf",
@@ -3317,8 +3472,8 @@
         "aliasOf": "webdatabase"
     },
     "WEBAC": {
-        "title": "Web Access Control Ontology",
-        "href": "https://www.w3.org/ns/auth/acl",
+        "title": "Basic Access Control ontology",
+        "href": "http://www.w3.org/ns/auth/acl",
         "publisher": "W3C"
     },
     "WEBAPP-PRIVACY-BESTPRACTICES": {
@@ -5017,6 +5172,17 @@
     "json-patch-20130401": {
         "aliasOf": "rfc6902"
     },
+    "json-reference": {
+        "authors": [
+            "Paul Bryan",
+            "Kris Zyp"
+        ],
+        "href": "https://datatracker.ietf.org/doc/html/draft-pbryan-zyp-json-ref-03",
+        "publisher": "Internet Engineering Task Force (IETF)",
+        "status": "Internet-Draft",
+        "rawDate": "2012-09-16",
+        "title": "JSON Reference"
+    },
     "json-schema": {
         "authors": [
             "Austin Wright",
@@ -5027,7 +5193,7 @@
         "href": "https://datatracker.ietf.org/doc/html/draft-bhutton-json-schema",
         "publisher": "Internet Engineering Task Force (IETF)",
         "status": "Internet-Draft",
-        "rawDate": "2020-12-08",
+        "rawDate": "2022-06-10",
         "title": "JSON Schema: A Media Type for Describing JSON Documents",
         "repository": "https://github.com/json-schema-org/json-schema-spec",
         "versions": {
@@ -5043,6 +5209,15 @@
                 "rawDate": "2020-12-08",
                 "title": "JSON Schema: A Media Type for Describing JSON Documents. Draft 2020-12"
             },
+            "05": {
+                "authors": [
+                    "Austin Wright"
+                ],
+                "href": "https://datatracker.ietf.org/doc/html/draft-wright-json-schema-00",
+                "status": "Internet-Draft",
+                "rawDate": "2016-10-13",
+                "title": "JSON Schema: A Media Type for Describing JSON Documents. Draft 5"
+            },
             "04": {
                 "authors": [
                     "Kris Zyp",
@@ -5053,6 +5228,53 @@
                 "status": "Internet-Draft",
                 "rawDate": "2013-01-31",
                 "title": "JSON Schema: core definitions and terminology. Draft 4"
+            }
+        }
+    },
+    "json-schema-validation": {
+        "authors": [
+            "Austin Wright",
+            "Henry Andrews",
+            "Ben Hutton"
+        ],
+        "href": "https://datatracker.ietf.org/doc/html/draft-bhutton-json-schema-validation",
+        "publisher": "Internet Engineering Task Force (IETF)",
+        "status": "Internet-Draft",
+        "rawDate": "2022-06-10",
+        "title": "JSON Schema Validation: A Vocabulary for Structural Validation of JSON",
+        "repository": "https://github.com/json-schema-org/json-schema-spec",
+        "versions": {
+            "2020-12": {
+                "authors": [
+                    "Austin Wright",
+                    "Henry Andrews",
+                    "Ben Hutton"
+                ],
+                "href": "https://datatracker.ietf.org/doc/html/draft-bhutton-json-schema-validation-00",
+                "status": "Internet-Draft",
+                "rawDate": "2020-12-08",
+                "title": "JSON Schema Validation: A Vocabulary for Structural Validation of JSON. Draft 2020-12"
+            },
+            "05": {
+                "authors": [
+                    "Austin Wright",
+                    "G. Luff"
+                ],
+                "href": "https://datatracker.ietf.org/doc/html/draft-wright-json-schema-validation-00",
+                "status": "Internet-Draft",
+                "rawDate": "2016-10-13",
+                "title": "JSON Schema Validation: A Vocabulary for Structural Validation of JSON. Draft 5"
+            },
+            "04": {
+                "authors": [
+                    "Kris Zyp",
+                    "Francis Galiegue",
+                    "Gary Court"
+                ],
+                "href": "https://datatracker.ietf.org/doc/html/draft-fge-json-schema-validation-00",
+                "status": "Internet-Draft",
+                "rawDate": "2013-02-01",
+                "title": "JSON Schema: interactive and non interactive validation. Draft 4"
             }
         }
     },
@@ -5093,6 +5315,20 @@
         ],
         "href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/setCapture",
         "title": "Element.setCapture()"
+    },
+    "media-playback-quality": {
+        "authors": [
+            "Mounir Lamouri",
+            "Chris Cunningham"
+        ],
+        "href": "https://w3c.github.io/media-playback-quality/",
+        "title": "Media Playback Quality",
+        "status": "ED",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/media-wg/"
+        ],
+        "repository": "https://github.com/w3c/media-playback-quality"
     },
     "mediaqueries": {
         "aliasOf": "mediaqueries-4"
@@ -5473,6 +5709,17 @@
             }
         }
     },
+    "staticrange": {
+        "href": "https://w3c.github.io/staticrange/",
+        "title": "Static Range",
+        "status": "ED",
+        "publisher": "W3C",
+        "repository": "https://github.com/w3c/staticrange",
+        "isSuperseded": true,
+        "obsoletedBy": [
+            "dom"
+        ]
+    },
     "typedarray": {
         "authors": [
             "David Herman",
@@ -5645,6 +5892,13 @@
         "publisher": "W3C Web Bluetooth Community Group",
         "repository": "https://github.com/webbluetoothcg/web-bluetooth"
     },
+    "web-nfc": {
+        "href": "https://w3c.github.io/web-nfc/",
+        "title": "Web NFC API",
+        "status": "Draft Community Group Report",
+        "publisher": "W3C Web NFC Community Group",
+        "repository": "https://github.com/w3c/web-nfc"
+    },
     "web-thing-model": {
         "href": "https://www.w3.org/Submission/wot-model/",
         "edDraft": "https://www.w3.org/Submission/wot-model/",
@@ -5667,6 +5921,17 @@
         "title": "WebDriver BiDi",
         "status": "Editor's Draft",
         "repository": "https://github.com/w3c/webdriver-bidi"
+    },
+    "webvr": {
+        "href": "https://immersive-web.github.io/webvr/spec/1.1/",
+        "title": "WebVR",
+        "status": "Draft Community Group Report",
+        "publisher": "W3C Immersive Web Community Group",
+        "repository": "https://github.com/immersive-web/webxr",
+        "isSuperseded": true,
+        "obsoletedBy": [
+            "webxr"
+        ]
     },
     "wfs": {
         "href": "http://www.opengeospatial.org/standards/wfs",

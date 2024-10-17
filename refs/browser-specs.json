@@ -43,6 +43,17 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/WICG/anonymous-iframe"
     },
+    "AT-DRIVER": {
+        "href": "https://w3c.github.io/at-driver/",
+        "title": "AT Driver",
+        "status": "Editor's Draft",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/groups/wg/browser-tools-testing/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/w3c/at-driver"
+    },
     "ATTRIBUTION-REPORTING-API": {
         "href": "https://wicg.github.io/attribution-reporting-api/",
         "title": "Attribution Reporting",
@@ -278,17 +289,6 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/w3c/csswg-drafts"
     },
-    "CSS-EASING-2": {
-        "href": "https://drafts.csswg.org/css-easing-2/",
-        "title": "CSS Easing Functions Level 2",
-        "status": "Editor's Draft",
-        "publisher": "W3C",
-        "deliveredBy": [
-            "https://www.w3.org/Style/CSS/"
-        ],
-        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/w3c/csswg-drafts"
-    },
     "CSS-ENV-1": {
         "href": "https://drafts.csswg.org/css-env-1/",
         "title": "CSS Environment Variables Module Level 1",
@@ -333,17 +333,6 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/w3c/csswg-drafts"
     },
-    "CSS-GRID-3": {
-        "href": "https://drafts.csswg.org/css-grid-3/",
-        "title": "CSS Grid Layout Module Level 3",
-        "status": "Editor's Draft",
-        "publisher": "W3C",
-        "deliveredBy": [
-            "https://www.w3.org/Style/CSS/"
-        ],
-        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/w3c/csswg-drafts"
-    },
     "CSS-IMAGES-5": {
         "href": "https://drafts.csswg.org/css-images-5/",
         "title": "CSS Images Module Level 5",
@@ -366,9 +355,31 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/w3c/csswg-drafts"
     },
+    "CSS-MIXINS-1": {
+        "href": "https://drafts.csswg.org/css-mixins-1/",
+        "title": "CSS Functions and Mixins Module",
+        "status": "Editor's Draft",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/Style/CSS/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/w3c/csswg-drafts"
+    },
     "CSS-MULTICOL-2": {
         "href": "https://drafts.csswg.org/css-multicol-2/",
         "title": "CSS Multi-column Layout Module Level 2",
+        "status": "Editor's Draft",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/Style/CSS/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/w3c/csswg-drafts"
+    },
+    "CSS-OVERFLOW-5": {
+        "href": "https://drafts.csswg.org/css-overflow-5/",
+        "title": "CSS Overflow Module Level 5",
         "status": "Editor's Draft",
         "publisher": "W3C",
         "deliveredBy": [
@@ -391,17 +402,6 @@
     "CSS-POSITION-4": {
         "href": "https://drafts.csswg.org/css-position-4/",
         "title": "CSS Positioned Layout Module Level 4",
-        "status": "Editor's Draft",
-        "publisher": "W3C",
-        "deliveredBy": [
-            "https://www.w3.org/Style/CSS/"
-        ],
-        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/w3c/csswg-drafts"
-    },
-    "CSS-SCROLL-SNAP-2": {
-        "href": "https://drafts.csswg.org/css-scroll-snap-2/",
-        "title": "CSS Scroll Snap Module Level 2",
         "status": "Editor's Draft",
         "publisher": "W3C",
         "deliveredBy": [
@@ -443,31 +443,9 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/w3c/css-houdini-drafts"
     },
-    "CSS-VALUES-5": {
-        "href": "https://drafts.csswg.org/css-values-5/",
-        "title": "CSS Values and Units Module Level 5",
-        "status": "Editor's Draft",
-        "publisher": "W3C",
-        "deliveredBy": [
-            "https://www.w3.org/Style/CSS/"
-        ],
-        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/w3c/csswg-drafts"
-    },
     "CSS-VARIABLES-2": {
         "href": "https://drafts.csswg.org/css-variables-2/",
         "title": "CSS Custom Properties for Cascading Variables Module Level 2",
-        "status": "Editor's Draft",
-        "publisher": "W3C",
-        "deliveredBy": [
-            "https://www.w3.org/Style/CSS/"
-        ],
-        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/w3c/csswg-drafts"
-    },
-    "CSS-VIEW-TRANSITIONS-2": {
-        "href": "https://drafts.csswg.org/css-view-transitions-2/",
-        "title": "CSS View Transitions Module Level 2",
         "status": "Editor's Draft",
         "publisher": "W3C",
         "deliveredBy": [
@@ -488,7 +466,12 @@
             "https://www.w3.org/community/wicg/"
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/WICG/custom-state-pseudo-class"
+        "repository": "https://github.com/WICG/custom-state-pseudo-class",
+        "obsoletedBy": [
+            "HTML",
+            "SELECTORS-5"
+        ],
+        "isSuperseded": true
     },
     "DATACUE": {
         "href": "https://wicg.github.io/datacue/",
@@ -526,6 +509,17 @@
     "DIGEST-HEADERS": {
         "aliasOf": "rfc9530"
     },
+    "DIGITAL-CREDENTIALS": {
+        "href": "https://wicg.github.io/digital-credentials/",
+        "title": "Digital Credentials",
+        "status": "Draft Community Group Report",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/wicg/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/WICG/digital-credentials"
+    },
     "DIGITAL-GOODS": {
         "href": "https://wicg.github.io/digital-goods/",
         "title": "Digital Goods API",
@@ -538,15 +532,7 @@
         "repository": "https://github.com/WICG/digital-goods"
     },
     "DIGITAL-IDENTITIES": {
-        "href": "https://wicg.github.io/digital-identities/",
-        "title": "Digital Credentials",
-        "status": "Draft Community Group Report",
-        "publisher": "W3C",
-        "deliveredBy": [
-            "https://www.w3.org/community/wicg/"
-        ],
-        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/WICG/digital-identities"
+        "aliasOf": "DIGITAL-CREDENTIALS"
     },
     "DIRECT-SOCKETS": {
         "href": "https://wicg.github.io/direct-sockets/",
@@ -558,17 +544,6 @@
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/WICG/direct-sockets"
-    },
-    "DOCUMENT-PICTURE-IN-PICTURE": {
-        "href": "https://wicg.github.io/document-picture-in-picture/",
-        "title": "Document Picture-in-Picture Specification",
-        "status": "Draft Community Group Report",
-        "publisher": "W3C",
-        "deliveredBy": [
-            "https://www.w3.org/community/wicg/"
-        ],
-        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/WICG/document-picture-in-picture"
     },
     "ELEMENT-CAPTURE": {
         "href": "https://screen-share.github.io/element-capture/",
@@ -590,6 +565,17 @@
             "https://www.khronos.org/opengles/"
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json"
+    },
+    "EXECCOMMAND": {
+        "href": "https://w3c.github.io/editing/docs/execCommand/",
+        "title": "execCommand",
+        "status": "Unofficial Proposal Draft",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/groups/wg/webediting/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/w3c/editing"
     },
     "EXT_BLEND_MINMAX": {
         "href": "https://registry.khronos.org/webgl/extensions/EXT_blend_minmax/",
@@ -746,15 +732,7 @@
         "repository": "https://github.com/WICG/eyedropper-api"
     },
     "FEDCM": {
-        "href": "https://fedidcg.github.io/FedCM/",
-        "title": "Federated Credential Management API",
-        "status": "Draft Community Group Report",
-        "publisher": "W3C",
-        "deliveredBy": [
-            "https://www.w3.org/community/wicg/"
-        ],
-        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/fedidcg/FedCM"
+        "aliasOf": "fedcm-1"
     },
     "FENCED-FRAME": {
         "href": "https://wicg.github.io/fenced-frame/",
@@ -854,6 +832,17 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/privacycg/gpc-spec"
     },
+    "HANDWRITING-RECOGNITION": {
+        "href": "https://wicg.github.io/handwriting-recognition/",
+        "title": "Handwriting Recognition API",
+        "status": "Draft Community Group Report",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/wicg/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/WICG/handwriting-recognition"
+    },
     "INK-ENHANCEMENT": {
         "href": "https://wicg.github.io/ink-enhancement/",
         "title": "Ink API",
@@ -929,7 +918,7 @@
             "https://www.w3.org/WAI/ARIA/"
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/w3c/mathml-aam"
+        "repository": "https://github.com/w3c/aria"
     },
     "MEDIA-FEEDS": {
         "href": "https://wicg.github.io/media-feeds/",
@@ -1007,6 +996,17 @@
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/WICG/nav-speculation"
+    },
+    "OBSERVABLE": {
+        "href": "https://wicg.github.io/observable/",
+        "title": "Observable",
+        "status": "Draft Community Group Report",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/wicg/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/WICG/observable"
     },
     "OES_DRAW_BUFFERS_INDEXED": {
         "href": "https://registry.khronos.org/webgl/extensions/OES_draw_buffers_indexed/",
@@ -1206,6 +1206,17 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/WICG/nav-speculation"
     },
+    "PRIVATE-AGGREGATION-API": {
+        "href": "https://patcg-individual-drafts.github.io/private-aggregation-api/",
+        "title": "Private Aggregation API",
+        "status": "Unofficial Proposal Draft",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/patcg/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/patcg-individual-drafts/private-aggregation-api"
+    },
     "PRIVATE-CLICK-MEASUREMENT": {
         "href": "https://privacycg.github.io/private-click-measurement/",
         "title": "Private Click Measurement",
@@ -1283,6 +1294,17 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/httpwg/http-extensions"
     },
+    "SAA-NON-COOKIE-STORAGE": {
+        "href": "https://privacycg.github.io/saa-non-cookie-storage/",
+        "title": "Extending Storage Access API (SAA) to non-cookie storage",
+        "status": "Editor's Draft",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/privacycg/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/privacycg/saa-non-cookie-storage"
+    },
     "SANITIZER-API": {
         "href": "https://wicg.github.io/sanitizer-api/",
         "title": "HTML Sanitizer API",
@@ -1315,6 +1337,17 @@
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/WICG/scroll-to-text-fragment"
+    },
+    "SELECTORS-5": {
+        "href": "https://drafts.csswg.org/selectors-5/",
+        "title": "Selectors Level 5",
+        "status": "Editor's Draft",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/Style/CSS/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/w3c/csswg-drafts"
     },
     "SERIAL": {
         "href": "https://wicg.github.io/serial/",
@@ -1350,15 +1383,15 @@
         "repository": "https://github.com/WICG/soft-navigations"
     },
     "SOURCEMAP": {
-        "href": "https://tc39.es/source-map-spec/",
-        "title": "Source Map",
+        "href": "https://tc39.es/source-map/",
+        "title": "Source Map specification",
         "status": "Editor's Draft",
         "publisher": "Ecma International",
         "deliveredBy": [
             "https://tc39.es/"
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/tc39/source-map-spec"
+        "repository": "https://github.com/tc39/source-map"
     },
     "SPARQL12-CONCEPTS": {
         "href": "https://w3c.github.io/sparql-concepts/spec/",
@@ -1450,7 +1483,11 @@
             "https://tc39.es/"
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/tc39/proposal-array-grouping"
+        "repository": "https://github.com/tc39/proposal-array-grouping",
+        "obsoletedBy": [
+            "ECMASCRIPT"
+        ],
+        "isSuperseded": true
     },
     "TC39-ARRAYBUFFER-BASE64": {
         "href": "https://tc39.es/proposal-arraybuffer-base64/spec/",
@@ -1472,7 +1509,11 @@
             "https://tc39.es/"
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/tc39/proposal-arraybuffer-transfer"
+        "repository": "https://github.com/tc39/proposal-arraybuffer-transfer",
+        "obsoletedBy": [
+            "ECMASCRIPT"
+        ],
+        "isSuperseded": true
     },
     "TC39-ASYNC-EXPLICIT-RESOURCE-MANAGEMENT": {
         "href": "https://tc39.es/proposal-async-explicit-resource-management/",
@@ -1499,6 +1540,17 @@
             "ECMASCRIPT"
         ],
         "isSuperseded": true
+    },
+    "TC39-CANONICAL-TZ": {
+        "href": "https://tc39.es/proposal-canonical-tz/",
+        "title": "Time Zone Canonicalization proposal",
+        "status": "Editor's Draft",
+        "publisher": "Ecma International",
+        "deliveredBy": [
+            "https://tc39.es/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/tc39/proposal-canonical-tz"
     },
     "TC39-CHANGE-ARRAY-BY-COPY": {
         "href": "https://tc39.es/proposal-change-array-by-copy/",
@@ -1730,6 +1782,17 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/tc39/proposal-json-parse-with-source"
     },
+    "TC39-PROMISE-TRY": {
+        "href": "https://tc39.es/proposal-promise-try/",
+        "title": "Promise.try",
+        "status": "Editor's Draft",
+        "publisher": "Ecma International",
+        "deliveredBy": [
+            "https://tc39.es/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/tc39/proposal-promise-try"
+    },
     "TC39-PROMISE-WITH-RESOLVERS": {
         "href": "https://tc39.es/proposal-promise-with-resolvers/",
         "title": "ES Promise.withResolvers (2023)",
@@ -1739,7 +1802,22 @@
             "https://tc39.es/"
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/tc39/proposal-promise-with-resolvers"
+        "repository": "https://github.com/tc39/proposal-promise-with-resolvers",
+        "obsoletedBy": [
+            "ECMASCRIPT"
+        ],
+        "isSuperseded": true
+    },
+    "TC39-REGEX-ESCAPING": {
+        "href": "https://tc39.es/proposal-regex-escaping/",
+        "title": "RegExp.escape",
+        "status": "Editor's Draft",
+        "publisher": "Ecma International",
+        "deliveredBy": [
+            "https://tc39.es/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/tc39/proposal-regex-escaping"
     },
     "TC39-REGEXP-MODIFIERS": {
         "href": "https://tc39.es/proposal-regexp-modifiers/",
@@ -1994,6 +2072,17 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/WebAssembly/content-security-policy"
     },
+    "WASM-JS-API-2-FORK-ESM-INTEGRATION": {
+        "href": "https://webassembly.github.io/esm-integration/js-api/",
+        "title": "WebAssembly JavaScript Interface: ESM Integration",
+        "status": "Editor's Draft",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/webassembly/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/WebAssembly/esm-integration"
+    },
     "WASM-JS-API-2-FORK-EXCEPTION-HANDLING": {
         "href": "https://webassembly.github.io/exception-handling/js-api/",
         "title": "WebAssembly JavaScript Interface: Exception Handling",
@@ -2015,6 +2104,17 @@
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/WebAssembly/js-promise-integration"
+    },
+    "WASM-JS-API-2-FORK-JS-STRING-BUILTINS": {
+        "href": "https://webassembly.github.io/js-string-builtins/js-api/",
+        "title": "WebAssembly JavaScript Interface: JS String Builtins",
+        "status": "Editor's Draft",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/webassembly/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/WebAssembly/js-string-builtins"
     },
     "WASM-JS-API-2-FORK-JS-TYPES": {
         "href": "https://webassembly.github.io/js-types/js-api/",
