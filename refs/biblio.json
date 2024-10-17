@@ -3188,9 +3188,7 @@
         "date": "2011"
     },
     "SOLIDWEBAC": {
-        "title": "Web Access Control (WAC)",
-        "href": "https://github.com/solid/web-access-control-spec",
-        "publisher": "Solid @ MIT"
+        "aliasOf": "WAC"
     },
     "SPARQL-QUERY": {
         "aliasOf": "rdf-sparql-query"
@@ -3444,6 +3442,35 @@
         ],
         "status": "Draft Community Group Report",
         "publisher": "W3C"
+    },
+    "WAC": {
+        "title": "Web Access Control",
+        "href": "https://solidproject.org/TR/wac",
+        "publisher": "Solid Community Group",
+        "status": "Draft Community Group Report",
+        "authors": [
+            "Sarven Capadisli",
+            "Tim Berners-Lee",
+            "Henry Story"
+        ],
+        "date": "12 May 2024",
+        "rawDate": "2024-05-12",
+        "edDraft": "https://solid.github.io/web-access-control-spec/",
+        "repository": "https://github.com/solid/web-access-control-spec",
+        "versions": {
+            "20240512": {
+                "title": "Web Access Control",
+                "href": "https://solidproject.org/TR/2024/wac-20240512",
+                "publisher": "Solid Community Group",
+                "status": "Draft Community Group Report",
+                "authors": [
+                    "Sarven Capadisli",
+                    "Tim Berners-Lee",
+                    "Henry Story"
+                ],
+                "rawDate": "2024-05-12"
+            }
+        }
     },
     "WAC-SENSOR-API": {
         "authors": [
