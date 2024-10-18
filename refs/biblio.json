@@ -3135,6 +3135,7 @@
     "SI": {
         "title": "SI Brochure: The International System of Units (SI), 8th edition",
         "href": "http://www.bipm.org/en/publications/si-brochure/",
+        "status": "8th Edition",
         "rawDate": "2014",
         "publisher": "BIPM"
     },
@@ -3449,6 +3450,26 @@
     },
     "UTF-8": {
         "aliasOf": "rfc3629"
+    },
+    "VIM": {
+        "aliasOf": "VIM3"
+    },
+    "VIM3": {
+        "title": "International vocabulary of metrology – Basic and general concepts and associated terms (VIM)",
+        "href": "https://www.bipm.org/documents/20126/2071204/JCGM_200_2012.pdf",
+        "status": "3rd Edition",
+        "date": "2012",
+        "publisher": "BIPM"
+    },
+    "VIM4": {
+        "title": "International Vocabulary of Metrology Fourth edition – Second Committee Draft (VIM4 2CD) ",
+        "href": "https://www.bipm.org/documents/20126/115700832/VIM4_2CD_clean/c6d0dfb2-ddbf-059e-1f74-9b025c9c59d8",
+        "status": "4th Edition - 2nd Committee Draft",
+        "date": "31 July 2023",
+        "publisher": "BIPM",
+        "updates": [
+            "VIM3"
+        ]
     },
     "VSS": {
         "title": "Vehicle Signal Specification",
