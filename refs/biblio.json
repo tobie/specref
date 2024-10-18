@@ -3181,9 +3181,6 @@
         "publisher": "SMPTE",
         "date": "2011"
     },
-    "SOLIDWEBAC": {
-        "aliasOf": "WAC"
-    },
     "SOLID-PROTOCOL": {
         "title": "Solid Protocol",
         "href": "https://solidproject.org/TR/protocol",
@@ -3212,6 +3209,9 @@
                 "rawDate": "2024-05-12"
             }
         }
+    },
+    "SOLIDWEBAC": {
+        "aliasOf": "WAC"
     },
     "SPARQL-QUERY": {
         "aliasOf": "rdf-sparql-query"
