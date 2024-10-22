@@ -393,7 +393,7 @@ async function updateW3CRefs(sinceDate, verbose) {
 
         // Let's look for a corresponding entry in Specref. If none is found,
         // we'll add one. If one is found, we'll consider updating it, unless
-        // the spec has not been published after the treshold date.
+        // the spec has not been published after the threshold date.
         // Note: for historical reasons, the W3C API lists ~30 legacy "specs"
         // that are not real specs but rather team submissions. These specs
         // had been removed from "tr.rdf" and have never been added to Specref.
