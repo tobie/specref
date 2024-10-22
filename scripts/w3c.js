@@ -513,7 +513,7 @@ async function updateW3CRefs(sinceDate, verbose) {
             continue;
         }
         if (shortname.match(/-\d{8}$/)) {
-            // These dated entries were typically added to Specred to preserve
+            // These dated entries were typically added to Specref to preserve
             // links that would otherwise have disappeared, following a change
             // of shortname. Same as with aliases, we need to preserve them
             // forever.
