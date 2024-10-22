@@ -633,8 +633,8 @@ if (!since) {
 
 const start = Date.now();
 if (start - (new Date(since)).getTime() > 365 * 24 * 3600 * 1000) {
-    // A full update can take more than an hour. Let's alert the user
-    // (text on a red background).
+    // Update from 1+ year old specifications can take more than an hour
+    // Let's alert the user (text on a red background).
     console.warn("\x1b[41mBeware, update may take a while, possibly more than an hour!\x1b[0m");
 }
 
