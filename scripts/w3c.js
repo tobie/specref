@@ -361,7 +361,7 @@ async function updateSpecrefFromW3CApi(curr, w3cSpec, fromDate) {
  * version, and update Specref.
  *
  * Note: We try to limit the number of updates because each update requires
- * sending a network requests to the W3C API, which takes time.
+ * sending a few network requests to the W3C API, which takes time.
  *
  * Note: In this model, the publication date is used as a synonym of the last
  * modification date for the data. That is correct in 99% of all cases. Once in
