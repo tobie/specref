@@ -1,18 +1,8 @@
 [
-  { "id": "WebIDL",            "action": "delete" },
-  { "id": "WebIDL-1",          "action": "delete" },
-  { "id": "WebIDL-1",          "action": "createAlias", "aliasOf": "WEBIDL"},
-  { "id": "websockets",        "action": "delete" },
-  { "id": "url",               "action": "delete" },
-  { "id": "fullscreen",        "action": "delete" },
-  { "id": "notifications",     "action": "delete" },
-  { "id": "dom",               "action": "delete" },
-  { "id": "encoding",          "action": "delete" },
-  { "id": "hr-time",           "action": "createAlias", "aliasOf": "hr-time-3"},
-  { "id": "resource-timing",   "action": "deleteProp", "prop": "obsoletes"},
-  { "id": "resource-timing-1", "action": "createAlias", "aliasOf": "resource-timing"},
-  { "id": "PNG",               "action": "renameTo", "newId": "PNG-1"},
-  { "id": "PNG",               "action": "createAlias", "aliasOf": "png-3"},
-  { "id": "media-source",      "action": "createAlias", "aliasOf": "media-source-2" },
-  { "id": "encrypted-media",   "action": "createAlias", "aliasOf": "encrypted-media-2" }
+  { "id": "vocab-dcat",            "action": "delete" },
+  { "id": "vocab-dcat",            "action": "createAlias", "aliasOf": "vocab-dcat-1" },
+  { "id": "wot-architecture",      "action": "delete" },
+  { "id": "wot-architecture",      "action": "createAlias", "aliasOf": "wot-architecture10" },
+  { "id": "wot-thing-description", "action": "delete" },
+  { "id": "wot-thing-description", "action": "createAlias", "aliasOf": "wot-thing-description10" }
 ]
