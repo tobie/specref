@@ -1,0 +1,27 @@
+name: Auto update
+
+on:
+  schedule:
+    - cron: '10 * * * *'
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v4
+
+    - name: Setup node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: 'lts/*'
+        cache: 'npm'
+
+    - name: Run auto-update script
+      run: ./scripts/update-all
+      env:
+        GITHUB_EMAIL: ${{ vars.BOT_EMAIL }}
+        GITHUB_NAME: ${{ vars.BOT_NAME }}
+        GITHUB_TOKEN: ${{ secrets.BOT_TOKEN }}
+        GITHUB_REPO: https://github.com/${{ github.repository }}
