@@ -257,7 +257,10 @@
         "repository": "https://github.com/w3c/csswg-drafts"
     },
     "CSS-COLOR-HDR": {
-        "href": "https://drafts.csswg.org/css-color-hdr/",
+        "aliasOf": "CSS-COLOR-HDR-1"
+    },
+    "CSS-COLOR-HDR-1": {
+        "href": "https://drafts.csswg.org/css-color-hdr-1/",
         "title": "CSS Color HDR Module Level 1",
         "status": "Editor's Draft",
         "publisher": "W3C",
@@ -537,7 +540,7 @@
     "DIRECT-SOCKETS": {
         "href": "https://wicg.github.io/direct-sockets/",
         "title": "Direct Sockets API",
-        "status": "Unofficial Proposal Draft",
+        "status": "Draft Community Group Report",
         "publisher": "W3C",
         "deliveredBy": [
             "https://www.w3.org/community/wicg/"
@@ -987,15 +990,15 @@
         "repository": "https://github.com/w3c/reporting"
     },
     "NO-VARY-SEARCH": {
-        "href": "https://wicg.github.io/nav-speculation/no-vary-search.html",
+        "href": "https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-no-vary-search",
         "title": "No-Vary-Search",
-        "status": "Draft Community Group Report",
-        "publisher": "W3C",
+        "status": "Editor's Draft",
+        "publisher": "IETF",
         "deliveredBy": [
-            "https://www.w3.org/community/wicg/"
+            "https://datatracker.ietf.org/wg/httpbis/"
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/WICG/nav-speculation"
+        "repository": "https://github.com/httpwg/http-extensions"
     },
     "OBSERVABLE": {
         "href": "https://wicg.github.io/observable/",
@@ -1525,6 +1528,17 @@
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/tc39/proposal-async-explicit-resource-management"
+    },
+    "TC39-ATOMICS-MICROWAIT": {
+        "href": "https://tc39.es/proposal-atomics-microwait/",
+        "title": "Atomics.pause",
+        "status": "Editor's Draft",
+        "publisher": "Ecma International",
+        "deliveredBy": [
+            "https://tc39.es/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/tc39/proposal-atomics-microwait"
     },
     "TC39-ATOMICS-WAIT-ASYNC": {
         "href": "https://tc39.es/proposal-atomics-wait-async/",
