@@ -65,17 +65,6 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/WICG/attribution-reporting-api"
     },
-    "AUDIO-SESSION": {
-        "href": "https://w3c.github.io/audio-session/",
-        "title": "Audio Session",
-        "status": "Editor's Draft",
-        "publisher": "W3C",
-        "deliveredBy": [
-            "https://www.w3.org/media-wg/"
-        ],
-        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/w3c/audio-session"
-    },
     "AV1-AVIF": {
         "href": "https://aomediacodec.github.io/av1-avif/",
         "title": "AV1 Image File Format (AVIF)",
@@ -2491,5 +2480,16 @@
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/immersive-web/real-world-geometry"
+    },
+    "WRITING-ASSISTANCE-APIS": {
+        "href": "https://wicg.github.io/writing-assistance-apis/",
+        "title": "Writing Assistance APIs",
+        "status": "Draft Community Group Report",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/wicg/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/WICG/writing-assistance-apis"
     }
 }
