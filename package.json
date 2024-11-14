@@ -33,6 +33,7 @@
   ],
   "subdomain": "specref",
   "engines": {
-    "node": "14.7.0"
+    "node": ">=20.14",
+    "npm": ">=10.7"
   }
 }
