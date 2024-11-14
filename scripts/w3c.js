@@ -7,6 +7,8 @@ const getShortName = require('./get-shortname');
 // Read CLI arguments
 const args = process.argv.slice(2);
 const verbose = !!args.find(arg => arg === '--verbose' || arg === '-v');
+const filterArg = args.find(arg => arg.startsWith('--filter='));
+const filter = filterArg?.substring('--filter='.length);
 let since = args.find(arg => arg.match(/^\d{4}(-\d\d(-\d\d)?)?$/));
 if (!since && args.find(arg => !arg.startsWith('-'))) {
     console.log(
@@ -192,6 +194,15 @@ function getLatestDate(w3cSpec) {
 }
 
 /**
+ * Return true if there's no requested filter or if the shortname
+ * starts with the given filter.
+ */
+function matchFilter(shortname, filter) {
+    return !filter ||
+        shortname.toUpperCase().startsWith(filter.toUpperCase());
+}
+
+/**
  * Update the Specref entry from the data returned by the W3C API, fetching
  * additional detailed information about versions as needed.
  *
@@ -371,8 +382,8 @@ async function updateSpecrefFromW3CApi(curr, w3cSpec, fromDate) {
  * be more resilient, the "sinceDate" parameter may be used to also consider
  * versions published after that date as worthy of being updated.
  */
-async function updateW3CRefs(sinceDate, verbose) {
-    // Entries use a compat format for dates
+async function updateW3CRefs(sinceDate, verbose, filter) {
+    // Entries use a compact format for dates
     sinceDate = sinceDate.replace(/\-/g, '');
 
     // Retrieve the list of W3C specifications from the W3C API.
@@ -390,6 +401,10 @@ async function updateW3CRefs(sinceDate, verbose) {
         // "WD-mux" instead of "mux". The exact list is hardcoded in
         // getShortName.
         const shortname = getShortName(spec.shortname);
+
+        if (!matchFilter(shortname, filter)) {
+            continue;
+        }
 
         // Let's look for a corresponding entry in Specref. If none is found,
         // we'll add one. If one is found, we'll consider updating it, unless
@@ -503,6 +518,10 @@ async function updateW3CRefs(sinceDate, verbose) {
     // In theory, all Specref entries (except aliases) should have a
     // corresponding entry in the W3C API. If not, something is wrong!
     for (const [shortname, entry] of Object.entries(current)) {
+        if (!matchFilter(shortname, filter)) {
+            continue;
+        }
+
         if (mapped.find(e => e === entry)) {
             // All good, we already mapped the entry to a W3C entry
             continue;
@@ -593,6 +612,9 @@ async function updateW3CRefs(sinceDate, verbose) {
     console.log("Updating obsoletes properties...");
     const superseders = {};
     for (const [shortname, entry] of Object.entries(current)) {
+        if (!matchFilter(shortname, filter)) {
+            continue;
+        }
         if (entry.obsoletes) {
             delete entry.obsoletes;
         }
@@ -639,7 +661,7 @@ if (start - (new Date(since)).getTime() > 365 * 24 * 3600 * 1000) {
 }
 
 console.log(`Updating W3C references since ${since}...`);
-updateW3CRefs(since)
+updateW3CRefs(since, verbose, filter)
     .then(_ => {
         const end = Date.now();
         const duration = Math.round((end - start) / 1000);
