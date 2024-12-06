@@ -1980,20 +1980,29 @@
         "title": "Internationalized Domain Names (IDN) FAQ"
     },
     "IEEE-754": {
-        "href": "http://ieeexplore.ieee.org/servlet/opac?punumber=4610933",
+        "href": "https://ieeexplore.ieee.org/document/8766229",
         "title": "IEEE Standard for Floating-Point Arithmetic",
         "publisher": "Institute of Electrical and Electronics Engineers",
-        "rawDate": "2008-08-29",
-        "isbn": "978-0-7381-5752-8",
+        "rawDate": "2019-07-22",
+        "isbn": "78-1-5044-5924-2",
         "versions": {
             "1985": {
-                "href": "http://ieeexplore.ieee.org/servlet/opac?punumber=2355",
+                "href": "https://ieeexplore.ieee.org/document/30711",
                 "title": "IEEE Standard for Binary Floating-Point Arithmetic",
                 "publisher": "Institute of Electrical and Electronics Engineers",
                 "rawDate": "1985",
+                "isbn": "978-0-7381-1165-0",
                 "isSuperseded": true
             },
             "2008": {
+                "href": "https://ieeexplore.ieee.org/document/4610935",
+                "title": "IEEE Standard for Floating-Point Arithmetic",
+                "publisher": "Institute of Electrical and Electronics Engineers",
+                "rawDate": "2008-08-29",
+                "isSuperseded": true,
+                "isbn": "978-0-7381-5752-8",
+            },
+            "2019": {
                 "aliasOf": "IEEE-754"
             }
         }
