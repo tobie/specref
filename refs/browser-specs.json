@@ -306,7 +306,7 @@
     "CSS-FORMS-1": {
         "href": "https://drafts.csswg.org/css-forms-1/",
         "title": "CSS Form Styling Module Level 1",
-        "status": "A Collection of Interesting Ideas",
+        "status": "Unofficial Proposal Draft",
         "publisher": "W3C",
         "deliveredBy": [
             "https://www.w3.org/Style/CSS/"
@@ -814,15 +814,7 @@
         "repository": "https://github.com/KhronosGroup/glTF"
     },
     "GPC-SPEC": {
-        "href": "https://privacycg.github.io/gpc-spec/",
-        "title": "Global Privacy Control (GPC)",
-        "status": "Unofficial Proposal Draft",
-        "publisher": "W3C",
-        "deliveredBy": [
-            "https://www.w3.org/community/privacycg/"
-        ],
-        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/privacycg/gpc-spec"
+        "aliasOf": "gpc"
     },
     "HANDWRITING-RECOGNITION": {
         "href": "https://wicg.github.io/handwriting-recognition/",
@@ -944,6 +936,17 @@
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/w3c/mediacapture-handle"
+    },
+    "MEDIACAPTURE-SURFACE-CONTROL": {
+        "href": "https://w3c.github.io/mediacapture-surface-control/",
+        "title": "Captured Surface Control",
+        "status": "Editor's Draft",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/groups/wg/webrtc/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/w3c/mediacapture-surface-control"
     },
     "MODEL-ELEMENT": {
         "href": "https://immersive-web.github.io/model-element/",
@@ -1737,6 +1740,17 @@
         ],
         "isSuperseded": true
     },
+    "TC39-IS-ERROR": {
+        "href": "https://tc39.es/proposal-is-error/",
+        "title": "Error.isError",
+        "status": "Editor's Draft",
+        "publisher": "Ecma International",
+        "deliveredBy": [
+            "https://tc39.es/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/tc39/proposal-is-error"
+    },
     "TC39-IS-USV-STRING": {
         "href": "https://tc39.es/proposal-is-usv-string/",
         "title": "Well-Formed Unicode Strings",
@@ -2428,14 +2442,7 @@
         "repository": "https://github.com/WICG/webhid"
     },
     "WEBP": {
-        "href": "https://datatracker.ietf.org/doc/html/draft-zern-webp/",
-        "title": "WebP Image Format",
-        "status": "Editor's Draft",
-        "publisher": "IETF",
-        "deliveredBy": [
-            "https://datatracker.ietf.org/wg/art/"
-        ],
-        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json"
+        "aliasOf": "rfc9649"
     },
     "WEBPACKAGE": {
         "href": "https://wicg.github.io/webpackage/loading.html",

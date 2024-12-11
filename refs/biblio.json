@@ -1979,6 +1979,12 @@
         "publisher": "Unicode Consortium",
         "title": "Internationalized Domain Names (IDN) FAQ"
     },
+    "IEC61966-2-1": {
+        "title": "IEC 61966-2-1, Multimedia systems and equipment - Colour measurement and management - Part 2-1: Colour management - Default RGB colour space - sRGB",
+        "href": "https://webstore.iec.ch/en/publication/6169",
+        "publisher": "IEC",
+        "date": "1999"
+    },
     "IEEE-754": {
         "href": "https://ieeexplore.ieee.org/document/8766229",
         "title": "IEEE Standard for Floating-Point Arithmetic",
@@ -2130,6 +2136,13 @@
     "ISOBMFF": {
         "aliasOf": "iso14496-12"
     },
+    "ITU-R-BT.2100": {
+        "href": "https://www.itu.int/rec/R-REC-BT.2100/",
+        "title": "Recommendation ITU-R BT.2100-2 (07/2018), Image parameter values for high dynamic range television for use in production and international programme exchange",
+        "status": "Recommendation",
+        "rawDate": "2018-07-09",
+        "publisher": "ITU"
+    },
     "ITU-R-BT.601": {
         "href": "https://www.itu.int/rec/R-REC-BT.601/",
         "title": "Recommendation ITU-R BT.601-7 (03/2011), Studio encoding parameters of digital television for standard 4:3 and wide screen 16:9 aspect ratios",
@@ -2142,13 +2155,6 @@
         "title": "Recommendation ITU-R BT.709-6 (06/2015), Parameter values for the HDTV standards for production and international programme exchange",
         "status": "Recommendation",
         "rawDate": "2015-06-17",
-        "publisher": "ITU"
-    },
-    "ITU-R-BT.2100": {
-        "href": "https://www.itu.int/rec/R-REC-BT.2100/",
-        "title": "Recommendation ITU-R BT.2100-2 (07/2018), Image parameter values for high dynamic range television for use in production and international programme exchange",
-        "status": "Recommendation",
-        "rawDate": "2018-07-09",
         "publisher": "ITU"
     },
     "JAPI": {
@@ -3159,6 +3165,12 @@
     "SMIME": {
         "aliasOf": "rfc3851"
     },
+    "SMPTE170": {
+        "title": "ST 170, For Television - Composite Analog Video Signal - NTSC for Studio Application",
+        "href": "https://my.smpte.org/s/product-details?id=a1BVR0000008kZw",
+        "publisher": "SMPTE",
+        "date": "2004"
+    },
     "SMPTE2052-1": {
         "aliasOf": "SMPTE2052-1-2013"
     },
@@ -3176,6 +3188,12 @@
         "title": "Conversion from CEA-708 Caption Data to SMPTE-TT",
         "href": "https://www.smpte.org/sites/default/files/RP2052-11-2013.pdf",
         "publisher": "SMPTE"
+    },
+    "SMPTE240": {
+        "title": "ST 240, For Television - 1125-Line High-Definition Production Systems - Signal Parameters",
+        "href": "https://my.smpte.org/s/product-details?id=a1BVR0000008kbF",
+        "publisher": "SMPTE",
+        "date": "1999"
     },
     "SMPTE296": {
         "title": "ST 296:2012, 1280 × 720 Progressive Image 4:2:2 and 4:4:4 Sample Structure — Analog and Digital Representation and Analog Interface",
@@ -3195,24 +3213,6 @@
         "href": "http://ieeexplore.ieee.org/document/7290729/",
         "publisher": "SMPTE",
         "date": "2011"
-    },
-    "SMPTE170": {
-        "title": "ST 170, For Television - Composite Analog Video Signal - NTSC for Studio Application",
-        "href": "https://my.smpte.org/s/product-details?id=a1BVR0000008kZw",
-        "publisher": "SMPTE",
-        "date": "2004"
-    },
-    "SMPTE240": {
-        "title": "ST 240, For Television - 1125-Line High-Definition Production Systems - Signal Parameters",
-        "href": "https://my.smpte.org/s/product-details?id=a1BVR0000008kbF",
-        "publisher": "SMPTE",
-        "date": "1999"
-    },
-    "IEC61966-2-1": {
-        "title": "IEC 61966-2-1, Multimedia systems and equipment - Colour measurement and management - Part 2-1: Colour management - Default RGB colour space - sRGB",
-        "href": "https://webstore.iec.ch/en/publication/6169",
-        "publisher": "IEC",
-        "date": "1999"
     },
     "SOLID-PROTOCOL": {
         "title": "Solid Protocol",
