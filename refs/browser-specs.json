@@ -43,6 +43,17 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/WICG/anonymous-iframe"
     },
+    "AOM": {
+        "href": "https://wicg.github.io/aom/spec/",
+        "title": "Accessibility Object Model",
+        "status": "Unofficial Proposal Draft",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/wicg/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/WICG/aom"
+    },
     "AT-DRIVER": {
         "href": "https://w3c.github.io/at-driver/",
         "title": "AT Driver",
@@ -120,6 +131,28 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/AOMediaCodec/av1-rtp-spec"
     },
+    "BACKGROUND-FETCH": {
+        "href": "https://wicg.github.io/background-fetch/",
+        "title": "Background Fetch",
+        "status": "Draft Community Group Report",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/wicg/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/WICG/background-fetch"
+    },
+    "BACKGROUND-SYNC": {
+        "href": "https://wicg.github.io/background-sync/spec/",
+        "title": "Web Background Synchronization",
+        "status": "Draft Community Group Report",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/wicg/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/WICG/background-sync"
+    },
     "CAPABILITY-DELEGATION": {
         "href": "https://wicg.github.io/capability-delegation/spec.html",
         "title": "Capability Delegation",
@@ -152,6 +185,17 @@
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/davidben/http-client-hint-reliability"
+    },
+    "CLIENT-HINTS-INFRASTRUCTURE": {
+        "href": "https://wicg.github.io/client-hints-infrastructure/",
+        "title": "Client Hints Infrastructure",
+        "status": "Draft Community Group Report",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/wicg/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/WICG/client-hints-infrastructure"
     },
     "CLOSE-WATCHER": {
         "href": "https://wicg.github.io/close-watcher/",
@@ -200,6 +244,17 @@
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/w3c/contentEditable"
+    },
+    "COOKIE-STORE": {
+        "href": "https://wicg.github.io/cookie-store/",
+        "title": "Cookie Store API",
+        "status": "Draft Community Group Report",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/wicg/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/WICG/cookie-store"
     },
     "CRASH-REPORTING": {
         "href": "https://wicg.github.io/crash-reporting/",
@@ -355,6 +410,17 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/w3c/csswg-drafts"
     },
+    "CSS-PARSER-API": {
+        "href": "https://wicg.github.io/css-parser-api/",
+        "title": "CSS Parser API",
+        "status": "Unofficial Proposal Draft",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/wicg/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/WICG/css-parser-api"
+    },
     "CSS-POSITION-4": {
         "href": "https://drafts.csswg.org/css-position-4/",
         "title": "CSS Positioned Layout Module Level 4",
@@ -501,6 +567,28 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/WICG/direct-sockets"
     },
+    "DOCUMENT-PICTURE-IN-PICTURE": {
+        "href": "https://wicg.github.io/document-picture-in-picture/",
+        "title": "Document Picture-in-Picture Specification",
+        "status": "Draft Community Group Report",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/wicg/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/WICG/document-picture-in-picture"
+    },
+    "DOCUMENT-POLICY": {
+        "href": "https://wicg.github.io/document-policy/",
+        "title": "Document Policy",
+        "status": "Draft Community Group Report",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/wicg/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/WICG/document-policy"
+    },
     "ELEMENT-CAPTURE": {
         "href": "https://screen-share.github.io/element-capture/",
         "title": "Element Capture",
@@ -511,6 +599,28 @@
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/screen-share/element-capture"
+    },
+    "ELEMENT-TIMING": {
+        "href": "https://w3c.github.io/element-timing/",
+        "title": "Element Timing API",
+        "status": "Editor's Draft",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/groups/wg/webperf/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/w3c/element-timing"
+    },
+    "ENTRIES-API": {
+        "href": "https://wicg.github.io/entries-api/",
+        "title": "File and Directory Entries API",
+        "status": "Draft Community Group Report",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/wicg/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/WICG/entries-api"
     },
     "ESSL": {
         "href": "https://registry.khronos.org/OpenGL/specs/es/3.2/GLSL_ES_Specification_3.20.html",
@@ -711,6 +821,17 @@
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json"
     },
+    "FILE-SYSTEM-ACCESS": {
+        "href": "https://wicg.github.io/file-system-access/",
+        "title": "File System Access",
+        "status": "Draft Community Group Report",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/wicg/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/WICG/file-system-access"
+    },
     "FILTER-EFFECTS-2": {
         "href": "https://drafts.fxtf.org/filter-effects-2/",
         "title": "Filter Effects Module Level 2",
@@ -791,6 +912,17 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/WICG/handwriting-recognition"
     },
+    "IDLE-DETECTION": {
+        "href": "https://wicg.github.io/idle-detection/",
+        "title": "Idle Detection API",
+        "status": "Draft Community Group Report",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/wicg/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/WICG/idle-detection"
+    },
     "INK-ENHANCEMENT": {
         "href": "https://wicg.github.io/ink-enhancement/",
         "title": "Ink API",
@@ -801,6 +933,17 @@
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/WICG/ink-enhancement"
+    },
+    "INPUT-DEVICE-CAPABILITIES": {
+        "href": "https://wicg.github.io/input-device-capabilities/",
+        "title": "Input Device Capabilities",
+        "status": "Editor's Draft",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/wicg/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/WICG/input-device-capabilities"
     },
     "INTERVENTION-REPORTING": {
         "href": "https://wicg.github.io/intervention-reporting/",
@@ -824,6 +967,50 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/WICG/is-input-pending"
     },
+    "ISOLATED-CONTEXTS": {
+        "href": "https://wicg.github.io/isolated-web-apps/isolated-contexts.html",
+        "title": "Isolated Contexts",
+        "status": "Draft Community Group Report",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/wicg/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/WICG/isolated-web-apps"
+    },
+    "JS-SELF-PROFILING": {
+        "href": "https://wicg.github.io/js-self-profiling/",
+        "title": "JS Self-Profiling API",
+        "status": "Draft Community Group Report",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/wicg/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/WICG/js-self-profiling"
+    },
+    "KEYBOARD-LOCK": {
+        "href": "https://wicg.github.io/keyboard-lock/",
+        "title": "Keyboard Lock",
+        "status": "Draft Community Group Report",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/wicg/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/WICG/keyboard-lock"
+    },
+    "KEYBOARD-MAP": {
+        "href": "https://wicg.github.io/keyboard-map/",
+        "title": "Keyboard Map",
+        "status": "Draft Community Group Report",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/wicg/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/WICG/keyboard-map"
+    },
     "KHR_PARALLEL_SHADER_COMPILE": {
         "href": "https://registry.khronos.org/webgl/extensions/KHR_parallel_shader_compile/",
         "title": "WebGL KHR_parallel_shader_compile Extension Specification",
@@ -834,6 +1021,28 @@
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/KhronosGroup/WebGL"
+    },
+    "LAYOUT-INSTABILITY": {
+        "href": "https://wicg.github.io/layout-instability/",
+        "title": "Layout Instability API",
+        "status": "Draft Community Group Report",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/wicg/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/WICG/layout-instability"
+    },
+    "LOCAL-FONT-ACCESS": {
+        "href": "https://wicg.github.io/local-font-access/",
+        "title": "Local Font Access API",
+        "status": "Draft Community Group Report",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/wicg/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/WICG/local-font-access"
     },
     "LOGIN-STATUS": {
         "href": "https://w3c-fedid.github.io/login-status/",
@@ -867,6 +1076,17 @@
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/WICG/WebApiDevice"
+    },
+    "MANIFEST-INCUBATIONS": {
+        "href": "https://wicg.github.io/manifest-incubations/",
+        "title": "Manifest Incubations",
+        "status": "Draft Community Group Report",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/wicg/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/WICG/manifest-incubations"
     },
     "MATHML-AAM": {
         "href": "https://w3c.github.io/mathml-aam/",
@@ -944,6 +1164,17 @@
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/privacycg/nav-tracking-mitigations"
+    },
+    "NETINFO": {
+        "href": "https://wicg.github.io/netinfo/",
+        "title": "Network Information API",
+        "status": "Draft Community Group Report",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/wicg/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/WICG/netinfo"
     },
     "NETWORK-REPORTING": {
         "href": "https://w3c.github.io/reporting/network-reporting.html",
@@ -1099,6 +1330,17 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/KhronosGroup/WebGL"
     },
+    "PAGE-LIFECYCLE": {
+        "href": "https://wicg.github.io/page-lifecycle/",
+        "title": "Page Lifecycle",
+        "status": "Draft Community Group Report",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/wicg/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/WICG/page-lifecycle"
+    },
     "PARTITIONED-COOKIES": {
         "href": "https://datatracker.ietf.org/doc/html/draft-cutler-httpbis-partitioned-cookies",
         "title": "Cookies Having Independent Partitioned State specification",
@@ -1132,6 +1374,17 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/WICG/performance-measure-memory"
     },
+    "PERIODIC-BACKGROUND-SYNC": {
+        "href": "https://wicg.github.io/periodic-background-sync/",
+        "title": "Web Periodic Background Synchronization",
+        "status": "Draft Community Group Report",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/wicg/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/WICG/periodic-background-sync"
+    },
     "PERMISSIONS-REGISTRY": {
         "href": "https://w3c.github.io/permissions-registry/",
         "title": "Permissions Registry",
@@ -1143,6 +1396,28 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/w3c/permissions-registry"
     },
+    "PERMISSIONS-REQUEST": {
+        "href": "https://wicg.github.io/permissions-request/",
+        "title": "Requesting Permissions",
+        "status": "Draft Community Group Report",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/wicg/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/WICG/permissions-request"
+    },
+    "PERMISSIONS-REVOKE": {
+        "href": "https://wicg.github.io/permissions-revoke/",
+        "title": "Relinquishing Permissions",
+        "status": "Draft Community Group Report",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/wicg/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/WICG/permissions-revoke"
+    },
     "PORTALS": {
         "href": "https://wicg.github.io/portals/",
         "title": "Portals",
@@ -1153,6 +1428,17 @@
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/WICG/portals"
+    },
+    "PREFER-CURRENT-TAB": {
+        "href": "https://wicg.github.io/prefer-current-tab/",
+        "title": "preferCurrentTab",
+        "status": "Unofficial Proposal Draft",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/wicg/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/WICG/prefer-current-tab"
     },
     "PREFETCH": {
         "href": "https://wicg.github.io/nav-speculation/prefetch.html",
@@ -1297,6 +1583,17 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/WICG/savedata"
     },
+    "SCHEDULING-APIS": {
+        "href": "https://wicg.github.io/scheduling-apis/",
+        "title": "Prioritized Task Scheduling",
+        "status": "Draft Community Group Report",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/wicg/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/WICG/scheduling-apis"
+    },
     "SCROLL-TO-TEXT-FRAGMENT": {
         "href": "https://wicg.github.io/scroll-to-text-fragment/",
         "title": "URL Fragment Text Directives",
@@ -1330,6 +1627,17 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/WICG/serial"
     },
+    "SHAPE-DETECTION-API": {
+        "href": "https://wicg.github.io/shape-detection-api/",
+        "title": "Accelerated Shape Detection in Images",
+        "status": "Draft Community Group Report",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/wicg/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/WICG/shape-detection-api"
+    },
     "SHARED-STORAGE": {
         "href": "https://wicg.github.io/shared-storage/",
         "title": "Shared Storage API",
@@ -1340,6 +1648,17 @@
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/WICG/shared-storage"
+    },
+    "SMS-ONE-TIME-CODES": {
+        "href": "https://wicg.github.io/sms-one-time-codes/",
+        "title": "Origin-bound one-time codes delivered via SMS",
+        "status": "Draft Community Group Report",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/wicg/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/WICG/sms-one-time-codes"
     },
     "SOFT-NAVIGATIONS": {
         "href": "https://wicg.github.io/soft-navigations/",
@@ -1384,6 +1703,17 @@
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/WICG/nav-speculation"
+    },
+    "SPEECH-API": {
+        "href": "https://wicg.github.io/speech-api/",
+        "title": "Web Speech API",
+        "status": "Draft Community Group Report",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/audio-comgp/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/WICG/speech-api"
     },
     "STORAGE-ACCESS": {
         "href": "https://privacycg.github.io/storage-access/",
@@ -1896,6 +2226,17 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/tc39/proposal-temporal"
     },
+    "TEXT-DETECTION-API": {
+        "href": "https://wicg.github.io/shape-detection-api/text.html",
+        "title": "Accelerated Text Detection in Images",
+        "status": "Draft Community Group Report",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/wicg/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/WICG/shape-detection-api"
+    },
     "TOPICS": {
         "href": "https://patcg-individual-drafts.github.io/topics/",
         "title": "Topics API",
@@ -2129,6 +2470,17 @@
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/WebAssembly/threads"
+    },
+    "WEB-APP-LAUNCH": {
+        "href": "https://wicg.github.io/web-app-launch/",
+        "title": "Web App Launch Handler API",
+        "status": "Draft Community Group Report",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/wicg/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/WICG/web-app-launch"
     },
     "WEB-BLUETOOTH-SCANNING": {
         "href": "https://webbluetoothcg.github.io/web-bluetooth/scanning.html",
@@ -2441,6 +2793,17 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/w3c/webrtc-ice"
     },
+    "WEBUSB": {
+        "href": "https://wicg.github.io/webusb/",
+        "title": "WebUSB API",
+        "status": "Draft Community Group Report",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/wicg/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/WICG/webusb"
+    },
     "WEBXR-MESHING": {
         "href": "https://immersive-web.github.io/real-world-geometry/webxrmeshing-1.html",
         "title": "WebXR Meshing API Level 1",
@@ -2462,6 +2825,17 @@
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/immersive-web/real-world-geometry"
+    },
+    "WINDOW-CONTROLS-OVERLAY": {
+        "href": "https://wicg.github.io/window-controls-overlay/",
+        "title": "Window Controls Overlay",
+        "status": "Draft Community Group Report",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/wicg/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/WICG/window-controls-overlay"
     },
     "WRITING-ASSISTANCE-APIS": {
         "href": "https://wicg.github.io/writing-assistance-apis/",
