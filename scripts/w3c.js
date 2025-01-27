@@ -606,6 +606,55 @@ async function updateW3CRefs(sinceDate, verbose, filter) {
         }
     }
 
+    // Time to look at specification series and create custom aliases for them
+    // Note: the W3C API gives us the API url of the current specification in a
+    // series, which we need to map to an actual spec entry in the list. That
+    // mapping gets recorded through the "source" property. In particular, we
+    // cannot build that mapping while we process the specs above because the
+    // script typically runs in incremental mode and does not load the entire
+    // list of specs from the W3C API.
+    console.log("Updating specification series aliases...");
+    const source2Entry = {};
+    for (const [shortname, entry] of Object.entries(current)) {
+        source2Entry[entry.source] = shortname;
+    }
+    const specSeries = await fetchW3CPages('specification-series', 'specification-series', true);
+    for (const series of specSeries) {
+        // Look for the current specification in the list.
+        const currUrl = series._links['current-specification'].href;
+        const currShortname = source2Entry[currUrl];
+        if (!currShortname) {
+            continue;
+        }
+
+        // Make sure we can create an alias for the series
+        let entry = current[series.shortname];
+        if (entry) {
+            if (entry.aliasOf && entry.isSeriesAlias) {
+                // Make sure alias targets the right spec
+                entry.aliasOf = currShortname;
+                continue;
+            }
+            else {
+                // Many specs don't use levels. In such a case, the name of the
+                // series matches that of the specification, which should
+                // already be in the list.
+                continue;
+            }
+        }
+        else if (series.shortname in bibref.get(series.shortname)) {
+            console.warn(`- ${series.shortname}: series shortname already in another source in Specref`);
+            continue;
+        }
+
+        // Create an alias
+        entry = {
+            aliasOf: currShortname,
+            isSeriesAlias: true
+        };
+        current[series.shortname] = entry;
+    }
+
     console.log("Sorting references...");
     const sorted = helper.sortRefs(current);
 
