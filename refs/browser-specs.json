@@ -506,6 +506,17 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/WICG/datacue"
     },
+    "DBSC": {
+        "href": "https://w3c.github.io/webappsec-dbsc/",
+        "title": "Device Bound Session Credentials",
+        "status": "Editor's Draft",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/groups/wg/webappsec/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/w3c/webappsec-dbsc"
+    },
     "DEPRECATION-REPORTING": {
         "href": "https://wicg.github.io/deprecation-reporting/",
         "title": "Deprecation Reporting",
@@ -2427,6 +2438,17 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/WebAssembly/threads"
     },
+    "WASM-CORE-2-FORK-WIDE-ARITHMETIC": {
+        "href": "https://webassembly.github.io/wide-arithmetic/core/bikeshed/",
+        "title": "WebAssembly Core: Wide Arithmetic",
+        "status": "Editor's Draft",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/webassembly/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/WebAssembly/wide-arithmetic"
+    },
     "WASM-JS-API-2-FORK-CONTENT-SECURITY-POLICY": {
         "href": "https://webassembly.github.io/content-security-policy/js-api/",
         "title": "WebAssembly JavaScript Interface: Content Security Policy",
@@ -2871,7 +2893,7 @@
         "repository": "https://github.com/WICG/window-controls-overlay"
     },
     "WRITING-ASSISTANCE-APIS": {
-        "href": "https://wicg.github.io/writing-assistance-apis/",
+        "href": "https://webmachinelearning.github.io/writing-assistance-apis/",
         "title": "Writing Assistance APIs",
         "status": "Draft Community Group Report",
         "publisher": "W3C",
@@ -2879,6 +2901,6 @@
             "https://www.w3.org/community/webmachinelearning/"
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/WICG/writing-assistance-apis"
+        "repository": "https://github.com/webmachinelearning/writing-assistance-apis"
     }
 }
