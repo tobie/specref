@@ -611,6 +611,17 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/WICG/document-policy"
     },
+    "ECMA-426": {
+        "href": "https://tc39.es/ecma426/",
+        "title": "Source map format specification",
+        "status": "Editor's Draft",
+        "publisher": "Ecma International",
+        "deliveredBy": [
+            "https://tc39.es/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/tc39/ecma426"
+    },
     "ELEMENT-CAPTURE": {
         "href": "https://screen-share.github.io/element-capture/",
         "title": "Element Capture",
@@ -1716,15 +1727,7 @@
         "repository": "https://github.com/WICG/soft-navigations"
     },
     "SOURCEMAP": {
-        "href": "https://tc39.es/source-map/",
-        "title": "Source map format specification",
-        "status": "Editor's Draft",
-        "publisher": "Ecma International",
-        "deliveredBy": [
-            "https://tc39.es/"
-        ],
-        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/tc39/source-map"
+        "aliasOf": "ECMA-426"
     },
     "SPARQL12-CONCEPTS": {
         "href": "https://w3c.github.io/sparql-concepts/spec/",
