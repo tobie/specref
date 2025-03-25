@@ -223,6 +223,17 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/w3c/fxtf-drafts"
     },
+    "COMPRESSION-DICTIONARY": {
+        "href": "https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-compression-dictionary",
+        "title": "Compression Dictionary Transport",
+        "status": "Editor's Draft",
+        "publisher": "IETF",
+        "deliveredBy": [
+            "https://datatracker.ietf.org/wg/httpbis/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/httpwg/http-extensions"
+    },
     "CONTENT-INDEX": {
         "href": "https://wicg.github.io/content-index/spec/",
         "title": "Content Index",
@@ -336,7 +347,7 @@
     "CSS-FORMS-1": {
         "href": "https://drafts.csswg.org/css-forms-1/",
         "title": "CSS Form Control Styling Level 1",
-        "status": "Unofficial Proposal Draft",
+        "status": "Editor's Draft",
         "publisher": "W3C",
         "deliveredBy": [
             "https://www.w3.org/Style/CSS/"
