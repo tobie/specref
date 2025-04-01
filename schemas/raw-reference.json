@@ -124,6 +124,10 @@
                 "aliasOf": {
                     "description": "ID of the aliased reference. Note aliasing can be recursive.",
                     "$ref": "#/definitions/id"
+                },
+                "isSeriesAlias": {
+                    "description": "Whether the alias is for the name of a specification series.",
+                    "type": "boolean"
                 }
             },
             "required": ["aliasOf"],

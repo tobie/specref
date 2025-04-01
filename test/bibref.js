@@ -12,7 +12,8 @@ suite('Test bibref api', function() {
         },
         foo: { aliasOf: "FOO" },
         bar: { aliasOf: "fOO" },
-        hello: { title: "HELLO" }
+        hello: { title: "HELLO" },
+        series: { aliasOf: "FOO", isSeriesAlias: true }
     };
 
     test('bibref constructor handles a single reference obj', function() {
@@ -54,6 +55,11 @@ suite('Test bibref api', function() {
         assert.equal("FOO title", expanded.FOO.title);
         assert.equal("BAR title", expanded["FOO-BAR"].title);
         assert.equal("FOO title", expanded["FOO-BAZ"].title);
+    });
+
+    test('bibref.expandRefs does not create versions for series aliases', function() {
+        var b = bibref.create(obj);
+        assert.ok(!('FOO' in b.get("series-BAR")), "Cannot access a spec version from a series alias.");
     });
 
     test('bibref.cleanupRefs modifies the refs correctly', function() {

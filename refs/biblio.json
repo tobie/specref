@@ -120,7 +120,7 @@
         "publisher": "Ecma International"
     },
     "AT-SPI": {
-        "href": "https://developer-old.gnome.org/libatspi/stable/",
+        "href": "https://gnome.pages.gitlab.gnome.org/at-spi2-core/libatspi/",
         "title": "Assistive Technology Service Provider Interface",
         "publisher": "The GNOME Project"
     },
@@ -1979,21 +1979,34 @@
         "publisher": "Unicode Consortium",
         "title": "Internationalized Domain Names (IDN) FAQ"
     },
+    "IEC61966-2-1": {
+        "title": "IEC 61966-2-1, Multimedia systems and equipment - Colour measurement and management - Part 2-1: Colour management - Default RGB colour space - sRGB",
+        "href": "https://webstore.iec.ch/en/publication/6169",
+        "publisher": "IEC",
+        "date": "1999"
+    },
     "IEEE-754": {
-        "href": "http://ieeexplore.ieee.org/servlet/opac?punumber=4610933",
+        "href": "https://ieeexplore.ieee.org/document/8766229",
         "title": "IEEE Standard for Floating-Point Arithmetic",
         "publisher": "Institute of Electrical and Electronics Engineers",
-        "rawDate": "2008-08-29",
-        "isbn": "978-0-7381-5752-8",
+        "rawDate": "2019-07-22",
+        "isbn": "78-1-5044-5924-2",
         "versions": {
             "1985": {
-                "href": "http://ieeexplore.ieee.org/servlet/opac?punumber=2355",
+                "href": "https://ieeexplore.ieee.org/document/30711",
                 "title": "IEEE Standard for Binary Floating-Point Arithmetic",
                 "publisher": "Institute of Electrical and Electronics Engineers",
                 "rawDate": "1985",
                 "isSuperseded": true
             },
             "2008": {
+                "href": "https://ieeexplore.ieee.org/document/4610935",
+                "title": "IEEE Standard for Floating-Point Arithmetic",
+                "publisher": "Institute of Electrical and Electronics Engineers",
+                "rawDate": "2008-08-29",
+                "isSuperseded": true
+            },
+            "2019": {
                 "aliasOf": "IEEE-754"
             }
         }
@@ -2122,6 +2135,13 @@
     },
     "ISOBMFF": {
         "aliasOf": "iso14496-12"
+    },
+    "ITU-R-BT.2100": {
+        "href": "https://www.itu.int/rec/R-REC-BT.2100/",
+        "title": "Recommendation ITU-R BT.2100-2 (07/2018), Image parameter values for high dynamic range television for use in production and international programme exchange",
+        "status": "Recommendation",
+        "rawDate": "2018-07-09",
+        "publisher": "ITU"
     },
     "ITU-R-BT.601": {
         "href": "https://www.itu.int/rec/R-REC-BT.601/",
@@ -3139,6 +3159,12 @@
     "SMIME": {
         "aliasOf": "rfc3851"
     },
+    "SMPTE170": {
+        "title": "ST 170, For Television - Composite Analog Video Signal - NTSC for Studio Application",
+        "href": "https://my.smpte.org/s/product-details?id=a1BVR0000008kZw",
+        "publisher": "SMPTE",
+        "date": "2004"
+    },
     "SMPTE2052-1": {
         "aliasOf": "SMPTE2052-1-2013"
     },
@@ -3156,6 +3182,12 @@
         "title": "Conversion from CEA-708 Caption Data to SMPTE-TT",
         "href": "https://www.smpte.org/sites/default/files/RP2052-11-2013.pdf",
         "publisher": "SMPTE"
+    },
+    "SMPTE240": {
+        "title": "ST 240, For Television - 1125-Line High-Definition Production Systems - Signal Parameters",
+        "href": "https://my.smpte.org/s/product-details?id=a1BVR0000008kbF",
+        "publisher": "SMPTE",
+        "date": "1999"
     },
     "SMPTE296": {
         "title": "ST 296:2012, 1280 × 720 Progressive Image 4:2:2 and 4:4:4 Sample Structure — Analog and Digital Representation and Analog Interface",
@@ -3519,8 +3551,35 @@
         "date": "July 2011",
         "status": "WAC Ipanema Editor's Draft"
     },
-    "WCAG": {
-        "aliasOf": "WAI-WEBCONTENT"
+    "WCAG-0203": {
+        "aliasOf": "WAI-WEBCONTENT-19980203"
+    },
+    "WCAG-0414": {
+        "aliasOf": "WAI-WEBCONTENT-19980414"
+    },
+    "WCAG-19980203": {
+        "aliasOf": "WAI-WEBCONTENT-19980203"
+    },
+    "WCAG-19980414": {
+        "aliasOf": "WAI-WEBCONTENT-19980414"
+    },
+    "WCAG-19980918": {
+        "aliasOf": "WAI-WEBCONTENT-19980918"
+    },
+    "WCAG-19990115": {
+        "aliasOf": "WAI-WEBCONTENT-19990115"
+    },
+    "WCAG-19990217": {
+        "aliasOf": "WAI-WEBCONTENT-19990217"
+    },
+    "WCAG-19990226": {
+        "aliasOf": "WAI-WEBCONTENT-19990226"
+    },
+    "WCAG-19990324": {
+        "aliasOf": "WAI-WEBCONTENT-19990324"
+    },
+    "WCAG-19990505": {
+        "aliasOf": "WAI-WEBCONTENT-19990505"
     },
     "WEB-SHARE-TARGET": {
         "authors": [
@@ -3548,7 +3607,7 @@
         "aliasOf": "appmanifest"
     },
     "WEBCONTENT": {
-        "aliasOf": "WCAG"
+        "aliasOf": "WAI-WEBCONTENT"
     },
     "WEBGL": {
         "aliasOf": "WEBGL-2"
@@ -3978,11 +4037,11 @@
         "authors": [
             "Adobe Systems Incorporated"
         ],
-        "href": "http://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm?csnumber=57421",
+        "href": "https://www.iso.org/standard/75163.html",
         "title": "Extensible metadata platform (XMP) specification -- Part 1",
-        "rawDate": "2012-02-15",
+        "rawDate": "2019-04",
         "publisher": "ISO/IEC",
-        "isoNumber": "ISO/IEC 16684-1:2012"
+        "isoNumber": "ISO/IEC 16684-1:2019"
     },
     "XPTR-XPOINTER-CR2001": {
         "aliasOf": "xptr"
@@ -5266,9 +5325,9 @@
                     "Ben Hutton",
                     "Greg Dennis"
                 ],
-                "href": "https://datatracker.ietf.org/doc/html/draft-bhutton-json-schema-00",
+                "href": "https://datatracker.ietf.org/doc/html/draft-bhutton-json-schema-01",
                 "status": "Internet-Draft",
-                "rawDate": "2020-12-08",
+                "rawDate": "2022-06-10",
                 "title": "JSON Schema: A Media Type for Describing JSON Documents. Draft 2020-12"
             },
             "05": {
@@ -5312,9 +5371,9 @@
                     "Henry Andrews",
                     "Ben Hutton"
                 ],
-                "href": "https://datatracker.ietf.org/doc/html/draft-bhutton-json-schema-validation-00",
+                "href": "https://datatracker.ietf.org/doc/html/draft-bhutton-json-schema-validation-01",
                 "status": "Internet-Draft",
-                "rawDate": "2020-12-08",
+                "rawDate": "2022-06-10",
                 "title": "JSON Schema Validation: A Vocabulary for Structural Validation of JSON. Draft 2020-12"
             },
             "05": {
@@ -5907,7 +5966,7 @@
         "rawDate": "2006-02-01"
     },
     "w3c-patent-policy": {
-        "href": "https://www.w3.org/Consortium/Patent-Policy/",
+        "href": "https://www.w3.org/policies/patent-policy/",
         "title": "W3C Patent Policy",
         "authors": [
             "Wendy Seltzer"
@@ -5916,14 +5975,14 @@
         "rawDate": "2020-09-15"
     },
     "w3c-process": {
-        "href": "https://www.w3.org/Consortium/Process/",
+        "href": "https://www.w3.org/policies/process/",
         "title": "W3C Process Document",
         "authors": [
             "Elika J. Etemad (fantasai)",
             "Florian Rivoal"
         ],
         "publisher": "W3C",
-        "rawDate": "2021-11-02"
+        "rawDate": "2023-11-03"
     },
     "wacz": {
         "href": "https://specs.webrecorder.net/wacz/latest/",
@@ -5976,13 +6035,6 @@
         ],
         "publisher": "W3C WoT Community Group",
         "repository": "https://github.com/webofthings/web-thing-model"
-    },
-    "webdriver-bidi": {
-        "href": "https://w3c.github.io/webdriver-bidi/",
-        "publisher": "W3C",
-        "title": "WebDriver BiDi",
-        "status": "Editor's Draft",
-        "repository": "https://github.com/w3c/webdriver-bidi"
     },
     "webvr": {
         "href": "https://immersive-web.github.io/webvr/spec/1.1/",
