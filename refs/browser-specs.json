@@ -122,7 +122,7 @@
     },
     "AV1-RTP-SPEC": {
         "href": "https://aomediacodec.github.io/av1-rtp-spec/",
-        "title": "RTP Payload Format For AV1 (v1.0)",
+        "title": "RTP Payload Format For AV1",
         "status": "Draft Deliverable",
         "publisher": "Alliance for Open Media",
         "deliveredBy": [
@@ -246,15 +246,7 @@
         "repository": "https://github.com/WICG/content-index"
     },
     "CONTENTEDITABLE": {
-        "href": "https://w3c.github.io/contentEditable/",
-        "title": "ContentEditable",
-        "status": "Editor's Draft",
-        "publisher": "W3C",
-        "deliveredBy": [
-            "https://www.w3.org/groups/wg/webediting/"
-        ],
-        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/w3c/contentEditable"
+        "aliasOf": "content-editable"
     },
     "COOKIE-STORE": {
         "href": "https://wicg.github.io/cookie-store/",
@@ -336,17 +328,6 @@
     "CSS-EXTENSIONS-1": {
         "href": "https://drafts.csswg.org/css-extensions-1/",
         "title": "CSS Extensions",
-        "status": "Editor's Draft",
-        "publisher": "W3C",
-        "deliveredBy": [
-            "https://www.w3.org/Style/CSS/"
-        ],
-        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/w3c/csswg-drafts"
-    },
-    "CSS-FORMS-1": {
-        "href": "https://drafts.csswg.org/css-forms-1/",
-        "title": "CSS Form Control Styling Level 1",
         "status": "Editor's Draft",
         "publisher": "W3C",
         "deliveredBy": [
@@ -559,7 +540,7 @@
         "status": "Draft Community Group Report",
         "publisher": "W3C",
         "deliveredBy": [
-            "https://www.w3.org/community/wicg/"
+            "https://www.w3.org/groups/wg/fedid/"
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/WICG/digital-credentials"
