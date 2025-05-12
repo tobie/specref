@@ -524,15 +524,15 @@
         "aliasOf": "rfc9530"
     },
     "DIGITAL-CREDENTIALS": {
-        "href": "https://wicg.github.io/digital-credentials/",
+        "href": "https://w3c-fedid.github.io/digital-credentials/",
         "title": "Digital Credentials",
-        "status": "Draft Community Group Report",
+        "status": "Editor's Draft",
         "publisher": "W3C",
         "deliveredBy": [
             "https://www.w3.org/groups/wg/fedid/"
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/WICG/digital-credentials"
+        "repository": "https://github.com/w3c-fedid/digital-credentials"
     },
     "DIGITAL-GOODS": {
         "href": "https://wicg.github.io/digital-goods/",
@@ -656,6 +656,17 @@
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/w3c/editing"
+    },
+    "EXPLICIT-JAVASCRIPT-COMPILE-HINTS-FILE-BASED": {
+        "href": "https://wicg.github.io/explicit-javascript-compile-hints-file-based/",
+        "title": "Explicit JavaScript Compile Hints (File-based)",
+        "status": "Editor's Draft",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/wicg/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/WICG/explicit-javascript-compile-hints-file-based"
     },
     "EXT_BLEND_MINMAX": {
         "href": "https://registry.khronos.org/webgl/extensions/EXT_blend_minmax/",
@@ -2298,6 +2309,17 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/patcg-individual-drafts/topics"
     },
+    "TRANSLATION-API": {
+        "href": "https://webmachinelearning.github.io/translation-api/",
+        "title": "Translator and Language Detector APIs",
+        "status": "Draft Community Group Report",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/webmachinelearning/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/webmachinelearning/translation-api"
+    },
     "TRUST-TOKEN-API": {
         "href": "https://wicg.github.io/trust-token-api/",
         "title": "Private State Token API",
@@ -2574,7 +2596,11 @@
             "https://www.w3.org/community/wicg/"
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/WICG/web-preferences-api"
+        "repository": "https://github.com/WICG/web-preferences-api",
+        "obsoletedBy": [
+            "mediaqueries-5"
+        ],
+        "isSuperseded": true
     },
     "WEB-SMART-CARD": {
         "href": "https://wicg.github.io/web-smart-card/",
