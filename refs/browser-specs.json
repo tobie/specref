@@ -369,17 +369,6 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/w3c/csswg-drafts"
     },
-    "CSS-MIXINS-1": {
-        "href": "https://drafts.csswg.org/css-mixins-1/",
-        "title": "CSS Functions and Mixins Module",
-        "status": "Editor's Draft",
-        "publisher": "W3C",
-        "deliveredBy": [
-            "https://www.w3.org/Style/CSS/"
-        ],
-        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/w3c/csswg-drafts"
-    },
     "CSS-PAGE-4": {
         "href": "https://drafts.csswg.org/css-page-4/",
         "title": "Proposals for the future of CSS Paged Media",
@@ -1466,15 +1455,7 @@
         "repository": "https://github.com/WICG/portals"
     },
     "PPA": {
-        "href": "https://w3c.github.io/ppa/",
-        "title": "Privacy-Preserving Attribution: Level 1",
-        "status": "Editor's Draft",
-        "publisher": "W3C",
-        "deliveredBy": [
-            "https://www.w3.org/groups/wg/pat/"
-        ],
-        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/w3c/ppa"
+        "aliasOf": "privacy-preserving-attribution"
     },
     "PREFER-CURRENT-TAB": {
         "href": "https://wicg.github.io/prefer-current-tab/",
@@ -1804,7 +1785,7 @@
     },
     "TC39-ARRAY-FROM-ASYNC": {
         "href": "https://tc39.es/proposal-array-from-async/",
-        "title": "ES Array.fromAsync (2022)",
+        "title": "ES Array.fromAsync",
         "status": "Editor's Draft",
         "publisher": "Ecma International",
         "deliveredBy": [
