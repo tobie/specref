@@ -30,6 +30,19 @@
     "ABNF": {
         "aliasOf": "RFC5234"
     },
+    "ACDC": {
+        "authors": [
+            "Samuel M. Smith",
+            "Philip Feairheller",
+            "Kevin Griffin"
+        ],
+        "href": "https://trustoverip.github.io/tswg-acdc-specification/",
+        "title": "Authentic Chained Data Containers (ACDC)",
+        "status": "Working Draft",
+        "publisher": "Trust Over IP Foundation",
+        "date": "2023",
+        "repository": "https://github.com/trustoverip/tswg-acdc-specification/"
+    },
     "ACE-CWT-PROOF-OF-POSSESSION": {
         "authors": [
             "M. Jones",
@@ -338,6 +351,18 @@
             "https://www.w3.org/community/custexpdata/"
         ],
         "rawDate": "2013-12-10"
+    },
+    "CESR": {
+        "authors": [
+            "Samuel M. Smith",
+            "Kevin Griffin"
+        ],
+        "href": "https://trustoverip.github.io/tswg-cesr-specification/",
+        "title": "Composable Event Streaming Representation (CESR)",
+        "status": "Working Draft",
+        "publisher": "Trust Over IP Foundation",
+        "date": "2023",
+        "repository": "https://github.com/trustoverip/tswg-cesr-specification/"
     },
     "CESU8": {
         "aliasOf": "UTR26"
@@ -1911,6 +1936,11 @@
         "title": "Hypertext Transfer Protocol (HTTP) Authentication Scheme Registry",
         "publisher": "IANA"
     },
+    "IANA-HTTP-PARAMS": {
+        "href": "https://www.iana.org/assignments/http-parameters/http-parameters.xhtml",
+        "title": "Hypertext Transfer Protocol (HTTP) Parameters",
+        "publisher": "IANA"
+    },
     "IANA-HTTP-STATUS-CODES": {
         "href": "https://www.iana.org/assignments/http-status-codes/",
         "title": "Hypertext Transfer Protocol (HTTP) Status Code Registry",
@@ -2254,6 +2284,18 @@
     },
     "JWT": {
         "aliasOf": "rfc7519"
+    },
+    "KERI": {
+        "authors": [
+            "Samuel M. Smith",
+            "Kevin Griffin"
+        ],
+        "href": "https://trustoverip.github.io/tswg-keri-specification/",
+        "title": "Key Event Receipt Infrastructure (KERI)",
+        "status": "Working Draft",
+        "publisher": "Trust Over IP Foundation",
+        "date": "2023",
+        "repository": "https://github.com/trustoverip/tswg-keri-specification"
     },
     "KEYS": {
         "authors": [

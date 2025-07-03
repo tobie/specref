@@ -122,7 +122,7 @@
     },
     "AV1-RTP-SPEC": {
         "href": "https://aomediacodec.github.io/av1-rtp-spec/",
-        "title": "RTP Payload Format For AV1 (v1.0)",
+        "title": "RTP Payload Format For AV1",
         "status": "Draft Deliverable",
         "publisher": "Alliance for Open Media",
         "deliveredBy": [
@@ -246,15 +246,7 @@
         "repository": "https://github.com/WICG/content-index"
     },
     "CONTENTEDITABLE": {
-        "href": "https://w3c.github.io/contentEditable/",
-        "title": "ContentEditable",
-        "status": "Editor's Draft",
-        "publisher": "W3C",
-        "deliveredBy": [
-            "https://www.w3.org/groups/wg/webediting/"
-        ],
-        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/w3c/contentEditable"
+        "aliasOf": "content-editable"
     },
     "COOKIE-STORE": {
         "href": "https://wicg.github.io/cookie-store/",
@@ -344,28 +336,6 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/w3c/csswg-drafts"
     },
-    "CSS-FORMS-1": {
-        "href": "https://drafts.csswg.org/css-forms-1/",
-        "title": "CSS Form Control Styling Level 1",
-        "status": "Editor's Draft",
-        "publisher": "W3C",
-        "deliveredBy": [
-            "https://www.w3.org/Style/CSS/"
-        ],
-        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/w3c/csswg-drafts"
-    },
-    "CSS-GAPS-1": {
-        "href": "https://drafts.csswg.org/css-gaps-1/",
-        "title": "CSS Gap Decorations Module Level 1",
-        "status": "Editor's Draft",
-        "publisher": "W3C",
-        "deliveredBy": [
-            "https://www.w3.org/Style/CSS/"
-        ],
-        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/w3c/csswg-drafts"
-    },
     "CSS-GCPM-4": {
         "href": "https://drafts.csswg.org/css-gcpm-4/",
         "title": "CSS Generated Content for Paged Media Module Level 4",
@@ -391,17 +361,6 @@
     "CSS-LINK-PARAMS-1": {
         "href": "https://drafts.csswg.org/css-link-params-1/",
         "title": "CSS Linked Parameters",
-        "status": "Editor's Draft",
-        "publisher": "W3C",
-        "deliveredBy": [
-            "https://www.w3.org/Style/CSS/"
-        ],
-        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/w3c/csswg-drafts"
-    },
-    "CSS-MIXINS-1": {
-        "href": "https://drafts.csswg.org/css-mixins-1/",
-        "title": "CSS Functions and Mixins Module",
         "status": "Editor's Draft",
         "publisher": "W3C",
         "deliveredBy": [
@@ -554,15 +513,15 @@
         "aliasOf": "rfc9530"
     },
     "DIGITAL-CREDENTIALS": {
-        "href": "https://wicg.github.io/digital-credentials/",
+        "href": "https://w3c-fedid.github.io/digital-credentials/",
         "title": "Digital Credentials",
-        "status": "Draft Community Group Report",
+        "status": "Editor's Draft",
         "publisher": "W3C",
         "deliveredBy": [
-            "https://www.w3.org/community/wicg/"
+            "https://www.w3.org/groups/wg/fedid/"
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/WICG/digital-credentials"
+        "repository": "https://github.com/w3c-fedid/digital-credentials"
     },
     "DIGITAL-GOODS": {
         "href": "https://wicg.github.io/digital-goods/",
@@ -686,6 +645,17 @@
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/w3c/editing"
+    },
+    "EXPLICIT-JAVASCRIPT-COMPILE-HINTS-FILE-BASED": {
+        "href": "https://wicg.github.io/explicit-javascript-compile-hints-file-based/",
+        "title": "Explicit JavaScript Compile Hints (File-based)",
+        "status": "Editor's Draft",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/wicg/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/WICG/explicit-javascript-compile-hints-file-based"
     },
     "EXT_BLEND_MINMAX": {
         "href": "https://registry.khronos.org/webgl/extensions/EXT_blend_minmax/",
@@ -1394,11 +1364,11 @@
             "https://datatracker.ietf.org/wg/none/"
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/explainers-by-googlers/CHIPS-spec"
+        "repository": "https://github.com/privacycg/CHIPS"
     },
     "PASSKEY-ENDPOINTS": {
-        "href": "https://w3c.github.io/webappsec-passkey-endpoints/passkey-endpoints.html",
-        "title": "A Well-Known URL for Passkey Endpoints",
+        "href": "https://w3c.github.io/webappsec-passkey-endpoints/",
+        "title": "A Well-Known URL for Relying Party Passkey Endpoints",
         "status": "Editor's Draft",
         "publisher": "W3C",
         "deliveredBy": [
@@ -1473,6 +1443,17 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/WICG/permissions-revoke"
     },
+    "POINTER-ANIMATIONS-1": {
+        "href": "https://drafts.csswg.org/pointer-animations-1/",
+        "title": "Pointer-driven Animations",
+        "status": "Editor's Draft",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/Style/CSS/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/w3c/csswg-drafts"
+    },
     "PORTALS": {
         "href": "https://wicg.github.io/portals/",
         "title": "Portals",
@@ -1485,15 +1466,7 @@
         "repository": "https://github.com/WICG/portals"
     },
     "PPA": {
-        "href": "https://w3c.github.io/ppa/",
-        "title": "Privacy-Preserving Attribution: Level 1",
-        "status": "Editor's Draft",
-        "publisher": "W3C",
-        "deliveredBy": [
-            "https://www.w3.org/groups/wg/pat/"
-        ],
-        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/w3c/ppa"
+        "aliasOf": "privacy-preserving-attribution"
     },
     "PREFER-CURRENT-TAB": {
         "href": "https://wicg.github.io/prefer-current-tab/",
@@ -1715,6 +1688,17 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/WICG/shared-storage"
     },
+    "SIGNATURE-BASED-SRI": {
+        "href": "https://wicg.github.io/signature-based-sri/",
+        "title": "Signature-based Integrity",
+        "status": "Draft Community Group Report",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/wicg/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/WICG/signature-based-sri"
+    },
     "SMS-ONE-TIME-CODES": {
         "href": "https://wicg.github.io/sms-one-time-codes/",
         "title": "Origin-bound one-time codes delivered via SMS",
@@ -1823,7 +1807,7 @@
     },
     "TC39-ARRAY-FROM-ASYNC": {
         "href": "https://tc39.es/proposal-array-from-async/",
-        "title": "ES Array.fromAsync (2022)",
+        "title": "ES Array.fromAsync",
         "status": "Editor's Draft",
         "publisher": "Ecma International",
         "deliveredBy": [
@@ -2297,7 +2281,7 @@
     },
     "TC39-TEMPORAL": {
         "href": "https://tc39.es/proposal-temporal/",
-        "title": "Temporal proposal",
+        "title": "Temporal",
         "status": "Editor's Draft",
         "publisher": "Ecma International",
         "deliveredBy": [
@@ -2327,6 +2311,17 @@
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/patcg-individual-drafts/topics"
+    },
+    "TRANSLATION-API": {
+        "href": "https://webmachinelearning.github.io/translation-api/",
+        "title": "Translator and Language Detector APIs",
+        "status": "Draft Community Group Report",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/webmachinelearning/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/webmachinelearning/translation-api"
     },
     "TRUST-TOKEN-API": {
         "href": "https://wicg.github.io/trust-token-api/",
@@ -2604,7 +2599,11 @@
             "https://www.w3.org/community/wicg/"
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/WICG/web-preferences-api"
+        "repository": "https://github.com/WICG/web-preferences-api",
+        "obsoletedBy": [
+            "mediaqueries-5"
+        ],
+        "isSuperseded": true
     },
     "WEB-SMART-CARD": {
         "href": "https://wicg.github.io/web-smart-card/",
