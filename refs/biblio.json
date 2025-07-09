@@ -326,6 +326,15 @@
     "CCPP": {
         "aliasOf": "CCPP-struct-vocab"
     },
+    "CDT": {
+        "href": "https://w3id.org/lindt/v4/custom_datatypes",
+        "title": "Custom Datatypes - Towards a web of Linked Datatypes",
+        "authors": [
+            "Maxime Lefrançois",
+            "Antoine Zimmermann"
+        ],
+        "date": "19 July 2021"
+    },
     "CEA-2014": {
         "href": "https://standards.cta.tech/kwspub/published_docs/ANSI-CTA-2014-B-Preview.pdf",
         "title": "Web-based Protocol and Framework for Remote User Interface on UPnP Networks and the Internet (Web4CE)",
@@ -526,6 +535,17 @@
         "date": "2 December 2009",
         "status": "ED",
         "publisher": "W3C"
+    },
+    "CoverageJSON": {
+        "authors": [
+            "Chris Little",
+            "Jon Blower",
+            "Maik Reichert"
+        ],
+        "href": "https://docs.ogc.org/cs/21-069r2/21-069r2.html",
+        "title": "OGC CoverageJSON Community Standard",
+        "publisher": "Open Geospatial Consortium",
+        "date": "August 2023"
     },
     "CP50220": {
         "authors": [
@@ -1154,6 +1174,13 @@
         "publisher": "International Telecommunication Union",
         "status": "In force",
         "title": "Q.23 : Technical features of push-button telephone sets"
+    },
+    "DUL": {
+        "href": "http://ontologydesignpatterns.org/wiki/Ontology:DOLCE+DnS_Ultralite",
+        "authors": [
+            "Aldo Gangemi"
+        ],
+        "title": "DOLCE+DnS Ultralite (DUL)"
     },
     "DVB": {
         "title": "Digital Video Broadcasting Project",
@@ -2737,6 +2764,23 @@
             "ACE-CWT-PROOF-OF-POSSESSION"
         ]
     },
+    "OBOE": {
+        "href": "http://dx.doi.org/10.5063/F11C1TTM",
+        "date": "2016",
+        "authors": [
+            "Mark Schildhauer",
+            "Matthew B. Jones",
+            "Shawn Bowers",
+            "Joshua Madin",
+            "Sergeui Krivov",
+            "Deana Pennington",
+            "Ferdinando Villa",
+            "Benjamin Leinfelder",
+            "Christopher Jones",
+            "Margaret O'Brien"
+        ],
+        "title": "OBOE: the Extensible Observation Ontology, version 1.1"
+    },
     "OCSP": {
         "aliasOf": "RFC2560"
     },
@@ -3139,6 +3183,12 @@
     "RUBY-UC": {
         "aliasOf": "ruby-use-cases"
     },
+    "SAREF": {
+        "aliasOf": "etsi-ts-103-264"
+    },
+    "SAREF_Patterns": {
+        "aliasOf": "etsi-ts-103-548"
+    },
     "SCTE214": {
         "aliasOf": "SCTE214-1"
     },
@@ -3330,6 +3380,20 @@
     "SSML10": {
         "aliasOf": "speech-synthesis"
     },
+    "SSNX": {
+        "authors": [
+            "W3C Semantic Sensor Network Incubator Group"
+        ],
+        "title": "Semantic Sensor Network Ontology",
+        "href": "https://www.w3.org/2005/Incubator/ssn/ssnx/ssn",
+        "publisher": "W3C",
+        "date": "2011"
+    },
+    "STA": {
+        "href": "https://www.ogc.org/standard/sensorthings/",
+        "title": "OGC SensorThings API (STA)",
+        "publisher": "Open Geospatial Consortium"
+    },
     "STD68": {
         "aliasOf": "RFC5234"
     },
@@ -3347,6 +3411,24 @@
     },
     "SVG112": {
         "aliasOf": "SVG11"
+    },
+    "SWE-Common": {
+        "authors": [
+            "Alex Robin"
+        ],
+        "href": "https://portal.ogc.org/files/?artifact_id=41157",
+        "title": "OGC® SWE Common Data Model Encoding Standard",
+        "publisher": "Open Geospatial Consortium",
+        "date": "January 2011"
+    },
+    "SWE-Common-JSON": {
+        "authors": [
+            "Alex Robin"
+        ],
+        "href": "https://docs.ogc.org/bp/17-011r2/17-011r2.html",
+        "title": "JSON Encoding Rules SWE Common / SensorML",
+        "publisher": "Open Geospatial Consortium",
+        "date": "January 2018"
     },
     "SXSWGRIDS": {
         "authors": [
@@ -3442,6 +3524,16 @@
         ],
         "status": "Draft Community Group Report",
         "repository": "https://github.com/Maps4HTML/HTML-Map-Element-UseCases-Requirements/"
+    },
+    "UCUM": {
+        "href": "https://ucum.org/ucum",
+        "title": "The Unified Code for Units of Measure",
+        "authors": [
+            "Gunther Schadow",
+            "Clement J. McDonald"
+        ],
+        "publisher": "Regenstrief Institute, Inc. and the UCUM Organization",
+        "date": "17 June 2024"
     },
     "UFO": {
         "authors": [
@@ -5210,6 +5302,17 @@
         "obsoletes": [
             "iso-19156-2011"
         ]
+    },
+    "iso-19157-1": {
+        "authors": [
+            "ISO/TC 211"
+        ],
+        "href": "https://www.iso.org/standard/78900.html",
+        "title": "Geographic information -- Data quality -- Part 1: General requirements",
+        "publisher": "ISO",
+        "status": "International Standard",
+        "date": "2023",
+        "isoNumber": "ISO 19157-1:2023"
     },
     "iso-19159-2": {
         "aliasOf": "iso-19159-2-2016"
