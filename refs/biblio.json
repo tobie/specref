@@ -536,17 +536,6 @@
         "status": "ED",
         "publisher": "W3C"
     },
-    "CoverageJSON": {
-        "authors": [
-            "Chris Little",
-            "Jon Blower",
-            "Maik Reichert"
-        ],
-        "href": "https://docs.ogc.org/cs/21-069r2/21-069r2.html",
-        "title": "OGC CoverageJSON Community Standard",
-        "publisher": "Open Geospatial Consortium",
-        "date": "August 2023"
-    },
     "CP50220": {
         "authors": [
             "Y. Naruse"
@@ -824,6 +813,17 @@
         "title": "Contexts for the Semantic Web",
         "date": "2005",
         "publisher": "The Semantic Web - ISWC"
+    },
+    "CoverageJSON": {
+        "authors": [
+            "Chris Little",
+            "Jon Blower",
+            "Maik Reichert"
+        ],
+        "href": "https://docs.ogc.org/cs/21-069r2/21-069r2.html",
+        "title": "OGC CoverageJSON Community Standard",
+        "publisher": "Open Geospatial Consortium",
+        "date": "August 2023"
     },
     "DAHU": {
         "aliasOf": "DAHUT"
@@ -3110,12 +3110,6 @@
     "RDF11-XML": {
         "aliasOf": "rdf-syntax-grammar"
     },
-    "Ref-by-Coords": {
-      "authors": ["Roger Lott"],
-      "title": "OGC Abstract Specification Topic 2 -- Geographic information -- Referencing by coordinates",
-      "date": "2019",
-      "href": "http://docs.opengeospatial.org/as/18-005r4/18-005r4.html"
-    },
     "RELAXNG": {
         "authors": [
             "James Clark",
@@ -3195,6 +3189,14 @@
     },
     "RUBY-UC": {
         "aliasOf": "ruby-use-cases"
+    },
+    "Ref-by-Coords": {
+        "authors": [
+            "Roger Lott"
+        ],
+        "title": "OGC Abstract Specification Topic 2 -- Geographic information -- Referencing by coordinates",
+        "date": "2019",
+        "href": "http://docs.opengeospatial.org/as/18-005r4/18-005r4.html"
     },
     "SAREF": {
         "aliasOf": "etsi-ts-103-264"
@@ -4980,20 +4982,6 @@
     "iso-19111": {
         "aliasOf": "iso-19111-2019"
     },
-    "iso-19111-2019": {
-        "authors": [
-            "ISO/TC 211"
-        ],
-        "href": "https://www.iso.org/standard/74039.html",
-        "title": "Geographic information -- Referencing by coordinates",
-        "publisher": "ISO",
-        "status": "International Standard",
-        "date": "2019",
-        "isoNumber": "ISO 19111:2019",
-        "updates": [
-            "iso-19111-2007"
-        ]
-    },
     "iso-19111-2007": {
         "authors": [
             "ISO/TC 211"
@@ -5007,6 +4995,20 @@
         "isSuperseded": true,
         "updatedBy": [
             "iso-19111-2019"
+        ]
+    },
+    "iso-19111-2019": {
+        "authors": [
+            "ISO/TC 211"
+        ],
+        "href": "https://www.iso.org/standard/74039.html",
+        "title": "Geographic information -- Referencing by coordinates",
+        "publisher": "ISO",
+        "status": "International Standard",
+        "date": "2019",
+        "isoNumber": "ISO 19111:2019",
+        "updates": [
+            "iso-19111-2007"
         ]
     },
     "iso-19115": {

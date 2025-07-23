@@ -76,6 +76,17 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/WICG/attribution-reporting-api"
     },
+    "AUDIO-CONTEXT-PLAYOUT-STATS": {
+        "href": "https://wicg.github.io/audio-context-playout-stats/",
+        "title": "Playout Statistics API for WebAudio",
+        "status": "Unofficial Proposal Draft",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/wicg/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/WICG/audio-context-playout-stats"
+    },
     "AV1-AVIF": {
         "href": "https://aomediacodec.github.io/av1-avif/",
         "title": "AV1 Image File Format (AVIF)",
@@ -281,17 +292,6 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/WICG/csp-next"
     },
-    "CSS-BORDERS-4": {
-        "href": "https://drafts.csswg.org/css-borders-4/",
-        "title": "CSS Borders and Box Decorations Module Level 4",
-        "status": "Editor's Draft",
-        "publisher": "W3C",
-        "deliveredBy": [
-            "https://www.w3.org/Style/CSS/"
-        ],
-        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/w3c/csswg-drafts"
-    },
     "CSS-COLOR-6": {
         "href": "https://drafts.csswg.org/css-color-6/",
         "title": "CSS Color Module Level 6",
@@ -390,17 +390,6 @@
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/WICG/css-parser-api"
-    },
-    "CSS-POSITION-4": {
-        "href": "https://drafts.csswg.org/css-position-4/",
-        "title": "CSS Positioned Layout Module Level 4",
-        "status": "Editor's Draft",
-        "publisher": "W3C",
-        "deliveredBy": [
-            "https://www.w3.org/Style/CSS/"
-        ],
-        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/w3c/csswg-drafts"
     },
     "CSS-SHAPES-2": {
         "href": "https://drafts.csswg.org/css-shapes-2/",
@@ -1097,7 +1086,7 @@
         "status": "Editor's Draft",
         "publisher": "W3C",
         "deliveredBy": [
-            "https://www.w3.org/WAI/ARIA/"
+            "https://www.w3.org/WAI/about/groups/ariawg/"
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/w3c/aria"
@@ -2336,6 +2325,50 @@
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/patcg-individual-drafts/topics"
+    },
+    "TRACE-CONTEXT-AMQP": {
+        "href": "https://w3c.github.io/trace-context-amqp/",
+        "title": "Trace Context: AMQP protocol",
+        "status": "Editor's Draft",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/groups/wg/distributed-tracing/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/w3c/trace-context-amqp"
+    },
+    "TRACE-CONTEXT-BINARY": {
+        "href": "https://w3c.github.io/trace-context-binary/",
+        "title": "Trace Context: binary protocol",
+        "status": "Editor's Draft",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/groups/wg/distributed-tracing/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/w3c/trace-context-binary"
+    },
+    "TRACE-CONTEXT-MQTT": {
+        "href": "https://w3c.github.io/trace-context-mqtt/",
+        "title": "Trace Context: MQTT protocol",
+        "status": "Editor's Draft",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/groups/wg/distributed-tracing/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/w3c/trace-context-mqtt"
+    },
+    "TRACESTATE-IDS-REGISTRY": {
+        "href": "https://w3c.github.io/tracestate-ids-registry/",
+        "title": "Tracestate Ids Registry",
+        "status": "Editor's Draft",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/groups/wg/distributed-tracing/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/w3c/tracestate-ids-registry"
     },
     "TRANSLATION-API": {
         "href": "https://webmachinelearning.github.io/translation-api/",
