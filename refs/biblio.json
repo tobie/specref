@@ -2787,6 +2787,12 @@
     "ODRL11": {
         "aliasOf": "odrl"
     },
+    "OGC-Topic-2": {
+        "aliasOf": "Ref-by-Coords"
+    },
+    "OGC-Topic-20": {
+        "aliasOf": "OMS"
+    },
     "OGG": {
         "aliasOf": "rfc3533"
     },
@@ -2824,7 +2830,7 @@
         "date": "2023",
         "title": "Observations, measurements and samples (OMS)",
         "status": "OGC Abstract Specification Topic 20",
-        "obsoletes": [
+        "updates": [
             "OandM"
         ]
     },
@@ -2985,6 +2991,7 @@
         "date": "2011",
         "title": "Observations and Measurements (O&M) v2",
         "status": "OGC Abstract Specification Topic 20",
+        "isSuperseded": true,
         "updatedBy": [
             "OMS"
         ]
@@ -3102,6 +3109,12 @@
     },
     "RDF11-XML": {
         "aliasOf": "rdf-syntax-grammar"
+    },
+    "Ref-by-Coords": {
+      "authors": ["Roger Lott"],
+      "title": "OGC Abstract Specification Topic 2 -- Geographic information -- Referencing by coordinates",
+      "date": "2019",
+      "href": "http://docs.opengeospatial.org/as/18-005r4/18-005r4.html"
     },
     "RELAXNG": {
         "authors": [
@@ -4965,7 +4978,21 @@
         ]
     },
     "iso-19111": {
-        "aliasOf": "iso-19111-2007"
+        "aliasOf": "iso-19111-2019"
+    },
+    "iso-19111-2019": {
+        "authors": [
+            "ISO/TC 211"
+        ],
+        "href": "https://www.iso.org/standard/74039.html",
+        "title": "Geographic information -- Referencing by coordinates",
+        "publisher": "ISO",
+        "status": "International Standard",
+        "date": "2019",
+        "isoNumber": "ISO 19111:2019",
+        "updates": [
+            "iso-19111-2007"
+        ]
     },
     "iso-19111-2007": {
         "authors": [
@@ -4976,7 +5003,11 @@
         "publisher": "ISO",
         "status": "International Standard",
         "date": "2007",
-        "isoNumber": "ISO 19111:2007"
+        "isoNumber": "ISO 19111:2007",
+        "isSuperseded": true,
+        "updatedBy": [
+            "iso-19111-2019"
+        ]
     },
     "iso-19115": {
         "aliasOf": "iso-19115-2003"
