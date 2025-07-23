@@ -512,17 +512,6 @@
     "DIGEST-HEADERS": {
         "aliasOf": "rfc9530"
     },
-    "DIGITAL-CREDENTIALS": {
-        "href": "https://w3c-fedid.github.io/digital-credentials/",
-        "title": "Digital Credentials",
-        "status": "Editor's Draft",
-        "publisher": "W3C",
-        "deliveredBy": [
-            "https://www.w3.org/groups/wg/fedid/"
-        ],
-        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/w3c-fedid/digital-credentials"
-    },
     "DIGITAL-GOODS": {
         "href": "https://wicg.github.io/digital-goods/",
         "title": "Digital Goods API",
@@ -535,7 +524,7 @@
         "repository": "https://github.com/WICG/digital-goods"
     },
     "DIGITAL-IDENTITIES": {
-        "aliasOf": "DIGITAL-CREDENTIALS"
+        "aliasOf": "digital-credentials"
     },
     "DIRECT-SOCKETS": {
         "href": "https://wicg.github.io/direct-sockets/",
