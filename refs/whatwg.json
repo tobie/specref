@@ -44,6 +44,17 @@
         "source": "https://resources.whatwg.org/biblio.json",
         "repository": "https://github.com/whatwg/console"
     },
+    "COOKIESTORE": {
+        "authors": [
+            "Dylan Cutler"
+        ],
+        "href": "https://cookiestore.spec.whatwg.org/",
+        "title": "Cookie Store API Standard",
+        "status": "Living Standard",
+        "publisher": "WHATWG",
+        "source": "https://resources.whatwg.org/biblio.json",
+        "repository": "https://github.com/whatwg/cookiestore"
+    },
     "DIFFERENCES": {
         "authors": [
             "Simon Pieters"
@@ -564,6 +575,9 @@
     },
     "WHATWG-CONSOLE": {
         "aliasOf": "CONSOLE"
+    },
+    "WHATWG-COOKIESTORE": {
+        "aliasOf": "COOKIESTORE"
     },
     "WHATWG-DIFFERENCES": {
         "aliasOf": "DIFFERENCES"
