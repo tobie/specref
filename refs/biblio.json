@@ -1373,6 +1373,9 @@
             "2024": {
                 "aliasOf": "ECMASCRIPT-15.0"
             },
+            "2025": {
+                "aliasOf": "ECMASCRIPT-16.0"
+            },
             "5.1": {
                 "title": "ECMA-262 Edition 5.1, The ECMAScript Language Specification",
                 "rawDate": "2011-06",
@@ -1478,6 +1481,17 @@
                 "title": "ECMA-262 15th Edition, The ECMAScript 2024 Language Specification",
                 "rawDate": "2024-06",
                 "href": "https://262.ecma-international.org/15.0/",
+                "status": "Standard",
+                "authors": [
+                    "Shu-yu Guo",
+                    "Michael Ficarra",
+                    "Kevin Gibbons"
+                ]
+            },
+            "16.0": {
+                "title": "ECMA-262 16th Edition, The ECMAScript 2025 Language Specification",
+                "rawDate": "2025-06",
+                "href": "https://262.ecma-international.org/16.0/",
                 "status": "Standard",
                 "authors": [
                     "Shu-yu Guo",
