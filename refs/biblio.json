@@ -4463,10 +4463,10 @@
         }
     },
     "dcat-ap": {
-        "href": "https://joinup.ec.europa.eu/solution/dcat-application-profile-data-portals-europe",
-        "title": "DCAT Application Profile for data portals in Europe. Version 2.0.1",
+        "href": "https://interoperable-europe.ec.europa.eu/collection/semic-support-centre/solution/dcat-application-profile-data-portals-europe",
+        "title": "DCAT Application Profile for data portals in Europe",
         "publisher": "European Commission",
-        "rawDate": "2020-06-08",
+        "rawDate": "2013-09-13",
         "deliveredBy": [
             "http://data.europa.eu/w21/ac376c94-74cf-4dd7-ade7-267d6a4ec4dc"
         ],
@@ -4530,6 +4530,42 @@
                 "deliveredBy": [
                     "http://data.europa.eu/w21/ac376c94-74cf-4dd7-ade7-267d6a4ec4dc"
                 ]
+            },
+            "20211217": {
+                "href": "https://semiceu.github.io/DCAT-AP/releases/2.1.0/",
+                "title": "DCAT Application Profile for data portals in Europe. 2.1.0",
+                "rawDate": "2021-12-17",
+                "publisher": "European Commission",
+                "deliveredBy": [
+                    "http://data.europa.eu/w21/ac376c94-74cf-4dd7-ade7-267d6a4ec4dc"
+                ]
+            },
+            "20220831": {
+                "href": "https://semiceu.github.io/DCAT-AP/releases/2.1.1/",
+                "title": "DCAT Application Profile for data portals in Europe. 2.1.1",
+                "rawDate": "2022-08-31",
+                "publisher": "European Commission",
+                "deliveredBy": [
+                    "http://data.europa.eu/w21/ac376c94-74cf-4dd7-ade7-267d6a4ec4dc"
+                ]
+            },
+            "20240614": {
+                "href": "https://semiceu.github.io/DCAT-AP/releases/3.0.0/",
+                "title": "DCAT-AP 3.0",
+                "rawDate": "2024-06-14",
+                "publisher": "European Commission",
+                "deliveredBy": [
+                    "http://data.europa.eu/w21/ac376c94-74cf-4dd7-ade7-267d6a4ec4dc"
+                ]
+            },
+            "20250710": {
+                "href": "https://semiceu.github.io/DCAT-AP/releases/3.0.1/",
+                "title": "DCAT-AP 3.0.1",
+                "rawDate": "2025-07-10",
+                "publisher": "European Commission",
+                "deliveredBy": [
+                    "http://data.europa.eu/w21/ac376c94-74cf-4dd7-ade7-267d6a4ec4dc"
+                ]
             }
         }
     },
@@ -4567,6 +4603,15 @@
                 "href": "https://semiceu.github.io/GeoDCAT-AP/releases/2.0.0/",
                 "title": "GeoDCAT-AP: A geospatial extension for the DCAT application profile for data portals in Europe. Version 2.0.0",
                 "rawDate": "2020-12-23",
+                "publisher": "European Commission",
+                "deliveredBy": [
+                    "https://joinup.ec.europa.eu/solution/geodcat-application-profile-data-portals-europe"
+                ]
+            },
+            "20241004": {
+                "href": "https://semiceu.github.io/GeoDCAT-AP/releases/3.0.0/",
+                "title": "GeoDCAT-AP 3.0.0",
+                "rawDate": "2024-10-04",
                 "publisher": "European Commission",
                 "deliveredBy": [
                     "https://joinup.ec.europa.eu/solution/geodcat-application-profile-data-portals-europe"
