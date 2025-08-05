@@ -751,6 +751,28 @@
         "publisher": "Consumer Technology Association",
         "status": "CTA Specification"
     },
+    "CTA-5000-G": {
+        "title": "Web Media API Snapshot 2024 CTA-5000-G",
+        "authors": [
+            "Jon Piesing",
+            "John Riviello"
+        ],
+        "href": "https://cdn.cta.tech/cta/media/media/resources/standards/cta-5000-g-final.pdf",
+        "date": "October 2024",
+        "publisher": "Consumer Technology Association",
+        "status": "CTA Specification"
+    },
+    "CTA-5000-G-ERRATA": {
+        "title": "Web Media API Snapshot 2024 CTA-5000-G & Errata",
+        "authors": [
+            "Jon Piesing",
+            "John Riviello"
+        ],
+        "href": "https://www.cta.tech/resources-folder/standards/cta-5000-g-errata/",
+        "date": "April 2025",
+        "publisher": "Consumer Technology Association",
+        "status": "CTA Specification"
+    },
     "CUAP": {
         "authors": [
             "Karl Dubost"
@@ -3899,6 +3921,12 @@
     },
     "WMAS2023": {
         "aliasOf": "CTA-5000-F"
+    },
+    "WMAS2024": {
+        "aliasOf": "CTA-5000-G"
+    },
+    "WMAS2024-ERRATA": {
+        "aliasOf": "CTA-5000-G-ERRATA"
     },
     "WebIDL-2": {
         "aliasOf": "WEBIDL"
