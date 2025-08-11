@@ -297,6 +297,7 @@ Some rules to observe when editing the `refs/biblio.json` file:
     }, //...
 }
 ```
+* If “Authors” and “Editors” are mentioned in a specification, both should be listed under the `authors` field of an entry in `biblio.json`.
 
 ## Licenses
 
