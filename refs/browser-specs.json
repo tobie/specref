@@ -784,7 +784,7 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/WICG/fenced-frame"
     },
-    "FIDO-V2.1": {
+    "FIDO-CLIENT-TO-AUTHENTICATOR-PROTOCOL-V2.1": {
         "href": "https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html",
         "title": "Client to Authenticator Protocol (CTAP)",
         "status": "Editor's Draft",
@@ -793,6 +793,19 @@
             "https://fidoalliance.org/members/working-groups/"
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json"
+    },
+    "FIDO-CLIENT-TO-AUTHENTICATOR-PROTOCOL-V2.2": {
+        "href": "https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html",
+        "title": "Client to Authenticator Protocol (CTAP)",
+        "status": "Editor's Draft",
+        "publisher": "FIDO Alliance",
+        "deliveredBy": [
+            "https://fidoalliance.org/members/working-groups/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json"
+    },
+    "FIDO-V2.1": {
+        "aliasOf": "FIDO-CLIENT-TO-AUTHENTICATOR-PROTOCOL-V2.1"
     },
     "FILE-SYSTEM-ACCESS": {
         "href": "https://wicg.github.io/file-system-access/",
@@ -1735,13 +1748,18 @@
     "SPECULATION-RULES": {
         "href": "https://wicg.github.io/nav-speculation/speculation-rules.html",
         "title": "Speculation Rules",
-        "status": "Draft Community Group Report",
+        "status": "Editor's Draft",
         "publisher": "W3C",
         "deliveredBy": [
             "https://www.w3.org/community/wicg/"
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/WICG/nav-speculation"
+        "repository": "https://github.com/WICG/nav-speculation",
+        "obsoletedBy": [
+            "HTML",
+            "PRERENDERING-REVAMPED"
+        ],
+        "isSuperseded": true
     },
     "SPEECH-API": {
         "href": "https://webaudio.github.io/web-speech-api/",
