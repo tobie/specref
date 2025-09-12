@@ -164,6 +164,17 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/WICG/background-sync"
     },
+    "BODY-TRACKING": {
+        "href": "https://immersive-web.github.io/body-tracking/",
+        "title": "WebXR Body Tracking Module - Level 1",
+        "status": "Draft Community Group Report",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/immersive-web/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/immersive-web/body-tracking"
+    },
     "CAPABILITY-DELEGATION": {
         "href": "https://wicg.github.io/capability-delegation/spec.html",
         "title": "Capability Delegation",
@@ -283,6 +294,17 @@
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/WICG/csp-next"
+    },
+    "CSS-ANCHOR-POSITION-2": {
+        "href": "https://drafts.csswg.org/css-anchor-position-2/",
+        "title": "CSS Anchor Positioning Level 2",
+        "status": "Editor's Draft",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/groups/wg/css/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/w3c/csswg-drafts"
     },
     "CSS-COLOR-6": {
         "href": "https://drafts.csswg.org/css-color-6/",
@@ -1655,8 +1677,11 @@
         "repository": "https://github.com/w3c/data-shapes"
     },
     "SHACL12-INF-RULES": {
-        "href": "https://w3c.github.io/data-shapes/shacl12-inf-rules/",
-        "title": "SHACL 1.2 Inference Rules",
+        "aliasOf": "SHACL12-RULES"
+    },
+    "SHACL12-NODE-EXPR": {
+        "href": "https://w3c.github.io/data-shapes/shacl12-node-expr/",
+        "title": "SHACL 1.2 Node Expressions",
         "status": "Editor's Draft",
         "publisher": "W3C",
         "deliveredBy": [
@@ -1665,9 +1690,9 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/w3c/data-shapes"
     },
-    "SHACL12-NODE-EXPR": {
-        "href": "https://w3c.github.io/data-shapes/shacl12-node-expr/",
-        "title": "SHACL 1.2 Node Expressions",
+    "SHACL12-RULES": {
+        "href": "https://w3c.github.io/data-shapes/shacl12-rules/",
+        "title": "SHACL 1.2 Rules",
         "status": "Editor's Draft",
         "publisher": "W3C",
         "deliveredBy": [
@@ -3067,15 +3092,7 @@
         "repository": "https://github.com/w3c/wot-binding-registry"
     },
     "WOT-BINDINGS-REGISTRY": {
-        "href": "https://w3c.github.io/wot-bindings-registry/",
-        "title": "Web of Things (WoT) Bindings Registry",
-        "status": "Editor's Draft",
-        "publisher": "W3C",
-        "deliveredBy": [
-            "https://www.w3.org/WoT/wg/"
-        ],
-        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/w3c/wot-bindings-registry"
+        "aliasOf": "WOT-BINDING-REGISTRY"
     },
     "WRITING-ASSISTANCE-APIS": {
         "href": "https://webmachinelearning.github.io/writing-assistance-apis/",
