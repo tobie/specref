@@ -266,6 +266,36 @@ Unfortunately it doesn't use HTTPS yet.
 
 There are [scripts](scripts/run-all) that pull fresh data from IETF, W3C, WHATWG, and other organizations, and update their relevant files in the `refs` directory. These are now run hourly. Their output is tested, committed and deployed without human intervention. Content should now always be up to date.
 
+### Overwrite files for auto-generated data corrections
+
+The `overwrites/` directory contains JSON files that allow post-processing modifications to auto-generated reference data. Each file corresponds to a reference file (e.g., `overwrites/whatwg.json` modifies `refs/whatwg.json`) and contains an array of actions to perform on specific references.
+
+Supported overwrite actions:
+
+*   **`delete`** - Remove a reference entirely
+*   **`createAlias`** - Create an alias pointing to another reference
+*   **`renameTo`** - Rename a reference ID (preserving versions)
+*   **`replaceProp`** - Replace a property value
+*   **`deleteProp`** - Remove a property
+
+Example overwrite file:
+```json
+[
+  {
+    "id": "OBSOLETE-SPEC",
+    "action": "delete"
+  },
+  {
+    "id": "WEBIDL",
+    "action": "replaceProp",
+    "prop": "versions",
+    "value": { "20161215": { "href": "...", "status": "REC" } }
+  }
+]
+```
+
+Overwrites are applied automatically after each auto-update, allowing corrections to auto-generated data without manual intervention in the main reference files.
+
 ### Manual changes
 
 Generally, manual changes should be limited to the `refs/biblio.json` file.
