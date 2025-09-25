@@ -7,7 +7,6 @@
         "^[a-zA-Z0-9\\-_+\\.]+$": {
             "oneOf": [
                 { "$ref": "#/definitions/alias" },
-                { "$ref": "#/definitions/legacyRef" },
                 { "$ref": "#/definitions/ref" }
             ]
         }
@@ -113,10 +112,6 @@
             },
             "required": ["href"],
             "additionalProperties": false
-        },
-        "legacyRef": {
-            "description": "Legacy, unstructured data. Please don't do this. Please help get it fixed: https://github.com/tobie/specref/issues/147",
-            "type": "string"
         },
         "alias": {
             "type": "object",

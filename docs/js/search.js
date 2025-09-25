@@ -24,7 +24,6 @@ function highlight(txt, searchString) {
 }
 
 function stringifyRef(ref) {
-    if (typeof ref === "string") return "<div>" + ref + "</div>";
     var output = "";
     if (ref.authors && ref.authors.length) {
         output += ref.authors.join("; ");

@@ -2016,6 +2016,11 @@
         "title": "RTP Payload Format media types",
         "publisher": "IANA"
     },
+    "IANA-SRVPORT-REG": {
+        "title": "IANA Service Name and Transport Protocol Port Number Registry",
+        "href": "http://www.iana.org/form/ports-services",
+        "publisher": "IANA"
+    },
     "IANA-TLS-CIPHERS": {
         "href": "https://www.iana.org/assignments/tls-parameters/tls-parameters.xhtml#tls-parameters-4",
         "title": "TLS Cipher Suite Registry",
@@ -2046,13 +2051,39 @@
         "title": "Uniform Resource Names (URN) Namespaces",
         "publisher": "IANA"
     },
+    "IANAPERMHEADERS": {
+        "title": "Permanent Message Header Field Names",
+        "href": "http://www.iana.org/assignments/message-headers/perm-headers.html",
+        "publisher": "IANA"
+    },
     "IAccessible2": {
         "href": "https://wiki.linuxfoundation.org/accessibility/iaccessible2/",
         "title": "IAccessible2",
         "publisher": "Linux Foundation"
     },
+    "ICC32": {
+        "title": "ICC Profile Format Specification, version 3.2",
+        "href": "http://www.color.org/icc32.pdf",
+        "rawDate": "1995"
+    },
+    "ICC42": {
+        "title": "Image technology colour management — Architecture, profile format, and data structure.",
+        "href": "http://color.org/ICC1v42_2006-05.pdf",
+        "rawDate": "2006-05-22",
+        "publisher": "International Color Consortium",
+        "status": "Specification ICC.1:2004-10 (Profile version 4.2.0.0) With errata incorporated"
+    },
     "ICE": {
         "aliasOf": "RFC5245"
+    },
+    "ID-MGM": {
+        "title": "International Data Protection and Digital Identity Management Tools",
+        "href": "https://web.archive.org/web/20191227054302/identityproject.lse.ac.uk/mary.pdf",
+        "rawDate": "2006-10-31",
+        "authors": [
+            "Rundle, M."
+        ],
+        "publisher": "Internet Governance Forum 2006 - Athens, Privacy Workshop I"
     },
     "ID3v2": {
         "href": "http://id3.org/id3v2.4.0-structure",
@@ -2096,6 +2127,30 @@
             }
         }
     },
+    "IEEE1363": {
+        "title": "IEEE 1363: Standard Specifications for Public Key Cryptography",
+        "href": "http://grouper.ieee.org/groups/1363/",
+        "rawDate": "2000-08",
+        "publisher": "IEEE"
+    },
+    "IEEE1588": {
+        "title": "IEEE 1588-2008: A Precision Clock Synchronization Protocol for Networked Measurement and Control Systems",
+        "href": "http://grouper.ieee.org/groups/1588/",
+        "rawDate": "2008-07-24"
+    },
+    "IEEE802-1AS": {
+        "title": "IEEE 802.1AS - Timing and Synchronization",
+        "href": "http://ieee802.org/1/pages/802.1as.html",
+        "rawDate": "2011-03-30",
+        "authors": [
+            "Geoff Garner"
+        ],
+        "status": "IEEE Standard"
+    },
+    "IEEE802-3": {
+        "title": "IEEE 802.3: Carrier sense multiple access with Collision Detection (CSMA/CD) Access Method and Physical Layer Specifications",
+        "rawDate": "2008-12"
+    },
     "IMAGEMAP": {
         "aliasOf": "NOTE-imagemap"
     },
@@ -2130,6 +2185,17 @@
         "title": "Integrated Services Digital Broadcasting",
         "href": "http://dibeg.org/"
     },
+    "ISO10646": {
+        "title": "Information Technology - Universal Multiple- Octet Coded CharacterSet (UCS) - Part 1: Architecture and Basic Multilingual Plane.",
+        "rawDate": "1993",
+        "status": "ISO/IEC10646-1:1993"
+    },
+    "ISO15924": {
+        "title": "Code for the representation of names of scripts.",
+        "rawDate": "1998",
+        "publisher": "International Organization for Standardization",
+        "status": "ISO 15924:1998. Draft International Standard"
+    },
     "ISO18013-5": {
         "title": "ISO/IEC 18013-5:2021 ISO-compliant driving licence, Part 5: Mobile driving licence (mDL) application",
         "authors": [
@@ -2138,6 +2204,13 @@
         "date": "September 2021",
         "publisher": "International Organization for Standardization",
         "href": "https://www.iso.org/standard/69084.html"
+    },
+    "ISO18033-2": {
+        "title": "Information technology -- Security techniques -- Encryption algorithms -- Part 2: Asymmetric ciphers",
+        "href": "http://www.iso.org/iso/home.htm",
+        "rawDate": "2006-05",
+        "publisher": "International Organization for Standardization",
+        "status": "18033-2:2006"
     },
     "ISO3166": {
         "aliasOf": "ISO3166-1"
@@ -2218,6 +2291,19 @@
         "title": "Date and time — Representations for information interchange — Part 2: Extensions. ISO 8601-2:2019.",
         "isoNumber": "ISO 8601-2:2019"
     },
+    "ISO8879": {
+        "title": "Information Processing -- Text and Office Systems -- Standard Generalized Markup Language (SGML).",
+        "href": "http://www.iso.ch/cate/d16387.html",
+        "rawDate": "1986",
+        "status": "ISO 8879:1986"
+    },
+    "ISO9070": {
+        "title": "Registration procedures for public text owner identifiers.",
+        "href": "http://www.iso.org/iso/catalogue_detail.htm?csnumber=16644",
+        "rawDate": "1990",
+        "publisher": "International Organization for Standardization",
+        "status": "ISO 9070:1990"
+    },
     "ISOBMFF": {
         "aliasOf": "iso14496-12"
     },
@@ -2241,6 +2327,18 @@
         "status": "Recommendation",
         "rawDate": "2015-06-17",
         "publisher": "ITU"
+    },
+    "ITUMCC": {
+        "title": "List of Mobile Countries or Geographical Region Codes.",
+        "href": "http://www.itu.int/publ/T-SP-E.212A-2007/en",
+        "rawDate": "2007",
+        "publisher": "International Telecommunication Union"
+    },
+    "ITUMNC": {
+        "title": "Mobile Network Codes (MNC) for The International Identification Plan for Public Networks and Subscriptions.",
+        "href": "http://www.itu.int/publ/T-SP-E.212B-2009/en",
+        "rawDate": "2009",
+        "publisher": "International Telecommunication Union"
     },
     "JAPI": {
         "href": "http://www.oracle.com/technetwork/java/javase/tech/index-jsp-140174.html",
@@ -2282,6 +2380,18 @@
     },
     "JINGLE": {
         "aliasOf": "XEP-0166"
+    },
+    "JIS4051": {
+        "title": "Formatting rules for Japanese documents (日本語文書の組版方法).",
+        "rawDate": "2004",
+        "publisher": "Japanese Standards Association",
+        "status": "JIS X 4051:2004. In Japanese"
+    },
+    "JISX4051": {
+        "title": "Line composition rules for Japanese documents.",
+        "rawDate": "1995",
+        "publisher": "Japanese Standards Association",
+        "status": "JIS X 4051-1995. In Japanese"
     },
     "JPEG": {
         "authors": [
@@ -2384,10 +2494,29 @@
         "date": "September 1999",
         "status": "Software package"
     },
+    "KnowPrivacy": {
+        "title": "KnowPrivacy.",
+        "href": "http://www.knowprivacy.org/report/KnowPrivacy_Final_Report.pdf",
+        "rawDate": "2009-06-01",
+        "authors": [
+            "Joshua Gomez",
+            "Travis Pinnick",
+            "Ashkan Soltani"
+        ]
+    },
     "LANG-SUBTAG-REGISTRY": {
         "title": "Language Subtag Registry",
         "href": "http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry",
         "publisher": "IANA"
+    },
+    "LANGCULTTYPE": {
+        "title": "Language Culture Type.",
+        "rawDate": "2001",
+        "authors": [
+            "John D. Berry, Ed."
+        ],
+        "publisher": "Graphis",
+        "status": "ISBN 1-932026-01-0"
     },
     "LDAP-DN": {
         "aliasOf": "RFC4514"
@@ -2441,6 +2570,15 @@
         "date": "25 October 2011",
         "status": "W3C Incubator Group Report",
         "publisher": "W3C"
+    },
+    "MCINTOSH-WRAP": {
+        "title": "XML signature element wrapping attacks and countermeasures.",
+        "rawDate": "2005",
+        "authors": [
+            "Michael McIntosh",
+            "Paula Austel"
+        ],
+        "publisher": "Workshop on Secure Web Services"
     },
     "MDNS": {
         "aliasOf": "RFC6762"
@@ -2511,6 +2649,15 @@
     "MEDIAQ-20120619": {
         "aliasOf": "mediaqueries-3-20120619"
     },
+    "MFREL": {
+        "title": "Microformats Wiki: existing rel values",
+        "href": "http://microformats.org/wiki/existing-rel-values#HTML5_link_type_extensions",
+        "publisher": "Microformats"
+    },
+    "MICROFORMATS": {
+        "title": "Microformats",
+        "href": "http://microformats.org"
+    },
     "MIDI": {
         "href": "https://midi.org/midi-1-0-core-specifications",
         "title": "MIDI 1.0 Core Specifications",
@@ -2536,14 +2683,44 @@
         "status": "Approved Enabler Release",
         "title": "Multimedia Messaging Service 1.3"
     },
+    "MNG": {
+        "title": "MNG (Multiple-image Network Graphics) Format",
+        "href": "http://www.libpng.org/pub/mng/spec/",
+        "authors": [
+            "G. Randers-Pehrson"
+        ]
+    },
+    "MOZ-ICONS": {
+        "title": "Privacy Icons",
+        "href": "https://wiki.mozilla.org/Drumbeat/Challenges/Privacy_Icons",
+        "rawDate": "2010-03-06",
+        "authors": [
+            "Martin, J.",
+            "Raskin, A.",
+            "Gelman, L.",
+            "Rood, D.",
+            "Surman, M.",
+            "Hadfield, G.",
+            "Greant, Z."
+        ],
+        "publisher": "Mozilla Wiki"
+    },
     "MP3": {
         "aliasOf": "iso11172-3"
     },
     "MP4": {
         "aliasOf": "iso14496-14"
     },
+    "MPEG2": {
+        "title": "ISO/IEC 13818-1: Information technology — Generic coding of moving pictures and associated audio information: Systems",
+        "publisher": "ISO/IEC"
+    },
     "MPEG2TS": {
         "aliasOf": "iso13818-1"
+    },
+    "MPEG4": {
+        "title": "ISO/IEC 14496-12: ISO base media file format",
+        "publisher": "ISO/IEC"
     },
     "MPEG4-30": {
         "aliasOf": "iso14496-30"
@@ -2572,6 +2749,15 @@
         "status": "5.0",
         "date": "March 2019",
         "publisher": "OASIS"
+    },
+    "MRCPv2": {
+        "title": "Media Resource Control Protocol Version 2",
+        "href": "https://tools.ietf.org/html/draft-ietf-speechsc-mrcpv2-27",
+        "rawDate": "2011-11-15",
+        "authors": [
+            "Burnett, D.",
+            "Shanmugham, S."
+        ]
     },
     "MSAA": {
         "href": "https://docs.microsoft.com/en-us/windows/win32/winauto/microsoft-active-accessibility",
@@ -2651,6 +2837,18 @@
         "status": "W3C Team Submission",
         "publisher": "W3C"
     },
+    "NAMED-GRAPHS": {
+        "title": "Named Graphs, Provenance and Trust",
+        "href": "http://sites.wiwiss.fu-berlin.de/suhl/bizer/SWTSGuide/carroll-ISWC2004.pdf",
+        "rawDate": "2005",
+        "authors": [
+            "Jeremy J. Carroll",
+            "Chris Bizer",
+            "Pat Hayes",
+            "Patrick Stickler"
+        ],
+        "publisher": "The Semantic Web — ISWC2004, Yokohama, Springer–Verlag"
+    },
     "NAMES": {
         "authors": [
             "Chris Lilley"
@@ -2680,6 +2878,11 @@
         "status": "Living Specification",
         "publisher": "NDE",
         "repository": "https://github.com/netwerk-digitaal-erfgoed/requirements-datasets"
+    },
+    "NPAPI": {
+        "title": "Gecko Plugin API Reference",
+        "href": "https://developer.mozilla.org/en-US/Add-ons/Plugins/Gecko_Plugin_API_Reference",
+        "publisher": "Mozilla"
     },
     "NSAccessibility": {
         "href": "https://developer.apple.com/documentation/appkit/nsaccessibility",
@@ -2776,6 +2979,22 @@
             }
         }
     },
+    "OAEP-ATTACK": {
+        "title": "A Chosen Ciphertext Attack on RSA Optimal Asymmetric Encryption Padding (OAEP) as Standardized in PKCS #1 v2.0",
+        "href": "http://archiv.infsec.ethz.ch/education/fs08/secsem/Manger01.pdf",
+        "authors": [
+            "Manger, James"
+        ]
+    },
+    "OASIS-TAG": {
+        "title": "Test Assertions Guidelines",
+        "href": "http://docs.oasis-open.org/tag/guidelines/v1.0/testassertionsguidelines.html",
+        "authors": [
+            "Stephen D. Green",
+            "Dmitry Kostovarov"
+        ],
+        "status": "OASIS Committee Draft (Work in progress)"
+    },
     "OAUTH-POP-KEY-DISTRIBUTION": {
         "authors": [
             "J. Bradley",
@@ -2815,6 +3034,12 @@
     "ODRL11": {
         "aliasOf": "odrl"
     },
+    "OEB101": {
+        "title": "Open eBook(tm) Publication Structure 1.0.1.",
+        "href": "http://www.openebook.org/oebps/oebps1.0.1/download/oeb101-xhtml.htm",
+        "rawDate": "2001-07-02",
+        "publisher": "Open eBook Forum(tm)"
+    },
     "OGC-Topic-2": {
         "aliasOf": "Ref-by-Coords"
     },
@@ -2834,6 +3059,46 @@
         "href": "https://ogp.me",
         "title": "The Open Graph Protocol",
         "date": "December 2010"
+    },
+    "OIPF-ARCH-2": {
+        "title": "Functional Architecture - V2.1",
+        "href": "http://www.oipf.tv/docs/OIPF-T1-R2-Functional_Architecture-v2_1-2011-03-15.pdf",
+        "publisher": "Open IPTV Forum"
+    },
+    "OIPF-DAE-2": {
+        "title": "Release 2 volume 5 (v2.1)",
+        "href": "http://www.oipf.tv/docs/Release2/V2.1/OIPF-T1-R2-Specification-Volume-5-Declarative-Application-Environment-v2_1-2011-06-21.pdf",
+        "publisher": "Open IPTV Forum"
+    },
+    "OIPF-PROT-2": {
+        "title": "Release 2 volume 4 (v2.1)",
+        "href": "http://www.oipf.tv/docs/Release2/V2.1/OIPF-T1-R2-Specification-Volume-4-Protocols-v2_1-2011-06-21.pdf",
+        "publisher": "Open IPTV Forum"
+    },
+    "OIPF-REQS-2": {
+        "title": "Open IPTV Forum Service and Platform Requirements v2.0",
+        "href": "http://www.oipf.tv/docs/OIPF-T1-R2-Service-and-Platform-RequirementsV2_0-2008-12-12.pdf",
+        "publisher": "Open IPTV Forum"
+    },
+    "OIPF-SERV-2": {
+        "title": "Services and Functions for Release 2 - v1.0",
+        "href": "http://www.oipf.tv/docs/OIPF-T1-R2-Services_and_Functions-V1_0-2008-10-20.pdf",
+        "publisher": "Open IPTV Forum"
+    },
+    "OMA-CAB": {
+        "title": "Converged Address Book Enabler, Version 1.0",
+        "href": "http://www.openmobilealliance.org/",
+        "publisher": "Open Mobile Alliance"
+    },
+    "OMA-DM": {
+        "title": "OMA Device Management V1.2",
+        "href": "http://www.openmobilealliance.org/Technical/release_program/dm_v1_2.aspx",
+        "rawDate": "2008-06-17"
+    },
+    "OMA-PUSH": {
+        "title": "OMA Push Version 2.3",
+        "href": "http://www.openmobilealliance.org/Technical/release_program/push_v2_3.aspx",
+        "publisher": "Open Mobile Alliance"
     },
     "OMA-URI-SCHEMES": {
         "href": "http://www.openmobilealliance.org/Technical/release_program/docs/URI_Schemes/V1_0-20080626-A/OMA-TS-URI_Schemes-V1_0-20080626-A.pdf",
@@ -3003,6 +3268,12 @@
         "status": "Final",
         "rawDate": "2023-12-15"
     },
+    "OPENSEARCH": {
+        "title": "Autodiscovery in HTML/XHTML",
+        "href": "http://www.opensearch.org/Specifications/OpenSearch/1.1#Autodiscovery_in_HTML.2FXHTML",
+        "publisher": "OpenSearch.org",
+        "status": "In OpenSearch 1.1 Draft 4, Section 4.6.2"
+    },
     "ORIGIN": {
         "aliasOf": "RFC6454"
     },
@@ -3034,6 +3305,11 @@
         "publisher": "PC/SC Workgroup",
         "status": "Published"
     },
+    "PDF": {
+        "title": "Document management — Portable document format — Part 1: PDF",
+        "href": "http://www.adobe.com/devnet/acrobat/pdfs/PDF32000_2008.pdf",
+        "publisher": "ISO"
+    },
     "PERLRE": {
         "href": "http://search.cpan.org/dist/perl/pod/perlre.pod",
         "title": "Perl regular expressions (Perl 5.8.8)",
@@ -3057,6 +3333,12 @@
     "PKCS5": {
         "aliasOf": "rfc2898"
     },
+    "PKCS5Amd1": {
+        "title": "PKCS #5 v2.0 Amendment 1: XML Schema for Password-Based Cryptography",
+        "href": "ftp://ftp.rsasecurity.com/pub/pkcs/pkcs-5v2/pkcs-5v2-0a1.pdf",
+        "rawDate": "2007-03",
+        "publisher": "RSA Laboratories"
+    },
     "PLING-WIKI": {
         "authors": [
             "Policy Languages Interest Group (PLING)"
@@ -3067,6 +3349,14 @@
     },
     "PNG2e": {
         "aliasOf": "PNG-1"
+    },
+    "POCO-SCHEMA": {
+        "title": "Portable Contacts 1.0 Draft C: Contact Schema",
+        "href": "http://portablecontacts.net/draft-spec.html#schema",
+        "rawDate": "2008-08-05",
+        "authors": [
+            "Joseph Smarr"
+        ]
     },
     "POINTER-EVENTS": {
         "aliasOf": "pointerevents"
@@ -3086,6 +3376,156 @@
     },
     "POSTMSG": {
         "aliasOf": "webmessaging"
+    },
+    "PPUTF8": {
+        "title": "The Properties and Promises of UTF-8",
+        "href": "https://www.sw.it.aoyama.ac.jp/2012/pub/IUC11-UTF-8.pdf",
+        "authors": [
+            "M. Dürst"
+        ],
+        "publisher": "University of Zürich",
+        "status": "In Proceedings of the 11th International Unicode Conference"
+    },
+    "PRIV-ICONS": {
+        "title": "The 7 Things that Mater Most in Privacy",
+        "href": "http://www.azarask.in/blog/post/what-should-matter-in-privacy",
+        "rawDate": "2010-03-31",
+        "authors": [
+            "Raskin, A."
+        ]
+    },
+    "PRIV-ICONSET": {
+        "title": "Iconset for Data-Privacy Declarations v0.1",
+        "href": "http://asset.netzpolitik.org/wp-upload/data-privacy-icons-v01.pdf",
+        "authors": [
+            "Mehldau, M."
+        ]
+    },
+    "PRIV-LABEL": {
+        "title": "A 'Nutrition Label' for Privacy",
+        "href": "http://cups.cs.cmu.edu/soups/2009/proceedings/a4-kelley.pdf",
+        "rawDate": "2009-11-10",
+        "authors": [
+            "Kelley, P.",
+            "Bresse, J.",
+            "Cranor, L.",
+            "Reeder, R."
+        ],
+        "publisher": "Carnegie Mellon University"
+    },
+    "PRIVACY-BY-DESIGN": {
+        "title": "Privacy By Design: The 7 Foundational Principles",
+        "href": "http://www.ipc.on.ca/images/Resources/7foundationalprinciples.pdf",
+        "rawDate": "2009-08",
+        "authors": [
+            "Ann Cavoukian, PhD"
+        ],
+        "status": "revised January 2011"
+    },
+    "PRIVACY-ISSUES-GEO": {
+        "title": "Privacy Issues of the W3C Geolocation API",
+        "href": "http://escholarship.org/uc/item/0rp834wf",
+        "rawDate": "2010-02-24",
+        "authors": [
+            "Nick Doty",
+            "Deirdre K. Mulligan",
+            "Erik Wilde"
+        ],
+        "publisher": "UC Berkeley School of Information"
+    },
+    "PRIVACY-TERMINOLOGY": {
+        "title": "Terminology for Talking about Privacy by Data Minimization: Anonymity, Unlinkability, Undetectability, Unobservability, Pseudonymity, and Identity Management",
+        "href": "https://tools.ietf.org/id/draft-hansen-privacy-terminology-00.html",
+        "authors": [
+            "A. Pfitzmann",
+            "M. Hansen",
+            "H Tschofenig"
+        ],
+        "status": "IETF Internet Draft"
+    },
+    "PROV-QUERY": {
+        "title": "Querying for provenance, trust, uncertainty and other meta knowledge in RDF",
+        "href": "http://linkinghub.elsevier.com/retrieve/pii/S1570826809000237",
+        "rawDate": "2009",
+        "authors": [
+            "Renata Dividino",
+            "Sergey Sizov",
+            "Steffen Staab",
+            "Bernhard Schueler"
+        ],
+        "publisher": "Web Semantics: Science, Services and Agents on the World Wide Web, vol. 7, 2009, p. 204-219"
+    },
+    "PROV-RDF-S": {
+        "title": "On Explicit Provenance Management in RDF/S Graphs",
+        "href": "http://www.usenix.org/events/tapp09/tech/full_papers/pediaditis/pediaditis_html/",
+        "rawDate": "2009",
+        "authors": [
+            "Panagiotis Pediaditis",
+            "Giorgos Flouris",
+            "Irini Fundulaki",
+            "Vassilis Christophides"
+        ],
+        "publisher": "First Workshop on the Theory and Practice of Provenance (TaPP'09), ed. James Cheney. San Francisco, CA"
+    },
+    "PSL": {
+        "title": "Public Suffix List",
+        "href": "https://publicsuffix.org/",
+        "publisher": "Mozilla Foundation"
+    },
+    "PTECH-DECL": {
+        "title": "Declarative Interfaces for Dynamic Widgets Communications",
+        "href": "http://biblio.telecom-paristech.fr/cgi-bin/download.cgi?id=9917",
+        "rawDate": "2009-09",
+        "authors": [
+            "C. Concolato",
+            "J. Le Feuvre",
+            "J. C. Dufourd"
+        ],
+        "publisher": "Document Engineering, Munich, Germany, September 2009, pp. 241-244. PDF Document"
+    },
+    "PTECH-MIGRATE": {
+        "title": "Communicating and migratable interactive multimedia documents",
+        "href": "http://biblio.telecom-paristech.fr/cgi-bin/download.cgi?id=11187",
+        "rawDate": "2011-05",
+        "authors": [
+            "C. Concolato",
+            "J. C. Dufourd",
+            "J. Le Feuvre",
+            "K. Parkl J. Song"
+        ],
+        "publisher": "Multimedia Tools and Applications. PDF document"
+    },
+    "PTECH-SCW": {
+        "title": "SVG Communicating Widgets",
+        "href": "http://www.svgopen.org/2009/papers/28-SVG_Communicating_Widgets/",
+        "rawDate": "2009-10",
+        "authors": [
+            "J. C. Dufourd",
+            "C. Concolato",
+            "J. Le Feuvre"
+        ],
+        "publisher": "SVG Open, Mountain View, CA, USA"
+    },
+    "PTECH-WM": {
+        "title": "Widgets Mobility",
+        "href": "http://biblio.telecom-paristech.fr/cgi-bin/download.cgi?id=9919",
+        "rawDate": "2009-09",
+        "authors": [
+            "J. Le Feuvre",
+            "C. Concolato",
+            "J. C. Dufourd"
+        ],
+        "publisher": "International Conference on Mobile Technology, Applications and Systems, Nice, France. PDF document"
+    },
+    "PWGMSN": {
+        "title": "Media Standardized Names.",
+        "href": "ftp://ftp.pwg.org/pub/pwg/candidates/cs-pwgmsn10-20020226-5101.1.pdf",
+        "rawDate": "2002-02-26",
+        "authors": [
+            "Ron Bergman",
+            "Tom Hastings"
+        ],
+        "status": "IEEE ISTO Printer Working Group 5101.1-2002"
     },
     "QNAMES": {
         "authors": [
@@ -3169,6 +3609,27 @@
         "title": "RFC Index",
         "publisher": "IETF"
     },
+    "RFC3161-PKIX-UPDATE-9": {
+        "title": "ESSCertIDv2 update for RFC 3161",
+        "href": "https://tools.ietf.org/id/draft-ietf-pkix-rfc3161-update-09.txt",
+        "rawDate": "2010-04-29",
+        "authors": [
+            "Stefan Santesson",
+            "Nick Pope"
+        ],
+        "status": "IETF Internet Draft"
+    },
+    "RIPEMD-160": {
+        "title": "The Cryptographic Hash Function RIPEMD-160",
+        "href": "http://www.cosic.esat.kuleuven.be/publications/article-317.pdf",
+        "rawDate": "1997",
+        "authors": [
+            "B. Preneel",
+            "A. Bosselaers",
+            "H. Dobbertin"
+        ],
+        "publisher": "CryptoBytes, Volume 3, Number 2. pp. 9-14, RSA Laboratories"
+    },
     "RTCWEB-ALPN": {
         "aliasOf": "rfc8833"
     },
@@ -3226,6 +3687,23 @@
         "date": "2019",
         "href": "http://docs.opengeospatial.org/as/18-005r4/18-005r4.html"
     },
+    "RichSnippets": {
+        "title": "Introducing Rich Snippets.",
+        "href": "http://googlewebmastercentral.blogspot.com/2009/05/introducing-rich-snippets.html/",
+        "rawDate": "2009-05-12",
+        "publisher": "Google Webmaster Central Blog"
+    },
+    "SAML2-CORE": {
+        "title": "Assertions and Protocols for SAML V2.0",
+        "href": "http://docs.oasis-open.org/security/saml/v2.0/saml-core-2.0-os.pdf",
+        "rawDate": "2005-03-15",
+        "authors": [
+            "Scott Cantor",
+            "John Kemp",
+            "Rob Philpott",
+            "Eve Maler"
+        ]
+    },
     "SAREF": {
         "aliasOf": "etsi-ts-103-264"
     },
@@ -3271,6 +3749,28 @@
     "SAREF_Patterns": {
         "aliasOf": "etsi-ts-103-548"
     },
+    "SAX": {
+        "title": "SAX: The Simple API for XML",
+        "href": "http://www.megginson.com/downloads/SAX/",
+        "rawDate": "1998-05",
+        "authors": [
+            "D. Megginson",
+            "et al."
+        ]
+    },
+    "SCSU": {
+        "title": "UTR #6: A Standard Compression Scheme For Unicode",
+        "href": "https://www.unicode.org/reports/tr6/",
+        "authors": [
+            "M. Wolf",
+            "K. Whistler",
+            "C. Wicksteed",
+            "M. Davis",
+            "A. Freytag",
+            "M. Scherer"
+        ],
+        "publisher": "Unicode Consortium"
+    },
     "SCTE214": {
         "aliasOf": "SCTE214-1"
     },
@@ -3285,6 +3785,11 @@
     },
     "SDPLABEL": {
         "aliasOf": "rfc4574"
+    },
+    "SECG1": {
+        "title": "SEC1: Elliptic Curve Cryptography, Version 2.0, Standards for Efficient Cryptography Group",
+        "href": "http://www.secg.org/download/aid-780/sec1-v2.pdf",
+        "rawDate": "2009-05"
     },
     "SECURING-WEB": {
         "authors": [
@@ -3319,6 +3824,27 @@
     },
     "SGML-XML": {
         "aliasOf": "NOTE-sgml-xml-19971215"
+    },
+    "SHA-1-Analysis": {
+        "title": "SHA-1 collisions now 2^52",
+        "href": "http://eurocrypt2009rump.cr.yp.to/837a0a8086fa6ca714249409ddfae43d.pdf",
+        "authors": [
+            "McDonald, C.",
+            "Hawkes, P.",
+            "J. Pieprzyk"
+        ],
+        "publisher": "EuroCrypt 2009 Rump session"
+    },
+    "SHA-1-Collisions": {
+        "title": "Finding Collisions in the Full SHA-1",
+        "href": "http://people.csail.mit.edu/yiqun/SHA1AttackProceedingVersion.pdf",
+        "rawDate": "2005",
+        "authors": [
+            "X. Wang",
+            "Y.L. Yin",
+            "H. Yu"
+        ],
+        "publisher": "In Shoup, V., editor, Advances in Cryptology - CRYPTO 2005, 25th Annual International Cryptology Conference, Santa Barbara, California, USA, August 14-18, 2005, Proceedings, volume 3621 of LNCS, pages 17–36. Springer"
     },
     "SI": {
         "title": "SI Brochure: The International System of Units (SI), 8th edition",
@@ -3414,6 +3940,37 @@
     "SOLIDWEBAC": {
         "aliasOf": "WAC"
     },
+    "SP800-131A": {
+        "title": "Transitions: Recommendation for Transitioning the Use of Cryptographic Algorithms and Key Lengths, January 2011.",
+        "href": "https://csrc.nist.gov/publications/nistpubs/800-131A/sp800-131A.pdf",
+        "rawDate": "2011-01",
+        "status": "SP-800-131A U.S. Department of Commerce/National Institute of Standards and Technology"
+    },
+    "SP800-38D": {
+        "title": "NIST Special Publication 800-38D: Recommendation for Block Cipher Modes of Operation: Galois/Counter Mode (GCM) and GMAC",
+        "href": "https://csrc.nist.gov/publications/nistpubs/800-38D/SP-800-38D.pdf",
+        "rawDate": "2007-11",
+        "authors": [
+            "M. Dworkin"
+        ]
+    },
+    "SP800-56A": {
+        "title": "NIST Special Publication 800-56A: Recommendation for Pair-Wise Key Establishment Schemes Using Discrete Logarithm Cryptography (Revised)",
+        "href": "https://csrc.nist.gov/publications/nistpubs/800-56A/SP800-56A_Revision1_Mar08-2007.pdf",
+        "rawDate": "2007-03"
+    },
+    "SP800-57": {
+        "title": "Recommendation for Key Management – Part 1: General (Revision 3)",
+        "href": "https://csrc.nist.gov/publications/nistpubs/800-57/sp800-57_part1_rev3_general.pdf",
+        "rawDate": "2012-07",
+        "status": "SP800-57. U.S. Department of Commerce/National Institute of Standards and Technology"
+    },
+    "SP800-67": {
+        "title": "Recommendation for the Triple Data Encryption Algorithm (TDEA) Block Cipher, Revised January 2012.",
+        "href": "https://csrc.nist.gov/publications/nistpubs/800-67-Rev1/SP-800-67-Rev1.pdf",
+        "rawDate": "2012-01",
+        "status": "SP-800-67 Revision 1. U.S. Department of Commerce/National Institute of Standards and Technology"
+    },
     "SPARQL-QUERY": {
         "aliasOf": "rdf-sparql-query"
     },
@@ -3488,6 +4045,18 @@
     "STUN-URI": {
         "aliasOf": "rfc7064"
     },
+    "SUITEB": {
+        "title": "NSA Suite B Cryptography",
+        "href": "http://www.nsa.gov/ia/programs/suiteb_cryptography/"
+    },
+    "SUS3": {
+        "title": "The Single UNIX Specification, Version 3",
+        "href": "http://www.unix.org/single_unix_specification/",
+        "rawDate": "2004",
+        "authors": [
+            "Cathy Hughes"
+        ]
+    },
     "SVG10": {
         "aliasOf": "SVG"
     },
@@ -3561,14 +4130,32 @@
         "status": "Published",
         "publisher": "Trusted Computing Group"
     },
+    "THEGRID": {
+        "title": "Grid: A Modular System for the Design and Production of Newspapers, Magazines, and Books.",
+        "rawDate": "1982",
+        "authors": [
+            "Allen Hurlburt"
+        ],
+        "publisher": "Wiley",
+        "status": "ISBN 0-471-28923-X"
+    },
     "TLS": {
         "aliasOf": "rfc5246"
+    },
+    "TOR": {
+        "title": "Tor",
+        "href": "https://www.torproject.org/"
     },
     "TRAM-TURN-THIRD-PARTY-AUTHZ": {
         "aliasOf": "rfc7635"
     },
     "TRICKLE-ICE": {
         "aliasOf": "rfc8838"
+    },
+    "TRIPLEDES": {
+        "title": "ANSI X9.52: Triple Data Encryption Algorithm Modes of Operation. 1998",
+        "href": "http://www.ansi.org/",
+        "rawDate": "1998"
     },
     "TRUETYPE": {
         "href": "https://developer.apple.com/fonts/TrueType-Reference-Manual/",
@@ -3587,8 +4174,35 @@
     "TURN-URI": {
         "aliasOf": "rfc7065"
     },
+    "TUSSLE": {
+        "title": "Tussle in Cyberspace: Defining Tomorrow's Internet.",
+        "href": "http://groups.csail.mit.edu/ana/Publications/PubPDFs/Tussle%20in%20Cyberspace%20Defining%20Tomorrows%20Internet%202005%27s%20Internet.pdf",
+        "rawDate": "2005-06",
+        "authors": [
+            "David D. Clark et.al."
+        ],
+        "publisher": "IEEE/ACM Transactions on Networking"
+    },
     "TYPED-ARRAYS": {
         "aliasOf": "typedarray"
+    },
+    "TZDATABASE": {
+        "title": "Time Zone Database",
+        "href": "http://www.iana.org/time-zones",
+        "publisher": "IANA"
+    },
+    "TZDB": {
+        "title": "Time Zone Information Database.",
+        "href": "http://www.twinsun.com/tz/tz-link.htm"
+    },
+    "Tobin": {
+        "title": "Infoset for external entities.",
+        "href": "https://lists.w3.org/Archives/Member/w3c-xml-core-wg/2000OctDec/0054",
+        "rawDate": "2000",
+        "authors": [
+            "R. Tobin"
+        ],
+        "status": "XML Core mailing list, W3C Member Only"
     },
     "UCR-Web-Maps": {
         "authors": [
@@ -3665,6 +4279,36 @@
     "UNICODE-SECURITY-MECHANISMS": {
         "aliasOf": "UTR39"
     },
+    "UNICODE310": {
+        "title": "The Unicode Standard: Version 3.1.0.",
+        "href": "https://www.unicode.org/unicode/standard/versions/enumeratedversions.html#Unicode_3_1_0",
+        "rawDate": "2000",
+        "publisher": "The Unicode Consortium",
+        "status": "Addison Wesley Longman. ISBN 0-201-61633-5"
+    },
+    "UNICODE4": {
+        "title": "The Unicode Standard, Version 4.1.0.",
+        "href": "https://www.unicode.org/versions/Unicode4.1.0/",
+        "publisher": "The Unicode Consortium",
+        "status": "Defined by: The Unicode Standard, Version 4.0 (Boston, MA, Addison-Wesley, 2003. ISBN 0-321-18578-1), as amended by Unicode 4.0.1 and by Unicode 4.1.0"
+    },
+    "UNICODE5": {
+        "title": "The Unicode Standard, Version 5.1.0.",
+        "href": "https://www.unicode.org/versions/Unicode5.1.0/",
+        "rawDate": "2007",
+        "publisher": "The Unicode Consortium",
+        "status": "Addison-Wesley. ISBN 0-321-48091-0"
+    },
+    "UNIVCHARDET": {
+        "title": "A composite approach to language/encoding detection",
+        "href": "http://www-archive.mozilla.org/projects/intl/UniversalCharsetDetection.html",
+        "authors": [
+            "S. Li",
+            "K. Momoi"
+        ],
+        "publisher": "Netscape",
+        "status": "In Proceedings of the 19th International Unicode Conference"
+    },
     "UNSANCTIONED-TRACKING": {
         "href": "http://www.w3.org/2001/tag/doc/unsanctioned-tracking/",
         "title": "Unsanctioned Web Tracking",
@@ -3674,6 +4318,89 @@
             "Mark Nottingham"
         ],
         "rawDate": "2015-07-17"
+    },
+    "UPNP-AVARCH2": {
+        "title": "UPnP AV Architecture:2",
+        "href": "http://www.upnp.org/specs/av/UPnP-av-AVArchitecture-v2-20101231.pdf",
+        "rawDate": "2010-12-31",
+        "authors": [
+            "John Ritchie",
+            "Thomas Kuehnel",
+            "Wouter van der Beek",
+            "Jeffrey Kang"
+        ],
+        "publisher": "UPnP Forum",
+        "status": "Standardized DCP. For UPnP Version 1.0. PDF document"
+    },
+    "UPNP-AVT3": {
+        "title": "AVTransport:3 Service",
+        "href": "http://www.upnp.org/specs/av/UPnP-av-AVTransport-v3-Service-20101231.pdf",
+        "rawDate": "2010-12-31",
+        "publisher": "UPnP Forum",
+        "status": "Standardized DCP. For UPnP Version 1.0. PDF document"
+    },
+    "UPNP-CD4": {
+        "title": "ContentDirectory:4 Service",
+        "href": "http://www.upnp.org/specs/av/UPnP-av-ContentDirectory-v4-Service-20101231.pdf",
+        "rawDate": "2010-12-31",
+        "publisher": "UPnP Forum",
+        "status": "Standardized DCP. For UPnP Version 1.0"
+    },
+    "UPNP-CM3": {
+        "title": "ConnectionManager:3 Service",
+        "href": "http://www.upnp.org/specs/av/UPnP-av-ConnectionManager-v3-Service-20101231.pdf",
+        "rawDate": "2010-12-31",
+        "publisher": "UPnP Forum",
+        "status": "Standardized DCP. For UPnP Version 1.0"
+    },
+    "UPNP-DEVICEARCH": {
+        "title": "UPnP Device Architecture 1.0",
+        "href": "http://www.upnp.org/specs/arch/UPnP-arch-DeviceArchitecture-v1.0-20081015.pdf",
+        "rawDate": "2008-10-15",
+        "publisher": "UPnP Forum",
+        "status": "For UPnP Version 1.0. PDF document"
+    },
+    "UPNP-DEVICEARCH11": {
+        "title": "UPnP Device Architecture 1.1",
+        "href": "http://upnp.org/specs/arch/UPnP-arch-DeviceArchitecture-v1.1.pdf",
+        "rawDate": "2008-10-15",
+        "publisher": "UPnP Forum",
+        "status": "PDF document"
+    },
+    "UPNP-DP1": {
+        "title": "DeviceProtection:1 Service",
+        "href": "http://www.upnp.org/specs/gw/UPnP-gw-DeviceProtection-v1-Service-20110224.pdf",
+        "rawDate": "2011-02-24",
+        "publisher": "UPnP Forum",
+        "status": "Standardized DCP. For UPnP Version 1.0"
+    },
+    "UPNP-MR3": {
+        "title": "MediaRenderer:3 Device",
+        "href": "http://www.upnp.org/specs/av/UPnP-av-MediaRenderer-v3-Device-20101231.pdf",
+        "rawDate": "2010-12-31",
+        "publisher": "UPnP Forum",
+        "status": "Standardized DCP. For UPnP Version 1.0. PDF document"
+    },
+    "UPNP-MS4": {
+        "title": "MediaServer:4 Device",
+        "href": "http://upnp.org/specs/av/UPnP-av-MediaServer-v4-Device.pdf",
+        "rawDate": "2010-12-31",
+        "publisher": "UPnP Forum",
+        "status": "Standardized DCP. For UPnP Version 1.0. PDF document"
+    },
+    "UPNP-RC3": {
+        "title": "RenderingControl:3 Service",
+        "href": "http://www.upnp.org/specs/av/UPnP-av-RenderingControl-v3-Service-20101231.pdf",
+        "rawDate": "2010-12-31",
+        "publisher": "UPnP Forum",
+        "status": "Standardized DCP. For UPnP Version 1.0. PDF document"
+    },
+    "UPNP-SR2": {
+        "title": "ScheduledRecording:2 Service",
+        "href": "http://www.upnp.org/specs/av/UPnP-av-ScheduledRecording-v2-Service-20101231.pdf",
+        "rawDate": "2010-12-31",
+        "publisher": "UPnP Forum",
+        "status": "Standardized DCP. For UPnP Version 1.0"
     },
     "URI": {
         "aliasOf": "rfc3986"
@@ -3692,6 +4419,14 @@
     },
     "UTF-8": {
         "aliasOf": "rfc3629"
+    },
+    "UTF8DET": {
+        "title": "Multilingual form encoding",
+        "href": "https://www.w3.org/International/questions/qa-forms-utf-8",
+        "authors": [
+            "M. Dürst"
+        ],
+        "publisher": "W3C"
     },
     "VIM": {
         "aliasOf": "VIM3"
@@ -3758,6 +4493,13 @@
             }
         }
     },
+    "WAC-ORIENTATION-API": {
+        "title": "Device APIs: The orientation module",
+        "href": "http://specs.wacapps.net/2.0/jun2011/deviceapis/orientation.html",
+        "rawDate": "2011-01-28",
+        "publisher": "WAC Application Services Ltd.",
+        "status": "WAC 2.0 Proposed Release Version (PRV)"
+    },
     "WAC-SENSOR-API": {
         "authors": [
             "WAC Application Services Ltd"
@@ -3796,6 +4538,20 @@
     },
     "WCAG-19990505": {
         "aliasOf": "WAI-WEBCONTENT-19990505"
+    },
+    "WCSS11": {
+        "title": "Wireless CSS Specification.",
+        "href": "http://www.openmobilealliance.org/technical/release_program/docs/Browsing/V2_3-20080331-A/OMA-WAP-WCSS-V1_1-20061020-A.pdf",
+        "rawDate": "2006-10",
+        "publisher": "Open Mobile Alliance",
+        "status": "Approved Version 1.1"
+    },
+    "WCSS12": {
+        "title": "Wireless CSS Specification Version 1.2.",
+        "href": "http://www.openmobilealliance.org/ftp/Public_documents/MCE/MAE/Permanent_documents/OMA-TS-WCSS-V1_2-20070921-D.zip",
+        "rawDate": "2007-09-21",
+        "publisher": "Open Mobile Alliance",
+        "status": "(Work in progress.)"
     },
     "WEB-SHARE-TARGET": {
         "authors": [
@@ -3923,6 +4679,11 @@
         ],
         "date": "3 January 2000"
     },
+    "WHATWGWIKI": {
+        "title": "The WHATWG Wiki",
+        "href": "https://wiki.whatwg.org/",
+        "publisher": "WHATWG"
+    },
     "WICDMobile10": {
         "aliasOf": "WICDMobile"
     },
@@ -3966,6 +4727,84 @@
     },
     "WMAS2024-ERRATA": {
         "aliasOf": "CTA-5000-G-ERRATA"
+    },
+    "WS-SECURECONVERSATION13": {
+        "title": "WS-SecureConversation 1.3",
+        "href": "https://www.oasis-open.org/standards#wssecconv1.3",
+        "rawDate": "2007-03-01",
+        "authors": [
+            "A. Nadalin",
+            "M. Goodner",
+            "M. Gudgin",
+            "A. Barbir",
+            "H. Granqvist"
+        ],
+        "status": "OASIS Standard"
+    },
+    "WS-SECURITY11": {
+        "title": "Web Services Security: SOAP Message Security 1.1 (WS-Security 2004)",
+        "href": "https://www.oasis-open.org/standards#wssv1.1",
+        "rawDate": "2006-02-01",
+        "authors": [
+            "A. Nadalin",
+            "C. Kaler",
+            "R. Monzillo",
+            "P. Hallam-Baker"
+        ],
+        "status": "OASIS Standard"
+    },
+    "WS-SECURITYPOLICY12": {
+        "title": "WS-SecurityPolicy 1.2, OASIS Standard",
+        "href": "https://www.oasis-open.org/standards#wssecpolv1.2",
+        "rawDate": "2007-07-01",
+        "authors": [
+            "A. Nadalin",
+            "M. Goodner",
+            "M. Gudgin",
+            "A. Barbir",
+            "H. Granqvist"
+        ]
+    },
+    "WS-TRUST13": {
+        "title": "WS-Trust 1.3",
+        "href": "https://www.oasis-open.org/standards#wstrustv1.3",
+        "rawDate": "2007-03-19",
+        "authors": [
+            "A. Nadalin",
+            "M. Goodner",
+            "M. Gudgin",
+            "A. Barbir",
+            "H. Granqvist"
+        ],
+        "status": "OASIS Standard"
+    },
+    "WSI-BSP10": {
+        "title": "Basic Security Profile Version 1.0",
+        "href": "http://www.ws-i.org/Profiles/BasicSecurityProfile-1.0.html",
+        "rawDate": "2007-03-30",
+        "authors": [
+            "M. McIntosh",
+            "M. Gudgin",
+            "K. S. Morrison",
+            "A. Barbir"
+        ],
+        "status": "WS-I Final Material"
+    },
+    "WSS-USERNAME11": {
+        "title": "Web Services Security UsernameToken Profile 1.1",
+        "href": "https://www.oasis-open.org/committees/download.php/16782/wss-v1.1-spec-os-UsernameTokenProfile.pdf",
+        "rawDate": "2006-02-01",
+        "authors": [
+            "A. Nadalin",
+            "C. Kaler",
+            "R. Monzillo",
+            "P. Hallam-Baker"
+        ],
+        "status": "OASIS Standard Specification"
+    },
+    "WebBug-Wikipedia": {
+        "title": "Wikipedia Web Bug definition",
+        "href": "http://en.wikipedia.org/wiki/Web_bug"
     },
     "WebIDL-2": {
         "aliasOf": "WEBIDL"
@@ -4072,6 +4911,24 @@
         "title": "Recommendation X.690 — Information Technology — ASN.1 Encoding Rules — Specification of Basic Encoding Rules (BER), Canonical Encoding Rules (CER), and Distinguished Encoding Rules (DER)",
         "publisher": "ITU"
     },
+    "XACML-INTRO": {
+        "title": "A Brief Introduction to XACML",
+        "href": "https://www.oasis-open.org/committees/download.php/2713/Brief_Introduction_to_XACML.html",
+        "rawDate": "2003-03-14"
+    },
+    "XACML20": {
+        "title": "OASIS eXtensible Access Control Markup Language (XACML) Version 2.0",
+        "href": "http://docs.oasis-open.org/xacml/2.0/access_control-xacml-2.0-core-spec-os.pdf",
+        "rawDate": "2005-02-01",
+        "authors": [
+            "Tim Moses"
+        ]
+    },
+    "XADES": {
+        "title": "XML Advanced Electronic Signatures (XAdES)",
+        "href": "http://www.etsi.org/deliver/etsi_ts/101900_101999/101903/01.04.01_60/ts_101903v010401p.pdf",
+        "status": "ETSI TS 101 903 V1.4.1 (2009-06)"
+    },
     "XEP-0166": {
         "authors": [
             "Scott Ludwig",
@@ -4121,8 +4978,26 @@
     "XML-C14N20": {
         "aliasOf": "xml-c14n2"
     },
+    "XML-Japanese": {
+        "title": "XML Japanese Profile (2nd Edition)",
+        "href": "https://www.w3.org/Submission/2005/SUBM-japanese-xml-20050324/",
+        "rawDate": "2005-03",
+        "authors": [
+            "M. Murata"
+        ],
+        "status": "W3C Member Submission"
+    },
     "XML-MT": {
         "aliasOf": "rfc3023"
+    },
+    "XML-PARSER-STAX": {
+        "title": "JSR 173: Streaming API for XML for Java Specification",
+        "href": "http://jcp.org/en/jsr/detail?id=173",
+        "rawDate": "2003-10-08",
+        "authors": [
+            "Christopher Fry"
+        ],
+        "status": "v1.0"
     },
     "XML10": {
         "aliasOf": "xml"
@@ -4265,6 +5140,13 @@
         "publisher": "ISO/IEC",
         "isoNumber": "ISO/IEC 16684-1:2019"
     },
+    "XPTR-POLICY": {
+        "title": "XPointer Scheme Name Registry Policy.",
+        "href": "https://www.w3.org/2005/04/xpointer-policy.html",
+        "authors": [
+            "Henry Thompson"
+        ]
+    },
     "XPTR-XPOINTER-CR2001": {
         "aliasOf": "xptr"
     },
@@ -4273,6 +5155,15 @@
     },
     "XSLT21": {
         "aliasOf": "xslt-21"
+    },
+    "YACC": {
+        "title": "YACC - Yet another compiler compiler.",
+        "rawDate": "1975",
+        "authors": [
+            "S. C. Johnson"
+        ],
+        "publisher": "Murray Hill",
+        "status": "Technical Report"
     },
     "YAML": {
         "authors": [
@@ -4296,6 +5187,11 @@
         "date": "May 2005",
         "status": "IETF Draft",
         "publisher": "IETF"
+    },
+    "ZHMARK": {
+        "title": "General Rules for Punctuation (《标点符号用法》).",
+        "rawDate": "2011",
+        "status": "GB/T 15834―2011. In Chinese."
     },
     "ZIP": {
         "date": "15 July 2020",

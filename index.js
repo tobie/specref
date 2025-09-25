@@ -108,7 +108,7 @@ var metadata = (function(pkg) {
     var refCount = 0;
     ids.forEach(function(id) {
         var ref = all[id];
-        if (typeof ref == "string" || !("aliasOf" in ref)) refCount++;
+        if (!("aliasOf" in ref)) refCount++;
     });
     return {
         name: pkg.name,
