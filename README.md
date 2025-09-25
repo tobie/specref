@@ -239,7 +239,7 @@ The review policy has three key principles:
 
 1. Get non-trivial changes reviewed by someone.
 2. You can merge trivial changes yourself, but allow enough time for others to comment on them before you do.
-3. Never merge a pull request unless travis is green.
+3. Never merge a pull request unless GitHub Actions checks are green.
 
 We trust contributors to be a good judge of what is trivial, what isn't, and how long to wait before merging a trivial fix. Generally, the more trivial the fix, the shorter the wait.
 
@@ -272,7 +272,7 @@ Generally, manual changes should be limited to the `refs/biblio.json` file.
 
 If you have commit rights, please don't commit to main directly. Commit to a separate branch (preferably to your fork) and send a pull request.
 
-All changes are automatically tested using [travis](https://travis-ci.org/tobie/specref/) and automatically deployed within minutes if all tests pass. You can check that your changes have been properly deployed on [www.specref.org](http://www.specref.org/), @-mention @tobie in a pull request comment if they haven't.
+All changes are automatically tested using GitHub Actions and automatically deployed within minutes if all tests pass. You can check that your changes have been properly deployed on [www.specref.org](http://www.specref.org/), @-mention @tobie in a pull request comment if they haven't.
 
 You can run the tests locally by [installing node.js](https://nodejs.org/en/download/), project dependencies (by running `$ npm install` from the root of the repository) and running `$ npm test`. The test suite is quite large and can take a few minutes to run.
 
