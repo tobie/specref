@@ -7,7 +7,6 @@
         "^[a-zA-Z0-9\\-_+\\.]+$": {
             "oneOf": [
                 { "$ref": "#/definitions/alias" },
-                { "$ref": "#/definitions/legacyRef" },
                 { "$ref": "#/definitions/ref" }
             ]
         }
@@ -73,10 +72,6 @@
             "type": "array",
             "items": { "$ref": "#/definitions/wg" },
              "minItems": 1
-        },
-        "legacyRef": {
-            "description": "Legacy, unstructured data.",
-            "type": "string"
         },
         "alias": {
             "type": "object",
