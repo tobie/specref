@@ -17,6 +17,7 @@ Specref API
   * [Commit rights](#commit-rights)
   * [Review policy](#review-policy)
   * [Hourly auto-updating](#hourly-auto-updating)
+  * [Overwrite files for auto-generated data corrections](#overwrite-files-for-auto-generated-data-corrections)
   * [Manual changes](#manual-changes)
 * [Licenses](#licenses)
 
