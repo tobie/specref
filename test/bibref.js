@@ -99,7 +99,77 @@ suite('Test bibref api', function() {
             }
         };
         assert.equal("2010-01-01", bibref.findLatest(complex).rawDate);
+    });
 
+    test('bibref.flattenVersions handles date versions properly', function() {
+        var cleaned = bibref.flattenVersions({
+            foo: {
+                versions: {
+                    '2024-04-05': {
+                        href: 'http://example.com/2',
+                        rawDate: '2024-04-05'
+                    },
+                    '2025-10-05': {
+                        href: 'http://example.com/3',
+                        rawDate: '2025-10-05'
+                    },
+                    '2004-12-11': {
+                        href: 'http://example.com/1',
+                        rawDate: '2004-12-11'
+                    },
+                    '2030-01-05': {
+                        href: 'http://example.com/4',
+                        rawDate: '2030-01-05'
+                    }
+                }
+            }
+        });
+        var foo = cleaned.foo;
+        assert.equal(typeof foo, 'object', '"foo" is an object');
+        assert.equal(foo.rawDate, '2030-01-05', 'Raw date is that of the last version');
+        assert.equal(foo.versions.length, 4, 'Versions array has 4 entries');
+        assert.equal(foo.versions[0], "foo-2030-01-05", 'First element is the newest version');
+        assert.equal(foo.versions[1], "foo-2025-10-05", 'Second element is the previous version');
+        assert.equal(foo.versions[2], "foo-2024-04-05", 'Third element is the second previous version');
+        assert.equal(foo.versions[3], "foo-2004-12-11", 'Last element is the oldest version');
+    });
+
+    test('bibref.flattenVersions handles semantic versions properly', function() {
+        var cleaned = bibref.flattenVersions({
+            foo: {
+                versions: {
+                    '2.1': {
+                        href: 'http://example.com/2',
+                        rawDate: '2004-04-05'
+                    },
+                    '11.3b': {
+                        href: 'http://example.com/5',
+                        rawDate: '2030-01-06'
+                    },
+                    '2': {
+                        href: 'http://example.com/1',
+                        rawDate: '2004-12-11'
+                    },
+                    '11.3': {
+                        href: 'http://example.com/3',
+                        rawDate: '2030-01-04'
+                    },
+                    '11.3a': {
+                        href: 'http://example.com/4',
+                        rawDate: '2030-01-05'
+                    }
+                }
+            }
+        });
+        var foo = cleaned.foo;
+        assert.equal(typeof foo, 'object', '"foo" is an object');
+        assert.equal(foo.rawDate, '2030-01-06', 'Raw date is that of the last version');
+        assert.equal(foo.versions.length, 5, 'Versions array has 5 entries');
+        assert.equal(foo.versions[0], "foo-11.3b", 'First element is the newest version');
+        assert.equal(foo.versions[1], "foo-11.3a", 'Second element is the previous version');
+        assert.equal(foo.versions[2], "foo-11.3", 'Third element is the second previous version');
+        assert.equal(foo.versions[3], "foo-2.1", 'Fourth element is an old version');
+        assert.equal(foo.versions[4], "foo-2", 'Last element is an ancient version');
     });
 
     test('bibref.get returns the proper ref', function() {
