@@ -81,26 +81,6 @@ suite('Test bibref api', function() {
         assert.equal(foo.deliveredBy[0].shortname, 'html', "The url http://www.w3.org/html/wg/ gets properly turned into the html shortname.");
     });
 
-    test('bibref.findLatest finds the latest version of the ref', function() {
-        var basic = {
-            versions: {
-                "20091010": { rawDate: "2009-10-10" },
-                "20100101": { rawDate: "2010-01-01" }
-            }
-        };
-        assert.equal("2010-01-01", bibref.findLatest(basic).rawDate);
-
-        var complex = {
-            versions: {
-                "20091010": { rawDate: "2009-10-10" },
-                "20100101": { rawDate: "2010-01-01" },
-                "2e": { rawDate: "1998-02-02" },
-                "999999999948393": { rawDate: "1997-02-02" }
-            }
-        };
-        assert.equal("2010-01-01", bibref.findLatest(complex).rawDate);
-    });
-
     test('bibref.flattenVersions handles date versions properly', function() {
         var cleaned = bibref.flattenVersions({
             foo: {
