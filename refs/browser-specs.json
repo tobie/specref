@@ -246,15 +246,7 @@
         "repository": "https://github.com/w3c/fxtf-drafts"
     },
     "COMPRESSION-DICTIONARY": {
-        "href": "https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-compression-dictionary",
-        "title": "Compression Dictionary Transport",
-        "status": "Editor's Draft",
-        "publisher": "IETF",
-        "deliveredBy": [
-            "https://datatracker.ietf.org/wg/httpbis/"
-        ],
-        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/httpwg/http-extensions"
+        "aliasOf": "rfc9842"
     },
     "CONTENT-INDEX": {
         "href": "https://wicg.github.io/content-index/spec/",
@@ -1018,6 +1010,17 @@
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/KhronosGroup/WebGL"
+    },
+    "LAYERED-COOKIES": {
+        "href": "https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-layered-cookies/",
+        "title": "Cookies: HTTP State Management Mechanism",
+        "status": "Editor's Draft",
+        "publisher": "IETF",
+        "deliveredBy": [
+            "https://datatracker.ietf.org/wg/httpbis/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/httpwg/http-extensions"
     },
     "LAYOUT-INSTABILITY": {
         "href": "https://wicg.github.io/layout-instability/",
