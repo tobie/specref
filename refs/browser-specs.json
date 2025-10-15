@@ -289,7 +289,7 @@
     },
     "CSS-ANCHOR-POSITION-2": {
         "href": "https://drafts.csswg.org/css-anchor-position-2/",
-        "title": "CSS Anchor Positioning Level 2",
+        "title": "CSS Anchor Positioning Module Level 2",
         "status": "Editor's Draft",
         "publisher": "W3C",
         "deliveredBy": [
@@ -322,7 +322,7 @@
     },
     "CSS-EXTENSIONS-1": {
         "href": "https://drafts.csswg.org/css-extensions-1/",
-        "title": "CSS Extensions",
+        "title": "CSS Extensions Module Level 1",
         "status": "Editor's Draft",
         "publisher": "W3C",
         "deliveredBy": [
@@ -1658,7 +1658,10 @@
         "repository": "https://github.com/WICG/serial"
     },
     "SHACL12-COMPACT-SYNTAX": {
-        "href": "https://w3c.github.io/data-shapes/shacl12-compact-syntax/",
+        "aliasOf": "SHACL12-CS"
+    },
+    "SHACL12-CS": {
+        "href": "https://w3c.github.io/data-shapes/shacl12-cs/",
         "title": "SHACL Compact Syntax",
         "status": "Editor's Draft",
         "publisher": "W3C",
@@ -1817,7 +1820,7 @@
         "status": "Editor's Draft",
         "publisher": "W3C",
         "deliveredBy": [
-            "https://www.w3.org/Graphics/SVG/WG/"
+            "https://www.w3.org/groups/wg/svg/"
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/w3c/svgwg"
