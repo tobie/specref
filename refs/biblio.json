@@ -236,6 +236,9 @@
     "BERNERS-LEE98": {
         "aliasOf": "RDF-NOT"
     },
+    "BFO": {
+        "aliasOf": "ISO21838-2"
+    },
     "BIDI": {
         "aliasOf": "UAX9"
     },
@@ -1094,6 +1097,9 @@
     },
     "DNS-SD": {
         "aliasOf": "RFC6763"
+    },
+    "DOLCE": {
+        "aliasOf": "ISO21838-3"
     },
     "DOM-BINDINGS-20071017": {
         "aliasOf": "WebIDL-20071017"
@@ -2211,6 +2217,20 @@
         "rawDate": "2006-05",
         "publisher": "International Organization for Standardization",
         "status": "18033-2:2006"
+    },
+    "ISO21838-2": {
+        "title": "Information technology — Top-level ontologies (TLO) — Part 2: Basic Formal Ontology (BFO)",
+        "href": "https://www.iso.org/standard/74572.html",
+        "rawDate": "2021-11",
+        "publisher": "International Organization for Standardization (ISO)",
+        "status": "ISO/IEC 21838-2:2021"
+    },
+    "ISO21838-3": {
+        "title": "Information technology — Top-level ontologies (TLO) — Part 3: Descriptive ontology for linguistic and cognitive engineering (DOLCE)",
+        "href": "https://www.iso.org/standard/78927.html",
+        "rawDate": "2023-09",
+        "publisher": "International Organization for Standardization (ISO)",
+        "status": "ISO/IEC 21838-3:2023"
     },
     "ISO23726-3-DIS": {
         "date": "September 2025",
