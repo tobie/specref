@@ -287,17 +287,6 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/WICG/csp-next"
     },
-    "CSS-ANCHOR-POSITION-2": {
-        "href": "https://drafts.csswg.org/css-anchor-position-2/",
-        "title": "CSS Anchor Positioning Module Level 2",
-        "status": "Editor's Draft",
-        "publisher": "W3C",
-        "deliveredBy": [
-            "https://www.w3.org/groups/wg/css/"
-        ],
-        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/w3c/csswg-drafts"
-    },
     "CSS-COLOR-6": {
         "href": "https://drafts.csswg.org/css-color-6/",
         "title": "CSS Color Module Level 6",
@@ -355,7 +344,7 @@
     },
     "CSS-LINK-PARAMS-1": {
         "href": "https://drafts.csswg.org/css-link-params-1/",
-        "title": "CSS Linked Parameters",
+        "title": "CSS Linked Parameters Module Level 1",
         "status": "Editor's Draft",
         "publisher": "W3C",
         "deliveredBy": [
@@ -900,6 +889,17 @@
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/WICG/handwriting-recognition"
+    },
+    "IDEMPOTENCY-KEY-HEADER": {
+        "href": "https://datatracker.ietf.org/doc/html/draft-ietf-httpapi-idempotency-key-header/",
+        "title": "The Idempotency-Key HTTP Header Field",
+        "status": "Editor's Draft",
+        "publisher": "IETF",
+        "deliveredBy": [
+            "https://datatracker.ietf.org/wg/httpapi/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/ietf-wg-httpapi/idempotency"
     },
     "IDLE-DETECTION": {
         "href": "https://wicg.github.io/idle-detection/",
@@ -1802,6 +1802,17 @@
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/privacycg/storage-access"
+    },
+    "STORAGE-ACCESS-HEADERS": {
+        "href": "https://privacycg.github.io/storage-access-headers/",
+        "title": "Storage Access Headers",
+        "status": "Editor's Draft",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/privacycg/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/privacycg/storage-access-headers"
     },
     "STORAGE-BUCKETS": {
         "href": "https://wicg.github.io/storage-buckets/",
