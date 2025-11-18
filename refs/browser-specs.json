@@ -1375,6 +1375,18 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/WICG/paymentlink"
     },
+    "PDF-AAM": {
+        "href": "https://w3c.github.io/pdf-aam/",
+        "title": "PDF Accessibility API Mappings 1.0",
+        "status": "Editor's Draft",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/WAI/about/groups/ariawg/",
+            "https://www.w3.org/WAI/PF/svg-a11y-tf/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/w3c/aria"
+    },
     "PERFORMANCE-MEASURE-MEMORY": {
         "href": "https://wicg.github.io/performance-measure-memory/",
         "title": "Measure Memory API",
@@ -2818,6 +2830,17 @@
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/WICG/webcrypto-secure-curves"
+    },
+    "WEBEXTENSIONS": {
+        "href": "https://w3c.github.io/webextensions/specification/index.html",
+        "title": "Web Extensions",
+        "status": "Draft Community Group Report",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/webextensions/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/w3c/webextensions"
     },
     "WEBGL1": {
         "href": "https://registry.khronos.org/webgl/specs/latest/1.0/",
