@@ -353,6 +353,17 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/w3c/csswg-drafts"
     },
+    "CSS-NAVIGATION-1": {
+        "href": "https://drafts.csswg.org/css-navigation-1/",
+        "title": "CSS Route Matching",
+        "status": "Editor's Draft",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/groups/wg/css/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/w3c/csswg-drafts"
+    },
     "CSS-PAGE-4": {
         "href": "https://drafts.csswg.org/css-page-4/",
         "title": "Proposals for the future of CSS Paged Media",
@@ -2239,6 +2250,17 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/tc39/proposal-iterator-sequencing"
     },
+    "TC39-JOINT-ITERATION": {
+        "href": "https://tc39.es/proposal-joint-iteration/",
+        "title": "Joint Iteration",
+        "status": "Editor's Draft",
+        "publisher": "Ecma International",
+        "deliveredBy": [
+            "https://tc39.es/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/tc39/proposal-joint-iteration"
+    },
     "TC39-JSON-MODULES": {
         "href": "https://tc39.es/proposal-json-modules/",
         "title": "JSON modules",
@@ -3107,18 +3129,10 @@
         "repository": "https://github.com/WICG/webusb"
     },
     "WEBXR-MESHING": {
-        "href": "https://immersive-web.github.io/real-world-geometry/webxrmeshing-1.html",
-        "title": "WebXR Meshing API Level 1",
-        "status": "A Collection of Interesting Ideas",
-        "publisher": "W3C",
-        "deliveredBy": [
-            "https://www.w3.org/community/immersive-web/"
-        ],
-        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/immersive-web/real-world-geometry"
+        "aliasOf": "REAL-WORLD-MESHING"
     },
     "WEBXR-PLANE-DETECTION": {
-        "href": "https://immersive-web.github.io/real-world-geometry/plane-detection.html",
+        "href": "https://immersive-web.github.io/plane-detection/",
         "title": "WebXR Plane Detection Module",
         "status": "Draft Community Group Report",
         "publisher": "W3C",
@@ -3126,7 +3140,7 @@
             "https://www.w3.org/community/immersive-web/"
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/immersive-web/real-world-geometry"
+        "repository": "https://github.com/immersive-web/plane-detection"
     },
     "WINDOW-CONTROLS-OVERLAY": {
         "href": "https://wicg.github.io/window-controls-overlay/",
