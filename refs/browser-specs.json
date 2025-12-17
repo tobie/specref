@@ -1464,9 +1464,6 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/WICG/portals"
     },
-    "PPA": {
-        "aliasOf": "privacy-preserving-attribution"
-    },
     "PREFER-CURRENT-TAB": {
         "href": "https://wicg.github.io/prefer-current-tab/",
         "title": "preferCurrentTab",
@@ -3142,19 +3139,8 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/WICG/window-controls-overlay"
     },
-    "WOT-BINDING-REGISTRY": {
-        "href": "https://w3c.github.io/wot-binding-registry/",
-        "title": "Web of Things (WoT) Binding Registry",
-        "status": "Editor's Draft",
-        "publisher": "W3C",
-        "deliveredBy": [
-            "https://www.w3.org/WoT/wg/"
-        ],
-        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/w3c/wot-binding-registry"
-    },
     "WOT-BINDINGS-REGISTRY": {
-        "aliasOf": "WOT-BINDING-REGISTRY"
+        "aliasOf": "wot-binding-registry"
     },
     "WRITING-ASSISTANCE-APIS": {
         "href": "https://webmachinelearning.github.io/writing-assistance-apis/",
