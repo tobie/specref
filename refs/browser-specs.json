@@ -235,15 +235,15 @@
         "isSuperseded": true
     },
     "COMPOSITING-2": {
-        "href": "https://drafts.fxtf.org/compositing-2/",
-        "title": "Compositing and Blending Level 2",
+        "href": "https://drafts.csswg.org/compositing-2/",
+        "title": "Compositing and Blending Module Level 2",
         "status": "Editor's Draft",
         "publisher": "W3C",
         "deliveredBy": [
             "https://www.w3.org/groups/wg/css/"
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/w3c/fxtf-drafts"
+        "repository": "https://github.com/w3c/csswg-drafts"
     },
     "COMPRESSION-DICTIONARY": {
         "aliasOf": "rfc9842"
@@ -385,6 +385,17 @@
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/WICG/css-parser-api"
+    },
+    "CSS-SHADOW-1": {
+        "href": "https://drafts.csswg.org/css-shadow-1/",
+        "title": "CSS Shadow Module Level 1",
+        "status": "Editor's Draft",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/groups/wg/css/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/w3c/csswg-drafts"
     },
     "CSS-SHAPES-2": {
         "href": "https://drafts.csswg.org/css-shapes-2/",
@@ -822,7 +833,7 @@
         "repository": "https://github.com/WICG/file-system-access"
     },
     "FILTER-EFFECTS-2": {
-        "href": "https://drafts.fxtf.org/filter-effects-2/",
+        "href": "https://drafts.csswg.org/filter-effects-2/",
         "title": "Filter Effects Module Level 2",
         "status": "Editor's Draft",
         "publisher": "W3C",
@@ -830,7 +841,7 @@
             "https://www.w3.org/groups/wg/css/"
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/w3c/fxtf-drafts"
+        "repository": "https://github.com/w3c/csswg-drafts"
     },
     "FIRST-PARTY-SETS": {
         "href": "https://wicg.github.io/first-party-sets/",
@@ -1420,6 +1431,17 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/WICG/periodic-background-sync"
     },
+    "PERMISSION-ELEMENTS": {
+        "href": "https://wicg.github.io/PEPC/permission-elements.html",
+        "title": "The HTML Permission Elements",
+        "status": "Draft Community Group Report",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/wicg/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/WICG/PEPC"
+    },
     "PERMISSIONS-REGISTRY": {
         "href": "https://w3c.github.io/permissions-registry/",
         "title": "Permissions Registry",
@@ -1455,7 +1477,7 @@
     },
     "POINTER-ANIMATIONS-1": {
         "href": "https://drafts.csswg.org/pointer-animations-1/",
-        "title": "Pointer-driven Animations",
+        "title": "Pointer-driven Animations Module Level 1",
         "status": "Editor's Draft",
         "publisher": "W3C",
         "deliveredBy": [
