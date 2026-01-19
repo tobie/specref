@@ -1,6 +1,8 @@
 var t0 = Date.now();
 
 var bibref = require('./lib/bibref');
+var sanitizeHtml = require('sanitize-html');
+var helmet = require('helmet');
 
 var app = module.exports = require("express")();
 
@@ -10,6 +12,18 @@ if (process.env.NODE_ENV == "dev" || process.env.NODE_ENV == "development") {
     errorhandlerOptions.showStack = true;
 }
 app.enable("etag");
+
+app.use(helmet({
+    contentSecurityPolicy: {
+        directives: {
+            defaultSrc: ["'self'"],
+            scriptSrc: ["'self'"],
+            objectSrc: ["'none'"]
+        }
+    },
+    crossOriginEmbedderPolicy: false
+}));
+
 var bannedIPs = [
 	// Palo Alto Networks bot
 	"34.96.130.0/24", "34.77.162.0/24", "34.86.35.0/24"
@@ -35,7 +49,10 @@ app.get('/bibrefs', function (req, res, next) {
 
 // search
 app.get('/search-refs', function (req, res, next) {
-    var q = (req.query["q"] || "").toLowerCase();
+    var q = sanitizeHtml(req.query["q"] || "", {
+        allowedTags: [],
+        allowedAttributes: {}
+    }).toLowerCase();
     if (q) {
 		var obj = {};
 		var current, shortname;
@@ -95,7 +112,13 @@ app.get('/reverse-lookup', function (req, res, next) {
     var refs,
         urls = req.query["urls"];
     if (urls) {
-        refs = bibref.reverseLookup(urls.split(","));
+        var sanitizedUrls = urls.split(",").map(function(url) {
+            return sanitizeHtml(url.trim(), {
+                allowedTags: [],
+                allowedAttributes: {}
+            });
+        });
+        refs = bibref.reverseLookup(sanitizedUrls);
         res.status(200).jsonp(refs);
     } else {
         res.status(400).jsonp({ message: "Missing urls parameter" });
