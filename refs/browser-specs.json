@@ -87,6 +87,17 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/WICG/audio-context-playout-stats"
     },
+    "AUTOFILL-EVENT": {
+        "href": "https://wicg.github.io/autofill-event/",
+        "title": "Autofill Event",
+        "status": "Draft Community Group Report",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/wicg/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/WICG/autofill-event"
+    },
     "AV1-AVIF": {
         "href": "https://aomediacodec.github.io/av1-avif/",
         "title": "AV1 Image File Format (AVIF)",
@@ -1713,17 +1724,6 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/w3c/data-shapes"
     },
-    "SHACL12-NODE-EXPR": {
-        "href": "https://w3c.github.io/data-shapes/shacl12-node-expr/",
-        "title": "SHACL 1.2 Node Expressions",
-        "status": "Editor's Draft",
-        "publisher": "W3C",
-        "deliveredBy": [
-            "https://www.w3.org/groups/wg/data-shapes/"
-        ],
-        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/w3c/data-shapes"
-    },
     "SHACL12-PROFILING": {
         "href": "https://w3c.github.io/data-shapes/shacl12-profiling/",
         "title": "SHACL 1.2 Profiling",
@@ -1910,7 +1910,11 @@
             "https://tc39.es/"
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/tc39/proposal-array-from-async"
+        "repository": "https://github.com/tc39/proposal-array-from-async",
+        "obsoletedBy": [
+            "ECMASCRIPT"
+        ],
+        "isSuperseded": true
     },
     "TC39-ARRAY-GROUPING": {
         "href": "https://tc39.es/proposal-array-grouping/",
@@ -1936,7 +1940,11 @@
             "https://tc39.es/"
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/tc39/proposal-arraybuffer-base64"
+        "repository": "https://github.com/tc39/proposal-arraybuffer-base64",
+        "obsoletedBy": [
+            "ECMASCRIPT"
+        ],
+        "isSuperseded": true
     },
     "TC39-ARRAYBUFFER-TRANSFER": {
         "href": "https://tc39.es/proposal-arraybuffer-transfer/",
@@ -2131,6 +2139,17 @@
         ],
         "isSuperseded": true
     },
+    "TC39-INTL-ERA-MONTHCODE": {
+        "href": "https://tc39.es/proposal-intl-era-monthcode/",
+        "title": "Intl era and monthCode Proposal",
+        "status": "Editor's Draft",
+        "publisher": "Ecma International",
+        "deliveredBy": [
+            "https://tc39.es/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/tc39/proposal-intl-era-monthcode"
+    },
     "TC39-INTL-EXTEND-TIMEZONENAME": {
         "href": "https://tc39.es/proposal-intl-extend-timezonename/",
         "title": "Extend TimeZoneName Option Proposal",
@@ -2256,7 +2275,11 @@
             "https://tc39.es/"
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/tc39/proposal-iterator-sequencing"
+        "repository": "https://github.com/tc39/proposal-iterator-sequencing",
+        "obsoletedBy": [
+            "ECMASCRIPT"
+        ],
+        "isSuperseded": true
     },
     "TC39-JOINT-ITERATION": {
         "href": "https://tc39.es/proposal-joint-iteration/",
@@ -2293,7 +2316,11 @@
             "https://tc39.es/"
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/tc39/proposal-json-parse-with-source"
+        "repository": "https://github.com/tc39/proposal-json-parse-with-source",
+        "obsoletedBy": [
+            "ECMASCRIPT"
+        ],
+        "isSuperseded": true
     },
     "TC39-MATH-SUM": {
         "href": "https://tc39.es/proposal-math-sum/",
@@ -2304,7 +2331,11 @@
             "https://tc39.es/"
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/tc39/proposal-math-sum"
+        "repository": "https://github.com/tc39/proposal-math-sum",
+        "obsoletedBy": [
+            "ECMASCRIPT"
+        ],
+        "isSuperseded": true
     },
     "TC39-NONEXTENSIBLE-APPLIES-TO-PRIVATE": {
         "href": "https://tc39.es/proposal-nonextensible-applies-to-private/",
@@ -2464,7 +2495,11 @@
             "https://tc39.es/"
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/tc39/proposal-upsert"
+        "repository": "https://github.com/tc39/proposal-upsert",
+        "obsoletedBy": [
+            "ECMASCRIPT"
+        ],
+        "isSuperseded": true
     },
     "TEXT-DETECTION-API": {
         "href": "https://wicg.github.io/shape-detection-api/text.html",
@@ -2611,6 +2646,17 @@
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/WebAssembly/branch-hinting"
+    },
+    "WASM-CORE-2-FORK-COMPACT-IMPORT-SECTION": {
+        "href": "https://webassembly.github.io/compact-import-section/",
+        "title": "WebAssembly Core: Compact Import Section",
+        "status": "Editor's Draft",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/webassembly/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/WebAssembly/compact-import-section"
     },
     "WASM-CORE-2-FORK-EXTENDED-CONST": {
         "href": "https://webassembly.github.io/extended-const/core/bikeshed/",
