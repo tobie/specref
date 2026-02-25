@@ -342,6 +342,17 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/w3c/csswg-drafts"
     },
+    "CSS-IMAGE-ANIMATION-1": {
+        "href": "https://drafts.csswg.org/css-image-animation-1/",
+        "title": "CSS Image Animation",
+        "status": "Editor's Draft",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/groups/wg/css/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/w3c/csswg-drafts"
+    },
     "CSS-IMAGES-5": {
         "href": "https://drafts.csswg.org/css-images-5/",
         "title": "CSS Images Module Level 5",
@@ -466,8 +477,7 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/WICG/custom-state-pseudo-class",
         "obsoletedBy": [
-            "HTML",
-            "SELECTORS-5"
+            "HTML"
         ],
         "isSuperseded": true
     },
@@ -1688,17 +1698,6 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/WICG/scroll-to-text-fragment"
     },
-    "SELECTORS-5": {
-        "href": "https://drafts.csswg.org/selectors-5/",
-        "title": "Selectors Level 5",
-        "status": "Editor's Draft",
-        "publisher": "W3C",
-        "deliveredBy": [
-            "https://www.w3.org/groups/wg/css/"
-        ],
-        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/w3c/csswg-drafts"
-    },
     "SERIAL": {
         "href": "https://wicg.github.io/serial/",
         "title": "Web Serial API",
@@ -2606,6 +2605,17 @@
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/WICG/ua-client-hints"
+    },
+    "UNENCODED-DIGEST": {
+        "href": "https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-unencoded-digest",
+        "title": "HTTP Unencoded Digest",
+        "status": "Editor's Draft",
+        "publisher": "IETF",
+        "deliveredBy": [
+            "https://datatracker.ietf.org/wg/httpbis/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/httpwg/http-extensions"
     },
     "USER-PREFERENCE-MEDIA-FEATURES-HEADERS": {
         "href": "https://wicg.github.io/user-preference-media-features-headers/",
