@@ -32,6 +32,17 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/KhronosGroup/WebGL"
     },
+    "ANIMATION-TRIGGERS-1": {
+        "href": "https://drafts.csswg.org/animation-triggers-1/",
+        "title": "Animation Triggers",
+        "status": "Editor's Draft",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/groups/wg/css/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/w3c/csswg-drafts"
+    },
     "ANONYMOUS-IFRAME": {
         "href": "https://wicg.github.io/anonymous-iframe/",
         "title": "Iframe credentialless",
@@ -444,7 +455,7 @@
     "CSS-TYPED-OM-2": {
         "href": "https://drafts.css-houdini.org/css-typed-om-2/",
         "title": "CSS Typed OM Level 2",
-        "status": "A Collection of Interesting Ideas",
+        "status": "Editor's Draft",
         "publisher": "W3C",
         "deliveredBy": [
             "https://www.w3.org/groups/wg/css/"
@@ -879,7 +890,7 @@
     "FONT-METRICS-API-1": {
         "href": "https://drafts.css-houdini.org/font-metrics-api-1/",
         "title": "Font Metrics API Level 1",
-        "status": "A Collection of Interesting Ideas",
+        "status": "Editor's Draft",
         "publisher": "W3C",
         "deliveredBy": [
             "https://www.w3.org/groups/wg/css/"
@@ -897,6 +908,17 @@
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/w3c/gamepad"
+    },
+    "GEOLOCATION-ELEMENT": {
+        "href": "https://wicg.github.io/PEPC/geolocation-element.html",
+        "title": "The HTML Geolocation Element",
+        "status": "Draft Community Group Report",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/wicg/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/WICG/PEPC"
     },
     "GET-INSTALLED-RELATED-APPS": {
         "href": "https://wicg.github.io/get-installed-related-apps/spec/",
@@ -1245,7 +1267,7 @@
     },
     "NO-VARY-SEARCH": {
         "href": "https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-no-vary-search",
-        "title": "The No-Vary-Search HTTP Response Header Field",
+        "title": "The No-Vary-Search HTTP Caching Extension",
         "status": "Editor's Draft",
         "publisher": "IETF",
         "deliveredBy": [
@@ -1454,15 +1476,7 @@
         "repository": "https://github.com/WICG/periodic-background-sync"
     },
     "PERMISSION-ELEMENTS": {
-        "href": "https://wicg.github.io/PEPC/permission-elements.html",
-        "title": "The HTML Permission Elements",
-        "status": "Draft Community Group Report",
-        "publisher": "W3C",
-        "deliveredBy": [
-            "https://www.w3.org/community/wicg/"
-        ],
-        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/WICG/PEPC"
+        "aliasOf": "GEOLOCATION-ELEMENT"
     },
     "PERMISSIONS-REGISTRY": {
         "href": "https://w3c.github.io/permissions-registry/",
