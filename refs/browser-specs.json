@@ -270,6 +270,17 @@
     "COMPRESSION-DICTIONARY": {
         "aliasOf": "rfc9842"
     },
+    "CONTAINER-TIMING": {
+        "href": "https://wicg.github.io/container-timing/",
+        "title": "Container Timing API",
+        "status": "Editor's Draft",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/wicg/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/WICG/container-timing"
+    },
     "CONTENT-INDEX": {
         "href": "https://wicg.github.io/content-index/spec/",
         "title": "Content Index",
@@ -2111,6 +2122,17 @@
             "ECMASCRIPT"
         ],
         "isSuperseded": true
+    },
+    "TC39-IMPORT-TEXT": {
+        "href": "https://tc39.es/proposal-import-text/",
+        "title": "Import Text",
+        "status": "Editor's Draft",
+        "publisher": "Ecma International",
+        "deliveredBy": [
+            "https://tc39.es/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/tc39/proposal-import-text"
     },
     "TC39-INTL-ANNEXES": {
         "href": "https://tc39.es/proposal-intl-numberformat-v3/out/annexes/proposed.html",
