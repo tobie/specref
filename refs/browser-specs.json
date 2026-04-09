@@ -1614,6 +1614,17 @@
         ],
         "isSuperseded": true
     },
+    "PROMPT-API": {
+        "href": "https://webmachinelearning.github.io/prompt-api/",
+        "title": "Prompt API",
+        "status": "Draft Community Group Report",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/webmachinelearning/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/webmachinelearning/prompt-api"
+    },
     "RAW-CAMERA-ACCESS": {
         "href": "https://immersive-web.github.io/raw-camera-access/",
         "title": "WebXR Raw Camera Access Module",
@@ -2664,6 +2675,28 @@
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/WICG/user-preference-media-features-headers"
+    },
+    "VC-BARCODES": {
+        "href": "https://w3c.github.io/vc-barcodes/",
+        "title": "Verifiable Credential Barcodes v0.8",
+        "status": "Editor's Draft",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/groups/wg/vc/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/w3c/vc-barcodes"
+    },
+    "VC-RECOGNITION": {
+        "href": "https://w3c.github.io/vc-recognition/",
+        "title": "VCs for Entity Recognition v0.9",
+        "status": "Editor's Draft",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/groups/wg/vc/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/w3c/vc-recognition"
     },
     "VIDEO-RVFC": {
         "href": "https://wicg.github.io/video-rvfc/",
