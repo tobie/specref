@@ -85,7 +85,8 @@
             "https://www.w3.org/community/wicg/"
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/WICG/attribution-reporting-api"
+        "repository": "https://github.com/WICG/attribution-reporting-api",
+        "isRetired": true
     },
     "AUDIO-CONTEXT-PLAYOUT-STATS": {
         "href": "https://wicg.github.io/audio-context-playout-stats/",
@@ -356,17 +357,6 @@
     "CSS-GCPM-4": {
         "href": "https://drafts.csswg.org/css-gcpm-4/",
         "title": "CSS Generated Content for Paged Media Module Level 4",
-        "status": "Editor's Draft",
-        "publisher": "W3C",
-        "deliveredBy": [
-            "https://www.w3.org/groups/wg/css/"
-        ],
-        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/w3c/csswg-drafts"
-    },
-    "CSS-IMAGE-ANIMATION-1": {
-        "href": "https://drafts.csswg.org/css-image-animation-1/",
-        "title": "CSS Image Animation Module Level 1",
         "status": "Editor's Draft",
         "publisher": "W3C",
         "deliveredBy": [
@@ -1143,17 +1133,6 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/w3c-fedid/login-status"
     },
-    "LONG-ANIMATION-FRAMES": {
-        "href": "https://w3c.github.io/long-animation-frames/",
-        "title": "Long Animation Frames API",
-        "status": "Editor's Draft",
-        "publisher": "W3C",
-        "deliveredBy": [
-            "https://www.w3.org/groups/wg/webperf/"
-        ],
-        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/w3c/long-animation-frames"
-    },
     "MANAGED-CONFIGURATION": {
         "href": "https://wicg.github.io/WebApiDevice/managed_config/",
         "title": "Managed Configuration API",
@@ -1586,7 +1565,8 @@
             "https://www.w3.org/community/patcg/"
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/patcg-individual-drafts/private-aggregation-api"
+        "repository": "https://github.com/patcg-individual-drafts/private-aggregation-api",
+        "isRetired": true
     },
     "PRIVATE-CLICK-MEASUREMENT": {
         "href": "https://privacycg.github.io/private-click-measurement/",
@@ -1656,7 +1636,8 @@
             "https://www.w3.org/community/privacycg/"
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/privacycg/requestStorageAccessFor"
+        "repository": "https://github.com/privacycg/requestStorageAccessFor",
+        "isRetired": true
     },
     "RESPONSIVE-IMAGE-CLIENT-HINTS": {
         "href": "https://wicg.github.io/responsive-image-client-hints/",
@@ -1802,7 +1783,8 @@
             "https://www.w3.org/community/wicg/"
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/WICG/shared-storage"
+        "repository": "https://github.com/WICG/shared-storage",
+        "isRetired": true
     },
     "SIGNATURE-BASED-SRI": {
         "href": "https://wicg.github.io/signature-based-sri/",
@@ -1828,7 +1810,7 @@
     },
     "SOFT-NAVIGATIONS": {
         "href": "https://wicg.github.io/soft-navigations/",
-        "title": "Soft Navigations",
+        "title": "Soft Navigations and Interaction Contentful Paint",
         "status": "Draft Community Group Report",
         "publisher": "W3C",
         "deliveredBy": [
@@ -2564,7 +2546,8 @@
             "https://www.w3.org/community/patcg/"
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/patcg-individual-drafts/topics"
+        "repository": "https://github.com/patcg-individual-drafts/topics",
+        "isRetired": true
     },
     "TRACE-CONTEXT-AMQP": {
         "href": "https://w3c.github.io/trace-context-amqp/",
@@ -2641,7 +2624,8 @@
             "https://www.w3.org/community/wicg/"
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/WICG/turtledove"
+        "repository": "https://github.com/WICG/turtledove",
+        "isRetired": true
     },
     "UA-CLIENT-HINTS": {
         "href": "https://wicg.github.io/ua-client-hints/",
@@ -2677,26 +2661,21 @@
         "repository": "https://github.com/WICG/user-preference-media-features-headers"
     },
     "VC-BARCODES": {
-        "href": "https://w3c.github.io/vc-barcodes/",
-        "title": "Verifiable Credential Barcodes v0.8",
-        "status": "Editor's Draft",
-        "publisher": "W3C",
-        "deliveredBy": [
-            "https://www.w3.org/groups/wg/vc/"
-        ],
-        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/w3c/vc-barcodes"
+        "aliasOf": "vc-barcodes-1.0"
     },
     "VC-RECOGNITION": {
-        "href": "https://w3c.github.io/vc-recognition/",
-        "title": "VCs for Entity Recognition v0.9",
+        "aliasOf": "VC-RECOGNIZED-ENTITIES"
+    },
+    "VC-RECOGNIZED-ENTITIES": {
+        "href": "https://w3c.github.io/vc-recognized-entities/",
+        "title": "Recognized Entities v1.0",
         "status": "Editor's Draft",
         "publisher": "W3C",
         "deliveredBy": [
             "https://www.w3.org/groups/wg/vc/"
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/w3c/vc-recognition"
+        "repository": "https://github.com/w3c/vc-recognized-entities"
     },
     "VIDEO-RVFC": {
         "href": "https://wicg.github.io/video-rvfc/",
