@@ -271,6 +271,17 @@
     "COMPRESSION-DICTIONARY": {
         "aliasOf": "rfc9842"
     },
+    "CONNECTION-ALLOWLISTS": {
+        "href": "https://wicg.github.io/connection-allowlists/",
+        "title": "Connection Allowlists",
+        "status": "Draft Community Group Report",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/wicg/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/WICG/connection-allowlists"
+    },
     "CONTAINER-TIMING": {
         "href": "https://wicg.github.io/container-timing/",
         "title": "Container Timing API",
