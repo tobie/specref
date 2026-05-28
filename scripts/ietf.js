@@ -4,7 +4,7 @@ var request = require('request'),
     helper = require('./helper'),
     xml2js = require('xml2js');
 
-var RFC_URL = "https://www.rfc-editor.org/in-notes/rfc-index.xml";
+var RFC_URL = "https://www.ietf.org/rfc/rfc-index.xml";
 var FILE = "ietf.json";
 
 var current = helper.readBiblio(FILE);
@@ -27,10 +27,10 @@ request({
     parser.parseString(body, function (err, result) {
         result["rfc-index"]["rfc-entry"].map(formatData).forEach(function(obj) {
             var id = obj.rfcNumber.toLowerCase();
-            var unpadded = unpad(id);
+            var padded = padRfcNumber(id);
             current[id] = obj;
-            if (unpadded !== id) {
-                current[unpadded] = { aliasOf: id };
+            if (padded !== id) {
+                current[padded] = { aliasOf: id };
             }
         });
     });
@@ -99,14 +99,15 @@ function href(index) {
     if (HTTP_SPECS.indexOf(index) > -1) {
         return "https://httpwg.org/specs/" + index + ".html";
     }
-    if (index.indexOf("bcp") == 0) {
-        return "https://www.rfc-editor.org/info/" + unpad(index);
-    }
-    return "https://www.rfc-editor.org/rfc/" + unpad(index);
+    return "https://www.rfc-editor.org/info/" + index + "/";
 }
 
-function unpad(index) {
-    return index.replace(/(rfc|bcp)0*(\d+)/i, "$1$2");
+function padRfcNumber(index) {
+    const match = index.match(/^(rfc|bcp)0*(\d+)/i);
+    if (match) {
+        return match[1] + match[2].padStart(4, "0");
+    }
+    return index;
 }
 
 var MONTHS = [
