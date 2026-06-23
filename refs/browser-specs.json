@@ -329,6 +329,18 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/WICG/csp-next"
     },
+    "CSS-AAM": {
+        "href": "https://w3c.github.io/css-aam/",
+        "title": "CSS Accessibility API Mappings 1.0",
+        "status": "Editor's Draft",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/WAI/about/groups/ariawg/",
+            "https://www.w3.org/WAI/PF/svg-a11y-tf/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/w3c/aria"
+    },
     "CSS-COLOR-6": {
         "href": "https://drafts.csswg.org/css-color-6/",
         "title": "CSS Color Module Level 6",
@@ -464,6 +476,17 @@
     "CSS-SIZE-ADJUST-1": {
         "href": "https://drafts.csswg.org/css-size-adjust-1/",
         "title": "CSS Mobile Text Size Adjustment Module Level 1",
+        "status": "Editor's Draft",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/groups/wg/css/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/w3c/csswg-drafts"
+    },
+    "CSS-TEXT-5": {
+        "href": "https://drafts.csswg.org/css-text-5/",
+        "title": "CSS Text Module Level 5",
         "status": "Editor's Draft",
         "publisher": "W3C",
         "deliveredBy": [
@@ -1632,6 +1655,17 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/webmachinelearning/prompt-api"
     },
+    "PROOFREADER-API": {
+        "href": "https://webmachinelearning.github.io/proofreader-api/",
+        "title": "Proofreader API",
+        "status": "Draft Community Group Report",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/webmachinelearning/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/webmachinelearning/proofreader-api"
+    },
     "RAW-CAMERA-ACCESS": {
         "href": "https://immersive-web.github.io/raw-camera-access/",
         "title": "WebXR Raw Camera Access Module",
@@ -1708,7 +1742,11 @@
             "https://www.w3.org/community/wicg/"
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/WICG/sanitizer-api"
+        "repository": "https://github.com/WICG/sanitizer-api",
+        "obsoletedBy": [
+            "HTML"
+        ],
+        "isSuperseded": true
     },
     "SAVEDATA": {
         "href": "https://wicg.github.io/savedata/",
@@ -1771,17 +1809,6 @@
     "SHACL12-PROFILING": {
         "href": "https://w3c.github.io/data-shapes/shacl12-profiling/",
         "title": "SHACL 1.2 Profiling",
-        "status": "Editor's Draft",
-        "publisher": "W3C",
-        "deliveredBy": [
-            "https://www.w3.org/groups/wg/data-shapes/"
-        ],
-        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/w3c/data-shapes"
-    },
-    "SHACL12-UI": {
-        "href": "https://w3c.github.io/data-shapes/shacl12-ui/",
-        "title": "SHACL 1.2 User Interfaces",
         "status": "Editor's Draft",
         "publisher": "W3C",
         "deliveredBy": [
@@ -2102,6 +2129,17 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/tc39/proposal-dynamic-code-brand-checks"
     },
+    "TC39-ERROR-STACK-ACCESSOR": {
+        "href": "https://tc39.es/proposal-error-stack-accessor/",
+        "title": "Error Stack Accessor",
+        "status": "Editor's Draft",
+        "publisher": "Ecma International",
+        "deliveredBy": [
+            "https://tc39.es/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/tc39/proposal-error-stack-accessor"
+    },
     "TC39-EXPLICIT-RESOURCE-MANAGEMENT": {
         "href": "https://tc39.es/proposal-explicit-resource-management/",
         "title": "ECMAScript Explicit Resource Management",
@@ -2221,6 +2259,17 @@
         ],
         "isSuperseded": true
     },
+    "TC39-INTL-KEEP-TRAILING-ZEROS": {
+        "href": "https://tc39.es/proposal-intl-keep-trailing-zeros/",
+        "title": "Keep trailing zeros in Intl.NumberFormat and Intl.PluralRules",
+        "status": "Editor's Draft",
+        "publisher": "Ecma International",
+        "deliveredBy": [
+            "https://tc39.es/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/tc39/proposal-intl-keep-trailing-zeros"
+    },
     "TC39-INTL-LOCALE-INFO": {
         "href": "https://tc39.es/proposal-intl-locale-info/",
         "title": "Intl Locale Info Proposal",
@@ -2307,6 +2356,17 @@
         ],
         "isSuperseded": true
     },
+    "TC39-ITERATOR-CHUNKING": {
+        "href": "https://tc39.es/proposal-iterator-chunking/",
+        "title": "Iterator Chunking",
+        "status": "Editor's Draft",
+        "publisher": "Ecma International",
+        "deliveredBy": [
+            "https://tc39.es/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/tc39/proposal-iterator-chunking"
+    },
     "TC39-ITERATOR-HELPERS": {
         "href": "https://tc39.es/proposal-iterator-helpers/",
         "title": "Iterator Helpers",
@@ -2321,6 +2381,28 @@
             "ECMASCRIPT"
         ],
         "isSuperseded": true
+    },
+    "TC39-ITERATOR-INCLUDES": {
+        "href": "https://tc39.es/proposal-iterator-includes/",
+        "title": "Iterator Includes",
+        "status": "Editor's Draft",
+        "publisher": "Ecma International",
+        "deliveredBy": [
+            "https://tc39.es/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/tc39/proposal-iterator-includes"
+    },
+    "TC39-ITERATOR-JOIN": {
+        "href": "https://tc39.es/proposal-iterator-join/",
+        "title": "Proposal Iterator Join",
+        "status": "Editor's Draft",
+        "publisher": "Ecma International",
+        "deliveredBy": [
+            "https://tc39.es/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/tc39/proposal-iterator-join"
     },
     "TC39-ITERATOR-SEQUENCING": {
         "href": "https://tc39.es/proposal-iterator-sequencing/",
@@ -2444,6 +2526,17 @@
             "ECMASCRIPT"
         ],
         "isSuperseded": true
+    },
+    "TC39-REGEXP-BUFFER-BOUNDARIES": {
+        "href": "https://tc39.es/proposal-regexp-buffer-boundaries/",
+        "title": "Regular Expression Buffer Boundaries for ECMAScript",
+        "status": "Editor's Draft",
+        "publisher": "Ecma International",
+        "deliveredBy": [
+            "https://tc39.es/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/tc39/proposal-regexp-buffer-boundaries"
     },
     "TC39-REGEXP-MODIFIERS": {
         "href": "https://tc39.es/proposal-regexp-modifiers/",
@@ -2691,18 +2784,10 @@
         "aliasOf": "vc-barcodes-1.0"
     },
     "VC-RECOGNITION": {
-        "aliasOf": "VC-RECOGNIZED-ENTITIES"
+        "aliasOf": "vc-recognized-entities-1.0"
     },
     "VC-RECOGNIZED-ENTITIES": {
-        "href": "https://w3c.github.io/vc-recognized-entities/",
-        "title": "Recognized Entities v1.0",
-        "status": "Editor's Draft",
-        "publisher": "W3C",
-        "deliveredBy": [
-            "https://www.w3.org/groups/wg/vc/"
-        ],
-        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/w3c/vc-recognized-entities"
+        "aliasOf": "vc-recognized-entities-1.0"
     },
     "VIDEO-RVFC": {
         "href": "https://wicg.github.io/video-rvfc/",
