@@ -33,12 +33,12 @@ const urlToGHRepo = (url = "") => {
         return {owner: 'w3c', name: 'fxtf-drafts', issuefilter: x => x.title.match(new RegExp("\\[" + devfxtf[1] + "\\]"))};
     }
 
-    const svgwg = url.match(/^https?:\/\/svgwg.org\/specs\/([^\/]*)\/?/);
+    const svgwg = url.match(/^https?:\/\/w3c.github.io\/svgwg\/specs\/([^\/]*)\/?/);
     if (svgwg) {
         return {owner: 'w3c', name: 'svgwg', issuefilter: x => x.labels.map(l => l.name.toLowerCase()).indexOf("svg " + svgwg[1]) !== -1};
     }
     // Specific cases
-    if (url === "https://svgwg.org/svg2-draft/") {
+    if (url === "https://w3c.github.io/svgwg/svg2-draft/") {
         return {owner: 'w3c', name: 'svgwg', issuefilter: x => x.labels.map(l => l.name.toLowerCase()).indexOf("svg core") !== -1};
     }
     if (url === "https://linkedresearch.org/ldn/") {
