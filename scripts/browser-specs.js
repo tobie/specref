@@ -134,6 +134,12 @@ request({
                     if (rv) {
                         updatedList[id] = { aliasOf: rv.id };
                     }
+                    else if (ref.aliasOf && isInSpecref(ref.aliasOf)) {
+                        updatedList[id] = ref;
+                    }
+                    else {
+                        console.log("Missing aliasOf target in browser-specs.json: " + ref.aliasOf + " needed for " + id);
+                    }
                 }
             }
             else if (ref.aliasOf && isInSpecref(ref.aliasOf)) {
