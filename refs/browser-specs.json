@@ -223,13 +223,14 @@
     "CLIENT-HINT-RELIABILITY": {
         "href": "https://datatracker.ietf.org/doc/html/draft-davidben-http-client-hint-reliability",
         "title": "Client Hint Reliability",
-        "status": "Editor's Draft",
+        "status": "Discontinued Draft",
         "publisher": "IETF",
         "deliveredBy": [
             "https://datatracker.ietf.org/wg/none/"
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/davidben/http-client-hint-reliability"
+        "repository": "https://github.com/davidben/http-client-hint-reliability",
+        "isRetired": true
     },
     "CLIENT-HINTS-INFRASTRUCTURE": {
         "href": "https://wicg.github.io/client-hints-infrastructure/",
@@ -999,13 +1000,14 @@
     "IDEMPOTENCY-KEY-HEADER": {
         "href": "https://datatracker.ietf.org/doc/html/draft-ietf-httpapi-idempotency-key-header/",
         "title": "The Idempotency-Key HTTP Header Field",
-        "status": "Editor's Draft",
+        "status": "Discontinued Draft",
         "publisher": "IETF",
         "deliveredBy": [
             "https://datatracker.ietf.org/wg/httpapi/"
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/ietf-wg-httpapi/idempotency"
+        "repository": "https://github.com/ietf-wg-httpapi/idempotency",
+        "isRetired": true
     },
     "IDLE-DETECTION": {
         "href": "https://wicg.github.io/idle-detection/",
@@ -1462,13 +1464,14 @@
     "PARTITIONED-COOKIES": {
         "href": "https://datatracker.ietf.org/doc/html/draft-cutler-httpbis-partitioned-cookies",
         "title": "Cookies Having Independent Partitioned State specification",
-        "status": "Editor's Draft",
+        "status": "Discontinued Draft",
         "publisher": "IETF",
         "deliveredBy": [
             "https://datatracker.ietf.org/wg/none/"
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/privacycg/CHIPS"
+        "repository": "https://github.com/privacycg/CHIPS",
+        "isRetired": true
     },
     "PAYMENTLINK": {
         "href": "https://wicg.github.io/paymentlink/",
