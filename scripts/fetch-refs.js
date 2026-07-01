@@ -17,6 +17,10 @@ var HELPER = "./fetch-helpers/" + PUBLISHER.toLowerCase();
 
 var biblio = helper.readBiblio();
 var current = helper.readBiblio(FILENAME);
+
+function isValidKey(key) {
+    return key !== '__proto__' && key !== 'constructor' && key !== 'prototype';
+}
 var refs = bibref.createUppercaseRefs(bibref.expandRefs(bibref.raw));
 console.log("Updating", PUBLISHER, "references...");
 console.log("Fetching", SOURCE + "...");
@@ -34,6 +38,9 @@ request({
     console.log("Parsing", SOURCE + "...");
     var json = JSON.parse(body);
     Object.keys(json).forEach(function(id) {
+        if (!isValidKey(id)) {
+            throw new Error("Invalid key: " + id);
+        }
         var ref = json[id];
         if (ref.aliasOf) {
             ref = { aliasOf: ref.aliasOf };
@@ -45,6 +52,9 @@ request({
         }
         var uppercaseId = id.toUpperCase();
         var prefixedId = PUBLISHER + "-" + id;
+        if (!isValidKey(prefixedId)) {
+            throw new Error("Invalid key: " + prefixedId);
+        }
         if (!(uppercaseId in refs)) {
             current[id] = ref;
             if (PREFIX) { current[prefixedId] = { aliasOf: id }; }
@@ -66,6 +76,9 @@ request({
                 rv.id.toUpperCase() != prefixedId.toUpperCase() &&
                 // avoid inadvertently catching drafts.
                 bibref.normalizeUrl(rv.href) == bibref.normalizeUrl(ref.href)) {
+            if (!isValidKey(rv.id)) {
+                throw new Error("Invalid key: " + rv.id);
+            }
             current[rv.id] = { aliasOf: PREFIX ? prefixedId : id };
             delete biblio[rv.id];
         }
