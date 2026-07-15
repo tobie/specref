@@ -308,6 +308,17 @@
     "COOKIE-STORE": {
         "aliasOf": "COOKIESTORE"
     },
+    "CPU-PERFORMANCE": {
+        "href": "https://wicg.github.io/cpu-performance/",
+        "title": "CPU Performance API",
+        "status": "Draft Community Group Report",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/wicg/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/WICG/cpu-performance"
+    },
     "CRASH-REPORTING": {
         "href": "https://wicg.github.io/crash-reporting/",
         "title": "Crash Reporting",
@@ -895,6 +906,16 @@
     },
     "FIDO-CLIENT-TO-AUTHENTICATOR-PROTOCOL-V2.2": {
         "href": "https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html",
+        "title": "Client to Authenticator Protocol (CTAP)",
+        "status": "Editor's Draft",
+        "publisher": "FIDO Alliance",
+        "deliveredBy": [
+            "https://fidoalliance.org/members/working-groups/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json"
+    },
+    "FIDO-CLIENT-TO-AUTHENTICATOR-PROTOCOL-V2.3": {
+        "href": "https://fidoalliance.org/specs/fido-v2.3-ps-20260226/fido-client-to-authenticator-protocol-v2.3-ps-20260226.html",
         "title": "Client to Authenticator Protocol (CTAP)",
         "status": "Editor's Draft",
         "publisher": "FIDO Alliance",
@@ -1812,17 +1833,6 @@
     "SHACL12-CS": {
         "href": "https://w3c.github.io/data-shapes/shacl12-cs/",
         "title": "SHACL Compact Syntax",
-        "status": "Editor's Draft",
-        "publisher": "W3C",
-        "deliveredBy": [
-            "https://www.w3.org/groups/wg/data-shapes/"
-        ],
-        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/w3c/data-shapes"
-    },
-    "SHACL12-PROFILING": {
-        "href": "https://w3c.github.io/data-shapes/shacl12-profiling/",
-        "title": "SHACL 1.2 Profiling",
         "status": "Editor's Draft",
         "publisher": "W3C",
         "deliveredBy": [
