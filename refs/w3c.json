@@ -71525,7 +71525,7 @@
         ],
         "href": "https://www.w3.org/TR/did-resolution/",
         "title": "Decentralized Identifier Resolution (DID Resolution) v1",
-        "rawDate": "2026-07-23",
+        "rawDate": "2026-07-24",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/did-resolution/",
@@ -72460,6 +72460,21 @@
                     "https://www.w3.org/groups/wg/did/"
                 ],
                 "source": "https://api.w3.org/specifications/did-resolution/versions/20260723"
+            },
+            "20260724": {
+                "authors": [
+                    "Stephen Curran",
+                    "Joe Andrieu"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-did-resolution-20260724/",
+                "title": "Decentralized Identifier Resolution (DID Resolution) v1",
+                "rawDate": "2026-07-24",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/did/"
+                ],
+                "source": "https://api.w3.org/specifications/did-resolution/versions/20260724"
             }
         },
         "repository": "https://github.com/w3c/did-resolution"
@@ -223417,7 +223432,7 @@
         "repository": "https://github.com/w3c/sustainableweb-wsg"
     },
     "web-user-agents": {
-        "rawDate": "2026-07-20",
+        "rawDate": "2026-07-24",
         "href": "https://www.w3.org/TR/web-user-agents/",
         "title": "Web User Agents",
         "edDraft": "https://w3ctag.github.io/user-agents",
@@ -223558,6 +223573,21 @@
                     "https://www.w3.org/2001/tag/"
                 ],
                 "source": "https://api.w3.org/specifications/web-user-agents/versions/20260720"
+            },
+            "20260724": {
+                "authors": [
+                    "Jeffrey Yasskin",
+                    "Sarven Capadisli"
+                ],
+                "href": "https://www.w3.org/TR/2026/DNOTE-web-user-agents-20260724/",
+                "title": "Web User Agents",
+                "rawDate": "2026-07-24",
+                "status": "DNOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2001/tag/"
+                ],
+                "source": "https://api.w3.org/specifications/web-user-agents/versions/20260724"
             }
         },
         "status": "DNOTE",
