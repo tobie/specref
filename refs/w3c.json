@@ -182283,7 +182283,7 @@
         "repository": "https://github.com/w3c/data-shapes"
     },
     "shacl12-rules": {
-        "rawDate": "2026-07-22",
+        "rawDate": "2026-07-25",
         "href": "https://www.w3.org/TR/shacl12-rules/",
         "title": "SHACL 1.2 Rules",
         "edDraft": "https://w3c.github.io/data-shapes/shacl12-rules/",
@@ -182833,6 +182833,23 @@
                     "https://www.w3.org/groups/wg/data-shapes/"
                 ],
                 "source": "https://api.w3.org/specifications/shacl12-rules/versions/20260722"
+            },
+            "20260725": {
+                "authors": [
+                    "Robert David",
+                    "David Habgood",
+                    "Andy Seaborne",
+                    "Simon Steyskal"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-shacl12-rules-20260725/",
+                "title": "SHACL 1.2 Rules",
+                "rawDate": "2026-07-25",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/data-shapes/"
+                ],
+                "source": "https://api.w3.org/specifications/shacl12-rules/versions/20260725"
             }
         },
         "status": "WD",
