@@ -3070,6 +3070,19 @@
         "publisher": "IETF",
         "source": "https://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc10026": {
+        "rfcNumber": "RFC10026",
+        "href": "https://www.rfc-editor.org/info/rfc10026/",
+        "title": "Operational Recommendations for DNSSEC Delegation Signer (DS) Automation",
+        "authors": [
+            "S. Sheng",
+            "P. Thomassen"
+        ],
+        "rawDate": "2026-07",
+        "status": "Best Current Practice",
+        "publisher": "IETF",
+        "source": "https://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc1003": {
         "rfcNumber": "RFC1003",
         "href": "https://www.rfc-editor.org/info/rfc1003/",
@@ -103979,6 +103992,7 @@
         "updates": [
             "RFC679"
         ],
+        "hasErrata": "https://www.rfc-editor.org/errata/rfc703",
         "publisher": "IETF",
         "source": "https://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -126670,6 +126684,9 @@
         ],
         "rawDate": "2018-03",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC8808"
+        ],
         "updates": [
             "RFC7950"
         ],
@@ -134665,6 +134682,10 @@
         ],
         "rawDate": "2020-08",
         "status": "Proposed Standard",
+        "updates": [
+            "RFC8342"
+        ],
+        "hasErrata": "https://www.rfc-editor.org/errata/rfc8808",
         "publisher": "IETF",
         "source": "https://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -154482,6 +154503,7 @@
         ],
         "rawDate": "2026-06",
         "status": "Informational",
+        "hasErrata": "https://www.rfc-editor.org/errata/rfc9958",
         "publisher": "IETF",
         "source": "https://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -155066,6 +155088,18 @@
             "O. Steele",
             "S. Lasker",
             "H. Birkholz"
+        ],
+        "rawDate": "2026-07",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "https://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc9997": {
+        "rfcNumber": "RFC9997",
+        "href": "https://www.rfc-editor.org/info/rfc9997/",
+        "title": "YANG-CBOR: Allocating SID Ranges for Private Enterprise Number (PEN) Holders",
+        "authors": [
+            "C. Bormann"
         ],
         "rawDate": "2026-07",
         "status": "Proposed Standard",
