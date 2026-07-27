@@ -182302,7 +182302,7 @@
         "repository": "https://github.com/w3c/data-shapes"
     },
     "shacl12-rules": {
-        "rawDate": "2026-07-25",
+        "rawDate": "2026-07-27",
         "href": "https://www.w3.org/TR/shacl12-rules/",
         "title": "SHACL 1.2 Rules",
         "edDraft": "https://w3c.github.io/data-shapes/shacl12-rules/",
@@ -182869,6 +182869,23 @@
                     "https://www.w3.org/groups/wg/data-shapes/"
                 ],
                 "source": "https://api.w3.org/specifications/shacl12-rules/versions/20260725"
+            },
+            "20260727": {
+                "authors": [
+                    "Robert David",
+                    "David Habgood",
+                    "Andy Seaborne",
+                    "Simon Steyskal"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-shacl12-rules-20260727/",
+                "title": "SHACL 1.2 Rules",
+                "rawDate": "2026-07-27",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/data-shapes/"
+                ],
+                "source": "https://api.w3.org/specifications/shacl12-rules/versions/20260727"
             }
         },
         "status": "WD",
@@ -216823,7 +216840,7 @@
         ],
         "href": "https://www.w3.org/TR/wasm-core-2/",
         "title": "WebAssembly Core Specification",
-        "rawDate": "2026-07-24",
+        "rawDate": "2026-07-27",
         "status": "CRD",
         "publisher": "W3C",
         "edDraft": "https://webassembly.github.io/spec/core/bikeshed/",
@@ -217699,6 +217716,20 @@
                     "https://www.w3.org/groups/wg/wasm/"
                 ],
                 "source": "https://api.w3.org/specifications/wasm-core-2/versions/20260724"
+            },
+            "20260727": {
+                "authors": [
+                    "Andreas Rossberg"
+                ],
+                "href": "https://www.w3.org/TR/2026/CRD-wasm-core-2-20260727/",
+                "title": "WebAssembly Core Specification",
+                "rawDate": "2026-07-27",
+                "status": "CRD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/wasm/"
+                ],
+                "source": "https://api.w3.org/specifications/wasm-core-2/versions/20260727"
             }
         },
         "repository": "https://github.com/webassembly/spec"
@@ -217804,7 +217835,7 @@
         ],
         "href": "https://www.w3.org/TR/wasm-js-api-2/",
         "title": "WebAssembly JavaScript Interface",
-        "rawDate": "2026-07-24",
+        "rawDate": "2026-07-27",
         "status": "CRD",
         "publisher": "W3C",
         "edDraft": "https://webassembly.github.io/spec/js-api/",
@@ -219011,6 +219042,21 @@
                     "https://www.w3.org/groups/wg/wasm/"
                 ],
                 "source": "https://api.w3.org/specifications/wasm-js-api-2/versions/20260724"
+            },
+            "20260727": {
+                "authors": [
+                    ". Ms2ger",
+                    "Ryan Hunt"
+                ],
+                "href": "https://www.w3.org/TR/2026/CRD-wasm-js-api-2-20260727/",
+                "title": "WebAssembly JavaScript Interface",
+                "rawDate": "2026-07-27",
+                "status": "CRD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/wasm/"
+                ],
+                "source": "https://api.w3.org/specifications/wasm-js-api-2/versions/20260727"
             }
         },
         "repository": "https://github.com/webassembly/spec"
@@ -219116,7 +219162,7 @@
         ],
         "href": "https://www.w3.org/TR/wasm-web-api-2/",
         "title": "WebAssembly Web API",
-        "rawDate": "2026-07-24",
+        "rawDate": "2026-07-27",
         "status": "CRD",
         "publisher": "W3C",
         "edDraft": "https://webassembly.github.io/spec/web-api/",
@@ -220435,6 +220481,21 @@
                     "https://www.w3.org/groups/wg/wasm/"
                 ],
                 "source": "https://api.w3.org/specifications/wasm-web-api-2/versions/20260724"
+            },
+            "20260727": {
+                "authors": [
+                    ". Ms2ger",
+                    "Ryan Hunt"
+                ],
+                "href": "https://www.w3.org/TR/2026/CRD-wasm-web-api-2-20260727/",
+                "title": "WebAssembly Web API",
+                "rawDate": "2026-07-27",
+                "status": "CRD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/wasm/"
+                ],
+                "source": "https://api.w3.org/specifications/wasm-web-api-2/versions/20260727"
             }
         },
         "repository": "https://github.com/webassembly/spec"
