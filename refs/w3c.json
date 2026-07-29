@@ -1967,7 +1967,7 @@
         ],
         "href": "https://www.w3.org/TR/CSP3/",
         "title": "Content Security Policy Level 3",
-        "rawDate": "2026-05-05",
+        "rawDate": "2026-07-29",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/webappsec-csp/",
@@ -3095,6 +3095,21 @@
                     "https://www.w3.org/groups/wg/webappsec/"
                 ],
                 "source": "https://api.w3.org/specifications/CSP3/versions/20260505"
+            },
+            "20260729": {
+                "authors": [
+                    "Mike West",
+                    "Antonio Sartori"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-CSP3-20260729/",
+                "title": "Content Security Policy Level 3",
+                "rawDate": "2026-07-29",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/webappsec/"
+                ],
+                "source": "https://api.w3.org/specifications/CSP3/versions/20260729"
             }
         },
         "repository": "https://github.com/w3c/webappsec-csp"
