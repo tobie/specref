@@ -788,6 +788,17 @@
         "publisher": "Consumer Technology Association",
         "status": "CTA Specification"
     },
+    "CTA-5000-H": {
+        "title": "Web Media API Snapshot 2025 CTA-5000-H",
+        "authors": [
+            "Jon Piesing",
+            "John Riviello"
+        ],
+        "href": "https://www.cta.tech/standards/web-application-video-ecosystem-web-media-api-snapshot-2025/",
+        "date": "October 2025",
+        "publisher": "Consumer Technology Association",
+        "status": "CTA Specification"
+    },
     "CUAP": {
         "authors": [
             "Karl Dubost"
@@ -4879,6 +4890,9 @@
     },
     "WMAS2024-ERRATA": {
         "aliasOf": "CTA-5000-G-ERRATA"
+    },
+    "WMAS2025": {
+        "aliasOf": "CTA-5000-H"
     },
     "WS-SECURECONVERSATION13": {
         "title": "WS-SecureConversation 1.3",
