@@ -71636,7 +71636,7 @@
         },
         "repository": "https://github.com/w3c/did-imp-guide"
     },
-    "did-resolution": {
+    "did-resolution-1.0": {
         "authors": [
             "Stephen Curran",
             "Joe Andrieu"
@@ -72597,8 +72597,8 @@
         },
         "repository": "https://github.com/w3c/did-resolution"
     },
-    "did-resolution-1.0": {
-        "aliasOf": "did-resolution"
+    "did-resolution": {
+        "aliasOf": "did-resolution-1.0"
     },
     "did-rubric": {
         "authors": [
@@ -211054,7 +211054,7 @@
     "vc-jwt": {
         "aliasOf": "vc-jose-cose"
     },
-    "vc-overview": {
+    "vc-overview-1.0": {
         "authors": [
             "Ivan Herman"
         ],
@@ -211338,8 +211338,8 @@
         },
         "repository": "https://github.com/w3c/vc-overview"
     },
-    "vc-overview-1.0": {
-        "aliasOf": "vc-overview"
+    "vc-overview": {
+        "aliasOf": "vc-overview-1.0"
     },
     "vc-recognized-entities-1.0": {
         "rawDate": "2026-07-26",
