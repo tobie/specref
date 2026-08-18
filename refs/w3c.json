@@ -71636,7 +71636,7 @@
         },
         "repository": "https://github.com/w3c/did-imp-guide"
     },
-    "did-resolution": {
+    "did-resolution-1.0": {
         "authors": [
             "Stephen Curran",
             "Joe Andrieu"
@@ -72596,6 +72596,196 @@
             }
         },
         "repository": "https://github.com/w3c/did-resolution"
+    },
+    "did-resolution": {
+        "aliasOf": "did-resolution-1.0",
+        "isSeriesAlias": true
+    },
+    "did-resolution-20241128": {
+        "aliasOf": "did-resolution-1.0-20241128"
+    },
+    "did-resolution-20241203": {
+        "aliasOf": "did-resolution-1.0-20241203"
+    },
+    "did-resolution-20241212": {
+        "aliasOf": "did-resolution-1.0-20241212"
+    },
+    "did-resolution-20250115": {
+        "aliasOf": "did-resolution-1.0-20250115"
+    },
+    "did-resolution-20250122": {
+        "aliasOf": "did-resolution-1.0-20250122"
+    },
+    "did-resolution-20250206": {
+        "aliasOf": "did-resolution-1.0-20250206"
+    },
+    "did-resolution-20250214": {
+        "aliasOf": "did-resolution-1.0-20250214"
+    },
+    "did-resolution-20250221": {
+        "aliasOf": "did-resolution-1.0-20250221"
+    },
+    "did-resolution-20250227": {
+        "aliasOf": "did-resolution-1.0-20250227"
+    },
+    "did-resolution-20250313": {
+        "aliasOf": "did-resolution-1.0-20250313"
+    },
+    "did-resolution-20250322": {
+        "aliasOf": "did-resolution-1.0-20250322"
+    },
+    "did-resolution-20250327": {
+        "aliasOf": "did-resolution-1.0-20250327"
+    },
+    "did-resolution-20250423": {
+        "aliasOf": "did-resolution-1.0-20250423"
+    },
+    "did-resolution-20250522": {
+        "aliasOf": "did-resolution-1.0-20250522"
+    },
+    "did-resolution-20250529": {
+        "aliasOf": "did-resolution-1.0-20250529"
+    },
+    "did-resolution-20250617": {
+        "aliasOf": "did-resolution-1.0-20250617"
+    },
+    "did-resolution-20250619": {
+        "aliasOf": "did-resolution-1.0-20250619"
+    },
+    "did-resolution-20250710": {
+        "aliasOf": "did-resolution-1.0-20250710"
+    },
+    "did-resolution-20250729": {
+        "aliasOf": "did-resolution-1.0-20250729"
+    },
+    "did-resolution-20250731": {
+        "aliasOf": "did-resolution-1.0-20250731"
+    },
+    "did-resolution-20250803": {
+        "aliasOf": "did-resolution-1.0-20250803"
+    },
+    "did-resolution-20250821": {
+        "aliasOf": "did-resolution-1.0-20250821"
+    },
+    "did-resolution-20250908": {
+        "aliasOf": "did-resolution-1.0-20250908"
+    },
+    "did-resolution-20250918": {
+        "aliasOf": "did-resolution-1.0-20250918"
+    },
+    "did-resolution-20250929": {
+        "aliasOf": "did-resolution-1.0-20250929"
+    },
+    "did-resolution-20251007": {
+        "aliasOf": "did-resolution-1.0-20251007"
+    },
+    "did-resolution-20251008": {
+        "aliasOf": "did-resolution-1.0-20251008"
+    },
+    "did-resolution-20251013": {
+        "aliasOf": "did-resolution-1.0-20251013"
+    },
+    "did-resolution-20251016": {
+        "aliasOf": "did-resolution-1.0-20251016"
+    },
+    "did-resolution-20251120": {
+        "aliasOf": "did-resolution-1.0-20251120"
+    },
+    "did-resolution-20251211": {
+        "aliasOf": "did-resolution-1.0-20251211"
+    },
+    "did-resolution-20251217": {
+        "aliasOf": "did-resolution-1.0-20251217"
+    },
+    "did-resolution-20251218": {
+        "aliasOf": "did-resolution-1.0-20251218"
+    },
+    "did-resolution-20260105": {
+        "aliasOf": "did-resolution-1.0-20260105"
+    },
+    "did-resolution-20260107": {
+        "aliasOf": "did-resolution-1.0-20260107"
+    },
+    "did-resolution-20260108": {
+        "aliasOf": "did-resolution-1.0-20260108"
+    },
+    "did-resolution-20260111": {
+        "aliasOf": "did-resolution-1.0-20260111"
+    },
+    "did-resolution-20260112": {
+        "aliasOf": "did-resolution-1.0-20260112"
+    },
+    "did-resolution-20260113": {
+        "aliasOf": "did-resolution-1.0-20260113"
+    },
+    "did-resolution-20260115": {
+        "aliasOf": "did-resolution-1.0-20260115"
+    },
+    "did-resolution-20260117": {
+        "aliasOf": "did-resolution-1.0-20260117"
+    },
+    "did-resolution-20260122": {
+        "aliasOf": "did-resolution-1.0-20260122"
+    },
+    "did-resolution-20260129": {
+        "aliasOf": "did-resolution-1.0-20260129"
+    },
+    "did-resolution-20260203": {
+        "aliasOf": "did-resolution-1.0-20260203"
+    },
+    "did-resolution-20260205": {
+        "aliasOf": "did-resolution-1.0-20260205"
+    },
+    "did-resolution-20260208": {
+        "aliasOf": "did-resolution-1.0-20260208"
+    },
+    "did-resolution-20260301": {
+        "aliasOf": "did-resolution-1.0-20260301"
+    },
+    "did-resolution-20260303": {
+        "aliasOf": "did-resolution-1.0-20260303"
+    },
+    "did-resolution-20260309": {
+        "aliasOf": "did-resolution-1.0-20260309"
+    },
+    "did-resolution-20260327": {
+        "aliasOf": "did-resolution-1.0-20260327"
+    },
+    "did-resolution-20260329": {
+        "aliasOf": "did-resolution-1.0-20260329"
+    },
+    "did-resolution-20260413": {
+        "aliasOf": "did-resolution-1.0-20260413"
+    },
+    "did-resolution-20260424": {
+        "aliasOf": "did-resolution-1.0-20260424"
+    },
+    "did-resolution-20260511": {
+        "aliasOf": "did-resolution-1.0-20260511"
+    },
+    "did-resolution-20260525": {
+        "aliasOf": "did-resolution-1.0-20260525"
+    },
+    "did-resolution-20260605": {
+        "aliasOf": "did-resolution-1.0-20260605"
+    },
+    "did-resolution-20260611": {
+        "aliasOf": "did-resolution-1.0-20260611"
+    },
+    "did-resolution-20260709": {
+        "aliasOf": "did-resolution-1.0-20260709"
+    },
+    "did-resolution-20260710": {
+        "aliasOf": "did-resolution-1.0-20260710"
+    },
+    "did-resolution-20260716": {
+        "aliasOf": "did-resolution-1.0-20260716"
+    },
+    "did-resolution-20260723": {
+        "aliasOf": "did-resolution-1.0-20260723"
+    },
+    "did-resolution-20260724": {
+        "aliasOf": "did-resolution-1.0-20260724"
     },
     "did-rubric": {
         "authors": [
@@ -211051,7 +211241,7 @@
     "vc-jwt": {
         "aliasOf": "vc-jose-cose"
     },
-    "vc-overview": {
+    "vc-overview-1.0": {
         "authors": [
             "Ivan Herman"
         ],
@@ -211334,6 +211524,67 @@
             }
         },
         "repository": "https://github.com/w3c/vc-overview"
+    },
+    "vc-overview": {
+        "aliasOf": "vc-overview-1.0",
+        "isSeriesAlias": true
+    },
+    "vc-overview-20240613": {
+        "aliasOf": "vc-overview-1.0-20240613"
+    },
+    "vc-overview-20240706": {
+        "aliasOf": "vc-overview-1.0-20240706"
+    },
+    "vc-overview-20240919": {
+        "aliasOf": "vc-overview-1.0-20240919"
+    },
+    "vc-overview-20241014": {
+        "aliasOf": "vc-overview-1.0-20241014"
+    },
+    "vc-overview-20241022": {
+        "aliasOf": "vc-overview-1.0-20241022"
+    },
+    "vc-overview-20241108": {
+        "aliasOf": "vc-overview-1.0-20241108"
+    },
+    "vc-overview-20241220": {
+        "aliasOf": "vc-overview-1.0-20241220"
+    },
+    "vc-overview-20250103": {
+        "aliasOf": "vc-overview-1.0-20250103"
+    },
+    "vc-overview-20250109": {
+        "aliasOf": "vc-overview-1.0-20250109"
+    },
+    "vc-overview-20250210": {
+        "aliasOf": "vc-overview-1.0-20250210"
+    },
+    "vc-overview-20250212": {
+        "aliasOf": "vc-overview-1.0-20250212"
+    },
+    "vc-overview-20250513": {
+        "aliasOf": "vc-overview-1.0-20250513"
+    },
+    "vc-overview-20250520": {
+        "aliasOf": "vc-overview-1.0-20250520"
+    },
+    "vc-overview-20250817": {
+        "aliasOf": "vc-overview-1.0-20250817"
+    },
+    "vc-overview-20250825": {
+        "aliasOf": "vc-overview-1.0-20250825"
+    },
+    "vc-overview-20250924": {
+        "aliasOf": "vc-overview-1.0-20250924"
+    },
+    "vc-overview-20260610": {
+        "aliasOf": "vc-overview-1.0-20260610"
+    },
+    "vc-overview-20260617": {
+        "aliasOf": "vc-overview-1.0-20260617"
+    },
+    "vc-overview-20260618": {
+        "aliasOf": "vc-overview-1.0-20260618"
     },
     "vc-recognized-entities-1.0": {
         "rawDate": "2026-07-26",
