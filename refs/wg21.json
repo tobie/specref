@@ -101501,7 +101501,7 @@
         "source": "https://wg21.link/index.json"
     },
     "EDIT9146": {
-        "title": "[checks] Implement Python checks and fix some violations",
+        "title": "[checks] Implement Python checks",
         "href": "https://wg21.link/edit9146",
         "status": "open",
         "publisher": "WG21",
@@ -101888,7 +101888,7 @@
     "EDIT9196": {
         "title": "[basic.start.term] Add period to end of sentence",
         "href": "https://wg21.link/edit9196",
-        "status": "open",
+        "status": "closed",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -101930,21 +101930,21 @@
     "EDIT9200": {
         "title": "[simd.math] Stray indexing of `riemann_zeta`",
         "href": "https://wg21.link/edit9200",
-        "status": "open",
+        "status": "closed",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
     "EDIT9201": {
         "title": "[simd.math] Fix various indexing problems",
         "href": "https://wg21.link/edit9201",
-        "status": "open",
+        "status": "closed",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
     "EDIT9202": {
         "title": "[container.requirements] Add consistent punctuation.",
         "href": "https://wg21.link/edit9202",
-        "status": "open",
+        "status": "closed",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -101955,9 +101955,121 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "EDIT9204": {
+        "title": "[locale.time.get.general] Fix indentation",
+        "href": "https://wg21.link/edit9204",
+        "status": "closed",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "EDIT9205": {
+        "title": "[ub:expr.static.cast.does.not.contain.original.member] Adjust linebreak in example",
+        "href": "https://wg21.link/edit9205",
+        "status": "closed",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "EDIT9206": {
+        "title": "[ifndr:lex.name.reserved] Don't escape underscores in \\tcode.",
+        "href": "https://wg21.link/edit9206",
+        "status": "closed",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "EDIT9207": {
+        "title": "[mdspan.layout] Remove stray \\tcode.",
+        "href": "https://wg21.link/edit9207",
+        "status": "closed",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "EDIT9208": {
+        "title": "[over.over] Add example from CWG2918 discussion",
+        "href": "https://wg21.link/edit9208",
+        "status": "closed",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "EDIT9209": {
+        "title": "[exec.parschedrepl.recvproxy] Remove orphaned exposition-only query-env member",
+        "href": "https://wg21.link/edit9209",
+        "status": "closed",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "EDIT921": {
         "title": "[thread.lock.shared] Apply conventional indent to shared_lock class d…",
         "href": "https://wg21.link/edit921",
+        "status": "closed",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "EDIT9210": {
+        "title": "[locale.time.get.byname] Fix indentation",
+        "href": "https://wg21.link/edit9210",
+        "status": "closed",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "EDIT9211": {
+        "title": "[ub.general, ifndr.general] Add missing \\pnum",
+        "href": "https://wg21.link/edit9211",
+        "status": "closed",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "EDIT9212": {
+        "title": "[ptrtag.pair.get] Add missing template parameter `I`",
+        "href": "https://wg21.link/edit9212",
+        "status": "closed",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "EDIT9213": {
+        "title": "[dcl.contract.func] Index 'pre'/'post' grammar occurrences.",
+        "href": "https://wg21.link/edit9213",
+        "status": "closed",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "EDIT9214": {
+        "title": "[hive.syn, dcl.contract.func] Remove initial newlines from codeblocks.",
+        "href": "https://wg21.link/edit9214",
+        "status": "closed",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "EDIT9215": {
+        "title": "[locale.time.put.general] Fix indentation",
+        "href": "https://wg21.link/edit9215",
+        "status": "closed",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "EDIT9216": {
+        "title": "[depr.istream.extractors] Add \\tcode for setstate",
+        "href": "https://wg21.link/edit9216",
+        "status": "closed",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "EDIT9217": {
+        "title": "Improve sentence structures by removing colons",
+        "href": "https://wg21.link/edit9217",
+        "status": "closed",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "EDIT9218": {
+        "title": "[locale.time.put.byname] Fix indentation",
+        "href": "https://wg21.link/edit9218",
+        "status": "closed",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "EDIT9219": {
+        "title": "[depr.istream.extractors] Fix \\iref to \\ref",
+        "href": "https://wg21.link/edit9219",
         "status": "closed",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
@@ -101969,10 +102081,150 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "EDIT9220": {
+        "title": "[rand.req.eng][rand.req.dist] What is `fmtflags`?",
+        "href": "https://wg21.link/edit9220",
+        "status": "open",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "EDIT9221": {
+        "title": "[locale.money.get.general] Fix indentation",
+        "href": "https://wg21.link/edit9221",
+        "status": "closed",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "EDIT9222": {
+        "title": "[expr.const.const] Add period to end of sentence",
+        "href": "https://wg21.link/edit9222",
+        "status": "closed",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "EDIT9223": {
+        "title": "[locale.money.put.general] Fix indentation",
+        "href": "https://wg21.link/edit9223",
+        "status": "closed",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "EDIT9224": {
+        "title": "[expr.const.init] Adjust linebreak in example",
+        "href": "https://wg21.link/edit9224",
+        "status": "closed",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "EDIT9225": {
+        "title": "[tools/check] Combine grep/sed calls using \"-e\".",
+        "href": "https://wg21.link/edit9225",
+        "status": "open",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "EDIT9226": {
+        "title": "[diff] Add entry for removed std::filesystem::path::string function",
+        "href": "https://wg21.link/edit9226",
+        "status": "closed",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "EDIT9227": {
+        "title": "[fs.path.member] Fix indexing for `(generic_)native_encoded_string`",
+        "href": "https://wg21.link/edit9227",
+        "status": "closed",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "EDIT9228": {
+        "title": "[format], [input.output] Hallucinated reference to \"Unicode Standard, Chapter 3.9 U+FFFD Substitution in Conversion\"",
+        "href": "https://wg21.link/edit9228",
+        "status": "open",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "EDIT9229": {
+        "title": "[locale.moneypunct.general] Fix indentation",
+        "href": "https://wg21.link/edit9229",
+        "status": "closed",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "EDIT923": {
         "title": "[class.base.init] Remove stray indentation in codeblock.",
         "href": "https://wg21.link/edit923",
         "status": "closed",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "EDIT9230": {
+        "title": "[expr.const.const] Adjust \\defnadj definition for better readability",
+        "href": "https://wg21.link/edit9230",
+        "status": "closed",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "EDIT9231": {
+        "title": "[input.output] Add \\recommended at the start of \"Implementations should\" paragraphs",
+        "href": "https://wg21.link/edit9231",
+        "status": "open",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "EDIT9232": {
+        "title": "[atomics.order] Add \\recommended before \"Implementations should\"",
+        "href": "https://wg21.link/edit9232",
+        "status": "open",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "EDIT9233": {
+        "title": "[locale.moneypunct.byname] Fix indentation",
+        "href": "https://wg21.link/edit9233",
+        "status": "closed",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "EDIT9234": {
+        "title": "[expected.void.general] Add namespace std in partial class template specialization",
+        "href": "https://wg21.link/edit9234",
+        "status": "closed",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "EDIT9235": {
+        "title": "[locale.messages.general] Fix indentation",
+        "href": "https://wg21.link/edit9235",
+        "status": "open",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "EDIT9236": {
+        "title": "[simd.creation] Lambda display issues",
+        "href": "https://wg21.link/edit9236",
+        "status": "closed",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "EDIT9237": {
+        "title": "[simd.creation] Add missing escaping to braces in `\\tcode`",
+        "href": "https://wg21.link/edit9237",
+        "status": "closed",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "EDIT9238": {
+        "title": "[ifndr:basic.def.odr.definition.matches] wrong parity of negation, wrong example",
+        "href": "https://wg21.link/edit9238",
+        "status": "open",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "EDIT9239": {
+        "title": "[meta.reflection.queries] [dcl.fct] Disagreement about whether `int()const` is const qualified",
+        "href": "https://wg21.link/edit9239",
+        "status": "open",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -101983,10 +102235,143 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "EDIT9240": {
+        "title": "[basic.contract.eval] Fix index redirects.",
+        "href": "https://wg21.link/edit9240",
+        "status": "closed",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "EDIT9241": {
+        "title": "[basic.scope.scope] Remove incorrect namespace redeclaration example CWG3214",
+        "href": "https://wg21.link/edit9241",
+        "status": "open",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "EDIT9242": {
+        "title": "[optional] Inconsistent indexing for \"contain(s) a value\".",
+        "href": "https://wg21.link/edit9242",
+        "status": "open",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "EDIT9243": {
+        "title": "[optional.optional.ref.general] Unify indexing for \"contain(s) a value\"",
+        "href": "https://wg21.link/edit9243",
+        "status": "open",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "EDIT9244": {
+        "title": "Fix missing parameter name in atomic_ref ctor",
+        "href": "https://wg21.link/edit9244",
+        "status": "closed",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "EDIT9245": {
+        "title": "[ifndr:over.literal.reserved] Add \\grammarterm for literal-operator-id",
+        "href": "https://wg21.link/edit9245",
+        "status": "closed",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "EDIT9246": {
+        "title": "[ifndr:class.base.init.delegate.itself] Add period to end of sentence",
+        "href": "https://wg21.link/edit9246",
+        "status": "closed",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "EDIT9247": {
+        "title": "[ub:dcl.type.cv.access.volatile] Add period to end of sentence",
+        "href": "https://wg21.link/edit9247",
+        "status": "closed",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "EDIT9248": {
+        "title": "[diff.expr] Paragraph added by CWG2875 is not correct for C23",
+        "href": "https://wg21.link/edit9248",
+        "status": "open",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "EDIT9249": {
+        "title": "[diff.expr] Strike line in example that is UB in C23",
+        "href": "https://wg21.link/edit9249",
+        "status": "open",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "EDIT925": {
         "title": "[inner.product] Fix typo",
         "href": "https://wg21.link/edit925",
         "status": "closed",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "EDIT9250": {
+        "title": "[diff.lex] Fix lowercase/uppercase mismatch",
+        "href": "https://wg21.link/edit9250",
+        "status": "closed",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "EDIT9251": {
+        "title": "[diff.cpp23.dcl.dcl] Adjust linebreak in example",
+        "href": "https://wg21.link/edit9251",
+        "status": "closed",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "EDIT9252": {
+        "title": "[meta.reflection.member.queries] Add \\grammarterm for constant-expression",
+        "href": "https://wg21.link/edit9252",
+        "status": "closed",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "EDIT9253": {
+        "title": "[basic.def.odr] Add \\grammarterm for lambda-expression",
+        "href": "https://wg21.link/edit9253",
+        "status": "closed",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "EDIT9254": {
+        "title": "[cfloat.syn], [cmath.syn] Add missing \"// optional\" comments for some macros",
+        "href": "https://wg21.link/edit9254",
+        "status": "open",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "EDIT9255": {
+        "title": "[stmt.expand] Add \\grammarterm for compound-statement",
+        "href": "https://wg21.link/edit9255",
+        "status": "closed",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "EDIT9256": {
+        "title": "[implimits] Add \\grammarterm for lambda-capture",
+        "href": "https://wg21.link/edit9256",
+        "status": "open",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "EDIT9257": {
+        "title": "[lib] Index C23 library feature-test macros",
+        "href": "https://wg21.link/edit9257",
+        "status": "closed",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "EDIT9258": {
+        "title": "[ub:except.handle.handler.ctor.dtor] Add \\grammarterm for function-try-block",
+        "href": "https://wg21.link/edit9258",
+        "status": "open",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -126857,7 +127242,7 @@
     "LWG3047": {
         "title": "atomic compound assignment operators can cause undefined behavior when corresponding fetch_meow members don't",
         "href": "https://wg21.link/lwg3047",
-        "status": "New",
+        "status": "Ready",
         "authors": [
             "Tim Song"
         ],
@@ -138677,7 +139062,7 @@
     "LWG4110": {
         "title": "shared_ptr(nullptr_t, Deleter) is overconstrained, breaking some sensible deleters",
         "href": "https://wg21.link/lwg4110",
-        "status": "New",
+        "status": "Ready",
         "authors": [
             "Louis Dionne"
         ],
@@ -143507,7 +143892,7 @@
     "LWG4546": {
         "title": "Integer-class type should be structural type",
         "href": "https://wg21.link/lwg4546",
-        "status": "New",
+        "status": "Ready",
         "authors": [
             "Hewill Kang"
         ],
@@ -143837,7 +144222,7 @@
     "LWG4576": {
         "title": "{can_}substitute specification is (still) ill-formed",
         "href": "https://wg21.link/lwg4576",
-        "status": "New",
+        "status": "Ready",
         "authors": [
             "S. B. Tam"
         ],
@@ -143947,7 +144332,7 @@
     "LWG4586": {
         "title": "Partial specialization of std::format_kind for std::optional is not marked hosted",
         "href": "https://wg21.link/lwg4586",
-        "status": "New",
+        "status": "Ready",
         "authors": [
             "Jiang An"
         ],
@@ -144137,7 +144522,7 @@
     "LWG4602": {
         "title": "Incorrect lower bound for the default floating-point representation",
         "href": "https://wg21.link/lwg4602",
-        "status": "New",
+        "status": "Ready",
         "authors": [
             "Victor Zverovich"
         ],
@@ -144174,12 +144559,72 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "LWG4606": {
+        "title": "Bullet (4.3) preconditions are too strict to implement submdspan",
+        "href": "https://wg21.link/lwg4606",
+        "status": "Ready",
+        "authors": [
+            "Mark Hoemmen"
+        ],
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "LWG4607": {
+        "title": "Meaning of numeric_limits<T>::is_exact is unclear",
+        "href": "https://wg21.link/lwg4607",
+        "status": "New",
+        "authors": [
+            "Jan Schultke"
+        ],
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "LWG4608": {
+        "title": "sleep_for is not an observable behavior",
+        "href": "https://wg21.link/lwg4608",
+        "status": "New",
+        "authors": [
+            "jim x"
+        ],
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "LWG4609": {
+        "title": "Deduction guide for std::thread::name_hint from std::basic_string should ignore the allocator type",
+        "href": "https://wg21.link/lwg4609",
+        "status": "New",
+        "authors": [
+            "Jiang An"
+        ],
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "LWG461": {
         "title": "time_get hard or impossible to implement",
         "href": "https://wg21.link/lwg461",
         "status": "CD1",
         "authors": [
             "Bill Plauger"
+        ],
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "LWG4610": {
+        "title": "std::swap should specially handle std::locale",
+        "href": "https://wg21.link/lwg4610",
+        "status": "New",
+        "authors": [
+            "Jiang An"
+        ],
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "LWG4611": {
+        "title": "bit_size_of overflow handling",
+        "href": "https://wg21.link/lwg4611",
+        "status": "New",
+        "authors": [
+            "Jay Ghiron"
         ],
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
@@ -186003,6 +186448,16 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "N5056": {
+        "title": "Business Plan and Convener's Report: ISO/IEC JTC 1/SC 22/WG 21 (C++)",
+        "href": "https://wg21.link/n5056",
+        "authors": [
+            "Guy Davidson"
+        ],
+        "rawDate": "2026-07-28",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "P0001R0": {
         "title": "Removing Deprecated Register Keyword",
         "href": "https://wg21.link/p0001r0",
@@ -227147,6 +227602,16 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "P2249R7": {
+        "title": "Mixed comparisons for smart pointers",
+        "href": "https://wg21.link/p2249r7",
+        "authors": [
+            "Giuseppe D'Angelo"
+        ],
+        "rawDate": "2026-07-22",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "P2250R0": {
         "title": "Scheduler vs Executor",
         "href": "https://wg21.link/p2250r0",
@@ -238367,6 +238832,16 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "P2806R5": {
+        "title": "do expressions",
+        "href": "https://wg21.link/p2806r5",
+        "authors": [
+            "Barry Revzin, Bruno Cardoso Lopez, Zach Laine, Michael Park"
+        ],
+        "rawDate": "2026-08-13",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "P2807R0": {
         "title": "Issaquah Slides for Intel response to std::simd",
         "href": "https://wg21.link/p2807r0",
@@ -245067,6 +245542,16 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "P3100R8": {
+        "title": "A framework for systematically addressing undefined behaviour in the C++ Standard",
+        "href": "https://wg21.link/p3100r8",
+        "authors": [
+            "Timur Doumler, Joshua Berne"
+        ],
+        "rawDate": "2026-08-14",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "P3101R0": {
         "title": "Differentiating potentially throwing and nonthrowing violation handlers",
         "href": "https://wg21.link/p3101r0",
@@ -246021,6 +246506,16 @@
             "Zhihao Yuan, Jordan Saxonberg"
         ],
         "rawDate": "2024-12-27",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P3139R2": {
+        "title": "Pointer cast for unique_ptr",
+        "href": "https://wg21.link/p3139r2",
+        "authors": [
+            "Zhihao Yuan, Jordan Saxonberg"
+        ],
+        "rawDate": "2026-08-14",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -247320,6 +247815,16 @@
             "Hewill Kang"
         ],
         "rawDate": "2026-06-12",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P3216R4": {
+        "title": "views::slice",
+        "href": "https://wg21.link/p3216r4",
+        "authors": [
+            "Hewill Kang"
+        ],
+        "rawDate": "2026-07-27",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -249783,6 +250288,16 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "P3351R5": {
+        "title": "views::scan",
+        "href": "https://wg21.link/p3351r5",
+        "authors": [
+            "Yihe Li"
+        ],
+        "rawDate": "2026-08-12",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "P3352R0": {
         "title": "Taming the Demons (C++ version) - Undefined Behavior and Partial Program Correctness",
         "href": "https://wg21.link/p3352r0",
@@ -251243,6 +251758,16 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "P3423R2": {
+        "title": "Extending User-Generated Diagnostic Messages",
+        "href": "https://wg21.link/p3423r2",
+        "authors": [
+            "Yihe Li"
+        ],
+        "rawDate": "2026-07-22",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "P3424R0": {
         "title": "Define Delete With Throwing Exception Specification",
         "href": "https://wg21.link/p3424r0",
@@ -251260,6 +251785,16 @@
             "Alisdair Meredith"
         ],
         "rawDate": "2025-10-26",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P3424R2": {
+        "title": "Define Delete With Throwing Exception Specification",
+        "href": "https://wg21.link/p3424r2",
+        "authors": [
+            "Alisdair Meredith"
+        ],
+        "rawDate": "2026-07-17",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -251350,6 +251885,26 @@
             "Maged Michael, Michael Wong, Paul McKenney, Mark de Wever"
         ],
         "rawDate": "2026-07-08",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P3427R7": {
+        "title": "Hazard Pointer Synchronous Reclamation",
+        "href": "https://wg21.link/p3427r7",
+        "authors": [
+            "Maged Michael, Michael Wong, Paul McKenney, Mark de Wever"
+        ],
+        "rawDate": "2026-08-12",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P3427R8": {
+        "title": "Hazard Pointer Synchronous Reclamation",
+        "href": "https://wg21.link/p3427r8",
+        "authors": [
+            "Maged Michael, Michael Wong, Paul McKenney, Mark de Wever"
+        ],
+        "rawDate": "2026-08-12",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -253700,6 +254255,16 @@
             "Gabriel Dos Reis"
         ],
         "rawDate": "2025-05-19",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P3589R3": {
+        "title": "C++ Profiles: The Framework",
+        "href": "https://wg21.link/p3589r3",
+        "authors": [
+            "Gabriel Dos Reis"
+        ],
+        "rawDate": "2026-07-21",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -256823,6 +257388,16 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "P3817R0": {
+        "title": "Structured Binding Assignments",
+        "href": "https://wg21.link/p3817r0",
+        "authors": [
+            "Yehonatan Simian yonisimian@gmail.com, Ran Regev regev.ran@gmail.com"
+        ],
+        "rawDate": "2026-07-28",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "P3818R0": {
         "title": "constexpr exception fix for potentially constant initialization",
         "href": "https://wg21.link/p3818r0",
@@ -258193,6 +258768,26 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "P3904R2": {
+        "title": "When paths go WTF: making formatting lossless",
+        "href": "https://wg21.link/p3904r2",
+        "authors": [
+            "Victor Zverovich"
+        ],
+        "rawDate": "2026-07-22",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P3904R3": {
+        "title": "When paths go WTF: making formatting lossless",
+        "href": "https://wg21.link/p3904r3",
+        "authors": [
+            "Victor Zverovich"
+        ],
+        "rawDate": "2026-08-12",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "P3905R0": {
         "title": "C++ Standard Library Ready Issues to be moved in Kona, Nov. 2025",
         "href": "https://wg21.link/p3905r0",
@@ -258830,6 +259425,16 @@
             "Robert Leahy"
         ],
         "rawDate": "2026-01-16",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P3955R1": {
+        "title": "It's Scopes All the Way Down",
+        "href": "https://wg21.link/p3955r1",
+        "authors": [
+            "Robert Leahy"
+        ],
+        "rawDate": "2026-08-10",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -259883,6 +260488,16 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "P4049R1": {
+        "title": "Relaxing and extending std::copy",
+        "href": "https://wg21.link/p4049r1",
+        "authors": [
+            "Giuseppe D'Angelo"
+        ],
+        "date": "20260730",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "P4052R0": {
         "title": "Renaming saturation arithmetic functions",
         "href": "https://wg21.link/p4052r0",
@@ -260250,6 +260865,16 @@
             "Vinnie Falco"
         ],
         "rawDate": "2026-05-12",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P4130R0": {
+        "title": "SD-4: Five Correctives Inspired by ISO Directives",
+        "href": "https://wg21.link/p4130r0",
+        "authors": [
+            "Vinnie Falco"
+        ],
+        "rawDate": "2026-08-14",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -260893,6 +261518,16 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "P4199R0": {
+        "title": "A Reader's Guide to the August 2026 Mailing",
+        "href": "https://wg21.link/p4199r0",
+        "authors": [
+            "Vinnie Falco"
+        ],
+        "rawDate": "2026-08-14",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "P4205R0": {
         "title": "Range-Based Searchers",
         "href": "https://wg21.link/p4205r0",
@@ -260900,6 +261535,16 @@
             "Yihe Li"
         ],
         "rawDate": "2026-04-28",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P4205R1": {
+        "title": "Range-Based Searchers",
+        "href": "https://wg21.link/p4205r1",
+        "authors": [
+            "Yihe Li"
+        ],
+        "rawDate": "2026-07-22",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -261113,6 +261758,16 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "P4222R2": {
+        "title": "An initialization profile (R1)",
+        "href": "https://wg21.link/p4222r2",
+        "authors": [
+            "Bjarne Stroustrup"
+        ],
+        "rawDate": "2026-08-14",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "P4223R0": {
         "title": "Towards senders in interfaces",
         "href": "https://wg21.link/p4223r0",
@@ -261230,6 +261885,16 @@
             "Matthias Wippich, Murat Can Çağrı"
         ],
         "rawDate": "2026-07-16",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P4238R0": {
+        "title": "Returning C++26 for the Evaluation It Skipped",
+        "href": "https://wg21.link/p4238r0",
+        "authors": [
+            "Vinnie Falco"
+        ],
+        "rawDate": "2026-08-14",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -261373,6 +262038,16 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "P4277R0": {
+        "title": "Overview and Implementation Report for P3100",
+        "href": "https://wg21.link/p4277r0",
+        "authors": [
+            "Joshua Berne"
+        ],
+        "rawDate": "2026-08-13",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "P4279R0": {
         "title": "No Endian Views",
         "href": "https://wg21.link/p4279r0",
@@ -261403,6 +262078,16 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "P4282R1": {
+        "title": "Away From co_yield For std::execution::task",
+        "href": "https://wg21.link/p4282r1",
+        "authors": [
+            "Robert Leahy"
+        ],
+        "rawDate": "2026-08-02",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "P4283R0": {
         "title": "Requires clauses for Contract Assertions",
         "href": "https://wg21.link/p4283r0",
@@ -261413,6 +262098,16 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "P4284R0": {
+        "title": "Addenda to the Undefined Behavior and IFNDR Annexes",
+        "href": "https://wg21.link/p4284r0",
+        "authors": [
+            "Joshua Berne"
+        ],
+        "rawDate": "2026-08-13",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "P4288R0": {
         "title": "Stop the Decay",
         "href": "https://wg21.link/p4288r0",
@@ -261420,6 +262115,16 @@
             "Robert Leahy"
         ],
         "rawDate": "2026-07-15",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P4288R1": {
+        "title": "Stop the Decay",
+        "href": "https://wg21.link/p4288r1",
+        "authors": [
+            "Robert Leahy"
+        ],
+        "date": "20260731",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -261453,6 +262158,16 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "P4294R1": {
+        "title": "views::take_last and views::drop_last",
+        "href": "https://wg21.link/p4294r1",
+        "authors": [
+            "Hewill Kang"
+        ],
+        "rawDate": "2026-07-20",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "P4295R0": {
         "title": "Single Ends for C++ Concurrent Queues",
         "href": "https://wg21.link/p4295r0",
@@ -261483,6 +262198,16 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "P4297R1": {
+        "title": "Severing P3100's Profiles Claim from Its Case-by-Case Review",
+        "href": "https://wg21.link/p4297r1",
+        "authors": [
+            "Vinnie Falco, Ville Voutilainen"
+        ],
+        "rawDate": "2026-08-14",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "P4298R0": {
         "title": "Nonthrowing Evaluation Semantics",
         "href": "https://wg21.link/p4298r0",
@@ -261500,6 +262225,16 @@
             "Vinnie Falco"
         ],
         "rawDate": "2026-07-16",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P4302R1": {
+        "title": "Any Delegate May Object to a Poll on an Unmailed Revision",
+        "href": "https://wg21.link/p4302r1",
+        "authors": [
+            "Vinnie Falco"
+        ],
+        "rawDate": "2026-08-14",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -261533,6 +262268,16 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "P4306R1": {
+        "title": "Configuring Runtime Checking: Profiles and Implicit Contract Assertions",
+        "href": "https://wg21.link/p4306r1",
+        "authors": [
+            "Vinnie Falco, Ville Voutilainen"
+        ],
+        "rawDate": "2026-08-14",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "P4308R0": {
         "title": "Eight Responses to a Throwing Implicit Contract Assertion",
         "href": "https://wg21.link/p4308r0",
@@ -261540,6 +262285,16 @@
             "Vinnie Falco, Ville Voutilainen"
         ],
         "rawDate": "2026-07-16",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P4308R1": {
+        "title": "Eight Responses to a Throwing Implicit Contract Assertion",
+        "href": "https://wg21.link/p4308r1",
+        "authors": [
+            "Vinnie Falco, Ville Voutilainen"
+        ],
+        "rawDate": "2026-08-14",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -261563,6 +262318,16 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "P4310R1": {
+        "title": "Hasta la Vista, Undefined Behavior: Why std::core_ub Should Terminate by Default",
+        "href": "https://wg21.link/p4310r1",
+        "authors": [
+            "Vinnie Falco, Ville Voutilainen"
+        ],
+        "rawDate": "2026-08-14",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "P4311R0": {
         "title": "Getting a const element type version of an mdspan accessor, and of an mdspan too",
         "href": "https://wg21.link/p4311r0",
@@ -261570,6 +262335,16 @@
             "Mark Hoemmen, Rob Parolin"
         ],
         "rawDate": "2026-07-15",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P4311R1": {
+        "title": "Getting a const element type version of an mdspan accessor, and of an mdspan too",
+        "href": "https://wg21.link/p4311r1",
+        "authors": [
+            "Mark Hoemmen, Rob Parolin"
+        ],
+        "rawDate": "2026-08-14",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -261590,6 +262365,16 @@
             "Iliya Guterman, Anthony Williams"
         ],
         "rawDate": "2026-07-14",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P4313R1": {
+        "title": "Bitmask operations for enums",
+        "href": "https://wg21.link/p4313r1",
+        "authors": [
+            "Iliya Guterman, Anthony Williams"
+        ],
+        "rawDate": "2026-07-21",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -261633,6 +262418,16 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "P4317R1": {
+        "title": "A Profile for Runtime-Checkable Core-Language Undefined Behavior: std::core_ub",
+        "href": "https://wg21.link/p4317r1",
+        "authors": [
+            "Vinnie Falco"
+        ],
+        "rawDate": "2026-08-14",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "P4318R0": {
         "title": "Transient Benefit, Perpetual Cost: Implicit Core-Language Assertions",
         "href": "https://wg21.link/p4318r0",
@@ -261643,6 +262438,16 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "P4318R1": {
+        "title": "Transient Benefit, Perpetual Cost: Implicit Core-Language Assertions",
+        "href": "https://wg21.link/p4318r1",
+        "authors": [
+            "Vinnie Falco"
+        ],
+        "rawDate": "2026-08-14",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "P4320R0": {
         "title": "std::execution::sequence",
         "href": "https://wg21.link/p4320r0",
@@ -261650,6 +262455,146 @@
             "Robert Leahy"
         ],
         "rawDate": "2026-07-16",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P4323R0": {
+        "title": "Do do_return!",
+        "href": "https://wg21.link/p4323r0",
+        "authors": [
+            "Jan Schultke"
+        ],
+        "rawDate": "2026-08-11",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P4324R0": {
+        "title": "Exploration of a more library-oriented approach to contracts",
+        "href": "https://wg21.link/p4324r0",
+        "authors": [
+            "Ville Voutilainen, Ville Voutilainen"
+        ],
+        "rawDate": "2026-08-14",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P4327R0": {
+        "title": "Direct-list-initialization syntax for default function arguments",
+        "href": "https://wg21.link/p4327r0",
+        "authors": [
+            "Ungureanu Radu-Andrei"
+        ],
+        "rawDate": "2026-08-10",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P4329R0": {
+        "title": "variant_sender",
+        "href": "https://wg21.link/p4329r0",
+        "authors": [
+            "Robert Leahy"
+        ],
+        "rawDate": "2026-07-29",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P4330R0": {
+        "title": "Analysis of Contracts Papers",
+        "href": "https://wg21.link/p4330r0",
+        "authors": [
+            "Vinnie Falco"
+        ],
+        "rawDate": "2026-08-14",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P4332R0": {
+        "title": "Contracts are inappropriate for undefined behavior checks",
+        "href": "https://wg21.link/p4332r0",
+        "authors": [
+            "John Spicer, Ville Voutilainen, Bjarne Stroustrup, Vinnie Falco, Jose Daniel Garcia Sanchez"
+        ],
+        "date": "20260731",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P4334R0": {
+        "title": "P2900 Contracts’ fundamental flaws",
+        "href": "https://wg21.link/p4334r0",
+        "authors": [
+            "Bjarne Stroustrup, J-Daniel Garcia, Vinnie Falco, John Spicer, Ville Voutilainen"
+        ],
+        "rawDate": "2026-08-14",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P4337R0": {
+        "title": "emplace_from",
+        "href": "https://wg21.link/p4337r0",
+        "authors": [
+            "Robert Leahy"
+        ],
+        "rawDate": "2026-08-03",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P4338R0": {
+        "title": "deduce",
+        "href": "https://wg21.link/p4338r0",
+        "authors": [
+            "Robert Leahy"
+        ],
+        "rawDate": "2026-08-03",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P4340R0": {
+        "title": "Extending constant template parameter support by customizing std::meta::reflect_constant",
+        "href": "https://wg21.link/p4340r0",
+        "authors": [
+            "Barry Revzin"
+        ],
+        "rawDate": "2026-08-13",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P4343R0": {
+        "title": "Adding clear() to Container Adaptors",
+        "href": "https://wg21.link/p4343r0",
+        "authors": [
+            "Shubham Avasthi"
+        ],
+        "rawDate": "2026-08-11",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P4344R0": {
+        "title": "pure alias types",
+        "href": "https://wg21.link/p4344r0",
+        "authors": [
+            "Jarrad Waterloo"
+        ],
+        "rawDate": "2026-08-13",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P4347R0": {
+        "title": "How to decouple UB-checks from Contracts",
+        "href": "https://wg21.link/p4347r0",
+        "authors": [
+            "Ville Voutilainen"
+        ],
+        "rawDate": "2026-08-14",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P4348R0": {
+        "title": "Types and Attributes",
+        "href": "https://wg21.link/p4348r0",
+        "authors": [
+            "Bjarne Stroustrup"
+        ],
+        "rawDate": "2026-08-14",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -261679,7 +262624,7 @@
         "authors": [
             "Nevin Liber"
         ],
-        "rawDate": "2026-07-16",
+        "rawDate": "2026-08-14",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -300185,20 +301130,185 @@
     "WG21-EDIT9203": {
         "aliasOf": "EDIT9203"
     },
+    "WG21-EDIT9204": {
+        "aliasOf": "EDIT9204"
+    },
+    "WG21-EDIT9205": {
+        "aliasOf": "EDIT9205"
+    },
+    "WG21-EDIT9206": {
+        "aliasOf": "EDIT9206"
+    },
+    "WG21-EDIT9207": {
+        "aliasOf": "EDIT9207"
+    },
+    "WG21-EDIT9208": {
+        "aliasOf": "EDIT9208"
+    },
+    "WG21-EDIT9209": {
+        "aliasOf": "EDIT9209"
+    },
     "WG21-EDIT921": {
         "aliasOf": "EDIT921"
+    },
+    "WG21-EDIT9210": {
+        "aliasOf": "EDIT9210"
+    },
+    "WG21-EDIT9211": {
+        "aliasOf": "EDIT9211"
+    },
+    "WG21-EDIT9212": {
+        "aliasOf": "EDIT9212"
+    },
+    "WG21-EDIT9213": {
+        "aliasOf": "EDIT9213"
+    },
+    "WG21-EDIT9214": {
+        "aliasOf": "EDIT9214"
+    },
+    "WG21-EDIT9215": {
+        "aliasOf": "EDIT9215"
+    },
+    "WG21-EDIT9216": {
+        "aliasOf": "EDIT9216"
+    },
+    "WG21-EDIT9217": {
+        "aliasOf": "EDIT9217"
+    },
+    "WG21-EDIT9218": {
+        "aliasOf": "EDIT9218"
+    },
+    "WG21-EDIT9219": {
+        "aliasOf": "EDIT9219"
     },
     "WG21-EDIT922": {
         "aliasOf": "EDIT922"
     },
+    "WG21-EDIT9220": {
+        "aliasOf": "EDIT9220"
+    },
+    "WG21-EDIT9221": {
+        "aliasOf": "EDIT9221"
+    },
+    "WG21-EDIT9222": {
+        "aliasOf": "EDIT9222"
+    },
+    "WG21-EDIT9223": {
+        "aliasOf": "EDIT9223"
+    },
+    "WG21-EDIT9224": {
+        "aliasOf": "EDIT9224"
+    },
+    "WG21-EDIT9225": {
+        "aliasOf": "EDIT9225"
+    },
+    "WG21-EDIT9226": {
+        "aliasOf": "EDIT9226"
+    },
+    "WG21-EDIT9227": {
+        "aliasOf": "EDIT9227"
+    },
+    "WG21-EDIT9228": {
+        "aliasOf": "EDIT9228"
+    },
+    "WG21-EDIT9229": {
+        "aliasOf": "EDIT9229"
+    },
     "WG21-EDIT923": {
         "aliasOf": "EDIT923"
+    },
+    "WG21-EDIT9230": {
+        "aliasOf": "EDIT9230"
+    },
+    "WG21-EDIT9231": {
+        "aliasOf": "EDIT9231"
+    },
+    "WG21-EDIT9232": {
+        "aliasOf": "EDIT9232"
+    },
+    "WG21-EDIT9233": {
+        "aliasOf": "EDIT9233"
+    },
+    "WG21-EDIT9234": {
+        "aliasOf": "EDIT9234"
+    },
+    "WG21-EDIT9235": {
+        "aliasOf": "EDIT9235"
+    },
+    "WG21-EDIT9236": {
+        "aliasOf": "EDIT9236"
+    },
+    "WG21-EDIT9237": {
+        "aliasOf": "EDIT9237"
+    },
+    "WG21-EDIT9238": {
+        "aliasOf": "EDIT9238"
+    },
+    "WG21-EDIT9239": {
+        "aliasOf": "EDIT9239"
     },
     "WG21-EDIT924": {
         "aliasOf": "EDIT924"
     },
+    "WG21-EDIT9240": {
+        "aliasOf": "EDIT9240"
+    },
+    "WG21-EDIT9241": {
+        "aliasOf": "EDIT9241"
+    },
+    "WG21-EDIT9242": {
+        "aliasOf": "EDIT9242"
+    },
+    "WG21-EDIT9243": {
+        "aliasOf": "EDIT9243"
+    },
+    "WG21-EDIT9244": {
+        "aliasOf": "EDIT9244"
+    },
+    "WG21-EDIT9245": {
+        "aliasOf": "EDIT9245"
+    },
+    "WG21-EDIT9246": {
+        "aliasOf": "EDIT9246"
+    },
+    "WG21-EDIT9247": {
+        "aliasOf": "EDIT9247"
+    },
+    "WG21-EDIT9248": {
+        "aliasOf": "EDIT9248"
+    },
+    "WG21-EDIT9249": {
+        "aliasOf": "EDIT9249"
+    },
     "WG21-EDIT925": {
         "aliasOf": "EDIT925"
+    },
+    "WG21-EDIT9250": {
+        "aliasOf": "EDIT9250"
+    },
+    "WG21-EDIT9251": {
+        "aliasOf": "EDIT9251"
+    },
+    "WG21-EDIT9252": {
+        "aliasOf": "EDIT9252"
+    },
+    "WG21-EDIT9253": {
+        "aliasOf": "EDIT9253"
+    },
+    "WG21-EDIT9254": {
+        "aliasOf": "EDIT9254"
+    },
+    "WG21-EDIT9255": {
+        "aliasOf": "EDIT9255"
+    },
+    "WG21-EDIT9256": {
+        "aliasOf": "EDIT9256"
+    },
+    "WG21-EDIT9257": {
+        "aliasOf": "EDIT9257"
+    },
+    "WG21-EDIT9258": {
+        "aliasOf": "EDIT9258"
     },
     "WG21-EDIT926": {
         "aliasOf": "EDIT926"
@@ -313406,8 +314516,26 @@
     "WG21-LWG4605": {
         "aliasOf": "LWG4605"
     },
+    "WG21-LWG4606": {
+        "aliasOf": "LWG4606"
+    },
+    "WG21-LWG4607": {
+        "aliasOf": "LWG4607"
+    },
+    "WG21-LWG4608": {
+        "aliasOf": "LWG4608"
+    },
+    "WG21-LWG4609": {
+        "aliasOf": "LWG4609"
+    },
     "WG21-LWG461": {
         "aliasOf": "LWG461"
+    },
+    "WG21-LWG4610": {
+        "aliasOf": "LWG4610"
+    },
+    "WG21-LWG4611": {
+        "aliasOf": "LWG4611"
     },
     "WG21-LWG462": {
         "aliasOf": "LWG462"
@@ -326057,6 +327185,9 @@
     "WG21-N5055": {
         "aliasOf": "N5055"
     },
+    "WG21-N5056": {
+        "aliasOf": "N5056"
+    },
     "WG21-P0001R0": {
         "aliasOf": "P0001R0"
     },
@@ -338417,6 +339548,9 @@
     "WG21-P2249R6": {
         "aliasOf": "P2249R6"
     },
+    "WG21-P2249R7": {
+        "aliasOf": "P2249R7"
+    },
     "WG21-P2250R0": {
         "aliasOf": "P2250R0"
     },
@@ -341783,6 +342917,9 @@
     "WG21-P2806R4": {
         "aliasOf": "P2806R4"
     },
+    "WG21-P2806R5": {
+        "aliasOf": "P2806R5"
+    },
     "WG21-P2807R0": {
         "aliasOf": "P2807R0"
     },
@@ -343793,6 +344930,9 @@
     "WG21-P3100R7": {
         "aliasOf": "P3100R7"
     },
+    "WG21-P3100R8": {
+        "aliasOf": "P3100R8"
+    },
     "WG21-P3101R0": {
         "aliasOf": "P3101R0"
     },
@@ -344080,6 +345220,9 @@
     },
     "WG21-P3139R1": {
         "aliasOf": "P3139R1"
+    },
+    "WG21-P3139R2": {
+        "aliasOf": "P3139R2"
     },
     "WG21-P3140R0": {
         "aliasOf": "P3140R0"
@@ -344470,6 +345613,9 @@
     },
     "WG21-P3216R3": {
         "aliasOf": "P3216R3"
+    },
+    "WG21-P3216R4": {
+        "aliasOf": "P3216R4"
     },
     "WG21-P3217R0": {
         "aliasOf": "P3217R0"
@@ -345209,6 +346355,9 @@
     "WG21-P3351R4": {
         "aliasOf": "P3351R4"
     },
+    "WG21-P3351R5": {
+        "aliasOf": "P3351R5"
+    },
     "WG21-P3352R0": {
         "aliasOf": "P3352R0"
     },
@@ -345647,11 +346796,17 @@
     "WG21-P3423R1": {
         "aliasOf": "P3423R1"
     },
+    "WG21-P3423R2": {
+        "aliasOf": "P3423R2"
+    },
     "WG21-P3424R0": {
         "aliasOf": "P3424R0"
     },
     "WG21-P3424R1": {
         "aliasOf": "P3424R1"
+    },
+    "WG21-P3424R2": {
+        "aliasOf": "P3424R2"
     },
     "WG21-P3425R0": {
         "aliasOf": "P3425R0"
@@ -345679,6 +346834,12 @@
     },
     "WG21-P3427R6": {
         "aliasOf": "P3427R6"
+    },
+    "WG21-P3427R7": {
+        "aliasOf": "P3427R7"
+    },
+    "WG21-P3427R8": {
+        "aliasOf": "P3427R8"
     },
     "WG21-P3428R0": {
         "aliasOf": "P3428R0"
@@ -346384,6 +347545,9 @@
     },
     "WG21-P3589R2": {
         "aliasOf": "P3589R2"
+    },
+    "WG21-P3589R3": {
+        "aliasOf": "P3589R3"
     },
     "WG21-P3590R0": {
         "aliasOf": "P3590R0"
@@ -347321,6 +348485,9 @@
     "WG21-P3816R3": {
         "aliasOf": "P3816R3"
     },
+    "WG21-P3817R0": {
+        "aliasOf": "P3817R0"
+    },
     "WG21-P3818R0": {
         "aliasOf": "P3818R0"
     },
@@ -347732,6 +348899,12 @@
     "WG21-P3904R1": {
         "aliasOf": "P3904R1"
     },
+    "WG21-P3904R2": {
+        "aliasOf": "P3904R2"
+    },
+    "WG21-P3904R3": {
+        "aliasOf": "P3904R3"
+    },
     "WG21-P3905R0": {
         "aliasOf": "P3905R0"
     },
@@ -347923,6 +349096,9 @@
     },
     "WG21-P3955R0": {
         "aliasOf": "P3955R0"
+    },
+    "WG21-P3955R1": {
+        "aliasOf": "P3955R1"
     },
     "WG21-P3959R0": {
         "aliasOf": "P3959R0"
@@ -348239,6 +349415,9 @@
     "WG21-P4049R0": {
         "aliasOf": "P4049R0"
     },
+    "WG21-P4049R1": {
+        "aliasOf": "P4049R1"
+    },
     "WG21-P4052R0": {
         "aliasOf": "P4052R0"
     },
@@ -348349,6 +349528,9 @@
     },
     "WG21-P4127R0": {
         "aliasOf": "P4127R0"
+    },
+    "WG21-P4130R0": {
+        "aliasOf": "P4130R0"
     },
     "WG21-P4133R0": {
         "aliasOf": "P4133R0"
@@ -348542,8 +349724,14 @@
     "WG21-P4198R0": {
         "aliasOf": "P4198R0"
     },
+    "WG21-P4199R0": {
+        "aliasOf": "P4199R0"
+    },
     "WG21-P4205R0": {
         "aliasOf": "P4205R0"
+    },
+    "WG21-P4205R1": {
+        "aliasOf": "P4205R1"
     },
     "WG21-P4206R0": {
         "aliasOf": "P4206R0"
@@ -348608,6 +349796,9 @@
     "WG21-P4222R1": {
         "aliasOf": "P4222R1"
     },
+    "WG21-P4222R2": {
+        "aliasOf": "P4222R2"
+    },
     "WG21-P4223R0": {
         "aliasOf": "P4223R0"
     },
@@ -348643,6 +349834,9 @@
     },
     "WG21-P4234R2": {
         "aliasOf": "P4234R2"
+    },
+    "WG21-P4238R0": {
+        "aliasOf": "P4238R0"
     },
     "WG21-P4243R0": {
         "aliasOf": "P4243R0"
@@ -348686,6 +349880,9 @@
     "WG21-P4276R0": {
         "aliasOf": "P4276R0"
     },
+    "WG21-P4277R0": {
+        "aliasOf": "P4277R0"
+    },
     "WG21-P4279R0": {
         "aliasOf": "P4279R0"
     },
@@ -348695,11 +349892,20 @@
     "WG21-P4282R0": {
         "aliasOf": "P4282R0"
     },
+    "WG21-P4282R1": {
+        "aliasOf": "P4282R1"
+    },
     "WG21-P4283R0": {
         "aliasOf": "P4283R0"
     },
+    "WG21-P4284R0": {
+        "aliasOf": "P4284R0"
+    },
     "WG21-P4288R0": {
         "aliasOf": "P4288R0"
+    },
+    "WG21-P4288R1": {
+        "aliasOf": "P4288R1"
     },
     "WG21-P4291R0": {
         "aliasOf": "P4291R0"
@@ -348710,6 +349916,9 @@
     "WG21-P4294R0": {
         "aliasOf": "P4294R0"
     },
+    "WG21-P4294R1": {
+        "aliasOf": "P4294R1"
+    },
     "WG21-P4295R0": {
         "aliasOf": "P4295R0"
     },
@@ -348719,11 +349928,17 @@
     "WG21-P4297R0": {
         "aliasOf": "P4297R0"
     },
+    "WG21-P4297R1": {
+        "aliasOf": "P4297R1"
+    },
     "WG21-P4298R0": {
         "aliasOf": "P4298R0"
     },
     "WG21-P4302R0": {
         "aliasOf": "P4302R0"
+    },
+    "WG21-P4302R1": {
+        "aliasOf": "P4302R1"
     },
     "WG21-P4304R0": {
         "aliasOf": "P4304R0"
@@ -348734,8 +349949,14 @@
     "WG21-P4306R0": {
         "aliasOf": "P4306R0"
     },
+    "WG21-P4306R1": {
+        "aliasOf": "P4306R1"
+    },
     "WG21-P4308R0": {
         "aliasOf": "P4308R0"
+    },
+    "WG21-P4308R1": {
+        "aliasOf": "P4308R1"
     },
     "WG21-P4309R0": {
         "aliasOf": "P4309R0"
@@ -348743,14 +349964,23 @@
     "WG21-P4310R0": {
         "aliasOf": "P4310R0"
     },
+    "WG21-P4310R1": {
+        "aliasOf": "P4310R1"
+    },
     "WG21-P4311R0": {
         "aliasOf": "P4311R0"
+    },
+    "WG21-P4311R1": {
+        "aliasOf": "P4311R1"
     },
     "WG21-P4312R0": {
         "aliasOf": "P4312R0"
     },
     "WG21-P4313R0": {
         "aliasOf": "P4313R0"
+    },
+    "WG21-P4313R1": {
+        "aliasOf": "P4313R1"
     },
     "WG21-P4314R0": {
         "aliasOf": "P4314R0"
@@ -348764,11 +349994,59 @@
     "WG21-P4317R0": {
         "aliasOf": "P4317R0"
     },
+    "WG21-P4317R1": {
+        "aliasOf": "P4317R1"
+    },
     "WG21-P4318R0": {
         "aliasOf": "P4318R0"
     },
+    "WG21-P4318R1": {
+        "aliasOf": "P4318R1"
+    },
     "WG21-P4320R0": {
         "aliasOf": "P4320R0"
+    },
+    "WG21-P4323R0": {
+        "aliasOf": "P4323R0"
+    },
+    "WG21-P4324R0": {
+        "aliasOf": "P4324R0"
+    },
+    "WG21-P4327R0": {
+        "aliasOf": "P4327R0"
+    },
+    "WG21-P4329R0": {
+        "aliasOf": "P4329R0"
+    },
+    "WG21-P4330R0": {
+        "aliasOf": "P4330R0"
+    },
+    "WG21-P4332R0": {
+        "aliasOf": "P4332R0"
+    },
+    "WG21-P4334R0": {
+        "aliasOf": "P4334R0"
+    },
+    "WG21-P4337R0": {
+        "aliasOf": "P4337R0"
+    },
+    "WG21-P4338R0": {
+        "aliasOf": "P4338R0"
+    },
+    "WG21-P4340R0": {
+        "aliasOf": "P4340R0"
+    },
+    "WG21-P4343R0": {
+        "aliasOf": "P4343R0"
+    },
+    "WG21-P4344R0": {
+        "aliasOf": "P4344R0"
+    },
+    "WG21-P4347R0": {
+        "aliasOf": "P4347R0"
+    },
+    "WG21-P4348R0": {
+        "aliasOf": "P4348R0"
     },
     "WG21-P5000R0": {
         "aliasOf": "P5000R0"

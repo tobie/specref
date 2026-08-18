@@ -2892,6 +2892,22 @@
         "publisher": "IETF",
         "source": "https://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc10001": {
+        "rfcNumber": "RFC10001",
+        "href": "https://www.rfc-editor.org/info/rfc10001/",
+        "title": "Operational Guidelines for DNS Transport in Mixed IPv4/IPv6 Environments",
+        "authors": [
+            "Momoka",
+            "T. Fiebig"
+        ],
+        "rawDate": "2026-08",
+        "status": "Best Current Practice",
+        "obsoletes": [
+            "RFC3901"
+        ],
+        "publisher": "IETF",
+        "source": "https://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc10002": {
         "rfcNumber": "RFC10002",
         "href": "https://www.rfc-editor.org/info/rfc10002/",
@@ -2960,6 +2976,20 @@
         "publisher": "IETF",
         "source": "https://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc10006": {
+        "rfcNumber": "RFC10006",
+        "href": "https://www.rfc-editor.org/info/rfc10006/",
+        "title": "Automatic SIP Trunking and Peering",
+        "authors": [
+            "K. Inamdar",
+            "S. Narayanan",
+            "C. Jennings"
+        ],
+        "rawDate": "2026-08",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "https://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc10007": {
         "rfcNumber": "RFC10007",
         "href": "https://www.rfc-editor.org/info/rfc10007/",
@@ -3004,6 +3034,21 @@
         "rawDate": "1987-03",
         "status": "Internet Standard",
         "hasErrata": "https://www.rfc-editor.org/errata/rfc1001",
+        "publisher": "IETF",
+        "source": "https://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc10013": {
+        "rfcNumber": "RFC10013",
+        "href": "https://www.rfc-editor.org/info/rfc10013/",
+        "title": "Entity Attestation Token (EAT) Measured Component",
+        "authors": [
+            "S. Frost",
+            "T. Fossati",
+            "H. Tschofenig",
+            "H. Birkholz"
+        ],
+        "rawDate": "2026-07",
+        "status": "Proposed Standard",
         "publisher": "IETF",
         "source": "https://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -3055,6 +3100,41 @@
         "publisher": "IETF",
         "source": "https://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc10018": {
+        "rfcNumber": "RFC10018",
+        "href": "https://www.rfc-editor.org/info/rfc10018/",
+        "title": "Multicast and Ethernet VPN with Segment Routing Point-to-Multipoint (P2MP) and Ingress Replication",
+        "authors": [
+            "R. Parekh, Ed.",
+            "D. Voyer, Ed.",
+            "C. Filsfils",
+            "H. Bidgoli",
+            "Z. Zhang"
+        ],
+        "rawDate": "2026-08",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC6514",
+            "RFC7988"
+        ],
+        "hasErrata": "https://www.rfc-editor.org/errata/rfc10018",
+        "publisher": "IETF",
+        "source": "https://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc10019": {
+        "rfcNumber": "RFC10019",
+        "href": "https://www.rfc-editor.org/info/rfc10019/",
+        "title": "Zeroconf Multicast Address Allocation Problem Statement and Requirements",
+        "authors": [
+            "N. Karstens",
+            "D. Farinacci",
+            "M. McBride"
+        ],
+        "rawDate": "2026-07",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "https://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc1002": {
         "rfcNumber": "RFC1002",
         "href": "https://www.rfc-editor.org/info/rfc1002/",
@@ -3070,6 +3150,47 @@
         "publisher": "IETF",
         "source": "https://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc10022": {
+        "rfcNumber": "RFC10022",
+        "href": "https://www.rfc-editor.org/info/rfc10022/",
+        "title": "IMAP UIDBATCHES Extension",
+        "authors": [
+            "D. Eggert, Ed."
+        ],
+        "rawDate": "2026-07",
+        "status": "Proposed Standard",
+        "hasErrata": "https://www.rfc-editor.org/errata/rfc10022",
+        "publisher": "IETF",
+        "source": "https://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc10023": {
+        "rfcNumber": "RFC10023",
+        "href": "https://www.rfc-editor.org/info/rfc10023/",
+        "title": "The \"_for-sale\" Underscored and Globally Scoped DNS Node Name",
+        "authors": [
+            "M. Davids"
+        ],
+        "rawDate": "2026-07",
+        "status": "Informational",
+        "hasErrata": "https://www.rfc-editor.org/errata/rfc10023",
+        "publisher": "IETF",
+        "source": "https://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc10024": {
+        "rfcNumber": "RFC10024",
+        "href": "https://www.rfc-editor.org/info/rfc10024/",
+        "title": "Post-Quantum Traditional (PQ/T) Hybrid Key Agreement Mechanisms for TLS 1.3",
+        "authors": [
+            "K. Kwiatkowski",
+            "P. Kampanakis",
+            "B. E. Westerbaan",
+            "D. Stebila"
+        ],
+        "rawDate": "2026-08",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "https://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc10026": {
         "rfcNumber": "RFC10026",
         "href": "https://www.rfc-editor.org/info/rfc10026/",
@@ -3080,6 +3201,50 @@
         ],
         "rawDate": "2026-07",
         "status": "Best Current Practice",
+        "hasErrata": "https://www.rfc-editor.org/errata/rfc10026",
+        "publisher": "IETF",
+        "source": "https://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc10027": {
+        "rfcNumber": "RFC10027",
+        "href": "https://www.rfc-editor.org/info/rfc10027/",
+        "title": "Best Current Practice for Security of Cross-Device Flows",
+        "authors": [
+            "P. Kasselman",
+            "D. Fett",
+            "F. Skokan"
+        ],
+        "rawDate": "2026-08",
+        "status": "Best Current Practice",
+        "publisher": "IETF",
+        "source": "https://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc10028": {
+        "rfcNumber": "RFC10028",
+        "href": "https://www.rfc-editor.org/info/rfc10028/",
+        "title": "Updates to Dynamic IPv6 Multicast Address Group IDs",
+        "authors": [
+            "N. Karstens",
+            "D. Farinacci",
+            "M. McBride"
+        ],
+        "rawDate": "2026-08",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC3307"
+        ],
+        "publisher": "IETF",
+        "source": "https://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc10029": {
+        "rfcNumber": "RFC10029",
+        "href": "https://www.rfc-editor.org/info/rfc10029/",
+        "title": "DNS Multiple QTYPEs",
+        "authors": [
+            "R. Bellis"
+        ],
+        "rawDate": "2026-07",
+        "status": "Proposed Standard",
         "publisher": "IETF",
         "source": "https://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -3092,6 +3257,35 @@
         ],
         "rawDate": "1987-03",
         "status": "Unknown",
+        "publisher": "IETF",
+        "source": "https://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc10030": {
+        "rfcNumber": "RFC10030",
+        "href": "https://www.rfc-editor.org/info/rfc10030/",
+        "title": "Network Time Protocol (NTP) over the Precision Time Protocol (PTP)",
+        "authors": [
+            "M. Lichvar"
+        ],
+        "rawDate": "2026-08",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "https://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc10031": {
+        "rfcNumber": "RFC10031",
+        "href": "https://www.rfc-editor.org/info/rfc10031/",
+        "title": "Media Access Control (MAC) Addresses in X.509 Certificates",
+        "authors": [
+            "R. Housley",
+            "C. Bonnell",
+            "J. Mandel",
+            "T. Okubo",
+            "M. StJohns"
+        ],
+        "rawDate": "2026-08",
+        "status": "Proposed Standard",
+        "hasErrata": "https://www.rfc-editor.org/errata/rfc10031",
         "publisher": "IETF",
         "source": "https://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -6279,6 +6473,7 @@
         "obsoletes": [
             "RFC1063"
         ],
+        "hasErrata": "https://www.rfc-editor.org/errata/rfc1191",
         "publisher": "IETF",
         "source": "https://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -15590,6 +15785,7 @@
         ],
         "rawDate": "1995-01",
         "status": "Proposed Standard",
+        "hasErrata": "https://www.rfc-editor.org/errata/rfc1752",
         "publisher": "IETF",
         "source": "https://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -42252,6 +42448,9 @@
         ],
         "rawDate": "2002-09",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC10028"
+        ],
         "publisher": "IETF",
         "source": "https://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -52190,6 +52389,9 @@
         ],
         "rawDate": "2004-09",
         "status": "Best Current Practice",
+        "obsoletedBy": [
+            "RFC10001"
+        ],
         "publisher": "IETF",
         "source": "https://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -85788,6 +85990,7 @@
         "updatedBy": [
             "RFC9266"
         ],
+        "hasErrata": "https://www.rfc-editor.org/errata/rfc5929",
         "publisher": "IETF",
         "source": "https://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -95532,7 +95735,8 @@
             "RFC7988",
             "RFC8534",
             "RFC9081",
-            "RFC9573"
+            "RFC9573",
+            "RFC10018"
         ],
         "hasErrata": "https://www.rfc-editor.org/errata/rfc6514",
         "publisher": "IETF",
@@ -108806,6 +109010,7 @@
         ],
         "rawDate": "2014-07",
         "status": "Experimental",
+        "hasErrata": "https://www.rfc-editor.org/errata/rfc7314",
         "publisher": "IETF",
         "source": "https://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -120467,6 +120672,9 @@
         ],
         "rawDate": "2016-10",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC10018"
+        ],
         "updates": [
             "RFC6513",
             "RFC6514"
@@ -146137,6 +146345,7 @@
         ],
         "rawDate": "2023-10",
         "status": "Informational",
+        "hasErrata": "https://www.rfc-editor.org/errata/rfc9474",
         "publisher": "IETF",
         "source": "https://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -150407,7 +150616,6 @@
         ],
         "rawDate": "2025-04",
         "status": "Proposed Standard",
-        "hasErrata": "https://www.rfc-editor.org/errata/rfc9721",
         "publisher": "IETF",
         "source": "https://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -150868,6 +151076,7 @@
         ],
         "rawDate": "2025-03",
         "status": "Proposed Standard",
+        "hasErrata": "https://www.rfc-editor.org/errata/rfc9749",
         "publisher": "IETF",
         "source": "https://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -152543,6 +152752,7 @@
             "RFC8422",
             "RFC8446"
         ],
+        "hasErrata": "https://www.rfc-editor.org/errata/rfc9846",
         "publisher": "IETF",
         "source": "https://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -153867,6 +154077,7 @@
         "obsoletes": [
             "RFC9280"
         ],
+        "hasErrata": "https://www.rfc-editor.org/errata/rfc9920",
         "publisher": "IETF",
         "source": "https://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -154442,6 +154653,7 @@
         ],
         "rawDate": "2026-07",
         "status": "Informational",
+        "hasErrata": "https://www.rfc-editor.org/errata/rfc9954",
         "publisher": "IETF",
         "source": "https://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -154714,6 +154926,19 @@
         ],
         "rawDate": "2026-06",
         "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "https://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc9971": {
+        "rfcNumber": "RFC9971",
+        "href": "https://www.rfc-editor.org/info/rfc9971/",
+        "title": "Multiple Loss Ratio Search",
+        "authors": [
+            "M. Konstantynowicz",
+            "V. Polak"
+        ],
+        "rawDate": "2026-08",
+        "status": "Informational",
         "publisher": "IETF",
         "source": "https://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -155094,6 +155319,20 @@
         "publisher": "IETF",
         "source": "https://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc9996": {
+        "rfcNumber": "RFC9996",
+        "href": "https://www.rfc-editor.org/info/rfc9996/",
+        "title": "Media Types for Protocol Buffers",
+        "authors": [
+            "M. Kucherawy, Ed.",
+            "W. Kumari",
+            "R. Sloan"
+        ],
+        "rawDate": "2026-07",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "https://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc9997": {
         "rfcNumber": "RFC9997",
         "href": "https://www.rfc-editor.org/info/rfc9997/",
@@ -155131,6 +155370,7 @@
         ],
         "rawDate": "2026-07",
         "status": "Proposed Standard",
+        "hasErrata": "https://www.rfc-editor.org/errata/rfc9999",
         "publisher": "IETF",
         "source": "https://www.ietf.org/rfc/rfc-index.xml"
     }

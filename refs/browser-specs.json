@@ -432,7 +432,7 @@
     },
     "CSS-NAVIGATION-1": {
         "href": "https://drafts.csswg.org/css-navigation-1/",
-        "title": "CSS Route Matching",
+        "title": "CSS Navigation Matching",
         "status": "Editor's Draft",
         "publisher": "W3C",
         "deliveredBy": [
@@ -671,6 +671,17 @@
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/w3c/element-timing"
+    },
+    "EMAIL-VERIFICATION": {
+        "href": "https://wicg.github.io/email-verification/",
+        "title": "Email Verification API",
+        "status": "Draft Community Group Report",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/wicg/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/WICG/email-verification"
     },
     "ENTRIES-API": {
         "href": "https://wicg.github.io/entries-api/",

@@ -1967,7 +1967,7 @@
         ],
         "href": "https://www.w3.org/TR/CSP3/",
         "title": "Content Security Policy Level 3",
-        "rawDate": "2026-07-29",
+        "rawDate": "2026-08-13",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/webappsec-csp/",
@@ -3110,6 +3110,21 @@
                     "https://www.w3.org/groups/wg/webappsec/"
                 ],
                 "source": "https://api.w3.org/specifications/CSP3/versions/20260729"
+            },
+            "20260813": {
+                "authors": [
+                    "Mike West",
+                    "Antonio Sartori"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-CSP3-20260813/",
+                "title": "Content Security Policy Level 3",
+                "rawDate": "2026-08-13",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/webappsec/"
+                ],
+                "source": "https://api.w3.org/specifications/CSP3/versions/20260813"
             }
         },
         "repository": "https://github.com/w3c/webappsec-csp"
@@ -15866,7 +15881,7 @@
         ],
         "href": "https://www.w3.org/TR/WGSL/",
         "title": "WebGPU Shading Language",
-        "rawDate": "2026-07-16",
+        "rawDate": "2026-08-17",
         "status": "CRD",
         "publisher": "W3C",
         "edDraft": "https://gpuweb.github.io/gpuweb/wgsl/",
@@ -23461,6 +23476,70 @@
                     "https://www.w3.org/groups/wg/gpu/"
                 ],
                 "source": "https://api.w3.org/specifications/WGSL/versions/20260716"
+            },
+            "20260805": {
+                "authors": [
+                    "Alan Baker",
+                    "Mehmet Oguz Derin",
+                    "David Neto"
+                ],
+                "href": "https://www.w3.org/TR/2026/CRD-WGSL-20260805/",
+                "title": "WebGPU Shading Language",
+                "rawDate": "2026-08-05",
+                "status": "CRD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/gpu/"
+                ],
+                "source": "https://api.w3.org/specifications/WGSL/versions/20260805"
+            },
+            "20260806": {
+                "authors": [
+                    "Alan Baker",
+                    "Mehmet Oguz Derin",
+                    "David Neto"
+                ],
+                "href": "https://www.w3.org/TR/2026/CRD-WGSL-20260806/",
+                "title": "WebGPU Shading Language",
+                "rawDate": "2026-08-06",
+                "status": "CRD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/gpu/"
+                ],
+                "source": "https://api.w3.org/specifications/WGSL/versions/20260806"
+            },
+            "20260814": {
+                "authors": [
+                    "Alan Baker",
+                    "Mehmet Oguz Derin",
+                    "David Neto"
+                ],
+                "href": "https://www.w3.org/TR/2026/CRD-WGSL-20260814/",
+                "title": "WebGPU Shading Language",
+                "rawDate": "2026-08-14",
+                "status": "CRD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/gpu/"
+                ],
+                "source": "https://api.w3.org/specifications/WGSL/versions/20260814"
+            },
+            "20260817": {
+                "authors": [
+                    "Alan Baker",
+                    "Mehmet Oguz Derin",
+                    "David Neto"
+                ],
+                "href": "https://www.w3.org/TR/2026/CRD-WGSL-20260817/",
+                "title": "WebGPU Shading Language",
+                "rawDate": "2026-08-17",
+                "status": "CRD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/gpu/"
+                ],
+                "source": "https://api.w3.org/specifications/WGSL/versions/20260817"
             }
         },
         "repository": "https://github.com/gpuweb/gpuweb"
@@ -25758,7 +25837,7 @@
         ],
         "href": "https://www.w3.org/TR/accname-1.2/",
         "title": "Accessible Name and Description Computation 1.2",
-        "rawDate": "2026-05-29",
+        "rawDate": "2026-08-05",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/accname/",
@@ -26487,6 +26566,21 @@
                     "https://www.w3.org/WAI/about/groups/ariawg/"
                 ],
                 "source": "https://api.w3.org/specifications/accname-1.2/versions/20260529"
+            },
+            "20260805": {
+                "authors": [
+                    "Bryan Garaventa",
+                    "Melanie Sumner"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-accname-1.2-20260805/",
+                "title": "Accessible Name and Description Computation 1.2",
+                "rawDate": "2026-08-05",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WAI/about/groups/ariawg/"
+                ],
+                "source": "https://api.w3.org/specifications/accname-1.2/versions/20260805"
             }
         },
         "repository": "https://github.com/w3c/accname"
@@ -30308,7 +30402,7 @@
         ],
         "href": "https://www.w3.org/TR/appmanifest/",
         "title": "Web Application Manifest",
-        "rawDate": "2026-07-23",
+        "rawDate": "2026-08-13",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -34454,6 +34548,22 @@
                     "https://www.w3.org/groups/wg/webapps/"
                 ],
                 "source": "https://api.w3.org/specifications/appmanifest/versions/20260723"
+            },
+            "20260813": {
+                "authors": [
+                    "Marcos Caceres",
+                    "Daniel Murphy",
+                    "Christian Liebel"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-appmanifest-20260813/",
+                "title": "Web Application Manifest",
+                "rawDate": "2026-08-13",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/webapps/"
+                ],
+                "source": "https://api.w3.org/specifications/appmanifest/versions/20260813"
             }
         },
         "edDraft": "https://w3c.github.io/manifest/",
@@ -35146,7 +35256,7 @@
         "aliasOf": "wai-aria"
     },
     "attribution": {
-        "rawDate": "2026-07-29",
+        "rawDate": "2026-08-13",
         "href": "https://www.w3.org/TR/attribution/",
         "title": "Attribution Level 1",
         "edDraft": "https://w3c.github.io/attribution/",
@@ -36132,6 +36242,101 @@
                     "https://www.w3.org/groups/wg/pat/"
                 ],
                 "source": "https://api.w3.org/specifications/attribution/versions/20260729"
+            },
+            "20260730": {
+                "authors": [
+                    "Andrew Paseltiner",
+                    "Andy Leiserson",
+                    "Benjamin Case",
+                    "Benjamin Savage",
+                    "Charlie Harrison",
+                    "Martin Thomson"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-attribution-20260730/",
+                "title": "Attribution Level 1",
+                "rawDate": "2026-07-30",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/pat/"
+                ],
+                "source": "https://api.w3.org/specifications/attribution/versions/20260730"
+            },
+            "20260805": {
+                "authors": [
+                    "Andrew Paseltiner",
+                    "Andy Leiserson",
+                    "Benjamin Case",
+                    "Benjamin Savage",
+                    "Charlie Harrison",
+                    "Martin Thomson"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-attribution-20260805/",
+                "title": "Attribution Level 1",
+                "rawDate": "2026-08-05",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/pat/"
+                ],
+                "source": "https://api.w3.org/specifications/attribution/versions/20260805"
+            },
+            "20260811": {
+                "authors": [
+                    "Andrew Paseltiner",
+                    "Andy Leiserson",
+                    "Benjamin Case",
+                    "Benjamin Savage",
+                    "Charlie Harrison",
+                    "Martin Thomson"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-attribution-20260811/",
+                "title": "Attribution Level 1",
+                "rawDate": "2026-08-11",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/pat/"
+                ],
+                "source": "https://api.w3.org/specifications/attribution/versions/20260811"
+            },
+            "20260812": {
+                "authors": [
+                    "Andrew Paseltiner",
+                    "Andy Leiserson",
+                    "Benjamin Case",
+                    "Benjamin Savage",
+                    "Charlie Harrison",
+                    "Martin Thomson"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-attribution-20260812/",
+                "title": "Attribution Level 1",
+                "rawDate": "2026-08-12",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/pat/"
+                ],
+                "source": "https://api.w3.org/specifications/attribution/versions/20260812"
+            },
+            "20260813": {
+                "authors": [
+                    "Andrew Paseltiner",
+                    "Andy Leiserson",
+                    "Benjamin Case",
+                    "Benjamin Savage",
+                    "Charlie Harrison",
+                    "Martin Thomson"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-attribution-20260813/",
+                "title": "Attribution Level 1",
+                "rawDate": "2026-08-13",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/pat/"
+                ],
+                "source": "https://api.w3.org/specifications/attribution/versions/20260813"
             }
         },
         "status": "WD",
@@ -41613,7 +41818,7 @@
         ],
         "href": "https://www.w3.org/TR/clreq/",
         "title": "Requirements for Chinese Text Layout - 中文排版需求",
-        "rawDate": "2026-07-03",
+        "rawDate": "2026-08-04",
         "status": "DNOTE",
         "publisher": "W3C",
         "edDraft": "https://www.w3.org/International/clreq/",
@@ -42438,6 +42643,21 @@
                     "https://www.w3.org/International/i18n-activity/i18n-wg/"
                 ],
                 "source": "https://api.w3.org/specifications/clreq/versions/20260703"
+            },
+            "20260804": {
+                "authors": [
+                    "Fuqiao Xue",
+                    "Richard Ishida"
+                ],
+                "href": "https://www.w3.org/TR/2026/DNOTE-clreq-20260804/",
+                "title": "Requirements for Chinese Text Layout - 中文排版需求",
+                "rawDate": "2026-08-04",
+                "status": "DNOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/International/i18n-activity/i18n-wg/"
+                ],
+                "source": "https://api.w3.org/specifications/clreq/versions/20260804"
             }
         },
         "repository": "https://github.com/w3c/clreq"
@@ -44723,7 +44943,7 @@
         ],
         "href": "https://www.w3.org/TR/core-aam-1.2/",
         "title": "Core Accessibility API Mappings 1.2",
-        "rawDate": "2026-07-02",
+        "rawDate": "2026-08-05",
         "status": "CRD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/core-aam/",
@@ -46002,6 +46222,21 @@
                     "https://www.w3.org/WAI/about/groups/ariawg/"
                 ],
                 "source": "https://api.w3.org/specifications/core-aam-1.2/versions/20260702"
+            },
+            "20260805": {
+                "authors": [
+                    "Valerie Young",
+                    "Cynthia Shelly"
+                ],
+                "href": "https://www.w3.org/TR/2026/CRD-core-aam-1.2-20260805/",
+                "title": "Core Accessibility API Mappings 1.2",
+                "rawDate": "2026-08-05",
+                "status": "CRD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WAI/about/groups/ariawg/"
+                ],
+                "source": "https://api.w3.org/specifications/core-aam-1.2/versions/20260805"
             }
         },
         "repository": "https://github.com/w3c/core-aam"
@@ -50006,7 +50241,7 @@
         ],
         "href": "https://www.w3.org/TR/css-color-4/",
         "title": "CSS Color Module Level 4",
-        "rawDate": "2026-07-28",
+        "rawDate": "2026-08-06",
         "status": "CRD",
         "publisher": "W3C",
         "edDraft": "https://drafts.csswg.org/css-color-4/",
@@ -50409,6 +50644,22 @@
                     "https://www.w3.org/groups/wg/css/"
                 ],
                 "source": "https://api.w3.org/specifications/css-color-4/versions/20260728"
+            },
+            "20260806": {
+                "authors": [
+                    "Tab Atkins Jr.",
+                    "Chris Lilley",
+                    "Lea Verou"
+                ],
+                "href": "https://www.w3.org/TR/2026/CRD-css-color-4-20260806/",
+                "title": "CSS Color Module Level 4",
+                "rawDate": "2026-08-06",
+                "status": "CRD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/css/"
+                ],
+                "source": "https://api.w3.org/specifications/css-color-4/versions/20260806"
             }
         },
         "repository": "https://github.com/w3c/csswg-drafts"
@@ -50421,7 +50672,7 @@
         ],
         "href": "https://www.w3.org/TR/css-color-5/",
         "title": "CSS Color Module Level 5",
-        "rawDate": "2026-06-18",
+        "rawDate": "2026-07-31",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://drafts.csswg.org/css-color-5/",
@@ -50758,6 +51009,22 @@
                     "https://www.w3.org/groups/wg/css/"
                 ],
                 "source": "https://api.w3.org/specifications/css-color-5/versions/20260618"
+            },
+            "20260731": {
+                "authors": [
+                    "Chris Lilley",
+                    "Una Kravets",
+                    "Lea Verou"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-css-color-5-20260731/",
+                "title": "CSS Color Module Level 5",
+                "rawDate": "2026-07-31",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/css/"
+                ],
+                "source": "https://api.w3.org/specifications/css-color-5/versions/20260731"
             }
         },
         "repository": "https://github.com/w3c/csswg-drafts"
@@ -53094,7 +53361,7 @@
         ],
         "href": "https://www.w3.org/TR/css-fonts-4/",
         "title": "CSS Fonts Module Level 4",
-        "rawDate": "2026-04-22",
+        "rawDate": "2026-08-18",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://drafts.csswg.org/css-fonts-4/",
@@ -53254,6 +53521,48 @@
                     "https://www.w3.org/groups/wg/css/"
                 ],
                 "source": "https://api.w3.org/specifications/css-fonts-4/versions/20260422"
+            },
+            "20260811": {
+                "authors": [
+                    "Chris Lilley"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-css-fonts-4-20260811/",
+                "title": "CSS Fonts Module Level 4",
+                "rawDate": "2026-08-11",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/css/"
+                ],
+                "source": "https://api.w3.org/specifications/css-fonts-4/versions/20260811"
+            },
+            "20260817": {
+                "authors": [
+                    "Chris Lilley"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-css-fonts-4-20260817/",
+                "title": "CSS Fonts Module Level 4",
+                "rawDate": "2026-08-17",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/css/"
+                ],
+                "source": "https://api.w3.org/specifications/css-fonts-4/versions/20260817"
+            },
+            "20260818": {
+                "authors": [
+                    "Chris Lilley"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-css-fonts-4-20260818/",
+                "title": "CSS Fonts Module Level 4",
+                "rawDate": "2026-08-18",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/css/"
+                ],
+                "source": "https://api.w3.org/specifications/css-fonts-4/versions/20260818"
             }
         },
         "repository": "https://github.com/w3c/csswg-drafts"
@@ -53264,7 +53573,7 @@
         ],
         "href": "https://www.w3.org/TR/css-fonts-5/",
         "title": "CSS Fonts Module Level 5",
-        "rawDate": "2026-03-03",
+        "rawDate": "2026-08-11",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://drafts.csswg.org/css-fonts-5/",
@@ -53345,6 +53654,20 @@
                     "https://www.w3.org/groups/wg/css/"
                 ],
                 "source": "https://api.w3.org/specifications/css-fonts-5/versions/20260303"
+            },
+            "20260811": {
+                "authors": [
+                    "Chris Lilley"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-css-fonts-5-20260811/",
+                "title": "CSS Fonts Module Level 5",
+                "rawDate": "2026-08-11",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/css/"
+                ],
+                "source": "https://api.w3.org/specifications/css-fonts-5/versions/20260811"
             }
         },
         "repository": "https://github.com/w3c/csswg-drafts"
@@ -59020,7 +59343,7 @@
         ],
         "href": "https://www.w3.org/TR/css-text-3/",
         "title": "CSS Text Module Level 3",
-        "rawDate": "2026-06-08",
+        "rawDate": "2026-08-14",
         "status": "CRD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -59531,6 +59854,22 @@
                     "https://www.w3.org/groups/wg/css/"
                 ],
                 "source": "https://api.w3.org/specifications/css-text-3/versions/20260608"
+            },
+            "20260814": {
+                "authors": [
+                    "Elika Etemad",
+                    "Koji Ishii",
+                    "Florian Rivoal"
+                ],
+                "href": "https://www.w3.org/TR/2026/CRD-css-text-3-20260814/",
+                "title": "CSS Text Module Level 3",
+                "rawDate": "2026-08-14",
+                "status": "CRD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/css/"
+                ],
+                "source": "https://api.w3.org/specifications/css-text-3/versions/20260814"
             }
         },
         "edDraft": "https://drafts.csswg.org/css-text-3/",
@@ -59545,7 +59884,7 @@
         ],
         "href": "https://www.w3.org/TR/css-text-4/",
         "title": "CSS Text Module Level 4",
-        "rawDate": "2026-06-08",
+        "rawDate": "2026-08-14",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://drafts.csswg.org/css-text-4/",
@@ -59755,6 +60094,23 @@
                     "https://www.w3.org/groups/wg/css/"
                 ],
                 "source": "https://api.w3.org/specifications/css-text-4/versions/20260608"
+            },
+            "20260814": {
+                "authors": [
+                    "Elika Etemad",
+                    "Koji Ishii",
+                    "Alan Stearns",
+                    "Florian Rivoal"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-css-text-4-20260814/",
+                "title": "CSS Text Module Level 4",
+                "rawDate": "2026-08-14",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/css/"
+                ],
+                "source": "https://api.w3.org/specifications/css-text-4/versions/20260814"
             }
         },
         "repository": "https://github.com/w3c/csswg-drafts"
@@ -70990,7 +71346,7 @@
         ],
         "href": "https://www.w3.org/TR/did-extensions-methods/",
         "title": "DID Methods",
-        "rawDate": "2026-07-13",
+        "rawDate": "2026-08-12",
         "status": "NOTE",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/did-extensions/methods/",
@@ -71403,6 +71759,36 @@
                     "https://www.w3.org/groups/wg/did/"
                 ],
                 "source": "https://api.w3.org/specifications/did-extensions-methods/versions/20260713"
+            },
+            "20260811": {
+                "authors": [
+                    "Manu Sporny",
+                    "Markus Sabadello"
+                ],
+                "href": "https://www.w3.org/TR/2026/NOTE-did-extensions-methods-20260811/",
+                "title": "DID Methods",
+                "rawDate": "2026-08-11",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/did/"
+                ],
+                "source": "https://api.w3.org/specifications/did-extensions-methods/versions/20260811"
+            },
+            "20260812": {
+                "authors": [
+                    "Manu Sporny",
+                    "Markus Sabadello"
+                ],
+                "href": "https://www.w3.org/TR/2026/NOTE-did-extensions-methods-20260812/",
+                "title": "DID Methods",
+                "rawDate": "2026-08-12",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/did/"
+                ],
+                "source": "https://api.w3.org/specifications/did-extensions-methods/versions/20260812"
             }
         },
         "repository": "https://github.com/w3c/did-extensions"
@@ -71636,21 +72022,25 @@
         },
         "repository": "https://github.com/w3c/did-imp-guide"
     },
+    "did-resolution": {
+        "aliasOf": "did-resolution-1.0",
+        "isSeriesAlias": true
+    },
     "did-resolution-1.0": {
         "authors": [
-            "Stephen Curran",
-            "Joe Andrieu"
+            "Joe Andrieu",
+            "Stephen Curran"
         ],
-        "href": "https://www.w3.org/TR/did-resolution/",
+        "href": "https://www.w3.org/TR/did-resolution-1.0/",
         "title": "Decentralized Identifier Resolution (DID Resolution) v1",
-        "rawDate": "2026-07-24",
-        "status": "WD",
+        "rawDate": "2026-08-06",
+        "status": "CR",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/did-resolution/",
         "deliveredBy": [
             "https://www.w3.org/groups/wg/did/"
         ],
-        "source": "https://api.w3.org/specifications/did-resolution",
+        "source": "https://api.w3.org/specifications/did-resolution-1.0",
         "versions": {
             "20241128": {
                 "href": "https://www.w3.org/TR/2024/WD-did-resolution-20241128/",
@@ -71658,7 +72048,7 @@
                 "rawDate": "2024-11-28",
                 "status": "FPWD",
                 "publisher": "W3C",
-                "source": "https://api.w3.org/specifications/did-resolution/versions/20241128",
+                "source": "https://api.w3.org/specifications/did-resolution-1.0/versions/20241128",
                 "authors": [
                     "Markus Sabadello",
                     "Dmitri Zagidulin"
@@ -71680,7 +72070,7 @@
                 "deliveredBy": [
                     "https://www.w3.org/groups/wg/did/"
                 ],
-                "source": "https://api.w3.org/specifications/did-resolution/versions/20241203"
+                "source": "https://api.w3.org/specifications/did-resolution-1.0/versions/20241203"
             },
             "20241212": {
                 "authors": [
@@ -71695,7 +72085,7 @@
                 "deliveredBy": [
                     "https://www.w3.org/groups/wg/did/"
                 ],
-                "source": "https://api.w3.org/specifications/did-resolution/versions/20241212"
+                "source": "https://api.w3.org/specifications/did-resolution-1.0/versions/20241212"
             },
             "20250115": {
                 "authors": [
@@ -71710,7 +72100,7 @@
                 "deliveredBy": [
                     "https://www.w3.org/groups/wg/did/"
                 ],
-                "source": "https://api.w3.org/specifications/did-resolution/versions/20250115"
+                "source": "https://api.w3.org/specifications/did-resolution-1.0/versions/20250115"
             },
             "20250122": {
                 "authors": [
@@ -71725,7 +72115,7 @@
                 "deliveredBy": [
                     "https://www.w3.org/groups/wg/did/"
                 ],
-                "source": "https://api.w3.org/specifications/did-resolution/versions/20250122"
+                "source": "https://api.w3.org/specifications/did-resolution-1.0/versions/20250122"
             },
             "20250206": {
                 "authors": [
@@ -71740,7 +72130,7 @@
                 "deliveredBy": [
                     "https://www.w3.org/groups/wg/did/"
                 ],
-                "source": "https://api.w3.org/specifications/did-resolution/versions/20250206"
+                "source": "https://api.w3.org/specifications/did-resolution-1.0/versions/20250206"
             },
             "20250214": {
                 "authors": [
@@ -71755,7 +72145,7 @@
                 "deliveredBy": [
                     "https://www.w3.org/groups/wg/did/"
                 ],
-                "source": "https://api.w3.org/specifications/did-resolution/versions/20250214"
+                "source": "https://api.w3.org/specifications/did-resolution-1.0/versions/20250214"
             },
             "20250221": {
                 "authors": [
@@ -71770,7 +72160,7 @@
                 "deliveredBy": [
                     "https://www.w3.org/groups/wg/did/"
                 ],
-                "source": "https://api.w3.org/specifications/did-resolution/versions/20250221"
+                "source": "https://api.w3.org/specifications/did-resolution-1.0/versions/20250221"
             },
             "20250227": {
                 "authors": [
@@ -71785,7 +72175,7 @@
                 "deliveredBy": [
                     "https://www.w3.org/groups/wg/did/"
                 ],
-                "source": "https://api.w3.org/specifications/did-resolution/versions/20250227"
+                "source": "https://api.w3.org/specifications/did-resolution-1.0/versions/20250227"
             },
             "20250313": {
                 "authors": [
@@ -71800,7 +72190,7 @@
                 "deliveredBy": [
                     "https://www.w3.org/groups/wg/did/"
                 ],
-                "source": "https://api.w3.org/specifications/did-resolution/versions/20250313"
+                "source": "https://api.w3.org/specifications/did-resolution-1.0/versions/20250313"
             },
             "20250322": {
                 "authors": [
@@ -71815,7 +72205,7 @@
                 "deliveredBy": [
                     "https://www.w3.org/groups/wg/did/"
                 ],
-                "source": "https://api.w3.org/specifications/did-resolution/versions/20250322"
+                "source": "https://api.w3.org/specifications/did-resolution-1.0/versions/20250322"
             },
             "20250327": {
                 "authors": [
@@ -71830,7 +72220,7 @@
                 "deliveredBy": [
                     "https://www.w3.org/groups/wg/did/"
                 ],
-                "source": "https://api.w3.org/specifications/did-resolution/versions/20250327"
+                "source": "https://api.w3.org/specifications/did-resolution-1.0/versions/20250327"
             },
             "20250423": {
                 "authors": [
@@ -71845,7 +72235,7 @@
                 "deliveredBy": [
                     "https://www.w3.org/groups/wg/did/"
                 ],
-                "source": "https://api.w3.org/specifications/did-resolution/versions/20250423"
+                "source": "https://api.w3.org/specifications/did-resolution-1.0/versions/20250423"
             },
             "20250522": {
                 "authors": [
@@ -71860,7 +72250,7 @@
                 "deliveredBy": [
                     "https://www.w3.org/groups/wg/did/"
                 ],
-                "source": "https://api.w3.org/specifications/did-resolution/versions/20250522"
+                "source": "https://api.w3.org/specifications/did-resolution-1.0/versions/20250522"
             },
             "20250529": {
                 "authors": [
@@ -71875,7 +72265,7 @@
                 "deliveredBy": [
                     "https://www.w3.org/groups/wg/did/"
                 ],
-                "source": "https://api.w3.org/specifications/did-resolution/versions/20250529"
+                "source": "https://api.w3.org/specifications/did-resolution-1.0/versions/20250529"
             },
             "20250617": {
                 "authors": [
@@ -71890,7 +72280,7 @@
                 "deliveredBy": [
                     "https://www.w3.org/groups/wg/did/"
                 ],
-                "source": "https://api.w3.org/specifications/did-resolution/versions/20250617"
+                "source": "https://api.w3.org/specifications/did-resolution-1.0/versions/20250617"
             },
             "20250619": {
                 "authors": [
@@ -71905,7 +72295,7 @@
                 "deliveredBy": [
                     "https://www.w3.org/groups/wg/did/"
                 ],
-                "source": "https://api.w3.org/specifications/did-resolution/versions/20250619"
+                "source": "https://api.w3.org/specifications/did-resolution-1.0/versions/20250619"
             },
             "20250710": {
                 "authors": [
@@ -71920,7 +72310,7 @@
                 "deliveredBy": [
                     "https://www.w3.org/groups/wg/did/"
                 ],
-                "source": "https://api.w3.org/specifications/did-resolution/versions/20250710"
+                "source": "https://api.w3.org/specifications/did-resolution-1.0/versions/20250710"
             },
             "20250729": {
                 "authors": [
@@ -71935,7 +72325,7 @@
                 "deliveredBy": [
                     "https://www.w3.org/groups/wg/did/"
                 ],
-                "source": "https://api.w3.org/specifications/did-resolution/versions/20250729"
+                "source": "https://api.w3.org/specifications/did-resolution-1.0/versions/20250729"
             },
             "20250731": {
                 "authors": [
@@ -71950,7 +72340,7 @@
                 "deliveredBy": [
                     "https://www.w3.org/groups/wg/did/"
                 ],
-                "source": "https://api.w3.org/specifications/did-resolution/versions/20250731"
+                "source": "https://api.w3.org/specifications/did-resolution-1.0/versions/20250731"
             },
             "20250803": {
                 "authors": [
@@ -71965,7 +72355,7 @@
                 "deliveredBy": [
                     "https://www.w3.org/groups/wg/did/"
                 ],
-                "source": "https://api.w3.org/specifications/did-resolution/versions/20250803"
+                "source": "https://api.w3.org/specifications/did-resolution-1.0/versions/20250803"
             },
             "20250821": {
                 "authors": [
@@ -71980,7 +72370,7 @@
                 "deliveredBy": [
                     "https://www.w3.org/groups/wg/did/"
                 ],
-                "source": "https://api.w3.org/specifications/did-resolution/versions/20250821"
+                "source": "https://api.w3.org/specifications/did-resolution-1.0/versions/20250821"
             },
             "20250908": {
                 "authors": [
@@ -71995,7 +72385,7 @@
                 "deliveredBy": [
                     "https://www.w3.org/groups/wg/did/"
                 ],
-                "source": "https://api.w3.org/specifications/did-resolution/versions/20250908"
+                "source": "https://api.w3.org/specifications/did-resolution-1.0/versions/20250908"
             },
             "20250918": {
                 "authors": [
@@ -72010,7 +72400,7 @@
                 "deliveredBy": [
                     "https://www.w3.org/groups/wg/did/"
                 ],
-                "source": "https://api.w3.org/specifications/did-resolution/versions/20250918"
+                "source": "https://api.w3.org/specifications/did-resolution-1.0/versions/20250918"
             },
             "20250929": {
                 "authors": [
@@ -72025,7 +72415,7 @@
                 "deliveredBy": [
                     "https://www.w3.org/groups/wg/did/"
                 ],
-                "source": "https://api.w3.org/specifications/did-resolution/versions/20250929"
+                "source": "https://api.w3.org/specifications/did-resolution-1.0/versions/20250929"
             },
             "20251007": {
                 "authors": [
@@ -72040,7 +72430,7 @@
                 "deliveredBy": [
                     "https://www.w3.org/groups/wg/did/"
                 ],
-                "source": "https://api.w3.org/specifications/did-resolution/versions/20251007"
+                "source": "https://api.w3.org/specifications/did-resolution-1.0/versions/20251007"
             },
             "20251008": {
                 "authors": [
@@ -72055,7 +72445,7 @@
                 "deliveredBy": [
                     "https://www.w3.org/groups/wg/did/"
                 ],
-                "source": "https://api.w3.org/specifications/did-resolution/versions/20251008"
+                "source": "https://api.w3.org/specifications/did-resolution-1.0/versions/20251008"
             },
             "20251013": {
                 "authors": [
@@ -72070,7 +72460,7 @@
                 "deliveredBy": [
                     "https://www.w3.org/groups/wg/did/"
                 ],
-                "source": "https://api.w3.org/specifications/did-resolution/versions/20251013"
+                "source": "https://api.w3.org/specifications/did-resolution-1.0/versions/20251013"
             },
             "20251016": {
                 "authors": [
@@ -72085,7 +72475,7 @@
                 "deliveredBy": [
                     "https://www.w3.org/groups/wg/did/"
                 ],
-                "source": "https://api.w3.org/specifications/did-resolution/versions/20251016"
+                "source": "https://api.w3.org/specifications/did-resolution-1.0/versions/20251016"
             },
             "20251120": {
                 "authors": [
@@ -72100,7 +72490,7 @@
                 "deliveredBy": [
                     "https://www.w3.org/groups/wg/did/"
                 ],
-                "source": "https://api.w3.org/specifications/did-resolution/versions/20251120"
+                "source": "https://api.w3.org/specifications/did-resolution-1.0/versions/20251120"
             },
             "20251211": {
                 "authors": [
@@ -72115,7 +72505,7 @@
                 "deliveredBy": [
                     "https://www.w3.org/groups/wg/did/"
                 ],
-                "source": "https://api.w3.org/specifications/did-resolution/versions/20251211"
+                "source": "https://api.w3.org/specifications/did-resolution-1.0/versions/20251211"
             },
             "20251217": {
                 "authors": [
@@ -72130,7 +72520,7 @@
                 "deliveredBy": [
                     "https://www.w3.org/groups/wg/did/"
                 ],
-                "source": "https://api.w3.org/specifications/did-resolution/versions/20251217"
+                "source": "https://api.w3.org/specifications/did-resolution-1.0/versions/20251217"
             },
             "20251218": {
                 "authors": [
@@ -72145,7 +72535,7 @@
                 "deliveredBy": [
                     "https://www.w3.org/groups/wg/did/"
                 ],
-                "source": "https://api.w3.org/specifications/did-resolution/versions/20251218"
+                "source": "https://api.w3.org/specifications/did-resolution-1.0/versions/20251218"
             },
             "20260105": {
                 "authors": [
@@ -72160,7 +72550,7 @@
                 "deliveredBy": [
                     "https://www.w3.org/groups/wg/did/"
                 ],
-                "source": "https://api.w3.org/specifications/did-resolution/versions/20260105"
+                "source": "https://api.w3.org/specifications/did-resolution-1.0/versions/20260105"
             },
             "20260107": {
                 "authors": [
@@ -72175,7 +72565,7 @@
                 "deliveredBy": [
                     "https://www.w3.org/groups/wg/did/"
                 ],
-                "source": "https://api.w3.org/specifications/did-resolution/versions/20260107"
+                "source": "https://api.w3.org/specifications/did-resolution-1.0/versions/20260107"
             },
             "20260108": {
                 "authors": [
@@ -72190,7 +72580,7 @@
                 "deliveredBy": [
                     "https://www.w3.org/groups/wg/did/"
                 ],
-                "source": "https://api.w3.org/specifications/did-resolution/versions/20260108"
+                "source": "https://api.w3.org/specifications/did-resolution-1.0/versions/20260108"
             },
             "20260111": {
                 "authors": [
@@ -72205,7 +72595,7 @@
                 "deliveredBy": [
                     "https://www.w3.org/groups/wg/did/"
                 ],
-                "source": "https://api.w3.org/specifications/did-resolution/versions/20260111"
+                "source": "https://api.w3.org/specifications/did-resolution-1.0/versions/20260111"
             },
             "20260112": {
                 "authors": [
@@ -72220,7 +72610,7 @@
                 "deliveredBy": [
                     "https://www.w3.org/groups/wg/did/"
                 ],
-                "source": "https://api.w3.org/specifications/did-resolution/versions/20260112"
+                "source": "https://api.w3.org/specifications/did-resolution-1.0/versions/20260112"
             },
             "20260113": {
                 "authors": [
@@ -72235,7 +72625,7 @@
                 "deliveredBy": [
                     "https://www.w3.org/groups/wg/did/"
                 ],
-                "source": "https://api.w3.org/specifications/did-resolution/versions/20260113"
+                "source": "https://api.w3.org/specifications/did-resolution-1.0/versions/20260113"
             },
             "20260115": {
                 "authors": [
@@ -72250,7 +72640,7 @@
                 "deliveredBy": [
                     "https://www.w3.org/groups/wg/did/"
                 ],
-                "source": "https://api.w3.org/specifications/did-resolution/versions/20260115"
+                "source": "https://api.w3.org/specifications/did-resolution-1.0/versions/20260115"
             },
             "20260117": {
                 "authors": [
@@ -72265,7 +72655,7 @@
                 "deliveredBy": [
                     "https://www.w3.org/groups/wg/did/"
                 ],
-                "source": "https://api.w3.org/specifications/did-resolution/versions/20260117"
+                "source": "https://api.w3.org/specifications/did-resolution-1.0/versions/20260117"
             },
             "20260122": {
                 "authors": [
@@ -72280,7 +72670,7 @@
                 "deliveredBy": [
                     "https://www.w3.org/groups/wg/did/"
                 ],
-                "source": "https://api.w3.org/specifications/did-resolution/versions/20260122"
+                "source": "https://api.w3.org/specifications/did-resolution-1.0/versions/20260122"
             },
             "20260129": {
                 "authors": [
@@ -72295,7 +72685,7 @@
                 "deliveredBy": [
                     "https://www.w3.org/groups/wg/did/"
                 ],
-                "source": "https://api.w3.org/specifications/did-resolution/versions/20260129"
+                "source": "https://api.w3.org/specifications/did-resolution-1.0/versions/20260129"
             },
             "20260203": {
                 "authors": [
@@ -72310,7 +72700,7 @@
                 "deliveredBy": [
                     "https://www.w3.org/groups/wg/did/"
                 ],
-                "source": "https://api.w3.org/specifications/did-resolution/versions/20260203"
+                "source": "https://api.w3.org/specifications/did-resolution-1.0/versions/20260203"
             },
             "20260205": {
                 "authors": [
@@ -72325,7 +72715,7 @@
                 "deliveredBy": [
                     "https://www.w3.org/groups/wg/did/"
                 ],
-                "source": "https://api.w3.org/specifications/did-resolution/versions/20260205"
+                "source": "https://api.w3.org/specifications/did-resolution-1.0/versions/20260205"
             },
             "20260208": {
                 "authors": [
@@ -72340,7 +72730,7 @@
                 "deliveredBy": [
                     "https://www.w3.org/groups/wg/did/"
                 ],
-                "source": "https://api.w3.org/specifications/did-resolution/versions/20260208"
+                "source": "https://api.w3.org/specifications/did-resolution-1.0/versions/20260208"
             },
             "20260301": {
                 "authors": [
@@ -72355,7 +72745,7 @@
                 "deliveredBy": [
                     "https://www.w3.org/groups/wg/did/"
                 ],
-                "source": "https://api.w3.org/specifications/did-resolution/versions/20260301"
+                "source": "https://api.w3.org/specifications/did-resolution-1.0/versions/20260301"
             },
             "20260303": {
                 "authors": [
@@ -72370,7 +72760,7 @@
                 "deliveredBy": [
                     "https://www.w3.org/groups/wg/did/"
                 ],
-                "source": "https://api.w3.org/specifications/did-resolution/versions/20260303"
+                "source": "https://api.w3.org/specifications/did-resolution-1.0/versions/20260303"
             },
             "20260309": {
                 "authors": [
@@ -72385,7 +72775,7 @@
                 "deliveredBy": [
                     "https://www.w3.org/groups/wg/did/"
                 ],
-                "source": "https://api.w3.org/specifications/did-resolution/versions/20260309"
+                "source": "https://api.w3.org/specifications/did-resolution-1.0/versions/20260309"
             },
             "20260327": {
                 "authors": [
@@ -72400,7 +72790,7 @@
                 "deliveredBy": [
                     "https://www.w3.org/groups/wg/did/"
                 ],
-                "source": "https://api.w3.org/specifications/did-resolution/versions/20260327"
+                "source": "https://api.w3.org/specifications/did-resolution-1.0/versions/20260327"
             },
             "20260329": {
                 "authors": [
@@ -72415,7 +72805,7 @@
                 "deliveredBy": [
                     "https://www.w3.org/groups/wg/did/"
                 ],
-                "source": "https://api.w3.org/specifications/did-resolution/versions/20260329"
+                "source": "https://api.w3.org/specifications/did-resolution-1.0/versions/20260329"
             },
             "20260413": {
                 "authors": [
@@ -72430,7 +72820,7 @@
                 "deliveredBy": [
                     "https://www.w3.org/groups/wg/did/"
                 ],
-                "source": "https://api.w3.org/specifications/did-resolution/versions/20260413"
+                "source": "https://api.w3.org/specifications/did-resolution-1.0/versions/20260413"
             },
             "20260424": {
                 "authors": [
@@ -72445,7 +72835,7 @@
                 "deliveredBy": [
                     "https://www.w3.org/groups/wg/did/"
                 ],
-                "source": "https://api.w3.org/specifications/did-resolution/versions/20260424"
+                "source": "https://api.w3.org/specifications/did-resolution-1.0/versions/20260424"
             },
             "20260511": {
                 "authors": [
@@ -72460,7 +72850,7 @@
                 "deliveredBy": [
                     "https://www.w3.org/groups/wg/did/"
                 ],
-                "source": "https://api.w3.org/specifications/did-resolution/versions/20260511"
+                "source": "https://api.w3.org/specifications/did-resolution-1.0/versions/20260511"
             },
             "20260525": {
                 "authors": [
@@ -72477,7 +72867,7 @@
                 "deliveredBy": [
                     "https://www.w3.org/groups/wg/did/"
                 ],
-                "source": "https://api.w3.org/specifications/did-resolution/versions/20260525"
+                "source": "https://api.w3.org/specifications/did-resolution-1.0/versions/20260525"
             },
             "20260605": {
                 "authors": [
@@ -72494,7 +72884,7 @@
                 "deliveredBy": [
                     "https://www.w3.org/groups/wg/did/"
                 ],
-                "source": "https://api.w3.org/specifications/did-resolution/versions/20260605"
+                "source": "https://api.w3.org/specifications/did-resolution-1.0/versions/20260605"
             },
             "20260611": {
                 "authors": [
@@ -72511,7 +72901,7 @@
                 "deliveredBy": [
                     "https://www.w3.org/groups/wg/did/"
                 ],
-                "source": "https://api.w3.org/specifications/did-resolution/versions/20260611"
+                "source": "https://api.w3.org/specifications/did-resolution-1.0/versions/20260611"
             },
             "20260709": {
                 "authors": [
@@ -72528,7 +72918,7 @@
                 "deliveredBy": [
                     "https://www.w3.org/groups/wg/did/"
                 ],
-                "source": "https://api.w3.org/specifications/did-resolution/versions/20260709"
+                "source": "https://api.w3.org/specifications/did-resolution-1.0/versions/20260709"
             },
             "20260710": {
                 "authors": [
@@ -72545,7 +72935,7 @@
                 "deliveredBy": [
                     "https://www.w3.org/groups/wg/did/"
                 ],
-                "source": "https://api.w3.org/specifications/did-resolution/versions/20260710"
+                "source": "https://api.w3.org/specifications/did-resolution-1.0/versions/20260710"
             },
             "20260716": {
                 "authors": [
@@ -72562,7 +72952,7 @@
                 "deliveredBy": [
                     "https://www.w3.org/groups/wg/did/"
                 ],
-                "source": "https://api.w3.org/specifications/did-resolution/versions/20260716"
+                "source": "https://api.w3.org/specifications/did-resolution-1.0/versions/20260716"
             },
             "20260723": {
                 "authors": [
@@ -72577,7 +72967,7 @@
                 "deliveredBy": [
                     "https://www.w3.org/groups/wg/did/"
                 ],
-                "source": "https://api.w3.org/specifications/did-resolution/versions/20260723"
+                "source": "https://api.w3.org/specifications/did-resolution-1.0/versions/20260723"
             },
             "20260724": {
                 "authors": [
@@ -72592,14 +72982,25 @@
                 "deliveredBy": [
                     "https://www.w3.org/groups/wg/did/"
                 ],
-                "source": "https://api.w3.org/specifications/did-resolution/versions/20260724"
+                "source": "https://api.w3.org/specifications/did-resolution-1.0/versions/20260724"
+            },
+            "20260806": {
+                "authors": [
+                    "Joe Andrieu",
+                    "Stephen Curran"
+                ],
+                "href": "https://www.w3.org/TR/2026/CR-did-resolution-1.0-20260806/",
+                "title": "Decentralized Identifier Resolution (DID Resolution) v1",
+                "rawDate": "2026-08-06",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/did/"
+                ],
+                "source": "https://api.w3.org/specifications/did-resolution-1.0/versions/20260806"
             }
         },
         "repository": "https://github.com/w3c/did-resolution"
-    },
-    "did-resolution": {
-        "aliasOf": "did-resolution-1.0",
-        "isSeriesAlias": true
     },
     "did-resolution-20241128": {
         "aliasOf": "did-resolution-1.0-20241128"
@@ -73341,7 +73742,7 @@
         "repository": "https://github.com/w3c/differential-privacy-guidance"
     },
     "digital-credentials": {
-        "rawDate": "2026-07-16",
+        "rawDate": "2026-08-12",
         "href": "https://www.w3.org/TR/digital-credentials/",
         "title": "Digital Credentials",
         "edDraft": "https://w3c-fedid.github.io/digital-credentials/",
@@ -74339,6 +74740,38 @@
                     "https://www.w3.org/groups/wg/fedid/"
                 ],
                 "source": "https://api.w3.org/specifications/digital-credentials/versions/20260716"
+            },
+            "20260803": {
+                "authors": [
+                    "Marcos Caceres",
+                    "Tim Cappalli",
+                    "Mohamed Amir Yosef"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-digital-credentials-20260803/",
+                "title": "Digital Credentials",
+                "rawDate": "2026-08-03",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/fedid/"
+                ],
+                "source": "https://api.w3.org/specifications/digital-credentials/versions/20260803"
+            },
+            "20260812": {
+                "authors": [
+                    "Marcos Caceres",
+                    "Tim Cappalli",
+                    "Mohamed Amir Yosef"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-digital-credentials-20260812/",
+                "title": "Digital Credentials",
+                "rawDate": "2026-08-12",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/fedid/"
+                ],
+                "source": "https://api.w3.org/specifications/digital-credentials/versions/20260812"
             }
         },
         "status": "WD",
@@ -82806,7 +83239,7 @@
         "repository": "https://github.com/w3c/epub-specs"
     },
     "epub-34": {
-        "rawDate": "2026-07-21",
+        "rawDate": "2026-08-03",
         "href": "https://www.w3.org/TR/epub-34/",
         "title": "EPUB 3.4",
         "edDraft": "https://w3c.github.io/epub-specs/epub34/authoring/",
@@ -83457,12 +83890,27 @@
                     "https://www.w3.org/groups/wg/pm/"
                 ],
                 "source": "https://api.w3.org/specifications/epub-34/versions/20260721"
+            },
+            "20260803": {
+                "authors": [
+                    "Matt Garrish",
+                    "Ivan Herman"
+                ],
+                "href": "https://www.w3.org/TR/2026/CRD-epub-34-20260803/",
+                "title": "EPUB 3.4",
+                "rawDate": "2026-08-03",
+                "status": "CRD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/pm/"
+                ],
+                "source": "https://api.w3.org/specifications/epub-34/versions/20260803"
             }
         },
-        "status": "CR",
+        "status": "CRD",
         "authors": [
-            "Ivan Herman",
-            "Matt Garrish"
+            "Matt Garrish",
+            "Ivan Herman"
         ],
         "deliveredBy": [
             "https://www.w3.org/groups/wg/pm/"
@@ -86034,6 +86482,68 @@
                 "source": "https://api.w3.org/specifications/epub-a11y-exemption/versions/20260204"
             }
         },
+        "repository": "https://github.com/w3c/epub-specs"
+    },
+    "epub-a11y-explain": {
+        "aliasOf": "epub-a11y-explain-12",
+        "isSeriesAlias": true
+    },
+    "epub-a11y-explain-12": {
+        "rawDate": "2026-08-04",
+        "href": "https://www.w3.org/TR/epub-a11y-explain-12/",
+        "title": "EPUB Accessibility 1.2 Explainer",
+        "edDraft": "https://w3c.github.io/epub-specs/epub34/a11y-explain/",
+        "publisher": "W3C",
+        "source": "https://api.w3.org/specifications/epub-a11y-explain-12",
+        "versions": {
+            "20260730": {
+                "authors": [
+                    "George Kerscher",
+                    "Matt Garrish",
+                    "Charles LaPierre",
+                    "Avneesh Singh",
+                    "Gregorio Pellegrino"
+                ],
+                "href": "https://www.w3.org/TR/2026/DNOTE-epub-a11y-explain-12-20260730/",
+                "title": "EPUB Accessibility 1.2 Explainer",
+                "rawDate": "2026-07-30",
+                "status": "DNOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/pm/"
+                ],
+                "source": "https://api.w3.org/specifications/epub-a11y-explain-12/versions/20260730"
+            },
+            "20260804": {
+                "authors": [
+                    "Matt Garrish",
+                    "George Kerscher",
+                    "Charles LaPierre",
+                    "Gregorio Pellegrino",
+                    "Avneesh Singh"
+                ],
+                "href": "https://www.w3.org/TR/2026/DNOTE-epub-a11y-explain-12-20260804/",
+                "title": "EPUB Accessibility 1.2 Explainer",
+                "rawDate": "2026-08-04",
+                "status": "DNOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/pm/"
+                ],
+                "source": "https://api.w3.org/specifications/epub-a11y-explain-12/versions/20260804"
+            }
+        },
+        "status": "DNOTE",
+        "authors": [
+            "Matt Garrish",
+            "George Kerscher",
+            "Charles LaPierre",
+            "Gregorio Pellegrino",
+            "Avneesh Singh"
+        ],
+        "deliveredBy": [
+            "https://www.w3.org/groups/wg/pm/"
+        ],
         "repository": "https://github.com/w3c/epub-specs"
     },
     "epub-a11y-tech": {
@@ -95704,6 +96214,40 @@
         "source": "https://www.w3.org/2002/01/tr-automation/tr.rdf",
         "isRetired": true
     },
+    "furthering-human-rights": {
+        "rawDate": "2026-08-04",
+        "href": "https://www.w3.org/TR/furthering-human-rights/",
+        "title": "Further Aligning W3C's Program of Technical Work with Human Rights",
+        "edDraft": "https://w3c.github.io/AB-public/position-statements/furthering-human-rights/",
+        "publisher": "W3C",
+        "source": "https://api.w3.org/specifications/furthering-human-rights",
+        "versions": {
+            "20260804": {
+                "authors": [
+                    "Daniel Appelquist",
+                    "Hidde de Vries"
+                ],
+                "href": "https://www.w3.org/TR/2026/NOTE-furthering-human-rights-20260804/",
+                "title": "Further Aligning W3C's Program of Technical Work with Human Rights",
+                "rawDate": "2026-08-04",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/Member/Board/"
+                ],
+                "source": "https://api.w3.org/specifications/furthering-human-rights/versions/20260804"
+            }
+        },
+        "status": "NOTE",
+        "authors": [
+            "Daniel Appelquist",
+            "Hidde de Vries"
+        ],
+        "deliveredBy": [
+            "https://www.w3.org/Member/Board/"
+        ],
+        "repository": "https://github.com/w3c/AB-public"
+    },
     "gallery": {
         "authors": [
             "Jungkee Song",
@@ -103258,7 +103802,7 @@
         ],
         "href": "https://www.w3.org/TR/html-aam-1.0/",
         "title": "HTML Accessibility API Mappings 1.0",
-        "rawDate": "2026-07-29",
+        "rawDate": "2026-08-05",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/html-aam/",
@@ -106502,6 +107046,21 @@
                     "https://www.w3.org/WAI/about/groups/ariawg/"
                 ],
                 "source": "https://api.w3.org/specifications/html-aam-1.0/versions/20260729"
+            },
+            "20260805": {
+                "authors": [
+                    "Scott O'Hara",
+                    "Rahim Abdi"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-html-aam-1.0-20260805/",
+                "title": "HTML Accessibility API Mappings 1.0",
+                "rawDate": "2026-08-05",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WAI/about/groups/ariawg/"
+                ],
+                "source": "https://api.w3.org/specifications/html-aam-1.0/versions/20260805"
             }
         },
         "repository": "https://github.com/w3c/html-aam"
@@ -106792,12 +107351,12 @@
     },
     "html-aria": {
         "authors": [
-            "Scott O'Hara",
-            "Patrick Lauke"
+            "Patrick Lauke",
+            "Scott O'Hara"
         ],
         "href": "https://www.w3.org/TR/html-aria/",
         "title": "ARIA in HTML",
-        "rawDate": "2026-04-15",
+        "rawDate": "2026-08-11",
         "status": "REC",
         "publisher": "W3C",
         "deliveredBy": [
@@ -109471,6 +110030,21 @@
                     "https://www.w3.org/WAI/about/groups/ariawg/"
                 ],
                 "source": "https://api.w3.org/specifications/html-aria/versions/20260415"
+            },
+            "20260811": {
+                "authors": [
+                    "Patrick Lauke",
+                    "Scott O'Hara"
+                ],
+                "href": "https://www.w3.org/TR/2026/REC-html-aria-20260811/",
+                "title": "ARIA in HTML",
+                "rawDate": "2026-08-11",
+                "status": "REC",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WAI/about/groups/ariawg/"
+                ],
+                "source": "https://api.w3.org/specifications/html-aria/versions/20260811"
             }
         },
         "edDraft": "https://w3c.github.io/html-aria/",
@@ -116269,7 +116843,7 @@
         ],
         "href": "https://www.w3.org/TR/international-specs/",
         "title": "Internationalization Best Practices for Spec Developers",
-        "rawDate": "2026-07-16",
+        "rawDate": "2026-08-07",
         "status": "NOTE",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/bp-i18n-specdev/",
@@ -116638,6 +117212,21 @@
                     "https://www.w3.org/International/i18n-activity/i18n-wg/"
                 ],
                 "source": "https://api.w3.org/specifications/international-specs/versions/20260716"
+            },
+            "20260807": {
+                "authors": [
+                    "Richard Ishida",
+                    "Addison Phillips"
+                ],
+                "href": "https://www.w3.org/TR/2026/NOTE-international-specs-20260807/",
+                "title": "Internationalization Best Practices for Spec Developers",
+                "rawDate": "2026-08-07",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/International/i18n-activity/i18n-wg/"
+                ],
+                "source": "https://api.w3.org/specifications/international-specs/versions/20260807"
             }
         },
         "repository": "https://github.com/w3c/bp-i18n-specdev"
@@ -122980,7 +123569,7 @@
         "isSeriesAlias": true
     },
     "lws10-authn-openid": {
-        "rawDate": "2026-06-09",
+        "rawDate": "2026-08-03",
         "href": "https://www.w3.org/TR/lws10-authn-openid/",
         "title": "LWS 1.0 Authentication Suite: OpenID Connect",
         "edDraft": "https://w3c.github.io/lws-protocol/lws10-authn-openid/",
@@ -123014,6 +123603,20 @@
                     "https://www.w3.org/groups/wg/lws/"
                 ],
                 "source": "https://api.w3.org/specifications/lws10-authn-openid/versions/20260609"
+            },
+            "20260803": {
+                "authors": [
+                    "Jesse Wright"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-lws10-authn-openid-20260803/",
+                "title": "LWS 1.0 Authentication Suite: OpenID Connect",
+                "rawDate": "2026-08-03",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/lws/"
+                ],
+                "source": "https://api.w3.org/specifications/lws10-authn-openid/versions/20260803"
             }
         },
         "status": "WD",
@@ -123026,7 +123629,7 @@
         "repository": "https://github.com/w3c/lws-protocol"
     },
     "lws10-authn-saml": {
-        "rawDate": "2026-06-09",
+        "rawDate": "2026-08-03",
         "href": "https://www.w3.org/TR/lws10-authn-saml/",
         "title": "LWS 1.0 Authentication Suite: SAML 2.0",
         "edDraft": "https://w3c.github.io/lws-protocol/lws10-authn-saml/",
@@ -123060,6 +123663,20 @@
                     "https://www.w3.org/groups/wg/lws/"
                 ],
                 "source": "https://api.w3.org/specifications/lws10-authn-saml/versions/20260609"
+            },
+            "20260803": {
+                "authors": [
+                    "Jesse Wright"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-lws10-authn-saml-20260803/",
+                "title": "LWS 1.0 Authentication Suite: SAML 2.0",
+                "rawDate": "2026-08-03",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/lws/"
+                ],
+                "source": "https://api.w3.org/specifications/lws10-authn-saml/versions/20260803"
             }
         },
         "status": "WD",
@@ -123072,7 +123689,7 @@
         "repository": "https://github.com/w3c/lws-protocol"
     },
     "lws10-authn-ssi-cid": {
-        "rawDate": "2026-06-09",
+        "rawDate": "2026-08-03",
         "href": "https://www.w3.org/TR/lws10-authn-ssi-cid/",
         "title": "LWS 1.0 Authentication Suite: Self-signed Identity using Controlled Identifiers",
         "edDraft": "https://w3c.github.io/lws-protocol/lws10-authn-ssi-cid/",
@@ -123106,6 +123723,20 @@
                     "https://www.w3.org/groups/wg/lws/"
                 ],
                 "source": "https://api.w3.org/specifications/lws10-authn-ssi-cid/versions/20260609"
+            },
+            "20260803": {
+                "authors": [
+                    "Jesse Wright"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-lws10-authn-ssi-cid-20260803/",
+                "title": "LWS 1.0 Authentication Suite: Self-signed Identity using Controlled Identifiers",
+                "rawDate": "2026-08-03",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/lws/"
+                ],
+                "source": "https://api.w3.org/specifications/lws10-authn-ssi-cid/versions/20260803"
             }
         },
         "status": "WD",
@@ -123118,7 +123749,7 @@
         "repository": "https://github.com/w3c/lws-protocol"
     },
     "lws10-authn-ssi-did-key": {
-        "rawDate": "2026-06-09",
+        "rawDate": "2026-08-03",
         "href": "https://www.w3.org/TR/lws10-authn-ssi-did-key/",
         "title": "LWS 1.0 Authentication Suite: Self-signed Identity using did:key",
         "edDraft": "https://w3c.github.io/lws-protocol/lws10-authn-ssi-did-key/",
@@ -123152,6 +123783,20 @@
                     "https://www.w3.org/groups/wg/lws/"
                 ],
                 "source": "https://api.w3.org/specifications/lws10-authn-ssi-did-key/versions/20260609"
+            },
+            "20260803": {
+                "authors": [
+                    "Jesse Wright"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-lws10-authn-ssi-did-key-20260803/",
+                "title": "LWS 1.0 Authentication Suite: Self-signed Identity using did:key",
+                "rawDate": "2026-08-03",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/lws/"
+                ],
+                "source": "https://api.w3.org/specifications/lws10-authn-ssi-did-key/versions/20260803"
             }
         },
         "status": "WD",
@@ -123164,7 +123809,7 @@
         "repository": "https://github.com/w3c/lws-protocol"
     },
     "lws10-core": {
-        "rawDate": "2026-07-28",
+        "rawDate": "2026-08-10",
         "href": "https://www.w3.org/TR/lws10-core/",
         "title": "Linked Web Storage Protocol 1.0",
         "edDraft": "https://w3c.github.io/lws-protocol/lws10-core/",
@@ -123301,6 +123946,36 @@
                     "https://www.w3.org/groups/wg/lws/"
                 ],
                 "source": "https://api.w3.org/specifications/lws10-core/versions/20260728"
+            },
+            "20260803": {
+                "authors": [
+                    "Jesse Wright",
+                    "Erich Bremer"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-lws10-core-20260803/",
+                "title": "Linked Web Storage Protocol 1.0",
+                "rawDate": "2026-08-03",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/lws/"
+                ],
+                "source": "https://api.w3.org/specifications/lws10-core/versions/20260803"
+            },
+            "20260810": {
+                "authors": [
+                    "Jesse Wright",
+                    "Erich Bremer"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-lws10-core-20260810/",
+                "title": "Linked Web Storage Protocol 1.0",
+                "rawDate": "2026-08-10",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/lws/"
+                ],
+                "source": "https://api.w3.org/specifications/lws10-core/versions/20260810"
             }
         },
         "status": "WD",
@@ -126128,7 +126803,7 @@
         ],
         "href": "https://www.w3.org/TR/media-source-2/",
         "title": "Media Source Extensions™",
-        "rawDate": "2025-11-04",
+        "rawDate": "2026-08-07",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/media-source/",
@@ -126535,6 +127210,21 @@
                     "https://www.w3.org/media-wg/"
                 ],
                 "source": "https://api.w3.org/specifications/media-source-2/versions/20251104"
+            },
+            "20260807": {
+                "authors": [
+                    "Jean-Yves Avenard",
+                    "Mark Watson"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-media-source-2-20260807/",
+                "title": "Media Source Extensions™",
+                "rawDate": "2026-08-07",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/media-wg/"
+                ],
+                "source": "https://api.w3.org/specifications/media-source-2/versions/20260807"
             }
         },
         "repository": "https://github.com/w3c/media-source"
@@ -131510,25 +132200,25 @@
     },
     "mini-app-white-paper": {
         "authors": [
-            "Qing An",
-            "Dan Zhou",
-            "Martin Alvarez-Espinar",
-            "Zitao Wang",
-            "Wanming Lin",
-            "Kenny Yuan",
-            "Canfeng Chen",
-            "Chen Yinli",
             "An Qi (Angel) Li",
-            "Fuqiao Xue"
+            "Qing An",
+            "Wanming Lin",
+            "Fuqiao Xue",
+            "Chen Yinli",
+            "Kenny Yuan",
+            "Dan Zhou",
+            "Canfeng Chen",
+            "Zitao Wang",
+            "Martin Alvarez-Espinar"
         ],
         "href": "https://www.w3.org/TR/mini-app-white-paper/",
         "title": "MiniApp Standardization White Paper version 2",
-        "rawDate": "2022-07-01",
-        "status": "DNOTE",
+        "rawDate": "2026-08-11",
+        "status": "NOTE",
         "publisher": "W3C",
-        "edDraft": "https://w3c.github.io/miniapp/white-paper/",
+        "edDraft": "https://w3c.github.io/miniapp-white-paper/",
         "deliveredBy": [
-            "https://www.w3.org/2021/miniapps/"
+            "https://www.w3.org/groups/wg/miniapps/"
         ],
         "source": "https://api.w3.org/specifications/mini-app-white-paper",
         "versions": {
@@ -131759,25 +132449,50 @@
                     "https://www.w3.org/2021/miniapps/"
                 ],
                 "source": "https://api.w3.org/specifications/mini-app-white-paper/versions/20220701"
+            },
+            "20260811": {
+                "authors": [
+                    "An Qi (Angel) Li",
+                    "Qing An",
+                    "Wanming Lin",
+                    "Fuqiao Xue",
+                    "Chen Yinli",
+                    "Kenny Yuan",
+                    "Dan Zhou",
+                    "Canfeng Chen",
+                    "Zitao Wang",
+                    "Martin Alvarez-Espinar"
+                ],
+                "href": "https://www.w3.org/TR/2026/NOTE-mini-app-white-paper-20260811/",
+                "title": "MiniApp Standardization White Paper version 2",
+                "rawDate": "2026-08-11",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/miniapps/"
+                ],
+                "isRetired": true,
+                "source": "https://api.w3.org/specifications/mini-app-white-paper/versions/20260811"
             }
         },
-        "repository": "https://github.com/w3c/mini-app-white-paper"
+        "repository": "https://github.com/w3c/mini-app-white-paper",
+        "isRetired": true
     },
     "miniapp-addressing": {
         "authors": [
             "Dan Zhou",
-            "Qian Liu",
+            "Tengyuan Zhang",
             "shuo wang",
-            "Tengyuan Zhang"
+            "Qian Liu"
         ],
         "href": "https://www.w3.org/TR/miniapp-addressing/",
         "title": "MiniApp Addressing",
-        "rawDate": "2024-06-25",
-        "status": "DNOTE",
+        "rawDate": "2026-08-11",
+        "status": "NOTE",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/miniapp-addressing/",
         "deliveredBy": [
-            "https://www.w3.org/2021/miniapps/"
+            "https://www.w3.org/groups/wg/miniapps/"
         ],
         "source": "https://api.w3.org/specifications/miniapp-addressing",
         "versions": {
@@ -131865,9 +132580,28 @@
                     "https://www.w3.org/2021/miniapps/"
                 ],
                 "source": "https://api.w3.org/specifications/miniapp-addressing/versions/20240625"
+            },
+            "20260811": {
+                "authors": [
+                    "Dan Zhou",
+                    "Tengyuan Zhang",
+                    "shuo wang",
+                    "Qian Liu"
+                ],
+                "href": "https://www.w3.org/TR/2026/NOTE-miniapp-addressing-20260811/",
+                "title": "MiniApp Addressing",
+                "rawDate": "2026-08-11",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/miniapps/"
+                ],
+                "isRetired": true,
+                "source": "https://api.w3.org/specifications/miniapp-addressing/versions/20260811"
             }
         },
-        "repository": "https://github.com/w3c/miniapp-addressing"
+        "repository": "https://github.com/w3c/miniapp-addressing",
+        "isRetired": true
     },
     "miniapp-lifecycle": {
         "authors": [
@@ -131876,12 +132610,12 @@
         ],
         "href": "https://www.w3.org/TR/miniapp-lifecycle/",
         "title": "MiniApp Lifecycle",
-        "rawDate": "2023-05-29",
+        "rawDate": "2026-08-11",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/miniapp-lifecycle/",
         "deliveredBy": [
-            "https://www.w3.org/2021/miniapps/"
+            "https://www.w3.org/groups/wg/miniapps/"
         ],
         "source": "https://api.w3.org/specifications/miniapp-lifecycle",
         "versions": {
@@ -132154,23 +132888,40 @@
                     "https://www.w3.org/2021/miniapps/"
                 ],
                 "source": "https://api.w3.org/specifications/miniapp-lifecycle/versions/20230529"
+            },
+            "20260811": {
+                "authors": [
+                    "Qing An",
+                    "Haoyang Xu"
+                ],
+                "href": "https://www.w3.org/TR/2026/DISC-miniapp-lifecycle-20260811/",
+                "title": "MiniApp Lifecycle",
+                "rawDate": "2026-08-11",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/miniapps/"
+                ],
+                "isRetired": true,
+                "source": "https://api.w3.org/specifications/miniapp-lifecycle/versions/20260811"
             }
         },
-        "repository": "https://github.com/w3c/miniapp-lifecycle"
+        "repository": "https://github.com/w3c/miniapp-lifecycle",
+        "isRetired": true
     },
     "miniapp-manifest": {
         "authors": [
-            "Martin Alvarez-Espinar",
-            "Yongjing ZHANG"
+            "Yongjing ZHANG",
+            "Martin Alvarez-Espinar"
         ],
         "href": "https://www.w3.org/TR/miniapp-manifest/",
         "title": "MiniApp Manifest",
-        "rawDate": "2025-01-28",
+        "rawDate": "2026-08-11",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/miniapp-manifest/",
         "deliveredBy": [
-            "https://www.w3.org/2021/miniapps/"
+            "https://www.w3.org/groups/wg/miniapps/"
         ],
         "source": "https://api.w3.org/specifications/miniapp-manifest",
         "versions": {
@@ -132524,26 +133275,43 @@
                     "https://www.w3.org/2021/miniapps/"
                 ],
                 "source": "https://api.w3.org/specifications/miniapp-manifest/versions/20250128"
+            },
+            "20260811": {
+                "authors": [
+                    "Yongjing ZHANG",
+                    "Martin Alvarez-Espinar"
+                ],
+                "href": "https://www.w3.org/TR/2026/DISC-miniapp-manifest-20260811/",
+                "title": "MiniApp Manifest",
+                "rawDate": "2026-08-11",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/miniapps/"
+                ],
+                "isRetired": true,
+                "source": "https://api.w3.org/specifications/miniapp-manifest/versions/20260811"
             }
         },
-        "repository": "https://github.com/w3c/miniapp-manifest"
+        "repository": "https://github.com/w3c/miniapp-manifest",
+        "isRetired": true
     },
     "miniapp-packaging": {
         "authors": [
-            "Martin Alvarez-Espinar",
-            "Qing An",
-            "Tengyuan Zhang",
             "Yongjing ZHANG",
-            "Dan Zhou"
+            "Qing An",
+            "Dan Zhou",
+            "Tengyuan Zhang",
+            "Martin Alvarez-Espinar"
         ],
         "href": "https://www.w3.org/TR/miniapp-packaging/",
         "title": "MiniApp Packaging",
-        "rawDate": "2025-01-28",
+        "rawDate": "2026-08-11",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/miniapp-packaging/",
         "deliveredBy": [
-            "https://www.w3.org/2021/miniapps/"
+            "https://www.w3.org/groups/wg/miniapps/"
         ],
         "source": "https://api.w3.org/specifications/miniapp-packaging",
         "versions": {
@@ -132780,25 +133548,45 @@
                     "https://www.w3.org/2021/miniapps/"
                 ],
                 "source": "https://api.w3.org/specifications/miniapp-packaging/versions/20250128"
+            },
+            "20260811": {
+                "authors": [
+                    "Yongjing ZHANG",
+                    "Qing An",
+                    "Dan Zhou",
+                    "Tengyuan Zhang",
+                    "Martin Alvarez-Espinar"
+                ],
+                "href": "https://www.w3.org/TR/2026/DISC-miniapp-packaging-20260811/",
+                "title": "MiniApp Packaging",
+                "rawDate": "2026-08-11",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/miniapps/"
+                ],
+                "isRetired": true,
+                "source": "https://api.w3.org/specifications/miniapp-packaging/versions/20260811"
             }
         },
-        "repository": "https://github.com/w3c/miniapp-packaging"
+        "repository": "https://github.com/w3c/miniapp-packaging",
+        "isRetired": true
     },
     "miniapp-widget-req": {
         "authors": [
             "Chen Yinli",
+            "Bin Guo",
             "Canfeng Chen",
-            "Bingqing Zhou",
-            "Bin Guo"
+            "Bingqing Zhou"
         ],
         "href": "https://www.w3.org/TR/miniapp-widget-req/",
         "title": "MiniApp Widget Requirements",
-        "rawDate": "2022-04-24",
+        "rawDate": "2026-08-11",
         "status": "NOTE",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/miniapp-widget/req/",
         "deliveredBy": [
-            "https://www.w3.org/2021/miniapps/"
+            "https://www.w3.org/groups/wg/miniapps/"
         ],
         "source": "https://api.w3.org/specifications/miniapp-widget-req",
         "versions": {
@@ -132852,9 +133640,28 @@
                     "https://www.w3.org/2021/miniapps/"
                 ],
                 "source": "https://api.w3.org/specifications/miniapp-widget-req/versions/20220424"
+            },
+            "20260811": {
+                "authors": [
+                    "Chen Yinli",
+                    "Bin Guo",
+                    "Canfeng Chen",
+                    "Bingqing Zhou"
+                ],
+                "href": "https://www.w3.org/TR/2026/NOTE-miniapp-widget-req-20260811/",
+                "title": "MiniApp Widget Requirements",
+                "rawDate": "2026-08-11",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/miniapps/"
+                ],
+                "isRetired": true,
+                "source": "https://api.w3.org/specifications/miniapp-widget-req/versions/20260811"
             }
         },
-        "repository": "https://github.com/w3c/miniapp-widget"
+        "repository": "https://github.com/w3c/miniapp-widget",
+        "isRetired": true
     },
     "mixed-content": {
         "href": "https://www.w3.org/TR/mixed-content/",
@@ -166036,7 +166843,7 @@
         ],
         "href": "https://www.w3.org/TR/rdf12-turtle/",
         "title": "RDF 1.2 Turtle",
-        "rawDate": "2026-07-23",
+        "rawDate": "2026-08-12",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/rdf-turtle/spec/",
@@ -166892,6 +167699,38 @@
                     "https://www.w3.org/groups/wg/rdf-star/"
                 ],
                 "source": "https://api.w3.org/specifications/rdf12-turtle/versions/20260723"
+            },
+            "20260730": {
+                "authors": [
+                    "Gregg Kellogg",
+                    "Andy Seaborne",
+                    "Dominik Tomaszuk"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-rdf12-turtle-20260730/",
+                "title": "RDF 1.2 Turtle",
+                "rawDate": "2026-07-30",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/rdf-star/"
+                ],
+                "source": "https://api.w3.org/specifications/rdf12-turtle/versions/20260730"
+            },
+            "20260812": {
+                "authors": [
+                    "Gregg Kellogg",
+                    "Andy Seaborne",
+                    "Dominik Tomaszuk"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-rdf12-turtle-20260812/",
+                "title": "RDF 1.2 Turtle",
+                "rawDate": "2026-08-12",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/rdf-star/"
+                ],
+                "source": "https://api.w3.org/specifications/rdf12-turtle/versions/20260812"
             }
         },
         "repository": "https://github.com/w3c/rdf-turtle"
@@ -175690,9 +176529,24 @@
                     "https://www.w3.org/groups/wg/webapps/"
                 ],
                 "source": "https://api.w3.org/specifications/screen-orientation/versions/20260724"
+            },
+            "20260806": {
+                "authors": [
+                    "Marcos Caceres",
+                    "Léonie Watson"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-screen-orientation-20260806/",
+                "title": "Screen Orientation",
+                "rawDate": "2026-08-06",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/webapps/"
+                ],
+                "source": "https://api.w3.org/specifications/screen-orientation/versions/20260806"
             }
         },
-        "rawDate": "2026-07-24",
+        "rawDate": "2026-08-06",
         "source": "https://api.w3.org/specifications/screen-orientation",
         "edDraft": "https://w3c.github.io/screen-orientation/",
         "repository": "https://github.com/w3c/screen-orientation"
@@ -180798,7 +181652,7 @@
         ],
         "href": "https://www.w3.org/TR/service-workers/",
         "title": "Service Workers Nightly",
-        "rawDate": "2026-07-23",
+        "rawDate": "2026-08-12",
         "status": "CRD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/ServiceWorker/",
@@ -181206,6 +182060,36 @@
                     "https://www.w3.org/groups/wg/webapps/"
                 ],
                 "source": "https://api.w3.org/specifications/service-workers/versions/20260723"
+            },
+            "20260804": {
+                "authors": [
+                    "Monica CHINTALA",
+                    "Yoshisato Yanagisawa"
+                ],
+                "href": "https://www.w3.org/TR/2026/CRD-service-workers-20260804/",
+                "title": "Service Workers Nightly",
+                "rawDate": "2026-08-04",
+                "status": "CRD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/webapps/"
+                ],
+                "source": "https://api.w3.org/specifications/service-workers/versions/20260804"
+            },
+            "20260812": {
+                "authors": [
+                    "Monica CHINTALA",
+                    "Yoshisato Yanagisawa"
+                ],
+                "href": "https://www.w3.org/TR/2026/CRD-service-workers-20260812/",
+                "title": "Service Workers Nightly",
+                "rawDate": "2026-08-12",
+                "status": "CRD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/webapps/"
+                ],
+                "source": "https://api.w3.org/specifications/service-workers/versions/20260812"
             }
         },
         "repository": "https://github.com/w3c/ServiceWorker"
@@ -181640,7 +182524,7 @@
         "isSeriesAlias": true
     },
     "shacl12-core": {
-        "rawDate": "2026-07-23",
+        "rawDate": "2026-08-03",
         "href": "https://www.w3.org/TR/shacl12-core/",
         "title": "SHACL 1.2 Core",
         "edDraft": "https://w3c.github.io/data-shapes/shacl12-core/",
@@ -182496,6 +183380,23 @@
                     "https://www.w3.org/groups/wg/data-shapes/"
                 ],
                 "source": "https://api.w3.org/specifications/shacl12-core/versions/20260723"
+            },
+            "20260803": {
+                "authors": [
+                    "Holger Knublauch",
+                    "Thomas Bergwinkl",
+                    "Yousouf Taghzouti",
+                    "Jesse Wright"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-shacl12-core-20260803/",
+                "title": "SHACL 1.2 Core",
+                "rawDate": "2026-08-03",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/data-shapes/"
+                ],
+                "source": "https://api.w3.org/specifications/shacl12-core/versions/20260803"
             }
         },
         "status": "WD",
@@ -182636,7 +183537,7 @@
         "repository": "https://github.com/w3c/data-shapes"
     },
     "shacl12-rules": {
-        "rawDate": "2026-07-27",
+        "rawDate": "2026-08-17",
         "href": "https://www.w3.org/TR/shacl12-rules/",
         "title": "SHACL 1.2 Rules",
         "edDraft": "https://w3c.github.io/data-shapes/shacl12-rules/",
@@ -183220,6 +184121,74 @@
                     "https://www.w3.org/groups/wg/data-shapes/"
                 ],
                 "source": "https://api.w3.org/specifications/shacl12-rules/versions/20260727"
+            },
+            "20260730": {
+                "authors": [
+                    "Robert David",
+                    "David Habgood",
+                    "Andy Seaborne",
+                    "Simon Steyskal"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-shacl12-rules-20260730/",
+                "title": "SHACL 1.2 Rules",
+                "rawDate": "2026-07-30",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/data-shapes/"
+                ],
+                "source": "https://api.w3.org/specifications/shacl12-rules/versions/20260730"
+            },
+            "20260810": {
+                "authors": [
+                    "Robert David",
+                    "David Habgood",
+                    "Andy Seaborne",
+                    "Simon Steyskal"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-shacl12-rules-20260810/",
+                "title": "SHACL 1.2 Rules",
+                "rawDate": "2026-08-10",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/data-shapes/"
+                ],
+                "source": "https://api.w3.org/specifications/shacl12-rules/versions/20260810"
+            },
+            "20260812": {
+                "authors": [
+                    "Robert David",
+                    "David Habgood",
+                    "Andy Seaborne",
+                    "Simon Steyskal"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-shacl12-rules-20260812/",
+                "title": "SHACL 1.2 Rules",
+                "rawDate": "2026-08-12",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/data-shapes/"
+                ],
+                "source": "https://api.w3.org/specifications/shacl12-rules/versions/20260812"
+            },
+            "20260817": {
+                "authors": [
+                    "Robert David",
+                    "David Habgood",
+                    "Andy Seaborne",
+                    "Simon Steyskal"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-shacl12-rules-20260817/",
+                "title": "SHACL 1.2 Rules",
+                "rawDate": "2026-08-17",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/data-shapes/"
+                ],
+                "source": "https://api.w3.org/specifications/shacl12-rules/versions/20260817"
             }
         },
         "status": "WD",
@@ -183235,7 +184204,7 @@
         "repository": "https://github.com/w3c/data-shapes"
     },
     "shacl12-sparql": {
-        "rawDate": "2026-07-24",
+        "rawDate": "2026-08-08",
         "href": "https://www.w3.org/TR/shacl12-sparql/",
         "title": "SHACL 1.2 SPARQL Extensions",
         "edDraft": "https://w3c.github.io/data-shapes/shacl12-sparql/",
@@ -183611,6 +184580,125 @@
                     "https://www.w3.org/groups/wg/data-shapes/"
                 ],
                 "source": "https://api.w3.org/specifications/shacl12-sparql/versions/20260724"
+            },
+            "20260730": {
+                "authors": [
+                    "Holger Knublauch",
+                    "Matt Goldberg",
+                    "Scott Henninger",
+                    "Livio Robaldo"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-shacl12-sparql-20260730/",
+                "title": "SHACL 1.2 SPARQL Extensions",
+                "rawDate": "2026-07-30",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/data-shapes/"
+                ],
+                "source": "https://api.w3.org/specifications/shacl12-sparql/versions/20260730"
+            },
+            "20260731": {
+                "authors": [
+                    "Holger Knublauch",
+                    "Matt Goldberg",
+                    "Scott Henninger",
+                    "Livio Robaldo"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-shacl12-sparql-20260731/",
+                "title": "SHACL 1.2 SPARQL Extensions",
+                "rawDate": "2026-07-31",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/data-shapes/"
+                ],
+                "source": "https://api.w3.org/specifications/shacl12-sparql/versions/20260731"
+            },
+            "20260801": {
+                "authors": [
+                    "Holger Knublauch",
+                    "Matt Goldberg",
+                    "Scott Henninger",
+                    "Livio Robaldo"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-shacl12-sparql-20260801/",
+                "title": "SHACL 1.2 SPARQL Extensions",
+                "rawDate": "2026-08-01",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/data-shapes/"
+                ],
+                "source": "https://api.w3.org/specifications/shacl12-sparql/versions/20260801"
+            },
+            "20260802": {
+                "authors": [
+                    "Holger Knublauch",
+                    "Matt Goldberg",
+                    "Scott Henninger",
+                    "Livio Robaldo"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-shacl12-sparql-20260802/",
+                "title": "SHACL 1.2 SPARQL Extensions",
+                "rawDate": "2026-08-02",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/data-shapes/"
+                ],
+                "source": "https://api.w3.org/specifications/shacl12-sparql/versions/20260802"
+            },
+            "20260804": {
+                "authors": [
+                    "Holger Knublauch",
+                    "Matt Goldberg",
+                    "Scott Henninger",
+                    "Livio Robaldo"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-shacl12-sparql-20260804/",
+                "title": "SHACL 1.2 SPARQL Extensions",
+                "rawDate": "2026-08-04",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/data-shapes/"
+                ],
+                "source": "https://api.w3.org/specifications/shacl12-sparql/versions/20260804"
+            },
+            "20260806": {
+                "authors": [
+                    "Holger Knublauch",
+                    "Matt Goldberg",
+                    "Scott Henninger",
+                    "Livio Robaldo"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-shacl12-sparql-20260806/",
+                "title": "SHACL 1.2 SPARQL Extensions",
+                "rawDate": "2026-08-06",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/data-shapes/"
+                ],
+                "source": "https://api.w3.org/specifications/shacl12-sparql/versions/20260806"
+            },
+            "20260808": {
+                "authors": [
+                    "Holger Knublauch",
+                    "Matt Goldberg",
+                    "Scott Henninger",
+                    "Livio Robaldo"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-shacl12-sparql-20260808/",
+                "title": "SHACL 1.2 SPARQL Extensions",
+                "rawDate": "2026-08-08",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/data-shapes/"
+                ],
+                "source": "https://api.w3.org/specifications/shacl12-sparql/versions/20260808"
             }
         },
         "status": "WD",
@@ -190086,7 +191174,7 @@
         ],
         "href": "https://www.w3.org/TR/sparql12-results-json/",
         "title": "SPARQL 1.2 Query Results JSON Format",
-        "rawDate": "2026-07-23",
+        "rawDate": "2026-08-13",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/sparql-results-json/spec/",
@@ -190365,6 +191453,23 @@
                     "https://www.w3.org/groups/wg/rdf-star/"
                 ],
                 "source": "https://api.w3.org/specifications/sparql12-results-json/versions/20260723"
+            },
+            "20260813": {
+                "authors": [
+                    "Andy Seaborne",
+                    "Ruben Taelman",
+                    "Gregory Williams",
+                    "Thomas Pellissier Tanon"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-sparql12-results-json-20260813/",
+                "title": "SPARQL 1.2 Query Results JSON Format",
+                "rawDate": "2026-08-13",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/rdf-star/"
+                ],
+                "source": "https://api.w3.org/specifications/sparql12-results-json/versions/20260813"
             }
         },
         "repository": "https://github.com/w3c/sparql-results-json"
@@ -192409,7 +193514,7 @@
         ],
         "href": "https://www.w3.org/TR/svg-aam-1.0/",
         "title": "SVG Accessibility API Mappings",
-        "rawDate": "2026-07-27",
+        "rawDate": "2026-08-05",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/svg-aam/",
@@ -192715,6 +193820,21 @@
                     "https://www.w3.org/WAI/about/groups/ariawg/"
                 ],
                 "source": "https://api.w3.org/specifications/svg-aam-1.0/versions/20260727"
+            },
+            "20260805": {
+                "authors": [
+                    "Cynthia Shelly",
+                    "Mark Rogers"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-svg-aam-1.0-20260805/",
+                "title": "SVG Accessibility API Mappings",
+                "rawDate": "2026-08-05",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/WAI/about/groups/ariawg/"
+                ],
+                "source": "https://api.w3.org/specifications/svg-aam-1.0/versions/20260805"
             }
         },
         "repository": "https://github.com/w3c/aria"
@@ -200888,7 +202008,7 @@
         "source": "https://api.w3.org/specifications/vbi-reqs"
     },
     "vc-barcodes-1.0": {
-        "rawDate": "2026-07-28",
+        "rawDate": "2026-08-06",
         "href": "https://www.w3.org/TR/vc-barcodes-1.0/",
         "title": "Verifiable Credential Barcodes v1.0",
         "edDraft": "https://w3c.github.io/vc-barcodes/",
@@ -201006,6 +202126,22 @@
                     "https://www.w3.org/groups/wg/vc/"
                 ],
                 "source": "https://api.w3.org/specifications/vc-barcodes-1.0/versions/20260728"
+            },
+            "20260806": {
+                "authors": [
+                    "Wesley Smith",
+                    "Elaine Wooton",
+                    "Manu Sporny"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-vc-barcodes-1.0-20260806/",
+                "title": "Verifiable Credential Barcodes v1.0",
+                "rawDate": "2026-08-06",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/vc/"
+                ],
+                "source": "https://api.w3.org/specifications/vc-barcodes-1.0/versions/20260806"
             }
         },
         "status": "WD",
@@ -201570,9 +202706,9 @@
         "repository": "https://github.com/w3c/vc-bitstring-status-list"
     },
     "vc-confidence-method": {
-        "rawDate": "2026-07-28",
+        "rawDate": "2026-08-17",
         "href": "https://www.w3.org/TR/vc-confidence-method/",
-        "title": "Confidence Method v1.0",
+        "title": "Verifiable Credential Confidence Methods v1.0",
         "edDraft": "https://w3c.github.io/vc-confidence-method/",
         "publisher": "W3C",
         "source": "https://api.w3.org/specifications/vc-confidence-method",
@@ -201666,6 +202802,21 @@
                     "https://www.w3.org/groups/wg/vc/"
                 ],
                 "source": "https://api.w3.org/specifications/vc-confidence-method/versions/20260728"
+            },
+            "20260817": {
+                "authors": [
+                    "Joe Andrieu",
+                    "Denken Chen"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-vc-confidence-method-20260817/",
+                "title": "Verifiable Credential Confidence Methods v1.0",
+                "rawDate": "2026-08-17",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/vc/"
+                ],
+                "source": "https://api.w3.org/specifications/vc-confidence-method/versions/20260817"
             }
         },
         "status": "WD",
@@ -206372,7 +207523,7 @@
         "repository": "https://github.com/w3c/vc-data-model"
     },
     "vc-data-model-2.1": {
-        "rawDate": "2026-05-11",
+        "rawDate": "2026-08-16",
         "href": "https://www.w3.org/TR/vc-data-model-2.1/",
         "title": "Verifiable Credentials Data Model v2.1",
         "edDraft": "https://w3c.github.io/vc-data-model/",
@@ -206426,6 +207577,38 @@
                     "https://www.w3.org/groups/wg/vc/"
                 ],
                 "source": "https://api.w3.org/specifications/vc-data-model-2.1/versions/20260511"
+            },
+            "20260809": {
+                "authors": [
+                    "Manu Sporny",
+                    "Ted Thibodeau Jr",
+                    "Ivan Herman"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-vc-data-model-2.1-20260809/",
+                "title": "Verifiable Credentials Data Model v2.1",
+                "rawDate": "2026-08-09",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/vc/"
+                ],
+                "source": "https://api.w3.org/specifications/vc-data-model-2.1/versions/20260809"
+            },
+            "20260816": {
+                "authors": [
+                    "Manu Sporny",
+                    "Ted Thibodeau Jr",
+                    "Ivan Herman"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-vc-data-model-2.1-20260816/",
+                "title": "Verifiable Credentials Data Model v2.1",
+                "rawDate": "2026-08-16",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/vc/"
+                ],
+                "source": "https://api.w3.org/specifications/vc-data-model-2.1/versions/20260816"
             }
         },
         "status": "WD",
@@ -211241,20 +212424,24 @@
     "vc-jwt": {
         "aliasOf": "vc-jose-cose"
     },
+    "vc-overview": {
+        "aliasOf": "vc-overview-1.0",
+        "isSeriesAlias": true
+    },
     "vc-overview-1.0": {
         "authors": [
             "Ivan Herman"
         ],
-        "href": "https://www.w3.org/TR/vc-overview/",
-        "title": "Verifiable Credentials Overview",
-        "rawDate": "2026-06-18",
+        "href": "https://www.w3.org/TR/vc-overview-1.0/",
+        "title": "Verifiable Credentials Overview v1.0",
+        "rawDate": "2026-07-30",
         "status": "NOTE",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/vc-overview/",
         "deliveredBy": [
             "https://www.w3.org/groups/wg/vc/"
         ],
-        "source": "https://api.w3.org/specifications/vc-overview",
+        "source": "https://api.w3.org/specifications/vc-overview-1.0",
         "versions": {
             "20240613": {
                 "authors": [
@@ -211268,7 +212455,7 @@
                 "deliveredBy": [
                     "https://www.w3.org/2017/vc/"
                 ],
-                "source": "https://api.w3.org/specifications/vc-overview/versions/20240613"
+                "source": "https://api.w3.org/specifications/vc-overview-1.0/versions/20240613"
             },
             "20240706": {
                 "authors": [
@@ -211282,7 +212469,7 @@
                 "deliveredBy": [
                     "https://www.w3.org/2017/vc/"
                 ],
-                "source": "https://api.w3.org/specifications/vc-overview/versions/20240706"
+                "source": "https://api.w3.org/specifications/vc-overview-1.0/versions/20240706"
             },
             "20240919": {
                 "authors": [
@@ -211296,7 +212483,7 @@
                 "deliveredBy": [
                     "https://www.w3.org/2017/vc/"
                 ],
-                "source": "https://api.w3.org/specifications/vc-overview/versions/20240919"
+                "source": "https://api.w3.org/specifications/vc-overview-1.0/versions/20240919"
             },
             "20241014": {
                 "authors": [
@@ -211310,7 +212497,7 @@
                 "deliveredBy": [
                     "https://www.w3.org/2017/vc/"
                 ],
-                "source": "https://api.w3.org/specifications/vc-overview/versions/20241014"
+                "source": "https://api.w3.org/specifications/vc-overview-1.0/versions/20241014"
             },
             "20241022": {
                 "authors": [
@@ -211324,7 +212511,7 @@
                 "deliveredBy": [
                     "https://www.w3.org/2017/vc/"
                 ],
-                "source": "https://api.w3.org/specifications/vc-overview/versions/20241022"
+                "source": "https://api.w3.org/specifications/vc-overview-1.0/versions/20241022"
             },
             "20241108": {
                 "authors": [
@@ -211338,7 +212525,7 @@
                 "deliveredBy": [
                     "https://www.w3.org/2017/vc/"
                 ],
-                "source": "https://api.w3.org/specifications/vc-overview/versions/20241108"
+                "source": "https://api.w3.org/specifications/vc-overview-1.0/versions/20241108"
             },
             "20241220": {
                 "authors": [
@@ -211352,7 +212539,7 @@
                 "deliveredBy": [
                     "https://www.w3.org/2017/vc/"
                 ],
-                "source": "https://api.w3.org/specifications/vc-overview/versions/20241220"
+                "source": "https://api.w3.org/specifications/vc-overview-1.0/versions/20241220"
             },
             "20250103": {
                 "authors": [
@@ -211366,7 +212553,7 @@
                 "deliveredBy": [
                     "https://www.w3.org/2017/vc/"
                 ],
-                "source": "https://api.w3.org/specifications/vc-overview/versions/20250103"
+                "source": "https://api.w3.org/specifications/vc-overview-1.0/versions/20250103"
             },
             "20250109": {
                 "authors": [
@@ -211380,7 +212567,7 @@
                 "deliveredBy": [
                     "https://www.w3.org/2017/vc/"
                 ],
-                "source": "https://api.w3.org/specifications/vc-overview/versions/20250109"
+                "source": "https://api.w3.org/specifications/vc-overview-1.0/versions/20250109"
             },
             "20250210": {
                 "authors": [
@@ -211394,7 +212581,7 @@
                 "deliveredBy": [
                     "https://www.w3.org/2017/vc/"
                 ],
-                "source": "https://api.w3.org/specifications/vc-overview/versions/20250210"
+                "source": "https://api.w3.org/specifications/vc-overview-1.0/versions/20250210"
             },
             "20250212": {
                 "authors": [
@@ -211408,7 +212595,7 @@
                 "deliveredBy": [
                     "https://www.w3.org/2017/vc/"
                 ],
-                "source": "https://api.w3.org/specifications/vc-overview/versions/20250212"
+                "source": "https://api.w3.org/specifications/vc-overview-1.0/versions/20250212"
             },
             "20250513": {
                 "authors": [
@@ -211422,7 +212609,7 @@
                 "deliveredBy": [
                     "https://www.w3.org/groups/wg/vc/"
                 ],
-                "source": "https://api.w3.org/specifications/vc-overview/versions/20250513"
+                "source": "https://api.w3.org/specifications/vc-overview-1.0/versions/20250513"
             },
             "20250520": {
                 "authors": [
@@ -211436,7 +212623,7 @@
                 "deliveredBy": [
                     "https://www.w3.org/groups/wg/vc/"
                 ],
-                "source": "https://api.w3.org/specifications/vc-overview/versions/20250520"
+                "source": "https://api.w3.org/specifications/vc-overview-1.0/versions/20250520"
             },
             "20250817": {
                 "authors": [
@@ -211450,7 +212637,7 @@
                 "deliveredBy": [
                     "https://www.w3.org/groups/wg/vc/"
                 ],
-                "source": "https://api.w3.org/specifications/vc-overview/versions/20250817"
+                "source": "https://api.w3.org/specifications/vc-overview-1.0/versions/20250817"
             },
             "20250825": {
                 "authors": [
@@ -211464,7 +212651,7 @@
                 "deliveredBy": [
                     "https://www.w3.org/groups/wg/vc/"
                 ],
-                "source": "https://api.w3.org/specifications/vc-overview/versions/20250825"
+                "source": "https://api.w3.org/specifications/vc-overview-1.0/versions/20250825"
             },
             "20250924": {
                 "authors": [
@@ -211478,7 +212665,7 @@
                 "deliveredBy": [
                     "https://www.w3.org/groups/wg/vc/"
                 ],
-                "source": "https://api.w3.org/specifications/vc-overview/versions/20250924"
+                "source": "https://api.w3.org/specifications/vc-overview-1.0/versions/20250924"
             },
             "20260610": {
                 "authors": [
@@ -211492,7 +212679,7 @@
                 "deliveredBy": [
                     "https://www.w3.org/groups/wg/vc/"
                 ],
-                "source": "https://api.w3.org/specifications/vc-overview/versions/20260610"
+                "source": "https://api.w3.org/specifications/vc-overview-1.0/versions/20260610"
             },
             "20260617": {
                 "authors": [
@@ -211506,7 +212693,7 @@
                 "deliveredBy": [
                     "https://www.w3.org/groups/wg/vc/"
                 ],
-                "source": "https://api.w3.org/specifications/vc-overview/versions/20260617"
+                "source": "https://api.w3.org/specifications/vc-overview-1.0/versions/20260617"
             },
             "20260618": {
                 "authors": [
@@ -211520,14 +212707,112 @@
                 "deliveredBy": [
                     "https://www.w3.org/groups/wg/vc/"
                 ],
-                "source": "https://api.w3.org/specifications/vc-overview/versions/20260618"
+                "source": "https://api.w3.org/specifications/vc-overview-1.0/versions/20260618"
+            },
+            "20260730": {
+                "authors": [
+                    "Ivan Herman"
+                ],
+                "href": "https://www.w3.org/TR/2026/NOTE-vc-overview-1.0-20260730/",
+                "title": "Verifiable Credentials Overview v1.0",
+                "rawDate": "2026-07-30",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/vc/"
+                ],
+                "source": "https://api.w3.org/specifications/vc-overview-1.0/versions/20260730"
             }
         },
         "repository": "https://github.com/w3c/vc-overview"
     },
-    "vc-overview": {
-        "aliasOf": "vc-overview-1.0",
-        "isSeriesAlias": true
+    "vc-overview-1.1": {
+        "rawDate": "2026-08-15",
+        "href": "https://www.w3.org/TR/vc-overview-1.1/",
+        "title": "Verifiable Credentials Overview v1.1",
+        "edDraft": "https://w3c.github.io/vc-overview/",
+        "publisher": "W3C",
+        "source": "https://api.w3.org/specifications/vc-overview-1.1",
+        "versions": {
+            "20260730": {
+                "authors": [
+                    "Ivan Herman"
+                ],
+                "href": "https://www.w3.org/TR/2026/DNOTE-vc-overview-1.1-20260730/",
+                "title": "Verifiable Credentials Overview v1.1",
+                "rawDate": "2026-07-30",
+                "status": "DNOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/vc/"
+                ],
+                "source": "https://api.w3.org/specifications/vc-overview-1.1/versions/20260730"
+            },
+            "20260731": {
+                "authors": [
+                    "Ivan Herman"
+                ],
+                "href": "https://www.w3.org/TR/2026/DNOTE-vc-overview-1.1-20260731/",
+                "title": "Verifiable Credentials Overview v1.1",
+                "rawDate": "2026-07-31",
+                "status": "DNOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/vc/"
+                ],
+                "source": "https://api.w3.org/specifications/vc-overview-1.1/versions/20260731"
+            },
+            "20260805": {
+                "authors": [
+                    "Ivan Herman"
+                ],
+                "href": "https://www.w3.org/TR/2026/DNOTE-vc-overview-1.1-20260805/",
+                "title": "Verifiable Credentials Overview v1.1",
+                "rawDate": "2026-08-05",
+                "status": "DNOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/vc/"
+                ],
+                "source": "https://api.w3.org/specifications/vc-overview-1.1/versions/20260805"
+            },
+            "20260810": {
+                "authors": [
+                    "Ivan Herman"
+                ],
+                "href": "https://www.w3.org/TR/2026/DNOTE-vc-overview-1.1-20260810/",
+                "title": "Verifiable Credentials Overview v1.1",
+                "rawDate": "2026-08-10",
+                "status": "DNOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/vc/"
+                ],
+                "source": "https://api.w3.org/specifications/vc-overview-1.1/versions/20260810"
+            },
+            "20260815": {
+                "authors": [
+                    "Ivan Herman"
+                ],
+                "href": "https://www.w3.org/TR/2026/DNOTE-vc-overview-1.1-20260815/",
+                "title": "Verifiable Credentials Overview v1.1",
+                "rawDate": "2026-08-15",
+                "status": "DNOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/vc/"
+                ],
+                "source": "https://api.w3.org/specifications/vc-overview-1.1/versions/20260815"
+            }
+        },
+        "status": "DNOTE",
+        "authors": [
+            "Ivan Herman"
+        ],
+        "deliveredBy": [
+            "https://www.w3.org/groups/wg/vc/"
+        ],
+        "repository": "https://github.com/w3c/vc-overview"
     },
     "vc-overview-20240613": {
         "aliasOf": "vc-overview-1.0-20240613"
@@ -211587,7 +212872,7 @@
         "aliasOf": "vc-overview-1.0-20260618"
     },
     "vc-recognized-entities-1.0": {
-        "rawDate": "2026-07-26",
+        "rawDate": "2026-08-16",
         "href": "https://www.w3.org/TR/vc-recognized-entities-1.0/",
         "title": "Recognized Entities v1.0",
         "edDraft": "https://w3c.github.io/vc-recognized-entities/",
@@ -211621,6 +212906,48 @@
                     "https://www.w3.org/groups/wg/vc/"
                 ],
                 "source": "https://api.w3.org/specifications/vc-recognized-entities-1.0/versions/20260726"
+            },
+            "20260802": {
+                "authors": [
+                    "Manu Sporny"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-vc-recognized-entities-1.0-20260802/",
+                "title": "Recognized Entities v1.0",
+                "rawDate": "2026-08-02",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/vc/"
+                ],
+                "source": "https://api.w3.org/specifications/vc-recognized-entities-1.0/versions/20260802"
+            },
+            "20260811": {
+                "authors": [
+                    "Manu Sporny"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-vc-recognized-entities-1.0-20260811/",
+                "title": "Recognized Entities v1.0",
+                "rawDate": "2026-08-11",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/vc/"
+                ],
+                "source": "https://api.w3.org/specifications/vc-recognized-entities-1.0/versions/20260811"
+            },
+            "20260816": {
+                "authors": [
+                    "Manu Sporny"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-vc-recognized-entities-1.0-20260816/",
+                "title": "Recognized Entities v1.0",
+                "rawDate": "2026-08-16",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/vc/"
+                ],
+                "source": "https://api.w3.org/specifications/vc-recognized-entities-1.0/versions/20260816"
             }
         },
         "status": "WD",
@@ -211633,7 +212960,7 @@
         "repository": "https://github.com/w3c/vc-recognized-entities"
     },
     "vc-render-method": {
-        "rawDate": "2026-04-05",
+        "rawDate": "2026-08-16",
         "href": "https://www.w3.org/TR/vc-render-method/",
         "title": "Verifiable Credential Rendering Methods v1.0",
         "edDraft": "https://w3c.github.io/vc-render-method/",
@@ -211673,6 +213000,23 @@
                     "https://www.w3.org/groups/wg/vc/"
                 ],
                 "source": "https://api.w3.org/specifications/vc-render-method/versions/20260405"
+            },
+            "20260816": {
+                "authors": [
+                    "Dmitri Zagidulin",
+                    "Manu Sporny",
+                    "Patrick St-Louis",
+                    "Isaac Koh"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-vc-render-method-20260816/",
+                "title": "Verifiable Credential Rendering Methods v1.0",
+                "rawDate": "2026-08-16",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/vc/"
+                ],
+                "source": "https://api.w3.org/specifications/vc-render-method/versions/20260816"
             }
         },
         "status": "WD",
@@ -211680,7 +213024,6 @@
             "Dmitri Zagidulin",
             "Manu Sporny",
             "Patrick St-Louis",
-            "Poh Hendry",
             "Isaac Koh"
         ],
         "deliveredBy": [
@@ -211785,7 +213128,7 @@
         "isSeriesAlias": true
     },
     "vcalm-1.0": {
-        "rawDate": "2026-07-21",
+        "rawDate": "2026-08-14",
         "href": "https://www.w3.org/TR/vcalm-1.0/",
         "title": "VCALM v1.0",
         "edDraft": "https://w3c.github.io/vcalm/",
@@ -211910,6 +213253,57 @@
                     "https://www.w3.org/groups/wg/vc/"
                 ],
                 "source": "https://api.w3.org/specifications/vcalm-1.0/versions/20260721"
+            },
+            "20260811": {
+                "authors": [
+                    "Patrick St-Louis",
+                    "Kayode Ezike",
+                    "Manu Sporny",
+                    "Ted Thibodeau Jr"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-vcalm-1.0-20260811/",
+                "title": "VCALM v1.0",
+                "rawDate": "2026-08-11",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/vc/"
+                ],
+                "source": "https://api.w3.org/specifications/vcalm-1.0/versions/20260811"
+            },
+            "20260813": {
+                "authors": [
+                    "Patrick St-Louis",
+                    "Kayode Ezike",
+                    "Manu Sporny",
+                    "Ted Thibodeau Jr"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-vcalm-1.0-20260813/",
+                "title": "VCALM v1.0",
+                "rawDate": "2026-08-13",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/vc/"
+                ],
+                "source": "https://api.w3.org/specifications/vcalm-1.0/versions/20260813"
+            },
+            "20260814": {
+                "authors": [
+                    "Patrick St-Louis",
+                    "Kayode Ezike",
+                    "Manu Sporny",
+                    "Ted Thibodeau Jr"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-vcalm-1.0-20260814/",
+                "title": "VCALM v1.0",
+                "rawDate": "2026-08-14",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/vc/"
+                ],
+                "source": "https://api.w3.org/specifications/vcalm-1.0/versions/20260814"
             }
         },
         "status": "WD",
@@ -217281,7 +218675,7 @@
         ],
         "href": "https://www.w3.org/TR/wasm-core-2/",
         "title": "WebAssembly Core Specification",
-        "rawDate": "2026-07-28",
+        "rawDate": "2026-08-12",
         "status": "CRD",
         "publisher": "W3C",
         "edDraft": "https://webassembly.github.io/spec/core/bikeshed/",
@@ -218185,6 +219579,20 @@
                     "https://www.w3.org/groups/wg/wasm/"
                 ],
                 "source": "https://api.w3.org/specifications/wasm-core-2/versions/20260728"
+            },
+            "20260812": {
+                "authors": [
+                    "Andreas Rossberg"
+                ],
+                "href": "https://www.w3.org/TR/2026/CRD-wasm-core-2-20260812/",
+                "title": "WebAssembly Core Specification",
+                "rawDate": "2026-08-12",
+                "status": "CRD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/wasm/"
+                ],
+                "source": "https://api.w3.org/specifications/wasm-core-2/versions/20260812"
             }
         },
         "repository": "https://github.com/webassembly/spec"
@@ -218290,7 +219698,7 @@
         ],
         "href": "https://www.w3.org/TR/wasm-js-api-2/",
         "title": "WebAssembly JavaScript Interface",
-        "rawDate": "2026-07-28",
+        "rawDate": "2026-08-12",
         "status": "CRD",
         "publisher": "W3C",
         "edDraft": "https://webassembly.github.io/spec/js-api/",
@@ -219527,6 +220935,21 @@
                     "https://www.w3.org/groups/wg/wasm/"
                 ],
                 "source": "https://api.w3.org/specifications/wasm-js-api-2/versions/20260728"
+            },
+            "20260812": {
+                "authors": [
+                    ". Ms2ger",
+                    "Ryan Hunt"
+                ],
+                "href": "https://www.w3.org/TR/2026/CRD-wasm-js-api-2-20260812/",
+                "title": "WebAssembly JavaScript Interface",
+                "rawDate": "2026-08-12",
+                "status": "CRD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/wasm/"
+                ],
+                "source": "https://api.w3.org/specifications/wasm-js-api-2/versions/20260812"
             }
         },
         "repository": "https://github.com/webassembly/spec"
@@ -219632,7 +221055,7 @@
         ],
         "href": "https://www.w3.org/TR/wasm-web-api-2/",
         "title": "WebAssembly Web API",
-        "rawDate": "2026-07-28",
+        "rawDate": "2026-08-12",
         "status": "CRD",
         "publisher": "W3C",
         "edDraft": "https://webassembly.github.io/spec/web-api/",
@@ -220981,6 +222404,21 @@
                     "https://www.w3.org/groups/wg/wasm/"
                 ],
                 "source": "https://api.w3.org/specifications/wasm-web-api-2/versions/20260728"
+            },
+            "20260812": {
+                "authors": [
+                    ". Ms2ger",
+                    "Ryan Hunt"
+                ],
+                "href": "https://www.w3.org/TR/2026/CRD-wasm-web-api-2-20260812/",
+                "title": "WebAssembly Web API",
+                "rawDate": "2026-08-12",
+                "status": "CRD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/wasm/"
+                ],
+                "source": "https://api.w3.org/specifications/wasm-web-api-2/versions/20260812"
             }
         },
         "repository": "https://github.com/webassembly/spec"
@@ -223652,7 +225090,7 @@
         "hasErrata": "https://github.com/w3c/web-share/labels/errata"
     },
     "web-sustainability-guidelines": {
-        "rawDate": "2026-07-29",
+        "rawDate": "2026-08-05",
         "href": "https://www.w3.org/TR/web-sustainability-guidelines/",
         "title": "Web Sustainability Guidelines (WSG)",
         "edDraft": "https://w3c.github.io/sustainableweb-wsg/",
@@ -224092,6 +225530,20 @@
                     "https://www.w3.org/groups/ig/sustainableweb/"
                 ],
                 "source": "https://api.w3.org/specifications/web-sustainability-guidelines/versions/20260729"
+            },
+            "20260805": {
+                "authors": [
+                    "Rose Newell"
+                ],
+                "href": "https://www.w3.org/TR/2026/DNOTE-web-sustainability-guidelines-20260805/",
+                "title": "Web Sustainability Guidelines (WSG)",
+                "rawDate": "2026-08-05",
+                "status": "DNOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/ig/sustainableweb/"
+                ],
+                "source": "https://api.w3.org/specifications/web-sustainability-guidelines/versions/20260805"
             }
         },
         "status": "DNOTE",
@@ -250843,7 +252295,7 @@
         ],
         "href": "https://www.w3.org/TR/webdriver-bidi/",
         "title": "WebDriver BiDi",
-        "rawDate": "2026-06-29",
+        "rawDate": "2026-08-18",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/webdriver-bidi/",
@@ -252675,6 +254127,22 @@
                     "https://www.w3.org/groups/wg/browser-tools-testing/"
                 ],
                 "source": "https://api.w3.org/specifications/webdriver-bidi/versions/20260629"
+            },
+            "20260818": {
+                "authors": [
+                    "James Graham",
+                    "Alex Rudenko",
+                    "Maksim Sadym"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-webdriver-bidi-20260818/",
+                "title": "WebDriver BiDi",
+                "rawDate": "2026-08-18",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/browser-tools-testing/"
+                ],
+                "source": "https://api.w3.org/specifications/webdriver-bidi/versions/20260818"
             }
         },
         "repository": "https://github.com/w3c/webdriver-bidi"
@@ -255046,7 +256514,7 @@
         ],
         "href": "https://www.w3.org/TR/webgpu/",
         "title": "WebGPU",
-        "rawDate": "2026-07-14",
+        "rawDate": "2026-08-12",
         "status": "CRD",
         "publisher": "W3C",
         "edDraft": "https://gpuweb.github.io/gpuweb/",
@@ -262271,6 +263739,38 @@
                     "https://www.w3.org/groups/wg/gpu/"
                 ],
                 "source": "https://api.w3.org/specifications/webgpu/versions/20260714"
+            },
+            "20260810": {
+                "authors": [
+                    "Kai Ninomiya",
+                    "Brandon Jones",
+                    "Jim Blandy"
+                ],
+                "href": "https://www.w3.org/TR/2026/CRD-webgpu-20260810/",
+                "title": "WebGPU",
+                "rawDate": "2026-08-10",
+                "status": "CRD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/gpu/"
+                ],
+                "source": "https://api.w3.org/specifications/webgpu/versions/20260810"
+            },
+            "20260812": {
+                "authors": [
+                    "Kai Ninomiya",
+                    "Brandon Jones",
+                    "Jim Blandy"
+                ],
+                "href": "https://www.w3.org/TR/2026/CRD-webgpu-20260812/",
+                "title": "WebGPU",
+                "rawDate": "2026-08-12",
+                "status": "CRD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/gpu/"
+                ],
+                "source": "https://api.w3.org/specifications/webgpu/versions/20260812"
             }
         },
         "repository": "https://github.com/gpuweb/gpuweb"
@@ -262931,7 +264431,7 @@
         ],
         "href": "https://www.w3.org/TR/webnn/",
         "title": "Web Neural Network API",
-        "rawDate": "2026-06-26",
+        "rawDate": "2026-08-13",
         "status": "CRD",
         "publisher": "W3C",
         "edDraft": "https://webmachinelearning.github.io/webnn/",
@@ -265909,6 +267409,21 @@
                     "https://www.w3.org/groups/wg/webmachinelearning/"
                 ],
                 "source": "https://api.w3.org/specifications/webnn/versions/20260626"
+            },
+            "20260813": {
+                "authors": [
+                    "Ningxin Hu",
+                    "Dwayne Robinson"
+                ],
+                "href": "https://www.w3.org/TR/2026/CRD-webnn-20260813/",
+                "title": "Web Neural Network API",
+                "rawDate": "2026-08-13",
+                "status": "CRD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/webmachinelearning/"
+                ],
+                "source": "https://api.w3.org/specifications/webnn/versions/20260813"
             }
         },
         "repository": "https://github.com/webmachinelearning/webnn"
@@ -270366,14 +271881,14 @@
     },
     "webtransport": {
         "authors": [
-            "Nidhi Jaju",
+            "Jan-Ivar Bruaroey",
             "Victor Vasiliev",
-            "Jan-Ivar Bruaroey"
+            "Nidhi Jaju"
         ],
         "href": "https://www.w3.org/TR/webtransport/",
         "title": "WebTransport",
-        "rawDate": "2026-07-06",
-        "status": "WD",
+        "rawDate": "2026-07-30",
+        "status": "CR",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/webtransport/",
         "deliveredBy": [
@@ -270731,6 +272246,22 @@
                     "https://www.w3.org/groups/wg/webtransport/"
                 ],
                 "source": "https://api.w3.org/specifications/webtransport/versions/20260706"
+            },
+            "20260730": {
+                "authors": [
+                    "Jan-Ivar Bruaroey",
+                    "Victor Vasiliev",
+                    "Nidhi Jaju"
+                ],
+                "href": "https://www.w3.org/TR/2026/CR-webtransport-20260730/",
+                "title": "WebTransport",
+                "rawDate": "2026-07-30",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/webtransport/"
+                ],
+                "source": "https://api.w3.org/specifications/webtransport/versions/20260730"
             }
         },
         "repository": "https://github.com/w3c/webtransport"
@@ -272495,7 +274026,7 @@
         ],
         "href": "https://www.w3.org/TR/webxrlayers-1/",
         "title": "WebXR Layers API Level 1",
-        "rawDate": "2026-06-12",
+        "rawDate": "2026-08-11",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://immersive-web.github.io/layers/",
@@ -272867,6 +274398,20 @@
                     "https://www.w3.org/immersive-web/"
                 ],
                 "source": "https://api.w3.org/specifications/webxrlayers-1/versions/20260612"
+            },
+            "20260811": {
+                "authors": [
+                    "Rik Cabanier"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-webxrlayers-1-20260811/",
+                "title": "WebXR Layers API Level 1",
+                "rawDate": "2026-08-11",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/immersive-web/"
+                ],
+                "source": "https://api.w3.org/specifications/webxrlayers-1/versions/20260811"
             }
         },
         "repository": "https://github.com/immersive-web/layers"
@@ -280494,6 +282039,42 @@
     "wsdlelementidentifiers": {
         "aliasOf": "wsdl11elementidentifiers",
         "isSeriesAlias": true
+    },
+    "wsg-ir": {
+        "rawDate": "2026-08-18",
+        "href": "https://www.w3.org/TR/wsg-ir/",
+        "title": "Web Sustainability Guidelines (WSG) Impact Ratings",
+        "edDraft": "https://w3c.github.io/sustainableweb-impact/",
+        "publisher": "W3C",
+        "source": "https://api.w3.org/specifications/wsg-ir",
+        "versions": {
+            "20260818": {
+                "authors": [
+                    "Alexander Dawson",
+                    "Fershad Irani",
+                    "Rose Newell"
+                ],
+                "href": "https://www.w3.org/TR/2026/DNOTE-wsg-ir-20260818/",
+                "title": "Web Sustainability Guidelines (WSG) Impact Ratings",
+                "rawDate": "2026-08-18",
+                "status": "DNOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/ig/sustainableweb/"
+                ],
+                "source": "https://api.w3.org/specifications/wsg-ir/versions/20260818"
+            }
+        },
+        "status": "DNOTE",
+        "authors": [
+            "Alexander Dawson",
+            "Fershad Irani",
+            "Rose Newell"
+        ],
+        "deliveredBy": [
+            "https://www.w3.org/groups/ig/sustainableweb/"
+        ],
+        "repository": "https://github.com/w3c/sustainableweb-impact"
     },
     "wslc": {
         "authors": [
