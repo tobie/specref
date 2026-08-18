@@ -85189,7 +85189,7 @@
         "aliasOf": "epub-a11y-12"
     },
     "epub-a11y-12": {
-        "rawDate": "2026-07-21",
+        "rawDate": "2026-08-18",
         "href": "https://www.w3.org/TR/epub-a11y-12/",
         "title": "EPUB Accessibility 1.2",
         "edDraft": "https://w3c.github.io/epub-specs/epub34/a11y/",
@@ -85681,15 +85681,33 @@
                     "https://www.w3.org/groups/wg/pm/"
                 ],
                 "source": "https://api.w3.org/specifications/epub-a11y-12/versions/20260721"
+            },
+            "20260818": {
+                "authors": [
+                    "Matt Garrish",
+                    "George Kerscher",
+                    "Charles LaPierre",
+                    "Gregorio Pellegrino",
+                    "Avneesh Singh"
+                ],
+                "href": "https://www.w3.org/TR/2026/CRD-epub-a11y-12-20260818/",
+                "title": "EPUB Accessibility 1.2",
+                "rawDate": "2026-08-18",
+                "status": "CRD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/pm/"
+                ],
+                "source": "https://api.w3.org/specifications/epub-a11y-12/versions/20260818"
             }
         },
-        "status": "CR",
+        "status": "CRD",
         "authors": [
-            "George Kerscher",
             "Matt Garrish",
+            "George Kerscher",
             "Charles LaPierre",
-            "Avneesh Singh",
-            "Gregorio Pellegrino"
+            "Gregorio Pellegrino",
+            "Avneesh Singh"
         ],
         "deliveredBy": [
             "https://www.w3.org/groups/wg/pm/"
@@ -87548,7 +87566,7 @@
         "aliasOf": "epub-a11y-tech-12"
     },
     "epub-a11y-tech-12": {
-        "rawDate": "2026-07-21",
+        "rawDate": "2026-08-18",
         "href": "https://www.w3.org/TR/epub-a11y-tech-12/",
         "title": "EPUB Accessibility Techniques 1.2",
         "edDraft": "https://w3c.github.io/epub-specs/epub34/a11y-tech/",
@@ -87824,6 +87842,24 @@
                     "https://www.w3.org/groups/wg/pm/"
                 ],
                 "source": "https://api.w3.org/specifications/epub-a11y-tech-12/versions/20260721"
+            },
+            "20260818": {
+                "authors": [
+                    "Matt Garrish",
+                    "George Kerscher",
+                    "Charles LaPierre",
+                    "Gregorio Pellegrino",
+                    "Avneesh Singh"
+                ],
+                "href": "https://www.w3.org/TR/2026/NOTE-epub-a11y-tech-12-20260818/",
+                "title": "EPUB Accessibility Techniques 1.2",
+                "rawDate": "2026-08-18",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/pm/"
+                ],
+                "source": "https://api.w3.org/specifications/epub-a11y-tech-12/versions/20260818"
             }
         },
         "status": "NOTE",
