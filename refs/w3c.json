@@ -225176,7 +225176,7 @@
         "hasErrata": "https://github.com/w3c/web-share/labels/errata"
     },
     "web-sustainability-guidelines": {
-        "rawDate": "2026-08-05",
+        "rawDate": "2026-08-19",
         "href": "https://www.w3.org/TR/web-sustainability-guidelines/",
         "title": "Web Sustainability Guidelines (WSG)",
         "edDraft": "https://w3c.github.io/sustainableweb-wsg/",
@@ -225630,6 +225630,20 @@
                     "https://www.w3.org/groups/ig/sustainableweb/"
                 ],
                 "source": "https://api.w3.org/specifications/web-sustainability-guidelines/versions/20260805"
+            },
+            "20260819": {
+                "authors": [
+                    "Rose Newell"
+                ],
+                "href": "https://www.w3.org/TR/2026/DNOTE-web-sustainability-guidelines-20260819/",
+                "title": "Web Sustainability Guidelines (WSG)",
+                "rawDate": "2026-08-19",
+                "status": "DNOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/ig/sustainableweb/"
+                ],
+                "source": "https://api.w3.org/specifications/web-sustainability-guidelines/versions/20260819"
             }
         },
         "status": "DNOTE",
@@ -282127,7 +282141,7 @@
         "isSeriesAlias": true
     },
     "wsg-ir": {
-        "rawDate": "2026-08-18",
+        "rawDate": "2026-08-19",
         "href": "https://www.w3.org/TR/wsg-ir/",
         "title": "Web Sustainability Guidelines (WSG) Impact Ratings",
         "edDraft": "https://w3c.github.io/sustainableweb-impact/",
@@ -282149,11 +282163,25 @@
                     "https://www.w3.org/groups/ig/sustainableweb/"
                 ],
                 "source": "https://api.w3.org/specifications/wsg-ir/versions/20260818"
+            },
+            "20260819": {
+                "authors": [
+                    "Fershad Irani",
+                    "Rose Newell"
+                ],
+                "href": "https://www.w3.org/TR/2026/DNOTE-wsg-ir-20260819/",
+                "title": "Web Sustainability Guidelines (WSG) Impact Ratings",
+                "rawDate": "2026-08-19",
+                "status": "DNOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/ig/sustainableweb/"
+                ],
+                "source": "https://api.w3.org/specifications/wsg-ir/versions/20260819"
             }
         },
         "status": "DNOTE",
         "authors": [
-            "Alexander Dawson",
             "Fershad Irani",
             "Rose Newell"
         ],
