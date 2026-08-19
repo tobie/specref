@@ -216036,7 +216036,7 @@
         "aliasOf": "vocab-ssn-2017-20171019"
     },
     "vocab-ssn-2023": {
-        "rawDate": "2025-09-16",
+        "rawDate": "2026-08-19",
         "href": "https://www.w3.org/TR/vocab-ssn-2023/",
         "title": "Semantic Sensor Network Ontology - 2023 Edition",
         "edDraft": "https://w3c.github.io/sdw-sosa-ssn/ssn/",
@@ -216062,17 +216062,39 @@
                     "https://www.w3.org/2021/sdw"
                 ],
                 "source": "https://api.w3.org/specifications/vocab-ssn-2023/versions/20250916"
+            },
+            "20260819": {
+                "authors": [
+                    "Simon Cox",
+                    "Maxime Lefrançois",
+                    "Robert Warren",
+                    "Rob Atkinson",
+                    "Luís de Sousa",
+                    "Katharina Schleidt",
+                    "Sylvain Grellet",
+                    "Krzysztof Janowicz"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-vocab-ssn-2023-20260819/",
+                "title": "Semantic Sensor Network Ontology - 2023 Edition",
+                "rawDate": "2026-08-19",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2021/sdw"
+                ],
+                "source": "https://api.w3.org/specifications/vocab-ssn-2023/versions/20260819"
             }
         },
-        "status": "FPWD",
+        "status": "WD",
         "authors": [
             "Simon Cox",
             "Maxime Lefrançois",
+            "Robert Warren",
             "Rob Atkinson",
+            "Luís de Sousa",
             "Katharina Schleidt",
             "Sylvain Grellet",
-            "Robert Warren",
-            "Luís de Sousa"
+            "Krzysztof Janowicz"
         ],
         "deliveredBy": [
             "https://www.w3.org/2021/sdw"
