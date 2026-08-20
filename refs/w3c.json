@@ -77135,11 +77135,15 @@
         "edDraft": "https://w3c.github.io/dwbp/usecasesv1.html",
         "repository": "https://github.com/w3c/dwbp"
     },
+    "dx-prof": {
+        "aliasOf": "dx-prof-0.9",
+        "isSeriesAlias": true
+    },
     "dx-prof-0.9": {
         "authors": [
             "Nicholas Car"
         ],
-        "href": "https://www.w3.org/TR/dx-prof/",
+        "href": "https://www.w3.org/TR/dx-prof-0.9/",
         "title": "The Profiles Vocabulary",
         "rawDate": "2019-12-18",
         "status": "NOTE",
@@ -77148,7 +77152,7 @@
         "deliveredBy": [
             "https://www.w3.org/2017/dxwg/"
         ],
-        "source": "https://api.w3.org/specifications/dx-prof",
+        "source": "https://api.w3.org/specifications/dx-prof-0.9",
         "versions": {
             "20181218": {
                 "authors": [
@@ -77163,7 +77167,7 @@
                 "deliveredBy": [
                     "https://www.w3.org/2017/dxwg/"
                 ],
-                "source": "https://api.w3.org/specifications/dx-prof/versions/20181218"
+                "source": "https://api.w3.org/specifications/dx-prof-0.9/versions/20181218"
             },
             "20190402": {
                 "authors": [
@@ -77177,7 +77181,7 @@
                 "deliveredBy": [
                     "https://www.w3.org/2017/dxwg/"
                 ],
-                "source": "https://api.w3.org/specifications/dx-prof/versions/20190402"
+                "source": "https://api.w3.org/specifications/dx-prof-0.9/versions/20190402"
             },
             "20191218": {
                 "authors": [
@@ -77191,23 +77195,57 @@
                 "deliveredBy": [
                     "https://www.w3.org/2017/dxwg/"
                 ],
-                "source": "https://api.w3.org/specifications/dx-prof/versions/20191218"
+                "source": "https://api.w3.org/specifications/dx-prof-0.9/versions/20191218"
             }
         },
         "repository": "https://github.com/w3c/dxwg"
     },
-    "dx-prof": {
-        "aliasOf": "dx-prof-0.9",
-        "isSeriesAlias": true
+    "dx-prof-1.0": {
+        "rawDate": "2026-08-20",
+        "href": "https://www.w3.org/TR/dx-prof-1.0/",
+        "title": "The Profiles Vocabulary",
+        "edDraft": "https://w3c.github.io/dx-prof/prof/",
+        "publisher": "W3C",
+        "source": "https://api.w3.org/specifications/dx-prof-1.0",
+        "versions": {
+            "20260820": {
+                "authors": [
+                    "Nicholas Car",
+                    "Rob Atkinson",
+                    "Les Kneebone",
+                    "Yousouf Taghzouti"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-dx-prof-1.0-20260820/",
+                "title": "The Profiles Vocabulary",
+                "rawDate": "2026-08-20",
+                "status": "FPWD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2017/dxwg/"
+                ],
+                "source": "https://api.w3.org/specifications/dx-prof-1.0/versions/20260820"
+            }
+        },
+        "status": "FPWD",
+        "authors": [
+            "Nicholas Car",
+            "Rob Atkinson",
+            "Les Kneebone",
+            "Yousouf Taghzouti"
+        ],
+        "deliveredBy": [
+            "https://www.w3.org/2017/dxwg/"
+        ],
+        "repository": "https://github.com/w3c/dx-prof"
     },
-    "dx-prof-20191218": {
-        "aliasOf": "dx-prof-0.9-20191218"
+    "dx-prof-20181218": {
+        "aliasOf": "dx-prof-0.9-20181218"
     },
     "dx-prof-20190402": {
         "aliasOf": "dx-prof-0.9-20190402"
     },
-    "dx-prof-20181218": {
-        "aliasOf": "dx-prof-0.9-20181218"
+    "dx-prof-20191218": {
+        "aliasOf": "dx-prof-0.9-20191218"
     },
     "dx-prof-conneg": {
         "authors": [
