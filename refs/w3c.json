@@ -189441,7 +189441,7 @@
         ],
         "href": "https://www.w3.org/TR/sparql12-query/",
         "title": "SPARQL 1.2 Query Language",
-        "rawDate": "2026-06-25",
+        "rawDate": "2026-08-20",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/sparql-query/spec/",
@@ -191140,6 +191140,24 @@
                     "https://www.w3.org/groups/wg/rdf-star/"
                 ],
                 "source": "https://api.w3.org/specifications/sparql12-query/versions/20260625"
+            },
+            "20260820": {
+                "authors": [
+                    "Olaf Hartig",
+                    "Andy Seaborne",
+                    "Ruben Taelman",
+                    "Gregory Williams",
+                    "Thomas Pellissier Tanon"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-sparql12-query-20260820/",
+                "title": "SPARQL 1.2 Query Language",
+                "rawDate": "2026-08-20",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/rdf-star/"
+                ],
+                "source": "https://api.w3.org/specifications/sparql12-query/versions/20260820"
             }
         },
         "repository": "https://github.com/w3c/sparql-query"
