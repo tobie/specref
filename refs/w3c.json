@@ -73777,7 +73777,7 @@
         "repository": "https://github.com/w3c/differential-privacy-guidance"
     },
     "digital-credentials": {
-        "rawDate": "2026-08-19",
+        "rawDate": "2026-08-20",
         "href": "https://www.w3.org/TR/digital-credentials/",
         "title": "Digital Credentials",
         "edDraft": "https://w3c-fedid.github.io/digital-credentials/",
@@ -74823,6 +74823,22 @@
                     "https://www.w3.org/groups/wg/fedid/"
                 ],
                 "source": "https://api.w3.org/specifications/digital-credentials/versions/20260819"
+            },
+            "20260820": {
+                "authors": [
+                    "Marcos Caceres",
+                    "Tim Cappalli",
+                    "Mohamed Amir Yosef"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-digital-credentials-20260820/",
+                "title": "Digital Credentials",
+                "rawDate": "2026-08-20",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/fedid/"
+                ],
+                "source": "https://api.w3.org/specifications/digital-credentials/versions/20260820"
             }
         },
         "status": "WD",
@@ -256671,7 +256687,7 @@
         ],
         "href": "https://www.w3.org/TR/webgpu/",
         "title": "WebGPU",
-        "rawDate": "2026-08-12",
+        "rawDate": "2026-08-20",
         "status": "CRD",
         "publisher": "W3C",
         "edDraft": "https://gpuweb.github.io/gpuweb/",
@@ -263928,6 +263944,22 @@
                     "https://www.w3.org/groups/wg/gpu/"
                 ],
                 "source": "https://api.w3.org/specifications/webgpu/versions/20260812"
+            },
+            "20260820": {
+                "authors": [
+                    "Kai Ninomiya",
+                    "Brandon Jones",
+                    "Jim Blandy"
+                ],
+                "href": "https://www.w3.org/TR/2026/CRD-webgpu-20260820/",
+                "title": "WebGPU",
+                "rawDate": "2026-08-20",
+                "status": "CRD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/gpu/"
+                ],
+                "source": "https://api.w3.org/specifications/webgpu/versions/20260820"
             }
         },
         "repository": "https://github.com/gpuweb/gpuweb"
