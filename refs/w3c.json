@@ -77135,7 +77135,7 @@
         "edDraft": "https://w3c.github.io/dwbp/usecasesv1.html",
         "repository": "https://github.com/w3c/dwbp"
     },
-    "dx-prof": {
+    "dx-prof-0.9": {
         "authors": [
             "Nicholas Car"
         ],
@@ -77195,6 +77195,19 @@
             }
         },
         "repository": "https://github.com/w3c/dxwg"
+    },
+    "dx-prof": {
+        "aliasOf": "dx-prof-0.9",
+        "isSeriesAlias": true
+    },
+    "dx-prof-20191218": {
+        "aliasOf": "dx-prof-0.9-20191218"
+    },
+    "dx-prof-20190402": {
+        "aliasOf": "dx-prof-0.9-20190402"
+    },
+    "dx-prof-20181218": {
+        "aliasOf": "dx-prof-0.9-20181218"
     },
     "dx-prof-conneg": {
         "authors": [
