@@ -73796,7 +73796,7 @@
         "repository": "https://github.com/w3c/differential-privacy-guidance"
     },
     "digital-credentials": {
-        "rawDate": "2026-08-20",
+        "rawDate": "2026-08-21",
         "href": "https://www.w3.org/TR/digital-credentials/",
         "title": "Digital Credentials",
         "edDraft": "https://w3c-fedid.github.io/digital-credentials/",
@@ -74858,6 +74858,22 @@
                     "https://www.w3.org/groups/wg/fedid/"
                 ],
                 "source": "https://api.w3.org/specifications/digital-credentials/versions/20260820"
+            },
+            "20260821": {
+                "authors": [
+                    "Marcos Caceres",
+                    "Tim Cappalli",
+                    "Mohamed Amir Yosef"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-digital-credentials-20260821/",
+                "title": "Digital Credentials",
+                "rawDate": "2026-08-21",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/fedid/"
+                ],
+                "source": "https://api.w3.org/specifications/digital-credentials/versions/20260821"
             }
         },
         "status": "WD",
@@ -213353,7 +213369,7 @@
         "isSeriesAlias": true
     },
     "vcalm-1.0": {
-        "rawDate": "2026-08-18",
+        "rawDate": "2026-08-21",
         "href": "https://www.w3.org/TR/vcalm-1.0/",
         "title": "VCALM v1.0",
         "edDraft": "https://w3c.github.io/vcalm/",
@@ -213546,6 +213562,23 @@
                     "https://www.w3.org/groups/wg/vc/"
                 ],
                 "source": "https://api.w3.org/specifications/vcalm-1.0/versions/20260818"
+            },
+            "20260821": {
+                "authors": [
+                    "Patrick St-Louis",
+                    "Kayode Ezike",
+                    "Manu Sporny",
+                    "Ted Thibodeau Jr"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-vcalm-1.0-20260821/",
+                "title": "VCALM v1.0",
+                "rawDate": "2026-08-21",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/vc/"
+                ],
+                "source": "https://api.w3.org/specifications/vcalm-1.0/versions/20260821"
             }
         },
         "status": "WD",
