@@ -184410,7 +184410,7 @@
         "repository": "https://github.com/w3c/data-shapes"
     },
     "shacl12-sparql": {
-        "rawDate": "2026-08-20",
+        "rawDate": "2026-08-21",
         "href": "https://www.w3.org/TR/shacl12-sparql/",
         "title": "SHACL 1.2 SPARQL Extensions",
         "edDraft": "https://w3c.github.io/data-shapes/shacl12-sparql/",
@@ -184922,6 +184922,23 @@
                     "https://www.w3.org/groups/wg/data-shapes/"
                 ],
                 "source": "https://api.w3.org/specifications/shacl12-sparql/versions/20260820"
+            },
+            "20260821": {
+                "authors": [
+                    "Holger Knublauch",
+                    "Matt Goldberg",
+                    "Scott Henninger",
+                    "Livio Robaldo"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-shacl12-sparql-20260821/",
+                "title": "SHACL 1.2 SPARQL Extensions",
+                "rawDate": "2026-08-21",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/data-shapes/"
+                ],
+                "source": "https://api.w3.org/specifications/shacl12-sparql/versions/20260821"
             }
         },
         "status": "WD",
