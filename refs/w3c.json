@@ -123878,7 +123878,7 @@
         "repository": "https://github.com/w3c/lws-protocol"
     },
     "lws10-authn-ssi-cid": {
-        "rawDate": "2026-08-03",
+        "rawDate": "2026-08-21",
         "href": "https://www.w3.org/TR/lws10-authn-ssi-cid/",
         "title": "LWS 1.0 Authentication Suite: Self-signed Identity using Controlled Identifiers",
         "edDraft": "https://w3c.github.io/lws-protocol/lws10-authn-ssi-cid/",
@@ -123926,6 +123926,20 @@
                     "https://www.w3.org/groups/wg/lws/"
                 ],
                 "source": "https://api.w3.org/specifications/lws10-authn-ssi-cid/versions/20260803"
+            },
+            "20260821": {
+                "authors": [
+                    "Jesse Wright"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-lws10-authn-ssi-cid-20260821/",
+                "title": "LWS 1.0 Authentication Suite: Self-signed Identity using Controlled Identifiers",
+                "rawDate": "2026-08-21",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/lws/"
+                ],
+                "source": "https://api.w3.org/specifications/lws10-authn-ssi-cid/versions/20260821"
             }
         },
         "status": "WD",
