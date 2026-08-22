@@ -202295,7 +202295,7 @@
         "source": "https://api.w3.org/specifications/vbi-reqs"
     },
     "vc-barcodes-1.0": {
-        "rawDate": "2026-08-06",
+        "rawDate": "2026-08-22",
         "href": "https://www.w3.org/TR/vc-barcodes-1.0/",
         "title": "Verifiable Credential Barcodes v1.0",
         "edDraft": "https://w3c.github.io/vc-barcodes/",
@@ -202429,6 +202429,22 @@
                     "https://www.w3.org/groups/wg/vc/"
                 ],
                 "source": "https://api.w3.org/specifications/vc-barcodes-1.0/versions/20260806"
+            },
+            "20260822": {
+                "authors": [
+                    "Wesley Smith",
+                    "Elaine Wooton",
+                    "Manu Sporny"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-vc-barcodes-1.0-20260822/",
+                "title": "Verifiable Credential Barcodes v1.0",
+                "rawDate": "2026-08-22",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/vc/"
+                ],
+                "source": "https://api.w3.org/specifications/vc-barcodes-1.0/versions/20260822"
             }
         },
         "status": "WD",
@@ -213159,7 +213175,7 @@
         "aliasOf": "vc-overview-1.0-20260618"
     },
     "vc-recognized-entities-1.0": {
-        "rawDate": "2026-08-16",
+        "rawDate": "2026-08-22",
         "href": "https://www.w3.org/TR/vc-recognized-entities-1.0/",
         "title": "Recognized Entities v1.0",
         "edDraft": "https://w3c.github.io/vc-recognized-entities/",
@@ -213235,6 +213251,20 @@
                     "https://www.w3.org/groups/wg/vc/"
                 ],
                 "source": "https://api.w3.org/specifications/vc-recognized-entities-1.0/versions/20260816"
+            },
+            "20260822": {
+                "authors": [
+                    "Manu Sporny"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-vc-recognized-entities-1.0-20260822/",
+                "title": "Recognized Entities v1.0",
+                "rawDate": "2026-08-22",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/vc/"
+                ],
+                "source": "https://api.w3.org/specifications/vc-recognized-entities-1.0/versions/20260822"
             }
         },
         "status": "WD",
