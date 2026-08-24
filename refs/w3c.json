@@ -179532,7 +179532,7 @@
         "repository": "https://github.com/w3c/secure-payment-confirmation"
     },
     "security-disclosure": {
-        "rawDate": "2026-06-30",
+        "rawDate": "2026-08-24",
         "href": "https://www.w3.org/TR/security-disclosure/",
         "title": "W3C Standards Vulnerability Disclosure & Handling Process and Policy",
         "edDraft": "https://w3c.github.io/security-disclosure/",
@@ -179553,6 +179553,21 @@
                     "https://www.w3.org/groups/ig/security/"
                 ],
                 "source": "https://api.w3.org/specifications/security-disclosure/versions/20260630"
+            },
+            "20260824": {
+                "authors": [
+                    "Simone Onofri",
+                    "Luca Lumini"
+                ],
+                "href": "https://www.w3.org/TR/2026/DNOTE-security-disclosure-20260824/",
+                "title": "W3C Standards Vulnerability Disclosure & Handling Process and Policy",
+                "rawDate": "2026-08-24",
+                "status": "DNOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/ig/security/"
+                ],
+                "source": "https://api.w3.org/specifications/security-disclosure/versions/20260824"
             }
         },
         "status": "DNOTE",
