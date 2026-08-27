@@ -11,32 +11,69 @@ var REF_STATUSES = {
 ,   "REC":      "W3C Recommendation"
 };
 
+function safeSetText(element, text) {
+    element.textContent = text;
+    return element;
+}
+
 function highlight(txt, searchString) {
-    var regexp = new RegExp("(<[^>]+>)|(" + searchString + ")", "gi");
+    // Escape the search string for use in regex to prevent injection
+    var escapedSearchString = searchString.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    var regexp = new RegExp("(<[^>]+>)|(" + escapedSearchString + ")", "gi");
     var flag = false;
     return (txt || "").replace(regexp, function wrap(_, tag, txt) {
         if (tag == "<code>") flag = true;
         if (tag == "</code>") flag = false;
         if (tag) return tag;
         if (flag) return txt;
-        return "<mark>" + txt + "</mark>";
+        return "<mark>" + DOMPurify.sanitize(txt) + "</mark>";
     });
 }
 
-function stringifyRef(ref) {
-    var output = "";
-    if (ref.authors && ref.authors.length) {
-        output += ref.authors.join("; ");
-        if (ref.etAl) output += " et al";
-        output += ". ";
+function safeUrl(url) {
+    if (!url || typeof url !== 'string') return '';
+    // Block javascript: and data: URIs for security
+    if (url.toLowerCase().startsWith('javascript:') || url.toLowerCase().startsWith('data:')) {
+        return '';
     }
-    if (ref.href) output += '<a href="' + ref.href + '"><cite>' + ref.title + "</cite></a>. ";
-    else output += '<cite>' + ref.title + '</cite>. ';
-    if (ref.date) output += ref.date + ". ";
-    if (ref.status) output += (REF_STATUSES[ref.status] || ref.status) + ". ";
-    if (ref.href) output += 'URL:&nbsp;<a href="' + ref.href + '">' + ref.href + "</a>";
-    if (ref.edDraft) output += ' ED:&nbsp;<a href="' + ref.edDraft + '">' + ref.edDraft + "</a>";
-    return "<div>" + output + "</div>";
+    return url;
+}
+
+function createSafeLink(href, text) {
+    if (!href) return DOMPurify.sanitize('<cite>' + (text || '') + '</cite>');
+
+    // Use DOM API to safely create link with proper attribute encoding
+    var a = document.createElement('a');
+    a.href = href;  // Browser automatically encodes href attribute properly
+    a.innerHTML = DOMPurify.sanitize('<cite>' + (text || '') + '</cite>');
+    return a.outerHTML;
+}
+
+function stringifyRef(ref) {
+    var parts = [];
+
+    if (ref.authors && ref.authors.length) {
+        var authors = DOMPurify.sanitize(ref.authors.join("; "));
+        if (ref.etAl) authors += " et al";
+        parts.push(authors + ". ");
+    }
+    var safeHref = safeUrl(ref.href);
+    var safeTitle = ref.title || '';
+    parts.push(createSafeLink(safeHref, safeTitle) + ". ");
+
+    if (ref.date) parts.push(DOMPurify.sanitize(ref.date) + ". ");
+    if (ref.status) parts.push(DOMPurify.sanitize(REF_STATUSES[ref.status] || ref.status) + ". ");
+
+    if (safeHref) {
+        parts.push('URL:&nbsp;' + createSafeLink(safeHref, safeHref));
+    }
+
+    var safeEdDraft = safeUrl(ref.edDraft);
+    if (safeEdDraft) {
+        parts.push(' ED:&nbsp;' + createSafeLink(safeEdDraft, safeEdDraft));
+    }
+
+    return "<div>" + parts.join('') + "</div>";
 };
 
 function pluralize (count, sing, plur) {
@@ -76,6 +113,7 @@ function prettifyApiOutput(obj) {
 }
 
 function msg(query, count) {
+    // Return plain text - escaping will be handled by safeSetText when displayed
     if (count) {
         return 'We found ' + pluralize(count, 'result', 'results') + ' for your search for "' + query + '".';
     }
@@ -121,8 +159,12 @@ function setup($root) {
     });
     
     function update(query, output) {
-        $results.html(highlight(output.html, query));
-        $status.text(msg(query, output.count));
+        // Use DOMPurify to sanitize HTML before injection
+        var sanitizedHtml = DOMPurify.sanitize(highlight(output.html, query));
+        $results.html(sanitizedHtml);
+        // Use safe text setting for status message
+        var statusElement = $status[0];
+        safeSetText(statusElement, msg(query, output.count));
         $search.select();
         $('[data-toggle="tooltip"]').tooltip();
     }
