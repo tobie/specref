@@ -1,6 +1,7 @@
 var t0 = Date.now();
 
 var bibref = require('./lib/bibref');
+delete bibref.raw;
 
 var app = module.exports = require("express")();
 
