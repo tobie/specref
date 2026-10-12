@@ -292,7 +292,7 @@
         "repository": "https://github.com/WICG/connection-allowlists"
     },
     "CONTAINER-TIMING": {
-        "href": "https://wicg.github.io/container-timing/",
+        "href": "https://w3c.github.io/container-timing/",
         "title": "Container Timing API",
         "status": "Draft Community Group Report",
         "publisher": "W3C",
@@ -300,7 +300,7 @@
             "https://www.w3.org/community/wicg/"
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/WICG/container-timing"
+        "repository": "https://github.com/w3c/container-timing"
     },
     "CONTENT-INDEX": {
         "href": "https://wicg.github.io/content-index/spec/",
@@ -2099,7 +2099,11 @@
             "https://tc39.es/"
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/tc39/proposal-atomics-microwait"
+        "repository": "https://github.com/tc39/proposal-atomics-microwait",
+        "obsoletedBy": [
+            "ECMASCRIPT"
+        ],
+        "isSuperseded": true
     },
     "TC39-ATOMICS-WAIT-ASYNC": {
         "href": "https://tc39.es/proposal-atomics-wait-async/",
@@ -2206,7 +2210,11 @@
             "https://tc39.es/"
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/tc39/proposal-explicit-resource-management"
+        "repository": "https://github.com/tc39/proposal-explicit-resource-management",
+        "obsoletedBy": [
+            "ECMASCRIPT"
+        ],
+        "isSuperseded": true
     },
     "TC39-FLOAT16ARRAY": {
         "href": "https://tc39.es/proposal-float16array/",
@@ -2459,7 +2467,11 @@
             "https://tc39.es/"
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/tc39/proposal-iterator-join"
+        "repository": "https://github.com/tc39/proposal-iterator-join",
+        "obsoletedBy": [
+            "ECMASCRIPT"
+        ],
+        "isSuperseded": true
     },
     "TC39-ITERATOR-SEQUENCING": {
         "href": "https://tc39.es/proposal-iterator-sequencing/",
@@ -2485,7 +2497,11 @@
             "https://tc39.es/"
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/tc39/proposal-joint-iteration"
+        "repository": "https://github.com/tc39/proposal-joint-iteration",
+        "obsoletedBy": [
+            "ECMASCRIPT"
+        ],
+        "isSuperseded": true
     },
     "TC39-JSON-MODULES": {
         "href": "https://tc39.es/proposal-json-modules/",
@@ -2511,7 +2527,11 @@
             "https://tc39.es/"
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/tc39/proposal-json-parse-with-source"
+        "repository": "https://github.com/tc39/proposal-json-parse-with-source",
+        "obsoletedBy": [
+            "ECMASCRIPT"
+        ],
+        "isSuperseded": true
     },
     "TC39-MATH-SUM": {
         "href": "https://tc39.es/proposal-math-sum/",
