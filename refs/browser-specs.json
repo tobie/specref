@@ -748,6 +748,17 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/KhronosGroup/WebGL"
     },
+    "EXT_CLIP_CONTROL": {
+        "href": "https://registry.khronos.org/webgl/extensions/EXT_clip_control/",
+        "title": "WebGL EXT_clip_control Extension Specification",
+        "status": "Editor's Draft",
+        "publisher": "Khronos Group",
+        "deliveredBy": [
+            "https://www.khronos.org/webgl/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/KhronosGroup/WebGL"
+    },
     "EXT_COLOR_BUFFER_FLOAT": {
         "href": "https://registry.khronos.org/webgl/extensions/EXT_color_buffer_float/",
         "title": "WebGL EXT_color_buffer_float Extension Specification",
@@ -762,6 +773,28 @@
     "EXT_COLOR_BUFFER_HALF_FLOAT": {
         "href": "https://registry.khronos.org/webgl/extensions/EXT_color_buffer_half_float/",
         "title": "WebGL EXT_color_buffer_half_float Extension Specification",
+        "status": "Editor's Draft",
+        "publisher": "Khronos Group",
+        "deliveredBy": [
+            "https://www.khronos.org/webgl/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/KhronosGroup/WebGL"
+    },
+    "EXT_CONSERVATIVE_DEPTH": {
+        "href": "https://registry.khronos.org/webgl/extensions/EXT_conservative_depth/",
+        "title": "WebGL EXT_conservative_depth Extension Specification",
+        "status": "Editor's Draft",
+        "publisher": "Khronos Group",
+        "deliveredBy": [
+            "https://www.khronos.org/webgl/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/KhronosGroup/WebGL"
+    },
+    "EXT_DEPTH_CLAMP": {
+        "href": "https://registry.khronos.org/webgl/extensions/EXT_depth_clamp/",
+        "title": "WebGL EXT_depth_clamp Extension Specification",
         "status": "Editor's Draft",
         "publisher": "Khronos Group",
         "deliveredBy": [
@@ -806,6 +839,28 @@
     "EXT_FRAG_DEPTH": {
         "href": "https://registry.khronos.org/webgl/extensions/EXT_frag_depth/",
         "title": "WebGL EXT_frag_depth Khronos Ratified Extension Specification",
+        "status": "Editor's Draft",
+        "publisher": "Khronos Group",
+        "deliveredBy": [
+            "https://www.khronos.org/webgl/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/KhronosGroup/WebGL"
+    },
+    "EXT_POLYGON_OFFSET_CLAMP": {
+        "href": "https://registry.khronos.org/webgl/extensions/EXT_polygon_offset_clamp/",
+        "title": "WebGL EXT_polygon_offset_clamp Extension Specification",
+        "status": "Editor's Draft",
+        "publisher": "Khronos Group",
+        "deliveredBy": [
+            "https://www.khronos.org/webgl/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/KhronosGroup/WebGL"
+    },
+    "EXT_RENDER_SNORM": {
+        "href": "https://registry.khronos.org/webgl/extensions/EXT_render_snorm/",
+        "title": "WebGL EXT_render_snorm Extension Specification",
         "status": "Editor's Draft",
         "publisher": "Khronos Group",
         "deliveredBy": [
@@ -861,6 +916,17 @@
     "EXT_TEXTURE_FILTER_ANISOTROPIC": {
         "href": "https://registry.khronos.org/webgl/extensions/EXT_texture_filter_anisotropic/",
         "title": "WebGL EXT_texture_filter_anisotropic Khronos Ratified Extension Specification",
+        "status": "Editor's Draft",
+        "publisher": "Khronos Group",
+        "deliveredBy": [
+            "https://www.khronos.org/webgl/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/KhronosGroup/WebGL"
+    },
+    "EXT_TEXTURE_MIRROR_CLAMP_TO_EDGE": {
+        "href": "https://registry.khronos.org/webgl/extensions/EXT_texture_mirror_clamp_to_edge/",
+        "title": "WebGL EXT_texture_mirror_clamp_to_edge Extension Specification",
         "status": "Editor's Draft",
         "publisher": "Khronos Group",
         "deliveredBy": [
@@ -1383,6 +1449,17 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/httpwg/http-extensions"
     },
+    "NV_SHADER_NOPERSPECTIVE_INTERPOLATION": {
+        "href": "https://registry.khronos.org/webgl/extensions/NV_shader_noperspective_interpolation/",
+        "title": "WebGL NV_shader_noperspective_interpolation Extension Specification",
+        "status": "Editor's Draft",
+        "publisher": "Khronos Group",
+        "deliveredBy": [
+            "https://www.khronos.org/webgl/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/KhronosGroup/WebGL"
+    },
     "OBSERVABLE": {
         "href": "https://wicg.github.io/observable/",
         "title": "Observable",
@@ -1419,6 +1496,28 @@
     "OES_FBO_RENDER_MIPMAP": {
         "href": "https://registry.khronos.org/webgl/extensions/OES_fbo_render_mipmap/",
         "title": "WebGL OES_fbo_render_mipmap Extension Specification",
+        "status": "Editor's Draft",
+        "publisher": "Khronos Group",
+        "deliveredBy": [
+            "https://www.khronos.org/webgl/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/KhronosGroup/WebGL"
+    },
+    "OES_SAMPLE_VARIABLES": {
+        "href": "https://registry.khronos.org/webgl/extensions/OES_sample_variables/",
+        "title": "WebGL OES_sample_variables Extension Specification",
+        "status": "Editor's Draft",
+        "publisher": "Khronos Group",
+        "deliveredBy": [
+            "https://www.khronos.org/webgl/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/KhronosGroup/WebGL"
+    },
+    "OES_SHADER_MULTISAMPLE_INTERPOLATION": {
+        "href": "https://registry.khronos.org/webgl/extensions/OES_shader_multisample_interpolation/",
+        "title": "WebGL OES_shader_multisample_interpolation Extension Specification",
         "status": "Editor's Draft",
         "publisher": "Khronos Group",
         "deliveredBy": [
@@ -3206,6 +3305,17 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/KhronosGroup/WebGL"
     },
+    "WEBGL_BLEND_FUNC_EXTENDED": {
+        "href": "https://registry.khronos.org/webgl/extensions/WEBGL_blend_func_extended/",
+        "title": "WebGL WEBGL_blend_func_extended Extension Specification",
+        "status": "Editor's Draft",
+        "publisher": "Khronos Group",
+        "deliveredBy": [
+            "https://www.khronos.org/webgl/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/KhronosGroup/WebGL"
+    },
     "WEBGL_CLIP_CULL_DISTANCE": {
         "href": "https://registry.khronos.org/webgl/extensions/WEBGL_clip_cull_distance/",
         "title": "WebGL WEBGL_clip_cull_distance Extension Specification",
@@ -3382,9 +3492,53 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/KhronosGroup/WebGL"
     },
+    "WEBGL_POLYGON_MODE": {
+        "href": "https://registry.khronos.org/webgl/extensions/WEBGL_polygon_mode/",
+        "title": "WebGL WEBGL_polygon_mode Extension Specification",
+        "status": "Editor's Draft",
+        "publisher": "Khronos Group",
+        "deliveredBy": [
+            "https://www.khronos.org/webgl/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/KhronosGroup/WebGL"
+    },
     "WEBGL_PROVOKING_VERTEX": {
         "href": "https://registry.khronos.org/webgl/extensions/WEBGL_provoking_vertex/",
         "title": "WebGL WEBGL_provoking_vertex Extension Specification",
+        "status": "Editor's Draft",
+        "publisher": "Khronos Group",
+        "deliveredBy": [
+            "https://www.khronos.org/webgl/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/KhronosGroup/WebGL"
+    },
+    "WEBGL_RENDER_SHARED_EXPONENT": {
+        "href": "https://registry.khronos.org/webgl/extensions/WEBGL_render_shared_exponent/",
+        "title": "WebGL WEBGL_render_shared_exponent Extension Specification",
+        "status": "Editor's Draft",
+        "publisher": "Khronos Group",
+        "deliveredBy": [
+            "https://www.khronos.org/webgl/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/KhronosGroup/WebGL"
+    },
+    "WEBGL_SHADER_PIXEL_LOCAL_STORAGE": {
+        "href": "https://registry.khronos.org/webgl/extensions/WEBGL_shader_pixel_local_storage/",
+        "title": "WebGL WEBGL_shader_pixel_local_storage Extension Draft Specification",
+        "status": "Editor's Draft",
+        "publisher": "Khronos Group",
+        "deliveredBy": [
+            "https://www.khronos.org/webgl/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/KhronosGroup/WebGL"
+    },
+    "WEBGL_STENCIL_TEXTURING": {
+        "href": "https://registry.khronos.org/webgl/extensions/WEBGL_stencil_texturing/",
+        "title": "WebGL WEBGL_stencil_texturing Extension Specification",
         "status": "Editor's Draft",
         "publisher": "Khronos Group",
         "deliveredBy": [
