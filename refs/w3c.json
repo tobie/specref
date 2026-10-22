@@ -84374,7 +84374,7 @@
         "repository": "https://github.com/w3c/epub-specs"
     },
     "epub-34": {
-        "rawDate": "2026-10-21",
+        "rawDate": "2026-10-22",
         "href": "https://www.w3.org/TR/epub-34/",
         "title": "EPUB 3.4",
         "edDraft": "https://w3c.github.io/epub-specs/epub34/authoring/",
@@ -167001,7 +167001,7 @@
         ],
         "href": "https://www.w3.org/TR/rdf12-schema/",
         "title": "RDF 1.2 Schema",
-        "rawDate": "2026-10-10",
+        "rawDate": "2026-10-22",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/rdf-schema/spec/",
@@ -188615,7 +188615,7 @@
         "repository": "https://github.com/w3c-social/social-web-protocols"
     },
     "societal-impact-questionnaire": {
-        "rawDate": "2026-10-21",
+        "rawDate": "2026-10-22",
         "href": "https://www.w3.org/TR/societal-impact-questionnaire/",
         "title": "Self-Review Questionnaire: Societal Impact",
         "edDraft": "https://w3ctag.github.io/societal-impact-questionnaire/",
@@ -188741,6 +188741,21 @@
                     "https://www.w3.org/2001/tag/"
                 ],
                 "source": "https://api.w3.org/specifications/societal-impact-questionnaire/versions/20261021"
+            },
+            "20261022": {
+                "authors": [
+                    "Sarven Capadisli",
+                    "Lola Odelola"
+                ],
+                "href": "https://www.w3.org/TR/2026/NOTE-societal-impact-questionnaire-20261022/",
+                "title": "Self-Review Questionnaire: Societal Impact",
+                "rawDate": "2026-10-22",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2001/tag/"
+                ],
+                "source": "https://api.w3.org/specifications/societal-impact-questionnaire/versions/20261022"
             }
         },
         "status": "NOTE",
@@ -203478,6 +203493,265 @@
             }
         }
     },
+    "user-agents": {
+        "rawDate": "2026-10-22",
+        "href": "https://www.w3.org/TR/user-agents/",
+        "title": "User Agents",
+        "edDraft": "https://w3ctag.github.io/user-agents",
+        "publisher": "W3C",
+        "source": "https://api.w3.org/specifications/user-agents",
+        "versions": {
+            "20251127": {
+                "authors": [
+                    "Sarven Capadisli",
+                    "Jeffrey Yasskin"
+                ],
+                "href": "https://www.w3.org/TR/2025/DNOTE-web-user-agents-20251127/",
+                "title": "Web User Agents",
+                "rawDate": "2025-11-27",
+                "status": "DNOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2001/tag/"
+                ],
+                "source": "https://api.w3.org/specifications/user-agents/versions/20251127"
+            },
+            "20260113": {
+                "authors": [
+                    "Jeffrey Yasskin",
+                    "Sarven Capadisli"
+                ],
+                "href": "https://www.w3.org/TR/2026/DNOTE-web-user-agents-20260113/",
+                "title": "Web User Agents",
+                "rawDate": "2026-01-13",
+                "status": "DNOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2001/tag/"
+                ],
+                "source": "https://api.w3.org/specifications/user-agents/versions/20260113"
+            },
+            "20260120": {
+                "authors": [
+                    "Jeffrey Yasskin",
+                    "Sarven Capadisli"
+                ],
+                "href": "https://www.w3.org/TR/2026/DNOTE-web-user-agents-20260120/",
+                "title": "Web User Agents",
+                "rawDate": "2026-01-20",
+                "status": "DNOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2001/tag/"
+                ],
+                "source": "https://api.w3.org/specifications/user-agents/versions/20260120"
+            },
+            "20260318": {
+                "authors": [
+                    "Jeffrey Yasskin",
+                    "Sarven Capadisli"
+                ],
+                "href": "https://www.w3.org/TR/2026/DNOTE-web-user-agents-20260318/",
+                "title": "Web User Agents",
+                "rawDate": "2026-03-18",
+                "status": "DNOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2001/tag/"
+                ],
+                "source": "https://api.w3.org/specifications/web-user-agents/versions/20260318"
+            },
+            "20260319": {
+                "authors": [
+                    "Jeffrey Yasskin",
+                    "Sarven Capadisli"
+                ],
+                "href": "https://www.w3.org/TR/2026/DNOTE-web-user-agents-20260319/",
+                "title": "Web User Agents",
+                "rawDate": "2026-03-19",
+                "status": "DNOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2001/tag/"
+                ],
+                "source": "https://api.w3.org/specifications/user-agents/versions/20260319"
+            },
+            "20260708": {
+                "authors": [
+                    "Jeffrey Yasskin",
+                    "Sarven Capadisli"
+                ],
+                "href": "https://www.w3.org/TR/2026/DNOTE-web-user-agents-20260708/",
+                "title": "Web User Agents",
+                "rawDate": "2026-07-08",
+                "status": "DNOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2001/tag/"
+                ],
+                "source": "https://api.w3.org/specifications/user-agents/versions/20260708"
+            },
+            "20260715": {
+                "authors": [
+                    "Jeffrey Yasskin",
+                    "Sarven Capadisli"
+                ],
+                "href": "https://www.w3.org/TR/2026/DNOTE-web-user-agents-20260715/",
+                "title": "Web User Agents",
+                "rawDate": "2026-07-15",
+                "status": "DNOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2001/tag/"
+                ],
+                "source": "https://api.w3.org/specifications/user-agents/versions/20260715"
+            },
+            "20260718": {
+                "authors": [
+                    "Jeffrey Yasskin",
+                    "Sarven Capadisli"
+                ],
+                "href": "https://www.w3.org/TR/2026/DNOTE-web-user-agents-20260718/",
+                "title": "Web User Agents",
+                "rawDate": "2026-07-18",
+                "status": "DNOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2001/tag/"
+                ],
+                "source": "https://api.w3.org/specifications/user-agents/versions/20260718"
+            },
+            "20260720": {
+                "authors": [
+                    "Jeffrey Yasskin",
+                    "Sarven Capadisli"
+                ],
+                "href": "https://www.w3.org/TR/2026/DNOTE-web-user-agents-20260720/",
+                "title": "Web User Agents",
+                "rawDate": "2026-07-20",
+                "status": "DNOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2001/tag/"
+                ],
+                "source": "https://api.w3.org/specifications/user-agents/versions/20260720"
+            },
+            "20260724": {
+                "authors": [
+                    "Jeffrey Yasskin",
+                    "Sarven Capadisli"
+                ],
+                "href": "https://www.w3.org/TR/2026/DNOTE-web-user-agents-20260724/",
+                "title": "Web User Agents",
+                "rawDate": "2026-07-24",
+                "status": "DNOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2001/tag/"
+                ],
+                "source": "https://api.w3.org/specifications/user-agents/versions/20260724"
+            },
+            "20260824": {
+                "authors": [
+                    "Jeffrey Yasskin",
+                    "Sarven Capadisli"
+                ],
+                "href": "https://www.w3.org/TR/2026/DNOTE-web-user-agents-20260824/",
+                "title": "Web User Agents",
+                "rawDate": "2026-08-24",
+                "status": "DNOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2001/tag/"
+                ],
+                "source": "https://api.w3.org/specifications/user-agents/versions/20260824"
+            },
+            "20260901": {
+                "authors": [
+                    "Jeffrey Yasskin",
+                    "Sarven Capadisli"
+                ],
+                "href": "https://www.w3.org/TR/2026/DNOTE-web-user-agents-20260901/",
+                "title": "Web User Agents",
+                "rawDate": "2026-09-01",
+                "status": "DNOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2001/tag/"
+                ],
+                "source": "https://api.w3.org/specifications/user-agents/versions/20260901"
+            },
+            "20260907": {
+                "authors": [
+                    "Jeffrey Yasskin",
+                    "Sarven Capadisli"
+                ],
+                "href": "https://www.w3.org/TR/2026/DNOTE-web-user-agents-20260907/",
+                "title": "Web User Agents",
+                "rawDate": "2026-09-07",
+                "status": "DNOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2001/tag/"
+                ],
+                "source": "https://api.w3.org/specifications/user-agents/versions/20260907"
+            },
+            "20260908": {
+                "authors": [
+                    "Jeffrey Yasskin",
+                    "Sarven Capadisli"
+                ],
+                "href": "https://www.w3.org/TR/2026/DNOTE-web-user-agents-20260908/",
+                "title": "Web User Agents",
+                "rawDate": "2026-09-08",
+                "status": "DNOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2001/tag/"
+                ],
+                "source": "https://api.w3.org/specifications/user-agents/versions/20260908"
+            },
+            "20260923": {
+                "authors": [
+                    "Jeffrey Yasskin",
+                    "Sarven Capadisli"
+                ],
+                "href": "https://www.w3.org/TR/2026/DNOTE-web-user-agents-20260923/",
+                "title": "Web User Agents",
+                "rawDate": "2026-09-23",
+                "status": "DNOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2001/tag/"
+                ],
+                "source": "https://api.w3.org/specifications/user-agents/versions/20260923"
+            },
+            "20261022": {
+                "authors": [
+                    "Sarven Capadisli",
+                    "Jeffrey Yasskin"
+                ],
+                "href": "https://www.w3.org/TR/2026/NOTE-user-agents-20261022/",
+                "title": "User Agents",
+                "rawDate": "2026-10-22",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2001/tag/"
+                ],
+                "source": "https://api.w3.org/specifications/user-agents/versions/20261022"
+            }
+        },
+        "status": "NOTE",
+        "authors": [
+            "Sarven Capadisli",
+            "Jeffrey Yasskin"
+        ],
+        "deliveredBy": [
+            "https://www.w3.org/2001/tag/"
+        ],
+        "repository": "https://github.com/w3ctag/user-agents"
+    },
     "user-timing": {
         "rawDate": "2026-03-11",
         "href": "https://www.w3.org/TR/user-timing/",
@@ -205339,7 +205613,7 @@
         "repository": "https://github.com/w3c/vc-bitstring-status-list"
     },
     "vc-confidence-method": {
-        "rawDate": "2026-09-10",
+        "rawDate": "2026-10-22",
         "href": "https://www.w3.org/TR/vc-confidence-method/",
         "title": "Verifiable Credential Confidence Methods v1.0",
         "edDraft": "https://w3c.github.io/vc-confidence-method/",
@@ -229453,250 +229727,6 @@
     },
     "web-user-agents": {
         "aliasOf": "user-agents"
-    },
-    "user-agents": {
-        "rawDate": "2026-10-08",
-        "href": "https://www.w3.org/TR/web-user-agents/",
-        "title": "Web User Agents",
-        "edDraft": "https://w3ctag.github.io/user-agents",
-        "publisher": "W3C",
-        "source": "https://api.w3.org/specifications/web-user-agents",
-        "versions": {
-            "20251127": {
-                "authors": [
-                    "Sarven Capadisli",
-                    "Jeffrey Yasskin"
-                ],
-                "href": "https://www.w3.org/TR/2025/DNOTE-web-user-agents-20251127/",
-                "title": "Web User Agents",
-                "rawDate": "2025-11-27",
-                "status": "DNOTE",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/2001/tag/"
-                ],
-                "source": "https://api.w3.org/specifications/web-user-agents/versions/20251127"
-            },
-            "20260113": {
-                "authors": [
-                    "Jeffrey Yasskin",
-                    "Sarven Capadisli"
-                ],
-                "href": "https://www.w3.org/TR/2026/DNOTE-web-user-agents-20260113/",
-                "title": "Web User Agents",
-                "rawDate": "2026-01-13",
-                "status": "DNOTE",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/2001/tag/"
-                ],
-                "source": "https://api.w3.org/specifications/web-user-agents/versions/20260113"
-            },
-            "20260120": {
-                "authors": [
-                    "Jeffrey Yasskin",
-                    "Sarven Capadisli"
-                ],
-                "href": "https://www.w3.org/TR/2026/DNOTE-web-user-agents-20260120/",
-                "title": "Web User Agents",
-                "rawDate": "2026-01-20",
-                "status": "DNOTE",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/2001/tag/"
-                ],
-                "source": "https://api.w3.org/specifications/web-user-agents/versions/20260120"
-            },
-            "20260318": {
-                "authors": [
-                    "Jeffrey Yasskin",
-                    "Sarven Capadisli"
-                ],
-                "href": "https://www.w3.org/TR/2026/DNOTE-web-user-agents-20260318/",
-                "title": "Web User Agents",
-                "rawDate": "2026-03-18",
-                "status": "DNOTE",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/2001/tag/"
-                ],
-                "source": "https://api.w3.org/specifications/web-user-agents/versions/20260318"
-            },
-            "20260319": {
-                "authors": [
-                    "Jeffrey Yasskin",
-                    "Sarven Capadisli"
-                ],
-                "href": "https://www.w3.org/TR/2026/DNOTE-web-user-agents-20260319/",
-                "title": "Web User Agents",
-                "rawDate": "2026-03-19",
-                "status": "DNOTE",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/2001/tag/"
-                ],
-                "source": "https://api.w3.org/specifications/web-user-agents/versions/20260319"
-            },
-            "20260708": {
-                "authors": [
-                    "Jeffrey Yasskin",
-                    "Sarven Capadisli"
-                ],
-                "href": "https://www.w3.org/TR/2026/DNOTE-web-user-agents-20260708/",
-                "title": "Web User Agents",
-                "rawDate": "2026-07-08",
-                "status": "DNOTE",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/2001/tag/"
-                ],
-                "source": "https://api.w3.org/specifications/web-user-agents/versions/20260708"
-            },
-            "20260715": {
-                "authors": [
-                    "Jeffrey Yasskin",
-                    "Sarven Capadisli"
-                ],
-                "href": "https://www.w3.org/TR/2026/DNOTE-web-user-agents-20260715/",
-                "title": "Web User Agents",
-                "rawDate": "2026-07-15",
-                "status": "DNOTE",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/2001/tag/"
-                ],
-                "source": "https://api.w3.org/specifications/web-user-agents/versions/20260715"
-            },
-            "20260718": {
-                "authors": [
-                    "Jeffrey Yasskin",
-                    "Sarven Capadisli"
-                ],
-                "href": "https://www.w3.org/TR/2026/DNOTE-web-user-agents-20260718/",
-                "title": "Web User Agents",
-                "rawDate": "2026-07-18",
-                "status": "DNOTE",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/2001/tag/"
-                ],
-                "source": "https://api.w3.org/specifications/web-user-agents/versions/20260718"
-            },
-            "20260720": {
-                "authors": [
-                    "Jeffrey Yasskin",
-                    "Sarven Capadisli"
-                ],
-                "href": "https://www.w3.org/TR/2026/DNOTE-web-user-agents-20260720/",
-                "title": "Web User Agents",
-                "rawDate": "2026-07-20",
-                "status": "DNOTE",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/2001/tag/"
-                ],
-                "source": "https://api.w3.org/specifications/web-user-agents/versions/20260720"
-            },
-            "20260724": {
-                "authors": [
-                    "Jeffrey Yasskin",
-                    "Sarven Capadisli"
-                ],
-                "href": "https://www.w3.org/TR/2026/DNOTE-web-user-agents-20260724/",
-                "title": "Web User Agents",
-                "rawDate": "2026-07-24",
-                "status": "DNOTE",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/2001/tag/"
-                ],
-                "source": "https://api.w3.org/specifications/web-user-agents/versions/20260724"
-            },
-            "20260824": {
-                "authors": [
-                    "Jeffrey Yasskin",
-                    "Sarven Capadisli"
-                ],
-                "href": "https://www.w3.org/TR/2026/DNOTE-web-user-agents-20260824/",
-                "title": "Web User Agents",
-                "rawDate": "2026-08-24",
-                "status": "DNOTE",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/2001/tag/"
-                ],
-                "source": "https://api.w3.org/specifications/web-user-agents/versions/20260824"
-            },
-            "20260901": {
-                "authors": [
-                    "Jeffrey Yasskin",
-                    "Sarven Capadisli"
-                ],
-                "href": "https://www.w3.org/TR/2026/DNOTE-web-user-agents-20260901/",
-                "title": "Web User Agents",
-                "rawDate": "2026-09-01",
-                "status": "DNOTE",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/2001/tag/"
-                ],
-                "source": "https://api.w3.org/specifications/web-user-agents/versions/20260901"
-            },
-            "20260907": {
-                "authors": [
-                    "Jeffrey Yasskin",
-                    "Sarven Capadisli"
-                ],
-                "href": "https://www.w3.org/TR/2026/DNOTE-web-user-agents-20260907/",
-                "title": "Web User Agents",
-                "rawDate": "2026-09-07",
-                "status": "DNOTE",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/2001/tag/"
-                ],
-                "source": "https://api.w3.org/specifications/web-user-agents/versions/20260907"
-            },
-            "20260908": {
-                "authors": [
-                    "Jeffrey Yasskin",
-                    "Sarven Capadisli"
-                ],
-                "href": "https://www.w3.org/TR/2026/DNOTE-web-user-agents-20260908/",
-                "title": "Web User Agents",
-                "rawDate": "2026-09-08",
-                "status": "DNOTE",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/2001/tag/"
-                ],
-                "source": "https://api.w3.org/specifications/web-user-agents/versions/20260908"
-            },
-            "20260923": {
-                "authors": [
-                    "Jeffrey Yasskin",
-                    "Sarven Capadisli"
-                ],
-                "href": "https://www.w3.org/TR/2026/DNOTE-web-user-agents-20260923/",
-                "title": "Web User Agents",
-                "rawDate": "2026-09-23",
-                "status": "DNOTE",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/2001/tag/"
-                ],
-                "source": "https://api.w3.org/specifications/web-user-agents/versions/20260923"
-            }
-        },
-        "status": "DNOTE",
-        "authors": [
-            "Jeffrey Yasskin",
-            "Sarven Capadisli"
-        ],
-        "deliveredBy": [
-            "https://www.w3.org/2001/tag/"
-        ],
-        "repository": "https://github.com/w3ctag/user-agents"
     },
     "webarch": {
         "authors": [
