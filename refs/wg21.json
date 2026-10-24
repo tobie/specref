@@ -103667,7 +103667,7 @@
     "EDIT9362": {
         "title": "tag_of_t is not in the library index",
         "href": "https://wg21.link/edit9362",
-        "status": "open",
+        "status": "closed",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -103681,6 +103681,41 @@
     "EDIT9364": {
         "title": "[exec.snd.concepts] Index `tag_of_t`",
         "href": "https://wg21.link/edit9364",
+        "status": "closed",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "EDIT9365": {
+        "title": "[intro.object] Example in paragraph 12 contradicts [obj.lifetime] and [dcl.init.general]",
+        "href": "https://wg21.link/edit9365",
+        "status": "open",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "EDIT9366": {
+        "title": "[set.symmetric.difference] Returns refers to an undefined quantity K",
+        "href": "https://wg21.link/edit9366",
+        "status": "open",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "EDIT9367": {
+        "title": "[set.symmetric.difference] Fix misapplication of P3923R0 (US 164-263)",
+        "href": "https://wg21.link/edit9367",
+        "status": "open",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "EDIT9368": {
+        "title": "[temp.constr.order] Subsumption is a preorder, not a partial ordering",
+        "href": "https://wg21.link/edit9368",
+        "status": "open",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "EDIT9369": {
+        "title": "[dcl.pre] Object declaration or variable declaration?",
+        "href": "https://wg21.link/edit9369",
         "status": "open",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
@@ -187894,6 +187929,16 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "N5061": {
+        "title": "2026-11 Pre-Buzios WG21 admin telecon",
+        "href": "https://wg21.link/n5061",
+        "authors": [
+            "Guy Davidson"
+        ],
+        "rawDate": "2026-10-01",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "P0001R0": {
         "title": "Removing Deprecated Register Keyword",
         "href": "https://wg21.link/p0001r0",
@@ -190180,6 +190225,16 @@
             "Axel Naumann, Jolly Chen, Michael Jonker"
         ],
         "rawDate": "2025-07-01",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0085R4": {
+        "title": "Oo... adding a coherent character sequence to begin octal-literals",
+        "href": "https://wg21.link/p0085r4",
+        "authors": [
+            "Jolly Chen, Axel Naumann, Michael Jonker"
+        ],
+        "rawDate": "2026-10-13",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -193740,6 +193795,16 @@
             "Detlef Vollmann, Lawrence Crowl, Chris Mysen, Gor Nishanov"
         ],
         "rawDate": "2026-08-18",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P0260R22": {
+        "title": "C++ Concurrent Queues",
+        "href": "https://wg21.link/p0260r22",
+        "authors": [
+            "Detlef Vollmann, Lawrence Crowl, Chris Mysen, Gor Nishanov"
+        ],
+        "rawDate": "2026-10-23",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -207274,6 +207339,16 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "P0917R4": {
+        "title": "Making operator?: overloadable",
+        "href": "https://wg21.link/p0917r4",
+        "authors": [
+            "Matthias Kretz"
+        ],
+        "rawDate": "2026-10-23",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "P0918R0": {
         "title": "More simd<> Operations",
         "href": "https://wg21.link/p0918r0",
@@ -213503,6 +213578,16 @@
             "James Touton"
         ],
         "rawDate": "2019-10-06",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P1219R3": {
+        "title": "Homogeneous variadic function parameters",
+        "href": "https://wg21.link/p1219r3",
+        "authors": [
+            "Ian Pike, Eczbek, Jan Schultke, James Touton"
+        ],
+        "rawDate": "2026-10-23",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -225395,6 +225480,16 @@
             "Ryan McDougall, Patrick McMichael"
         ],
         "rawDate": "2020-04-16",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P2034R10": {
+        "title": "Partially Mutable Lambda Captures",
+        "href": "https://wg21.link/p2034r10",
+        "authors": [
+            "Ryan McDougall, Lakshay Garg"
+        ],
+        "rawDate": "2026-10-08",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -237968,6 +238063,16 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "P2689R4": {
+        "title": "Atomic Refs Bound to Memory Orderings & Atomic Accessors",
+        "href": "https://wg21.link/p2689r4",
+        "authors": [
+            "Christian Trott, Mark Hoemmen, Damien Lebrun-Grandie, Dan Sunderland, Nevin Liber"
+        ],
+        "rawDate": "2026-10-13",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "P2690R0": {
         "title": "C++17 parallel algorithms and P2300",
         "href": "https://wg21.link/p2690r0",
@@ -238675,6 +238780,16 @@
             "Eddie Nolan"
         ],
         "rawDate": "2026-09-22",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P2728R16": {
+        "title": "Unicode in the Library, Part 1: UTF Transcoding",
+        "href": "https://wg21.link/p2728r16",
+        "authors": [
+            "Eddie Nolan"
+        ],
+        "rawDate": "2026-10-23",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -243708,6 +243823,16 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "P2952R4": {
+        "title": "Deduced return types for defaulted operator functions",
+        "href": "https://wg21.link/p2952r4",
+        "authors": [
+            "Arthur O'Dwyer, Matthew Taylor"
+        ],
+        "rawDate": "2026-10-09",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "P2953R0": {
         "title": "Forbid defaulting operator=(X&&) &&",
         "href": "https://wg21.link/p2953r0",
@@ -244128,6 +244253,16 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "P2970R1": {
+        "title": "Partial application of concepts in template arguments",
+        "href": "https://wg21.link/p2970r1",
+        "authors": [
+            "Corentin Jabot"
+        ],
+        "rawDate": "2026-10-23",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "P2971R0": {
         "title": "Implication for C++",
         "href": "https://wg21.link/p2971r0",
@@ -244515,6 +244650,16 @@
             "Corentin Jabot, Gašper Ažman"
         ],
         "rawDate": "2024-06-16",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P2989R3": {
+        "title": "A Simple Approach to Universal Template Parameters",
+        "href": "https://wg21.link/p2989r3",
+        "authors": [
+            "Corentin Jabot, Gašper Ažman"
+        ],
+        "rawDate": "2026-10-23",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -245645,6 +245790,16 @@
             "Mateusz Pusz, Dominik Berner, Johel Ernesto Guerrero Peña, Charles Hogg, Nicolas Holthaus, Roth Michaels, Vincent Reverdy"
         ],
         "rawDate": "2024-05-22",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P3045R10": {
+        "title": "Quantities and units library",
+        "href": "https://wg21.link/p3045r10",
+        "authors": [
+            "Mateusz Pusz, Dominik Berner, Johel Ernesto Guerrero Peña, Charles Hogg, Nicolas Holthaus, Roth Michaels, Vincent Reverdy"
+        ],
+        "rawDate": "2026-10-23",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -247055,6 +247210,16 @@
             "Timur Doumler, Joshua Berne"
         ],
         "rawDate": "2026-08-14",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P3100R9": {
+        "title": "A framework for systematically addressing undefined behaviour in the C++ Standard",
+        "href": "https://wg21.link/p3100r9",
+        "authors": [
+            "Timur Doumler, Joshua Berne"
+        ],
+        "rawDate": "2026-10-23",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -252914,6 +253079,16 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "P3400R5": {
+        "title": "Controlling Contract-Assertion Properties",
+        "href": "https://wg21.link/p3400r5",
+        "authors": [
+            "Joshua Berne"
+        ],
+        "rawDate": "2026-10-23",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "P3401R0": {
         "title": "Enrich Creation Functions for the Pointer-Semantics-Based Polymorphism Library - Proxy",
         "href": "https://wg21.link/p3401r0",
@@ -253161,6 +253336,16 @@
             "Bengt Gustafsson, Victor Zverovich"
         ],
         "rawDate": "2025-12-14",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P3412R4": {
+        "title": "String Interpolation",
+        "href": "https://wg21.link/p3412r4",
+        "authors": [
+            "Bengt Gustafsson, Victor Zverovich"
+        ],
+        "rawDate": "2026-10-23",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -253731,6 +253916,16 @@
             "Daniel Towner"
         ],
         "rawDate": "2026-03-23",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P3440R4": {
+        "title": "Add mask_from_count function to std::simd",
+        "href": "https://wg21.link/p3440r4",
+        "authors": [
+            "Daniel Towner"
+        ],
+        "rawDate": "2026-10-14",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -255174,6 +255369,16 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "P3549R1": {
+        "title": "Diverging expressions",
+        "href": "https://wg21.link/p3549r1",
+        "authors": [
+            "Barry Revzin, Michael Park, Zach Laine, Bruno Cardoso Lopes"
+        ],
+        "rawDate": "2026-10-18",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "P3550R0": {
         "title": "Imports cannot ...",
         "href": "https://wg21.link/p3550r0",
@@ -255511,6 +255716,16 @@
             "Jan Schultke"
         ],
         "rawDate": "2026-05-10",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P3568R3": {
+        "title": "break label; and continue label;",
+        "href": "https://wg21.link/p3568r3",
+        "authors": [
+            "Jan Schultke"
+        ],
+        "rawDate": "2026-10-11",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -256424,6 +256639,26 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "P3643R4": {
+        "title": "std::to_signed and std::to_unsigned",
+        "href": "https://wg21.link/p3643r4",
+        "authors": [
+            "Jan Schultke"
+        ],
+        "rawDate": "2026-10-10",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P3643R5": {
+        "title": "std::to_signed and std::to_unsigned",
+        "href": "https://wg21.link/p3643r5",
+        "authors": [
+            "Jan Schultke"
+        ],
+        "rawDate": "2026-10-14",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "P3647R0": {
         "title": "Slides for P3642R1",
         "href": "https://wg21.link/p3647r0",
@@ -256561,6 +256796,16 @@
             "Peter Bindels, Hana Dusikova, Jeremy Rifkin, Marco Foco, Alexey Shevlyakov"
         ],
         "rawDate": "2026-06-08",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P3655R6": {
+        "title": "cstring_view",
+        "href": "https://wg21.link/p3655r6",
+        "authors": [
+            "Peter Bindels, Hana Dusikova, Jeremy Rifkin, Marco Foco, Alexey Shevlyakov, Thomas Köppe, Xavier Bonaventura"
+        ],
+        "rawDate": "2026-10-18",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -256771,6 +257016,16 @@
             "Jan Schultke"
         ],
         "rawDate": "2026-05-12",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P3666R5": {
+        "title": "Bit-precise integers",
+        "href": "https://wg21.link/p3666r5",
+        "authors": [
+            "Jan Schultke"
+        ],
+        "rawDate": "2026-10-18",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -257451,6 +257706,16 @@
             "Bjarne Stroustrup"
         ],
         "rawDate": "2025-05-19",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P3704R1": {
+        "title": "What are profiles?",
+        "href": "https://wg21.link/p3704r1",
+        "authors": [
+            "Bjarne Stroustrup"
+        ],
+        "rawDate": "2026-10-23",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -258151,6 +258416,16 @@
             "Thomas Mejstrik"
         ],
         "rawDate": "2025-06-17",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P3747R1": {
+        "title": "Deducing target types for function templates",
+        "href": "https://wg21.link/p3747r1",
+        "authors": [
+            "Thomas Mejstrik"
+        ],
+        "rawDate": "2026-09-23",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -258974,6 +259249,16 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "P3816R4": {
+        "title": "Hashing meta::info",
+        "href": "https://wg21.link/p3816r4",
+        "authors": [
+            "Matt Cummins, Valentyn Yukhymenko"
+        ],
+        "rawDate": "2026-10-23",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "P3817R0": {
         "title": "Structured Binding Assignments",
         "href": "https://wg21.link/p3817r0",
@@ -258981,6 +259266,16 @@
             "Yehonatan Simian yonisimian@gmail.com, Ran Regev regev.ran@gmail.com"
         ],
         "rawDate": "2026-07-28",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P3817R1": {
+        "title": "Structured Binding Assignments",
+        "href": "https://wg21.link/p3817r1",
+        "authors": [
+            "Yehonatan Simian yonisimian@gmail.com, Ran Regev regev.ran@gmail.com"
+        ],
+        "rawDate": "2026-10-18",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -259644,6 +259939,36 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "P3852R2": {
+        "title": "constexpr `is_pointer_within` memory area",
+        "href": "https://wg21.link/p3852r2",
+        "authors": [
+            "Hana Dusíková"
+        ],
+        "rawDate": "2026-10-06",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P3852R3": {
+        "title": "constexpr `is_pointer_within` memory area",
+        "href": "https://wg21.link/p3852r3",
+        "authors": [
+            "Hana Dusíková"
+        ],
+        "rawDate": "2026-10-09",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P3852R4": {
+        "title": "constexpr `is_pointer_within` memory area",
+        "href": "https://wg21.link/p3852r4",
+        "authors": [
+            "Hana Dusíková"
+        ],
+        "rawDate": "2026-10-23",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "P3853R0": {
         "title": "A thesis+antithesis=synthesis rumination on Contracts",
         "href": "https://wg21.link/p3853r0",
@@ -259921,6 +260246,16 @@
             "Corentin Jabot"
         ],
         "rawDate": "2025-10-06",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P3867R1": {
+        "title": "define_static_string as a STATICALLY_WIDEN replacement",
+        "href": "https://wg21.link/p3867r1",
+        "authors": [
+            "Corentin Jabot"
+        ],
+        "rawDate": "2026-10-01",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -260774,6 +261109,16 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "P3935R3": {
+        "title": "Rebasing <cmath> on C23",
+        "href": "https://wg21.link/p3935r3",
+        "authors": [
+            "Jan Schultke"
+        ],
+        "rawDate": "2026-10-10",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "P3936R0": {
         "title": "Safer atomic_ref::address (FR-030-310)",
         "href": "https://wg21.link/p3936r0",
@@ -260821,6 +261166,16 @@
             "Jan Schultke"
         ],
         "rawDate": "2026-02-20",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P3938R2": {
+        "title": "Values of floating-point types",
+        "href": "https://wg21.link/p3938r2",
+        "authors": [
+            "Jan Schultke"
+        ],
+        "rawDate": "2026-10-11",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -261124,6 +261479,16 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "P3963R1": {
+        "title": "Assignable lambdas with capture",
+        "href": "https://wg21.link/p3963r1",
+        "authors": [
+            "Ruslan Arutyunyan"
+        ],
+        "rawDate": "2026-10-23",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "P3965R0": {
         "title": "2026-01 Library Evolution Polls",
         "href": "https://wg21.link/p3965r0",
@@ -261191,6 +261556,16 @@
             "Jan Schultke"
         ],
         "rawDate": "2026-06-28",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P3969R3": {
+        "title": "Fixing std::bit_cast of types with padding bits",
+        "href": "https://wg21.link/p3969r3",
+        "authors": [
+            "Jan Schultke"
+        ],
+        "rawDate": "2026-10-04",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -263074,6 +263449,16 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "P4185R2": {
+        "title": "Absolute Quantities",
+        "href": "https://wg21.link/p4185r2",
+        "authors": [
+            "Mateusz Pusz"
+        ],
+        "rawDate": "2026-10-23",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "P4186R0": {
         "title": "A Plan For Profiles",
         "href": "https://wg21.link/p4186r0",
@@ -263161,6 +263546,16 @@
             "Vinnie Falco, Mungo Gill"
         ],
         "rawDate": "2026-09-22",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P4195R1": {
+        "title": "WG21 Game Theory: The Culture That Emerges From SD-4",
+        "href": "https://wg21.link/p4195r1",
+        "authors": [
+            "Vinnie Falco, Mungo Gill"
+        ],
+        "rawDate": "2026-10-22",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -263291,6 +263686,16 @@
             "Mateusz Pusz"
         ],
         "rawDate": "2026-05-08",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P4213R1": {
+        "title": "Minimal SI: Defining the International System of Units for the C++ Standard Library",
+        "href": "https://wg21.link/p4213r1",
+        "authors": [
+            "Mateusz Pusz"
+        ],
+        "rawDate": "2026-10-23",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -263434,6 +263839,16 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "P4222R3": {
+        "title": "An initialization profile",
+        "href": "https://wg21.link/p4222r3",
+        "authors": [
+            "Bjarne Stroustrup"
+        ],
+        "rawDate": "2026-10-23",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "P4223R0": {
         "title": "Towards senders in interfaces",
         "href": "https://wg21.link/p4223r0",
@@ -263441,6 +263856,16 @@
             "Ian Petersen"
         ],
         "rawDate": "2026-05-12",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P4223R1": {
+        "title": "Towards senders in interfaces",
+        "href": "https://wg21.link/p4223r1",
+        "authors": [
+            "Ian Petersen"
+        ],
+        "rawDate": "2026-10-23",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -263574,6 +263999,16 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "P4235R1": {
+        "title": "Removing Digraphs",
+        "href": "https://wg21.link/p4235r1",
+        "authors": [
+            "Matthias Wippich"
+        ],
+        "rawDate": "2026-10-23",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "P4238R0": {
         "title": "Returning C++26 for the Evaluation It Skipped",
         "href": "https://wg21.link/p4238r0",
@@ -263601,6 +264036,16 @@
             "Hui Xie, Tristan Melen"
         ],
         "rawDate": "2026-05-23",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P4246R0": {
+        "title": "Transcoding Text Views and Ranges for WhatWG and iconv",
+        "href": "https://wg21.link/p4246r0",
+        "authors": [
+            "Steve Downey"
+        ],
+        "rawDate": "2026-09-23",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -263694,6 +264139,16 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "P4267R1": {
+        "title": "Formatting Enums, Upon Reflection",
+        "href": "https://wg21.link/p4267r1",
+        "authors": [
+            "Victor Zverovich"
+        ],
+        "rawDate": "2026-09-27",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "P4268R0": {
         "title": "Implementation considerations of library constexpr-ification",
         "href": "https://wg21.link/p4268r0",
@@ -263721,6 +264176,16 @@
             "Robert Leahy"
         ],
         "date": "20260830",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P4270R0": {
+        "title": "Free Value Or Else",
+        "href": "https://wg21.link/p4270r0",
+        "authors": [
+            "Steve Downey"
+        ],
+        "rawDate": "2026-10-23",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -263784,6 +264249,16 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "P4277R1": {
+        "title": "Overview and Implementation Report for P3100",
+        "href": "https://wg21.link/p4277r1",
+        "authors": [
+            "Joshua Berne"
+        ],
+        "rawDate": "2026-10-23",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "P4279R0": {
         "title": "No Endian Views",
         "href": "https://wg21.link/p4279r0",
@@ -263791,6 +264266,16 @@
             "Jan Schultke"
         ],
         "rawDate": "2026-07-11",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P4280R0": {
+        "title": "Expected over References",
+        "href": "https://wg21.link/p4280r0",
+        "authors": [
+            "Steve Downey"
+        ],
+        "rawDate": "2026-10-23",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -263824,6 +264309,16 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "P4282R2": {
+        "title": "Away From co_yield For std::execution::task",
+        "href": "https://wg21.link/p4282r2",
+        "authors": [
+            "Robert Leahy"
+        ],
+        "rawDate": "2026-10-17",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "P4283R0": {
         "title": "Requires clauses for Contract Assertions",
         "href": "https://wg21.link/p4283r0",
@@ -263841,6 +264336,16 @@
             "Joshua Berne"
         ],
         "rawDate": "2026-08-13",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P4284R1": {
+        "title": "Addenda to the Undefined Behavior and IFNDR Annexes",
+        "href": "https://wg21.link/p4284r1",
+        "authors": [
+            "Joshua Berne"
+        ],
+        "rawDate": "2026-10-23",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -263924,6 +264429,16 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "P4295R1": {
+        "title": "Single Ends for C++ Concurrent Queues",
+        "href": "https://wg21.link/p4295r1",
+        "authors": [
+            "Detlef Vollmann"
+        ],
+        "rawDate": "2026-10-23",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "P4296R0": {
         "title": "Default-Deny + Provable-Whitelist Invalidation",
         "href": "https://wg21.link/p4296r0",
@@ -263994,6 +264509,16 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "P4302R3": {
+        "title": "Any Delegate May Object to a Poll on an Unmailed Revision",
+        "href": "https://wg21.link/p4302r3",
+        "authors": [
+            "Vinnie Falco, Mungo Gill"
+        ],
+        "rawDate": "2026-10-22",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "P4304R0": {
         "title": "Zero-Copy `co_return`",
         "href": "https://wg21.link/p4304r0",
@@ -264041,6 +264566,16 @@
             "Steve Downey"
         ],
         "rawDate": "2026-09-22",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P4307R1": {
+        "title": "An Infix Operator and a Keyword Escape for C++",
+        "href": "https://wg21.link/p4307r1",
+        "authors": [
+            "Steve Downey"
+        ],
+        "rawDate": "2026-10-23",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -264324,6 +264859,16 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "P4336R0": {
+        "title": "2026-09 Library Evolution Poll Outcomes",
+        "href": "https://wg21.link/p4336r0",
+        "authors": [
+            "Inbal Levi, Fabio Fracassi, Andreas Weis, Corentin Jabot"
+        ],
+        "rawDate": "2026-10-17",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "P4337R0": {
         "title": "emplace_from",
         "href": "https://wg21.link/p4337r0",
@@ -264404,6 +264949,16 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "P4345R1": {
+        "title": "Extending C++ with Unicode Mathematical Operators",
+        "href": "https://wg21.link/p4345r1",
+        "authors": [
+            "Steve Downey"
+        ],
+        "rawDate": "2026-10-23",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "P4346R0": {
         "title": "Make `movable-box` `movable_box`",
         "href": "https://wg21.link/p4346r0",
@@ -264411,6 +264966,16 @@
             "Steve Downey"
         ],
         "rawDate": "2026-09-22",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P4346R1": {
+        "title": "std::movable_box: Give Users the Ranges Movable Wrapper",
+        "href": "https://wg21.link/p4346r1",
+        "authors": [
+            "Steve Downey"
+        ],
+        "rawDate": "2026-10-23",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -264484,6 +265049,16 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "P4355R1": {
+        "title": "Floating-point std::saturating_cast",
+        "href": "https://wg21.link/p4355r1",
+        "authors": [
+            "Jan Schultke, Matt Borland"
+        ],
+        "rawDate": "2026-10-08",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "P4357R0": {
         "title": "Reflections on Completion Signatures",
         "href": "https://wg21.link/p4357r0",
@@ -264544,6 +265119,16 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "P4374R1": {
+        "title": "Non-Intrusive Interfaces for C++",
+        "href": "https://wg21.link/p4374r1",
+        "authors": [
+            "Theo Payne"
+        ],
+        "rawDate": "2026-10-22",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "P4376R0": {
         "title": "Do not require module implementation units to import primray module interface implicitly",
         "href": "https://wg21.link/p4376r0",
@@ -264574,6 +265159,16 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "P4380R1": {
+        "title": "Token Sequence Injection",
+        "href": "https://wg21.link/p4380r1",
+        "authors": [
+            "Barry Revzin, Daveed Vandevoorde, Andrei Alexandrescu"
+        ],
+        "rawDate": "2026-10-23",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "P4381R0": {
         "title": "Chairing SG21 and then objecting to Contracts",
         "href": "https://wg21.link/p4381r0",
@@ -264584,6 +265179,326 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "P4382R0": {
+        "title": "Decomposing floating-point numbers",
+        "href": "https://wg21.link/p4382r0",
+        "authors": [
+            "Jan Schultke, Matt Borland"
+        ],
+        "rawDate": "2026-10-10",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P4386R0": {
+        "title": "Slides for SG16 - P4345R0",
+        "href": "https://wg21.link/p4386r0",
+        "authors": [
+            "Steve Downey"
+        ],
+        "rawDate": "2026-09-23",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P4387R0": {
+        "title": "Slides for SG16 - P4345R0",
+        "href": "https://wg21.link/p4387r0",
+        "authors": [
+            "Steve Downey"
+        ],
+        "rawDate": "2026-09-23",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P4388R0": {
+        "title": "Ship C++26",
+        "href": "https://wg21.link/p4388r0",
+        "authors": [
+            "Joshua Berne"
+        ],
+        "rawDate": "2026-09-29",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P4390R0": {
+        "title": "stopped_by",
+        "href": "https://wg21.link/p4390r0",
+        "authors": [
+            "Robert Leahy"
+        ],
+        "rawDate": "2026-10-18",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P4392R0": {
+        "title": "C++ Tourniquet - Stricter Contracts",
+        "href": "https://wg21.link/p4392r0",
+        "authors": [
+            "Jarrad J. Waterloo"
+        ],
+        "rawDate": "2026-10-14",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P4393R0": {
+        "title": "Native handles and standard streams",
+        "href": "https://wg21.link/p4393r0",
+        "authors": [
+            "Jesús Martínez"
+        ],
+        "rawDate": "2026-10-15",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P4394R0": {
+        "title": "started_by",
+        "href": "https://wg21.link/p4394r0",
+        "authors": [
+            "Robert Leahy"
+        ],
+        "rawDate": "2026-10-19",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P4395R0": {
+        "title": "Reflecting Function Bodies: Expression and Statement Introspection",
+        "href": "https://wg21.link/p4395r0",
+        "authors": [
+            "Siqi Yuan, Alex Yesmanchyk, Polina Vyshnevska, Lucas Rey, Thomas Prideaux-Ghee, Philip Craig"
+        ],
+        "rawDate": "2026-10-23",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P4396R0": {
+        "title": "2026-10 Library Evolution Polls",
+        "href": "https://wg21.link/p4396r0",
+        "authors": [
+            "Inbal Levi, Fabio Fracassi, Andreas Weis, Corentin Jabot"
+        ],
+        "rawDate": "2026-10-22",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P4398R0": {
+        "title": "views::trim and views::trim_while",
+        "href": "https://wg21.link/p4398r0",
+        "authors": [
+            "Anish Aggarwal"
+        ],
+        "rawDate": "2026-10-19",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P4401R0": {
+        "title": "UB and profile-defined behavior",
+        "href": "https://wg21.link/p4401r0",
+        "authors": [
+            "Herb Sutter"
+        ],
+        "rawDate": "2026-10-19",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P4403R0": {
+        "title": "Survey of noexcept Policy Papers",
+        "href": "https://wg21.link/p4403r0",
+        "authors": [
+            "Inbal Levi"
+        ],
+        "rawDate": "2026-10-23",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P4404R0": {
+        "title": "Standard Library Versioning",
+        "href": "https://wg21.link/p4404r0",
+        "authors": [
+            "Inbal Levi"
+        ],
+        "rawDate": "2026-10-23",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P4408R0": {
+        "title": "Implicit Conversions Between Integer Representation Types",
+        "href": "https://wg21.link/p4408r0",
+        "authors": [
+            "Mateusz Pusz"
+        ],
+        "rawDate": "2026-10-23",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P4411R0": {
+        "title": "Non-Negative Quantity Specifications",
+        "href": "https://wg21.link/p4411r0",
+        "authors": [
+            "Mateusz Pusz"
+        ],
+        "rawDate": "2026-10-23",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P4412R0": {
+        "title": "Range-Validated Quantity Points",
+        "href": "https://wg21.link/p4412r0",
+        "authors": [
+            "Mateusz Pusz"
+        ],
+        "rawDate": "2026-10-23",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P4414R0": {
+        "title": "Structural classes: a bugfix for reflection",
+        "href": "https://wg21.link/p4414r0",
+        "authors": [
+            "Ville Voutilainen"
+        ],
+        "rawDate": "2026-10-23",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P4415R0": {
+        "title": "Profiles: implementation status and experience",
+        "href": "https://wg21.link/p4415r0",
+        "authors": [
+            "Michael Wong, Krystian Stasiowski ; Ville Voutilainen"
+        ],
+        "rawDate": "2026-10-23",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P4416R0": {
+        "title": "Proposed wording for the initialization profile",
+        "href": "https://wg21.link/p4416r0",
+        "authors": [
+            "Michael Wong, Bjarne Stroustrup"
+        ],
+        "rawDate": "2026-10-23",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P4417R0": {
+        "title": "Proposed wording for the invalidation profile",
+        "href": "https://wg21.link/p4417r0",
+        "authors": [
+            "Michael Wong, Bjarne Stroustrup"
+        ],
+        "rawDate": "2026-10-23",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P4418R0": {
+        "title": "An invalidation Profile",
+        "href": "https://wg21.link/p4418r0",
+        "authors": [
+            "Bjarne Stroustrup"
+        ],
+        "rawDate": "2026-10-23",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P4421R0": {
+        "title": "Numeric Traits for C++29",
+        "href": "https://wg21.link/p4421r0",
+        "authors": [
+            "Damien Lebrun-Grandie, Mark Hoemmen, Jonathan Wakely, Matthias Kretz, Tim Song"
+        ],
+        "rawDate": "2026-10-23",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P4422R0": {
+        "title": "Function Summaries for Scaling Code Analysis of C++",
+        "href": "https://wg21.link/p4422r0",
+        "authors": [
+            "Gabriel Dos Reis"
+        ],
+        "rawDate": "2026-10-23",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P4423R0": {
+        "title": "Strict contracts: conveyor functions and conveyor predicates",
+        "href": "https://wg21.link/p4423r0",
+        "authors": [
+            "Ville Voutilainen"
+        ],
+        "rawDate": "2026-10-23",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P4424R0": {
+        "title": "[[indeterminate]] for non-static data members",
+        "href": "https://wg21.link/p4424r0",
+        "authors": [
+            "Barry Revzin"
+        ],
+        "rawDate": "2026-10-23",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P4425R0": {
+        "title": "Symbolic contracts",
+        "href": "https://wg21.link/p4425r0",
+        "authors": [
+            "Ville Voutilainen"
+        ],
+        "rawDate": "2026-10-23",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P4426R0": {
+        "title": "Contracts for (member) function pointers",
+        "href": "https://wg21.link/p4426r0",
+        "authors": [
+            "Ville Voutilainen"
+        ],
+        "rawDate": "2026-10-23",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P4427R0": {
+        "title": "Configurable contracts for virtual functions",
+        "href": "https://wg21.link/p4427r0",
+        "authors": [
+            "Ville Voutilainen"
+        ],
+        "rawDate": "2026-10-23",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P4428R0": {
+        "title": "Contract concerns and where they are addressed",
+        "href": "https://wg21.link/p4428r0",
+        "authors": [
+            "Ville Voutilainen"
+        ],
+        "rawDate": "2026-10-23",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P4430R0": {
+        "title": "The Importance of the Third Team",
+        "href": "https://wg21.link/p4430r0",
+        "authors": [
+            "David Sankel"
+        ],
+        "rawDate": "2026-10-23",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P4433R0": {
+        "title": "Do not remove Contracts from C++26",
+        "href": "https://wg21.link/p4433r0",
+        "authors": [
+            "Timur Doumler, Joshua Berne, Gašper Ažman, Peter Bindels, Peter Dimov, Eric Fiselier, Fabio Fracassi, Pablo Halpern, Tom Honermann, John Lakos, Nevin Liber, Lisa Lippincott, René Ferdinand Rivera Morell, Oliver Rosten, Jan Schultke, Hui Xie"
+        ],
+        "rawDate": "2026-10-23",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "P4444R0": {
         "title": "std::big_int",
         "href": "https://wg21.link/p4444r0",
@@ -264591,6 +265506,16 @@
             "Jan Schultke, Matt Borland, Christopher Kormanyos"
         ],
         "rawDate": "2026-09-22",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "P4444R1": {
+        "title": "std::big_int",
+        "href": "https://wg21.link/p4444r1",
+        "authors": [
+            "Jan Schultke, Matt Borland, Christopher Kormanyos"
+        ],
+        "rawDate": "2026-10-10",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -264620,7 +265545,7 @@
         "authors": [
             "Nevin Liber"
         ],
-        "rawDate": "2026-09-22",
+        "rawDate": "2026-10-23",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -303792,6 +304717,21 @@
     "WG21-EDIT9364": {
         "aliasOf": "EDIT9364"
     },
+    "WG21-EDIT9365": {
+        "aliasOf": "EDIT9365"
+    },
+    "WG21-EDIT9366": {
+        "aliasOf": "EDIT9366"
+    },
+    "WG21-EDIT9367": {
+        "aliasOf": "EDIT9367"
+    },
+    "WG21-EDIT9368": {
+        "aliasOf": "EDIT9368"
+    },
+    "WG21-EDIT9369": {
+        "aliasOf": "EDIT9369"
+    },
     "WG21-EDIT937": {
         "aliasOf": "EDIT937"
     },
@@ -329697,6 +330637,9 @@
     "WG21-N5060": {
         "aliasOf": "N5060"
     },
+    "WG21-N5061": {
+        "aliasOf": "N5061"
+    },
     "WG21-P0001R0": {
         "aliasOf": "P0001R0"
     },
@@ -330383,6 +331326,9 @@
     },
     "WG21-P0085R3": {
         "aliasOf": "P0085R3"
+    },
+    "WG21-P0085R4": {
+        "aliasOf": "P0085R4"
     },
     "WG21-P0086R0": {
         "aliasOf": "P0086R0"
@@ -331451,6 +332397,9 @@
     },
     "WG21-P0260R21": {
         "aliasOf": "P0260R21"
+    },
+    "WG21-P0260R22": {
+        "aliasOf": "P0260R22"
     },
     "WG21-P0260R3": {
         "aliasOf": "P0260R3"
@@ -335514,6 +336463,9 @@
     "WG21-P0917R3": {
         "aliasOf": "P0917R3"
     },
+    "WG21-P0917R4": {
+        "aliasOf": "P0917R4"
+    },
     "WG21-P0918R0": {
         "aliasOf": "P0918R0"
     },
@@ -337388,6 +338340,9 @@
     },
     "WG21-P1219R2": {
         "aliasOf": "P1219R2"
+    },
+    "WG21-P1219R3": {
+        "aliasOf": "P1219R3"
     },
     "WG21-P1220R0": {
         "aliasOf": "P1220R0"
@@ -340964,6 +341919,9 @@
     },
     "WG21-P2034R1": {
         "aliasOf": "P2034R1"
+    },
+    "WG21-P2034R10": {
+        "aliasOf": "P2034R10"
     },
     "WG21-P2034R2": {
         "aliasOf": "P2034R2"
@@ -344736,6 +345694,9 @@
     "WG21-P2689R3": {
         "aliasOf": "P2689R3"
     },
+    "WG21-P2689R4": {
+        "aliasOf": "P2689R4"
+    },
     "WG21-P2690R0": {
         "aliasOf": "P2690R0"
     },
@@ -344948,6 +345909,9 @@
     },
     "WG21-P2728R15": {
         "aliasOf": "P2728R15"
+    },
+    "WG21-P2728R16": {
+        "aliasOf": "P2728R16"
     },
     "WG21-P2728R2": {
         "aliasOf": "P2728R2"
@@ -346458,6 +347422,9 @@
     "WG21-P2952R3": {
         "aliasOf": "P2952R3"
     },
+    "WG21-P2952R4": {
+        "aliasOf": "P2952R4"
+    },
     "WG21-P2953R0": {
         "aliasOf": "P2953R0"
     },
@@ -346584,6 +347551,9 @@
     "WG21-P2970R0": {
         "aliasOf": "P2970R0"
     },
+    "WG21-P2970R1": {
+        "aliasOf": "P2970R1"
+    },
     "WG21-P2971R0": {
         "aliasOf": "P2971R0"
     },
@@ -346700,6 +347670,9 @@
     },
     "WG21-P2989R2": {
         "aliasOf": "P2989R2"
+    },
+    "WG21-P2989R3": {
+        "aliasOf": "P2989R3"
     },
     "WG21-P2990R0": {
         "aliasOf": "P2990R0"
@@ -347039,6 +348012,9 @@
     },
     "WG21-P3045R1": {
         "aliasOf": "P3045R1"
+    },
+    "WG21-P3045R10": {
+        "aliasOf": "P3045R10"
     },
     "WG21-P3045R2": {
         "aliasOf": "P3045R2"
@@ -347462,6 +348438,9 @@
     },
     "WG21-P3100R8": {
         "aliasOf": "P3100R8"
+    },
+    "WG21-P3100R9": {
+        "aliasOf": "P3100R9"
     },
     "WG21-P3101R0": {
         "aliasOf": "P3101R0"
@@ -349221,6 +350200,9 @@
     "WG21-P3400R4": {
         "aliasOf": "P3400R4"
     },
+    "WG21-P3400R5": {
+        "aliasOf": "P3400R5"
+    },
     "WG21-P3401R0": {
         "aliasOf": "P3401R0"
     },
@@ -349295,6 +350277,9 @@
     },
     "WG21-P3412R3": {
         "aliasOf": "P3412R3"
+    },
+    "WG21-P3412R4": {
+        "aliasOf": "P3412R4"
     },
     "WG21-P3413R0": {
         "aliasOf": "P3413R0"
@@ -349466,6 +350451,9 @@
     },
     "WG21-P3440R3": {
         "aliasOf": "P3440R3"
+    },
+    "WG21-P3440R4": {
+        "aliasOf": "P3440R4"
     },
     "WG21-P3441R0": {
         "aliasOf": "P3441R0"
@@ -349899,6 +350887,9 @@
     "WG21-P3549R0": {
         "aliasOf": "P3549R0"
     },
+    "WG21-P3549R1": {
+        "aliasOf": "P3549R1"
+    },
     "WG21-P3550R0": {
         "aliasOf": "P3550R0"
     },
@@ -350000,6 +350991,9 @@
     },
     "WG21-P3568R2": {
         "aliasOf": "P3568R2"
+    },
+    "WG21-P3568R3": {
+        "aliasOf": "P3568R3"
     },
     "WG21-P3569R0": {
         "aliasOf": "P3569R0"
@@ -350274,6 +351268,12 @@
     "WG21-P3643R3": {
         "aliasOf": "P3643R3"
     },
+    "WG21-P3643R4": {
+        "aliasOf": "P3643R4"
+    },
+    "WG21-P3643R5": {
+        "aliasOf": "P3643R5"
+    },
     "WG21-P3647R0": {
         "aliasOf": "P3647R0"
     },
@@ -350315,6 +351315,9 @@
     },
     "WG21-P3655R5": {
         "aliasOf": "P3655R5"
+    },
+    "WG21-P3655R6": {
+        "aliasOf": "P3655R6"
     },
     "WG21-P3656R0": {
         "aliasOf": "P3656R0"
@@ -350378,6 +351381,9 @@
     },
     "WG21-P3666R4": {
         "aliasOf": "P3666R4"
+    },
+    "WG21-P3666R5": {
+        "aliasOf": "P3666R5"
     },
     "WG21-P3667R0": {
         "aliasOf": "P3667R0"
@@ -350582,6 +351588,9 @@
     },
     "WG21-P3704R0": {
         "aliasOf": "P3704R0"
+    },
+    "WG21-P3704R1": {
+        "aliasOf": "P3704R1"
     },
     "WG21-P3705R0": {
         "aliasOf": "P3705R0"
@@ -350792,6 +351801,9 @@
     },
     "WG21-P3747R0": {
         "aliasOf": "P3747R0"
+    },
+    "WG21-P3747R1": {
+        "aliasOf": "P3747R1"
     },
     "WG21-P3748R0": {
         "aliasOf": "P3748R0"
@@ -351039,8 +352051,14 @@
     "WG21-P3816R3": {
         "aliasOf": "P3816R3"
     },
+    "WG21-P3816R4": {
+        "aliasOf": "P3816R4"
+    },
     "WG21-P3817R0": {
         "aliasOf": "P3817R0"
+    },
+    "WG21-P3817R1": {
+        "aliasOf": "P3817R1"
     },
     "WG21-P3818R0": {
         "aliasOf": "P3818R0"
@@ -351240,6 +352258,15 @@
     "WG21-P3852R1": {
         "aliasOf": "P3852R1"
     },
+    "WG21-P3852R2": {
+        "aliasOf": "P3852R2"
+    },
+    "WG21-P3852R3": {
+        "aliasOf": "P3852R3"
+    },
+    "WG21-P3852R4": {
+        "aliasOf": "P3852R4"
+    },
     "WG21-P3853R0": {
         "aliasOf": "P3853R0"
     },
@@ -351323,6 +352350,9 @@
     },
     "WG21-P3867R0": {
         "aliasOf": "P3867R0"
+    },
+    "WG21-P3867R1": {
+        "aliasOf": "P3867R1"
     },
     "WG21-P3868R0": {
         "aliasOf": "P3868R0"
@@ -351579,6 +352609,9 @@
     "WG21-P3935R2": {
         "aliasOf": "P3935R2"
     },
+    "WG21-P3935R3": {
+        "aliasOf": "P3935R3"
+    },
     "WG21-P3936R0": {
         "aliasOf": "P3936R0"
     },
@@ -351593,6 +352626,9 @@
     },
     "WG21-P3938R1": {
         "aliasOf": "P3938R1"
+    },
+    "WG21-P3938R2": {
+        "aliasOf": "P3938R2"
     },
     "WG21-P3940R0": {
         "aliasOf": "P3940R0"
@@ -351684,6 +352720,9 @@
     "WG21-P3963R0": {
         "aliasOf": "P3963R0"
     },
+    "WG21-P3963R1": {
+        "aliasOf": "P3963R1"
+    },
     "WG21-P3965R0": {
         "aliasOf": "P3965R0"
     },
@@ -351704,6 +352743,9 @@
     },
     "WG21-P3969R2": {
         "aliasOf": "P3969R2"
+    },
+    "WG21-P3969R3": {
+        "aliasOf": "P3969R3"
     },
     "WG21-P3970R0": {
         "aliasOf": "P3970R0"
@@ -352269,6 +353311,9 @@
     "WG21-P4185R1": {
         "aliasOf": "P4185R1"
     },
+    "WG21-P4185R2": {
+        "aliasOf": "P4185R2"
+    },
     "WG21-P4186R0": {
         "aliasOf": "P4186R0"
     },
@@ -352295,6 +353340,9 @@
     },
     "WG21-P4195R0": {
         "aliasOf": "P4195R0"
+    },
+    "WG21-P4195R1": {
+        "aliasOf": "P4195R1"
     },
     "WG21-P4197R0": {
         "aliasOf": "P4197R0"
@@ -352334,6 +353382,9 @@
     },
     "WG21-P4213R0": {
         "aliasOf": "P4213R0"
+    },
+    "WG21-P4213R1": {
+        "aliasOf": "P4213R1"
     },
     "WG21-P4214R0": {
         "aliasOf": "P4214R0"
@@ -352377,8 +353428,14 @@
     "WG21-P4222R2": {
         "aliasOf": "P4222R2"
     },
+    "WG21-P4222R3": {
+        "aliasOf": "P4222R3"
+    },
     "WG21-P4223R0": {
         "aliasOf": "P4223R0"
+    },
+    "WG21-P4223R1": {
+        "aliasOf": "P4223R1"
     },
     "WG21-P4225R0": {
         "aliasOf": "P4225R0"
@@ -352419,6 +353476,9 @@
     "WG21-P4235R0": {
         "aliasOf": "P4235R0"
     },
+    "WG21-P4235R1": {
+        "aliasOf": "P4235R1"
+    },
     "WG21-P4238R0": {
         "aliasOf": "P4238R0"
     },
@@ -352427,6 +353487,9 @@
     },
     "WG21-P4243R0": {
         "aliasOf": "P4243R0"
+    },
+    "WG21-P4246R0": {
+        "aliasOf": "P4246R0"
     },
     "WG21-P4254R0": {
         "aliasOf": "P4254R0"
@@ -352455,6 +353518,9 @@
     "WG21-P4267R0": {
         "aliasOf": "P4267R0"
     },
+    "WG21-P4267R1": {
+        "aliasOf": "P4267R1"
+    },
     "WG21-P4268R0": {
         "aliasOf": "P4268R0"
     },
@@ -352463,6 +353529,9 @@
     },
     "WG21-P4269R1": {
         "aliasOf": "P4269R1"
+    },
+    "WG21-P4270R0": {
+        "aliasOf": "P4270R0"
     },
     "WG21-P4271R0": {
         "aliasOf": "P4271R0"
@@ -352482,8 +353551,14 @@
     "WG21-P4277R0": {
         "aliasOf": "P4277R0"
     },
+    "WG21-P4277R1": {
+        "aliasOf": "P4277R1"
+    },
     "WG21-P4279R0": {
         "aliasOf": "P4279R0"
+    },
+    "WG21-P4280R0": {
+        "aliasOf": "P4280R0"
     },
     "WG21-P4281R0": {
         "aliasOf": "P4281R0"
@@ -352494,11 +353569,17 @@
     "WG21-P4282R1": {
         "aliasOf": "P4282R1"
     },
+    "WG21-P4282R2": {
+        "aliasOf": "P4282R2"
+    },
     "WG21-P4283R0": {
         "aliasOf": "P4283R0"
     },
     "WG21-P4284R0": {
         "aliasOf": "P4284R0"
+    },
+    "WG21-P4284R1": {
+        "aliasOf": "P4284R1"
     },
     "WG21-P4288R0": {
         "aliasOf": "P4288R0"
@@ -352524,6 +353605,9 @@
     "WG21-P4295R0": {
         "aliasOf": "P4295R0"
     },
+    "WG21-P4295R1": {
+        "aliasOf": "P4295R1"
+    },
     "WG21-P4296R0": {
         "aliasOf": "P4296R0"
     },
@@ -352545,6 +353629,9 @@
     "WG21-P4302R2": {
         "aliasOf": "P4302R2"
     },
+    "WG21-P4302R3": {
+        "aliasOf": "P4302R3"
+    },
     "WG21-P4304R0": {
         "aliasOf": "P4304R0"
     },
@@ -352559,6 +353646,9 @@
     },
     "WG21-P4307R0": {
         "aliasOf": "P4307R0"
+    },
+    "WG21-P4307R1": {
+        "aliasOf": "P4307R1"
     },
     "WG21-P4308R0": {
         "aliasOf": "P4308R0"
@@ -352644,6 +353734,9 @@
     "WG21-P4335R0": {
         "aliasOf": "P4335R0"
     },
+    "WG21-P4336R0": {
+        "aliasOf": "P4336R0"
+    },
     "WG21-P4337R0": {
         "aliasOf": "P4337R0"
     },
@@ -352668,8 +353761,14 @@
     "WG21-P4345R0": {
         "aliasOf": "P4345R0"
     },
+    "WG21-P4345R1": {
+        "aliasOf": "P4345R1"
+    },
     "WG21-P4346R0": {
         "aliasOf": "P4346R0"
+    },
+    "WG21-P4346R1": {
+        "aliasOf": "P4346R1"
     },
     "WG21-P4347R0": {
         "aliasOf": "P4347R0"
@@ -352692,6 +353791,9 @@
     "WG21-P4355R0": {
         "aliasOf": "P4355R0"
     },
+    "WG21-P4355R1": {
+        "aliasOf": "P4355R1"
+    },
     "WG21-P4357R0": {
         "aliasOf": "P4357R0"
     },
@@ -352710,6 +353812,9 @@
     "WG21-P4374R0": {
         "aliasOf": "P4374R0"
     },
+    "WG21-P4374R1": {
+        "aliasOf": "P4374R1"
+    },
     "WG21-P4376R0": {
         "aliasOf": "P4376R0"
     },
@@ -352719,11 +353824,113 @@
     "WG21-P4380R0": {
         "aliasOf": "P4380R0"
     },
+    "WG21-P4380R1": {
+        "aliasOf": "P4380R1"
+    },
     "WG21-P4381R0": {
         "aliasOf": "P4381R0"
     },
+    "WG21-P4382R0": {
+        "aliasOf": "P4382R0"
+    },
+    "WG21-P4386R0": {
+        "aliasOf": "P4386R0"
+    },
+    "WG21-P4387R0": {
+        "aliasOf": "P4387R0"
+    },
+    "WG21-P4388R0": {
+        "aliasOf": "P4388R0"
+    },
+    "WG21-P4390R0": {
+        "aliasOf": "P4390R0"
+    },
+    "WG21-P4392R0": {
+        "aliasOf": "P4392R0"
+    },
+    "WG21-P4393R0": {
+        "aliasOf": "P4393R0"
+    },
+    "WG21-P4394R0": {
+        "aliasOf": "P4394R0"
+    },
+    "WG21-P4395R0": {
+        "aliasOf": "P4395R0"
+    },
+    "WG21-P4396R0": {
+        "aliasOf": "P4396R0"
+    },
+    "WG21-P4398R0": {
+        "aliasOf": "P4398R0"
+    },
+    "WG21-P4401R0": {
+        "aliasOf": "P4401R0"
+    },
+    "WG21-P4403R0": {
+        "aliasOf": "P4403R0"
+    },
+    "WG21-P4404R0": {
+        "aliasOf": "P4404R0"
+    },
+    "WG21-P4408R0": {
+        "aliasOf": "P4408R0"
+    },
+    "WG21-P4411R0": {
+        "aliasOf": "P4411R0"
+    },
+    "WG21-P4412R0": {
+        "aliasOf": "P4412R0"
+    },
+    "WG21-P4414R0": {
+        "aliasOf": "P4414R0"
+    },
+    "WG21-P4415R0": {
+        "aliasOf": "P4415R0"
+    },
+    "WG21-P4416R0": {
+        "aliasOf": "P4416R0"
+    },
+    "WG21-P4417R0": {
+        "aliasOf": "P4417R0"
+    },
+    "WG21-P4418R0": {
+        "aliasOf": "P4418R0"
+    },
+    "WG21-P4421R0": {
+        "aliasOf": "P4421R0"
+    },
+    "WG21-P4422R0": {
+        "aliasOf": "P4422R0"
+    },
+    "WG21-P4423R0": {
+        "aliasOf": "P4423R0"
+    },
+    "WG21-P4424R0": {
+        "aliasOf": "P4424R0"
+    },
+    "WG21-P4425R0": {
+        "aliasOf": "P4425R0"
+    },
+    "WG21-P4426R0": {
+        "aliasOf": "P4426R0"
+    },
+    "WG21-P4427R0": {
+        "aliasOf": "P4427R0"
+    },
+    "WG21-P4428R0": {
+        "aliasOf": "P4428R0"
+    },
+    "WG21-P4430R0": {
+        "aliasOf": "P4430R0"
+    },
+    "WG21-P4433R0": {
+        "aliasOf": "P4433R0"
+    },
     "WG21-P4444R0": {
         "aliasOf": "P4444R0"
+    },
+    "WG21-P4444R1": {
+        "aliasOf": "P4444R1"
     },
     "WG21-P5000R0": {
         "aliasOf": "P5000R0"
